@@ -59,6 +59,10 @@ For another historical round, choose a whole group of comparable companies or re
 
 We do not need to find every possible story. We need an honest measure of **worthwhile, evidence-backed questions per hour of human review**, with cash costs alongside it. A small random check of rejected records is enough to begin noticing systematic blind spots; it is not a demand for exhaustive recall.
 
+### Exa Snapshot does not solve the historical-cutoff problem by itself
+
+The current standard pay-as-you-go service accepts only a rolling **five-month window** and rejects older cutoffs. Its much larger archive claim does not establish ordinary access to a 1999–2000 or 2008 backtest. Snapshot can return stored page content at or before a cutoff, but candidate discovery uses **current retrieval signals**, so it does not reconstruct historical search rankings or remove knowledge already learned by a model. These are current service limits, not a test we ran. [Official documentation](https://exa.ai/docs/search/snapshot) · [Launch announcement](https://exa.ai/blog/exa-snapshot)
+
 ## 4. Size the opportunity, not just the database
 
 The biggest pile of records is not necessarily the best place to spend money. First ask:
