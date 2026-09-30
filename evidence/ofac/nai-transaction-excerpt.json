@@ -1,0 +1,20 @@
+{
+  "ofac_id": "44257",
+  "method": "normalized_exact",
+  "excerpt_note": "Selected fields from one saved matching row; not the entire transaction.",
+  "transaction": {
+    "contract_transaction_unique_key": "9700_-NONE-_SPE60523D9402_P00002_-NONE-_-NONE-",
+    "contract_award_unique_key": "CONT_IDV_SPE60523D9402_9700",
+    "award_id_piid": "SPE60523D9402",
+    "modification_number": "P00002",
+    "recipient_name": "NAI LOGISTICS B.V.",
+    "recipient_uei": "SLVJF3DR8MN5",
+    "action_date": "2025-03-11",
+    "action_type": "TERMINATE FOR CAUSE",
+    "federal_action_obligation": "0.00",
+    "award_type_code": "",
+    "recipient_address_line_1": "KINGSFORDWEG 151",
+    "recipient_city_name": "AMSTERDAM",
+    "recipient_country_name": "NETHERLANDS"
+  }
+}

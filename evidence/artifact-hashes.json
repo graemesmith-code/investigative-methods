@@ -1,0 +1,57 @@
+[
+  {
+    "path": "evidence/api-samples/defense_gov_contract_announcements.csv",
+    "bytes": 773,
+    "sha256": "73ae538aaacd56596ab65384cc5e3a4ff1aea693045f4565163023f29962f4ce"
+  },
+  {
+    "path": "evidence/api-samples/gleif_lockheed_lei_records.csv",
+    "bytes": 330,
+    "sha256": "f8cb0ea0451c6f7baa9a38b61b60aa084e654c13c0d831663ed0341f8df84039"
+  },
+  {
+    "path": "evidence/api-samples/manifest.csv",
+    "bytes": 4158,
+    "sha256": "8d390a8aee7e5329f5a306316f60e0df9ce995fc39cffa7db84b2566cc1addf3"
+  },
+  {
+    "path": "evidence/api-samples/usaspending_defense_studies_b5.csv",
+    "bytes": 1354,
+    "sha256": "befa436fd820737193e4eb878650f72ba44decdca514619ffbf5cf6e8561f081"
+  },
+  {
+    "path": "evidence/api-samples/usaspending_large_defense_transactions.csv",
+    "bytes": 1132,
+    "sha256": "7f55f644004e8b7390196340a1c30eb6e7de357b694c85b438a3cdb0d48b2cf3"
+  },
+  {
+    "path": "evidence/exa/overview-1.csv",
+    "bytes": 854,
+    "sha256": "19af53b571caf28573a80b2d3ebc8e79c6b1c83d15725211eb34fd0938177714"
+  },
+  {
+    "path": "evidence/ofac/contract-source.json",
+    "bytes": 816,
+    "sha256": "0d8e14357e6d48581b39ab9288b081038cbd0d141f5dfed9ded6ecb6a6722f58"
+  },
+  {
+    "path": "evidence/ofac/nai-transaction-excerpt.json",
+    "bytes": 763,
+    "sha256": "eb4b5a7b8d9d88ee37eb47d2c3bb0db2a0b24e0791c737a872e9f236ca1ab293"
+  },
+  {
+    "path": "evidence/ofac/original-report.md",
+    "bytes": 9248,
+    "sha256": "87bef010735ae5403ab028f7f8c7344fd7106f4b35ca4d2c2147b1a1fe0abae0"
+  },
+  {
+    "path": "evidence/ofac/screen-summary.json",
+    "bytes": 1256,
+    "sha256": "5428582b4e6b74abdee8650b9b21178bece7828b54a997f72fd3bc60ed2ddeb1"
+  },
+  {
+    "path": "evidence/ofac/source-summary.json",
+    "bytes": 749,
+    "sha256": "847e790ee55893532ebd6c743122a5692bb53663313bb25552c5cacde6a460e3"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "retrieved_date": "2026-09-18",
+  "archive_url": "https://files.usaspending.gov/award_data_archive/FY2025_All_Contracts_Full_20260906.zip",
+  "archive_listing_updated_date": "2026-09-06",
+  "archive_internal_filename_date": "2026-09-07",
+  "archive_http_last_modified": "Mon, 14 Sep 2026 01:07:26 GMT",
+  "archive_bytes": 1914255016,
+  "archive_sha256": "792f6b3ee67afd4d4e9eb7f3463a083f80efaf13279a7a1bfaba6fecfd6443da",
+  "listing_endpoint": "https://api.usaspending.gov/api/v2/bulk_download/list_monthly_files/",
+  "listing_request": {
+    "agency": "all",
+    "fiscal_year": 2025,
+    "type": "contracts"
+  },
+  "notes": "Ready-made archive used. The separately requested custom export was not used. File dates differ across the official listing, ZIP members and HTTP header; each is recorded as supplied."
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "FY2025 contract archive, all agencies: A/B/C/D contract actions and rows with blank award_type_code (including IDVs), matched against current OFAC Entity entries only",
+  "start_date": "2024-10-01",
+  "end_date": "2025-09-30",
+  "raw_rows": 6639176,
+  "unique_transactions": 6639176,
+  "duplicate_transactions": 0,
+  "out_of_period_rows": 0,
+  "excluded_award_types": {},
+  "blank_recipient_names": 3,
+  "blank_transaction_ids": 0,
+  "match_methods": {
+    "legal_suffix_removed": 8,
+    "normalized_exact": 5
+  },
+  "limitations": [
+    "Current OFAC list omits entities delisted before the snapshot.",
+    "No historical designation dates or legal authorisations have been checked.",
+    "Contract actions include amendments, corrections and deobligations, not only new awards.",
+    "Name matches do not establish identity. No subsidiary or beneficial-owner matching.",
+    "No payment totals are inferred from contract values or obligations."
+  ],
+  "distinct_recipient_names": 101379,
+  "candidate_groups": 13,
+  "matched_unique_transactions": 153,
+  "matched_unique_awards": 72,
+  "earliest_action": "2024-10-01",
+  "latest_action": "2025-09-30",
+  "archive_sha256": "792f6b3ee67afd4d4e9eb7f3463a083f80efaf13279a7a1bfaba6fecfd6443da"
+}
