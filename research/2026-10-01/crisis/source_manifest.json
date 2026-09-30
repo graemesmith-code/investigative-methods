@@ -1,0 +1,84 @@
+{
+  "retrieved_date_utc": "2026-09-30",
+  "sources": [
+    {
+      "id": "occ-2004",
+      "source_url": "https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/files/pub-survey-cred-under-2004.pdf",
+      "release_announcement_date": "2004-11-09",
+      "release_evidence_url": "https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-102.html",
+      "observation_period_end": "2004-03-31",
+      "local_filename": "occ2004.pdf",
+      "bytes": 1071237,
+      "sha256": "f32c5ed7dc1beb3a45222ea886ba10599d8d7502baa3fac05974ec5bdb9e04f2",
+      "retrieved_date_utc": "2026-09-30",
+      "pdfinfo": "Title:           Survey of Credit Underwriting Practices 2004\nSubject:         credit underwriting practices\nKeywords:        underwriting; credit risk; commercial credit; retail credit; survey \nAuthor:          Credit Risk 202-874-5170\nCreator:         Acrobat PDFMaker 5.0 for Word\nProducer:        Acrobat Distiller 5.0.5 (Windows)\nCreationDate:    Tue Oct 19 18:19:39 2004 CEST\nModDate:         Wed Oct 27 13:39:52 2004 CEST\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            AcroForm\nJavaScript:      no\nPages:           30\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       1071237 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+      "exact_historical_byte_availability": "Not independently verified with archived capture"
+    },
+    {
+      "id": "occ-2005",
+      "source_url": "https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/files/pub-survey-cred-under-2005.pdf",
+      "release_announcement_date": "2005-07-28",
+      "release_evidence_url": "https://www.occ.gov/news-issuances/news-releases/2005/nr-occ-2005-74.html",
+      "observation_period_end": "2005-03-31",
+      "local_filename": "occ2005.pdf",
+      "bytes": 533652,
+      "sha256": "138d041fc2bc8971371ea38e87a08f3fca92178af6e230f1779c724686ad1961",
+      "retrieved_date_utc": "2026-09-30",
+      "pdfinfo": "Title:           Survey of Credit Underwriting Practices: 2005\nSubject:         Credit Risk\nKeywords:        Survey of Credit Underwriting Practices 2005, credit risk, national credit committee, easing of commercial credit underwriting standards, retail credit products\nAuthor:          Office of the Comptroller of the Currency\nCreator:         Acrobat PDFMaker 6.0 for Word\nProducer:        Acrobat Distiller 6.0.1 (Windows)\nCreationDate:    Tue Jul 26 16:58:39 2005 CEST\nModDate:         Thu Jul 28 18:13:12 2005 CEST\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           37\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       533652 bytes\nOptimized:       yes\nPDF version:     1.5\n",
+      "exact_historical_byte_availability": "Not independently verified with archived capture"
+    },
+    {
+      "id": "occ-2006",
+      "source_url": "https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/files/pub-survey-cred-under-2006.pdf",
+      "release_announcement_date": "2006-10-18",
+      "release_evidence_url": "https://www.occ.gov/news-issuances/news-releases/2006/nr-occ-2006-116.html",
+      "observation_period_end": "2006-03-31",
+      "local_filename": "occ2006.pdf",
+      "bytes": 479836,
+      "sha256": "48958f22aa6fe3ce7f8d5fcff57dd94d7e479ef232c6bd957f708f6271ffd57f",
+      "retrieved_date_utc": "2026-09-30",
+      "pdfinfo": "Title:           Survey of Credit Underwriting Practices - October 2006\nSubject:         A fully accessible version of this report is available at www.occ.gov in HTML format.\nKeywords:        \nAuthor:          OCC\nCreator:         Acrobat PDFMaker 7.0 for Word\nProducer:        Acrobat Distiller 7.0 (Windows)\nCreationDate:    Thu Oct 19 13:39:33 2006 CEST\nModDate:         Thu Oct 19 13:45:20 2006 CEST\nCustom Metadata: yes\nMetadata Stream: yes\nTagged:          yes\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           39\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       479836 bytes\nOptimized:       yes\nPDF version:     1.6\n",
+      "exact_historical_byte_availability": "Not independently verified with archived capture"
+    },
+    {
+      "id": "hmda-2005-release",
+      "url": "https://www.occ.gov/static/ots/press-releases/ots-pr-2006-39.pdf",
+      "release_date": "2006-09-08T11:00:00-04:00",
+      "access": "web tool text",
+      "use": "Availability, missing public fields, fee/free distinctions"
+    },
+    {
+      "id": "hmda-2005-analysis-html",
+      "url": "https://www.federalreserve.gov/pubs/bulletin/2006/hmda/default.htm",
+      "access": "web tool text; direct urllib download HTTP403",
+      "use": "Published Table9 comparison and methodology; no public microdata replication"
+    },
+    {
+      "id": "hmda-2005-analysis-pdf",
+      "url": "https://www.federalreserve.gov/pubs/bulletin/2006/hmda/bull06hmda.pdf",
+      "known_revision_date": "2006-09-18",
+      "revision": "Title-page statement: Table8 revised September18,2006",
+      "access": "web tool PDF text",
+      "use": "Revision audit"
+    },
+    {
+      "id": "hmda-contemporary-faq",
+      "url": "https://www.federalreserve.gov/frrs/regulations/frequently-asked-questions-about-the-new-hmda-data.htm",
+      "access": "web tool text",
+      "use": "Earlier lender-level public request timetable"
+    },
+    {
+      "id": "businessweek-contemporary-followup",
+      "url": "https://www.bloomberg.com/news/articles/2006-09-24/nightmare-mortgages",
+      "published_date": "2006-09-25",
+      "access": "publicly visible introductory text/search extraction; article is labeled subscriber-only",
+      "use": "Publication existence/date only, no underlying financial evidence"
+    },
+    {
+      "id": "occ-modern-catalog",
+      "url": "https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/index-survey-of-credit-underwriting-practices.html",
+      "access": "web tool text",
+      "use": "Compare catalog dates to contemporaneous announcement dates"
+    }
+  ]
+}

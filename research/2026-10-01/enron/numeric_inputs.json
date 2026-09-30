@@ -1,0 +1,100 @@
+{
+  "Enron": {
+    "source": "enron_1999_10k",
+    "current": 1999,
+    "prior": 1998,
+    "net_income": [
+      893,
+      703
+    ],
+    "operating_cash_flow": [
+      1228,
+      1640
+    ],
+    "investing_cash_flow": [
+      -3507,
+      -3965
+    ],
+    "operating_income": [
+      802,
+      1378
+    ],
+    "revenue": [
+      40112,
+      31260
+    ],
+    "source_lines": {
+      "income_statement": [
+        4092,
+        4136
+      ],
+      "cash_flow": [
+        4290,
+        4335
+      ]
+    },
+    "income_before_accounting_change": [
+      1024,
+      703
+    ],
+    "tax_expense": [
+      104,
+      175
+    ],
+    "asset_sale_gains": [
+      541,
+      56
+    ],
+    "merchant_sale_proceeds": [
+      2217,
+      1434
+    ],
+    "capex": [
+      2363,
+      1905
+    ]
+  },
+  "Duke Energy": {
+    "source": "duke_1999_10k",
+    "current": 1999,
+    "prior": 1998,
+    "net_income": [
+      1507,
+      1252
+    ],
+    "operating_cash_flow": [
+      2684,
+      2331
+    ],
+    "investing_cash_flow": [
+      -3800,
+      -2476
+    ],
+    "operating_income": [
+      1795,
+      2433
+    ],
+    "revenue": [
+      21742,
+      17610
+    ],
+    "source_lines": {
+      "income_statement": [
+        2948,
+        3020
+      ],
+      "cash_flow": [
+        3059,
+        3101
+      ]
+    },
+    "extraordinary_gain_after_tax": [
+      660,
+      -8
+    ],
+    "capital_and_investment_expenditures": [
+      5936,
+      2500
+    ]
+  }
+}

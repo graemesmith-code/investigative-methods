@@ -1,0 +1,633 @@
+{
+  "enron_1998_10k": {
+    "paragraph_count": 932,
+    "cue_paragraph_count": 23,
+    "officer_control_hits": [],
+    "candidate_source_pointers": [
+      {
+        "line_start": 2889,
+        "line_end": 2894,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 2939,
+        "line_end": 2945,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4913,
+        "line_end": 4952,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4996,
+        "line_end": 5003,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5302,
+        "line_end": 5324,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 5418,
+        "line_end": 5426,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5502,
+        "line_end": 5512,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 5773,
+        "line_end": 5788,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 5795,
+        "line_end": 5797,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5827,
+        "line_end": 5840,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 5856,
+        "line_end": 5871,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6140,
+        "line_end": 6140,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6142,
+        "line_end": 6144,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6152,
+        "line_end": 6175,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6177,
+        "line_end": 6178,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6192,
+        "line_end": 6193,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6227,
+        "line_end": 6231,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6285,
+        "line_end": 6290,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6952,
+        "line_end": 6973,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 7099,
+        "line_end": 7118,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 7120,
+        "line_end": 7138,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 7140,
+        "line_end": 7158,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 7160,
+        "line_end": 7166,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      }
+    ]
+  },
+  "enron_1999q2_10q": {
+    "paragraph_count": 316,
+    "cue_paragraph_count": 11,
+    "officer_control_hits": [
+      {
+        "line_start": 857,
+        "line_end": 879,
+        "cues": [
+          "officer_control",
+          "stock_investment_support",
+          "valuation_estimates"
+        ]
+      }
+    ],
+    "candidate_source_pointers": [
+      {
+        "line_start": 180,
+        "line_end": 199,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 248,
+        "line_end": 254,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 470,
+        "line_end": 482,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 484,
+        "line_end": 491,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 493,
+        "line_end": 496,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 825,
+        "line_end": 831,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 850,
+        "line_end": 853,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 855,
+        "line_end": 855,
+        "cues": [
+          "related_party"
+        ]
+      },
+      {
+        "line_start": 857,
+        "line_end": 879,
+        "cues": [
+          "officer_control",
+          "stock_investment_support",
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 1111,
+        "line_end": 1122,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 1583,
+        "line_end": 1594,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      }
+    ]
+  },
+  "enron_1999_10k": {
+    "paragraph_count": 861,
+    "cue_paragraph_count": 33,
+    "officer_control_hits": [
+      {
+        "line_start": 6262,
+        "line_end": 6279,
+        "cues": [
+          "officer_control",
+          "stock_investment_support",
+          "valuation_estimates"
+        ]
+      }
+    ],
+    "candidate_source_pointers": [
+      {
+        "line_start": 2488,
+        "line_end": 2492,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 2534,
+        "line_end": 2545,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4098,
+        "line_end": 4153,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4196,
+        "line_end": 4203,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4296,
+        "line_end": 4348,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4511,
+        "line_end": 4534,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4609,
+        "line_end": 4616,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4656,
+        "line_end": 4677,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 4694,
+        "line_end": 4701,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4922,
+        "line_end": 4925,
+        "cues": [
+          "stock_investment_support"
+        ]
+      },
+      {
+        "line_start": 4970,
+        "line_end": 4985,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4992,
+        "line_end": 4994,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5007,
+        "line_end": 5022,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5031,
+        "line_end": 5042,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5060,
+        "line_end": 5072,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 5216,
+        "line_end": 5220,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5366,
+        "line_end": 5366,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5368,
+        "line_end": 5370,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5396,
+        "line_end": 5406,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5408,
+        "line_end": 5409,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5425,
+        "line_end": 5426,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5460,
+        "line_end": 5464,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5473,
+        "line_end": 5501,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 5503,
+        "line_end": 5508,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6236,
+        "line_end": 6240,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6242,
+        "line_end": 6258,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6260,
+        "line_end": 6260,
+        "cues": [
+          "related_party"
+        ]
+      },
+      {
+        "line_start": 6262,
+        "line_end": 6279,
+        "cues": [
+          "officer_control",
+          "stock_investment_support",
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 6281,
+        "line_end": 6291,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6293,
+        "line_end": 6297,
+        "cues": [
+          "stock_investment_support"
+        ]
+      },
+      {
+        "line_start": 6303,
+        "line_end": 6305,
+        "cues": [
+          "related_party"
+        ]
+      },
+      {
+        "line_start": 6489,
+        "line_end": 6552,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      },
+      {
+        "line_start": 6554,
+        "line_end": 6562,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      }
+    ]
+  },
+  "duke_1999_10k": {
+    "paragraph_count": 896,
+    "cue_paragraph_count": 8,
+    "officer_control_hits": [],
+    "candidate_source_pointers": [
+      {
+        "line_start": 3137,
+        "line_end": 3187,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 3199,
+        "line_end": 3247,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 3352,
+        "line_end": 3358,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 3411,
+        "line_end": 3414,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 3647,
+        "line_end": 3653,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4351,
+        "line_end": 4358,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4417,
+        "line_end": 4422,
+        "cues": [
+          "valuation_estimates"
+        ]
+      },
+      {
+        "line_start": 4558,
+        "line_end": 4558,
+        "cues": [
+          "unconsolidated_entity"
+        ]
+      }
+    ]
+  },
+  "enron_2000_proxy": {
+    "paragraph_count": 360,
+    "cue_paragraph_count": 3,
+    "officer_control_hits": [
+      {
+        "line_start": 335,
+        "line_end": 343,
+        "cues": [
+          "officer_control"
+        ]
+      },
+      {
+        "line_start": 459,
+        "line_end": 474,
+        "cues": [
+          "officer_control"
+        ]
+      },
+      {
+        "line_start": 1849,
+        "line_end": 1869,
+        "cues": [
+          "officer_control",
+          "stock_investment_support",
+          "valuation_estimates"
+        ]
+      }
+    ],
+    "candidate_source_pointers": [
+      {
+        "line_start": 335,
+        "line_end": 343,
+        "cues": [
+          "officer_control"
+        ]
+      },
+      {
+        "line_start": 459,
+        "line_end": 474,
+        "cues": [
+          "officer_control"
+        ]
+      },
+      {
+        "line_start": 1849,
+        "line_end": 1869,
+        "cues": [
+          "officer_control",
+          "stock_investment_support",
+          "valuation_estimates"
+        ]
+      }
+    ]
+  }
+}

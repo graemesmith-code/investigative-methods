@@ -1,0 +1,168 @@
+{
+  "title": "Bounded web feasibility walkthrough, not a Jev/Exa benchmark",
+  "date": "2026-09-30",
+  "tool": "web.run",
+  "queries": [
+    {
+      "q": "\"A-2025-00627\" Ottawa Treaty",
+      "scope": "exact ID",
+      "candidate": "ottawa",
+      "query_number": 1,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "q": "Canada briefing notes March June 2025 Ottawa Treaty withdrawal concerns",
+      "scope": "semantic",
+      "candidate": "ottawa",
+      "query_number": 2,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "q": "\"A-2023-02654\" brokering",
+      "scope": "exact ID",
+      "candidate": "broker",
+      "query_number": 3,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    },
+    {
+      "q": "\"A-2025-00945\" C22",
+      "scope": "exact ID",
+      "candidate": "c22",
+      "query_number": 4,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Related editorial coverage identified through semantic/alias searching; no exact ATI-release content match established."
+    },
+    {
+      "q": "Canada C22 pistol unintentional discharges injuries 2025 2026 153",
+      "scope": "semantic",
+      "candidate": "c22",
+      "query_number": 5,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Related editorial coverage identified through semantic/alias searching; no exact ATI-release content match established."
+    },
+    {
+      "q": "Canada brokering permits \"Group 2\" \"2023\" decision",
+      "scope": "semantic",
+      "candidate": "broker",
+      "query_number": 6,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    },
+    {
+      "q": "Canada Ottawa Treaty withdrawals briefing notes 2026",
+      "scope": "semantic",
+      "candidate": "ottawa",
+      "query_number": 7,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "key": "c22_editorial",
+      "q": "C22 Canadian soldier sues Ottawa Sig Sauer April 16 2026 CBC",
+      "candidate": "c22",
+      "query_number": 8,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Related editorial coverage identified through semantic/alias searching; no exact ATI-release content match established."
+    },
+    {
+      "key": "ottawa_editorial",
+      "q": "Canada Ottawa Treaty withdrawals Canada response landmines 2025 2026 reporting",
+      "candidate": "ottawa",
+      "query_number": 9,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "key": "broker_note",
+      "q": "\"02697-2023\" brokering",
+      "candidate": "broker",
+      "query_number": 10,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    },
+    {
+      "key": "broker_exact",
+      "q": "\"A-2023-02654\"",
+      "candidate": "broker",
+      "query_number": 11,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    },
+    {
+      "key": "c22_recent",
+      "q": "C22 C-22 SIG Sauer Canadian military shooting September August 2026",
+      "candidate": "c22",
+      "query_number": 12,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Related editorial coverage identified through semantic/alias searching; no exact ATI-release content match established."
+    },
+    {
+      "key": "ottawa_news",
+      "q": "Canada Ottawa Treaty mine ban withdrawals 2026 news -site:canada.ca -site:gc.ca -site:parl.ca -site:wikipedia.org",
+      "candidate": "ottawa",
+      "query_number": 13,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "key": "broker_title",
+      "q": "\"Seeking a decision on brokering permit applications\"",
+      "candidate": "broker",
+      "query_number": 14,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    },
+    {
+      "key": "broker_french",
+      "q": "Canada \"2023\" \"courtage\" \"groupe 2\" permis",
+      "candidate": "broker",
+      "query_number": 15,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    },
+    {
+      "key": "ottawa_recent",
+      "q": "\"Ottawa Treaty\" \"Canada\" \"2026\" \"September\"",
+      "candidate": "ottawa",
+      "query_number": 16,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "key": "ottawa_2025",
+      "q": "Canada landmine treaty withdrawals Latvia 2025 Joly Anand Reuters CBC",
+      "candidate": "ottawa",
+      "query_number": 17,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "Substantial related reporting and official context identified; no verification that the 12-page release adds new facts."
+    },
+    {
+      "key": "broker_context",
+      "q": "Canada \"brokering permits\" \"2023\" arms news",
+      "candidate": "broker",
+      "query_number": 18,
+      "result_capture": "Full result pages/excerpts omitted from this compact ledger. Selected useful sources and limitations are in report.md.",
+      "case_level_conclusion_not_query_result": "No exact-event editorial match established; summary lacks the entities needed to test novelty."
+    }
+  ],
+  "limits": [
+    "One general web tool, not a systematic multi-provider or Jev/Exa evaluation.",
+    "Candidates were convenience examples from first-page GAC/DND 2026 filters.",
+    "All 18 exact query strings retained; exhaustive SERPs and third-party article text are not included.",
+    "No paid API calls, document requests or outreach.",
+    "Some exact-ID searches returned unrelated numeric matches.",
+    "Negative search results do not establish that the underlying event is unreported."
+  ],
+  "query_count": 18,
+  "query_counts_by_candidate": {
+    "c22": 4,
+    "ottawa": 7,
+    "broker": 7
+  },
+  "coverage_check_date": "2026-09-30",
+  "historical_backtest": false,
+  "time_scope_note": "Searches can return coverage published after the January 2026 completed-request month; no as-of-January retrieval claim is made."
+}

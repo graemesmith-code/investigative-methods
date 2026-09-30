@@ -1,0 +1,172 @@
+{
+  "probe": "Canadian completed ATI request aggregate counts",
+  "year_filter": 2026,
+  "started_at_utc": "2026-09-30T21:32:00.040141+00:00",
+  "requests": [
+    {
+      "url": "https://search.open.canada.ca/ati/?owner_org=dfatd-maecd&year=2026&search_format=json",
+      "method": "GET",
+      "http_status": 200,
+      "response_bytes": 24590,
+      "response_sha256": "35f1a552aceda7a0d0b2bf0702a446b49b11f8448c88489ba1c0b3b6bc89dc77",
+      "organization_code": "dfatd-maecd",
+      "organization": "Global Affairs Canada",
+      "num_count": 441,
+      "fully_or_partly_disclosed_count": 324,
+      "dispositions": [
+        {
+          "code": "DP",
+          "label": "Disclosed in part",
+          "count": 257
+        },
+        {
+          "code": "NE",
+          "label": "No records exist",
+          "count": 87
+        },
+        {
+          "code": "DA",
+          "label": "All disclosed",
+          "count": 67
+        },
+        {
+          "code": "EX",
+          "label": "All exempted",
+          "count": 20
+        },
+        {
+          "code": "EC",
+          "label": "All excluded",
+          "count": 10
+        }
+      ],
+      "completion_months_returned": [
+        {
+          "month": 1,
+          "label": "January",
+          "count": 61
+        },
+        {
+          "month": 2,
+          "label": "February",
+          "count": 74
+        },
+        {
+          "month": 3,
+          "label": "March",
+          "count": 143
+        },
+        {
+          "month": 4,
+          "label": "April",
+          "count": 26
+        },
+        {
+          "month": 5,
+          "label": "May",
+          "count": 63
+        },
+        {
+          "month": 6,
+          "label": "June",
+          "count": 38
+        },
+        {
+          "month": 7,
+          "label": "July",
+          "count": 36
+        }
+      ],
+      "observed_at_utc": "2026-09-30T21:32:13.486282+00:00"
+    },
+    {
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&year=2026&search_format=json",
+      "method": "GET",
+      "http_status": 200,
+      "response_bytes": 24938,
+      "response_sha256": "1d23ae7929b2f48afa1d5d1f7d8ed0b4c29832c81addf98ee370e5ea37445a58",
+      "organization_code": "dnd-mdn",
+      "organization": "National Defence",
+      "num_count": 793,
+      "fully_or_partly_disclosed_count": 602,
+      "dispositions": [
+        {
+          "code": "DP",
+          "label": "Disclosed in part",
+          "count": 484
+        },
+        {
+          "code": "NE",
+          "label": "No records exist",
+          "count": 181
+        },
+        {
+          "code": "DA",
+          "label": "All disclosed",
+          "count": 118
+        },
+        {
+          "code": "EX",
+          "label": "All exempted",
+          "count": 8
+        },
+        {
+          "code": "EC",
+          "label": "All excluded",
+          "count": 2
+        }
+      ],
+      "completion_months_returned": [
+        {
+          "month": 1,
+          "label": "January",
+          "count": 108
+        },
+        {
+          "month": 2,
+          "label": "February",
+          "count": 103
+        },
+        {
+          "month": 3,
+          "label": "March",
+          "count": 107
+        },
+        {
+          "month": 4,
+          "label": "April",
+          "count": 115
+        },
+        {
+          "month": 5,
+          "label": "May",
+          "count": 71
+        },
+        {
+          "month": 6,
+          "label": "June",
+          "count": 122
+        },
+        {
+          "month": 7,
+          "label": "July",
+          "count": 106
+        },
+        {
+          "month": 8,
+          "label": "August",
+          "count": 61
+        }
+      ],
+      "observed_at_utc": "2026-09-30T21:32:25.788422+00:00"
+    }
+  ],
+  "interpretation": [
+    "The year/month refer to completed-request summary fields, not event dates.",
+    "Fully/partly disclosed is an access proxy, not evidence of useful content.",
+    "Results are live aggregates and can change between runs.",
+    "Unrelated first-page records are not retained."
+  ],
+  "combined_num_count": 1234,
+  "combined_fully_or_partly_disclosed_count": 926
+}

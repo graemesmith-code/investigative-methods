@@ -1,0 +1,113 @@
+{
+  "created_at_utc": "2026-09-30T21:31:39.533332+00:00",
+  "scope": "Private notebook research package; no publication performed",
+  "status": "Web feasibility walkthrough only; not an actual Jev or Exa benchmark",
+  "original_official_captures": [
+    {
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&year=2026&search_format=json",
+      "http_status": 200,
+      "observed_at_utc": "2026-09-30T21:18:12Z",
+      "original_response_bytes": 24938,
+      "original_response_sha256": "1d23ae7929b2f48afa1d5d1f7d8ed0b4c29832c81addf98ee370e5ea37445a58",
+      "original_response_included": false,
+      "transformation": "Only aggregate counts or the three selected public records are retained; unrelated page records and navigation are excluded."
+    },
+    {
+      "url": "https://search.open.canada.ca/ati/?owner_org=dfatd-maecd&year=2026&search_format=json",
+      "http_status": 200,
+      "observed_at_utc": "2026-09-30T21:18:12Z",
+      "original_response_bytes": 24590,
+      "original_response_sha256": "35f1a552aceda7a0d0b2bf0702a446b49b11f8448c88489ba1c0b3b6bc89dc77",
+      "original_response_included": false,
+      "transformation": "Only aggregate counts or the three selected public records are retained; unrelated page records and navigation are excluded."
+    },
+    {
+      "url": "https://search.open.canada.ca/ati/record/dfatd-maecd,2026,1,A-2023-02654",
+      "http_status": 200,
+      "observed_at_utc": "2026-09-30T21:20:45Z (approximate; per-record timestamp not logged)",
+      "original_response_bytes": 73394,
+      "original_response_sha256": "ce69c3a1df70f78e3a8c873da0afca587d77b3a895a214982173b54113b9e188",
+      "original_response_included": false,
+      "transformation": "Only aggregate counts or the three selected public records are retained; unrelated page records and navigation are excluded."
+    },
+    {
+      "url": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-00945",
+      "http_status": 200,
+      "observed_at_utc": "2026-09-30T21:20:45Z (approximate; per-record timestamp not logged)",
+      "original_response_bytes": 73413,
+      "original_response_sha256": "e35665a04d9497bad5b372e53566535cda1b3bcb6363845d6c9dd20c71384685",
+      "original_response_included": false,
+      "transformation": "Only aggregate counts or the three selected public records are retained; unrelated page records and navigation are excluded."
+    },
+    {
+      "url": "https://search.open.canada.ca/ati/record/dfatd-maecd,2026,1,A-2025-00627",
+      "http_status": 200,
+      "observed_at_utc": "2026-09-30T21:20:45Z (approximate; per-record timestamp not logged)",
+      "original_response_bytes": 73451,
+      "original_response_sha256": "280db21f5e4c659ea825d5d0606e585418288cc9bdffaefa7b53a5a7ce0f614c",
+      "original_response_included": false,
+      "transformation": "Only aggregate counts or the three selected public records are retained; unrelated page records and navigation are excluded."
+    }
+  ],
+  "failed_probes": [
+    {
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "method": "POST read-only search",
+      "award_ids": [
+        "FA869126CB007",
+        "W91CRB26FA226"
+      ],
+      "status": 503,
+      "result": "No award data returned; no conclusion drawn"
+    }
+  ],
+  "excluded_material": [
+    "Full first-page convenience responses with unrelated records",
+    "Supplementary Afghanistan convenience query",
+    "Unrelated search-result excerpts",
+    "Full third-party article text",
+    "Credentials, emails, private notes and hidden instructions"
+  ],
+  "files": [
+    {
+      "path": "corpus-counts.json",
+      "bytes": 4182,
+      "sha256": "65561d05d2b2b78e988f110e44a32bec8fe0a420bbe7e29219de30399f532c14"
+    },
+    {
+      "path": "count-probe-validation.json",
+      "bytes": 4157,
+      "sha256": "cf3cdd3d0df64513af78131ab3615fafc39b26b7a199ccf7f495265fea33ad2b"
+    },
+    {
+      "path": "report.md",
+      "bytes": 20269,
+      "sha256": "4724998dce1a21ffa6eab012ab5de6e8109d086de1c3c39fbc560db6065dda47"
+    },
+    {
+      "path": "reproduce_counts.py",
+      "bytes": 5954,
+      "sha256": "3bd95944aa608ed67c5fb953cd833503a8fceae3f199acbd6dca6756361d76db"
+    },
+    {
+      "path": "selected-records.json",
+      "bytes": 2767,
+      "sha256": "42f8b8558676b3bef294738c805d500660a7f7ca8ac48388cefe82c2a3fd53b9"
+    },
+    {
+      "path": "web-query-ledger.json",
+      "bytes": 9420,
+      "sha256": "ad0330e389a5a2e111742087f537eaad3a3f828b989d4d921b492e3edcd4bc9b"
+    }
+  ],
+  "updated_at_utc": "2026-09-30T21:33:17.412257+00:00",
+  "validation": {
+    "python_syntax": "passed",
+    "json_parse": "passed",
+    "source_counts_reconciled_with_dispositions_and_months": "passed",
+    "selected_public_records": 3,
+    "underlying_released_documents_obtained": 0,
+    "live_script_rerun": "both endpoints HTTP 200; same 1234 total and 926 partly/fully disclosed",
+    "privacy_review": "full source convenience pages and unrelated search results excluded; no credentials or email addresses present"
+  }
+}

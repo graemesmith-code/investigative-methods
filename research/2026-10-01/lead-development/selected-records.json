@@ -1,0 +1,59 @@
+{
+  "observed_at_utc": "2026-09-30T21:18:12Z",
+  "selected_records": [
+    {
+      "case": "brokering_permits",
+      "request_number": "A-2023-02654",
+      "completion_year": 2026,
+      "completion_month": 1,
+      "summary": "Briefing note #02697-2023: Seeking a decision on brokering permit applications of Group 2 items.",
+      "disposition_code": "DP",
+      "disposition": "Disclosed in part",
+      "pages": 5,
+      "organization_code": "dfatd-maecd",
+      "organization": "Global Affairs Canada",
+      "source_record_id": "dfatd-maecd,2026,1,A-2023-02654",
+      "url": "https://search.open.canada.ca/ati/record/dfatd-maecd,2026,1,A-2023-02654",
+      "selection": "Convenience example from first page, not randomly sampled",
+      "full_released_document_obtained": false,
+      "publication_date": null,
+      "publication_date_note": "Completion month is given; exact source publication/first-posting date was not supplied."
+    },
+    {
+      "case": "ottawa_treaty",
+      "request_number": "A-2025-00627",
+      "completion_year": 2026,
+      "completion_month": 1,
+      "summary": "Any briefing notes prepared between March 1 and June 30, 2025, regarding states withdrawing from the Ottawa Treaty (Anti-Personnel Mine Ban Convention).",
+      "disposition_code": "DP",
+      "disposition": "Disclosed in part",
+      "pages": 12,
+      "organization_code": "dfatd-maecd",
+      "organization": "Global Affairs Canada",
+      "source_record_id": "dfatd-maecd,2026,1,A-2025-00627",
+      "url": "https://search.open.canada.ca/ati/record/dfatd-maecd,2026,1,A-2025-00627",
+      "selection": "Convenience example from first page, not randomly sampled",
+      "full_released_document_obtained": false,
+      "publication_date": null,
+      "publication_date_note": "Completion month is given; exact source publication/first-posting date was not supplied."
+    },
+    {
+      "case": "c22_pistol",
+      "request_number": "A-2025-00945",
+      "completion_year": 2026,
+      "completion_month": 1,
+      "summary": "All incidents of unintentional discharges or injuries involving the C22 Modular Frame Pistol from 2020-01-01 to 2025-07-30",
+      "disposition_code": "DP",
+      "disposition": "Disclosed in part",
+      "pages": 153,
+      "organization_code": "dnd-mdn",
+      "organization": "National Defence",
+      "source_record_id": "dnd-mdn,2026,1,A-2025-00945",
+      "url": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-00945",
+      "selection": "Convenience example from first page, not randomly sampled",
+      "full_released_document_obtained": false,
+      "publication_date": null,
+      "publication_date_note": "Completion month is given; exact source publication/first-posting date was not supplied."
+    }
+  ]
+}

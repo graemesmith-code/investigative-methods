@@ -1,0 +1,144 @@
+{
+  "purpose": "Descriptive extraction / alert-reproducibility pilot; no predictive validation",
+  "rule": "net_easing_pp = percent eased - percent tightened; illustrative threshold >=10pp",
+  "rule_registration": "Selected retrospectively after inspecting source; not preregistered",
+  "measurement_scope": "Percentages concern relevant-product respondents, not all survey banks or loan-dollar shares. In 2006 high-LTV home equity covered 19 banks; residential real estate 62; overall survey 73. Automated checks validate category coverage, expected row counts and percentage totals; product-specific bank denominators were not independently reconstructed.",
+  "provenance_caveat": "The edition-specific PDFs were retrieved in 2026. 2006 PDF metadata says created and modified 2006-10-19, one day after the 2006-10-18 release announcement. Historical byte identity/first availability of this exact PDF was not independently archived. Do not claim exact-day predictive lead time.",
+  "current_vintage_results": {
+    "2004": {
+      "universe_size": 8,
+      "net_easing": {
+        "Affordable Housing": -2,
+        "Consumer Leasing": -14,
+        "Credit Card": -3,
+        "Other Direct Consumer": -8,
+        "Home Equity Conventional": 3,
+        "Home Equity High LTV": 7,
+        "Indirect Consumer": -18,
+        "Residential Real Estate": 0
+      },
+      "threshold_sensitivity": {
+        "1": [
+          "Home Equity Conventional",
+          "Home Equity High LTV"
+        ],
+        "10": [],
+        "20": []
+      }
+    },
+    "2005": {
+      "universe_size": 8,
+      "net_easing": {
+        "Affordable Housing": 6,
+        "Consumer Leasing": 10,
+        "Credit Card": -12,
+        "Other Direct Consumer": -6,
+        "Home Equity Conventional": 16,
+        "Home Equity High LTV": 4,
+        "Indirect Consumer": 11,
+        "Residential Real Estate": 17
+      },
+      "threshold_sensitivity": {
+        "1": [
+          "Affordable Housing",
+          "Consumer Leasing",
+          "Home Equity Conventional",
+          "Home Equity High LTV",
+          "Indirect Consumer",
+          "Residential Real Estate"
+        ],
+        "10": [
+          "Consumer Leasing",
+          "Home Equity Conventional",
+          "Indirect Consumer",
+          "Residential Real Estate"
+        ],
+        "20": []
+      }
+    },
+    "2006": {
+      "universe_size": 7,
+      "net_easing": {
+        "Affordable Housing": 3,
+        "Credit Card": -6,
+        "Other Direct Consumer": -3,
+        "Home Equity Conventional": 32,
+        "Home Equity High LTV": 37,
+        "Indirect Consumer": 22,
+        "Residential Real Estate": 21
+      },
+      "threshold_sensitivity": {
+        "1": [
+          "Affordable Housing",
+          "Home Equity Conventional",
+          "Home Equity High LTV",
+          "Indirect Consumer",
+          "Residential Real Estate"
+        ],
+        "10": [
+          "Home Equity Conventional",
+          "Home Equity High LTV",
+          "Indirect Consumer",
+          "Residential Real Estate"
+        ],
+        "20": [
+          "Home Equity Conventional",
+          "Home Equity High LTV",
+          "Indirect Consumer",
+          "Residential Real Estate"
+        ]
+      }
+    }
+  },
+  "cross_vintage_audit": [
+    {
+      "earlier_vintage": 2004,
+      "later_vintage": 2005,
+      "rows_compared": 48,
+      "numeric_cells_compared": 144,
+      "differences": []
+    },
+    {
+      "earlier_vintage": 2005,
+      "later_vintage": 2006,
+      "rows_compared": 49,
+      "numeric_cells_compared": 147,
+      "differences": []
+    },
+    {
+      "earlier_vintage": 2004,
+      "later_vintage": 2006,
+      "rows_compared": 42,
+      "numeric_cells_compared": 126,
+      "differences": []
+    }
+  ],
+  "single_2006_vintage_history_threshold10": {
+    "1999": [
+      "Home Equity Conventional"
+    ],
+    "2000": [
+      "Home Equity Conventional"
+    ],
+    "2001": [],
+    "2002": [],
+    "2003": [],
+    "2004": [],
+    "2005": [
+      "Home Equity Conventional",
+      "Indirect Consumer",
+      "Residential Real Estate"
+    ],
+    "2006": [
+      "Home Equity Conventional",
+      "Home Equity High LTV",
+      "Indirect Consumer",
+      "Residential Real Estate"
+    ]
+  },
+  "hashes": {
+    "occ2004.pdf": "f32c5ed7dc1beb3a45222ea886ba10599d8d7502baa3fac05974ec5bdb9e04f2",
+    "occ2005.pdf": "138d041fc2bc8971371ea38e87a08f3fca92178af6e230f1779c724686ad1961",
+    "occ2006.pdf": "48958f22aa6fe3ce7f8d5fcff57dd94d7e479ef232c6bd957f708f6271ffd57f"
+  }
+}

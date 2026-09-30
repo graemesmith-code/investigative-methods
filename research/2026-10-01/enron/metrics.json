@@ -1,0 +1,39 @@
+{
+  "Enron": {
+    "net_income_growth_pct": 27.027027027027017,
+    "operating_cash_flow_growth_pct": -25.121951219512194,
+    "operating_income_growth_pct": -41.79970972423802,
+    "revenue_growth_pct": 28.317338451695463,
+    "operating_cash_flow_to_net_income": 1.3751399776035835,
+    "operating_plus_investing_cash_flow": -2279,
+    "flags": {
+      "net_income_rises_and_operating_cash_flow_falls": true,
+      "operating_cash_flow_below_net_income": false,
+      "operating_income_falls_while_net_income_rises": true,
+      "operating_plus_investing_cash_flow_negative": true
+    },
+    "non_diagnostic_context": {
+      "asset_sale_gains_over_income_before_tax_and_accounting_change_pct": 47.96099290780142,
+      "operating_cash_flow_minus_merchant_sale_proceeds_NOT_GAAP_CFO": -989,
+      "reported_CFO_still_exceeds_net_income": true,
+      "merchant_sale_subtraction_warning": "Diagnostic sensitivity only. Does not reverse cash costs/additions or establish improper classification; merchant sales may belong to ordinary operations."
+    }
+  },
+  "Duke Energy": {
+    "net_income_growth_pct": 20.36741214057507,
+    "operating_cash_flow_growth_pct": 15.143715143715152,
+    "operating_income_growth_pct": -26.22277024249897,
+    "revenue_growth_pct": 23.463940942646232,
+    "operating_cash_flow_to_net_income": 1.781021897810219,
+    "operating_plus_investing_cash_flow": -1116,
+    "flags": {
+      "net_income_rises_and_operating_cash_flow_falls": false,
+      "operating_cash_flow_below_net_income": false,
+      "operating_income_falls_while_net_income_rises": true,
+      "operating_plus_investing_cash_flow_negative": true
+    },
+    "non_diagnostic_context": {
+      "extraordinary_gain_after_tax_over_net_income_pct": 43.7956204379562
+    }
+  }
+}

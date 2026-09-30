@@ -1,0 +1,14 @@
+{
+  "cached_run": {
+    "exit_code": 0,
+    "metrics_verified_against_previous": true
+  },
+  "isolated_tampered_fixture": {
+    "exit_code": 1,
+    "error": "Source hash mismatch for enron_1999_10k: expected 79712897680446c518182c56755b3f67341368dbeb492027ac08ae3f2b30ed00, got f38704a218b315af680d503111e51baa3c7a5ac99f35e40cc2bd723ad64569be. Stop and inspect the source change; the fixed numerical inputs apply only to the supplied reference bytes. No numerical calculations or new result files were produced.",
+    "new_metrics_file_created": false,
+    "stdout_empty": true,
+    "original_sources_modified": false
+  },
+  "all_original_hashes_still_match": true
+}

@@ -14,6 +14,10 @@ We are testing cheap ways for journalists to find public records worth reporting
 
 **Why it matters:** a reproducible failed test can be valuable. Missing a known article teaches us to repair retrieval before interpreting silence as novelty. A zero-dollar contract termination teaches us to read the action before treating a name match as wrongdoing.
 
+## Overnight research
+
+[What old scandals teach us about finding the next story](research/2026-10-01/README.md) — a plain-English report on the Enron and pre-2008 tests, choosing data sources, and a sharper Jev → coverage → evidence loop. Includes completed small tests, reproduction files and clearly marked next experiments.
+
 ## Start here
 
 - [Experiments and evidence status](experiments/README.md): six readable accounts of what we know.

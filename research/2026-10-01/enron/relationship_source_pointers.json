@@ -1,0 +1,50 @@
+[
+  {
+    "claim": "Fastow is Enron CFO and managing member of the general partner of LJM1",
+    "source": "enron_2000_proxy",
+    "lines": [
+      1849,
+      1857
+    ]
+  },
+  {
+    "claim": "Fastow is managing member of the general partner of LJM2, with a performance-dependent profit interest for that general partner",
+    "source": "enron_2000_proxy",
+    "lines": [
+      1871,
+      1878
+    ]
+  },
+  {
+    "claim": "LJM2 borrowed USD38.5m from an Enron affiliate, outstanding at year end",
+    "source": "enron_2000_proxy",
+    "lines": [
+      1885,
+      1894
+    ]
+  },
+  {
+    "claim": "LJM received Enron common shares in a transaction in which Enron received a note and investment-hedging instruments",
+    "source": "enron_1999_10k",
+    "lines": [
+      6262,
+      6279
+    ]
+  },
+  {
+    "claim": "LJM2 acquired approximately USD360m of merchant assets and investments and Enron recognized approximately USD16m of pretax gains",
+    "source": "enron_1999_10k",
+    "lines": [
+      6281,
+      6291
+    ]
+  },
+  {
+    "claim": "Proxy says other senior officers negotiated the transactions at arm's length; this statement is a contemporaneous counterconsideration, not verified effective independence",
+    "source": "enron_2000_proxy",
+    "lines": [
+      1891,
+      1896
+    ]
+  }
+]
