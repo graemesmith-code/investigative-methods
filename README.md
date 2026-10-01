@@ -16,9 +16,9 @@ This is a record of experiments, including failures and unfinished work. It has 
 
 ## What has proved useful so far
 
-Keeping the actual record beside the proposed question makes mistakes easier to catch. In the ATI trial, an existing article led to the exact mental-health policy release: the useful decision was to stop pursuing an already-covered claim. Another lead named a ten-page Nanisivik compliance file, but public background did not prove that the order caused the facility's closure. The missing file mattered more than more general searches.
+Keeping the actual record beside the proposed question makes mistakes easier to catch. In the ATI trial, an existing article led to the exact mental-health policy release: the useful decision was to stop pursuing an already-covered claim. Another lead named a ten-page Nanisivik compliance file, but public background did not prove that the order caused the facility's transition out of operational use. The missing file mattered more than more general searches.
 
-What has **not** been demonstrated is a dependable success rate, the number of important records missed, or savings in reporter time. Several early prototypes lack the original inputs and search logs. The historical tests were chosen with hindsight. The later ATI trial preserved much more evidence, but still has no matched comparison against simpler selection methods.
+What has **not** been demonstrated is a dependable success rate, the number of important records missed, or savings in reporter time. Several early prototypes lack the original inputs and search logs. The historical tests were chosen with hindsight. The later ATI trial preserved much more evidence, but still has no fair comparison with simpler ways of choosing records.
 
 ## Costs and corrections belong beside the results
 
