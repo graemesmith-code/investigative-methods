@@ -1,5 +1,7 @@
 # 06. Rank with Jev, then search the top ten with Exa
 
+> Historical account retained below. A [dated follow-up](#follow-up-source-check-1-october-2026) now verifies original-award trade coverage, while the exact exported event and original search remain unresolved.
+
 **What we tried:** the user reported ranking 10,000 original contract paragraphs with Jev, searching the top ten leads with Exa, and retrieving ten results per lead. Manual reassessment of exact-event coverage and source type was subsequently added to the process.
 
 **Why:** ranking may reduce the reading queue, while search may identify earlier coverage. The two jobs need separate evidence so a search failure is not mistaken for an editorial discovery.
@@ -35,3 +37,19 @@ The reported addition of manual reassessment is a process improvement. Without s
 Recover the original ten paragraphs and 100 lead–article pairs before repeating at larger scale. Put known covered events through the same search. Compare Jev ranking with simple rules on a fixed reviewed set. Save the actual bill and reviewer time. This is proposed work; it was not performed while writing the notebook.
 
 [Experiment index](../../experiments/README.md) · [Home](../../README.md)
+
+## Follow-up source check: 1 October 2026
+
+The following URLs were independently opened for this update. This is a later public-web check, not a rerun of the original Exa search. No full article text was added to the repository, and `evidence/exa/overview-1.csv` is unchanged.
+
+| Source | What was inspected | What it supports |
+|---|---|---|
+| [ClearanceJobs, 8 April 2026](https://news.clearancejobs.com/2026/04/08/anduril-lockheed-northrop-among-14-winners-on-1-84b-andromeda-contract/) | Readable contract digest: exact identifier FA881926DB0011 beside Anduril, fourteen recipients, USD1.843 billion ceiling, award dated 7 April | Identifier-level association with the original Andromeda award; a contract digest, not evidence of an independent investigation |
+| [Inside Defense, 8 April 2026](https://insidedefense.com/insider/space-force-awards-14-companies-18b-andromeda-gssap-replacement) | Readable bylined trade report naming Anduril among fourteen winners | Editorial trade coverage of the original award; no claim of major-outlet coverage |
+| [Washington Technology](https://www.washingtontechnology.com/contracts/2026/04/space-force-picks-14-18b-object-tracking-contract/412754/) | Two open attempts timed out | Supplied candidate link only; its contents were not independently verified in this check |
+| [EnvZone, record dated 16 April 2026](https://envzone.com/award-record/air-force-corrects-andromeda-1-84b-idiq-characterization-across-14-awardees/) | Readable secondary correction with the same Anduril identifier | Later distinction between the Andromeda contract vehicle and a programme; not the original award event |
+| [Official 8 April contract notice linked by Inside Defense](https://www.war.gov/News/Contracts/Contract/Article/4453890/contracts-for-april-8-2026/) | Open attempt returned HTTP 403 | Original notice not independently read in this follow-up |
+
+The digest gives 7 April as the award date; the correction refers to 8 April. Preserve this source-date distinction rather than silently choosing one date for every event. The identifier occurs in both award and correction contexts. The truncated export cannot resolve which full paragraph was ranked.
+
+**Revised conclusion:** original-award trade coverage is verified. The exact exported event, historical query/date window, returned-result membership and reason for the “No clear match” label remain unknown. No demonstrated retrieval failure, classification failure, app bug or revised success rate follows. Recover the original paragraph and saved search before diagnosing the run.

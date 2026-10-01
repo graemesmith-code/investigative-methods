@@ -9,7 +9,7 @@ Start with any question below. Each account can be read without running code. â€
 | [03. Can a headline filter find a known news story?](03-headline-filter.md) | 22â€“24 Sep | Prototype publication verified historically; missed control reported, detailed logs missing. |
 | [04. Can a news provider retrieve sixteen outlets?](04-newsapi-retrieval.md) | 25 Sep | Script inspected; 27 requests and no errors reported, response files missing. |
 | [05. Does the full contract paragraph help?](05-paragraph-prototype.md) | 27 Sep | Prototype published historically; ranking performance unmeasured. |
-| [06. What did the top-ten Jev/Exa search show?](06-jev-exa.md) | 29 Sep | Ten-row export inspected; original paragraphs and article pairs missing. |
+| [06. What did the top-ten Jev/Exa search show?](06-jev-exa.md) | 29 Sep | Ten-row export inspected; later check verifies original-award trade coverage for Anduril, but the exported event and search remain unresolved. |
 | [07. Which Canadian ATI releases should a reporter read next?](07-canadian-ati.md) | 1 Oct | Completed ranking and bounded searches; one release read, two acquisition priorities, one invalid lower-ranked check pending rerun. |
 | [08. Could old Enron filings support useful questions?](08-enron.md) | 30 Sep | Original filings checked; arithmetic and simple text search completed. No AI comparison or discovery claim. |
 | [09. What did bank surveys show before 2008?](09-bank-lending.md) | 30 Sep | Three survey editions extracted and checked; warnings were already public. |

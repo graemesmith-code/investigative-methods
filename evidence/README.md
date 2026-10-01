@@ -42,7 +42,7 @@ The [news retrieval script](../code/newsapi/check_newsapi_sources.py) comes from
 | Paragraph prototype | Code revision, prompts and full input corpus | Publication alone cannot establish ranking performance |
 | Jev + Exa | Ten original paragraphs, corpus date range, ranking outputs, queries, 100 article pairs, URLs/text and manual decisions | Cannot verify novelty or revised classifications |
 | Jev + Exa costs | Per-run Jev/Exa usage, invoice allocation, retries and review time | Cannot calculate actual cost per useful lead |
-| Anduril prior coverage | Exact links and saved-result membership | Retrieval-versus-classification diagnostic remains unresolved |
+| Anduril exported event | Original paragraph, historical query/date window and saved-result membership | [Later source check](../annexes/experiments/06-jev-exa.md#follow-up-source-check-1-october-2026) verifies original-award trade coverage, but cannot diagnose the exported label |
 
 No emails, credentials, private contacts, household material, personal financial records or unrelated nonproliferation work are included. Raw sources containing broader fields were kept outside the upload selection. Public corporate identifiers in the selected records are retained because they support professional source verification.
 

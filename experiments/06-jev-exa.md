@@ -18,9 +18,15 @@ The overview has brief lead descriptions, scores, coverage labels and result cou
 
 The saved overview lists **nine “Possible match” rows and one “No clear match in results”**, with ten results reported per lead. The unresolved row is Anduril contract **FA881926DB0011**. Its score of 0.680 is not a 68% probability of newsworthiness.
 
-An earlier account said the Anduril event had prior coverage, but the exact links and whether they appeared in the saved search were not recovered. The search may have missed an article, the review may have misclassified one, or the claimed coverage may concern a different event. **The evidence does not resolve which.**
+The original notebook lacked the links needed to check the Anduril coverage claim. A later source check establishes coverage of the original award, as described below; it does not reconstruct the historical search.
 
 Manual reassessment was reportedly added later, but the decisions are missing. Nine possible matches are not nine verified covered events; one no-clear-match row is not a scoop.
+
+## Follow-up checked 1 October 2026
+
+**The original Andromeda award had trade coverage.** [ClearanceJobs’ 8 April digest](https://news.clearancejobs.com/2026/04/08/anduril-lockheed-northrop-among-14-winners-on-1-84b-andromeda-contract/) places FA881926DB0011 beside Anduril in a fourteen-company award with a USD1.843 billion ceiling and gives 7 April as the award date. [Inside Defense’s 8 April report](https://insidedefense.com/insider/space-force-awards-14-companies-18b-andromeda-gssap-replacement) covers the original award and names Anduril among the winners. The ceiling is not an amount paid to Anduril alone.
+
+A [secondary record dated 16 April](https://envzone.com/award-record/air-force-corrects-andromeda-1-84b-idiq-characterization-across-14-awardees/) uses the same identifier for a correction: Andromeda is a contract vehicle, rather than a programme. Without the original exported paragraph, we cannot tell whether the lead concerned the award or that correction. The historical search window and returned articles are also missing. **Original-award coverage is verified; the exact exported event and reason for its label remain unresolved.** This does not demonstrate an app bug or a missed eligible result.
 
 ## Cost, limits and the next useful step
 
