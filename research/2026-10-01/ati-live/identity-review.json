@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-01",
+  "identity_key": [
+    "owner_org",
+    "request_number"
+  ],
+  "corpus_shared_request_numbers": 77,
+  "selected_collisions": [
+    "nanisivik",
+    "audit-medical-fairness"
+  ],
+  "corrected_leads": [
+    "audit-medical-fairness"
+  ],
+  "paid_calls_during_correction": 0,
+  "historical_results_policy": "Original query result envelopes, model screens, corpus, ranking, ledger and API-stage source remain unchanged. Join historical lead labels through this reviewed mapping; do not treat corrected metadata as rerun output. Medical-fairness query was on topic; its ten model screens and prior decision are invalid.",
+  "leads": [
+    {
+      "lead": "leopard",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2023-00105",
+      "corpus_id": 124094209,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canada February 2023 additional Leopard 2 tanks armoured recovery vehicle 155mm ammunition Ukraine",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2023-00105"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "china-permits",
+      "owner_org": "dfatd-maecd",
+      "request_number": "A-2025-01773",
+      "corpus_id": 124033004,
+      "same_number_owners": [
+        "dfatd-maecd"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canada \"00390-2025\" nuclear dual use export permit China",
+          "result_count": 10,
+          "original_owner_org": "dfatd-maecd",
+          "original_request_number": "A-2025-01773"
+        },
+        {
+          "file": "expansion-plans-results.json",
+          "query": "Canada Global Affairs 2025 nuclear related dual use export permit China approval",
+          "result_count": 10,
+          "original_owner_org": null,
+          "original_request_number": null
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "ukraine-budget",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2022-01326",
+      "corpus_id": 124094596,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canada 2022 remainder 500 million military aid Ukraine spending allocation",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2022-01326"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "armoured-vehicles",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2023-01996",
+      "corpus_id": 124094509,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canada 50 armoured vehicles Ukraine donation December 2023",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2023-01996"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "gac-assignments",
+      "owner_org": "dfatd-maecd",
+      "request_number": "A-2025-02439",
+      "corpus_id": 124033017,
+      "same_number_owners": [
+        "dfatd-maecd"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Global Affairs Canada 2026 assignments round 3 traditional employees excluded",
+          "result_count": 10,
+          "original_owner_org": "dfatd-maecd",
+          "original_request_number": "A-2025-02439"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "israel-maple",
+      "owner_org": "dfatd-maecd",
+      "request_number": "A-2023-03335",
+      "corpus_id": 124032774,
+      "same_number_owners": [
+        "dfatd-maecd"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "The Maple January 30 2024 Trudeau Government Admits Authorized New Military Exports Israel October 7",
+          "result_count": 10,
+          "original_owner_org": "dfatd-maecd",
+          "original_request_number": "A-2023-03335"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "nanisivik",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2025-02587",
+      "corpus_id": 124094378,
+      "same_number_owners": [
+        "dnd-mdn",
+        "dfatd-maecd"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Nanisivik naval facility environmental protection compliance order storage tank 2025",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2025-02587"
+        },
+        {
+          "file": "expansion-plans-results.json",
+          "query": "Nanisivik réservoir ordre exécution protection environnement IE2025-0009981 conformité",
+          "result_count": 10,
+          "original_owner_org": null,
+          "original_request_number": null
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 10,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "ukraine-mines",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2022-01530",
+      "corpus_id": 124093965,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Ukraine Canadian volunteer fighters anti personnel mines Ottawa Treaty 2022",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2022-01530"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "involuntary-care",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2025-01384",
+      "corpus_id": 124094093,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canadian Armed Forces policy involuntary admission mental health psychiatric consent",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2025-01384"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 6,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "biometrics",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2025-00181",
+      "corpus_id": 124094463,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canadian Armed Forces 2025 biometric training Canadian citizens standing authority collect data",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2025-00181"
+        },
+        {
+          "file": "expansion-plans-results.json",
+          "query": "Canadian defence biometrics training Canadian citizens consent retention Technical CONOP 2025",
+          "result_count": 10,
+          "original_owner_org": null,
+          "original_request_number": null
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 12,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "audit-middle-east",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2025-00661",
+      "corpus_id": 124094033,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canada Canadian Armed Forces personnel Middle East June 2025 evacuation",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2025-00661"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "audit-petawawa",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2024-00225",
+      "corpus_id": 124094358,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Petawawa \"Q-103\" golf club safety",
+          "result_count": 10,
+          "original_owner_org": "dnd-mdn",
+          "original_request_number": "A-2024-00225"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    },
+    {
+      "lead": "audit-medical-fairness",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2025-02382",
+      "corpus_id": 124094132,
+      "same_number_owners": [
+        "dfatd-maecd",
+        "dnd-mdn"
+      ],
+      "metadata_corrected": true,
+      "searches": [
+        {
+          "file": "coverage-plans-results.json",
+          "query": "Canadian Armed Forces medical policy procedural fairness disability accommodation DMEDPOL",
+          "result_count": 10,
+          "original_owner_org": "dfatd-maecd",
+          "original_request_number": "A-2025-02382"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "invalid_wrong_source_summary_corrected_rerun_pending"
+    },
+    {
+      "lead": "c22-control",
+      "owner_org": "dnd-mdn",
+      "request_number": "A-2025-00945",
+      "corpus_id": 124093842,
+      "same_number_owners": [
+        "dnd-mdn"
+      ],
+      "metadata_corrected": false,
+      "searches": [
+        {
+          "file": "control-plans-results.json",
+          "query": "Canadian soldier C22 SIG Sauer P320 accidental discharge April 2024 lawsuit CBC April 2026",
+          "result_count": 10,
+          "original_owner_org": null,
+          "original_request_number": "A-2025-00945"
+        }
+      ],
+      "coverage_screen_count": 10,
+      "branch_screen_count": 0,
+      "screening_status": "identity_verified"
+    }
+  ]
+}

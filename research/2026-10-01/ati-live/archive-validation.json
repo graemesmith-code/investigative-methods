@@ -1,5 +1,5 @@
 {
-  "tests": "13 offline safeguards tests pass: 11 run-era plus 2 post-run continuation guards",
+  "tests": "18 offline tests pass: 11 run-era, 2 continuation guards, 5 identity regression tests",
   "scored_unique_records": 1234,
   "jev_calls": 1402,
   "exa_calls": 17,

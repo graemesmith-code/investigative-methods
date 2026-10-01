@@ -24,5 +24,8 @@
   ],
   "additional_rejection": "Nanisivik order caused shutdown inference unsupported",
   "novelty_or_recall_estimate": null,
-  "interpretation": "Descriptive counts only; no controlled comparison. Full packet and primary-source reads added evidence; more query count is not success."
+  "interpretation": "Descriptive counts only; no controlled comparison. Full packet and primary-source reads added evidence; more query count is not success.",
+  "lower_half_audits_completed_with_valid_identity": 2,
+  "lower_half_audits_invalid_screening": 1,
+  "correction": "Medical-fairness metadata corrected; original on-topic Exa search retained, ten Jev screens invalid, corrected re-screen pending. No new paid calls."
 }

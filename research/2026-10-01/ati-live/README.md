@@ -2,6 +2,8 @@
 
 **[Read the plain-English report](report.md).** We scored 1,234 completed-request summaries, obtained one seven-page release, and retained two precise acquisition priorities. No new allegation was verified.
 
+**Correction:** one lower-ranked medical-fairness audit had the wrong departmental summary. Its ten model screens and former conclusion are invalid; the corrected rerun is pending. All ten shortlist identities are unaffected. [Read the correction](correction-identity.md) and [ten-topic guide](report.md#all-ten-shortlisted-topics-in-plain-english). No new spending.
+
 | Review need | File |
 |---|---|
 | Every scored summary | [Full ranking CSV](full-ranked.csv) |

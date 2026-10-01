@@ -32,3 +32,7 @@ Runtime credentials are read only through existing environment variables, sent o
 - `test_pipeline.py`, `validate_archive.py`: offline safeguards and archive checks.
 
 Only the top-level live runner should be used for future work. No scheduler, deployment, public sharing or outreach is included. No third paid model API was used.
+
+## Identity correction
+
+Plans now require `(owner_org, request_number)` and validate source metadata before transport. Five regression tests cover the discovered cross-department collision. Historical API result envelopes and screens remain unchanged; current screening refuses malformed historical plans. See the [correction](../../research/2026-10-01/ati-live/correction-identity.md). No new API calls were made.

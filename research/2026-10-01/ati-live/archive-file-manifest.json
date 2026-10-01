@@ -21,54 +21,19 @@
       "bytes": 19
     },
     {
-      "path": "code/ati/make_plans.py",
-      "sha256": "f600f2dc48ce7bf09b679fde067ae46ad804b0b7a1452430ee6329ef32819f6c",
-      "bytes": 4647
-    },
-    {
-      "path": "code/ati/filter_branches.py",
-      "sha256": "74472b1d0f2c7042a61a9ca06bd20318dd9be4d92978bcd83dba248318a26804",
-      "bytes": 2536
-    },
-    {
-      "path": "code/ati/test_pipeline.py",
-      "sha256": "d59128678f951041576eac4c7d0d5ddc14c44cab7c10e46e865d9c57863763bf",
-      "bytes": 4636
-    },
-    {
-      "path": "code/ati/match_coverage.py",
-      "sha256": "248768d62e96b877cc571133a5c8cb49215a8f048900ff77d5ff851847080e4f",
-      "bytes": 1994
-    },
-    {
-      "path": "code/ati/public_sources.py",
-      "sha256": "0d1303ff360fb31372e186b21ce93240d180a0340dcb22bba8dc83122cffe531",
-      "bytes": 2590
-    },
-    {
-      "path": "code/ati/ocr_release.py",
-      "sha256": "f52cd0d38e2796906d29a84a092b23da65b48238ca8042446c90345e9cb2b4a6",
-      "bytes": 1150
-    },
-    {
-      "path": "code/ati/validate_archive.py",
-      "sha256": "274c0492a157359ee72dd91e382e44d594eb20a336dce3f31a25ddc608b4854f",
-      "bytes": 3513
-    },
-    {
-      "path": "code/ati/pipeline.py",
-      "sha256": "b9cb4b9c4be2f3ba2b30a77e03664a6be2299bdc26e26b8e15898b013779c4c1",
-      "bytes": 13528
+      "path": "code/ati/README.md",
+      "sha256": "ba52afc2c4f048b60635e2f42c12515bb9abe4b0ebc7061327482c97cd16a550",
+      "bytes": 3761
     },
     {
       "path": "code/ati/coverage.py",
-      "sha256": "6a5b337d0dfbb348d9c8b5a695a1878ff16438693be8f8db90e04f712f95c49c",
-      "bytes": 821
+      "sha256": "ef64c481ccec3fbc5c5cdec6f75c55c8522d55278b0cc279523648ed9f7a6f96",
+      "bytes": 959
     },
     {
-      "path": "code/ati/README.md",
-      "sha256": "51588946b16ffad8912a04127a35881ef76e976d1607bbe956e17533b21845ac",
-      "bytes": 3345
+      "path": "code/ati/executed-v1/coverage.py",
+      "sha256": "f08b6701e146626b73216f95edaf7e76ab071c37db3149dd65fcdfc1868dcb80",
+      "bytes": 813
     },
     {
       "path": "code/ati/executed-v1/filter_branches.py",
@@ -86,34 +51,49 @@
       "bytes": 12745
     },
     {
-      "path": "code/ati/executed-v1/coverage.py",
-      "sha256": "f08b6701e146626b73216f95edaf7e76ab071c37db3149dd65fcdfc1868dcb80",
-      "bytes": 813
+      "path": "code/ati/filter_branches.py",
+      "sha256": "473654618260388b212d4a126ddc68ee130b68ba86284f7a2d1110722eb6ef2e",
+      "bytes": 2755
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/extract_literals.py",
-      "sha256": "c0fea4f4be6047ce6a3c124a364f82293418fbf56da5b0b62c71f5fbc49770a7",
-      "bytes": 2199
+      "path": "code/ati/make_plans.py",
+      "sha256": "7a23c76c981991370e5549e4403995c6d1e851915c8d12dccfbf9dc105b3f125",
+      "bytes": 4851
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/ingest_public.py",
-      "sha256": "4bb310ceabc3baa71230b4c450ec246ce1643d3a6f33fac5515b6b49d92481ba",
-      "bytes": 3736
+      "path": "code/ati/match_coverage.py",
+      "sha256": "849398c9d440a996c8665bcd1522cc6a0bed8c221114e37226da641d843293ca",
+      "bytes": 2358
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00500.json",
-      "sha256": "8eddaf2b9146cf6b0ffe9e08d74fc5a96aae790b114a7d2fa9a87b3eb3a62020",
-      "bytes": 159724
+      "path": "code/ati/ocr_release.py",
+      "sha256": "f52cd0d38e2796906d29a84a092b23da65b48238ca8042446c90345e9cb2b4a6",
+      "bytes": 1150
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dfatd-maecd-00250.json",
-      "sha256": "14ead70d1284e8d70c2dfc9593bf3f0c10cf92153ee2c71208f0c42f83141643",
-      "bytes": 124848
+      "path": "code/ati/pipeline.py",
+      "sha256": "b9cb4b9c4be2f3ba2b30a77e03664a6be2299bdc26e26b8e15898b013779c4c1",
+      "bytes": 13528
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00250.json",
-      "sha256": "02ede35c97391dcde490e9b76ad09078b1ce13cd5ee429f607480d6ad8c932d6",
-      "bytes": 162333
+      "path": "code/ati/public_sources.py",
+      "sha256": "0d1303ff360fb31372e186b21ce93240d180a0340dcb22bba8dc83122cffe531",
+      "bytes": 2590
+    },
+    {
+      "path": "code/ati/test_identity.py",
+      "sha256": "bd873958f29163d2ba329b42a3785b17aea9cd9824669d10f6d356a3bc112070",
+      "bytes": 1699
+    },
+    {
+      "path": "code/ati/test_pipeline.py",
+      "sha256": "d59128678f951041576eac4c7d0d5ddc14c44cab7c10e46e865d9c57863763bf",
+      "bytes": 4636
+    },
+    {
+      "path": "code/ati/validate_archive.py",
+      "sha256": "736b524e509fff7532fbc99c2a42bde496dae8fc4b9ef52c59e466a7fd495226",
+      "bytes": 4227
     },
     {
       "path": "research/2026-10-01/ati-cloud-preflight/corpus/dfatd-maecd-00000.json",
@@ -121,9 +101,9 @@
       "bytes": 160606
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00750.json",
-      "sha256": "4d938cad2df6e8f859a62a9b165c88eb7fa691f555860225ebb2f90d850e68da",
-      "bytes": 31898
+      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dfatd-maecd-00250.json",
+      "sha256": "14ead70d1284e8d70c2dfc9593bf3f0c10cf92153ee2c71208f0c42f83141643",
+      "bytes": 124848
     },
     {
       "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00000.json",
@@ -131,14 +111,29 @@
       "bytes": 161861
     },
     {
-      "path": "research/2026-10-01/ati-cloud-preflight/corpus/manifest.json",
-      "sha256": "5935771b7315849f76b6cafde7d81c119ce6064c505beba55116aa108f08f16f",
-      "bytes": 3870
+      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00250.json",
+      "sha256": "02ede35c97391dcde490e9b76ad09078b1ce13cd5ee429f607480d6ad8c932d6",
+      "bytes": 162333
+    },
+    {
+      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00500.json",
+      "sha256": "8eddaf2b9146cf6b0ffe9e08d74fc5a96aae790b114a7d2fa9a87b3eb3a62020",
+      "bytes": 159724
+    },
+    {
+      "path": "research/2026-10-01/ati-cloud-preflight/corpus/dnd-mdn-00750.json",
+      "sha256": "4d938cad2df6e8f859a62a9b165c88eb7fa691f555860225ebb2f90d850e68da",
+      "bytes": 31898
     },
     {
       "path": "research/2026-10-01/ati-cloud-preflight/corpus/literal-search-aids.json",
       "sha256": "d09836e171008b168d2c3a06bb117a76ecfaefdc2f815f0119f61abaf39ae609",
       "bytes": 1512985
+    },
+    {
+      "path": "research/2026-10-01/ati-cloud-preflight/corpus/manifest.json",
+      "sha256": "5935771b7315849f76b6cafde7d81c119ce6064c505beba55116aa108f08f16f",
+      "bytes": 3870
     },
     {
       "path": "research/2026-10-01/ati-cloud-preflight/corpus/records.csv",
@@ -156,154 +151,34 @@
       "bytes": 422
     },
     {
-      "path": "research/2026-10-01/ati-live/ledger-accounting.json",
-      "sha256": "b0a21666f931e0f91fd9729e73ae655bc0c1a3ce2cd535c2aa3f6731bc5f994c",
-      "bytes": 872511
+      "path": "research/2026-10-01/ati-cloud-preflight/extract_literals.py",
+      "sha256": "c0fea4f4be6047ce6a3c124a364f82293418fbf56da5b0b62c71f5fbc49770a7",
+      "bytes": 2199
     },
     {
-      "path": "research/2026-10-01/ati-live/archive-validation.json",
-      "sha256": "43c151493414dcd0bf47f891b08c64523e75ef14eadba4e23054d950d5345df7",
-      "bytes": 741
+      "path": "research/2026-10-01/ati-cloud-preflight/ingest_public.py",
+      "sha256": "4bb310ceabc3baa71230b4c450ec246ce1643d3a6f33fac5515b6b49d92481ba",
+      "bytes": 3736
     },
     {
-      "path": "research/2026-10-01/ati-live/calibration-ranked.csv",
-      "sha256": "d4f4b4cba5e9054c0152391108e848e5f26079c9daa617fa892ed53d55ae11a3",
-      "bytes": 47565
-    },
-    {
-      "path": "research/2026-10-01/ati-live/branch-decisions.json",
-      "sha256": "6616d6bf59f26ef75eef82b8f5d99a1c8629372f4844af71a1469096d3aac4fb",
-      "bytes": 3751
-    },
-    {
-      "path": "research/2026-10-01/ati-live/coverage-plans-results.json",
-      "sha256": "4893de7bbdd19107c6aa6d291ef2bf9df78d9f17a93a54f55b6de2a19ace8b80",
-      "bytes": 87871
-    },
-    {
-      "path": "research/2026-10-01/ati-live/full-ranked.json",
-      "sha256": "2f3c960fee21da44c296e2c15132b1230dfe180c2f88f1c59410b3a6e77cd1c3",
-      "bytes": 1065723
-    },
-    {
-      "path": "research/2026-10-01/ati-live/coverage-plans.json",
-      "sha256": "05a01a4c9f5847192eff8f6ff9d1594c1fdefa53110d60605a3bacca289e83dd",
-      "bytes": 8550
-    },
-    {
-      "path": "research/2026-10-01/ati-live/expansion-plans-results.json",
-      "sha256": "9fe5157f4ec8c3f05ff324d57b922608c8a86dd46941a6389442453b129628fd",
-      "bytes": 18733
-    },
-    {
-      "path": "research/2026-10-01/ati-live/selection-notes.md",
-      "sha256": "66170570a67079a321c82604cad41db5c88deb84010c01f0b794aa1355978331",
-      "bytes": 935
-    },
-    {
-      "path": "research/2026-10-01/ati-live/source-manifest.json",
-      "sha256": "40ae823222c945a7a6b637a133715becf7b51fb3dcc4d01b2244649b4bc12ffb",
-      "bytes": 2543
-    },
-    {
-      "path": "research/2026-10-01/ati-live/control-plans-results.json",
-      "sha256": "f8146ae67f926afb44389613fc2eb49135f7f53a6068ed4d24698e41f346682c",
-      "bytes": 6187
-    },
-    {
-      "path": "research/2026-10-01/ati-live/branches.csv",
-      "sha256": "2f136309a51d72944e4d2d96acc1932a287fa9504aebd13beee1c1ef72e69999",
-      "bytes": 2998
-    },
-    {
-      "path": "research/2026-10-01/ati-live/expansion-plans.json",
-      "sha256": "160b1fb9397220031f4913d5d4a2631e78ef99f048745f8bcf8235aedc1baa12",
-      "bytes": 724
-    },
-    {
-      "path": "research/2026-10-01/ati-live/calibration-review.md",
-      "sha256": "3ceadd581f8772ca7bca65ad6de03f18daa464b003ac7207adb0ee55bd84bde7",
-      "bytes": 1663
-    },
-    {
-      "path": "research/2026-10-01/ati-live/report.md",
-      "sha256": "5111cc79296d81bf4cf933411bf129ba0d1c27284cd6ee348ea23ae01853286e",
-      "bytes": 12030
-    },
-    {
-      "path": "research/2026-10-01/ati-live/cost-summary.json",
-      "sha256": "1b321ad69e8d02ad4b0ac8609d29bb4d7863c0447f8aabe858a9b1d9b832f61a",
-      "bytes": 1277
-    },
-    {
-      "path": "research/2026-10-01/ati-live/coverage-screen.json",
-      "sha256": "404e0b89934e2beeb7ebbc10763e58c6faaa409b5a5f4489d3b82f6d27eace06",
-      "bytes": 71444
-    },
-    {
-      "path": "research/2026-10-01/ati-live/control-plans.json",
-      "sha256": "38f0b4e6c3b09ea9d69b791236efcf915908c0d69f7e0c16c11f5bf85ed90499",
-      "bytes": 401
-    },
-    {
-      "path": "research/2026-10-01/ati-live/executed-code-provenance.json",
-      "sha256": "dad0068b9267cad4984972f4a10fbbdaaf5321bf248f5b63e825164a87b5e942",
-      "bytes": 934
-    },
-    {
-      "path": "research/2026-10-01/ati-live/calibration-ids.json",
-      "sha256": "60fe1ef59202158f5a07496da02a0b4a78866c1642a3dec9fd489b98b617b730",
-      "bytes": 1303
-    },
-    {
-      "path": "research/2026-10-01/ati-live/validation.json",
-      "sha256": "337291847b6185693fcab8d7efa85ab7495ba07c313f7cfbea8b196e0328b63f",
-      "bytes": 763
-    },
-    {
-      "path": "research/2026-10-01/ati-live/price-verification.json",
-      "sha256": "16ae9df3a5098bf80b24d0d45bd6c7518cc2dc9e95d4b31e305d99e7a04f3da7",
-      "bytes": 704
-    },
-    {
-      "path": "research/2026-10-01/ati-live/full-ranked.csv",
-      "sha256": "92a8f1ffb9d32dd55d1c6d0271138e509bc1a65c3bbfa0e072fd5920349bb847",
-      "bytes": 598414
-    },
-    {
-      "path": "research/2026-10-01/ati-live/shortlist-decisions.csv",
-      "sha256": "6174a23fea34bff11f417a1145f8d172dd4f6494b72a8e146d5f02c93fa84da4",
-      "bytes": 9754
-    },
-    {
-      "path": "research/2026-10-01/ati-live/outcome-metrics.json",
-      "sha256": "0eb4109b578477f2e18fb049445a2c479bf60f51ced916552caad4c565ecded5",
-      "bytes": 988
-    },
-    {
-      "path": "research/2026-10-01/ati-live/control-review.json",
-      "sha256": "e4216af385d75b266451361945a9be9f5b360de806e773bf6e299570b933a575",
-      "bytes": 1009
+      "path": "research/2026-10-01/ati-live/.gitignore",
+      "sha256": "5d1af5f63bc88370beb96d736634a7695530d8188ec750262715a81ca61823dd",
+      "bytes": 119
     },
     {
       "path": "research/2026-10-01/ati-live/README.md",
-      "sha256": "bf47e7b35f448f0a56758ca6808ec0736868885d99a780692e34506d97139b0d",
-      "bytes": 1771
+      "sha256": "778f8da67e0049d6794ce77d5cb1d45c563c9bb8ff7d29b69bb9257e866c3aa6",
+      "bytes": 2139
     },
     {
-      "path": "research/2026-10-01/ati-live/calibration-ranked.json",
-      "sha256": "4b53642e2bcb8890675518a176f15b8b464b28e9862ee13c9388a97e3d886d16",
-      "bytes": 85275
+      "path": "research/2026-10-01/ati-live/archive-validation.json",
+      "sha256": "1da7ab66499141501e5b962bca9e9d79ca271aa8640f2a580f5891e9ef4d7b0f",
+      "bytes": 746
     },
     {
-      "path": "research/2026-10-01/ati-live/ranking-prompt.json",
-      "sha256": "f7607e51f331cbf05687d7bb997582fd264d069f8531904444a05feafac95264",
-      "bytes": 3075
-    },
-    {
-      "path": "research/2026-10-01/ati-live/editorial-decisions.json",
-      "sha256": "7256e6a8f79b020ed1cceb1ccb76697c4e54d111b0dc5d464b75890bb24f0197",
-      "bytes": 19841
+      "path": "research/2026-10-01/ati-live/branch-decisions.json",
+      "sha256": "9bcea78ee374a648919bd15f91302368ee9ca0d47bce6da1552dd97440eacfdf",
+      "bytes": 4081
     },
     {
       "path": "research/2026-10-01/ati-live/branch-evidence-screen.json",
@@ -312,13 +187,143 @@
     },
     {
       "path": "research/2026-10-01/ati-live/branch-plans.json",
-      "sha256": "dab36a12371fdeaec221ff5ea694324c9284deca7262dd274b9d899f3d6fff40",
-      "bytes": 2465
+      "sha256": "03de187121fb02962c7c7ee65e30e713579cb65b92a5c27cb2a612ecbab2fac2",
+      "bytes": 3050
     },
     {
-      "path": "research/2026-10-01/ati-live/public-sources/2aef95cbdb9d3c56fa1bf49d094f141e90cbd3d167389fee50abf0fd986d2ce0.json",
-      "sha256": "5a967259e7d753ca6c2769b27e681a5964f1d7060e9af07a93cda2f9fbc97858",
-      "bytes": 16135
+      "path": "research/2026-10-01/ati-live/branches.csv",
+      "sha256": "9636be389adeba170f76d2bc75c0a93c555e93dc62c2840518ae8c5e58c4afe3",
+      "bytes": 3128
+    },
+    {
+      "path": "research/2026-10-01/ati-live/calibration-ids.json",
+      "sha256": "60fe1ef59202158f5a07496da02a0b4a78866c1642a3dec9fd489b98b617b730",
+      "bytes": 1303
+    },
+    {
+      "path": "research/2026-10-01/ati-live/calibration-ranked.csv",
+      "sha256": "d4f4b4cba5e9054c0152391108e848e5f26079c9daa617fa892ed53d55ae11a3",
+      "bytes": 47565
+    },
+    {
+      "path": "research/2026-10-01/ati-live/calibration-ranked.json",
+      "sha256": "4b53642e2bcb8890675518a176f15b8b464b28e9862ee13c9388a97e3d886d16",
+      "bytes": 85275
+    },
+    {
+      "path": "research/2026-10-01/ati-live/calibration-review.md",
+      "sha256": "3ceadd581f8772ca7bca65ad6de03f18daa464b003ac7207adb0ee55bd84bde7",
+      "bytes": 1663
+    },
+    {
+      "path": "research/2026-10-01/ati-live/control-plans-results.json",
+      "sha256": "f8146ae67f926afb44389613fc2eb49135f7f53a6068ed4d24698e41f346682c",
+      "bytes": 6187
+    },
+    {
+      "path": "research/2026-10-01/ati-live/control-plans.json",
+      "sha256": "180ed50d989c1510d3671ce983288d71b417714517962b6918b5a0ffe362bd3d",
+      "bytes": 478
+    },
+    {
+      "path": "research/2026-10-01/ati-live/control-review.json",
+      "sha256": "e4216af385d75b266451361945a9be9f5b360de806e773bf6e299570b933a575",
+      "bytes": 1009
+    },
+    {
+      "path": "research/2026-10-01/ati-live/correction-identity.md",
+      "sha256": "a2b84200efcb176458597aa2e5de27e6fa68faa92df2134269d10cc98eebc66e",
+      "bytes": 2856
+    },
+    {
+      "path": "research/2026-10-01/ati-live/cost-summary.json",
+      "sha256": "1b321ad69e8d02ad4b0ac8609d29bb4d7863c0447f8aabe858a9b1d9b832f61a",
+      "bytes": 1277
+    },
+    {
+      "path": "research/2026-10-01/ati-live/coverage-plans-original.json",
+      "sha256": "05a01a4c9f5847192eff8f6ff9d1594c1fdefa53110d60605a3bacca289e83dd",
+      "bytes": 8550
+    },
+    {
+      "path": "research/2026-10-01/ati-live/coverage-plans-results.json",
+      "sha256": "4893de7bbdd19107c6aa6d291ef2bf9df78d9f17a93a54f55b6de2a19ace8b80",
+      "bytes": 87871
+    },
+    {
+      "path": "research/2026-10-01/ati-live/coverage-plans.json",
+      "sha256": "13538b6b35f200c925a0c84c3c282309757e4ec835fd2275104a4a8642a10cb6",
+      "bytes": 8575
+    },
+    {
+      "path": "research/2026-10-01/ati-live/coverage-screen.json",
+      "sha256": "404e0b89934e2beeb7ebbc10763e58c6faaa409b5a5f4489d3b82f6d27eace06",
+      "bytes": 71444
+    },
+    {
+      "path": "research/2026-10-01/ati-live/docs/manifest.json",
+      "sha256": "0b79db3abb3eae697df050cbdd8e79a4359b63852d6e98d3ca67051ffb30052b",
+      "bytes": 901
+    },
+    {
+      "path": "research/2026-10-01/ati-live/editorial-decisions.json",
+      "sha256": "1a5027c4771d2512cda281d3ec4a5720bd3ffb4c7488f42300a40edf5b76cab4",
+      "bytes": 19950
+    },
+    {
+      "path": "research/2026-10-01/ati-live/executed-code-provenance.json",
+      "sha256": "dad0068b9267cad4984972f4a10fbbdaaf5321bf248f5b63e825164a87b5e942",
+      "bytes": 934
+    },
+    {
+      "path": "research/2026-10-01/ati-live/expansion-plans-results.json",
+      "sha256": "9fe5157f4ec8c3f05ff324d57b922608c8a86dd46941a6389442453b129628fd",
+      "bytes": 18733
+    },
+    {
+      "path": "research/2026-10-01/ati-live/expansion-plans.json",
+      "sha256": "fe7e4b1232b0744d3cb44ea86b5e48148b2a6291848d990caa07e3b2b41268ed",
+      "bytes": 1031
+    },
+    {
+      "path": "research/2026-10-01/ati-live/full-ranked.csv",
+      "sha256": "92a8f1ffb9d32dd55d1c6d0271138e509bc1a65c3bbfa0e072fd5920349bb847",
+      "bytes": 598414
+    },
+    {
+      "path": "research/2026-10-01/ati-live/full-ranked.json",
+      "sha256": "2f3c960fee21da44c296e2c15132b1230dfe180c2f88f1c59410b3a6e77cd1c3",
+      "bytes": 1065723
+    },
+    {
+      "path": "research/2026-10-01/ati-live/identity-review.json",
+      "sha256": "71a13773533402661d9bf0c5f96b12de094083217cc78f2e1faeb158b644edf3",
+      "bytes": 11078
+    },
+    {
+      "path": "research/2026-10-01/ati-live/ledger-accounting.json",
+      "sha256": "b0a21666f931e0f91fd9729e73ae655bc0c1a3ce2cd535c2aa3f6731bc5f994c",
+      "bytes": 872511
+    },
+    {
+      "path": "research/2026-10-01/ati-live/outcome-metrics.json",
+      "sha256": "69d982289b2dd982f4c82ac87235e9e30ab314cf0ec6ba687030d3924048af3d",
+      "bytes": 1256
+    },
+    {
+      "path": "research/2026-10-01/ati-live/price-verification.json",
+      "sha256": "16ae9df3a5098bf80b24d0d45bd6c7518cc2dc9e95d4b31e305d99e7a04f3da7",
+      "bytes": 704
+    },
+    {
+      "path": "research/2026-10-01/ati-live/public-sources/15bc54a76418380c42e6755deba4e8b303bc166bcc6562d51fd50b03b804c278.json",
+      "sha256": "7ff5d6e4f8e95eb985cade77b202c51756b170c4df4dbeea8bdfaf1b6385209d",
+      "bytes": 7634
+    },
+    {
+      "path": "research/2026-10-01/ati-live/public-sources/15bc54a76418380c42e6755deba4e8b303bc166bcc6562d51fd50b03b804c278.raw",
+      "sha256": "e6471c63ca28740de8d30df7cf50f6037be11cdae5e2df7d58dc06a2363369a4",
+      "bytes": 27671
     },
     {
       "path": "research/2026-10-01/ati-live/public-sources/1942a6888645d654f3573039988feb201971a9af3c2e16d4fcdb1e9f7e177056.json",
@@ -331,24 +336,9 @@
       "bytes": 33943
     },
     {
-      "path": "research/2026-10-01/ati-live/public-sources/916295de2e75bd788947863450f1b4852b45aa29233c22ffbb61e8a1340804b9.raw",
-      "sha256": "e52299c2966de5ab9dc2eff885213f05e8c112d275ff4378f85d15c89635ee2b",
-      "bytes": 20175
-    },
-    {
-      "path": "research/2026-10-01/ati-live/public-sources/f9ee5fce0a9968da3dd6778ac06ac02f801a14833a167cd113c1712b18b4b32a.json",
-      "sha256": "82a63e4e79f82594b40bd06e299150589c03a14c2e3f810e109337cfee9817a0",
-      "bytes": 408
-    },
-    {
-      "path": "research/2026-10-01/ati-live/public-sources/15bc54a76418380c42e6755deba4e8b303bc166bcc6562d51fd50b03b804c278.raw",
-      "sha256": "e6471c63ca28740de8d30df7cf50f6037be11cdae5e2df7d58dc06a2363369a4",
-      "bytes": 27671
-    },
-    {
-      "path": "research/2026-10-01/ati-live/public-sources/f9ee5fce0a9968da3dd6778ac06ac02f801a14833a167cd113c1712b18b4b32a.raw",
-      "sha256": "ac41ea8c12d6a4ea7e45aa87fe0ee46a9751825428c0e8bad60883e337f60a9e",
-      "bytes": 491840
+      "path": "research/2026-10-01/ati-live/public-sources/2aef95cbdb9d3c56fa1bf49d094f141e90cbd3d167389fee50abf0fd986d2ce0.json",
+      "sha256": "5a967259e7d753ca6c2769b27e681a5964f1d7060e9af07a93cda2f9fbc97858",
+      "bytes": 16135
     },
     {
       "path": "research/2026-10-01/ati-live/public-sources/2aef95cbdb9d3c56fa1bf49d094f141e90cbd3d167389fee50abf0fd986d2ce0.raw",
@@ -361,49 +351,24 @@
       "bytes": 4591
     },
     {
-      "path": "research/2026-10-01/ati-live/public-sources/15bc54a76418380c42e6755deba4e8b303bc166bcc6562d51fd50b03b804c278.json",
-      "sha256": "7ff5d6e4f8e95eb985cade77b202c51756b170c4df4dbeea8bdfaf1b6385209d",
-      "bytes": 7634
+      "path": "research/2026-10-01/ati-live/public-sources/916295de2e75bd788947863450f1b4852b45aa29233c22ffbb61e8a1340804b9.raw",
+      "sha256": "e52299c2966de5ab9dc2eff885213f05e8c112d275ff4378f85d15c89635ee2b",
+      "bytes": 20175
     },
     {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-6.png",
-      "sha256": "0c8346aa6bd8a7fc62eb7c87be30e65cb157fa3c3980e1f4a92f7cab82fc5dac",
-      "bytes": 367098
+      "path": "research/2026-10-01/ati-live/public-sources/f9ee5fce0a9968da3dd6778ac06ac02f801a14833a167cd113c1712b18b4b32a.json",
+      "sha256": "82a63e4e79f82594b40bd06e299150589c03a14c2e3f810e109337cfee9817a0",
+      "bytes": 408
     },
     {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-1.png",
-      "sha256": "a04ae15cfe391b749a7092a915cc968fa678b09eb399a81c1786739b6434f35d",
-      "bytes": 363107
+      "path": "research/2026-10-01/ati-live/public-sources/f9ee5fce0a9968da3dd6778ac06ac02f801a14833a167cd113c1712b18b4b32a.raw",
+      "sha256": "ac41ea8c12d6a4ea7e45aa87fe0ee46a9751825428c0e8bad60883e337f60a9e",
+      "bytes": 491840
     },
     {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-7.png",
-      "sha256": "fee18b10b0464ba75f36de16af7e3067af7a032de443b90be13f712da217f705",
-      "bytes": 59721
-    },
-    {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-5.png",
-      "sha256": "11ce85b02d6d9dd11eac08003acfa21de4c32fc56736846e983ee3efeac4795c",
-      "bytes": 318920
-    },
-    {
-      "path": "research/2026-10-01/ati-live/release-ocr/pages.json",
-      "sha256": "34759cb36ab6a3a804b7729713847a1a873a02ed994534ea5d1d64a08bea567c",
-      "bytes": 21186
-    },
-    {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-3.png",
-      "sha256": "caf5d029de06dd79a9f5c4920d155b32f0df3e253e24ffb4574b08e80864f187",
-      "bytes": 369596
-    },
-    {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-2.png",
-      "sha256": "b35165a458de26e99ac244245091d9f1381c896d2a25a6937ad14d48cd8cb70b",
-      "bytes": 377496
-    },
-    {
-      "path": "research/2026-10-01/ati-live/release-ocr/page-4.png",
-      "sha256": "75ed1ac438666e250f8e4ea1544eff3b6475849729497162f1f547b6fe3074b0",
-      "bytes": 352872
+      "path": "research/2026-10-01/ati-live/ranking-prompt.json",
+      "sha256": "f7607e51f331cbf05687d7bb997582fd264d069f8531904444a05feafac95264",
+      "bytes": 3075
     },
     {
       "path": "research/2026-10-01/ati-live/release-ocr/ocr-text.txt",
@@ -411,14 +376,70 @@
       "bytes": 19993
     },
     {
-      "path": "research/2026-10-01/ati-live/docs/manifest.json",
-      "sha256": "0b79db3abb3eae697df050cbdd8e79a4359b63852d6e98d3ca67051ffb30052b",
-      "bytes": 901
+      "path": "research/2026-10-01/ati-live/release-ocr/page-1.png",
+      "sha256": "a04ae15cfe391b749a7092a915cc968fa678b09eb399a81c1786739b6434f35d",
+      "bytes": 363107
     },
     {
-      "path": "research/2026-10-01/ati-live/.gitignore",
-      "sha256": "5d1af5f63bc88370beb96d736634a7695530d8188ec750262715a81ca61823dd",
-      "bytes": 119
+      "path": "research/2026-10-01/ati-live/release-ocr/page-2.png",
+      "sha256": "b35165a458de26e99ac244245091d9f1381c896d2a25a6937ad14d48cd8cb70b",
+      "bytes": 377496
+    },
+    {
+      "path": "research/2026-10-01/ati-live/release-ocr/page-3.png",
+      "sha256": "caf5d029de06dd79a9f5c4920d155b32f0df3e253e24ffb4574b08e80864f187",
+      "bytes": 369596
+    },
+    {
+      "path": "research/2026-10-01/ati-live/release-ocr/page-4.png",
+      "sha256": "75ed1ac438666e250f8e4ea1544eff3b6475849729497162f1f547b6fe3074b0",
+      "bytes": 352872
+    },
+    {
+      "path": "research/2026-10-01/ati-live/release-ocr/page-5.png",
+      "sha256": "11ce85b02d6d9dd11eac08003acfa21de4c32fc56736846e983ee3efeac4795c",
+      "bytes": 318920
+    },
+    {
+      "path": "research/2026-10-01/ati-live/release-ocr/page-6.png",
+      "sha256": "0c8346aa6bd8a7fc62eb7c87be30e65cb157fa3c3980e1f4a92f7cab82fc5dac",
+      "bytes": 367098
+    },
+    {
+      "path": "research/2026-10-01/ati-live/release-ocr/page-7.png",
+      "sha256": "fee18b10b0464ba75f36de16af7e3067af7a032de443b90be13f712da217f705",
+      "bytes": 59721
+    },
+    {
+      "path": "research/2026-10-01/ati-live/release-ocr/pages.json",
+      "sha256": "34759cb36ab6a3a804b7729713847a1a873a02ed994534ea5d1d64a08bea567c",
+      "bytes": 21186
+    },
+    {
+      "path": "research/2026-10-01/ati-live/report.md",
+      "sha256": "9624211636c276aa16f74dccee8fb111b272afc77e53b5f41a51d5dea20c3324",
+      "bytes": 16044
+    },
+    {
+      "path": "research/2026-10-01/ati-live/selection-notes.md",
+      "sha256": "a9a71810a9644496a8ddd90964fc154ca463f6472985e53db81c130dda85d963",
+      "bytes": 1198
+    },
+    {
+      "path": "research/2026-10-01/ati-live/shortlist-decisions.csv",
+      "sha256": "7c31f1f130ef09e8f8316f2264d76c97c8b7a4201bbd507c02d7fcca6a06c4d8",
+      "bytes": 9838
+    },
+    {
+      "path": "research/2026-10-01/ati-live/source-manifest.json",
+      "sha256": "40ae823222c945a7a6b637a133715becf7b51fb3dcc4d01b2244649b4bc12ffb",
+      "bytes": 2543
+    },
+    {
+      "path": "research/2026-10-01/ati-live/validation.json",
+      "sha256": "337291847b6185693fcab8d7efa85ab7495ba07c313f7cfbea8b196e0328b63f",
+      "bytes": 763
     }
-  ]
+  ],
+  "correction": "Department/request composite identity; original run evidence and accounting unchanged; no additional API calls."
 }

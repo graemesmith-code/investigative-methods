@@ -2,8 +2,13 @@
 import argparse,json,pathlib
 from pipeline import OUT,Ledger,open_live_ledger,Client,LiveTransport,write
 
+from make_plans import validate_plan
+
 def run(path):
- plans=json.loads(pathlib.Path(path).read_text());ledger=open_live_ledger();client=Client(ledger,LiveTransport());out=[]
+ plans=json.loads(pathlib.Path(path).read_text())
+ rows=json.loads((OUT/'full-ranked.json').read_text())
+ for plan in plans:validate_plan(plan,rows)
+ ledger=open_live_ledger();client=Client(ledger,LiveTransport());out=[]
  try:
   for plan in plans:
    assert len(plan['queries'])<=2

@@ -1,6 +1,7 @@
 """Bounded lexical passage selection followed by Jev; no inferred final decisions."""
 import json,re,hashlib
 from pipeline import OUT,MODEL,Ledger,open_live_ledger,Client,LiveTransport,write
+from make_plans import validate_plan
 LINKS={
 'nanisivik':['department-of-national-defence-to-transition-nanisivik'],
 'biometrics':['biometric-collection-die','nsicop-cpsnr','pab_20250819'],
@@ -16,9 +17,12 @@ def main():
   data=json.loads(ocr.read_text())
   for s in sources:
    if s['url']==data['source_url']:s['pages']=data['pages']
+ plans=json.loads((OUT/'branch-plans.json').read_text())
+ rows=json.loads((OUT/'full-ranked.json').read_text())
+ for plan in plans:validate_plan(plan,rows)
  ledger=open_live_ledger();client=Client(ledger,LiveTransport());out=[]
  try:
-  for plan in json.loads((OUT/'branch-plans.json').read_text()):
+  for plan in plans:
    for branch in plan['branches']:
     words=set(re.findall(r'[a-z]{4,}',branch['question'].lower()));pool=[]
     for s in sources:
@@ -31,7 +35,7 @@ def main():
     for _,source in selected:
      state={'question':branch['question'],'ordinary_explanation':branch['ordinary_explanation'],'source':source}
      resp=client.call('jev',{'model':MODEL,'state':state,'questions':Q})
-     out.append({'lead':plan['lead'],'branch':branch['id'],'source':source,'screen':{k:v['noul'] for k,v in resp['answers'].items()}})
+     out.append({'owner_org':plan['owner_org'],'request_number':plan['request_number'],'lead':plan['lead'],'branch':branch['id'],'source':source,'screen':{k:v['noul'] for k,v in resp['answers'].items()}})
     write(OUT/'branch-evidence-screen.json',out);print('filtered',plan['lead'],branch['id'],len(selected),flush=True)
  finally:ledger.export()
 if __name__=='__main__':main()

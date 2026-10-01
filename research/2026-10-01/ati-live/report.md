@@ -2,9 +2,32 @@
 
 1 October 2026. Completed live run, exploratory results.
 
-**The workflow ran end to end: 1,234 summaries ranked, ten editorial clusters checked, three lower-ranked audits, a known-covered control, and five follow-up questions across three leads. It produced two precise acquisition priorities—not two verified scoops. These are 1,234 request summaries scored, not 1,234 underlying documents read; only one seven-page release packet was obtained and inspected.** The strongest next steps are a ten-page Nanisivik compliance file and a 95-page biometric-training file. It also found an already-published seven-page release and several reasons to stop chasing apparently fresh stories.
+**The workflow ran end to end: 1,234 summaries ranked, ten editorial clusters checked, three lower-ranked audit searches (one later invalidated at screening), a known-covered control, and five follow-up questions across three leads. It produced two precise acquisition priorities—not two verified scoops. These are 1,234 request summaries scored, not 1,234 underlying documents read; only one seven-page release packet was obtained and inspected.** The strongest next steps are a ten-page Nanisivik compliance file and a 95-page biometric-training file. It also found an already-published seven-page release and several reasons to stop chasing apparently fresh stories.
 
 The broad ranking cost about five cents in Jev input-token charges. Final totals: **Jev USD0.061954 estimated from observed tokens (1,402 calls); Exa USD0.119 provider-reported (17 searches)**. No failed or uncertain charges remain. These figures do not verify an invoice, taxes, exchange fees or cash-versus-credit settlement; `cost-summary.json` preserves exact usage and accounting. Combined usage accounting is **USD0.180954**, not an audited or tax-inclusive bill. No credits were purchased and neither USD10 usage cap was approached.
+
+## Correction to one lower-ranked audit
+
+The medical-fairness audit **DND A-2025-02382** was mistakenly labeled with GAC's unrelated Mexico-evacuation record using the same number. Correct metadata is **303 pages, partly disclosed, score 1.524**, not zero pages/no records/1.982. The Exa query was on the medical-fairness topic, but ten subsequent Jev screens received the wrong source summary. **Those screens and the former low-priority conclusion are invalid; corrected screening remains pending.** Metadata correction is not a rerun or proof of coverage. No additional API calls were made. All ten shortlist identities, the other two audits, C22 control and follow-up branches were checked and are unaffected by this identity error. [Full correction and preserved history](correction-identity.md).
+
+## All ten shortlisted topics, in plain English
+
+These are ten editorial clusters, not ten proven unreported stories. Four have Canadian coverage of the public story or policy. Their unread internal records could still contain distinct details. For the other six, exact coverage remains unresolved; this was not a comprehensive audit of Canadian media.
+
+| Topic | What the saved searches establish | What remains unread or unresolved |
+|---|---|---|
+| Leopard tanks | [Global News](https://globalnews.ca/news/9508689/canada-ukraine-aid-russia-g7-sanctions/) covered the additional tanks and aid package. | The four-page internal recommendation. |
+| China nuclear-related dual-use permits | Rules and unrelated identifier matches, no identified transaction. | The five-page note: item, exporter, end-user and decision. No proven absence of coverage. |
+| Ukraine $500 million budget remainder | Public announcements provide context, but multiple distinct envelopes can be confused. | The specific remainder and allocation in the two internal notes. |
+| Fifty armoured vehicles | Canadian Press/iPolitics and [CBC](https://www.cbc.ca/lite/story/1.7186785) covered the programme/delivery. | The later December recommendation's contents. |
+| GAC assignment eligibility | Canadian staffing-cut coverage provides context. | Exact round-three eligibility decision and nine-page file. |
+| Israel / Maple reactions | [The Maple](https://www.readthemaple.com/trudeau-government-admits-it-authorized-new-israeli-military-exports-after-october-7/) published the article explicitly named in the request. | Internal reactions, not a new discovery of the published export claim. |
+| Nanisivik storage-tank order | Facility delays and transition are covered; the precise order/remedy was not established. | The ten-page compliance file. No demonstrated causal link to transition. |
+| Mines allegation | Related Canadian reporting concerns injury/clearance, not proof of the distinct deployment allegation. | The one-page release and a substantiated incident. |
+| Military mental-health policy | [The Canada Report](https://www.thecanadareport.ca/military-police-mental-health-detention/) covered the exact request and supplied the seven-page scan, which we obtained. | A concrete implementation case would be needed for a new story. |
+| Biometric training | Public privacy assessment and historical rules provide context. | The 95-page 2025 file and whether it concerns a proposal, authorization or actual collection. |
+
+Each topic initially received one Exa query returning ten results. Only China permits, Nanisivik and biometrics received an expansion query; only Nanisivik received a French query. “No exact match found” is provisional, including for Canadian media. Syndicated stories and follow-ons are not independent investigations.
 
 ## The two most useful handoffs
 
@@ -36,7 +59,7 @@ The scan contains Military Police Policy Manual Chapter 323, *Mental Health Inte
 - **China nuclear-related export permits:** an identifier query collided with unrelated Chinese standards. A broader query found rules, not the transaction. Obtain the five-page note **A-2025-01773** to identify the item, exporter, end-user and decision; “dual-use” does not establish a military end-use or approval.
 - **GAC assignments:** staffing cuts are already reported, but the particular round-three eligibility decision remains unidentified. The nine-page **A-2025-02439** and eligibility bulletin are needed.
 - **Ukraine mines:** reports of Canadians injured by or clearing anti-tank mines do not substantiate the separate allegation that Canadians deployed prohibited anti-personnel mines. The one-page release must be read before amplifying that claim.
-- **Low-ranked audits:** Petawawa Q-103 produced a concrete balcony-repair listing, although not verified performance or a safety failure. This cautions against treating low scores as safe rejection. The other audits recovered ordinary evacuation context and existing medical-fairness guidance.
+- **Low-ranked audits:** Petawawa Q-103 produced a concrete balcony-repair listing, although not verified performance or a safety failure. This cautions against treating low scores as safe rejection. The Middle East audit recovered ordinary evacuation context. The medical-fairness search returned relevant guidance, but its model screening and prior low-priority conclusion are invalid because they used the wrong departmental summary; corrected screening remains pending.
 
 The C22 pistol control recovered the original CBC investigation in one Exa query. Alternate CBC pages, syndication and follow-ons were treated as shared lineage, not numerous independent investigations. One successful control does not establish general search recall.
 
@@ -46,7 +69,7 @@ The frozen source contains **441 Global Affairs Canada and 793 National Defence 
 
 Of 926 fully/partly disclosed rows, six list zero pages. One wholly exempted row lists 31 pages. Those inconsistencies were preserved. Year/month mean closure, pages mean pages released, and request wording does not verify its premise. Most underlying releases are still unavailable in this run.
 
-A seeded 100-record departmental calibration preceded full ranking. All calibration responses were reused: 1,234 ranking calls total, not 1,334. Four score dimensions were preserved, with a fixed weighted composite. All rows were ranked; release-based shortlist eligibility required positive pages and full/partial disclosure. Semantic clustering merged repeated notes and closely related programme questions. Ten clusters, three seeded lower-half audits and the C22 control received initial searches; three decision-relevant expansion searches followed, including French for Nanisivik.
+A seeded 100-record departmental calibration preceded full ranking. All calibration responses were reused: 1,234 ranking calls total, not 1,334. Four score dimensions were preserved, with a fixed weighted composite. All rows were ranked; release-based shortlist eligibility required positive pages and full/partial disclosure. Semantic clustering merged repeated notes and closely related programme questions. Ten clusters, three intended seeded lower-half audits and the C22 control received initial searches; one audit was misattached during plan construction and its subsequent screening is invalid; three decision-relevant expansion searches followed, including French for Nanisivik.
 
 Jev also screened returned coverage and bounded public-source passages. These are aids to reading, not final editorial findings. A high-scoring “death penalty” request had a **no records** disposition, exposing how alarming wording can mislead. Claim-level review, date checks, ordinary explanations and accessible source passages mattered more than score alone.
 
@@ -61,4 +84,4 @@ Preserve **`ati-live/ledger.sqlite`** when continuing: it is the single cumulati
 
 ## Portable-package scope
 
-The portable archive omits full third-party news articles, publisher HTML, raw Exa response text, full vendor documentation, and the live SQLite database that embeds article passages. It retains query/URL/rank metadata, hashes, agent summaries, government records and per-attempt accounting. The complete live ledger remains in the private repository and must be preserved for continuation; the archive is not a fresh spending authorization. No tax-inclusive invoice or actual cash debit was verified. The readable report is available in this private repository. Library delivery of the corrected artifacts was not completed.
+The portable archive omits full third-party news articles, publisher HTML, raw Exa response text, full vendor documentation, and the live SQLite database that embeds article passages. It retains query/URL/rank metadata, hashes, agent summaries, government records and per-attempt accounting. The complete live ledger remains in the original private execution workspace, excluded from this GitHub repository, and must be preserved for continuation; the archive is not a fresh spending authorization. No tax-inclusive invoice or actual cash debit was verified. The readable report is available in this private repository. Library delivery of the corrected artifacts was not completed.

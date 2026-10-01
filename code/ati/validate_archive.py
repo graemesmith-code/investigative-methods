@@ -2,12 +2,23 @@
 import collections,csv,hashlib,json,pathlib,re
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 OUT=ROOT/'research/2026-10-01/ati-live'
+from make_plans import validate_plan
+
 def main():
  raw=json.loads((OUT.parent/'ati-cloud-preflight/corpus/records.json').read_text())
  ranked=json.loads((OUT/'full-ranked.json').read_text())
  assert len(raw)==len(ranked)==1234
  assert len({r['_id'] for r in ranked})==1234
  assert {r['_id'] for r in ranked}=={r['_id'] for r in raw}
+ for name in ['coverage-plans.json','control-plans.json','expansion-plans.json','branch-plans.json','branch-decisions.json','editorial-decisions.json']:
+  for plan in json.loads((OUT/name).read_text()):validate_plan(plan,ranked)
+ review=json.loads((OUT/'identity-review.json').read_text())
+ assert len(review['leads'])==14
+ assert sum(len(x['searches']) for x in review['leads'])==17
+ assert sum(x['coverage_screen_count'] for x in review['leads'])==140
+ assert sum(x['branch_screen_count'] for x in review['leads'])==28
+ assert [x['lead'] for x in review['leads'] if x['metadata_corrected']]==['audit-medical-fairness']
+ assert review['paid_calls_during_correction']==0
  with (OUT/'full-ranked.csv').open() as f:assert len(list(csv.DictReader(f)))==1234
  ledger=json.loads((OUT/'ledger-accounting.json').read_text());attempts=ledger['attempts'];counts=collections.Counter(r['provider'] for r in attempts)
  assert counts=={'jev':1402,'exa':17}
@@ -39,6 +50,6 @@ def main():
    if re.match(r'[a-zA-Z][a-zA-Z0-9+.-]*:',target) or target.startswith('#'):continue
    local=target.split('#',1)[0]
    assert (p.parent/local).exists(),f'Broken local link: {p.relative_to(ROOT)} -> {target}'
- result={'tests':'13 offline safeguards tests pass: 11 run-era plus 2 post-run continuation guards','scored_unique_records':1234,'jev_calls':1402,'exa_calls':17,'accounted_microusd':ledger['accounted_microusd'],'all_calls_successful':True,'pending_attempts':0,'branch_questions':5,'release_packets':1,'release_pages':7,'full_third_party_news_text':'excluded','live_database':'excluded','source_hashes':'verified','executed_source_hashes':'verified','relative_markdown_links':'verified','tax_inclusive_invoice':'not verified','whitespace_note':'Author-written source/docs clean; original source bytes, OCR and CSV CRLF preserved despite data whitespace diagnostics.'}
+ result={'tests':'18 offline tests pass: 11 run-era, 2 continuation guards, 5 identity regression tests','scored_unique_records':1234,'jev_calls':1402,'exa_calls':17,'accounted_microusd':ledger['accounted_microusd'],'all_calls_successful':True,'pending_attempts':0,'branch_questions':5,'release_packets':1,'release_pages':7,'full_third_party_news_text':'excluded','live_database':'excluded','source_hashes':'verified','executed_source_hashes':'verified','relative_markdown_links':'verified','tax_inclusive_invoice':'not verified','whitespace_note':'Author-written source/docs clean; original source bytes, OCR and CSV CRLF preserved despite data whitespace diagnostics.'}
  (OUT/'archive-validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
 if __name__=='__main__':main()
