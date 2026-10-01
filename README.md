@@ -1,35 +1,25 @@
 # Finding reporting questions in public records
 
-A notebook for journalists who want to try small, affordable experiments with public records, search and AI. Start with a question you understand, keep the original evidence, and judge the result by whether it helps a reporter decide what to read next. You do not need to code to read these accounts or try their basic recipes.
+Public records can offer more leads than a journalist has time to read. This notebook explores small, affordable ways to choose what deserves a closer look—with spreadsheets, search and sometimes AI. You do not need to code to follow the accounts or try their basic recipes.
 
-This is a record of experiments, including failures and unfinished work. It has **not** established a reliable scoop-finding service or shown that AI outperforms a reporter using simple rules.
+The most complete trial ranked 1,234 Canadian access-to-information request summaries, checked ten shortlisted topics and obtained one seven-page release. It identified two specific files worth reading next, **not a verified scoop**. Recorded model and search charges came to **about 18 US cents, excluding setup and reporting time**. The useful result was a clearer next reporting step, including knowing when to stop.
 
-## Choose a starting point
+## Choose a recipe for your beat
 
-- **See the most complete trial:** [Canadian access-to-information summaries](experiments/07-canadian-ati.md). We ranked 1,234 request summaries, checked ten shortlisted topics and obtained one seven-page release. Two specific files were worth obtaining next; no new allegation was verified.
-- **Learn from a simple check:** [Contracts and sanctions names](experiments/01-ofac-baseline.md). Millions of transactions became 13 name matches. The strongest example recorded a contract termination with no new money committed, not a prohibited payment.
-- **Understand what search can miss:** [A missed known news story](experiments/03-headline-filter.md) and [the ten-lead Jev/Exa trial](experiments/06-jev-exa.md). An empty result is not evidence that a story is unreported.
-- **Try reading connected documents:** [Enron filings](experiments/08-enron.md) and [bank lending before 2008](experiments/09-bank-lending.md). These are exercises in reading and checking historical records, not demonstrations of predicting scandals.
-- **Choose a source for your beat:** [Rabbit catalog reference](catalogs/README.md), alongside the [small public-source access trial](experiments/02-public-source-pilot.md). A catalog entry is an invitation to test a source, not a promise that access works or that it contains a story.
+- **Find the next document to read.** The [Canadian ATI experiment](experiments/07-canadian-ati.md) turns short request summaries into choices: obtain a named file, sharpen a question, or recognize that the story is already covered. Try it when an index is much larger than your reading time.
+- **Check names without jumping to conclusions.** The [contracts-and-sanctions experiment](experiments/01-ofac-baseline.md) reduced millions of transactions to thirteen candidate pairs. Its strongest example shows why the action behind a match matters as much as the name.
+- **Test whether your search works.** The [missed known news story](experiments/03-headline-filter.md) offers a simple recipe: check an article you already know exists before trusting an empty search. No result does not mean no earlier reporting.
+- **Give a promising paragraph more context.** The [Enron filings](experiments/08-enron.md) and [bank-lending surveys](experiments/09-bank-lending.md) show how connected records and careful arithmetic can produce better questions—and catch misleading ones.
+- **Explore a new source.** Browse the [Rabbit catalog reference](catalogs/README.md), then use the [public-source trial](experiments/02-public-source-pilot.md) to check a few records before investing in a bigger collection.
 
-[All experiments, dates and evidence status](experiments/README.md) · [A recipe for your own experiment](docs/method.md) · [Blank run record](templates/run.md)
+Some trials use **Jev**, a model service that ranks or assesses text, and **Exa**, a search service for finding possible earlier coverage. Their [ten-lead contract trial](experiments/06-jev-exa.md) shows why the original records and search results must accompany a dashboard.
 
-## What has proved useful so far
+## Try something small, and keep what you learn
 
-Keeping the actual record beside the proposed question makes mistakes easier to catch. In the ATI trial, an existing article led to the exact mental-health policy release: the useful decision was to stop pursuing an already-covered claim. Another lead named a ten-page Nanisivik compliance file, but public background did not prove that the order caused the facility's transition out of operational use. The missing file mattered more than more general searches.
+Start with [the reporting recipe](docs/method.md) and [blank run record](templates/run.md), or browse [all ten experiments](experiments/README.md). Each account explains the question, source, steps, results, costs and next useful move.
 
-What has **not** been demonstrated is a dependable success rate, the number of important records missed, or savings in reporter time. Several early prototypes lack the original inputs and search logs. The historical tests were chosen with hindsight. The later ATI trial preserved much more evidence, but still has no fair comparison with simpler ways of choosing records.
+**What we still need to learn:** whether these methods save reporter time or find better questions than simple rules. Early trials have missing evidence, and historical examples benefit from hindsight. Read the [costs and limits](docs/costs-and-limitations.md), [correction history](research/2026-10-01/ati-live/correction-identity.md) and [unfinished work](docs/next-steps.md) alongside the results.
 
-## Costs and corrections belong beside the results
+[Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-The ATI run recorded **USD0.061954 in estimated Jev usage across 1,402 calls**, plus **USD0.119 reported by Exa across 17 searches**. Their sum, USD0.180954, excludes unmeasured labour and is not an audited invoice or full project cost. Earlier contract-ranking costs remain unknown. The requested OpenAI comparison was blocked on a missing key **before any API call; USD0 and no comparison result**. [Costs and limits](docs/costs-and-limitations.md).
-
-**ATI correction:** ten model assessments for one lower-ranked medical-fairness check used the wrong department's summary. Those assessments and the previous conclusion are invalid; a corrected rerun is pending. All ten shortlisted topics retain their checked identities. [Correction and preserved history](research/2026-10-01/ati-live/correction-identity.md).
-
-## Read, check, then adapt
-
-Each experiment starts with its question, what the source can tell you, a recipe, results and the next useful step. **Inspected evidence** means a saved file was checked; **reported result** means the full supporting logs are missing; **proposal** means it has not been tested. None of these labels makes a lead a finding ready to publish.
-
-[Technical annexes](annexes/README.md) hold the longer reports, prompts, code, accounting and reproduction instructions. Code and machine-readable evidence stay at their established paths so existing scripts continue to work. The repository remains private; this edit changes neither access nor licensing.
-
-Updated 1 October 2026. Source dates and the limits of each historical run are recorded on its page.
+Updated 1 October 2026. This repository remains private; access and licensing are unchanged.
