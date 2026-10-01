@@ -1,0 +1,222 @@
+{
+  "title": "Rabbit public-record source catalogs: archival provenance",
+  "recovered_at": "2026-10-01",
+  "preservation": "Seven distinct original UTF-8 files preserved byte-for-byte. No catalog entries reconstructed, rewritten or silently updated.",
+  "files": [
+    {
+      "name": "Rabbit1.txt",
+      "bytes": 175080,
+      "sha256": "481822965b1c6966fe8e86c561f61dfebd3d06743ff2fa4fecbaff909d45b09f",
+      "git_blob_sha1": "51bfd8a0e3e5e74f4627213e889a3416dc215ab7",
+      "created_at": "2026-08-21T20:30:32.329038Z",
+      "modified_at": "2026-08-21T20:30:32.329038Z",
+      "sys_record_count": 0,
+      "sys_first": null,
+      "sys_last": null,
+      "path": "originals/Rabbit1.txt",
+      "description": "Reader guide: scope, methodology, legal cautions, controlled record families, jurisdiction directory, volume map and glossary. Start here to interpret status labels and join stable identifiers.",
+      "library_record_version": null,
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates.",
+      "byte_identical_earlier_export": {
+        "name": "investigative_api_catalogue_00_guide.txt",
+        "uploaded_at": "2026-08-19T09:46:32.840485Z"
+      }
+    },
+    {
+      "name": "Rabbit2(1).txt",
+      "bytes": 983632,
+      "sha256": "08bc4c08215194dffa3525f46d7fe9d849cca86fe640f127e9df1c644c6fe079",
+      "git_blob_sha1": "c14ff9c809bc8252ffbf437d09ce6d9ee727cc07",
+      "created_at": "2026-09-17T18:30:10.376691Z",
+      "modified_at": "2026-09-23T12:05:05.636439Z",
+      "sys_record_count": 267,
+      "sys_first": "SYS-0001",
+      "sys_last": "SYS-0267",
+      "path": "originals/Rabbit2(1).txt",
+      "description": "Volume 1 with a 2026-09-23 public-interest journalism review of 30 GSA/SAM documentation titles. The review clarifies opportunity notices, award modifications, subawards, access limits and evidence handling. Existing SYS/AP identifiers and historical scores are retained.",
+      "library_record_version": "1",
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates."
+    },
+    {
+      "name": "Rabbit2.txt",
+      "bytes": 954579,
+      "sha256": "3fb3774a6a98823ade8f358ea9a80e91ef30c4f221e142fc7e5ce1e8330fc7df",
+      "git_blob_sha1": "c78ee0ada39430990143abf5ede043488f02fbda",
+      "created_at": "2026-08-21T20:30:38.329748Z",
+      "modified_at": "2026-08-21T20:30:38.329748Z",
+      "sys_record_count": 267,
+      "sys_first": "SYS-0001",
+      "sys_last": "SYS-0267",
+      "path": "originals/Rabbit2.txt",
+      "description": "Volume 1: 267 systems, SYS-0001–SYS-0267. Broad international starting points across company ownership, sanctions, procurement, trade, geospatial data, political records and humanitarian sources.",
+      "library_record_version": null,
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates.",
+      "byte_identical_earlier_export": {
+        "name": "investigative_api_catalogue_01_SYS-0001_to_SYS-0267.txt",
+        "uploaded_at": "2026-08-19T09:46:33.821846Z"
+      }
+    },
+    {
+      "name": "Rabbit3.txt",
+      "bytes": 983363,
+      "sha256": "c67fded1717daae6d7a6a171ef43ce6d6f86c9f687834c5699985e2c2ef2e218",
+      "git_blob_sha1": "637c31b5ef6983d9f25aa2bcfc58630b78155eb7",
+      "created_at": "2026-08-21T20:30:36.300512Z",
+      "modified_at": "2026-08-21T20:30:36.300512Z",
+      "sys_record_count": 298,
+      "sys_first": "SYS-0268",
+      "sys_last": "SYS-0565",
+      "path": "originals/Rabbit3.txt",
+      "description": "Volume 2: 298 systems, SYS-0268–SYS-0565. Substantial Canadian financial, mining and public-record coverage, plus international corporate, regulatory, environmental, research and public-service sources.",
+      "library_record_version": null,
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates.",
+      "byte_identical_earlier_export": {
+        "name": "investigative_api_catalogue_02_SYS-0268_to_SYS-0565.txt",
+        "uploaded_at": "2026-08-19T09:46:34.488311Z"
+      }
+    },
+    {
+      "name": "Rabbit4.txt",
+      "bytes": 953910,
+      "sha256": "7b026adb0646c42c9851a35f24a3276a992785e473f57348bb3d89044a159c37",
+      "git_blob_sha1": "44e495a65ead6f4b0e361f9a5a353bf2395eb44e",
+      "created_at": "2026-08-21T20:30:39.261073Z",
+      "modified_at": "2026-08-21T20:30:39.261073Z",
+      "sys_record_count": 361,
+      "sys_first": "SYS-0566",
+      "sys_last": "SYS-0926",
+      "path": "originals/Rabbit4.txt",
+      "description": "Volume 3: 361 systems, SYS-0566–SYS-0926. Cross-border corporate registries, beneficial ownership access, gazettes and enforcement, followed by shipping, aviation, intellectual-property and charity sources.",
+      "library_record_version": null,
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates.",
+      "byte_identical_earlier_export": {
+        "name": "investigative_api_catalogue_03_SYS-0566_to_SYS-0926.txt",
+        "uploaded_at": "2026-08-19T09:46:35.165625Z"
+      }
+    },
+    {
+      "name": "Rabbit5.txt",
+      "bytes": 908003,
+      "sha256": "9dafc6500b6e0e598f2155ffc0078ea337e00e761298c5e737d1b68be1b0787c",
+      "git_blob_sha1": "18a4289a65f0ab80086beba37aa6b239539fce40",
+      "created_at": "2026-08-21T20:30:39.087794Z",
+      "modified_at": "2026-08-21T20:30:39.087794Z",
+      "sys_record_count": 359,
+      "sys_first": "SYS-0927",
+      "sys_last": "SYS-1285",
+      "path": "originals/Rabbit5.txt",
+      "description": "Volume 4: 359 systems, SYS-0927–SYS-1285. Procurement and public spending are prominent, alongside grants, mining concessions, freedom-of-information releases, enforcement and digital transparency.",
+      "library_record_version": null,
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates.",
+      "byte_identical_earlier_export": {
+        "name": "investigative_api_catalogue_04_SYS-0927_to_SYS-1285.txt",
+        "uploaded_at": "2026-08-19T09:46:35.937391Z"
+      }
+    },
+    {
+      "name": "Rabbit6.txt",
+      "bytes": 930120,
+      "sha256": "43effb311000073821ec4de747d733ffedf3ce6c2a3f7ad5664ebfce1da224e6",
+      "git_blob_sha1": "5598d6ce57b618b9de8a002d8b12bfa08196efea",
+      "created_at": "2026-08-21T20:30:39.126424Z",
+      "modified_at": "2026-08-21T20:30:39.126424Z",
+      "sys_record_count": 270,
+      "sys_first": "SYS-1286",
+      "sys_last": "SYS-1555",
+      "path": "originals/Rabbit6.txt",
+      "description": "Volume 5: 270 systems, SYS-1286–SYS-1555. Public-interest coverage of policing, official assets and interests, migration, social services, municipal records, health-care ownership and financial regulation.",
+      "library_record_version": null,
+      "timestamp_meaning": "Original Library upload/modified timestamps; these are not necessarily the composition or source-verification dates.",
+      "byte_identical_earlier_export": {
+        "name": "investigative_api_catalogue_05_SYS-1286_to_SYS-1555.txt",
+        "uploaded_at": "2026-08-19T09:46:36.864608Z"
+      }
+    }
+  ],
+  "duplicate_uploads": [
+    {
+      "name": "Rabbit4(1).txt",
+      "byte_identical_to": "Rabbit4.txt",
+      "uploaded_at": "2026-09-17T18:30:10.148456Z",
+      "modified_at": "2026-09-17T18:30:10.148456Z",
+      "bytes": 953910,
+      "sha256": "7b026adb0646c42c9851a35f24a3276a992785e473f57348bb3d89044a159c37",
+      "archival_handling": "Not duplicated in Git; its exact byte-identical content is retained under the original filename."
+    },
+    {
+      "name": "Rabbit3(1).txt",
+      "byte_identical_to": "Rabbit3.txt",
+      "uploaded_at": "2026-09-17T18:30:09.994337Z",
+      "modified_at": "2026-09-17T18:30:09.994337Z",
+      "bytes": 983363,
+      "sha256": "c67fded1717daae6d7a6a171ef43ce6d6f86c9f687834c5699985e2c2ef2e218",
+      "archival_handling": "Not duplicated in Git; its exact byte-identical content is retained under the original filename."
+    },
+    {
+      "name": "Rabbit5(1).txt",
+      "byte_identical_to": "Rabbit5.txt",
+      "uploaded_at": "2026-09-17T18:30:09.753973Z",
+      "modified_at": "2026-09-17T18:30:09.753973Z",
+      "bytes": 908003,
+      "sha256": "9dafc6500b6e0e598f2155ffc0078ea337e00e761298c5e737d1b68be1b0787c",
+      "archival_handling": "Not duplicated in Git; its exact byte-identical content is retained under the original filename."
+    },
+    {
+      "name": "Rabbit6(1).txt",
+      "byte_identical_to": "Rabbit6.txt",
+      "uploaded_at": "2026-09-17T18:30:09.569948Z",
+      "modified_at": "2026-09-17T18:30:09.569948Z",
+      "bytes": 930120,
+      "sha256": "43effb311000073821ec4de747d733ffedf3ce6c2a3f7ad5664ebfce1da224e6",
+      "archival_handling": "Not duplicated in Git; its exact byte-identical content is retained under the original filename."
+    },
+    {
+      "name": "Rabbit1(1).txt",
+      "byte_identical_to": "Rabbit1.txt",
+      "uploaded_at": "2026-09-17T18:30:08.997098Z",
+      "modified_at": "2026-09-17T18:30:08.997098Z",
+      "bytes": 175080,
+      "sha256": "481822965b1c6966fe8e86c561f61dfebd3d06743ff2fa4fecbaff909d45b09f",
+      "archival_handling": "Not duplicated in Git; its exact byte-identical content is retained under the original filename."
+    }
+  ],
+  "integrity": {
+    "record_count": 1555,
+    "unique_ids": 1555,
+    "duplicates": [],
+    "missing_expected_ids": []
+  },
+  "catalogue_totals": {
+    "source_systems": 1555,
+    "access_points": 2516,
+    "system_jurisdiction_family_mappings": 1739,
+    "jurisdictions_and_control_entries": 643,
+    "controlled_record_families": 38,
+    "canonical_verification_records": 1084,
+    "read_only_evidence_checks": 3787,
+    "ranked_systems": 1186
+  },
+  "totals_evidence": "Rabbit1.txt declares the totals. SYS and AP heading totals were independently counted in Rabbit2.txt through Rabbit6.txt during recovery.",
+  "lineage": [
+    "The text edition states it was generated on 2026-08-19 from 13aug2026_reconciled_investigative_api_catalogue.xlsx.",
+    "Rabbit1.txt through Rabbit6.txt were uploaded on 2026-08-21 and are individually byte-identical to the six investigative_api_catalogue_00–05 exports uploaded on 2026-08-19.",
+    "Six copies with (1) suffix were uploaded on 2026-09-17. Five are byte-identical duplicates. Rabbit2(1).txt was modified on 2026-09-23.",
+    "The September Rabbit2 update inserts a dated 223-line GSA/SAM review and changes one legacy investigative-relevance description. Its RAB-GSA-20260923-01–30 identifiers are local audit identifiers, not 30 newly allocated global source systems."
+  ],
+  "count_caveats": [
+    "The 1,555 SYS records include active, partial, unverified and discovery-only entries. They are not 1,555 live-tested, free or unrestricted APIs.",
+    "The earlier catalog lineage is 158 sources (2026-08-05), 263 (2026-08-08), and 345 established sources plus three separate 300-row candidate-review layers in the Canada expansion workbook (declared expanded 2026-08-12). These are historical counts, not the size of the six Rabbit files.",
+    "The guide states 14aug26v1.xlsx was not incorporated because its ZIP container was truncated. That is a limitation stated by the original export, not a new repair or validation claim.",
+    "Source availability, prices, quotas, licenses and terms remain dated claims in the original records. Recovery does not revalidate every endpoint."
+  ],
+  "privacy_review": {
+    "scope": "Seven distinct Rabbit text artifacts",
+    "result": "No live credentials, private contact details or URL-embedded authentication credentials found in the targeted review. API-key parameters are explicit placeholders; the sole email is researcher@example.org. The catalogs describe sensitive record categories but do not contain the underlying personal record datasets.",
+    "redactions_made": false,
+    "limitations": "Pattern checks and contextual review are not a universal guarantee of absence. No endpoints were exercised with credentials."
+  },
+  "authorship_and_reuse": {
+    "provenance": "The original six Rabbit files are byte-identical to earlier exports labeled model-generated in Library. The guide identifies the reconciled workbook as its source. No separate human byline or compilation-wide license was found.",
+    "publication_caution": "This archive does not grant rights in third-party websites, documents or datasets. Entries have individual legal/reuse cautions. Before any public release, review compilation licensing and source-specific copyright, database rights, terms and personal-data restrictions. Do not apply a blanket code license to the source data by assumption."
+  }
+}

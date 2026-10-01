@@ -10,7 +10,7 @@ A summary tells you what someone asked for; it does not prove the request's prem
 
 ## A recipe you can follow
 
-1. Choose a beat and a small dated set of summaries. Keep the department and request number together.
+1. Start with the [saved summary spreadsheet (CSV)](../research/2026-10-01/ati-cloud-preflight/corpus/records.csv), which opens in common spreadsheet software. Choose a beat and a small set of rows. Keep the department and request number together.
 2. Read for a specific event and an obtainable document. Check pages and disclosure status; do not mistake alarming request wording for evidence.
 3. Group repeated requests about the same subject. Pick a short list and keep a few lower-ranked examples to check what you may have missed.
 4. Search for the exact event and read the results. Separate news reporting from official statements and general background. Try a known-covered example too.
@@ -59,8 +59,8 @@ The known-covered C22 pistol example recovered the original CBC investigation. O
 
 ## What it cost and what to do next
 
-Jev usage was **USD0.061954, estimated from observed tokens across 1,402 calls**. Exa reported **USD0.119 for 17 searches**. The combined USD0.180954 is usage accounting, not an audited invoice, verified cash charge or labour cost. Human review time was not measured.
+Estimated Jev usage was **about 6 US cents across 1,402 calls**; Exa reported **about 12 US cents for 17 searches**. Together that is **about 18 US cents**, excluding setup and reporting time. Human review time was not measured. The [exact accounting](../docs/costs-and-limitations.md) separates estimates from provider-reported costs; this is not an audited bill.
 
-Read the two named releases before making substantive claims. Separately, repair the invalid medical-fairness assessment only under a newly authorized run with the original spending ledger restored. This rewrite made no API calls or document requests. The requested OpenAI comparison remained blocked on a missing key before any call, with USD0 spent and no result.
+Read the two named releases before making substantive claims. The invalid medical-fairness assessment still needs a corrected rerun. The requested OpenAI comparison **has not run: no API calls, no result and USD0 spent**. [Technical continuation requirements](../annexes/ati-files.md#continuation-and-the-unrun-comparison) explain the remaining setup. No new ATI calls or document requests were made for this rewrite.
 
 [Technical annex and exact sources](../annexes/ati-report.md) · [Evidence files](../research/2026-10-01/ati-live/README.md) · [All experiments](README.md)

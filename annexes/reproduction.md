@@ -28,6 +28,8 @@ Replace `YYYY-MM` explicitly. The script defaults to June 2026 if omitted. It wr
 
 ## Other experiments
 
+For the completed Canadian ATI run, use the [ATI code and offline-test instructions](../code/ati/README.md) and [guide to ATI files and fields](ati-files.md). Code and evidence retain their original repository paths.
+
 The API sample manifest documents source captures, not a complete collector implementation. The Replit references establish historical prototype publication without pinning code. The Exa CSV cannot reproduce Jev ranking or search without original inputs, prompts, code version, queries and article outputs. Missing material is listed in the [evidence inventory](../evidence/README.md).
 
 [Home](../README.md)

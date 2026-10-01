@@ -1,0 +1,76 @@
+{
+  "verified_on": "2026-10-01",
+  "transfer_commit": "175b3a5d2f292e034b84bedb09b92725900b5d30",
+  "archive_bytes": 355240,
+  "archive_sha256": "1d83fac6d1f26251755c3150dbb325dad5e7b815592fccd4e560d909f8235bbf",
+  "archive_handling": "Eight allowlisted regular files read individually after path/type/size checks; no transport files imported into main.",
+  "files": [
+    {
+      "path": "originals/Rabbit1.txt",
+      "bytes": 175080,
+      "sha256": "481822965b1c6966fe8e86c561f61dfebd3d06743ff2fa4fecbaff909d45b09f",
+      "matches_provenance": true,
+      "sys_count": 0,
+      "access_point_count": 0
+    },
+    {
+      "path": "originals/Rabbit2(1).txt",
+      "bytes": 983632,
+      "sha256": "08bc4c08215194dffa3525f46d7fe9d849cca86fe640f127e9df1c644c6fe079",
+      "matches_provenance": true,
+      "sys_count": 267,
+      "access_point_count": 745
+    },
+    {
+      "path": "originals/Rabbit2.txt",
+      "bytes": 954579,
+      "sha256": "3fb3774a6a98823ade8f358ea9a80e91ef30c4f221e142fc7e5ce1e8330fc7df",
+      "matches_provenance": true,
+      "sys_count": 267,
+      "access_point_count": 745
+    },
+    {
+      "path": "originals/Rabbit3.txt",
+      "bytes": 983363,
+      "sha256": "c67fded1717daae6d7a6a171ef43ce6d6f86c9f687834c5699985e2c2ef2e218",
+      "matches_provenance": true,
+      "sys_count": 298,
+      "access_point_count": 768
+    },
+    {
+      "path": "originals/Rabbit4.txt",
+      "bytes": 953910,
+      "sha256": "7b026adb0646c42c9851a35f24a3276a992785e473f57348bb3d89044a159c37",
+      "matches_provenance": true,
+      "sys_count": 361,
+      "access_point_count": 364
+    },
+    {
+      "path": "originals/Rabbit5.txt",
+      "bytes": 908003,
+      "sha256": "9dafc6500b6e0e598f2155ffc0078ea337e00e761298c5e737d1b68be1b0787c",
+      "matches_provenance": true,
+      "sys_count": 359,
+      "access_point_count": 364
+    },
+    {
+      "path": "originals/Rabbit6.txt",
+      "bytes": 930120,
+      "sha256": "43effb311000073821ec4de747d733ffedf3ce6c2a3f7ad5664ebfce1da224e6",
+      "matches_provenance": true,
+      "sys_count": 270,
+      "access_point_count": 275
+    }
+  ],
+  "original_volumes_unique_sys": 1555,
+  "original_volumes_unique_access_points": 2516,
+  "sys_range": "SYS-0001 through SYS-1555, no gaps or duplicates",
+  "revision_global_ids_changed": false,
+  "revision_local_review_ids": 30,
+  "revision_diff": {
+    "inserted_lines": 223,
+    "replaced_lines": 1
+  },
+  "catalog_endpoint_retests": 0,
+  "private_repository": true
+}

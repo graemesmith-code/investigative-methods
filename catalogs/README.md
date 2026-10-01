@@ -4,7 +4,7 @@ The Rabbit collection is a map of public-record systems for journalists. Use it 
 
 **What is in the collection:** one reader guide and five volumes, containing **1,555 distinct system records and 2,516 access points**. A system is the source being described; an access point is a route into it, such as a search page, download or API. Several routes may serve the same system. The count includes partial, unverified and discovery-only routes: it does **not** mean 1,555 free, working, live-tested APIs.
 
-The overview below comes from the recovered files and their verified counts. The [original Rabbit1 reader guide](../references/rabbit/originals/Rabbit1.txt) is now available here. Transfer of the five volumes and the Rabbit2 revision is still pending; their download links and the full provenance record will be added after their bytes are checked here.
+All six originals and the distinct Rabbit2 revision are available below, preserved byte-for-byte. [File history and provenance](../references/rabbit/README.md) explain the dates, identical copies and integrity checks. These are searchable text files with structured headings; open or download a volume and search for a place, source name or `SYS` identifier.
 
 ## Choose a volume
 
@@ -12,12 +12,12 @@ These are starting points, not strict subject boundaries. A beat may cross sever
 
 | File | What you will find | A question it could help you explore |
 |---|---|---|
-| **Rabbit1 — reader guide** | Scope, methods, legal cautions, record families, jurisdiction directory, volume map and glossary | What kind of record might answer my question, and what should I check before using it? |
-| **Rabbit2 — volume 1** | 267 systems, SYS0001–SYS0267: international ownership, sanctions, procurement, trade, geospatial, political and humanitarian records | Who owns a supplier, and which records could connect it with contracts or cross-border activity? |
-| **Rabbit3 — volume 2** | 298 systems, SYS0268–SYS0565: substantial Canadian finance, mining and public records, plus international corporate, regulatory, environmental, research and public-service sources | What changed in a mining project, its financing or its public approvals? |
-| **Rabbit4 — volume 3** | 361 systems, SYS0566–SYS0926: cross-border registries, beneficial ownership, official gazettes and enforcement, shipping, aviation, intellectual property and charities | Which public records could help check a company's owners, assets or regulatory history? |
-| **Rabbit5 — volume 4** | 359 systems, SYS0927–SYS1285: procurement, spending, grants, mining concessions, information-request releases, enforcement and digital transparency | How did an award or concession change, and is there a released document that explains why? |
-| **Rabbit6 — volume 5** | 270 systems, SYS1286–SYS1555: policing, officials' interests and assets, migration, social services, municipal records, healthcare ownership and financial regulation | Which records might connect a local service decision with its operators, finances or oversight? |
+| **[Rabbit1 — reader guide](../references/rabbit/originals/Rabbit1.txt)** | Scope, methods, legal cautions, record families, jurisdiction directory, volume map and glossary | What kind of record might answer my question, and what should I check before using it? |
+| **[Rabbit2 — volume 1](../references/rabbit/originals/Rabbit2%281%29.txt)** | 267 systems, SYS-0001–SYS-0267: international ownership, sanctions, procurement, trade, geospatial, political and humanitarian records | Who owns a supplier, and which records could connect it with contracts or cross-border activity? |
+| **[Rabbit3 — volume 2](../references/rabbit/originals/Rabbit3.txt)** | 298 systems, SYS-0268–SYS-0565: substantial Canadian finance, mining and public records, plus international corporate, regulatory, environmental, research and public-service sources | What changed in a mining project, its financing or its public approvals? |
+| **[Rabbit4 — volume 3](../references/rabbit/originals/Rabbit4.txt)** | 361 systems, SYS-0566–SYS-0926: cross-border registries, beneficial ownership, official gazettes and enforcement, shipping, aviation, intellectual property and charities | Which public records could help check a company's owners, assets or regulatory history? |
+| **[Rabbit5 — volume 4](../references/rabbit/originals/Rabbit5.txt)** | 359 systems, SYS-0927–SYS-1285: procurement, spending, grants, mining concessions, information-request releases, enforcement and digital transparency | How did an award or concession change, and is there a released document that explains why? |
+| **[Rabbit6 — volume 5](../references/rabbit/originals/Rabbit6.txt)** | 270 systems, SYS-1286–SYS-1555: policing, officials' interests and assets, migration, social services, municipal records, healthcare ownership and financial regulation | Which records might connect a local service decision with its operators, finances or oversight? |
 
 The questions illustrate possible uses. They are not findings about any person or organization and do not mean the catalog supplies every record needed to answer them.
 
@@ -34,9 +34,9 @@ The [public-source trial](../experiments/02-public-source-pilot.md) offers a pra
 
 The six originals match the exports generated on **19 August 2026**, which were uploaded on **21 August**. Later copies uploaded on **17 September** include five byte-identical files. They do not add five new volumes or additional systems.
 
-**Rabbit2(1) is the changed version.** Its dated **23 September** addition contains thirty local GSA/SAM documentation-review entries and one corrected description. It introduces no new global `SYS` numbers. Use that revision for the additional volume-1 review, while retaining the original Rabbit2 for comparison. The planned repository set preserves all six originals plus this one distinct revision, with the five identical copies recorded in provenance rather than duplicated.
+**[Rabbit2(1)](../references/rabbit/originals/Rabbit2%281%29.txt) is the changed version linked in the table.** Its dated **23 September** addition contains thirty local GSA/SAM documentation-review entries and one corrected description. It introduces no new global `SYS` numbers. Use that revision for the additional volume-1 review, while retaining the original Rabbit2 for comparison. The repository preserves all six originals, including the [earlier Rabbit2](../references/rabbit/originals/Rabbit2.txt), plus this one distinct revision. The five identical copies are recorded in [provenance](../references/rabbit/provenance.json) rather than duplicated.
 
-Earlier **158 → 263 → 345** catalog counts belong to a separately verified workbook history. They are not the size of this Rabbit collection and should not be added to its total as if all entries were different.
+Earlier **158 → 263 → 345** catalog counts belong to a separately verified workbook history. They are not the size of this Rabbit collection and should not be added to its total as if all entries were different. Some methodological notes in Rabbit1 also retain earlier-stage counts; the record counts above were checked against the actual five volumes.
 
 ## Access and reuse
 

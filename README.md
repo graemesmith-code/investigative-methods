@@ -2,7 +2,7 @@
 
 Public records can offer more leads than a journalist has time to read. This notebook explores small, affordable ways to choose what deserves a closer look—with spreadsheets, search and sometimes AI. You do not need to code to follow the accounts or try their basic recipes.
 
-The most complete trial ranked 1,234 Canadian access-to-information request summaries, checked ten shortlisted topics and obtained one seven-page release. It identified two specific files worth reading next, **not a verified scoop**. Recorded model and search charges came to **about 18 US cents, excluding setup and reporting time**. The useful result was a clearer next reporting step, including knowing when to stop.
+The most complete trial ranked 1,234 Canadian access-to-information request summaries, checked ten shortlisted topics and obtained one seven-page release. It identified two specific files worth reading next, **not a verified scoop**. Estimated model usage and reported search costs totalled **about 18 US cents, excluding setup and reporting time**. The useful result was a clearer next reporting step, including knowing when to stop.
 
 ## Choose a recipe for your beat
 

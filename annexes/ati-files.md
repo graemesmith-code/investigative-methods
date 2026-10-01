@@ -25,3 +25,7 @@ In the [live-run directory](../research/2026-10-01/ati-live/), `full-ranked.json
 `executed-code-provenance.json` fingerprints the API-stage code under [executed-v1](../code/ati/executed-v1/). Top-level [ATI code](../code/ati/README.md) adds continuation and identity safeguards. `archive-file-manifest.json` is a historical archive manifest, including documentation fingerprints from before this editorial restructuring; use [the new verification note](restructure-verification.md) for this change.
 
 [Annex index](README.md) · [ATI narrative](../experiments/07-canadian-ati.md)
+
+## Continuation and the unrun comparison
+
+The corrected medical-fairness screening needs a separately authorized rerun with the original live spending ledger restored and reconciled, not a new empty ledger. The [runner instructions](../code/ati/README.md) explain its continuation guards. The requested OpenAI comparison was blocked on a missing key before any API call; USD0 was spent and there is no comparison result. Neither the archive nor this editorial update supplies credentials or authorizes new calls.

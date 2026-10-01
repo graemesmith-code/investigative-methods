@@ -6,7 +6,7 @@ Editorial update dated 1 October 2026, based on corrected ATI commit `d445eea93e
 
 The root guide and ten experiment accounts lead with reporting questions, source limits, readable recipes, concrete results, costs and next steps. Longer accounts moved to `annexes/`; their old report paths remain as short entry points, including former Markdown heading targets. Relative links were adjusted and location notes explain where scripts still run. Historical reports retain their original-stage claims and dates rather than being rewritten as if later work had already happened.
 
-The original six experiment accounts, overnight synthesis, ATI report, Enron report, crisis report and source-probe report remain available in the annexes. The original reproduction instructions and detailed run template are there too. The source evidence, correction record, historical plans and invalid model assessments remain intact.
+The original six experiment accounts, overnight synthesis, ATI report, Enron report, crisis report and source-probe report remain available in the annexes. The original reproduction instructions and detailed run template are there too; the reproduction annex now also links directly to the ATI instructions and field guide. The source evidence, correction record, historical plans and invalid model assessments remain intact.
 
 ## Preservation and checks
 
@@ -21,6 +21,10 @@ The original six experiment accounts, overnight synthesis, ATI report, Enron rep
 - Existing structured files are parsed and Python syntax is checked without executing paid or source-retrieval stages.
 
 The historical ATI archive manifest retains its original documentation fingerprints; this is intentionally a historical record, not a manifest of the edited prose. Machine evidence was compared directly with the corrected base commit. The archive validator's output was unchanged after verification.
+
+## Rabbit reference addition
+
+All seven distinct original text files and the recovered provenance were imported after archive and per-file fingerprint checks. [Catalog verification](../references/rabbit/verification.json) records independently checked counts and version differences. The [catalog guide](../catalogs/README.md) distinguishes latest recovered versions from history and source access claims from tested experiments. No transport chunks or compressed archives were merged into `main`.
 
 ## Boundaries and remaining gaps
 
