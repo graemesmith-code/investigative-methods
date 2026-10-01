@@ -1,0 +1,100 @@
+{
+  "archive_name": "rabbit_transport.tar.xz",
+  "archive_sha256": "1d83fac6d1f26251755c3150dbb325dad5e7b815592fccd4e560d909f8235bbf",
+  "archive_bytes": 355240,
+  "base64_chars": 473656,
+  "chunk_count": 8,
+  "chunk_size_chars": 64000,
+  "parts": [
+    {
+      "name": "part-000.b64",
+      "sha256": "8f3bdd0a5029bb79a6280f46e18bf0878821ee5eb0ef9a7b788bfe8d19663c77",
+      "bytes": 64001
+    },
+    {
+      "name": "part-001.b64",
+      "sha256": "4876eb971d2a72e6e4b3988e5eff340803be752ec54c0f8036c81c5bc386af85",
+      "bytes": 64001
+    },
+    {
+      "name": "part-002.b64",
+      "sha256": "1c99a03c002118b0e1f06613bbb67faa61b32265769d48870ecb99552342bc67",
+      "bytes": 64001
+    },
+    {
+      "name": "part-003.b64",
+      "sha256": "2920447488e393e9286ca67950e085baebdd631b17993fef3647b466bbd5e2ed",
+      "bytes": 64001
+    },
+    {
+      "name": "part-004.b64",
+      "sha256": "aab757774786d89beb577ebd4e55289315c58be431a6059cd73ce4fd9e02819b",
+      "bytes": 64001
+    },
+    {
+      "name": "part-005.b64",
+      "sha256": "53115ce3b7137d1accb3374373d46ed82faa56eae13f7db8f03f5857a1c9cde8",
+      "bytes": 64001
+    },
+    {
+      "name": "part-006.b64",
+      "sha256": "16f35f344561d60314b9b3f4509e5332c91d20c2b165eb50a5ab32d8494f00c6",
+      "bytes": 64001
+    },
+    {
+      "name": "part-007.b64",
+      "sha256": "bc5883c4407c4782a1da069083c4f29afc98c0672c94a0469db67adca9a5ae42",
+      "bytes": 25657
+    }
+  ],
+  "expected_files": [
+    {
+      "path": "references/rabbit/originals/Rabbit1.txt",
+      "bytes": 175080,
+      "sha256": "481822965b1c6966fe8e86c561f61dfebd3d06743ff2fa4fecbaff909d45b09f",
+      "git_blob_sha1": "51bfd8a0e3e5e74f4627213e889a3416dc215ab7"
+    },
+    {
+      "path": "references/rabbit/originals/Rabbit2(1).txt",
+      "bytes": 983632,
+      "sha256": "08bc4c08215194dffa3525f46d7fe9d849cca86fe640f127e9df1c644c6fe079",
+      "git_blob_sha1": "c14ff9c809bc8252ffbf437d09ce6d9ee727cc07"
+    },
+    {
+      "path": "references/rabbit/originals/Rabbit2.txt",
+      "bytes": 954579,
+      "sha256": "3fb3774a6a98823ade8f358ea9a80e91ef30c4f221e142fc7e5ce1e8330fc7df",
+      "git_blob_sha1": "c78ee0ada39430990143abf5ede043488f02fbda"
+    },
+    {
+      "path": "references/rabbit/originals/Rabbit3.txt",
+      "bytes": 983363,
+      "sha256": "c67fded1717daae6d7a6a171ef43ce6d6f86c9f687834c5699985e2c2ef2e218",
+      "git_blob_sha1": "637c31b5ef6983d9f25aa2bcfc58630b78155eb7"
+    },
+    {
+      "path": "references/rabbit/originals/Rabbit4.txt",
+      "bytes": 953910,
+      "sha256": "7b026adb0646c42c9851a35f24a3276a992785e473f57348bb3d89044a159c37",
+      "git_blob_sha1": "44e495a65ead6f4b0e361f9a5a353bf2395eb44e"
+    },
+    {
+      "path": "references/rabbit/originals/Rabbit5.txt",
+      "bytes": 908003,
+      "sha256": "9dafc6500b6e0e598f2155ffc0078ea337e00e761298c5e737d1b68be1b0787c",
+      "git_blob_sha1": "18a4289a65f0ab80086beba37aa6b239539fce40"
+    },
+    {
+      "path": "references/rabbit/originals/Rabbit6.txt",
+      "bytes": 930120,
+      "sha256": "43effb311000073821ec4de747d733ffedf3ce6c2a3f7ad5664ebfce1da224e6",
+      "git_blob_sha1": "5598d6ce57b618b9de8a002d8b12bfa08196efea"
+    },
+    {
+      "path": "references/rabbit/provenance.json",
+      "bytes": 12943,
+      "sha256": "fd5640a11f77c2fe3f8c4b03896646ff5d383ab9e4fe30581030d823547e7279",
+      "git_blob_sha1": "e7baded112e7b6f6a78b19ceef4f171a835c1752"
+    }
+  ]
+}
