@@ -1,0 +1,1495 @@
+# Reconciled Investigative Public-Record API Catalogue
+
+NotebookLM-optimized edition | Generated 2026-08-19
+
+## Scope and provenance
+
+This document converts the intact `13aug2026_reconciled_investigative_api_catalogue.xlsx` into one searchable Markdown source. The later file `14aug26v1.xlsx` was not incorporated because its ZIP container is truncated and cannot be read as a complete workbook. The source workbook itself was not altered.
+
+The document preserves the catalogue's stable relational identifiers: source systems (`SYS`), access points (`AP`), system-to-jurisdiction and record-family mappings (`MAP`), jurisdictions (`JUR`), and record families (`RF`). Each source-system section brings the related access, coverage, ranking, verification, and evidence records together.
+
+### Catalogue totals
+
+- Source systems: 1,555
+- Access points: 2,516
+- System-jurisdiction-family mappings: 1,739
+- Jurisdictions and control entries: 643
+- Controlled record families: 38
+- Canonical verification records: 1,084
+- Read-only evidence checks: 3,787
+- Ranked systems: 1,186
+
+### Interpretation rules
+
+- `PARTIAL` means that active source presence was evidenced. It does not mean complete fields, complete history, permission to automate collection, or permission to republish raw records.
+- `DISCOVERY_ONLY` means that a source is retained as a lead but excluded from active coverage, usually because access, price, credentials, licensing, or technical operation remains conditional.
+- HTTP success proves reachability only. It does not prove dataset completeness, authenticity of every record, legality of a proposed use, or permission to scrape.
+- Endpoint counts are informational. Multiple endpoints do not increase a system's coverage score.
+- A missing source means missing from this catalogue, not necessarily absent from the public record.
+
+## Methodology
+
+### Scope
+- **Rule or definition:** Prompt 2 restructures and scores the Prompt 1 catalogue; it performs no source discovery.
+- **Implementation:** 484 source systems and 1245 principal access-point rows were used.
+- **Caution or source:** A missing source means missing from this workbook, not necessarily missing from public records.
+
+### Jurisdiction universe
+- **Rule or definition:** All ISO-style country/territory codes, Kosovo as a practical separate jurisdiction, selected decentralized first-level units, and explicit local-layer placeholders.
+- **Implementation:** 643 jurisdiction/control rows.
+- **Caution or source:** UN members: https://www.un.org/en/about-us/member-states | UN M49: https://unstats.un.org/unsd/methodology/m49/ | ISO 3166: https://www.iso.org/iso-3166-country-codes.html
+
+### Subnational scope
+- **Rule or definition:** United States states, Canadian provinces/territories, Australian states/territories, UK constituent nations and selected comparable decentralized systems are individually represented.
+- **Implementation:** Local units remain labelled placeholders unless enumerated.
+- **Caution or source:** Do not infer county or municipal coverage from a state or national source.
+
+### Record families
+- **Rule or definition:** Thirty-three controlled families separate direct records from contextual data.
+- **Implementation:** Weights and definitions are editable in RECORD_FAMILIES.
+- **Caution or source:** One source system may map to several families; endpoint counts never increase system counts.
+
+### Evidence map
+- **Rule or definition:** SYSTEM_COVERAGE_MAP links each unique source system to normalized jurisdiction and record family.
+- **Implementation:** Family mappings use Prompt 1 system names, publishers and coarse families; jurisdiction and access mappings use the normalized system fields.
+- **Caution or source:** Query wording and endpoint counts are excluded from family classification so a search topic cannot masquerade as primary-record coverage.
+
+### Complete
+- **Rule or definition:** Requires a manual audit of the statutory universe, exclusions, history and access route.
+- **Implementation:** No cell is automatically marked Complete.
+- **Caution or source:** Presence of one official system is not proof of completeness.
+
+### Partial
+- **Rule or definition:** At least one direct system maps to the exact jurisdiction and family.
+- **Implementation:** Exact evidence only; global or parent systems do not qualify.
+- **Caution or source:** Partial means presence, not breadth, accuracy or legal reuse permission.
+
+### Unknown
+- **Rule or definition:** Used when only global, regional, EU/EEA, parent-jurisdiction or local-placeholder evidence might apply.
+- **Implementation:** Uncertainty is preserved explicitly.
+- **Caution or source:** Unknown must not be counted as coverage.
+
+### Absent
+- **Rule or definition:** No exact, parent or plausible aggregate system-family evidence appears in this catalogue.
+- **Implementation:** Derived from the evidence map.
+- **Caution or source:** Absent is a catalogue gap, not proof that no external source exists.
+
+### Discovery-only / inaccessible
+- **Rule or definition:** Discovery-only lacks an underlying direct source; inaccessible records only a restricted/manual/gap route.
+- **Implementation:** Classified conservatively from Prompt 1 access and review text.
+- **Caution or source:** Prompt 9 must verify access and legal reality.
+
+### Evidence-quality score
+- **Rule or definition:** 0–100 score from public availability, source authority, historic depth and person/entity linkage.
+- **Implementation:** 20 × (0.30×availability + 0.25×authority + 0.20×history + 0.25×linkage).
+- **Caution or source:** Availability, authority and history are conservative rule-based values from workbook metadata.
+
+### Gap score
+- **Rule or definition:** 0–100 triage score combining HNWI relevance, status deficiency and evidence weaknesses.
+- **Implementation:** 100 × (relevance/5) × status factor × [0.25 + 0.20(1−availability/5) + 0.20(1−authority/5) + 0.15(1−history/5) + 0.20(linkage/5)].
+- **Caution or source:** Weights are editable assumptions, not empirical probabilities.
+
+### Priority tiers
+- **Rule or definition:** Critical ≥75; High ≥55; Medium ≥35; Low <35.
+- **Implementation:** Formula-driven in COVERAGE_MATRIX.
+- **Caution or source:** Use filters and editorial judgment; tied scores are common.
+
+### Source hierarchy
+- **Rule or definition:** Official sources are preferred; authoritative nonprofit sources supplement; aggregators do not substitute for official records.
+- **Implementation:** Authority score ranges 1–5.
+- **Caution or source:** Prompt 1 publisher fields are incomplete, so authority confidence is limited.
+
+### Historic depth
+- **Rule or definition:** Score 4 when metadata signals archives, historic series, annual records or backfiles; 2 for mainly current periodic data; 1 when unstated.
+- **Implementation:** Rule-based from source names and access/review text.
+- **Caution or source:** Prompt 9 must verify actual start dates and retention.
+
+### Person/entity linkage
+- **Rule or definition:** Family-level assumption measuring whether records commonly support named-person or named-entity joins.
+- **Implementation:** Editable in RECORD_FAMILIES.
+- **Caution or source:** It does not claim that every source exposes personal data.
+
+### Completion bar
+- **Rule or definition:** Every included jurisdiction has one matrix row for every record family; every source system has at least one evidence-map classification.
+- **Implementation:** 21219 matrix cells and 535 system-evidence rows.
+- **Caution or source:** Unknowns and placeholders are intentional and must remain visible.
+
+### Prompt 3 scope
+- **Rule or definition:** Six families: legal entities, beneficial ownership, securities/financial regulation, secured interests and credit licensees, commercial gazettes, and financial-professional enforcement.
+- **Implementation:** 281 new source systems and 3834 jurisdiction-family findings.
+- **Caution or source:** Primary official sources were preferred; an aggregator never substituted for a direct register.
+
+### Candidate threshold
+- **Rule or definition:** A candidate required a controlled jurisdiction, scoped family, exact landing URL and at least one evidence URL.
+- **Implementation:** Incomplete records were rejected before insertion.
+- **Caution or source:** Discovery confidence does not establish lawful automation or republication.
+
+### Deduplication
+- **Rule or definition:** Candidates were compared with existing normalized system names and exact representative/access URLs, then merged across batches by jurisdiction, system name and official domain.
+- **Implementation:** 9 reconciliation decisions retained.
+- **Caution or source:** A common government domain alone is not a duplicate because it may host several distinct registers.
+
+### Matrix update
+- **Rule or definition:** Accessible exact-jurisdiction candidates change a cell to Partial; restricted systems change an otherwise uncovered cell to Inaccessible; parent/supranational findings remain Unknown.
+- **Implementation:** 802 matrix statuses changed.
+- **Caution or source:** No candidate automatically makes a cell Complete.
+
+### Negative finding
+- **Rule or definition:** NO_PUBLIC_SOURCE_LOCATED means the assigned batch did not locate a lawful public source supported by primary evidence.
+- **Implementation:** Negative findings are separate from UNRESOLVED.
+- **Caution or source:** A negative finding is not proof that no register exists.
+
+### Verification boundary
+- **Rule or definition:** Prompt 9 must confirm publisher, current URL, authentication, price, history, update cycle, licence, technical access and legal reuse.
+- **Implementation:** All Prompt 3 candidate rows are labelled as discovery candidates or inaccessible.
+- **Caution or source:** Do not operationalize automated collection solely from this workbook.
+
+### Prompt 7 scope
+- **Rule or definition:** Eight controlled families were researched across the full jurisdiction list.
+- **Implementation:** Added exact-jurisdiction candidates plus one missing family mapping for an existing EU system.
+- **Caution or source:** A discovery pass is not a country-law or operational-access audit.
+
+### Owner-role boundary
+- **Rule or definition:** Registered/legal owner, operator, manager, trustee, officer and beneficial owner are separate concepts.
+- **Implementation:** The distinction is recorded per source in P7_SOURCE_DETAILS.
+- **Caution or source:** Do not infer beneficial ownership from an operator, manager, call sign or service address.
+
+### Source threshold and deduplication
+- **Rule or definition:** Official or authoritative sources were preferred; exact normalized system names and exact landing/access URLs controlled duplicate rejection.
+- **Implementation:** 215 new systems survived reconciliation; a shared government domain alone was not treated as a duplicate.
+- **Caution or source:** Non-government sources were retained only when uniquely relevant and labelled.
+
+### Access classifications
+- **Rule or definition:** PUBLIC_CANDIDATE indicates an evidenced public route; DISCOVERY_ONLY indicates a system without an established public-record route; INACCESSIBLE indicates restricted/authenticated access.
+- **Implementation:** Only public candidates can move an exact matrix cell to Partial.
+- **Caution or source:** None of these classifications establishes lawful bulk reuse.
+
+### Matrix update
+- **Rule or definition:** Exact candidate evidence can improve a cell to Partial, Discovery-only or Inaccessible; parent evidence remains Unknown; special-jurisdiction controls can be Not applicable.
+- **Implementation:** No Prompt 7 cell was automatically marked Complete.
+- **Caution or source:** UNRESOLVED is not proof that a source does not exist.
+
+### Verification boundary
+- **Rule or definition:** URLs and system descriptions were supported by primary or authoritative discovery evidence dated 2026-08-13.
+- **Implementation:** Prompt 9 must re-test live access, fields, cost, authentication, history, licensing and automation.
+- **Caution or source:** Interfaces, law, fees and access controls can change after the verification date.
+
+### Prompt 8 scope
+- **Rule or definition:** Six controlled families were researched across the full jurisdiction list.
+- **Implementation:** Added 288 new systems and 10 exact-jurisdiction family mappings to existing systems.
+- **Caution or source:** A discovery pass is not a country-law or operational-access audit.
+
+### Procurement stages
+- **Rule or definition:** Planning, tender notices, awards, contracts, payments, subcontractors and supplier beneficial owners are separate fields.
+- **Implementation:** Stage and party/document coverage are recorded per system in P8_SOURCE_DETAILS.
+- **Caution or source:** A tender portal must not be treated as award, payment, contract-document or supplier-owner coverage without evidence.
+
+### Source threshold and deduplication
+- **Rule or definition:** Underlying official systems were required; a generic open-data catalogue did not qualify without an identified dataset. Exact normalized names and exact landing/access URLs controlled duplicate rejection.
+- **Implementation:** 288 new systems survived reconciliation; a shared government domain alone was not treated as a duplicate.
+- **Caution or source:** Alaveteli repositories were retained only for unique released-document coverage and are explicitly non-governmental.
+
+### Access classifications
+- **Rule or definition:** PUBLIC_CANDIDATE indicates an evidenced public route; DISCOVERY_ONLY indicates a system without an established public-record route; INACCESSIBLE indicates restricted/authenticated access.
+- **Implementation:** Only public candidates can move an exact matrix cell to Partial.
+- **Caution or source:** None of these classifications establishes lawful bulk reuse.
+
+### Matrix update
+- **Rule or definition:** Exact candidate evidence can improve a cell to Partial, Discovery-only or Inaccessible; parent evidence remains Unknown; special-jurisdiction controls can be Not applicable.
+- **Implementation:** No Prompt 8 cell was automatically marked Complete.
+- **Caution or source:** UNRESOLVED is not proof that a source does not exist.
+
+### Verification boundary
+- **Rule or definition:** URLs and system descriptions were supported by primary official or authoritative discovery evidence dated 2026-08-13; confidence is mostly Medium unless documentation was directly established.
+- **Implementation:** Prompt 9 must re-test live access, procurement stages, identifiers, documents, cost, authentication, history, licensing and automation.
+- **Caution or source:** Warnings, complaints, self-reports and allegations are not final findings; interfaces and access controls can change.
+
+### Prompt 9 scope
+- **Rule or definition:** Verification-only audit of all 784 candidates added by Prompts 3, 7 and 8.
+- **Implementation:** Prompts 4–6 were not run and supplied no candidate batch.
+- **Caution or source:** No new discovery sources were added.
+
+### Low-cost ceiling
+- **Rule or definition:** No more than €25 per document or €100 per month.
+- **Implementation:** Free basic search remains eligible when paid extracts are optional; non-EUR fee-only routes remain unresolved unless price is manually converted.
+- **Caution or source:** Price and terms can change after the verification date.
+
+### Safe testing boundary
+- **Rule or definition:** Read-only public GET requests only; robots policy checked before candidate paths.
+- **Implementation:** No account creation, payment, form submission, contractual acceptance, captcha bypass, identity rotation, rate-limit evasion or restricted endpoint probing.
+- **Caution or source:** A robots rule is an operational signal, not a licence or legal opinion.
+
+### Status taxonomy
+- **Rule or definition:** VERIFIED, PARTIAL, BROKEN, RESTRICTED, PAID, DISCOVERY_ONLY, DUPLICATE and UNVERIFIED.
+- **Implementation:** PARTIAL requires live primary official evidence but retains at least one unresolved verification dimension.
+- **Caution or source:** No candidate met every VERIFIED requirement in this run.
+
+### Active coverage rule
+- **Rule or definition:** VERIFIED and PARTIAL are active; PAID is active only when the default ceiling is confirmed.
+- **Implementation:** All other statuses are removed from active matrix evidence counts and retained in REJECTED_OR_RESTRICTED.
+- **Caution or source:** Active means evidenced presence, never completeness.
+
+### Publisher and URL
+- **Rule or definition:** Current requested and final URLs, redirect result, official domain relationship, HTTP status and date are recorded.
+- **Implementation:** Live official-domain evidence confirms publisher/domain only at the page level.
+- **Caution or source:** Government hosting arrangements and redirects can require manual confirmation.
+
+### Technical reality
+- **Rule or definition:** API, bulk, feed and download claims require observable official technical indicators; manual portals were not searched with names.
+- **Implementation:** HTTP reachability alone does not prove field coverage, result quality or export functionality.
+- **Caution or source:** No non-public or write operation was tested.
+
+### Legal dimensions
+- **Rule or definition:** View, automate, store, combine and republish are classified separately.
+- **Implementation:** Terms, licence, database-rights, attribution, personal-data and republication flags are recorded where detected.
+- **Caution or source:** Unknown means unknown; it does not grant permission.
+
+### Evidence preservation
+- **Rule or definition:** P9_EVIDENCE stores URL, timestamp, HTTP result, final URL, title, content type, captured byte count, truncation flag and SHA-256.
+- **Implementation:** Only a short excerpt is retained; full third-party pages are not republished.
+- **Caution or source:** Hash covers captured bytes and may represent a truncated response.
+
+### Coverage recalculation
+- **Rule or definition:** Only active exact-jurisdiction mappings contribute systems and scores in COVERAGE_MATRIX.
+- **Implementation:** 346 matrix statuses changed after verification.
+- **Caution or source:** Rejected systems remain traceable in SYSTEM_COVERAGE_MAP and the rejection sheet.
+
+### Completion control
+- **Rule or definition:** Every active candidate must have primary evidence, a verification date, a live URL status and a defensible classification.
+- **Implementation:** See P9_QA for workbook-level consistency checks.
+- **Caution or source:** External records can change after 2026-08-13.
+
+## Reconciliation method and limitations
+
+### Input control
+- **Rule:** Compare shared sheets before merge
+- **Implementation:** Twelve substantive shared sheets matched exactly; START HERE differed only because each team linked its own additions.
+- **Residual limitation:** Formatting hashes were not used as source identity.
+
+### Source identity
+- **Rule:** Merge only an established system match or a same documented platform
+- **Implementation:** Seven candidates merged into six Prompt 10 systems. Six duplicate-URL pairs became six new systems with separate access rows.
+- **Residual limitation:** A publisher may operate several distinct systems; shared publisher or domain alone was not merged.
+
+### Endpoint retention
+- **Rule:** Keep one candidate-level access and evidence row
+- **Implementation:** All 300 alternate records received stable AP identifiers even where the system was merged.
+- **Residual limitation:** Endpoint counts are informational and do not increase coverage or source rank.
+
+### Jurisdiction
+- **Rule:** Use existing exact IDs; otherwise use parent or aggregate
+- **Implementation:** All 300 candidates resolved. City and local sources use an existing subnational ID when available, otherwise their country.
+- **Residual limitation:** Parent-country mapping does not claim national completeness.
+
+### Record families
+- **Rule:** Prefer the existing controlled family; add only genuine omissions
+- **Implementation:** Five families added: policing/criminal justice; social care; migration/borders; municipal services; health-care delivery/ownership.
+- **Residual limitation:** Public-official assets, property, professional licensing, platforms and crypto map to existing specific families.
+
+### Verification
+- **Rule:** Do not promote the alternate team's labels beyond their evidence
+- **Implementation:** PASS → PARTIAL active presence. CONDITIONAL → DISCOVERY_ONLY and no active coverage.
+- **Residual limitation:** External checks and operative legal terms were not repeated during this reconciliation.
+
+### Coverage
+- **Rule:** Rank unique systems and exact jurisdiction × family cells
+- **Implementation:** Mappings are deduplicated before the matrix is updated. New endpoints cannot inflate coverage.
+- **Residual limitation:** PARTIAL does not mean complete fields, full history or legal permission to automate.
+
+### Legal use
+- **Rule:** Public access is separate from automation and republication rights
+- **Implementation:** Authentication, rate limits, terms, copyright, database rights and privacy cautions remain in verification and access rows.
+- **Residual limitation:** Researchers must recheck current operative terms and must not bypass controls.
+
+### Updating
+- **Rule:** Edit stable IDs rather than append a replacement record
+- **Implementation:** Use RECONCILIATION LOG to trace GAP IDs to final SYS and AP IDs.
+- **Residual limitation:** Create a new system only when source identity—not merely its URL—has changed.
+
+## Legal and methodological guardrails
+
+### Tier A
+- **Meaning:** Direct public or official interface/bulk release with comparatively clear reuse route.
+- **Required practice:** Archive terms/licence, query, source file and hash; respect attribution and personal-data law.
+
+### Tier B
+- **Meaning:** Free registration, token, quota or bounded platform terms; still reproducible by peers.
+- **Required practice:** Use the documented interface; do not evade limits; record account class, quota and terms version.
+
+### Tier C
+- **Meaning:** Research approval, non-commercial licence, manual access or material permission uncertainty.
+- **Required practice:** Obtain written permission or legal/editorial review before automated collection or publication reuse.
+
+### Tier D
+- **Meaning:** Leak/publisher-mediated or otherwise high-sensitivity route from the original catalogue.
+- **Required practice:** Use through an established publisher and counsel; do not redistribute raw personal or restricted data.
+
+### Modelled spatial data
+- **Meaning:** Building, population, wealth, land-cover, emissions and hazard layers are estimates.
+- **Required practice:** Retain confidence/uncertainty, reference year, processing version and original image or record used to validate.
+
+### Non-detection
+- **Meaning:** Clouds, sensor thresholds, orbit, sampling or platform coverage can produce missing observations.
+- **Required practice:** State 'not observed in this dataset/time window', never 'did not happen'.
+
+### Entity resolution
+- **Meaning:** Names, addresses and coordinates are not stable identities.
+- **Required practice:** Prefer legal-entity, facility, instrument, vessel, patent and dataset identifiers; log all fuzzy-match decisions.
+
+### Personal data
+- **Meaning:** Small-area results, mobility, imagery and platform metrics can expose vulnerable people.
+- **Required practice:** Minimise, aggregate, encrypt, restrict access and perform a public-interest/proportionality review.
+
+### Automation
+- **Meaning:** A public webpage is not permission for high-volume scraping.
+- **Required practice:** Prefer APIs/bulk downloads; obey robots and terms where applicable; do not bypass authentication or technical controls.
+
+### Reproducibility packet
+- **Meaning:** Every publishable collision needs a frozen evidence bundle.
+- **Required practice:** Save query/code, exact URL, UTC retrieval time, terms version, raw hash, transformations, join table and human-review notes.
+
+### Statistical screening
+- **Meaning:** Running many spatial joins produces apparently striking coincidences by chance.
+- **Required practice:** Define hypotheses, comparison groups and thresholds before looking; correct for multiple testing and report nulls.
+
+### Right of reply
+- **Meaning:** Machine-derived leads can misidentify operators, sites or causal links.
+- **Required practice:** Resolve the legal entity and evidence chain before contact; provide the material facts and time to answer.
+
+## Controlled record-family vocabulary
+
+### RF-01 — Companies, partnerships & legal entities
+- **Definition:** Official formation, status, officers, addresses, filings and branch records for legal entities.
+- **Analytical group:** Core ownership
+- **Mapping cues:** company; corporate; partnership; legal entity; business register
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-02 — Beneficial ownership & control
+- **Definition:** Beneficial owners, significant controllers, shareholders, parent relationships and offshore control structures.
+- **Analytical group:** Core ownership
+- **Mapping cues:** beneficial owner; significant control; shareholder; parent; offshore
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 2
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-03 — Securities, funds & financial regulation
+- **Definition:** Issuer filings, substantial holdings, advisers, brokers, private funds, regulated firms and financial discipline.
+- **Analytical group:** Core finance
+- **Mapping cues:** securities; issuer; fund; adviser; broker; financial regulator
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-04 — Land titles, deeds & ownership
+- **Definition:** Registered owners, title documents, deeds, cadastral parcels and legal interests in land.
+- **Analytical group:** Core assets
+- **Mapping cues:** land registry; title; deed; cadastre; parcel ownership
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-05 — Property assessment & transactions
+- **Definition:** Assessed values, transaction prices, tax parcels, energy certificates and property characteristics.
+- **Analytical group:** Core assets
+- **Mapping cues:** assessment; price paid; transaction; valuation; property tax
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-06 — Planning, building & zoning
+- **Definition:** Planning applications, building permits, zoning, heritage consents and code enforcement.
+- **Analytical group:** Assets and activity
+- **Mapping cues:** planning; building permit; zoning; development application; heritage
+- **High-net-worth relevance (1–5):** 3
+- **Person or entity linkage (1–5):** 3
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-07 — Mortgages, liens & secured interests
+- **Definition:** Mortgages, company charges, security interests, tax liens, judgments and collateral filings.
+- **Analytical group:** Core finance
+- **Mapping cues:** mortgage; lien; charge; secured interest; UCC; PPSA
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-08 — Courts & published judgments
+- **Definition:** Published judicial opinions and judgments from civil, commercial, criminal and public-law courts.
+- **Analytical group:** Core legal
+- **Mapping cues:** judgment; case law; judicial opinion; court decision
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-09 — Dockets, tribunals & administrative cases
+- **Definition:** Case status, dockets, filings, tribunals and administrative adjudications beyond published judgments.
+- **Analytical group:** Core legal
+- **Mapping cues:** docket; tribunal; filing; case status; adjudication
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-10 — Arbitration & investment disputes
+- **Definition:** Investment-state cases, published arbitral awards and related dispute records.
+- **Analytical group:** Core legal
+- **Mapping cues:** arbitration; investment dispute; arbitral award
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 2
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 4
+
+### RF-11 — Insolvency, bankruptcy & disqualification
+- **Definition:** Personal and corporate insolvency, bankruptcy, administrators and director disqualification.
+- **Analytical group:** Core legal
+- **Mapping cues:** insolvency; bankruptcy; administrator; disqualified director
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-12 — Probate, estates & succession
+- **Definition:** Probate calendars, wills, succession notices, deceased estates and unclaimed estates.
+- **Analytical group:** Core wealth
+- **Mapping cues:** probate; will; succession; estate; bona vacantia
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 2
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-13 — Official gazettes & legal notices
+- **Definition:** Official journals, gazettes and statutory notices covering company, insolvency, probate and public acts.
+- **Analytical group:** Cross-cutting
+- **Mapping cues:** gazette; official journal; legal notice; statutory notice
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-14 — Political finance & electoral spending
+- **Definition:** Campaign donations, expenditure, party accounts and electoral-finance enforcement.
+- **Analytical group:** Influence
+- **Mapping cues:** campaign finance; political finance; donation; election spending
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-15 — Interests, assets, gifts & official access
+- **Definition:** Officials' assets, liabilities, outside work, gifts, hospitality, travel, meetings and visitor records.
+- **Analytical group:** Influence
+- **Mapping cues:** financial interests; assets; gifts; hospitality; ministerial meeting; visitor log
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-16 — Lobbying & foreign influence
+- **Definition:** Lobbying registrations and returns, foreign-agent filings and institutional transparency registers.
+- **Analytical group:** Influence
+- **Mapping cues:** lobbying; foreign agent; FARA; transparency register
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-17 — Procurement, contracts & public spending
+- **Definition:** Tenders, awards, contracts, payments, suppliers and subcontracting.
+- **Analytical group:** Public money
+- **Mapping cues:** procurement; tender; contract; award; public spending
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 5
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-18 — Subsidies, state aid & grants
+- **Definition:** State aid, subsidies, grants, contributions, development finance and agricultural support.
+- **Analytical group:** Public money
+- **Mapping cues:** subsidy; state aid; grant; contribution; development finance
+- **High-net-worth relevance (1–5):** 3
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-19 — Licences, concessions & regulated activities
+- **Definition:** Professional and operating licences, concessions, resource rights, permits and regulated activities.
+- **Analytical group:** Business activity
+- **Mapping cues:** licence; permit; concession; tenure; mineral claim; regulated activity
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-20 — Enforcement, debarment & discipline
+- **Definition:** Sanctions, debarments, exclusions, disciplinary decisions, inspections and regulatory enforcement.
+- **Analytical group:** Core risk
+- **Mapping cues:** sanction; debarment; discipline; inspection; enforcement; exclusion
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 5
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-21 — Aircraft ownership & operations
+- **Definition:** Civil-aircraft registration, ownership, operators, history, safety and aircraft finance.
+- **Analytical group:** Luxury assets
+- **Mapping cues:** aircraft; aviation; flight; aircraft register
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-22 — Vessels, yachts & maritime ownership
+- **Definition:** Ship and yacht registration, registered owners, operators, mortgages and port-state-control records.
+- **Analytical group:** Luxury assets
+- **Mapping cues:** vessel; yacht; ship register; maritime; port state
+- **High-net-worth relevance (1–5):** 5
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-23 — Radio, spectrum & communications licences
+- **Definition:** Radio call signs, station authorizations, spectrum licences and communications permissions.
+- **Analytical group:** Asset linkage
+- **Mapping cues:** radio; spectrum; call sign; station licence; telecom
+- **High-net-worth relevance (1–5):** 3
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-24 — Charities, foundations & philanthropy
+- **Definition:** Charity registers, foundations, trustees, annual returns, grants and related-party transactions.
+- **Analytical group:** Influence and wealth
+- **Mapping cues:** charity; foundation; nonprofit; trustee; philanthropy
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-25 — Intellectual property & domain records
+- **Definition:** Patents, trademarks, designs, copyright, assignments and lawful domain-registration records.
+- **Analytical group:** Intangible assets
+- **Mapping cues:** patent; trademark; copyright; design; domain record
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 5
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-26 — Freedom-of-information releases & archives
+- **Definition:** Disclosure logs, reading rooms, released documents, web archives and historic public records.
+- **Analytical group:** Documentary evidence
+- **Mapping cues:** FOIA; access to information; reading room; archive; released documents
+- **High-net-worth relevance (1–5):** 3
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-27 — Platform, advertising & digital transparency
+- **Definition:** Public advertising libraries, platform-transparency records and statutory digital-service disclosures.
+- **Analytical group:** Digital activity
+- **Mapping cues:** ad library; advertising transparency; platform transparency; digital services
+- **High-net-worth relevance (1–5):** 3
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 3
+- **Authority importance (1–5):** 4
+
+### RF-28 — Trade, customs, supply chains & arms
+- **Definition:** Trade flows, customs-related data, commodities, factories, export licences and arms transfers.
+- **Analytical group:** Business context
+- **Mapping cues:** trade; customs; commodity; supply chain; export; arms
+- **High-net-worth relevance (1–5):** 4
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-29 — Population, inequality & socioeconomic context
+- **Definition:** Income, wealth, population, labour, housing, education, health and public-service context.
+- **Analytical group:** Context
+- **Mapping cues:** population; inequality; income; wealth; labour; poverty; education
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 2
+- **Expected public availability (1–5):** 5
+- **Historic-depth importance (1–5):** 5
+- **Authority importance (1–5):** 5
+
+### RF-30 — Geospatial, environmental & extractive context
+- **Definition:** Geospatial, land-cover, pollution, climate, energy, mining and environmental context.
+- **Analytical group:** Context
+- **Mapping cues:** geospatial; satellite; mining; climate; pollution; energy; environment
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 2
+- **Expected public availability (1–5):** 5
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-31 — Conflict, disaster & humanitarian context
+- **Definition:** Conflict events, humanitarian conditions, disasters, displacement and aid context.
+- **Analytical group:** Context
+- **Mapping cues:** conflict; humanitarian; disaster; violence; displacement
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 2
+- **Expected public availability (1–5):** 5
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-32 — Technology, infrastructure & cyber context
+- **Definition:** Internet infrastructure, vulnerabilities, technology, research systems and critical infrastructure.
+- **Analytical group:** Context
+- **Mapping cues:** cyber; internet; infrastructure; vulnerability; technology
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 3
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 4
+
+### RF-33 — Other public records & reference data
+- **Definition:** Public-record or reference systems not yet assigned to a more specific controlled family.
+- **Analytical group:** Unresolved
+- **Mapping cues:** reference; general public records; unresolved
+- **High-net-worth relevance (1–5):** 1
+- **Person or entity linkage (1–5):** 1
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 3
+- **Authority importance (1–5):** 3
+
+### RF-34 — Policing, prosecution & incarceration
+- **Definition:** Police activity, arrests, prosecution, convictions, prisons, detention conditions and criminal-justice administration.
+- **Analytical group:** Public authority and justice
+- **Mapping cues:** police; arrest; prosecution; conviction; prison; incarceration; criminal justice
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 3
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-35 — Social services & institutional care
+- **Definition:** Social-care providers, residential institutions, child and adult services, inspections, capacity and outcomes.
+- **Analytical group:** Public services
+- **Mapping cues:** social care; institutional care; residential care; child services; care provider
+- **High-net-worth relevance (1–5):** 1
+- **Person or entity linkage (1–5):** 3
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-36 — Migration & border enforcement
+- **Definition:** Migration, asylum, visas, border control, immigration detention, removals, trafficking and related enforcement.
+- **Analytical group:** Public authority and movement
+- **Mapping cues:** migration; asylum; visa; border; immigration detention; removal; trafficking
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 3
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-37 — Local government & municipal services
+- **Definition:** Municipal operations, local infrastructure, complaints, service delivery, inspections, budgets and civic administration not assigned elsewhere.
+- **Analytical group:** Public services
+- **Mapping cues:** municipal; city; local government; service request; utility; civic administration
+- **High-net-worth relevance (1–5):** 2
+- **Person or entity linkage (1–5):** 3
+- **Expected public availability (1–5):** 4
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+### RF-38 — Health-care delivery, facilities & ownership
+- **Definition:** Health providers, facilities, licences, ownership, capacity, inspections, quality, payments and delivery data.
+- **Analytical group:** Regulated services and ownership
+- **Mapping cues:** health provider; hospital; clinic; facility; ownership; inspection; quality; health-care delivery
+- **High-net-worth relevance (1–5):** 3
+- **Person or entity linkage (1–5):** 4
+- **Expected public availability (1–5):** 3
+- **Historic-depth importance (1–5):** 4
+- **Authority importance (1–5):** 5
+
+## Jurisdiction directory
+
+This is a research-control vocabulary, not a determination of sovereignty.
+
+- **JUR-GLOBAL — Global / multi-jurisdiction:** code: GLOBAL; type: Coverage aggregate; level: Global / multilateral; financial centre: No; decentralized local records: Not applicable
+- **JUR-EU — European Union / EEA:** code: EU-EEA; type: Supranational aggregate; level: Supranational; financial centre: No; decentralized local records: Yes
+- **JUR-REGIONAL — Regional / multi-jurisdiction:** code: REGIONAL; type: Coverage aggregate; level: Regional; financial centre: No; decentralized local records: Not applicable
+- **JUR-UNKNOWN — Other / unresolved:** code: UNKNOWN; type: Unresolved coverage; level: Unresolved; financial centre: Unknown; decentralized local records: Unknown
+- **JUR-AD — Andorra:** code: AD; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-AE — United Arab Emirates:** code: AE; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-AF — Afghanistan:** code: AF; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AG — Antigua & Barbuda:** code: AG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AI — Anguilla:** code: AI; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-AL — Albania:** code: AL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AM — Armenia:** code: AM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AO — Angola:** code: AO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AQ — Antarctica:** code: AQ; type: Special / largely uninhabited territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AR — Argentina:** code: AR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-AS — American Samoa:** code: AS; parent: United States; parent ID: JUR-US; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AT — Austria:** code: AT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-AU — Australia:** code: AU; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-AW — Aruba:** code: AW; parent: Netherlands; parent ID: JUR-NL; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-AX — Åland Islands:** code: AX; parent: Finland; parent ID: JUR-FI; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-AZ — Azerbaijan:** code: AZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BA — Bosnia & Herzegovina:** code: BA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BB — Barbados:** code: BB; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-BD — Bangladesh:** code: BD; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BE — Belgium:** code: BE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-BF — Burkina Faso:** code: BF; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BG — Bulgaria:** code: BG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BH — Bahrain:** code: BH; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-BI — Burundi:** code: BI; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BJ — Benin:** code: BJ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BL — St. Barthélemy:** code: BL; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BM — Bermuda:** code: BM; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-BN — Brunei:** code: BN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BO — Bolivia:** code: BO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BQ — Caribbean Netherlands:** code: BQ; parent: Netherlands; parent ID: JUR-NL; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-BR — Brazil:** code: BR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-BS — Bahamas:** code: BS; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-BT — Bhutan:** code: BT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BV — Bouvet Island:** code: BV; parent: Norway; parent ID: JUR-NO; type: Special / largely uninhabited territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BW — Botswana:** code: BW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BY — Belarus:** code: BY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-BZ — Belize:** code: BZ; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-CA — Canada:** code: CA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-CC — Cocos (Keeling) Islands:** code: CC; parent: Australia; parent ID: JUR-AU; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CD — Democratic Republic of the Congo:** code: CD; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CF — Central African Republic:** code: CF; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CG — Republic of the Congo:** code: CG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CH — Switzerland:** code: CH; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Yes
+- **JUR-CI — Côte d’Ivoire:** code: CI; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CK — Cook Islands:** code: CK; parent: New Zealand; parent ID: JUR-NZ; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CL — Chile:** code: CL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CM — Cameroon:** code: CM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CN — China:** code: CN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CO — Colombia:** code: CO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CR — Costa Rica:** code: CR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CU — Cuba:** code: CU; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CV — Cabo Verde:** code: CV; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CW — Curaçao:** code: CW; parent: Netherlands; parent ID: JUR-NL; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-CX — Christmas Island:** code: CX; parent: Australia; parent ID: JUR-AU; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-CY — Cyprus:** code: CY; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-CZ — Czechia:** code: CZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-DE — Germany:** code: DE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-DJ — Djibouti:** code: DJ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-DK — Denmark:** code: DK; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-DM — Dominica:** code: DM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-DO — Dominican Republic:** code: DO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-DZ — Algeria:** code: DZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-EC — Ecuador:** code: EC; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-EE — Estonia:** code: EE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-EG — Egypt:** code: EG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-EH — Western Sahara:** code: EH; type: Disputed territory; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ER — Eritrea:** code: ER; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ES — Spain:** code: ES; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-ET — Ethiopia:** code: ET; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-FI — Finland:** code: FI; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-FJ — Fiji:** code: FJ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-FK — Falkland Islands:** code: FK; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-FM — Micronesia:** code: FM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-FO — Faroe Islands:** code: FO; parent: Denmark; parent ID: JUR-DK; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-FR — France:** code: FR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-GA — Gabon:** code: GA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GB — United Kingdom:** code: GB; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-GD — Grenada:** code: GD; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GE — Georgia:** code: GE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GF — French Guiana:** code: GF; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GG — Guernsey:** code: GG; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-GH — Ghana:** code: GH; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GI — Gibraltar:** code: GI; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-GL — Greenland:** code: GL; parent: Denmark; parent ID: JUR-DK; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GM — Gambia:** code: GM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GN — Guinea:** code: GN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GP — Guadeloupe:** code: GP; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GQ — Equatorial Guinea:** code: GQ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GR — Greece:** code: GR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GS — South Georgia & South Sandwich Islands:** code: GS; parent: United Kingdom; parent ID: JUR-GB; type: Special / largely uninhabited territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GT — Guatemala:** code: GT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GU — Guam:** code: GU; parent: United States; parent ID: JUR-US; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GW — Guinea-Bissau:** code: GW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-GY — Guyana:** code: GY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-HK — Hong Kong SAR China:** code: HK; parent: China; parent ID: JUR-CN; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-HM — Heard & McDonald Islands:** code: HM; parent: Australia; parent ID: JUR-AU; type: Special / largely uninhabited territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-HN — Honduras:** code: HN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-HR — Croatia:** code: HR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-HT — Haiti:** code: HT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-HU — Hungary:** code: HU; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ID — Indonesia:** code: ID; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-IE — Ireland:** code: IE; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-IL — Israel:** code: IL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-IM — Isle of Man:** code: IM; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-IN — India:** code: IN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-IO — British Indian Ocean Territory:** code: IO; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-IQ — Iraq:** code: IQ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-IR — Iran:** code: IR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-IS — Iceland:** code: IS; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-IT — Italy:** code: IT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-JE — Jersey:** code: JE; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-JM — Jamaica:** code: JM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-JO — Jordan:** code: JO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-JP — Japan:** code: JP; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-KE — Kenya:** code: KE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KG — Kyrgyzstan:** code: KG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KH — Cambodia:** code: KH; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KI — Kiribati:** code: KI; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KM — Comoros:** code: KM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KN — St. Kitts & Nevis:** code: KN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KP — North Korea:** code: KP; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KR — South Korea:** code: KR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KW — Kuwait:** code: KW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-KY — Cayman Islands:** code: KY; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-KZ — Kazakhstan:** code: KZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LA — Laos:** code: LA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LB — Lebanon:** code: LB; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-LC — St. Lucia:** code: LC; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LI — Liechtenstein:** code: LI; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-LK — Sri Lanka:** code: LK; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LR — Liberia:** code: LR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LS — Lesotho:** code: LS; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LT — Lithuania:** code: LT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LU — Luxembourg:** code: LU; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-LV — Latvia:** code: LV; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-LY — Libya:** code: LY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MA — Morocco:** code: MA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MC — Monaco:** code: MC; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-MD — Moldova:** code: MD; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ME — Montenegro:** code: ME; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MF — St. Martin:** code: MF; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MG — Madagascar:** code: MG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MH — Marshall Islands:** code: MH; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MK — North Macedonia:** code: MK; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ML — Mali:** code: ML; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MM — Myanmar (Burma):** code: MM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MN — Mongolia:** code: MN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MO — Macao SAR China:** code: MO; parent: China; parent ID: JUR-CN; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-MP — Northern Mariana Islands:** code: MP; parent: United States; parent ID: JUR-US; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MQ — Martinique:** code: MQ; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MR — Mauritania:** code: MR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MS — Montserrat:** code: MS; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MT — Malta:** code: MT; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-MU — Mauritius:** code: MU; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-MV — Maldives:** code: MV; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MW — Malawi:** code: MW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-MX — Mexico:** code: MX; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-MY — Malaysia:** code: MY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-MZ — Mozambique:** code: MZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NA — Namibia:** code: NA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NC — New Caledonia:** code: NC; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NE — Niger:** code: NE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NF — Norfolk Island:** code: NF; parent: Australia; parent ID: JUR-AU; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NG — Nigeria:** code: NG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-NI — Nicaragua:** code: NI; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NL — Netherlands:** code: NL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NO — Norway:** code: NO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NP — Nepal:** code: NP; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NR — Nauru:** code: NR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NU — Niue:** code: NU; parent: New Zealand; parent ID: JUR-NZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-NZ — New Zealand:** code: NZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-OM — Oman:** code: OM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PA — Panama:** code: PA; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-PE — Peru:** code: PE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PF — French Polynesia:** code: PF; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PG — Papua New Guinea:** code: PG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PH — Philippines:** code: PH; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PK — Pakistan:** code: PK; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-PL — Poland:** code: PL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PM — St. Pierre & Miquelon:** code: PM; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PN — Pitcairn Islands:** code: PN; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PR — Puerto Rico:** code: PR; parent: United States; parent ID: JUR-US; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PS — State of Palestine:** code: PS; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PT — Portugal:** code: PT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PW — Palau:** code: PW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-PY — Paraguay:** code: PY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-QA — Qatar:** code: QA; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-RE — Réunion:** code: RE; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-RO — Romania:** code: RO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-RS — Serbia:** code: RS; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-RU — Russia:** code: RU; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-RW — Rwanda:** code: RW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SA — Saudi Arabia:** code: SA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SB — Solomon Islands:** code: SB; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SC — Seychelles:** code: SC; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-SD — Sudan:** code: SD; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SE — Sweden:** code: SE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SG — Singapore:** code: SG; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-SH — St. Helena:** code: SH; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SI — Slovenia:** code: SI; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SJ — Svalbard & Jan Mayen:** code: SJ; parent: Norway; parent ID: JUR-NO; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SK — Slovakia:** code: SK; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SL — Sierra Leone:** code: SL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SM — San Marino:** code: SM; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-SN — Senegal:** code: SN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SO — Somalia:** code: SO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SR — Suriname:** code: SR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SS — South Sudan:** code: SS; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ST — São Tomé & Príncipe:** code: ST; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SV — El Salvador:** code: SV; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SX — Sint Maarten:** code: SX; parent: Netherlands; parent ID: JUR-NL; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-SY — Syria:** code: SY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-SZ — Eswatini:** code: SZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TC — Turks & Caicos Islands:** code: TC; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-TD — Chad:** code: TD; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TF — French Southern Territories:** code: TF; parent: France; parent ID: JUR-FR; type: Special / largely uninhabited territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TG — Togo:** code: TG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TH — Thailand:** code: TH; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TJ — Tajikistan:** code: TJ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TK — Tokelau:** code: TK; parent: New Zealand; parent ID: JUR-NZ; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TL — Timor-Leste:** code: TL; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TM — Turkmenistan:** code: TM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TN — Tunisia:** code: TN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TO — Tonga:** code: TO; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TR — Türkiye:** code: TR; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TT — Trinidad & Tobago:** code: TT; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TV — Tuvalu:** code: TV; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TW — Taiwan:** code: TW; type: De facto self-governing jurisdiction; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-TZ — Tanzania:** code: TZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-UA — Ukraine:** code: UA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-UG — Uganda:** code: UG; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-UM — U.S. Outlying Islands:** code: UM; parent: United States; parent ID: JUR-US; type: Special / largely uninhabited territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-US — United States:** code: US; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-UY — Uruguay:** code: UY; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-UZ — Uzbekistan:** code: UZ; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-VA — Holy See:** code: VA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-VC — St. Vincent & Grenadines:** code: VC; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-VE — Venezuela:** code: VE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-VG — British Virgin Islands:** code: VG; parent: United Kingdom; parent ID: JUR-GB; type: Dependent or external territory; level: Dependent / territorial; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-VI — U.S. Virgin Islands:** code: VI; parent: United States; parent ID: JUR-US; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-VN — Viet Nam:** code: VN; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-VU — Vanuatu:** code: VU; type: Sovereign state; level: National or equivalent; financial centre: Yes; decentralized local records: Unknown / varies
+- **JUR-WF — Wallis & Futuna:** code: WF; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-WS — Samoa:** code: WS; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-YE — Yemen:** code: YE; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-YT — Mayotte:** code: YT; parent: France; parent ID: JUR-FR; type: Dependent or external territory; level: Dependent / territorial; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ZA — South Africa:** code: ZA; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Yes
+- **JUR-ZM — Zambia:** code: ZM; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-ZW — Zimbabwe:** code: ZW; type: Sovereign state; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-XK — Kosovo:** code: XK; type: Partially recognized jurisdiction; level: National or equivalent; financial centre: No; decentralized local records: Unknown / varies
+- **JUR-US-AL — United States — Alabama:** code: US-AL; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-AK — United States — Alaska:** code: US-AK; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-AZ — United States — Arizona:** code: US-AZ; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-AR — United States — Arkansas:** code: US-AR; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-CA — United States — California:** code: US-CA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-CO — United States — Colorado:** code: US-CO; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-CT — United States — Connecticut:** code: US-CT; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-DE — United States — Delaware:** code: US-DE; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: Yes; decentralized local records: Yes
+- **JUR-US-DC — United States — District of Columbia:** code: US-DC; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-FL — United States — Florida:** code: US-FL; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-GA — United States — Georgia:** code: US-GA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-HI — United States — Hawaii:** code: US-HI; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-ID — United States — Idaho:** code: US-ID; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-IL — United States — Illinois:** code: US-IL; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-IN — United States — Indiana:** code: US-IN; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-IA — United States — Iowa:** code: US-IA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-KS — United States — Kansas:** code: US-KS; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-KY — United States — Kentucky:** code: US-KY; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-LA — United States — Louisiana:** code: US-LA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-ME — United States — Maine:** code: US-ME; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MD — United States — Maryland:** code: US-MD; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MA — United States — Massachusetts:** code: US-MA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MI — United States — Michigan:** code: US-MI; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MN — United States — Minnesota:** code: US-MN; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MS — United States — Mississippi:** code: US-MS; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MO — United States — Missouri:** code: US-MO; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-MT — United States — Montana:** code: US-MT; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-NE — United States — Nebraska:** code: US-NE; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-NV — United States — Nevada:** code: US-NV; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: Yes; decentralized local records: Yes
+- **JUR-US-NH — United States — New Hampshire:** code: US-NH; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-NJ — United States — New Jersey:** code: US-NJ; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-NM — United States — New Mexico:** code: US-NM; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-NY — United States — New York:** code: US-NY; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: Yes; decentralized local records: Yes
+- **JUR-US-NC — United States — North Carolina:** code: US-NC; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-ND — United States — North Dakota:** code: US-ND; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-OH — United States — Ohio:** code: US-OH; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-OK — United States — Oklahoma:** code: US-OK; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-OR — United States — Oregon:** code: US-OR; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-PA — United States — Pennsylvania:** code: US-PA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-RI — United States — Rhode Island:** code: US-RI; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-SC — United States — South Carolina:** code: US-SC; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-SD — United States — South Dakota:** code: US-SD; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-TN — United States — Tennessee:** code: US-TN; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-TX — United States — Texas:** code: US-TX; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-UT — United States — Utah:** code: US-UT; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-VT — United States — Vermont:** code: US-VT; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-VA — United States — Virginia:** code: US-VA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-WA — United States — Washington:** code: US-WA; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-WV — United States — West Virginia:** code: US-WV; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-WI — United States — Wisconsin:** code: US-WI; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-US-WY — United States — Wyoming:** code: US-WY; parent: United States; parent ID: JUR-US; type: First-level subdivision; level: State / federal district; financial centre: Yes; decentralized local records: Yes
+- **JUR-CA-AB — Canada — Alberta:** code: CA-AB; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-BC — Canada — British Columbia:** code: CA-BC; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-MB — Canada — Manitoba:** code: CA-MB; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-NB — Canada — New Brunswick:** code: CA-NB; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-NL — Canada — Newfoundland and Labrador:** code: CA-NL; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-NS — Canada — Nova Scotia:** code: CA-NS; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-NT — Canada — Northwest Territories:** code: CA-NT; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-NU — Canada — Nunavut:** code: CA-NU; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-ON — Canada — Ontario:** code: CA-ON; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-PE — Canada — Prince Edward Island:** code: CA-PE; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-QC — Canada — Québec:** code: CA-QC; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-SK — Canada — Saskatchewan:** code: CA-SK; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-CA-YT — Canada — Yukon:** code: CA-YT; parent: Canada; parent ID: JUR-CA; type: First-level subdivision; level: Province / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-ACT — Australia — Australian Capital Territory:** code: AU-ACT; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-NSW — Australia — New South Wales:** code: AU-NSW; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-NT — Australia — Northern Territory:** code: AU-NT; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-QLD — Australia — Queensland:** code: AU-QLD; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-SA — Australia — South Australia:** code: AU-SA; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-TAS — Australia — Tasmania:** code: AU-TAS; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-VIC — Australia — Victoria:** code: AU-VIC; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-AU-WA — Australia — Western Australia:** code: AU-WA; parent: Australia; parent ID: JUR-AU; type: First-level subdivision; level: State / territory; financial centre: No; decentralized local records: Yes
+- **JUR-GB-ENG — United Kingdom — England:** code: GB-ENG; parent: United Kingdom; parent ID: JUR-GB; type: First-level subdivision; level: Constituent nation; financial centre: Yes; decentralized local records: Yes
+- **JUR-GB-NIR — United Kingdom — Northern Ireland:** code: GB-NIR; parent: United Kingdom; parent ID: JUR-GB; type: First-level subdivision; level: Constituent nation; financial centre: No; decentralized local records: Yes
+- **JUR-GB-SCT — United Kingdom — Scotland:** code: GB-SCT; parent: United Kingdom; parent ID: JUR-GB; type: First-level subdivision; level: Constituent nation; financial centre: No; decentralized local records: Yes
+- **JUR-GB-WLS — United Kingdom — Wales:** code: GB-WLS; parent: United Kingdom; parent ID: JUR-GB; type: First-level subdivision; level: Constituent nation; financial centre: No; decentralized local records: Yes
+- **JUR-DE-BW — Germany — Baden-Württemberg:** code: DE-BW; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-BY — Germany — Bavaria:** code: DE-BY; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-BE — Germany — Berlin:** code: DE-BE; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-BB — Germany — Brandenburg:** code: DE-BB; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-HB — Germany — Bremen:** code: DE-HB; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-HH — Germany — Hamburg:** code: DE-HH; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-HE — Germany — Hesse:** code: DE-HE; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-MV — Germany — Mecklenburg-Western Pomerania:** code: DE-MV; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-NI — Germany — Lower Saxony:** code: DE-NI; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-NW — Germany — North Rhine-Westphalia:** code: DE-NW; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-RP — Germany — Rhineland-Palatinate:** code: DE-RP; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-SL — Germany — Saarland:** code: DE-SL; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-SN — Germany — Saxony:** code: DE-SN; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-ST — Germany — Saxony-Anhalt:** code: DE-ST; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-SH — Germany — Schleswig-Holstein:** code: DE-SH; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-DE-TH — Germany — Thuringia:** code: DE-TH; parent: Germany; parent ID: JUR-DE; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-CH-AG — Switzerland — Aargau:** code: CH-AG; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-AR — Switzerland — Appenzell Ausserrhoden:** code: CH-AR; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-AI — Switzerland — Appenzell Innerrhoden:** code: CH-AI; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-BL — Switzerland — Basel-Landschaft:** code: CH-BL; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-BS — Switzerland — Basel-Stadt:** code: CH-BS; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-BE — Switzerland — Bern:** code: CH-BE; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-FR — Switzerland — Fribourg:** code: CH-FR; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-GE — Switzerland — Geneva:** code: CH-GE; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-GL — Switzerland — Glarus:** code: CH-GL; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-GR — Switzerland — Graubünden:** code: CH-GR; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-JU — Switzerland — Jura:** code: CH-JU; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-LU — Switzerland — Lucerne:** code: CH-LU; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-NE — Switzerland — Neuchâtel:** code: CH-NE; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-NW — Switzerland — Nidwalden:** code: CH-NW; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-OW — Switzerland — Obwalden:** code: CH-OW; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-SG — Switzerland — St. Gallen:** code: CH-SG; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-SH — Switzerland — Schaffhausen:** code: CH-SH; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-SZ — Switzerland — Schwyz:** code: CH-SZ; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-SO — Switzerland — Solothurn:** code: CH-SO; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-TG — Switzerland — Thurgau:** code: CH-TG; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-TI — Switzerland — Ticino:** code: CH-TI; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-UR — Switzerland — Uri:** code: CH-UR; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-VS — Switzerland — Valais:** code: CH-VS; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-VD — Switzerland — Vaud:** code: CH-VD; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-CH-ZG — Switzerland — Zug:** code: CH-ZG; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: Yes; decentralized local records: Yes
+- **JUR-CH-ZH — Switzerland — Zürich:** code: CH-ZH; parent: Switzerland; parent ID: JUR-CH; type: First-level subdivision; level: Canton; financial centre: No; decentralized local records: Yes
+- **JUR-AT-1 — Austria — Burgenland:** code: AT-1; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-2 — Austria — Carinthia:** code: AT-2; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-3 — Austria — Lower Austria:** code: AT-3; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-4 — Austria — Upper Austria:** code: AT-4; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-5 — Austria — Salzburg:** code: AT-5; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-6 — Austria — Styria:** code: AT-6; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-7 — Austria — Tyrol:** code: AT-7; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-8 — Austria — Vorarlberg:** code: AT-8; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-AT-9 — Austria — Vienna:** code: AT-9; parent: Austria; parent ID: JUR-AT; type: First-level subdivision; level: State; financial centre: No; decentralized local records: Yes
+- **JUR-BE-BRU — Belgium — Brussels-Capital Region:** code: BE-BRU; parent: Belgium; parent ID: JUR-BE; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-BE-VLG — Belgium — Flemish Region:** code: BE-VLG; parent: Belgium; parent ID: JUR-BE; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-BE-WAL — Belgium — Walloon Region:** code: BE-WAL; parent: Belgium; parent ID: JUR-BE; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IN-AP — India — Andhra Pradesh:** code: IN-AP; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-AR — India — Arunachal Pradesh:** code: IN-AR; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-AS — India — Assam:** code: IN-AS; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-BR — India — Bihar:** code: IN-BR; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-CG — India — Chhattisgarh:** code: IN-CG; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-GA — India — Goa:** code: IN-GA; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-GJ — India — Gujarat:** code: IN-GJ; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-HR — India — Haryana:** code: IN-HR; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-HP — India — Himachal Pradesh:** code: IN-HP; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-JH — India — Jharkhand:** code: IN-JH; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-KA — India — Karnataka:** code: IN-KA; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-KL — India — Kerala:** code: IN-KL; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-MP — India — Madhya Pradesh:** code: IN-MP; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-MH — India — Maharashtra:** code: IN-MH; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-MN — India — Manipur:** code: IN-MN; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-ML — India — Meghalaya:** code: IN-ML; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-MZ — India — Mizoram:** code: IN-MZ; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-NL — India — Nagaland:** code: IN-NL; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-OD — India — Odisha:** code: IN-OD; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-PB — India — Punjab:** code: IN-PB; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-RJ — India — Rajasthan:** code: IN-RJ; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-SK — India — Sikkim:** code: IN-SK; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-TN — India — Tamil Nadu:** code: IN-TN; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-TS — India — Telangana:** code: IN-TS; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-TR — India — Tripura:** code: IN-TR; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-UP — India — Uttar Pradesh:** code: IN-UP; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-UK — India — Uttarakhand:** code: IN-UK; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-WB — India — West Bengal:** code: IN-WB; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-AN — India — Andaman and Nicobar Islands:** code: IN-AN; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-CH — India — Chandigarh:** code: IN-CH; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-DH — India — Dadra and Nagar Haveli and Daman and Diu:** code: IN-DH; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-DL — India — Delhi:** code: IN-DL; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-JK — India — Jammu and Kashmir:** code: IN-JK; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-LA — India — Ladakh:** code: IN-LA; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-LD — India — Lakshadweep:** code: IN-LD; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-IN-PY — India — Puducherry:** code: IN-PY; parent: India; parent ID: JUR-IN; type: First-level subdivision; level: State / union territory; financial centre: No; decentralized local records: Yes
+- **JUR-BR-AC — Brazil — Acre:** code: BR-AC; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-AL — Brazil — Alagoas:** code: BR-AL; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-AP — Brazil — Amapá:** code: BR-AP; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-AM — Brazil — Amazonas:** code: BR-AM; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-BA — Brazil — Bahia:** code: BR-BA; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-CE — Brazil — Ceará:** code: BR-CE; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-DF — Brazil — Federal District:** code: BR-DF; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-ES — Brazil — Espírito Santo:** code: BR-ES; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-GO — Brazil — Goiás:** code: BR-GO; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-MA — Brazil — Maranhão:** code: BR-MA; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-MT — Brazil — Mato Grosso:** code: BR-MT; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-MS — Brazil — Mato Grosso do Sul:** code: BR-MS; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-MG — Brazil — Minas Gerais:** code: BR-MG; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-PA — Brazil — Pará:** code: BR-PA; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-PB — Brazil — Paraíba:** code: BR-PB; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-PR — Brazil — Paraná:** code: BR-PR; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-PE — Brazil — Pernambuco:** code: BR-PE; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-PI — Brazil — Piauí:** code: BR-PI; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-RJ — Brazil — Rio de Janeiro:** code: BR-RJ; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-RN — Brazil — Rio Grande do Norte:** code: BR-RN; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-RS — Brazil — Rio Grande do Sul:** code: BR-RS; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-RO — Brazil — Rondônia:** code: BR-RO; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-RR — Brazil — Roraima:** code: BR-RR; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-SC — Brazil — Santa Catarina:** code: BR-SC; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-SP — Brazil — São Paulo:** code: BR-SP; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-SE — Brazil — Sergipe:** code: BR-SE; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-BR-TO — Brazil — Tocantins:** code: BR-TO; parent: Brazil; parent ID: JUR-BR; type: First-level subdivision; level: State / federal district; financial centre: No; decentralized local records: Yes
+- **JUR-MX-AGU — Mexico — Aguascalientes:** code: MX-AGU; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-BCN — Mexico — Baja California:** code: MX-BCN; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-BCS — Mexico — Baja California Sur:** code: MX-BCS; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-CAM — Mexico — Campeche:** code: MX-CAM; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-CHP — Mexico — Chiapas:** code: MX-CHP; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-CHH — Mexico — Chihuahua:** code: MX-CHH; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-CMX — Mexico — Mexico City:** code: MX-CMX; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-COA — Mexico — Coahuila:** code: MX-COA; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-COL — Mexico — Colima:** code: MX-COL; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-DUR — Mexico — Durango:** code: MX-DUR; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-GUA — Mexico — Guanajuato:** code: MX-GUA; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-GRO — Mexico — Guerrero:** code: MX-GRO; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-HID — Mexico — Hidalgo:** code: MX-HID; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-JAL — Mexico — Jalisco:** code: MX-JAL; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-MEX — Mexico — State of Mexico:** code: MX-MEX; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-MIC — Mexico — Michoacán:** code: MX-MIC; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-MOR — Mexico — Morelos:** code: MX-MOR; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-NAY — Mexico — Nayarit:** code: MX-NAY; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-NLE — Mexico — Nuevo León:** code: MX-NLE; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-OAX — Mexico — Oaxaca:** code: MX-OAX; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-PUE — Mexico — Puebla:** code: MX-PUE; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-QUE — Mexico — Querétaro:** code: MX-QUE; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-ROO — Mexico — Quintana Roo:** code: MX-ROO; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-SLP — Mexico — San Luis Potosí:** code: MX-SLP; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-SIN — Mexico — Sinaloa:** code: MX-SIN; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-SON — Mexico — Sonora:** code: MX-SON; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-TAB — Mexico — Tabasco:** code: MX-TAB; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-TAM — Mexico — Tamaulipas:** code: MX-TAM; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-TLA — Mexico — Tlaxcala:** code: MX-TLA; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-VER — Mexico — Veracruz:** code: MX-VER; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-YUC — Mexico — Yucatán:** code: MX-YUC; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-MX-ZAC — Mexico — Zacatecas:** code: MX-ZAC; parent: Mexico; parent ID: JUR-MX; type: First-level subdivision; level: State / federal entity; financial centre: No; decentralized local records: Yes
+- **JUR-AR-B — Argentina — Buenos Aires:** code: AR-B; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-C — Argentina — Autonomous City of Buenos Aires:** code: AR-C; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-K — Argentina — Catamarca:** code: AR-K; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-H — Argentina — Chaco:** code: AR-H; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-U — Argentina — Chubut:** code: AR-U; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-X — Argentina — Córdoba:** code: AR-X; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-W — Argentina — Corrientes:** code: AR-W; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-E — Argentina — Entre Ríos:** code: AR-E; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-P — Argentina — Formosa:** code: AR-P; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-Y — Argentina — Jujuy:** code: AR-Y; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-L — Argentina — La Pampa:** code: AR-L; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-F — Argentina — La Rioja:** code: AR-F; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-M — Argentina — Mendoza:** code: AR-M; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-N — Argentina — Misiones:** code: AR-N; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-Q — Argentina — Neuquén:** code: AR-Q; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-R — Argentina — Río Negro:** code: AR-R; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-A — Argentina — Salta:** code: AR-A; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-J — Argentina — San Juan:** code: AR-J; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-D — Argentina — San Luis:** code: AR-D; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-Z — Argentina — Santa Cruz:** code: AR-Z; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-S — Argentina — Santa Fe:** code: AR-S; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-G — Argentina — Santiago del Estero:** code: AR-G; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-V — Argentina — Tierra del Fuego:** code: AR-V; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AR-T — Argentina — Tucumán:** code: AR-T; parent: Argentina; parent ID: JUR-AR; type: First-level subdivision; level: Province / autonomous city; financial centre: No; decentralized local records: Yes
+- **JUR-AE-AZ — United Arab Emirates — Abu Dhabi:** code: AE-AZ; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: Yes; decentralized local records: Yes
+- **JUR-AE-AJ — United Arab Emirates — Ajman:** code: AE-AJ; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: No; decentralized local records: Yes
+- **JUR-AE-FU — United Arab Emirates — Fujairah:** code: AE-FU; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: No; decentralized local records: Yes
+- **JUR-AE-SH — United Arab Emirates — Sharjah:** code: AE-SH; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: No; decentralized local records: Yes
+- **JUR-AE-DU — United Arab Emirates — Dubai:** code: AE-DU; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: Yes; decentralized local records: Yes
+- **JUR-AE-RK — United Arab Emirates — Ras Al Khaimah:** code: AE-RK; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: No; decentralized local records: Yes
+- **JUR-AE-UQ — United Arab Emirates — Umm Al Quwain:** code: AE-UQ; parent: United Arab Emirates; parent ID: JUR-AE; type: First-level subdivision; level: Emirate; financial centre: No; decentralized local records: Yes
+- **JUR-MY-01 — Malaysia — Johor:** code: MY-01; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-02 — Malaysia — Kedah:** code: MY-02; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-03 — Malaysia — Kelantan:** code: MY-03; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-04 — Malaysia — Melaka:** code: MY-04; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-05 — Malaysia — Negeri Sembilan:** code: MY-05; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-06 — Malaysia — Pahang:** code: MY-06; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-07 — Malaysia — Penang:** code: MY-07; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-08 — Malaysia — Perak:** code: MY-08; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-09 — Malaysia — Perlis:** code: MY-09; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-10 — Malaysia — Selangor:** code: MY-10; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-11 — Malaysia — Terengganu:** code: MY-11; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-12 — Malaysia — Sabah:** code: MY-12; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-13 — Malaysia — Sarawak:** code: MY-13; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-14 — Malaysia — Kuala Lumpur:** code: MY-14; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-15 — Malaysia — Labuan:** code: MY-15; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-MY-16 — Malaysia — Putrajaya:** code: MY-16; parent: Malaysia; parent ID: JUR-MY; type: First-level subdivision; level: State / federal territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-PB — Pakistan — Punjab:** code: PK-PB; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-SD — Pakistan — Sindh:** code: PK-SD; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-KP — Pakistan — Khyber Pakhtunkhwa:** code: PK-KP; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-BA — Pakistan — Balochistan:** code: PK-BA; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-IS — Pakistan — Islamabad Capital Territory:** code: PK-IS; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-JK — Pakistan — Azad Jammu and Kashmir:** code: PK-JK; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-PK-GB — Pakistan — Gilgit-Baltistan:** code: PK-GB; parent: Pakistan; parent ID: JUR-PK; type: First-level subdivision; level: Province / administered territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-AB — Nigeria — Abia:** code: NG-AB; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-AD — Nigeria — Adamawa:** code: NG-AD; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-AK — Nigeria — Akwa Ibom:** code: NG-AK; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-AN — Nigeria — Anambra:** code: NG-AN; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-BA — Nigeria — Bauchi:** code: NG-BA; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-BY — Nigeria — Bayelsa:** code: NG-BY; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-BE — Nigeria — Benue:** code: NG-BE; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-BO — Nigeria — Borno:** code: NG-BO; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-CR — Nigeria — Cross River:** code: NG-CR; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-DE — Nigeria — Delta:** code: NG-DE; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-EB — Nigeria — Ebonyi:** code: NG-EB; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-ED — Nigeria — Edo:** code: NG-ED; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-EK — Nigeria — Ekiti:** code: NG-EK; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-EN — Nigeria — Enugu:** code: NG-EN; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-FC — Nigeria — Federal Capital Territory:** code: NG-FC; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-GO — Nigeria — Gombe:** code: NG-GO; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-IM — Nigeria — Imo:** code: NG-IM; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-JI — Nigeria — Jigawa:** code: NG-JI; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-KD — Nigeria — Kaduna:** code: NG-KD; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-KN — Nigeria — Kano:** code: NG-KN; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-KT — Nigeria — Katsina:** code: NG-KT; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-KE — Nigeria — Kebbi:** code: NG-KE; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-KO — Nigeria — Kogi:** code: NG-KO; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-KW — Nigeria — Kwara:** code: NG-KW; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-LA — Nigeria — Lagos:** code: NG-LA; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-NA — Nigeria — Nasarawa:** code: NG-NA; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-NI — Nigeria — Niger:** code: NG-NI; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-OG — Nigeria — Ogun:** code: NG-OG; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-ON — Nigeria — Ondo:** code: NG-ON; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-OS — Nigeria — Osun:** code: NG-OS; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-OY — Nigeria — Oyo:** code: NG-OY; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-PL — Nigeria — Plateau:** code: NG-PL; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-RI — Nigeria — Rivers:** code: NG-RI; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-SO — Nigeria — Sokoto:** code: NG-SO; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-TA — Nigeria — Taraba:** code: NG-TA; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-YO — Nigeria — Yobe:** code: NG-YO; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-NG-ZA — Nigeria — Zamfara:** code: NG-ZA; parent: Nigeria; parent ID: JUR-NG; type: First-level subdivision; level: State / federal capital territory; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-EC — South Africa — Eastern Cape:** code: ZA-EC; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-FS — South Africa — Free State:** code: ZA-FS; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-GP — South Africa — Gauteng:** code: ZA-GP; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-KZN — South Africa — KwaZulu-Natal:** code: ZA-KZN; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-LP — South Africa — Limpopo:** code: ZA-LP; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-MP — South Africa — Mpumalanga:** code: ZA-MP; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-NC — South Africa — Northern Cape:** code: ZA-NC; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-NW — South Africa — North West:** code: ZA-NW; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ZA-WC — South Africa — Western Cape:** code: ZA-WC; parent: South Africa; parent ID: JUR-ZA; type: First-level subdivision; level: Province; financial centre: No; decentralized local records: Yes
+- **JUR-ES-AN — Spain — Andalusia:** code: ES-AN; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-AR — Spain — Aragon:** code: ES-AR; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-AS — Spain — Asturias:** code: ES-AS; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-CN — Spain — Canary Islands:** code: ES-CN; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-CB — Spain — Cantabria:** code: ES-CB; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-CL — Spain — Castile and León:** code: ES-CL; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-CM — Spain — Castilla-La Mancha:** code: ES-CM; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-CT — Spain — Catalonia:** code: ES-CT; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-EX — Spain — Extremadura:** code: ES-EX; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-GA — Spain — Galicia:** code: ES-GA; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-IB — Spain — Balearic Islands:** code: ES-IB; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-RI — Spain — La Rioja:** code: ES-RI; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-MD — Spain — Community of Madrid:** code: ES-MD; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-MC — Spain — Region of Murcia:** code: ES-MC; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-NC — Spain — Navarre:** code: ES-NC; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-PV — Spain — Basque Country:** code: ES-PV; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-VC — Spain — Valencian Community:** code: ES-VC; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-CE — Spain — Ceuta:** code: ES-CE; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-ES-ML — Spain — Melilla:** code: ES-ML; parent: Spain; parent ID: JUR-ES; type: First-level subdivision; level: Autonomous community / city; financial centre: No; decentralized local records: Yes
+- **JUR-IT-65 — Italy — Abruzzo:** code: IT-65; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-77 — Italy — Basilicata:** code: IT-77; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-78 — Italy — Calabria:** code: IT-78; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-72 — Italy — Campania:** code: IT-72; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-45 — Italy — Emilia-Romagna:** code: IT-45; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-36 — Italy — Friuli-Venezia Giulia:** code: IT-36; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-62 — Italy — Lazio:** code: IT-62; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-42 — Italy — Liguria:** code: IT-42; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-25 — Italy — Lombardy:** code: IT-25; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-57 — Italy — Marche:** code: IT-57; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-67 — Italy — Molise:** code: IT-67; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-21 — Italy — Piedmont:** code: IT-21; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-75 — Italy — Apulia:** code: IT-75; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-88 — Italy — Sardinia:** code: IT-88; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-82 — Italy — Sicily:** code: IT-82; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-52 — Italy — Tuscany:** code: IT-52; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-32 — Italy — Trentino-Alto Adige:** code: IT-32; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-55 — Italy — Umbria:** code: IT-55; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-23 — Italy — Aosta Valley:** code: IT-23; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-IT-34 — Italy — Veneto:** code: IT-34; parent: Italy; parent ID: JUR-IT; type: First-level subdivision; level: Region; financial centre: No; decentralized local records: Yes
+- **JUR-US-LOCAL — United States — local layer: counties, independent cities and municipalities:** code: US-LOCAL; parent: United States; parent ID: JUR-US; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-CA-LOCAL — Canada — local layer: municipalities, registry districts and local authorities:** code: CA-LOCAL; parent: Canada; parent ID: JUR-CA; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-AU-LOCAL — Australia — local layer: local government areas:** code: AU-LOCAL; parent: Australia; parent ID: JUR-AU; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-GB-LOCAL — United Kingdom — local layer: councils and local authorities:** code: GB-LOCAL; parent: United Kingdom; parent ID: JUR-GB; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-DE-LOCAL — Germany — local layer: districts and municipalities:** code: DE-LOCAL; parent: Germany; parent ID: JUR-DE; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-CH-LOCAL — Switzerland — local layer: municipalities:** code: CH-LOCAL; parent: Switzerland; parent ID: JUR-CH; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-AT-LOCAL — Austria — local layer: districts and municipalities:** code: AT-LOCAL; parent: Austria; parent ID: JUR-AT; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-BE-LOCAL — Belgium — local layer: provinces and municipalities:** code: BE-LOCAL; parent: Belgium; parent ID: JUR-BE; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-IN-LOCAL — India — local layer: districts and local bodies:** code: IN-LOCAL; parent: India; parent ID: JUR-IN; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-BR-LOCAL — Brazil — local layer: municipalities:** code: BR-LOCAL; parent: Brazil; parent ID: JUR-BR; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-MX-LOCAL — Mexico — local layer: municipalities and boroughs:** code: MX-LOCAL; parent: Mexico; parent ID: JUR-MX; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-AR-LOCAL — Argentina — local layer: departments and municipalities:** code: AR-LOCAL; parent: Argentina; parent ID: JUR-AR; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-MY-LOCAL — Malaysia — local layer: districts and local authorities:** code: MY-LOCAL; parent: Malaysia; parent ID: JUR-MY; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-PK-LOCAL — Pakistan — local layer: districts and local bodies:** code: PK-LOCAL; parent: Pakistan; parent ID: JUR-PK; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-NG-LOCAL — Nigeria — local layer: local government areas:** code: NG-LOCAL; parent: Nigeria; parent ID: JUR-NG; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-ZA-LOCAL — South Africa — local layer: district and local municipalities:** code: ZA-LOCAL; parent: South Africa; parent ID: JUR-ZA; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-ES-LOCAL — Spain — local layer: provinces and municipalities:** code: ES-LOCAL; parent: Spain; parent ID: JUR-ES; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-IT-LOCAL — Italy — local layer: provinces and municipalities:** code: IT-LOCAL; parent: Italy; parent ID: JUR-IT; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-RU-LOCAL — Russia — local layer: federal subjects and local authorities — unresolved/contested universe:** code: RU-LOCAL; parent: Russia; parent ID: JUR-RU; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-FR-LOCAL — France — local layer: regions, departments and municipalities:** code: FR-LOCAL; parent: France; parent ID: JUR-FR; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-JP-LOCAL — Japan — local layer: prefectures and municipalities:** code: JP-LOCAL; parent: Japan; parent ID: JUR-JP; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-ID-LOCAL — Indonesia — local layer: provinces and local governments:** code: ID-LOCAL; parent: Indonesia; parent ID: JUR-ID; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-PH-LOCAL — Philippines — local layer: provinces and local governments:** code: PH-LOCAL; parent: Philippines; parent ID: JUR-PH; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-CN-LOCAL — China — local layer: provincial-level and local jurisdictions:** code: CN-LOCAL; parent: China; parent ID: JUR-CN; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+- **JUR-NZ-LOCAL — New Zealand — local layer: regional and territorial authorities:** code: NZ-LOCAL; parent: New Zealand; parent ID: JUR-NZ; type: Local-layer placeholder; level: Local / municipal; financial centre: Varies; decentralized local records: Yes
+
+## Catalogue volume map
+
+Upload this guide and all five system volumes into the same NotebookLM notebook. The volumes are non-overlapping and collectively contain every normalized source system exactly once.
+
+- **Volume 1:** `investigative_api_catalogue_01_SYS-0001_to_SYS-0267.txt` — SYS-0001 through SYS-0267; 267 complete system records; 109,003 words.
+- **Volume 2:** `investigative_api_catalogue_02_SYS-0268_to_SYS-0565.txt` — SYS-0268 through SYS-0565; 298 complete system records; 108,940 words.
+- **Volume 3:** `investigative_api_catalogue_03_SYS-0566_to_SYS-0926.txt` — SYS-0566 through SYS-0926; 361 complete system records; 108,862 words.
+- **Volume 4:** `investigative_api_catalogue_04_SYS-0927_to_SYS-1285.txt` — SYS-0927 through SYS-1285; 359 complete system records; 108,922 words.
+- **Volume 5:** `investigative_api_catalogue_05_SYS-1286_to_SYS-1555.txt` — SYS-1286 through SYS-1555; 270 complete system records; 108,577 words.
+
+## Glossary
+
+### API
+Application programming interface: a documented machine-to-machine query route.
+
+### AIS
+Automatic Identification System: vessel broadcasts of identity, position and motion; reception is incomplete and messages can be wrong or manipulated.
+
+### ASN
+Autonomous system number: identifier for a network that participates in internet routing.
+
+### BGP
+Border Gateway Protocol: the protocol autonomous systems use to announce reachable internet address prefixes.
+
+### Cloud-optimised
+A file layout that allows remote software to read only needed portions, reducing download and compute cost.
+
+### Confidence / uncertainty
+A quantitative or qualitative statement about model reliability; it must travel with the result.
+
+### FDSN
+Federation of Digital Seismograph Networks web-service standard used for earthquake and station data.
+
+### GeoParquet
+Columnar Parquet files with standard geospatial metadata; efficient for large spatial joins.
+
+### GeoZarr
+Chunked cloud-native array storage suited to large multidimensional environmental rasters.
+
+### Grid cell / pixel
+A spatial unit in a raster; its value represents an area, not necessarily a precise point.
+
+### Ground truth
+Independent observation or record used to validate a model or remote-sensing interpretation.
+
+### Join key
+A field used to connect records. Stable source identifiers are safer than names or addresses.
+
+### Mascon
+A large mass-concentration cell used in GRACE satellite gravity solutions.
+
+### Modelled estimate
+A value inferred from observations plus assumptions; it is not the same as a direct measurement.
+
+### OData
+Open Data Protocol, a standard for querying structured web data.
+
+### Parquet
+Compressed columnar data format designed for efficient analytical queries.
+
+### RPKI
+Resource Public Key Infrastructure: cryptographic statements that help validate which network may originate an internet prefix.
+
+### SAR
+Synthetic-aperture radar: active satellite imaging that works through cloud and darkness but needs specialised interpretation.
+
+### SDMX
+Statistical Data and Metadata eXchange: a standard used by international statistical organisations.
+
+### STAC
+SpatioTemporal Asset Catalog: a standard API/schema for discovering imagery and other geospatial assets by place and time.
+
+### Vector / raster
+Vector data represent discrete points, lines or polygons; raster data represent a grid of cells.
+
+### Version pinning
+Recording the exact dataset release, processing baseline, model version and retrieval date so another reporter can reproduce the result.
+
+### CKAN
+Open-source data-catalogue software used by Canada and several provinces/territories; its API usually exposes metadata and resource links, not automatically the data itself.
+
+### ESTMA
+Extractive Sector Transparency Measures Act: Canadian law requiring covered extractive entities to report specified payments to governments.
+
+### OSFI
+Office of the Superintendent of Financial Institutions: Canada's federal prudential regulator for banks, insurers and federally regulated pension plans.
+
+### OSC
+Ontario Securities Commission: Ontario's capital-markets regulator.
+
+### SEDAR+
+System for Electronic Document Analysis and Retrieval: the Canadian Securities Administrators' public-company and investment-fund filing system.
+
+### SEDI
+System for Electronic Disclosure by Insiders: Canada's browser-based insider-reporting system.
+
+### NRD
+National Registration Database: the Canadian securities registration system for firms and individuals.
+
+### WFS
+Web Feature Service: a standards-based route for querying vector features and attributes.
+
+### WMS
+Web Map Service: a standards-based route primarily for rendered map images; use a feature service or bulk vector file when attribute analysis is required.
+
+### ArcGIS REST
+A machine interface exposed by Esri ArcGIS servers for querying layers, attributes and geometry; observe record limits and layer-specific licences.
