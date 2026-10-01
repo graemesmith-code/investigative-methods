@@ -1,6 +1,8 @@
 # Evidence and artifact inventory
 
-All seven approved Library sources were materialised to readable local bytes. Each ZIP was listed and unpacked before selection. This repository contains a small, curated set; the complete archives were not uploaded.
+For the original September notebook, seven selected Library sources were materialised to readable local bytes. Each ZIP was listed and unpacked before selection. This repository contains a small, curated set; the complete archives were not uploaded.
+
+The table below inventories that original selection. The later [Canadian ATI archive](../research/2026-10-01/ati-live/README.md), [historical-test annexes](../annexes/README.md) and [Rabbit reference](../catalogs/README.md) have separate provenance.
 
 ## Included evidence
 

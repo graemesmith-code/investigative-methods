@@ -1,37 +1,31 @@
-# 06. Rank with Jev, then search the top ten with Exa
+# 06. What did the top-ten Jev/Exa search show?
 
-**What we tried:** the user reported ranking 10,000 original contract paragraphs with Jev, searching the top ten leads with Exa, and retrieving ten results per lead. Manual reassessment of exact-event coverage and source type was subsequently added to the process.
+**Question:** After a model chooses interesting contract paragraphs, can search show what has already been reported? The 29 September 2026 account reports ranking 10,000 paragraphs with Jev and searching the top ten with Exa. Only the ten-row overview is available here for inspection.
 
-**Why:** ranking may reduce the reading queue, while search may identify earlier coverage. The two jobs need separate evidence so a search failure is not mistaken for an editorial discovery.
+## What the saved source contains
 
-**What happened:** the actual [Overview 1.csv](../evidence/exa/overview-1.csv) has ten leads. Nine say “Possible match” and one says “No clear match in results.” Each row reports ten Exa results. Priorities run from 0.660 to 0.710. The no-clear-match row identifies Anduril **FA881926DB0011**, at 0.680. These labels are summary fields; they are not verified assessments of the articles.
+The overview has brief lead descriptions, scores, coverage labels and result counts. It lacks the original paragraphs, exact searches, returned article links and the decisions made when those articles were reviewed. It can describe the dashboard's labels; it cannot validate them.
 
-**What it cost:** actual per-run Jev and Exa charges, retries and reviewer minutes are missing. Ten results per lead is not an invoice, and token-price estimates are not actual costs.
+## A recipe you can follow
 
-**What remains uncertain:** the file lacks the original paragraphs, exact queries, article URLs and text, and manual reassessment decisions. Several lead descriptions are abbreviated. The 10,000-record corpus, its date range, prompts and code revision are not present. The CSV's ten rows cannot independently prove the upstream run or the contents of 100 returned article pairs.
+1. Keep the original paragraph beside each proposed question.
+2. Search for earlier coverage and retain the results, including links and dates.
+3. Read each candidate article: is it the same contract action, another action, or general background?
+4. Distinguish original reporting from announcements and copies of the same story. Record the passage that decides the match.
+5. For an unresolved case, write down the missing fact rather than labeling it unreported.
 
-**Why it matters:** a compact dashboard is useful for navigation but insufficient for auditing coverage. The next experiment should preserve the article pairs and the reason each was accepted or rejected.
+## What happened
 
-## The Anduril diagnostic remains unresolved
+The saved overview lists **nine “Possible match” rows and one “No clear match in results”**, with ten results reported per lead. The unresolved row is Anduril contract **FA881926DB0011**. Its score of 0.680 is not a 68% probability of newsworthiness.
 
-An earlier account claimed prior coverage of this Anduril event, but exact links and their membership in the saved Exa result set were not recovered. Therefore this notebook does not classify the event as either covered or unreported.
+An earlier account said the Anduril event had prior coverage, but the exact links and whether they appeared in the saved search were not recovered. The search may have missed an article, the review may have misclassified one, or the claimed coverage may concern a different event. **The evidence does not resolve which.**
 
-The distinction can be resolved only with the original evidence:
+Manual reassessment was reportedly added later, but the decisions are missing. Nine possible matches are not nine verified covered events; one no-clear-match row is not a scoop.
 
-- If the relevant exact-event article was absent from the saved search results, the problem was retrieval.
-- If it was present but rejected incorrectly, the problem was classification.
-- If it covered another award, a broader programme or only an official release, the original coverage claim may itself have been too broad.
+## Cost, limits and the next useful step
 
-These are diagnostic possibilities, not findings about what happened. The row's “No clear match” wording describes a limited result set and must not be converted into “never reported.”
+Actual Jev and Exa charges, retries and review minutes for this contract trial are unknown. Do not substitute the separately recorded costs of the later [Canadian ATI trial](07-canadian-ati.md).
 
-## What a trustworthy reassessment requires
+Recover the ten original paragraphs and 100 reported lead–article pairs before drawing a stronger conclusion. Include known covered events in a new test.
 
-For each of the ten leads, preserve all ten returned results with stable lead ID, rank, URL, date, source type and the retrieved passage where retention is permitted. Mark whether it covers the **same action**, **same programme but different action**, **official announcement**, **copied release**, **independent reporting**, or **uncertain**. Record the deciding sentence and a human rationale.
-
-The reported addition of manual reassessment is a process improvement. Without saved decisions it supplies no numerical revised outcome. Nine possible matches is not nine independently covered events; one no-clear-match is not one scoop. A priority of 0.700 is not a 70% probability of newsworthiness or wrongdoing.
-
-## Next test
-
-Recover the original ten paragraphs and 100 lead–article pairs before repeating at larger scale. Put known covered events through the same search. Compare Jev ranking with simple rules on a fixed reviewed set. Save the actual bill and reviewer time. This is proposed work; it was not performed while writing the notebook.
-
-[Experiment index](README.md) · [Home](../README.md)
+[Technical annex: inspected export and unresolved evidence](../annexes/experiments/06-jev-exa.md) · [All experiments](README.md)

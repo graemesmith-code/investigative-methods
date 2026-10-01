@@ -1,0 +1,80 @@
+ANNEX LOCATION NOTE (1 October 2026): Read experiments/09-bank-lending.md for the short account. All commands and bare filenames below refer to research/2026-10-01/crisis/ from the repository root; code and data have not moved. The historical report follows.
+
+2008 FINANCIAL-CRISIS PRECURSORS: A SMALL, REAL REPRODUCIBILITY TEST
+Research date: 30 September 2026
+
+BOTTOM LINE
+Free contemporary records did contain actionable warnings about weakening mortgage underwriting. This test shows that a cheap repeatable scan could have kept those warnings in a reporting queue. It does not show that modern AI would have predicted the timing or scale of the financial crisis, uncovered fraud, or beaten existing journalists. The main additional reporting value would be connecting a general warning to particular lenders, products, places and contradictory claims, then doing verification and interviews. Merely summarizing these government releases adds little originality.
+
+WHAT WAS ACTUALLY RUN
+Downloaded three edition-specific OCC surveys, extracted every retail underwriting table, computed a simple rule, checked category coverage, expected row counts and percentage-row totals and compared overlapping historical rows. The script uses Python standard library and Poppler, with no LLM inference or paid data. There are 160 category/year rows across the three editions.
+
+The score is the percentage of relevant-product respondents easing standards minus the percentage tightening. The illustrative alert threshold is >=10 percentage points. It was chosen AFTER inspecting sources, so this is an exploratory extraction/triage pilot, not preregistered predictive validation.
+
+Current-year net-easing scores from their respective editions:
+Category                        2004   2005   2006
+Affordable housing                -2      6      3
+Consumer leasing                 -14     10  absent
+Credit cards                      -3    -12     -6
+Other direct consumer             -8     -6     -3
+Conventional home equity           3     16     32
+High-LTV home equity                7      4     37
+Indirect consumer                -18     11     22
+Residential real estate            0     17     21
+
+Sources: 2004 pp.23-30, 2005 PDF pages 30-37, 2006 PDF pages 33-39. Scores are our subtraction from the Eased/Tightened columns, not a statistic separately published by OCC.
+https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/files/pub-survey-cred-under-2004.pdf
+https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/files/pub-survey-cred-under-2005.pdf
+https://www.occ.gov/publications-and-resources/publications/survey-of-credit-underwriting-practices/files/pub-survey-cred-under-2006.pdf
+
+At >=10 pp the rule produces 0/8, 4/8 and 4/7 alerts. Raising it to >=20 pp produces 0/8, 0/8 and 4/7; lowering it to >=1 pp produces 2/8, 6/8 and 5/7. This is meaningful threshold sensitivity. Leasing and indirect-consumer alerts cannot be relabeled as mortgage-crisis successes. Nor can they automatically be labeled false positives: no subsequent loss outcome was evaluated. Consumer leasing disappears from the 2006 taxonomy and is explicitly missing, not counted as a non-alert.
+
+The 2006 edition surveys 73 large national banks over the year ending March 31. Product percentages use the relevant-product respondents: for example, 19 banks offered high-LTV home equity, while 62 engaged in residential real-estate lending. The percentages are therefore not shares of all 73 banks or loan-dollar shares. The script checks category coverage and percentage-row totals; it does not independently reconstruct these product-specific bank denominators. These are examiner assessments, not an all-lender population. Earlier rows do not necessarily represent identical respondents. The retrospective 2006 table also has conventional-home-equity alerts in 1999 and 2000, a reason to test earlier episodes before claiming specificity.
+
+PUBLIC AVAILABILITY AND REVISION AUDIT
+The underlying reports were announced 9 November 2004, 28 July 2005 and 18 October 2006. These dates differ from both observation periods and the current catalog's generic December labels:
+https://www.occ.gov/news-issuances/news-releases/2004/nr-occ-2004-102.html
+https://www.occ.gov/news-issuances/news-releases/2005/nr-occ-2005-74.html
+https://www.occ.gov/news-issuances/news-releases/2006/nr-occ-2006-116.html
+
+The 2005 announcement already explicitly identified the first net retail easing in the survey's history and warned about weaker verification and leverage. Thus the pilot rediscovers a public official warning, rather than a previously hidden story.
+
+Cross-edition audit found zero numeric differences in 48 overlapping retail rows (2004 versus 2005), 49 (2005 versus 2006), and 42 (2004 versus 2006). These are 139 pairwise row comparisons, with overlap between comparisons, not 139 independent observations.
+
+Caveat: these files were retrieved today. The 2006 PDF metadata says it was created/modified on 19 October 2006, one day after the announcement. A 20 October working cutoff would be conservative but would NOT prove the present bytes were online then. No historical capture proving exact first availability was retrieved. The 2004/2005 metadata are contemporaneous, but likewise are not cryptographic historical publication proof. Source hashes are in results.json and source_manifest.json. Make no exact-day predictive lead-time claim.
+
+A SECOND CHECK: A TEMPTING HMDA SIGNAL IS CONFOUNDED
+In the Fed's contemporaneous table 9, higher-priced conventional first-lien owner-occupied site-built home-purchase loans rose from 11.5% in 2004 to 24.6% in 2005. Its rate-adjusted comparison was 10.4% to 21.5%:11.1 pp rather than 13.1 pp. The paper attributes about 2 pp to one yield-curve/reporting effect, while a separate adjustable-rate calculation effect remains incompletely quantified. It would be wrong to call the whole 13.1 pp increase a measured deterioration in credit quality.
+https://www.federalreserve.gov/pubs/bulletin/2006/hmda/default.htm
+
+Crucially, the adjustment used application/origination dates absent from the public file; its ARM comparison also used proprietary LoanPerformance data. We read the contemporary published control, but did NOT reproduce it from public microdata. The current PDF flags a table 8 revision on 18 September 2006; our figures are table 9, but the retrieved edition must still be labeled revised.
+https://www.federalreserve.gov/pubs/bulletin/2006/hmda/bull06hmda.pdf
+
+The release was 8 September 2006,11 amEDT. Online aggregate tables were available, while some reports were ordered for a fee. Public HMDA omitted credit-history, DTI and LTV variables. Lender-level modified registers could be requested earlier, subject to the contemporary disclosure timetable and less validation. Data-year 2005 is therefore not publication-year 2005.
+https://www.occ.gov/static/ots/press-releases/ots-pr-2006-39.pdf
+https://www.federalreserve.gov/frrs/regulations/frequently-asked-questions-about-the-new-hmda-data.htm
+
+KNOWN CONTEMPORARY REPORTING
+BusinessWeek's own September 2006 follow-up says its mortgage-risk cover story was already online on 31 August. This defeats an unqualified claim of journalistic novelty.
+https://www.bloomberg.com/news/articles/2006-09-24/nightmare-mortgages
+
+WHAT TODAY'S AUTOMATED SEARCH SHOULD DO
+1. Keep one ledger per source: observation period, filing/publication time, known revision time, download time, source bytes/hash and extraction version. Never fill old periods from today's revised data without labeling them.
+2. Scan relations and changes: underwriting concessions plus rapid growth plus geographic/product concentration plus fragile funding or rising early delinquencies. An isolated mention of 'adjustable-rate mortgage' is weak evidence.
+3. Link institutions across lender names, subsidiaries, securitization sponsors and filing identifiers. Preserve unresolved identities and changes in survey/category definitions.
+4. Require numerator AND denominator, units, period, row totals, missingness and source coordinates. Here a naive plain-text regex silently missed six of eight 2005 current-year rows because cell baselines were split. Expected-row checks caught it; coordinate extraction recovered the rows; all six were visually checked. This is an actual failure, not a hypothetical risk.
+5. Use LLMs to locate, normalize and explain candidate passages. Let deterministic code calculate. Require an exact citation for each factual field and allow 'not available'. Treat stated lender policies as claims until corroborated; public disclosure alone cannot prove compliance or fraud.
+6. Deduplicate alerts against previous reporting and official warnings. The useful output is a question worth reporting, such as which lenders increased low-documentation volume while assuring investors about quality, not a generic 'crisis coming' headline.
+
+HOW TO TEST AI'S ADDED VALUE NEXT
+Freeze a cohort selected independently of collapse (for example all lenders above a predeclared 2004 origination-size threshold), sources available at a chosen 2005/2006 cutoff, a fixed investigation budget and operational outcomes. Use unrelated lending categories and earlier/other credit cycles as controls. Compare keyword search, this arithmetic baseline, a human given the same packet, and a blinded LLM. Record every alert, every miss, retrieval/extraction failures, verification minutes, precision@fixed-budget and useful new leads beyond prior coverage. No such LLM-versus-human outcome evaluation was run here.
+
+Pretrained hindsight remains a central contamination problem. Removing names/dates can reduce it but does not erase memorized text. A famous-crisis retrospective is best an extraction/reproducibility test. Predictive claims need precommitted unseen cases or a prospective shadow run, calibrated to the actual base rate. The crisis involved borrower distress, lender exposure, securitization and funding contagion; this narrow underwriting test covers only one vulnerability layer.
+
+ACCESS AND REMAINING BARRIERS
+OCC PDFs downloaded and parsed. Web PDF screenshots failed, so local renderings were used. Fed HTML read through the web tool, but direct download returned 403. Opening Countrywide's 2005 10-K failed even though SEC indexed search text was discoverable; no company-level filing experiment was claimed. We did not acquire loan-performance outcomes, complete an HMDA microdata scan, estimate false-positive rates, or audit bank-specific exposures. Those are incomplete work, not negative findings.
+
+RERUN
+From this directory: python3 download_sources.py && python3 analyze_occ.py
+A fresh checkout needs the source download; PDFs are not bundled in this repository.
+Requires Python 3 and Poppler's pdftotext. No third-party Python packages, model calls or paid API. The bundled source_manifest.json lists exact URLs, release evidence, byte sizes and hashes. README.txt expands the provenance caveats.

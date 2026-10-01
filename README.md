@@ -1,40 +1,35 @@
-# Investigative methods notebook
+# Finding reporting questions in public records
 
-## Canadian ATI experiment — completed live run
+A notebook for journalists who want to try small, affordable experiments with public records, search and AI. Start with a question you understand, keep the original evidence, and judge the result by whether it helps a reporter decide what to read next. You do not need to code to read these accounts or try their basic recipes.
 
-[Read the findings and human handoffs](research/2026-10-01/ati-live/report.md): 1,234 request summaries scored, 17 targeted Exa searches, five follow-up branches, and one seven-page release obtained. Two document-acquisition priorities survived; no new allegation was verified. Combined recorded usage was USD0.180954, not an audited tax-inclusive bill. [Results and evidence index](research/2026-10-01/ati-live/README.md) · [Live-tested code and tests](code/ati/README.md). This archive excludes credentials and full third-party news text.
+This is a record of experiments, including failures and unfinished work. It has **not** established a reliable scoop-finding service or shown that AI outperforms a reporter using simple rules.
 
+## Choose a starting point
 
-We are testing cheap ways for journalists to find public records worth reporting. The goal is a method another reporter can copy, measure and improve. A promising lead is a question to investigate, not a finding to publish.
+- **See the most complete trial:** [Canadian access-to-information summaries](experiments/07-canadian-ati.md). We ranked 1,234 request summaries, checked ten shortlisted topics and obtained one seven-page release. Two specific files were worth obtaining next; no new allegation was verified.
+- **Learn from a simple check:** [Contracts and sanctions names](experiments/01-ofac-baseline.md). Millions of transactions became 13 name matches. The strongest example recorded a contract termination with no new money committed, not a prohibited payment.
+- **Understand what search can miss:** [A missed known news story](experiments/03-headline-filter.md) and [the ten-lead Jev/Exa trial](experiments/06-jev-exa.md). An empty result is not evidence that a story is unreported.
+- **Try reading connected documents:** [Enron filings](experiments/08-enron.md) and [bank lending before 2008](experiments/09-bank-lending.md). These are exercises in reading and checking historical records, not demonstrations of predicting scandals.
+- **Choose a source for your beat:** [Rabbit catalog reference](catalogs/README.md), alongside the [small public-source access trial](experiments/02-public-source-pilot.md). A catalog entry is an invitation to test a source, not a promise that access works or that it contains a story.
 
-**What we tried:** compare contracting records with sanctions names; test public defence feeds; filter contract headlines; check news-provider retrieval; rank original contract paragraphs; search the highest-ranked leads for earlier coverage.
+[All experiments, dates and evidence status](experiments/README.md) · [A recipe for your own experiment](docs/method.md) · [Blank run record](templates/run.md)
 
-**Why:** public records are abundant, but newsroom time is scarce. A useful method should save review time while keeping important records visible.
+## What has proved useful so far
 
-**What happened:** the sanctions baseline produced 13 name-based candidate pairs and established no violation. The public-feed pilot preserved usable samples from nine source families. Two prototypes were published historically. The latest Exa export records ten leads, nine possible coverage matches and one with no clear match in its results; it does not preserve the articles needed to verify those labels.
+Keeping the actual record beside the proposed question makes mistakes easier to catch. In the ATI trial, an existing article led to the exact mental-health policy release: the useful decision was to stop pursuing an already-covered claim. Another lead named a ten-page Nanisivik compliance file, but public background did not prove that the order caused the facility's closure. The missing file mattered more than more general searches.
 
-**What it cost:** the sanctions run used no paid data or model calls. Actual total costs, including human time, were not recorded. Actual per-run Jev and Exa bills are missing. We cannot yet claim a measured cost per useful lead.
+What has **not** been demonstrated is a dependable success rate, the number of important records missed, or savings in reporter time. Several early prototypes lack the original inputs and search logs. The historical tests were chosen with hindsight. The later ATI trial preserved much more evidence, but still has no matched comparison against simpler selection methods.
 
-**What remains uncertain:** whether model ranking improves on simple rules, whether searches recover known coverage reliably, and whether these prototypes consistently produce worthwhile assignments. Several runs are documented only through reported results.
+## Costs and corrections belong beside the results
 
-**Why it matters:** a reproducible failed test can be valuable. Missing a known article teaches us to repair retrieval before interpreting silence as novelty. A zero-dollar contract termination teaches us to read the action before treating a name match as wrongdoing.
+The ATI run recorded **USD0.061954 in estimated Jev usage across 1,402 calls**, plus **USD0.119 reported by Exa across 17 searches**. Their sum, USD0.180954, excludes unmeasured labour and is not an audited invoice or full project cost. Earlier contract-ranking costs remain unknown. The requested OpenAI comparison was blocked on a missing key **before any API call; USD0 and no comparison result**. [Costs and limits](docs/costs-and-limitations.md).
 
-## Overnight research
+**ATI correction:** ten model assessments for one lower-ranked medical-fairness check used the wrong department's summary. Those assessments and the previous conclusion are invalid; a corrected rerun is pending. All ten shortlisted topics retain their checked identities. [Correction and preserved history](research/2026-10-01/ati-live/correction-identity.md).
 
-[What old scandals teach us about finding the next story](research/2026-10-01/README.md) — a plain-English report on the Enron and pre-2008 tests, choosing data sources, and a sharper Jev → coverage → evidence loop. Includes completed small tests, reproduction files and clearly marked next experiments.
+## Read, check, then adapt
 
-## Start here
+Each experiment starts with its question, what the source can tell you, a recipe, results and the next useful step. **Inspected evidence** means a saved file was checked; **reported result** means the full supporting logs are missing; **proposal** means it has not been tested. None of these labels makes a lead a finding ready to publish.
 
-- [Experiments and evidence status](experiments/README.md): six readable accounts of what we know.
-- [How the method works](docs/method.md): collection, screening, search and editorial review in ordinary language.
-- [Run template](templates/run.md): record a new experiment without losing its evidence.
-- [Evidence inventory](evidence/README.md): what is included, how it was selected, and what is missing.
-- [Costs and limitations](docs/costs-and-limitations.md): distinguish actual spending from estimates.
-- [Next steps](docs/next-steps.md): repair evidence capture, then compare methods on the same records.
-- [Technical reproduction](docs/reproduction.md): supporting code and prerequisites.
+[Technical annexes](annexes/README.md) hold the longer reports, prompts, code, accounting and reproduction instructions. Code and machine-readable evidence stay at their established paths so existing scripts continue to work. The repository remains private; this edit changes neither access nor licensing.
 
-## How to read claims
-
-**Inspected evidence** means a file in the supplied evidence was opened and checked when this notebook was prepared. **Reported result** means the run or outcome was described but its full logs are absent. **Proposal** means work still to do. **Missing evidence** means a conclusion cannot presently be verified. Publication of a prototype is not proof that it works today.
-
-This notebook was prepared on 30 September 2026 from selected September research. It covers professional journalism methods. No story allegation, outreach or new paid run is authorised by a notebook entry. Technical details follow the English explanation on each experiment page, so no programming knowledge is needed to read the results.
+Updated 1 October 2026. Source dates and the limits of each historical run are recorded on its page.

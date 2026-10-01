@@ -1,14 +1,14 @@
-# What to do next
+# The next useful work
 
-The next useful result is a small, fully documented comparison. Expanding the corpus before preserving evidence would make the method harder to evaluate.
+These are proposed steps, not new investigations completed by this rewrite. Start with the specific evidence gap that blocks a decision.
 
-1. **Recover the latest evidence.** Export the ten original contract paragraphs, all 100 lead–article pairs, exact queries, source dates, prompt/model versions, corpus date range, code revision and manual reassessment decisions. Preserve missing fields explicitly if they cannot be recovered.
-2. **Resolve the Anduril case.** Recover exact alleged prior-coverage URLs and compare them with the saved Exa results for FA881926DB0011. Decide whether the problem was retrieval, classification, a different event, or remains uncertain.
-3. **Create known controls.** Use covered contract events with known article URLs, including the missed WSJ THAAD example once its exact reference is recovered. Test whether the same retrieval settings can find them.
-4. **Compare on the same reviewed records.** Freeze a modest corpus and label it manually before viewing model ranks. Include routine actions, zero-dollar modifications, options, known covered events and worthwhile questions. Run simple rules and rules plus Jev on those same records.
-5. **Record real costs and human time.** Preserve charges, credits, retry counts and reviewer minutes. Count useful leads using a definition fixed before ranking. Audit random rejected records for important misses.
-6. **Keep or stop based on evidence.** Retain a method if it materially improves useful leads or reviewer time while preserving important controls. If it cannot beat a spreadsheet and simple rules, document that result and change the method.
+1. **Read the two ATI acquisition priorities.** The ten-page Nanisivik file and 95-page biometric-training file are still unread. They are more useful next steps than more general searching or stronger claims based on their titles.
+2. **Repair the medical-fairness check before using its conclusion.** The identity correction is complete, but ten model assessments and the earlier conclusion remain invalid. Any authorized rerun needs the original live ledger and corrected source, not a new empty spending history.
+3. **Recover missing contract-trial evidence.** The original ten paragraphs, search results, exact queries and review decisions would allow the unresolved Anduril case to be checked. The earlier WSJ THAAD example also needs its exact article reference and query.
+4. **Run one small fair comparison when authorized.** Give paragraph-only review and review with related earlier records the same events and reading-time allowance. Compare with simple rules. Count supported questions a reporter would pursue, not impressive-sounding summaries. The previously proposed 24-event test has not been run.
+5. **Include known answers and rejected examples.** Use articles you already know were published to test search, and inspect a small sample of lower-ranked records to find misses. Do not tune the method and judge its success on exactly the same few examples.
+6. **Record actual money and time.** Preserve calls, failures and reviewer minutes from the start. The requested OpenAI comparison remains blocked before any call; there is no result to compare yet.
 
-These steps are proposals, not completed experiments. A later public-sharing decision can use this notebook, but the current repository is private and no public release or licence is part of this work.
+Use the [Rabbit catalog reference](../catalogs/README.md) to choose a source for a small trial, rather than assuming every listed system deserves a large collection effort. This private repository is preparation for eventual reuse by journalists; public release and licensing are separate decisions.
 
-[Home](../README.md) · [Run template](../templates/run.md)
+[Home](../README.md) · [Method](method.md) · [Technical proposals and historical reasoning](../annexes/lead-development-report.md)

@@ -1,31 +1,35 @@
-# How the method works
+# Try a small reporting experiment
 
-The method is a series of small tests. First collect public records faithfully. Then reduce the queue using clear rules. Use a model only for narrow judgments about text. Search the surviving leads for earlier coverage, and have a journalist inspect the evidence.
+Begin with a question you can recognize as useful on your beat. “Which already-released file should I read next?” is easier to test than “Find a scoop.” The goal is a short list of supported questions that saves a reporter time.
 
-## Collect before interpreting
+## 1. Read a little before collecting a lot
 
-Keep the source URL, exact query, retrieval time, date range and raw-file hash. A hash is a fingerprint that lets another person check whether they have the same file. Keep action date and publication or first-observed date separate. A late record is not necessarily a new event.
+Choose one source from [the catalog reference](../catalogs/README.md) or a source you already know. Read a few ordinary records. Write down what one entry represents, the period covered and what is missing. A contract ceiling is a maximum, an obligation is a commitment and a payment is money paid. A request summary is not the requested document.
 
-## Use code for exact work
+Save the original link and retrieval date. If you later automate collection, a colleague can add file fingerprints and exact queries using the [technical run record](../annexes/run-record.md).
 
-Code handles names, identifiers, duplicates, arithmetic and dates. The OFAC baseline shows why the weaker suffix-removal pass needs a separate label. An identifier match can be useful, but identity and context still need checking.
+## 2. Decide what deserves a closer look
 
-## Use a model for a bounded question
+Start with rules you can explain: a change in scope, an unusual delay, or a named document that could answer a question. Keep the sentence that prompted your choice. If a model helps rank the records, ask a narrow question about their actual text, and compare its choices with yours or a simple rule.
 
-Jev's proposed role is to classify compact passages or candidate pairs. Examples: does this paragraph explicitly state a changed scope; does this passage describe the same event; is the described work a study or routine support? Save the exact question and model version. Ranking helps choose what to read; it does not prove a fact.
+A model score is a suggestion about reading order, not a fact or a verdict. Keep some rejected examples so you can notice important things the method missed.
 
-This architecture is adapted from the inspected 17 September Jev journalism design. It is a proposal for evaluation. The design's catalogue counts, vendor performance claims and historical price examples are not carried into this notebook as tested newsroom results.
+## 3. Find out what is already known
 
-## Search, then classify
+Search by a distinctive identifier, then by the people or organizations, action and programme. Check a known article to see whether your search can retrieve it. Read returned articles to distinguish the same event from a similar one. Copies of one wire story are not independent investigations.
 
-Exa and other search providers retrieve possible coverage. First ask whether known articles can be recovered. Then ask whether a retrieved article concerns the precise event. A broad company mention is not enough. Separate official announcements, copied releases and independent reporting.
+“No exact match in this saved search” is a limited observation. It does not mean “never reported.” A covered event can still leave an unanswered question, but that question needs its own evidence.
 
-Use limited language: “No obvious exact-event match in the saved search” is acceptable when the search and results are preserved. “Never reported” is not supported by an incomplete index or short result list.
+## 4. Make one concrete next decision
 
-## Give the reporter a small queue
+For each surviving question, keep the original record, what reporting already establishes, an ordinary explanation and the one missing fact that matters most. Decide to obtain a particular document, do a specific check, or stop. Do not keep searching only because a result sounds interesting.
 
-Each card needs the original record, a proposed reporting question, coverage status, a plausible ordinary explanation, uncertainty and one next document check. A starting proposal is at most ten cards per week. That limit has not been validated as the optimal newsroom workload.
+The [ATI mental-health example](../experiments/07-canadian-ati.md#a-useful-decision-to-stop) shows a successful stop. The [brokering-permit example](../experiments/10-ati-source-check.md) shows when a document is more useful than another broad query.
 
-Measure the number of useful cards, the important records missed, review time and actual cost. Compare rules alone with rules plus a model on the same input set. Retain rejected examples so evaluation includes the mistakes that never reached the top ten.
+## 5. Judge the trial honestly
 
-[Home](../README.md) · [Next steps](next-steps.md)
+Record useful questions, important missed examples, paid usage and reading time. A method should earn its place by making review better. We have not yet shown that the model-assisted versions here outperform simple rules under the same time allowance.
+
+Use the [blank run record](../templates/run.md). If you automate it, the [annexes](../annexes/README.md) preserve code and the extra details someone else will need to repeat the work.
+
+[Home](../README.md) · [Costs and limitations](costs-and-limitations.md) · [Next steps](next-steps.md)

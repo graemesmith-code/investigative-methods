@@ -1,33 +1,30 @@
-# 02. Find public feeds a small newsroom can actually use
+# 02. Which public feeds can a newsroom use?
 
-**What we tried:** test public defence-related feeds and keep their responses and small tabular extracts, rather than assume that a source catalogue means usable access.
+**Question:** Before building a reporting tool, can we retrieve records that a journalist can understand and check? The 19 September 2026 source archive was unpacked and inspected for this notebook; access was not retested during this rewrite.
 
-**Why:** a cheap monitor needs dependable inputs. Each record must also answer a reporting question: what money changed hands or what work was commissioned?
+## What the sources contain
 
-**What happened:** the 19 September archive was unpacked for this notebook. It contains a README, manifest, 14 normalised CSV extracts and raw JSON, XML and captured status responses. The audit identifies nine source families with usable data: USAspending, official contract-announcement RSS, Federal Register, Regulations.gov, ClinicalTrials.gov, OpenAlex, GAO, Oversight.gov and GLEIF. Multiple extracts can come from one family; 14 files does not mean 14 independent sources.
+The trial covered public spending, announcements, regulations, research, oversight reports and corporate identifiers. These answer different questions. A spending record can describe a commitment rather than cash paid; a research description can reveal what an agency wants studied without proving the study was completed.
 
-**What it cost:** several routes required no key; Regulations.gov used a public demonstration key. Actual request charges and staff time were not preserved as a cost ledger. Access without a key is not a complete accounting of running costs.
+## A recipe you can follow
 
-**What remains uncertain:** access and schemas can change, feed coverage is partial, and database descriptions can be stale or administrative. These are test samples, not discoveries. Current API functionality was not retested for this notebook.
+1. Pick two sources connected to a beat you know.
+2. Retrieve a few records, including a known example, and save the original response and date.
+3. Trace each row back to its official record. Read the description and check what the date and amount mean.
+4. Record blocked access, empty results and missing documents separately. Add another source only once these two are useful.
 
-**Why it matters:** testing sources first helps keep the system small. The same pipeline can look for significant money changes and interesting research commissions without applying one dollar threshold to both.
+## What happened
 
-## Two questions, two ledgers
+The inspected archive contained 20 capture entries and 14 extracted tables. **Nine source families** supplied usable data in that test: USAspending, official contract-announcement RSS, Federal Register, Regulations.gov, ClinicalTrials.gov, OpenAlex, GAO, Oversight.gov and GLEIF. Several tables came from the same family.
 
-The **money ledger** asks what an award or modification changed. An obligation is a commitment, a ceiling is a maximum, and a payment is money actually paid. Those amounts must not be substituted for each other.
+A Greenland keyword example exposed a basic trap: a company with “Greenland” in its name need not be doing work in Greenland. The combined Greenland-and-special-studies search found no qualifying record in that test, which is not proof that no such study exists.
 
-The **intent ledger** asks what problem an agency is commissioning someone to examine. A small study can be important even if its amount is modest. A transaction describing an amendment may not be a new commission, so the original award history still matters.
+Access also failed in useful ways. SAM.gov required a personal key; SBIR returned forbidden responses; Grants.gov returned a maintenance page. The announcement feed worked, while a linked contract article was blocked. These are dated observations, not permanent verdicts on the services.
 
-The source pack's Greenland keyword test also shows why word matches need review: a company name containing Greenland is not proof that work concerns Greenland. The combined Greenland-plus-special-studies query returned no qualifying record in that test; it does not establish that no such study exists.
+## Cost, limits and the next useful step
 
-## What failed and what was preserved
+Several routes needed no key; Regulations.gov used a public demonstration key. Actual charges and staff time were not preserved in a cost ledger. Small saved samples establish access at the time, not comprehensive coverage or a working ongoing service.
 
-SAM.gov required a personal API key; no record sample was fabricated. SBIR endpoints returned forbidden responses amid maintenance or authorisation problems. Grants.gov returned a maintenance page. The official announcement RSS worked, but the linked contract article was blocked in the test environment. Those are historical access observations, not permanent source verdicts.
+Repeat the two-source recipe with a clear reporting question and a record of time spent. The four small example tables in the annex show the kinds of fields to inspect.
 
-## Evidence and a bounded repeat
-
-The [inspected original manifest](../evidence/api-samples/manifest.csv) records 20 captures, including failed access checks. [Four small CSV selections](../evidence/README.md) show transaction fields, study descriptions, legal-entity identifiers and announcement links. Selection sizes and hashes are recorded there. The full raw pack is retained as a source reference, not uploaded wholesale.
-
-For a repeat, choose two source families, save exact queries and raw responses, record the retrieval time, and check that a human can trace every extracted row back to a source record. Count failed and empty responses separately. Only then add another source. This repeat is a proposal, not a new run.
-
-[Experiment index](README.md) · [Home](../README.md)
+[Technical annex: source samples and failed access](../annexes/experiments/02-public-source-pilot.md) · [Rabbit reference](../catalogs/README.md) · [All experiments](README.md)

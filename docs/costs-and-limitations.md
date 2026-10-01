@@ -1,34 +1,37 @@
-# Costs and limitations
+# What these experiments cost—and what is still unknown
 
-We are trying to invent cheap reporting methods, but the supplied evidence does not yet establish an actual cost per useful lead. Unknown spending is recorded as unknown, never as zero.
+The best recorded spending is from the Canadian ATI run. Most earlier experiments lack a complete usage ledger. **Unknown is not zero**, and a small API charge is not the full cost of doing journalism.
 
-| Run | Observed paid use or reported volume | Actual total cost | Main missing measure |
-|---|---|---|---|
-| OFAC baseline | No paid data or model calls | Unknown | Computing, download, storage and review time |
-| Public-source pilot | No-key routes and public demo-key route; blocked sources documented | Unknown | Request ledger, engineering and review time |
-| Headline filter | Published prototype; failed known control reported | Unknown | Hosting, search/model usage and review time |
-| The News API check | 27 requests, 16 outlets, no errors user-reported | Unknown | Saved responses, quota, bill and review time |
-| Paragraph prototype | Published historically | Unknown | Build/hosting cost and per-run usage |
-| Jev + Exa | 10,000 paragraphs user-reported; ten leads with ten-result counts inspected | Unknown | Jev tokens/calls, Exa billed operations, retries and reviewer minutes |
+| Experiment | Recorded paid use | What is not measured |
+|---|---|---|
+| Sanctions-name comparison | No paid data or model calls | Computing, downloads, storage and review time |
+| Public-source trial | Public/no-key routes and one demonstration-key route; no complete charge ledger | Actual request charges, engineering and review time |
+| Headline prototype | Unknown | Build, hosting, search/model usage and review |
+| Sixteen-outlet news check | 27 requests reported; charges and quota unknown | Saved response logs, bill and review time |
+| Paragraph prototype | Unknown | Build, hosting, model usage and review |
+| September contract Jev/Exa top-ten trial | Actual per-run charges unknown | Calls/tokens, retries, invoice attribution and review time |
+| October Canadian ATI run: Jev | **USD0.061954 estimated** from observed tokens across **1,402 calls** | Audited invoice, taxes/fees, cash-versus-credit settlement and labour |
+| October Canadian ATI run: Exa | **USD0.119 API-reported** across **17 searches** | Same invoice and labour limitations |
+| Enron and bank-survey exercises | No paid data or model API calls | Platform inference, source-reading and preparation time |
+| Preliminary ATI source check | No Jev/Exa paid calls; eighteen free-web queries recorded | Platform and human time |
+| Requested OpenAI comparison | **USD0; no API calls** | Blocked on a missing key; no comparison result |
 
-Historical vendor price estimates are planning assumptions. They may omit prompt overhead, retries, text retrieval, hosting and human review. They are not recorded costs of these runs and are not used here to calculate a bill.
+ATI combined usage accounting is **USD0.180954**. It is not a verified cash debit or tax-inclusive bill. It includes ranking, coverage assessments and follow-up passage assessments, including the ten medical-fairness assessments later invalidated. No additional calls were made to correct metadata or restructure this notebook. The [exact ATI cost record](../research/2026-10-01/ati-live/cost-summary.json) and [sanitized accounting](../research/2026-10-01/ati-live/ledger-accounting.json) preserve the details.
 
 ## What to record next time
 
-Keep provider, model/version, requests, retries, billed tokens or operations, invoice-period attribution, currency, cash charged, credit consumed, storage and reviewer minutes. Record free credits separately from cash. If an invoice covers multiple runs and cannot be allocated, keep that uncertainty explicit.
+Keep paid charges and free credits separate. Record the provider, requests, retries, tokens or operations, currency, period covered by the bill and minutes spent reviewing. If a shared bill cannot be allocated to one trial, say so. Historical prices in an annex are planning assumptions at the stated date, not current quotes or evidence of actual payment.
 
-Once a reviewer has defined and counted worthwhile leads, calculate **cash cost per worthwhile lead** and **review minutes per worthwhile lead**. Also report missed important controls. If there are no useful leads, report the spend and zero useful leads rather than dividing by zero.
+Once you have defined a useful reporting question, count those accepted after checking and show both cash spending and review time. If none survive, report that outcome and the spend rather than inventing a cost per useful lead.
 
-## Limits that affect conclusions
+## Limits that change how to read a result
 
-- A current list is not a historical status check; name matches do not prove identity or wrongdoing.
-- Contract obligation, ceiling, value and payment are different measures.
-- Successful API access does not establish complete records, lawful republication or current service availability.
-- Search can miss known coverage; silence is not a novelty verdict.
-- A top-ten list says little about important records discarded earlier.
-- Model scores need calibration against human-reviewed examples; small score differences do not establish editorial distinctions.
-- Original paragraphs, queries, articles, prompts and decisions are required to reproduce the latest ranking and search run.
+- A name match needs identity, date and context checks.
+- An alarming request can have no records behind it; a partly disclosed file can still be uninformative.
+- A working connection does not establish completeness or ongoing availability.
+- A search can miss known reporting. Silence does not establish novelty.
+- A top-ten list says little about good material rejected earlier.
+- Historical cases chosen after a scandal cannot establish foresight. Today's models may already know the ending.
+- Model scores and confident wording are not verified editorial judgments.
 
-No live search-provider tests, paid calls or outreach were performed while assembling this notebook. Prototype publication status is historical; present functionality remains untested.
-
-[Home](../README.md) · [Run template](../templates/run.md)
+[Home](../README.md) · [Experiments](../experiments/README.md) · [Run record](../templates/run.md)

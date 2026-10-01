@@ -1,16 +1,22 @@
-# Experiment index
+# Experiments: what happened and what you can try
 
-Start with the plain-English account on any page. Each separates the observation from the conclusion it could support.
+Start with any question below. Each account can be read without running code. “Completed” describes the limited test, not a verified story or a validated system.
 
-| Experiment | Date | Evidence status | What the method teaches |
-|---|---|---|---|
-| [01. Contract names against sanctions](01-ofac-baseline.md) | 18 Sep 2026 | Completed run; report, code and saved outputs inspected | A name alert needs identity, timing and action checks. |
-| [02. Public defence source pilot](02-public-source-pilot.md) | 19 Sep 2026 | Completed source audit; archive unpacked and manifest inspected | Test access and meaning before designing a large monitor. |
-| [03. Headline filter and a missed known article](03-headline-filter.md) | 22–24 Sep 2026 | Publication historically verified; control failure reported; detailed logs missing | Search silence cannot establish an unreported story. |
-| [04. Sixteen-outlet retrieval check](04-newsapi-retrieval.md) | 25 Sep 2026 | Code inspected; 27 requests and no errors user-reported | Provider counts measure retrieval, not completeness. |
-| [05. Paragraph Lead Test prototype](05-paragraph-prototype.md) | 27 Sep 2026 | Publication historically verified; code revision and run evidence missing | Preserve the original paragraph so ranking can be reviewed. |
-| [06. Jev ranking plus Exa search](06-jev-exa.md) | 29 Sep 2026 | 10,000-paragraph run user-reported; ten-row CSV inspected | Separate retrieval errors from coverage-classification errors. |
+| Question | Date | Evidence and outcome |
+|---|---|---|
+| [01. Do contract recipients share sanctions-list names?](01-ofac-baseline.md) | 18 Sep 2026 | Completed screen; saved report and outputs. Thirteen candidate pairs, no violation established. |
+| [02. Which public feeds can a newsroom use?](02-public-source-pilot.md) | 19 Sep | Source archive inspected; nine usable source families in that test, plus access failures. |
+| [03. Can a headline filter find a known news story?](03-headline-filter.md) | 22–24 Sep | Prototype publication verified historically; missed control reported, detailed logs missing. |
+| [04. Can a news provider retrieve sixteen outlets?](04-newsapi-retrieval.md) | 25 Sep | Script inspected; 27 requests and no errors reported, response files missing. |
+| [05. Does the full contract paragraph help?](05-paragraph-prototype.md) | 27 Sep | Prototype published historically; ranking performance unmeasured. |
+| [06. What did the top-ten Jev/Exa search show?](06-jev-exa.md) | 29 Sep | Ten-row export inspected; original paragraphs and article pairs missing. |
+| [07. Which Canadian ATI releases should a reporter read next?](07-canadian-ati.md) | 1 Oct | Completed ranking and bounded searches; one release read, two acquisition priorities, one invalid lower-ranked check pending rerun. |
+| [08. Could old Enron filings support useful questions?](08-enron.md) | 30 Sep | Original filings checked; arithmetic and simple text search completed. No AI comparison or discovery claim. |
+| [09. What did bank surveys show before 2008?](09-bank-lending.md) | 30 Sep | Three survey editions extracted and checked; warnings were already public. |
+| [10. Is Canada's ATI index a useful place to start?](10-ati-source-check.md) | 30 Sep | Earlier source probe: twenty summaries inspected, three selected examples, no releases obtained at that stage. |
 
-The proposed comparison in [next steps](../docs/next-steps.md) has not been run. The notebook does not combine these separate experiments into an invented end-to-end success rate.
+Jev is the model service used to rank or assess text in some trials. Exa is the search service used to retrieve possible earlier coverage. Their roles and costs are distinct. The requested OpenAI comparison is **blocked before its first API call**, with USD0 spent and no result to compare.
 
-[Home](../README.md) · [Evidence](../evidence/README.md) · [Run template](../templates/run.md)
+For a new trial, use [the method](../docs/method.md) and [run record](../templates/run.md). For source ideas, use [the Rabbit reference](../catalogs/README.md). For exact historical settings and saved files, use [the annexes](../annexes/README.md).
+
+[Home](../README.md)

@@ -1,59 +1,39 @@
-# Run record: [short descriptive title]
+# Run record: [your reporting question]
 
-Date: [UTC date/time]  
-Status: [completed / reported only / proposal / blocked]  
-Evidence location: [relative path]
+Date: [date and time]
 
-## Plain-English account
+Status: [completed / reported only / proposed / blocked]
 
-**What we tried:** [one concrete test]
+Original sources: [links and saved evidence location]
 
-**Why:** [the newsroom problem and what would count as improvement]
+## What are you trying to learn?
 
-**What happened:** [observations and counts; separate inspected evidence from reported results]
+[One question, why it matters to your beat, and what would count as a useful result.]
 
-**What it cost:** [actual cash, credits and review minutes, or unknown]
+## What does the source tell you?
 
-**What remains uncertain:** [missing evidence and alternative explanations]
+[What one entry represents, dates covered, what it leaves out, and how this sample was chosen. A summary is not the underlying document.]
 
-**Why it matters:** [what another reporter can copy or learn]
+## What did you do?
 
-## Test fixed before running
+[Short numbered steps another reporter could follow. Identify any model or search service and distinguish work actually performed from proposals.]
 
-- Reporting question and intended audience:
-- Corpus, inclusion/exclusion rules, date range and sample selection:
-- Rules-only comparator:
-- Known positive, negative and retrieval controls:
-- Human review labels and definition of a worthwhile lead:
-- Stop rule and maximum authorised spending:
+## What happened?
 
-## Reproduction record
+[Concrete examples, including an unsuccessful or rejected one. Keep the original record beside each conclusion. Identify earlier coverage and the limits of the search.]
 
-- Source URL, exact query and retrieval time for each source:
-- Original records and raw hashes:
-- Code revision and transformation details:
-- Model, exact prompt/question version and parameters:
-- Search provider, query, date filters, returned ranks and failure states:
-- Saved original paragraph and all returned article pairs:
-- Source type, exact-event decision, deciding passage and human rationale:
-- Evidence-retention restrictions and any permitted excerpts:
+## What did it cost?
 
-## Results and costs
+[Cash, credits and review minutes, or “unknown.” Separate a provider's usage figure from an audited bill and from total labour.]
 
-| Measure | Value | Evidence |
-|---|---|---|
-| Input records and duplicates | [ ] | [ ] |
-| Calls, tokens/operations and retries | [ ] | [ ] |
-| Useful leads reviewed | [ ] | [ ] |
-| Important known controls missed | [ ] | [ ] |
-| Random rejected-record audit | [ ] | [ ] |
-| Cash charged and credits used | [ ] | [ ] |
-| Review minutes | [ ] | [ ] |
+## What remains uncertain?
 
-## Decision
+[Missing evidence, possible ordinary explanations, known mistakes and important material the method may have missed.]
 
-[Continue, change or stop; explain what evidence supports the decision.]
+## What is the next useful step?
 
-[Do not infer wrongdoing from a screening alert or noncoverage from an empty search. Preserve all unresolved outcomes.]
+[One particular document or check, or a clear reason to stop. A lead is not a verified allegation.]
 
-[Home](../README.md)
+Attach the [technical run record](../annexes/run-record.md) if code, models or repeated searches were used. It captures exact settings, prompts, source fingerprints and cost details without cluttering this account.
+
+[Home](../README.md) · [Method](../docs/method.md)
