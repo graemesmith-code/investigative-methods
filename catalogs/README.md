@@ -4,7 +4,7 @@ The Rabbit collection is a map of public-record systems for journalists. Use it 
 
 **What is in the collection:** one reader guide and five volumes, containing **1,555 distinct system records and 2,516 access points**. A system is the source being described; an access point is a route into it, such as a search page, download or API. Several routes may serve the same system. The count includes partial, unverified and discovery-only routes: it does **not** mean 1,555 free, working, live-tested APIs.
 
-The overview below comes from the recovered files and their verified counts. The original-file transfer into this repository is still pending; downloadable links and the full provenance record will be added after their bytes are checked here.
+The overview below comes from the recovered files and their verified counts. The [original Rabbit1 reader guide](../references/rabbit/originals/Rabbit1.txt) is now available here. Transfer of the five volumes and the Rabbit2 revision is still pending; their download links and the full provenance record will be added after their bytes are checked here.
 
 ## Choose a volume
 
