@@ -1,5 +1,10 @@
 # Investigative methods notebook
 
+## Canadian ATI experiment — completed live run
+
+[Read the findings and human handoffs](research/2026-10-01/ati-live/report.md): 1,234 request summaries scored, 17 targeted Exa searches, five follow-up branches, and one seven-page release obtained. Two document-acquisition priorities survived; no new allegation was verified. Combined recorded usage was USD0.180954, not an audited tax-inclusive bill. [Results and evidence index](research/2026-10-01/ati-live/README.md) · [Live-tested code and tests](code/ati/README.md). This archive excludes credentials and full third-party news text.
+
+
 We are testing cheap ways for journalists to find public records worth reporting. The goal is a method another reporter can copy, measure and improve. A promising lead is a question to investigate, not a finding to publish.
 
 **What we tried:** compare contracting records with sanctions names; test public defence feeds; filter contract headlines; check news-provider retrieval; rank original contract paragraphs; search the highest-ranked leads for earlier coverage.

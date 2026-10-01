@@ -1,0 +1,28 @@
+{
+  "ranked": 1234,
+  "calibration_calls_included_in_ranking": 100,
+  "coverage_screen_calls": 140,
+  "branch_screen_calls": 28,
+  "branch_distinct_passages": 22,
+  "initial_exa_queries": 14,
+  "expansion_exa_queries": 3,
+  "top_editorial_clusters": 10,
+  "lower_half_audits": 3,
+  "known_covered_controls": 1,
+  "known_control_recovered": 1,
+  "branches": 5,
+  "leads_branched": 3,
+  "public_source_documents_captured": 6,
+  "release_packets_obtained": 1,
+  "release_packet_pages": 7,
+  "surviving_acquisition_priorities": 2,
+  "verified_new_allegations": 0,
+  "clear_new_selected_coverage_rejections": [
+    "leopard public event",
+    "israel named article",
+    "involuntary mental-health policy"
+  ],
+  "additional_rejection": "Nanisivik order caused shutdown inference unsupported",
+  "novelty_or_recall_estimate": null,
+  "interpretation": "Descriptive counts only; no controlled comparison. Full packet and primary-source reads added evidence; more query count is not success."
+}

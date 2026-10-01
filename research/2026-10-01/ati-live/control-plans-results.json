@@ -1,0 +1,105 @@
+[
+  {
+    "plan": {
+      "lead": "c22-control",
+      "request_number": "A-2025-00945",
+      "selection": "known-covered control",
+      "question": "Does Exa recover the previously identified reporting about the April 2024 Canadian soldier C22/P320 discharge injury and subsequent lawsuit? This tests known coverage recovery, not novelty.",
+      "queries": [
+        "Canadian soldier C22 SIG Sauer P320 accidental discharge April 2024 lawsuit CBC April 2026"
+      ]
+    },
+    "query": "Canadian soldier C22 SIG Sauer P320 accidental discharge April 2024 lawsuit CBC April 2026",
+    "response": {
+      "results": [
+        {
+          "title": "Canadian soldier sues Ottawa and U.S. gun maker over ... - CBC",
+          "url": "https://www.cbc.ca/news/politics/pistol-soldier-canada-wounded-p320-9.7165101",
+          "author": "Murray Brewster    ·  CBC News    ·  Posted: Apr 16, 2026 4:00 AM EDT | Last Updated: April 16",
+          "id": "https://www.cbc.ca/news/politics/pistol-soldier-canada-wounded-p320-9.7165101",
+          "retrieved_text_sha256": "5f6b55e9f951ded62241546b2299dcc6aeae91d387252dc092fae52cbd90da98",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian veteran sues U.S. gunmaker over career-ending injury",
+          "url": "https://www.cbc.ca/player/play/video/9.7169145",
+          "publishedDate": "2026-04-18T02:00:53.000Z",
+          "id": "https://www.cbc.ca/player/play/video/9.7169145",
+          "retrieved_text_sha256": "afc51ff7e472a216ddfeb6fe877ebf6a4d6e3ba1eb938e4adddf9e8847e26bd8",
+          "retrieved_text_characters": 642
+        },
+        {
+          "title": "Canadian Military Officer Sues Over Pistol That Fired Without Trigger Pull - WestNet News",
+          "url": "https://www.westnet.ca/news/article/canadian-military-officer-sues-over-pistol-that-fired-without-trigger-pull",
+          "publishedDate": "2026-04-16T08:17:17.000Z",
+          "id": "https://www.westnet.ca/news/article/canadian-military-officer-sues-over-pistol-that-fired-without-trigger-pull",
+          "retrieved_text_sha256": "a5851d8cdcad948e736e8de678b7df4de17f895f2537a832607565e743327db0",
+          "retrieved_text_characters": 4124
+        },
+        {
+          "title": "Canadian soldier sues Ottawa and U.S. gun maker over accidental shooting",
+          "url": "https://www.cbc.ca/lite/story/9.7165101",
+          "id": "https://www.cbc.ca/lite/story/9.7165101",
+          "retrieved_text_sha256": "e8b7e2ba75f8c6f8a07306d575f970655c8466c93e9420d3d06d2a5bf0e68e8a",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian Soldier Sues Over Allegedly Defective Military Handgun That Discharged Without Trigger Pull - WestNet News",
+          "url": "https://www.westnet.ca/news/article/canadian-soldier-sues-over-allegedly-defective-military-handgun-that-discharged-without-trigger-pull",
+          "publishedDate": "2026-04-16T08:16:50.000Z",
+          "id": "https://www.westnet.ca/news/article/canadian-soldier-sues-over-allegedly-defective-military-handgun-that-discharged-without-trigger-pull",
+          "retrieved_text_sha256": "df89eaf2aee5fdbd1901d424f2dd45f7ac0602a681a4914e362d68a5328cd811",
+          "retrieved_text_characters": 3892
+        },
+        {
+          "title": "Canada, SIG Sauer Hit With Lawsuit Over Military Pistol Accident",
+          "url": "https://thedefensepost.com/2026/04/20/canada-lawsuit-pistol-accident/amp/",
+          "publishedDate": "2026-04-20T00:00:00.000Z",
+          "id": "https://thedefensepost.com/2026/04/20/canada-lawsuit-pistol-accident/amp/",
+          "retrieved_text_sha256": "8b7e0369d01a2c17167c649ffbecf4b89c2539f4c54102170ef1f5145bc0f5be",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian soldier sues Ottawa and U.S. gun maker over accidental shooting | CBC News: Politics | canada-today.com",
+          "url": "https://canada-today.com/news/canadian-soldier-sues-ottawa-and-us-gun-maker-over-accidental-shooting",
+          "publishedDate": "2026-04-16T00:00:00.000Z",
+          "id": "https://canada-today.com/news/canadian-soldier-sues-ottawa-and-us-gun-maker-over-accidental-shooting",
+          "retrieved_text_sha256": "69dbc960f412174c339bf8f5734bd3d7cb603c8e15f6eaff7153a70580556fd0",
+          "retrieved_text_characters": 267
+        },
+        {
+          "title": "Denial & Discharge: CAF Weapons Procurement Costing Soldiers Their Careers. | Wiretap Media",
+          "url": "https://wiretapmedia.ca/denial-discharge-caf-weapons-procurement-costing-soldiers-their-careers/",
+          "publishedDate": "2026-04-17T13:53:57.000Z",
+          "id": "https://wiretapmedia.ca/denial-discharge-caf-weapons-procurement-costing-soldiers-their-careers/",
+          "retrieved_text_sha256": "6d8394d56be0c2582c14e3a5eec253c968867ca864a8b70a23f954eb6be2717f",
+          "retrieved_text_characters": 5364
+        },
+        {
+          "title": "Canada, SIG Sauer Hit With Lawsuit Over Military Pistol Accident",
+          "url": "https://thedefensepost.com/2026/04/20/canada-lawsuit-pistol-accident/",
+          "publishedDate": "2026-04-20T00:00:00.000Z",
+          "author": "Rojoef Manuel",
+          "id": "https://thedefensepost.com/2026/04/20/canada-lawsuit-pistol-accident/",
+          "retrieved_text_sha256": "12c7cfa9e062f6859ba108e7550fc392c70ce90a9fda3cbb099c5597b3646c03",
+          "retrieved_text_characters": 2558
+        },
+        {
+          "title": "Canadian soldier sues Ottawa and U.S. gun maker over ...",
+          "url": "https://ca.news.yahoo.com/canadian-soldier-sues-ottawa-u-080000407.html",
+          "id": "https://ca.news.yahoo.com/canadian-soldier-sues-ottawa-u-080000407.html",
+          "retrieved_text_sha256": "e67581a5a459fe4a3db8c08917bbeef0388ca132e20fe01025f0a7d5af278bfc",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "283666cdeb881d155403692f829e187a"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  }
+]

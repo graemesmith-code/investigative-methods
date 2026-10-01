@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "jev": {
+      "calls": 1402,
+      "accounted_usd": 0.061954,
+      "unrounded_usage_cost_usd": "0.061254480",
+      "basis": "estimate from observed input tokens at verified list rate",
+      "observed_input_tokens": 1458440,
+      "observed_output_tokens": 87764,
+      "failed_or_uncertain_reservations_usd": 0,
+      "cap_usd": 10
+    },
+    "exa": {
+      "calls": 17,
+      "accounted_usd": 0.119,
+      "unrounded_usage_cost_usd": "0.119",
+      "basis": "provider-reported costDollars.total",
+      "observed_input_tokens": null,
+      "observed_output_tokens": null,
+      "failed_or_uncertain_reservations_usd": 0,
+      "cap_usd": 10
+    }
+  },
+  "prior_experiment_usd": {
+    "jev": 0,
+    "exa": 0
+  },
+  "prior_basis": "Explicit predecessor confirmation of zero calls and no live overlap.",
+  "invoice_verified": false,
+  "other_paid_api_calls": 0,
+  "cash_vs_credit_allocation": "Not available; no credit purchases made",
+  "platform_inference_and_human_time_priced": false,
+  "taxes_and_fees": "Not available from API responses; no tax-inclusive invoice, exchange fees or cash debit verified. USD figures describe list-rate/API usage charges, not an all-in invoice.",
+  "budget_margin_usd": {
+    "jev": 9.938046,
+    "exa": 9.881
+  }
+}

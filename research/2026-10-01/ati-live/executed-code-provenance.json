@@ -1,0 +1,22 @@
+{
+  "executed_source_snapshot": "code/ati/executed-v1",
+  "note": "These files generated the live API calls. Current top-level runner differs only by a post-run guard requiring restoration of the original live ledger, plus path portability changes where applicable. No transferred fixture-only framework is included.",
+  "files": [
+    {
+      "path": "code/ati/executed-v1/filter_branches.py",
+      "sha256": "82e18d5ccf0785e711d6b95110b1e398b9b16a1b33271743ea0c631b7090fca9"
+    },
+    {
+      "path": "code/ati/executed-v1/match_coverage.py",
+      "sha256": "5c67fe3f0e20488aa49c091e9be70043e0372731a553a82def49741194f346ff"
+    },
+    {
+      "path": "code/ati/executed-v1/pipeline.py",
+      "sha256": "f7f7134417e70bdab34be29f9867aa0481faa048ddd90ac34c55d2ceb46414b7"
+    },
+    {
+      "path": "code/ati/executed-v1/coverage.py",
+      "sha256": "f08b6701e146626b73216f95edaf7e76ab071c37db3149dd65fcdfc1868dcb80"
+    }
+  ]
+}

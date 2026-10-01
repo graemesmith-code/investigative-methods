@@ -1,0 +1,1410 @@
+[
+  {
+    "plan": {
+      "lead": "leopard",
+      "request_number": "A-2023-00105",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.532,
+      "question": "What was publicly reported about Canada supplying additional Leopard 2 tanks, a recovery vehicle and 155mm ammunition in February 2023?",
+      "queries": [
+        "Canada February 2023 additional Leopard 2 tanks armoured recovery vehicle 155mm ammunition Ukraine"
+      ],
+      "source_summary": "POL2023-0001129: RECOMMENDATION ON PROVIDING ADDITIONAL LEOPARD 2 TANKS, AN ARMOURED RECOVERY VEHICLE AND 155MM AMMUNITION FROM CANADIAN ARMED FORCES (CAF) INVENTORY TO UKRAINE February 13, 2023",
+      "pages": 4,
+      "disposition": "DP"
+    },
+    "query": "Canada February 2023 additional Leopard 2 tanks armoured recovery vehicle 155mm ammunition Ukraine",
+    "response": {
+      "results": [
+        {
+          "title": "Supporting Ukraine for as long as it takes",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2023/02/24/supporting-ukraine-long-it-takes",
+          "publishedDate": "2023-02-24T00:00:00.000Z",
+          "id": "https://www.pm.gc.ca/en/news/news-releases/2023/02/24/supporting-ukraine-long-it-takes",
+          "retrieved_text_sha256": "3500ea4e4818545ff9dfc83177cfb17aa06384e7ae4d58366ab883ef9195ddd6",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada pledges more tanks to Ukraine, imposes new Russia sanctions",
+          "url": "https://www.reuters.com/world/canada-imposes-new-russia-sanctions-pledges-battle-tanks-ukraine-2023-02-24/",
+          "publishedDate": "2023-02-25T08:15:36.000Z",
+          "author": "Ismail Shakil",
+          "id": "https://www.reuters.com/world/canada-imposes-new-russia-sanctions-pledges-battle-tanks-ukraine-2023-02-24/",
+          "retrieved_text_sha256": "8d6d610c1f7e6be95743c585bafcc91770912761ed2acb1efeea2c944cc9e3af",
+          "retrieved_text_characters": 1000
+        },
+        {
+          "title": "Supporting Ukraine for as long as it takes",
+          "url": "https://www.newswire.ca/news-releases/supporting-ukraine-for-as-long-as-it-takes-891021111.html",
+          "publishedDate": "2023-02-24T00:00:00.000Z",
+          "author": "Prime Minister's Office",
+          "id": "https://www.newswire.ca/news-releases/supporting-ukraine-for-as-long-as-it-takes-891021111.html",
+          "retrieved_text_sha256": "9d89187f9e5848515e4974a92ad3bea800f6729b62a80a5914ecae956dd08ada",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada to send Ukraine 4 more Leopard tanks, lays further Russian sanctions - National | Globalnews.ca",
+          "url": "https://globalnews.ca/news/9508689/canada-ukraine-aid-russia-g7-sanctions/",
+          "publishedDate": "2023-02-24T00:00:00.000Z",
+          "id": "https://globalnews.ca/news/9508689/canada-ukraine-aid-russia-g7-sanctions/",
+          "retrieved_text_sha256": "560a5da41e4bbc131bc981765798d7e8f073599fb4e20336c77771c7e9a41788",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada pledges more tanks to Ukraine, imposes new Russia ...",
+          "url": "https://www.cnbc.com/2023/02/25/canada-pledges-more-tanks-to-ukraine-imposes-new-russia-sanctions.html",
+          "publishedDate": "2023-02-25T14:01:44.000Z",
+          "id": "https://www.cnbc.com/2023/02/25/canada-pledges-more-tanks-to-ukraine-imposes-new-russia-sanctions.html",
+          "retrieved_text_sha256": "26f9c27483d89d438a3247e519860fd98a16e73ef4665f494a8bdb351043d3f6",
+          "retrieved_text_characters": 2555
+        },
+        {
+          "title": "Canada to send additional Leopard tanks to Ukraine",
+          "url": "https://kyivindependent.com/canada-to-send-additional-leopard-tanks-to-ukraine/",
+          "publishedDate": "2023-02-24T21:02:32.000Z",
+          "id": "https://kyivindependent.com/canada-to-send-additional-leopard-tanks-to-ukraine/",
+          "retrieved_text_sha256": "3719ada8d64e990f8e60e21bc5dc81cc6551c06e746c2fda5224f73fe85bc56c",
+          "retrieved_text_characters": 1018
+        },
+        {
+          "title": "Defence Minister Anita Anand announces additional military ...",
+          "url": "https://www.canada.ca/en/department-national-defence/news/2023/03/defence-minister-anita-anand-announces-additional-military-donations-to-ukraine-at-ukraine-defense-contact-group-meeting.html",
+          "publishedDate": "2023-03-15T14:50:20.000Z",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/news/2023/03/defence-minister-anita-anand-announces-additional-military-donations-to-ukraine-at-ukraine-defense-contact-group-meeting.html",
+          "retrieved_text_sha256": "9a99e8c3647965f3fbefac9496b247a703ef00ac8a7591a9a893f0bb557a5fbd",
+          "retrieved_text_characters": 4760
+        },
+        {
+          "title": "Canada to send 4 more Leopard 2s to Ukraine – Trudeau",
+          "url": "https://www.pravda.com.ua/eng/news/2023/02/24/7390929/",
+          "publishedDate": "2023-02-24T00:00:00.000Z",
+          "author": "European Pravda",
+          "id": "https://www.pravda.com.ua/eng/news/2023/02/24/7390929/",
+          "retrieved_text_sha256": "52a4d4d01e8d7c0ec12f94da20f8aed678eb40c45d58932e70a5e3fdc3e6d6ce",
+          "retrieved_text_characters": 1450
+        },
+        {
+          "title": "Defence Minister Anita Anand announces that Canada will supply Ukraine with Leopard 2 battle tanks, training and sustainment  - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/news/2023/01/defence-minister-anita-anand-announces-that-canada-will-supply-ukraine-with-leopard-2-battle-tanks-training-and-sustainment.html",
+          "publishedDate": "2023-01-26T13:31:20.000Z",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/news/2023/01/defence-minister-anita-anand-announces-that-canada-will-supply-ukraine-with-leopard-2-battle-tanks-training-and-sustainment.html",
+          "retrieved_text_sha256": "7b53b3700072c203cc29e38cbd62d41837859fc9d20f33e50cd9721bac62d5d6",
+          "retrieved_text_characters": 5369
+        },
+        {
+          "title": "Canada Sends Four More Leopard 2 Tanks, Armored Recovery ...",
+          "url": "https://en.defence-ua.com/news/canada_sends_four_more_leopard_2_tanks_armored_recovery_vehicle_155_mm_ammunition_to_ukraine-5859.html",
+          "id": "https://en.defence-ua.com/news/canada_sends_four_more_leopard_2_tanks_armored_recovery_vehicle_155_mm_ammunition_to_ukraine-5859.html",
+          "retrieved_text_sha256": "18f6a170402342db673fc1f028238946c5b874a6aebda07147efe6ec6b757357",
+          "retrieved_text_characters": 2923
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "c626bbc24b30eb3097f55c3502322bbd"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "china-permits",
+      "request_number": "A-2025-01773",
+      "owner_org": "dfatd-maecd",
+      "selection": "top editorial cluster",
+      "rank_score": 2.5220000000000002,
+      "question": "Is the specific 2025 nuclear-related dual-use export decision identified publicly? Other China permit notes are merged for search triage; no approval or exporter is established.",
+      "queries": [
+        "Canada \"00390-2025\" nuclear dual use export permit China"
+      ],
+      "source_summary": "Briefing note# 00390-2025: Seeking a Decision on an Export Permit Application for Nuclear-Related Dual-Use List Items to China.",
+      "pages": 5,
+      "disposition": "DP"
+    },
+    "query": "Canada \"00390-2025\" nuclear dual use export permit China",
+    "response": {
+      "results": [
+        {
+          "title": "T/SHZSAQS 00390-2025-生鲜乳中副结核分枝杆菌实时荧光定量PCR检测技术规范-国家标准馆·国家数字标准馆",
+          "url": "https://ndls.cnis.ac.cn/standard/detail/afe090c60554d2796681d5700d4cc5b8",
+          "id": "https://ndls.cnis.ac.cn/standard/detail/afe090c60554d2796681d5700d4cc5b8",
+          "retrieved_text_sha256": "c9803cf877ddbd4c36a8b49908674e3d5682b738ea551b6f90cbd446b1b991e7",
+          "retrieved_text_characters": 1037
+        },
+        {
+          "title": "华北能源监管局行政许可公告",
+          "url": "https://hbj.nea.gov.cn/dtyw/tzgg/202507/P020250717686030684853.pdf",
+          "author": "王维娟",
+          "id": "https://hbj.nea.gov.cn/dtyw/tzgg/202507/P020250717686030684853.pdf",
+          "retrieved_text_sha256": "f972aa0772d762a1c179ae9f521b2b91414196c14548226afc94a762819e5757",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "T/SHZSAQS 00390-2025 生鲜乳中副结核分枝杆菌实时荧光定量PCR检测技术规范_团体标准_国内标准_食品标准_食品伙伴网下载中心（暂无文本）",
+          "url": "https://down.foodmate.net/standard/sort/12/166355.html",
+          "id": "https://down.foodmate.net/standard/sort/12/166355.html",
+          "retrieved_text_sha256": "c2a6b04c419d45cb7bf4daf9cd6c025b8f5380dc7c43b43dfcf261e3a8792b91",
+          "retrieved_text_characters": 485
+        },
+        {
+          "title": "国家能源局河南监管办公室行政许可决定（2026年第42号）_国家能源局河南监管办公室",
+          "url": "https://henb.nea.gov.cn/dtyw/jggg/202607/t20260709_304510.html",
+          "id": "https://henb.nea.gov.cn/dtyw/jggg/202607/t20260709_304510.html",
+          "retrieved_text_sha256": "c07a39c48b513725ab4c3b41a99031c98ea33c5faaa1a836cd5ce3d2fcc1a210",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "美国机械工程师协会-电信业务、应用-核反应堆与核电厂核岛设备（分类列表）最全国家标准、行业标准-第1页-准行天下",
+          "url": "https://www.bzchaxun.com/list-525-1246-2396.html",
+          "author": "bzchaxun.com",
+          "id": "https://www.bzchaxun.com/list-525-1246-2396.html",
+          "retrieved_text_sha256": "c7ce182f221535d2260f4e08a18a5bf9b043fe35d5df22549a89920f082ec324",
+          "retrieved_text_characters": 4306
+        },
+        {
+          "title": "中国生产力促进中心-继电器-人工晶体（分类列表）最全国家标准、行业标准-第1页-准行天下",
+          "url": "https://www.bzchaxun.com/list-85-1160-3166.html",
+          "author": "bzchaxun.com",
+          "id": "https://www.bzchaxun.com/list-85-1160-3166.html",
+          "retrieved_text_sha256": "de5e00313e8bf6aa8fa2a46447dc484f42d79d19ff0e0718b11de6900ff1728a",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "人员不保持许可条件企业名单（第一批）",
+          "url": "https://henb.nea.gov.cn/dtyw/tzgg/202604/P020260401632295429414.pdf",
+          "id": "https://henb.nea.gov.cn/dtyw/tzgg/202604/P020260401632295429414.pdf",
+          "retrieved_text_sha256": "ae028e2c45b52c779b192901cc45b589fb6ec7bff73cbf58f0cc1b036a31faef",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "NB/T 20317-2014 核电厂运行经验反馈管理.pdf - 准行天下",
+          "url": "https://www.bzchaxun.com/view/7002005032000000.html",
+          "author": "bzchaxun.com",
+          "id": "https://www.bzchaxun.com/view/7002005032000000.html",
+          "retrieved_text_sha256": "37dff9918c0418d0ba5e355d5595a603e3b2f682c3ef4489c8bd9fecd4111de9",
+          "retrieved_text_characters": 482
+        },
+        {
+          "title": "河南能源监管办关于责令不符合许可条件的承装（修、试）电力设施企业整改的通知_国家能源局河南监管办公室",
+          "url": "https://henb.nea.gov.cn/dtyw/tzgg/202604/t20260401_298931.html",
+          "id": "https://henb.nea.gov.cn/dtyw/tzgg/202604/t20260401_298931.html",
+          "retrieved_text_sha256": "ac77caa459e068f14783a45f7a804220b6a588ef39a870e228b09d5799c3e17e",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "DB32/T 4843-2024 植物样品中砷、镉、铬、铜、镍、铅、锌的测定 能量色散X射线荧光光谱法_地方标准_国内标准_食品标准_食品伙伴网下载中心",
+          "url": "https://down.foodmate.net/standard/sort/15/157966.html",
+          "id": "https://down.foodmate.net/standard/sort/15/157966.html",
+          "retrieved_text_sha256": "66d1bbe43d472620347bf6870e591a6c36a0529f513fbbf73cbe4a19a9857df6",
+          "retrieved_text_characters": 1491
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "03dabe1bc87c32d481220895ad1439c8"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "ukraine-budget",
+      "request_number": "A-2022-01326",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.434,
+      "question": "What public evidence identifies how the remaining 2022 $500 million Ukraine assistance budget was allocated?",
+      "queries": [
+        "Canada 2022 remainder 500 million military aid Ukraine spending allocation"
+      ],
+      "source_summary": "POL2022-0009116: Briefing note to the Minister: Recommendations on how to spend the remainder of the budget $500 million for Ukraine",
+      "pages": 7,
+      "disposition": "DP"
+    },
+    "query": "Canada 2022 remainder 500 million military aid Ukraine spending allocation",
+    "response": {
+      "results": [
+        {
+          "title": "Defence Spending - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/nddn-18-october-2022/defence-spending.html",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/nddn-18-october-2022/defence-spending.html",
+          "retrieved_text_sha256": "c49c1d71f5296869b8032a82394687e9c3aa22a3e891047e5026f3fa2827aea7",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "International Security - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/secu-06-october-2022/international-security.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/secu-06-october-2022/international-security.html",
+          "retrieved_text_sha256": "c1f8aca39019e94d2cdcd4af72c0fb72b0f1cef8f6b8211932b4a34b03343e56",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Prime Minister announces additional military assistance for Ukraine and additional sanctions against Russia | Prime Minister of Canada",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2022/11/14/prime-minister-announces-additional-military-assistance-ukraine-and",
+          "publishedDate": "2022-11-14T07:02:46.000Z",
+          "id": "https://www.pm.gc.ca/en/news/news-releases/2022/11/14/prime-minister-announces-additional-military-assistance-ukraine-and",
+          "retrieved_text_sha256": "95b4a3afc8d47e925fc382e09b834cecaeeb24149ec933c40ceaf2b2bc17586e",
+          "retrieved_text_characters": 4991
+        },
+        {
+          "title": "Liberal budget is vague on greater defence spending amid Ukraine war, pending 'review' | National Post",
+          "url": "https://nationalpost.com/news/politics/defence-spending-federal-budget-2022-01",
+          "publishedDate": "2022-04-07T00:00:00.000Z",
+          "id": "https://nationalpost.com/news/politics/defence-spending-federal-budget-2022-01",
+          "retrieved_text_sha256": "3389c96ce0a8707189c180726348e4b04e9d220e785f7c3c92ea590e55ac90a3",
+          "retrieved_text_characters": 5505
+        },
+        {
+          "title": "Canada announces another military aid package for Ukraine as Russia presses air attacks",
+          "url": "https://www.cbc.ca/amp/1.6613921",
+          "author": "Murray Brewster             -             CBC News",
+          "id": "https://www.cbc.ca/amp/1.6613921",
+          "retrieved_text_sha256": "82f7e94bb90c878aaa6b0b45f5c2258d6cef8f272eec6fd611738aade22fb635",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Federal budget offers Ukraine up to $1 billion in loans, $500 ...",
+          "url": "https://nationalpost.com/news/politics/federal-budget-offers-ukraine-up-to-1-billion-in-loans-500-million-in-military-aid",
+          "publishedDate": "2022-04-07T00:00:00.000Z",
+          "id": "https://nationalpost.com/news/politics/federal-budget-offers-ukraine-up-to-1-billion-in-loans-500-million-in-military-aid",
+          "retrieved_text_sha256": "25bda1cfef64aa9f10c0613bf57251137d343e1354062cd7565ab9f3a2395d5c",
+          "retrieved_text_characters": 1773
+        },
+        {
+          "title": "Canada commits an extra $500M in military assistance ... - CBC",
+          "url": "https://www.cbc.ca/news/politics/canada-ukraine-russia-war-1.7260215",
+          "publishedDate": "2024-07-11T08:00:00.000Z",
+          "id": "https://www.cbc.ca/news/politics/canada-ukraine-russia-war-1.7260215",
+          "retrieved_text_sha256": "093e69ef2d798a63025d5e793580ba89e8fc45f2018e2df63d01c67bc2bf2cd3",
+          "retrieved_text_characters": 4077
+        },
+        {
+          "title": "Canada disburses $500 million loan to Ukraine from Ukraine Sovereignty Bond proceeds - Canada.ca",
+          "url": "https://www.canada.ca/en/department-finance/news/2022/12/canada-disburses-500-million-loan-to-ukraine-from-ukraine-sovereignty-bond-proceeds.html",
+          "publishedDate": "2022-12-01T00:00:00.000Z",
+          "author": "Department of Finance Canada",
+          "id": "https://www.canada.ca/en/department-finance/news/2022/12/canada-disburses-500-million-loan-to-ukraine-from-ukraine-sovereignty-bond-proceeds.html",
+          "retrieved_text_sha256": "5d588fb0eb6df677c53c971a66eaed7601696ee2e7767968591717bbc7dde805",
+          "retrieved_text_characters": 4864
+        },
+        {
+          "title": "DEPARTMENT OF NATIONAL DEFENCE AND CANADIAN ARMED FORCES 2021-22 DEPARTMENTAL RESULTS REPORT",
+          "url": "https://www.canada.ca/content/dam/dnd-mdn/documents/reports/2022/2021-22-Departmental-Results-Report.pdf",
+          "id": "https://www.canada.ca/content/dam/dnd-mdn/documents/reports/2022/2021-22-Departmental-Results-Report.pdf",
+          "retrieved_text_sha256": "1a09392f3094703289e4c704a4a8bcbfb9dea8304839bf26096b8c72e279a5d1",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Minister Anand announces additional Canadian military aid to Ukraine at Ukraine Defense Contact Group meeting - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/news/2022/11/minister-anand-announces-additional-canadian-military-aid-to-ukraine-at-ukraine-defense-contact-group-meeting.html",
+          "publishedDate": "2022-11-16T16:40:05.000Z",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/news/2022/11/minister-anand-announces-additional-canadian-military-aid-to-ukraine-at-ukraine-defense-contact-group-meeting.html",
+          "retrieved_text_sha256": "b9173482400f31431dab4a4b335316c48e2a3b98be3929594361084e9f61dae0",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "36d390388f524b0e3fc5150c5fc5cdde"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "armoured-vehicles",
+      "request_number": "A-2023-01996",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.392,
+      "question": "Was the recommendation to donate 50 armoured vehicles to Ukraine already publicly reported?",
+      "queries": [
+        "Canada 50 armoured vehicles Ukraine donation December 2023"
+      ],
+      "source_summary": "POL2023-0010539: Recommendation On 50 Armoured Vehicle Donation To Ukraine. Dec 20, 2023",
+      "pages": 8,
+      "disposition": "DP"
+    },
+    "query": "Canada 50 armoured vehicles Ukraine donation December 2023",
+    "response": {
+      "results": [
+        {
+          "title": "Canadian donations and military support to Ukraine - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html;",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/campaigns/canadian-military-support-to-ukraine.html;",
+          "retrieved_text_sha256": "714c463676be03b053fc1f4c1e4c026cc013eb03b6a5d9c144a30889f3313853",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada will transfer 50 armoured vehicles to Ukraine over the ...",
+          "url": "https://www.pravda.com.ua/eng/news/2023/09/22/7421043/",
+          "publishedDate": "2023-09-22T00:00:00.000Z",
+          "id": "https://www.pravda.com.ua/eng/news/2023/09/22/7421043/",
+          "retrieved_text_sha256": "792dba561bf467fcf81ecceca4c018e9923d24a2b7067bdea5c6cea047adadae",
+          "retrieved_text_characters": 2015
+        },
+        {
+          "title": "International Security - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/nddn-mandate-priorities-28-sept-2023/international-security.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/nddn-mandate-priorities-28-sept-2023/international-security.html",
+          "retrieved_text_sha256": "456449a439900ebf0b5222177d36e9ae717dd50a90e97ee1a701331b7a47f3b8",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Question Period Note: Military Assistance Donations to Ukraine",
+          "url": "https://search.open.canada.ca/qpnotes/record/dnd-mdn%2CDND-2024-QP-00017",
+          "id": "https://search.open.canada.ca/qpnotes/record/dnd-mdn%2CDND-2024-QP-00017",
+          "retrieved_text_sha256": "f7023c956d8b26afe4122ba5903ab274cd880d4c0574b9ff8f88526f8d2a8b78",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "​Canada to Produce 50 Armoured Vehicles Worth $500M for ...",
+          "url": "https://en.defence-ua.com/industries/canada_to_build_50_armoured_vehicles_worth_500m_during_next_three_years_for_ukraine-8029.html",
+          "publishedDate": "2023-09-23T00:00:00.000Z",
+          "id": "https://en.defence-ua.com/industries/canada_to_build_50_armoured_vehicles_worth_500m_during_next_three_years_for_ukraine-8029.html",
+          "retrieved_text_sha256": "00dfadc3c00edbb743b22eb2e6649da23115ebf5a4e55523831df6d12c079e28",
+          "retrieved_text_characters": 3395
+        },
+        {
+          "title": "First batch of built-in-Canada armoured vehicles heading to ...",
+          "url": "https://www.canada.ca/en/department-national-defence/news/2024/06/first-batch-of-built-in-canada-armoured-vehicles-heading-to-ukraines-armed-forces.html",
+          "publishedDate": "2024-06-01T00:00:00.000Z",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/news/2024/06/first-batch-of-built-in-canada-armoured-vehicles-heading-to-ukraines-armed-forces.html",
+          "retrieved_text_sha256": "cf91c2922b539ec24a84bef3bec737600c9e2edf1672eb3f3718344df9045f92",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Here's what Canada is pledging in multi-year support for Ukraine, updated trade deal - iPolitics",
+          "url": "https://www.ipolitics.ca/2023/09/22/heres-what-canada-is-pledging-in-multi-year-support-for-ukraine-updated-trade-deal/",
+          "publishedDate": "2023-09-22T00:00:00.000Z",
+          "author": "The Canadian Press",
+          "id": "https://www.ipolitics.ca/2023/09/22/heres-what-canada-is-pledging-in-multi-year-support-for-ukraine-updated-trade-deal/",
+          "retrieved_text_sha256": "becc2238e3c3c2f97179c103487c65098e9b6b46e69a1bbc45f42a8a2977155e",
+          "retrieved_text_characters": 3909
+        },
+        {
+          "title": "Minister Blair announces additional military assistance for Ukraine at the 23rd meeting of the Ukraine Defense Contact Group - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/news/2024/06/minister-blair-announces-additional-military-assistance-for-ukraine-at-the-23rd-meeting-of-the-ukraine-defense-contact-group.html",
+          "publishedDate": "2024-06-13T08:54:54.000Z",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/news/2024/06/minister-blair-announces-additional-military-assistance-for-ukraine-at-the-23rd-meeting-of-the-ukraine-defense-contact-group.html",
+          "retrieved_text_sha256": "e3f68f91bd27722cd012f1d3d54e9f8c894196f7e22e7d56e463d6d2ec87c1d6",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian company Roshel delivers 1000th Senator armored vehicle to Ukraine",
+          "url": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/canadian-company-roshel-delivers-1000th-senator-armored-vehicle-to-ukraine",
+          "publishedDate": "2023-12-28T09:32:13.000Z",
+          "author": "office_zzam",
+          "id": "https://www.armyrecognition.com/archives/archives-land-defense/land-defense-2023/canadian-company-roshel-delivers-1000th-senator-armored-vehicle-to-ukraine",
+          "retrieved_text_sha256": "e4243af9831ccb4cbab406e5e07fc9adee6a39aac9fa723540f9d94a39fd2fdf",
+          "retrieved_text_characters": 4243
+        },
+        {
+          "title": "First ten armoured vehicles promised to Ukraine to be delivered by summer, Blair says",
+          "url": "https://www.cbc.ca/lite/story/1.7186785",
+          "publishedDate": "2024-04-26T22:08:43.000Z",
+          "id": "https://www.cbc.ca/lite/story/1.7186785",
+          "retrieved_text_sha256": "c1e471fbbefcfc4ca393e818261c07073b507ee122c7f4496b7d50d8e3aef28d",
+          "retrieved_text_characters": 5046
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "bde4d96a80bf9ccda2aa5f3f603d7484"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "gac-assignments",
+      "request_number": "A-2025-02439",
+      "owner_org": "dfatd-maecd",
+      "selection": "top editorial cluster",
+      "rank_score": 2.3520000000000003,
+      "question": "What explains exclusion of traditional employees from round 3 of 2026 GAC assignments? The summary wording is not a verified finding.",
+      "queries": [
+        "Global Affairs Canada 2026 assignments round 3 traditional employees excluded"
+      ],
+      "source_summary": "Documents regarding the decision to exclude all traditional employees from round 3 of the 2026 cycle of assignments abroad and across Canada, dated between December 1, 2025, to March 3, 2026.",
+      "pages": 9,
+      "disposition": "DA"
+    },
+    "query": "Global Affairs Canada 2026 assignments round 3 traditional employees excluded",
+    "response": {
+      "results": [
+        {
+          "title": "Global Affairs Canada's 2026-27 Departmental plan",
+          "url": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-plan/global-affairs-2026-2027-departmental-plan-supplementary-tables",
+          "id": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-plan/global-affairs-2026-2027-departmental-plan-supplementary-tables",
+          "retrieved_text_sha256": "03da7e18da1988ecb4e2c4578a58add85e7ec631c9d065025aabb64356a5c4e6",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "GAC Internal Inventory 2026 - FedJobReady",
+          "url": "https://fedjobready.com/government-of-canada-jobs/global-affairs-canada-internal-inventory-2026",
+          "id": "https://fedjobready.com/government-of-canada-jobs/global-affairs-canada-internal-inventory-2026",
+          "retrieved_text_sha256": "884fca59b8fe0dcec03113fe3b5c3eb3b2d8debb59e029c54cf2b2cbc55295c3",
+          "retrieved_text_characters": 5122
+        },
+        {
+          "title": "Global Affairs Canada's 2025-26 Departmental plan",
+          "url": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-plan/global-affairs-2025-2026-departmental-plan-supplementary-tables",
+          "id": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-plan/global-affairs-2025-2026-departmental-plan-supplementary-tables",
+          "retrieved_text_sha256": "a3913f4bb896d27802b3fac186faac27223c4a0e75e2c1e37349cd29d4ec4e9e",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Global Affairs Canada's 2025-26 Departmental plan",
+          "url": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-plan/global-affairs-2025-2026-departmental-plan",
+          "id": "https://international.canada.ca/en/global-affairs/corporate/reports/departmental-plan/global-affairs-2025-2026-departmental-plan",
+          "retrieved_text_sha256": "6be1e54f5fd426184f448f80c9fe5f9dc49fd444eeb79aefa5a76abfff34dee6",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Foreign assignment directive for international development ...",
+          "url": "https://www.international.gc.ca/world-monde/funding-financement/foreign-assignment-affectations-etranger.aspx?lang=eng",
+          "id": "https://www.international.gc.ca/world-monde/funding-financement/foreign-assignment-affectations-etranger.aspx?lang=eng",
+          "retrieved_text_sha256": "2a54eaa1c3669d6f89515941e05f8be389094fb594707a2ab8eb003ea79df971",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Global Affairs laying off dozens of specialized diplomats, union says, amid budget tightening   - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/politics/article-global-affairs-canada-diplomats-layoffs-budget/",
+          "publishedDate": "2026-03-25T12:42:51.000Z",
+          "id": "https://www.theglobeandmail.com/politics/article-global-affairs-canada-diplomats-layoffs-budget/",
+          "retrieved_text_sha256": "01b4b3c197cf982e41029bf17d9761cdf4439204fe6bdf2e3b50cb0612a07f02",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Search Government Contracts over $10,000",
+          "url": "https://search.open.canada.ca/contracts/record/dfatd-maecd%2CC-2025-2026-Q4-00988",
+          "id": "https://search.open.canada.ca/contracts/record/dfatd-maecd%2CC-2025-2026-Q4-00988",
+          "retrieved_text_sha256": "13fe6fc3f2a031a9c3969fec5b42b42bd048b96fd79fcfeef96e2ed1b6fa32d4",
+          "retrieved_text_characters": 1663
+        },
+        {
+          "title": "Search Government Contracts over $10,000",
+          "url": "https://search.open.canada.ca/contracts/record/dfatd-maecd%2CC-2026-2027-Q1-00830",
+          "id": "https://search.open.canada.ca/contracts/record/dfatd-maecd%2CC-2026-2027-Q1-00830",
+          "retrieved_text_sha256": "58e62a62bc49dcefa240426807607e7282cbff6777bae4965fd2329197c102e1",
+          "retrieved_text_characters": 1787
+        },
+        {
+          "title": "Global Affairs job cuts overseas shows disproportionate level",
+          "url": "https://www.bnnbloomberg.ca/business/politics/2026/05/20/global-affairs-numbers-show-disproportionate-level-of-cuts-to-staff-based-overseas/",
+          "publishedDate": "2026-05-20T09:16:14.000Z",
+          "id": "https://www.bnnbloomberg.ca/business/politics/2026/05/20/global-affairs-numbers-show-disproportionate-level-of-cuts-to-staff-based-overseas/",
+          "retrieved_text_sha256": "c1395b45efa14b362649c070ed2248abbeeed6e40b3aefb993da217f0c49f8b0",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Search Government Contracts over $10,000",
+          "url": "https://search.open.canada.ca/contracts/record/dfatd-maecd%2CC-2026-2027-Q1-00907",
+          "id": "https://search.open.canada.ca/contracts/record/dfatd-maecd%2CC-2026-2027-Q1-00907",
+          "retrieved_text_sha256": "2de2b06929beab5fc786fb2e944de85cd0b146fbbd00907c739b7d921bcdaf99",
+          "retrieved_text_characters": 1670
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "911f0ea240a4d1927bffa754f17c3f94"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "israel-maple",
+      "request_number": "A-2023-03335",
+      "owner_org": "dfatd-maecd",
+      "selection": "top editorial cluster",
+      "rank_score": 2.342,
+      "question": "Recover the article named in the request and distinguish its published claims from still-unseen internal correspondence.",
+      "queries": [
+        "The Maple January 30 2024 Trudeau Government Admits Authorized New Military Exports Israel October 7"
+      ],
+      "source_summary": "All communications or documents related to the January 30, 2024, The Maple media article: Trudeau Government Admits It Authorized New Military Exports to Israel After October 7.",
+      "pages": 46,
+      "disposition": "DP"
+    },
+    "query": "The Maple January 30 2024 Trudeau Government Admits Authorized New Military Exports Israel October 7",
+    "response": {
+      "results": [
+        {
+          "title": "Trudeau Government Admits It Authorized New Military Exports ...",
+          "url": "https://www.readthemaple.com/trudeau-government-admits-it-authorized-new-israeli-military-exports-after-october-7/",
+          "publishedDate": "2024-01-30T00:00:00.000Z",
+          "id": "https://www.readthemaple.com/trudeau-government-admits-it-authorized-new-israeli-military-exports-after-october-7/",
+          "retrieved_text_sha256": "1c38523eff77b273e403a6560a14364492c7c03c166d39d124037a7dc4276221",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Trudeau Government Authorized $28.5 Million Of New Military ...",
+          "url": "https://www.readthemaple.com/trudeau-government-authorized-28-million-of-new-military-exports-to-israel-since-october/",
+          "publishedDate": "2024-02-10T00:00:00.000Z",
+          "id": "https://www.readthemaple.com/trudeau-government-authorized-28-million-of-new-military-exports-to-israel-since-october/",
+          "retrieved_text_sha256": "2b6c3b709888c77d13ff5a70d14b48ce477c0bc659eee5331cdd3dbeea46466c",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Trudeau Government Accused Of Sowing Confusion Over Israel Military Exports",
+          "url": "https://www.readthemaple.com/trudeau-government-accused-of-sowing-confusion-on-israel-military-exports/",
+          "publishedDate": "2024-01-25T00:00:00.000Z",
+          "id": "https://www.readthemaple.com/trudeau-government-accused-of-sowing-confusion-on-israel-military-exports/",
+          "retrieved_text_sha256": "c7498bd2da2357b5226cfa8dd8428b7d01cca60f54872fe9f0f23dbfa4a37013",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada's Arms-to-Israel Scandal Explained - The Maple",
+          "url": "https://www.readthemaple.com/canadas-arms-to-israel-scandal-explained/",
+          "publishedDate": "2025-08-27T00:00:00.000Z",
+          "id": "https://www.readthemaple.com/canadas-arms-to-israel-scandal-explained/",
+          "retrieved_text_sha256": "b50543719b37bbc802607cd8f0ce8dbe8439a7472b13db787c8df2a30fcc4df2",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Trudeau Government  Authorized New Military Exports To Israel After October 7 – PFYT2",
+          "url": "https://pennyforyourthoughts2.ca/2024/02/01/trudeau-government-authorized-new-military-exports-to-israel-after-october-7/",
+          "publishedDate": "2024-02-01T12:28:29.000Z",
+          "author": "Post author\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t \t\t\t\t\t\t \n\t\t\t\t\t\t \n\t\t\t\t\t\t\tBy  penny2",
+          "id": "https://pennyforyourthoughts2.ca/2024/02/01/trudeau-government-authorized-new-military-exports-to-israel-after-october-7/",
+          "retrieved_text_sha256": "6e5409b47354f17237149c71ca442c1e828ca553de3b92e7d176cbcdb773965e",
+          "retrieved_text_characters": 1672
+        },
+        {
+          "title": "Immediate Release: Arms Exports to Israel Violate Canadian and International Law, Says Canadian and Palestinian Coalition to Federal Government › Just Peace Advocates",
+          "url": "https://www.justpeaceadvocates.ca/immediate-release-arms-exports-to-israel-violate-canadian-and-international-law-says-canadian-and-palestinian-coalition-to-federal-government/",
+          "publishedDate": "2024-01-30T00:00:00.000Z",
+          "author": "Medjool",
+          "id": "https://www.justpeaceadvocates.ca/immediate-release-arms-exports-to-israel-violate-canadian-and-international-law-says-canadian-and-palestinian-coalition-to-federal-government/",
+          "retrieved_text_sha256": "bcb6e0070c08ee884b04ab2f6dc0e8225eee1a471a0a678166c187f2261dc2af",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "The Canadian arms embargo on Israel that was not - Al Jazeera",
+          "url": "https://www.aljazeera.com/opinions/2024/3/24/the-canadian-arms-embargo-on-israel-that-was-not",
+          "publishedDate": "2024-03-24T00:00:00.000Z",
+          "author": "Andrew Mitrovica",
+          "id": "https://www.aljazeera.com/opinions/2024/3/24/the-canadian-arms-embargo-on-israel-that-was-not",
+          "retrieved_text_sha256": "1e80e5e447d2e8f11b31c703649927609d4877792eefaeb202bf25c0cc2156bc",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Trudeau Government Authorized $28.5-mln Of New Military Exports To Israel Since October – 🚩 CommunistNews.net",
+          "url": "https://www.communistnews.net/trudeau-government-authorized-28-5-mln-of-new-military-exports-to-israel-since-october/",
+          "publishedDate": "2024-02-19T00:00:00.000Z",
+          "author": "Socialist Project",
+          "id": "https://www.communistnews.net/trudeau-government-authorized-28-5-mln-of-new-military-exports-to-israel-since-october/",
+          "retrieved_text_sha256": "83f9ccf06c4b49f97bfd6043c6a4f55131560bd2bba495c3f0da3049a695acaa",
+          "retrieved_text_characters": 5999
+        },
+        {
+          "title": "Political Staff Tried To Spin Israel Arms Data — Then Lied About Doing So",
+          "url": "https://www.readthemaple.com/political-staff-tried-to-spin-israel-arms-data-then-lied-about-doing-so/",
+          "publishedDate": "2024-08-06T00:00:00.000Z",
+          "id": "https://www.readthemaple.com/political-staff-tried-to-spin-israel-arms-data-then-lied-about-doing-so/",
+          "retrieved_text_sha256": "05bb4f12a548427cd7fdab117a13e51ea13955a722d669f61e8ba79af0bd8690",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Countries supplying arms to Israel - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Countries_supplying_arms_to_Israel",
+          "id": "https://en.wikipedia.org/wiki/Countries_supplying_arms_to_Israel",
+          "retrieved_text_sha256": "b02f10e9964ed7c57122cf60da39c35ec227e5b5b18d75d76b82fefca5ff095b",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "a41955f7264978653489236d6d37d6ff"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "nanisivik",
+      "request_number": "A-2025-02587",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.342,
+      "question": "What public record identifies the storage-tank compliance order, its conditions and remedy at Nanisivik?",
+      "queries": [
+        "Nanisivik naval facility environmental protection compliance order storage tank 2025"
+      ],
+      "source_summary": "IE2025-0009981 - ENFORCEMENT MEASURE ENVIRONMENTAL PROTECTION COMPLIANCE ORDER FOR ALLEGED REGULATORY NON-COMPLIANCE OF STORAGE TANK SYSTEM AT NANISIVIK NAVAL FACILITY",
+      "pages": 10,
+      "disposition": "DA"
+    },
+    "query": "Nanisivik naval facility environmental protection compliance order storage tank 2025",
+    "response": {
+      "results": [
+        {
+          "title": "[PDF] The Ongoing Saga of the Nanisivik Naval Facility, 2005-2025",
+          "url": "https://www.naadsn.ca/wp-content/uploads/2025/12/25dec-Nanisivik-Dean-Lackenbauer-NAADSN-Policy-Primer.pdf",
+          "author": "P. Whitney Lackenbauer",
+          "id": "https://www.naadsn.ca/wp-content/uploads/2025/12/25dec-Nanisivik-Dean-Lackenbauer-NAADSN-Policy-Primer.pdf",
+          "retrieved_text_sha256": "059457f78104fd9ecaa610cfbe2aa47d7b75c7290f65b9d475b83549a22d52de",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Nanisivik Naval Facility still has no opening date; minister cites lessons learned in planning",
+          "url": "https://www.cbc.ca/news/canada/north/nanisivik-naval-station-update-1.7486929",
+          "publishedDate": "2025-03-19T00:00:00.000Z",
+          "author": "CBC News    ·  Posted: Mar 19, 2025 4:00 AM EDT | Last Updated: March 19, 2025",
+          "id": "https://www.cbc.ca/news/canada/north/nanisivik-naval-station-update-1.7486929",
+          "retrieved_text_sha256": "ba0566b5c9642a1f14ca1db53f8ee26830a8939fcff648f551f32d9bdd5b0292",
+          "retrieved_text_characters": 5089
+        },
+        {
+          "title": "Nanisivik Naval Facility",
+          "url": "https://en.wikipedia.org/wiki/Nanisivik_Naval_Facility",
+          "id": "https://en.wikipedia.org/wiki/Nanisivik_Naval_Facility",
+          "retrieved_text_sha256": "8c17a7f678b1e1c6eda7db27add14ba3ac2dbb94523942544e5730abebb0109b",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada to Discontinue Construction of Nanisivik Arctic Naval ...",
+          "url": "https://maritime-executive.com/article/canada-to-discontinue-construction-of-nanisivik-arctic-naval-facility",
+          "author": "Published\n\t\t\t\tby\n         \n             \n                The Maritime Executive",
+          "id": "https://maritime-executive.com/article/canada-to-discontinue-construction-of-nanisivik-arctic-naval-facility",
+          "retrieved_text_sha256": "59b78d438de42d0ebd58e959028492aeed7496cf2d49feeeb1137e17fde26776",
+          "retrieved_text_characters": 3030
+        },
+        {
+          "title": "Great White Nothing: How Harper’s naval station became an Arctic white elephant - National | Globalnews.ca",
+          "url": "https://globalnews.ca/news/11080534/nanisivik-naval-facility-arctic-stephen-harper/",
+          "publishedDate": "2025-03-14T00:00:00.000Z",
+          "id": "https://globalnews.ca/news/11080534/nanisivik-naval-facility-arctic-stephen-harper/",
+          "retrieved_text_sha256": "1d9f13ce95075a9bf134863d20678bba6daee0c50b69990e96f8066fef572d25",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Opening of Canadian Arctic refuelling facility in limbo | Ottawa Citizen",
+          "url": "https://ottawacitizen.com/news/national/defence-watch/opening-arctic-naval-refueling-facility-limbo",
+          "publishedDate": "2025-02-24T00:00:00.000Z",
+          "id": "https://ottawacitizen.com/news/national/defence-watch/opening-arctic-naval-refueling-facility-limbo",
+          "retrieved_text_sha256": "fe1838beb70a3337cb93d12389dcbc3c613b2dfefff5415899805390ba4b458c",
+          "retrieved_text_characters": 4661
+        },
+        {
+          "title": "Ottawa reveals plans to shut down and offload Nanisivik naval ...",
+          "url": "https://www.cbc.ca/news/canada/north/ottawa-reveals-plans-to-shut-down-and-offload-nanisivik-naval-port-on-baffin-island-9.7207826",
+          "publishedDate": "2026-05-21T21:08:53.000Z",
+          "id": "https://www.cbc.ca/news/canada/north/ottawa-reveals-plans-to-shut-down-and-offload-nanisivik-naval-port-on-baffin-island-9.7207826",
+          "retrieved_text_sha256": "f0c4d68b60605c2b6cb18129a9472474646ca94379c4d6cf467b0c50b12d0b10",
+          "retrieved_text_characters": 5374
+        },
+        {
+          "title": "Nine Days in Nanisivik: DND Team Successfully Reactivates Remote Arctic Facility - Pacific Navy News",
+          "url": "https://lookoutnewspaper.com/314444/",
+          "publishedDate": "2025-10-22T00:00:00.000Z",
+          "author": "Archana Cini",
+          "id": "https://lookoutnewspaper.com/314444/",
+          "retrieved_text_sha256": "d34620118784db2deda527d950a25f51ee209b8c426c8b190784ceb1fd82209a",
+          "retrieved_text_characters": 3995
+        },
+        {
+          "title": "Department of National Defence to transition Nanisivik Naval ...",
+          "url": "https://www.canada.ca/en/department-national-defence/news/2026/05/department-of-national-defence-to-transition-nanisivik-naval-facility-out-of-operational-use.html",
+          "publishedDate": "2026-05-21T10:55:08.000Z",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/news/2026/05/department-of-national-defence-to-transition-nanisivik-naval-facility-out-of-operational-use.html",
+          "retrieved_text_sha256": "2e064454786b5887503e64c4add682bfeec98c0a1073186a11c27a500cd2174b",
+          "retrieved_text_characters": 5969
+        },
+        {
+          "title": "Is this the end of Nanisivik? Feds won't say",
+          "url": "https://nunatsiaq.com/stories/article/is-this-the-end-of-nanisivik-feds-wont-say/",
+          "publishedDate": "2026-05-14T00:00:00.000Z",
+          "author": "Nunatsiaq News",
+          "id": "https://nunatsiaq.com/stories/article/is-this-the-end-of-nanisivik-feds-wont-say/",
+          "retrieved_text_sha256": "256bfa62678544658ca53c266f7f0483b7edfa7dca17cad5664145a432a20b60",
+          "retrieved_text_characters": 4937
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "4d3cc417e7afbd9ac12642d78a20cf59"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "ukraine-mines",
+      "request_number": "A-2022-01530",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.3320000000000003,
+      "question": "What is documented about Ukrainian anti-personnel mine use in 2022, and is the separate Canadian-volunteer allegation evidenced?",
+      "queries": [
+        "Ukraine Canadian volunteer fighters anti personnel mines Ottawa Treaty 2022"
+      ],
+      "source_summary": "Documents relating to the deployment of anti-personnel mines by Ukrainian forces and by Canadian volunteer fighters in Ukraine, and correspondence concerning violations of the Ottawa Treaty from 01/01/2022 to 12/12/2022",
+      "pages": 1,
+      "disposition": "DA"
+    },
+    "query": "Ukraine Canadian volunteer fighters anti personnel mines Ottawa Treaty 2022",
+    "response": {
+      "results": [
+        {
+          "title": "'No regrets': A Canadian volunteer wounded in Ukraine is coming home | CBC News",
+          "url": "https://www.cbc.ca/news/politics/ukraine-russia-war-canadian-volunteer-jt-1.6488565",
+          "publishedDate": "2022-06-15T08:00:00.000Z",
+          "id": "https://www.cbc.ca/news/politics/ukraine-russia-war-canadian-volunteer-jt-1.6488565",
+          "retrieved_text_sha256": "34b37cad039f030d3da5cca28723e193cd199b357572d418131f4724dbc8541f",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian volunteer fighter who was severely wounded in Ukraine has returned home - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/canada/article-canadian-volunteer-fighters-ukraine/",
+          "publishedDate": "2022-07-15T01:14:59.000Z",
+          "id": "https://www.theglobeandmail.com/canada/article-canadian-volunteer-fighters-ukraine/",
+          "retrieved_text_sha256": "eaa2dfdff4ef85a220820d218285ae15957b75369fb6e80337d2a6f8f1156c13",
+          "retrieved_text_characters": 4464
+        },
+        {
+          "title": "[PDF] Delegation of Ukraine - Anti-Personnel Mine Ban Convention",
+          "url": "https://www.apminebanconvention.org/fileadmin/_APMBC-DOCUMENTS/Meetings/2022/20MSP-8-General-Statements-Ukraine.pdf",
+          "author": "Dziub Volodymyr",
+          "id": "https://www.apminebanconvention.org/fileadmin/_APMBC-DOCUMENTS/Meetings/2022/20MSP-8-General-Statements-Ukraine.pdf",
+          "retrieved_text_sha256": "8b10ad320b11506099331a3a9ce3698a198db93ad6be77f3e2c64d8f138a48ce",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Dispatches from the Front: A Canadian Volunteer in Ukraine | C2C Journal",
+          "url": "https://c2cjournal.ca/2022/05/dispatches-from-the-front-a-canadian-volunteer-in-ukraine/",
+          "publishedDate": "2022-05-26T00:00:00.000Z",
+          "author": "Fin DePencier",
+          "id": "https://c2cjournal.ca/2022/05/dispatches-from-the-front-a-canadian-volunteer-in-ukraine/",
+          "retrieved_text_sha256": "9176a5a24fd84d069d00ccfaf9ef9b2f7198e344478bb95fed7bf89cdc7aae9d",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "In the Ukraine war, even the corpses are booby trapped. Canada is helping Ukrainian soldiers stay alive | CBC News",
+          "url": "https://www.cbc.ca/news/world/training-mines-traps-ukraine-1.6795936",
+          "publishedDate": "2023-04-02T08:00:00.000Z",
+          "author": "David Common    ·  CBC News    ·  Posted: Apr 02, 2023 4:00 AM EDT | Last Updated: April 2, 2023",
+          "id": "https://www.cbc.ca/news/world/training-mines-traps-ukraine-1.6795936",
+          "retrieved_text_sha256": "5325662636ca763b5d6e3bc689c647249b84b18baefdc86cad35dfd003347a9b",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadians training Ukrainian troops to combat Russia's dirty tactics | National Post",
+          "url": "https://nationalpost.com/news/canadians-training-ukrainian-troops",
+          "publishedDate": "2023-02-24T00:00:00.000Z",
+          "id": "https://nationalpost.com/news/canadians-training-ukrainian-troops",
+          "retrieved_text_sha256": "02d6c8de21a52f46c4f1897c889cd1bad3b73fd5d1e440dcf36c255c9ecf3640",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Ukraine Promises Inquiry into Banned Landmine Use | Human Rights Watch",
+          "url": "https://www.hrw.org/news/2023/06/30/ukraine-promises-inquiry-banned-landmine-use",
+          "publishedDate": "2023-06-30T04:00:00.000Z",
+          "id": "https://www.hrw.org/news/2023/06/30/ukraine-promises-inquiry-banned-landmine-use",
+          "retrieved_text_sha256": "6a5d0e9931a4260fcd326915776209a6cab4c8044641817cf8f8b8515e1884dd",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Safe distance: Why Ukraine should embrace the US position and deploy land mines responsibly - Atlantic Council",
+          "url": "https://www.atlanticcouncil.org/blogs/new-atlanticist/safe-distance-why-ukraine-should-embrace-land-mines/",
+          "publishedDate": "2022-05-17T00:00:00.000Z",
+          "author": "dpeleschuk",
+          "id": "https://www.atlanticcouncil.org/blogs/new-atlanticist/safe-distance-why-ukraine-should-embrace-land-mines/",
+          "retrieved_text_sha256": "254626203bc7a85b09cc0cd7698006daca7a318429cd497e10816c8d073c7206",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Background Briefing on Landmine Use in Ukraine",
+          "url": "https://archive.hrw.org/node/382231/printable/print",
+          "id": "https://archive.hrw.org/node/382231/printable/print",
+          "retrieved_text_sha256": "6ed08ecfe8619c5aa68fb1618eb4acd80a02c62c6082f471db62c426cf82b01f",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Ottawa Treaty - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ottawa_Treaty",
+          "id": "https://en.wikipedia.org/wiki/Ottawa_Treaty",
+          "retrieved_text_sha256": "2ff8df7677bb2895c8caac810b2873bbd5bb45f2790708e14cdeffd0284b8f17",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "e6b2e484eefb3b79fb63e7e64bd6b150"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "involuntary-care",
+      "request_number": "A-2025-01384",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.33,
+      "question": "Does public CAF policy already explain consent and involuntary mental-health admission?",
+      "queries": [
+        "Canadian Armed Forces policy involuntary admission mental health psychiatric consent"
+      ],
+      "source_summary": "Canadian Military policy and procedure on \"committing\" CAF members to mental health institutions, mental wards, mental hospitals or mental health facilities *involuntarily*. Dates: 2001-09-11 and 2025-09-30",
+      "pages": 7,
+      "disposition": "DA"
+    },
+    "query": "Canadian Armed Forces policy involuntary admission mental health psychiatric consent",
+    "response": {
+      "results": [
+        {
+          "title": "DAOD 5017-0, Mental Health and Wellness - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/5000-series/5017/5017-0-mental-health.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/5000-series/5017/5017-0-mental-health.html",
+          "retrieved_text_sha256": "256427b00986bde12bb9309da4035a55988d6c36199934fdf936c0d925caa311",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Mental health in the Canadian Armed Forces - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/mental-health/frequently-asked-questions.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/mental-health/frequently-asked-questions.html",
+          "retrieved_text_sha256": "9e0a35f5cde11ad4da6878c54a081561443a794b153b8e0da6458963731f17a9",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Military Police Mental Health Powers Vary Across Canada",
+          "url": "https://www.thecanadareport.ca/military-police-mental-health-detention/",
+          "publishedDate": "2026-08-18T00:00:00.000Z",
+          "id": "https://www.thecanadareport.ca/military-police-mental-health-detention/",
+          "retrieved_text_sha256": "bb9729c3368235dd30a3b97dbc56654b09d9e7b13bc8cfbd9b2be8f74a84ea7c",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "National Defence Act",
+          "url": "https://laws-lois.justice.gc.ca/eng/acts/N-5/section-202.html?txthl=person&wbdisable=true",
+          "id": "https://laws-lois.justice.gc.ca/eng/acts/N-5/section-202.html?txthl=person&wbdisable=true",
+          "retrieved_text_sha256": "069636a47c2c5391549807391d6c83aed0e2d7b84d184da36351630b5b5203e5",
+          "retrieved_text_characters": 4453
+        },
+        {
+          "title": "QR&O: Volume II – Chapter 119 – Mental Disorder - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/queens-regulations-orders/vol-2-disciplinary/ch-119-mental-disorder.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/queens-regulations-orders/vol-2-disciplinary/ch-119-mental-disorder.html",
+          "retrieved_text_sha256": "81b86472c1d242024e60854642a2731bd7c558a54627c0e5f34616686b0b853d",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian mental health laws: a review of involuntary ... - PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13064765/",
+          "id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13064765/",
+          "retrieved_text_sha256": "3ee136978d3f2a26fee3d3728b72336a7437cf5818d48adb6e471a1d8a488428",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "the to offence\".2",
+          "url": "https://www.canada.ca/content/dam/dnd-mdn/migration/assets/FORCES_Internet/docs/en/jag/directive-047-17-summary-trial-mental-disorder.pdf",
+          "id": "https://www.canada.ca/content/dam/dnd-mdn/migration/assets/FORCES_Internet/docs/en/jag/directive-047-17-summary-trial-mental-disorder.pdf",
+          "retrieved_text_sha256": "3bfc9e8d41987a12473422f1de25ea2714be57c8411b25f268701abefe24a5a8",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada's mental health legislation - PMC - NIH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6735142/",
+          "publishedDate": "2014-08-01T00:00:00.000Z",
+          "author": "Richard L. O’Reilly, John Ellery Gray",
+          "id": "https://exa.ai/library/publication/tr83n2s6f9t",
+          "retrieved_text_sha256": "0d9bff9d717f2d07cdf99b4f100b7202e60383edc5ea2117162ac78d0237cc20",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian Armed Forces Military Personnel Instruction 03/09 – Enhanced access health care services - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/canadian-forces-military-personnel-instructions/enhanced-access-health-care-services.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/canadian-forces-military-personnel-instructions/enhanced-access-health-care-services.html",
+          "retrieved_text_sha256": "05380098ea0b3302debff838dfa1a65c76295a710e356826b7718a21d17cc47c",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "National Defence Act",
+          "url": "https://laws.justice.gc.ca/eng/acts/N-5/page-26.html",
+          "id": "https://laws.justice.gc.ca/eng/acts/N-5/page-26.html",
+          "retrieved_text_sha256": "c88b37c5da565f9db696a082057b7e1bc8fc6aa0eb455848dca9352c0ef7447e",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "f72379027630819803c10505f74feb05"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "biometrics",
+      "request_number": "A-2025-00181",
+      "owner_org": "dnd-mdn",
+      "selection": "top editorial cluster",
+      "rank_score": 2.316,
+      "question": "What public authority and safeguards govern collection of Canadian personnel biometric data during 2025 training?",
+      "queries": [
+        "Canadian Armed Forces 2025 biometric training Canadian citizens standing authority collect data"
+      ],
+      "source_summary": "Technical CONOP: Standing Authority to Intentionally Collect CANCIT Data From DND/CAF Pers During Biometric Training Acitivities Calendar Year 2025. Dates: 2025-01-01 to 2025-04-23",
+      "pages": 95,
+      "disposition": "DP"
+    },
+    "query": "Canadian Armed Forces 2025 biometric training Canadian citizens standing authority collect data",
+    "response": {
+      "results": [
+        {
+          "title": "COW – Biometrics – June 9, 2025 - Canada.ca",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cow-jun-9-2025/biometrics.html",
+          "author": "Immigration, Refugees and Citizenship Canada",
+          "id": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/committees/cow-jun-9-2025/biometrics.html",
+          "retrieved_text_sha256": "e416163d1e133c273d71546eed9ab0053dc510997e09eea38c606417d60519a6",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Biometric Collection within the Defence Intelligence - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/biometric-collection-die-program.html",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/biometric-collection-die-program.html",
+          "retrieved_text_sha256": "3d11b1a29608627466e92ee35ea7dc79fcd98d5e8434dfc535dafc540d72296f",
+          "retrieved_text_characters": 5885
+        },
+        {
+          "title": "Guidance for processing biometrics – for federal institutions - Office of the Privacy Commissioner of Canada",
+          "url": "https://www.priv.gc.ca/en/privacy-topics/health-genetic-and-other-body-information/biometrics/gd_bio_fed-final/?wbdisable=true",
+          "id": "https://www.priv.gc.ca/en/privacy-topics/health-genetic-and-other-body-information/biometrics/gd_bio_fed-final/?wbdisable=true",
+          "retrieved_text_sha256": "652e40ddc301624bcb26847d4b6a08ed3a6bdebd71f022f285eb3f7127ee7d54",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "OPC publishes new guidance for processing biometrics - Office of the Privacy Commissioner of Canada",
+          "url": "https://www.priv.gc.ca/en/for-federal-institutions/privacy-act-bulletins/pab_20250819/",
+          "publishedDate": "2025-08-19T00:00:00.000Z",
+          "id": "https://www.priv.gc.ca/en/for-federal-institutions/privacy-act-bulletins/pab_20250819/",
+          "retrieved_text_sha256": "bfbf9171491e9609ac06616e9a61378977b171794d96a074ba261391bffd2bb0",
+          "retrieved_text_characters": 2930
+        },
+        {
+          "title": "Special Report on the Collection, Use, Retention and Dissemination of Information on Canadians in the context of the Department of National Defence and the Canadian Armed Forces Defence Intelligence Activities —",
+          "url": "https://nsicop-cpsnr.ca/reports/rp-2020-03-12-sr/09-en-annex-a.html",
+          "publishedDate": "2020-03-12T00:00:00.000Z",
+          "id": "https://nsicop-cpsnr.ca/reports/rp-2020-03-12-sr/09-en-annex-a.html",
+          "retrieved_text_sha256": "afbeb92ade6016d4763fb3a5852bea54f3348df664423cb789fe2daf7c2a06c2",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Facilitating the Recruitment of Permanent Residents in the Canadian Armed Forces (CAF) - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/facilitating-recruitment-permanent-residents-canadian-armed-forces.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/facilitating-recruitment-permanent-residents-canadian-armed-forces.html",
+          "retrieved_text_sha256": "501fcf33dae0257f9cbe3d3e3d74457bbfd02d1d28b78615e26dead4a867788c",
+          "retrieved_text_characters": 1190
+        },
+        {
+          "title": "Privacy Impact Assessment - Pre-Employment Screening Project - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/pre-employment-screening.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/pre-employment-screening.html",
+          "retrieved_text_sha256": "af37adfc4fc330bc3abfab64035adbf1cb8218433542d7a8436a2adc3a615079",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Privacy Commissioner of Canada publishes guidance on ...",
+          "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2025/nr-c_250811/",
+          "publishedDate": "2025-08-11T00:00:00.000Z",
+          "id": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2025/nr-c_250811/",
+          "retrieved_text_sha256": "b7d6ecc9a5e59f4a3b36aaaa514e4ceb9153042fcdd891ea525a6b094e75ae19",
+          "retrieved_text_characters": 3440
+        },
+        {
+          "title": "Study of the Government of Canada's use of Biometrics in the Border Continuum: Backgrounder - National Security and Intelligence Review Agency",
+          "url": "https://nsira-ossnr.gc.ca/en/reviews/find-a-review/20-08/backgrounder/",
+          "publishedDate": "2025-02-12T00:00:00.000Z",
+          "id": "https://nsira-ossnr.gc.ca/en/reviews/find-a-review/20-08/backgrounder/",
+          "retrieved_text_sha256": "08cfcf6761c099bcaf690b3c10dee658613d227000e6fadf91a61d10ac36a204",
+          "retrieved_text_characters": 1869
+        },
+        {
+          "title": "",
+          "url": "https://sscp2pspc.ssc-spc.gc.ca/page.aspx/en/fil/download_public/945ECBE4-546B-4AF2-AD50-0708806EAF17",
+          "id": "https://sscp2pspc.ssc-spc.gc.ca/page.aspx/en/fil/download_public/945ECBE4-546B-4AF2-AD50-0708806EAF17",
+          "retrieved_text_sha256": "5fe232c92ca50e2a9992efec44d0e501618cc1715ba81525b48c6d5913bd3ab8",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "6cb3f3824f74c0569a8f9172dbd68a1c"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "audit-middle-east",
+      "request_number": "A-2025-00661",
+      "owner_org": "dnd-mdn",
+      "selection": "seeded lower-half audit",
+      "rank_score": 1.5780000000000003,
+      "question": "Is the June 2025 CAF Middle East personnel movement already publicly explained?",
+      "queries": [
+        "Canada Canadian Armed Forces personnel Middle East June 2025 evacuation"
+      ],
+      "source_summary": "Records reviewed at the ADM level/military Level One command equivalent or above regarding CAF personnel movements in Middle East. From 2025-06-17 to 2025-06-22",
+      "pages": 6,
+      "disposition": "DP"
+    },
+    "query": "Canada Canadian Armed Forces personnel Middle East June 2025 evacuation",
+    "response": {
+      "results": [
+        {
+          "title": "A connected response to a complex crisis - Global Affairs Canada",
+          "url": "https://www.international.gc.ca/world-monde/stories-histoires/2025/response-middle-east-reponse-moyen-orient.aspx?lang=eng",
+          "id": "https://www.international.gc.ca/world-monde/stories-histoires/2025/response-middle-east-reponse-moyen-orient.aspx?lang=eng",
+          "retrieved_text_sha256": "dac1623cab84ae16b3ba3fd2a2362989fb600146709c6bfc61747c7831e8f54f",
+          "retrieved_text_characters": 5446
+        },
+        {
+          "title": "National Defence confirms Canadians on exchange with U.S. ...",
+          "url": "https://www.cbc.ca/news/politics/canadian-armed-forces-exchange-middle-east-iran-9.7136613",
+          "publishedDate": "2026-03-20T19:17:55.000Z",
+          "id": "https://www.cbc.ca/news/politics/canadian-armed-forces-exchange-middle-east-iran-9.7136613",
+          "retrieved_text_sha256": "6b764ca320d277c4466306a86fba4287990ce3117c7d2ee26961b3daf370b5c8",
+          "retrieved_text_characters": 2234
+        },
+        {
+          "title": "Canada’s first evacuation flight leaves Middle East after Israel-Iran strikes - The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/canada/article-middle-east-evacuation-flight-jordan-anita-anand/",
+          "publishedDate": "2025-06-25T00:58:27.000Z",
+          "id": "https://www.theglobeandmail.com/canada/article-middle-east-evacuation-flight-jordan-anita-anand/",
+          "retrieved_text_sha256": "9fa92801cfefafca515c61fe36c6670e5d4cbae859f6eb852e75a2208615d610",
+          "retrieved_text_characters": 2205
+        },
+        {
+          "title": "Canadian colonel's medal raises questions about role in US ...",
+          "url": "https://nationalpost.com/news/canada/canadian-colonels-medal-raises-questions-about-canadas-role-in-u-s-war-with-iran",
+          "publishedDate": "2026-08-11T00:00:00.000Z",
+          "id": "https://nationalpost.com/news/canada/canadian-colonels-medal-raises-questions-about-canadas-role-in-u-s-war-with-iran",
+          "retrieved_text_sha256": "f7030bb5765f2b5db1a7d603dac4ad40befc7c2f8e3f8ced24ab794ddd641c57",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada's first evacuation flight leaves Middle East amid Israel-Iran strikes | National News | thecanadianpressnews.ca",
+          "url": "https://www.thecanadianpressnews.ca/national/canadas-first-evacuation-flight-leaves-middle-east-amid-israel-iran-strikes/article_0cd4be91-8de0-5c7f-9864-9d404a26ab92.html",
+          "publishedDate": "2025-06-25T00:40:18.000Z",
+          "author": "David Baxter and Dylan Robertson The Canadian Press",
+          "id": "https://www.thecanadianpressnews.ca/national/canadas-first-evacuation-flight-leaves-middle-east-amid-israel-iran-strikes/article_0cd4be91-8de0-5c7f-9864-9d404a26ab92.html",
+          "retrieved_text_sha256": "61f7cbbb8f56d423c84a45826d946871f1ff1943f08fad584d6cb86722506b0b",
+          "retrieved_text_characters": 5319
+        },
+        {
+          "title": "Canada brings seven citizens out of Israel, West Bank as most find their own way out",
+          "url": "https://www.ctvnews.ca/canada/article/canada-brings-seven-citizens-out-of-israel-west-bank-as-most-find-their-own-way-out/",
+          "publishedDate": "2025-06-26T00:21:19.000Z",
+          "id": "https://www.ctvnews.ca/canada/article/canada-brings-seven-citizens-out-of-israel-west-bank-as-most-find-their-own-way-out/",
+          "retrieved_text_sha256": "e043965c03640b5da9c8edc1156c1b2bdbe87a507636935c33486348b7204110",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canada starts evacuating citizens from Israel",
+          "url": "https://www.cp24.com/politics/2025/06/23/canada-changes-course-starts-busing-citizens-out-of-israel/",
+          "publishedDate": "2025-06-23T21:41:48.000Z",
+          "id": "https://www.cp24.com/politics/2025/06/23/canada-changes-course-starts-busing-citizens-out-of-israel/",
+          "retrieved_text_sha256": "3ff012d5ccae1fd8cec286584fdc73fa2ae0261b72daae9e0eb2a201f9ea03ae",
+          "retrieved_text_characters": 5459
+        },
+        {
+          "title": "Canadian Armed Forces members leave Iraq amid Iran war",
+          "url": "https://www.ctvnews.ca/world/mideast-conflict/article/canadian-military-personnel-leave-iraq-with-nato-allies-amid-iran-war/",
+          "publishedDate": "2026-03-20T18:12:51.000Z",
+          "author": "The Canadian Press",
+          "id": "https://www.ctvnews.ca/world/mideast-conflict/article/canadian-military-personnel-leave-iraq-with-nato-allies-amid-iran-war/",
+          "retrieved_text_sha256": "4e04106894f5dd7cb16d8b5b4c43c57e6b5e5fe6bceadfe4f1bde6cd190bce47",
+          "retrieved_text_characters": 1601
+        },
+        {
+          "title": "Operation ION - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/middle-east/op-ion.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/middle-east/op-ion.html",
+          "retrieved_text_sha256": "ccb21d79d5235ccc7fc400c2e5b52fa0cb88f3e0db56a431f1750b8db1821628",
+          "retrieved_text_characters": 1948
+        },
+        {
+          "title": "Canada evacuates more citizens from Mideast amid ongoing Israel-Iran war",
+          "url": "https://www.aa.com.tr/en/americas/canada-evacuates-more-citizens-from-mideast-amid-ongoing-israel-iran-war/3610180",
+          "publishedDate": "2025-06-23T00:00:00.000Z",
+          "id": "https://www.aa.com.tr/en/americas/canada-evacuates-more-citizens-from-mideast-amid-ongoing-israel-iran-war/3610180",
+          "retrieved_text_sha256": "b726f64d3fc24ead7a8b537a613ca3f212ac25be7cdc9118db7adc40a27f9dcd",
+          "retrieved_text_characters": 1499
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "f7441b9bb6a4eaa748303213af33d8a3"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "audit-petawawa",
+      "request_number": "A-2024-00225",
+      "owner_org": "dnd-mdn",
+      "selection": "seeded lower-half audit",
+      "rank_score": 1.544,
+      "question": "Can public sources identify a concrete safety issue at Petawawa Building Q-103 or its golf club?",
+      "queries": [
+        "Petawawa \"Q-103\" golf club safety"
+      ],
+      "source_summary": "All records regarding current / future operation, maintenance and safety of Building Q-103 Base Petawawa/Golf club of PSP Manager, Base Commander and Real Property Operations. From 01-04-2022 to 15-05-2024",
+      "pages": 603,
+      "disposition": "DP"
+    },
+    "query": "Petawawa \"Q-103\" golf club safety",
+    "response": {
+      "results": [
+        {
+          "title": "Petawawa Golf Club",
+          "url": "https://www.golfcanada.ca/golf-facility/petawawa-golf-club-en/",
+          "publishedDate": "2025-12-05T00:56:46.000Z",
+          "id": "https://www.golfcanada.ca/golf-facility/petawawa-golf-club-en/",
+          "retrieved_text_sha256": "1913d21b3031d4c7d6a9bac89313f4a63f0a360b2fb1d01d97e22839c1cf75d3",
+          "retrieved_text_characters": 184
+        },
+        {
+          "title": "Replace Upper Balcony Guardrail Buildings Q-103",
+          "url": "https://projects.constructconnect.com/details/5657892-replace-upper-balcony-guardrail-buildings-q-103&find_loc=-K8H-2X3",
+          "publishedDate": "2022-02-04T00:00:00.000Z",
+          "id": "https://projects.constructconnect.com/details/5657892-replace-upper-balcony-guardrail-buildings-q-103&find_loc=-K8H-2X3",
+          "retrieved_text_sha256": "2011e88e1ed014066798f7ac308bef8f0f4c21ba70148d603933822b91197714",
+          "retrieved_text_characters": 1404
+        },
+        {
+          "title": "Campaign Walls",
+          "url": "https://projects.constructconnect.com/details/5666236-campaign-walls&find_loc=-K8H-1X3",
+          "publishedDate": "2023-09-12T16:39:33.000Z",
+          "id": "https://projects.constructconnect.com/details/5666236-campaign-walls&find_loc=-K8H-1X3",
+          "retrieved_text_sha256": "dfb067f8eaa262728c0fae41ec3fa57a0b5e8ecf5a19a4ae8e3862914bdfcdbd",
+          "retrieved_text_characters": 5830
+        },
+        {
+          "title": "Evolution Jiu Jitsu - CFMWS",
+          "url": "https://cfmws.ca/petawawa/evolution-jiu-jitsu-club",
+          "id": "https://cfmws.ca/petawawa/evolution-jiu-jitsu-club",
+          "retrieved_text_sha256": "46a23c41130ae5550846c4130681d98a5890769c3efd5931ea4884249bbf2435",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "The Coureurs de Bois Trail Race - Water and Dirt Festival | Petawawa Ontario",
+          "url": "https://www.wateranddirt.ca/dirt/fun-run/",
+          "author": "Blue North Studios",
+          "id": "https://www.wateranddirt.ca/dirt/fun-run/",
+          "retrieved_text_sha256": "7646ea589b3f68f2c958ccb92215263693be3b0d3f3475f744b87ae465b90bee",
+          "retrieved_text_characters": 1004
+        },
+        {
+          "title": "[PDF] Sponsors, partners unveiled for Petawawa's 150th",
+          "url": "https://www.petawawapostlive.ca/pdfs/papers/2015/july/30-july-2015-op.pdf",
+          "author": "brucepeever",
+          "id": "https://www.petawawapostlive.ca/pdfs/papers/2015/july/30-july-2015-op.pdf",
+          "retrieved_text_sha256": "1239f5a5d6da66ffcb2bc940c95a74613a3c8d824855ac173b267b0cc5246669",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Petawawa Gymnastics - CFMWS",
+          "url": "https://cfmws.ca/petawawa/petawawa-gymnastics-club",
+          "id": "https://cfmws.ca/petawawa/petawawa-gymnastics-club",
+          "retrieved_text_sha256": "e8bd20b532a15cc33681e3fcdf9851e3f2d4101c1b55b713268340d9c8a524a7",
+          "retrieved_text_characters": 563
+        },
+        {
+          "title": "Roofing, Concrete and Electrical Repairs - Various Buildings",
+          "url": "https://projects.constructconnect.com/details/4682289-roofing-concrete-and-electrical-repairs-various-buildings&find_loc=-K8H-1X3",
+          "publishedDate": "2023-09-12T16:41:25.000Z",
+          "id": "https://projects.constructconnect.com/details/4682289-roofing-concrete-and-electrical-repairs-various-buildings&find_loc=-K8H-1X3",
+          "retrieved_text_sha256": "65e67b09b58a709c8449520ac969029cb356e99486c5720a37efe05e1d617d97",
+          "retrieved_text_characters": 5469
+        },
+        {
+          "title": "cfbpetawawa photos on Flickr",
+          "url": "https://www.flickr.com/photos/tags/cfbpetawawa/",
+          "id": "https://www.flickr.com/photos/tags/cfbpetawawa/",
+          "retrieved_text_sha256": "bbe11459aca529498a5062282f5dafa18f2efbbefb94ce417b7af0bbbe8acc2d",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Lighting Retrofit at Various Buildings - Petawawa",
+          "url": "https://projects.constructconnect.com/details/5513963-lighting-retrofit-at-various-buildings-petawawa&find_loc=-K8H-1X3",
+          "publishedDate": "2023-09-12T15:11:43.000Z",
+          "id": "https://projects.constructconnect.com/details/5513963-lighting-retrofit-at-various-buildings-petawawa&find_loc=-K8H-1X3",
+          "retrieved_text_sha256": "a84d4b0f0f27c3054faaa8807d2b10ccaa8ea1651839e4c9c4ee70dcceb07a73",
+          "retrieved_text_characters": 5882
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "82f2c0255d41fc92b80ec8cf1bf121fd"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  },
+  {
+    "plan": {
+      "lead": "audit-medical-fairness",
+      "request_number": "A-2025-02382",
+      "owner_org": "dfatd-maecd",
+      "selection": "seeded lower-half audit",
+      "rank_score": 1.982,
+      "question": "Are the requested medical-policy fairness/accommodation standards already public?",
+      "queries": [
+        "Canadian Armed Forces medical policy procedural fairness disability accommodation DMEDPOL"
+      ],
+      "source_summary": "Documents related to sending Canadian Armed Forces personnel to Mexico for the purposes of protection, extraction, or non-combatant evacuation operations, dated between February 21- 26, 2026.",
+      "pages": 0,
+      "disposition": "NE"
+    },
+    "query": "Canadian Armed Forces medical policy procedural fairness disability accommodation DMEDPOL",
+    "response": {
+      "results": [
+        {
+          "title": "Principles of procedural fairness - Canada.ca",
+          "url": "https://www.canada.ca/en/ombudsman-national-defence-forces/education-information/caf-members/recourse-complaint-mechanism/procedural-fairness.html",
+          "author": "Office of the National Defence and Canadian Armed Forces Ombudsman",
+          "id": "https://www.canada.ca/en/ombudsman-national-defence-forces/education-information/caf-members/recourse-complaint-mechanism/procedural-fairness.html",
+          "retrieved_text_sha256": "2b31a9e59ad10252acabb05f15c1cb7eb18e72941042e3b15af62308e505ea84",
+          "retrieved_text_characters": 2416
+        },
+        {
+          "title": "# 2013-062 - Accommodation, Procedural Fairness, Release - Medical, Review of Retention Policies –2013 Update - Canada.ca",
+          "url": "https://www.canada.ca/en/military-grievances-external-review/services/case-summaries/case-2013-062.html",
+          "author": "Military Grievances External Review Committee",
+          "id": "https://www.canada.ca/en/military-grievances-external-review/services/case-summaries/case-2013-062.html",
+          "retrieved_text_sha256": "fbb151d22c04813e95000a2a631433a53217d5f2d024ba221980140342c0e8cb",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "# 2011-110 Releases, Accommodation, Administrative Review, Procedural Fairness, Release - Medical - Canada.ca",
+          "url": "https://www.canada.ca/en/military-grievances-external-review/services/case-summaries/case-2011-110.html",
+          "author": "Military Grievances External Review Committee",
+          "id": "https://www.canada.ca/en/military-grievances-external-review/services/case-summaries/case-2011-110.html",
+          "retrieved_text_sha256": "ef7e40dfc0e43eed48ad40578e79830dcd2f37affeecc112daa1b492fd346ee3",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian Armed Forces Military Personnel Instruction 11/04 – Canadian Armed Forces Medical Standards - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/canadian-forces-military-personnel-instructions/canadian-forces-medical-standards.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/canadian-forces-military-personnel-instructions/canadian-forces-medical-standards.html",
+          "retrieved_text_sha256": "07abd4b13c882301e526d1f5b9b3d5d7b6325afb219974fd744255401cbe2281",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Determining Service Attribution for Medically Releasing Members - Canada.ca",
+          "url": "https://www.canada.ca/en/ombudsman-national-defence-forces/reports-news-statistics/investigative-reports/determining-service-attribution-medically-releasing-members/home.html",
+          "author": "Office of the National Defence and Canadian Armed Forces Ombudsman",
+          "id": "https://www.canada.ca/en/ombudsman-national-defence-forces/reports-news-statistics/investigative-reports/determining-service-attribution-medically-releasing-members/home.html",
+          "retrieved_text_sha256": "1c56b015cfaf3a08f3779b93fc50b5e19733b52f4d5bf770d6626eade9e8fcfb",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Canadian Armed Forces Military Personnel Instruction 02/19 – Learning Disability Accommodation During Recruiting, Training and Education - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/canadian-forces-military-personnel-instructions/learning-disability-accommodation-during-recruiting-training-and-education.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/canadian-forces-military-personnel-instructions/learning-disability-accommodation-during-recruiting-training-and-education.html",
+          "retrieved_text_sha256": "9d053aac1656f96898dd9c5aa9cf88674335190567d1783bc5d1ab6bade49697",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Chapter 3 - Medical Assessments - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/medical-standards-military-occupations/medical-assessments.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/medical-standards-military-occupations/medical-assessments.html",
+          "retrieved_text_sha256": "cd61dcf0485062226073072cc8c15b20d4556ed68b65b8f23c17e3266da26766",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "1.1 Date of issue [8 November 2021]",
+          "url": "https://roryfowlerlaw.com/wp-content/uploads/2021/12/DMCA-2-Aide-Memoire-.COVID_.Final_.pdf",
+          "id": "https://roryfowlerlaw.com/wp-content/uploads/2021/12/DMCA-2-Aide-Memoire-.COVID_.Final_.pdf",
+          "retrieved_text_sha256": "fa47de8bc1b708942364aad5c9fd2bee7020be4f511ab22a69945f23ac461dff",
+          "retrieved_text_characters": 6000
+        },
+        {
+          "title": "Chapter 1 - Foreword - Canada.ca",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/medical-standards-military-occupations/foreword-caf-medical-standards.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/medical-standards-military-occupations/foreword-caf-medical-standards.html",
+          "retrieved_text_sha256": "085b1827cbc7fbde661733f76cf033ed85b3aa55a9ec7c0f046515845d7be4b1",
+          "retrieved_text_characters": 2522
+        },
+        {
+          "title": "DAOD 5516-5, Learning Disability Accommodation during ...",
+          "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/5000-series/5516/5516-5-learning-disability-accommodation-during-recruiting-training-and-education.html",
+          "author": "National Defence",
+          "id": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/5000-series/5516/5516-5-learning-disability-accommodation-during-recruiting-training-and-education.html",
+          "retrieved_text_sha256": "9283b52ff73906a87daaa9b6f7b5e5bd5de7700cd503ae72e245a5ddc278355c",
+          "retrieved_text_characters": 6000
+        }
+      ],
+      "costDollars": {
+        "total": 0.007,
+        "search": {
+          "neural": 0.007
+        }
+      },
+      "requestId": "bdac8b189b90efcd47e25ec357c77317"
+    },
+    "omission": "Full third-party text and original raw response omitted from portable package."
+  }
+]

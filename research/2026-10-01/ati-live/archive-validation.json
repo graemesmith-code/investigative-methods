@@ -1,0 +1,22 @@
+{
+  "tests": "13 offline safeguards tests pass: 11 run-era plus 2 post-run continuation guards",
+  "scored_unique_records": 1234,
+  "jev_calls": 1402,
+  "exa_calls": 17,
+  "accounted_microusd": {
+    "jev": 61954,
+    "exa": 119000
+  },
+  "all_calls_successful": true,
+  "pending_attempts": 0,
+  "branch_questions": 5,
+  "release_packets": 1,
+  "release_pages": 7,
+  "full_third_party_news_text": "excluded",
+  "live_database": "excluded",
+  "source_hashes": "verified",
+  "executed_source_hashes": "verified",
+  "relative_markdown_links": "verified",
+  "tax_inclusive_invoice": "not verified",
+  "whitespace_note": "Author-written source/docs clean; original source bytes, OCR and CSV CRLF preserved despite data whitespace diagnostics."
+}

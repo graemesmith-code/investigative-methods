@@ -1,0 +1,100 @@
+{
+  "started_utc": "2026-10-01T11:03:17.346640+00:00",
+  "resource_id": "19383ca2-b01a-487d-88f7-e1ffbc7d39c2",
+  "requests": [
+    {
+      "url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2&filters=%7B%22owner_org%22%3A+%22dfatd-maecd%22%2C+%22year%22%3A+2026%7D&sort=_id+asc&limit=250&offset=0",
+      "file": "dfatd-maecd-00000.json",
+      "http_status": 200,
+      "sha256": "03e30ce6af2655e669b9d0e015422ea4ce12529e9e1140eedcb7c48d895cb086",
+      "retrieved_utc": "2026-10-01T11:03:19.540968+00:00"
+    },
+    {
+      "url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2&filters=%7B%22owner_org%22%3A+%22dfatd-maecd%22%2C+%22year%22%3A+2026%7D&sort=_id+asc&limit=250&offset=250",
+      "file": "dfatd-maecd-00250.json",
+      "http_status": 200,
+      "sha256": "14ead70d1284e8d70c2dfc9593bf3f0c10cf92153ee2c71208f0c42f83141643",
+      "retrieved_utc": "2026-10-01T11:03:20.295765+00:00"
+    },
+    {
+      "url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2&filters=%7B%22owner_org%22%3A+%22dnd-mdn%22%2C+%22year%22%3A+2026%7D&sort=_id+asc&limit=250&offset=0",
+      "file": "dnd-mdn-00000.json",
+      "http_status": 200,
+      "sha256": "6bcb68ca6f15b0847e64b89223a26e0e0b9b9ac648ec6fd3f9566b707569e3b1",
+      "retrieved_utc": "2026-10-01T11:03:21.005342+00:00"
+    },
+    {
+      "url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2&filters=%7B%22owner_org%22%3A+%22dnd-mdn%22%2C+%22year%22%3A+2026%7D&sort=_id+asc&limit=250&offset=250",
+      "file": "dnd-mdn-00250.json",
+      "http_status": 200,
+      "sha256": "02ede35c97391dcde490e9b76ad09078b1ce13cd5ee429f607480d6ad8c932d6",
+      "retrieved_utc": "2026-10-01T11:03:21.637325+00:00"
+    },
+    {
+      "url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2&filters=%7B%22owner_org%22%3A+%22dnd-mdn%22%2C+%22year%22%3A+2026%7D&sort=_id+asc&limit=250&offset=500",
+      "file": "dnd-mdn-00500.json",
+      "http_status": 200,
+      "sha256": "8eddaf2b9146cf6b0ffe9e08d74fc5a96aae790b114a7d2fa9a87b3eb3a62020",
+      "retrieved_utc": "2026-10-01T11:03:22.266545+00:00"
+    },
+    {
+      "url": "https://open.canada.ca/data/api/3/action/datastore_search?resource_id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2&filters=%7B%22owner_org%22%3A+%22dnd-mdn%22%2C+%22year%22%3A+2026%7D&sort=_id+asc&limit=250&offset=750",
+      "file": "dnd-mdn-00750.json",
+      "http_status": 200,
+      "sha256": "4d938cad2df6e8f859a62a9b165c88eb7fa691f555860225ebb2f90d850e68da",
+      "retrieved_utc": "2026-10-01T11:03:23.129492+00:00"
+    }
+  ],
+  "institutions": {
+    "dfatd-maecd": {
+      "reported_total": 441,
+      "retrieved": 441,
+      "unique_ids": 441,
+      "repeated_request_numbers": {},
+      "closure_months": {
+        "1": 61,
+        "2": 74,
+        "3": 143,
+        "4": 26,
+        "5": 63,
+        "6": 38,
+        "7": 36
+      },
+      "dispositions": {
+        "DA": 67,
+        "DP": 257,
+        "NE": 87,
+        "EX": 20,
+        "EC": 10
+      },
+      "released_pages_sum": 35135
+    },
+    "dnd-mdn": {
+      "reported_total": 793,
+      "retrieved": 793,
+      "unique_ids": 793,
+      "repeated_request_numbers": {},
+      "closure_months": {
+        "1": 108,
+        "2": 103,
+        "3": 107,
+        "4": 115,
+        "5": 71,
+        "6": 122,
+        "7": 106,
+        "8": 61
+      },
+      "dispositions": {
+        "DP": 484,
+        "NE": 181,
+        "DA": 118,
+        "EC": 2,
+        "EX": 8
+      },
+      "released_pages_sum": 170729
+    }
+  },
+  "total": 1234,
+  "exact_duplicate_rows_excluding_id": 0,
+  "completed_utc": "2026-10-01T11:03:23.140244+00:00"
+}

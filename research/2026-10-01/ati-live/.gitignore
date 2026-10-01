@@ -1,0 +1,6 @@
+# Private runtime cache contains article text; never publish it.
+ledger.sqlite
+ledger.sqlite-*
+ledger.json
+.env
+.env.*

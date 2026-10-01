@@ -1,0 +1,314 @@
+[
+  {
+    "lead": "leopard",
+    "request_number": "A-2023-00105",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.532,
+    "question": "What was publicly reported about Canada supplying additional Leopard 2 tanks, a recovery vehicle and 155mm ammunition in February 2023?",
+    "queries": [
+      "Canada February 2023 additional Leopard 2 tanks armoured recovery vehicle 155mm ammunition Ukraine"
+    ],
+    "source_summary": "POL2023-0001129: RECOMMENDATION ON PROVIDING ADDITIONAL LEOPARD 2 TANKS, AN ARMOURED RECOVERY VEHICLE AND 155MM AMMUNITION FROM CANADIAN ARMED FORCES (CAF) INVENTORY TO UKRAINE February 13, 2023",
+    "pages": 4,
+    "disposition": "DP",
+    "decision": "covered_public_event",
+    "reason": "Reuters and the PM announcement describe four additional Leopard 2 tanks, a recovery vehicle and over 5,000 rounds in February 2023. The unseen February 13 recommendation may contain internal deliberations; its title alone adds no new outcome.",
+    "human_handoff": "Reject public-event novelty; obtain the four-page note only if testing a specific internal recommendation against the announced decision.",
+    "source_urls": [
+      "https://www.reuters.com/world/canada-imposes-new-russia-sanctions-pledges-battle-tanks-ukraine-2023-02-24/",
+      "https://www.pm.gc.ca/en/news/news-releases/2023/02/24/supporting-ukraine-long-it-takes"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "china-permits",
+    "request_number": "A-2025-01773",
+    "owner_org": "dfatd-maecd",
+    "selection": "top editorial cluster",
+    "rank_score": 2.5220000000000002,
+    "question": "Is the specific 2025 nuclear-related dual-use export decision identified publicly? Other China permit notes are merged for search triage; no approval or exporter is established.",
+    "queries": [
+      "Canada \"00390-2025\" nuclear dual use export permit China"
+    ],
+    "source_summary": "Briefing note# 00390-2025: Seeking a Decision on an Export Permit Application for Nuclear-Related Dual-Use List Items to China.",
+    "pages": 5,
+    "disposition": "DP",
+    "decision": "defining_packet_required",
+    "reason": "Identifier search collided with unrelated Chinese standards. A broader second query recovered export-control rules, not the transaction. Nuclear-related dual-use wording does not establish a weapons end-use or approval.",
+    "human_handoff": "Obtain five-page A-2025-01773; identify item, exporter, end-user, recommendation and decision before more coverage searches.",
+    "source_urls": [],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "ukraine-budget",
+    "request_number": "A-2022-01326",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.434,
+    "question": "What public evidence identifies how the remaining 2022 $500 million Ukraine assistance budget was allocated?",
+    "queries": [
+      "Canada 2022 remainder 500 million military aid Ukraine spending allocation"
+    ],
+    "source_summary": "POL2022-0009116: Briefing note to the Minister: Recommendations on how to spend the remainder of the budget $500 million for Ukraine",
+    "pages": 7,
+    "disposition": "DP",
+    "decision": "context_only_packet_required",
+    "reason": "Search found multiple distinct $500 million announcements and general allocations; neither identifies the particular remainder in the two 2022 notes. Combining separate envelopes would mislead.",
+    "human_handoff": "Compare POL2022-0009116 and POL2022-0011253 with a dated allocation table; first obtain the seven- and six-page notes.",
+    "source_urls": [
+      "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/nddn-18-october-2022/defence-spending.html",
+      "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/secu-06-october-2022/international-security.html",
+      "https://www.pm.gc.ca/en/news/news-releases/2022/11/14/prime-minister-announces-additional-military-assistance-ukraine-and"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "armoured-vehicles",
+    "request_number": "A-2023-01996",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.392,
+    "question": "Was the recommendation to donate 50 armoured vehicles to Ukraine already publicly reported?",
+    "queries": [
+      "Canada 50 armoured vehicles Ukraine donation December 2023"
+    ],
+    "source_summary": "POL2023-0010539: Recommendation On 50 Armoured Vehicle Donation To Ukraine. Dec 20, 2023",
+    "pages": 8,
+    "disposition": "DP",
+    "decision": "covered_programme_unseen_recommendation",
+    "reason": "September 2023 reporting describes 50 vehicles; the ATI note is dated December 20. Programme coverage does not establish the content of this later recommendation.",
+    "human_handoff": "Reject novelty of the donation itself; obtain eight-page A-2023-01996 only for a specific changed recommendation or delivery question.",
+    "source_urls": [
+      "https://www.pravda.com.ua/eng/news/2023/09/22/7421043/",
+      "https://www.ipolitics.ca/2023/09/22/heres-what-canada-is-pledging-in-multi-year-support-for-ukraine-updated-trade-deal/"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "gac-assignments",
+    "request_number": "A-2025-02439",
+    "owner_org": "dfatd-maecd",
+    "selection": "top editorial cluster",
+    "rank_score": 2.3520000000000003,
+    "question": "What explains exclusion of traditional employees from round 3 of 2026 GAC assignments? The summary wording is not a verified finding.",
+    "queries": [
+      "Global Affairs Canada 2026 assignments round 3 traditional employees excluded"
+    ],
+    "source_summary": "Documents regarding the decision to exclude all traditional employees from round 3 of the 2026 cycle of assignments abroad and across Canada, dated between December 1, 2025, to March 3, 2026.",
+    "pages": 9,
+    "disposition": "DA",
+    "decision": "context_only_packet_required",
+    "reason": "Canadian Press reporting covers diplomatic staffing cuts and rotational/non-rotational differences. No returned passage establishes the specific round-three exclusion or defines traditional employees.",
+    "human_handoff": "Obtain nine-page A-2025-02439 and the round-three eligibility bulletin; test whether staffing/redeployment rules explain the decision.",
+    "source_urls": [
+      "https://www.theglobeandmail.com/politics/article-global-affairs-canada-diplomats-layoffs-budget/",
+      "https://www.bnnbloomberg.ca/business/politics/2026/05/20/global-affairs-numbers-show-disproportionate-level-of-cuts-to-staff-based-overseas/"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "israel-maple",
+    "request_number": "A-2023-03335",
+    "owner_org": "dfatd-maecd",
+    "selection": "top editorial cluster",
+    "rank_score": 2.342,
+    "question": "Recover the article named in the request and distinguish its published claims from still-unseen internal correspondence.",
+    "queries": [
+      "The Maple January 30 2024 Trudeau Government Admits Authorized New Military Exports Israel October 7"
+    ],
+    "source_summary": "All communications or documents related to the January 30, 2024, The Maple media article: Trudeau Government Admits It Authorized New Military Exports to Israel After October 7.",
+    "pages": 46,
+    "disposition": "DP",
+    "decision": "covered_named_article",
+    "reason": "The exact January 30 2024 Maple article was recovered, along with later reporting. The request explicitly concerns reactions to existing coverage, not an inherently new export revelation.",
+    "human_handoff": "Reject novelty of the published export claim; internal response records require a distinct supported follow-up question.",
+    "source_urls": [
+      "https://www.readthemaple.com/trudeau-government-admits-it-authorized-new-israeli-military-exports-after-october-7/",
+      "https://www.readthemaple.com/trudeau-government-authorized-28-million-of-new-military-exports-to-israel-since-october/"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "nanisivik",
+    "request_number": "A-2025-02587",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.342,
+    "question": "What public record identifies the storage-tank compliance order, its conditions and remedy at Nanisivik?",
+    "queries": [
+      "Nanisivik naval facility environmental protection compliance order storage tank 2025"
+    ],
+    "source_summary": "IE2025-0009981 - ENFORCEMENT MEASURE ENVIRONMENTAL PROTECTION COMPLIANCE ORDER FOR ALLEGED REGULATORY NON-COMPLIANCE OF STORAGE TANK SYSTEM AT NANISIVIK NAVAL FACILITY",
+    "pages": 10,
+    "disposition": "DA",
+    "decision": "surviving_acquisition_question",
+    "reason": "ATI index names a specific storage-tank compliance order. The primary announcement describes entering non-operational caretaker status, with divestment conditional on a later determination that the site is no longer required. It gives operational/viability reasons, not an order-caused-transition claim; compliance completion remains unknown.",
+    "human_handoff": "Obtain ten-page A-2025-02587 and the order/inspection closure record. Ask what remained to remedy before caretaker status or disposal; do not assert damage or causation.",
+    "source_urls": [
+      "https://www.canada.ca/en/department-national-defence/news/2026/05/department-of-national-defence-to-transition-nanisivik-naval-facility-out-of-operational-use.html",
+      "https://www.cbc.ca/news/canada/north/ottawa-reveals-plans-to-shut-down-and-offload-nanisivik-naval-port-on-baffin-island-9.7207826"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "ukraine-mines",
+    "request_number": "A-2022-01530",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.3320000000000003,
+    "question": "What is documented about Ukrainian anti-personnel mine use in 2022, and is the separate Canadian-volunteer allegation evidenced?",
+    "queries": [
+      "Ukraine Canadian volunteer fighters anti personnel mines Ottawa Treaty 2022"
+    ],
+    "source_summary": "Documents relating to the deployment of anti-personnel mines by Ukrainian forces and by Canadian volunteer fighters in Ukraine, and correspondence concerning violations of the Ottawa Treaty from 01/01/2022 to 12/12/2022",
+    "pages": 1,
+    "disposition": "DA",
+    "decision": "claim_split_unsubstantiated_canadian_angle",
+    "reason": "Returned reporting on Canadians injured by or clearing anti-tank mines is not evidence Canadians deployed prohibited anti-personnel mines. HRW material concerns Ukrainian use, a separate claim.",
+    "human_handoff": "Do not amplify the Canadian-volunteer allegation. Inspect the one-page release and identify an incident before pursuing.",
+    "source_urls": [
+      "https://www.cbc.ca/news/politics/ukraine-russia-war-canadian-volunteer-jt-1.6488565",
+      "https://www.theglobeandmail.com/canada/article-canadian-volunteer-fighters-ukraine/",
+      "https://www.hrw.org/news/2023/06/30/ukraine-promises-inquiry-banned-landmine-use"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "involuntary-care",
+    "request_number": "A-2025-01384",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.33,
+    "question": "Does public CAF policy already explain consent and involuntary mental-health admission?",
+    "queries": [
+      "Canadian Armed Forces policy involuntary admission mental health psychiatric consent"
+    ],
+    "source_summary": "Canadian Military policy and procedure on \"committing\" CAF members to mental health institutions, mental wards, mental hospitals or mental health facilities *involuntarily*. Dates: 2001-09-11 and 2025-09-30",
+    "pages": 7,
+    "disposition": "DA",
+    "decision": "exact_release_already_covered",
+    "reason": "The Canada Report names A-2025-01384 and links a seven-page policy scan. File acquired; visual checks confirm Chapter 323, provincial jurisdiction and constrained emergency authority. Association with ATI identifier comes from publisher/filename, not a government response letter.",
+    "human_handoff": "Reject fresh-policy novelty. Any follow-up needs a concrete implementation/grievance case; no interview or records request made.",
+    "source_urls": [
+      "https://www.thecanadareport.ca/military-police-mental-health-detention/"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": true
+  },
+  {
+    "lead": "biometrics",
+    "request_number": "A-2025-00181",
+    "owner_org": "dnd-mdn",
+    "selection": "top editorial cluster",
+    "rank_score": 2.316,
+    "question": "What public authority and safeguards govern collection of Canadian personnel biometric data during 2025 training?",
+    "queries": [
+      "Canadian Armed Forces 2025 biometric training Canadian citizens standing authority collect data"
+    ],
+    "source_summary": "Technical CONOP: Standing Authority to Intentionally Collect CANCIT Data From DND/CAF Pers During Biometric Training Acitivities Calendar Year 2025. Dates: 2025-01-01 to 2025-04-23",
+    "pages": 95,
+    "disposition": "DP",
+    "decision": "surviving_acquisition_question",
+    "reason": "Public 2023 privacy assessment acknowledges risks and an action plan. Historical 2018 directive §4.2 permits collection in specified mandated circumstances; §5.3 is general and §§5.4–5.6 concern inadvertent collection. These do not establish the governing 2025 policy, whether authority was proposed or granted, or whether collection occurred.",
+    "human_handoff": "Obtain 95-page A-2025-00181; distinguish proposal, authorization and actual collection, identify the governing policy, then assess consent, retention, sharing, deletion and mitigation completion. Do not infer unlawful collection.",
+    "source_urls": [
+      "https://www.canada.ca/en/department-national-defence/corporate/transparency/access-information-privacy/privacy-impact-assessment/biometric-collection-die-program.html",
+      "https://nsicop-cpsnr.ca/reports/rp-2020-03-12-sr/09-en-annex-a.html",
+      "https://www.priv.gc.ca/en/for-federal-institutions/privacy-act-bulletins/pab_20250819/"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "audit-middle-east",
+    "request_number": "A-2025-00661",
+    "owner_org": "dnd-mdn",
+    "selection": "seeded lower-half audit",
+    "rank_score": 1.5780000000000003,
+    "question": "Is the June 2025 CAF Middle East personnel movement already publicly explained?",
+    "queries": [
+      "Canada Canadian Armed Forces personnel Middle East June 2025 evacuation"
+    ],
+    "source_summary": "Records reviewed at the ADM level/military Level One command equivalent or above regarding CAF personnel movements in Middle East. From 2025-06-17 to 2025-06-22",
+    "pages": 6,
+    "disposition": "DP",
+    "decision": "related_coverage_dates_matter",
+    "reason": "June 2025 evacuation reporting supplies an ordinary operational explanation. A high-ranked search result concerns March 2026, outside the request period, and is not an exact event match.",
+    "human_handoff": "Low priority absent a concrete discrepancy in six-page A-2025-00661.",
+    "source_urls": [
+      "https://www.international.gc.ca/world-monde/stories-histoires/2025/response-middle-east-reponse-moyen-orient.aspx?lang=eng",
+      "https://www.theglobeandmail.com/canada/article-middle-east-evacuation-flight-jordan-anita-anand/",
+      "https://www.canada.ca/en/department-national-defence/services/military-history/history-heritage/past-operations/middle-east/op-ion.html"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "audit-petawawa",
+    "request_number": "A-2024-00225",
+    "owner_org": "dnd-mdn",
+    "selection": "seeded lower-half audit",
+    "rank_score": 1.544,
+    "question": "Can public sources identify a concrete safety issue at Petawawa Building Q-103 or its golf club?",
+    "queries": [
+      "Petawawa \"Q-103\" golf club safety"
+    ],
+    "source_summary": "All records regarding current / future operation, maintenance and safety of Building Q-103 Base Petawawa/Golf club of PSP Manager, Base Commander and Real Property Operations. From 01-04-2022 to 15-05-2024",
+    "pages": 603,
+    "disposition": "DP",
+    "decision": "unresolved_audit_with_specific_public_pointer",
+    "reason": "A construction aggregator describes Q-103 balcony guardrail replacement, an ordinary maintenance possibility. This is a commercial listing, not verified contract performance or proof of unsafe conditions.",
+    "human_handoff": "A useful low-ranked audit: identify the original tender/inspection and compare the 603-page packet index before assuming the score safely rejected it.",
+    "source_urls": [
+      "https://projects.constructconnect.com/details/5657892-replace-upper-balcony-guardrail-buildings-q-103&find_loc=-K8H-2X3"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "audit-medical-fairness",
+    "request_number": "A-2025-02382",
+    "owner_org": "dfatd-maecd",
+    "selection": "seeded lower-half audit",
+    "rank_score": 1.982,
+    "question": "Are the requested medical-policy fairness/accommodation standards already public?",
+    "queries": [
+      "Canadian Armed Forces medical policy procedural fairness disability accommodation DMEDPOL"
+    ],
+    "source_summary": "Documents related to sending Canadian Armed Forces personnel to Mexico for the purposes of protection, extraction, or non-combatant evacuation operations, dated between February 21- 26, 2026.",
+    "pages": 0,
+    "disposition": "NE",
+    "decision": "official_context_no_specific_failure",
+    "reason": "Official fairness guidance and grievance case summaries exist. Different dated grievance cases do not establish what DMEDPOL staff received during the requested period or a current systemic failure.",
+    "human_handoff": "Low priority without a specific decision or deviation; obtain packet index only if pursuing a defined implementation question.",
+    "source_urls": [
+      "https://www.canada.ca/en/ombudsman-national-defence-forces/education-information/caf-members/recourse-complaint-mechanism/procedural-fairness.html",
+      "https://www.canada.ca/en/military-grievances-external-review/services/case-summaries/case-2013-062.html",
+      "https://www.canada.ca/en/military-grievances-external-review/services/case-summaries/case-2011-110.html"
+    ],
+    "novelty_status": "Not established; bounded search only",
+    "release_obtained": false
+  },
+  {
+    "lead": "c22-control",
+    "request_number": "A-2025-00945",
+    "owner_org": "dnd-mdn",
+    "selection": "known-covered control",
+    "decision": "known_coverage_recovered",
+    "reason": "Original CBC text recovered; alternate CBC pages, syndications and follow-ons share lineage. Allegations remain disputed.",
+    "human_handoff": "Only compare packet if seeking a distinct incident or dated warning.",
+    "source_urls": [
+      "https://www.cbc.ca/lite/story/9.7165101"
+    ],
+    "release_obtained": false
+  }
+]

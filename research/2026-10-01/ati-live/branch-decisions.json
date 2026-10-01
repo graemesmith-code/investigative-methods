@@ -1,0 +1,52 @@
+[
+  {
+    "lead": "nanisivik",
+    "branch": "order-and-remedy",
+    "question": "Can an accessible public source establish the specific storage-tank compliance order and whether its conditions were satisfied?",
+    "ordinary_explanation": "A technical compliance correction could be routine and unrelated to any environmental damage or facility closure.",
+    "target": "2025 order, inspection and corrective-action completion evidence",
+    "stop_reason": "missing_release",
+    "finding": "Order and completion evidence not located. Announcement establishes only prospective environmental work, not tank compliance.",
+    "human_handoff": "Obtain A-2025-02587 and exact order/inspection closure record."
+  },
+  {
+    "lead": "nanisivik",
+    "branch": "closure-causation",
+    "question": "Does the May 2026 closure announcement identify the tank order as a reason for withdrawal?",
+    "ordinary_explanation": "Operational range, seasonal access and repair economics explain the decision independently.",
+    "target": "Official closure announcement and contemporaneous coverage",
+    "stop_reason": "unsupported_causal_inference_rejected",
+    "finding": "Official announcement describes caretaker status and conditional future divestment, citing operational/viability reasons; no explicit causal link to the order.",
+    "human_handoff": "Do not publish a tank-order-caused-closure claim without primary evidence."
+  },
+  {
+    "lead": "biometrics",
+    "branch": "authority-safeguards",
+    "question": "Does public policy describe authority and consent/retention controls specifically for Canadian personnel in training?",
+    "ordinary_explanation": "Consenting staff may volunteer as training subjects under a bounded authorized programme.",
+    "target": "Public privacy assessment, intelligence directives and exact training authority",
+    "stop_reason": "missing_release",
+    "finding": "Historical safeguards found, not verified 2025 governing policy. Summary cannot distinguish proposal, authorization or actual collection.",
+    "human_handoff": "Read A-2025-00181 to establish proposal/authorization/actual collection and applicable policy before assessing consent, retention, sharing and deletion."
+  },
+  {
+    "lead": "biometrics",
+    "branch": "mitigation-completion",
+    "question": "Can public material verify completion of the privacy assessment mitigation actions by the 2025 training period?",
+    "ordinary_explanation": "Actions may be completed internally without public reporting.",
+    "target": "Dated action-plan completion evidence",
+    "stop_reason": "missing_implementation_record",
+    "finding": "Privacy assessment promises an action plan but does not demonstrate completion by the training period. Absence is not failure.",
+    "human_handoff": "Obtain dated action-plan completion evidence; merge with authority/safeguards acquisition."
+  },
+  {
+    "lead": "involuntary-care",
+    "branch": "packet-verification",
+    "question": "Does the publicly linked PDF actually correspond to A-2025-01384 and substantiate the already-published policy description?",
+    "ordinary_explanation": "The summary points to ordinary provincial-law-based safeguards rather than an undisclosed blanket detention power.",
+    "target": "Linked seven-page military police policy and provenance",
+    "stop_reason": "covered_release_obtained",
+    "finding": "Seven-page scan matches policy title, scope and release page count; page 6 visually confirms version 1.0 dated 25 August 2025. Published article already describes it. ATI-number association is publisher-supplied.",
+    "human_handoff": "Stop novelty claim; implementation reporting requires a distinct case and independent authentication before publication."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "checks_passed": [
+    "all raw response hashes verified",
+    "raw pages equal combined JSON",
+    "CSV bilingual summaries preserved",
+    "1234 unique institution/request pairs"
+  ],
+  "http_requests": 6,
+  "fully_or_partly_disclosed": 926,
+  "missing_english_summaries": 0,
+  "missing_french_summaries": 0,
+  "zero_pages_by_disposition": {
+    "NE": 268,
+    "EX": 27,
+    "EC": 12,
+    "DP": 5,
+    "DA": 1
+  }
+}

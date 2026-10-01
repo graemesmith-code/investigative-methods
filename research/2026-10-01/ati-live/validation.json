@@ -1,0 +1,24 @@
+{
+  "offline_tests_before_live": 11,
+  "ranked_ids_match_corpus": true,
+  "ranking_calls_no_calibration_double_billing": true,
+  "provider_response_usage_and_costs_validated": true,
+  "all_attempts_successful": true,
+  "pending_attempts": 0,
+  "failed_attempts": 0,
+  "public_source_hashes_verified": 6,
+  "ocr_pages": 7,
+  "visually_checked_pdf_pages": [
+    1,
+    3,
+    6,
+    7
+  ],
+  "known_limitations": [
+    "Model confidence not validated editorial accuracy",
+    "Some deterministic passage selection includes navigation text",
+    "OCR spelling and layout require inspection before quotations",
+    "Third-party release provenance not independently confirmed by DND",
+    "Original source transfer incomplete; original hashes/tests not claimed"
+  ]
+}
