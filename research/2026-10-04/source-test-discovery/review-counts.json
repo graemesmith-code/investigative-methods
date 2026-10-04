@@ -1,0 +1,9 @@
+{
+  "review_rounds": 3,
+  "review_actions": 120,
+  "unique_design_ids_reviewed": 94,
+  "final_stratified_sample": 40,
+  "first_full_sample_failures": 13,
+  "reviewer": "same model session; no independent reviewer",
+  "meaning": "Design defect-finding, not external schema or execution validation."
+}

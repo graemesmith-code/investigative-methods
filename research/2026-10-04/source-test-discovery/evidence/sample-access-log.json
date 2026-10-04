@@ -1,0 +1,51 @@
+[
+  {
+    "sys_id": "SYS-0001",
+    "label": "gleif-one-record",
+    "url": "https://api.gleif.org/api/v1/lei-records/5493001KJTIIGC8Y1R12",
+    "requested_at_utc": "2026-10-04T13:45:32.860803+00:00",
+    "max_bytes": 200000,
+    "purpose": "availability/schema only; not an investigative match",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes_read": 2627,
+    "status": "sample_received",
+    "sha256": "e6e357d83d7c3fb12d1ba91b4d5eb8369d15f643d62eeffb328cc925ff1aa104",
+    "saved_path": "evidence/gleif-one-record.json",
+    "top_level_keys": [
+      "meta",
+      "data"
+    ],
+    "inference_limit": "One response proves only this request succeeded; no completeness, history, identity match or execution feasibility established."
+  },
+  {
+    "sys_id": "SYS-0248",
+    "label": "clinicaltrials-one-record",
+    "url": "https://clinicaltrials.gov/api/v2/studies?pageSize=1&format=json&fields=NCTId,BriefTitle,LeadSponsorName",
+    "requested_at_utc": "2026-10-04T13:45:34.494266+00:00",
+    "max_bytes": 200000,
+    "purpose": "availability/schema only; not an investigative match",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes_read": 390,
+    "status": "sample_received",
+    "sha256": "0a4c39486466fda20b4685136521e50ade1b3ed68da255737b8236b9a454d74e",
+    "saved_path": "evidence/clinicaltrials-one-record.json",
+    "top_level_keys": [
+      "studies",
+      "nextPageToken"
+    ],
+    "inference_limit": "One response proves only this request succeeded; no completeness, history, identity match or execution feasibility established."
+  },
+  {
+    "sys_id": "SYS-0149",
+    "label": "cisa-schema",
+    "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities_schema.json",
+    "requested_at_utc": "2026-10-04T13:45:34.806871+00:00",
+    "max_bytes": 200000,
+    "purpose": "availability/schema only; not an investigative match",
+    "status": "failed",
+    "error_type": "HTTPError",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

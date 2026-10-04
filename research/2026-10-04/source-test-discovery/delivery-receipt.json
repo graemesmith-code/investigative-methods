@@ -1,0 +1,16 @@
+{
+  "early": {
+    "library_file_id": "libfile_07d9ebf395208191b99b335830ecf7d8",
+    "file_id": "file_00000000e61c81f4b84c699439c99e9a",
+    "path": "/early-checkpoint.zip"
+  },
+  "final": {
+    "library_file_id": "libfile_097bba5cbc288191b664787f4f15a66d",
+    "file_id": "file_000000004c048210a8c9bf53c252edb7",
+    "path": "/source-test-discovery-checkpoint.zip",
+    "bytes": 1385390
+  },
+  "early_git_commit": "bc62d6fa45e2b6ade1b47b9050aa4970b1e2d141",
+  "final_sha256": "1e2ecd3da5524cffae7ddc389241759504ecdef2cbeb2e9ddf74ac7aa21300b9",
+  "privacy": "private repository unchanged; Library defaults unchanged"
+}
