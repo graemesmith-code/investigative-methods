@@ -1,0 +1,9 @@
+{"candidate_id": "M1", "card": "J01", "disposition": "proposed_new", "reason": "Authenticated prior payload versus explicit later event-capture attribution"}
+{"candidate_id": "M2", "card": "J01", "disposition": "reject", "reason": "Old wrapper date cannot date replayed embedded media"}
+{"candidate_id": "M3", "card": "J01", "disposition": "reject", "reason": "Misattributed media cannot by itself disprove the whole incident"}
+{"candidate_id": "P1", "card": "J02", "disposition": "proposed_new", "reason": "Single historical reference versus every element of one claim"}
+{"candidate_id": "P2", "card": "J02", "disposition": "reject", "reason": "Ingredient overlap and patent grant date do not establish anticipation"}
+{"candidate_id": "P3", "card": "J02", "disposition": "defer", "reason": "No exact historical protocol/priority-chain pair acquired"}
+{"candidate_id": "A1", "card": "REF-AER", "disposition": "refinement", "reason": "Concrete stop/restart safety sequence refines X07"}
+{"candidate_id": "A2", "card": "REF-AER", "disposition": "reject", "reason": "Mw and multiday completion overlap do not establish threshold and continued injection"}
+{"candidate_id": "A3", "card": "REF-AER", "disposition": "defer", "reason": "Original consent and sufficiently granular operations access unresolved"}

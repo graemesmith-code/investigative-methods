@@ -1,0 +1,29 @@
+{
+  "primary_manifest": 344,
+  "primary_sources_this_batch": 7,
+  "screened_branches": 9,
+  "screened_branch_dispositions": {
+    "proposed_new": 2,
+    "reject": 4,
+    "defer": 2,
+    "refinement": 1
+  },
+  "proposed_new": 2,
+  "new_refinements": 1,
+  "previously_reviewed_non_refinement_formulations": 53,
+  "provisional_total_if_accepted": 55,
+  "ranked_detailed_cards": 70,
+  "ranked_refinements": 15,
+  "documentation_entries": 11,
+  "partial_document_render": 1,
+  "records_acquired_this_batch": 0,
+  "matched_investigations": 0,
+  "positive_findings": 0,
+  "confirmed_end_to_end_feasible": 0,
+  "checkpoint_checks_passed": 14,
+  "artifact_checks": 8,
+  "synthetic_checks": 6,
+  "paid_external_api_calls": 0,
+  "weekly_last_user_report_remaining": 88,
+  "weekly_telemetry": "unavailable"
+}

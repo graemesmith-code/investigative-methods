@@ -1,0 +1,19 @@
+test_aer_scope_and_magnitude (__main__.Artifacts.test_aer_scope_and_magnitude) ... ok
+test_all_document_ids (__main__.Artifacts.test_all_document_ids) ... ok
+test_counts (__main__.Artifacts.test_counts) ... ok
+test_external_support_not_invented_SYS (__main__.Artifacts.test_external_support_not_invented_SYS) ... ok
+test_manifest (__main__.Artifacts.test_manifest) ... ok
+test_no_execution_claim (__main__.Artifacts.test_no_execution_claim) ... ok
+test_patent_specificity (__main__.Artifacts.test_patent_specificity) ... ok
+test_rank_integrity (__main__.Artifacts.test_rank_integrity) ... ok
+test_equal_time_not_strictly_pre_event (__main__.SyntheticChronology.test_equal_time_not_strictly_pre_event) ... ok
+test_exact_pre_event_flag_limited (__main__.SyntheticChronology.test_exact_pre_event_flag_limited) ... ok
+test_naive_time_rejected (__main__.SyntheticChronology.test_naive_time_rejected) ... ok
+test_portrait_use_rejected (__main__.SyntheticChronology.test_portrait_use_rejected) ... ok
+test_same_url_different_payload_no_flag (__main__.SyntheticChronology.test_same_url_different_payload_no_flag) ... ok
+test_wrapper_without_media_authentication_rejected (__main__.SyntheticChronology.test_wrapper_without_media_authentication_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.016s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "ordering": [
+    "readiness_tier",
+    "effort_tier",
+    "test_id"
+  ],
+  "unit": "detailed card, including refinements",
+  "raw_scores": "Preserved with original scales, not comparable across batches and not sorting keys",
+  "next_check_not_full_investigation": true,
+  "new_cards_readiness": 3
+}

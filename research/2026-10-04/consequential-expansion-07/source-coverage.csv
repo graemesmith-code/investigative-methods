@@ -1,0 +1,345 @@
+sys_id,name,card_ids,status
+SYS-0001,GLEIF LEI data,[],manifest_retained
+SYS-0002,OpenCorporates,[],manifest_retained
+SYS-0003,Open Ownership Register,[],manifest_retained
+SYS-0004,UK Companies House Public Data API,[],manifest_retained
+SYS-0005,SEC EDGAR,[],manifest_retained
+SYS-0006,Japan EDINET,[],manifest_retained
+SYS-0007,ASIC company dataset,[],manifest_retained
+SYS-0008,Australian Business Register bulk extract,[],manifest_retained
+SYS-0009,Corporations Canada open data,[],manifest_retained
+SYS-0010,France INPI National Business Register,[],manifest_retained
+SYS-0011,India MCA company master data,[],manifest_retained
+SYS-0012,New Zealand Companies Register API,[],manifest_retained
+SYS-0013,New Zealand Business Number bulk data,[],manifest_retained
+SYS-0014,Singapore ACRA registered entities,[],manifest_retained
+SYS-0015,Hong Kong Companies Registry open data,[],manifest_retained
+SYS-0016,South Africa CIPC API,[],manifest_retained
+SYS-0017,German Company Register,[],manifest_retained
+SYS-0018,OpenRegister Germany,[],manifest_retained
+SYS-0019,EU Business Registers Interconnection System (BRIS),[],manifest_retained
+SYS-0020,Italy Registro Imprese,[],manifest_retained
+SYS-0021,Netherlands KVK APIs,[],manifest_retained
+SYS-0022,Brazil CVM open data,[],manifest_retained
+SYS-0023,OpenSanctions,[],manifest_retained
+SYS-0024,US OFAC Sanctions List Service,[],manifest_retained
+SYS-0025,UK Sanctions List,[],manifest_retained
+SYS-0026,EU consolidated financial sanctions list,[],manifest_retained
+SYS-0027,UN Security Council Consolidated List,[],manifest_retained
+SYS-0028,Canadian Autonomous Sanctions List,[],manifest_retained
+SYS-0029,Australian Sanctions Consolidated List,[],manifest_retained
+SYS-0030,World Bank debarred firms and individuals,[],manifest_retained
+SYS-0031,IDB sanctioned firms and individuals,[],manifest_retained
+SYS-0032,FinCEN SAR Stats,[],manifest_retained
+SYS-0033,FATF mutual-evaluation ratings,[],manifest_retained
+SYS-0034,US DOJ corporate enforcement actions,[],manifest_retained
+SYS-0035,Stanford FCPA Clearinghouse,[],manifest_retained
+SYS-0036,Good Jobs First Violation Tracker,[],manifest_retained
+SYS-0037,SEC litigation releases,[],manifest_retained
+SYS-0038,US EPA ECHO web services,[],manifest_retained
+SYS-0039,INTERPOL Red Notices,[],manifest_retained
+SYS-0040,ICIJ Offshore Leaks Database,[],manifest_retained
+SYS-0041,OCCRP Aleph,[],manifest_retained
+SYS-0042,Tax Justice Network Data Portal and Financial Secrecy Index,[],manifest_retained
+SYS-0043,OECD country-by-country reporting statistics,[],manifest_retained
+SYS-0044,IRS FATCA Foreign Financial Institution list,[],manifest_retained
+SYS-0045,IRS Form 990 bulk filings,[],manifest_retained
+SYS-0046,Canada registered charities open data,[],manifest_retained
+SYS-0047,HM Land Registry Overseas Companies Ownership Data,[],manifest_retained
+SYS-0048,OpenLux,[],manifest_retained
+SYS-0049,Have I Been Pwned,[],manifest_retained
+SYS-0050,WikiLeaks Public Library of US Diplomacy (PlusD),[],manifest_retained
+SYS-0051,Distributed Denial of Secrets,[],manifest_retained
+SYS-0052,Open Contracting Data Registry,[],manifest_retained
+SYS-0053,EU TED Search API,[],manifest_retained
+SYS-0054,USAspending API,[],manifest_retained
+SYS-0055,SAM.gov Contract Data API,[],manifest_retained
+SYS-0056,Brazil PNCP,[],manifest_retained
+SYS-0057,IATI Datastore,[],manifest_retained
+SYS-0058,World Bank Projects & Operations,[],manifest_retained
+SYS-0059,World Bank Finances,[],manifest_retained
+SYS-0060,Inter-American Development Bank Open Data,[],manifest_retained
+SYS-0061,EBRD Project Summary Documents,[],manifest_retained
+SYS-0062,EU Financial Transparency System,[],manifest_retained
+SYS-0063,EU Cohesion Open Data,[],manifest_retained
+SYS-0064,AidData datasets,[],manifest_retained
+SYS-0065,OECD development-finance statistics,[],manifest_retained
+SYS-0066,OCHA Financial Tracking Service,[],manifest_retained
+SYS-0067,US ForeignAssistance.gov,[],manifest_retained
+SYS-0068,Grants.gov APIs,[],manifest_retained
+SYS-0069,UN Comtrade,[],manifest_retained
+SYS-0070,Eurostat Comext,[],manifest_retained
+SYS-0071,Global Fishing Watch APIs,[],manifest_retained
+SYS-0072,IMO GISIS,[],manifest_retained
+SYS-0073,Equasis,[],manifest_retained
+SYS-0074,Paris MoU inspection and detention data,[],manifest_retained
+SYS-0075,Tokyo MoU inspection and detention data,[],manifest_retained
+SYS-0076,OpenSky Network,[],manifest_retained
+SYS-0077,ADS-B Exchange data products,[],manifest_retained
+SYS-0078,FAA aircraft registry bulk download,[],manifest_retained
+SYS-0079,UNOOSA Register of Objects Launched into Outer Space,[],manifest_retained
+SYS-0080,CelesTrak GP orbital data,[],manifest_retained
+SYS-0081,Space-Track.org,[],manifest_retained
+SYS-0082,SIPRI Arms Transfers Database,[],manifest_retained
+SYS-0083,UN Register of Conventional Arms,[],manifest_retained
+SYS-0084,US DSCA Major Arms Sales archive,[],manifest_retained
+SYS-0085,EU arms-export online database,[],manifest_retained
+SYS-0086,ENAAT EU Export Data Browser,[],manifest_retained
+SYS-0087,UK strategic export licensing statistics,[],manifest_retained
+SYS-0088,SIPRI Military Expenditure Database,[],manifest_retained
+SYS-0089,NATO defence-expenditure tables,[],manifest_retained
+SYS-0090,IMF PortWatch,[],manifest_retained
+SYS-0091,ACLED,[],manifest_retained
+SYS-0092,UCDP downloads and API,[],manifest_retained
+SYS-0093,Airwars civilian-harm archive,"[""J01""]",concrete_route_review
+SYS-0094,Global Terrorism Database,[],manifest_retained
+SYS-0095,GDELT,[],manifest_retained
+SYS-0096,ICEWS event data,[],manifest_retained
+SYS-0097,ReliefWeb API,[],manifest_retained
+SYS-0098,Humanitarian Data Exchange (HDX),[],manifest_retained
+SYS-0099,GDACS,[],manifest_retained
+SYS-0100,EM-DAT International Disaster Database,[],manifest_retained
+SYS-0101,Copernicus Data Space Ecosystem,[],manifest_retained
+SYS-0102,NASA Earthdata CMR API,[],manifest_retained
+SYS-0103,USGS Landsat data,[],manifest_retained
+SYS-0104,NASA FIRMS active-fire data,[],manifest_retained
+SYS-0105,Google Earth Engine public data catalogue,[],manifest_retained
+SYS-0106,Global Forest Watch Open Data Portal/API,[],manifest_retained
+SYS-0107,EITI API and open data,[],manifest_retained
+SYS-0108,EITI beneficial-ownership disclosures,[],manifest_retained
+SYS-0109,Global Energy Monitor trackers,[],manifest_retained
+SYS-0110,Climate TRACE,[],manifest_retained
+SYS-0111,ResourceContracts,[],manifest_retained
+SYS-0112,OpenStreetMap and Overpass API,[],manifest_retained
+SYS-0113,Wikidata Query Service and dumps,[],manifest_retained
+SYS-0114,Natural Earth,[],manifest_retained
+SYS-0115,JRC Global Surface Water,[],manifest_retained
+SYS-0116,OpenFEC API,[],manifest_retained
+SYS-0117,US Senate Lobbying Disclosure data,[],manifest_retained
+SYS-0118,FARA eFile and bulk data,[],manifest_retained
+SYS-0119,EU Transparency Register,[],manifest_retained
+SYS-0120,Canada Registry of Lobbyists open data,[],manifest_retained
+SYS-0121,UK Political Finance Online,[],manifest_retained
+SYS-0122,European Parliament Open Data Portal,[],manifest_retained
+SYS-0123,Elections Canada political-finance data,[],manifest_retained
+SYS-0124,Congress.gov API,[],manifest_retained
+SYS-0125,GovInfo API,[],manifest_retained
+SYS-0126,Federal Register API,[],manifest_retained
+SYS-0127,EUR-Lex data reuse services,[],manifest_retained
+SYS-0128,HUDOC,[],manifest_retained
+SYS-0129,CourtListener and RECAP,[],manifest_retained
+SYS-0130,PACER,[],manifest_retained
+SYS-0131,ICC Legal Tools Database,[],manifest_retained
+SYS-0132,UN Digital Library APIs,[],manifest_retained
+SYS-0133,Internet Archive Wayback Machine APIs,"[""J01""]",concrete_route_review
+SYS-0134,Common Crawl,[],manifest_retained
+SYS-0135,DocumentCloud,[],manifest_retained
+SYS-0136,MuckRock API,[],manifest_retained
+SYS-0137,CIA Freedom of Information Act Reading Room,[],manifest_retained
+SYS-0138,US State Department FOIA Virtual Reading Room,[],manifest_retained
+SYS-0139,UK National Archives Discovery API,[],manifest_retained
+SYS-0140,National Security Archive Virtual Reading Room,[],manifest_retained
+SYS-0141,Media Cloud Search API,[],manifest_retained
+SYS-0142,Google Fact Check Tools API,[],manifest_retained
+SYS-0143,Meta Ad Library,[],manifest_retained
+SYS-0144,Google Ads Transparency Center,[],manifest_retained
+SYS-0145,World Bank Documents & Reports API,[],manifest_retained
+SYS-0146,OONI data and API,[],manifest_retained
+SYS-0147,RIPEstat Data API,[],manifest_retained
+SYS-0148,Censys Search,[],manifest_retained
+SYS-0149,CISA Known Exploited Vulnerabilities catalog,[],manifest_retained
+SYS-0150,NVD vulnerability API and feeds,[],manifest_retained
+SYS-0151,ICANN RDAP,[],manifest_retained
+SYS-0152,Certificate Transparency logs,[],manifest_retained
+SYS-0153,World Bank Indicators API,[],manifest_retained
+SYS-0154,IMF Data APIs,[],manifest_retained
+SYS-0155,BIS Data Portal,[],manifest_retained
+SYS-0156,ECB Data Portal API,[],manifest_retained
+SYS-0157,UNCTAD Data Hub,[],manifest_retained
+SYS-0158,Global Human Settlement Layer,[],manifest_retained
+SYS-0159,World Settlement Footprint Evolution,[],manifest_retained
+SYS-0160,WorldPop spatial data API,[],manifest_retained
+SYS-0161,Meta High Resolution Settlement Layer,[],manifest_retained
+SYS-0162,Meta Relative Wealth Index,[],manifest_retained
+SYS-0163,Meta Social Connectedness Index,[],manifest_retained
+SYS-0164,Google Open Buildings,[],manifest_retained
+SYS-0165,Google Open Buildings 2.5D Temporal,[],manifest_retained
+SYS-0166,Microsoft Global ML Building Footprints,[],manifest_retained
+SYS-0167,GlobalBuildingAtlas,[],manifest_retained
+SYS-0168,Overture Maps Foundation data,[],manifest_retained
+SYS-0169,Foursquare Open Source Places,[],manifest_retained
+SYS-0170,OpenAddresses,[],manifest_retained
+SYS-0171,geoBoundaries API,[],manifest_retained
+SYS-0172,GeoNames web services and dumps,[],manifest_retained
+SYS-0173,Who's On First,[],manifest_retained
+SYS-0174,European Space Agency WorldCover,[],manifest_retained
+SYS-0175,Dynamic World,[],manifest_retained
+SYS-0176,AlphaEarth Foundations Satellite Embeddings,[],manifest_retained
+SYS-0177,OpenLandMap,[],manifest_retained
+SYS-0178,SoilGrids API,[],manifest_retained
+SYS-0179,Global Food Security-support Analysis Data,[],manifest_retained
+SYS-0180,MapBiomas collections,[],manifest_retained
+SYS-0181,Global Mangrove Watch,[],manifest_retained
+SYS-0182,HydroSHEDS,[],manifest_retained
+SYS-0183,Global Dam Watch,[],manifest_retained
+SYS-0184,Aqueduct Water Risk Atlas data,[],manifest_retained
+SYS-0185,FAO WaPOR,[],manifest_retained
+SYS-0186,OpenET API,[],manifest_retained
+SYS-0187,GRACE Tellus gravity and groundwater data,[],manifest_retained
+SYS-0188,CHIRPS rainfall,[],manifest_retained
+SYS-0189,NASA IMERG precipitation,[],manifest_retained
+SYS-0190,Microsoft Planetary Computer,[],manifest_retained
+SYS-0191,Earth Search STAC,[],manifest_retained
+SYS-0192,Radiant MLHub,[],manifest_retained
+SYS-0193,Source Cooperative,[],manifest_retained
+SYS-0194,OpenAerialMap API,[],manifest_retained
+SYS-0195,Umbra Open Data Program,[],manifest_retained
+SYS-0196,Vantor Open Data Program (formerly Maxar),[],manifest_retained
+SYS-0197,Mapillary API,[],manifest_retained
+SYS-0198,NASA Black Marble,[],manifest_retained
+SYS-0199,Earth Observation Group VIIRS Nighttime Lights,[],manifest_retained
+SYS-0200,Light Every Night,[],manifest_retained
+SYS-0201,Small-Area Global Elections (SAGE),[],manifest_retained
+SYS-0202,Copernicus Climate Data Store API,[],manifest_retained
+SYS-0203,European Centre for Medium-Range Weather Forecasts Open Data,[],manifest_retained
+SYS-0204,NOAA Climate Data Online API,[],manifest_retained
+SYS-0205,USGS Earthquake Catalog API,"[""REF-AER""]",concrete_route_review
+SYS-0206,European-Mediterranean Seismological Centre FDSN services,[],manifest_retained
+SYS-0207,NASA Global Landslide Catalog,[],manifest_retained
+SYS-0208,IBTrACS tropical cyclone archive,[],manifest_retained
+SYS-0209,Global Flood Awareness System data,[],manifest_retained
+SYS-0210,UNOSAT products and damage assessments,[],manifest_retained
+SYS-0211,HDX Humanitarian API,[],manifest_retained
+SYS-0212,OpenAQ API,[],manifest_retained
+SYS-0213,EDGAR emissions database,[],manifest_retained
+SYS-0214,Carbon Mapper Data Platform API,[],manifest_retained
+SYS-0215,MethaneSAT data portal and cloud data,[],manifest_retained
+SYS-0216,NASA EMIT greenhouse-gas products,[],manifest_retained
+SYS-0217,US EPA Greenhouse Gas Reporting Program,[],manifest_retained
+SYS-0218,US EPA Toxics Release Inventory,[],manifest_retained
+SYS-0219,European Industrial Emissions Portal,[],manifest_retained
+SYS-0220,Canada National Pollutant Release Inventory,[],manifest_retained
+SYS-0221,UK Pollution Inventory,[],manifest_retained
+SYS-0222,Australia National Pollutant Inventory,[],manifest_retained
+SYS-0223,Carbon Majors database,[],manifest_retained
+SYS-0224,Global Registry of Fossil Fuels,[],manifest_retained
+SYS-0225,Global Tailings Portal,[],manifest_retained
+SYS-0226,Global Plastics Watch,[],manifest_retained
+SYS-0227,Land Matrix API,[],manifest_retained
+SYS-0228,Open Supply Hub,[],manifest_retained
+SYS-0229,Protected Planet API,[],manifest_retained
+SYS-0230,GBIF occurrence API,[],manifest_retained
+SYS-0231,UNHCR Refugee Data Finder API,[],manifest_retained
+SYS-0232,IOM Displacement Tracking Matrix,[],manifest_retained
+SYS-0233,IDMC Global Internal Displacement Database,[],manifest_retained
+SYS-0234,WHO Global Health Observatory OData API,[],manifest_retained
+SYS-0235,DHS Program API,[],manifest_retained
+SYS-0236,ILOSTAT bulk and API services,[],manifest_retained
+SYS-0237,Varieties of Democracy dataset,[],manifest_retained
+SYS-0238,Manifesto Project API,[],manifest_retained
+SYS-0239,ParlGov database,[],manifest_retained
+SYS-0240,Quality of Government datasets,[],manifest_retained
+SYS-0241,Aid Worker Security Database,[],manifest_retained
+SYS-0242,ACAPS API,[],manifest_retained
+SYS-0243,Correlates of War datasets,[],manifest_retained
+SYS-0244,UN Peacekeeping data,[],manifest_retained
+SYS-0245,CORDIS European research projects,[],manifest_retained
+SYS-0246,NIH RePORTER API,[],manifest_retained
+SYS-0247,CMS Open Payments,[],manifest_retained
+SYS-0248,ClinicalTrials.gov API,"[""J02""]",concrete_route_review
+SYS-0249,OpenAlex API,[],manifest_retained
+SYS-0250,Crossref REST API,[],manifest_retained
+SYS-0251,ORCID Public API,[],manifest_retained
+SYS-0252,PatentsView API,"[""J02""]",concrete_route_review
+SYS-0253,EPO Open Patent Services,"[""J02""]",concrete_route_review
+SYS-0254,OpenFIGI API,[],manifest_retained
+SYS-0255,US Energy Information Administration API,[],manifest_retained
+SYS-0256,ENTSO-E Transparency Platform API,[],manifest_retained
+SYS-0257,MarineCadastre.gov AIS data,[],manifest_retained
+SYS-0258,PeeringDB API,[],manifest_retained
+SYS-0259,RIPE Atlas API,[],manifest_retained
+SYS-0260,IODA Internet Outage API,[],manifest_retained
+SYS-0261,Cloudflare Radar API,[],manifest_retained
+SYS-0262,CAIDA BGPStream,[],manifest_retained
+SYS-0263,Government of Canada Open Government CKAN API,[],manifest_retained
+SYS-0264,Statistics Canada Web Data Service,[],manifest_retained
+SYS-0265,Statistics Canada Census Profile Web Data Service,[],manifest_retained
+SYS-0266,Statistics Canada Reference Data as a Service,[],manifest_retained
+SYS-0267,Bank of Canada Valet API,[],manifest_retained
+SYS-0268,Office of the Superintendent of Financial Institutions open financial data,[],manifest_retained
+SYS-0269,CanadaBuys procurement and contracting datasets,[],manifest_retained
+SYS-0270,Federal proactive publication — contracts,[],manifest_retained
+SYS-0271,Federal proactive publication — grants and contributions,[],manifest_retained
+SYS-0272,Federal proactive disclosure — travel and hospitality,[],manifest_retained
+SYS-0273,House of Commons of Canada open data,[],manifest_retained
+SYS-0274,LEGISinfo bills open data,[],manifest_retained
+SYS-0275,Canada Gazette RSS feeds,[],manifest_retained
+SYS-0276,Supreme Court of Canada judgments feeds,[],manifest_retained
+SYS-0277,Federal Court decisions RSS feed,[],manifest_retained
+SYS-0278,Health Canada Drug Product Database API and bulk data,[],manifest_retained
+SYS-0279,Spectrum Management System authorization data extract,[],manifest_retained
+SYS-0280,Canadian Register of Large Vessels API,[],manifest_retained
+SYS-0281,Transportation Safety Board multimodal occurrence data,[],manifest_retained
+SYS-0282,Federal Contaminated Sites Inventory,[],manifest_retained
+SYS-0283,Canadian Impact Assessment Registry assessment inventory,[],manifest_retained
+SYS-0284,Canada Energy Regulator pipeline incident data,[],manifest_retained
+SYS-0285,GEO.ca data-cube SpatioTemporal Asset Catalog API,[],manifest_retained
+SYS-0286,Statistics Canada 2025 census-subdivision boundary service,[],manifest_retained
+SYS-0287,Toronto Stock Exchange / TMX Datalinx market-data products,[],manifest_retained
+SYS-0288,SEDAR+ public issuer and filing search,[],manifest_retained
+SYS-0289,System for Electronic Disclosure by Insiders and national registrant systems,[],manifest_retained
+SYS-0290,Ontario Securities Commission open-data inventory,[],manifest_retained
+SYS-0291,Ontario Securities Commission exempt-market distributions,[],manifest_retained
+SYS-0292,Ontario Securities Commission Investment Fund Survey data,[],manifest_retained
+SYS-0293,Ontario Securities Commission women on boards and executive positions data,[],manifest_retained
+SYS-0294,Ontario Securities Commission regulatory action against registrants,[],manifest_retained
+SYS-0295,Extractive Sector Transparency Measures Act data portal,[],manifest_retained
+SYS-0296,"Principal Mineral Areas, Producing Mines, and Oil and Gas Fields (900A)",[],manifest_retained
+SYS-0297,Top 100 Exploration Projects,[],manifest_retained
+SYS-0298,"Critical minerals advanced projects, mines and processing facilities",[],manifest_retained
+SYS-0299,Natural Resources Canada Major Projects Inventory,[],manifest_retained
+SYS-0300,"Statistics Canada production of metallic minerals, monthly",[],manifest_retained
+SYS-0301,Nunavut mineral tenure suite,[],manifest_retained
+SYS-0302,"British Columbia mineral, placer and coal tenure spatial view",[],manifest_retained
+SYS-0303,British Columbia MINFILE mineral occurrence database,[],manifest_retained
+SYS-0304,British Columbia mine permit boundaries,[],manifest_retained
+SYS-0305,British Columbia permitted mine inspection reports summary,[],manifest_retained
+SYS-0306,Ontario Geological Survey OGSEarth,[],manifest_retained
+SYS-0307,Ontario Abandoned Mines Information System,[],manifest_retained
+SYS-0308,Ontario Mineral Inventory,[],manifest_retained
+SYS-0309,Ontario mining claims dataset,[],manifest_retained
+SYS-0310,Québec mining activities,[],manifest_retained
+SYS-0311,"Québec mineral occurrences, deposits, mines and quarries",[],manifest_retained
+SYS-0312,Québec geochemistry,[],manifest_retained
+SYS-0313,Québec mineral potential,[],manifest_retained
+SYS-0314,Alberta metallic and industrial minerals agreements,[],manifest_retained
+SYS-0315,Alberta Energy Regulator spatial and incident data,"[""REF-AER""]",concrete_route_review
+SYS-0316,Saskatchewan mineral dispositions,[],manifest_retained
+SYS-0317,Saskatchewan Mineral Deposits Index,[],manifest_retained
+SYS-0318,Manitoba Integrated Mining and Quarrying System map service,[],manifest_retained
+SYS-0319,New Brunswick mineral occurrences service,[],manifest_retained
+SYS-0320,Nova Scotia Mineral Rights Database,[],manifest_retained
+SYS-0321,Nova Scotia Mineral Occurrence Database,[],manifest_retained
+SYS-0322,Newfoundland and Labrador mineral exploration statistics,[],manifest_retained
+SYS-0323,Yukon surveyed mineral-claim polygons,[],manifest_retained
+SYS-0324,Northwest Territories Mineral Showings Database,[],manifest_retained
+SYS-0325,British Columbia Data Catalogue API,[],manifest_retained
+SYS-0326,Ontario Data Catalogue API,[],manifest_retained
+SYS-0327,Données Québec CKAN API,[],manifest_retained
+SYS-0328,Alberta Open Government catalogue API,[],manifest_retained
+SYS-0329,Saskatchewan GeoHub,[],manifest_retained
+SYS-0330,GeoNB ArcGIS REST services directory,[],manifest_retained
+SYS-0331,Nova Scotia Open Data API,[],manifest_retained
+SYS-0332,Open Data Newfoundland and Labrador,[],manifest_retained
+SYS-0333,Prince Edward Island Open Data,[],manifest_retained
+SYS-0334,Government of Yukon open-data CKAN API,[],manifest_retained
+SYS-0335,Northwest Territories Open Data CKAN API,[],manifest_retained
+SYS-0336,Information and Privacy Commissioner of Ontario access-order RSS feed,[],manifest_retained
+SYS-0337,Office of the Privacy Commissioner of Canada RSS feeds,[],manifest_retained
+SYS-0338,Canadian Human Rights Tribunal decisions RSS feed,[],manifest_retained
+SYS-0339,Office of the Information Commissioner of Canada decisions database,[],manifest_retained
+SYS-0340,Canadian Human Rights Commission dispute-resolution statistics,[],manifest_retained
+SYS-0341,Ontario freedom-of-information compliance data,[],manifest_retained
+SYS-0342,Newfoundland and Labrador access-to-information requests dataset,[],manifest_retained
+SYS-0343,Tribunals Ontario decisions-issued workbooks,[],manifest_retained
+SYS-0344,Government of Yukon completed access-to-information registry,[],manifest_retained

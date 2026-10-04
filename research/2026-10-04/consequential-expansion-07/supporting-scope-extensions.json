@@ -1,0 +1,18 @@
+[
+  {
+    "id": "EXT-AGS",
+    "publisher": "Alberta Geological Survey / AER",
+    "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer%3A%3Aalberta-earthquakes",
+    "role": "Local magnitude/event metadata supporting SYS0315/SYS0205 route",
+    "rabbit_sys_id": null,
+    "records_retrieved": 0
+  },
+  {
+    "id": "EXT-USPTO",
+    "publisher": "USPTO",
+    "url": "https://www.uspto.gov/patents/search/patent-public-search",
+    "role": "Original US granted claim and file-history retrieval beyond PatentsView/EPO discovery metadata",
+    "rabbit_sys_id": null,
+    "records_retrieved": 0
+  }
+]

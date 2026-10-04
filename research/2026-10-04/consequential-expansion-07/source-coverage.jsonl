@@ -1,0 +1,344 @@
+{"sys_id": "SYS-0001", "name": "GLEIF LEI data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0002", "name": "OpenCorporates", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0003", "name": "Open Ownership Register", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0004", "name": "UK Companies House Public Data API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0005", "name": "SEC EDGAR", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0006", "name": "Japan EDINET", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0007", "name": "ASIC company dataset", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0008", "name": "Australian Business Register bulk extract", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0009", "name": "Corporations Canada open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0010", "name": "France INPI National Business Register", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0011", "name": "India MCA company master data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0012", "name": "New Zealand Companies Register API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0013", "name": "New Zealand Business Number bulk data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0014", "name": "Singapore ACRA registered entities", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0015", "name": "Hong Kong Companies Registry open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0016", "name": "South Africa CIPC API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0017", "name": "German Company Register", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0018", "name": "OpenRegister Germany", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0019", "name": "EU Business Registers Interconnection System (BRIS)", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0020", "name": "Italy Registro Imprese", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0021", "name": "Netherlands KVK APIs", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0022", "name": "Brazil CVM open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0023", "name": "OpenSanctions", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0024", "name": "US OFAC Sanctions List Service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0025", "name": "UK Sanctions List", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0026", "name": "EU consolidated financial sanctions list", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0027", "name": "UN Security Council Consolidated List", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0028", "name": "Canadian Autonomous Sanctions List", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0029", "name": "Australian Sanctions Consolidated List", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0030", "name": "World Bank debarred firms and individuals", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0031", "name": "IDB sanctioned firms and individuals", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0032", "name": "FinCEN SAR Stats", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0033", "name": "FATF mutual-evaluation ratings", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0034", "name": "US DOJ corporate enforcement actions", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0035", "name": "Stanford FCPA Clearinghouse", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0036", "name": "Good Jobs First Violation Tracker", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0037", "name": "SEC litigation releases", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0038", "name": "US EPA ECHO web services", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0039", "name": "INTERPOL Red Notices", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0040", "name": "ICIJ Offshore Leaks Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0041", "name": "OCCRP Aleph", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0042", "name": "Tax Justice Network Data Portal and Financial Secrecy Index", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0043", "name": "OECD country-by-country reporting statistics", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0044", "name": "IRS FATCA Foreign Financial Institution list", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0045", "name": "IRS Form 990 bulk filings", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0046", "name": "Canada registered charities open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0047", "name": "HM Land Registry Overseas Companies Ownership Data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0048", "name": "OpenLux", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0049", "name": "Have I Been Pwned", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0050", "name": "WikiLeaks Public Library of US Diplomacy (PlusD)", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0051", "name": "Distributed Denial of Secrets", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0052", "name": "Open Contracting Data Registry", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0053", "name": "EU TED Search API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0054", "name": "USAspending API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0055", "name": "SAM.gov Contract Data API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0056", "name": "Brazil PNCP", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0057", "name": "IATI Datastore", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0058", "name": "World Bank Projects & Operations", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0059", "name": "World Bank Finances", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0060", "name": "Inter-American Development Bank Open Data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0061", "name": "EBRD Project Summary Documents", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0062", "name": "EU Financial Transparency System", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0063", "name": "EU Cohesion Open Data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0064", "name": "AidData datasets", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0065", "name": "OECD development-finance statistics", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0066", "name": "OCHA Financial Tracking Service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0067", "name": "US ForeignAssistance.gov", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0068", "name": "Grants.gov APIs", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0069", "name": "UN Comtrade", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0070", "name": "Eurostat Comext", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0071", "name": "Global Fishing Watch APIs", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0072", "name": "IMO GISIS", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0073", "name": "Equasis", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0074", "name": "Paris MoU inspection and detention data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0075", "name": "Tokyo MoU inspection and detention data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0076", "name": "OpenSky Network", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0077", "name": "ADS-B Exchange data products", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0078", "name": "FAA aircraft registry bulk download", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0079", "name": "UNOOSA Register of Objects Launched into Outer Space", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0080", "name": "CelesTrak GP orbital data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0081", "name": "Space-Track.org", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0082", "name": "SIPRI Arms Transfers Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0083", "name": "UN Register of Conventional Arms", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0084", "name": "US DSCA Major Arms Sales archive", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0085", "name": "EU arms-export online database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0086", "name": "ENAAT EU Export Data Browser", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0087", "name": "UK strategic export licensing statistics", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0088", "name": "SIPRI Military Expenditure Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0089", "name": "NATO defence-expenditure tables", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0090", "name": "IMF PortWatch", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0091", "name": "ACLED", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0092", "name": "UCDP downloads and API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0093", "name": "Airwars civilian-harm archive", "card_ids": ["J01"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0094", "name": "Global Terrorism Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0095", "name": "GDELT", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0096", "name": "ICEWS event data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0097", "name": "ReliefWeb API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0098", "name": "Humanitarian Data Exchange (HDX)", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0099", "name": "GDACS", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0100", "name": "EM-DAT International Disaster Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0101", "name": "Copernicus Data Space Ecosystem", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0102", "name": "NASA Earthdata CMR API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0103", "name": "USGS Landsat data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0104", "name": "NASA FIRMS active-fire data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0105", "name": "Google Earth Engine public data catalogue", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0106", "name": "Global Forest Watch Open Data Portal/API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0107", "name": "EITI API and open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0108", "name": "EITI beneficial-ownership disclosures", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0109", "name": "Global Energy Monitor trackers", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0110", "name": "Climate TRACE", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0111", "name": "ResourceContracts", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0112", "name": "OpenStreetMap and Overpass API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0113", "name": "Wikidata Query Service and dumps", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0114", "name": "Natural Earth", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0115", "name": "JRC Global Surface Water", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0116", "name": "OpenFEC API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0117", "name": "US Senate Lobbying Disclosure data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0118", "name": "FARA eFile and bulk data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0119", "name": "EU Transparency Register", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0120", "name": "Canada Registry of Lobbyists open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0121", "name": "UK Political Finance Online", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0122", "name": "European Parliament Open Data Portal", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0123", "name": "Elections Canada political-finance data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0124", "name": "Congress.gov API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0125", "name": "GovInfo API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0126", "name": "Federal Register API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0127", "name": "EUR-Lex data reuse services", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0128", "name": "HUDOC", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0129", "name": "CourtListener and RECAP", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0130", "name": "PACER", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0131", "name": "ICC Legal Tools Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0132", "name": "UN Digital Library APIs", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0133", "name": "Internet Archive Wayback Machine APIs", "card_ids": ["J01"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0134", "name": "Common Crawl", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0135", "name": "DocumentCloud", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0136", "name": "MuckRock API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0137", "name": "CIA Freedom of Information Act Reading Room", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0138", "name": "US State Department FOIA Virtual Reading Room", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0139", "name": "UK National Archives Discovery API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0140", "name": "National Security Archive Virtual Reading Room", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0141", "name": "Media Cloud Search API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0142", "name": "Google Fact Check Tools API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0143", "name": "Meta Ad Library", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0144", "name": "Google Ads Transparency Center", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0145", "name": "World Bank Documents & Reports API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0146", "name": "OONI data and API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0147", "name": "RIPEstat Data API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0148", "name": "Censys Search", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0149", "name": "CISA Known Exploited Vulnerabilities catalog", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0150", "name": "NVD vulnerability API and feeds", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0151", "name": "ICANN RDAP", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0152", "name": "Certificate Transparency logs", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0153", "name": "World Bank Indicators API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0154", "name": "IMF Data APIs", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0155", "name": "BIS Data Portal", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0156", "name": "ECB Data Portal API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0157", "name": "UNCTAD Data Hub", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0158", "name": "Global Human Settlement Layer", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0159", "name": "World Settlement Footprint Evolution", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0160", "name": "WorldPop spatial data API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0161", "name": "Meta High Resolution Settlement Layer", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0162", "name": "Meta Relative Wealth Index", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0163", "name": "Meta Social Connectedness Index", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0164", "name": "Google Open Buildings", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0165", "name": "Google Open Buildings 2.5D Temporal", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0166", "name": "Microsoft Global ML Building Footprints", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0167", "name": "GlobalBuildingAtlas", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0168", "name": "Overture Maps Foundation data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0169", "name": "Foursquare Open Source Places", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0170", "name": "OpenAddresses", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0171", "name": "geoBoundaries API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0172", "name": "GeoNames web services and dumps", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0173", "name": "Who's On First", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0174", "name": "European Space Agency WorldCover", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0175", "name": "Dynamic World", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0176", "name": "AlphaEarth Foundations Satellite Embeddings", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0177", "name": "OpenLandMap", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0178", "name": "SoilGrids API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0179", "name": "Global Food Security-support Analysis Data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0180", "name": "MapBiomas collections", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0181", "name": "Global Mangrove Watch", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0182", "name": "HydroSHEDS", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0183", "name": "Global Dam Watch", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0184", "name": "Aqueduct Water Risk Atlas data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0185", "name": "FAO WaPOR", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0186", "name": "OpenET API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0187", "name": "GRACE Tellus gravity and groundwater data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0188", "name": "CHIRPS rainfall", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0189", "name": "NASA IMERG precipitation", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0190", "name": "Microsoft Planetary Computer", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0191", "name": "Earth Search STAC", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0192", "name": "Radiant MLHub", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0193", "name": "Source Cooperative", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0194", "name": "OpenAerialMap API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0195", "name": "Umbra Open Data Program", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0196", "name": "Vantor Open Data Program (formerly Maxar)", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0197", "name": "Mapillary API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0198", "name": "NASA Black Marble", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0199", "name": "Earth Observation Group VIIRS Nighttime Lights", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0200", "name": "Light Every Night", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0201", "name": "Small-Area Global Elections (SAGE)", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0202", "name": "Copernicus Climate Data Store API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0203", "name": "European Centre for Medium-Range Weather Forecasts Open Data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0204", "name": "NOAA Climate Data Online API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0205", "name": "USGS Earthquake Catalog API", "card_ids": ["REF-AER"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0206", "name": "European-Mediterranean Seismological Centre FDSN services", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0207", "name": "NASA Global Landslide Catalog", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0208", "name": "IBTrACS tropical cyclone archive", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0209", "name": "Global Flood Awareness System data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0210", "name": "UNOSAT products and damage assessments", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0211", "name": "HDX Humanitarian API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0212", "name": "OpenAQ API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0213", "name": "EDGAR emissions database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0214", "name": "Carbon Mapper Data Platform API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0215", "name": "MethaneSAT data portal and cloud data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0216", "name": "NASA EMIT greenhouse-gas products", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0217", "name": "US EPA Greenhouse Gas Reporting Program", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0218", "name": "US EPA Toxics Release Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0219", "name": "European Industrial Emissions Portal", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0220", "name": "Canada National Pollutant Release Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0221", "name": "UK Pollution Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0222", "name": "Australia National Pollutant Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0223", "name": "Carbon Majors database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0224", "name": "Global Registry of Fossil Fuels", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0225", "name": "Global Tailings Portal", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0226", "name": "Global Plastics Watch", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0227", "name": "Land Matrix API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0228", "name": "Open Supply Hub", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0229", "name": "Protected Planet API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0230", "name": "GBIF occurrence API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0231", "name": "UNHCR Refugee Data Finder API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0232", "name": "IOM Displacement Tracking Matrix", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0233", "name": "IDMC Global Internal Displacement Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0234", "name": "WHO Global Health Observatory OData API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0235", "name": "DHS Program API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0236", "name": "ILOSTAT bulk and API services", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0237", "name": "Varieties of Democracy dataset", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0238", "name": "Manifesto Project API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0239", "name": "ParlGov database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0240", "name": "Quality of Government datasets", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0241", "name": "Aid Worker Security Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0242", "name": "ACAPS API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0243", "name": "Correlates of War datasets", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0244", "name": "UN Peacekeeping data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0245", "name": "CORDIS European research projects", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0246", "name": "NIH RePORTER API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0247", "name": "CMS Open Payments", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0248", "name": "ClinicalTrials.gov API", "card_ids": ["J02"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0249", "name": "OpenAlex API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0250", "name": "Crossref REST API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0251", "name": "ORCID Public API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0252", "name": "PatentsView API", "card_ids": ["J02"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0253", "name": "EPO Open Patent Services", "card_ids": ["J02"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0254", "name": "OpenFIGI API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0255", "name": "US Energy Information Administration API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0256", "name": "ENTSO-E Transparency Platform API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0257", "name": "MarineCadastre.gov AIS data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0258", "name": "PeeringDB API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0259", "name": "RIPE Atlas API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0260", "name": "IODA Internet Outage API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0261", "name": "Cloudflare Radar API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0262", "name": "CAIDA BGPStream", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0263", "name": "Government of Canada Open Government CKAN API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0264", "name": "Statistics Canada Web Data Service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0265", "name": "Statistics Canada Census Profile Web Data Service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0266", "name": "Statistics Canada Reference Data as a Service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0267", "name": "Bank of Canada Valet API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0268", "name": "Office of the Superintendent of Financial Institutions open financial data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0269", "name": "CanadaBuys procurement and contracting datasets", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0270", "name": "Federal proactive publication — contracts", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0271", "name": "Federal proactive publication — grants and contributions", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0272", "name": "Federal proactive disclosure — travel and hospitality", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0273", "name": "House of Commons of Canada open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0274", "name": "LEGISinfo bills open data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0275", "name": "Canada Gazette RSS feeds", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0276", "name": "Supreme Court of Canada judgments feeds", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0277", "name": "Federal Court decisions RSS feed", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0278", "name": "Health Canada Drug Product Database API and bulk data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0279", "name": "Spectrum Management System authorization data extract", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0280", "name": "Canadian Register of Large Vessels API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0281", "name": "Transportation Safety Board multimodal occurrence data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0282", "name": "Federal Contaminated Sites Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0283", "name": "Canadian Impact Assessment Registry assessment inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0284", "name": "Canada Energy Regulator pipeline incident data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0285", "name": "GEO.ca data-cube SpatioTemporal Asset Catalog API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0286", "name": "Statistics Canada 2025 census-subdivision boundary service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0287", "name": "Toronto Stock Exchange / TMX Datalinx market-data products", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0288", "name": "SEDAR+ public issuer and filing search", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0289", "name": "System for Electronic Disclosure by Insiders and national registrant systems", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0290", "name": "Ontario Securities Commission open-data inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0291", "name": "Ontario Securities Commission exempt-market distributions", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0292", "name": "Ontario Securities Commission Investment Fund Survey data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0293", "name": "Ontario Securities Commission women on boards and executive positions data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0294", "name": "Ontario Securities Commission regulatory action against registrants", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0295", "name": "Extractive Sector Transparency Measures Act data portal", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0296", "name": "Principal Mineral Areas, Producing Mines, and Oil and Gas Fields (900A)", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0297", "name": "Top 100 Exploration Projects", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0298", "name": "Critical minerals advanced projects, mines and processing facilities", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0299", "name": "Natural Resources Canada Major Projects Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0300", "name": "Statistics Canada production of metallic minerals, monthly", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0301", "name": "Nunavut mineral tenure suite", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0302", "name": "British Columbia mineral, placer and coal tenure spatial view", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0303", "name": "British Columbia MINFILE mineral occurrence database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0304", "name": "British Columbia mine permit boundaries", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0305", "name": "British Columbia permitted mine inspection reports summary", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0306", "name": "Ontario Geological Survey OGSEarth", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0307", "name": "Ontario Abandoned Mines Information System", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0308", "name": "Ontario Mineral Inventory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0309", "name": "Ontario mining claims dataset", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0310", "name": "Québec mining activities", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0311", "name": "Québec mineral occurrences, deposits, mines and quarries", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0312", "name": "Québec geochemistry", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0313", "name": "Québec mineral potential", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0314", "name": "Alberta metallic and industrial minerals agreements", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0315", "name": "Alberta Energy Regulator spatial and incident data", "card_ids": ["REF-AER"], "status": "concrete_route_review"}
+{"sys_id": "SYS-0316", "name": "Saskatchewan mineral dispositions", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0317", "name": "Saskatchewan Mineral Deposits Index", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0318", "name": "Manitoba Integrated Mining and Quarrying System map service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0319", "name": "New Brunswick mineral occurrences service", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0320", "name": "Nova Scotia Mineral Rights Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0321", "name": "Nova Scotia Mineral Occurrence Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0322", "name": "Newfoundland and Labrador mineral exploration statistics", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0323", "name": "Yukon surveyed mineral-claim polygons", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0324", "name": "Northwest Territories Mineral Showings Database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0325", "name": "British Columbia Data Catalogue API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0326", "name": "Ontario Data Catalogue API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0327", "name": "Données Québec CKAN API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0328", "name": "Alberta Open Government catalogue API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0329", "name": "Saskatchewan GeoHub", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0330", "name": "GeoNB ArcGIS REST services directory", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0331", "name": "Nova Scotia Open Data API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0332", "name": "Open Data Newfoundland and Labrador", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0333", "name": "Prince Edward Island Open Data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0334", "name": "Government of Yukon open-data CKAN API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0335", "name": "Northwest Territories Open Data CKAN API", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0336", "name": "Information and Privacy Commissioner of Ontario access-order RSS feed", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0337", "name": "Office of the Privacy Commissioner of Canada RSS feeds", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0338", "name": "Canadian Human Rights Tribunal decisions RSS feed", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0339", "name": "Office of the Information Commissioner of Canada decisions database", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0340", "name": "Canadian Human Rights Commission dispute-resolution statistics", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0341", "name": "Ontario freedom-of-information compliance data", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0342", "name": "Newfoundland and Labrador access-to-information requests dataset", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0343", "name": "Tribunals Ontario decisions-issued workbooks", "card_ids": [], "status": "manifest_retained"}
+{"sys_id": "SYS-0344", "name": "Government of Yukon completed access-to-information registry", "card_ids": [], "status": "manifest_retained"}
