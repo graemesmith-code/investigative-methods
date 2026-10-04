@@ -1,8 +1,8 @@
 candidate_id,card,disposition,reason
-M1,J01,proposed_new,Authenticated prior payload versus explicit later event-capture attribution
+M1,J01,reviewed_new,Authenticated prior payload versus explicit later event-capture attribution
 M2,J01,reject,Old wrapper date cannot date replayed embedded media
 M3,J01,reject,Misattributed media cannot by itself disprove the whole incident
-P1,J02,proposed_new,Single historical reference versus every element of one claim
+P1,J02,reviewed_new,Single historical reference versus every element of one claim
 P2,J02,reject,Ingredient overlap and patent grant date do not establish anticipation
 P3,J02,defer,No exact historical protocol/priority-chain pair acquired
 A1,REF-AER,refinement,Concrete stop/restart safety sequence refines X07

@@ -1,5 +1,5 @@
 {"stage": "prior_checkpoint", "accepted": 53, "ranked": 67}
-{"stage": "new_screen", "branches": 9, "primary_sources": 7, "proposed_new": 2, "refinement": 1}
+{"stage": "new_screen", "branches": 9, "primary_sources": 7, "reviewed_new": 2, "refinement": 1}
 {"stage": "documentation", "entries": 11, "partial_render": 1, "case_records": 0}
 {"stage": "validation", "artifact": 8, "synthetic": 6, "passed": 14}
-{"stage": "delivery", "accepted": 53, "pending_independent_review": 2, "provisional": 55, "ranked": 70, "full_case_feasible": 0}
+{"stage": "delivery", "accepted": 55, "pending_independent_review": 0, "ranked": 70, "full_case_feasible": 0}

@@ -1,0 +1,18 @@
+test_B01_exact_eia_support (__main__.References.test_B01_exact_eia_support) ... ok
+test_B02_exact_worldbank_support (__main__.References.test_B02_exact_worldbank_support) ... ok
+test_accepted_counts_and_inherency (__main__.References.test_accepted_counts_and_inherency) ... ok
+test_all_resolve_with_route_source (__main__.References.test_all_resolve_with_route_source) ... ok
+test_card_documentation_refs (__main__.References.test_card_documentation_refs) ... ok
+test_missing_id_rejected (__main__.References.test_missing_id_rejected) ... ok
+test_no_unqualified_inherited_refs (__main__.References.test_no_unqualified_inherited_refs) ... ok
+test_rank_no_changes_from_fix (__main__.References.test_rank_no_changes_from_fix) ... ok
+test_same_id_different_batch_does_not_alias (__main__.References.test_same_id_different_batch_does_not_alias) ... ok
+test_archive_empty_not_absence_claim (__main__.SampleEvidence.test_archive_empty_not_absence_claim) ... ok
+test_current08_refs_and_ranking (__main__.SampleEvidence.test_current08_refs_and_ranking) ... ok
+test_history_dates_not_conflated (__main__.SampleEvidence.test_history_dates_not_conflated) ... ok
+test_selected_well_not_operation_evidence (__main__.SampleEvidence.test_selected_well_not_operation_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.006s
+
+OK

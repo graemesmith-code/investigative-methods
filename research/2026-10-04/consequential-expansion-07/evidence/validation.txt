@@ -14,6 +14,6 @@ test_same_url_different_payload_no_flag (__main__.SyntheticChronology.test_same_
 test_wrapper_without_media_authentication_rejected (__main__.SyntheticChronology.test_wrapper_without_media_authentication_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 14 tests in 0.016s
+Ran 14 tests in 0.014s
 
 OK

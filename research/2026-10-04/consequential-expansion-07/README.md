@@ -1,6 +1,6 @@
 # Two proposed tests and a seismicity refinement — 4 October 2026
 
-**53 previously reviewed formulations, plus two proposed additions pending independent review.** This checkpoint offers an honest provisional total of 55, not 5,000. The complete ranking contains 70 detailed cards: those 55 formulations and 15 refinements. None is a demonstrated wrongdoing finding or a confirmed end-to-end feasible investigation.
+**55 reviewed formulations after independent acceptance of J01 and J02.** This checkpoint offers an reviewed total of 55, not 5,000. The complete ranking contains 70 detailed cards: those 55 formulations and 15 refinements. None is a demonstrated wrongdoing finding or a confirmed end-to-end feasible investigation.
 
 The two additions test whether media explicitly attributed to a later incident already existed before it, and whether an earlier publicly available clinical-trial disclosure contains every required element of one patent claim. The Alberta refinement checks the actual scope of a hydraulic-fracturing seismicity order and what evidence would establish continued operation or unauthorized restart. It improves an existing approval-before-action test and is not counted as new.
 
@@ -20,6 +20,8 @@ This pass revisits seven primary sources and records nine decision branches: thr
 
 The cross-batch CSV/JSONL sorts only by readiness tier, next-check effort tier, then test ID for deterministic ties. Original consequence/testability values and scale labels remain separately visible; incompatible scales never enter the sort. Readiness 1 indicates an earlier demonstrated identifier/document bridge, 2 a one-sided sample or anatomy, 3 unresolved original evidence, and 4 known access/reuse barriers. All three current cards remain at readiness 3. This is a ranking of next checks, not the cost or probability of a meaningful finding. N01 remains at tier 3: an unrelated World Bank audit did not validate its OECD/IATI route.
 
+The original unqualified D07/D08 inherited from batch 06 have been replaced with explicit evidence-file paths, IDs and supporting source IDs. Thus B01 resolves to EIA and B02 to the World Bank audit, never to batch 07 ClinicalTrials/AER documents. Historical ZIPs and receipts are preserved.
+
 ## Evidence and limits
 
 Eleven official documentation entries support this pass. The ClinicalTrials guide rendered incompletely, and no historical study record was verified. No restricted Airwars material was accessed, no account was created, and no bulk AER dataset was downloaded. External AGS and USPTO support is explicitly identified without inventing Rabbit SYS identifiers. Catalog availability remains unverified until the actual needed record is obtained; documentation alone is not a completed join.
@@ -38,7 +40,7 @@ The downloadable ZIP includes the canonical 32-card baseline and current expansi
 
 ### J01 — Media attributed to an incident but authenticated before that incident
 
-Status: proposed_new.
+Status: reviewed_new.
 
 **Initial observation:** IF a public assessed-incident source explicitly presents a particular image or video as captured during a defined event, and the same original media payload is authenticated in an archive response captured strictly before the earliest possible event time.
 
@@ -56,7 +58,7 @@ Status: proposed_new.
 
 **Next cheapest check:** Read the exact caption first. If it explicitly attributes capture to the event, inspect one pre-event capture of the media URL itself. Stop if the payload is missing, identity uncertain or only an old wrapper is available. Use only publicly assessed Airwars sources, not restricted prepublication Source Library material.
 
-**Novelty comparison:** REF-EVID examines claimed source independence; X11 examines overlapping evidence units. J01 tests an authenticated earlier existence that contradicts a specific later capture attribution. This is proposed as a distinct formulation, not one new test per incident or media format.
+**Novelty comparison:** REF-EVID examines claimed source independence; X11 examines overlapping evidence units. J01 tests an authenticated earlier existence that contradicts a specific later capture attribution. Independent review accepted this as a distinct formulation, not one new test per incident or media format.
 
 **Access evidence:** Airwars methodology/access distinction and Wayback replay documentation inspected. No incident/media/archive pair retrieved; archived payload availability and attribution remain unverified. No restricted source library accessed.
 
@@ -86,11 +88,11 @@ Status: refinement.
 
 ### J02 — Historical trial disclosure as a claim-specific patent prior-art lead
 
-Status: proposed_new.
+Status: reviewed_new.
 
 **Initial observation:** IF a public historical trial protocol or registry version describes a specific method before the legally effective filing date of a particular granted patent claim, and a documented technical comparison links that disclosure to the claim.
 
-**Expected observation:** THEN build a claim chart testing every required element, including arrangement and relevant dependent-claim limitations, against one qualifying historical reference. Resolve enablement, public accessibility, priority entitlement and exceptions with a patent specialist before making any anticipation or invalidity assertion.
+**Expected observation:** THEN build a claim chart testing every required element, including arrangement and relevant dependent-claim limitations, against one qualifying historical reference. Missing literal wording alone does not establish a missing limitation: specialist-reviewed inherent disclosure and explanatory evidence may apply, without assembling missing elements from separate references. Resolve enablement, public accessibility, priority entitlement and exceptions with a patent specialist before making any anticipation or invalidity assertion.
 
 **Basis:** An improperly sustained exclusive right over a previously disclosed medical method could affect access and competition. US anticipation guidance requires the claim’s elements in a single qualifying reference; the applicable statutory regime and disclosure exceptions matter. A search hit or shared ingredient is not a legal conclusion.
 

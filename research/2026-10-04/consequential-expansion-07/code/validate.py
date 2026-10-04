@@ -4,7 +4,7 @@ P=pathlib.Path(__file__).resolve().parents[1];jl=lambda n:[json.loads(x) for x i
 class Artifacts(unittest.TestCase):
  @classmethod
  def setUpClass(c):c.cards=jl('cards.jsonl');c.by={r['test_id']:r for r in c.cards}
- def test_counts(self):self.assertEqual(collections.Counter(r['kind'] for r in self.cards),{'proposed_new':2,'refinement':1});self.assertEqual(len(jl('candidate-screen.jsonl')),9)
+ def test_counts(self):self.assertEqual(collections.Counter(r['kind'] for r in self.cards),{'reviewed_new':2,'refinement':1});self.assertEqual(len(jl('candidate-screen.jsonl')),9)
  def test_manifest(self):
   ss={s['sys_id']:s for s in jl('sources.jsonl')};self.assertEqual(len(ss),344)
   for c in self.cards:
