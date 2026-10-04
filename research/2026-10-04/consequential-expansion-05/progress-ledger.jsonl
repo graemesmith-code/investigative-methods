@@ -1,0 +1,5 @@
+{"stage": "review_repairs", "accepted_through04": 51, "q01": "refinement", "v01_checks": 26}
+{"stage": "breadth_screen", "lenses": 6, "predicates": 24, "sources": 48, "dispositions": {"new": 2, "reject": 7, "defer": 4, "refinement_deferred": 7, "refinement": 1, "repeat": 3}}
+{"stage": "documentation", "entries": 8, "failed_fulltext_accesses": 2, "matched_records": 0}
+{"stage": "validation", "artifact": 8, "synthetic": 10, "total_passed": 18}
+{"stage": "checkpoint", "proposed_new": 2, "refinements": 1, "provisional_total": 53, "global_exhaustion": false}

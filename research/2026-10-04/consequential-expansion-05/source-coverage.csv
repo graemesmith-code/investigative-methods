@@ -1,0 +1,345 @@
+sys_id,name,join_fields,candidate_ids,lenses,status
+SYS-0001,GLEIF LEI data,"[""LEI"", ""legal name"", ""registration authority ID"", ""parent LEI""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0002,OpenCorporates,"[""Jurisdiction code"", ""company number"", ""name"", ""officer name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0003,Open Ownership Register,"[""Entity name"", ""jurisdiction"", ""company number"", ""person/entity statement IDs""]","[""B3""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0004,UK Companies House Public Data API,"[""Company number"", ""officer ID"", ""person-with-significant-control ID"", ""address"", ""person/entity name"", ""control type""]","[""B1"", ""B2""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0005,SEC EDGAR,"[""CIK"", ""ticker"", ""accession number"", ""legal entity name""]","[""C1"", ""D2"", ""D4"", ""R2""]","[""conserved_quantities"", ""double_claims"", ""operation_vs_representation""]",concrete_candidate_screen
+SYS-0006,Japan EDINET,"[""EDINET code"", ""securities code"", ""filer name"", ""document ID""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0007,ASIC company dataset,"[""ACN"", ""company name"", ""state"", ""registration date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0008,Australian Business Register bulk extract,"[""ABN"", ""ACN"", ""entity name"", ""postcode""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0009,Corporations Canada open data,"[""Corporation number"", ""business number"", ""legal name"", ""director""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0010,France INPI National Business Register,"[""SIREN"", ""SIRET"", ""legal name"", ""officer"", ""address""]","[""B1""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0011,India MCA company master data,"[""CIN"", ""LLPIN"", ""company name"", ""director identification number""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0012,New Zealand Companies Register API,"[""NZ company number"", ""NZBN"", ""director/shareholder"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0013,New Zealand Business Number bulk data,"[""NZBN"", ""company number"", ""organisation name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0014,Singapore ACRA registered entities,"[""UEN"", ""entity name"", ""postcode"", ""industry code""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0015,Hong Kong Companies Registry open data,"[""Company number"", ""business registration number"", ""names"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0016,South Africa CIPC API,"[""Enterprise number"", ""company name"", ""director"", ""beneficial owner""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0017,German Company Register,"[""Register court"", ""registration number"", ""legal name"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0018,OpenRegister Germany,"[""Registration number"", ""legal name"", ""officer"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0019,EU Business Registers Interconnection System (BRIS),"[""Country"", ""company number"", ""legal name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0020,Italy Registro Imprese,"[""REA number"", ""tax code"", ""VAT number"", ""legal name"", ""officer""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0021,Netherlands KVK APIs,"[""KVK number"", ""branch number"", ""legal name"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0022,Brazil CVM open data,"[""CNPJ"", ""issuer code"", ""fund code"", ""legal name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0023,OpenSanctions,"[""Names"", ""dates of birth"", ""identifiers"", ""addresses"", ""source IDs""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0024,US OFAC Sanctions List Service,"[""Name"", ""date of birth"", ""passport"", ""address"", ""vessel IMO number"", ""program""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0025,UK Sanctions List,"[""Unique ID"", ""name"", ""date of birth"", ""address"", ""regime""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0026,EU consolidated financial sanctions list,"[""EU reference"", ""name"", ""birth details"", ""address"", ""regulation""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0027,UN Security Council Consolidated List,"[""Permanent reference number"", ""name"", ""aliases"", ""date of birth"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0028,Canadian Autonomous Sanctions List,"[""Name"", ""alias"", ""ship IMO number"", ""regulation"", ""listing date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0029,Australian Sanctions Consolidated List,"[""Name"", ""aliases"", ""date of birth"", ""address"", ""instrument""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0030,World Bank debarred firms and individuals,"[""Firm/person name"", ""address"", ""country"", ""ineligibility dates"", ""grounds""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0031,IDB sanctioned firms and individuals,"[""Name"", ""nationality"", ""address"", ""sanction type"", ""dates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0032,FinCEN SAR Stats,"[""Industry"", ""filing location"", ""suspicious-activity category"", ""period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0033,FATF mutual-evaluation ratings,"[""Country"", ""recommendation"", ""rating"", ""assessment date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0034,US DOJ corporate enforcement actions,"[""Company"", ""defendant"", ""case number"", ""court"", ""date"", ""statute""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0035,Stanford FCPA Clearinghouse,"[""Company/person"", ""case"", ""country"", ""industry"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0036,Good Jobs First Violation Tracker,"[""Parent company"", ""subsidiary"", ""agency"", ""offence"", ""date"", ""penalty""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0037,SEC litigation releases,"[""Defendant"", ""release number"", ""court case"", ""date"", ""issuer""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0038,US EPA ECHO web services,"[""Facility registry ID"", ""permit"", ""coordinates"", ""company"", ""pollutant""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0039,INTERPOL Red Notices,"[""Name"", ""date of birth"", ""nationality"", ""requesting country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0040,ICIJ Offshore Leaks Database,"[""Entity"", ""officer"", ""intermediary"", ""address"", ""jurisdiction"", ""source leak""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0041,OCCRP Aleph,"[""Names"", ""company IDs"", ""addresses"", ""dates"", ""document metadata""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0042,Tax Justice Network Data Portal and Financial Secrecy Index,"[""Jurisdiction"", ""indicator"", ""year"", ""financial-service weight""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0043,OECD country-by-country reporting statistics,"[""Reporting jurisdiction"", ""partner jurisdiction"", ""activity"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0044,IRS FATCA Foreign Financial Institution list,"[""GIIN"", ""financial institution name"", ""country"", ""branch""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0045,IRS Form 990 bulk filings,"[""EIN"", ""organisation"", ""officer"", ""grantee"", ""contractor"", ""tax year""]","[""B3""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0046,Canada registered charities open data,"[""Business number"", ""charity name"", ""director"", ""country"", ""reporting year""]","[""B3""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0047,HM Land Registry Overseas Companies Ownership Data,"[""Title number"", ""proprietor"", ""company registration number"", ""incorporation country"", ""address""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0048,OpenLux,"[""Company"", ""officer"", ""address"", ""registration number""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0049,Have I Been Pwned,"[""Email address"", ""domain"", ""breach name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0050,WikiLeaks Public Library of US Diplomacy (PlusD),"[""Cable ID"", ""date"", ""origin"", ""destination"", ""subject"", ""classification""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0051,Distributed Denial of Secrets,"[""Release-specific"", ""often email, document and database fields""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0052,Open Contracting Data Registry,"[""Tender/contract ID"", ""buyer"", ""supplier"", ""date"", ""amount"", ""classification""]","[""P1"", ""B2"", ""D1""]","[""beneficial_interest_conflicts"", ""double_claims"", ""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0053,EU TED Search API,"[""Notice ID"", ""buyer"", ""winner"", ""procurement code"", ""value"", ""place""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0054,USAspending API,"[""UEI"", ""recipient"", ""award ID"", ""agency"", ""place"", ""product/service code""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0055,SAM.gov Contract Data API,"[""UEI"", ""CAGE code"", ""award ID"", ""solicitation"", ""agency"", ""vendor""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0056,Brazil PNCP,"[""CNPJ/CPF where published"", ""procurement ID"", ""agency"", ""supplier"", ""item""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0057,IATI Datastore,"[""IATI activity ID"", ""organisation ID"", ""transaction"", ""sector"", ""country"", ""coordinates""]","[""D1""]","[""double_claims""]",concrete_candidate_screen
+SYS-0058,World Bank Projects & Operations,"[""Project ID"", ""borrower"", ""country"", ""sector"", ""approval date""]","[""P4""]","[""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0059,World Bank Finances,"[""Project ID"", ""loan/credit ID"", ""borrower"", ""country"", ""fiscal year""]","[""P4"", ""D1""]","[""double_claims"", ""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0060,Inter-American Development Bank Open Data,"[""Project number"", ""country"", ""executing agency"", ""supplier"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0061,EBRD Project Summary Documents,"[""Project ID"", ""sponsor"", ""country"", ""sector"", ""board date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0062,EU Financial Transparency System,"[""Recipient"", ""country"", ""programme"", ""amount"", ""responsible department"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0063,EU Cohesion Open Data,"[""Programme"", ""fund"", ""region code"", ""theme"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0064,AidData datasets,"[""Project ID"", ""financier"", ""recipient"", ""sector"", ""location"", ""dates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0065,OECD development-finance statistics,"[""Donor"", ""recipient"", ""project"", ""sector"", ""channel"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0066,OCHA Financial Tracking Service,"[""Flow ID"", ""donor"", ""recipient"", ""appeal"", ""country"", ""amount"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0067,US ForeignAssistance.gov,"[""Award"", ""agency"", ""country"", ""sector"", ""fiscal year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0068,Grants.gov APIs,"[""Opportunity number"", ""assistance listing"", ""agency"", ""dates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0069,UN Comtrade,"[""Reporter"", ""partner"", ""Harmonized System code"", ""year/month"", ""trade flow""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0070,Eurostat Comext,"[""Declarant"", ""partner"", ""Combined Nomenclature code"", ""period"", ""flow""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0071,Global Fishing Watch APIs,"[""MMSI"", ""IMO number"", ""callsign"", ""vessel name"", ""time"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0072,IMO GISIS,"[""IMO ship number"", ""IMO company number"", ""flag"", ""incident""]","[""M1""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0073,Equasis,"[""IMO ship number"", ""ship name"", ""company"", ""flag""]","[""M1""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0074,Paris MoU inspection and detention data,"[""IMO ship number"", ""ship"", ""flag"", ""inspection date"", ""port""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0075,Tokyo MoU inspection and detention data,"[""IMO ship number"", ""ship"", ""flag"", ""date"", ""port""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0076,OpenSky Network,"[""ICAO 24-bit address"", ""callsign"", ""time"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0077,ADS-B Exchange data products,"[""ICAO 24-bit address"", ""callsign"", ""registration"", ""time"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0078,FAA aircraft registry bulk download,"[""Tail number"", ""serial number"", ""owner"", ""aircraft model""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0079,UNOOSA Register of Objects Launched into Outer Space,"[""Object name"", ""international designator"", ""launching state"", ""launch date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0080,CelesTrak GP orbital data,"[""NORAD catalogue number"", ""international designator"", ""object name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0081,Space-Track.org,"[""NORAD catalogue number"", ""international designator"", ""launch"", ""decay""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0082,SIPRI Arms Transfers Database,"[""Supplier"", ""recipient"", ""weapon system"", ""order/delivery year""]","[""C3"", ""P3""]","[""conserved_quantities"", ""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0083,UN Register of Conventional Arms,"[""Reporting state"", ""partner"", ""weapon category"", ""quantity"", ""year""]","[""C3"", ""P3""]","[""conserved_quantities"", ""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0084,US DSCA Major Arms Sales archive,"[""Recipient country"", ""transmittal number"", ""contractor"", ""system"", ""estimated value""]","[""P3""]","[""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0085,EU arms-export online database,"[""Exporting state"", ""destination"", ""military-list category"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0086,ENAAT EU Export Data Browser,"[""Exporter"", ""destination"", ""military-list category"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0087,UK strategic export licensing statistics,"[""Destination"", ""control-list rating"", ""licence type"", ""value"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0088,SIPRI Military Expenditure Database,"[""Country"", ""year"", ""currency/measure""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0089,NATO defence-expenditure tables,"[""Country"", ""year"", ""expenditure category""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0090,IMF PortWatch,"[""Port"", ""country"", ""date"", ""vessel movement"", ""trade estimate""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0091,ACLED,"[""Event ID"", ""date"", ""actors"", ""location"", ""event type"", ""source""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0092,UCDP downloads and API,"[""Conflict/dyad/event IDs"", ""actors"", ""date"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0093,Airwars civilian-harm archive,"[""Incident ID"", ""date"", ""location"", ""belligerent"", ""casualty range""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0094,Global Terrorism Database,"[""Event ID"", ""group"", ""date"", ""location"", ""target"", ""weapon""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0095,GDELT,"[""Event code"", ""actor strings"", ""date"", ""location"", ""source URL""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0096,ICEWS event data,"[""Event ID"", ""source/target actor"", ""event code"", ""date"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0097,ReliefWeb API,"[""Document ID"", ""country"", ""disaster"", ""organisation"", ""date"", ""source""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0098,Humanitarian Data Exchange (HDX),"[""Dataset/resource ID"", ""geography"", ""humanitarian tags"", ""publisher""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0099,GDACS,"[""Event ID"", ""hazard"", ""date"", ""coordinates"", ""severity""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0100,EM-DAT International Disaster Database,"[""Disaster ID"", ""country"", ""hazard"", ""date"", ""deaths"", ""damages""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0101,Copernicus Data Space Ecosystem,"[""Product ID"", ""acquisition time"", ""tile"", ""coordinates"", ""orbit""]","[""R3""]","[""operation_vs_representation""]",concrete_candidate_screen
+SYS-0102,NASA Earthdata CMR API,"[""Collection/granule ID"", ""time"", ""coordinates"", ""platform"", ""instrument""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0103,USGS Landsat data,"[""Scene/product ID"", ""path/row"", ""date"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0104,NASA FIRMS active-fire data,"[""Coordinates"", ""acquisition date/time"", ""satellite"", ""confidence""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0105,Google Earth Engine public data catalogue,"[""Dataset asset ID"", ""time"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0106,Global Forest Watch Open Data Portal/API,"[""Coordinates"", ""administrative area"", ""concession"", ""date"", ""alert""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0107,EITI API and open data,"[""Country"", ""company"", ""commodity"", ""payment/revenue stream"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0108,EITI beneficial-ownership disclosures,"[""Company"", ""licence"", ""beneficial owner"", ""jurisdiction""]","[""B2""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0109,Global Energy Monitor trackers,"[""Facility/project"", ""owner"", ""coordinates"", ""capacity"", ""status""]","[""R3""]","[""operation_vs_representation""]",concrete_candidate_screen
+SYS-0110,Climate TRACE,"[""Source/asset ID"", ""owner"", ""coordinates"", ""sector"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0111,ResourceContracts,"[""Contract"", ""company"", ""government entity"", ""resource"", ""date"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0112,OpenStreetMap and Overpass API,"[""OSM object ID"", ""coordinates"", ""tags"", ""changeset"", ""time""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0113,Wikidata Query Service and dumps,"[""Wikidata QID"", ""external identifiers"", ""names"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0114,Natural Earth,"[""Country/admin codes"", ""feature names"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0115,JRC Global Surface Water,"[""Coordinates"", ""pixel"", ""epoch/year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0116,OpenFEC API,"[""Candidate/committee ID"", ""donor"", ""employer"", ""date"", ""amount""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0117,US Senate Lobbying Disclosure data,"[""Filing ID"", ""registrant"", ""client"", ""lobbyist"", ""issue code"", ""period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0118,FARA eFile and bulk data,"[""Registration number"", ""registrant"", ""foreign principal"", ""document ID"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0119,EU Transparency Register,"[""Register ID"", ""organisation"", ""client"", ""person"", ""policy field""]","[""B1"", ""B4""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0120,Canada Registry of Lobbyists open data,"[""Registration"", ""client"", ""lobbyist"", ""designated public office holder"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0121,UK Political Finance Online,"[""Recipient"", ""donor"", ""regulated entity"", ""date"", ""amount"", ""election""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0122,European Parliament Open Data Portal,"[""Member ID"", ""procedure"", ""document"", ""vote"", ""meeting"", ""date""]","[""B1"", ""B4""]","[""beneficial_interest_conflicts""]",concrete_candidate_screen
+SYS-0123,Elections Canada political-finance data,"[""Contributor"", ""recipient"", ""date"", ""amount"", ""electoral district""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0124,Congress.gov API,"[""Congress"", ""bill"", ""member bioguide ID"", ""committee"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0125,GovInfo API,"[""Package ID"", ""collection"", ""bill/case/report identifier"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0126,Federal Register API,"[""Document number"", ""agency"", ""regulatory identifier"", ""date"", ""docket""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0127,EUR-Lex data reuse services,"[""CELEX number"", ""ELI URI"", ""case number"", ""institution"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0128,HUDOC,"[""Application number"", ""respondent state"", ""article"", ""date"", ""party""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0129,CourtListener and RECAP,"[""Court"", ""docket number"", ""party"", ""judge"", ""citation"", ""document ID""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0130,PACER,"[""Court"", ""docket number"", ""party"", ""attorney"", ""document number""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0131,ICC Legal Tools Database,"[""Situation"", ""case"", ""accused"", ""document number"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0132,UN Digital Library APIs,"[""UN document symbol"", ""meeting"", ""agenda"", ""vote"", ""speaker"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0133,Internet Archive Wayback Machine APIs,"[""URL"", ""timestamp"", ""digest"", ""status code"", ""media type""]","[""D2""]","[""double_claims""]",concrete_candidate_screen
+SYS-0134,Common Crawl,"[""URL"", ""crawl timestamp"", ""content digest"", ""response metadata""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0135,DocumentCloud,"[""Document ID"", ""title"", ""organisation"", ""source"", ""upload date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0136,MuckRock API,"[""Request ID"", ""agency"", ""jurisdiction"", ""requester"", ""date"", ""document""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0137,CIA Freedom of Information Act Reading Room,"[""Document number"", ""title"", ""date"", ""collection"", ""subject""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0138,US State Department FOIA Virtual Reading Room,"[""Request/case"", ""document"", ""date"", ""office"", ""subject""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0139,UK National Archives Discovery API,"[""Catalogue reference"", ""department/creator"", ""date"", ""subject""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0140,National Security Archive Virtual Reading Room,"[""Collection"", ""document"", ""date"", ""agency"", ""subject""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0141,Media Cloud Search API,"[""Story URL"", ""media source"", ""publication date"", ""language"", ""query""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0142,Google Fact Check Tools API,"[""Claim"", ""claimant"", ""language"", ""publisher"", ""date"", ""URL""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0143,Meta Ad Library,"[""Page"", ""disclaimer"", ""ad ID"", ""country"", ""date"", ""spend/impression range""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0144,Google Ads Transparency Center,"[""Advertiser"", ""creative"", ""region"", ""date"", ""spend/impression range where supplied""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0145,World Bank Documents & Reports API,"[""Document ID"", ""project ID"", ""country"", ""date"", ""document type""]","[""P1"", ""P4"", ""D1"", ""R3""]","[""double_claims"", ""operation_vs_representation"", ""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0146,OONI data and API,"[""Measurement ID"", ""country"", ""network ASN"", ""test"", ""URL"", ""time""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0147,RIPEstat Data API,"[""IP prefix"", ""ASN"", ""organisation"", ""country"", ""time""]","[""M2""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0148,Censys Search,"[""IP"", ""domain"", ""certificate fingerprint"", ""service"", ""port"", ""autonomous system""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0149,CISA Known Exploited Vulnerabilities catalog,"[""CVE ID"", ""vendor"", ""product"", ""date added"", ""due date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0150,NVD vulnerability API and feeds,"[""CVE ID"", ""CPE product identifier"", ""vendor"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0151,ICANN RDAP,"[""Domain"", ""registrar"", ""nameserver"", ""status"", ""IP/ASN resource""]","[""M2""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0152,Certificate Transparency logs,"[""Certificate fingerprint"", ""domain"", ""issuer"", ""validity dates"", ""log index""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0153,World Bank Indicators API,"[""Country code"", ""indicator code"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0154,IMF Data APIs,"[""Country"", ""indicator"", ""frequency"", ""period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0155,BIS Data Portal,"[""Reporter"", ""counterparty"", ""instrument"", ""sector"", ""currency"", ""period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0156,ECB Data Portal API,"[""Dataset"", ""series key"", ""country"", ""institution sector"", ""period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0157,UNCTAD Data Hub,"[""Economy"", ""indicator"", ""product/sector"", ""period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0158,Global Human Settlement Layer,"[""Grid cell"", ""coordinates"", ""year"", ""settlement class""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0159,World Settlement Footprint Evolution,"[""Pixel"", ""coordinates"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0160,WorldPop spatial data API,"[""Grid cell"", ""coordinates"", ""country"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0161,Meta High Resolution Settlement Layer,"[""Grid cell"", ""coordinates"", ""census unit""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0162,Meta Relative Wealth Index,"[""Coordinates"", ""grid cell"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0163,Meta Social Connectedness Index,"[""Origin geography"", ""destination geography""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0164,Google Open Buildings,"[""Building geometry"", ""centroid"", ""confidence""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0165,Google Open Buildings 2.5D Temporal,"[""Pixel"", ""coordinates"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0166,Microsoft Global ML Building Footprints,"[""Geometry"", ""quadkey"", ""release date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0167,GlobalBuildingAtlas,"[""Building geometry"", ""height"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0168,Overture Maps Foundation data,"[""Overture ID"", ""geometry"", ""names"", ""source references""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0169,Foursquare Open Source Places,"[""Foursquare place ID"", ""coordinates"", ""category"", ""name""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0170,OpenAddresses,"[""Street address"", ""coordinates"", ""source file""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0171,geoBoundaries API,"[""ISO code"", ""administrative level"", ""shape ID""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0172,GeoNames web services and dumps,"[""GeoNames ID"", ""name variants"", ""coordinates"", ""feature code""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0173,Who's On First,"[""Who's On First ID"", ""concordances"", ""hierarchy"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0174,European Space Agency WorldCover,"[""Pixel"", ""coordinates"", ""class"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0175,Dynamic World,"[""Pixel"", ""acquisition date"", ""class probability""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0176,AlphaEarth Foundations Satellite Embeddings,"[""Pixel"", ""year"", ""embedding vector""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0177,OpenLandMap,"[""Pixel"", ""coordinates"", ""depth"", ""time""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0178,SoilGrids API,"[""Pixel"", ""depth"", ""property"", ""uncertainty""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0179,Global Food Security-support Analysis Data,"[""Pixel"", ""crop class"", ""year"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0180,MapBiomas collections,"[""Pixel"", ""class"", ""year"", ""territory""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0181,Global Mangrove Watch,"[""Pixel"", ""year"", ""protected area"", ""coastline""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0182,HydroSHEDS,"[""Basin ID"", ""river reach"", ""flow direction"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0183,Global Dam Watch,"[""Dam/reservoir ID"", ""coordinates"", ""river"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0184,Aqueduct Water Risk Atlas data,"[""Basin"", ""pixel"", ""indicator"", ""scenario"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0185,FAO WaPOR,"[""Pixel"", ""date"", ""administrative area"", ""crop""]","[""C2""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0186,OpenET API,"[""Field geometry"", ""coordinates"", ""month"", ""model""]","[""C2""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0187,GRACE Tellus gravity and groundwater data,"[""Mascon/grid cell"", ""month""]","[""C2""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0188,CHIRPS rainfall,"[""Pixel"", ""date""]","[""C2""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0189,NASA IMERG precipitation,"[""Pixel"", ""timestamp"", ""product run""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0190,Microsoft Planetary Computer,"[""STAC collection/item"", ""coordinates"", ""datetime""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0191,Earth Search STAC,"[""STAC item"", ""tile"", ""datetime"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0192,Radiant MLHub,"[""STAC item"", ""label class"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0193,Source Cooperative,"[""Repository"", ""object path"", ""spatial metadata""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0194,OpenAerialMap API,"[""Image ID"", ""bounding box"", ""acquisition date"", ""provider""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0195,Umbra Open Data Program,"[""STAC item"", ""coordinates"", ""acquisition time"", ""orbit""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0196,Vantor Open Data Program (formerly Maxar),"[""Event"", ""image catalog ID"", ""acquisition date"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0197,Mapillary API,"[""Image ID"", ""sequence"", ""coordinates"", ""captured_at""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0198,NASA Black Marble,"[""Pixel"", ""date"", ""product quality flags""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0199,Earth Observation Group VIIRS Nighttime Lights,"[""Pixel"", ""month/year"", ""quality mask""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0200,Light Every Night,"[""Pixel"", ""date"", ""sensor""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0201,Small-Area Global Elections (SAGE),"[""Country"", ""election"", ""unit"", ""party/candidate"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0202,Copernicus Climate Data Store API,"[""Grid cell"", ""time"", ""variable"", ""ensemble""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0203,European Centre for Medium-Range Weather Forecasts Open Data,"[""Run time"", ""lead time"", ""grid"", ""variable""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0204,NOAA Climate Data Online API,"[""Station ID"", ""location"", ""date"", ""datatype""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0205,USGS Earthquake Catalog API,"[""Event ID"", ""coordinates"", ""time"", ""magnitude""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0206,European-Mediterranean Seismological Centre FDSN services,"[""Event ID"", ""coordinates"", ""time"", ""magnitude""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0207,NASA Global Landslide Catalog,"[""Event location"", ""date"", ""trigger"", ""fatality""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0208,IBTrACS tropical cyclone archive,"[""Storm ID"", ""timestamp"", ""coordinates"", ""agency""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0209,Global Flood Awareness System data,"[""River/grid"", ""run time"", ""lead time"", ""return period""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0210,UNOSAT products and damage assessments,"[""Product ID"", ""assessment date"", ""geometry"", ""damage class""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0211,HDX Humanitarian API,"[""Location"", ""period"", ""indicator"", ""provider""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0212,OpenAQ API,"[""Location/sensor ID"", ""parameter"", ""timestamp"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0213,EDGAR emissions database,"[""Country"", ""sector"", ""pollutant"", ""grid cell"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0214,Carbon Mapper Data Platform API,"[""Plume/source ID"", ""coordinates"", ""observation time"", ""facility""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0215,MethaneSAT data portal and cloud data,"[""Scene"", ""basin"", ""source"", ""observation time""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0216,NASA EMIT greenhouse-gas products,"[""Granule"", ""plume"", ""coordinates"", ""timestamp""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0217,US EPA Greenhouse Gas Reporting Program,"[""Facility ID"", ""parent company"", ""coordinates"", ""year"", ""gas""]","[""R2""]","[""operation_vs_representation""]",concrete_candidate_screen
+SYS-0218,US EPA Toxics Release Inventory,"[""TRI facility ID"", ""chemical"", ""year"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0219,European Industrial Emissions Portal,"[""Facility/installation ID"", ""pollutant"", ""year"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0220,Canada National Pollutant Release Inventory,"[""NPRI ID"", ""company"", ""substance"", ""year"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0221,UK Pollution Inventory,"[""Site/operator"", ""pollutant"", ""year"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0222,Australia National Pollutant Inventory,"[""Facility"", ""company"", ""substance"", ""year"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0223,Carbon Majors database,"[""Producer"", ""parent"", ""fuel"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0224,Global Registry of Fossil Fuels,"[""Asset"", ""basin"", ""operator/owner"", ""country"", ""fuel""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0225,Global Tailings Portal,"[""Facility"", ""company"", ""coordinates"", ""status""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0226,Global Plastics Watch,"[""Site geometry"", ""detection date/confidence"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0227,Land Matrix API,"[""Deal ID"", ""investor ID"", ""parent"", ""country"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0228,Open Supply Hub,"[""OS Hub ID"", ""facility"", ""parent company"", ""coordinates"", ""sector""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0229,Protected Planet API,"[""Protected Planet ID"", ""designation"", ""geometry"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0230,GBIF occurrence API,"[""Occurrence ID"", ""taxon key"", ""coordinates"", ""date"", ""dataset""]","[""R4""]","[""operation_vs_representation""]",concrete_candidate_screen
+SYS-0231,UNHCR Refugee Data Finder API,"[""Origin"", ""asylum country"", ""population type"", ""year""]","[""C4""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0232,IOM Displacement Tracking Matrix,"[""Location/site"", ""round"", ""date"", ""flow"", ""population group""]","[""C4""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0233,IDMC Global Internal Displacement Database,"[""Country"", ""hazard/conflict"", ""year"", ""displacement measure""]","[""C4""]","[""conserved_quantities""]",concrete_candidate_screen
+SYS-0234,WHO Global Health Observatory OData API,"[""Country"", ""indicator"", ""sex/age"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0235,DHS Program API,"[""Survey"", ""country"", ""region"", ""indicator"", ""subgroup""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0236,ILOSTAT bulk and API services,"[""Country"", ""indicator"", ""sex/age"", ""industry"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0237,Varieties of Democracy dataset,"[""Country-year"", ""indicator"", ""version""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0238,Manifesto Project API,"[""Party"", ""election date"", ""manifesto ID"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0239,ParlGov database,"[""Party ID"", ""election"", ""cabinet"", ""country""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0240,Quality of Government datasets,"[""Country/region"", ""year"", ""source indicator""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0241,Aid Worker Security Database,"[""Incident"", ""date"", ""country"", ""organisation"", ""victim status""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0242,ACAPS API,"[""Crisis"", ""country"", ""date"", ""indicator/document""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0243,Correlates of War datasets,"[""State code"", ""dyad"", ""dispute/war ID"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0244,UN Peacekeeping data,"[""Mission"", ""contributing country"", ""personnel type"", ""month""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0245,CORDIS European research projects,"[""Project ID"", ""participant"", ""grant"", ""topic"", ""country""]","[""D3""]","[""double_claims""]",concrete_candidate_screen
+SYS-0246,NIH RePORTER API,"[""Project number"", ""principal investigator"", ""organisation"", ""fiscal year""]","[""D3""]","[""double_claims""]",concrete_candidate_screen
+SYS-0247,CMS Open Payments,"[""Physician/profile ID"", ""company"", ""product"", ""payment date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0248,ClinicalTrials.gov API,"[""NCT number"", ""sponsor"", ""intervention"", ""site"", ""dates""]","[""P2""]","[""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0249,OpenAlex API,"[""OpenAlex ID"", ""DOI"", ""ORCID"", ""institution"", ""funder""]","[""D3""]","[""double_claims""]",concrete_candidate_screen
+SYS-0250,Crossref REST API,"[""DOI"", ""funder ID"", ""ORCID"", ""publisher"", ""date""]","[""P2"", ""D3""]","[""double_claims"", ""prerequisites_sequence""]",concrete_candidate_screen
+SYS-0251,ORCID Public API,"[""ORCID iD"", ""DOI"", ""organisation identifier""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0252,PatentsView API,"[""Patent"", ""inventor"", ""assignee"", ""location"", ""citation""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0253,EPO Open Patent Services,"[""Publication/application number"", ""family"", ""applicant"", ""inventor""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0254,OpenFIGI API,"[""FIGI"", ""ticker"", ""exchange"", ""ISIN/CUSIP where permitted""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0255,US Energy Information Administration API,"[""Series"", ""facility/plant"", ""geography"", ""period""]","[""C1"", ""D4"", ""R2""]","[""conserved_quantities"", ""double_claims"", ""operation_vs_representation""]",concrete_candidate_screen
+SYS-0256,ENTSO-E Transparency Platform API,"[""Area code"", ""production unit"", ""bidding zone"", ""timestamp""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0257,MarineCadastre.gov AIS data,"[""MMSI"", ""IMO where present"", ""timestamp"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0258,PeeringDB API,"[""Network/facility/exchange ID"", ""ASN"", ""organisation"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0259,RIPE Atlas API,"[""Probe ID"", ""ASN"", ""measurement ID"", ""timestamp"", ""target""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0260,IODA Internet Outage API,"[""Country/region"", ""ASN"", ""timestamp"", ""signal""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0261,Cloudflare Radar API,"[""Country"", ""ASN"", ""date"", ""metric""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0262,CAIDA BGPStream,"[""ASN"", ""prefix"", ""peer"", ""collector"", ""timestamp""]","[""M2""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0263,Government of Canada Open Government CKAN API,"[""Dataset UUID"", ""resource UUID"", ""publisher"", ""keywords"", ""jurisdiction""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0264,Statistics Canada Web Data Service,"[""Product ID"", ""vector"", ""coordinate"", ""reference period"", ""geography code""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0265,Statistics Canada Census Profile Web Data Service,"[""Geography unique identifier"", ""characteristic ID"", ""census year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0266,Statistics Canada Reference Data as a Service,"[""Classification code"", ""version"", ""valid dates"", ""concordance""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0267,Bank of Canada Valet API,"[""Series code"", ""observation date"", ""currency""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0268,Office of the Superintendent of Financial Institutions open financial data,"[""Institution name/code"", ""reporting period"", ""financial measure""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0269,CanadaBuys procurement and contracting datasets,"[""Notice ID"", ""solicitation number"", ""contract ID"", ""supplier"", ""buyer"", ""commodity code""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0270,Federal proactive publication — contracts,"[""Vendor name"", ""reference number"", ""organization"", ""date"", ""commodity"", ""value""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0271,Federal proactive publication — grants and contributions,"[""Recipient"", ""organization"", ""program"", ""agreement"", ""date"", ""value""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0272,Federal proactive disclosure — travel and hospitality,"[""Traveller/host"", ""title"", ""organization"", ""date"", ""destination"", ""purpose"", ""vendor""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0273,House of Commons of Canada open data,"[""Member ID"", ""constituency"", ""Parliament/session"", ""bill"", ""vote"", ""committee"", ""document""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0274,LEGISinfo bills open data,"[""Bill number"", ""Parliament/session"", ""sponsor"", ""stage"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0275,Canada Gazette RSS feeds,"[""Part"", ""issue"", ""publication date"", ""title"", ""regulation or notice""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0276,Supreme Court of Canada judgments feeds,"[""Neutral citation"", ""docket"", ""parties"", ""decision date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0277,Federal Court decisions RSS feed,"[""Neutral citation"", ""docket"", ""parties"", ""decision date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0278,Health Canada Drug Product Database API and bulk data,"[""Drug identification number"", ""product code"", ""company"", ""ingredient""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0279,Spectrum Management System authorization data extract,"[""Authorization/licence"", ""holder"", ""service"", ""frequency"", ""coordinates""]","[""M3""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0280,Canadian Register of Large Vessels API,"[""Official number"", ""vessel name"", ""owner"", ""port"", ""build details""]","[""M1"", ""R1""]","[""mutually_exclusive_statuses"", ""operation_vs_representation""]",concrete_candidate_screen
+SYS-0281,Transportation Safety Board multimodal occurrence data,"[""Occurrence number"", ""date"", ""location"", ""operator"", ""vehicle/vessel/aircraft"", ""event""]","[""R1""]","[""operation_vs_representation""]",concrete_candidate_screen
+SYS-0282,Federal Contaminated Sites Inventory,"[""Site ID"", ""custodian"", ""location"", ""coordinates"", ""status""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0283,Canadian Impact Assessment Registry assessment inventory,"[""Assessment/project ID"", ""project name"", ""proponent"", ""assessment type"", ""coordinates""]","[""R4""]","[""operation_vs_representation""]",concrete_candidate_screen
+SYS-0284,Canada Energy Regulator pipeline incident data,"[""Incident number"", ""company"", ""facility"", ""date"", ""location"", ""cause""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0285,GEO.ca data-cube SpatioTemporal Asset Catalog API,"[""Collection ID"", ""item ID"", ""geometry"", ""datetime"", ""asset link""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0286,Statistics Canada 2025 census-subdivision boundary service,"[""Census subdivision unique identifier"", ""name"", ""type"", ""higher geography IDs""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0287,Toronto Stock Exchange / TMX Datalinx market-data products,"[""Ticker"", ""exchange"", ""instrument identifier"", ""issuer"", ""timestamp""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0288,SEDAR+ public issuer and filing search,"[""Issuer profile"", ""filing"", ""document"", ""reporting-issuer status""]","[""M4"", ""D2"", ""D4"", ""R1""]","[""double_claims"", ""mutually_exclusive_statuses"", ""operation_vs_representation""]",concrete_candidate_screen
+SYS-0289,System for Electronic Disclosure by Insiders and national registrant systems,"[""Insider"", ""issuer"", ""registrant"", ""firm"", ""filing""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0290,Ontario Securities Commission open-data inventory,"[""Dataset name"", ""business area"", ""status"", ""format""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0291,Ontario Securities Commission exempt-market distributions,"[""Issuer name"", ""report date"", ""distribution date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0292,Ontario Securities Commission Investment Fund Survey data,"[""Investment fund manager"", ""fund"", ""survey year"", ""asset category""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0293,Ontario Securities Commission women on boards and executive positions data,"[""Issuer name"", ""industry"", ""year"", ""board/executive measures""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0294,Ontario Securities Commission regulatory action against registrants,"[""Year"", ""action category""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0295,Extractive Sector Transparency Measures Act data portal,"[""Entity"", ""payee"", ""project"", ""payment category"", ""year""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0296,"Principal Mineral Areas, Producing Mines, and Oil and Gas Fields (900A)","[""Mine/facility name"", ""commodity"", ""province/territory"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0297,Top 100 Exploration Projects,"[""Project"", ""commodity"", ""company/proponent"", ""province/territory"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0298,"Critical minerals advanced projects, mines and processing facilities","[""Project/facility"", ""commodity"", ""status"", ""proponent"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0299,Natural Resources Canada Major Projects Inventory,"[""Project"", ""proponent"", ""sector"", ""value"", ""status"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0300,"Statistics Canada production of metallic minerals, monthly","[""Product ID"", ""mineral"", ""geography"", ""reference month"", ""measure""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0301,Nunavut mineral tenure suite,"[""Tenure number"", ""holder"", ""status"", ""dates"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0302,"British Columbia mineral, placer and coal tenure spatial view","[""Tenure number"", ""title type"", ""owner/client number"", ""status"", ""dates"", ""geometry""]","[""M4""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0303,British Columbia MINFILE mineral occurrence database,"[""MINFILE number"", ""occurrence name"", ""commodity"", ""mapsheet"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0304,British Columbia mine permit boundaries,"[""Permit or mine identifier"", ""name"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0305,British Columbia permitted mine inspection reports summary,"[""Mine"", ""inspection/report date"", ""report link"", ""permit context""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0306,Ontario Geological Survey OGSEarth,"[""Claim/site ID"", ""layer"", ""mapsheet"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0307,Ontario Abandoned Mines Information System,"[""Abandoned mine/site identifier"", ""feature"", ""status"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0308,Ontario Mineral Inventory,"[""Occurrence/deposit ID"", ""name"", ""commodity"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0309,Ontario mining claims dataset,"[""Claim number"", ""status"", ""holder where provided"", ""dates"", ""geometry""]","[""M4""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0310,Québec mining activities,"[""Mine/project/property"", ""company"", ""commodity"", ""status"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0311,"Québec mineral occurrences, deposits, mines and quarries","[""Occurrence/deposit ID"", ""commodity"", ""status"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0312,Québec geochemistry,"[""Sample ID"", ""element"", ""method"", ""coordinates"", ""survey""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0313,Québec mineral potential,"[""Target/zone ID"", ""commodity"", ""geometry"", ""confidence/class""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0314,Alberta metallic and industrial minerals agreements,"[""Agreement/application"", ""holder"", ""type"", ""dates"", ""geometry""]","[""M4""]","[""mutually_exclusive_statuses""]",concrete_candidate_screen
+SYS-0315,Alberta Energy Regulator spatial and incident data,"[""Licence"", ""well/facility"", ""company"", ""incident"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0316,Saskatchewan mineral dispositions,"[""Disposition ID"", ""holder"", ""type"", ""status"", ""dates"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0317,Saskatchewan Mineral Deposits Index,"[""Deposit/occurrence ID"", ""commodity"", ""location"", ""mapsheet""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0318,Manitoba Integrated Mining and Quarrying System map service,"[""Disposition/claim"", ""holder fields"", ""status"", ""dates"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0319,New Brunswick mineral occurrences service,"[""Occurrence ID"", ""commodity"", ""location"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0320,Nova Scotia Mineral Rights Database,"[""Licence/claim"", ""holder"", ""right type"", ""status"", ""dates"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0321,Nova Scotia Mineral Occurrence Database,"[""Occurrence ID"", ""commodity"", ""sample"", ""mapsheet"", ""coordinates""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0322,Newfoundland and Labrador mineral exploration statistics,"[""Year"", ""region"", ""activity measure""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0323,Yukon surveyed mineral-claim polygons,"[""Claim/area identifier"", ""claim class"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0324,Northwest Territories Mineral Showings Database,"[""Showing/occurrence ID"", ""commodity"", ""location""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0325,British Columbia Data Catalogue API,"[""Dataset/resource ID"", ""ministry"", ""licence"", ""format"", ""modification date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0326,Ontario Data Catalogue API,"[""Dataset/resource ID"", ""ministry"", ""licence"", ""format"", ""modification date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0327,Données Québec CKAN API,"[""Dataset/resource ID"", ""organization"", ""licence"", ""format"", ""modification date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0328,Alberta Open Government catalogue API,"[""Dataset/resource ID"", ""ministry"", ""licence"", ""format"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0329,Saskatchewan GeoHub,"[""ArcGIS item ID"", ""layer"", ""geometry"", ""modified date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0330,GeoNB ArcGIS REST services directory,"[""Service/layer ID"", ""feature ID"", ""geometry""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0331,Nova Scotia Open Data API,"[""Socrata dataset ID"", ""column"", ""date"", ""geography""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0332,Open Data Newfoundland and Labrador,"[""Dataset ID"", ""department"", ""revision"", ""geography/date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0333,Prince Edward Island Open Data,"[""ArcGIS item/layer ID"", ""feature ID"", ""geometry"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0334,Government of Yukon open-data CKAN API,"[""Package/resource ID"", ""publisher"", ""format"", ""licence"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0335,Northwest Territories Open Data CKAN API,"[""Package/resource ID"", ""department"", ""format"", ""licence"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0336,Information and Privacy Commissioner of Ontario access-order RSS feed,"[""Order number"", ""institution"", ""date"", ""statute"", ""adjudicator""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0337,Office of the Privacy Commissioner of Canada RSS feeds,"[""Feed"", ""title"", ""publication date"", ""institution/company"", ""case link""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0338,Canadian Human Rights Tribunal decisions RSS feed,"[""Neutral citation"", ""parties"", ""date"", ""decision link""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0339,Office of the Information Commissioner of Canada decisions database,"[""Decision/order number"", ""institution"", ""statutory section"", ""date""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0340,Canadian Human Rights Commission dispute-resolution statistics,"[""Year"", ""province/territory"", ""respondent type"", ""ground"", ""outcome""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0341,Ontario freedom-of-information compliance data,"[""Institution"", ""sector"", ""year"", ""compliance measure""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0342,Newfoundland and Labrador access-to-information requests dataset,"[""Department"", ""request number"", ""date"", ""outcome""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0343,Tribunals Ontario decisions-issued workbooks,"[""Tribunal"", ""decision date"", ""file/case fields in workbook""]",[],[],manifest_reviewed_no_candidate_in_this_batch
+SYS-0344,Government of Yukon completed access-to-information registry,"[""Package/request"", ""organization"", ""year"", ""resource/document""]",[],[],manifest_reviewed_no_candidate_in_this_batch

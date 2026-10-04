@@ -155,7 +155,7 @@ proposed_new; priority rank 4; consequence 5/5, testability 2/5, join route 1/3,
 
 **Scope:** US organization and candidate-campaign transaction date, historical tax classification and actual recipient role. A current IRS BMF status is not historical proof. Distinguish campaign contribution from commercial payment, refund, conduit or personal funds.
 
-**Ordinary explanations / disqualifiers:** Individual donor merely lists charity as employer; Separate 501(c)(4) affiliate or different entity; Misreported receipt or return/refund; Commercial payment misclassified as contribution; Tax status different at transfer; Nonpartisan activity or restricted charitable grant; Unauthorized personal funds rather than charity assets
+**Ordinary explanations / disqualifiers:** Individual donor merely lists charity as employer; Separate 501(c)(4) affiliate or different entity; Misattributed or never-completed receipt; a later refund may remedy consequences but does not erase a completed contribution; Commercial payment misclassified as contribution; Tax status different at transfer; Nonpartisan activity or restricted charitable grant; Unauthorized personal funds rather than charity assets
 
 **Required original records:** Actual organization-origin transfer and authorization/purpose; Original campaign receipt, amendments and refunds; Organization EIN/legal-entity bridge; Applicable historical exemption evidence; Committee identity/type and contemporaneous legal scope
 

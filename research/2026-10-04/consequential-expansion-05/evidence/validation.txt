@@ -1,0 +1,23 @@
+test_advance_not_recovery (__main__.ArithmeticIllustrations.test_advance_not_recovery) ... ok
+test_currency_mismatch_rejected (__main__.ArithmeticIllustrations.test_currency_mismatch_rejected) ... ok
+test_energy_clear_excess (__main__.ArithmeticIllustrations.test_energy_clear_excess) ... ok
+test_energy_conservative_rounding (__main__.ArithmeticIllustrations.test_energy_conservative_rounding) ... ok
+test_energy_normal_no_flag (__main__.ArithmeticIllustrations.test_energy_normal_no_flag) ... ok
+test_energy_unknown_imports_rejected (__main__.ArithmeticIllustrations.test_energy_unknown_imports_rejected) ... ok
+test_independent_recoveries_exceed (__main__.ArithmeticIllustrations.test_independent_recoveries_exceed) ... ok
+test_mirrored_settlement_rejected (__main__.ArithmeticIllustrations.test_mirrored_settlement_rejected) ... ok
+test_permitted_cofinancing_no_flag (__main__.ArithmeticIllustrations.test_permitted_cofinancing_no_flag) ... ok
+test_unknown_pass_through_rejected (__main__.ArithmeticIllustrations.test_unknown_pass_through_rejected) ... ok
+test_counts (__main__.Artifacts.test_counts) ... ok
+test_coverage_is_candidate_coverage (__main__.Artifacts.test_coverage_is_candidate_coverage) ... ok
+test_doc_references (__main__.Artifacts.test_doc_references) ... ok
+test_no_unearned_feasibility (__main__.Artifacts.test_no_unearned_feasibility) ... ok
+test_provenance (__main__.Artifacts.test_provenance) ... ok
+test_ranks (__main__.Artifacts.test_ranks) ... ok
+test_six_lenses (__main__.Artifacts.test_six_lenses) ... ok
+test_unique_dispositions (__main__.Artifacts.test_unique_dispositions) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.015s
+
+OK

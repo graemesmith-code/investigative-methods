@@ -6,7 +6,7 @@ class PriorityArtifactChecks(unittest.TestCase):
  def setUpClass(c):c.cards=jl('cards.jsonl');c.by={r['test_id']:r for r in c.cards};c.rows=jl('priority-subchecks.jsonl');c.sources={r['sys_id']:r for r in jl('sources.jsonl')}
  def test_eight_priorities_three_explicit_subchecks(self):
   self.assertEqual(set(r['prior_gap'] for r in self.rows),{'G16','G17','G18','G19','G20','G21','G22','G23'});self.assertEqual(set(collections.Counter(r['priority'] for r in self.rows).values()),{3});self.assertEqual(len(self.rows),24)
- def test_new_and_refinement_counts(self):self.assertEqual(collections.Counter(r['kind'] for r in self.cards),{'proposed_new':2,'refinement':5})
+ def test_new_and_refinement_counts(self):self.assertIn('does not erase',self.by['Q02']['if_observation']);self.assertEqual(collections.Counter(r['kind'] for r in self.cards),{'proposed_new':2,'refinement':5})
  def test_selected_rows_match_cards(self):self.assertEqual({r['card_or_baseline'] for r in self.rows if r['disposition'] in ['new_card','refinement_card']},set(self.by))
  def test_all_sources_and_provenance(self):
   self.assertEqual(len(self.sources),344)
