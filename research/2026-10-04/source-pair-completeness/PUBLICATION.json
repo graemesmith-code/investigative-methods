@@ -1,0 +1,17 @@
+{
+  "checkpoint_commit": "9ef1f6fad5f0cdf47a6cc1ba6364a6c05c52ce74",
+  "remote_main_verified_at_publication": "9ef1f6fad5f0cdf47a6cc1ba6364a6c05c52ce74",
+  "repository_private_verified": true,
+  "artifact": "checkpoints/pair-completeness-checkpoint.zip",
+  "bytes": 1571543,
+  "sha256": "7fcb81510d305457f1e74bab158bd89716a9538742ee0e5182dfba5fef52dd76",
+  "local_and_remote_git_blob": "30057fd8bafd1e69c7f30776ff74a2413fcc974b",
+  "library_file_id": "libfile_5aa5028de5d48191aac2e4e04bef31bb",
+  "library_upload_file_id": "file_000000007968820aabb00449791052cc",
+  "library_status": "succeeded; local version xattrs applied",
+  "validation_checks_passed": 26,
+  "completed_scope": "Bounded compatible-pair audit, third-checkpoint review repairs, pair-specific recommendation queue and methodology/cost assessment",
+  "remaining": "Broader pair discovery remains open; no full investigations launched; final five formulations not independently reviewed",
+  "weekly_usage_telemetry": "unavailable",
+  "paid_external_api_calls": 0
+}
