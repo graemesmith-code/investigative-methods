@@ -17,7 +17,7 @@ Twelve manually selected event/role clusters enumerate 61 distinct directed pair
 | Mechanisms | Expands rules, rejects gated rows, deduplicates and ranks | Authors expectations, ordinary explanations and falsifiers |
 | Completeness audit | Finds 70 namespace-sharing pairs and 61 role alternatives | Chooses compatible event/role clusters and rejects weak associations |
 | Corrections | Propagates geography/status/access gates across outputs | Detects wrong IDs, misleading geography and invalid legal/measurement assumptions |
-| Validation | Runs 26 checks, including saved identifiers and accounting invariants | Determines whether tests cover important mistakes and reads underlying records |
+| Validation | Runs 28 checks, including saved identifiers and accounting invariants | Determines whether tests cover important mistakes and reads underlying records |
 
 Code saves manually maintaining thousands of rows and repeatedly reconciling counts, identifiers and ranks. It does **not** turn an identifier overlap into a hypothesis or validate a causal/legal claim. `evidence/reproduction-timing.json` records observed local command durations. These are execution timings, not model reasoning time, token consumption, weekly allowance or dollar savings. No speedup factor or monetary saving is estimated without a measured manual baseline.
 

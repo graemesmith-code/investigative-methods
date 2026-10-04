@@ -1,6 +1,7 @@
 test_access_routes_in_production_ranking (__main__.FinalRepairs.test_access_routes_in_production_ranking) ... ok
 test_all_mechanisms_reviewed (__main__.FinalRepairs.test_all_mechanisms_reviewed) ... ok
 test_all_sources_individually_covered (__main__.FinalRepairs.test_all_sources_individually_covered) ... ok
+test_cluster_representatives_are_declared_pairs (__main__.FinalRepairs.test_cluster_representatives_are_declared_pairs) ... ok
 test_counts (__main__.FinalRepairs.test_counts) ... ok
 test_directional_trade_tuple (__main__.FinalRepairs.test_directional_trade_tuple) ... ok
 test_election_source_roles (__main__.FinalRepairs.test_election_source_roles) ... ok
@@ -11,6 +12,7 @@ test_google_propagated (__main__.FinalRepairs.test_google_propagated) ... ok
 test_imo_company_schema_not_ship (__main__.FinalRepairs.test_imo_company_schema_not_ship) ... ok
 test_imo_record_semantics_used_by_join (__main__.FinalRepairs.test_imo_record_semantics_used_by_join) ... ok
 test_manual_route_changes_tier (__main__.FinalRepairs.test_manual_route_changes_tier) ... ok
+test_namespace_classification_semantics (__main__.FinalRepairs.test_namespace_classification_semantics) ... ok
 test_no_execution_claims (__main__.FinalRepairs.test_no_execution_claims) ... ok
 test_pair_enumeration_reproducible (__main__.FinalRepairs.test_pair_enumeration_reproducible) ... ok
 test_partition (__main__.FinalRepairs.test_partition) ... ok
@@ -26,6 +28,6 @@ test_status_propagation_all_ledgers (__main__.FinalRepairs.test_status_propagati
 test_supplemental_membership (__main__.FinalRepairs.test_supplemental_membership) ... ok
 
 ----------------------------------------------------------------------
-Ran 26 tests in 0.335s
+Ran 28 tests in 0.360s
 
 OK

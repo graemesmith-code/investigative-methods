@@ -39,7 +39,7 @@ W09 and geoBoundaries election reasoning now point to **SYS-0201 SAGE**, not SYS
 
 N05 now specifies a US State Department request with an explicit case/document crosswalk and an actual reading-room version comparison. Without that counterpart, it is labeled a single-source response-document check. Reading-room absence does not prove nonresponse.
 
-Active, quarantined and raw counts now propagate consistently through the pair universe, source coverage, progress, counts and active mechanism totals. Twenty-six tests pass, including semantic source-role and membership checks, saved linking values, IMO type separation and trade-flow reversal.
+Active, quarantined and raw counts now propagate consistently through the pair universe, source coverage, progress, counts and active mechanism totals. Twenty-eight tests pass, including semantic source-role and membership checks, saved linking values, IMO type separation and trade-flow reversal.
 
 ## Reproduction and costs
 
@@ -52,3 +52,7 @@ python research/2026-10-04/source-pair-completeness/code/reproduce.py
 ```
 
 This uses saved source text and earlier evidence. No network, model API or investigative record requests are made. Earlier frozen checkpoints remain preserved. Review `named-identifier-assessment.csv`, `event-role-clusters.csv`, and `event-role-pairs.csv` for admitted, deferred and rejected paths and their limits.
+
+## Final acceptance audit corrections
+
+CNPJ issuer/procurement and CVE vulnerability pairs now have the correct namespace-specific reasoning; the network fallback requires ASN. Procurement and arms cluster representatives now belong to their declared directional pair sets. The procurement cluster exchanges one alternative (55→67) for its intended representative (54→55); its size remains two. All aggregate counts remain unchanged. See `FINAL-AUDIT-REPAIRS.json`. The corrected archive is `checkpoints/pair-completeness-checkpoint-final.zip`; the earlier archive remains preserved.

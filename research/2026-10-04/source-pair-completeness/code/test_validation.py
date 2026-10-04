@@ -72,6 +72,21 @@ class FinalRepairs(Validation):
  def test_queue_pair_specific(self):
   q=jl(P/'recommended-next-tests.jsonl');self.assertEqual(len(q),9)
   for r in q:self.assertTrue(r['pair_specific_reason']);self.assertTrue(r['evidence_gaps']);self.assertTrue(r['next_cheapest_check']);self.assertEqual(r['status'],'not_executed')
+ def test_namespace_classification_semantics(self):
+  rows=jl(P/'named-identifier-assessment.jsonl'); lookup={(r['source_a'],r['source_b']):r for r in rows}
+  self.assertEqual(lookup[('SYS-0022','SYS-0056')]['cluster'],'brazil_issuer_procurement')
+  self.assertEqual(lookup[('SYS-0149','SYS-0150')]['cluster'],'vulnerability_catalog')
+  for r in rows:
+   if r['cluster']=='network_observation':self.assertIn('ASN',r['shared_catalog_namespaces'])
+   if 'CNPJ' in r['shared_catalog_namespaces']:self.assertIn('CNPJ',r['reasoning']);self.assertNotIn('ASN',r['reasoning'])
+   if 'CVE' in r['shared_catalog_namespaces']:self.assertIn('CVE',r['reasoning']);self.assertNotIn('ASN',r['reasoning'])
+ def test_cluster_representatives_are_declared_pairs(self):
+  clusters=jl(P/'event-role-clusters.jsonl');pairs=jl(P/'event-role-pairs.jsonl')
+  self.assertEqual(len(clusters),12);self.assertEqual(len(pairs),61)
+  for c in clusters:
+   a,b=c['representative_pair'];self.assertIn(a,c['source_role_a']);self.assertIn(b,c['source_role_b'])
+   hits=[r for r in pairs if r['cluster']==c['cluster'] and r['is_representative']]
+   self.assertEqual(len(hits),1);self.assertEqual((hits[0]['source_a'],hits[0]['source_b']),(f'SYS-{a:04d}',f'SYS-{b:04d}'))
 if __name__=='__main__':
- # Run inherited checks once, plus the six new repair checks.
+ # Run inherited checks once, plus the eight repair checks.
  unittest.main(defaultTest='FinalRepairs',verbosity=2)
