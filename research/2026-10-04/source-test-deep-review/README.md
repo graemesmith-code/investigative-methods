@@ -1,3 +1,5 @@
+**Latest correction and bounded pair-coverage audit: [final checkpoint](../source-pair-completeness/README.md). This third checkpoint remains preserved in its frozen ZIP.**
+
 # Source discovery: completed deeper catalog pass
 
 Start with **[27 source-specific review cards](reviewed-recipes.csv)**, including nine additional formulations from this pass. The cards explain what to observe, what should follow, why it could matter, how the sources could link, ordinary explanations and the cheapest next check. No card alleges wrongdoing, and none has been fully executed.
