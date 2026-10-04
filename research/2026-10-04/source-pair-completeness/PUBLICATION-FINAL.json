@@ -1,0 +1,17 @@
+{
+  "checkpoint_commit": "9fa87b3fe8d36134e888698c997fd4bc0d9ed11a",
+  "remote_main_verified_at_publication": "9fa87b3fe8d36134e888698c997fd4bc0d9ed11a",
+  "repository_private_verified": true,
+  "artifact": "checkpoints/pair-completeness-checkpoint-final.zip",
+  "bytes": 1573931,
+  "sha256": "2b81451a9945ddec1e3643c659ae6da095d5962d81bdbd1bbfa6f402f41fa527",
+  "local_and_remote_git_blob": "e53546bee40fae1d2cbdbea6933cc055ce303ee4",
+  "library_file_id": "libfile_1cb2e966c34081918435349a08c5418d",
+  "library_upload_file_id": "file_0000000069c8820aa1db39225a67beb9",
+  "library_status": "succeeded; local version xattrs applied",
+  "validation_checks_passed": 28,
+  "aggregate_counts_changed": false,
+  "scope": "Final namespace classification and cluster membership repairs; no new recipes or research",
+  "paid_external_api_calls": 0,
+  "weekly_usage_telemetry": "unavailable"
+}
