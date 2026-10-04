@@ -1,0 +1,22 @@
+{
+  "README.md": "fe93ef562a805bcf73685de439dfd64f3947960589926d117fd0d11fa69a3212",
+  "baseline.json": "67980781a14c1c97d30115ec84f61c0cd73c3b62c40462e4589023787f1911bb",
+  "cards.csv": "ce8b5323ea74b0ad392d459e2f20d89e0a3300d17dcedd2823f7e71854c16e60",
+  "cards.jsonl": "42d9823d91e28cddc7d0971e2ea24d95286bbeca2e5838d9828546428ed2783c",
+  "code/bid_compare.py": "2fad1c8eec2da3fdc10fedd5f2086b082169cf91513fd9938860d78e740b667d",
+  "code/design.py": "4e47095fff38cfae4621dac58a19eda7c3cd6e2890ec0838ddf2aebef8c5e24f",
+  "code/evidence.py": "03e565451306a94867a502cc532920431e66241ebdd3be874beaa723db95a12f",
+  "code/package.py": "f70f649f25543c40e1c59aa578e4430a7ab9150cb6632761dff0cfd130a97601",
+  "code/validate.py": "fa126ea5ca75f506716d7fc4c3db93e2e04ef9802a34caea9f24cc08d63c9dc0",
+  "counts.json": "1b7d158b1042c9f27d49a90a982b3aeade144bb920d7fef849adcbe0a17c80b1",
+  "evidence/access-log.jsonl": "da1e53ec801e5fa4d46ad2b9ee8532b56c27e4272eb1d841cd12054497fa3088",
+  "evidence/documentation.jsonl": "cafa6d60b1f6538816af49bb9496702bc91215ac9ffc2e8c46a01f77f7aa7945",
+  "evidence/sample-observations.jsonl": "70d22c7b92541b1251b4d6f1c3a73b58f280d9bbade4bfd444f89b14101752c6",
+  "evidence/validation-results.txt": "2c1d8cfc4d2e4c79708e30f5859b95139f928c913ffaec3102eaac9e4414573e",
+  "predicate-coverage.csv": "09cdc87501e7c3fadc1dbd0a9a61cb6425b94655217167d85e3bbd19199e467c",
+  "predicate-coverage.jsonl": "af7a16f15875cec1d02219338089ab9c99cd30ed89b9d6358b72e1a6565319ce",
+  "progress-ledger.jsonl": "1d2088c3e741c72eb6728b0d07188eee4966ad52ea7d66237ea28d67eeee53ee",
+  "source-coverage.csv": "184bf25165da6a5cb2eb31e1282ba29d67aba6b0c8ed92b84df6c6a4db17f7ab",
+  "source-coverage.jsonl": "2f1901b23fcf44a47cdc0ac53e9985098f9b475432049e0809d70514a594cba0",
+  "sources.jsonl": "1a30927655d8e0c9e2d897cf4308f06c449f2812411f32047306023f74f7b838"
+}

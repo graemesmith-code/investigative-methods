@@ -1,0 +1,24 @@
+test_ad_exact_product_and_context (__main__.ArtifactChecks.test_ad_exact_product_and_context) ... ok
+test_all_sources_preserved_and_coverage_honest (__main__.ArtifactChecks.test_all_sources_preserved_and_coverage_honest) ... ok
+test_counts_and_pending_not_screened (__main__.ArtifactChecks.test_counts_and_pending_not_screened) ... ok
+test_docs_resolve (__main__.ArtifactChecks.test_docs_resolve) ... ok
+test_inventory_not_population (__main__.ArtifactChecks.test_inventory_not_population) ... ok
+test_licence_scope_and_credential_gate (__main__.ArtifactChecks.test_licence_scope_and_credential_gate) ... ok
+test_no_exact_duplicates (__main__.ArtifactChecks.test_no_exact_duplicates) ... ok
+test_no_feasibility_or_findings_promotion (__main__.ArtifactChecks.test_no_feasibility_or_findings_promotion) ... ok
+test_original_provenance_preserved (__main__.ArtifactChecks.test_original_provenance_preserved) ... ok
+test_prior_corrections_applied (__main__.ArtifactChecks.test_prior_corrections_applied) ... ok
+test_procurement_scope_and_nonprice_guard (__main__.ArtifactChecks.test_procurement_scope_and_nonprice_guard) ... ok
+test_rank_reproducible (__main__.ArtifactChecks.test_rank_reproducible) ... ok
+test_sample_is_not_conflicting_pair (__main__.ArtifactChecks.test_sample_is_not_conflicting_pair) ... ok
+test_missing_price_rejected (__main__.SyntheticBidArithmeticChecks.test_missing_price_rejected) ... ok
+test_no_original_advantage_not_reversal (__main__.SyntheticBidArithmeticChecks.test_no_original_advantage_not_reversal) ... ok
+test_noncomparable_or_ineligible_rival_rejected (__main__.SyntheticBidArithmeticChecks.test_noncomparable_or_ineligible_rival_rejected) ... ok
+test_nonfinite_rejected (__main__.SyntheticBidArithmeticChecks.test_nonfinite_rejected) ... ok
+test_reversal_arithmetic (__main__.SyntheticBidArithmeticChecks.test_reversal_arithmetic) ... ok
+test_unit_currency_mismatch_rejected (__main__.SyntheticBidArithmeticChecks.test_unit_currency_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.014s
+
+OK

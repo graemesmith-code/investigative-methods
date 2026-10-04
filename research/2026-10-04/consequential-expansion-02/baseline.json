@@ -1,0 +1,28 @@
+{
+  "prior_review_correction_commit": "5a53612c2032e0801504528bee8e18b6d1a476dd",
+  "prior_non_refinement_detailed_cards": 44,
+  "new_proposed_cards": 4,
+  "new_refinements": 1,
+  "provisional_cumulative_non_refinement_cards": 48,
+  "prior_active_pair_rows": 1715,
+  "prior_quarantines": 15,
+  "prior_expansion_review_corrections": {
+    "original_checkpoint_commit": "42554f4f8e52983196b6ee65e44d6cb2e4bb9d4b",
+    "original_zip_preserved": true,
+    "new_count": 12,
+    "refinements": 4,
+    "cumulative_non_refinement_cards": 44,
+    "changes": {
+      "X01": "H04 overlap; refinement",
+      "X10": "E02 commercial-sourcing specialization; refinement",
+      "E07": "2016 historical guidance; current House-linked revision verified separately as E24",
+      "X13": "Asset and outstanding-liability conditions separate; no automatic mortgage offset",
+      "X08": "Issuing office, actual-security custodian and retrieval dependencies explicit",
+      "X06": "Disbursement purpose does not supply ad creative ID",
+      "X14": "Relationship to N06 acknowledged",
+      "X02": "ESTMA payer evidence is not recipient evidence"
+    },
+    "weekly_meter": "unavailable"
+  },
+  "count_caveat": "new four have no independent novelty review yet; no end-to-end feasible or positive cases"
+}
