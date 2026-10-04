@@ -1,0 +1,16 @@
+{
+  "content_commit": "5a17bb5502afbafd7922acd7d9fd22920c756bfc",
+  "artifact": "checkpoints/consequential-discovery-start-here-through-09-audit-fixed.zip",
+  "bytes": 4739273,
+  "sha256": "e4cec16cc7a7f0dcc3621120bc4aac3f3a7aaf7c350f39ed6b5d986a7534de1b",
+  "git_blob": "ca3ec721771a4ffd8636bed2510ded7ed477fb3b",
+  "remote_blob_and_size_match": true,
+  "zip_crc_passed": true,
+  "library_file_id": "libfile_ef4ec94f883c8191a00b86cb472828cd",
+  "library_version": 1,
+  "library_replacement_confirmed": true,
+  "xattrs_applied": true,
+  "checks_passed": 10,
+  "fix": "Browser launch failure appends; regression verifies retained incident line plus one new failure; no real browser started",
+  "historical_artifacts_preserved": true
+}
