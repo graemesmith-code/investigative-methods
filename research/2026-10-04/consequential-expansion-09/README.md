@@ -18,3 +18,5 @@ Files:
 Run `python code/build.py`, `python code/validate.py`, then `python code/package.py` locally. They reuse saved evidence and perform no network requests. `safe_probe.py` is a separate explicit network action; it uses normal HTTPS and stops on exceptions. Source texts remain in the private repository with the 344-source manifest's IDs, original paths, line ranges and hashes.
 
 Actual time/cost for a complete journalist test is unknown. Weekly ChatGPT telemetry is unavailable. No paid API calls, acquisition, outreach or account creation.
+
+Final audit repair: the browser-launch failure path now appends to its retained log. A simulated-launch regression preserves the existing line and verifies exactly one new failure entry. The updated bundle includes the repaired script; no new discovery pass or live probe was run.

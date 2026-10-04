@@ -45,4 +45,21 @@ class SampleEvidence(unittest.TestCase):
   r=next(x for x in jl(P/'evidence/browser-probes.jsonl') if x.get('label')=='aer-well-record-selection-attempt');self.assertFalse(r['usable_as_verified_evidence']);self.assertTrue(r['form_entry_completed']);self.assertEqual(r['observed_fields']['licence'],'0466075');self.assertFalse(r['observed_fields']['operation_dates_obtained']);self.assertFalse(r['observed_fields']['consent_obtained'])
  def test_archive_empty_not_absence_claim(self):
   self.assertEqual(json.loads((P/'evidence/safe-media-availability.json').read_text())['archived_snapshots'],{});r=next(x for x in jl(P/'route-checks.jsonl') if x['test_id']=='J01');self.assertFalse(r['full_case_feasible'])
+class AppendOnlyAudit(unittest.TestCase):
+ def test_launch_failure_preserves_existing_log(self):
+  import tempfile,runpy,types,contextlib,io
+  from unittest.mock import patch
+  @contextlib.contextmanager
+  def fake_playwright():
+   def fail_launch(**kwargs):raise RuntimeError('simulated launch failure; no browser started')
+   yield types.SimpleNamespace(chromium=types.SimpleNamespace(launch=fail_launch))
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td);(root/'code').mkdir();(root/'evidence').mkdir()
+   script=root/'code/browser_probe.py';script.write_text((P/'code/browser_probe.py').read_text())
+   log=root/'evidence/browser-probes.jsonl';original=b'{"stage":"retained_incident","usable_as_verified_evidence":false}\n';log.write_bytes(original)
+   fake=types.ModuleType('playwright.sync_api');fake.sync_playwright=fake_playwright
+   with patch.dict('sys.modules',{'playwright.sync_api':fake}),contextlib.redirect_stdout(io.StringIO()):
+    with self.assertRaises(SystemExit) as caught:runpy.run_path(str(script),run_name='__main__')
+   self.assertEqual(caught.exception.code,0);self.assertTrue(log.read_bytes().startswith(original))
+   rows=[json.loads(x) for x in log.read_text().splitlines()];self.assertEqual(len(rows),2);self.assertEqual(rows[0]['stage'],'retained_incident');self.assertEqual(rows[1]['stage'],'browser_launch');self.assertIn('simulated launch failure',rows[1]['error'])
 if __name__=='__main__':unittest.main(verbosity=2)

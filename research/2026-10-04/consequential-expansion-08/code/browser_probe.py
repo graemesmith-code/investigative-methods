@@ -5,7 +5,8 @@ urls=[('aer-one-well','https://www2.aer.ca/t/Production/views/PRD_1000_Hydraulic
 with sync_playwright() as p:
  try:b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True)
  except Exception as e:
-  (P/'evidence/browser-probes.jsonl').write_text(json.dumps(dict(stage='browser_launch',error=str(e),utc=datetime.datetime.now(datetime.timezone.utc).isoformat()))+'\n');print(str(e));raise SystemExit(0)
+  with (P/'evidence/browser-probes.jsonl').open('a') as f:f.write(json.dumps(dict(stage='browser_launch',error=str(e),utc=datetime.datetime.now(datetime.timezone.utc).isoformat()))+'\n')
+  print(str(e));raise SystemExit(0)
  for label,url in urls:
   d=dict(label=label,url=url,utc=datetime.datetime.now(datetime.timezone.utc).isoformat());page=b.new_page(ignore_https_errors=False);d["browser_certificate_validation"]= "required; stop on certificate failure"
   try:

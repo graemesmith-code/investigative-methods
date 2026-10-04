@@ -18,7 +18,7 @@ J01 stays a conditional small pilot, with effort tier3 because an original paylo
 
 Inherited evidence IDs now use qualified file paths and supporting source IDs. B01 resolves to batch06 EIA schema, B02 to its World Bank audit; N01 retains no such support. All original ZIPs and Git history remain preserved. The corrected ZIP supersedes the original08 bundle for current use.
 
-Thirteen checks pass after quarantine-aware updates, including qualified evidence resolution and protection against counting quarantined observations. Earlier failed/passing outputs remain in Git and the initial test log. Corrected07's fourteen checks passed separately.
+Fourteen checks pass after quarantine-aware updates, including qualified evidence resolution and protection against counting quarantined observations. An additional regression simulates browser-launch failure and proves that a pre-existing incident log remains byte-for-byte intact before the appended failure entry. No real browser starts in this test. Earlier failed/passing outputs remain in Git and the initial test log. Corrected07's fourteen checks passed separately.
 
 Use `route-checks.csv`, the complete `cross-batch-ranked-routes.csv`, `counts.json`, and the evidence logs. Local build/validate/package scripts make no network calls. Separate probe scripts require normal HTTPS; stop on a certificate warning. No full investigation, paid calls, payment or outreach occurred.
 
