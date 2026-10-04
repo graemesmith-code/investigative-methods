@@ -1,0 +1,23 @@
+test_assay_unit_of_observation (__main__.ExpansionValidation.test_assay_unit_of_observation) ... ok
+test_cms_payment_recipient_semantics (__main__.ExpansionValidation.test_cms_payment_recipient_semantics) ... ok
+test_counts_no_refinement_inflation (__main__.ExpansionValidation.test_counts_no_refinement_inflation) ... ok
+test_declared_doc_references (__main__.ExpansionValidation.test_declared_doc_references) ... ok
+test_lobbying_historical_rule_guard (__main__.ExpansionValidation.test_lobbying_historical_rule_guard) ... ok
+test_name_bridge_not_stable (__main__.ExpansionValidation.test_name_bridge_not_stable) ... ok
+test_no_exact_duplicate_fingerprints (__main__.ExpansionValidation.test_no_exact_duplicate_fingerprints) ... ok
+test_no_execution_promotion (__main__.ExpansionValidation.test_no_execution_promotion) ... ok
+test_no_institutional_or_accounting_substitution (__main__.ExpansionValidation.test_no_institutional_or_accounting_substitution) ... ok
+test_original_baseline_preserved (__main__.ExpansionValidation.test_original_baseline_preserved) ... ok
+test_property_route_and_namespace (__main__.ExpansionValidation.test_property_route_and_namespace) ... ok
+test_rank_dimensions_separate_and_reproducible (__main__.ExpansionValidation.test_rank_dimensions_separate_and_reproducible) ... ok
+test_refinements_and_legal_exceptions (__main__.ExpansionValidation.test_refinements_and_legal_exceptions) ... ok
+test_scope_extension_explicit (__main__.ExpansionValidation.test_scope_extension_explicit) ... ok
+test_screen_coverage (__main__.ExpansionValidation.test_screen_coverage) ... ok
+test_source_id_and_provenance_integrity (__main__.ExpansionValidation.test_source_id_and_provenance_integrity) ... ok
+test_title_geography_and_history (__main__.ExpansionValidation.test_title_geography_and_history) ... ok
+test_waste_sender_receiver_and_no_absence_claim (__main__.ExpansionValidation.test_waste_sender_receiver_and_no_absence_claim) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.014s
+
+OK

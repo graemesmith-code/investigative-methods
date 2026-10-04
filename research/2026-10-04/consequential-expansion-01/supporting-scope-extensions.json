@@ -1,0 +1,13 @@
+[
+  {
+    "extension_id": "ES01",
+    "name": "RCRAInfo historical permitting/handler and manifest records; actual state/federal permits",
+    "used_by": [
+      "X03"
+    ],
+    "status": "supporting source outside the344explicit-field descriptions; no RCRAInfo named entry found by text search in selected Rabbit originals",
+    "url": "https://rcrainfo.epa.gov/rcrainfoprod/action/public/public-site/extract",
+    "reason": "ECHO identity/context alone does not establish historical process/waste authorization or actual shipment handling",
+    "access": "documentation only; no bulk files, credential request or records downloaded"
+  }
+]
