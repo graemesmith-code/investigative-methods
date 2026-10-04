@@ -1,0 +1,17 @@
+{
+  "checkpoint_commit": "51b9f380a1590a5f7627711e4701104e057a9d20",
+  "remote_main_verified_at_publication": "51b9f380a1590a5f7627711e4701104e057a9d20",
+  "repository_private_verified": true,
+  "artifact": "checkpoints/deep-review-checkpoint.zip",
+  "bytes": 1597094,
+  "sha256": "acbbeb703003ae017046556cd4f395e5ca7c3e6d38f5eb3fd3e974e199b8178a",
+  "local_and_remote_git_blob": "e3e0ff865b1680c7d21ff72b886512810c3bea5d",
+  "library_file_id": "libfile_e17f0fe57b008191bcc004bc34e7e0a9",
+  "library_upload_file_id": "file_00000000d2c4820a8d61e62eacc36078",
+  "library_status": "succeeded; version xattrs applied",
+  "validation_checks_passed": 20,
+  "completed_scope": "Individual catalog reasoning across all344sources and all65mechanisms; no full pair-execution validation claimed",
+  "remaining": "Resolve identity, historical data, coverage, legal applicability and permission/credential gates for selected pilot investigations",
+  "weekly_usage_telemetry": "unavailable",
+  "paid_external_api_calls": 0
+}
