@@ -1,0 +1,21 @@
+test_access_failure_not_absence (__main__.PriorityArtifactChecks.test_access_failure_not_absence) ... ok
+test_all_sources_and_provenance (__main__.PriorityArtifactChecks.test_all_sources_and_provenance) ... ok
+test_charity_identity_and_historical_status (__main__.PriorityArtifactChecks.test_charity_identity_and_historical_status) ... ok
+test_compensation_escrow_and_claim_identity (__main__.PriorityArtifactChecks.test_compensation_escrow_and_claim_identity) ... ok
+test_consent_not_name_change (__main__.PriorityArtifactChecks.test_consent_not_name_change) ... ok
+test_documentation_references (__main__.PriorityArtifactChecks.test_documentation_references) ... ok
+test_dormancy_and_return_gates (__main__.PriorityArtifactChecks.test_dormancy_and_return_gates) ... ok
+test_eight_priorities_three_explicit_subchecks (__main__.PriorityArtifactChecks.test_eight_priorities_three_explicit_subchecks) ... ok
+test_guarantee_perimeter_and_instrument (__main__.PriorityArtifactChecks.test_guarantee_perimeter_and_instrument) ... ok
+test_maintenance_not_promoted (__main__.PriorityArtifactChecks.test_maintenance_not_promoted) ... ok
+test_new_and_refinement_counts (__main__.PriorityArtifactChecks.test_new_and_refinement_counts) ... ok
+test_no_feasibility_or_legal_promotion (__main__.PriorityArtifactChecks.test_no_feasibility_or_legal_promotion) ... ok
+test_outage_not_market_manipulation (__main__.PriorityArtifactChecks.test_outage_not_market_manipulation) ... ok
+test_prior_review_counts_preserved (__main__.PriorityArtifactChecks.test_prior_review_counts_preserved) ... ok
+test_rank_formula_and_separate_dimensions (__main__.PriorityArtifactChecks.test_rank_formula_and_separate_dimensions) ... ok
+test_selected_rows_match_cards (__main__.PriorityArtifactChecks.test_selected_rows_match_cards) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.013s
+
+OK

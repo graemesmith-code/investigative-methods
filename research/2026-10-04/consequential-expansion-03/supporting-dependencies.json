@@ -1,0 +1,20 @@
+[
+  {
+    "card": "Q02",
+    "dependency": "IRS historical exemption/determination and actual organization-origin transfer evidence",
+    "relationship": "Supporting official records outside the Form 990 file alone; not claimed as a new normalized catalog source",
+    "access": "No status lookup, private ledger or bank record obtained"
+  },
+  {
+    "card": "REF-INS",
+    "dependency": "Signed insurance application and authenticated engineering exhibit",
+    "relationship": "Must already be lawfully public or otherwise authorized; catalog docket metadata does not establish contents",
+    "access": "No paid fetch"
+  },
+  {
+    "card": "REF-COMP",
+    "dependency": "Claimant/parcel compensation disposition and approved escrow evidence",
+    "relationship": "Project documents may omit these; no household inference from imagery",
+    "access": "No private record, personal bank detail or outreach acquired"
+  }
+]

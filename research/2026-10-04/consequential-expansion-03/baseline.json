@@ -1,0 +1,32 @@
+{
+  "expansion01_corrections": "5a53612c2032e0801504528bee8e18b6d1a476dd",
+  "expansion02_core_repairs": "e7a4644",
+  "reviewed_non_refinement_cards": 48,
+  "prior_active_pair_rows": 1715,
+  "quarantines": 15,
+  "prior_review_corrections": {
+    "review": "Independent parent review accepts four new formulations after repairs",
+    "new_count": 4,
+    "refinements": 1,
+    "cumulative_non_refinement_cards": 48,
+    "original_zip_preserved": true,
+    "Z01": [
+      "Strict same-rival original advantage required for reversal",
+      "Tie-to-loss separate",
+      "Rival margins and item contributions returned",
+      "Losers have submitted bid rates, not contractual rates",
+      "Quantity pricing/fixed charges/specifications/performance/rate-adjustment gates required"
+    ],
+    "Z02": [
+      "Inventory observation date is distinct from legal eligibility cutoff",
+      "Presence at claimed date or interval required",
+      "Earlier image alone insufficient",
+      "Demolition/removal/relocation explicit falsifiers"
+    ],
+    "checks": {
+      "artifact": 13,
+      "synthetic_arithmetic": 8,
+      "synthetic_temporal": 3
+    }
+  }
+}

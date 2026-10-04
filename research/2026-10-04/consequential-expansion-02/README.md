@@ -122,7 +122,7 @@ proposed_new; priority rank 3. Consequence 5/5; testability 1/5; join route 2/3;
 
 **Access evidence:** World Bank framework documentation establishes inventory context; no project inventory or usable image pair sampled. The earlier project-document component sample does not confirm these fields for this predicate.
 
-**Method:** Record the exact claim, polygon and cutoff; require clear evidence of presence at the claimed date/interval; an earlier image alone fails, and any inference of persistence needs independent temporal corroboration. Report only the minimum verified physical counterexamples, positional uncertainty and any ambiguity; do not multiply structures by a population ratio.
+**Method:** Record the exact claim, polygon, inventory observation date/interval and separate eligibility cutoff; require clear evidence of presence at the claimed date/interval; an earlier image alone fails, and any inference of persistence needs independent temporal corroboration. Report only the minimum verified physical counterexamples, positional uncertainty and any ambiguity; do not multiply structures by a population ratio.
 
 **Provenance:** SYS-0145 World Bank Documents & Reports API (references/rabbit/originals/Rabbit2(1).txt:9143; APs AP-0146); SYS-0103 USGS Landsat data (references/rabbit/originals/Rabbit2(1).txt:6713; APs AP-0104); SYS-0058 World Bank Projects & Operations (references/rabbit/originals/Rabbit2(1).txt:4148; APs AP-0059); SYS-0115 JRC Global Surface Water (references/rabbit/originals/Rabbit2(1).txt:7375; APs AP-0116)
 

@@ -1,0 +1,5 @@
+{"stage": "prior_review_repairs", "expansion01_new": 12, "expansion01_refinements": 4, "expansion02_new": 4, "expansion02_refinements": 1, "cumulative": 48}
+{"stage": "eight_priority_screen", "prior_gap_ids": ["G16", "G17", "G18", "G19", "G20", "G21", "G22", "G23"], "subchecks": 24, "subchecks_not_independent_mechanisms": true}
+{"stage": "development", "new_proposed": 3, "refinements": 4, "record_pairs": 0}
+{"stage": "validation", "artifact_checks": 16, "positive_findings": 0}
+{"stage": "stop", "reason": "All eight named priorities have substantive branch decisions; unresolved original-record dependencies or different predicates are needed for further progress. No global exhaustion claim.", "remaining": "Independent novelty review; authorized record pilots or newly prioritized gap set"}
