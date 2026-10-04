@@ -1,0 +1,25 @@
+{
+  "checkpoint_commit": "83190b023fcd023bc86cef70784a2b648c3e3e5b",
+  "prior_corrections_commit": "5a53612c2032e0801504528bee8e18b6d1a476dd",
+  "remote_main_verified": true,
+  "repository_private_verified": true,
+  "zip": "checkpoints/consequential-expansions-reviewed-plus-02.zip",
+  "size_bytes": 527975,
+  "sha256": "50d7e30f23f031779c81209992bbc6d5de33e3482448e18ef7a16773a165b1bf",
+  "local_and_remote_git_blob": "cc5944953a94493554607efde1da68af14ef1d18",
+  "library_file_id": "libfile_f1a52b536dac819191244e0539c84159",
+  "file_id": "file_000000007478820a933b07ca5d8373a0",
+  "library_status": "succeeded",
+  "library_xattrs_applied": true,
+  "verification": "Remote metadata Git blob and byte size match local; local ZIP CRC passes. No binary re-download claimed.",
+  "counts": {
+    "new_proposed": 4,
+    "refinement": 1,
+    "screened_predicates": 16,
+    "queued_unexamined": 8,
+    "prior_corrected_non_refinement_cards": 44,
+    "provisional_cumulative": 48
+  },
+  "weekly_meter": "unavailable",
+  "paid_external_api_calls": 0
+}
