@@ -1,0 +1,15 @@
+test08_quarantine (__main__.Checks.test08_quarantine) ... ok
+test_all70_once (__main__.Checks.test_all70_once) ... ok
+test_manifest344 (__main__.Checks.test_manifest344) ... ok
+test_no_archive_positive (__main__.Checks.test_no_archive_positive) ... ok
+test_no_invented_runtime (__main__.Checks.test_no_invented_runtime) ... ok
+test_no_reusable_bypass (__main__.Checks.test_no_reusable_bypass) ... ok
+test_pdf_not_full_priority (__main__.Checks.test_pdf_not_full_priority) ... ok
+test_scoped_evidence_resolves (__main__.Checks.test_scoped_evidence_resolves) ... ok
+test_slate_integrity (__main__.Checks.test_slate_integrity) ... ok
+test_tls_and_saved_hashes (__main__.Checks.test_tls_and_saved_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.017s
+
+OK

@@ -1,0 +1,28 @@
+{
+  "accepted_formulations": 55,
+  "refinements": 15,
+  "cards": 70,
+  "all70_gap_classified": 70,
+  "gap_class_counts": {
+    "B_multiple_documents_and_identity_or_methods": 12,
+    "E_coverage_definition_measurement_or_attribution": 23,
+    "C_operative_instrument_or_case_specific_chain": 24,
+    "A_small_original_document_packet": 5,
+    "D_access_reuse_or_provider_gate": 6
+  },
+  "cheap_shortlist": 8,
+  "news_shortlist": 7,
+  "new_predicates": 0,
+  "full_case_feasible": 0,
+  "actual_wrongdoing_findings": 0,
+  "validated_grant_documents": 1,
+  "validated_current_media_payloads": 1,
+  "validated_historical_media_payloads": 0,
+  "validated_law_documents": 1,
+  "quarantined08_browser_observations": 5,
+  "paid_calls": 0,
+  "weekly_telemetry": "unavailable",
+  "last_user_report_remaining": 88,
+  "checkpoint_checks_passed": 10,
+  "corrected08_checks_passed": 13
+}
