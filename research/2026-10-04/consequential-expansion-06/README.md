@@ -6,23 +6,26 @@ The most valuable result is a clearer choice of what to try next. Clinical-trial
 
 ## Cheapest next checks across the batches
 
-| Rank | Route | Why it is near the front | Remaining gate |
+| Rank | Route | Readiness | Effort |
 |---|---|---|---|
-| 1 | R05 — Trial registration and publication | Earlier sample demonstrated registry-reference linkage and retrieved the trial. | Historical protocol/outcome versions and actual published analysis. |
-| 2 | R11 — World Bank project and underlying document | Earlier sample linked project ID to an agreement text. | Exact operative condition and independent implementation evidence. |
-| 3 | R12 — OONI measurement and ASN context | Earlier samples demonstrated the network-identifier route. | Historical attribution, measurement quality and alternative outage explanations. |
-| 4 | N01 — Aid-account definitions and audit reconciliation | New public audit demonstrates reported/certified amounts and loan/date context. | Compatible scope and original accounts; no automatic cross-donor comparison. |
-| 5 | B01 — Plant energy-conversion balance | Live schema and one aggregate row expose distinct total and allocated inputs. | Complete physical boundary, uncertainty, and claim reliance on tested quantities. |
-| 6 | V01 — Fund concentration constraint | Official field dictionary and corrected conservative-bound helper. | Exact fund/class mandate, verified canonical holdings and measurement bounds. |
-| 7 | R01 — OFAC and procurement actions | Earlier source samples demonstrate award-to-action retrieval. | Actual identity, restriction scope/date, exceptions and original action meaning. |
+| 1 | R05 | 1 | 2 |
+| 2 | R11 | 1 | 2 |
+| 3 | R12 | 1 | 2 |
+| 4 | B01 | 2 | 2 |
+| 5 | R01 | 2 | 2 |
+| 6 | R04 | 2 | 2 |
+| 7 | R15 | 2 | 2 |
+| 8 | R18 | 2 | 2 |
+| 9 | V01 | 2 | 2 |
+| 10 | N04 | 3 | 2 |
 
-`cross-batch-ranked-routes.csv` and JSONL contain all 67 cards, source-file pointers, next checks and reasons. The ranking is an editorial readiness/effort ordering, not a statistical estimate of success. Tier1 means an identifier/document bridge was demonstrated; tier2 means one-sided metadata/sample or document anatomy; tier3 means original evidence remains unresolved; tier4 marks known access/reuse blocks. Within a tier, effort1–4 runs from a short existing-document check to unavailable instruments or access gates. These effort tiers are new comparative judgments, not quoted prices or elapsed-time estimates. Original feasibility descriptions and scores are preserved separately. Potential consequence scores describe a material case if established, not likely newsworthiness or yield. No card is marked full-case feasible.
+`cross-batch-ranked-routes.csv` and JSONL contain all 67 cards, source-file pointers, next checks and reasons. The ranking is an editorial readiness/effort ordering, not a statistical estimate of success. Tier1 means an identifier/document bridge was demonstrated; tier2 means one-sided metadata/sample or document anatomy; tier3 means original evidence remains unresolved; tier4 marks known access/reuse blocks. Within a tier, effort1–4 runs from a short existing-document check to unavailable instruments or access gates. These effort tiers are new comparative judgments, not quoted prices or elapsed-time estimates. Original feasibility descriptions and raw score values, original field names and scale labels are preserved separately, including baseline testability_score. Missing original scores remain null and never become zero. Baseline public-interest scores and later 1–5 consequence scores are incomparable and never enter the sorting key. Exact readiness/effort ties use test ID only for deterministic display; neighboring positions within a tie are not substantive priority differences. This ranks readiness for the next check, not the cost of reaching a meaningful investigative finding. Potential consequence scores describe a material case if established, not likely newsworthiness or yield. No card is marked full-case feasible.
 
 ## What the concrete checks established
 
 **EIA:** Two free public API calls using the documented demonstration key returned metadata and exactly one January 2024 plant-period row. The fields include plantCode, fuel/source and prime-mover dimensions, net generation, total-consumption-btu, and consumption-for-eg-btu. The saved row is an ALL aggregate, not proof of complete physical inputs. No balance was calculated. Inputs are operator-reported measurements or estimates; this is not an independent observation. The API's large total-count/warning is preserved, but only one row was requested and obtained.
 
-**World Bank:** One five-page public audit identifies a project through its URL, a loan on the cover and a financial-year interval. Its tables offer component-level expenditure/certification and implementing-unit advance categories. They do not supply B02's required invoice/settlement chain. This is a useful simpler N01 application—checking what “spent” means—but not a new predicate, duplicate-payment finding or investigation of the sample project. Later responses and resolution were not researched.
+**World Bank:** One five-page public audit identifies a project through its URL, a loan on the cover and a financial-year interval. Its tables offer component-level expenditure/certification and implementing-unit advance categories. They do not supply B02's required invoice/settlement chain. This supports a separate audit-accounting application—checking what “spent” means—but supplies no OECD/IATI bridge for N01. N01 remains at its original evidence-supported readiness tier 3. No new predicate, duplicate-payment finding or investigation of the sample project is claimed. Later responses and resolution were not researched.
 
 **Norwegian ships:** Supporting Rabbit source SYS-0854/AP-1802 had a stale 404 route. Current official documentation now supplies a production search link, IMO and owner-organization search fields, and a publisher-described historical-search route. The browser exposed no actual ship record. Free search is distinct from paid certification. Bareboat/title/flag/owner/mortgage roles must be reconciled before asserting incompatible registrations. This improves S03/S04/R03 applications without adding a predicate or clearing Equasis restrictions.
 
@@ -36,7 +39,7 @@ The most valuable result is a clearer choice of what to try next. Clinical-trial
 
 Independent review accepts B01/B02, bringing the non-refinement total to 53. B01 now requires an issuer claim to state or demonstrably rely on the exact quantities tested. Otherwise an imbalance is only an EIA reporting-quality lead. B02's helper uses `permitted_recovery_upper`: the combined recovery cap can be below invoice cost and is separate from each funder's individual cap. The fixture with a 100 invoice, 60 combined cap and 70 completed recoveries flags the excess. The helper does not check individual funder caps. Expansion05 now passes 19 checks.
 
-This checkpoint passes 10 artifact/provenance checks, including the 267+77 source count, 1,555-block scan, bounded API response, supporting-source hash and complete 67-card inventory. An initial validation attempt incorrectly matched the text “refinement” inside “non_refinement”; the test was corrected to explicit categories. The failed attempt is preserved alongside the passing log. These checks do not validate a substantive case.
+This checkpoint passes13 artifact/provenance checks, including the 267+77 source count, 1,555-block scan, bounded API response, supporting-source hash and complete 67-card inventory. An initial validation attempt incorrectly matched the text “refinement” inside “non_refinement”; the test was corrected to explicit categories. The failed attempt is preserved alongside the passing log. These checks do not validate a substantive case.
 
 ## Limits and next work
 
@@ -116,12 +119,12 @@ Disposition: bounded_schema_sample_improvement; prior formulation: B01.
 
 ### U06 — Public project audit exposes access granularity
 
-Disposition: document_anatomy_improvement; prior formulation: B02/N01.
+Disposition: document_anatomy_improvement; prior formulation: B02; separate audit-accounting application.
 
 **Verified:** One five-page audit links projectURL, loan identifier, fiscal interval and reported-versus-certified expenditure categories.
 
 **Constraint:** Component and implementing-unit totals do not identify a uniquely reimbursed invoice or independently settled payment. Unliquidated advances differ from completed expenditure.
 
-**Next cheapest check:** Read certification basis and find original cost/settlement references. For the simpler N01 application, compare precisely defined reported and certified expenditures at the same cutoff.
+**Next cheapest check:** Read certification basis and find original cost/settlement references. As a separate audit-accounting application, compare reported and certified expenditures at the same cutoff; this does not establish N01’s OECD/IATI bridge.
 
 **Unresolved:** Sample lacks B02 invoice/settlement chain; no duplicate reimbursement or new finding established.

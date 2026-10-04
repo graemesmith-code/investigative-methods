@@ -4,7 +4,6 @@
   "ordering": [
     "readiness_tier ascending",
     "effort_tier ascending",
-    "potential_consequence descending when available",
     "test_id"
   ],
   "readiness": {
@@ -14,7 +13,7 @@
     "4": "Known provider/access/reuse block"
   },
   "effort": "Ordinal editorial effort for next useful check, not total investigation cost;1short existing check,2bounded lookup/crosswalk,3original-document reconstruction,4external unavailable instruments or access gates.",
-  "consequence": "Potential only under a material verified case, not expected news yield",
+  "consequence": "Raw source-specific values retained for provenance only; incomparable across batches and excluded from ordering",
   "full_case_feasibility": "Not established for any card",
   "scope": "Canonical32-card baseline plus expansions01\u201305; historical duplicated versions excluded; six current access routes are not additional hypotheses."
 }

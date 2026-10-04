@@ -1,0 +1,16 @@
+{
+  "issues": [
+    "Incomparable90-ish public-interest and1\u20135 consequence scores were used in a cross-batch tie-breaker.",
+    "WorldBank audit evidence wrongly promoted N01 OECD/IATI readiness.",
+    "Baseline testability_score was omitted and became null."
+  ],
+  "corrections": [
+    "Sort only readiness, effort and deterministic test ID; raw scores retained with original field names, explicitly incomparable.",
+    "Restore N01 readiness3/effort3; WorldBank audit is a separately labeled application, not evidence for OECD/IATI linkage.",
+    "Preserve original testability field/value with baseline1\u20133 versus later1\u20135 scales; preserve original consequence0\u2013100 versus1\u20135 scales; unknown stays null. Integration checks compare every ranked score with its exact source card."
+  ],
+  "validation": "Mixed-scale invariance, persisted-output integration and exact-route evidence-source applicability checks added;13 checks total.",
+  "new_predicates": 0,
+  "total_formulations": 53,
+  "original_zip_preserved": true
+}
