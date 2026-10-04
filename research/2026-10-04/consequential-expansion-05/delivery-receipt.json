@@ -1,0 +1,20 @@
+{
+  "checkpoint_commit": "685d047c4de5dd65e4f77e2564914aa336eb2325",
+  "prior_review_repairs_commit": "627bde4",
+  "remote_main_verified": true,
+  "repository_private_verified": true,
+  "zip": "checkpoints/consequential-expansions-through-05.zip",
+  "size_bytes": 1274601,
+  "sha256": "55b259a195ed04740b531137035a0d879e42c7d3a5027909f018b191c8d92d33",
+  "git_blob": "d197d3c9c2ff9e8c9a71560b7847780a5a6515d3",
+  "library_file_id": "libfile_38449a60a36881918144419dc3849e09",
+  "file_id": "file_00000000b650820a83525e8d182428dc",
+  "xattrs_applied": true,
+  "verification": "Remote blob and byte count match local; local ZIP CRC passed. No binary re-download claimed.",
+  "reviewed_formulations": 51,
+  "pending_new_formulations": 2,
+  "provisional_total": 53,
+  "weekly_reported_remaining": 88,
+  "automatic_telemetry": "unavailable",
+  "paid_external_api_calls": 0
+}
