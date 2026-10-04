@@ -1,0 +1,22 @@
+{
+  "checkpoint_commit": "b12f610cba3591926a389c894e28249ff466cf18",
+  "remote_main_verified": true,
+  "repository_private_verified": true,
+  "zip": "checkpoints/consequential-discovery-ranked-through-06.zip",
+  "size_bytes": 3096108,
+  "sha256": "df1b4bc6a5c00cfcd18cdc023022109bf8db4612f2cd5d18c1899b4889b75f31",
+  "git_blob": "2728ef97fe12069ec5cace05878e95d6aee654d2",
+  "library_file_id": "libfile_a9aa692da4ac81919b0fe44ce1f5f203",
+  "file_id": "file_00000000627c820aa49fe984a3d5cd45",
+  "xattrs_applied": true,
+  "verification": "Remote artifact blob and size match local; local ZIP CRC passed. No binary re-download claimed.",
+  "reviewed_non_refinement_formulations": 53,
+  "new_predicates": 0,
+  "ranked_cards": 67,
+  "checkpoint_checks_passed": 10,
+  "repaired05_checks_passed": 19,
+  "weekly_reported_remaining": 88,
+  "automatic_telemetry": "unavailable",
+  "free_public_eia_calls": 2,
+  "paid_external_api_calls": 0
+}
