@@ -1,0 +1,16 @@
+{
+  "checkpoint_commit": "e8c3a96586f40f66955fe7133872a0ecc8af8100",
+  "remote_main_verified": "e8c3a96586f40f66955fe7133872a0ecc8af8100",
+  "repository_private_verified": true,
+  "artifact": "checkpoints/feasibility-checkpoint.zip",
+  "bytes": 1351381,
+  "sha256": "9acb3ca80e86999c7d9063a5d300f742b9e5d9ef35f08ba286bfb4ef181c0b11",
+  "local_and_remote_git_blob": "907f25b6b97e54448e0a094b829a15ed308f1b17",
+  "library_file_id": "libfile_bd0339792d688191b88158f122ba4021",
+  "library_upload_file_id": "file_00000000146882109bb7cc05f2a2e390",
+  "library_status": "succeeded; local version xattrs applied",
+  "integration_checks_passed": 12,
+  "remaining": "108 omitted descriptions still catalog-triage only; unreviewed candidate mechanisms and historical/access gates remain",
+  "weekly_allowance": "unavailable",
+  "paid_external_api_calls": 0
+}
