@@ -1,0 +1,20 @@
+{
+  "unit": "latest detailed card; includes refinements",
+  "count": 67,
+  "ordering": [
+    "readiness_tier ascending",
+    "effort_tier ascending",
+    "potential_consequence descending when available",
+    "test_id"
+  ],
+  "readiness": {
+    "1": "Earlier explicit identifier/document bridge demonstrated",
+    "2": "One-side schema/sample or documentary structure verified",
+    "3": "Original evidence and exact applicability unresolved",
+    "4": "Known provider/access/reuse block"
+  },
+  "effort": "Ordinal editorial effort for next useful check, not total investigation cost;1short existing check,2bounded lookup/crosswalk,3original-document reconstruction,4external unavailable instruments or access gates.",
+  "consequence": "Potential only under a material verified case, not expected news yield",
+  "full_case_feasibility": "Not established for any card",
+  "scope": "Canonical32-card baseline plus expansions01\u201305; historical duplicated versions excluded; six current access routes are not additional hypotheses."
+}

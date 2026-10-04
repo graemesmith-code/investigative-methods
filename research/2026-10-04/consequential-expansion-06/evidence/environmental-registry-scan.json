@@ -1,0 +1,27 @@
+{
+  "files": [
+    "Rabbit2(1).txt",
+    "Rabbit3.txt",
+    "Rabbit4.txt",
+    "Rabbit5.txt",
+    "Rabbit6.txt"
+  ],
+  "excluded_duplicate": "Rabbit2.txt",
+  "excluded_front_matter": "Rabbit1.txt",
+  "system_count": 1555,
+  "patterns": [
+    "carbon[ -]?credit",
+    "offset.{0,20}registr",
+    "registr.{0,20}offset",
+    "Verra",
+    "Gold Standard",
+    "Climate Action Data",
+    "renewable energy certificate",
+    "guarantee.{0,5}origin",
+    "WREGIS",
+    "\\bI-REC\\b",
+    "Union Registry"
+  ],
+  "matching_source_blocks": [],
+  "interpretation": "Targeted textual search only. No serial-level environmental-attribute registry was identified by these patterns; not proof that none exists anywhere in Rabbit prose or outside Rabbit."
+}

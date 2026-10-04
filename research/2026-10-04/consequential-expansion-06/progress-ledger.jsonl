@@ -1,0 +1,6 @@
+{"stage": "review05", "accepted_total": 53, "checks": 19}
+{"stage": "catalog_scan", "systems": 1555, "patterns": 11, "matches": 0, "global_absence_not_proven": true}
+{"stage": "bounded_evidence", "api_calls": 2, "data_rows": 1, "audit_documents": 1, "matched_cases": 0}
+{"stage": "ranking", "cards": 67, "refinements": 14, "full_case_feasible": 0}
+{"stage": "validation", "checks_passed": 10, "initial_test_classification_bug_corrected": true}
+{"stage": "checkpoint", "new_predicates": 0, "limit": "access and operative constraints dominate", "global_exhaustion_not_proven": true}

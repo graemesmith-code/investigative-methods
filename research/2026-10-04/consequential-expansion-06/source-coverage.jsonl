@@ -1,0 +1,344 @@
+{"sys_id": "SYS-0001", "name": "GLEIF LEI data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0002", "name": "OpenCorporates", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0003", "name": "Open Ownership Register", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0004", "name": "UK Companies House Public Data API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0005", "name": "SEC EDGAR", "route_ids": ["U04", "U05"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0006", "name": "Japan EDINET", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0007", "name": "ASIC company dataset", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0008", "name": "Australian Business Register bulk extract", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0009", "name": "Corporations Canada open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0010", "name": "France INPI National Business Register", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0011", "name": "India MCA company master data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0012", "name": "New Zealand Companies Register API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0013", "name": "New Zealand Business Number bulk data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0014", "name": "Singapore ACRA registered entities", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0015", "name": "Hong Kong Companies Registry open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0016", "name": "South Africa CIPC API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0017", "name": "German Company Register", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0018", "name": "OpenRegister Germany", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0019", "name": "EU Business Registers Interconnection System (BRIS)", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0020", "name": "Italy Registro Imprese", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0021", "name": "Netherlands KVK APIs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0022", "name": "Brazil CVM open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0023", "name": "OpenSanctions", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0024", "name": "US OFAC Sanctions List Service", "route_ids": ["U01"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0025", "name": "UK Sanctions List", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0026", "name": "EU consolidated financial sanctions list", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0027", "name": "UN Security Council Consolidated List", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0028", "name": "Canadian Autonomous Sanctions List", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0029", "name": "Australian Sanctions Consolidated List", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0030", "name": "World Bank debarred firms and individuals", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0031", "name": "IDB sanctioned firms and individuals", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0032", "name": "FinCEN SAR Stats", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0033", "name": "FATF mutual-evaluation ratings", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0034", "name": "US DOJ corporate enforcement actions", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0035", "name": "Stanford FCPA Clearinghouse", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0036", "name": "Good Jobs First Violation Tracker", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0037", "name": "SEC litigation releases", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0038", "name": "US EPA ECHO web services", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0039", "name": "INTERPOL Red Notices", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0040", "name": "ICIJ Offshore Leaks Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0041", "name": "OCCRP Aleph", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0042", "name": "Tax Justice Network Data Portal and Financial Secrecy Index", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0043", "name": "OECD country-by-country reporting statistics", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0044", "name": "IRS FATCA Foreign Financial Institution list", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0045", "name": "IRS Form 990 bulk filings", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0046", "name": "Canada registered charities open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0047", "name": "HM Land Registry Overseas Companies Ownership Data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0048", "name": "OpenLux", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0049", "name": "Have I Been Pwned", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0050", "name": "WikiLeaks Public Library of US Diplomacy (PlusD)", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0051", "name": "Distributed Denial of Secrets", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0052", "name": "Open Contracting Data Registry", "route_ids": ["U06"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0053", "name": "EU TED Search API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0054", "name": "USAspending API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0055", "name": "SAM.gov Contract Data API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0056", "name": "Brazil PNCP", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0057", "name": "IATI Datastore", "route_ids": ["U06"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0058", "name": "World Bank Projects & Operations", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0059", "name": "World Bank Finances", "route_ids": ["U06"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0060", "name": "Inter-American Development Bank Open Data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0061", "name": "EBRD Project Summary Documents", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0062", "name": "EU Financial Transparency System", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0063", "name": "EU Cohesion Open Data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0064", "name": "AidData datasets", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0065", "name": "OECD development-finance statistics", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0066", "name": "OCHA Financial Tracking Service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0067", "name": "US ForeignAssistance.gov", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0068", "name": "Grants.gov APIs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0069", "name": "UN Comtrade", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0070", "name": "Eurostat Comext", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0071", "name": "Global Fishing Watch APIs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0072", "name": "IMO GISIS", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0073", "name": "Equasis", "route_ids": ["U01"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0074", "name": "Paris MoU inspection and detention data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0075", "name": "Tokyo MoU inspection and detention data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0076", "name": "OpenSky Network", "route_ids": ["U03"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0077", "name": "ADS-B Exchange data products", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0078", "name": "FAA aircraft registry bulk download", "route_ids": ["U03"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0079", "name": "UNOOSA Register of Objects Launched into Outer Space", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0080", "name": "CelesTrak GP orbital data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0081", "name": "Space-Track.org", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0082", "name": "SIPRI Arms Transfers Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0083", "name": "UN Register of Conventional Arms", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0084", "name": "US DSCA Major Arms Sales archive", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0085", "name": "EU arms-export online database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0086", "name": "ENAAT EU Export Data Browser", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0087", "name": "UK strategic export licensing statistics", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0088", "name": "SIPRI Military Expenditure Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0089", "name": "NATO defence-expenditure tables", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0090", "name": "IMF PortWatch", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0091", "name": "ACLED", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0092", "name": "UCDP downloads and API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0093", "name": "Airwars civilian-harm archive", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0094", "name": "Global Terrorism Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0095", "name": "GDELT", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0096", "name": "ICEWS event data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0097", "name": "ReliefWeb API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0098", "name": "Humanitarian Data Exchange (HDX)", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0099", "name": "GDACS", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0100", "name": "EM-DAT International Disaster Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0101", "name": "Copernicus Data Space Ecosystem", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0102", "name": "NASA Earthdata CMR API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0103", "name": "USGS Landsat data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0104", "name": "NASA FIRMS active-fire data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0105", "name": "Google Earth Engine public data catalogue", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0106", "name": "Global Forest Watch Open Data Portal/API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0107", "name": "EITI API and open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0108", "name": "EITI beneficial-ownership disclosures", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0109", "name": "Global Energy Monitor trackers", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0110", "name": "Climate TRACE", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0111", "name": "ResourceContracts", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0112", "name": "OpenStreetMap and Overpass API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0113", "name": "Wikidata Query Service and dumps", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0114", "name": "Natural Earth", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0115", "name": "JRC Global Surface Water", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0116", "name": "OpenFEC API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0117", "name": "US Senate Lobbying Disclosure data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0118", "name": "FARA eFile and bulk data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0119", "name": "EU Transparency Register", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0120", "name": "Canada Registry of Lobbyists open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0121", "name": "UK Political Finance Online", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0122", "name": "European Parliament Open Data Portal", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0123", "name": "Elections Canada political-finance data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0124", "name": "Congress.gov API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0125", "name": "GovInfo API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0126", "name": "Federal Register API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0127", "name": "EUR-Lex data reuse services", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0128", "name": "HUDOC", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0129", "name": "CourtListener and RECAP", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0130", "name": "PACER", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0131", "name": "ICC Legal Tools Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0132", "name": "UN Digital Library APIs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0133", "name": "Internet Archive Wayback Machine APIs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0134", "name": "Common Crawl", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0135", "name": "DocumentCloud", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0136", "name": "MuckRock API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0137", "name": "CIA Freedom of Information Act Reading Room", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0138", "name": "US State Department FOIA Virtual Reading Room", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0139", "name": "UK National Archives Discovery API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0140", "name": "National Security Archive Virtual Reading Room", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0141", "name": "Media Cloud Search API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0142", "name": "Google Fact Check Tools API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0143", "name": "Meta Ad Library", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0144", "name": "Google Ads Transparency Center", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0145", "name": "World Bank Documents & Reports API", "route_ids": ["U06"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0146", "name": "OONI data and API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0147", "name": "RIPEstat Data API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0148", "name": "Censys Search", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0149", "name": "CISA Known Exploited Vulnerabilities catalog", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0150", "name": "NVD vulnerability API and feeds", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0151", "name": "ICANN RDAP", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0152", "name": "Certificate Transparency logs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0153", "name": "World Bank Indicators API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0154", "name": "IMF Data APIs", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0155", "name": "BIS Data Portal", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0156", "name": "ECB Data Portal API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0157", "name": "UNCTAD Data Hub", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0158", "name": "Global Human Settlement Layer", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0159", "name": "World Settlement Footprint Evolution", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0160", "name": "WorldPop spatial data API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0161", "name": "Meta High Resolution Settlement Layer", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0162", "name": "Meta Relative Wealth Index", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0163", "name": "Meta Social Connectedness Index", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0164", "name": "Google Open Buildings", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0165", "name": "Google Open Buildings 2.5D Temporal", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0166", "name": "Microsoft Global ML Building Footprints", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0167", "name": "GlobalBuildingAtlas", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0168", "name": "Overture Maps Foundation data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0169", "name": "Foursquare Open Source Places", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0170", "name": "OpenAddresses", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0171", "name": "geoBoundaries API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0172", "name": "GeoNames web services and dumps", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0173", "name": "Who's On First", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0174", "name": "European Space Agency WorldCover", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0175", "name": "Dynamic World", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0176", "name": "AlphaEarth Foundations Satellite Embeddings", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0177", "name": "OpenLandMap", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0178", "name": "SoilGrids API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0179", "name": "Global Food Security-support Analysis Data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0180", "name": "MapBiomas collections", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0181", "name": "Global Mangrove Watch", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0182", "name": "HydroSHEDS", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0183", "name": "Global Dam Watch", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0184", "name": "Aqueduct Water Risk Atlas data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0185", "name": "FAO WaPOR", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0186", "name": "OpenET API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0187", "name": "GRACE Tellus gravity and groundwater data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0188", "name": "CHIRPS rainfall", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0189", "name": "NASA IMERG precipitation", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0190", "name": "Microsoft Planetary Computer", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0191", "name": "Earth Search STAC", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0192", "name": "Radiant MLHub", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0193", "name": "Source Cooperative", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0194", "name": "OpenAerialMap API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0195", "name": "Umbra Open Data Program", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0196", "name": "Vantor Open Data Program (formerly Maxar)", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0197", "name": "Mapillary API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0198", "name": "NASA Black Marble", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0199", "name": "Earth Observation Group VIIRS Nighttime Lights", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0200", "name": "Light Every Night", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0201", "name": "Small-Area Global Elections (SAGE)", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0202", "name": "Copernicus Climate Data Store API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0203", "name": "European Centre for Medium-Range Weather Forecasts Open Data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0204", "name": "NOAA Climate Data Online API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0205", "name": "USGS Earthquake Catalog API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0206", "name": "European-Mediterranean Seismological Centre FDSN services", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0207", "name": "NASA Global Landslide Catalog", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0208", "name": "IBTrACS tropical cyclone archive", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0209", "name": "Global Flood Awareness System data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0210", "name": "UNOSAT products and damage assessments", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0211", "name": "HDX Humanitarian API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0212", "name": "OpenAQ API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0213", "name": "EDGAR emissions database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0214", "name": "Carbon Mapper Data Platform API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0215", "name": "MethaneSAT data portal and cloud data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0216", "name": "NASA EMIT greenhouse-gas products", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0217", "name": "US EPA Greenhouse Gas Reporting Program", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0218", "name": "US EPA Toxics Release Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0219", "name": "European Industrial Emissions Portal", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0220", "name": "Canada National Pollutant Release Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0221", "name": "UK Pollution Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0222", "name": "Australia National Pollutant Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0223", "name": "Carbon Majors database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0224", "name": "Global Registry of Fossil Fuels", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0225", "name": "Global Tailings Portal", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0226", "name": "Global Plastics Watch", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0227", "name": "Land Matrix API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0228", "name": "Open Supply Hub", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0229", "name": "Protected Planet API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0230", "name": "GBIF occurrence API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0231", "name": "UNHCR Refugee Data Finder API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0232", "name": "IOM Displacement Tracking Matrix", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0233", "name": "IDMC Global Internal Displacement Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0234", "name": "WHO Global Health Observatory OData API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0235", "name": "DHS Program API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0236", "name": "ILOSTAT bulk and API services", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0237", "name": "Varieties of Democracy dataset", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0238", "name": "Manifesto Project API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0239", "name": "ParlGov database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0240", "name": "Quality of Government datasets", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0241", "name": "Aid Worker Security Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0242", "name": "ACAPS API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0243", "name": "Correlates of War datasets", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0244", "name": "UN Peacekeeping data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0245", "name": "CORDIS European research projects", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0246", "name": "NIH RePORTER API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0247", "name": "CMS Open Payments", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0248", "name": "ClinicalTrials.gov API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0249", "name": "OpenAlex API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0250", "name": "Crossref REST API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0251", "name": "ORCID Public API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0252", "name": "PatentsView API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0253", "name": "EPO Open Patent Services", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0254", "name": "OpenFIGI API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0255", "name": "US Energy Information Administration API", "route_ids": ["U05"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0256", "name": "ENTSO-E Transparency Platform API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0257", "name": "MarineCadastre.gov AIS data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0258", "name": "PeeringDB API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0259", "name": "RIPE Atlas API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0260", "name": "IODA Internet Outage API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0261", "name": "Cloudflare Radar API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0262", "name": "CAIDA BGPStream", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0263", "name": "Government of Canada Open Government CKAN API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0264", "name": "Statistics Canada Web Data Service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0265", "name": "Statistics Canada Census Profile Web Data Service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0266", "name": "Statistics Canada Reference Data as a Service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0267", "name": "Bank of Canada Valet API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0268", "name": "Office of the Superintendent of Financial Institutions open financial data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0269", "name": "CanadaBuys procurement and contracting datasets", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0270", "name": "Federal proactive publication — contracts", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0271", "name": "Federal proactive publication — grants and contributions", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0272", "name": "Federal proactive disclosure — travel and hospitality", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0273", "name": "House of Commons of Canada open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0274", "name": "LEGISinfo bills open data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0275", "name": "Canada Gazette RSS feeds", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0276", "name": "Supreme Court of Canada judgments feeds", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0277", "name": "Federal Court decisions RSS feed", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0278", "name": "Health Canada Drug Product Database API and bulk data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0279", "name": "Spectrum Management System authorization data extract", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0280", "name": "Canadian Register of Large Vessels API", "route_ids": ["U02"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0281", "name": "Transportation Safety Board multimodal occurrence data", "route_ids": ["U03"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0282", "name": "Federal Contaminated Sites Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0283", "name": "Canadian Impact Assessment Registry assessment inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0284", "name": "Canada Energy Regulator pipeline incident data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0285", "name": "GEO.ca data-cube SpatioTemporal Asset Catalog API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0286", "name": "Statistics Canada 2025 census-subdivision boundary service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0287", "name": "Toronto Stock Exchange / TMX Datalinx market-data products", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0288", "name": "SEDAR+ public issuer and filing search", "route_ids": ["U04"], "status": "concrete_route_checked"}
+{"sys_id": "SYS-0289", "name": "System for Electronic Disclosure by Insiders and national registrant systems", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0290", "name": "Ontario Securities Commission open-data inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0291", "name": "Ontario Securities Commission exempt-market distributions", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0292", "name": "Ontario Securities Commission Investment Fund Survey data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0293", "name": "Ontario Securities Commission women on boards and executive positions data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0294", "name": "Ontario Securities Commission regulatory action against registrants", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0295", "name": "Extractive Sector Transparency Measures Act data portal", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0296", "name": "Principal Mineral Areas, Producing Mines, and Oil and Gas Fields (900A)", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0297", "name": "Top 100 Exploration Projects", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0298", "name": "Critical minerals advanced projects, mines and processing facilities", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0299", "name": "Natural Resources Canada Major Projects Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0300", "name": "Statistics Canada production of metallic minerals, monthly", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0301", "name": "Nunavut mineral tenure suite", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0302", "name": "British Columbia mineral, placer and coal tenure spatial view", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0303", "name": "British Columbia MINFILE mineral occurrence database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0304", "name": "British Columbia mine permit boundaries", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0305", "name": "British Columbia permitted mine inspection reports summary", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0306", "name": "Ontario Geological Survey OGSEarth", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0307", "name": "Ontario Abandoned Mines Information System", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0308", "name": "Ontario Mineral Inventory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0309", "name": "Ontario mining claims dataset", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0310", "name": "Québec mining activities", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0311", "name": "Québec mineral occurrences, deposits, mines and quarries", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0312", "name": "Québec geochemistry", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0313", "name": "Québec mineral potential", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0314", "name": "Alberta metallic and industrial minerals agreements", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0315", "name": "Alberta Energy Regulator spatial and incident data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0316", "name": "Saskatchewan mineral dispositions", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0317", "name": "Saskatchewan Mineral Deposits Index", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0318", "name": "Manitoba Integrated Mining and Quarrying System map service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0319", "name": "New Brunswick mineral occurrences service", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0320", "name": "Nova Scotia Mineral Rights Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0321", "name": "Nova Scotia Mineral Occurrence Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0322", "name": "Newfoundland and Labrador mineral exploration statistics", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0323", "name": "Yukon surveyed mineral-claim polygons", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0324", "name": "Northwest Territories Mineral Showings Database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0325", "name": "British Columbia Data Catalogue API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0326", "name": "Ontario Data Catalogue API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0327", "name": "Données Québec CKAN API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0328", "name": "Alberta Open Government catalogue API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0329", "name": "Saskatchewan GeoHub", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0330", "name": "GeoNB ArcGIS REST services directory", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0331", "name": "Nova Scotia Open Data API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0332", "name": "Open Data Newfoundland and Labrador", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0333", "name": "Prince Edward Island Open Data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0334", "name": "Government of Yukon open-data CKAN API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0335", "name": "Northwest Territories Open Data CKAN API", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0336", "name": "Information and Privacy Commissioner of Ontario access-order RSS feed", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0337", "name": "Office of the Privacy Commissioner of Canada RSS feeds", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0338", "name": "Canadian Human Rights Tribunal decisions RSS feed", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0339", "name": "Office of the Information Commissioner of Canada decisions database", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0340", "name": "Canadian Human Rights Commission dispute-resolution statistics", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0341", "name": "Ontario freedom-of-information compliance data", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0342", "name": "Newfoundland and Labrador access-to-information requests dataset", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0343", "name": "Tribunals Ontario decisions-issued workbooks", "route_ids": [], "status": "manifest_retained_no_new_route_check"}
+{"sys_id": "SYS-0344", "name": "Government of Yukon completed access-to-information registry", "route_ids": [], "status": "manifest_retained_no_new_route_check"}

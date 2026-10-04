@@ -1,0 +1,15 @@
+test_bounded_row_not_whole_population (__main__.CheckpointChecks.test_bounded_row_not_whole_population) ... ok
+test_catalog_scan (__main__.CheckpointChecks.test_catalog_scan) ... ok
+test_document_and_record_scope (__main__.CheckpointChecks.test_document_and_record_scope) ... ok
+test_eia_schema_distinguishes_allocations (__main__.CheckpointChecks.test_eia_schema_distinguishes_allocations) ... ok
+test_no_new_count_from_applications (__main__.CheckpointChecks.test_no_new_count_from_applications) ... ok
+test_normalized_source_counts (__main__.CheckpointChecks.test_normalized_source_counts) ... ok
+test_rank_uses_documented_readiness (__main__.CheckpointChecks.test_rank_uses_documented_readiness) ... ok
+test_ranked_inventory_complete (__main__.CheckpointChecks.test_ranked_inventory_complete) ... ok
+test_six_route_decisions (__main__.CheckpointChecks.test_six_route_decisions) ... ok
+test_supporting_source (__main__.CheckpointChecks.test_supporting_source) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.015s
+
+OK

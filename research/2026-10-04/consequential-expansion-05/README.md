@@ -21,7 +21,7 @@ Both remain **source-level proposals**. Documentation confirms useful definition
 
 ## Corrected cumulative counts
 
-Independent review accepts **51 non-refinement formulations through expansion 04**. Q01 is now a refinement of the original S06 donor-eligibility/incorporation/refund predicate. Q02, Q03 and V01 were accepted as defensible new formulations, without claiming they are independent abstract mechanisms. With B01/B02 pending review the provisional count is **53**.
+Independent review accepts **51 non-refinement formulations through expansion 04**. Q01 is now a refinement of the original S06 donor-eligibility/incorporation/refund predicate. Q02, Q03 and V01 were accepted as defensible new formulations, without claiming they are independent abstract mechanisms. Independent review accepts B01/B02 as new source-level formulations, giving **53 reviewed formulations** after the claim-linkage and combined-recovery-cap repairs.
 
 The prior **1,715 active provisional directional source-pair rows plus 15 quarantines** remain a different counting unit. The 5,000 target is not met and no source permutation, date parameter or rewording has been counted to inflate it.
 
@@ -31,7 +31,7 @@ This bundle also includes the reviewed repairs: Q02 distinguishes never-complete
 
 Eight documentation observations are recorded. EIA definitions distinguish consumption, generation and incoming electricity. OCDS/IATI transaction identifiers can help trace a payment path but do not guarantee invoice publication or independent flows. World Bank guidance is used for document anatomy; an actual financing instrument must establish the cost constraint. Both attempted European Parliament PDF opens returned unusable verification pages; the log preserves those failures. Search excerpts are not promoted to verified current legal applicability.
 
-This batch passed **18 checks: eight artifact/provenance checks and ten synthetic arithmetic checks**. The synthetic helpers demonstrate conservative physical bounds and constrained-cost arithmetic; their gates require independently reviewed evidence. They do not discover identity matches or resolve the flow graph. A low balance or lack of an excess flag never establishes compliance.
+This batch passed **19 checks: eight artifact/provenance checks and eleven synthetic arithmetic checks**. The synthetic helpers demonstrate conservative physical bounds and constrained-cost arithmetic; their gates require independently reviewed evidence. They do not discover identity matches or resolve the flow graph. A low balance or lack of an excess flag never establishes compliance.
 
 Priority remains an editorial score: `10 × consequence + 3 × testability + 2 × join confidence − 2 × cost`, with separate consequence/testability ranks. Scores are not probabilities of wrongdoing. B01 is more testable than B02 because public physical-measure definitions are available, while B02's invoice/settlement chain is still an access dependency. Name-only routes remain provisional.
 
@@ -49,9 +49,9 @@ Automatic weekly ChatGPT allowance and model-token telemetry are unavailable. Th
 
 proposed_new; priority 1; consequence 5/5, testability 2/5, join confidence 2/3, cost 2/4.
 
-**If:** IF a material financing, subsidy or operating-performance claim identifies an exact fuel-fired plant and reporting interval, and comparable official generation and total consumed-energy records are available for its complete physical boundary.
+**If:** IF a material financing, subsidy or operating-performance claim states or demonstrably relies on the exact output, input or efficiency quantities being tested for an identified fuel-fired plant and interval, and comparable official records are available for its complete physical boundary. EIA values are operator-reported measurements or estimates, not independent observations.
 
-**Then:** THEN test whether even a conservative lower bound on electrical energy produced exceeds a conservative upper bound on all energy inputs, after resolving revisions and boundary flows. An unresolved excess identifies incompatible evidence requiring correction or explanation, not automatically fraud.
+**Then:** THEN test whether even a conservative lower bound on electrical energy produced exceeds a conservative upper bound on all energy inputs, after resolving revisions and boundary flows. An unresolved excess identifies incompatible evidence requiring correction or explanation, not automatically fraud. If the claim does not state or rely on the tested quantities, classify the result only as an EIA reporting-quality lead, not a contradiction of that claim.
 
 **Basis:** Energy conservation supplies a physical bound, unlike a discretionary industry-efficiency benchmark. Net generation converted to energy cannot exceed all consumed inputs over a closed, reconciled system interval. Finite storage changes and every external energy contribution must be bounded. A ratio below the bound says nothing about honest reporting or economic efficiency.
 
@@ -79,7 +79,7 @@ proposed_new; priority 2; consequence 5/5, testability 1/5, join confidence 2/3,
 
 **If:** IF operative financing instruments permit reimbursement only up to a specified eligible cost/share, and original evidence attributes two or more independent completed reimbursements to the same uniquely identified cost item.
 
-**Then:** THEN reconstruct each payment path, permitted sharing, credits and reversals and compare the conservative lower bound of distinct net reimbursements with the conservative upper bound of the permitted reimbursable cost. Retain an unresolved excess for source-document review.
+**Then:** THEN reconstruct each payment path, permitted sharing, credits and reversals and compare the conservative lower bound of distinct net reimbursements with the conservative upper bound of the combined permitted recovery, which can be less than invoice cost. Check each funder’s individual cap separately; satisfying a combined cap does not establish each individual cap was met. Retain an unresolved excess for source-document review.
 
 **Basis:** This is an instrument-specific cost-recovery constraint. Two project commitments or two descriptions of one transfer are not two recoveries. A payable supplier invoice can legitimately be financed through several parties, and authorized cofinancing can split its cost. No universal prohibition across all grant or results-based funding is asserted.
 
@@ -89,7 +89,7 @@ proposed_new; priority 2; consequence 5/5, testability 1/5, join confidence 2/3,
 
 **Ordinary explanations / disqualifiers:** Same transfer mirrored by donor and recipient; Pass-through financing counted at each stage; Advance later liquidated rather than new money; Permitted cofinancing within cost/share; Invoice number reused by different vendors or years; Credit note/refund; Different cost lines or phases; Commitment mistaken for payment; Currency or tax basis differs; Results-based payment not cost reimbursement; Revised schedule republishes old expenditure
 
-**Required evidence:** Operative cost/share cap in every relevant financing instrument; Original eligible cost and adjustments; Evidence linking each claimed recovery to exactly that cost; Independent settlement records or an authoritative audit establishing payment; Full transfer-chain and correction/refund evidence; Conservative compatible-currency bounds
+**Required evidence:** Each funder’s individual cap and the separately established combined permitted-recovery cap; invoice face amount alone is not either cap; Original eligible cost and adjustments; Evidence linking each claimed recovery to exactly that cost; Independent settlement records or an authoritative audit establishing payment; Full transfer-chain and correction/refund evidence; Conservative compatible-currency bounds
 
 **Next cheapest check:** Open a public project audit or expenditure schedule and establish whether it names the same cost and actual financing sources. If only project-level totals are published, defer before summing anything. No requests or full investigations are initiated.
 

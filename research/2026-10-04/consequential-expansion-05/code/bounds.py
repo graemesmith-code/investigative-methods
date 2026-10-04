@@ -14,10 +14,10 @@ def energy_check(*,output_lower_mwh,input_upper_mmbtu,boundary_complete=False,im
  lower=out*Decimal('3.411')
  return dict(electrical_energy_lower_mmbtu=str(lower),all_input_upper_mmbtu=str(inp),unresolved_balance_flag=lower>inp,wrongdoing_established=False)
 
-def recovery_check(payments,*,cost_upper,currency,same_cost_verified=False,cost_cap_verified=False,flow_independence_verified=False,measurement_bounds_verified=False):
+def recovery_check(payments,*,permitted_recovery_upper,currency,same_cost_verified=False,cost_cap_verified=False,flow_independence_verified=False,measurement_bounds_verified=False):
  if not all([same_cost_verified,cost_cap_verified,flow_independence_verified,measurement_bounds_verified]):raise ValueError('Unresolved cost/flow/terms/bounds evidence gate')
- cost=num(cost_upper)
- if cost<0 or not payments:raise ValueError('Missing eligible cost or payments')
+ cost=num(permitted_recovery_upper)
+ if cost<0 or not payments:raise ValueError('Missing permitted-recovery cap or payments')
  seen=set();total=Decimal(0)
  for p in payments:
   key=p.get('canonical_settlement')
@@ -27,4 +27,4 @@ def recovery_check(payments,*,cost_upper,currency,same_cost_verified=False,cost_
   value=num(p['net_recovery_lower'])
   if value<0:raise ValueError('Reconcile refunds before supplying a nonnegative net lower bound')
   total+=value
- return dict(net_recoveries_lower=str(total),permitted_cost_upper=str(cost),unresolved_excess_flag=total>cost,wrongdoing_established=False)
+ return dict(net_recoveries_lower=str(total),combined_permitted_recovery_upper=str(cost),unresolved_excess_flag=total>cost,individual_funder_caps_checked=False,wrongdoing_established=False)

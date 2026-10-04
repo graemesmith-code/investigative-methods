@@ -1,0 +1,6 @@
+{"route": "EIA facility schema", "status": "success", "saved": "evidence/eia-facility-schema.json", "bound_bytes": 1048576, "free_public_demo_key": true, "paid": false}
+{"route": "EIA one plant-period schema row", "status": "success", "saved": "evidence/eia-one-schema-row.json", "requested_length": 1, "received_rows": 1, "public_api_calls": 1, "paid": false}
+{"route": "Norwegian production ship-search page", "url": "https://skipssok.sdir.no/", "status": "page_only_no_record_response", "reason": "Browser text output had no record content; no vessel search, credentials or certificates requested"}
+{"route": "Canadian recent historical extracts", "status": "not_attempted_paid_route", "reason": "No paid records authorized"}
+{"route": "FAA database", "status": "not_downloaded", "reason": "23-page public layout suffices; entire database unnecessary"}
+{"route": "World Bank five-page audit", "status": "read_document_anatomy", "data_join_executed": false}

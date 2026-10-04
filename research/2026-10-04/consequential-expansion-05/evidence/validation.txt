@@ -1,4 +1,5 @@
 test_advance_not_recovery (__main__.ArithmeticIllustrations.test_advance_not_recovery) ... ok
+test_combined_cap_below_invoice_cost (__main__.ArithmeticIllustrations.test_combined_cap_below_invoice_cost) ... ok
 test_currency_mismatch_rejected (__main__.ArithmeticIllustrations.test_currency_mismatch_rejected) ... ok
 test_energy_clear_excess (__main__.ArithmeticIllustrations.test_energy_clear_excess) ... ok
 test_energy_conservative_rounding (__main__.ArithmeticIllustrations.test_energy_conservative_rounding) ... ok
@@ -18,6 +19,6 @@ test_six_lenses (__main__.Artifacts.test_six_lenses) ... ok
 test_unique_dispositions (__main__.Artifacts.test_unique_dispositions) ... ok
 
 ----------------------------------------------------------------------
-Ran 18 tests in 0.015s
+Ran 19 tests in 0.015s
 
 OK

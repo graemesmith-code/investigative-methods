@@ -2,7 +2,7 @@ import pathlib,json,collections,hashlib,zipfile
 P=pathlib.Path(__file__).resolve().parents[1]
 jl=lambda n:[json.loads(x) for x in (P/n).read_text().splitlines()]
 C=jl('cards.jsonl');R=jl('candidate-screen.jsonl');used={s for r in R for s in r['source_ids']}
-counts=dict(lenses=6,screened_predicates=24,source_manifest=344,sources_in_concrete_candidates=len(used),proposed_new_formulations=2,retained_refinements=1,detailed_cards=3,dispositions=dict(collections.Counter(r['disposition'] for r in R)),reviewed_baseline_formulations=51,pending_new_formulations=2,provisional_cumulative_non_refinement_formulations=53,independent_abstract_mechanism_count='not asserted',prior_active_pair_rows=1715,prior_quarantines=15,documentation_entries=8,failed_fulltext_accesses=2,matched_investigations=0,data_records_acquired=0,confirmed_end_to_end_feasible=0,positive_findings=0,artifact_checks=8,synthetic_arithmetic_checks=10,total_checks_passed=18,paid_external_api_calls=0,all_further_candidates_exhausted=False,user_reported_weekly_remaining_percent=88,user_report_time='2026-10-04 18:50 UTC',automatic_weekly_and_token_telemetry='unavailable',usage_attribution='Earlier 99% to latest 88% is an 11-point change, not attributable solely to this work.')
+counts=dict(lenses=6,screened_predicates=24,source_manifest=344,sources_in_concrete_candidates=len(used),proposed_new_formulations=2,retained_refinements=1,detailed_cards=3,dispositions=dict(collections.Counter(r['disposition'] for r in R)),reviewed_baseline_formulations=53,pending_new_formulations=0,provisional_cumulative_non_refinement_formulations=53,independent_abstract_mechanism_count='not asserted',prior_active_pair_rows=1715,prior_quarantines=15,documentation_entries=8,failed_fulltext_accesses=2,matched_investigations=0,data_records_acquired=0,confirmed_end_to_end_feasible=0,positive_findings=0,artifact_checks=8,synthetic_arithmetic_checks=11,total_checks_passed=19,paid_external_api_calls=0,all_further_candidates_exhausted=False,user_reported_weekly_remaining_percent=88,user_report_time='2026-10-04 18:50 UTC',automatic_weekly_and_token_telemetry='unavailable',usage_attribution='Earlier 99% to latest 88% is an 11-point change, not attributable solely to this work.')
 (P/'counts.json').write_text(json.dumps(counts,indent=2)+'\n')
 intro=f'''# Six-lens breadth checkpoint — 4 October 2026
 
@@ -27,7 +27,7 @@ Both remain **source-level proposals**. Documentation confirms useful definition
 
 ## Corrected cumulative counts
 
-Independent review accepts **51 non-refinement formulations through expansion 04**. Q01 is now a refinement of the original S06 donor-eligibility/incorporation/refund predicate. Q02, Q03 and V01 were accepted as defensible new formulations, without claiming they are independent abstract mechanisms. With B01/B02 pending review the provisional count is **53**.
+Independent review accepts **51 non-refinement formulations through expansion 04**. Q01 is now a refinement of the original S06 donor-eligibility/incorporation/refund predicate. Q02, Q03 and V01 were accepted as defensible new formulations, without claiming they are independent abstract mechanisms. Independent review accepts B01/B02 as new source-level formulations, giving **53 reviewed formulations** after the claim-linkage and combined-recovery-cap repairs.
 
 The prior **1,715 active provisional directional source-pair rows plus 15 quarantines** remain a different counting unit. The 5,000 target is not met and no source permutation, date parameter or rewording has been counted to inflate it.
 
@@ -37,7 +37,7 @@ This bundle also includes the reviewed repairs: Q02 distinguishes never-complete
 
 Eight documentation observations are recorded. EIA definitions distinguish consumption, generation and incoming electricity. OCDS/IATI transaction identifiers can help trace a payment path but do not guarantee invoice publication or independent flows. World Bank guidance is used for document anatomy; an actual financing instrument must establish the cost constraint. Both attempted European Parliament PDF opens returned unusable verification pages; the log preserves those failures. Search excerpts are not promoted to verified current legal applicability.
 
-This batch passed **18 checks: eight artifact/provenance checks and ten synthetic arithmetic checks**. The synthetic helpers demonstrate conservative physical bounds and constrained-cost arithmetic; their gates require independently reviewed evidence. They do not discover identity matches or resolve the flow graph. A low balance or lack of an excess flag never establishes compliance.
+This batch passed **19 checks: eight artifact/provenance checks and eleven synthetic arithmetic checks**. The synthetic helpers demonstrate conservative physical bounds and constrained-cost arithmetic; their gates require independently reviewed evidence. They do not discover identity matches or resolve the flow graph. A low balance or lack of an excess flag never establishes compliance.
 
 Priority remains an editorial score: `10 × consequence + 3 × testability + 2 × join confidence − 2 × cost`, with separate consequence/testability ranks. Scores are not probabilities of wrongdoing. B01 is more testable than B02 because public physical-measure definitions are available, while B02's invoice/settlement chain is still an access dependency. Name-only routes remain provisional.
 
@@ -60,10 +60,10 @@ for c in C:
  parts.append('\n**Documentation IDs:** '+', '.join(c['documentation_ids'])+' in evidence/documentation.jsonl.\n')
 (P/'README.md').write_text(''.join(parts))
 (P/'generation-provenance.json').write_text(json.dumps(dict(date='2026-10-04',instruction='Continue breadth through six discovery lenses using actual fields, public-interest consequence, discriminating evidence and plausible cheap routes. Do not turn lenses into universal templates; compare every candidate with prior formulations and save rejections.',baseline_correction_commit='627bde4',all_344_manifest_fields_inspected=True,concrete_candidates=24,existing_model_environment=True,paid_api_calls=0,semantic_decisions='Model-authored, independent novelty review pending B01/B02',automatic_enumeration='Exports and ranks only; no universal pair generation in this pass',record_investigations=0),indent=2)+'\n')
-(P/'progress-ledger.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in [dict(stage='review_repairs',accepted_through04=51,q01='refinement',v01_checks=26),dict(stage='breadth_screen',lenses=6,predicates=24,sources=len(used),dispositions=counts['dispositions']),dict(stage='documentation',entries=8,failed_fulltext_accesses=2,matched_records=0),dict(stage='validation',artifact=8,synthetic=10,total_passed=18),dict(stage='checkpoint',proposed_new=2,refinements=1,provisional_total=53,global_exhaustion=False)]))
+(P/'progress-ledger.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in [dict(stage='review_repairs',accepted_through04=51,q01='refinement',v01_checks=26),dict(stage='breadth_screen',lenses=6,predicates=24,sources=len(used),dispositions=counts['dispositions']),dict(stage='documentation',entries=8,failed_fulltext_accesses=2,matched_records=0),dict(stage='validation',artifact=8,synthetic=11,total_passed=19),dict(stage='checkpoint',proposed_new=2,refinements=1,provisional_total=53,global_exhaustion=False)]))
 files=[f for f in sorted(P.rglob('*')) if f.is_file() and 'checkpoints' not in f.parts and '__pycache__' not in f.parts and f.name not in ['artifact-checksums.json','delivery-receipt.json']]
 (P/'artifact-checksums.json').write_text(json.dumps({str(f.relative_to(P)):hashlib.sha256(f.read_bytes()).hexdigest() for f in files},indent=2)+'\n')
-z=P/'checkpoints/consequential-expansions-through-05.zip'
+z=P/'checkpoints/consequential-expansions-through-05-reviewed.zip'
 with zipfile.ZipFile(z,'w',zipfile.ZIP_DEFLATED) as a:
  for i in range(1,6):
   root=P.parent/f'consequential-expansion-0{i}'

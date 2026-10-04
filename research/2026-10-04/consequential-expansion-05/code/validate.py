@@ -17,6 +17,7 @@ class Artifacts(unittest.TestCase):
    for s in c['source_manifest']:
     for k,v in s.items():self.assertEqual(ss[s['sys_id']][k],v)
  def test_no_unearned_feasibility(self):
+  b=next(c for c in self.cards if c['test_id']=='B01');self.assertIn('exact output, input or efficiency',b['initial_observation']);self.assertIn('reporting-quality lead',b['expected_observation'])
   for c in self.cards:self.assertFalse(c['complete_route_feasible']);self.assertFalse(c['positive_finding']);self.assertFalse(c['case_rule_applicability_verified'])
  def test_doc_references(self):
   ids={d['doc_id'] for d in jl('evidence/documentation.jsonl')}
@@ -32,7 +33,7 @@ class Artifacts(unittest.TestCase):
 class ArithmeticIllustrations(unittest.TestCase):
  def setUp(self):
   self.eg=dict(boundary_complete=True,imports_storage_resolved=True,measurement_bounds_verified=True)
-  self.rg=dict(cost_upper='100',currency='USD',same_cost_verified=True,cost_cap_verified=True,flow_independence_verified=True,measurement_bounds_verified=True)
+  self.rg=dict(permitted_recovery_upper='100',currency='USD',same_cost_verified=True,cost_cap_verified=True,flow_independence_verified=True,measurement_bounds_verified=True)
   self.pay=lambda key,value:dict(canonical_settlement=key,kind='completed_net_cost_recovery',currency='USD',net_recovery_lower=value)
  def test_energy_normal_no_flag(self):self.assertFalse(energy_check(output_lower_mwh=100,input_upper_mmbtu=1000,**self.eg)['unresolved_balance_flag'])
  def test_energy_clear_excess(self):self.assertTrue(energy_check(output_lower_mwh=400,input_upper_mmbtu=1000,**self.eg)['unresolved_balance_flag'])
@@ -53,4 +54,8 @@ class ArithmeticIllustrations(unittest.TestCase):
  def test_unknown_pass_through_rejected(self):
   self.rg['flow_independence_verified']=False
   with self.assertRaises(ValueError):recovery_check([self.pay('A',70),self.pay('B',70)],**self.rg)
+ def test_combined_cap_below_invoice_cost(self):
+  # Invoice face amount100 is NOT the combined permitted-recovery cap60.
+  self.rg['permitted_recovery_upper']='60'
+  self.assertTrue(recovery_check([self.pay('A',40),self.pay('B',30)],**self.rg)['unresolved_excess_flag'])
 if __name__=='__main__':unittest.main(verbosity=2)
