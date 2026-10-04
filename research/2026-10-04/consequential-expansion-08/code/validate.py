@@ -34,15 +34,15 @@ class References(unittest.TestCase):
   self.assertEqual(len(self.rows),70);self.assertEqual(self.rows,sorted(self.rows,key=lambda r:(r['readiness_tier'],r['effort_tier'],r['test_id'])));self.assertEqual(self.by['N01']['applicable_evidence_refs'],[])
 class SampleEvidence(unittest.TestCase):
  def test_current08_refs_and_ranking(self):
-  rows=jl(P/'cross-batch-ranked-routes.jsonl');self.assertEqual(len(rows),70)
+  rows=jl(P/'cross-batch-ranked-routes.jsonl');self.assertEqual(len(rows),70);counts=json.loads((P/'counts.json').read_text());self.assertEqual(counts['well_identity_records_verified'],0);self.assertEqual(counts['historical_trial_versions_verified'],0)
   self.assertEqual(rows,sorted(rows,key=lambda r:(r['readiness_tier'],r['effort_tier'],r['test_id'])))
   for r in rows:
    for ref in r['applicable_evidence_refs']+r['sample_access_refs']:self.assertTrue(resolve(ref)['url'])
   by={r['test_id']:r for r in rows};self.assertEqual(by['J01']['effort_tier'],3);self.assertFalse(any(r['full_case_feasible'] for r in rows))
  def test_history_dates_not_conflated(self):
-  rs=jl(P/'evidence/browser-probes.jsonl');r=next(x for x in rs if x.get('label')=='ct-one-history' and 'observed_fields' in x);f=r['observed_fields'];self.assertEqual(f['version_submitted_date'],'2005-06-23');self.assertNotEqual(f['first_posted'][:10],f['version_submitted_date']);self.assertFalse(f['public_availability_legally_established'])
+  rs=jl(P/'evidence/browser-probes.jsonl');r=next(x for x in rs if x.get('label')=='ct-one-history' and 'observed_fields' in x);f=r['observed_fields'];self.assertFalse(r['usable_as_verified_evidence']);self.assertEqual(r['evidence_status'],'quarantined_certificate_validation_bypassed');self.assertEqual(f['version_submitted_date'],'2005-06-23');self.assertNotEqual(f['first_posted'][:10],f['version_submitted_date']);self.assertFalse(f['public_availability_legally_established'])
  def test_selected_well_not_operation_evidence(self):
-  r=next(x for x in jl(P/'evidence/browser-probes.jsonl') if x.get('label')=='aer-well-record-selection-attempt');self.assertTrue(r['form_entry_completed']);self.assertEqual(r['observed_fields']['licence'],'0466075');self.assertFalse(r['observed_fields']['operation_dates_obtained']);self.assertFalse(r['observed_fields']['consent_obtained'])
+  r=next(x for x in jl(P/'evidence/browser-probes.jsonl') if x.get('label')=='aer-well-record-selection-attempt');self.assertFalse(r['usable_as_verified_evidence']);self.assertTrue(r['form_entry_completed']);self.assertEqual(r['observed_fields']['licence'],'0466075');self.assertFalse(r['observed_fields']['operation_dates_obtained']);self.assertFalse(r['observed_fields']['consent_obtained'])
  def test_archive_empty_not_absence_claim(self):
   self.assertEqual(json.loads((P/'evidence/safe-media-availability.json').read_text())['archived_snapshots'],{});r=next(x for x in jl(P/'route-checks.jsonl') if x['test_id']=='J01');self.assertFalse(r['full_case_feasible'])
 if __name__=='__main__':unittest.main(verbosity=2)
