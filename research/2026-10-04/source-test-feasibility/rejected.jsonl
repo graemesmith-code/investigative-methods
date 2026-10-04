@@ -1,0 +1,805 @@
+{"mechanism": "S02", "a": "SYS-0024", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "S02", "a": "SYS-0024", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0024", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0024", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0024", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0024", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0025", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "S02", "a": "SYS-0025", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0025", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0025", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0025", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0025", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0026", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "S02", "a": "SYS-0026", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0026", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0026", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0026", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0026", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0027", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "S02", "a": "SYS-0027", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0027", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0027", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0027", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0027", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0028", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "S02", "a": "SYS-0028", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0028", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0028", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0028", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0028", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0029", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "S02", "a": "SYS-0029", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0029", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0029", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0029", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S02", "a": "SYS-0029", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "S03", "a": "SYS-0024", "b": "SYS-0108", "reason": "duplicate_substantive_test_ownership_to_licence_path_already_in_S02"}
+{"mechanism": "S03", "a": "SYS-0025", "b": "SYS-0108", "reason": "duplicate_substantive_test_ownership_to_licence_path_already_in_S02"}
+{"mechanism": "S03", "a": "SYS-0026", "b": "SYS-0108", "reason": "duplicate_substantive_test_ownership_to_licence_path_already_in_S02"}
+{"mechanism": "S03", "a": "SYS-0027", "b": "SYS-0108", "reason": "duplicate_substantive_test_ownership_to_licence_path_already_in_S02"}
+{"mechanism": "S03", "a": "SYS-0028", "b": "SYS-0108", "reason": "duplicate_substantive_test_ownership_to_licence_path_already_in_S02"}
+{"mechanism": "S03", "a": "SYS-0029", "b": "SYS-0108", "reason": "duplicate_substantive_test_ownership_to_licence_path_already_in_S02"}
+{"mechanism": "S04", "a": "SYS-0024", "b": "SYS-0280", "reason": "vessel_register_has_no_established_activity_event; ownership_trace_retained_under_S03"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0071", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0072", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0073", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0074", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0075", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0257", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0025", "b": "SYS-0280", "reason": "vessel_register_has_no_established_activity_event; ownership_trace_retained_under_S03"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0071", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0072", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0073", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0074", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0075", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0257", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0026", "b": "SYS-0280", "reason": "vessel_register_has_no_established_activity_event; ownership_trace_retained_under_S03"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0071", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0072", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0073", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0074", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0075", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0257", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0027", "b": "SYS-0280", "reason": "vessel_register_has_no_established_activity_event; ownership_trace_retained_under_S03"}
+{"mechanism": "S04", "a": "SYS-0028", "b": "SYS-0280", "reason": "vessel_register_has_no_established_activity_event; ownership_trace_retained_under_S03"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0071", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0072", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0073", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0074", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0075", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0257", "reason": "explicit_fields_do_not_establish_vessel_scope_or_IMO; retain_only_if_a_later_schema_check_confirms_it"}
+{"mechanism": "S04", "a": "SYS-0029", "b": "SYS-0280", "reason": "vessel_register_has_no_established_activity_event; ownership_trace_retained_under_S03"}
+{"mechanism": "S07", "a": "SYS-0024", "b": "SYS-0291", "reason": "distribution_index_is_not_full_commercial_relationship_disclosure; needs_additional_filing_source"}
+{"mechanism": "S07", "a": "SYS-0025", "b": "SYS-0291", "reason": "distribution_index_is_not_full_commercial_relationship_disclosure; needs_additional_filing_source"}
+{"mechanism": "S07", "a": "SYS-0026", "b": "SYS-0291", "reason": "distribution_index_is_not_full_commercial_relationship_disclosure; needs_additional_filing_source"}
+{"mechanism": "S07", "a": "SYS-0027", "b": "SYS-0291", "reason": "distribution_index_is_not_full_commercial_relationship_disclosure; needs_additional_filing_source"}
+{"mechanism": "S07", "a": "SYS-0028", "b": "SYS-0291", "reason": "distribution_index_is_not_full_commercial_relationship_disclosure; needs_additional_filing_source"}
+{"mechanism": "S07", "a": "SYS-0029", "b": "SYS-0291", "reason": "distribution_index_is_not_full_commercial_relationship_disclosure; needs_additional_filing_source"}
+{"mechanism": "E03", "a": "SYS-0052", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0052", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0052", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0052", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0052", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0052", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0053", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0053", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0053", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0053", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0053", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0053", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0054", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0054", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0054", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0054", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0054", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0054", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0055", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0055", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0055", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0055", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0055", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0055", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0056", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0056", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0056", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0056", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0056", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0056", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0060", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0060", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0060", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0060", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0060", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0060", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0269", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0269", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0269", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0269", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0269", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0269", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0270", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E03", "a": "SYS-0270", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0270", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0270", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0270", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E03", "a": "SYS-0270", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0052", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0053", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0054", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0055", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0056", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0057", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0060", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0061", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0062", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0066", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0245", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0246", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0269", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0109", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0111", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0224", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0225", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0227", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0228", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0283", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0297", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0298", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0299", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0310", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0315", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0270", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0047", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0078", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0107", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0108", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0110", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0278", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0279", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0280", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0295", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0301", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0302", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0309", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0314", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0316", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0318", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E07", "a": "SYS-0271", "b": "SYS-0320", "reason": "broad_funding_to_asset_cartesian_rule_quarantined; no_specific_funded_project_evidence_path"}
+{"mechanism": "E08", "a": "SYS-0045", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E08", "a": "SYS-0045", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0045", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0045", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0045", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0045", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0046", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "E08", "a": "SYS-0046", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0046", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0046", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0046", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E08", "a": "SYS-0046", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "E09", "a": "SYS-0052", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0053", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0054", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0055", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0056", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0057", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0060", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0061", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0062", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0066", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0245", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0246", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0269", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0270", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "E09", "a": "SYS-0271", "b": "SYS-0291", "reason": "distribution_index_does_not_supply_accounts_for_reconciliation"}
+{"mechanism": "I01", "a": "SYS-0117", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I01", "a": "SYS-0117", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0117", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0117", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0117", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0117", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0118", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I01", "a": "SYS-0118", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0118", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0118", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0118", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0118", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0119", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I01", "a": "SYS-0119", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0119", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0119", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0119", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0119", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0120", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I01", "a": "SYS-0120", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0120", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0120", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0120", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I01", "a": "SYS-0120", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0116", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I02", "a": "SYS-0116", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0116", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0116", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0116", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0116", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0121", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I02", "a": "SYS-0121", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0121", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0121", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0121", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0121", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0123", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "I02", "a": "SYS-0123", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0123", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0123", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0123", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "I02", "a": "SYS-0123", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C01", "a": "SYS-0038", "b": "SYS-0214", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0038", "b": "SYS-0215", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0038", "b": "SYS-0216", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0218", "b": "SYS-0214", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0218", "b": "SYS-0215", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0218", "b": "SYS-0216", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0220", "b": "SYS-0214", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0220", "b": "SYS-0215", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0220", "b": "SYS-0216", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0221", "b": "SYS-0214", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0221", "b": "SYS-0215", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0221", "b": "SYS-0216", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0222", "b": "SYS-0214", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0222", "b": "SYS-0215", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C01", "a": "SYS-0222", "b": "SYS-0216", "reason": "no_established_common_methane_measure; enforcement/TRI is not a methane-emissions inventory"}
+{"mechanism": "C02", "a": "SYS-0038", "b": "SYS-0265", "reason": "documented_national_spatial_scopes_disjoint"}
+{"mechanism": "C02", "a": "SYS-0217", "b": "SYS-0265", "reason": "documented_national_spatial_scopes_disjoint"}
+{"mechanism": "C02", "a": "SYS-0218", "b": "SYS-0265", "reason": "documented_national_spatial_scopes_disjoint"}
+{"mechanism": "C02", "a": "SYS-0222", "b": "SYS-0265", "reason": "documented_national_spatial_scopes_disjoint"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0158", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0159", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0160", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0161", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0164", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0165", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0166", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0167", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C02", "a": "SYS-0295", "b": "SYS-0265", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C03", "a": "SYS-0295", "b": "SYS-0229", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C05", "a": "SYS-0038", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0109", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0110", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0217", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0218", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0219", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0220", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0221", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0222", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0224", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0225", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0228", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0283", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0284", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0295", "b": "SYS-0099", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C05", "a": "SYS-0295", "b": "SYS-0100", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C05", "a": "SYS-0295", "b": "SYS-0183", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C05", "a": "SYS-0295", "b": "SYS-0208", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C05", "a": "SYS-0295", "b": "SYS-0209", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C05", "a": "SYS-0296", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0297", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0298", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0299", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0304", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0305", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0307", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0310", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C05", "a": "SYS-0315", "b": "SYS-0183", "reason": "dam_inventory_is_not_a_flood_hazard_footprint; use a connected engineering scenario instead"}
+{"mechanism": "C06", "a": "SYS-0038", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0038", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0038", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0038", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0038", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0038", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0109", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0109", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0109", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0109", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0109", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0109", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0110", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0110", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0110", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0110", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0110", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0110", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0217", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0217", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0217", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0217", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0217", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0217", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0218", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0218", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0218", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0218", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0218", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0218", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0219", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0219", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0219", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0219", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0219", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0219", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0220", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0220", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0220", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0220", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0220", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0220", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0221", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0221", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0221", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0221", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0221", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0221", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0222", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0222", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0222", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0222", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0222", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0222", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0224", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0224", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0224", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0224", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0224", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0224", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0225", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0225", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0225", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0225", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0225", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0225", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0228", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0228", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0228", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0228", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0228", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0228", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0283", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0283", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0283", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0283", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0283", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0283", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0284", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0284", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0284", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0284", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0284", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0284", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0001", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0003", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0004", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0009", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0010", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0012", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0016", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0020", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0040", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0048", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0295", "b": "SYS-0108", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0001", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0003", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0004", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0009", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0010", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0012", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0016", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0020", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0040", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0048", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0296", "b": "SYS-0108", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0297", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0297", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0297", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0297", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0297", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0297", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0298", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0298", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0298", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0298", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0298", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0298", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0299", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0299", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0299", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0299", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0299", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0299", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0001", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0003", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0004", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0009", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0010", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0012", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0016", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0020", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0040", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0048", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0304", "b": "SYS-0108", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0001", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0003", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0004", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0009", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0010", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0012", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0016", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0020", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0040", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0048", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0305", "b": "SYS-0108", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0001", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0003", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0004", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0009", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0010", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0012", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0016", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0020", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0040", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0048", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0307", "b": "SYS-0108", "reason": "facility_record_does_not_supply_operator_identity; requires_extra_operator_source"}
+{"mechanism": "C06", "a": "SYS-0310", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0310", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0310", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0310", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0310", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0310", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0315", "b": "SYS-0001", "reason": "GLEIF_accounting_parent_relationship_does_not_establish_ownership_shares; retained_as_identity_bridge_only"}
+{"mechanism": "C06", "a": "SYS-0315", "b": "SYS-0009", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0315", "b": "SYS-0010", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0315", "b": "SYS-0020", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0315", "b": "SYS-0040", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "C06", "a": "SYS-0315", "b": "SYS-0048", "reason": "explicit_join_fields_show_roles_not_ownership; ownership_inference_quarantined_pending_schema_evidence"}
+{"mechanism": "W02", "a": "SYS-0091", "b": "SYS-0231", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0091", "b": "SYS-0233", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0092", "b": "SYS-0231", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0092", "b": "SYS-0233", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0093", "b": "SYS-0231", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0093", "b": "SYS-0233", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0094", "b": "SYS-0231", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0094", "b": "SYS-0233", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0241", "b": "SYS-0231", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W02", "a": "SYS-0241", "b": "SYS-0233", "reason": "national_annual_displacement_cannot_test_local_event_effect; context_only"}
+{"mechanism": "W05", "a": "SYS-0091", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "W05", "a": "SYS-0092", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "W05", "a": "SYS-0093", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "W05", "a": "SYS-0094", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "W05", "a": "SYS-0241", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "W07", "a": "SYS-0086", "b": "SYS-0091", "reason": "duplicate_substantive_test_alternative_access_route:T-W07-0085-0091"}
+{"mechanism": "W07", "a": "SYS-0086", "b": "SYS-0092", "reason": "duplicate_substantive_test_alternative_access_route:T-W07-0085-0092"}
+{"mechanism": "D02", "a": "SYS-0147", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "D02", "a": "SYS-0258", "b": "SYS-0146", "reason": "OONI_censorship_measurements_do_not_by_themselves_measure_general_outages"}
+{"mechanism": "C10", "a": "SYS-0295", "b": "SYS-0212", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "C13", "a": "SYS-0295", "b": "SYS-0230", "reason": "payment_disclosure_has_no_confirmed_facility_geometry"}
+{"mechanism": "W08", "a": "SYS-0104", "b": "SYS-0203", "reason": "weather_forecast_cannot_predict_the_specific_fire_or_earthquake_event; no_corresponding_forecast_variable"}
+{"mechanism": "W08", "a": "SYS-0205", "b": "SYS-0203", "reason": "weather_forecast_cannot_predict_the_specific_fire_or_earthquake_event; no_corresponding_forecast_variable"}
+{"mechanism": "W08", "a": "SYS-0206", "b": "SYS-0203", "reason": "weather_forecast_cannot_predict_the_specific_fire_or_earthquake_event; no_corresponding_forecast_variable"}

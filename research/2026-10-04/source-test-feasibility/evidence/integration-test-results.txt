@@ -1,0 +1,17 @@
+test_count_accounting (__main__.ProductionIntegration.test_count_accounting) ... ok
+test_emitted_ranking_uses_production (__main__.ProductionIntegration.test_emitted_ranking_uses_production) ... ok
+test_evidence_references_exist (__main__.ProductionIntegration.test_evidence_references_exist) ... ok
+test_f02_direction (__main__.ProductionIntegration.test_f02_direction) ... ok
+test_name_only_docs_do_not_promote (__main__.ProductionIntegration.test_name_only_docs_do_not_promote) ... ok
+test_no_execution_promotion (__main__.ProductionIntegration.test_no_execution_promotion) ... ok
+test_omitted_honesty (__main__.ProductionIntegration.test_omitted_honesty) ... ok
+test_paris_authorization_cost_gate (__main__.ProductionIntegration.test_paris_authorization_cost_gate) ... ok
+test_probes_bounded (__main__.ProductionIntegration.test_probes_bounded) ... ok
+test_review_diversity (__main__.ProductionIntegration.test_review_diversity) ... ok
+test_review_links_exist (__main__.ProductionIntegration.test_review_links_exist) ... ok
+test_samples_have_hashes (__main__.ProductionIntegration.test_samples_have_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.080s
+
+OK

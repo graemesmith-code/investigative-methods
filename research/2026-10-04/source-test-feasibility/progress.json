@@ -1,0 +1,183 @@
+{
+  "phase": "full_model_authored_mechanism_sweep_complete_pending_quality_review",
+  "sources_normalized_and_role_reviewed": 344,
+  "directed_source_pair_universe": 117992,
+  "unordered_source_pair_universe": 58996,
+  "pairs_enumerated_by_policy": 117992,
+  "pairs_with_conditional_designs": 1712,
+  "pairs_with_rejections_only": 754,
+  "pairs_not_admitted": 115526,
+  "individual_pair_semantic_review_claimed": false,
+  "mechanism_families": {
+    "sanctions": 438,
+    "infrastructure": 10,
+    "public_money": 439,
+    "conflict_disaster": 157,
+    "environment": 533,
+    "influence": 134,
+    "health_science": 10,
+    "transport": 4,
+    "finance": 3,
+    "transparency": 1,
+    "governance": 1
+  },
+  "mechanism_counts": {
+    "S04": 12,
+    "D02": 8,
+    "D01": 1,
+    "E09": 60,
+    "W01": 5,
+    "C01": 6,
+    "W02": 5,
+    "C08": 1,
+    "W03": 63,
+    "S01": 90,
+    "C04": 45,
+    "S02": 30,
+    "C02": 203,
+    "C03": 23,
+    "C10": 23,
+    "C12": 9,
+    "W06": 35,
+    "E01": 16,
+    "W07": 10,
+    "W08": 4,
+    "S03": 162,
+    "C05": 92,
+    "C09": 3,
+    "C11": 1,
+    "E03": 40,
+    "D03": 1,
+    "S05": 24,
+    "S06": 18,
+    "C13": 23,
+    "W09": 4,
+    "E02": 120,
+    "S07": 24,
+    "C07": 9,
+    "W04": 15,
+    "E04": 24,
+    "I05": 2,
+    "I06": 1,
+    "I07": 1,
+    "S09": 66,
+    "E05": 32,
+    "H01": 2,
+    "H02": 2,
+    "S08": 12,
+    "T02": 2,
+    "C06": 95,
+    "H04": 1,
+    "I04": 6,
+    "W05": 20,
+    "E07": 60,
+    "F01": 1,
+    "F03": 1,
+    "T01": 2,
+    "E06": 64,
+    "F04": 64,
+    "I03": 32,
+    "D05": 1,
+    "E08": 10,
+    "I02": 15,
+    "I01": 20,
+    "I08": 1,
+    "D04": 1,
+    "H03": 4,
+    "H05": 1,
+    "F02": 1,
+    "G01": 1
+  },
+  "source_participation": 205,
+  "sources_support_or_deferred": 139,
+  "source_concentration_top20": [
+    [
+      "SYS-0024",
+      77
+    ],
+    [
+      "SYS-0028",
+      77
+    ],
+    [
+      "SYS-0025",
+      71
+    ],
+    [
+      "SYS-0026",
+      71
+    ],
+    [
+      "SYS-0027",
+      71
+    ],
+    [
+      "SYS-0029",
+      71
+    ],
+    [
+      "SYS-0060",
+      65
+    ],
+    [
+      "SYS-0315",
+      51
+    ],
+    [
+      "SYS-0056",
+      48
+    ],
+    [
+      "SYS-0052",
+      48
+    ],
+    [
+      "SYS-0053",
+      48
+    ],
+    [
+      "SYS-0054",
+      48
+    ],
+    [
+      "SYS-0055",
+      48
+    ],
+    [
+      "SYS-0269",
+      48
+    ],
+    [
+      "SYS-0270",
+      48
+    ],
+    [
+      "SYS-0012",
+      48
+    ],
+    [
+      "SYS-0004",
+      48
+    ],
+    [
+      "SYS-0016",
+      48
+    ],
+    [
+      "SYS-0003",
+      42
+    ],
+    [
+      "SYS-0108",
+      42
+    ]
+  ],
+  "rule_status": "All accepted rows conditional; unsupported paths quarantined by explicit gates in code; see rejections.",
+  "remaining": "Record-level schema/coverage/terms checks and trial execution; no bulk execution authorized. Review deferred roles for new substantive mechanisms, not paraphrases.",
+  "usage": {
+    "weekly_meter_available": false,
+    "model_token_meter_available": false,
+    "last_user_report_remaining_percent": 99,
+    "new_paid_api_calls": 0
+  }
+}

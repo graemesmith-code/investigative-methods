@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "file": "references/rabbit/originals/Rabbit2(1).txt",
+      "sha256": "08bc4c08215194dffa3525f46d7fe9d849cca86fe640f127e9df1c644c6fe079",
+      "bytes": 983632,
+      "systems": 267,
+      "explicit_labeled_systems": 267,
+      "explicit_labeled_ap_occurrences": 378
+    },
+    {
+      "file": "references/rabbit/originals/Rabbit3.txt",
+      "sha256": "c67fded1717daae6d7a6a171ef43ce6d6f86c9f687834c5699985e2c2ef2e218",
+      "bytes": 983363,
+      "systems": 298,
+      "explicit_labeled_systems": 77,
+      "explicit_labeled_ap_occurrences": 154
+    },
+    {
+      "file": "references/rabbit/originals/Rabbit4.txt",
+      "sha256": "7b026adb0646c42c9851a35f24a3276a992785e473f57348bb3d89044a159c37",
+      "bytes": 953910,
+      "systems": 361,
+      "explicit_labeled_systems": 0,
+      "explicit_labeled_ap_occurrences": 0
+    },
+    {
+      "file": "references/rabbit/originals/Rabbit5.txt",
+      "sha256": "9dafc6500b6e0e598f2155ffc0078ea337e00e761298c5e737d1b68be1b0787c",
+      "bytes": 908003,
+      "systems": 359,
+      "explicit_labeled_systems": 0,
+      "explicit_labeled_ap_occurrences": 0
+    },
+    {
+      "file": "references/rabbit/originals/Rabbit6.txt",
+      "sha256": "43effb311000073821ec4de747d733ffedf3ce6c2a3f7ad5664ebfce1da224e6",
+      "bytes": 930120,
+      "systems": 270,
+      "explicit_labeled_systems": 0,
+      "explicit_labeled_ap_occurrences": 0
+    }
+  ],
+  "unique_systems": 1555,
+  "unique_access_points": 2516,
+  "selected_systems": 344,
+  "older_Rabbit2_excluded": "Superseded duplicate volume, not a sixth volume."
+}

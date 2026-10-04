@@ -1,10 +1,12 @@
+> **Checkpoint 1 is an implementation inventory, not individually reviewed tests.** The [second checkpoint](../source-test-feasibility/README.md) corrects ranking and F02 trade direction, adds source-specific reviews and documents omitted mechanisms. The original ZIP remains unchanged.
+
 # A menu of investigative tests
 
 **1,730 conditional source-pair recipes, organized under 65 investigative mechanisms.** These are reporting questions, not findings about any person or organization. None is yet confirmed executable. Some will fail at the first record check.
 
 Start with [the reading queue](reading-queue.csv): sixteen varied examples selected for consequence and teachability. Or sort [all recipes](tests.csv) by the separate public-interest, testability, join-confidence and cost columns. The numeric ranking is an editorial heuristic, not a probability of misconduct. Different source implementations of one mechanism are alternatives, not independent discoveries.
 
-The sweep considered all **344 Rabbit descriptions with explicit Useful join fields**. 205 sources enter the longlist; 139 remain support, context, access-constrained or insufficiently specified sources. We deliberately stopped below 5,000: reaching that number would require weaker combinations or padded variants. The remaining sources are accounted for in the inventory, with their catalog-specific limitations.
+The sweep considered all **344 Rabbit descriptions with explicit Useful join fields**. 205 sources enter the longlist; 139 remain support, context, access-constrained or insufficiently specified sources. This bounded pass stopped below 5,000. It does not establish an upper bound on defensible mechanisms; the feasibility/omission review identifies further avenues. The remaining sources are accounted for in the inventory, with their catalog-specific limitations.
 
 | Count | Meaning |
 |---|---|
