@@ -1,0 +1,24 @@
+{
+  "verified_date": "2026-10-04",
+  "repository": "graemesmith-code/investigative-methods",
+  "private_confirmed": true,
+  "early_commit": "bc62d6fa45e2b6ade1b47b9050aa4970b1e2d141",
+  "full_artifact_commit": "e433070edd5fa74902dff0daf9d104590cfb8b7c",
+  "remote_main_matched_full_artifact_commit": true,
+  "bundle_path": "research/2026-10-04/source-test-discovery/checkpoints/source-test-discovery-checkpoint.zip",
+  "github_contents_blob_sha": "8010c4a846a8cfe224ad55ac387db2c662cdfb13",
+  "local_git_hash_object": "8010c4a846a8cfe224ad55ac387db2c662cdfb13",
+  "remote_and_local_size_bytes": 1385390,
+  "bundle_sha256": "1e2ecd3da5524cffae7ddc389241759504ecdef2cbeb2e9ddf74ac7aa21300b9",
+  "failed_verification_route": {
+    "action": "gh api raw binary download of committed bundle",
+    "error": "transform: short source buffer",
+    "fallback": "Authenticated contents metadata succeeded; remote Git blob SHA and byte size match the local committed bundle. No binary redownload claimed."
+  },
+  "final_library_file_id": "libfile_097bba5cbc288191b664787f4f15a66d",
+  "early_library_file_id": "libfile_07d9ebf395208191b99b335830ecf7d8",
+  "library_uploads_confirmed": true,
+  "local_library_identity_xattrs_verified": true,
+  "validation": "16 automated regression/provenance tests passed; CSV/JSONL counts, all 117992 ordered pair rows, 344 source dispositions, source participation, quarantine gates, manifest hashes and ZIP integrity also passed.",
+  "note": "This receipt is a post-publication audit file and is intentionally outside the immutable downloadable bundle."
+}
