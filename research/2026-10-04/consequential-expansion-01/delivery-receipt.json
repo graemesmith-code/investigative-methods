@@ -1,0 +1,16 @@
+{
+  "checkpoint_commit": "42554f4f8e52983196b6ee65e44d6cb2e4bb9d4b",
+  "remote_main_verified": true,
+  "repository_private_verified": true,
+  "zip_file": "checkpoints/consequential-expansion-01.zip",
+  "size_bytes": 247668,
+  "sha256": "c6fcf795fe1497fea1c84aa5b6f7ef2a21bb32771a0ab8972af396dc7f76fb54",
+  "local_and_remote_git_blob": "b70d2cb1fcbe0dcb4d87e773452a617e2d159a99",
+  "library_file_id": "libfile_a79e341a5e908191abee92b56228d177",
+  "file_id": "file_000000008608820a83b87c61b91d84f5",
+  "library_create_status": "succeeded",
+  "library_xattrs_applied": true,
+  "verification_limit": "Remote Git blob and byte size verified through GitHub metadata; ZIP CRC verified locally. No authenticated binary re-download claimed.",
+  "weekly_allowance": "unavailable",
+  "paid_external_api_calls": 0
+}
