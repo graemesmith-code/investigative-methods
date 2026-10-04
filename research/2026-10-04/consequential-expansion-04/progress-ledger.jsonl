@@ -1,4 +1,4 @@
 {"stage": "screen", "predicates": 12, "distinct_new_proposed": 1, "refinements": 3, "rejected": 4, "deferred": 3, "refinement_deferred": 1}
 {"stage": "metadata", "source": "CVM CDA dictionary", "bytes": 10094, "holdings_records": 0, "failed_browser_attempt": 1, "bounded_download_succeeded": true}
-{"stage": "validation", "artifact_checks": 9, "synthetic_arithmetic_checks": 8, "passed": 17, "matched_cases": 0}
-{"stage": "checkpoint", "reviewed_cards": 48, "pending_novelty_review": 4, "provisional_total": 52, "all_catalog_predicates_exhausted": false}
+{"stage": "validation", "artifact_checks": 9, "synthetic_arithmetic_checks": 17, "passed": 26, "matched_cases": 0}
+{"stage": "checkpoint", "reviewed_cards": 51, "pending_novelty_review": 0, "provisional_total": 51, "all_catalog_predicates_exhausted": false}

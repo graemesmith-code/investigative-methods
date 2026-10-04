@@ -1,16 +1,18 @@
 # Eight-priority follow-through — 4 October 2026
 
-All **eight requested priorities** now have substantive source-level decisions. This pass records **24 subchecks and gates**, not 24 independent hypotheses, and retains **three proposed new formulations plus four useful refinements**. It does not claim all opportunities across the 344 sources are exhausted.
+All **eight requested priorities** now have substantive source-level decisions. This pass records **24 subchecks and gates**, not 24 independent hypotheses, and retains **two proposed new formulations plus five useful refinements**. It does not claim all opportunities across the 344 sources are exhausted.
+
+Independent review found Q01 overlaps S06’s existing donor-eligibility, incorporation and refund checks. Q01 remains detailed but is now a refinement. Historical checkpoint counts are superseded by this correction.
 
 A concrete example: a party reports accepting a corporate donation and supplies a company registration number. That number could identify an overseas establishment rather than the UK-incorporated entity suggested by the donor’s brand. The cheap first check is the original donation record, exact company entry and any return/amendment—not a name search or an assumption that dormant accounts prove illegality. The full card keeps incorporation, actual business activity, historical rules and receipt disposition separate. This is a hypothetical method, not a finding about a donor.
 
-The other two proposed additions test actual charity assets transferred as a candidate-campaign contribution, and an express sovereign-guarantee disclosure against an operative guarantee instrument. A charity’s employees donating personally, or a sovereign’s loan commitments exceeding a debt aggregate, do not meet those predicates.
+The two proposed additions test actual charity assets transferred as a candidate-campaign contribution, and an express sovereign-guarantee disclosure against an operative guarantee instrument. A charity’s employees donating personally, or a sovereign’s loan commitments exceeding a debt aggregate, do not meet those predicates.
 
 ## What each priority yielded
 
 | Priority | Decision | Why |
 |---|---|---|
-| Corporate donor eligibility | New proposal Q01 | Exact company identity, actual eligibility at receipt, and acceptance/return history; dormant status alone is insufficient. |
+| Corporate donor eligibility | S06 refinement Q01 | Exact company identity, actual eligibility at receipt, and acceptance/return history; dormant status alone is insufficient. |
 | Insurance representations | Refinement REF-INS; other routes deferred/rejected | Specific signed answer versus established contemporaneous condition refines P05; policy coverage against required protection refines X08. Allegations prove neither. |
 | Charity political benefits | New proposal Q02 | Actual organizational asset contribution to a candidate campaign, distinct from employee activity and a lobbying-reporting discrepancy. |
 | Consent clauses | Refinement REF-CONS | Covered legal transfer before required consent refines X07; shareholder changes, notice, waivers and deemed consent need separate checks. |
@@ -23,7 +25,7 @@ Every priority has three separately reasoned branches in `priority-subchecks.csv
 
 ## Counts and review status
 
-Independent review accepted the preceding four additions after repairs, leaving **48 non-refinement detailed cards**. With the current three proposals the provisional total is **51**, pending independent review of this batch. The first expansion remains corrected to 12 new formulations and four refinements; the second has four new formulations and one refinement. Seven current cards include four refinements, so they do not add seven to the novelty total.
+Independent review accepted the preceding four additions after repairs, leaving **48 non-refinement detailed cards**. With the current two proposals the provisional total is **50**, with Q02/Q03 accepted by independent review as formulations, not necessarily independent abstract mechanisms. The first expansion remains corrected to 12 new formulations and four refinements; the second has four new formulations and one refinement. Seven current cards include five refinements, so they do not add seven to the novelty total.
 
 The earlier longlist remains **1,715 active provisional source-pair rows plus 15 quarantines**. Those implementation rows are not the same counting unit as mechanisms or detailed cards. We have not reached 5,000 defensible independent tests and have not padded the count.
 
@@ -45,11 +47,11 @@ Consequence 1–5 is potential public-interest significance if proven; testabili
 
 Run `python code/design.py`, `python code/evidence.py`, `python code/validate.py`, then `python code/package.py` from this folder. The scripts make no API calls. Source selection, branch decisions and card text are model-authored in the existing environment; deterministic code exports, ranks and validates them. The generation instruction was to substantively examine all eight named priorities, retain only defensible distinct predicates, preserve refinements and original evidence dependencies, and stop rather than manufacture novelty. Original SYS/AP identifiers, line provenance and hashes remain in `sources.jsonl` and card manifests.
 
-The bundle is `checkpoints/consequential-expansions-through-03.zip`. Historical delivery receipts refer to their original separate checkpoint artifacts, which are preserved in Git rather than nested again in this ZIP. Code, CSV/JSONL, documentation observations, access failures, supporting dependencies and validation logs are included.
+The bundle is `checkpoints/consequential-expansions-through-03-corrected.zip`. Historical delivery receipts refer to their original separate checkpoint artifacts, which are preserved in Git rather than nested again in this ZIP. Code, CSV/JSONL, documentation observations, access failures, supporting dependencies and validation logs are included.
 
 ## Why this priority pass stops here
 
-Each of the eight priorities has now been examined through its stated subchecks; all have a retained, refined, rejected or deferred disposition. Remaining work would require acquiring particular original records or developing a genuinely different predicate. The current instruction excludes matched investigations, so this pass stops at the completed source-level priority sweep. That is a boundary for this batch, not a claim that the catalog has no more opportunities. Work continues beyond this checkpoint under the renewed instruction: independent novelty review of Q01–Q03 and source-grounded discovery around investment mandates, precise search-response assertions and evidence independence. No matched investigation is being performed.
+Each of the eight priorities has now been examined through its stated subchecks; all have a retained, refined, rejected or deferred disposition. Remaining work would require acquiring particular original records or developing a genuinely different predicate. The current instruction excludes matched investigations, so this pass stops at the completed source-level priority sweep. That is a boundary for this batch, not a claim that the catalog has no more opportunities. Work continues beyond this checkpoint under the renewed instruction: further source-level discovery beyond Q02–Q03 and source-grounded discovery around investment mandates, precise search-response assertions and evidence independence. No matched investigation is being performed.
 
 Automatic weekly ChatGPT allowance and model-token telemetry are unavailable. The user reported **88% remaining at 18:50 UTC on October 4**, compared with an earlier 99%; the 11 percentage-point change cannot be attributed solely to this work. Paid external API calls: **zero**.
 
@@ -57,7 +59,7 @@ Automatic weekly ChatGPT allowance and model-token telemetry are unavailable. Th
 
 ### Q01 — Corporate donor eligibility at the actual donation date
 
-proposed_new; priority rank 1; consequence 5/5, testability 2/5, join route 3/3, cost tier 2/4.
+refinement; priority rank 1; consequence 5/5, testability 2/5, join route 3/3, cost tier 2/4.
 
 **If:** IF a reported accepted corporate donation identifies an exact company registration number, and independent evidence suggests one of the applicable corporate-donor criteria was not satisfied at receipt.
 
@@ -75,7 +77,7 @@ proposed_new; priority rank 1; consequence 5/5, testability 2/5, join route 3/3,
 
 **Next cheapest check:** Read the reported company number and returned/accepted fields first. A foreign-incorporated donor record may provide a more decisive eligibility question than dormant accounts. Do not treat dormant status alone as proof of no business.
 
-**Novelty:** S06 asks about sanctions and I02 common control. This tests distinct non-sanctions legal eligibility of a corporate donor. The incorporation and business branches are one formulation, not separately counted tests.
+**Novelty:** S06 already explicitly requires donor eligibility, incorporation evidence and refund checks. This is a useful non-sanctions implementation refinement of that predicate, not a new mechanism.
 
 **Access evidence:** Official guidance and a public donation-detail template confirm relevant fields. No donation/company pair retrieved. Current statutory direct-page access failed; dated 2024 text and current regulator guidance are not a case-law conclusion.
 
@@ -85,7 +87,7 @@ proposed_new; priority rank 1; consequence 5/5, testability 2/5, join route 3/3,
 
 ### Q03 — An express sovereign guarantee disclosure versus the operative instrument
 
-proposed_new; priority rank 2; consequence 5/5, testability 2/5, join route 3/3, cost tier 3/4.
+proposed_new; priority rank 2; consequence 5/5, testability 2/5, join route 2/3, cost tier 3/4.
 
 **If:** IF a sovereign report expressly states that no specified guarantees exist, or supplies a demonstrably complete guarantee schedule for a defined perimeter/date, while an original executed instrument establishes a potentially in-scope guarantee.
 
@@ -143,7 +145,7 @@ refinement; priority rank 3; consequence 5/5, testability 1/5, join route 3/3, c
 
 proposed_new; priority rank 4; consequence 5/5, testability 2/5, join route 1/3, cost tier 3/4.
 
-**If:** IF original records attribute a direct campaign contribution to a specifically identified organization that was subject to section 501(c)(3) at the transfer date, and identify the candidate campaign receiving it.
+**If:** IF original records attribute a direct campaign contribution to a specifically identified organization that was subject to section 501(c)(3) at the transfer date, and identify the candidate campaign receiving it. Distinguish a completed transfer from one never completed or misattributed; a later refund does not erase the original completed event.
 
 **Then:** THEN reconcile the organization’s actual asset transfer with the campaign receipt and any refund, verifying historical tax status, legal entities, authorization, purpose and applicable rules.
 

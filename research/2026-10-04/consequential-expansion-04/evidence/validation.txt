@@ -7,16 +7,25 @@ test_metadata_integrity (__main__.ArtifactChecks.test_metadata_integrity) ... ok
 test_no_execution_promotion (__main__.ArtifactChecks.test_no_execution_promotion) ... ok
 test_provenance_344 (__main__.ArtifactChecks.test_provenance_344) ... ok
 test_search_methods_not_results (__main__.ArtifactChecks.test_search_methods_not_results) ... ok
+test_aggregate_row_rejected (__main__.SyntheticLowerBoundChecks.test_aggregate_row_rejected) ... ok
+test_alias_ids_same_source_row_rejected (__main__.SyntheticLowerBoundChecks.test_alias_ids_same_source_row_rejected) ... ok
+test_canonical_holding_duplicate_across_rows_rejected (__main__.SyntheticLowerBoundChecks.test_canonical_holding_duplicate_across_rows_rejected) ... ok
 test_duplicate_position_rejected (__main__.SyntheticLowerBoundChecks.test_duplicate_position_rejected) ... ok
+test_evidence_manifest_required (__main__.SyntheticLowerBoundChecks.test_evidence_manifest_required) ... ok
 test_exact_cap_not_excess (__main__.SyntheticLowerBoundChecks.test_exact_cap_not_excess) ... ok
+test_invalid_lower_bound_rejected (__main__.SyntheticLowerBoundChecks.test_invalid_lower_bound_rejected) ... ok
 test_low_bound_not_compliance (__main__.SyntheticLowerBoundChecks.test_low_bound_not_compliance) ... ok
+test_mixed_revision_rejected (__main__.SyntheticLowerBoundChecks.test_mixed_revision_rejected) ... ok
 test_negative_denominator_rejected (__main__.SyntheticLowerBoundChecks.test_negative_denominator_rejected) ... ok
 test_negative_exposure_not_netting (__main__.SyntheticLowerBoundChecks.test_negative_exposure_not_netting) ... ok
 test_positive_bound (__main__.SyntheticLowerBoundChecks.test_positive_bound) ... ok
+test_rounded_marginal_excess_inconclusive (__main__.SyntheticLowerBoundChecks.test_rounded_marginal_excess_inconclusive) ... ok
+test_uncertainty_gate_required (__main__.SyntheticLowerBoundChecks.test_uncertainty_gate_required) ... ok
 test_unknown_measure_rejected (__main__.SyntheticLowerBoundChecks.test_unknown_measure_rejected) ... ok
+test_unresolved_overlap_rejected (__main__.SyntheticLowerBoundChecks.test_unresolved_overlap_rejected) ... ok
 test_wrong_class_date_rejected (__main__.SyntheticLowerBoundChecks.test_wrong_class_date_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.014s
+Ran 26 tests in 0.014s
 
 OK
