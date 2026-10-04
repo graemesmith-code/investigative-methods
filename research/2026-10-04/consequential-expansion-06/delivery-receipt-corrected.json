@@ -1,0 +1,19 @@
+{
+  "checkpoint_commit": "d466282f9f5989969ebf6ce3b09bf97d489a28ee",
+  "remote_main_verified": true,
+  "original_zip_preserved": true,
+  "zip": "checkpoints/consequential-discovery-ranked-through-06-corrected.zip",
+  "size_bytes": 3100563,
+  "sha256": "20613f029c7c2b647104887585c31fe6a77eda6163f9d716e28c6ffe47f8899f",
+  "git_blob": "c4ab91ac834addabaae0b2c8c56f1983cc4bff10",
+  "library_file_id": "libfile_a9aa692da4ac81919b0fe44ce1f5f203",
+  "file_id": "file_00000000a60c820aa0d4764cfdb4b388",
+  "library_version": 1,
+  "xattrs_applied": true,
+  "checks_passed": 13,
+  "verification": "Remote blob/size match local; local ZIP CRC passed; Library replacement confirmed.",
+  "ranking_purpose": "Readiness for next check, not cheapest meaningful investigative finding",
+  "paid_external_api_calls": 0,
+  "weekly_reported_remaining": 88,
+  "automatic_telemetry": "unavailable"
+}
