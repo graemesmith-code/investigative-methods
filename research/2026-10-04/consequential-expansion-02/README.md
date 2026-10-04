@@ -4,7 +4,7 @@ This batch develops **four proposed new investigative formulations and one refin
 
 There are **24 mapped substantive predicates: 16 screened and eight still unexamined**. Five screened predicates became cards; eleven were deferred, rejected or recognized as existing specializations. The map names 54 sources, but only 40 appear in screened predicates. All 344 source descriptions remain in the source manifest. The other 290 sources are not newly examined simply because they appear in that manifest. The earlier 344-source review remains a baseline, not proof that every meaningful combination is exhausted.
 
-The previous expansion was independently reviewed and corrected to **12 new formulations and four refinements**, leaving **44 cumulative non-refinement detailed cards** before this batch. X01 refines H04; X10 specializes E02. With the four current proposals the provisional total is **48**, pending independent novelty review. The earlier longlist remains **1,715 active provisional source-pair rows and 15 quarantines**. Cards, mechanisms and implementation rows are different counting units: do not add them together or describe them as thousands of independent discoveries.
+The previous expansion was independently reviewed and corrected to **12 new formulations and four refinements**, leaving **44 cumulative non-refinement detailed cards** before this batch. X01 refines H04; X10 specializes E02. With the four current proposals the provisional total is **48**, after independent novelty review and repairs. The earlier longlist remains **1,715 active provisional source-pair rows and 15 quarantines**. Cards, mechanisms and implementation rows are different counting units: do not add them together or describe them as thousands of independent discoveries.
 
 ## Start here
 
@@ -22,7 +22,7 @@ Drug-product guidance does not establish that a particular ad is unlawful. Image
 
 Consequence 1–5 estimates public-interest significance if a predicate proves true. Testability 1–5 measures evidence-route maturity; current cards are at most 2 (documentation/components, not demonstrated chains). Join route 1–3 denotes provisional person bridges, multi-field conditional routes or precise candidate identifiers; none certifies an actual match. Cost tier 1–4 estimates rising document/access/identity effort, with no measured cash/time promise. Separate ranks are provided. Composite = `10 × consequence + 3 × testability + 2 × join route − 2 × cost tier`; weights are editorial judgments.
 
-**Thirteen production-artifact checks and six synthetic arithmetic checks pass.** The latter verify a fictional bid calculation and rejection gates, not any real procurement. Artifact checks verify counts, source provenance, safeguards and ranking; they do not certify semantic novelty, legal applicability or wrongdoing. No independent novelty review of this second batch has yet been received.
+**Thirteen production-artifact, eight synthetic arithmetic and three synthetic temporal checks pass.** The latter verify a fictional bid calculation and rejection gates, not any real procurement. Artifact checks verify counts, source provenance, safeguards and ranking; they do not certify semantic novelty, legal applicability or wrongdoing. Independent review has checked the four additions and identified two edge cases: prior images do not establish presence at the claimed date, and a tied-lowest bid becoming dearer is not a strict price reversal. Both are corrected in current outputs; the original ZIP remains preserved. Independent review accepts the four formulations after these repairs; the cumulative non-refinement count is 48.
 
 ## Audit and reproduction
 
@@ -44,13 +44,13 @@ proposed_new; priority rank 1. Consequence 5/5; testability 2/5; join route 3/3;
 
 **If:** IF a public works procurement has at least two compliant priced bids on the same item schedule, and the eventual certified quantities differ from the evaluation quantities.
 
-**Then:** THEN price the actually delivered common basket at each eligible bidder’s contemporaneous contractual unit rates, comparing that ranking with the original evaluated ranking and examining how quantities changed.
+**Then:** THEN price the actually delivered common basket at each eligible bidder’s contemporaneous submitted bid unit rates, comparing that ranking with the original price ranking (separate from the award decision) and examining how quantities changed.
 
 **Basis:** This is a transparent counterfactual cost comparison, not a finding of rigging or proof the rival would have performed the work. A sharp reversal concentrated in items the winner priced unusually high merits examining the change rationale and what was foreseeable at award.
 
 **Exact join:** OCDS ocid + buyer identifier + contract/lot number → exact procurement reference in the World Bank project documents → bid ID + item code + unit + currency + pricing date → certified item quantities. World Bank project ID alone cannot match a contract. Item numbers local to different schedules are not automatically equivalent.
 
-**Scope:** One contract/lot and equivalent scope, quality, delivery obligations and tax basis; compare the version used at award with actual certified work and every approved amendment. Do not transfer US FAR rules to a non-US procurement.
+**Scope:** One contract/lot and equivalent scope, quality, delivery obligations and tax basis; compare the version used at award with actual certified work and every approved amendment; separate gates for quantity-dependent rates, fixed charges, changed specifications, rate adjustments and rival performance. Do not transfer US FAR rules to a non-US procurement.
 
 **Ordinary explanations and disqualifiers:** Rival disqualified or technically noncompliant; Legitimate unforeseeable scope change; New item or revised specification lacking an equivalent rate; Quantity-dependent discount or rate-adjustment clause; Inflation, exchange, taxes or mobilization priced differently; Nonprice evaluation justified the award; Rival lacked capacity for revised work
 
@@ -62,7 +62,7 @@ proposed_new; priority rank 1. Consequence 5/5; testability 2/5; join route 3/3;
 
 **Access evidence:** OCDS stage and bid-extension documentation supports candidate structure, not publisher completeness. No real bid/quantity chain retrieved; World Bank-priced schedules may be undisclosed.
 
-**Method:** For every eligible bidder b, compute original=sum(q0_i*p_bi) and counterfactual=sum(q1_i*p_bi) only on a fully equivalent complete basket. Report adjustments, excluded items and sensitivity; never extrapolate missing prices. A reversal is a question about procurement design/change control, not intent.
+**Method:** For every eligible bidder b, compute original=sum(q0_i*p_bi) and counterfactual=sum(q1_i*p_bi) only on a fully equivalent complete basket. Report adjustments, excluded items and sensitivity; never extrapolate missing prices. A strict reversal requires the winner to have been cheaper than the same comparator originally and dearer later; initial tie-to-loss is reported separately. A reversal is a question about procurement design/change control, not intent.
 
 **Provenance:** SYS-0052 Open Contracting Data Registry (references/rabbit/originals/Rabbit2(1).txt:3010; APs AP-0053); SYS-0145 World Bank Documents & Reports API (references/rabbit/originals/Rabbit2(1).txt:9143; APs AP-0146); SYS-0058 World Bank Projects & Operations (references/rabbit/originals/Rabbit2(1).txt:4148; APs AP-0059)
 
@@ -102,27 +102,27 @@ proposed_new; priority rank 2. Consequence 5/5; testability 2/5; join route 2/3;
 
 proposed_new; priority rank 3. Consequence 5/5; testability 1/5; join route 2/3; cost tier 3/4.
 
-**If:** IF an operative project inventory expressly states that no physical structures existed within a precisely mapped acquisition or inundation area at a specified baseline/cutoff date.
+**If:** IF an operative project inventory expressly states that no physical structures existed within a precisely mapped acquisition or inundation area at a specified inventory observation date or explicitly defined interval.
 
-**Then:** THEN inspect adequately resolved images captured before that date for independently corroborated physical structures wholly within that same area, reconcile the inventory definition, and inspect later plan revisions.
+**Then:** THEN establish independently corroborated physical structures present at the exact claimed date or during the explicitly claimed zero-structure interval, wholly within that same area, reconcile the inventory definition, and inspect later plan revisions.
 
 **Basis:** A verified omitted physical asset can undermine the stated impact assessment. Imagery of a structure cannot establish occupancy, the number displaced, ownership, compensation eligibility or an unpaid claim. The test concerns a specific physical inventory statement, not demographic estimation.
 
-**Exact join:** World Bank project ID → exact document/version/page and project component → inventory polygon and cutoff → Landsat scene/product ID, acquisition timestamp, georegistration and visible object. JRC water history can contextualize later inundation but cannot substitute for the operative acquisition polygon.
+**Exact join:** World Bank project ID → exact document/version/page and project component → inventory polygon and claimed observation date/interval (distinct from legal eligibility cutoff) → Landsat scene/product ID, acquisition timestamp, georegistration and visible object. JRC water history can contextualize later inundation but cannot substitute for the operative acquisition polygon.
 
-**Scope:** Project-specific baseline and actual acquisition boundary, with image cloud/shadow/resolution sufficient to identify the object. Applicable safeguard framework and cutoff must be established for any later compliance interpretation.
+**Scope:** Project-specific inventory observation date/interval, separately recorded legal eligibility cutoff, and actual acquisition boundary, with image cloud/shadow/resolution sufficient to identify the object. Applicable safeguard framework and cutoff must be established for any later compliance interpretation.
 
-**Ordinary explanations and disqualifiers:** Inventory excludes the particular structure class; Mapped component or boundary changed; Object is rock, temporary equipment or model artifact; Image acquired after cutoff; Already inventoried in an annex or amended plan; Georegistration puts the object outside the area; Structure existed but no resident or compensation entitlement follows
+**Ordinary explanations and disqualifiers:** Inventory excludes the particular structure class; Mapped component or boundary changed; Object is rock, temporary equipment or model artifact; Earlier structure demolished/relocated/removed before the claimed date; Image timing does not establish presence at the claimed date; Already inventoried in an annex or amended plan; Georegistration puts the object outside the area; Structure existed but no resident or compensation entitlement follows
 
-**Required original records:** Original signed/operative inventory and all spatial annexes; Cutoff and definitions; Contemporaneous image metadata and pixels; Independent corroboration of structure interpretation; Amendments and actual project boundary; Separate claimant/occupancy/compensation records before making those claims
+**Required original records:** Original signed/operative inventory and all spatial annexes; Inventory observation date/interval, separate eligibility cutoff and definitions; Contemporaneous image metadata and pixels; Independent corroboration of structure interpretation; Amendments and actual project boundary; Separate claimant/occupancy/compensation records before making those claims
 
 **Next cheapest check:** Read the exact inventory sentence and map before downloading imagery. If Landsat cannot resolve the alleged structure, defer or identify a lawful higher-resolution source explicitly; do not treat a detection model as ground truth.
 
-**Novelty:** C02 estimates exposure around a hazard; R11 follows project/document milestones. This asks whether a particular zero-asset inventory is falsified by a pre-cutoff physical counterexample. It is not an additional population-overlay pairing.
+**Novelty:** C02 estimates exposure around a hazard; R11 follows project/document milestones. This asks whether a particular zero-asset inventory is falsified by a physical counterexample at the claimed date/interval. It is not an additional population-overlay pairing.
 
 **Access evidence:** World Bank framework documentation establishes inventory context; no project inventory or usable image pair sampled. The earlier project-document component sample does not confirm these fields for this predicate.
 
-**Method:** Record the exact claim, polygon and cutoff; use at least one clear dated pre-cutoff image and independent corroboration. Report only the minimum verified physical counterexamples, positional uncertainty and any ambiguity; do not multiply structures by a population ratio.
+**Method:** Record the exact claim, polygon and cutoff; require clear evidence of presence at the claimed date/interval; an earlier image alone fails, and any inference of persistence needs independent temporal corroboration. Report only the minimum verified physical counterexamples, positional uncertainty and any ambiguity; do not multiply structures by a population ratio.
 
 **Provenance:** SYS-0145 World Bank Documents & Reports API (references/rabbit/originals/Rabbit2(1).txt:9143; APs AP-0146); SYS-0103 USGS Landsat data (references/rabbit/originals/Rabbit2(1).txt:6713; APs AP-0104); SYS-0058 World Bank Projects & Operations (references/rabbit/originals/Rabbit2(1).txt:4148; APs AP-0059); SYS-0115 JRC Global Surface Water (references/rabbit/originals/Rabbit2(1).txt:7375; APs AP-0116)
 

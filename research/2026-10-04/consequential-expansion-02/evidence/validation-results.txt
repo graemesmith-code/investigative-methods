@@ -11,14 +11,19 @@ test_prior_corrections_applied (__main__.ArtifactChecks.test_prior_corrections_a
 test_procurement_scope_and_nonprice_guard (__main__.ArtifactChecks.test_procurement_scope_and_nonprice_guard) ... ok
 test_rank_reproducible (__main__.ArtifactChecks.test_rank_reproducible) ... ok
 test_sample_is_not_conflicting_pair (__main__.ArtifactChecks.test_sample_is_not_conflicting_pair) ... ok
+test_initial_tie_is_not_strict_reversal (__main__.SyntheticBidArithmeticChecks.test_initial_tie_is_not_strict_reversal) ... ok
 test_missing_price_rejected (__main__.SyntheticBidArithmeticChecks.test_missing_price_rejected) ... ok
 test_no_original_advantage_not_reversal (__main__.SyntheticBidArithmeticChecks.test_no_original_advantage_not_reversal) ... ok
 test_noncomparable_or_ineligible_rival_rejected (__main__.SyntheticBidArithmeticChecks.test_noncomparable_or_ineligible_rival_rejected) ... ok
 test_nonfinite_rejected (__main__.SyntheticBidArithmeticChecks.test_nonfinite_rejected) ... ok
 test_reversal_arithmetic (__main__.SyntheticBidArithmeticChecks.test_reversal_arithmetic) ... ok
 test_unit_currency_mismatch_rejected (__main__.SyntheticBidArithmeticChecks.test_unit_currency_mismatch_rejected) ... ok
+test_unresolved_fixed_charges_rejected (__main__.SyntheticBidArithmeticChecks.test_unresolved_fixed_charges_rejected) ... ok
+test_claimed_interval_requires_overlap (__main__.SyntheticTemporalChecks.test_claimed_interval_requires_overlap) ... ok
+test_old_image_is_not_presence_at_cutoff (__main__.SyntheticTemporalChecks.test_old_image_is_not_presence_at_cutoff) ... ok
+test_same_date_presence (__main__.SyntheticTemporalChecks.test_same_date_presence) ... ok
 
 ----------------------------------------------------------------------
-Ran 19 tests in 0.014s
+Ran 24 tests in 0.017s
 
 OK

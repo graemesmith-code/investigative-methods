@@ -1,5 +1,5 @@
 {"stage": "prior_corrections", "new": 12, "refinements": 4, "prior_cumulative": 44, "original_checkpoint_preserved": true}
 {"stage": "coverage_mapping", "predicates": 24, "screened": 16, "queued_unexamined": 8, "source_ids_in_screened": 40}
 {"stage": "card_development", "new_proposed": 4, "refinements": 1, "not_developed_from_screened": 11}
-{"stage": "validation", "artifact_checks": 13, "synthetic_checks": 6, "empirical_chains": 0}
+{"stage": "validation", "artifact_checks": 13, "synthetic_checks": 11, "empirical_chains": 0}
 {"stage": "remaining", "gap_ids": ["G16", "G17", "G18", "G19", "G20", "G21", "G22", "G23"], "overall_exhausted": false}

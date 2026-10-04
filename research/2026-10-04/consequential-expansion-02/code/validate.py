@@ -1,5 +1,6 @@
 import json,pathlib,unittest,copy,hashlib
 from bid_compare import compare
+from inventory_time import overlaps_established_presence
 P=pathlib.Path(__file__).resolve().parents[1]
 def jl(n):return [json.loads(x) for x in (P/n).read_text().splitlines()]
 class ArtifactChecks(unittest.TestCase):
@@ -26,7 +27,7 @@ class ArtifactChecks(unittest.TestCase):
  def test_sample_is_not_conflicting_pair(self):
   r=jl('evidence/sample-observations.jsonl')[0];self.assertFalse(r['matched_second_agreement']);self.assertFalse(r['positive_finding'])
  def test_inventory_not_population(self):
-  r=self.by['Z02'];self.assertIn('cannot establish occupancy',r['logical_or_legal_basis']);self.assertIn('before that date',r['expected_observation']);self.assertIn('cannot resolve',r['next_cheapest_check'])
+  r=self.by['Z02'];self.assertIn('cannot establish occupancy',r['logical_or_legal_basis']);self.assertIn('exact claimed date',r['expected_observation']);self.assertIn('cannot resolve',r['next_cheapest_check'])
  def test_ad_exact_product_and_context(self):
   r=self.by['Z03'];self.assertIn('Ingredient alone is not',r['operational_join']);self.assertIn('Canadian',r['timing_geography']);self.assertIn('prescribing',str(r['ordinary_explanations_and_disqualifiers']))
  def test_licence_scope_and_credential_gate(self):
@@ -42,7 +43,7 @@ class ArtifactChecks(unittest.TestCase):
 class SyntheticBidArithmeticChecks(unittest.TestCase):
  def setUp(self):
   self.items=[dict(id='a',unit='m',q0=100,q1=1),dict(id='b',unit='m',q0=1,q1=100)]
-  self.bids=[dict(id=i,eligible=True,revised_basket_equivalence_confirmed=True,prices={k:dict(rate=v,unit='m',currency='USD') for k,v in zip(['a','b'],rates)}) for i,rates in [('winner',[1,10]),('rival',[2,2])]]
+  self.bids=[dict(id=i,eligible=True,revised_basket_equivalence_confirmed=True,quantity_pricing_confirmed=True,fixed_charges_accounted=True,specifications_equivalent=True,performance_comparable=True,rate_adjustments_accounted=True,prices={k:dict(rate=v,unit='m',currency='USD') for k,v in zip(['a','b'],rates)}) for i,rates in [('winner',[1,10]),('rival',[2,2])]]
  def test_reversal_arithmetic(self):
   r=compare(self.items,self.bids,'winner','USD');self.assertTrue(r['price_rank_reversal']);self.assertEqual(r['totals'][0]['original'],'110');self.assertEqual(r['totals'][0]['revised'],'1001');self.assertEqual(r['totals'][1]['revised'],'202')
  def test_missing_price_rejected(self):
@@ -56,7 +57,18 @@ class SyntheticBidArithmeticChecks(unittest.TestCase):
   with self.assertRaises(ValueError):compare(self.items,self.bids,'winner','USD')
  def test_no_original_advantage_not_reversal(self):
   r=compare(self.items,self.bids,'rival','USD');self.assertFalse(r['winner_had_original_lowest_price']);self.assertFalse(r['price_rank_reversal'])
+ def test_initial_tie_is_not_strict_reversal(self):
+  self.items[0]['q0']=1;self.items[1]['q0']=1;self.items[0]['q1']=1;self.items[1]['q1']=2
+  self.bids[0]['prices']['a']['rate']=1;self.bids[0]['prices']['b']['rate']=3
+  r=compare(self.items,self.bids,'winner','USD');self.assertFalse(r['price_rank_reversal']);self.assertTrue(r['initial_tie_to_loss']);self.assertEqual(r['comparisons'][0]['original_rival_minus_winner'],'0');self.assertEqual(r['comparisons'][0]['revised_rival_minus_winner'],'-1');self.assertEqual(len(r['comparisons'][0]['item_contributions']),2)
+ def test_unresolved_fixed_charges_rejected(self):
+  self.bids[1]['fixed_charges_accounted']=False
+  with self.assertRaises(ValueError):compare(self.items,self.bids,'winner','USD')
  def test_nonfinite_rejected(self):
   self.items[0]['q1']='NaN'
   with self.assertRaises(ValueError):compare(self.items,self.bids,'winner','USD')
+class SyntheticTemporalChecks(unittest.TestCase):
+ def test_old_image_is_not_presence_at_cutoff(self):self.assertFalse(overlaps_established_presence('2020-06-01','2020-06-01','2020-01-01','2020-01-01'))
+ def test_same_date_presence(self):self.assertTrue(overlaps_established_presence('2020-06-01','2020-06-01','2020-06-01','2020-06-01'))
+ def test_claimed_interval_requires_overlap(self):self.assertTrue(overlaps_established_presence('2020-01-01','2020-06-01','2020-03-01','2020-03-01'))
 if __name__=='__main__':unittest.main(verbosity=2)
