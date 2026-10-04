@@ -1,0 +1,20 @@
+{
+  "remote_repository_private": true,
+  "remote_artifact_blob_and_size_match": true,
+  "zip_crc_passed": true,
+  "binary_remote_redownload": false,
+  "library_upload_confirmed": true,
+  "xattrs_applied": true,
+  "content_commit": "d852ae9c5a5a37fdf325f8055f122627c6e79723",
+  "artifact": "checkpoints/consequential-discovery-start-here-through-09.zip",
+  "bytes": 4737207,
+  "sha256": "29843df526ecb4e33a6797255e3c5536a27cf1ae3f00127b8826e93506a8aa55",
+  "git_blob": "7de840c431fd67ed726c75e916aec631a38a5738",
+  "library_file_id": "libfile_ef4ec94f883c8191a00b86cb472828cd",
+  "library_version": 0,
+  "accepted_formulations": 55,
+  "refinements": 15,
+  "cards": 70,
+  "checks_passed": 10,
+  "full_case_feasible": 0
+}
