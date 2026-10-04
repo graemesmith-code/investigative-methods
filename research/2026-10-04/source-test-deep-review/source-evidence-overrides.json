@@ -1,0 +1,63 @@
+{
+  "geography": {
+    "sys_id": "SYS-0164",
+    "catalog_claim": "Geographic coverage: Global; AP weakness already says not global",
+    "verified_scope": "V3 listed countries in Africa, South/Southeast Asia, Latin America and Caribbean; Puerto Rico and US Virgin Islands listed, US mainland and Canada absent",
+    "evidence_url": "https://sites.research.google/gr/open-buildings/",
+    "checked_on": "2026-10-04",
+    "requires_actual_aoi_coverage": true
+  },
+  "access_routes": {
+    "4": {
+      "route": "public company API",
+      "credential_required": true,
+      "evidence": "D05"
+    },
+    "71": {
+      "route": "fishing API",
+      "credential_required": true,
+      "evidence": "phase1 official documentation"
+    },
+    "72": {
+      "route": "GISIS records",
+      "credential_required": true,
+      "evidence": "catalog; verify route"
+    },
+    "73": {
+      "route": "Equasis",
+      "credential_required": true,
+      "evidence": "D04"
+    },
+    "74": {
+      "route": "inspection storage/reuse",
+      "authorization_required": true,
+      "evidence": "D03"
+    },
+    "75": {
+      "route": "inspection search",
+      "manual_required": true,
+      "evidence": "catalog; verify route"
+    },
+    "149": {
+      "route": "schema download",
+      "access_failed": true,
+      "evidence": "phase1 HTTP403"
+    },
+    "214": {
+      "route": "Carbon Mapper scoped API",
+      "credential_required": true,
+      "evidence": "D09"
+    },
+    "255": {
+      "route": "EIA API",
+      "credential_required": true,
+      "evidence": "D16"
+    },
+    "256": {
+      "route": "ENTSO-E API",
+      "credential_required": true,
+      "authorization_required": true,
+      "evidence": "D17"
+    }
+  }
+}

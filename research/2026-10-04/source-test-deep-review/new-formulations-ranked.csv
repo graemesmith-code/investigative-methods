@@ -1,0 +1,10 @@
+rank,review_id,title,public_interest,testability,join_confidence,burden,triage_score,rank_basis,cost_scope
+1,N06,Different releases of the same document,92,2,2,2,71.8,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+2,N04,Claimed law versus operative text,85,2,3,2,70.25,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+3,N09,Production claim exceeds a complete total,89,2,2,2,69.85,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+4,N03,Defence spending definitions bridge,82,2,2,2,65.3,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+5,N01,Aid disbursement reconciliation,90,1,1,2,62.5,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+6,N02,Foreign assistance award reconciliation,88,1,1,2,61.2,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+7,N07,Producer attribution arithmetic,83,1,2,2,60.95,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+8,N05,Request closure label versus response,68,1,2,2,51.2,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown
+9,N08,Historical board disclosure reconciliation,61,1,1,2,43.65,model-authored dimensions; deterministic composite; not a finding probability,initial document/reconciliation check; execution burden unknown

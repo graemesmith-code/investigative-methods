@@ -1,0 +1,32 @@
+sys_id,name,review_depth,disposition,finding
+SYS-0001,GLEIF LEI data,source_specific_reasoning,identity_support,Accounting parent relationship does not prove ownership percentage; use LEI as entity bridge.
+SYS-0023,OpenSanctions,source_specific_reasoning,duplicate_input,Sanctions aggregation shares upstream lists; overlap cannot independently corroborate a listing.
+SYS-0039,INTERPOL Red Notices,source_specific_reasoning,defer,Wanted-person notice is not conviction; officer identity and current notice status require exact biographical proof.
+SYS-0044,IRS FATCA Foreign Financial Institution list,source_specific_reasoning,new_R18,"FATCA registration can supply a narrow institution-status check, never proof of a financial transaction."
+SYS-0063,EU Cohesion Open Data,source_specific_reasoning,defer,"Regional cohesion allocations versus prosperity need beneficiary geography, eligibility formula and population denominators."
+SYS-0068,Grants.gov APIs,source_specific_reasoning,defer,Opportunity notices do not establish awards; procurement lifecycle IDs and actual award decisions are missing.
+SYS-0079,UNOOSA Register of Objects Launched into Outer Space,source_specific_reasoning,new_R15,Space registration and catalog designators permit piece-level comparison after authority and historical coverage checks.
+SYS-0080,CelesTrak GP orbital data,source_specific_reasoning,new_R15,Orbit catalog provides object identifiers but current elements do not demonstrate past operations.
+SYS-0081,Space-Track.org,source_specific_reasoning,corrected_catalog_identity_support,"Space-Track supplies orbital catalog data under its own registration/terms. Cross-check full object identifiers and observation epoch with CelesTrak, recognizing potentially shared upstream observations; not independent proof of satellite operation. Earlier checkpoint mistakenly described this source as radio allocation."
+SYS-0090,IMF PortWatch,source_specific_reasoning,defer,Modeled port activity and customs trade use different quantities and timing; vessel cargo evidence needed.
+SYS-0097,ReliefWeb API,source_specific_reasoning,support,ReliefWeb republishes upstream reports; distinguish original evidence from duplicate publication.
+SYS-0101,Copernicus Data Space Ecosystem,source_specific_reasoning,support,"Imagery is an auxiliary observation; specific site, usable acquisition date and clouds must be established."
+SYS-0103,USGS Landsat data,source_specific_reasoning,support,Historical imagery requires repeat acquisitions and compatible resolution before a change-detection test.
+SYS-0133,Internet Archive Wayback Machine APIs,source_specific_reasoning,support,Archive capture time is not the publication or underlying event date; missing captures cannot prove absence.
+SYS-0145,World Bank Documents & Reports API,source_specific_reasoning,new_R11,"World Bank project ID links document and project indexes; text retrieval confirmed, substantive delivery comparison still auxiliary."
+SYS-0146,OONI data and API,source_specific_reasoning,new_R12,OONI supports censorship-specific tests rather than general outage inference; control false positives and geography.
+SYS-0182,HydroSHEDS,source_specific_reasoning,support_R09,"Drainage topology is a necessary auxiliary for downstream tailings scenarios, not a hazard footprint."
+SYS-0187,GRACE Tellus gravity and groundwater data,source_specific_reasoning,defer,GRACE basin-scale mass estimates cannot attribute facility-level water extraction; hydrologic balance and scale bridge missing.
+SYS-0231,UNHCR Refugee Data Finder API,source_specific_reasoning,defer,Country-year displacement totals cannot identify local incident effects without disaggregation and reporting coverage.
+SYS-0251,ORCID Public API,source_specific_reasoning,support,"ORCID is partly self-asserted; author identity bridge needs corroboration, not guilt by affiliation."
+SYS-0254,OpenFIGI API,source_specific_reasoning,support,"FIGI identifies an instrument, not its ultimate legal owner; issuer and dated beneficial-owner bridges are required."
+SYS-0255,US Energy Information Administration API,source_specific_reasoning,new_R13,EPA advertises an EIA facility crosswalk; generation/emissions comparisons require unit boundaries and fuel mix.
+SYS-0256,ENTSO-E Transparency Platform API,source_specific_reasoning,new_R14,"Unit generation may test purported closure after EIC-to-asset crosswalk, token and actual-versus-forecast checks."
+SYS-0266,Statistics Canada Reference Data as a Service,source_specific_reasoning,support,Industry classifications contextualize companies; category overlap alone is no consequential hypothesis.
+SYS-0273,House of Commons of Canada open data,source_specific_reasoning,defer,"Voting and donations need member-to-recipient, election-cycle and legislative-subject links; sequence does not prove influence."
+SYS-0287,Toronto Stock Exchange / TMX Datalinx market-data products,source_specific_reasoning,defer,Market reference access and price/history rights must be confirmed before event comparisons.
+SYS-0289,System for Electronic Disclosure by Insiders and national registrant systems,source_specific_reasoning,new_R16,"Insider holding changes versus filings require transaction codes, amendments and corporate actions; not an insider-trading allegation."
+SYS-0291,Ontario Securities Commission exempt-market distributions,source_specific_reasoning,defer,Exempt-distribution amounts are not comprehensive financial statements; full issuer filings required.
+SYS-0303,British Columbia MINFILE mineral occurrence database,source_specific_reasoning,defer,Mineral occurrence geology is not an economic reserve or proof of extraction; dated permits and technical reports required.
+SYS-0312,Québec geochemistry,source_specific_reasoning,defer,"Geochemical samples require method, matrix, QA and location; concentrations cannot establish population exposure."
+SYS-0339,Office of the Information Commissioner of Canada decisions database,source_specific_reasoning,new_R17,"Information orders need exact terms, service dates and court review/stay evidence before judging compliance."

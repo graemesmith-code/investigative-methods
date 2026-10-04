@@ -1,0 +1,25 @@
+test_access_routes_in_production_ranking (__main__.Validation.test_access_routes_in_production_ranking) ... ok
+test_all_mechanisms_reviewed (__main__.Validation.test_all_mechanisms_reviewed) ... ok
+test_all_sources_individually_covered (__main__.Validation.test_all_sources_individually_covered) ... ok
+test_counts (__main__.Validation.test_counts) ... ok
+test_directional_trade_tuple (__main__.Validation.test_directional_trade_tuple) ... ok
+test_falsifiers_separated_from_performed (__main__.Validation.test_falsifiers_separated_from_performed) ... ok
+test_google_canada_rejected (__main__.Validation.test_google_canada_rejected) ... ok
+test_google_echo_territories_only (__main__.Validation.test_google_echo_territories_only) ... ok
+test_google_propagated (__main__.Validation.test_google_propagated) ... ok
+test_imo_company_schema_not_ship (__main__.Validation.test_imo_company_schema_not_ship) ... ok
+test_imo_record_semantics_used_by_join (__main__.Validation.test_imo_record_semantics_used_by_join) ... ok
+test_manual_route_changes_tier (__main__.Validation.test_manual_route_changes_tier) ... ok
+test_no_execution_claims (__main__.Validation.test_no_execution_claims) ... ok
+test_partition (__main__.Validation.test_partition) ... ok
+test_provisional_documentation (__main__.Validation.test_provisional_documentation) ... ok
+test_r07_correction (__main__.Validation.test_r07_correction) ... ok
+test_saved_ooni_asn_and_negative_flags (__main__.Validation.test_saved_ooni_asn_and_negative_flags) ... ok
+test_saved_trial_link_and_retrospective_dates (__main__.Validation.test_saved_trial_link_and_retrospective_dates) ... ok
+test_saved_worldbank_exact_link_and_date_caution (__main__.Validation.test_saved_worldbank_exact_link_and_date_caution) ... ok
+test_source81_identity_corrected (__main__.Validation.test_source81_identity_corrected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.099s
+
+OK

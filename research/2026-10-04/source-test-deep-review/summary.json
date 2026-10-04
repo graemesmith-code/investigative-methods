@@ -1,0 +1,23 @@
+{
+  "source_descriptions": 344,
+  "individual_source_reasoning_complete": 344,
+  "participating_source_judgments": 205,
+  "omitted_source_judgments": 139,
+  "mechanisms_individually_reviewed": 65,
+  "ordered_pairs_policy_enumerated": 117992,
+  "mechanically_expanded": 2535,
+  "initial_substantive_rejections": 797,
+  "deduplicated": 8,
+  "new_geography_quarantines": 15,
+  "active_conditional_candidates": 1715,
+  "audit_inventory_rows": 1730,
+  "source_specific_cards": 27,
+  "additional_formulations_this_pass": 9,
+  "saved_linkage_components": 3,
+  "fully_executable_confirmed": 0,
+  "bulk_tests_executed": 0,
+  "validation_checks": 20,
+  "paid_api_calls": 0,
+  "weekly_usage": "unavailable",
+  "complete_scope": "catalog-level individual source and mechanism-family reasoning; not every pair execution or availability validation"
+}

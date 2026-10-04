@@ -1,3 +1,5 @@
+**Superseded by the [third checkpoint](../source-test-deep-review/README.md), which corrects Google building coverage and completes all-source reasoning. The frozen second-checkpoint ZIP remains unchanged.**
+
 # Investigative test discovery: feasibility checkpoint, 4 October 2026
 
 Start with **[18 reviewed recipes](reviewed-recipes.csv)**. Each states an observation, what to check, why it could matter, the exact linking problem, ordinary explanations, required auxiliary evidence and the next cheap check. These are proposals for reporting, not findings about any person or organization.
