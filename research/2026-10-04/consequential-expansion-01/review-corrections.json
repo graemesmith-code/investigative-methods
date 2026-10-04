@@ -1,0 +1,18 @@
+{
+  "original_checkpoint_commit": "42554f4f8e52983196b6ee65e44d6cb2e4bb9d4b",
+  "original_zip_preserved": true,
+  "new_count": 12,
+  "refinements": 4,
+  "cumulative_non_refinement_cards": 44,
+  "changes": {
+    "X01": "H04 overlap; refinement",
+    "X10": "E02 commercial-sourcing specialization; refinement",
+    "E07": "2016 historical guidance; current House-linked revision verified separately as E24",
+    "X13": "Asset and outstanding-liability conditions separate; no automatic mortgage offset",
+    "X08": "Issuing office, actual-security custodian and retrieval dependencies explicit",
+    "X06": "Disbursement purpose does not supply ad creative ID",
+    "X14": "Relationship to N06 acknowledged",
+    "X02": "ESTMA payer evidence is not recipient evidence"
+  },
+  "weekly_meter": "unavailable"
+}

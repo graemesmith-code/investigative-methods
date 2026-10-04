@@ -4,7 +4,7 @@ jl=lambda n:[json.loads(x) for x in (P/n).read_text().splitlines()]
 class ExpansionValidation(unittest.TestCase):
  @classmethod
  def setUpClass(c):c.rows=jl('new-formulations.jsonl');c.by={r['test_id']:r for r in c.rows};c.sources={int(s['sys_id'][-4:]):s for s in jl('sources.jsonl')};c.screen=jl('candidate-screen.jsonl')
- def test_counts_no_refinement_inflation(self):self.assertEqual(len(self.screen),34);self.assertEqual(sum(r['kind']=='new_mechanism' for r in self.rows),14);self.assertEqual(sum(r['kind']=='existing_mechanism_refinement' for r in self.rows),2)
+ def test_counts_no_refinement_inflation(self):self.assertEqual(len(self.screen),34);self.assertEqual(sum(r['kind']=='new_mechanism' for r in self.rows),12);self.assertEqual(sum(r['kind']=='existing_mechanism_refinement' for r in self.rows),4)
  def test_screen_coverage(self):
   selected={r['candidate_id'] for r in self.screen if r['disposition'].startswith('develop') or r['disposition']=='refinement_not_new'};self.assertEqual(selected,set(self.by));self.assertEqual(len(self.screen)-len(selected),18)
  def test_source_id_and_provenance_integrity(self):

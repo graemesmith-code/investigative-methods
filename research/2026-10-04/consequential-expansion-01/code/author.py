@@ -22,7 +22,7 @@ add('X02','Fixed extractive-contract obligation versus covered receipts',[111,10
 ['Amendment, waiver or suspension','Trigger not reached','Payment in another covered period or stream','In-kind or netting provision','Incomplete receipt population or confidential amount'],
 ['Original signed PDF and all operative amendments','Evidence of trigger and due date','Receipt coverage and accounting basis','Payer/project/payee crosswalk'],
 'Find a simple fixed clause first; stop if the actual receipt dataset cannot isolate that project and stream. Avoid speculative revenue estimates from commodity prices.',
-'D05/N01 reconcile two accounts of money paid. This derives the expected amount from a separately established obligation.', ['E03'],[5,2,2,3],'Contract access documented; project-level receipt completeness and amendments unverified.')
+'D05/N01 reconcile two accounts of money paid. This derives the expected amount from a separately established obligation.', ['E03'],[5,2,2,3],'Contract access documented; project-level receipt completeness and amendments unverified. ESTMA is payer disclosure, not government receipt proof.')
 add('X03','Reported waste destination versus actual handling authority',[218,38],[],
 'IF a TRI sender reports a chemical/year transfer to a specifically identified off-site receiver under a disposal, treatment, energy-recovery or recycling code.',
 'THEN resolve the actual receiving operation and compare the reported handling route with its historical permit/authorization and shipment evidence for the same waste, process and interval.',
@@ -42,7 +42,7 @@ add('X04','Explicit foreign-entity declarations that cannot both fit the same fa
 ['Different clients, affiliates or services','Foreign principal is not the qualifying controlling entity','Ownership/control changed','Threshold or report scope not met','Amended or historically appropriate answer'],
 ['Actual LD-1 and amendments','Actual Exhibit A and referenced ownership evidence','Applicable current or historic LDA criteria','Specific client/activity and date crosswalk'],
 'Read the exact yes/no declaration and applicable rule before joining names; confirm the client is the same entity described in Exhibit A.',
-'I01 adds ownership context; this tests mutually inconsistent affirmative disclosure facts within carefully matched legal scope.', ['E07','E08','E09'],[5,2,1,3],'Public search/forms documented; field interpretation and cross-regime identity need manual review. No filing sampled.')
+'I01 adds ownership context; this tests mutually inconsistent affirmative disclosure facts within carefully matched legal scope.', ['E07','E08','E09','E24'],[5,2,1,3],'Public search/forms documented; field interpretation and cross-regime identity need manual review. No filing sampled.')
 add('X05','Charity no-lobbying declaration versus specific legislative activity',[45,117],[],
 'IF a charity’s applicable Form 990/Schedule C explicitly denies the relevant legislative-lobbying activity and a lobbying filing identifies that same charity’s work on specific legislation during its tax year.',
 'THEN reconcile the exact activity and reporting definitions to determine whether the denial leaves a documented activity unexplained.',
@@ -52,7 +52,7 @@ add('X05','Charity no-lobbying declaration versus specific legislative activity'
 ['Executive-branch issue outside relevant legislative definition','Different affiliate','Permitted exception or accounting classification','Noncalendar fiscal year','Corrected return or report'],
 ['Signed return and Schedule C','Specific legislative issue/activity record','Relevant instructions for that charity/year','Entity and fiscal-year bridge'],
 'Select an explicit declaration and a specific legislative activity; reject comparisons based only on rounded annual lobbying totals.',
-'E08 concerns related parties; I05 concerns influence on rules. This tests a charity activity declaration under its own reporting definition.', ['E10','E07'],[4,2,1,2],'Public return and lobbying routes known; one same-entity activity and definition comparison remains untested.')
+'E08 concerns related parties; I05 concerns influence on rules. This tests a charity activity declaration under its own reporting definition.', ['E10','E24'],[4,2,1,2],'Public return and lobbying routes known; one same-entity activity and definition comparison remains untested.')
 add('X06','Foreign-principal money behind a specific advertised campaign',[118,143],[],
 'IF a FARA agreement/supplement itemizes a particular advertisement or campaign financed for a named foreign principal, with a sufficiently specific placement or creative reference.',
 'THEN trace that placement to the archived ad and its payer/disclaimer, establishing which principal financed the message rather than treating the displayed intermediary as the ultimate sponsor.',
@@ -62,7 +62,7 @@ add('X06','Foreign-principal money behind a specific advertised campaign',[118,1
 ['Different campaign with similar creative','Agent paid from unrelated funds','Disclaimer already names the principal','Agency amount includes nonadvertising services','Archive lacks the relevant ad class'],
 ['Original principal agreement and itemized campaign spending','Exact ad/creative/placement crosswalk','Full disclaimer and archived ad metadata'],
 'Look for an explicit creative or placement identifier in one public FARA document; defer if the bridge is only a generic campaign description.',
-'I04 reconciles campaign spending; S05 screens sanctioned principals. This establishes message-specific financing through an intermediary without a sanctions premise.', ['E11'],[4,1,1,3],'FARA documentation read; Meta archival access/coverage and exact creative bridge unverified.')
+'I04 reconciles campaign spending; S05 screens sanctioned principals. This establishes message-specific financing through an intermediary without a sanctions premise.', ['E11'],[4,1,1,3],'FARA disbursement purpose/recipient fields do not guarantee a Meta creative ID. An explicit placement reference or equivalently exact documented creative bridge is mandatory; Meta archival access/coverage remains unverified.')
 add('X07','Construction before a specific prerequisite approval',[283,101],[304],
 'IF an operative project decision expressly prohibits a defined construction activity until a specified written approval, and both the regulated component and actual approval date are established.',
 'THEN inspect suitable dated imagery for that same activity/component before the prerequisite date, corroborating what the change actually represents.',
@@ -82,7 +82,7 @@ add('X08','Reclamation security actually posted versus a specific requirement',[
 ['Approved staged security or amendment','Letter of credit/guarantee omitted from cash total','Pooled instrument covers this site','Different accounting discount basis','Record predates top-up'],
 ['Operative security decision','Dated actual-security confirmation','Instrument conditions and beneficiary','Site allocation for pooled security','Relevant amendments'],
 'Locate the exact site-specific requirement and an actual-held record. If either is unavailable, retain only a gated lead; do not subtract issuer provisions from liability estimates.',
-'C08 is physical cascade risk; E06 is supplier litigation. This tests the funding of a legally specified cleanup safeguard.', ['E12'],[5,1,2,4],'Public annual reporting is documented; actual-held security and permit amount availability remain unverified.')
+'C08 is physical cascade risk; E06 is supplier litigation. This tests the funding of a legally specified cleanup safeguard.', ['E12'],[5,1,2,4],'Public annual reporting is documented but does not establish security holdings. Unresolved dependencies: identify the issuing BC mine-permitting office and operative security decision/amendments; identify the government custodian holding the instruments and obtain a dated site allocation or confirmation through an authorized public route. Neither document nor retrieval route is yet verified.')
 add('X09','A filed mining-right claim versus that exact instrument’s status',[288,309],[],
 'IF an issuer filing says it held a particular numbered Ontario mining claim at a specified reporting date.',
 'THEN establish the authoritative historical status and holder/right chain for that exact instrument on that date, checking any renewal, transfer, option or reinstatement.',
@@ -126,11 +126,11 @@ add('X12','Attributed mineral assay versus its original sample measurement',[312
 add('X13','Voluntary deregistration despite a contemporaneous property interest',[47,7],[],
 'IF an Australian company is confirmed to have used voluntary deregistration, and contemporaneous title evidence identifies a valuable English/Welsh property interest held by that same legal entity.',
 'THEN establish the company’s beneficial/economic interest and valuation at the application date against the applicable voluntary-deregistration asset condition, distinguishing other deregistration routes.',
-'Current ASIC guidance requires assets below A$1,000 for voluntary deregistration. A verified contradictory asset position warrants scrutiny; a stale title entry is not proof of an invalid application.',
+'Current ASIC guidance separately requires assets below A$1,000 and no outstanding liabilities for voluntary deregistration. Subtracting a mortgage is not automatically a valid asset-condition test; establish the applicable valuation treatment and test liabilities separately. A verified contradictory asset position warrants scrutiny; a stale title entry is not proof of an invalid application.',
 'Exact Australian ACN as recorded/verified for the overseas proprietor → ASIC company and deregistration method → title and interest history. ABN, name similarity and registration dates are not substitutes.',
 'Australian corporate process and England/Wales property; application-date assets and historical rule version, not today’s company status or property asking price.',
-['ASIC-initiated deregistration','Prior disposal with land-register lag','Trustee/nominee rather than economic asset','Low-value lease or encumbered interest','Reinstatement or incorrect company identifier'],
-['Deregistration application/method and date','Contemporaneous title/transfer record','Nature and value of company interest','Applicable historical rule'],
+['ASIC-initiated deregistration','Prior disposal with land-register lag','Trustee/nominee rather than economic asset','Different legally established asset interest/valuation; a mortgage is not an automatic offset','Reinstatement or incorrect company identifier'],
+['Deregistration application/method and date','Contemporaneous title/transfer record','Nature and value of company interest','Separate outstanding-liabilities evidence; no automatic net-equity substitution','Applicable historical rule'],
 'First confirm the deregistration was voluntary. Then check exact ACN and historical interest; stop before paid title or ASIC documents without an authorized free route.',
 'F04 asks whether a supplier existed; S03 traces sanctioned assets. This tests the factual asset condition of a specified deregistration process.', ['E17','E18'],[5,2,3,4],'HMLR account gate documented; historical title/ASIC records may cost. No account or paid record requested.')
 add('X14','Conflicting copies of the same audited consolidated accounts',[5,6],[],
@@ -142,7 +142,7 @@ add('X14','Conflicting copies of the same audited consolidated accounts',[5,6],[
 ['Different GAAP or consolidation','Currency/unit scaling','Subsequent amendment','Translation or taxonomy mapping','Different auditor opinion scope'],
 ['Original audited statements and opinions on both sides','Issuer crosswalk','Amendment history','Basis/consolidation/units mapping'],
 'Confirm that two documents purport to contain the same audited accounts before extracting numbers; compare original statement pages before trusting XBRL labels.',
-'E09 reconciles government funding to issuer accounts. This compares supposedly identical audited statements filed with two regulators.', ['E19','E20'],[5,1,2,3],'SEC route documented; EDINET API version guides available, but auth/language/record access and issuer crosswalk remain unverified.')
+'Related to N06 same-document/version comparison, but tests issuer-account consistency for the same audited statement across regulators rather than agency redaction versions. E09 instead reconciles government funding to issuer accounts.', ['E19','E20'],[5,1,2,3],'SEC route documented; EDINET API version guides available, but auth/language/record access and issuer crosswalk remain unverified.')
 # Explicitly separate useful refinements from new-mechanism totals.
 add('REF-H01','NIH trial results submission under the applicable award policy',[246,248],[],
 'IF an exact NIH award funds a trial covered by the relevant results-submission policy and the actual primary-completion and award dates are established.',
@@ -166,6 +166,12 @@ add('REF-D01','Covered federal asset after its applicable vulnerability deadline
 'Refinement of D01 and prior Censys source review; not counted as a genuinely new mechanism.', ['E23'],[5,1,2,4],'A referenced CISA alert failed to open; current/event-date scope unresolved. Passive historical access likely credentialed; no observations acquired.',kind='existing_mechanism_refinement')
 strength={'X01':'explicit disclosure versus verified relationship; policy applicability conditional','X02':'fixed contractual obligation; operative case contract not yet verified','X03':'process/authorization compatibility; no illegality inference from absence','X04':'cross-regime declaration consistency; thresholds and scope must be verified','X05':'activity declaration consistency; tax/LDA definitions must align','X06':'documented financing relationship; no breach claim','X07':'explicit authorization sequence; operative case condition required','X08':'specific security requirement; not a generic liability/security comparison','X09':'specific title assertion versus authoritative historical status','X10':'documented commercial relationship and final finding; association not liability','X11':'statistical independence of participants; duplicate publication not itself a breach','X12':'exact measurement attribution; unit/method identity required','X13':'current general legal eligibility condition verified; case/historical applicability unverified','X14':'identical-account consistency; accounting bases must match','REF-H01':'existing obligation-based refinement; eligibility and exceptions unresolved','REF-D01':'existing deadline refinement; current/event-date authority unverified'}
 for r in C:
+ if r['test_id']=='X01':
+  r['kind']='existing_mechanism_refinement'
+  r['novelty_vs_baseline']='Independent review correction: H04 already calls for published conflict declarations and payment taxonomy (journalists-guide section 14). This sharpens direct general-payment attribution and policy window; it is not a new mechanism.'
+ if r['test_id']=='X10':
+  r['kind']='existing_mechanism_refinement'
+  r['novelty_vs_baseline']='Independent review: commercial-sourcing specialization of E02. No distinct obligation, contradiction or causal test; retained as useful refinement.'
  r['expectation_strength']=strength[r['test_id']]
  r['source_manifest']=[dict(sys_id=S[n]['sys_id'],name=S[n]['name'],explicit_catalog_fields=S[n]['join_fields'],file=S[n]['file'],line_start=S[n]['line_start'],block_sha256=S[n]['block_sha256']) for n in dict.fromkeys(r['primary_source_ids']+r['supporting_catalog_source_ids'])]
  r['semantic_key']=hashlib.sha256((r['title']+'|'+r['novelty_vs_baseline']).encode()).hexdigest()[:20]

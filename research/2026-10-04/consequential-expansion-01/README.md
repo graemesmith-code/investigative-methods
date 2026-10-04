@@ -1,10 +1,10 @@
 # Consequential source-test expansion — 4 October 2026
 
-This checkpoint proposes **14 new conditional investigative mechanisms**, plus **two refinements of existing mechanisms**. It develops 16 detailed cards from 40 explicitly screened ideas; 24 ideas were not developed. These are ways to look for evidence, not allegations or results. No records were matched or tests executed in this expansion; no complete route is yet confirmed executable.
+This checkpoint proposes **12 proposed new conditional investigative mechanisms**, plus **four refinements of existing mechanisms**. It develops 16 detailed cards from 40 explicitly screened ideas; 24 ideas were not developed. These are ways to look for evidence, not allegations or results. No records were matched or tests executed in this expansion; no complete route is yet confirmed executable.
 
 The strongest next checks follow waste from a reporting sender to its actual authorized receiver, compare a fixed resource-contract obligation with covered receipts, and compare direct physician payments with an explicit article disclosure. Other useful directions concern required reclamation security, precise assay quotations, double-counted clinical participants, and cross-border deregistration asset conditions. Each card supplies falsifiers and the next cheapest check.
 
-The prior 32 detailed cards remain intact, bringing the cumulative total to **46 detailed cards excluding the two refinements**. The earlier longlist remains **1,715 active provisional source-pair rows plus 15 quarantined rows**. Those rows and these mechanisms are different counting units and must not be added together. We have not reached 5,000 defensible independent tests and have not padded the output to do so.
+The prior 32 detailed cards remain intact, bringing the cumulative total to **44 detailed cards excluding the four refinements**. The earlier longlist remains **1,715 active provisional source-pair rows plus 15 quarantined rows**. Those rows and these mechanisms are different counting units and must not be added together. We have not reached 5,000 defensible independent tests and have not padded the output to do so.
 
 ## Use this checkpoint
 
@@ -16,13 +16,13 @@ This pass prioritizes public-health evidence, political disclosure, extractive o
 
 Scores are editorial triage, not measured likelihoods of wrongdoing. Consequence (1–5) estimates potential public-interest harm if the predicate proves true. Feasibility (1–5) measures route maturity: 1 is conceptual/limited documentation, 2 is documented components, 3 would require relevant records, 4 a demonstrated linked component and 5 an end-to-end reproducible test. Every current card is at most 2. Join route (1–3) distinguishes provisional person/name bridges, multi-field conditional routes and precise candidate identifiers; it never certifies an actual identity match. Burden (1–4) estimates increasing document, identity, access and historical-record effort. No dollar/time estimate is empirically verified.
 
-The composite is `10 × consequence + 3 × feasibility + 2 × join route − 2 × burden`. Importance, feasibility and composite ranks are separate columns across all 16 cards, including the two labeled refinements. Filter `kind=new_mechanism` when seeking new ideas. Composite weights are subjective and editable. Small rank differences should not determine a newsroom investigation.
+The composite is `10 × consequence + 3 × feasibility + 2 × join route − 2 × burden`. Importance, feasibility and composite ranks are separate columns across all 16 cards, including the four labeled refinements. Filter `kind=new_mechanism` when seeking new ideas. Composite weights are subjective and editable. Small rank differences should not determine a newsroom investigation.
 
 ## Evidence and limits
 
-There are 23 official-documentation entries, including one failed CISA access attempt recorded explicitly. No record availability is confirmed by those entries. Current ASIC guidance supports the voluntary-deregistration asset-condition framework, but route, date, economic interest and exceptions remain case-specific. An old Senate LD-1 instruction sheet uses a historical semiannual threshold and must not be treated as current guidance. NIH reporting tests must use submission dates and applicable exceptions, including BESH policy changes. The cybersecurity refinement has no verified applicable current deadline and permits no active probing.
+There are 24 official-documentation entries, including one failed CISA access attempt recorded explicitly. No record availability is confirmed by those entries. Current ASIC guidance supports the voluntary-deregistration asset-condition framework, but route, date, economic interest and exceptions remain case-specific. E07 is a historical 2016 guidance copy, and E09 is an older semiannual instruction sheet. Neither is labeled current. E24 is the official House-linked guidance, cover revised February 28, 2025 and rechecked on October 4, 2026; its introduction explicitly disclaims force of law. Case-specific and filing-date applicability still require checking. NIH reporting tests must use submission dates and applicable exceptions, including BESH policy changes. The cybersecurity refinement has no verified applicable current deadline and permits no active probing.
 
-Eighteen production-artifact checks pass. They test counts, provenance, ranking reproducibility, evidence references and required safeguards, not the truth of any allegation or legal applicability. Exact fingerprint uniqueness does not demonstrate semantic independence; novelty was reviewed manually against prior mechanisms and cards. No independent review of this new checkpoint is claimed.
+Eighteen production-artifact checks pass. They test counts, provenance, ranking reproducibility, evidence references and required safeguards, not the truth of any allegation or legal applicability. Exact fingerprint uniqueness does not demonstrate semantic independence; novelty was reviewed manually against prior mechanisms and cards. Independent review identified X01 as an H04 refinement and X10 as an E02 commercial-sourcing specialization; both corrections are applied here. The other twelve formulations remain provisional and conditionally distinct, not record-validated. The original ZIP is preserved as a superseded snapshot; current CSV/JSONL and this guide contain the correction.
 
 ## Reproduce and audit
 
@@ -120,7 +120,7 @@ Kind: existing_mechanism_refinement. Composite rank 3; consequence 5/5, feasibil
 
 ### X01 — Direct industry payments versus an explicit article disclosure
 
-Kind: new_mechanism. Composite rank 4; consequence 5/5, feasibility 2/5, join route 1/3, burden 2/4.
+Kind: existing_mechanism_refinement. Composite rank 4; consequence 5/5, feasibility 2/5, join route 1/3, burden 2/4.
 
 **If:** IF an article expressly declares no relevant financial relationships, and a verified author received direct general consulting or honoraria payments from a manufacturer relevant to the article within the journal’s applicable window.
 
@@ -138,7 +138,7 @@ Kind: new_mechanism. Composite rank 4; consequence 5/5, feasibility 2/5, join ro
 
 **Next cheapest check:** Read one article’s precise declaration and policy, then confirm a permissible direct-payment record and author identity; do not start by summing institutional research payments.
 
-**Novelty:** H04 asks about payments and trial participation; R05 compares outcomes. This tests a specific declaration against a directly attributable relationship.
+**Novelty:** Independent review correction: H04 already calls for published conflict declarations and payment taxonomy (journalists-guide section 14). This sharpens direct general-payment attribution and policy window; it is not a new mechanism.
 
 **Access evidence:** CMS public routes documented; article/full supplement availability and author bridge unverified.
 
@@ -168,7 +168,7 @@ Kind: new_mechanism. Composite rank 5; consequence 5/5, feasibility 2/5, join ro
 
 **Novelty:** D05/N01 reconcile two accounts of money paid. This derives the expected amount from a separately established obligation.
 
-**Access evidence:** Contract access documented; project-level receipt completeness and amendments unverified.
+**Access evidence:** Contract access documented; project-level receipt completeness and amendments unverified. ESTMA is payer disclosure, not government receipt proof.
 
 **Catalog provenance:** SYS-0111 ResourceContracts (references/rabbit/originals/Rabbit2(1).txt:7042); SYS-0107 EITI API and open data (references/rabbit/originals/Rabbit2(1).txt:6873); SYS-0295 Extractive Sector Transparency Measures Act data portal (references/rabbit/originals/Rabbit3.txt:1603)
 
@@ -182,15 +182,15 @@ Kind: new_mechanism. Composite rank 6; consequence 5/5, feasibility 2/5, join ro
 
 **Then:** THEN establish the company’s beneficial/economic interest and valuation at the application date against the applicable voluntary-deregistration asset condition, distinguishing other deregistration routes.
 
-**Why it matters / basis:** Current ASIC guidance requires assets below A$1,000 for voluntary deregistration. A verified contradictory asset position warrants scrutiny; a stale title entry is not proof of an invalid application.
+**Why it matters / basis:** Current ASIC guidance separately requires assets below A$1,000 and no outstanding liabilities for voluntary deregistration. Subtracting a mortgage is not automatically a valid asset-condition test; establish the applicable valuation treatment and test liabilities separately. A verified contradictory asset position warrants scrutiny; a stale title entry is not proof of an invalid application.
 
 **Join:** Exact Australian ACN as recorded/verified for the overseas proprietor → ASIC company and deregistration method → title and interest history. ABN, name similarity and registration dates are not substitutes.
 
 **Scope:** Australian corporate process and England/Wales property; application-date assets and historical rule version, not today’s company status or property asking price.
 
-**Ordinary explanations / disqualifiers:** ASIC-initiated deregistration; Prior disposal with land-register lag; Trustee/nominee rather than economic asset; Low-value lease or encumbered interest; Reinstatement or incorrect company identifier
+**Ordinary explanations / disqualifiers:** ASIC-initiated deregistration; Prior disposal with land-register lag; Trustee/nominee rather than economic asset; Different legally established asset interest/valuation; a mortgage is not an automatic offset; Reinstatement or incorrect company identifier
 
-**Required evidence:** Deregistration application/method and date; Contemporaneous title/transfer record; Nature and value of company interest; Applicable historical rule
+**Required evidence:** Deregistration application/method and date; Contemporaneous title/transfer record; Nature and value of company interest; Separate outstanding-liabilities evidence; no automatic net-equity substitution; Applicable historical rule
 
 **Next cheapest check:** First confirm the deregistration was voluntary. Then check exact ACN and historical interest; stop before paid title or ASIC documents without an authorized free route.
 
@@ -228,7 +228,7 @@ Kind: new_mechanism. Composite rank 7; consequence 5/5, feasibility 2/5, join ro
 
 **Catalog provenance:** SYS-0117 US Senate Lobbying Disclosure data (references/rabbit/originals/Rabbit2(1).txt:7734); SYS-0118 FARA eFile and bulk data (references/rabbit/originals/Rabbit2(1).txt:7776)
 
-**Documentation:** E07, E08, E09 in evidence/documentation.jsonl. All case applicability remains unverified.
+**Documentation:** E07, E08, E09, E24 in evidence/documentation.jsonl. All case applicability remains unverified.
 
 ### X07 — Construction before a specific prerequisite approval
 
@@ -278,7 +278,7 @@ Kind: new_mechanism. Composite rank 9; consequence 5/5, feasibility 1/5, join ro
 
 **Next cheapest check:** Confirm that two documents purport to contain the same audited accounts before extracting numbers; compare original statement pages before trusting XBRL labels.
 
-**Novelty:** E09 reconciles government funding to issuer accounts. This compares supposedly identical audited statements filed with two regulators.
+**Novelty:** Related to N06 same-document/version comparison, but tests issuer-account consistency for the same audited statement across regulators rather than agency redaction versions. E09 instead reconciles government funding to issuer accounts.
 
 **Access evidence:** SEC route documented; EDINET API version guides available, but auth/language/record access and issuer crosswalk remain unverified.
 
@@ -336,7 +336,7 @@ Kind: new_mechanism. Composite rank 11; consequence 5/5, feasibility 1/5, join r
 
 **Novelty:** C08 is physical cascade risk; E06 is supplier litigation. This tests the funding of a legally specified cleanup safeguard.
 
-**Access evidence:** Public annual reporting is documented; actual-held security and permit amount availability remain unverified.
+**Access evidence:** Public annual reporting is documented but does not establish security holdings. Unresolved dependencies: identify the issuing BC mine-permitting office and operative security decision/amendments; identify the government custodian holding the instruments and obtain a dated site allocation or confirmation through an authorized public route. Neither document nor retrieval route is yet verified.
 
 **Catalog provenance:** SYS-0304 British Columbia mine permit boundaries (references/rabbit/originals/Rabbit3.txt:2135); SYS-0305 British Columbia permitted mine inspection reports summary (references/rabbit/originals/Rabbit3.txt:2195); SYS-0288 SEDAR+ public issuer and filing search (references/rabbit/originals/Rabbit3.txt:1190)
 
@@ -396,7 +396,7 @@ Kind: new_mechanism. Composite rank 13; consequence 4/5, feasibility 2/5, join r
 
 **Catalog provenance:** SYS-0045 IRS Form 990 bulk filings (references/rabbit/originals/Rabbit2(1).txt:2712); SYS-0117 US Senate Lobbying Disclosure data (references/rabbit/originals/Rabbit2(1).txt:7734)
 
-**Documentation:** E10, E07 in evidence/documentation.jsonl. All case applicability remains unverified.
+**Documentation:** E10, E24 in evidence/documentation.jsonl. All case applicability remains unverified.
 
 ### X09 — A filed mining-right claim versus that exact instrument’s status
 
@@ -448,7 +448,7 @@ Kind: new_mechanism. Composite rank 15; consequence 4/5, feasibility 1/5, join r
 
 **Novelty:** I04 reconciles campaign spending; S05 screens sanctioned principals. This establishes message-specific financing through an intermediary without a sanctions premise.
 
-**Access evidence:** FARA documentation read; Meta archival access/coverage and exact creative bridge unverified.
+**Access evidence:** FARA disbursement purpose/recipient fields do not guarantee a Meta creative ID. An explicit placement reference or equivalently exact documented creative bridge is mandatory; Meta archival access/coverage remains unverified.
 
 **Catalog provenance:** SYS-0118 FARA eFile and bulk data (references/rabbit/originals/Rabbit2(1).txt:7776); SYS-0143 Meta Ad Library (references/rabbit/originals/Rabbit2(1).txt:9059)
 
@@ -456,7 +456,7 @@ Kind: new_mechanism. Composite rank 15; consequence 4/5, feasibility 1/5, join r
 
 ### X10 — Verified commercial sourcing through a facility with a serious final finding
 
-Kind: new_mechanism. Composite rank 16; consequence 4/5, feasibility 1/5, join route 2/3, burden 4/4.
+Kind: existing_mechanism_refinement. Composite rank 16; consequence 4/5, feasibility 1/5, join route 2/3, burden 4/4.
 
 **If:** IF a buyer’s own dated contribution or original supplier disclosure identifies a US production facility and a final EPA finding concerns that facility during the relationship.
 
@@ -474,7 +474,7 @@ Kind: new_mechanism. Composite rank 16; consequence 4/5, feasibility 1/5, join r
 
 **Next cheapest check:** Check who contributed the supplier assertion and its period before reading the final case; defer if no first-party commercial-relationship evidence exists.
 
-**Novelty:** E02 links enforcement to public funding. This traces a buyer-to-facility commercial relationship without claiming a public award or a false issuer statement.
+**Novelty:** Independent review: commercial-sourcing specialization of E02. No distinct obligation, contradiction or causal test; retained as useful refinement.
 
 **Access evidence:** OSH API has credential/commercial access burden; no paid API used. Public document availability must be verified.
 
