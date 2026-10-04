@@ -1,0 +1,246 @@
+{"file": "meta_cda_fie.txt", "field": "BV_MERC", "description": "Bolsa ou Mercado de balcão"}
+{"file": "meta_cda_fie.txt", "field": "CD_ATIVO", "description": "Código do ativo"}
+{"file": "meta_cda_fie.txt", "field": "CD_BV_MERC", "description": "Código da Bolsa ou Mercado de balcão"}
+{"file": "meta_cda_fie.txt", "field": "CD_PAIS", "description": "Código do país"}
+{"file": "meta_cda_fie.txt", "field": "CD_SELIC", "description": "Código SELIC"}
+{"file": "meta_cda_fie.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fie.txt", "field": "CPF_CNPJ_EMISSOR", "description": "Informa o código de identificação do emissor, pessoa física ou jurídica"}
+{"file": "meta_cda_fie.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fie.txt", "field": "DS_ATIVO", "description": "Descrição do ativo"}
+{"file": "meta_cda_fie.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fie.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fie.txt", "field": "DT_INI_VIGENCIA", "description": "Data início da vigência"}
+{"file": "meta_cda_fie.txt", "field": "DT_VENC", "description": "Data de vencimento"}
+{"file": "meta_cda_fie.txt", "field": "EMISSOR", "description": "Nome do Emissor"}
+{"file": "meta_cda_fie.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fie.txt", "field": "ID_DOC", "description": "Identificador do documento"}
+{"file": "meta_cda_fie.txt", "field": "PAIS", "description": "País"}
+{"file": "meta_cda_fie.txt", "field": "PF_PJ_EMISSOR", "description": "Indica se o emissor é pessoa física ou jurídica"}
+{"file": "meta_cda_fie.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fie.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fie.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fie.txt", "field": "RISCO_EMISSOR", "description": "Indica se o emissor do título possui classificação de risco"}
+{"file": "meta_cda_fie.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fie.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fie.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fie.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fie.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fie.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fie.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fie.txt", "field": "VL_PATRIM_LIQ", "description": "Valor do patrimônio líquido"}
+{"file": "meta_cda_fie.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "ID_DOC", "description": "Identificador do documento"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fie_CONFID.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "CD_ISIN", "description": "Código ISIN (International Securities Identification Number)"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "CD_SELIC", "description": "Código SELIC"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "DT_EMISSAO", "description": "Data de emissão"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "DT_VENC", "description": "Data de vencimento"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "TP_TITPUB", "description": "Tipo de título público"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_1.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "ID_SUBCLASSE", "description": "Identificador da subclasse"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "CNPJ_FUNDO_CLASSE_COTA", "description": "Domínio   :"}
+{"file": "meta_cda_fi_BLC_2.txt", "field": "NM_FUNDO_CLASSE_SUBCLASSE_COTA", "description": "Domínio   :"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "CD_SWAP", "description": "Código SWAP"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "DS_SWAP", "description": "Descrição do tipo de ativo SWAP"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_3.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "CD_ATIVO", "description": "Código do ativo"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "CD_ISIN", "description": "Código ISIN (International Securities Identification Number)"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "DS_ATIVO", "description": "Descrição do ativo"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "DT_FIM_VIGENCIA", "description": "Data fim da vigência"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "DT_INI_VIGENCIA", "description": "Data início da vigência"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_4.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "AG_RISCO", "description": "Nome da agência de classificação de risco"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "CD_INDEXADOR_POSFX", "description": "Código do indexador (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "CNPJ_EMISSOR", "description": "CNPJ do emissor"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "DS_INDEXADOR_POSFX", "description": "Descrição do indexador (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "DT_RISCO", "description": "Data da classificação de risco"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "DT_VENC", "description": "Data de vencimento"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "EMISSOR", "description": "Nome do Emissor"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "GRAU_RISCO", "description": "Grau de risco atribuído"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "PR_CUPOM_POSFX", "description": "Percentual do cupom (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "PR_INDEXADOR_POSFX", "description": "Percentual do indexador (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "PR_TAXA_PREFX", "description": "Percentual da taxa contratada (somente pré-fixados)"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "RISCO_EMISSOR", "description": "Indica se o emissor do título possui classificação de risco"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "TITULO_POSFX", "description": "Indica se é título pós-fixado"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_5.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "CD_INDEXADOR_POSFX", "description": "Código do indexador (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "CNPJ_INSTITUICAO_FINANC_COOBR", "description": "CNPJ da instituição financeira com coobrigação"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "CPF_CNPJ_EMISSOR", "description": "Informa o código de identificação do emissor, pessoa física ou jurídica"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "DS_INDEXADOR_POSFX", "description": "Descrição do indexador (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "DT_VENC", "description": "Data de vencimento"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "EMISSOR", "description": "Nome do Emissor"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "PF_PJ_EMISSOR", "description": "Indica se o emissor é pessoa física ou jurídica"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "PR_CUPOM_POSFX", "description": "Percentual do cupom (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "PR_INDEXADOR_POSFX", "description": "Percentual do indexador (somente pós-fixados)"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "PR_TAXA_PREFX", "description": "Percentual da taxa contratada (somente pré-fixados)"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TITULO_CETIP", "description": "Indica se é título registrado na CETIP"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TITULO_GARANTIA", "description": "Indica se o título possui garantia ou seguro"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TITULO_POSFX", "description": "Indica se é título pós-fixado"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_6.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "AG_RISCO", "description": "Nome da agência de classificação de risco"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "BV_MERC", "description": "Bolsa ou Mercado de balcão"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "CD_ATIVO_BV_MERC", "description": "Código do ativo na Bolsa ou Mercado de balcão onde foi adquirido"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "CD_BV_MERC", "description": "Código da Bolsa ou Mercado de balcão"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "CD_PAIS", "description": "Código do país"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "DS_ATIVO_EXTERIOR", "description": "Descrição do ativo no exterior"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "DT_RISCO", "description": "Data da classificação de risco"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "DT_VENC", "description": "Data de vencimento"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "EMISSOR", "description": "Nome do Emissor"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "GRAU_RISCO", "description": "Grau de risco atribuído"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "INVEST_COLETIVO", "description": "Indica se é veículo de investimento coletivo"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "INVEST_COLETIVO_GESTOR", "description": "Indica se a gestão da carteira do veículo de investimento coletivo conta com influência, direta ou indireta, do gestor"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "PAIS", "description": "País"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "QT_ATIVO_EXTERIOR", "description": "Quantidade de ativos no exterior"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "RISCO_EMISSOR", "description": "Indica se o emissor do título possui classificação de risco"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "VL_ATIVO_EXTERIOR", "description": "Valor do ativo no exterior"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_7.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "CPF_CNPJ_EMISSOR", "description": "Informa o código de identificação do emissor, pessoa física ou jurídica"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "DS_ATIVO", "description": "Descrição do ativo"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "EMISSOR", "description": "Nome do Emissor"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "EMISSOR_LIGADO", "description": "Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "PF_PJ_EMISSOR", "description": "Indica se o emissor é pessoa física ou jurídica"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "QT_AQUIS_NEGOC", "description": "Quantidade de aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "QT_POS_FINAL", "description": "Quantidade da posição final"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "QT_VENDA_NEGOC", "description": "Quantidade de vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "TP_ATIVO", "description": "Tipo de ativo"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "TP_NEGOC", "description": "Tipo de negociação"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_BLC_8.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "DT_CONFID_APLIC", "description": "Prazo de confidencialidade da aplicação"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "TP_APLIC", "description": "Tipo de aplicação"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "VL_AQUIS_NEGOC", "description": "Valor das aquisições dos negócios realizados no mês"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "VL_CUSTO_POS_FINAL", "description": "Valor de custo da posição final"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "VL_MERC_POS_FINAL", "description": "Valor de mercado da posição final"}
+{"file": "meta_cda_fi_CONFID.txt", "field": "VL_VENDA_NEGOC", "description": "Valor das vendas dos negócios realizados no mês"}
+{"file": "meta_cda_fi_PL.txt", "field": "CNPJ_FUNDO_CLASSE", "description": "CNPJ do fundo/classe"}
+{"file": "meta_cda_fi_PL.txt", "field": "DENOM_SOCIAL", "description": "Denominação Social"}
+{"file": "meta_cda_fi_PL.txt", "field": "DT_COMPTC", "description": "Data de competência do documento"}
+{"file": "meta_cda_fi_PL.txt", "field": "TP_FUNDO_CLASSE", "description": "Tipo de fundo/classe"}
+{"file": "meta_cda_fi_PL.txt", "field": "VL_PATRIM_LIQ", "description": "Valor do patrimônio líquido"}

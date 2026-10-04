@@ -1,0 +1,2076 @@
+FILE meta_cda_fie.txt
+-----------------------
+Campo: BV_MERC
+-----------------------
+   Descrição : Bolsa ou Mercado de balcão
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 47
+
+-----------------------
+Campo: CD_ATIVO
+-----------------------
+   Descrição : Código do ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 255
+
+-----------------------
+Campo: CD_BV_MERC
+-----------------------
+   Descrição : Código da Bolsa ou Mercado de balcão
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 5
+
+-----------------------
+Campo: CD_PAIS
+-----------------------
+   Descrição : Código do país
+   Domínio   : Alfanumérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: CD_SELIC
+-----------------------
+   Descrição : Código SELIC
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: CPF_CNPJ_EMISSOR
+-----------------------
+   Descrição : Informa o código de identificação do emissor, pessoa física ou jurídica
+   Domínio   : Alfanumérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 255
+
+-----------------------
+Campo: DS_ATIVO
+-----------------------
+   Descrição : Descrição do ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 255
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_INI_VIGENCIA
+-----------------------
+   Descrição : Data início da vigência
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_VENC
+-----------------------
+   Descrição : Data de vencimento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR
+-----------------------
+   Descrição : Nome do Emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 255
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: ID_DOC
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: PAIS
+-----------------------
+   Descrição : País
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 25
+
+-----------------------
+Campo: PF_PJ_EMISSOR
+-----------------------
+   Descrição : Indica se o emissor é pessoa física ou jurídica
+   Domínio   : PF/PJ
+   Tipo Dados: varchar
+   Tamanho   : 2
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 2
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 2
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 2
+
+-----------------------
+Campo: RISCO_EMISSOR
+-----------------------
+   Descrição : Indica se o emissor do título possui classificação de risco
+   Domínio   : S/N
+   Tipo Dados: char
+   Tamanho   : 1
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 8000
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 53
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_PATRIM_LIQ
+-----------------------
+   Descrição : Valor do patrimônio líquido
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 23
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fie_CONFID.txt
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 255
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: ID_DOC
+-----------------------
+   Descrição : Identificador do documento
+   Domínio   : Numérico
+   Tipo Dados: int
+   Precisão  : 10
+   Scale     : 0
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+
+FILE meta_cda_fi_BLC_1.txt
+-----------------------
+Campo: CD_ISIN
+-----------------------
+   Descrição : Código ISIN (International Securities Identification Number)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 12
+
+-----------------------
+Campo: CD_SELIC
+-----------------------
+   Descrição : Código SELIC
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 6
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_EMISSAO
+-----------------------
+   Descrição : Data de emissão
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_VENC
+-----------------------
+   Descrição : Data de vencimento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: TP_TITPUB
+-----------------------
+   Descrição : Tipo de título público
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_BLC_2.txt
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: ID_SUBCLASSE
+-----------------------
+   Descrição : Identificador da subclasse
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 15
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE_COTA
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: NM_FUNDO_CLASSE_SUBCLASSE_COTA
+-----------------------
+   Descrição : 
+   Domínio   : 
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+
+FILE meta_cda_fi_BLC_3.txt
+-----------------------
+Campo: CD_SWAP
+-----------------------
+   Descrição : Código SWAP
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DS_SWAP
+-----------------------
+   Descrição : Descrição do tipo de ativo SWAP
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_BLC_4.txt
+-----------------------
+Campo: CD_ATIVO
+-----------------------
+   Descrição : Código do ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CD_ISIN
+-----------------------
+   Descrição : Código ISIN (International Securities Identification Number)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 12
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DS_ATIVO
+-----------------------
+   Descrição : Descrição do ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_FIM_VIGENCIA
+-----------------------
+   Descrição : Data fim da vigência
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_INI_VIGENCIA
+-----------------------
+   Descrição : Data início da vigência
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_BLC_5.txt
+-----------------------
+Campo: AG_RISCO
+-----------------------
+   Descrição : Nome da agência de classificação de risco
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 200
+
+-----------------------
+Campo: CD_INDEXADOR_POSFX
+-----------------------
+   Descrição : Código do indexador (somente pós-fixados)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: CNPJ_EMISSOR
+-----------------------
+   Descrição : CNPJ do emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DS_INDEXADOR_POSFX
+-----------------------
+   Descrição : Descrição do indexador (somente pós-fixados)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_RISCO
+-----------------------
+   Descrição : Data da classificação de risco
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_VENC
+-----------------------
+   Descrição : Data de vencimento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR
+-----------------------
+   Descrição : Nome do Emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 200
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: GRAU_RISCO
+-----------------------
+   Descrição : Grau de risco atribuído
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 6
+
+-----------------------
+Campo: PR_CUPOM_POSFX
+-----------------------
+   Descrição : Percentual do cupom (somente pós-fixados)
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 9
+   Scale     : 6
+
+-----------------------
+Campo: PR_INDEXADOR_POSFX
+-----------------------
+   Descrição : Percentual do indexador (somente pós-fixados)
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 9
+   Scale     : 6
+
+-----------------------
+Campo: PR_TAXA_PREFX
+-----------------------
+   Descrição : Percentual da taxa contratada (somente pré-fixados)
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 9
+   Scale     : 6
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: RISCO_EMISSOR
+-----------------------
+   Descrição : Indica se o emissor do título possui classificação de risco
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: TITULO_POSFX
+-----------------------
+   Descrição : Indica se é título pós-fixado
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_BLC_6.txt
+-----------------------
+Campo: CD_INDEXADOR_POSFX
+-----------------------
+   Descrição : Código do indexador (somente pós-fixados)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: CNPJ_INSTITUICAO_FINANC_COOBR
+-----------------------
+   Descrição : CNPJ da instituição financeira com coobrigação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: CPF_CNPJ_EMISSOR
+-----------------------
+   Descrição : Informa o código de identificação do emissor, pessoa física ou jurídica
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DS_INDEXADOR_POSFX
+-----------------------
+   Descrição : Descrição do indexador (somente pós-fixados)
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_VENC
+-----------------------
+   Descrição : Data de vencimento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR
+-----------------------
+   Descrição : Nome do Emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 200
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: PF_PJ_EMISSOR
+-----------------------
+   Descrição : Indica se o emissor é pessoa física ou jurídica
+   Domínio   : PF/PJ
+   Tipo Dados: char
+   Tamanho   : 2
+
+-----------------------
+Campo: PR_CUPOM_POSFX
+-----------------------
+   Descrição : Percentual do cupom (somente pós-fixados)
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 9
+   Scale     : 6
+
+-----------------------
+Campo: PR_INDEXADOR_POSFX
+-----------------------
+   Descrição : Percentual do indexador (somente pós-fixados)
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 9
+   Scale     : 6
+
+-----------------------
+Campo: PR_TAXA_PREFX
+-----------------------
+   Descrição : Percentual da taxa contratada (somente pré-fixados)
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 9
+   Scale     : 6
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: TITULO_CETIP
+-----------------------
+   Descrição : Indica se é título registrado na CETIP
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: TITULO_GARANTIA
+-----------------------
+   Descrição : Indica se o título possui garantia ou seguro 
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: TITULO_POSFX
+-----------------------
+   Descrição : Indica se é título pós-fixado
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_BLC_7.txt
+-----------------------
+Campo: AG_RISCO
+-----------------------
+   Descrição : Nome da agência de classificação de risco
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 200
+
+-----------------------
+Campo: BV_MERC
+-----------------------
+   Descrição : Bolsa ou Mercado de balcão
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: CD_ATIVO_BV_MERC
+-----------------------
+   Descrição : Código do ativo na Bolsa ou Mercado de balcão onde foi adquirido
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 12
+
+-----------------------
+Campo: CD_BV_MERC
+-----------------------
+   Descrição : Código da Bolsa ou Mercado de balcão
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 6
+
+-----------------------
+Campo: CD_PAIS
+-----------------------
+   Descrição : Código do país
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 3
+
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DS_ATIVO_EXTERIOR
+-----------------------
+   Descrição : Descrição do ativo no exterior
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 50
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_RISCO
+-----------------------
+   Descrição : Data da classificação de risco
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_VENC
+-----------------------
+   Descrição : Data de vencimento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR
+-----------------------
+   Descrição : Nome do Emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 200
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: GRAU_RISCO
+-----------------------
+   Descrição : Grau de risco atribuído
+   Domínio   : Alfanumérico
+   Tipo Dados: char
+   Tamanho   : 6
+
+-----------------------
+Campo: INVEST_COLETIVO
+-----------------------
+   Descrição : Indica se é veículo de investimento coletivo
+   Domínio   : S/N
+   Tipo Dados: char
+   Tamanho   : 1
+
+-----------------------
+Campo: INVEST_COLETIVO_GESTOR
+-----------------------
+   Descrição : Indica se a gestão da carteira do veículo de investimento coletivo conta com influência, direta ou indireta, do gestor
+   Domínio   : S/N
+   Tipo Dados: char
+   Tamanho   : 1
+
+-----------------------
+Campo: PAIS
+-----------------------
+   Descrição : País
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_ATIVO_EXTERIOR
+-----------------------
+   Descrição : Quantidade de ativos no exterior
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 18
+   Scale     : 0
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: RISCO_EMISSOR
+-----------------------
+   Descrição : Indica se o emissor do título possui classificação de risco
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_ATIVO_EXTERIOR
+-----------------------
+   Descrição : Valor do ativo no exterior
+   Domínio   : Numérico
+   Tipo Dados: float
+   Precisão  : 53
+   Scale     : 
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_BLC_8.txt
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: CPF_CNPJ_EMISSOR
+-----------------------
+   Descrição : Informa o código de identificação do emissor, pessoa física ou jurídica
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DS_ATIVO
+-----------------------
+   Descrição : Descrição do ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 1000
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: EMISSOR
+-----------------------
+   Descrição : Nome do Emissor
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: EMISSOR_LIGADO
+-----------------------
+   Descrição : Indica se o emissor da aplicação é ligado ao gestor ou administrador do fundo de investimento
+   Domínio   : S/N
+   Tipo Dados: varchar
+   Tamanho   : 1
+
+-----------------------
+Campo: PF_PJ_EMISSOR
+-----------------------
+   Descrição : Indica se o emissor é pessoa física ou jurídica
+   Domínio   : PF/PJ
+   Tipo Dados: char
+   Tamanho   : 2
+
+-----------------------
+Campo: QT_AQUIS_NEGOC
+-----------------------
+   Descrição : Quantidade de aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_POS_FINAL
+-----------------------
+   Descrição : Quantidade da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: QT_VENDA_NEGOC
+-----------------------
+   Descrição : Quantidade de vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 21
+   Scale     : 6
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_ATIVO
+-----------------------
+   Descrição : Tipo de ativo
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: TP_NEGOC
+-----------------------
+   Descrição : Tipo de negociação
+   Domínio   : Para negociação/Mantido até o vencimento
+   Tipo Dados: varchar
+   Tamanho   : 24
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 17
+   Scale     : 2
+
+
+FILE meta_cda_fi_CONFID.txt
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: DT_CONFID_APLIC
+-----------------------
+   Descrição : Prazo de confidencialidade da aplicação
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: TP_APLIC
+-----------------------
+   Descrição : Tipo de aplicação
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 150
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: VL_AQUIS_NEGOC
+-----------------------
+   Descrição : Valor das aquisições dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: VL_CUSTO_POS_FINAL
+-----------------------
+   Descrição : Valor de custo da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: VL_MERC_POS_FINAL
+-----------------------
+   Descrição : Valor de mercado da posição final
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+-----------------------
+Campo: VL_VENDA_NEGOC
+-----------------------
+   Descrição : Valor das vendas dos negócios realizados no mês
+   Domínio   : Numérico
+   Tipo Dados: numeric
+   Precisão  : 38
+   Scale     : 0
+
+
+FILE meta_cda_fi_PL.txt
+-----------------------
+Campo: CNPJ_FUNDO_CLASSE
+-----------------------
+   Descrição : CNPJ do fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 18
+
+-----------------------
+Campo: DENOM_SOCIAL
+-----------------------
+   Descrição : Denominação Social
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 100
+
+-----------------------
+Campo: DT_COMPTC
+-----------------------
+   Descrição : Data de competência do documento
+   Domínio   : AAAA-MM-DD
+   Tipo Dados: date
+   Tamanho   : 10
+
+-----------------------
+Campo: TP_FUNDO_CLASSE
+-----------------------
+   Descrição : Tipo de fundo/classe
+   Domínio   : Alfanumérico
+   Tipo Dados: varchar
+   Tamanho   : 20
+
+-----------------------
+Campo: VL_PATRIM_LIQ
+-----------------------
+   Descrição : Valor do patrimônio líquido
+   Domínio   : Numérico
+   Tipo Dados: decimal
+   Precisão  : 23
+   Scale     : 2
+

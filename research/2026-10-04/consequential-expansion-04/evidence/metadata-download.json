@@ -1,0 +1,22 @@
+{
+  "url": "https://dados.cvm.gov.br/dados/FI/DOC/CDA/META/meta_cda_fi_txt.zip",
+  "status": 200,
+  "bytes": 10094,
+  "sha256": "a38af970fdc33afcb037d4dc873b61761c36735a61f4992c623875f8b95463fc",
+  "content": "schema metadata only, no holdings or investors",
+  "files": [
+    "meta_cda_fie.txt",
+    "meta_cda_fie_CONFID.txt",
+    "meta_cda_fi_BLC_1.txt",
+    "meta_cda_fi_BLC_2.txt",
+    "meta_cda_fi_BLC_3.txt",
+    "meta_cda_fi_BLC_4.txt",
+    "meta_cda_fi_BLC_5.txt",
+    "meta_cda_fi_BLC_6.txt",
+    "meta_cda_fi_BLC_7.txt",
+    "meta_cda_fi_BLC_8.txt",
+    "meta_cda_fi_CONFID.txt",
+    "meta_cda_fi_PL.txt"
+  ],
+  "decoded_text_encoding": "cp1252; raw ZIP retained"
+}

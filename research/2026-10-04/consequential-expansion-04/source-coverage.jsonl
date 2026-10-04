@@ -1,0 +1,344 @@
+{"sys_id": "SYS-0001", "name": "GLEIF LEI data", "screened_in_this_batch": true, "candidate_ids": ["F02"]}
+{"sys_id": "SYS-0002", "name": "OpenCorporates", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0003", "name": "Open Ownership Register", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0004", "name": "UK Companies House Public Data API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0005", "name": "SEC EDGAR", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0006", "name": "Japan EDINET", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0007", "name": "ASIC company dataset", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0008", "name": "Australian Business Register bulk extract", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0009", "name": "Corporations Canada open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0010", "name": "France INPI National Business Register", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0011", "name": "India MCA company master data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0012", "name": "New Zealand Companies Register API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0013", "name": "New Zealand Business Number bulk data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0014", "name": "Singapore ACRA registered entities", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0015", "name": "Hong Kong Companies Registry open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0016", "name": "South Africa CIPC API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0017", "name": "German Company Register", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0018", "name": "OpenRegister Germany", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0019", "name": "EU Business Registers Interconnection System (BRIS)", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0020", "name": "Italy Registro Imprese", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0021", "name": "Netherlands KVK APIs", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0022", "name": "Brazil CVM open data", "screened_in_this_batch": true, "candidate_ids": ["F01", "F02", "F03", "F04", "F05", "F06"]}
+{"sys_id": "SYS-0023", "name": "OpenSanctions", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0024", "name": "US OFAC Sanctions List Service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0025", "name": "UK Sanctions List", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0026", "name": "EU consolidated financial sanctions list", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0027", "name": "UN Security Council Consolidated List", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0028", "name": "Canadian Autonomous Sanctions List", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0029", "name": "Australian Sanctions Consolidated List", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0030", "name": "World Bank debarred firms and individuals", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0031", "name": "IDB sanctioned firms and individuals", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0032", "name": "FinCEN SAR Stats", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0033", "name": "FATF mutual-evaluation ratings", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0034", "name": "US DOJ corporate enforcement actions", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0035", "name": "Stanford FCPA Clearinghouse", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0036", "name": "Good Jobs First Violation Tracker", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0037", "name": "SEC litigation releases", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0038", "name": "US EPA ECHO web services", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0039", "name": "INTERPOL Red Notices", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0040", "name": "ICIJ Offshore Leaks Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0041", "name": "OCCRP Aleph", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0042", "name": "Tax Justice Network Data Portal and Financial Secrecy Index", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0043", "name": "OECD country-by-country reporting statistics", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0044", "name": "IRS FATCA Foreign Financial Institution list", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0045", "name": "IRS Form 990 bulk filings", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0046", "name": "Canada registered charities open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0047", "name": "HM Land Registry Overseas Companies Ownership Data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0048", "name": "OpenLux", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0049", "name": "Have I Been Pwned", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0050", "name": "WikiLeaks Public Library of US Diplomacy (PlusD)", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0051", "name": "Distributed Denial of Secrets", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0052", "name": "Open Contracting Data Registry", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0053", "name": "EU TED Search API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0054", "name": "USAspending API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0055", "name": "SAM.gov Contract Data API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0056", "name": "Brazil PNCP", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0057", "name": "IATI Datastore", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0058", "name": "World Bank Projects & Operations", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0059", "name": "World Bank Finances", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0060", "name": "Inter-American Development Bank Open Data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0061", "name": "EBRD Project Summary Documents", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0062", "name": "EU Financial Transparency System", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0063", "name": "EU Cohesion Open Data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0064", "name": "AidData datasets", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0065", "name": "OECD development-finance statistics", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0066", "name": "OCHA Financial Tracking Service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0067", "name": "US ForeignAssistance.gov", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0068", "name": "Grants.gov APIs", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0069", "name": "UN Comtrade", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0070", "name": "Eurostat Comext", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0071", "name": "Global Fishing Watch APIs", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0072", "name": "IMO GISIS", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0073", "name": "Equasis", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0074", "name": "Paris MoU inspection and detention data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0075", "name": "Tokyo MoU inspection and detention data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0076", "name": "OpenSky Network", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0077", "name": "ADS-B Exchange data products", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0078", "name": "FAA aircraft registry bulk download", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0079", "name": "UNOOSA Register of Objects Launched into Outer Space", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0080", "name": "CelesTrak GP orbital data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0081", "name": "Space-Track.org", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0082", "name": "SIPRI Arms Transfers Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0083", "name": "UN Register of Conventional Arms", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0084", "name": "US DSCA Major Arms Sales archive", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0085", "name": "EU arms-export online database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0086", "name": "ENAAT EU Export Data Browser", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0087", "name": "UK strategic export licensing statistics", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0088", "name": "SIPRI Military Expenditure Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0089", "name": "NATO defence-expenditure tables", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0090", "name": "IMF PortWatch", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0091", "name": "ACLED", "screened_in_this_batch": true, "candidate_ids": ["M02"]}
+{"sys_id": "SYS-0092", "name": "UCDP downloads and API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0093", "name": "Airwars civilian-harm archive", "screened_in_this_batch": true, "candidate_ids": ["M02"]}
+{"sys_id": "SYS-0094", "name": "Global Terrorism Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0095", "name": "GDELT", "screened_in_this_batch": true, "candidate_ids": ["M01", "M02", "M03"]}
+{"sys_id": "SYS-0096", "name": "ICEWS event data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0097", "name": "ReliefWeb API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0098", "name": "Humanitarian Data Exchange (HDX)", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0099", "name": "GDACS", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0100", "name": "EM-DAT International Disaster Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0101", "name": "Copernicus Data Space Ecosystem", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0102", "name": "NASA Earthdata CMR API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0103", "name": "USGS Landsat data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0104", "name": "NASA FIRMS active-fire data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0105", "name": "Google Earth Engine public data catalogue", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0106", "name": "Global Forest Watch Open Data Portal/API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0107", "name": "EITI API and open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0108", "name": "EITI beneficial-ownership disclosures", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0109", "name": "Global Energy Monitor trackers", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0110", "name": "Climate TRACE", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0111", "name": "ResourceContracts", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0112", "name": "OpenStreetMap and Overpass API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0113", "name": "Wikidata Query Service and dumps", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0114", "name": "Natural Earth", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0115", "name": "JRC Global Surface Water", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0116", "name": "OpenFEC API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0117", "name": "US Senate Lobbying Disclosure data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0118", "name": "FARA eFile and bulk data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0119", "name": "EU Transparency Register", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0120", "name": "Canada Registry of Lobbyists open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0121", "name": "UK Political Finance Online", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0122", "name": "European Parliament Open Data Portal", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0123", "name": "Elections Canada political-finance data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0124", "name": "Congress.gov API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0125", "name": "GovInfo API", "screened_in_this_batch": true, "candidate_ids": ["A02"]}
+{"sys_id": "SYS-0126", "name": "Federal Register API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0127", "name": "EUR-Lex data reuse services", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0128", "name": "HUDOC", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0129", "name": "CourtListener and RECAP", "screened_in_this_batch": true, "candidate_ids": ["A01"]}
+{"sys_id": "SYS-0130", "name": "PACER", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0131", "name": "ICC Legal Tools Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0132", "name": "UN Digital Library APIs", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0133", "name": "Internet Archive Wayback Machine APIs", "screened_in_this_batch": true, "candidate_ids": ["M01", "M03"]}
+{"sys_id": "SYS-0134", "name": "Common Crawl", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0135", "name": "DocumentCloud", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0136", "name": "MuckRock API", "screened_in_this_batch": true, "candidate_ids": ["A01", "A02", "A03"]}
+{"sys_id": "SYS-0137", "name": "CIA Freedom of Information Act Reading Room", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0138", "name": "US State Department FOIA Virtual Reading Room", "screened_in_this_batch": true, "candidate_ids": ["A01", "A03"]}
+{"sys_id": "SYS-0139", "name": "UK National Archives Discovery API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0140", "name": "National Security Archive Virtual Reading Room", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0141", "name": "Media Cloud Search API", "screened_in_this_batch": true, "candidate_ids": ["M01", "M03"]}
+{"sys_id": "SYS-0142", "name": "Google Fact Check Tools API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0143", "name": "Meta Ad Library", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0144", "name": "Google Ads Transparency Center", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0145", "name": "World Bank Documents & Reports API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0146", "name": "OONI data and API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0147", "name": "RIPEstat Data API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0148", "name": "Censys Search", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0149", "name": "CISA Known Exploited Vulnerabilities catalog", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0150", "name": "NVD vulnerability API and feeds", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0151", "name": "ICANN RDAP", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0152", "name": "Certificate Transparency logs", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0153", "name": "World Bank Indicators API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0154", "name": "IMF Data APIs", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0155", "name": "BIS Data Portal", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0156", "name": "ECB Data Portal API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0157", "name": "UNCTAD Data Hub", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0158", "name": "Global Human Settlement Layer", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0159", "name": "World Settlement Footprint Evolution", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0160", "name": "WorldPop spatial data API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0161", "name": "Meta High Resolution Settlement Layer", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0162", "name": "Meta Relative Wealth Index", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0163", "name": "Meta Social Connectedness Index", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0164", "name": "Google Open Buildings", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0165", "name": "Google Open Buildings 2.5D Temporal", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0166", "name": "Microsoft Global ML Building Footprints", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0167", "name": "GlobalBuildingAtlas", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0168", "name": "Overture Maps Foundation data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0169", "name": "Foursquare Open Source Places", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0170", "name": "OpenAddresses", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0171", "name": "geoBoundaries API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0172", "name": "GeoNames web services and dumps", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0173", "name": "Who's On First", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0174", "name": "European Space Agency WorldCover", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0175", "name": "Dynamic World", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0176", "name": "AlphaEarth Foundations Satellite Embeddings", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0177", "name": "OpenLandMap", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0178", "name": "SoilGrids API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0179", "name": "Global Food Security-support Analysis Data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0180", "name": "MapBiomas collections", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0181", "name": "Global Mangrove Watch", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0182", "name": "HydroSHEDS", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0183", "name": "Global Dam Watch", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0184", "name": "Aqueduct Water Risk Atlas data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0185", "name": "FAO WaPOR", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0186", "name": "OpenET API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0187", "name": "GRACE Tellus gravity and groundwater data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0188", "name": "CHIRPS rainfall", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0189", "name": "NASA IMERG precipitation", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0190", "name": "Microsoft Planetary Computer", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0191", "name": "Earth Search STAC", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0192", "name": "Radiant MLHub", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0193", "name": "Source Cooperative", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0194", "name": "OpenAerialMap API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0195", "name": "Umbra Open Data Program", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0196", "name": "Vantor Open Data Program (formerly Maxar)", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0197", "name": "Mapillary API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0198", "name": "NASA Black Marble", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0199", "name": "Earth Observation Group VIIRS Nighttime Lights", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0200", "name": "Light Every Night", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0201", "name": "Small-Area Global Elections (SAGE)", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0202", "name": "Copernicus Climate Data Store API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0203", "name": "European Centre for Medium-Range Weather Forecasts Open Data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0204", "name": "NOAA Climate Data Online API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0205", "name": "USGS Earthquake Catalog API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0206", "name": "European-Mediterranean Seismological Centre FDSN services", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0207", "name": "NASA Global Landslide Catalog", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0208", "name": "IBTrACS tropical cyclone archive", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0209", "name": "Global Flood Awareness System data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0210", "name": "UNOSAT products and damage assessments", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0211", "name": "HDX Humanitarian API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0212", "name": "OpenAQ API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0213", "name": "EDGAR emissions database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0214", "name": "Carbon Mapper Data Platform API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0215", "name": "MethaneSAT data portal and cloud data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0216", "name": "NASA EMIT greenhouse-gas products", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0217", "name": "US EPA Greenhouse Gas Reporting Program", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0218", "name": "US EPA Toxics Release Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0219", "name": "European Industrial Emissions Portal", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0220", "name": "Canada National Pollutant Release Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0221", "name": "UK Pollution Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0222", "name": "Australia National Pollutant Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0223", "name": "Carbon Majors database", "screened_in_this_batch": true, "candidate_ids": ["F06"]}
+{"sys_id": "SYS-0224", "name": "Global Registry of Fossil Fuels", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0225", "name": "Global Tailings Portal", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0226", "name": "Global Plastics Watch", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0227", "name": "Land Matrix API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0228", "name": "Open Supply Hub", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0229", "name": "Protected Planet API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0230", "name": "GBIF occurrence API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0231", "name": "UNHCR Refugee Data Finder API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0232", "name": "IOM Displacement Tracking Matrix", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0233", "name": "IDMC Global Internal Displacement Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0234", "name": "WHO Global Health Observatory OData API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0235", "name": "DHS Program API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0236", "name": "ILOSTAT bulk and API services", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0237", "name": "Varieties of Democracy dataset", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0238", "name": "Manifesto Project API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0239", "name": "ParlGov database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0240", "name": "Quality of Government datasets", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0241", "name": "Aid Worker Security Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0242", "name": "ACAPS API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0243", "name": "Correlates of War datasets", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0244", "name": "UN Peacekeeping data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0245", "name": "CORDIS European research projects", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0246", "name": "NIH RePORTER API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0247", "name": "CMS Open Payments", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0248", "name": "ClinicalTrials.gov API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0249", "name": "OpenAlex API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0250", "name": "Crossref REST API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0251", "name": "ORCID Public API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0252", "name": "PatentsView API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0253", "name": "EPO Open Patent Services", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0254", "name": "OpenFIGI API", "screened_in_this_batch": true, "candidate_ids": ["F01", "F03"]}
+{"sys_id": "SYS-0255", "name": "US Energy Information Administration API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0256", "name": "ENTSO-E Transparency Platform API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0257", "name": "MarineCadastre.gov AIS data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0258", "name": "PeeringDB API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0259", "name": "RIPE Atlas API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0260", "name": "IODA Internet Outage API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0261", "name": "Cloudflare Radar API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0262", "name": "CAIDA BGPStream", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0263", "name": "Government of Canada Open Government CKAN API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0264", "name": "Statistics Canada Web Data Service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0265", "name": "Statistics Canada Census Profile Web Data Service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0266", "name": "Statistics Canada Reference Data as a Service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0267", "name": "Bank of Canada Valet API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0268", "name": "Office of the Superintendent of Financial Institutions open financial data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0269", "name": "CanadaBuys procurement and contracting datasets", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0270", "name": "Federal proactive publication \u2014 contracts", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0271", "name": "Federal proactive publication \u2014 grants and contributions", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0272", "name": "Federal proactive disclosure \u2014 travel and hospitality", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0273", "name": "House of Commons of Canada open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0274", "name": "LEGISinfo bills open data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0275", "name": "Canada Gazette RSS feeds", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0276", "name": "Supreme Court of Canada judgments feeds", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0277", "name": "Federal Court decisions RSS feed", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0278", "name": "Health Canada Drug Product Database API and bulk data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0279", "name": "Spectrum Management System authorization data extract", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0280", "name": "Canadian Register of Large Vessels API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0281", "name": "Transportation Safety Board multimodal occurrence data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0282", "name": "Federal Contaminated Sites Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0283", "name": "Canadian Impact Assessment Registry assessment inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0284", "name": "Canada Energy Regulator pipeline incident data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0285", "name": "GEO.ca data-cube SpatioTemporal Asset Catalog API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0286", "name": "Statistics Canada 2025 census-subdivision boundary service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0287", "name": "Toronto Stock Exchange / TMX Datalinx market-data products", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0288", "name": "SEDAR+ public issuer and filing search", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0289", "name": "System for Electronic Disclosure by Insiders and national registrant systems", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0290", "name": "Ontario Securities Commission open-data inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0291", "name": "Ontario Securities Commission exempt-market distributions", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0292", "name": "Ontario Securities Commission Investment Fund Survey data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0293", "name": "Ontario Securities Commission women on boards and executive positions data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0294", "name": "Ontario Securities Commission regulatory action against registrants", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0295", "name": "Extractive Sector Transparency Measures Act data portal", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0296", "name": "Principal Mineral Areas, Producing Mines, and Oil and Gas Fields (900A)", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0297", "name": "Top 100 Exploration Projects", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0298", "name": "Critical minerals advanced projects, mines and processing facilities", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0299", "name": "Natural Resources Canada Major Projects Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0300", "name": "Statistics Canada production of metallic minerals, monthly", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0301", "name": "Nunavut mineral tenure suite", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0302", "name": "British Columbia mineral, placer and coal tenure spatial view", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0303", "name": "British Columbia MINFILE mineral occurrence database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0304", "name": "British Columbia mine permit boundaries", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0305", "name": "British Columbia permitted mine inspection reports summary", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0306", "name": "Ontario Geological Survey OGSEarth", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0307", "name": "Ontario Abandoned Mines Information System", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0308", "name": "Ontario Mineral Inventory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0309", "name": "Ontario mining claims dataset", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0310", "name": "Qu\u00e9bec mining activities", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0311", "name": "Qu\u00e9bec mineral occurrences, deposits, mines and quarries", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0312", "name": "Qu\u00e9bec geochemistry", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0313", "name": "Qu\u00e9bec mineral potential", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0314", "name": "Alberta metallic and industrial minerals agreements", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0315", "name": "Alberta Energy Regulator spatial and incident data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0316", "name": "Saskatchewan mineral dispositions", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0317", "name": "Saskatchewan Mineral Deposits Index", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0318", "name": "Manitoba Integrated Mining and Quarrying System map service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0319", "name": "New Brunswick mineral occurrences service", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0320", "name": "Nova Scotia Mineral Rights Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0321", "name": "Nova Scotia Mineral Occurrence Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0322", "name": "Newfoundland and Labrador mineral exploration statistics", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0323", "name": "Yukon surveyed mineral-claim polygons", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0324", "name": "Northwest Territories Mineral Showings Database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0325", "name": "British Columbia Data Catalogue API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0326", "name": "Ontario Data Catalogue API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0327", "name": "Donn\u00e9es Qu\u00e9bec CKAN API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0328", "name": "Alberta Open Government catalogue API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0329", "name": "Saskatchewan GeoHub", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0330", "name": "GeoNB ArcGIS REST services directory", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0331", "name": "Nova Scotia Open Data API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0332", "name": "Open Data Newfoundland and Labrador", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0333", "name": "Prince Edward Island Open Data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0334", "name": "Government of Yukon open-data CKAN API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0335", "name": "Northwest Territories Open Data CKAN API", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0336", "name": "Information and Privacy Commissioner of Ontario access-order RSS feed", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0337", "name": "Office of the Privacy Commissioner of Canada RSS feeds", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0338", "name": "Canadian Human Rights Tribunal decisions RSS feed", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0339", "name": "Office of the Information Commissioner of Canada decisions database", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0340", "name": "Canadian Human Rights Commission dispute-resolution statistics", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0341", "name": "Ontario freedom-of-information compliance data", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0342", "name": "Newfoundland and Labrador access-to-information requests dataset", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0343", "name": "Tribunals Ontario decisions-issued workbooks", "screened_in_this_batch": false, "candidate_ids": []}
+{"sys_id": "SYS-0344", "name": "Government of Yukon completed access-to-information registry", "screened_in_this_batch": false, "candidate_ids": []}

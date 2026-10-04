@@ -1,0 +1,22 @@
+test_block_specific_identifiers (__main__.ArtifactChecks.test_block_specific_identifiers) ... ok
+test_confidentiality_and_acquisition_scope (__main__.ArtifactChecks.test_confidentiality_and_acquisition_scope) ... ok
+test_conservative_counts (__main__.ArtifactChecks.test_conservative_counts) ... ok
+test_documents_and_ranks (__main__.ArtifactChecks.test_documents_and_ranks) ... ok
+test_evidence_dependence_unknown (__main__.ArtifactChecks.test_evidence_dependence_unknown) ... ok
+test_metadata_integrity (__main__.ArtifactChecks.test_metadata_integrity) ... ok
+test_no_execution_promotion (__main__.ArtifactChecks.test_no_execution_promotion) ... ok
+test_provenance_344 (__main__.ArtifactChecks.test_provenance_344) ... ok
+test_search_methods_not_results (__main__.ArtifactChecks.test_search_methods_not_results) ... ok
+test_duplicate_position_rejected (__main__.SyntheticLowerBoundChecks.test_duplicate_position_rejected) ... ok
+test_exact_cap_not_excess (__main__.SyntheticLowerBoundChecks.test_exact_cap_not_excess) ... ok
+test_low_bound_not_compliance (__main__.SyntheticLowerBoundChecks.test_low_bound_not_compliance) ... ok
+test_negative_denominator_rejected (__main__.SyntheticLowerBoundChecks.test_negative_denominator_rejected) ... ok
+test_negative_exposure_not_netting (__main__.SyntheticLowerBoundChecks.test_negative_exposure_not_netting) ... ok
+test_positive_bound (__main__.SyntheticLowerBoundChecks.test_positive_bound) ... ok
+test_unknown_measure_rejected (__main__.SyntheticLowerBoundChecks.test_unknown_measure_rejected) ... ok
+test_wrong_class_date_rejected (__main__.SyntheticLowerBoundChecks.test_wrong_class_date_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.013s
+
+OK
