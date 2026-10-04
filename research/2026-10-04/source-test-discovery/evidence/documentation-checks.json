@@ -1,0 +1,20 @@
+{
+  "checked_date":"2026-10-04",
+  "method":"Interactive official web documentation reads; no bulk record retrieval, paid search or API generation.",
+  "checks":[
+    {"url":"https://ofac.treasury.gov/faqs/5","status":"read_success","publisher":"US Treasury OFAC","page_updated":"2026-09-09","supports":"Match review must distinguish identity, list/program, transaction, restrictions and authorizations. Names and addresses alone may mislead.","does_not_establish":"Identity of any candidate, any specific violation, or applicability to an actual transaction."},
+    {"url":"https://ofac.treasury.gov/faqs/11","status":"read_success","publisher":"US Treasury OFAC","supports":"Compliance scope includes US persons, with program-specific definitions and some provisions affecting non-US persons.","does_not_establish":"A US nexus or other applicable restriction for a generated source pair."},
+    {"url":"https://ofac.treasury.gov/faqs/401","status":"read_success","publisher":"US Treasury OFAC","supports":"OFAC explains indirect ownership and aggregation under its 50 Percent Rule; simple multiplication of arbitrary paths is unsafe.","does_not_establish":"Ownership percentages in any Rabbit source or blocking of any particular unlisted entity."},
+    {"url":"https://ofac.treasury.gov/faqs/398","status":"read_success","publisher":"US Treasury OFAC","supports":"Control alone does not create automatic blocking under the ownership rule; other program provisions can matter.","does_not_establish":"That a controlled entity is unrestricted under all possible authorities."},
+    {"url":"https://ofac.treasury.gov/sanctions-list-service","status":"read_success","sys_id":"SYS-0024","supports":"Official service provides SDN and non-SDN downloads and published delta archives.","availability_level":"documentation_only; endpoint fields/history coverage not sampled"},
+    {"url":"https://api.usaspending.gov/docs/endpoints","status":"read_success","sys_id":"SYS-0054","supports":"Official endpoint index documents unauthenticated endpoints including recipient lookup, awards and transactions.","availability_level":"documentation_only; no award endpoint execution or coverage verification"},
+    {"url":"https://www.gleif.org/en/lei-data/gleif-api","status":"read_success","sys_id":"SYS-0001","supports":"Official API documentation available.","availability_level":"documentation_only; not an ownership-share sample"},
+    {"url":"https://www.epa.gov/toxics-release-inventory-tri-program/what-toxics-release-inventory","status":"read_success","sys_id":"SYS-0218","supports":"TRI concerns covered toxic chemicals, sectors and reporting thresholds; completeness must be qualified.","availability_level":"documentation_only; no common methane measure established"}
+  ],
+  "access_failures":[
+    {"service":"Git HTTPS remote read","status":"failed_initially","reason":"Git had no configured credential helper; no username available.","resolution":"Read-only GitHub CLI authentication check succeeded; command-scoped gh credential helper enabled authenticated remote read. No token recorded."},
+    {"service":"gh auth setup-git","status":"failed","reason":"Home git configuration read-only.","resolution":"No escalation; used command-scoped credential helper instead."}
+  ],
+  "coverage_limit":"Every other catalog source is unverified. A successful documentation read is not successful record access or permission for bulk reuse.",
+  "new_paid_api_calls":0
+}
