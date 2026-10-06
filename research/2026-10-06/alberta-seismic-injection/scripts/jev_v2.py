@@ -1,3 +1,5 @@
+import sys
+if '--live' in sys.argv:raise SystemExit('Completed v2 evaluation: live replay disabled; offline reevaluation remains available')
 """Repair conditional inference with atomic evidence extraction plus deterministic gates.
 New payloads, same cumulative ledger; prior failure remains archived.
 """

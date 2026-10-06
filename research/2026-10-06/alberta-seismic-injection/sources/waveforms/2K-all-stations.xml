@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+ <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd" schemaVersion="1.1">
+  <Source>EarthScope</Source>
+  <Sender>EarthScope</Sender>
+  <Module>EarthScope WEB SERVICE: fdsnws-station | version: 1.1.58</Module>
+  <ModuleURI>https://service.earthscope.org/fdsnws/station/1/query?network=2K&amp;starttime=2025-02-22&amp;endtime=2025-02-26&amp;level=station&amp;format=xml&amp;includerestricted=true&amp;nodata=404</ModuleURI>
+  <Created>2026-10-06T21:56:47.4036</Created>
+  <Network code="2K" startDate="2014-01-01T00:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial">
+   <Description>Scientific Induced Seismicity Monitoring Network (SCISMN)</Description>
+   <Identifier type="DOI">10.7914/SN/2K_2014
+   </Identifier>
+   <TotalNumberStations>5</TotalNumberStations>
+   <SelectedNumberStations>5</SelectedNumberStations>
+   <Station code="LOY01" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.147148</Latitude>
+    <Longitude>-116.72966</Longitude>
+    <Elevation>695.1</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Well Pad 3-34-82-18W5 LOY01</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY02" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.128571</Latitude>
+    <Longitude>-116.499634</Longitude>
+    <Elevation>720.8</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Well Pad 13-19-82-16W5 LOY02</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY03" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.130844</Latitude>
+    <Longitude>-116.661552</Longitude>
+    <Elevation>720.0</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Well Pad Office 13-19-82-17W5 LOY03</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY04" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.102379</Latitude>
+    <Longitude>-116.772407</Longitude>
+    <Elevation>683.0</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Tolko Industry Land LOY04</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY05" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.076492</Latitude>
+    <Longitude>-116.764931</Longitude>
+    <Elevation>700.0</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Private Land WB LOY05</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+  </Network>
+ </FDSNStationXML>

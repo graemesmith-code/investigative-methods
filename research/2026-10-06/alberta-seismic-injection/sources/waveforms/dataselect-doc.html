@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+      <title>
+        
+          NGF: 
+  
+  
+
+  
+    FDSNWS: 
+  
+
+  
+    Dataselect: 
+  
+
+  
+    v. 1
+  
+
+
+
+        
+      </title>
+      
+  <meta name="keywords" content="seismology, seismological data,
+  earthquakes, iris dmc" />
+  <!-- Forces IE to render in 'latest' compatible mode -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+
+
+
+
+
+
+      
+  <link rel="stylesheet" media="all" type="text/css" href="/static/css/iris.0cc3eb9a3275.css" />
+
+  <link rel="stylesheet" media="print" type="text/css" href="/static/css/print.31c3384e5e41.css" />
+  
+  
+
+  
+    <link rel="shortcut icon" href="/static/img/favicon.2ff62ea8f729.ico" />
+  
+
+      
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <!--
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/static/libs/megamenu/megamenu_plugins.ea0cee1e1e0e.js"></script>
+    <script type="text/javascript" src="/static/libs/megamenu/megamenu.min.a926dd52f41a.js"></script>
+    -->
+  
+
+  
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/static/libs/qtip2/2.1.1/jquery.qtip.6c359876746f.css" />
+    <script type="text/javascript" src="/static/libs/qtip2/2.1.1/jquery.qtip.42e6f99f116f.js"></script>
+    <script>
+      $(function() {
+        /* Automatically set up popup help blocks like:
+         * <div class="popup-help">
+         *   <span class="glyphicon glyphicon-question-sign"> </span>
+         *   <div>
+         *      Content to show in the popup.
+         *   </div>
+         * </div>
+         * Hovering over the icon shows the content in a popup.
+         */
+        $(".popup-help").each(function() {
+          var content = $(this).children('div').detach();
+          var popupOnClick = $(this).hasClass('popup-on-click');
+          // Attach to the first element
+          $(this).children().first().qtip({
+            content: { text: content },
+            style: { classes: 'qtip-bootstrap' },
+            hide: {
+              delay: 100,
+              fixed: true
+            },
+            show: {
+              event: popupOnClick ? 'click' : 'mouseenter'
+            },
+            position: {
+              viewport: $(window)
+            },
+          });
+        });
+      });
+    </script>
+  
+
+
+      
+  
+  <!-- START: Syntax highlighting -->
+  <link rel="stylesheet"
+        type="text/css"
+        href="/static/libs/prettify/r298/css/prettify.f19459705215.css" />
+  <script type="text/javascript"
+          src="/static/libs/prettify/r298/js/prettify.d435ff18c832.js">
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    prettyPrint();
+  });
+  </script>
+  <!-- END: Syntax highlighting -->
+
+  <link rel="stylesheet" type="text/css" href="/static/css/jquery-ui-iris-theme/jquery-ui-1.8.23.custom.83989e3bb5a9.css" />
+  <link rel="stylesheet" type="text/css" href="/static/webservicedoc/css/services.dbaa8315a3f9.css" />
+  <link rel="stylesheet" type="text/css" href="/static/webservicedoc/css/prism.5794297bc49b.css" />
+  <script type="text/javascript" src="/static/webservicedoc/js/datacite-references.a92df3318432.js"></script>
+  <script type="text/javascript" src="/static/webservicedoc/js/prism.ccef0b961cab.js"></script>
+  
+<link rel="stylesheet" href="https://use.typekit.net/peb0kwe.css">
+<link rel="stylesheet" media="all" href="/static/ngf/ngf.82d542b28f96.css">
+
+    
+  </head>
+
+  <body>
+  
+
+    
+
+<header id="nsf-ngf-solo-header-bar">
+  <a href="https://ngf.earthscope.org/">
+    <img class="ngf-banner-logo" src="/static/ngf/NSFNGF-Logo-RGB-White.350c9bd164f9.svg">
+  </a>
+  <span class="ngf-banner-text app-title">
+  </span>
+</header>
+
+
+    
+
+
+    <div class="container blur">
+      <div id="breadcrumbs">
+      
+        <ul class="breadcrumbs">
+          
+            
+              <li>
+                <a href="/">Home</a>
+              </li>
+            
+              <li>
+                <a href="/fdsnws/">FDSNWS</a>
+              </li>
+            
+              <li>
+                <a href="/fdsnws/dataselect/">Dataselect</a>
+              </li>
+            
+              <li>
+                <a href="/fdsnws/dataselect/1/">v. 1</a>
+              </li>
+            
+          
+        </ul>
+      
+      </div>
+
+      
+    
+  
+
+              
+              
+
+              <div id="page-content">
+
+                
+                  
+
+
+                  
+
+
+                
+
+                
+                  
+                
+
+                
+
+                  <h1>
+                  
+  NSF National Geophysical Facility
+  FDSNWS
+  dataselect
+  Web Service Documentation
+
+                  </h1>
+                  
+                  
+
+                  <div id="content">
+                    
+
+  <!-- START: BUTTON GROUP -->
+<div class="btn-group">
+    
+      <a class="btn btn-default active"
+    
+    href="/fdsnws/dataselect/1/">Service interface</a>
+
+  
+    
+      <a class="btn btn-default"
+    
+    href="/fdsnws/dataselect/docs/1/builder/">URL builder</a>
+  
+
+  
+    <a class="btn btn-default"
+  
+  href="/fdsnws/dataselect/docs/1/help/">Help</a>
+
+  
+    <a class="btn btn-default"
+  
+  href="/fdsnws/dataselect/docs/1/revisions/">Revisions</a>
+
+</div>
+<!-- END: BUTTON GROUP -->
+
+
+  <div class="row">
+    <div class="col-xs-10">
+      <h2>Description</h2>
+    </div>
+    
+      <div class="col-xs-2">
+        <a href="/fdsnws/dataselect/docs/1/builder/"
+           role="button"
+           class="btn btn-default hardhat">
+          URL Builder
+        </a>
+      </div>
+    
+  </div>
+
+  
+
+  <div id="webservicedoc-summary" class="alert alert-warning">
+    <style>.anchor-link { text-decoration: none; opacity: 0; margin-left: 0.5em; display: inline-block; width: 0.8em; height: 0.8em; vertical-align: middle; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23ff6600' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'/%3E%3C/svg%3E"); background-size: contain; background-repeat: no-repeat; background-position: center; transition: opacity 0.2s; } h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .anchor-link, li > div:hover .anchor-link { opacity: 0.6; } .anchor-link:hover { opacity: 1 !important; }</style>
+
+	<p>The <strong>fdsnws-dataselect</strong> service provides access to time series data for specified channels and time ranges.</p>
+
+	<p>Time series data are selected using <a href="https://docs.fdsn.org/projects/source-identifiers/en/latest/"><span class="caps">FDSN</span> Source Identifiers:</a> (network, station, location &amp; channel) and time ranges.  The channel value should be a 3-character <a href="https://ds.iris.edu/ds/nodes/dmc/data/formats/seed/"><span class="caps">SEED</span></a> compliant code; the extended-channel is not yet supported.  Data are returned in <a href="https://ds.iris.edu/ds/nodes/dmc/data/formats/seed/">miniSEED</a> and <a href="https://ds.iris.edu/files/documents/GeoCSV.pdf">GeoCSV</a> format.</p>
+
+	<p>This service is an implementation of the <a href="https://www.fdsn.org/webservices/"><span class="caps">FDSN</span> web service specification</a> version 1.</p>
+
+	<p>&nbsp;</p>
+
+	<p><strong><span class="caps">NOTE</span>: polling for real-time continuous data is not allowed</strong>.  For continuous, near real-time data please use our <a href="https://ds.iris.edu/ds/nodes/dmc/services/seedlink/">streaming service</a>.</p>
+
+	<p>&nbsp;</p>
+
+<h2 id="domain-change">service.iris.edu service redirects to service.earthscope.org<a class="anchor-link" href="#domain-change"></a></h2>
+
+	<p>If you are using this service through the <code>service.iris.edu</code> domain the connections will be redirected using an <span class="caps">HTTP</span> 307 to our new service at service.earthscope.org.  All known clients will automatically follow this redirect, making it seamless for users.</p>
+
+	<p>Redirecting with <code>curl</code> is enabled by adding the <code>-L</code> or <code>--location</code> command line option.</p>
+
+	<p>&nbsp;</p>
+
+<h3 id="recommended-use">Recommended direct use of service.earthscope.org<a class="anchor-link" href="#recommended-use"></a></h3>
+
+	<p>While the legacy <span class="caps">URL</span> will work (with redirection) we recommend direct use of the <a href="https://service.earthscope.org/fdsnws/dataselect/1">https://service.earthscope.org/fdsnws/dataselect/1</a> location whenever possible.</p>
+
+	<p>Many data access frameworks and tools allow specification of the services used.  For example, using ObsPy 1.5+ the service can be used by specifying the client as <code>EARTHSCOPE</code>:</p>
+
+	<p>&nbsp;</p>
+
+<pre>from obspy.clients.fdsn import Client
+client = Client(&#34;EARTHSCOPE&#34;)</pre>
+
+	<p>&nbsp;</p>
+
+	<p>Using earlier versions of ObsPy the service can be used by specifying the client as <code>https://service.earthscope.org</code>:</p>
+
+	<p>&nbsp;</p>
+
+<pre>from obspy.clients.fdsn import Client
+client = Client(&#34;https://service.earthscope.org/&#34;)</pre>
+
+	<p>&nbsp;</p>
+
+<h3 id="important-changes">Important changes for the service transition to earthscope.org<a class="anchor-link" href="#important-changes"></a></h3>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li><h4 id="new-credentials">Action required for restricted data users<a class="anchor-link" href="#new-credentials"></a></h4>You will need new credentials. Visit <a href="https://www.earthscope.org/user">https://www.earthscope.org/user</a>, create an account (if you do not already have one), then:
+	<ul>
+		<li>navigate to the Credentials tab</li>
+		<li>click &#8220;<span class="caps">REVEAL</span> MY <span class="caps">CREDENTIALS</span>,&#8221; and &#8220;<span class="caps">CREATE</span> <span class="caps">FDSNWS</span> <span class="caps">CREDENTIALS</span>&#8221; if none exist</li>
+	</ul></li>
+	</ul>
+
+	<p>&nbsp;</p>
+
+	<ul class="style="margin-bottom: 1em;"">
+		<li>Some output formats are not yet supported: <span class="caps">SAC</span> and text. These will be added in the future.</li>
+	</ul>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li>The service now requires secure <span class="caps">HTTPS</span>, specifically <span class="caps">TLS</span> 1.2 or later.  Requests to the unencrypted <span class="caps">HTTP</span> endpoint will be redirected to the <span class="caps">HTTPS</span> endpoint according to current best practices.</li>
+	</ul>
+
+	<p>Some older software may not follow redirects from unencrypted <span class="caps">HTTP</span> to secure <span class="caps">HTTPS</span>.  Configure the software, if possible, to use the direct <span class="caps">URL</span> to the service <a href="https://service.earthscope.org/fdsnws/dataselect/1">https://service.earthscope.org/fdsnws/dataselect/1</a></p>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li>The following parameters are permanently retired:
+	<ul>
+		<li><code>quality</code> &#8211; Select data based on miniSEED data quality indicator</li>
+		<li><code>minimumlength</code> &#8211; Limit results to continuous data segments of a minimum length</li>
+		<li><code>longestonly</code> &#8211; Limit results to the longest continuous segment per channel</li>
+		<li><code>repository</code> &#8211; Limit results to specified repositories</li>
+		<li><code>szsrecs</code> &#8211; Skip data records with zero samples, such as event detection records</li>
+	</ul></li>
+	</ul>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li>With the removal of the <code>szsrecs</code> parameter the service will not remove zero-sample records by default, which matches the behavior of all other data center implementations.</li>
+	</ul>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li>The service now limits the volume of miniSEED data that will be returned with a single query. We recommend limiting requests to one station for a 24-hour period at the most.</li>
+	</ul>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li>The service now returns version 2 miniSEED data records without modification of the quality code. Previously data were marked with an <code>M</code> quality regardless of modification to indicate it had been through a merging process.  Now users will see the quality codes of the data as they were submitted to the archive.  In some cases this may result in a time series that is composed of data records of more than one quality.</li>
+	</ul>
+
+	<p>&nbsp;</p>
+
+	<ul>
+		<li>Some <span class="caps">HTTP</span> response codes for errors have changed to be more precise, but they remain broadly recognized codes.</li>
+	</ul>
+  </div>
+
+  <p>Below is a full list of service parameters and their usage.</p>
+
+  <h2>Query Usage</h2>
+  <pre>/query? (date-range-options) [channel-options] [quality-options] [misc-options] [format-options] [nodata=404]</pre>
+
+	<p>where</p>
+
+<pre>date-range-options	:: 	(start=&lt;time&gt;) (end=&lt;time&gt;)
+channel-options		:: 	[net=&lt;network&gt;] [sta=&lt;station&gt;] [loc=&lt;location&gt;] [cha=&lt;channel&gt;]
+quality-options		:: 	[quality=&lt;M&gt;]
+misc-options		::	[repository=&lt;repository_name&gt;] [szsrecs=&lt;true|false&gt;] [scale=AUTO] [minimumlength=&lt;seconds&gt;]* [longestonly=&lt;true|false&gt;]*
+format-options          ::      [format=&lt;miniseed|sac.zip|geocsv&gt;]</pre>
+
+	<p>(..) required<br />
+[..] optional<br />
+&#42; deprecated</p>
+
+	<p>Query parameters are joined by ampersands <strong>&#8221;&amp;&#8221;</strong>, without blank space (see the sample queries).</p>
+
+	<h2><span class="caps">POST</span> Usage</h2>
+
+	<p>Alternately, <em>instead</em> of providing parameter-value pairs in the <span class="caps">URL</span>, a file containing a selection list can be <span class="caps">POST</span>ed to this service. This is the same method used with the fdsnws-station webservice. For additional details, including an example selection file, visit this page&#8217;s help section.</p>
+
+<pre>quality=&lt;M&gt;
+format=&lt;miniseed|sac.zip|geocsv&gt;
+&lt;Network&gt; &lt;Station&gt; &lt;Location&gt; &lt;Channel&gt; &lt;StartTime&gt; &lt;EndTime&gt;
+...</pre>
+
+	<p><code>Quality</code> and <code>format</code> are optional.  <code>Minimumlength</code> and <code>longestonly</code> are options being deprecated.  Wildcards are acceptable for <code>Network</code>, <code>Station</code>, <code>Location</code>, and <code>Channel</code>.  Click <a href="#time">here</a> for time format details.</p>
+
+  <h3>Sample Queries</h3>
+  	<ul>
+		<li><a href="/fdsnws/dataselect/1/query?net=IU&amp;sta=ANMO&amp;loc=00&amp;cha=BHZ&amp;start=2010-02-27T06:30:00.000&amp;end=2010-02-27T10:30:00.000">https://service.earthscope.org/fdsnws/dataselect/1/query?net=IU&sta=ANMO&loc=00&cha=BHZ&start=2010-02-27T06:30:00.000&end=2010-02-27T10:30:00.000</a></li>
+		<li><a href="https://service.earthscope.org/fdsnws/dataselect/1/query?net=IU&amp;sta=LCO&amp;loc=00&amp;cha=BHZ&amp;start=2018-11-01T20%3A12%3A12&amp;end=2018-11-01T20%3A35%3A33&amp;format=geocsv.inline&amp;nodata=404">https://service.earthscope.org/fdsnws/dataselect/1/query?net=IU&sta=LCO&loc=00&cha=BHZ&start=2018-11-01T20:12:12&end=2018-11-01T20:35:33&format=geocsv.inline&nodata=404</a></li>
+	</ul>
+
+  <h3>Detailed Descriptions of each Query Parameter</h3>
+  	<div class="auto-table-scroll-x"><table class="table table-bordered">
+		<tr>
+			<th>parameters</th>
+			<th>examples</th>
+			<th>discussion</th>
+			<th>default</th>
+			<th>type</th>
+		</tr>
+		<tr>
+			<td colspan="5"><strong><span class="caps">FDSN</span> options</strong></td>
+		</tr>
+		<tr>
+			<td>start[time]</td>
+			<td>2010-02-27T06:30:00</td>
+			<td>Specifies the desired start-time for miniSEED data</td>
+			<td></td>
+			<td><a href="#time">day/time</a> </td>
+		</tr>
+		<tr>
+			<td>end[time]</td>
+			<td>2010-02-27T10:30:00</td>
+			<td>Specify the end-time for the miniSEED data</td>
+			<td></td>
+			<td><a href="#time">day/time</a> </td>
+		</tr>
+		<tr>
+			<td>net[work]</td>
+			<td> IU</td>
+			<td>Select one or more network codes. <a href="#wildcardsandlists">Accepts wildcards and lists.</a>  Can be <span class="caps">SEED</span> codes or data center defined codes. </td>
+			<th><em>any</em></th>
+			<td>string</td>
+		</tr>
+		<tr>
+			<td>sta[tion]</td>
+			<td><span class="caps">ANMO</span> </td>
+			<td>Select one or more <span class="caps">SEED</span> station codes. <a href="#wildcardsandlists">Accepts wildcards and lists.</a></td>
+			<th><em>any</em></th>
+			<td>string</td>
+		</tr>
+		<tr>
+			<td>loc[ation]</td>
+			<td>00 </td>
+			<td>Select one or more <span class="caps">SEED</span> location identifier. <a href="#wildcardsandlists">Accepts wildcards and lists.</a> Use <code>--</code> for &#8220;Blank&#8221; location IDs (ID&#8217;s containing 2 spaces).</td>
+			<th><em>any</em></th>
+			<td>string</td>
+		</tr>
+		<tr>
+			<td>cha[nnel]</td>
+			<td>BH1 </td>
+			<td>Select one or more <span class="caps">SEED</span> channel codes. <a href="#wildcardsandlists">Accepts wildcards and lists.</a></td>
+			<th><em>any</em></th>
+			<td>string</td>
+		</tr>
+		<tr>
+			<td>scale</td>
+			<td>auto</td>
+			<td>Scale the timeseries values by the instrument sensitivity.  The scaling is only applied to GeoCSV formatted output and the only valid input for this parameter is <strong>scale=AUTO</strong>.</td>
+			<td>no scaling</td>
+			<td>string</td>
+		</tr>
+		<tr>
+			<td>nodata</td>
+			<td>404</td>
+			<td>Specify which <span class="caps">HTML</span> Status code is returned when no data is found.<sup class="footnote" id="fnrev6a191fee9a134cecaef05a2b7479f22e"><a href="#fn6a191fee9a134cecaef05a2b7479f22e">1</a></sup> </td>
+			<td>204</td>
+			<td>204 or 404</td>
+		</tr>
+		<tr>
+			<td>format</td>
+			<td>geocsv</td>
+			<td><strong>Specify the format of the data returned:</strong><br/><code>miniseed</code> &mdash; miniSEED data format<br/><code>geocsv</code> &mdash; GeoCSV format in time-sample pair, 2 column format<br/><code>geocsv.&lt;modifiers&gt;</code> &mdash; GeoCSV with the following additional modifiers:<br/>&nbsp; &nbsp; * <strong>.inline</strong> &mdash; return as <strong>text/plain</strong> with disposition <strong>inline</strong>, else returned as <strong>text/csv</strong> with disposition <strong>attachment</strong><br/>&nbsp; &nbsp; * <strong>.zip</strong> &mdash; return as a <span class="caps">ZIP</span> archive, each segment as a file in the archive, without this .inline is assumed<br/>&nbsp; &nbsp; * <strong>.tspair</strong> &mdash; return in time-sample pair, 2 column format.  The default.<br/>&nbsp; &nbsp; * <strong>.slist</strong> &mdash; return as sample list, 1 column format, without this .tspair is assumed. </td>
+			<td>miniseed</td>
+			<td></td>
+		</tr>
+	</table></div>
+
+	<p class="footnote" id="fn6a191fee9a134cecaef05a2b7479f22e"><sup>1</sup> By default, the service returns a <span class="caps">HTTP</span> response code 204, which means the request was successful, but no data (<em>no content</em>) was retrieved. However, because there was no &#8220;error&#8221;, no error message is generated and it may appear that the browser did nothing.  To force an empty query response to display an error message, add <code>nodata=404</code> to the <span class="caps">URL</span>.</p>
+
+  
+
+  
+
+  
+
+  
+    <hr/>
+    <h3>WADL</h3>
+    <p>Retrieve the <a href="https://www.w3.org/Submission/wadl/">WADL</a>
+    associated with this service:</p>
+    <p>
+      <a href="application.wadl">
+        application.wadl
+      </a>
+    </p>
+  
+
+  <hr/>
+
+  
+    <h3><a name="time"></a>Date and Time Formats</h3>
+    <div>
+      	<p id="time">Year, Month, Day in Month &mdash; Time:</p>
+
+	<p><code>YYYY-MM-DDThh:mm:ss[.ssssss]</code> ex. <small>1997-01-31T12:04:32.123</small></p>
+
+	<p><code>YYYY-MM-DD</code> ex. <small>1997-01-31</small> a time of <small>00:00:00</small> is assumed</p>
+
+	<p>Where:</p>
+
+<pre>YYYY	:: four-digit year
+MM	:: two-digit month (01=January, etc.)
+DD	:: two-digit day of month (01 through 31)
+T	:: date-time separator
+hh	:: two digits of hour (00 through 23) (AM/PM NOT allowed)
+mm	:: two digits of minute (00 through 59)
+ss	:: two digits of second (00 through 59)
+ssssss	:: one to six digits representing decimal fractions of a second, down to microseconds</pre>
+    </div>
+  
+    <h3><a name="wildcardsandlists"></a>Wildcards and Lists</h3>
+    <div>
+      	<p><em>Wildcards</em><br />
+The question mark <code>?</code> represents any single character (exactly one), while the asterisk <code>*</code> represents zero or more characters.</p>
+
+	<p><em>Lists</em><br />
+Multiple items may also be retrieved using a comma separated list. Wildcards may be included in the list.  For example, with channel codes: <code>channel=EH?,BHZ,BHE</code></p>
+    </div>
+  
+
+  
+
+  
+  
+  
+<hr/>
+
+<h3><a name="wsissues_help"></a>Problems with this service?</h3>
+<div>
+  	<p>Please send an email report of which service you were using, your <span class="caps">URL</span> query, and any error feedback to:<br />
+<a href="mailto:help@earthscope.org">help@earthscope.org</a><br />
+<em>We will address your issue as soon as possible.</em></p>
+</div>
+
+
+  <p>
+    <a href="/fdsnws/dataselect/1/">
+      FDSNWS dataselect web service
+    </a>
+  </p>
+
+
+                  </div>
+
+                
+
+              </div>
+
+            
+
+
+    
+
+
+
+    </div>
+
+    
+<footer id="nsf-ngf-footer"></footer>
+
+
+  
+
+  </body>
+</html>

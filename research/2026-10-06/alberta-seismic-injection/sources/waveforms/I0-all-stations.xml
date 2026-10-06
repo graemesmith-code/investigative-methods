@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+ <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd" schemaVersion="1.1">
+  <Source>EarthScope</Source>
+  <Sender>EarthScope</Sender>
+  <Module>EarthScope WEB SERVICE: fdsnws-station | version: 1.1.58</Module>
+  <ModuleURI>https://service.earthscope.org/fdsnws/station/1/query?network=I0&amp;starttime=2025-02-22&amp;endtime=2025-02-26&amp;level=station&amp;format=xml&amp;includerestricted=true&amp;nodata=404</ModuleURI>
+  <Created>2026-10-06T21:56:47.6936</Created>
+  <Network code="I0" startDate="2014-01-01T00:00:00.0000" restrictedStatus="partial">
+   <Description>The Scientific Induced Seismicity Monitoring Network (SCISMN)</Description>
+   <Identifier type="DOI">10.7914/eeh3-2y80
+   </Identifier>
+   <TotalNumberStations>277</TotalNumberStations>
+   <SelectedNumberStations>67</SelectedNumberStations>
+   <Station code="BSE01" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.0526</Latitude>
+    <Longitude>-113.2974</Longitude>
+    <Elevation>610.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.1500</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE02" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.05971</Latitude>
+    <Longitude>-113.39766</Longitude>
+    <Elevation>625.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.2280</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE03" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.00737</Latitude>
+    <Longitude>-113.21505</Longitude>
+    <Elevation>630.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.3030</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE04" startDate="2024-12-20T12:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>53.97772</Latitude>
+    <Longitude>-113.40893</Longitude>
+    <Elevation>665.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.3780</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE05" startDate="2024-11-11T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.03695</Latitude>
+    <Longitude>-113.35534</Longitude>
+    <Elevation>640.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-09T18:15:51.6830</CreationDate>
+    <TotalNumberChannels>6</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE06" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.03622</Latitude>
+    <Longitude>-112.703007</Longitude>
+    <Elevation>625.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.5330</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE07" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.08585</Latitude>
+    <Longitude>-112.62538</Longitude>
+    <Elevation>650.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.6230</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE08" startDate="2025-01-31T17:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.00722</Latitude>
+    <Longitude>-112.67128</Longitude>
+    <Elevation>630.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-09T18:15:54.6500</CreationDate>
+    <TotalNumberChannels>6</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE09" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.00696</Latitude>
+    <Longitude>-112.76533</Longitude>
+    <Elevation>630.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.8680</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE10" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.076</Latitude>
+    <Longitude>-112.77611</Longitude>
+    <Elevation>635.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:01.9480</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE11" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.20997</Latitude>
+    <Longitude>-112.52104</Longitude>
+    <Elevation>662.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:02.0270</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE12" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.2395</Latitude>
+    <Longitude>-112.50136</Longitude>
+    <Elevation>682.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:02.1310</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE13" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.18087</Latitude>
+    <Longitude>-112.46356</Longitude>
+    <Elevation>666.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:02.2090</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE14" startDate="2024-11-11T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.15161</Latitude>
+    <Longitude>-112.56693</Longitude>
+    <Elevation>650.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-09T18:16:01.8270</CreationDate>
+    <TotalNumberChannels>6</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="BSE15" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.21024</Latitude>
+    <Longitude>-112.62239</Longitude>
+    <Elevation>718.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-05-26T15:25:02.4290</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE01" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.553117</Latitude>
+    <Longitude>-117.13595</Longitude>
+    <Elevation>790.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:27.8470</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE02" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.49045</Latitude>
+    <Longitude>-116.805217</Longitude>
+    <Elevation>792.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:28.1070</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE03" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.407667</Latitude>
+    <Longitude>-116.587717</Longitude>
+    <Elevation>896.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:28.3250</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE04" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.283767</Latitude>
+    <Longitude>-116.644067</Longitude>
+    <Elevation>936.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:28.5410</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE05" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.224864</Latitude>
+    <Longitude>-116.833232</Longitude>
+    <Elevation>1062.54</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:29.0010</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE06" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.281092</Latitude>
+    <Longitude>-117.067104</Longitude>
+    <Elevation>977.38</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:29.2210</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE07" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.414864</Latitude>
+    <Longitude>-117.177552</Longitude>
+    <Elevation>858.45</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:29.4430</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE08" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.096644</Latitude>
+    <Longitude>-116.655424</Longitude>
+    <Elevation>1022.683</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:29.6590</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE09" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.331992</Latitude>
+    <Longitude>-117.321584</Longitude>
+    <Elevation>1009.26</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:29.8850</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE10" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.20936</Latitude>
+    <Longitude>-116.953</Longitude>
+    <Elevation>904.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:30.1410</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE11" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.1556</Latitude>
+    <Longitude>-117.007</Longitude>
+    <Elevation>985.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:30.3630</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE12" startDate="2024-09-08T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.554397</Latitude>
+    <Longitude>-117.71155</Longitude>
+    <Elevation>848.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE14" startDate="2024-09-08T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.448019</Latitude>
+    <Longitude>-117.744596</Longitude>
+    <Elevation>866.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DEE15" startDate="2024-06-05T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>54.551733</Latitude>
+    <Longitude>-117.612317</Longitude>
+    <Elevation>860.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <CreationDate>2025-06-05T18:45:28.7640</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DIY01" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.673542</Latitude>
+    <Longitude>-116.699463</Longitude>
+    <Elevation>864.0</Elevation>
+    <Site>
+     <Name>Hitic Kaybob 4-4-66-18W5 Frac East of pad 4-4 DIY01</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DIY02" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.677643</Latitude>
+    <Longitude>-116.671707</Longitude>
+    <Elevation>817.0</Elevation>
+    <Site>
+     <Name>Hitic Kaybob 4-4-66-18W5 Frac At pad 4-4 DIY02</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DIY03" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.641575</Latitude>
+    <Longitude>-116.663879</Longitude>
+    <Elevation>838.0</Elevation>
+    <Site>
+     <Name>Hitic Kaybob 4-4-66-18W5 Frac At Hitic battery, south of pad DIY03</Name>
+    </Site>
+    <CreationDate>2023-04-04T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA01" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.58858</Latitude>
+    <Longitude>-116.67073</Longitude>
+    <Elevation>768.5</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA02" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.41285</Latitude>
+    <Longitude>-116.7649</Longitude>
+    <Elevation>818.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA03" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.66167</Latitude>
+    <Longitude>-117.10374</Longitude>
+    <Elevation>780.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA06" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.38276</Latitude>
+    <Longitude>-117.35986</Longitude>
+    <Elevation>912.5</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA07" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.47456</Latitude>
+    <Longitude>-117.2349</Longitude>
+    <Elevation>828.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA14" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.19455</Latitude>
+    <Longitude>-116.93168</Longitude>
+    <Elevation>936.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA19" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.36491</Latitude>
+    <Longitude>-116.985872</Longitude>
+    <Elevation>841.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA21" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.2558</Latitude>
+    <Longitude>-117.3794</Longitude>
+    <Elevation>1081.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA25" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.516559</Latitude>
+    <Longitude>-117.63278</Longitude>
+    <Elevation>870.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA29" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.290383</Latitude>
+    <Longitude>-116.584257</Longitude>
+    <Elevation>866.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="DSA31" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.389467</Latitude>
+    <Longitude>-116.40484</Longitude>
+    <Elevation>955.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="EK001" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.504921</Latitude>
+    <Longitude>-117.415769</Longitude>
+    <Elevation>853.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="EK005" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.433851</Latitude>
+    <Longitude>-117.68758</Longitude>
+    <Elevation>864.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="EK006" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.545502</Latitude>
+    <Longitude>-117.600575</Longitude>
+    <Elevation>823.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="EK009" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.252944</Latitude>
+    <Longitude>-117.510274</Longitude>
+    <Elevation>1122.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>30</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="EK011" startDate="2025-01-15T16:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.336132</Latitude>
+    <Longitude>-117.597943</Longitude>
+    <Elevation>1072.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW002" startDate="2021-06-24T15:08:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.601863</Latitude>
+    <Longitude>-118.593853</Longitude>
+    <Elevation>885.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW003" startDate="2019-03-18T20:18:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.462217</Latitude>
+    <Longitude>-118.30425</Longitude>
+    <Elevation>926.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW010" startDate="2018-02-02T17:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.55544</Latitude>
+    <Longitude>-118.440159</Longitude>
+    <Elevation>831.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW012" startDate="2021-09-12T22:06:08.4800" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.487389</Latitude>
+    <Longitude>-118.515632</Longitude>
+    <Elevation>917.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW013" startDate="2021-09-13T18:02:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.523656</Latitude>
+    <Longitude>-118.552382</Longitude>
+    <Elevation>886.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW014" startDate="2021-09-13T23:00:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.400831</Latitude>
+    <Longitude>-118.530701</Longitude>
+    <Elevation>816.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW015" startDate="2023-01-10T22:24:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.533562</Latitude>
+    <Longitude>-118.648425</Longitude>
+    <Elevation>922.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW016" startDate="2023-01-18T20:31:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.43623</Latitude>
+    <Longitude>-118.329561</Longitude>
+    <Elevation>979.0</Elevation>
+    <Site>
+     <Name>&quot;Z&quot;</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="KW017" startDate="2023-06-23T20:55:00.0000" endDate="2029-12-31T23:59:59.9999" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>54.460077</Latitude>
+    <Longitude>-118.699474</Longitude>
+    <Elevation>1004.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LCE01" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>56.308416</Latitude>
+    <Longitude>-116.568932</Longitude>
+    <Elevation>673.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LCE02" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>56.278888</Latitude>
+    <Longitude>-116.681783</Longitude>
+    <Elevation>680.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LCE03" startDate="2024-12-20T21:12:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>56.285201</Latitude>
+    <Longitude>-116.623122</Longitude>
+    <Elevation>672.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LCE04" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>56.302494</Latitude>
+    <Longitude>-116.526601</Longitude>
+    <Elevation>703.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LCE05" startDate="2024-11-12T00:00:00.0000" endDate="2040-01-01T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Description>UNKNOWN</Description>
+    <Latitude>56.277282</Latitude>
+    <Longitude>-116.583558</Longitude>
+    <Elevation>692.0</Elevation>
+    <Site>
+     <Name>Z</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY01" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.147148</Latitude>
+    <Longitude>-116.72966</Longitude>
+    <Elevation>695.1</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Well Pad 3-34-82-18W5 LOY01</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY02" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.128571</Latitude>
+    <Longitude>-116.499634</Longitude>
+    <Elevation>720.8</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Well Pad 13-19-82-16W5 LOY02</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY03" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.130844</Latitude>
+    <Longitude>-116.661552</Longitude>
+    <Elevation>720.0</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Well Pad Office 13-19-82-17W5 LOY03</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY04" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.102379</Latitude>
+    <Longitude>-116.772407</Longitude>
+    <Elevation>683.0</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Tolko Industry Land LOY04</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+   <Station code="LOY05" startDate="2023-04-04T00:00:00.0000" endDate="2028-04-04T00:00:00.0000" restrictedStatus="partial" iris:alternateNetworkCodes=".RESTRICTED">
+    <Latitude>56.076492</Latitude>
+    <Longitude>-116.764931</Longitude>
+    <Elevation>700.0</Elevation>
+    <Site>
+     <Name>Obsidian Inj 14-18-82-17W5 HarmonV Private Land WB LOY05</Name>
+    </Site>
+    <TotalNumberChannels>3</TotalNumberChannels>
+    <SelectedNumberChannels>0</SelectedNumberChannels>
+   </Station>
+  </Network>
+ </FDSNStationXML>

@@ -1,0 +1,1309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+      <title>
+        
+          
+            NSF SAGE:
+          
+          
+MDA : 2K
+
+        
+      </title>
+      
+  <meta name="keywords" content="seismology, seismological data, earthquakes, iris dmc" />
+  <!-- Forces IE to render in 'latest' compatible mode -->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  <link rel="canonical" href="https://ds.iris.edu/mda/2K/" />
+  
+
+  
+
+
+
+
+
+
+      
+  
+  <link rel="stylesheet" media="all" type="text/css" href="/static/css/iris.0cc3eb9a3275.css" />
+
+  <link rel="stylesheet" media="print" type="text/css" href="/static/css/print.31c3384e5e41.css" />
+  
+  
+
+  
+    <link rel="shortcut icon" href="/static/img/favicon.2ff62ea8f729.ico" />
+  
+
+  
+
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/mda/css/mda.3987f639311b.css">
+  <style>
+    
+      .marker-GEOFON {
+        background-color: hsl(275, 100%, 96%);
+      }
+    
+      .marker-BGR {
+        background-color: hsl(152, 100%, 96%);
+      }
+    
+      .marker-IGN {
+        background-color: hsl(121, 100%, 96%);
+      }
+    
+      .marker-UIB-NORSAR {
+        background-color: hsl(194, 100%, 96%);
+      }
+    
+      .marker-ORFEUS {
+        background-color: hsl(26, 100%, 96%);
+      }
+    
+      .marker-IPGP {
+        background-color: hsl(34, 100%, 96%);
+      }
+    
+      .marker-SED {
+        background-color: hsl(351, 100%, 96%);
+      }
+    
+      .marker-ICGC {
+        background-color: hsl(252, 100%, 96%);
+      }
+    
+      .marker-RASPISHAKE {
+        background-color: hsl(130, 100%, 96%);
+      }
+    
+      .marker-KNMI {
+        background-color: hsl(264, 100%, 96%);
+      }
+    
+      .marker-BATS {
+        background-color: hsl(98, 100%, 96%);
+      }
+    
+      .marker-INGV {
+        background-color: hsl(310, 100%, 96%);
+      }
+    
+      .marker-RESIF {
+        background-color: hsl(144, 100%, 96%);
+      }
+    
+      .marker-USPSC {
+        background-color: hsl(176, 100%, 96%);
+      }
+    
+      .marker-KOERI {
+        background-color: hsl(258, 100%, 96%);
+      }
+    
+      .marker-IRISPH5 {
+        background-color: hsl(205, 100%, 96%);
+      }
+    
+      .marker-NCEDC {
+        background-color: hsl(273, 100%, 96%);
+      }
+    
+      .marker-NOA {
+        background-color: hsl(311, 100%, 96%);
+      }
+    
+      .marker-IRISDMC {
+        background-color: hsl(240, 100%, 96%);
+      }
+    
+      .marker-SCEDC {
+        background-color: hsl(138, 100%, 96%);
+      }
+    
+      .marker-AUSPASS {
+        background-color: hsl(18, 100%, 96%);
+      }
+    
+      .marker-LMU {
+        background-color: hsl(46, 100%, 96%);
+      }
+    
+      .marker-NIEP {
+        background-color: hsl(113, 100%, 96%);
+      }
+    
+  </style>
+
+      
+
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+  <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+    <!--
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/static/libs/megamenu/megamenu_plugins.ea0cee1e1e0e.js"></script>
+    <script type="text/javascript" src="/static/libs/megamenu/megamenu.min.a926dd52f41a.js"></script>
+    -->
+  
+
+  
+  
+
+
+<script type="text/javascript" src="/static/libs/tablesorter/2.14.5/js/jquery.tablesorter.min.c0dc1f5c9332.js"></script>
+<script type="text/javascript" src="/static/libs/tablesorter/2.14.5/js/jquery.tablesorter.widgets.min.9f3e8ccbbd5d.js"></script>
+<script type="text/javascript" src="/static/mda/js/mda_tablesorter.21d56187d209.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('[name="legend"]').popover({
+      content: $('#legendPopOverContent').html(),
+      html: true,
+      container: 'body'
+    });
+  });
+</script>
+
+<script type="text/javascript" src="/static/mda/js/mda_async_availability.1b875cf393c5.js"></script>
+<script type="text/javascript" src="/static/mda/js/mda_async_metadatachange.17fe93521a4d.js"></script>
+<script type="text/javascript" src="/static/mda/js/mda_async_networks.51cc8455d8a9.js"></script>
+<script type="text/javascript" src="/static/mda/js/mda_cv_popups.3cfbf30f75d9.js"></script>
+<script type="text/javascript">
+  var DATACENTERS = {"GEOFON": {"name": "GEOFON", "description": "The GEOFON Program", "website": "http://geofon.gfz-potsdam.de", "location": "Potsdam, Germany", "lastUpdate": "Aug 20, 2026, 4:15:51 PM", "serviceURLs": {"dataselectService": "http://geofon.gfz-potsdam.de/fdsnws/dataselect/1/", "stationService": "http://geofon.gfz-potsdam.de/fdsnws/station/1/"}, "color": 275, "color2": 69, "color3": 274}, "BGR": {"name": "BGR", "description": "BGR Hannover", "website": "http://eida.bgr.de", "location": "Hannover, Germany", "lastUpdate": "Aug 20, 2026, 4:40:43 PM", "serviceURLs": {"dataselectService": "http://eida.bgr.de/fdsnws/dataselect/1/", "stationService": "http://eida.bgr.de/fdsnws/station/1/"}, "color": 152, "color2": 70, "color3": 110}, "IGN": {"name": "IGN", "description": "Red S\u00edsmica Nacional", "website": "https://www.ign.es/", "location": "Spain", "lastUpdate": "Mar 26, 2026, 6:41:35 AM", "serviceURLs": {"dataselectService": "http://fdsnws.sismologia.ign.es/fdsnws/dataselect/1/", "stationService": "http://fdsnws.sismologia.ign.es/fdsnws/station/1/"}, "color": 121, "color2": 193, "color3": 193}, "UIB-NORSAR": {"name": "UIB-NORSAR", "description": "Norwegian National Seismic Network", "website": "http://nnsn.geo.uib.no", "location": "Bergen, Norway", "lastUpdate": "Oct 6, 2026, 4:05:08 PM", "serviceURLs": {"dataselectService": "http://eida.geo.uib.no/fdsnws/dataselect/1/", "stationService": "http://eida.geo.uib.no/fdsnws/station/1/"}, "color": 194, "color2": 203, "color3": 203}, "ORFEUS": {"name": "ORFEUS", "description": "The ORFEUS Data Center", "website": "http://www.orfeus-eu.org", "location": "de Bilt, the Netherlands", "lastUpdate": "Oct 6, 2026, 4:04:15 PM", "serviceURLs": {"dataselectService": "http://www.orfeus-eu.org/fdsnws/dataselect/1/", "stationService": "http://www.orfeus-eu.org/fdsnws/station/1/", "eventService": "http://www.orfeus-eu.org/fdsnws/event/1/"}, "color": 26, "color2": 241, "color3": 158}, "IPGP": {"name": "IPGP", "description": "IPGP Data Center", "website": "http://datacenter.ipgp.fr", "location": "Paris, France", "lastUpdate": "Oct 6, 2026, 4:04:26 PM", "serviceURLs": {"dataselectService": "http://ws.ipgp.fr/fdsnws/dataselect/1/", "stationService": "http://ws.ipgp.fr/fdsnws/station/1/", "eventService": "http://ws.ipgp.fr/fdsnws/event/1/"}, "color": 34, "color2": 209, "color3": 318}, "SED": {"name": "SED", "description": "The Swiss Seismological Service", "website": "http://www.seismo.ethz.ch", "location": "Zurich, Switzerland", "lastUpdate": "Oct 6, 2026, 4:04:18 PM", "serviceURLs": {"dataselectService": "http://eida.ethz.ch/fdsnws/dataselect/1/", "stationService": "http://eida.ethz.ch/fdsnws/station/1/", "eventService": "http://arclink.ethz.ch/fdsnws/event/1/"}, "color": 351, "color2": 251, "color3": 21}, "ICGC": {"name": "ICGC", "description": "Institut Cartogr\u00e0fic i Geol\u00f2gic de Catalunya", "website": "http://www.icgc.cat/", "location": "Barcelona, Catalonia, Spain", "lastUpdate": "Oct 6, 2026, 4:04:37 PM", "serviceURLs": {"dataselectService": "http://ws.icgc.cat/fdsnws/dataselect/1/", "stationService": "http://ws.icgc.cat/fdsnws/station/1/"}, "color": 252, "color2": 243, "color3": 210}, "RASPISHAKE": {"name": "RASPISHAKE", "description": "Raspberry Shake Project", "website": "http://raspberryshake.net/", "location": "", "lastUpdate": "Oct 6, 2026, 4:05:04 PM", "serviceURLs": {"dataselectService": "https://data.raspberryshake.org/fdsnws/dataselect/1/", "stationService": "https://data.raspberryshake.org/fdsnws/station/1/"}, "color": 130, "color2": 71, "color3": 43}, "KNMI": {"name": "KNMI", "description": "The Royal Netherlands Meteorological Institute", "website": "http://rdsa.knmi.nl/", "location": "De Bilt, Netherlands", "lastUpdate": "Oct 6, 2026, 4:05:06 PM", "serviceURLs": {"dataselectService": "http://rdsa.knmi.nl/fdsnws/dataselect/1/", "stationService": "http://rdsa.knmi.nl/fdsnws/station/1/", "eventService": "http://rdsa.knmi.nl/fdsnws/event/1/"}, "color": 264, "color2": 58, "color3": 259}, "BATS": {"name": "BATS", "description": "Broadband Array in Taiwan for Seismology", "website": "http://bats.earth.sinica.edu.tw/", "location": "Taipei, Taiwan", "lastUpdate": "Oct 6, 2026, 4:05:07 PM", "serviceURLs": {"dataselectService": "http://batsws.earth.sinica.edu.tw/fdsnws/dataselect/1/", "stationService": "http://batsws.earth.sinica.edu.tw/fdsnws/station/1/"}, "color": 98, "color2": 83, "color3": 4}, "INGV": {"name": "INGV", "description": "The Italian National Institute of Geophysics and Volcanology", "website": "http://www.ingv.it", "location": "Rome, Italy", "lastUpdate": "Oct 6, 2026, 4:04:20 PM", "serviceURLs": {"dataselectService": "http://webservices.ingv.it/fdsnws/dataselect/1/", "stationService": "http://webservices.ingv.it/fdsnws/station/1/", "eventService": "http://webservices.ingv.it/fdsnws/event/1/"}, "color": 310, "color2": 333, "color3": 314}, "RESIF": {"name": "RESIF", "description": "RESIF", "website": "http://www.resif.fr", "location": "Grenoble, France", "lastUpdate": "Oct 6, 2026, 4:04:02 PM", "serviceURLs": {"dataselectService": "http://ws.resif.fr/fdsnws/dataselect/1/", "stationService": "http://ws.resif.fr/fdsnws/station/1/"}, "color": 144, "color2": 246, "color3": 270}, "USPSC": {"name": "USPSC", "description": "USP Seismological Center", "website": "http://www.moho.iag.usp.br", "location": "S\u00e3o Paulo, Brazil", "lastUpdate": "Oct 6, 2026, 4:04:22 PM", "serviceURLs": {"dataselectService": "http://seisrequest.iag.usp.br/fdsnws/dataselect/1/", "stationService": "http://seisrequest.iag.usp.br/fdsnws/station/1/"}, "color": 176, "color2": 147, "color3": 165}, "KOERI": {"name": "KOERI", "description": "Bo\u011fazi\u00e7i University, Kandilli Observatory", "website": "http://www.koeri.boun.edu.tr/2/tr", "location": "Istanbul, Turkey", "lastUpdate": "Oct 6, 2026, 4:04:25 PM", "serviceURLs": {"dataselectService": "http://eida-service.koeri.boun.edu.tr/fdsnws/dataselect/1/", "stationService": "http://eida-service.koeri.boun.edu.tr/fdsnws/station/1/"}, "color": 258, "color2": 337, "color3": 135}, "IRISPH5": {"name": "IRISPH5", "description": "EarthScope Data Center (PH5 repository)", "website": "https://www.earthscope.org/data/", "location": "Seattle, WA, USA", "lastUpdate": "Sep 1, 2026, 4:24:46 PM", "serviceURLs": {"dataselectService": "http://service.iris.edu/ph5ws/dataselect/1/", "stationService": "http://service.iris.edu/ph5ws/station/1/", "eventService": "http://service.iris.edu/ph5ws/event/1/", "availabilityService": "http://service.iris.edu/ph5ws/availability/1/"}, "color": 205, "color2": 105, "color3": 125}, "NCEDC": {"name": "NCEDC", "description": "The Northern California Earthquake Data Center", "website": "http://www.ncedc.org", "location": "Berkeley, CA, USA", "lastUpdate": "Oct 6, 2026, 4:04:11 PM", "serviceURLs": {"dataselectService": "https://service.ncedc.org/fdsnws/dataselect/1/", "respService": "https://service.ncedc.org/ncedcws/resp/1/", "stationService": "https://service.ncedc.org/fdsnws/station/1/", "eventService": "https://service.ncedc.org/fdsnws/event/1/", "sacpzService": "https://service.ncedc.org/ncedcws/sacpz/1/", "availabilityService": "https://service.ncedc.org/fdsnws/availability/1/"}, "color": 273, "color2": 128, "color3": 300}, "NOA": {"name": "NOA", "description": "National Observatory of Athens", "website": "http://bbnet.gein.noa.gr/HL/", "location": "Athens, Greece", "lastUpdate": "Oct 6, 2026, 4:04:29 PM", "serviceURLs": {"dataselectService": "http://eida.gein.noa.gr/fdsnws/dataselect/1/", "stationService": "http://eida.gein.noa.gr/fdsnws/station/1/"}, "color": 311, "color2": 193, "color3": 293}, "IRISDMC": {"name": "IRISDMC", "description": "EarthScope Data Center", "website": "https://www.earthscope.org/data/", "location": "Cloud USA", "lastUpdate": "Oct 6, 2026, 4:44:49 PM", "serviceURLs": {"dataselectService": "https://service.earthscope.org/fdsnws/dataselect/1/", "stationService": "https://service.earthscope.org/fdsnws/station/1/", "availabilityService": "https://service.earthscope.org/fdsnws/availability/1/"}, "color": 240, "color2": 274, "color3": 240}, "SCEDC": {"name": "SCEDC", "description": "The Southern California Earthquake Data Center", "website": "http://scedc.caltech.edu/", "location": "Pasadena, CA, USA", "lastUpdate": "Oct 6, 2026, 4:01:01 PM", "serviceURLs": {"dataselectService": "http://service.scedc.caltech.edu/fdsnws/dataselect/1/", "stationService": "http://service.scedc.caltech.edu/fdsnws/station/1/", "eventService": "http://service.scedc.caltech.edu/fdsnws/event/1/"}, "color": 138, "color2": 133, "color3": 95}, "AUSPASS": {"name": "AUSPASS", "description": "AusPass: the Australian Passive Seismic Server", "website": "http://auspass.edu.au/", "location": "", "lastUpdate": "Oct 6, 2026, 4:01:03 PM", "serviceURLs": {"dataselectService": "http://auspass.edu.au/fdsnws/dataselect/1/", "stationService": "http://auspass.edu.au/fdsnws/station/1/", "eventService": "http://auspass.edu.au/fdsnws/event/1/"}, "color": 18, "color2": 340, "color3": 13}, "LMU": {"name": "LMU", "description": "LMU Munich", "website": "http://www.geophysik.uni-muenchen.de/observatory/seismology", "location": "Munich, Germany", "lastUpdate": "Oct 6, 2026, 4:04:27 PM", "serviceURLs": {"dataselectService": "http://erde.geophysik.uni-muenchen.de/fdsnws/dataselect/1/", "stationService": "http://erde.geophysik.uni-muenchen.de/fdsnws/station/1/"}, "color": 46, "color2": 269, "color3": 5}, "NIEP": {"name": "NIEP", "description": "National Institute for Earth Physics", "website": "http://www.orfeus-eu.org/eida/eida_niep.html", "location": "Bucharest, Romania", "lastUpdate": "Oct 6, 2026, 4:04:28 PM", "serviceURLs": {"dataselectService": "https://eida-sc3.infp.ro/fdsnws/dataselect/1/", "stationService": "https://eida-sc3.infp.ro/fdsnws/station/1/"}, "color": 113, "color2": 235, "color3": 160}};
+  $(document).ready(function() {
+    var availability_callback_url = "/mda/availability_data_async/";
+
+    var all_promises = [];
+
+    
+      
+        var cn_promises = [];
+      
+
+      all_promises.push(
+        $.when.apply($, cn_promises)
+          .then(NET.timeoutPromise())
+          .then(function() {
+            enable_table_sorter("#2K_2014-01-01T00:00:00_2029-12-31T23:59:59-station-table".replace(/:/g, "\\:"));
+          }));
+    
+
+    $.when.apply($, all_promises)
+      .then(NET.timeoutPromise())
+      .then(function() {
+        CVPOPUP.initialize();
+      })
+      .then(NET.timeoutPromise())
+      .then(function() {
+        AVAIL.async_load_availability(
+          availability_callback_url,
+          "network",
+          true
+        );
+      })
+      .then(NET.timeoutPromise())
+      .then(function() {
+        AVAIL.async_load_availability(
+          availability_callback_url,
+          "station",
+          true
+        );
+      });
+  });
+</script>
+
+      
+      
+    
+  </head>
+
+  <body>
+  
+
+    
+
+  
+<div class="iris-purple">
+  <div class="container" style="position: relative">
+    <div class="row">
+      <div id="top-menu">
+        <a href="https://www.iris.edu/hq/contact" title="Contact Us">Contact Us</a>
+        |
+        
+          
+
+
+  <a href="/account/login/" class="login-link">Sign In</a>
+  <script>
+    /* Add the next page link when the link is clicked */
+    $(function () {
+      $('.login-link').click(function (e) {
+        window.location.href = "/account/login/?next=/mda/2K/";
+        e.preventDefault();
+      })
+    })
+  </script>
+
+
+        
+      </div>
+      <div class="col-xs-7 header-nsf-logo">
+        <a href="https://www.iris.edu/hq/sage" 
+            target="_blank"
+            title="NSF SAGE"
+        >
+            <img src="/static/img/layout/logos/sage_web_white.18c2ce40d38d.svg" 
+                alt="NSF SAGE"
+                height="90"
+                style="margin-left:-10px"
+            />
+        </a>
+      </div>
+      <div class="col-xs-5">
+        <div class="header-toggle-menu">
+          <div id="toggle-mega-menu">
+            <button type="button" class="navbar-toggle collapsed" onclick="$('.nav_menu_container').slideToggle()">MENU</button>
+          </div>
+        </div>
+        <div class="header-iris-logo">
+          <a
+            target="_blank"
+            alt="EarthScope logo"
+            title="EarthScope"
+            href="https://earthscope.org"
+          >
+            <img
+              src="/static/img/layout/logos/earthscope-logo-white-mobile.6d3ad4ad19e8.svg"
+              alt="EarthScope logo image"
+              style="vertical-align: baseline;"
+              height="50"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+<div class="nav_container iris-purple" id="nav-sticky">
+  <div class="container">
+	<nav>
+<div class="nav_menu_container"><!-- Begin Menu Container -->
+<ul class="nav_menu clearfix"><!-- Begin Mega Menu -->
+<li><a class="nav_menu_drop" role="button" tabindex="0" title="Research"><h4>DATA</h4></a><!-- Begin Item -->
+<div class="nav_menu_dropdown_container">
+<div class="nav_menu_dropdown row"><!-- Begin Item Container -->
+<div class="col-md-3 hidden-sm info">
+<h3>NSF SAGE ingests, curates, and distributes geoscience data</h3>
+<p>NSF SAGE provides management of, and access to, observed and derived data for the global earth science community.</p>
+<p>This includes ground motion, atmospheric, infrasonic, magnetotelluric, strain, hydrological, and hydroacoustic data.</p>
+</div>
+<div class="col-md-3 col-sm-4">
+<h4>DATA AT NSF SAGE</h4>
+<ul>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/data/types/">Types of Observational Data</a></li>
+<li><a href="https://ds.iris.edu/ds/products/">Derived Data Products</a></li>
+</ul>
+<h4>DATA INGESTION</h4>
+<ul>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/data/#submitting">Submitting Data to NSF SAGE</a></li>
+</ul>
+<h4>DATA ANALYTICS</h4>
+<ul>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/quality-assurance/">Quality Assurance</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<h4>DATA ACCESS</h4>
+<ul>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/tools/">Data Tool Matrix</a></li>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/data/#requests">Requesting Data from NSF SAGE</a></li>
+<li>Data Request Tools
+                  <ul>
+<li><a href="https://service.earthscope.org/">Web Services</a></li>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/tools/">Web Applications</a></li>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/manuals/breq_fast/">Batch Request Tools</a></li>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/services/seedlink/">Realtime Data Access</a></li>
+</ul>
+</li>
+<li><a href="https://ds.iris.edu/spud/">Requesting Derived Data Products</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<h4>DOWNLOADABLE SOFTWARE</h4>
+<ul>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/software/downloads/">NSF SAGE Authored Software</a></li>
+<li><a href="//seiscode.iris.washington.edu">Community Authored Software</a></li>
+</ul>
+<h4>SUPPORT</h4>
+<ul>
+<li><a href="https://ds.iris.edu/ds/nodes/dmc/kb/">Knowledge Base</a></li>
+<li><a href="https://ds.iris.edu/message-center/">Mailing Lists</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- End Item Container -->
+</li>
+<li><a class="nav_menu_drop" role="button" tabindex="0" title="Research"><h4>INSTRUMENTATION</h4></a><!-- Begin Item -->
+<div class="nav_menu_dropdown_container">
+<div class="nav_menu_dropdown row"><!-- Begin Item Container -->
+<div class="col-md-3 hidden-sm info">
+<h3>NSF SAGE operates, provides, and maintains geoscience instrumentation</h3>
+<p>NSF SAGE facilitates seismological and geophysical research by operating and maintaining open geophysical networks and providing portable instrumentation for user-driven experiments.</p>
+<p>Instrumentation support includes engineering services, training, logistics, and best practices in equipment usage.</p>
+<p>All data collected with NSF SAGE instrumentation are made freely and openly available.</p>
+</div>
+<div class="col-md-3 col-sm-4">
+<h4>Permanent Networks</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/programs/gsn">Global Seismographic Network (GSN)</a></li>
+</ul>
+<h4>Portable Instrumentation</h4>
+<ul>
+<li><a href="https://epic.earthscope.org">Portable Seismic Instrumentation</a>
+<ul>
+<li><a href="https://www.passcal.nmt.edu/content/instrumentation/sensors">Seismic</a></li>
+<li><a href="https://www.passcal.nmt.edu/content/polar">Polar</a></li>
+<li><a href="https://www.iris.edu/hq/programs/passcal/magnetotelluric_instrumentation">Magnetotelluric</a></li>
+</ul>
+</li>
+<li><a href="https://www.utep.edu/science/ssf/">Seismic Source Facility</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<h4>Community Engagement</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/programs/is/meetings">Meetings &amp; Workshops</a></li>
+<li><a href="https://www.iris.edu/hq/short-courses/">Short Courses</a></li>
+<li><a href="https://www.iris.edu/hq/programs/passcal/best_practices">Best Practices</a></li>
+<li><a href="https://www.iris.edu/hq/files/programs/is/IS_Quality_Principles_v6.pdf">Data Quality Principles</a></li>
+</ul>
+<h4>Collaborations</h4>
+<ul>
+<!-- <li><a href="">USGS / Regional Networks</a></li> -->
+<!-- <li><a href="">Caucasus / Central Asia</a></li> -->
+<li><a href="https://www.iris.edu/hq/programs/glisn">Greenland</a></li>
+<li><a href="https://www.iris.edu/hq/programs/is/seismic_network_expansion_in_the_caucasus_and_central_asia">Central Asia and the Caucasus</a></li>
+</ul>
+</div>
+<div class="col-md-3 col-sm-4">
+<h4>New Directions</h4>
+<ul>
+<li>Research Coordination Networks
+                  <ul>
+<li><a href="https://www.iris.edu/hq/initiatives/das_rcn">Distributed Acoustic Sensing (DAS)</a></li>
+<li><a href="https://www.iris.edu/hq/initiatives/subduction-zone-observatory">Subduction Zones in Four Dimensions (SZ4D)</a></li>
+</ul>
+</li>
+<li><a href="https://www.iris.edu/hq/initiatives/recording-the-full-seismic-wavefield">Wavefields Initiative</a></li>
+<li><a href="https://www.iris.edu/hq/initiatives/rapid_response">Rapid Response to Geohazards</a></li>
+<!-- <li><a href="">Portable Drilling</a></li> -->
+</ul>
+<h4>Past Projects</h4>
+<ul>
+<li><a href="https://obsic.whoi.edu">Ocean Bottom Seismic Instrument Pool (OBSIP)</a></li>
+<li><a href="https://usarray.org/">USArray</a></li>
+<li><a href="https://www.iris.edu/hq/projects/chile">GRO-Chile</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- End Item Container -->
+</li>
+<li><a class="nav_menu_drop" role="button" tabindex="0"><h4>EDUCATION</h4></a>
+<div class="nav_menu_dropdown_container">
+<div class="nav_menu_dropdown row"><!-- Begin Item Container -->
+<div class="col-md-4 hidden-sm info">
+<h3>NSF SAGE provides a wide range of education, workforce, and outreach resources</h3>
+<p>Our mission is to advance awareness and understanding of seismology and earth science while inspiring careers in geophysics.</p>
+</div>
+<div class="col-md-4 col-sm-6">
+<h4>LEARNING &amp; TEACHING RESOURCES</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/retm/">Recent Earthquakes Teachable Moments</a></li>
+<li><a href="https://www.iris.edu/hq/inclass/search#type[]=3&amp;type[]=4&amp;language[]=1">Lessons/Demonstrations</a></li>
+<li><a href="https://www.iris.edu/hq/inclass/search/software-web-app">Educational Software/Webtools</a></li>
+<li><a href="https://www.iris.edu/hq/inclass/search/video">Videos</a> | <a href="https://www.iris.edu/hq/inclass/search/animation">Animations</a> | <a href="https://www.iris.edu/hq/inclass/gif">Animated GIFs</a></li>
+<li></li>
+<li><a href="https://www.iris.edu/hq/inclass/search/poster">Posters</a> | <a href="https://www.iris.edu/hq/inclass/search/fact-sheet">Fact Sheets</a></li>
+<li><a href="https://www.iris.edu/hq/sis/">Educational Seismographs</a></li>
+</ul>
+<h4>LEARNING OPPORTUNITIES</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/internship/">Student Internships</a></li>
+<li><a href="https://www.iris.edu/hq/programs/epo/professional_development/">Teacher Professional Development</a></li>
+</ul>
+</div>
+<div class="col-md-4 col-sm-6">
+<h4>PUBLIC OUTREACH</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/programs/epo/museum_displays">Public Displays</a></li>
+<li><a href="https://www.iris.edu/hq/programs/epo/distinguished_lectureship">Distinguished Lectures</a></li>
+<li><a href="https://www.iris.edu/hq/programs/epo/life_of_a_seismologist/">Day in a Life of a Seismologist</a></li>
+<li><a href="https://www.iris.edu/hq/programs/epo/shake_alert">ShakeAlert<sup>®</sup> System</a></li>
+</ul>
+<h4>EXPLORE EARTHQUAKE DATA</h4>
+<ul>
+<li><a href="https://ds.iris.edu/seismon/">Recent Earthquakes</a></li>
+<li><a href="https://ds.iris.edu/ieb/">Earthquake Browser</a></li>
+<li><a href="https://www.iris.edu/app/station_monitor/">Station Monitor</a></li>
+<li><a href="https://www.iris.edu/hq/programs/epo/visualizations">Wave Visualizations</a></li>
+<li><a href="https://www.iris.edu/hq/programs/epo/resources_for_viewing_seismograms">View Seismograms</a></li>
+</ul>
+</div>
+</div>
+</div><!-- End Item Container -->
+</li>
+<li><a class="nav_menu_drop" role="button" tabindex="0"><h4>ABOUT</h4></a><!-- Begin Item -->
+<div class="nav_menu_dropdown_container">
+<div class="nav_menu_dropdown row"><!-- Begin Item Container -->
+<div class="col-md-3 hidden-sm info">
+<p>Established in 2018, NSF’s Seismological Facility for the Advancement of Geoscience (SAGE) is a distributed, multi-user national facility operated by EarthScope that provides state of-the-art seismic and related geophysical instrumentation and services to support research and education in the geosciences.</p>
+</div>
+<div class="col-md-9 col-sm-12">
+<div class="row">
+<div class="col-sm-4">
+<h4>ABOUT EarthScope</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/about_iris">Vision/Mission</a></li>
+<li><a href="https://www.iris.edu/hq/about_iris/membership">Membership</a></li>
+<li><a href="https://www.iris.edu/hq/about_iris/governance">Governance</a></li>
+<li><a href="https://www.iris.edu/hq/news">News</a></li>
+</ul>
+</div>
+<div class="col-sm-4">
+<h4>COMMUNITY</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/about_iris/membership/become_a_member">Becoming a Member</a></li>
+<li><a href="https://ds.iris.edu/message-center/">Mailing Lists</a></li>
+</ul>
+<h4>EVENTS</h4>
+<ul>
+<li><a href="https://www.earthscope.org/education/skill-building-learning/courses/">Courses</a></li>
+<li><a href="https://www.iris.edu/hq/calendar/">Calendar</a></li>
+</ul>
+</div>
+<div class="col-sm-4">
+<h4>PUBLICATIONS</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/iris_citations">How to Cite NSF SAGE</a></li>
+</ul>
+<h4>EarthScope ORGANIZATION</h4>
+<ul>
+<li><a href="https://www.iris.edu/hq/contact">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div><!-- End Item Container -->
+</li>
+
+
+
+  <li class="visible-xs-block">
+    <a href="/account/login/?next=/mda/2K/"><h4>Sign In</h4></a>
+  </li>
+
+
+<li><a class="" data-target="#globalSearchModal" data-toggle="modal" role="button" tabindex="0"><h4><i class="glyphicon glyphicon-search"></i></h4></a>
+</li>
+</ul>
+</div>
+</nav>
+  </div>
+</div>
+
+<div class="modal fade" id="globalSearchModal" tabindex="-1" role="dialog" aria-labelledby="globalSearchModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <form action="//www.iris.edu/hq/search" method="get">
+          <input type="hidden" name="cx" value="000587591391783241528:dsb0_jo9rjy" />
+          <input type="hidden" name="cof" value="FORID:9" />
+          <input type="hidden" name="ie" value="UTF-8" />
+          <div class="input-group input-group-sm">
+            <input type="text" class="form-control" name="q" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </span>
+          </div><!-- /input-group -->
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('#globalSearchModal').on('shown.bs.modal', function () {$('input[name=q]').focus();})
+</script>
+
+
+
+
+    <div class="container blur">
+      <div id="breadcrumbs">
+      
+        <ul class="breadcrumbs">
+          
+            
+              <li>
+                <a href="/mda/">MDA</a>
+              </li>
+            
+              <li>
+                <a href="/mda/2K/">2K</a>
+              </li>
+            
+          
+        </ul>
+      
+      </div>
+
+      
+    
+  
+
+              
+              
+
+              <div id="page-content">
+
+                
+                  
+
+
+                  
+
+
+                
+
+                
+                  
+                
+
+                
+
+  <div class="row">
+    <div class="col-xs-9">
+      <h1>
+        
+        MetaData Aggregator
+        
+      </h1>
+      <h2>
+        
+Network Summary
+
+      </h2>
+    </div>
+    <div class="col-xs-3">
+        <div id="legend" name="legend" class="legend" data-toggle="popover" data-trigger="hover" title="Legend" data-placement="bottom">
+  <div id="legendPopOverContent" class="hidden">
+    <div><span class="marker legend-marker-available-yes">A</span> = Open data access</div>
+    <div><span class="marker legend-marker-available-partial">P</span> = Partially restricted data access</div>
+    <div><span class="marker legend-marker-available-restricted">R</span> = Restricted data access</div>
+    <div><span class="marker legend-marker-available-no">X</span> = Data is not available</div>
+    <div><span class="marker legend-marker-available-unknown">?</span> = No availability information</div>
+  </div>
+  Legend:
+  <div class="legend-markers">
+    <span class="marker legend-marker-available-yes">A</span>
+    <span class="marker legend-marker-available-partial">P</span>
+    <span class="marker legend-marker-available-restricted">R</span>
+    <span class="marker legend-marker-available-no">X</span>
+    <span class="marker legend-marker-available-unknown">?</span>
+  </div>
+</div>
+    </div>
+  </div>
+
+  <div id="mda-menu">
+    
+  
+
+
+
+  
+    <div class="btn-toolbar" role="toolbar">
+      <div class="btn-group" role="group">
+        
+        <a data-toggle="collapse" data-target="#page-skeleton" class="btn btn-default btn-sm collapsed" aria-expanded="false">
+          Context <span class="glyphicon glyphicon-tasks"></span>
+        </a>
+      </div>
+    </div>
+  
+
+  </div>
+
+  
+
+
+
+<div id="filters" class="collapse">
+  <h4>Filter</h4>
+  <div>
+    
+      
+    
+  </div>
+</div>
+
+
+
+
+<div id="page-skeleton" class="top-nav-container collapse" aria-expanded="true">
+  <h4>Context</h4>
+  <div>
+    <a data-toggle="collapse" data-target="#networks" class="btn btn-default toggle" aria-expanded="true">
+      Networks (1 time spans)
+    </a>
+    <div id="networks" class="collapse in" aria-expanded="true">
+    
+      <div class="top-nav-level">
+        <div class="top-nav-item-network">
+          
+            <a href="#2K_2014-01-01T00:00:00_2029-12-31T23:59:59">
+              2K 2014-01-01 2029-12-31
+            </a>
+          
+        </div>
+        
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  
+  <div id="2K_2014-01-01T00:00:00_2029-12-31T23:59:59">
+
+    
+
+<hr />
+<div>
+  <h3 class="description-header">
+    <a href="#2K_2014-01-01T00:00:00_2029-12-31T23:59:59" class="description-label">
+      2K
+      (2014-01-01 - 2029-12-31)
+    </a>
+  </h3>
+  <div id="2K_2014-01-01T00:00:00_2029-12-31T23:59:59-loader"></div>
+
+  <dl class="dl-horizontal">
+    <dt>Network</dt>
+    <dd>
+      <a href="/mda/2K/?starttime=2014-01-01T00:00:00&amp;endtime=2029-12-31T23:59:59" class="fdsn-code">2K</a>
+      <div class="btn-group btn-group-lineheight">
+        <a href="/gmap/#network=2K&starttime=2014-01-01T00:00:00&endtime=2029-12-31T23:59:59"
+           class="btn btn-default">
+          Map
+        </a>
+        
+          
+            <a href="//dx.doi.org/10.7914/SN/2K_2014" class="btn btn-xs btn-default">DOI</a>
+          
+          
+        
+      </div>
+    </dd>
+    <dt>Description</dt>
+    <dd class="wrap">
+  Scientific Induced Seismicity Monitoring Network
+
+</dd>
+    <dt>Start</dt>
+    <dd>
+  2014-01-01 (001)
+
+</dd>
+    <dt>End</dt>
+    <dd>
+  2029-12-31 (365)
+
+</dd>
+    <dt>Data Center</dt>
+    <dd>
+      <ul class="cv cv-dc ">
+  
+    <li>
+      <span name="IRISDMC_2K_2014-01-01T00:00:00_2029-12-31T23:59:59"
+          class="marker marker-available-disable marker-IRISDMC network-icons">
+            IRISDMC
+      </span>
+    </li>
+  
+</ul>
+
+    </dd>
+    
+      
+    
+    
+      <dt># Stations</dt>
+      <dd>5</dd>
+    
+  </dl>
+</div>
+
+
+    <div class="auto-table-scroll-x">
+      <table id="2K_2014-01-01T00:00:00_2029-12-31T23:59:59-station-table" class="table-striped table-mda">
+        <thead>
+          <tr>
+            <th>Station</th>
+            <th>Data Center</th>
+            <th>Start</th>
+            <th>End</th>
+            <th class="hidden-xs">Site</th>
+            <th class="hidden-xs">Latitude</th>
+            <th class="hidden-xs">Longitude</th>
+            <th class="hidden-xs">Elevation</th>
+          </tr>
+        </thead>
+        <tbody>
+         
+
+
+  <tr>
+    <td class="primary-column">
+      <a href="/mda/2K/LOY01/?starttime=2023-04-04T00:00:00&amp;endtime=2028-04-04T00:00:00">LOY01</a>
+    </td>
+    <td>
+      <ul class="cv cv-dc ">
+  
+    <li>
+      <span name="IRISDMC_2K_LOY01_2023-04-04T00:00:00_2028-04-04T00:00:00"
+          class="marker marker-available-disable marker-IRISDMC station-icons">
+            IRISDMC
+      </span>
+    </li>
+  
+</ul>
+
+    </td>
+    <td>
+      
+  2023-04-04
+
+
+    </td>
+    <td>
+      
+  2028-04-04
+
+
+    </td>
+    <td class="hidden-xs wrap">
+      
+  Obsidian Inj 14-18-82-17W5 HarmonV Well Pad 3-34-82-18W5 LOY01
+
+
+    </td>
+    <td class="hidden-xs">
+      
+  56.147148
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  -116.72966
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  695.1
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td class="primary-column">
+      <a href="/mda/2K/LOY02/?starttime=2023-04-04T00:00:00&amp;endtime=2028-04-04T00:00:00">LOY02</a>
+    </td>
+    <td>
+      <ul class="cv cv-dc ">
+  
+    <li>
+      <span name="IRISDMC_2K_LOY02_2023-04-04T00:00:00_2028-04-04T00:00:00"
+          class="marker marker-available-disable marker-IRISDMC station-icons">
+            IRISDMC
+      </span>
+    </li>
+  
+</ul>
+
+    </td>
+    <td>
+      
+  2023-04-04
+
+
+    </td>
+    <td>
+      
+  2028-04-04
+
+
+    </td>
+    <td class="hidden-xs wrap">
+      
+  Obsidian Inj 14-18-82-17W5 HarmonV Well Pad 13-19-82-16W5 LOY02
+
+
+    </td>
+    <td class="hidden-xs">
+      
+  56.128571
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  -116.499634
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  720.8
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td class="primary-column">
+      <a href="/mda/2K/LOY03/?starttime=2023-04-04T00:00:00&amp;endtime=2028-04-04T00:00:00">LOY03</a>
+    </td>
+    <td>
+      <ul class="cv cv-dc ">
+  
+    <li>
+      <span name="IRISDMC_2K_LOY03_2023-04-04T00:00:00_2028-04-04T00:00:00"
+          class="marker marker-available-disable marker-IRISDMC station-icons">
+            IRISDMC
+      </span>
+    </li>
+  
+</ul>
+
+    </td>
+    <td>
+      
+  2023-04-04
+
+
+    </td>
+    <td>
+      
+  2028-04-04
+
+
+    </td>
+    <td class="hidden-xs wrap">
+      
+  Obsidian Inj 14-18-82-17W5 HarmonV Well Pad Office 13-19-82-17W5 LOY03
+
+
+    </td>
+    <td class="hidden-xs">
+      
+  56.130844
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  -116.661552
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  720.0
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td class="primary-column">
+      <a href="/mda/2K/LOY04/?starttime=2023-04-04T00:00:00&amp;endtime=2028-04-04T00:00:00">LOY04</a>
+    </td>
+    <td>
+      <ul class="cv cv-dc ">
+  
+    <li>
+      <span name="IRISDMC_2K_LOY04_2023-04-04T00:00:00_2028-04-04T00:00:00"
+          class="marker marker-available-disable marker-IRISDMC station-icons">
+            IRISDMC
+      </span>
+    </li>
+  
+</ul>
+
+    </td>
+    <td>
+      
+  2023-04-04
+
+
+    </td>
+    <td>
+      
+  2028-04-04
+
+
+    </td>
+    <td class="hidden-xs wrap">
+      
+  Obsidian Inj 14-18-82-17W5 HarmonV Tolko Industry Land LOY04
+
+
+    </td>
+    <td class="hidden-xs">
+      
+  56.102379
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  -116.772408
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  683.0
+
+
+    </td>
+  </tr>
+
+  <tr>
+    <td class="primary-column">
+      <a href="/mda/2K/LOY05/?starttime=2023-04-04T00:00:00&amp;endtime=2028-04-04T00:00:00">LOY05</a>
+    </td>
+    <td>
+      <ul class="cv cv-dc ">
+  
+    <li>
+      <span name="IRISDMC_2K_LOY05_2023-04-04T00:00:00_2028-04-04T00:00:00"
+          class="marker marker-available-disable marker-IRISDMC station-icons">
+            IRISDMC
+      </span>
+    </li>
+  
+</ul>
+
+    </td>
+    <td>
+      
+  2023-04-04
+
+
+    </td>
+    <td>
+      
+  2028-04-04
+
+
+    </td>
+    <td class="hidden-xs wrap">
+      
+  Obsidian Inj 14-18-82-17W5 HarmonV Private Land WB LOY05
+
+
+    </td>
+    <td class="hidden-xs">
+      
+  56.076492
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  -116.764931
+
+
+      
+    </td>
+    <td class="hidden-xs">
+      
+  700.0
+
+
+    </td>
+  </tr>
+
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+              </div>
+
+            
+
+
+    
+      
+        
+<div class="footer-alert">
+  <div class="alert alert-info">
+    <a href="https://www.coretrustseal.org/why-certification/certified-repositories/">
+      <img src="/static/img/icons/CoreTrustSeal-40.3c9052ee3dab.png" style="margin-right: .5em;" class="inline"></a>
+    NSF SAGE Facility has been
+    <a href="https://www.coretrustseal.org/wp-content/uploads/2020/12/Incorporated-Research-Institutions-for-Seismology-IRIS.pdf">
+      certified as a trustworthy data repository</a>
+    by the CoreTrustSeal Standards and Certification Board
+  </div>
+</div>
+
+      
+    
+
+
+    </div>
+
+    
+
+  
+
+<div class="iris-purple blur" style="border-top: 1px solid #b3b3b3; margin: 7rem 0 0 0; padding-bottom: 1rem;">
+  <div class="container" id="footer">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="footer-link-heading">Quick Links</div>
+
+        <ul>
+          <li><a href="https://www.earthscope.org/news/mailing-lists/" title="Mailing Lists">Mailing Lists</a></li>
+          <li><a href="https://www.iris.edu/hq/about_iris/faqs" title="Frequently Asked Questions">Frequently Asked Questions</a></li>
+          <li><a title="Privacy Policy" href="https://www.earthscope.org/privacy-policy/">Privacy Policy</a></li>
+          <li><a title="Terms of Service" href="https://www.earthscope.org/terms-of-service/">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4 hidden-xs">
+        <div class="footer-link-heading">Directorates</div>
+
+        <ul>
+          <li><a href="https://www.iris.edu/hq/programs/is" title="Instrumentation Services">Instrumentation Services</a></li>
+          <li>
+            <a href="https://www.iris.edu/hq/programs/ds" title="Data Services">Data Services</a>
+          </li>
+          <li>
+            <a href="https://www.iris.edu/hq/programs/epo" title="Engagement">Engagement</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-sm-4 hidden-xs">
+        <div style="
+          text-align: center;
+          background: #240063;
+          transform: translateY(-0.8rem);
+          padding: 20px;
+          border-radius: 0 0 12px 12px;
+        ">
+          <h4>Connect</h4>
+          <a href="https://www.iris.edu/hq/contact" title="Locations">Contact us</a><br>
+          <a href="https://www.iris.edu/hq/programs/epo/social_media" title="Social Media">
+            <img src="https://www.iris.edu/hq/images/layout/buttons/solial-bottom.png" alt="Social Media" style="margin-top:20px"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a
+        target="_blank"
+        alt="EarthScope logo"
+        title="EarthScope"
+        href="https://earthscope.org"
+      >
+        <img
+          src="https://www.iris.edu/hq/images/layout/logos/earthscope-logo-white-mobile.svg"
+          alt="EarthScope logo image"
+          height="60"
+          style="margin: 2rem 0;"
+        />
+      </a>
+    </div>
+    <div class="text-center">
+      EarthScope Consortium operates the NSF National Geophysical Facility (NSF NGF).
+      Any opinions, findings and conclusions, or recommendations expressed in this
+      material do not necessarily reflect the views of the U.S. National Science
+      Foundation.
+    </div>
+  </div>
+  <!-- #footer -->
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    var STORAGE_KEY = 'dismissedAlerts';
+    var storedVal = localStorage.getItem(STORAGE_KEY);
+    var dismissedIDS = storedVal? storedVal.split(','): [];
+    $('[name="dismiss-alert"]').on('click', function(e) {
+      var id = $(this).data('id');
+      if(dismissedIDS.indexOf(id) === -1) {
+        dismissedIDS.push(id);
+        if(dismissedIDS.length > 20) {dismissedIDS.shift();}
+        localStorage.setItem(STORAGE_KEY, dismissedIDS.join(','));
+      }
+    });
+    $('.global-notify').each(function(index, el) {
+      if(dismissedIDS.indexOf(el.id) === -1 ) {$(el).slideDown();}
+    });
+  });
+</script>
+
+<script>
+
+  $(function(){
+    var time = null;
+    var $el = $('.blur');
+    $('.nav_menu_drop, .nav_menu_dropdown_container').hover(function(){
+        clearTimeout(time);
+        time = setTimeout(function(){
+          $el.css('filter', 'blur(10px)');
+        },700);
+      }, function(){
+        clearTimeout(time);
+        time = setTimeout(function(){
+          $el.css('filter', 'blur(0)');
+        },300);
+    });
+  });
+  const stickyElm = document.getElementById('mega-meny')
+
+  const observer = new IntersectionObserver(
+    ([e]) => e.target.classList.toggle('isSticky', e.intersectionRatio < 1),
+    {threshold: [1]}
+  );
+  if (stickyElm) {
+    observer.observe(stickyElm);
+  }
+</script>
+
+
+  <div class="cachebuster" title="Click to force a refresh.">
+    <span>21:56:03</span>
+    <span>v.1.2.5</span>
+  </div>
+  <script>
+    /* Cachebuster -- this is a link to the current page with a trailing query parameter, which will cause the cache to be bypassed */
+    $(function() {
+      // Cachebuster goes in the search attribute (eg. the query string)
+      var search = window.location.search;
+      // Only operate if there's no search or it's an existing cachebuster parameter
+      if (!search || search.match(/^\?\d+$/)) {
+        $('.cachebuster').click(function() {
+          window.location.search = '?' + (new Date()).getTime();
+        });
+      } else {
+        $('.cachebuster').empty();
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+  
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css" />
+    <script>
+      if (tippy) {
+        tippy.setDefaultProps({
+          delay: 200,
+          allowHTML: true,
+          interactive: true,
+          theme: 'light',
+        });
+        $(function() {
+          /* Automatically set up popup help blocks like:
+          * <div class="popup-help">
+          *   <span class="glyphicon glyphicon-question-sign"> </span>
+          *   <div>
+          *      Content to show in the popup.
+          *   </div>
+          * </div>
+          * Hovering over the icon shows the content in a popup.
+          */
+          tippy(".popup-help", {
+            content(ref) {
+              var content = $(ref).children('div').detach();
+              return content.html();
+            },
+            appendTo: document.body,
+          });
+        });
+      }
+    </script>
+  
+<script>
+  function enable_popover() {
+    tippy(".popup-help > span, .popup-help > a", {
+      content(ref) { 
+        return $(ref).next().html();
+      },
+      allowHTML: true,
+      trigger: 'mouseenter click',
+      theme: 'light',
+    });
+  }
+  $(document).ready(function() {
+    
+      enable_popover();
+    
+  });
+</script>
+
+
+
+  </body>
+</html>

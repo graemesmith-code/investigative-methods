@@ -53,3 +53,7 @@ One real, fixed-indeterminate cluster was then submitted solely to rank existing
 [Protocol](PROTOCOL.md), [rules](RULES.md), [technical annex / reproduction](TECHNICAL-ANNEX.md), [evidence packets](results/evidence-packets.json), [denominators](results/extended-denominators.json), [boundary figure](results/rule-boundary-review.png), exact source URLs/hashes in `sources/manifest.jsonl`, and complete lossless archive pieces in `sources/multipart/` are in this private repository.
 
 Independent review corrected the UTC/local-year mismatch (old AGS 9,669 → corrected 9,668), removed a geographic prefilter, added raw-row references and join missingness, dated rule references, and narrowed Jev claims. The two candidate event groups are unchanged. Earlier source snapshots and checkpoint commits are preserved. This completed experiment identifies a specific unresolved records question; it establishes **no violation and no basis for an accusation**.
+
+## Public-waveform follow-through
+
+A subsequent [bounded supplement](WAVEFORM-SUPPLEMENT.md) validates public three-component waveforms and instrument responses at nearby RV.REDDA for both event times. No magnitude was recalculated and the indeterminate findings are unchanged. Both 2K and its successor I0 were checked; missing nearby metadata does not establish withheld data. No additional paid calls were made.

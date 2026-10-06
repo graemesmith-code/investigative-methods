@@ -316,5 +316,71 @@
     "sha256": "ed9f349ec293bc649711fd39d861538af3a22ecf36ff4675160efa36d6da6359",
     "verified_path": "sources/nrcan-events.xml",
     "ok": true
+  },
+  {
+    "name": "waveforms/fdsn-I0.html",
+    "sha256": "35f090943a48c3e86b7a46c1b34d5b5ad1a74f299ff5781d255f0bcfc8355cf4",
+    "verified_path": "sources/waveforms/fdsn-I0.html",
+    "ok": true
+  },
+  {
+    "name": "waveforms/mda-2K.html",
+    "sha256": "e6514a5df256ae2c36bbc46514d5c2b405a80d18ce0bf919e4054f620760d26d",
+    "verified_path": "sources/waveforms/mda-2K.html",
+    "ok": true
+  },
+  {
+    "name": "waveforms/station-doc.html",
+    "sha256": "f8af7006e4e4e2f7923b3f0684d47424ab3b4d919aef3f542a7723d865fa5c40",
+    "verified_path": "sources/waveforms/station-doc.html",
+    "ok": true
+  },
+  {
+    "name": "waveforms/dataselect-doc.html",
+    "sha256": "92aa4baa2ac5d617b12d2bf4e969cc3db50619c0959732bb01c0990648a52372",
+    "verified_path": "sources/waveforms/dataselect-doc.html",
+    "ok": true
+  },
+  {
+    "name": "waveforms/RV-channels.txt",
+    "sha256": "b4c835f4d639f561ea37ed137f799c871029063eb38bc94234370ddc309a228a",
+    "verified_path": "sources/waveforms/RV-channels.txt",
+    "ok": true
+  },
+  {
+    "name": "waveforms/2K-all-stations.xml",
+    "sha256": "8781f906c6941aa4e63bd9596ec596599bd8879eaba8579a9818e9970f051f0f",
+    "verified_path": "sources/waveforms/2K-all-stations.xml",
+    "ok": true
+  },
+  {
+    "name": "waveforms/I0-all-stations.xml",
+    "sha256": "8937350f8c3abf428d73f6663e826690ef4044f381138920ac689ee3bcf89565",
+    "verified_path": "sources/waveforms/I0-all-stations.xml",
+    "ok": true
+  },
+  {
+    "name": "waveforms/ca2025dscb-RV-REDDA.mseed",
+    "sha256": "e2865a8d4dc5474b2b77c764856e22e9b1c4267ea66a18312414200302a0874f",
+    "verified_path": "sources/waveforms/ca2025dscb-RV-REDDA.mseed",
+    "ok": true
+  },
+  {
+    "name": "waveforms/ca2025dscb-RV-REDDA-response.xml",
+    "sha256": "7f0dd397fa9ed6712b755748505d6001fafd1355245df4930ec3cda6a8ffd25b",
+    "verified_path": "sources/waveforms/ca2025dscb-RV-REDDA-response.xml",
+    "ok": true
+  },
+  {
+    "name": "waveforms/ca2025dwzq-RV-REDDA.mseed",
+    "sha256": "fc1703468eedd87d2e412976eedc2d5569142ccbafbf3367419ae1dc16a3538c",
+    "verified_path": "sources/waveforms/ca2025dwzq-RV-REDDA.mseed",
+    "ok": true
+  },
+  {
+    "name": "waveforms/ca2025dwzq-RV-REDDA-response.xml",
+    "sha256": "4bdd78477a0c2815b774f24c5429478b7126a00bb1f8f4e14c5841412d8f3409",
+    "verified_path": "sources/waveforms/ca2025dwzq-RV-REDDA-response.xml",
+    "ok": true
   }
 ]
