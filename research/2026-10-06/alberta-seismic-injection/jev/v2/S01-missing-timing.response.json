@@ -1,0 +1,22 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "pumping_after": {
+      "type": "noul",
+      "noul": 0.15
+    },
+    "restart_documented": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "written_consent_documented": {
+      "type": "noul",
+      "noul": 0.13
+    }
+  },
+  "usage": {
+    "input_tokens": 674,
+    "output_tokens": 62
+  },
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"pumping_after\":{\"type\":\"noul\",\"noul\":0.15},\"restart_documented\":{\"type\":\"noul\",\"noul\":0.04},\"written_consent_documented\":{\"type\":\"noul\",\"noul\":0.13}},\"usage\":{\"input_tokens\":674,\"output_tokens\":62}}"
+}

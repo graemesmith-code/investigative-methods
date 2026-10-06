@@ -1,0 +1,362 @@
+[
+  {
+    "id": "S01-missing-timing",
+    "scores_not_calibrated_probabilities": [
+      0.15,
+      0.04,
+      0.13
+    ],
+    "expected": [
+      false,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      false,
+      false,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "no",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S02-lawful-restart",
+    "scores_not_calibrated_probabilities": [
+      0.92,
+      0.85,
+      0.94
+    ],
+    "expected": [
+      true,
+      true,
+      true
+    ],
+    "predicted_at_0_5": [
+      true,
+      true,
+      true
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": true,
+      "atomic_decisions": [
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "restart_permission_review_relevant": true,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S03-continuation",
+    "scores_not_calibrated_probabilities": [
+      0.46,
+      0.03,
+      0.09
+    ],
+    "expected": [
+      true,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": true,
+      "atomic_decisions": [
+        "abstain",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S04-wrong-zone",
+    "scores_not_calibrated_probabilities": [
+      0.69,
+      0.03,
+      0.09
+    ],
+    "expected": [
+      true,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      true,
+      false,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "abstain",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S05-production-only",
+    "scores_not_calibrated_probabilities": [
+      0.14,
+      0.03,
+      0.08
+    ],
+    "expected": [
+      false,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      false,
+      false,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "no",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S06-historic-geology",
+    "scores_not_calibrated_probabilities": [
+      0.51,
+      0.03,
+      0.09
+    ],
+    "expected": [
+      true,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      true,
+      false,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "abstain",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S07-magnitude-disagreement",
+    "scores_not_calibrated_probabilities": [
+      0.07,
+      0.03,
+      0.14
+    ],
+    "expected": [
+      false,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      false,
+      false,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "no",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S08-restart-record-gap",
+    "scores_not_calibrated_probabilities": [
+      0.71,
+      0.78,
+      0.1
+    ],
+    "expected": [
+      true,
+      true,
+      false
+    ],
+    "predicted_at_0_5": [
+      true,
+      true,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": true,
+      "atomic_decisions": [
+        "abstain",
+        "abstain",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S09-immediate-stop",
+    "scores_not_calibrated_probabilities": [
+      0.06,
+      0.03,
+      0.1
+    ],
+    "expected": [
+      false,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      false,
+      false,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": true,
+      "atomic_decisions": [
+        "no",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S10-Mw-only",
+    "scores_not_calibrated_probabilities": [
+      0.34,
+      0.03,
+      0.08
+    ],
+    "expected": [
+      true,
+      false,
+      false
+    ],
+    "predicted_at_0_5": [
+      false,
+      false,
+      false
+    ],
+    "all_correct": false,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "abstain",
+        "no",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S11-just-below-threshold",
+    "scores_not_calibrated_probabilities": [
+      0.63,
+      0.77,
+      0.08
+    ],
+    "expected": [
+      true,
+      true,
+      false
+    ],
+    "predicted_at_0_5": [
+      true,
+      true,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "abstain",
+        "abstain",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  },
+  {
+    "id": "S12-outside-distance",
+    "scores_not_calibrated_probabilities": [
+      0.58,
+      0.77,
+      0.07
+    ],
+    "expected": [
+      true,
+      true,
+      false
+    ],
+    "predicted_at_0_5": [
+      true,
+      true,
+      false
+    ],
+    "all_correct": true,
+    "deterministic_gate": {
+      "rule_trigger_known_for_fixture": false,
+      "atomic_decisions": [
+        "abstain",
+        "abstain",
+        "no"
+      ],
+      "restart_permission_review_relevant": false,
+      "permission_document_gap": false,
+      "compliance_decision": "not produced"
+    }
+  }
+]

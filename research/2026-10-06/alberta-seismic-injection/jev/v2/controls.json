@@ -1,0 +1,278 @@
+[
+  {
+    "id": "S01-missing-timing",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": false
+    },
+    "records": [
+      "[S01a] Job window January 1\u201331; monthly volume 15000 m3 and 200 hours. No stage or pumping-time logs supplied. [S01b] Public search found no permission document."
+    ],
+    "expected_atomic": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S02-lawful-restart",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S02a] Pump log: HF pumping11:50\u201312:00UTC, stopped12:00, restarted15:00\u201315:30UTC. [S02b] Written AER consent issued14:00UTC authorizes this exact well and the15:00 restart."
+    ],
+    "expected_atomic": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "S03-continuation",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S03a] Independently validated stage log: HF pump running11:50\u201312:30UTC without any stop; threshold detection12:00UTC. All facts fictional and assumed for this control, not a real violation."
+    ],
+    "expected_atomic": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S04-wrong-zone",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": false,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S04a] HF pump log11:50\u201312:30UTC continuously. Well outside order area; no other order supplied."
+    ],
+    "expected_atomic": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S05-production-only",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "production",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": false
+    },
+    "records": [
+      "[S05a] Production meter shows oil produced13:00\u201316:00UTC. No HF was performed."
+    ],
+    "expected_atomic": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S06-historic-geology",
+    "facts": {
+      "date": "2024-11-18",
+      "formation": "below Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2024-11-18T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S06a] HF pump log on2024-11-18:11:50\u201312:30UTC continuously, below Duvernay."
+    ],
+    "expected_atomic": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S07-magnitude-disagreement",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "conflicting ML / MLy",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S07a] Two agencies report different local-magnitude estimates straddling threshold; operationally available estimate unknown. [S07b] HF stage logs11:50\u201312:00UTC; stopped at event, no restart."
+    ],
+    "expected_atomic": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S08-restart-record-gap",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S08a] HF pump log11:50\u201312:00UTC then stopped; resumed15:00UTC. [S08b] Actual consent file not supplied; a public search returned no match. Permission may exist."
+    ],
+    "expected_atomic": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "id": "S09-immediate-stop",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S09a] HF pumping11:50\u201312:00UTC; stopped immediately at detection; no further HF on this well."
+    ],
+    "expected_atomic": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S10-Mw-only",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "Mw",
+      "magnitude": 4.0,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S10a] HF pump ran11:50\u201312:30UTC continuously. Only Mw4.0 measured, no local magnitude supplied."
+    ],
+    "expected_atomic": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "S11-just-below-threshold",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 3.99,
+      "distance_km": 2.0,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S11a] HF pump11:50\u201312:00, stopped12:00, resumed15:00UTC. No consent document supplied; sole event ML3.99."
+    ],
+    "expected_atomic": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "id": "S12-outside-distance",
+    "facts": {
+      "date": "2025-01-15",
+      "formation": "Duvernay",
+      "in_area": true,
+      "operation": "HF",
+      "magnitude_type": "ML",
+      "magnitude": 4.0,
+      "distance_km": 5.1,
+      "event_utc": "2025-01-15T12:00:00Z",
+      "detection_confirmed": true,
+      "pumping_at_event_confirmed": true
+    },
+    "records": [
+      "[S12a] HF pump11:50\u201312:00, stopped12:00, resumed15:00UTC. No consent document supplied; well5.1km from event."
+    ],
+    "expected_atomic": [
+      true,
+      true,
+      false
+    ]
+  }
+]

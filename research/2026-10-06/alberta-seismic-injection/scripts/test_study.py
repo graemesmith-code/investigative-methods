@@ -38,7 +38,7 @@ class StudyTests(unittest.TestCase):
  def test_noise_incident_is_not_seismic_edge(self):
   x=json.loads((R/'incident-lookups.json').read_text());row=x['incident-complaints.xls']['exact_incident_or_licence_matches'][0];header=x['incident-complaints.xls']['columns'];self.assertEqual(row[header.index('CICReferenceNumber')],'0438079');self.assertNotEqual(int(row[header.index('CICReferenceNumber')]),438049);self.assertEqual(row[header.index('CauseType')],'Noise-TempOperations')
  def test_jev_cost_and_failed_pilot_gate(self):
-  l=json.loads((P/'jev/ledger.json').read_text());self.assertEqual(len(l['attempts']),2);self.assertEqual(l['accounted_microusd']['jev'],71);self.assertEqual(l['accounted_microusd']['exa'],0);self.assertTrue(all(a['status']=='success' for a in l['attempts']));self.assertTrue(any(not r['all_correct'] for r in json.loads((P/'jev/pilot-evaluation.json').read_text())))
+  l=json.loads((P/'jev/v1-ledger.json').read_text());self.assertEqual(len(l['attempts']),2);self.assertEqual(l['accounted_microusd']['jev'],71);self.assertEqual(l['accounted_microusd']['exa'],0);self.assertTrue(all(a['status']=='success' for a in l['attempts']));self.assertTrue(any(not r['all_correct'] for r in json.loads((P/'jev/pilot-evaluation.json').read_text())))
   for a in l['attempts']:
    usage=json.loads(a['usage']);self.assertEqual(a['accounted'],math.ceil(usage['input_tokens']*.042));self.assertLessEqual(a['accounted'],a['reserve'])
  def test_budget_reservation_before_transport_and_failure_retention(self):
