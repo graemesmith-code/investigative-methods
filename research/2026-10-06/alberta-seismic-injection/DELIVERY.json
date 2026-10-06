@@ -1,0 +1,21 @@
+{
+  "status": "completed bounded public-data experiment; no compliance conclusion",
+  "reviewed_content_commit": "d0fa9f72bc48e4517fb8d980ee1fd8c3742aa111",
+  "remote_main_verified_for_reviewed_content": true,
+  "compact_bundle": {
+    "library_file_id": "libfile_076fd1b361708191bea6f73edd6e1fba",
+    "file_id": "file_00000000ce64820a9454fcccd03e44c3",
+    "filename": "Alberta-seismic-investigation-2026-10-06.zip",
+    "version": 0,
+    "bytes": 35092086,
+    "sha256": "46d825c112b4192e68f213869e562f6a624e0b58f4233fd8e36e2c60d38a7377",
+    "included_files": 146,
+    "create_status": "succeeded",
+    "local_library_identity_applied": true,
+    "complete_corpus_location": "private repository; compact bundle omits large infrastructure and incident archives"
+  },
+  "validation": {"offline_full_reproduction": "passed", "tests": 17, "successful_source_records_hash_verified": 53},
+  "jev": {"calls": 15, "input_tokens": 11858, "conservative_estimated_usd": 0.000507, "invoice_available": false, "pending_or_failed_reservations": 0, "other_paid_calls": 0},
+  "unresolved_evidence": ["stage-level pumping, stop and restart timestamps", "actual stimulated interval and trajectory", "contemporaneous magnitude and detection history", "historical operator", "written AER consent if a qualifying restart occurred", "official derivation of public reporting date-window fields"],
+  "access_limitations": ["Tableau browser certificate warning honored", "Petrinex Well Infrastructure refreshing/404; alternatives acquired", "no purchased records or outreach"]
+}
