@@ -1,0 +1,15 @@
+{"refinement": "Q01", "parent_bucket": "R04", "reason": "Registry/legal-status bucket; original S06 lineage, not identical predicate", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-DISC01", "parent_bucket": "X04", "reason": "Explicit declaration versus governing disqualification", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-H01", "parent_bucket": "R05", "reason": "Trial reporting obligations; original H01 lineage", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "X01", "parent_bucket": "R05", "reason": "Medical-evidence disclosure bucket; original H04 lineage, not outcome switching", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "X10", "parent_bucket": "P05", "reason": "Facility findings and documented corporate connection", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-CONS", "parent_bucket": "X07", "reason": "Approval before covered action", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-D01", "parent_bucket": "R12", "reason": "Infrastructure observation versus operative requirements; original D01 lineage", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-EVID", "parent_bucket": "X11", "reason": "Independence of evidence units", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-MEP", "parent_bucket": "X04", "reason": "Express interest declaration versus actual interest", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-OUT", "parent_bucket": "R14", "reason": "Exact generating unit and output/status", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-REL", "parent_bucket": "V01", "reason": "Portfolio issuer/control rules", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-SEARCH", "parent_bucket": "N05", "reason": "Records claim versus authenticated custody", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-COMP", "parent_bucket": "X02", "reason": "Specific obligation and actual satisfaction; also X07 timing", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-INS", "parent_bucket": "P05", "reason": "Precise risk assertion versus established finding", "sampling_weight": 0, "semantic_equivalence_claim": false}
+{"refinement": "REF-AER", "parent_bucket": "X07", "reason": "Restart permission before action", "sampling_weight": 0, "semantic_equivalence_claim": false}

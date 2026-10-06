@@ -1,0 +1,23 @@
+{
+  "seed": "graeme-cross-family-2026-10-06-v1",
+  "random_algorithm": "Sort remaining49 IDs by SHA256 UTF8(seed + | + ID), take first3",
+  "source_commit": "c29762cac5f31aa5b7886da446f3f6647288ddfb",
+  "primary_formulations": 55,
+  "refinements_zero_extra_weight": 15,
+  "grouping_note": "Attached refinement buckets are operational sampling groups, not claims of exact semantic equivalence. Several original ancestor mechanisms are outside the55 detailed primary cards; original lineage is preserved.",
+  "strong_rule": "Descending new uniform sum; lexical formulation ID ties; greedily take first6 distinct source families",
+  "selected_strong": [
+    "R01",
+    "B02",
+    "Q03",
+    "X03",
+    "X11",
+    "Z01"
+  ],
+  "selected_random": [
+    "N04",
+    "N06",
+    "R04"
+  ],
+  "no_new_record_inspection_before_selection": true
+}

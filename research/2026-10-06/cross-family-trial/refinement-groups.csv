@@ -1,0 +1,16 @@
+refinement,parent_bucket,reason,sampling_weight,semantic_equivalence_claim
+Q01,R04,"Registry/legal-status bucket; original S06 lineage, not identical predicate",0,False
+REF-DISC01,X04,Explicit declaration versus governing disqualification,0,False
+REF-H01,R05,Trial reporting obligations; original H01 lineage,0,False
+X01,R05,"Medical-evidence disclosure bucket; original H04 lineage, not outcome switching",0,False
+X10,P05,Facility findings and documented corporate connection,0,False
+REF-CONS,X07,Approval before covered action,0,False
+REF-D01,R12,Infrastructure observation versus operative requirements; original D01 lineage,0,False
+REF-EVID,X11,Independence of evidence units,0,False
+REF-MEP,X04,Express interest declaration versus actual interest,0,False
+REF-OUT,R14,Exact generating unit and output/status,0,False
+REF-REL,V01,Portfolio issuer/control rules,0,False
+REF-SEARCH,N05,Records claim versus authenticated custody,0,False
+REF-COMP,X02,Specific obligation and actual satisfaction; also X07 timing,0,False
+REF-INS,P05,Precise risk assertion versus established finding,0,False
+REF-AER,X07,Restart permission before action,0,False
