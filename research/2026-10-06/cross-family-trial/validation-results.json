@@ -7,12 +7,12 @@
     "exactly nine frozen outcomes, no substitutions",
     "honest outcomes and49charged attempts",
     "case costs match and at most12each",
-    "logged spans plus60second uncertainty below900",
+    "sensitivity assumption only: logged spans plus60seconds below900",
     "no paid spend or administration counted as retrieval",
     "saved HTTP body hashes and limits",
     "TLS validation preserved and capped bodies unsaved",
     "EPA false join detected",
     "CIA PDF-named response is not PDF"
   ],
-  "limits": "Consistency tests do not certify source truth, selection eligibility or substantive legal conclusions."
+  "limits": "These12checks establish internal consistency, not independent source truth, selection eligibility or substantive legal conclusions. No recorded overrun; exact active time unmeasured. The60second sensitivity assumption is not a verified upper bound or proof of15minute compliance."
 }
