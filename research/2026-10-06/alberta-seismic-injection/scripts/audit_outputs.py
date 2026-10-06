@@ -1,0 +1,18 @@
+"""Offline audit summaries and exact raw-row samples; no service calls."""
+import json,pathlib,gzip,csv,collections,math
+from study_logic import in_period,local_date
+P=pathlib.Path(__file__).resolve().parents[1];R=P/'results'
+def read(p):return json.loads((P/p).read_text())
+def write(p,x):(P/p).write_text(json.dumps(x,indent=2)+'\n')
+p=read('results/evidence-packets.json');wanted={n for packet in p for g in packet['raw_ingredient_rows'] for n in g['line_numbers']}
+samples=[]
+with gzip.open(P/'sources/SummaryChemical-WaterUse.csv.gz','rt',encoding='utf-8-sig') as f:
+ for n,line in enumerate(f,1):
+  if line.startswith('Well_Licence_Number|'):header=line.strip().split('|')
+  if n in wanted:samples.append({'uncompressed_line':n,'row':dict(zip(header,next(csv.reader([line],delimiter='|'))))})
+write('results/candidate-ingredient-rows.json',samples)
+jobs=read('results/jobs-period.json');write('results/reporting-group-audit.json',{'groups':len(jobs),'retained_field_conflict_groups':sum(bool(j['retained_field_conflicts']) for j in jobs),'multiple_stage_values_groups':sum(len(j['stage_values'])>1 for j in jobs),'multiple_water_values_groups':sum(len(j['water_values'])>1 for j in jobs),'candidate_source_rows':len(samples),'window_semantics':'Derivation of summary Start_Date/End_Date not independently verified. Manual027 fracture perfDate is a date; general operation dates are rig/site presence. Neither establishes summary-field lineage or continuous pumping.','line_number_basis':'1-based physical lines of uncompressed source, including any preamble/header.'})
+old=read('sources/pre-audit/earthquakes.json')['features'];new=read('sources/earthquakes.json')['features'];oldids={f['attributes']['object_id'] for f in old};newids={f['attributes']['object_id'] for f in new if in_period(f['attributes']['Datetime_UTC'])}
+write('results/time-boundary-audit.json',{'original_UTC_window_records':len(old),'padded_download_records':len(new),'exact_local_period_records':len(newids),'removed_from_original':[f['attributes'] for f in old if f['attributes']['object_id'] not in newids],'added_to_original':[f['attributes'] for f in new if f['attributes']['object_id'] in newids-oldids],'effective_UTC_interval':'2020-01-01T07:00:00Z <= t < 2026-01-01T07:00:00Z','boundary_fix_changes_candidate_cluster':False})
+e=read('jev/v2/evaluation.json');atoms=[(s,label) for r in e for s,label in zip(r['scores_not_calibrated_probabilities'],r['expected'])];l=read('jev/ledger.json')
+write('jev/final-audit.json',{'calls':len(l['attempts']),'input_tokens':sum(json.loads(a['usage'])['input_tokens'] for a in l['attempts']),'accounted_microusd':l['accounted_microusd'],'raw_list_price_microusd':sum(json.loads(a['usage'])['input_tokens']*.042 for a in l['attempts']),'cost_basis':'Observed response token usage times verified list price; rounded up per call; not an invoice.','pending_or_failed':sum(a['status']!='success' for a in l['attempts']),'atomic_correct_at_point5':sum((s>=.5)==v for s,v in atoms),'atomic_total':len(atoms),'band_decided':sum(s<=.2 or s>=.8 for s,v in atoms),'band_decided_correct':sum((s<=.2 and not v) or (s>=.8 and v) for s,v in atoms),'band_abstentions':sum(.2<s<.8 for s,v in atoms),'fully_decided_fixtures':sum(all(s<=.2 or s>=.8 for s in r['scores_not_calibrated_probabilities']) for r in e),'positive_pumping_abstentions':sum(r['expected'][0] and .2<r['scores_not_calibrated_probabilities'][0]<.8 for r in e),'positive_pumping_total':sum(r['expected'][0] for r in e),'positive_restart_abstentions':sum(r['expected'][1] and .2<r['scores_not_calibrated_probabilities'][1]<.8 for r in e),'positive_restart_total':sum(r['expected'][1] for r in e)})

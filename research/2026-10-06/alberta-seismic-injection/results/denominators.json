@@ -1,4 +1,7 @@
 {
+  "retained_field_conflict_groups": 0,
+  "catalogue_padded_UTC_records": 9679,
+  "catalogue_outside_local_period_excluded": 11,
   "raw_ingredient_rows": 595923,
   "source_footers": [
     "(595923 rows affected)",
@@ -11,8 +14,8 @@
   "period_jobs_invalid_coordinates": 0,
   "scoped_bottomhole_jobs": 2674,
   "scoped_unique_uwis": 1312,
-  "catalogue_events_2020_2025": 9669,
-  "events_missing_ML": 9648,
+  "catalogue_events_2020_2025": 9668,
+  "events_missing_ML": 9647,
   "events_missing_MLy": 1,
   "by_area": {
     "FoxCreek": {
@@ -39,7 +42,7 @@
   "MLy_only_pairs": 7,
   "spatial_nonoverlap_pairs": 0,
   "compliance_testable_packets": 0,
-  "date_min": "2020-01-01 06:22:58",
+  "date_min": "2020-01-01 20:04:08",
   "date_max": "2025-12-31 23:09:25",
   "coverage_caveat": "Not an exposure denominator: bottomhole-only area selection omits surface-only in-area wells; current reported submissions and mutable catalogue are not historical snapshots; ML missingness and unknown monitoring completeness prevent negative conclusions."
 }

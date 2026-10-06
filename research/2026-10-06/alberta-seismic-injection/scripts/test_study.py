@@ -4,6 +4,7 @@ from shapely.geometry import shape,Point
 from pyproj import Geod
 P=pathlib.Path(__file__).resolve().parents[1];R=P/'results'
 sys.path.insert(0,str(P.parents[2]/'code/ati'));import pipeline as budget
+from study_logic import in_period,local_date,rule_version,shutdown_magnitude_screen
 class StudyTests(unittest.TestCase):
  def test_catalogue_count_and_unique_ids(self):
   x=json.loads((P/'sources/earthquakes.json').read_text());n=json.loads((P/'sources/earthquake-count.json').read_text())['count'];self.assertEqual(len(x['features']),n);self.assertFalse(x.get('exceededTransferLimit'));self.assertEqual(len({f['attributes']['object_id'] for f in x['features']}),n)
@@ -16,7 +17,7 @@ class StudyTests(unittest.TestCase):
   self.assertEqual(dt.datetime.fromisoformat('2025-03-09T09:00:00+00:00').astimezone(z).hour,3)
  def test_inclusive_boundary_and_magnitude_separation(self):
   for threshold in [2.5,3.,4.]:
-   self.assertTrue(threshold>=threshold);self.assertFalse(threshold-.01>=threshold)
+   self.assertTrue(shutdown_magnitude_screen('ML',threshold,threshold));self.assertFalse(shutdown_magnitude_screen('ML',threshold-.01,threshold));self.assertFalse(shutdown_magnitude_screen('Mw',threshold+1,threshold));self.assertFalse(shutdown_magnitude_screen('MLy',threshold,threshold));self.assertTrue(shutdown_magnitude_screen('MLy',threshold,threshold,True))
   data=json.loads((R/'all-catalogue-collisions.json').read_text());self.assertTrue(all(r['event']['magnitude_type'] in ['ML','MLy'] for r in data))
   self.assertEqual(json.loads((R/'candidates-ML.json').read_text()),[])
  def test_well_and_event_multiplicity_not_discoveries(self):
@@ -56,4 +57,23 @@ class StudyTests(unittest.TestCase):
    for p in r['parts']:
     b=(P/p['path']).read_bytes();self.assertEqual(hashlib.sha256(b).hexdigest(),p['sha256']);h.update(b);n+=len(b)
    self.assertEqual(h.hexdigest(),r['sha256']);self.assertEqual(n,r['bytes'])
+ def test_exact_local_year_edges(self):
+  self.assertFalse(in_period('2020-01-01T06:59:59Z'));self.assertTrue(in_period('2020-01-01T07:00:00Z'));self.assertTrue(in_period('2026-01-01T06:59:59Z'));self.assertFalse(in_period('2026-01-01T07:00:00Z'))
+  x=json.loads((R/'denominators.json').read_text());self.assertEqual(x['catalogue_events_2020_2025'],9668);self.assertEqual(x['events_missing_ML'],9647)
+ def test_effective_rule_and_real_unknowns(self):
+  self.assertEqual(rule_version('FoxCreek','2024-11-18'),'SO2');self.assertEqual(rule_version('FoxCreek','2024-11-19'),'SO2A')
+  for p in json.loads((R/'evidence-packets.json').read_text()):
+   self.assertEqual(p['rule_version'],'SO7');self.assertIsNone(p['formal_geological_applicability']);self.assertFalse(p['historical_operator_resolved'])
+   self.assertTrue(all(r['pumping_at_event'] is None for r in p['records']))
+ def test_raw_row_lineage_and_conflicts(self):
+  rows=json.loads((R/'candidate-ingredient-rows.json').read_text());self.assertEqual(len(rows),57);self.assertEqual(len({r['uncompressed_line'] for r in rows}),57)
+  a=json.loads((R/'reporting-group-audit.json').read_text());self.assertEqual(a['retained_field_conflict_groups'],0);self.assertGreater(a['multiple_stage_values_groups'],0)
+ def test_final_jev_cost_and_abstention(self):
+  a=json.loads((P/'jev/final-audit.json').read_text());self.assertEqual(a['calls'],15);self.assertEqual(a['accounted_microusd']['jev'],507);self.assertEqual(a['pending_or_failed'],0);self.assertEqual(a['band_abstentions'],10);self.assertEqual(a['positive_pumping_abstentions'],7)
+  l=json.loads((P/'jev/ledger.json').read_text())
+  for row in l['attempts']:self.assertEqual(row['accounted'],math.ceil(json.loads(row['usage'])['input_tokens']*.042));self.assertLessEqual(row['accounted'],row['reserve'])
+  gap=json.loads((P/'jev/gap-only/guarded-result.json').read_text());self.assertEqual(gap['classification'],'indeterminate');self.assertTrue(gap['no_compliance_decision'])
+ def test_jev_preserved_input_hashes(self):
+  state=json.loads((P/'jev/gap-only/cluster.request.json').read_text())['state'];snap={r['original_path']:r['snapshot_path'] for r in json.loads((P/'jev/gap-only/input-snapshots/index.json').read_text())}
+  for r in state['sources']:self.assertEqual(hashlib.sha256((P/snap.get(r['id'],r['id'])).read_bytes()).hexdigest(),r['sha256'])
 if __name__=='__main__':unittest.main(verbosity=2)

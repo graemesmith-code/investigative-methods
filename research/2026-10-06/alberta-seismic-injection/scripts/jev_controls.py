@@ -1,3 +1,5 @@
+import sys
+if '--live' in sys.argv:raise SystemExit('Archived v1 pilot: live replay disabled; preserve cumulative ledger and original evidence')
 """New authorized budget; labelled synthetic controls only. No calls on real allegations."""
 import sys,pathlib,json,os,urllib.request,sqlite3,hashlib,datetime,math
 ROOT=pathlib.Path(__file__).resolve().parents[1]; REPO=ROOT.parents[2]

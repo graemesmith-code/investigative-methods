@@ -1,0 +1,9 @@
+{
+  "groups": 16391,
+  "retained_field_conflict_groups": 0,
+  "multiple_stage_values_groups": 4573,
+  "multiple_water_values_groups": 9279,
+  "candidate_source_rows": 57,
+  "window_semantics": "Derivation of summary Start_Date/End_Date not independently verified. Manual027 fracture perfDate is a date; general operation dates are rig/site presence. Neither establishes summary-field lineage or continuous pumping.",
+  "line_number_basis": "1-based physical lines of uncompressed source, including any preamble/header."
+}

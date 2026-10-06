@@ -18,7 +18,7 @@ fac={r['ReportingFacilityID'] for r in found};hist=[];nh=0
 for r in readzip('petrinex-operator-history.zip'):
  nh+=1
  if r['FacilityID'] in fac:hist.append(r)
-write('monthly-target-identity.json',{'period':'2025-02','purpose':'post-discovery identity corroboration only; NOT pumping timing','uwi_mapping':ids,'rows_scanned':n,'matched_rows':found,'operator_history_rows_scanned':nh,'facility_operator_history':hist,'caveat':'FromToID match identifies a well event, but facility operator is not automatically HF service provider or historic licensee; monthly load injection and production cannot prove stage timing.'})
+write('monthly-target-identity.json',{'period':'2025-02','purpose':'post-discovery identity corroboration only; NOT pumping timing','uwi_mapping':ids,'rows_scanned':n,'matched_rows':found,'operator_history_rows_scanned':nh,'linked_facilities_examined':len(fac),'historical_operator_resolved':False,'facility_operator_history':hist,'caveat':'FromToID match identifies a well event, but facility operator is not automatically HF service provider or historic licensee; monthly load injection and production cannot prove stage timing.'})
 # Candidate cross-catalogue matches using predeclared +/-10 sec AND <=10km, retain all matches.
 g=Geod(ellps='GRS80');ags=[f['attributes'] for f in json.loads((S/'earthquakes.json').read_text())['features']];out=[]
 for eid,e in {p['event']['id']:p['event'] for p in packets if p['event']['catalogue']=='NRCan'}.items():

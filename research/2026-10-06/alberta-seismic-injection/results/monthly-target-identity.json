@@ -9,6 +9,8 @@
   "rows_scanned": 556249,
   "matched_rows": [],
   "operator_history_rows_scanned": 375902,
+  "linked_facilities_examined": 0,
+  "historical_operator_resolved": false,
   "facility_operator_history": [],
   "caveat": "FromToID match identifies a well event, but facility operator is not automatically HF service provider or historic licensee; monthly load injection and production cannot prove stage timing."
 }

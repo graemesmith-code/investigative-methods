@@ -1,0 +1,12 @@
+[
+  {
+    "original_path": "sources/earthquakes.json",
+    "snapshot_path": "jev/gap-only/input-snapshots/earthquakes.json",
+    "sha256": "72819a5d6bf2018f76f5c5852f1597b82b194f620538bbee58ed213362c04dcd"
+  },
+  {
+    "original_path": "results/evidence-packets.json",
+    "snapshot_path": "jev/gap-only/input-snapshots/evidence-packets.json",
+    "sha256": "84cf2632714a4ba15331a6f8edce523d97df2f1d57b2e658b0705789f4e687f9"
+  }
+]

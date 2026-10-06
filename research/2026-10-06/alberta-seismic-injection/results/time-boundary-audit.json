@@ -1,0 +1,27 @@
+{
+  "original_UTC_window_records": 9669,
+  "padded_download_records": 9679,
+  "exact_local_period_records": 9668,
+  "removed_from_original": [
+    {
+      "object_id": 9284240,
+      "Datetime_UTC": "2020-01-01 06:22:58",
+      "Datetime_MT": "2019-12-31 23:22:58",
+      "Latitude": 54.5212,
+      "Longitude": -118.493,
+      "Depth_km": 4,
+      "Depth_type": "f",
+      "Earthquake_type": "KI",
+      "MLy": 1.87,
+      "ML": null,
+      "M": null,
+      "Mw": null,
+      "EDGE_Id": null,
+      "Location": "8 km SE of Musreau Lake AB",
+      "Algorithm": "HYPODD"
+    }
+  ],
+  "added_to_original": [],
+  "effective_UTC_interval": "2020-01-01T07:00:00Z <= t < 2026-01-01T07:00:00Z",
+  "boundary_fix_changes_candidate_cluster": false
+}

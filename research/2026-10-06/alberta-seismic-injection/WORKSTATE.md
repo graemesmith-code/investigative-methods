@@ -1,3 +1,7 @@
+# ARCHIVED WORK LOG — FINAL REPORT IS README.md
+
+This file retains chronological checkpoints, including superseded counts and incomplete-stage statements. Use README.md, TECHNICAL-ANNEX.md and final-audit.json for final claims.
+
 # Resumed checkpoint
 
 The corpus and original analysis were pushed to private main at 36045a11a42e3bd463064602252fc151dda60c9f. The Jev repair was committed separately as 56115b1; the final response records the latest verified remote commit.

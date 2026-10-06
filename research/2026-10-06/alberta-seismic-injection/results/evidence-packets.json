@@ -3,6 +3,40 @@
     "packet_id": "AGS-9289976-0516328",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "367351b81dd0c9fd",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558747,
+          558748,
+          558749,
+          558750,
+          558751,
+          558752,
+          558753,
+          558754,
+          558755,
+          558756,
+          558757,
+          558758,
+          558759,
+          558760,
+          558761
+        ]
+      },
+      {
+        "reporting_group_id": "554815fc6f299ce9",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558762,
+          558763
+        ]
+      }
+    ],
     "event": {
       "catalogue": "AGS",
       "id": "9289976",
@@ -66,6 +100,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -106,6 +144,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -193,6 +235,47 @@
     "packet_id": "AGS-9289976-0516327",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "9111012cf3507a23",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558726,
+          558727,
+          558728,
+          558729,
+          558730,
+          558731,
+          558732,
+          558733,
+          558734,
+          558736,
+          558737,
+          558738,
+          558739,
+          558740,
+          558741
+        ]
+      },
+      {
+        "reporting_group_id": "8b378926f83728df",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558742
+        ]
+      },
+      {
+        "reporting_group_id": "01397563ec91bcf9",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558743,
+          558744
+        ]
+      }
+    ],
     "event": {
       "catalogue": "AGS",
       "id": "9289976",
@@ -256,6 +339,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -296,6 +383,10 @@
         "start": "2025-02-15",
         "end": "2025-02-27",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -336,6 +427,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -423,6 +518,41 @@
     "packet_id": "AGS-9289976-0515889",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "a806730fbb29a03e",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557332,
+          557333,
+          557334,
+          557335,
+          557336,
+          557337,
+          557338,
+          557339,
+          557340,
+          557341,
+          557342,
+          557343,
+          557344,
+          557345,
+          557346,
+          557347
+        ]
+      },
+      {
+        "reporting_group_id": "951d62371ebaa59b",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557348,
+          557349
+        ]
+      }
+    ],
     "event": {
       "catalogue": "AGS",
       "id": "9289976",
@@ -486,6 +616,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -526,6 +660,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -613,6 +751,40 @@
     "packet_id": "NRCan-ca2025dscb-0516328",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "367351b81dd0c9fd",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558747,
+          558748,
+          558749,
+          558750,
+          558751,
+          558752,
+          558753,
+          558754,
+          558755,
+          558756,
+          558757,
+          558758,
+          558759,
+          558760,
+          558761
+        ]
+      },
+      {
+        "reporting_group_id": "554815fc6f299ce9",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558762,
+          558763
+        ]
+      }
+    ],
     "event": {
       "catalogue": "NRCan",
       "id": "ca2025dscb",
@@ -662,6 +834,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -695,6 +871,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -782,6 +962,55 @@
     "packet_id": "NRCan-ca2025dscb-0516327",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "9111012cf3507a23",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558726,
+          558727,
+          558728,
+          558729,
+          558730,
+          558731,
+          558732,
+          558733,
+          558734,
+          558736,
+          558737,
+          558738,
+          558739,
+          558740,
+          558741
+        ]
+      },
+      {
+        "reporting_group_id": "8b378926f83728df",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558742
+        ]
+      },
+      {
+        "reporting_group_id": "01397563ec91bcf9",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558743,
+          558744
+        ]
+      },
+      {
+        "reporting_group_id": "4cfa6bd0f2f17867",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558745,
+          558746
+        ]
+      }
+    ],
     "event": {
       "catalogue": "NRCan",
       "id": "ca2025dscb",
@@ -831,6 +1060,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -864,6 +1097,10 @@
         "start": "2025-02-15",
         "end": "2025-02-27",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -897,6 +1134,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -930,6 +1171,10 @@
         "start": "2025-02-18",
         "end": "2025-02-22",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1017,6 +1262,49 @@
     "packet_id": "NRCan-ca2025dscb-0515889",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "a806730fbb29a03e",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557332,
+          557333,
+          557334,
+          557335,
+          557336,
+          557337,
+          557338,
+          557339,
+          557340,
+          557341,
+          557342,
+          557343,
+          557344,
+          557345,
+          557346,
+          557347
+        ]
+      },
+      {
+        "reporting_group_id": "951d62371ebaa59b",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557348,
+          557349
+        ]
+      },
+      {
+        "reporting_group_id": "0a1bd95056c481f2",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557350,
+          557351
+        ]
+      }
+    ],
     "event": {
       "catalogue": "NRCan",
       "id": "ca2025dscb",
@@ -1066,6 +1354,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1099,6 +1391,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1132,6 +1428,10 @@
         "start": "2025-02-18",
         "end": "2025-02-22",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1219,6 +1519,40 @@
     "packet_id": "NRCan-ca2025dwzq-0516328",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "367351b81dd0c9fd",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558747,
+          558748,
+          558749,
+          558750,
+          558751,
+          558752,
+          558753,
+          558754,
+          558755,
+          558756,
+          558757,
+          558758,
+          558759,
+          558760,
+          558761
+        ]
+      },
+      {
+        "reporting_group_id": "554815fc6f299ce9",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558762,
+          558763
+        ]
+      }
+    ],
     "event": {
       "catalogue": "NRCan",
       "id": "ca2025dwzq",
@@ -1268,6 +1602,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1301,6 +1639,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1388,6 +1730,47 @@
     "packet_id": "NRCan-ca2025dwzq-0516327",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "9111012cf3507a23",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558726,
+          558727,
+          558728,
+          558729,
+          558730,
+          558731,
+          558732,
+          558733,
+          558734,
+          558736,
+          558737,
+          558738,
+          558739,
+          558740,
+          558741
+        ]
+      },
+      {
+        "reporting_group_id": "8b378926f83728df",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558742
+        ]
+      },
+      {
+        "reporting_group_id": "01397563ec91bcf9",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          558743,
+          558744
+        ]
+      }
+    ],
     "event": {
       "catalogue": "NRCan",
       "id": "ca2025dwzq",
@@ -1437,6 +1820,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1470,6 +1857,10 @@
         "start": "2025-02-15",
         "end": "2025-02-27",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1503,6 +1894,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1590,6 +1985,41 @@
     "packet_id": "NRCan-ca2025dwzq-0515889",
     "classification": "indeterminate",
     "not_a_violation_finding": true,
+    "rule_version": "SO7",
+    "formal_geological_applicability": null,
+    "historical_operator_resolved": false,
+    "raw_ingredient_rows": [
+      {
+        "reporting_group_id": "a806730fbb29a03e",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557332,
+          557333,
+          557334,
+          557335,
+          557336,
+          557337,
+          557338,
+          557339,
+          557340,
+          557341,
+          557342,
+          557343,
+          557344,
+          557345,
+          557346,
+          557347
+        ]
+      },
+      {
+        "reporting_group_id": "951d62371ebaa59b",
+        "source": "sources/SummaryChemical-WaterUse.csv.gz",
+        "line_numbers": [
+          557348,
+          557349
+        ]
+      }
+    ],
     "event": {
       "catalogue": "NRCan",
       "id": "ca2025dwzq",
@@ -1639,6 +2069,10 @@
         "start": "2025-02-15",
         "end": "2025-02-28",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"
@@ -1672,6 +2106,10 @@
         "start": "2025-02-15",
         "end": "2025-02-24",
         "overlap": true,
+        "rule_version": "SO7",
+        "formal_geological_applicability": null,
+        "pumping_at_event": null,
+        "reporting_window_overlap_only": true,
         "current_projected_formation": "DUVERNAY FM",
         "current_terminating_formation": "DUVERNAY FM",
         "classification": "indeterminate"

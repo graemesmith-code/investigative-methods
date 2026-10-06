@@ -16,3 +16,6 @@ for fn in ['ST37_SH.xlsx','ST37_BH.xlsx','ST37_ Production_Strings.xlsx']:
   print(s.title,n,len(out),flush=True)
  w.close()
 (R/'results/st37-extraction.json').write_text(json.dumps(meta,indent=2)+'\n')
+
+import shutil
+shutil.rmtree(tmp)

@@ -18,7 +18,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "no",
         "no",
@@ -48,7 +50,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": true,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "yes",
         "yes",
@@ -78,7 +82,9 @@
     ],
     "all_correct": false,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": true,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "no",
@@ -108,7 +114,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "no",
@@ -138,7 +146,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "no",
         "no",
@@ -168,7 +178,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "no",
@@ -198,7 +210,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "no",
         "no",
@@ -228,7 +242,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": true,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "abstain",
@@ -258,7 +274,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": true,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "no",
         "no",
@@ -288,7 +306,9 @@
     ],
     "all_correct": false,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "no",
@@ -318,7 +338,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "abstain",
@@ -348,7 +370,9 @@
     ],
     "all_correct": true,
     "deterministic_gate": {
+      "scope": "labelled synthetic fixtures only; never real applicability",
       "rule_trigger_known_for_fixture": false,
+      "false_trigger_meaning": "not established under fixture assumptions; not proof of irrelevance",
       "atomic_decisions": [
         "abstain",
         "abstain",

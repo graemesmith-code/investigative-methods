@@ -1,0 +1,78 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "contemporaneous_magnitude": {
+      "type": "score",
+      "score": 1.78,
+      "confidence": 0.24,
+      "legend": {
+        "0": "Low: would not resolve a material uncertainty in this packet",
+        "1": "Useful background, but not decisive for this bounded question",
+        "2": "Material: narrows one identified uncertainty",
+        "3": "Essential: needed to test the event/operation/response comparison"
+      },
+      "probabilities": {
+        "0": 0.12,
+        "1": 0.25,
+        "2": 0.36,
+        "3": 0.27
+      }
+    },
+    "historical_identity": {
+      "type": "score",
+      "score": 1.67,
+      "confidence": 0.28,
+      "legend": {
+        "0": "Low: would not resolve a material uncertainty in this packet",
+        "1": "Useful background, but not decisive for this bounded question",
+        "2": "Material: narrows one identified uncertainty",
+        "3": "Essential: needed to test the event/operation/response comparison"
+      },
+      "probabilities": {
+        "0": 0.14,
+        "1": 0.24,
+        "2": 0.42,
+        "3": 0.2
+      }
+    },
+    "time_resolved_operations": {
+      "type": "score",
+      "score": 2.94,
+      "confidence": 0.94,
+      "legend": {
+        "0": "Low: would not resolve a material uncertainty in this packet",
+        "1": "Useful background, but not decisive for this bounded question",
+        "2": "Material: narrows one identified uncertainty",
+        "3": "Essential: needed to test the event/operation/response comparison"
+      },
+      "probabilities": {
+        "0": 0.01,
+        "1": 0.0,
+        "2": 0.01,
+        "3": 0.98
+      }
+    },
+    "window_schema": {
+      "type": "score",
+      "score": 2.33,
+      "confidence": 0.33,
+      "legend": {
+        "0": "Low: would not resolve a material uncertainty in this packet",
+        "1": "Useful background, but not decisive for this bounded question",
+        "2": "Material: narrows one identified uncertainty",
+        "3": "Essential: needed to test the event/operation/response comparison"
+      },
+      "probabilities": {
+        "0": 0.11,
+        "1": 0.05,
+        "2": 0.26,
+        "3": 0.58
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 2177,
+    "output_tokens": 71
+  },
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"contemporaneous_magnitude\":{\"type\":\"score\",\"score\":1.78,\"confidence\":0.24,\"legend\":{\"0\":\"Low: would not resolve a material uncertainty in this packet\",\"1\":\"Useful background, but not decisive for this bounded question\",\"2\":\"Material: narrows one identified uncertainty\",\"3\":\"Essential: needed to test the event/operation/response comparison\"},\"probabilities\":{\"0\":0.12,\"1\":0.25,\"2\":0.36,\"3\":0.27}},\"historical_identity\":{\"type\":\"score\",\"score\":1.67,\"confidence\":0.28,\"legend\":{\"0\":\"Low: would not resolve a material uncertainty in this packet\",\"1\":\"Useful background, but not decisive for this bounded question\",\"2\":\"Material: narrows one identified uncertainty\",\"3\":\"Essential: needed to test the event/operation/response comparison\"},\"probabilities\":{\"0\":0.14,\"1\":0.24,\"2\":0.42,\"3\":0.2}},\"time_resolved_operations\":{\"type\":\"score\",\"score\":2.94,\"confidence\":0.94,\"legend\":{\"0\":\"Low: would not resolve a material uncertainty in this packet\",\"1\":\"Useful background, but not decisive for this bounded question\",\"2\":\"Material: narrows one identified uncertainty\",\"3\":\"Essential: needed to test the event/operation/response comparison\"},\"probabilities\":{\"0\":0.01,\"1\":0.0,\"2\":0.01,\"3\":0.98}},\"window_schema\":{\"type\":\"score\",\"score\":2.33,\"confidence\":0.33,\"legend\":{\"0\":\"Low: would not resolve a material uncertainty in this packet\",\"1\":\"Useful background, but not decisive for this bounded question\",\"2\":\"Material: narrows one identified uncertainty\",\"3\":\"Essential: needed to test the event/operation/response comparison\"},\"probabilities\":{\"0\":0.11,\"1\":0.05,\"2\":0.26,\"3\":0.58}}},\"usage\":{\"input_tokens\":2177,\"output_tokens\":71}}"
+}

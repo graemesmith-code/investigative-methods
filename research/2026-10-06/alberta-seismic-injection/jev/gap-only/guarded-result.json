@@ -1,0 +1,11 @@
+{
+  "classification": "indeterminate",
+  "no_compliance_decision": true,
+  "interpretation": "Editorial gap-importance scores only. These do not establish facts or calibrate reporting success.",
+  "scores": {
+    "contemporaneous_magnitude": 1.78,
+    "historical_identity": 1.67,
+    "time_resolved_operations": 2.94,
+    "window_schema": 2.33
+  }
+}

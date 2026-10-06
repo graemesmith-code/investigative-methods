@@ -1,0 +1,21 @@
+{
+  "calls": 15,
+  "input_tokens": 11858,
+  "accounted_microusd": {
+    "jev": 507,
+    "exa": 0
+  },
+  "raw_list_price_microusd": 498.03600000000006,
+  "cost_basis": "Observed response token usage times verified list price; rounded up per call; not an invoice.",
+  "pending_or_failed": 0,
+  "atomic_correct_at_point5": 34,
+  "atomic_total": 36,
+  "band_decided": 26,
+  "band_decided_correct": 26,
+  "band_abstentions": 10,
+  "fully_decided_fixtures": 5,
+  "positive_pumping_abstentions": 7,
+  "positive_pumping_total": 8,
+  "positive_restart_abstentions": 3,
+  "positive_restart_total": 4
+}
