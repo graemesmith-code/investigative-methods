@@ -1,0 +1,92 @@
+[
+  {
+    "NRCan": {
+      "catalogue": "NRCan",
+      "id": "ca2025dscb",
+      "time": "2025-02-22T14:05:18.000Z",
+      "lat": 52.2112,
+      "lon": -113.9551,
+      "magnitude": 3.1,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dscb",
+        "Time": "2025-02-22T14:05:18.000Z",
+        "Latitude": "52.2112",
+        "Longitude": "-113.9551",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.1",
+        "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+      }
+    },
+    "candidate_matches": [
+      {
+        "AGS": {
+          "object_id": 9289785,
+          "Datetime_UTC": "2025-02-22 14:05:17",
+          "Datetime_MT": "2025-02-22 07:05:17",
+          "Latitude": 52.221,
+          "Longitude": -113.9673,
+          "Depth_km": 3,
+          "Depth_type": "f",
+          "Earthquake_type": "KI",
+          "MLy": 2.09,
+          "ML": null,
+          "M": 2.49,
+          "Mw": null,
+          "EDGE_Id": 437946,
+          "Location": "3 km W of Mintlaw AB",
+          "Algorithm": "GENLOC"
+        },
+        "seconds_difference": 1.0,
+        "horizontal_km_difference": 1.3727265410688003
+      }
+    ],
+    "unique_within_tolerance": true
+  },
+  {
+    "NRCan": {
+      "catalogue": "NRCan",
+      "id": "ca2025dwzq",
+      "time": "2025-02-25T06:32:36.000Z",
+      "lat": 52.2187,
+      "lon": -113.9586,
+      "magnitude": 3.76,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dwzq",
+        "Time": "2025-02-25T06:32:36.000Z",
+        "Latitude": "52.2187",
+        "Longitude": "-113.9586",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.76",
+        "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+      }
+    },
+    "candidate_matches": [
+      {
+        "AGS": {
+          "object_id": 9289976,
+          "Datetime_UTC": "2025-02-25 06:32:35",
+          "Datetime_MT": "2025-02-24 23:32:35",
+          "Latitude": 52.2195,
+          "Longitude": -113.9607,
+          "Depth_km": 3,
+          "Depth_type": "f",
+          "Earthquake_type": "KI",
+          "MLy": 3.12,
+          "ML": null,
+          "M": 3.25,
+          "Mw": null,
+          "EDGE_Id": 438049,
+          "Location": "2 km W of Mintlaw AB",
+          "Algorithm": "GENLOC"
+        },
+        "seconds_difference": 1.0,
+        "horizontal_km_difference": 0.16888359983271414
+      }
+    ],
+    "unique_within_tolerance": true
+  }
+]

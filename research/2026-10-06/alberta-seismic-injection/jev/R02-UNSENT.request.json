@@ -1,0 +1,264 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "packet_type": "real_indeterminate_evidence_gap_NOT_discovery",
+    "sources": [
+      "sources/SO7.pdf",
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/earthquakes.json",
+      "results/sensitivity-MLy-only.json"
+    ],
+    "records": [
+      {
+        "area": "RedDeer",
+        "threshold_ML": 3.0,
+        "event": {
+          "object_id": 9289976,
+          "Datetime_UTC": "2025-02-25 06:32:35",
+          "Datetime_MT": "2025-02-24 23:32:35",
+          "Latitude": 52.2195,
+          "Longitude": -113.9607,
+          "Depth_km": 3,
+          "Depth_type": "f",
+          "Earthquake_type": "KI",
+          "MLy": 3.12,
+          "ML": null,
+          "M": 3.25,
+          "Mw": null,
+          "EDGE_Id": 438049,
+          "Location": "2 km W of Mintlaw AB",
+          "Algorithm": "GENLOC",
+          "local_date": "2025-02-24"
+        },
+        "job": {
+          "Well_Licence_Number": "0516327",
+          "Last_Submission_Date": "2025-04-03 15:41:52.657",
+          "Licensee": "Parallax Energy Operating Inc.",
+          "field_centre": "Red Deer",
+          "UWI": "00/07-33-037-28W4/0",
+          "Well_Name": "PARALLAX HZ CYGNET 7-33-37-28",
+          "Bottom_Hole_Latitude": "52.222004",
+          "Bottom_Hole_Longitude": "-113.940919",
+          "Production_Fluid_Type": "CRUDE OIL",
+          "Max_True_Vertical_Depth": "2602.34",
+          "Start_Date": "2025-02-15 00:00:00.000",
+          "End_Date": "2025-02-28 00:00:00.000",
+          "ingredient_rows": 15,
+          "water_values": [
+            "0.000",
+            "55608.000"
+          ],
+          "stage_values": [
+            "44",
+            "45",
+            "46"
+          ],
+          "job_id": "9111012cf3507a23",
+          "start": "2025-02-15",
+          "end": "2025-02-28",
+          "lat": 52.222004,
+          "lon": -113.940919,
+          "valid_window": true,
+          "in_period": true,
+          "valid_coord": true,
+          "areas": [
+            "RedDeer"
+          ],
+          "subareas": [
+            "7.2"
+          ]
+        },
+        "distance_bottomhole_km": 1.380242,
+        "screen_distance_within_5km": true,
+        "date_window_overlap": true,
+        "rule_version": "SO7",
+        "classification": "indeterminate",
+        "missing_evidence": [
+          "formation and actual stimulated interval",
+          "surface and stage/trajectory distance variants",
+          "actual pumping intervals and stop time",
+          "magnitude available to licensee and detection time",
+          "restart consent and approved modified plan, if resumed",
+          "historic operator identity verification",
+          "quantified event location uncertainty"
+        ],
+        "not_established": [
+          "continuous pumping within reported job window",
+          "pumping after threshold earthquake",
+          "causation",
+          "noncompliance"
+        ],
+        "packet_id": "RedDeer-9289976-9111012cf3507a23"
+      },
+      {
+        "area": "RedDeer",
+        "threshold_ML": 3.0,
+        "event": {
+          "object_id": 9289976,
+          "Datetime_UTC": "2025-02-25 06:32:35",
+          "Datetime_MT": "2025-02-24 23:32:35",
+          "Latitude": 52.2195,
+          "Longitude": -113.9607,
+          "Depth_km": 3,
+          "Depth_type": "f",
+          "Earthquake_type": "KI",
+          "MLy": 3.12,
+          "ML": null,
+          "M": 3.25,
+          "Mw": null,
+          "EDGE_Id": 438049,
+          "Location": "2 km W of Mintlaw AB",
+          "Algorithm": "GENLOC",
+          "local_date": "2025-02-24"
+        },
+        "job": {
+          "Well_Licence_Number": "0516327",
+          "Last_Submission_Date": "2025-04-03 15:41:52.657",
+          "Licensee": "Parallax Energy Operating Inc.",
+          "field_centre": "Red Deer",
+          "UWI": "00/07-33-037-28W4/0",
+          "Well_Name": "PARALLAX HZ CYGNET 7-33-37-28",
+          "Bottom_Hole_Latitude": "52.222004",
+          "Bottom_Hole_Longitude": "-113.940919",
+          "Production_Fluid_Type": "CRUDE OIL",
+          "Max_True_Vertical_Depth": "2602.34",
+          "Start_Date": "2025-02-15 00:00:00.000",
+          "End_Date": "2025-02-27 00:00:00.000",
+          "ingredient_rows": 1,
+          "water_values": [
+            "0.000"
+          ],
+          "stage_values": [
+            "2"
+          ],
+          "job_id": "8b378926f83728df",
+          "start": "2025-02-15",
+          "end": "2025-02-27",
+          "lat": 52.222004,
+          "lon": -113.940919,
+          "valid_window": true,
+          "in_period": true,
+          "valid_coord": true,
+          "areas": [
+            "RedDeer"
+          ],
+          "subareas": [
+            "7.2"
+          ]
+        },
+        "distance_bottomhole_km": 1.380242,
+        "screen_distance_within_5km": true,
+        "date_window_overlap": true,
+        "rule_version": "SO7",
+        "classification": "indeterminate",
+        "missing_evidence": [
+          "formation and actual stimulated interval",
+          "surface and stage/trajectory distance variants",
+          "actual pumping intervals and stop time",
+          "magnitude available to licensee and detection time",
+          "restart consent and approved modified plan, if resumed",
+          "historic operator identity verification",
+          "quantified event location uncertainty"
+        ],
+        "not_established": [
+          "continuous pumping within reported job window",
+          "pumping after threshold earthquake",
+          "causation",
+          "noncompliance"
+        ],
+        "packet_id": "RedDeer-9289976-8b378926f83728df"
+      },
+      {
+        "area": "RedDeer",
+        "threshold_ML": 3.0,
+        "event": {
+          "object_id": 9289976,
+          "Datetime_UTC": "2025-02-25 06:32:35",
+          "Datetime_MT": "2025-02-24 23:32:35",
+          "Latitude": 52.2195,
+          "Longitude": -113.9607,
+          "Depth_km": 3,
+          "Depth_type": "f",
+          "Earthquake_type": "KI",
+          "MLy": 3.12,
+          "ML": null,
+          "M": 3.25,
+          "Mw": null,
+          "EDGE_Id": 438049,
+          "Location": "2 km W of Mintlaw AB",
+          "Algorithm": "GENLOC",
+          "local_date": "2025-02-24"
+        },
+        "job": {
+          "Well_Licence_Number": "0516327",
+          "Last_Submission_Date": "2025-04-03 15:41:52.657",
+          "Licensee": "Parallax Energy Operating Inc.",
+          "field_centre": "Red Deer",
+          "UWI": "00/07-33-037-28W4/0",
+          "Well_Name": "PARALLAX HZ CYGNET 7-33-37-28",
+          "Bottom_Hole_Latitude": "52.222004",
+          "Bottom_Hole_Longitude": "-113.940919",
+          "Production_Fluid_Type": "CRUDE OIL",
+          "Max_True_Vertical_Depth": "2602.34",
+          "Start_Date": "2025-02-15 00:00:00.000",
+          "End_Date": "2025-02-24 00:00:00.000",
+          "ingredient_rows": 2,
+          "water_values": [
+            "0.000"
+          ],
+          "stage_values": [
+            "32"
+          ],
+          "job_id": "01397563ec91bcf9",
+          "start": "2025-02-15",
+          "end": "2025-02-24",
+          "lat": 52.222004,
+          "lon": -113.940919,
+          "valid_window": true,
+          "in_period": true,
+          "valid_coord": true,
+          "areas": [
+            "RedDeer"
+          ],
+          "subareas": [
+            "7.2"
+          ]
+        },
+        "distance_bottomhole_km": 1.380242,
+        "screen_distance_within_5km": true,
+        "date_window_overlap": true,
+        "rule_version": "SO7",
+        "classification": "indeterminate",
+        "missing_evidence": [
+          "formation and actual stimulated interval",
+          "surface and stage/trajectory distance variants",
+          "actual pumping intervals and stop time",
+          "magnitude available to licensee and detection time",
+          "restart consent and approved modified plan, if resumed",
+          "historic operator identity verification",
+          "quantified event location uncertainty"
+        ],
+        "not_established": [
+          "continuous pumping within reported job window",
+          "pumping after threshold earthquake",
+          "causation",
+          "noncompliance"
+        ],
+        "packet_id": "RedDeer-9289976-01397563ec91bcf9"
+      }
+    ],
+    "warning": "Fictional fixtures for testing reasoning, not real people or discoveries. Apply only supplied facts. The Fox Creek rule effective 2024-11-19 covers hydraulic fracturing in the mapped area from Duvernay through basement; during fracturing an event ML >= 4.0 within 5 km requires immediate cessation/safe state; restart requires written AER consent. Earlier rule covered Duvernay only. Red Deer SO7 begins 2019-12-09, not the May recommendation. Job windows and monthly volumes/hours cannot prove pumping at any instant. Mw is not ML. MLy is separately labelled corrected local magnitude, not automatically a historical available-to-operator ML measurement. Missing public consent is not proof of no consent. Production is not hydraulic fracturing. Geographic proximity is not causality."
+  },
+  "questions": {
+    "actionable_gap": {
+      "type": "score",
+      "instructions": "Rank only whether identified missing documents could resolve this bounded question; never infer misconduct, historical identity, continuous pumping, magnitude equivalence or absent consent.",
+      "criteria": [
+        "No specific comparison",
+        "Specific but missing operational evidence",
+        "Named time-resolved records could resolve applicability/response",
+        "Complete records ready for expert review"
+      ]
+    }
+  }
+}

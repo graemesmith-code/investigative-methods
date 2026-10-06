@@ -1,0 +1,45 @@
+{
+  "raw_ingredient_rows": 595923,
+  "source_footers": [
+    "(595923 rows affected)",
+    "Completion time: 2026-09-15T11:23:54.5968734-06:00"
+  ],
+  "malformed_rows": 0,
+  "all_distinct_job_window_submissions": 42025,
+  "all_period_jobs": 16391,
+  "invalid_windows": 0,
+  "period_jobs_invalid_coordinates": 0,
+  "scoped_bottomhole_jobs": 2674,
+  "scoped_unique_uwis": 1312,
+  "catalogue_events_2020_2025": 9669,
+  "events_missing_ML": 9648,
+  "events_missing_MLy": 1,
+  "by_area": {
+    "FoxCreek": {
+      "jobs": 2054,
+      "ML_pairs_5km": 0,
+      "ML_pairs_5_to_5_5km": 0,
+      "MLy_only_pairs_5km": 0
+    },
+    "Brazeau": {
+      "jobs": 6,
+      "ML_pairs_5km": 0,
+      "ML_pairs_5_to_5_5km": 0,
+      "MLy_only_pairs_5km": 0
+    },
+    "RedDeer": {
+      "jobs": 614,
+      "ML_pairs_5km": 0,
+      "ML_pairs_5_to_5_5km": 0,
+      "MLy_only_pairs_5km": 7
+    }
+  },
+  "ML_pairs": 0,
+  "ML_unique_events": 0,
+  "MLy_only_pairs": 7,
+  "spatial_nonoverlap_pairs": 0,
+  "compliance_testable_packets": 0,
+  "date_min": "2020-01-01 06:22:58",
+  "date_max": "2025-12-31 23:09:25",
+  "coverage_caveat": "Not an exposure denominator: bottomhole-only area selection omits surface-only in-area wells; current reported submissions and mutable catalogue are not historical snapshots; ML missingness and unknown monitoring completeness prevent negative conclusions."
+}

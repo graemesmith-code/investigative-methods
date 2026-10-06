@@ -1,0 +1,77 @@
+{
+  "ST37_Surface_Holes": {
+    "source": "ST37_SH.xlsx",
+    "headers": [
+      "Well_Licence_Number",
+      "Licensee",
+      "Licence_Status",
+      "Licence_Status_Date",
+      "Ground_Elevation",
+      "Spud_Date",
+      "Most_Recent_Final_Drill_Date",
+      "Energy_Devlpmt_Category_Type",
+      "SH_Actual_Latitude",
+      "SH_Actual_Longitude",
+      "Licence_Surface_Location_Label"
+    ],
+    "rows_scanned": 540379,
+    "retained": 9930,
+    "selection": "all licence identifiers in period jobs; independent of collisions"
+  },
+  "ST_37 Bottom Hole": {
+    "source": "ST37_BH.xlsx",
+    "headers": [
+      "Well_UWI",
+      "Well_Licence_Number",
+      "Well_Name",
+      "Final_Drill_Date",
+      "Kelly_Bushing_Elevation",
+      "Final_Total_Depth",
+      "Max_True_Vertical_Depth",
+      "Licensee",
+      "Licence_Status",
+      "Licence_Status_Date",
+      "Ground_Elevation",
+      "Spud_Date",
+      "Energy_Devlpmt_Category_Type",
+      "BH_Latitude",
+      "BH_Longitude"
+    ],
+    "rows_scanned": 539681,
+    "retained": 10616,
+    "selection": "all licence identifiers in period jobs; independent of collisions"
+  },
+  "Production_String": {
+    "source": "ST37_ Production_Strings.xlsx",
+    "headers": [
+      "Prod_String_UWI",
+      "Well_UWI",
+      "Field_Code",
+      "Pool_Code",
+      "Oil_Sands_Area",
+      "Oil_Sands_Deposit",
+      "Status_Fluid",
+      "Status_Mode",
+      "Status_Type",
+      "Status_Structure",
+      "Scheme_Type",
+      "Scheme_Sub_Type",
+      "Well_Licence_Number",
+      "Well_Name",
+      "Well_Confidential_Type",
+      "Final_Drill_Date",
+      "Kelly_Bushing_Elevation",
+      "Final_Total_Depth",
+      "Max_True_Vertical_Depth",
+      "Licensee",
+      "Licence_Status",
+      "Licence_Status_Date",
+      "Ground_Elevation",
+      "Spud_Date",
+      "Energy_Devlpmt_Category_Type"
+    ],
+    "rows_scanned": 659315,
+    "retained": 11054,
+    "selection": "all licence identifiers in period jobs; independent of collisions"
+  }
+}

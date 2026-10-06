@@ -1,0 +1,93 @@
+{
+  "surface_or_bottomhole_job_records": 2692,
+  "surface_or_bottomhole_unique_uwis": 1328,
+  "surface_only_extra_job_records": 18,
+  "by_area": {
+    "FoxCreek": 2062,
+    "Brazeau": 14,
+    "RedDeer": 616
+  },
+  "nrcan_records": 651,
+  "nrcan_magtypes": {
+    "MLy": 135,
+    "ML": 513,
+    "Mw": 3
+  },
+  "threshold_events_broad_area": [
+    {
+      "catalogue": "AGS",
+      "magtype": "MLy",
+      "area": "FoxCreek",
+      "count": 2
+    },
+    {
+      "catalogue": "AGS",
+      "magtype": "MLy",
+      "area": "RedDeer",
+      "count": 1
+    },
+    {
+      "catalogue": "NRCan",
+      "magtype": "ML",
+      "area": "FoxCreek",
+      "count": 2
+    },
+    {
+      "catalogue": "NRCan",
+      "magtype": "ML",
+      "area": "RedDeer",
+      "count": 3
+    }
+  ],
+  "overlap_records": 23,
+  "grouped_catalogue_event_well_packets": 9,
+  "groups": [
+    [
+      "AGS",
+      "9289976",
+      "00/15-28-037-28W4/0"
+    ],
+    [
+      "AGS",
+      "9289976",
+      "00/07-33-037-28W4/0"
+    ],
+    [
+      "AGS",
+      "9289976",
+      "00/02-33-037-28W4/0"
+    ],
+    [
+      "NRCan",
+      "ca2025dwzq",
+      "00/15-28-037-28W4/0"
+    ],
+    [
+      "NRCan",
+      "ca2025dwzq",
+      "00/07-33-037-28W4/0"
+    ],
+    [
+      "NRCan",
+      "ca2025dwzq",
+      "00/02-33-037-28W4/0"
+    ],
+    [
+      "NRCan",
+      "ca2025dscb",
+      "00/15-28-037-28W4/0"
+    ],
+    [
+      "NRCan",
+      "ca2025dscb",
+      "00/07-33-037-28W4/0"
+    ],
+    [
+      "NRCan",
+      "ca2025dscb",
+      "00/02-33-037-28W4/0"
+    ]
+  ],
+  "near_nonoverlap_records": 33,
+  "caveat": "These are candidates only. Surface/BH alternatives are screens, not a resolved legal distance reference; 5.5 km includes boundary sensitivity. NRCan and AGS events not automatically merged. Rule geology is not inferred from name or depth. SO6/SO7 red clauses do not explicitly repeat 5km; this is a bounded proximity test, not exhaustive legal coverage."
+}

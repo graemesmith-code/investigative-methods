@@ -1,0 +1,14 @@
+{
+  "verified_utc": "2026-10-06T21:22:47.178174+00:00",
+  "source": "https://docs.typesafe.ai/models",
+  "endpoint_source": "https://docs.typesafe.ai/api",
+  "model": "jev-1.13.0",
+  "input_usd_per_million": 0.042,
+  "output_usd": 0,
+  "authorized_cap_usd": 10,
+  "internal_cap_usd": 9,
+  "reservation_per_call_usd": 0.003,
+  "auto_retries": 0,
+  "new_experiment_authorized": true,
+  "prior_experiments_unchanged": true
+}

@@ -1,0 +1,41 @@
+{
+  "caps_microusd": {
+    "jev": 9000000,
+    "exa": 9000000
+  },
+  "accounted_microusd": {
+    "jev": 71,
+    "exa": 0
+  },
+  "attempts": [
+    {
+      "id": 1,
+      "provider": "jev",
+      "cache_key": "20c3c6c0907acdea8d4dd17b005d1910f3738fe13c3af0fd78d3ec3c1c4d0978",
+      "started": "2026-10-06T21:22:47.199879+00:00",
+      "status": "success",
+      "reserve": 3000,
+      "accounted": 35,
+      "request": "{\"model\":\"jev-1.13.0\",\"questions\":{\"post_event_pumping_supported\":{\"instructions\":\"Do explicit time-resolved pumping logs in the packet establish hydraulic-fracturing pumping after the earthquake? Date-only job windows, monthly totals and later production do not suffice.\",\"type\":\"noul\"},\"restart_authorization_unresolved\":{\"instructions\":\"If a shutdown-triggered operation resumed, is authorization unresolved on the supplied evidence? Answer no when written applicable consent is supplied or no restart is evidenced. A missing public document is an evidence gap, not proof of absence.\",\"type\":\"noul\"},\"threshold_trigger_supported\":{\"instructions\":\"Do the supplied records establish that an applicable hydraulic-fracturing shutdown threshold was triggered at this well during pumping? Require formation, area, effective date, actual pumping at event, specified magnitude type, distance and detection. Do not infer missing facts.\",\"type\":\"noul\"}},\"state\":{\"facts\":{\"consent\":\"not needed without restart\",\"date\":\"2025-01-15\",\"detection_time_utc\":\"2025-01-15T12:00:00Z\",\"distance_km\":2.0,\"event_time_utc\":\"2025-01-15T12:00:00Z\",\"formation\":\"Duvernay\",\"in_order_area\":true,\"magnitude\":4.0,\"magnitude_type\":\"ML\",\"operation\":\"hydraulic fracturing\",\"pumping_logs\":\"11:50 to 12:00 UTC, stopped immediately; no restart\",\"well\":\"SYNTHETIC-WELL-A\"},\"fixture_id\":\"C01-inclusive-threshold-stop\",\"fixture_type\":\"synthetic\",\"protocol\":\"Fictional fixtures for testing reasoning, not real people or discoveries. Apply only supplied facts. The Fox Creek rule effective 2024-11-19 covers hydraulic fracturing in the mapped area from Duvernay through basement; during fracturing an event ML >= 4.0 within 5 km requires immediate cessation/safe state; restart requires written AER consent. Earlier rule covered Duvernay only. Red Deer SO7 begins 2019-12-09, not the May recommendation. Job windows and monthly volumes/hours cannot prove pumping at any instant. Mw is not ML. MLy is separately labelled corrected local magnitude, not automatically a historical available-to-operator ML measurement. Missing public consent is not proof of no consent. Production is not hydraulic fracturing. Geographic proximity is not causality.\"}}",
+      "response": "{\"_raw_response_utf8\":\"{\\\"model\\\":\\\"jev-1.13.0\\\",\\\"answers\\\":{\\\"post_event_pumping_supported\\\":{\\\"type\\\":\\\"noul\\\",\\\"noul\\\":0.05},\\\"restart_authorization_unresolved\\\":{\\\"type\\\":\\\"noul\\\",\\\"noul\\\":0.28},\\\"threshold_trigger_supported\\\":{\\\"type\\\":\\\"noul\\\",\\\"noul\\\":0.92}},\\\"usage\\\":{\\\"input_tokens\\\":818,\\\"output_tokens\\\":67}}\",\"answers\":{\"post_event_pumping_supported\":{\"noul\":0.05,\"type\":\"noul\"},\"restart_authorization_unresolved\":{\"noul\":0.28,\"type\":\"noul\"},\"threshold_trigger_supported\":{\"noul\":0.92,\"type\":\"noul\"}},\"model\":\"jev-1.13.0\",\"usage\":{\"input_tokens\":818,\"output_tokens\":67}}",
+      "usage": "{\"input_tokens\":818,\"output_tokens\":67}",
+      "cost_kind": "estimated_from_observed_tokens",
+      "error_type": null
+    },
+    {
+      "id": 2,
+      "provider": "jev",
+      "cache_key": "eb4996cff3c745c93955b2634171d07dd45c8e5d17f9118997283790c949d991",
+      "started": "2026-10-06T21:22:47.413492+00:00",
+      "status": "success",
+      "reserve": 3000,
+      "accounted": 36,
+      "request": "{\"model\":\"jev-1.13.0\",\"questions\":{\"post_event_pumping_supported\":{\"instructions\":\"Do explicit time-resolved pumping logs in the packet establish hydraulic-fracturing pumping after the earthquake? Date-only job windows, monthly totals and later production do not suffice.\",\"type\":\"noul\"},\"restart_authorization_unresolved\":{\"instructions\":\"If a shutdown-triggered operation resumed, is authorization unresolved on the supplied evidence? Answer no when written applicable consent is supplied or no restart is evidenced. A missing public document is an evidence gap, not proof of absence.\",\"type\":\"noul\"},\"threshold_trigger_supported\":{\"instructions\":\"Do the supplied records establish that an applicable hydraulic-fracturing shutdown threshold was triggered at this well during pumping? Require formation, area, effective date, actual pumping at event, specified magnitude type, distance and detection. Do not infer missing facts.\",\"type\":\"noul\"}},\"state\":{\"facts\":{\"consent\":\"not publicly found\",\"date\":\"2025-01-15\",\"detection_time_utc\":\"2025-01-15T12:00:00Z\",\"distance_km\":2.0,\"event_time_utc\":\"2025-01-15T12:00:00Z\",\"formation\":\"Duvernay\",\"in_order_area\":true,\"job_window\":\"2025-01-01 through 2025-01-31\",\"magnitude\":4.0,\"magnitude_type\":\"ML\",\"monthly_volume_m3\":15000,\"operation\":\"hydraulic fracturing\",\"pumping_logs\":null,\"well\":\"SYNTHETIC-WELL-A\"},\"fixture_id\":\"C02-monthly-volume-trap\",\"fixture_type\":\"synthetic\",\"protocol\":\"Fictional fixtures for testing reasoning, not real people or discoveries. Apply only supplied facts. The Fox Creek rule effective 2024-11-19 covers hydraulic fracturing in the mapped area from Duvernay through basement; during fracturing an event ML >= 4.0 within 5 km requires immediate cessation/safe state; restart requires written AER consent. Earlier rule covered Duvernay only. Red Deer SO7 begins 2019-12-09, not the May recommendation. Job windows and monthly volumes/hours cannot prove pumping at any instant. Mw is not ML. MLy is separately labelled corrected local magnitude, not automatically a historical available-to-operator ML measurement. Missing public consent is not proof of no consent. Production is not hydraulic fracturing. Geographic proximity is not causality.\"}}",
+      "response": "{\"_raw_response_utf8\":\"{\\\"model\\\":\\\"jev-1.13.0\\\",\\\"answers\\\":{\\\"post_event_pumping_supported\\\":{\\\"type\\\":\\\"noul\\\",\\\"noul\\\":0.03},\\\"restart_authorization_unresolved\\\":{\\\"type\\\":\\\"noul\\\",\\\"noul\\\":0.82},\\\"threshold_trigger_supported\\\":{\\\"type\\\":\\\"noul\\\",\\\"noul\\\":0.11}},\\\"usage\\\":{\\\"input_tokens\\\":839,\\\"output_tokens\\\":67}}\",\"answers\":{\"post_event_pumping_supported\":{\"noul\":0.03,\"type\":\"noul\"},\"restart_authorization_unresolved\":{\"noul\":0.82,\"type\":\"noul\"},\"threshold_trigger_supported\":{\"noul\":0.11,\"type\":\"noul\"}},\"model\":\"jev-1.13.0\",\"usage\":{\"input_tokens\":839,\"output_tokens\":67}}",
+      "usage": "{\"input_tokens\":839,\"output_tokens\":67}",
+      "cost_kind": "estimated_from_observed_tokens",
+      "error_type": null
+    }
+  ],
+  "note": "Jev costs are input-usage times verified list rate, rounded up per call; Exa costDollars is provider-reported, not an invoice. Failed/uncertain attempts retain full reservations."
+}

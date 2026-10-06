@@ -1,0 +1,358 @@
+AER/AGS Information Series 164
+
+
+
+
+                          Guidance on Traffic-Light
+                          Thresholds and Magnitude
+                          Estimation for Induced
+                          Seismicity Management
+AER/AGS Information Series 164
+
+
+
+
+Guidance on Traffic-Light Thresholds and
+Magnitude Estimation for Induced Seismicity
+Management
+
+M. Reyes Canales, J.A. Yusifbayov
+
+Alberta Energy Regulator / Alberta Geological Survey
+
+
+
+
+August 2026
+©His Majesty the King in Right of Alberta, 2026
+ISBN 978-1-4601-6606-2
+
+The Alberta Energy Regulator / Alberta Geological Survey (AER/AGS), its employees and contractors
+make no warranty, guarantee, or representation, express or implied, or assume any legal liability
+regarding the correctness, accuracy, completeness, or reliability of this publication. Any references to
+proprietary software and/or any use of proprietary data formats do not constitute endorsement by the
+AER/AGS of any manufacturer’s product.
+
+If you use information from this publication in other publications or presentations, please acknowledge
+the AER/AGS. We recommend the following reference format:
+
+Reyes Canales, M., Yusifbayov, J.A. (2026): Guidance on Traffic-Light Thresholds and Magnitude
+    Estimation for Induced Seismicity Management; Alberta Energy Regulator / Alberta Geological
+    Survey, AER/AGS Information Series 164, 8 p.
+
+
+Publications in this series have undergone only limited review and are released essentially as submitted
+by the author.
+
+
+
+Published August 2026 by:
+Alberta Energy Regulator
+Alberta Geological Survey
+Suite 205
+4999 – 98 Avenue NW
+Edmonton, AB T6B 2X3
+Canada
+
+Tel:     780.638.4491
+Email:   AGS-Info@aer.ca
+Website: ags.aer.ca
+
+
+
+
+                                                                    AER/AGS Information Series 164    • iii
+Contents
+1 Introduction.............................................................................................................................................. 1
+2 Traffic-Light Threshold Guidance ........................................................................................................... 1
+3 Magnitude Estimation Guidance ............................................................................................................. 5
+  3.1 Formulation ...................................................................................................................................... 5
+  3.2 Practical Implementation ................................................................................................................. 5
+4 References................................................................................................................................................ 7
+
+Figures
+Figure 1. Magnitude Threshold for Acceptable Seismicity (MTAS), merged from iso-nuisance
+           (50% probability of nuisance to 30,000 households) and iso-damage (50% probability of
+           damage to 3 households) maps, both with trailing seismicity factor Rf = 1.2 (hydraulic
+           fracturing activities). Modified from Reyes Canales et al. (2024). ............................................. 3
+Figure 2. MTAS, merged from iso-nuisance (50% probability of nuisance to 30,000 households) and iso-
+           damage (50% probability of damage to 3 households) maps, both with trailing seismicity
+           factor Rf = 2 (long‐term injection activities). Modified from Reyes Canales et al. (2024). ........ 4
+
+
+
+
+                                                                                                     AER/AGS Information Series 164                    • iv
+Abstract
+Induced seismicity associated with hydraulic fracturing and fluid disposal has notably increased the
+seismic hazard in Alberta since the early 2010s. The Alberta Energy Regulator manages this hazard
+through area-specific subsurface orders for hydraulic fracturing and, more recently, through updated
+provisions in Directive 065 for fluid disposal operations, both of which rely on traffic-light protocols
+(TLPs) with earthquake magnitude thresholds. This Information Series provides guidance on two key
+aspects of implementing a TLP: the selection of magnitude thresholds and the consistent estimation of
+earthquake magnitudes. For threshold selection, we present the Magnitude Threshold for Acceptable
+Seismicity (MTAS) maps, derived from earthquake iso-nuisance and iso-damage maps for Alberta, as a
+minimum reference for establishing red-light thresholds, complemented by guidance on setting yellow-
+light thresholds. Two versions of the MTAS maps are provided, reflecting the different treatment of
+trailing seismicity for hydraulic fracturing and long-term injection activities. For magnitude estimation,
+we summarize the local magnitude relation of Yenier (2017), calibrated for the Western Canada
+Sedimentary Basin, and outline its practical implementation to promote consistent magnitude reporting
+across operators and monitoring networks.
+
+
+
+
+                                                                      AER/AGS Information Series 164    • v
+1 Introduction
+The seismic hazard in Alberta has increased notably since the early 2010s in association with subsurface
+energy development (Reyes Canales et al., 2022). Notable examples include hydraulic-fracturing-induced
+earthquakes in the Duvernay play near Fox Creek and Red Deer (Schultz et al., 2017; Wang et al., 2020),
+as well as disposal-induced seismicity in the Peace River region, where a ML 5.6 earthquake in November
+2022 ranks among the largest injection-induced events in Canada (Reyes Canales et al., 2026). While
+most induced events are not felt at the surface, larger events can produce ground motions capable of
+causing nuisance to residents and, in some cases, damage to structures in localized areas.
+To manage this hazard, the Alberta Energy Regulator (AER) has developed a regulatory framework that
+addresses injection related induced seismicity. Seismic monitoring and response requirements for
+hydraulic fracturing operations were first introduced through area-specific subsurface orders, including
+Subsurface Order No. 2 (Fox Creek area; later updated to 2A), Subsurface Order No. 6 (around the
+Brazeau Dam) and Subsurface Order No. 7 (Red Deer area), which established magnitude-based reporting
+and mitigation requirements. More recently, the AER updated Directive 065: Resources Applications for
+Oil and Gas Reservoirs (AER, 2026) to include provisions for managing disposal-induced seismicity.
+Under the revised Directive 065, applicants for new disposal wells must conduct a seismic hazard
+assessment that, at a minimum, reviews seismicity within a 10 km radius of the well using public
+earthquake catalogues. If the hazard assessment indicates that the area is prone to induced seismicity, or if
+an operating well is deemed seismogenic by the AER, the operator must identify the risk associated with
+the induced seismic hazard and submit a Monitoring, Mitigation, and Response (MMR) plan that includes
+real-time seismic monitoring (Schultz et al., 2020), event magnitude thresholds, and a traffic-light
+protocol (TLP). Operators are also required to transmit real-time seismic data to the AER and submit
+waveform data to the EarthScope Consortium (AER, 2025).
+This Information Series provides guidance on two aspects of induced seismicity management: the
+selection of traffic-light magnitude thresholds and the consistent estimation of earthquake magnitudes.
+First, it presents the Magnitude Threshold for Acceptable Seismicity (MTAS) maps, derived from
+earthquake iso-nuisance and iso-damage maps for Alberta (Reyes Canales et al., 2024), which can serve
+as a reference when selecting traffic-light thresholds; these maps are intended to complement, not replace,
+localized and more detailed site-specific risk identification and, if conducted, the resulting assessment.
+Second, it describes the local magnitude relationship of Yenier (2017), developed specifically for the
+Western Canada Sedimentary Basin (WCSB), and its practical implementation, with the aim of promoting
+consistent magnitude reporting across operators and monitoring networks.
+
+2 Traffic-Light Threshold Guidance
+The TLP is a risk management tool central to both the subsurface orders No. 2A, 6, and 7, and the
+induced seismicity component of Directive 065. It defines three response levels (green, yellow, and red)
+based on two earthquake magnitude thresholds: a low (yellow-light) and a high (red-light) threshold.
+Events below the yellow-light threshold fall within the green level and require no action beyond routine
+monitoring. Events with magnitudes between the yellow- and red-light thresholds require reporting to the
+AER and implementation of mitigation measures to reduce the magnitude and frequency of subsequent
+events. Events at or above the red-light threshold require the operator to immediately report the event and
+return the well to a safe state, with AER approval required before affected operations can resume.
+For hydraulic fracturing operations, magnitude thresholds are prescribed through area-specific subsurface
+orders. Two orders focus on operations in the Duvernay Formation, near Fox Creek (Subsurface Order
+No. 2A; AER, 2024) and Red Deer (Subsurface Order No. 7; AER, 2019b). A third order establishes an
+exclusion zone within 3 km of the Brazeau Dam, where no hydraulic fracturing is permitted, and a second
+zone between 3 and 5 km of the dam, where hydraulic fracturing is permitted only in formations above
+the Duvernay (Subsurface Order No. 6; AER, 2019a). Under these orders, operators must monitor
+
+
+                                                                      AER/AGS Information Series 164     • 1
+seismicity near their operations and follow the TLP defined for the area. Operators must report any event
+at or above the yellow-light threshold (ML ≥ 2 for Subsurface Order No. 2A; ML ≥ 1 for Subsurface
+Order No. 6 and Subsurface Order No. 7) and implement mitigation strategies to avoid larger events. If a
+red-light event occurs (ML ≥ 4 for Subsurface Order No. 2A; ML ≥2.5 for Subsurface Order No. 6; ML ≥
+3 for Subsurface Order No. 7), operators must immediately stop operations and return the well to a safe
+state. The variation in thresholds across the orders reflects differences in local exposure: lower thresholds
+are applied near population centres (Red Deer) and critical infrastructure (Brazeau Dam).
+In contrast to the subsurface orders, Directive 065 does not prescribe fixed magnitude thresholds for
+disposal operations. Instead, thresholds are defined in the operator’s MMR plan and should reflect the
+conditions of each area, including nearby population, essential infrastructure, private property, and site
+amplification conditions, which may be characterized by Vs30 (the average shear-wave velocity of the
+upper 30 m from surface). Low-Vs30 sites (e.g., soft sediments and valley fills) can experience stronger
+shaking than high-Vs30 bedrock sites. After the risk identification, operators may conduct site-specific
+seismic risk assessments to inform these thresholds; however, as a minimum, red-light thresholds
+should be checked against the MTAS maps developed for Alberta (Reyes Canales et al., 2024). The
+MTAS maps provide a spatially continuous reference for the maximum earthquake magnitude that can be
+tolerated at a given location before exceeding predefined nuisance or damage criteria. They were
+generated by combining ground-motion modelling with information on population density and site
+amplification conditions across Alberta, producing two intermediate products: an earthquake iso-nuisance
+map (magnitude with a 50% probability of causing nuisance to 30,000 households) and an earthquake iso-
+damage map (magnitude with a 50% probability of damaging 3 households). The MTAS corresponds, at
+each location, to the more restrictive of the two criteria. Because the maps are based on generalized
+exposure data, they do not account for specific critical infrastructure (e.g., dams, pipelines, or industrial
+facilities), which should be addressed through additional site-specific analysis where relevant.
+Two versions of the MTAS maps are presented here, reflecting differences in how trailing seismicity is
+treated. Trailing seismicity refers to earthquakes that continue after injection has been reduced or stopped,
+and it is incorporated in the maps as a statistical factor (Rf) that accounts for the possibility of a larger
+event occurring after mitigation actions are taken. For hydraulic fracturing operations (Figure 1), trailing
+seismicity tends to be short-lived, and a factor of Rf = 1.2 is applied. For long-term injection activities
+such as fluid disposal (Figure 2), post-operational seismicity can persist for months to years, and a larger
+factor of Rf = 2 is applied, resulting in more conservative (lower) magnitude thresholds.
+While the MTAS maps provide a reference for red-light thresholds, the selection of the yellow-light
+threshold, which marks the start of active mitigation, also depends on risk tolerance, particularly the
+consideration of large magnitude escalations, or ‘jumps,’ during mitigation operations. Studies such as
+Schultz et al. (2021) suggest that setting the yellow-light threshold two magnitude units below the red-
+light threshold is appropriate to minimize the number of green-to-red jumps observed in hydraulic
+fracturing cases.
+For instance, consider an operator preparing an MMR plan for a proposed disposal well southeast of
+Edmonton (e.g., Township 50, Range 20W4). Because the well is a long-term injection operation, the
+MTAS map for long-term injection activities (Figure 2; Rf = 2) applies. At the proposed location, the map
+indicates an MTAS of approximately ML 3.5, which serves as the reference for the red-light threshold; if
+the seismic risk identification finds nearby critical infrastructure (e.g., a dam or major pipeline), a more
+detailed site-specific risk assessment could support a lower, more protective value. Following the
+guidance of Schultz et al. (2021), the yellow-light threshold is set two magnitude units below, at ML 1.5.
+These thresholds have direct implications for monitoring network design: under Directive 065, the
+seismometer network must reliably detect events at the yellow-light threshold within the assessment
+radius, which the operator should demonstrate through a magnitude of completeness analysis accounting
+for station spacing, instrument sensitivity, and background noise. In practice, lower yellow-light
+
+
+
+
+                                                                      AER/AGS Information Series 164     • 2
+thresholds require denser or closer station coverage, so the selection of thresholds and the design of the
+monitoring network should be developed together as part of the MMR plan.
+
+
+
+
+Figure 1. Magnitude Threshold for Acceptable Seismicity (MTAS), merged from iso-nuisance
+(50% probability of nuisance to 30,000 households) and iso-damage (50% probability of damage to
+3 households) maps, both with trailing seismicity factor Rf = 1.2 (hydraulic fracturing activities).
+Modified from Reyes Canales et al. (2024).
+
+
+
+                                                                      AER/AGS Information Series 164     • 3
+Figure 2. MTAS, merged from iso-nuisance (50% probability of nuisance to 30,000 households)
+and iso-damage (50% probability of damage to 3 households) maps, both with trailing seismicity
+factor Rf = 2 (long‐term injection activities). Modified from Reyes Canales et al. (2024).
+
+
+
+
+                                                             AER/AGS Information Series 164   • 4
+3 Magnitude Estimation Guidance
+Local magnitude (ML) is the most widely reported magnitude scale in earthquake catalogues and is the
+scale used to define traffic-light thresholds in Alberta’s subsurface orders and MMR plans. Consistent ML
+estimation is therefore essential: if operators and monitoring networks compute magnitudes differently,
+the same earthquake could fall in different traffic-light bands depending on the reporting agency.
+Standard ML relations developed for California (Hutton and Boore, 1987) do not reflect the attenuation
+characteristics of the WCSB and have been shown to overestimate event magnitudes in the region by
+approximately 0.3 to 0.6 magnitude units, with larger bias for small events recorded by local networks
+(Yenier, 2017). To promote consistency, the AER recommends the regionally calibrated ML relation
+developed by Yenier (2017) for the WCSB, summarized below.
+
+3.1 Formulation
+The local magnitude of an event at a given station is computed as:
+
+
+ ML = log(A) + (−log A₀) + S                                                                           (1)
+
+
+where A is the peak amplitude (in millimetres) measured on a horizontal-component synthetic Wood–
+Anderson seismogram, −log A₀ is the regional distance correction evaluated at the hypocentral distance R
+(in kilometres), and S is a station correction accounting for local site effects. Individual station
+magnitudes are combined to obtain a final event magnitude.
+The distance correction model for the WCSB is a trilinear function of hypocentral distance:
+
+
+ −log A₀ = 1.399 log(R) + 0.001R + 0.102 for R ≤ 100 km                                               (2a)
+
+
+ −log A₀ = −0.727 log(R) + 0.001R + 4.354 for 100 km < R ≤ 220 km                                     (2b)
+
+
+ −log A₀ = 1.806 log(R) + 0.001R − 1.579 for R > 220 km                                               (2c)
+
+
+The three distance segments reflect the attenuation behaviour observed in the WCSB: direct-wave
+attenuation at close distances, a flattening between 100 and 220 km caused by postcritical reflections from
+the Moho joining the direct waves (the ‘Moho bounce’), and steeper attenuation beyond 220 km. The
+relation is calibrated to preserve Richter’s original definition of a zero-magnitude earthquake (an
+amplitude of 0.001 mm at 100 km) and provides unbiased magnitude estimates over hypocentral distances
+from approximately 2 to 600 km, allowing consistent results from both local and regional networks.
+
+3.2 Practical Implementation
+The recommended procedure for computing ML is as follows:
+1) Deconvolve the recorded station-components ground motions with instrument response; the
+   instrument response files are provided on EarthScope’s webpage as XML metadata.
+2) Convert the corrected records to synthetic Wood–Anderson seismograms in the frequency domain,
+   using a transfer function defined by a free period of 0.8 s, a damping constant of 0.8, and a static
+   magnification of 2080 (Uhrhammer and Collins, 1990; International Association of Seismology and
+   Physics of the Earth's Interior, 2013).
+3) Measure the maximum Wood–Anderson amplitude on each horizontal component. Amplitude picks
+   should have adequate signal-to-noise ratio to ensure reliable measurement. The final station value
+
+                                                                     AER/AGS Information Series 164    • 5
+   should be taken as the larger of the two horizontal components and manually reviewed where
+   practical; measurements associated with periods longer than 2 s should be excluded to avoid
+   contamination by low-frequency noise.
+4) Compute the hypocentral distance R (including focal depth) for each station. Only stations within the
+   calibrated distance range of the relation (approximately 2 to 600 km) should be used in the analysis. It
+   is further recommended to restrict the dataset to stations within 1.5° hypocentral distance to avoid
+   complications from differing P- and S-wave phases. Evaluate the corresponding −log A₀ term from
+   the trilinear model above.
+5) Compute a station magnitude for each horizontal component using the ML equation, applying the
+   station correction S where available. Yenier (2017) provides correction factors for stations in the
+   region; for stations without a published correction, S = 0 may be assumed, recognizing this introduces
+   additional scatter.
+6) Compute the event ML by taking the arithmetic mean of the magnitudes across all qualifying stations.
+
+
+
+
+                                                                     AER/AGS Information Series 164    • 6
+4 References
+Alberta Energy Regulator (2019a): Subsurface order no. 6.
+    URL <https://www.aer.ca/documents/orders/subsurface-orders/SO6.pdf> [August 2026].
+Alberta Energy Regulator (2019b): Subsurface order no. 7.
+    URL <https://www.aer.ca/documents/orders/subsurface-orders/SO7.pdf> [August 2026].
+Alberta Energy Regulator (2024): Subsurface order no. 2A.
+    URL <https://static.aer.ca/prd/documents/orders/subsurface-orders/so2a.pdf> [August 2026].
+Alberta Energy Regulator (2025): Manual 032: how to submit seismic waveform data.
+    URL <https://static.aer.ca/prd/documents/manuals/Manual-032.pdf> [August 2026].
+Alberta Energy Regulator (2026): Directive 065: resources applications for oil and gas reservoirs.
+    URL <https://static.aer.ca/prd/documents/directives/Directive065.pdf> [August 2026].
+Hutton, L.K. and Boore, D.M. (1987): The ML scale in southern California; Bulletin of the Seismological
+    Society of America, v. 77, p. 2074–2094.
+International Association of Seismology and Physics of the Earth's Interior (IASPEI) Working Group on
+     Magnitudes (2013): Summary of magnitude working group recommendations on standard
+     procedures for determining earthquake magnitudes from digital data.
+     URL <http://download.iaspei.org/commissions/CSOI/Summary_WG_recommendations_20130327.p
+     df> [August 2026].
+Reyes Canales, M., Galloway, E., Pawley, S., Yusifbayov, J. and Hartman, G. (2024). Earthquake iso‐
+    nuisance and iso‐damage mapping for Alberta: applications for choosing magnitude thresholds to
+    manage induced seismicity; Earth's Future, v. 12, p. e2024EF004985, doi:10.1029/2024EF004985.
+Reyes Canales, M., Hauck, T.E., Yusifbayov, J.A., Bui, H. and Goerzen, C. (2026): Discerning between
+    natural and induced seismicity by using evidence-scoring tools designed to evaluate proposals of
+    induced earthquakes: application to the Reno and Kakwa earthquake sequences, northwestern
+    Alberta; Alberta Energy Regulator / Alberta Geological Survey, AER/AGS Open File Report
+    2025 05, 29 p.
+Reyes Canales, M., Yusifbayov, J. and van der Baan, M. (2022): Evolution of short‐term seismic hazard
+    in Alberta, Canada, from induced and natural earthquakes: 2011–2020; Journal of Geophysical
+    Research: Solid Earth, v. 127, no. 2, p. e2021JB022822, doi:10.1029/2021jb022822.
+Schultz, R., Beroza, G.C. and Ellsworth, W.L. (2021): A risk-based approach for managing hydraulic
+    fracturing–induced seismicity; Science, v. 372, no. 6541, p. 504–507, doi:10.1126/science.abg5451.
+Schultz, R., Wang, R., Gu, Y., Haug, K. and Atkinson, G. (2017): A seismological overview of the
+    induced earthquakes in the Duvernay play near Fox Creek, Alberta; Journal of Geophysical
+    Research: Solid Earth, v. 122, p. 492–505, doi:10.1002/2016JB013570.
+Schultz, R.J., Yusifbayov, J. and Shipman, T.C. (2020): The scientific induced seismicity monitoring
+    network (SCISMN); Alberta Energy Regulator / Alberta Geological Survey, AER/AGS Open File
+    Report 2019-09, 10 p.
+Uhrhammer, R.A. and Collins, E.R. (1990): Synthesis of Wood-Anderson seismograms from broadband
+    digital records; Bulletin of the Seismological Society of America, v. 80, no. 3, p. 702–716.
+Wang, J., Li, T., Gu, J., Schultz, R., Yusifbayov, J. and Zhang, M. (2020): Sequential fault reactivation
+   and secondary triggering in the March 2019 Red Deer induced earthquake swarm; Geophysical
+   Research Letters, v. 47, no. 22, p. e2020GL090219, doi:10.1029/2020GL090219.
+
+
+
+
+                                                                     AER/AGS Information Series 164     • 7
+Yenier, E. (2017). A local magnitude relation for earthquakes in the Western Canada Sedimentary Basin;
+    Bulletin of the Seismological Society of America, v. 107, no. 3, p. 1421–1431,
+    doi:10.1785/0120160275.
+
+
+
+
+                                                                  AER/AGS Information Series 164   • 8
+

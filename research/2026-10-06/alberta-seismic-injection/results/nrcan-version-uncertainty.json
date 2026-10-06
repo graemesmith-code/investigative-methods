@@ -1,0 +1,16 @@
+{
+  "event_count": 651,
+  "events_with_uncertainty_element": 0,
+  "events_with_origin_uncertainty": 0,
+  "note": "No per-event numerical spatial uncertainty supplied. XML depth values numerically match CSV km values rather than assumed QuakeML metres; use explicit CSV Depth/km, do not silently reinterpret XML depth. Creation times are catalogue metadata, not operator detection/notification times.",
+  "candidate_xml": [
+    {
+      "publicID": "smi:local/ca2025dwzq",
+      "xml": "<ns0:event xmlns:ns0=\"http://quakeml.org/xmlns/bed/1.2\" publicID=\"smi:local/ca2025dwzq\"><ns0:type>fluid injection</ns0:type><ns0:description><ns0:text>Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB</ns0:text><ns0:type>earthquake name</ns0:type></ns0:description><ns0:origin publicID=\"smi:local/ca2025dwzq\"><ns0:time><ns0:value>2025-02-25T06:32:36.000Z</ns0:value></ns0:time><ns0:latitude><ns0:value>52.2187</ns0:value></ns0:latitude><ns0:longitude><ns0:value>-113.9586</ns0:value></ns0:longitude><ns0:depth><ns0:value>1</ns0:value></ns0:depth><ns0:depthType>operator assigned</ns0:depthType><ns0:timeFixed>false</ns0:timeFixed><ns0:epicenterFixed>false</ns0:epicenterFixed><ns0:creationInfo><ns0:creationTime>2025-02-25T00:00:00.000Z</ns0:creationTime></ns0:creationInfo></ns0:origin><ns0:magnitude publicID=\"smi:local/ca2025dwzq\"><ns0:mag><ns0:value>3.76</ns0:value></ns0:mag><ns0:type>ML</ns0:type></ns0:magnitude><ns0:typeCertainty>suspected</ns0:typeCertainty></ns0:event>"
+    },
+    {
+      "publicID": "smi:local/ca2025dscb",
+      "xml": "<ns0:event xmlns:ns0=\"http://quakeml.org/xmlns/bed/1.2\" publicID=\"smi:local/ca2025dscb\"><ns0:type>earthquake</ns0:type><ns0:description><ns0:text>12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB</ns0:text><ns0:type>earthquake name</ns0:type></ns0:description><ns0:origin publicID=\"smi:local/ca2025dscb\"><ns0:time><ns0:value>2025-02-22T14:05:18.000Z</ns0:value></ns0:time><ns0:latitude><ns0:value>52.2112</ns0:value></ns0:latitude><ns0:longitude><ns0:value>-113.9551</ns0:value></ns0:longitude><ns0:depth><ns0:value>1</ns0:value></ns0:depth><ns0:depthType>operator assigned</ns0:depthType><ns0:timeFixed>false</ns0:timeFixed><ns0:epicenterFixed>false</ns0:epicenterFixed><ns0:creationInfo><ns0:creationTime>2025-04-02T00:00:00.000Z</ns0:creationTime></ns0:creationInfo></ns0:origin><ns0:magnitude publicID=\"smi:local/ca2025dscb\"><ns0:mag><ns0:value>3.1</ns0:value></ns0:mag><ns0:type>ML</ns0:type></ns0:magnitude><ns0:typeCertainty>known</ns0:typeCertainty></ns0:event>"
+    }
+  ]
+}

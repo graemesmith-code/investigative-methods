@@ -1,0 +1,36 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "protocol": "Fictional fixtures for testing reasoning, not real people or discoveries. Apply only supplied facts. The Fox Creek rule effective 2024-11-19 covers hydraulic fracturing in the mapped area from Duvernay through basement; during fracturing an event ML >= 4.0 within 5 km requires immediate cessation/safe state; restart requires written AER consent. Earlier rule covered Duvernay only. Red Deer SO7 begins 2019-12-09, not the May recommendation. Job windows and monthly volumes/hours cannot prove pumping at any instant. Mw is not ML. MLy is separately labelled corrected local magnitude, not automatically a historical available-to-operator ML measurement. Missing public consent is not proof of no consent. Production is not hydraulic fracturing. Geographic proximity is not causality.",
+    "fixture_id": "C10-below-inclusive-threshold",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 3.99,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart"
+    }
+  },
+  "questions": {
+    "threshold_trigger_supported": {
+      "type": "noul",
+      "instructions": "Do the supplied records establish that an applicable hydraulic-fracturing shutdown threshold was triggered at this well during pumping? Require formation, area, effective date, actual pumping at event, specified magnitude type, distance and detection. Do not infer missing facts."
+    },
+    "post_event_pumping_supported": {
+      "type": "noul",
+      "instructions": "Do explicit time-resolved pumping logs in the packet establish hydraulic-fracturing pumping after the earthquake? Date-only job windows, monthly totals and later production do not suffice."
+    },
+    "restart_authorization_unresolved": {
+      "type": "noul",
+      "instructions": "If a shutdown-triggered operation resumed, is authorization unresolved on the supplied evidence? Answer no when written applicable consent is supplied or no restart is evidenced. A missing public document is an evidence gap, not proof of absence."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "period": "2025-02",
+  "purpose": "post-discovery identity corroboration only; NOT pumping timing",
+  "uwi_mapping": {
+    "ABWI100023303728W400": "00/02-33-037-28W4/0",
+    "ABWI100073303728W400": "00/07-33-037-28W4/0",
+    "ABWI100152803728W400": "00/15-28-037-28W4/0"
+  },
+  "rows_scanned": 556249,
+  "matched_rows": [],
+  "operator_history_rows_scanned": 375902,
+  "facility_operator_history": [],
+  "caveat": "FromToID match identifies a well event, but facility operator is not automatically HF service provider or historic licensee; monthly load injection and production cannot prove stage timing."
+}

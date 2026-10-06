@@ -1,0 +1,236 @@
+[
+  {
+    "id": "C01-inclusive-threshold-stop",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart"
+    },
+    "expected": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C02-monthly-volume-trap",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": null,
+      "consent": "not publicly found",
+      "monthly_volume_m3": 15000,
+      "job_window": "2025-01-01 through 2025-01-31"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C03-written-consent-restart",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 stopped immediately; resumed at 15:00 UTC",
+      "consent": "Written AER consent dated 14:00 UTC authorizes this well and resumed operation"
+    },
+    "expected": [
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "id": "C04-Mw-not-ML",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "Mw",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C05-before-expanded-formation",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2024-11-18",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "below Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2024-11-18T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2024-11-18T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C06-production-is-not-fracturing",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "production only",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": null,
+      "consent": "not needed without restart",
+      "production_logs": "production resumed at 15:00 UTC"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C07-outside-distance",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 5.1,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C08-unresolved-restart-permission",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 stopped; resumed 15:00 UTC",
+      "consent": "Search of public portal found no consent; actual consent record unavailable"
+    },
+    "expected": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "C09-MLy-availability-gap",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 4.0,
+      "magnitude_type": "MLy",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": null,
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart",
+      "note": "current revised catalogue, no historical operator detection record"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "C10-below-inclusive-threshold",
+    "fixture_type": "synthetic",
+    "facts": {
+      "date": "2025-01-15",
+      "well": "SYNTHETIC-WELL-A",
+      "formation": "Duvernay",
+      "in_order_area": true,
+      "operation": "hydraulic fracturing",
+      "magnitude": 3.99,
+      "magnitude_type": "ML",
+      "event_time_utc": "2025-01-15T12:00:00Z",
+      "distance_km": 2.0,
+      "detection_time_utc": "2025-01-15T12:00:00Z",
+      "pumping_logs": "11:50 to 12:00 UTC, stopped immediately; no restart",
+      "consent": "not needed without restart"
+    },
+    "expected": [
+      false,
+      false,
+      false
+    ]
+  }
+]

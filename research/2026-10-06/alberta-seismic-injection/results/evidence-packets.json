@@ -1,0 +1,1758 @@
+[
+  {
+    "packet_id": "AGS-9289976-0516328",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "AGS",
+      "id": "9289976",
+      "time": "2025-02-25T06:32:35Z",
+      "lat": 52.2195,
+      "lon": -113.9607,
+      "magnitude": 3.12,
+      "magnitude_type": "MLy",
+      "raw": {
+        "object_id": 9289976,
+        "Datetime_UTC": "2025-02-25 06:32:35",
+        "Datetime_MT": "2025-02-24 23:32:35",
+        "Latitude": 52.2195,
+        "Longitude": -113.9607,
+        "Depth_km": 3,
+        "Depth_type": "f",
+        "Earthquake_type": "KI",
+        "MLy": 3.12,
+        "ML": null,
+        "M": 3.25,
+        "Mw": null,
+        "EDGE_Id": 438049,
+        "Location": "2 km W of Mintlaw AB",
+        "Algorithm": "GENLOC"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "367351b81dd0c9fd",
+        "uwi": "00/02-33-037-28W4/0",
+        "licence": "0516328",
+        "distance_bh_km": 1.352529,
+        "distance_surface_km": 2.731186,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "554815fc6f299ce9",
+        "uwi": "00/02-33-037-28W4/0",
+        "licence": "0516328",
+        "distance_bh_km": 1.352529,
+        "distance_surface_km": 2.731186,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/02-33-037-28W4/0",
+      "licence": "0516328",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.218475,
+        "lon": -113.94098
+      },
+      "surface": {
+        "Well_Licence_Number": "0516328",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "11/18/2024",
+        "Ground_Elevation": 939.5,
+        "Spud_Date": "20241228",
+        "Most_Recent_Final_Drill_Date": "20250113",
+        "Energy_Devlpmt_Category_Type": "Multiwell Pad with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22203,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0516328",
+        "LicenceIssueDate": "2024-11-18",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-11-18",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "BOTH CROWN/FREEHOLD",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/earthquakes.json",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "AGS-9289976-0516327",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "AGS",
+      "id": "9289976",
+      "time": "2025-02-25T06:32:35Z",
+      "lat": 52.2195,
+      "lon": -113.9607,
+      "magnitude": 3.12,
+      "magnitude_type": "MLy",
+      "raw": {
+        "object_id": 9289976,
+        "Datetime_UTC": "2025-02-25 06:32:35",
+        "Datetime_MT": "2025-02-24 23:32:35",
+        "Latitude": 52.2195,
+        "Longitude": -113.9607,
+        "Depth_km": 3,
+        "Depth_type": "f",
+        "Earthquake_type": "KI",
+        "MLy": 3.12,
+        "ML": null,
+        "M": 3.25,
+        "Mw": null,
+        "EDGE_Id": 438049,
+        "Location": "2 km W of Mintlaw AB",
+        "Algorithm": "GENLOC"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "9111012cf3507a23",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.380242,
+        "distance_surface_km": 2.732233,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "8b378926f83728df",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.380242,
+        "distance_surface_km": 2.732233,
+        "start": "2025-02-15",
+        "end": "2025-02-27",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "01397563ec91bcf9",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.380242,
+        "distance_surface_km": 2.732233,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/07-33-037-28W4/0",
+      "licence": "0516327",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.222004,
+        "lon": -113.940919
+      },
+      "surface": {
+        "Well_Licence_Number": "0516327",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "11/18/2024",
+        "Ground_Elevation": 939.6,
+        "Spud_Date": "20241205",
+        "Most_Recent_Final_Drill_Date": "20241215",
+        "Energy_Devlpmt_Category_Type": "Multiwell Pad with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22212,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0516327",
+        "LicenceIssueDate": "2024-11-18",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-11-18",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "BOTH CROWN/FREEHOLD",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/earthquakes.json",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "AGS-9289976-0515889",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "AGS",
+      "id": "9289976",
+      "time": "2025-02-25T06:32:35Z",
+      "lat": 52.2195,
+      "lon": -113.9607,
+      "magnitude": 3.12,
+      "magnitude_type": "MLy",
+      "raw": {
+        "object_id": 9289976,
+        "Datetime_UTC": "2025-02-25 06:32:35",
+        "Datetime_MT": "2025-02-24 23:32:35",
+        "Latitude": 52.2195,
+        "Longitude": -113.9607,
+        "Depth_km": 3,
+        "Depth_type": "f",
+        "Earthquake_type": "KI",
+        "MLy": 3.12,
+        "ML": null,
+        "M": 3.25,
+        "Mw": null,
+        "EDGE_Id": 438049,
+        "Location": "2 km W of Mintlaw AB",
+        "Algorithm": "GENLOC"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "a806730fbb29a03e",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.43795,
+        "distance_surface_km": 2.730174,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "AGS",
+          "id": "9289976",
+          "time": "2025-02-25T06:32:35Z",
+          "lat": 52.2195,
+          "lon": -113.9607,
+          "magnitude": 3.12,
+          "magnitude_type": "MLy",
+          "raw": {
+            "object_id": 9289976,
+            "Datetime_UTC": "2025-02-25 06:32:35",
+            "Datetime_MT": "2025-02-24 23:32:35",
+            "Latitude": 52.2195,
+            "Longitude": -113.9607,
+            "Depth_km": 3,
+            "Depth_type": "f",
+            "Earthquake_type": "KI",
+            "MLy": 3.12,
+            "ML": null,
+            "M": 3.25,
+            "Mw": null,
+            "EDGE_Id": 438049,
+            "Location": "2 km W of Mintlaw AB",
+            "Algorithm": "GENLOC"
+          }
+        },
+        "job_id": "951d62371ebaa59b",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.43795,
+        "distance_surface_km": 2.730174,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/15-28-037-28W4/0",
+      "licence": "0515889",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.21484,
+        "lon": -113.941076
+      },
+      "surface": {
+        "Well_Licence_Number": "0515889",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "10/30/2024",
+        "Ground_Elevation": 939.5,
+        "Spud_Date": "20250117",
+        "Most_Recent_Final_Drill_Date": "20250128",
+        "Energy_Devlpmt_Category_Type": "Single Well with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22194,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0515889",
+        "LicenceIssueDate": "2024-10-30",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-10-30",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "ALBERTA CROWN",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/earthquakes.json",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "NRCan-ca2025dscb-0516328",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "NRCan",
+      "id": "ca2025dscb",
+      "time": "2025-02-22T14:05:18.000Z",
+      "lat": 52.2112,
+      "lon": -113.9551,
+      "magnitude": 3.1,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dscb",
+        "Time": "2025-02-22T14:05:18.000Z",
+        "Latitude": "52.2112",
+        "Longitude": "-113.9551",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.1",
+        "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "367351b81dd0c9fd",
+        "uwi": "00/02-33-037-28W4/0",
+        "licence": "0516328",
+        "distance_bh_km": 1.259634,
+        "distance_surface_km": 3.325642,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "554815fc6f299ce9",
+        "uwi": "00/02-33-037-28W4/0",
+        "licence": "0516328",
+        "distance_bh_km": 1.259634,
+        "distance_surface_km": 3.325642,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/02-33-037-28W4/0",
+      "licence": "0516328",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.218475,
+        "lon": -113.94098
+      },
+      "surface": {
+        "Well_Licence_Number": "0516328",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "11/18/2024",
+        "Ground_Elevation": 939.5,
+        "Spud_Date": "20241228",
+        "Most_Recent_Final_Drill_Date": "20250113",
+        "Energy_Devlpmt_Category_Type": "Multiwell Pad with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22203,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0516328",
+        "LicenceIssueDate": "2024-11-18",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-11-18",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "BOTH CROWN/FREEHOLD",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/nrcan-events.txt",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "NRCan-ca2025dscb-0516327",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "NRCan",
+      "id": "ca2025dscb",
+      "time": "2025-02-22T14:05:18.000Z",
+      "lat": 52.2112,
+      "lon": -113.9551,
+      "magnitude": 3.1,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dscb",
+        "Time": "2025-02-22T14:05:18.000Z",
+        "Latitude": "52.2112",
+        "Longitude": "-113.9551",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.1",
+        "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "9111012cf3507a23",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.544218,
+        "distance_surface_km": 3.329281,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "8b378926f83728df",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.544218,
+        "distance_surface_km": 3.329281,
+        "start": "2025-02-15",
+        "end": "2025-02-27",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "01397563ec91bcf9",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.544218,
+        "distance_surface_km": 3.329281,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "4cfa6bd0f2f17867",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.544218,
+        "distance_surface_km": 3.329281,
+        "start": "2025-02-18",
+        "end": "2025-02-22",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/07-33-037-28W4/0",
+      "licence": "0516327",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.222004,
+        "lon": -113.940919
+      },
+      "surface": {
+        "Well_Licence_Number": "0516327",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "11/18/2024",
+        "Ground_Elevation": 939.6,
+        "Spud_Date": "20241205",
+        "Most_Recent_Final_Drill_Date": "20241215",
+        "Energy_Devlpmt_Category_Type": "Multiwell Pad with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22212,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0516327",
+        "LicenceIssueDate": "2024-11-18",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-11-18",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "BOTH CROWN/FREEHOLD",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/nrcan-events.txt",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "NRCan-ca2025dscb-0515889",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "NRCan",
+      "id": "ca2025dscb",
+      "time": "2025-02-22T14:05:18.000Z",
+      "lat": 52.2112,
+      "lon": -113.9551,
+      "magnitude": 3.1,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dscb",
+        "Time": "2025-02-22T14:05:18.000Z",
+        "Latitude": "52.2112",
+        "Longitude": "-113.9551",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.1",
+        "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "a806730fbb29a03e",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.04062,
+        "distance_surface_km": 3.322029,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "951d62371ebaa59b",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.04062,
+        "distance_surface_km": 3.322029,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dscb",
+          "time": "2025-02-22T14:05:18.000Z",
+          "lat": 52.2112,
+          "lon": -113.9551,
+          "magnitude": 3.1,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dscb",
+            "Time": "2025-02-22T14:05:18.000Z",
+            "Latitude": "52.2112",
+            "Longitude": "-113.9551",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.1",
+            "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "0a1bd95056c481f2",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.04062,
+        "distance_surface_km": 3.322029,
+        "start": "2025-02-18",
+        "end": "2025-02-22",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/15-28-037-28W4/0",
+      "licence": "0515889",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.21484,
+        "lon": -113.941076
+      },
+      "surface": {
+        "Well_Licence_Number": "0515889",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "10/30/2024",
+        "Ground_Elevation": 939.5,
+        "Spud_Date": "20250117",
+        "Most_Recent_Final_Drill_Date": "20250128",
+        "Energy_Devlpmt_Category_Type": "Single Well with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22194,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0515889",
+        "LicenceIssueDate": "2024-10-30",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-10-30",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "ALBERTA CROWN",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/nrcan-events.txt",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "NRCan-ca2025dwzq-0516328",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "NRCan",
+      "id": "ca2025dwzq",
+      "time": "2025-02-25T06:32:36.000Z",
+      "lat": 52.2187,
+      "lon": -113.9586,
+      "magnitude": 3.76,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dwzq",
+        "Time": "2025-02-25T06:32:36.000Z",
+        "Latitude": "52.2187",
+        "Longitude": "-113.9586",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.76",
+        "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "367351b81dd0c9fd",
+        "uwi": "00/02-33-037-28W4/0",
+        "licence": "0516328",
+        "distance_bh_km": 1.204464,
+        "distance_surface_km": 2.884079,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "554815fc6f299ce9",
+        "uwi": "00/02-33-037-28W4/0",
+        "licence": "0516328",
+        "distance_bh_km": 1.204464,
+        "distance_surface_km": 2.884079,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/02-33-037-28W4/0",
+      "licence": "0516328",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.218475,
+        "lon": -113.94098
+      },
+      "surface": {
+        "Well_Licence_Number": "0516328",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "11/18/2024",
+        "Ground_Elevation": 939.5,
+        "Spud_Date": "20241228",
+        "Most_Recent_Final_Drill_Date": "20250113",
+        "Energy_Devlpmt_Category_Type": "Multiwell Pad with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22203,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0516328",
+        "LicenceIssueDate": "2024-11-18",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-11-18",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "BOTH CROWN/FREEHOLD",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/nrcan-events.txt",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "NRCan-ca2025dwzq-0516327",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "NRCan",
+      "id": "ca2025dwzq",
+      "time": "2025-02-25T06:32:36.000Z",
+      "lat": 52.2187,
+      "lon": -113.9586,
+      "magnitude": 3.76,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dwzq",
+        "Time": "2025-02-25T06:32:36.000Z",
+        "Latitude": "52.2187",
+        "Longitude": "-113.9586",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.76",
+        "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "9111012cf3507a23",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.263016,
+        "distance_surface_km": 2.88538,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "8b378926f83728df",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.263016,
+        "distance_surface_km": 2.88538,
+        "start": "2025-02-15",
+        "end": "2025-02-27",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "01397563ec91bcf9",
+        "uwi": "00/07-33-037-28W4/0",
+        "licence": "0516327",
+        "distance_bh_km": 1.263016,
+        "distance_surface_km": 2.88538,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/07-33-037-28W4/0",
+      "licence": "0516327",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.222004,
+        "lon": -113.940919
+      },
+      "surface": {
+        "Well_Licence_Number": "0516327",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "11/18/2024",
+        "Ground_Elevation": 939.6,
+        "Spud_Date": "20241205",
+        "Most_Recent_Final_Drill_Date": "20241215",
+        "Energy_Devlpmt_Category_Type": "Multiwell Pad with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22212,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0516327",
+        "LicenceIssueDate": "2024-11-18",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-11-18",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "BOTH CROWN/FREEHOLD",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/nrcan-events.txt",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  },
+  {
+    "packet_id": "NRCan-ca2025dwzq-0515889",
+    "classification": "indeterminate",
+    "not_a_violation_finding": true,
+    "event": {
+      "catalogue": "NRCan",
+      "id": "ca2025dwzq",
+      "time": "2025-02-25T06:32:36.000Z",
+      "lat": 52.2187,
+      "lon": -113.9586,
+      "magnitude": 3.76,
+      "magnitude_type": "ML",
+      "raw": {
+        "#EventID": "ca2025dwzq",
+        "Time": "2025-02-25T06:32:36.000Z",
+        "Latitude": "52.2187",
+        "Longitude": "-113.9586",
+        "Depth/km": "1",
+        "MagType": "ML",
+        "Magnitude": "3.76",
+        "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+      }
+    },
+    "records": [
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "a806730fbb29a03e",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.272377,
+        "distance_surface_km": 2.882812,
+        "start": "2025-02-15",
+        "end": "2025-02-28",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      },
+      {
+        "area": "RedDeer",
+        "event": {
+          "catalogue": "NRCan",
+          "id": "ca2025dwzq",
+          "time": "2025-02-25T06:32:36.000Z",
+          "lat": 52.2187,
+          "lon": -113.9586,
+          "magnitude": 3.76,
+          "magnitude_type": "ML",
+          "raw": {
+            "#EventID": "ca2025dwzq",
+            "Time": "2025-02-25T06:32:36.000Z",
+            "Latitude": "52.2187",
+            "Longitude": "-113.9586",
+            "Depth/km": "1",
+            "MagType": "ML",
+            "Magnitude": "3.76",
+            "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+          }
+        },
+        "job_id": "951d62371ebaa59b",
+        "uwi": "00/15-28-037-28W4/0",
+        "licence": "0515889",
+        "distance_bh_km": 1.272377,
+        "distance_surface_km": 2.882812,
+        "start": "2025-02-15",
+        "end": "2025-02-24",
+        "overlap": true,
+        "current_projected_formation": "DUVERNAY FM",
+        "current_terminating_formation": "DUVERNAY FM",
+        "classification": "indeterminate"
+      }
+    ],
+    "well": {
+      "uwi": "00/15-28-037-28W4/0",
+      "licence": "0515889",
+      "current_licensee": "Parallax Energy Operating Inc.",
+      "historic_identity_status": "current labels only; exact operator at event not yet established",
+      "bottomhole": {
+        "lat": 52.21484,
+        "lon": -113.941076
+      },
+      "surface": {
+        "Well_Licence_Number": "0515889",
+        "Licensee": "Parallax Energy Operating Inc.",
+        "Licence_Status": "Issued",
+        "Licence_Status_Date": "10/30/2024",
+        "Ground_Elevation": 939.5,
+        "Spud_Date": "20250117",
+        "Most_Recent_Final_Drill_Date": "20250128",
+        "Energy_Devlpmt_Category_Type": "Single Well with 0.00 mol/kmol H2S",
+        "SH_Actual_Latitude": 52.22194,
+        "SH_Actual_Longitude": -114.000452,
+        "Licence_Surface_Location_Label": "05-31-037-28W4"
+      },
+      "current_licence": {
+        "LicenceType": "WELL",
+        "LicenceNumber": "0515889",
+        "LicenceIssueDate": "2024-10-30",
+        "LicenceStatus": "ISSUED",
+        "LicenceStatusDate": "2024-10-30",
+        "Licensee": "A97L",
+        "LicenseeName": "PARALLAX ENERGY OPERATING INC.",
+        "LicenceLocation": "05-31-037-28W4",
+        "LicenceLegalSubdivision": "5",
+        "LicenceSection": "31",
+        "LicenceTownship": "37",
+        "LicenceRange": "28",
+        "LicenceMeridian": "4",
+        "DrillingOperationType": "HORIZONTAL",
+        "WellPurpose": "NEW WELL",
+        "WellLicenceType": "PRODUCTION",
+        "WellSubstance": "CRUDE OIL",
+        "ProjectedFormation": "DUVERNAY FM",
+        "TerminatingFormation": "DUVERNAY FM",
+        "ProjectedTotalDepth": "7100.000000000",
+        "AERClass": "DEVELOPMENT WELL",
+        "HeadLessor": "ALBERTA CROWN",
+        "WellCompletionType": "",
+        "TargetPool": "",
+        "OrphanWellFlg": "N"
+      }
+    },
+    "map_membership": {
+      "2": false,
+      "6.1": false,
+      "6.2": false,
+      "7.2": true,
+      "7.1": false
+    },
+    "missing": [
+      "actual stage interval/formation rather than licence target proxy",
+      "time-resolved pumping and stop logs",
+      "event magnitude/detection available at time",
+      "historical licensee confirmation",
+      "restart authorization if operations resumed"
+    ],
+    "ordinary_explanations": [
+      "job window includes time not pumping",
+      "work may have stopped promptly",
+      "later activity may have written authorization",
+      "reported date window can contain multiple stages with pauses"
+    ],
+    "source_refs": [
+      "sources/SummaryChemical-WaterUse.csv.gz",
+      "sources/nrcan-events.txt",
+      "sources/SO7.pdf",
+      "sources/ST37-excel.zip",
+      "sources/petrinex-well-license.zip"
+    ]
+  }
+]

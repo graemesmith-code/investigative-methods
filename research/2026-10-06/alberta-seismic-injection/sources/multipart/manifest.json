@@ -1,0 +1,51 @@
+[
+  {
+    "original": "sources/ST37-excel.zip",
+    "bytes": 183921877,
+    "sha256": "da4918f4900d2cd45e14963b19c73b4863d9851b25e769d19ccb6e6cbc63afdb",
+    "parts": [
+      {
+        "path": "sources/multipart/ST37-excel.zip.part000",
+        "bytes": 41943040,
+        "sha256": "17a7891ffd77a56f683ec55563d48b036f7599976566c891f18d4d016e58bb30"
+      },
+      {
+        "path": "sources/multipart/ST37-excel.zip.part001",
+        "bytes": 41943040,
+        "sha256": "2073e142ce6aa28a532eee913c1538dd586ea777655ff7eef594ff86f993426d"
+      },
+      {
+        "path": "sources/multipart/ST37-excel.zip.part002",
+        "bytes": 41943040,
+        "sha256": "84084ce47ff5429c2fda0776b73f6b15c5751c2df25df719d2e8de34c3469c5c"
+      },
+      {
+        "path": "sources/multipart/ST37-excel.zip.part003",
+        "bytes": 41943040,
+        "sha256": "8f3cf29aba7e9ac07572296b8dd5934c98455f4fe883dcadb001b80176b5fbde"
+      },
+      {
+        "path": "sources/multipart/ST37-excel.zip.part004",
+        "bytes": 16149717,
+        "sha256": "c9eba43973cf1c8db8f9831c2986e6bf4cc8a6be4b9d20d134883e351636ecb3"
+      }
+    ]
+  },
+  {
+    "original": "sources/order-shapes.zip",
+    "bytes": 64881188,
+    "sha256": "dd6c54b6829566d139004d54b6b967f05a2101e9f5da7e1e56b6e248aa8d6f71",
+    "parts": [
+      {
+        "path": "sources/multipart/order-shapes.zip.part000",
+        "bytes": 41943040,
+        "sha256": "5fa1573093d134d54f05da4a6d011da48efd5e172aae02928fb4f48d85043b99"
+      },
+      {
+        "path": "sources/multipart/order-shapes.zip.part001",
+        "bytes": 22938148,
+        "sha256": "8655b2c53cd030f2845f7a0be78b0b58cb325013a52969aa96aa3469669c6d22"
+      }
+    ]
+  }
+]

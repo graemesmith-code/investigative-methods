@@ -1,0 +1,31 @@
+{
+  "fields": [
+    "LicenceType",
+    "LicenceNumber",
+    "LicenceIssueDate",
+    "LicenceStatus",
+    "LicenceStatusDate",
+    "Licensee",
+    "LicenseeName",
+    "LicenceLocation",
+    "LicenceLegalSubdivision",
+    "LicenceSection",
+    "LicenceTownship",
+    "LicenceRange",
+    "LicenceMeridian",
+    "DrillingOperationType",
+    "WellPurpose",
+    "WellLicenceType",
+    "WellSubstance",
+    "ProjectedFormation",
+    "TerminatingFormation",
+    "ProjectedTotalDepth",
+    "AERClass",
+    "HeadLessor",
+    "WellCompletionType",
+    "TargetPool",
+    "OrphanWellFlg"
+  ],
+  "rows": 528761,
+  "retained": 9940
+}

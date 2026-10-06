@@ -1,0 +1,183 @@
+[
+  {
+    "area": "FoxCreek",
+    "catalogue": "AGS",
+    "id": "9283439",
+    "time": "2024-03-22T22:26:29Z",
+    "lat": 54.343,
+    "lon": -117.336,
+    "magnitude": 4.04,
+    "magnitude_type": "MLy",
+    "raw": {
+      "object_id": 9283439,
+      "Datetime_UTC": "2024-03-22 22:26:29",
+      "Datetime_MT": "2024-03-22 16:26:29",
+      "Latitude": 54.343,
+      "Longitude": -117.336,
+      "Depth_km": 4,
+      "Depth_type": "f",
+      "Earthquake_type": "KI",
+      "MLy": 4.04,
+      "ML": null,
+      "M": 4.1,
+      "Mw": null,
+      "EDGE_Id": 426219,
+      "Location": "35 km W of Fox Creek AB",
+      "Algorithm": "GENLOC"
+    }
+  },
+  {
+    "area": "FoxCreek",
+    "catalogue": "AGS",
+    "id": "9288837",
+    "time": "2024-08-24T12:50:09Z",
+    "lat": 54.4756,
+    "lon": -117.4412,
+    "magnitude": 4.71,
+    "magnitude_type": "MLy",
+    "raw": {
+      "object_id": 9288837,
+      "Datetime_UTC": "2024-08-24 12:50:09",
+      "Datetime_MT": "2024-08-24 06:50:09",
+      "Latitude": 54.4756,
+      "Longitude": -117.4412,
+      "Depth_km": 5,
+      "Depth_type": "f",
+      "Earthquake_type": "SI",
+      "MLy": 4.71,
+      "ML": null,
+      "M": null,
+      "Mw": null,
+      "EDGE_Id": null,
+      "Location": "33 km SSW of Little Smoky AB",
+      "Algorithm": "GENLOC"
+    }
+  },
+  {
+    "area": "RedDeer",
+    "catalogue": "AGS",
+    "id": "9289976",
+    "time": "2025-02-25T06:32:35Z",
+    "lat": 52.2195,
+    "lon": -113.9607,
+    "magnitude": 3.12,
+    "magnitude_type": "MLy",
+    "raw": {
+      "object_id": 9289976,
+      "Datetime_UTC": "2025-02-25 06:32:35",
+      "Datetime_MT": "2025-02-24 23:32:35",
+      "Latitude": 52.2195,
+      "Longitude": -113.9607,
+      "Depth_km": 3,
+      "Depth_type": "f",
+      "Earthquake_type": "KI",
+      "MLy": 3.12,
+      "ML": null,
+      "M": 3.25,
+      "Mw": null,
+      "EDGE_Id": 438049,
+      "Location": "2 km W of Mintlaw AB",
+      "Algorithm": "GENLOC"
+    }
+  },
+  {
+    "area": "RedDeer",
+    "catalogue": "NRCan",
+    "id": "ca2025dwzq",
+    "time": "2025-02-25T06:32:36.000Z",
+    "lat": 52.2187,
+    "lon": -113.9586,
+    "magnitude": 3.76,
+    "magnitude_type": "ML",
+    "raw": {
+      "#EventID": "ca2025dwzq",
+      "Time": "2025-02-25T06:32:36.000Z",
+      "Latitude": "52.2187",
+      "Longitude": "-113.9586",
+      "Depth/km": "1",
+      "MagType": "ML",
+      "Magnitude": "3.76",
+      "EventLocationName": "Suspected industry-related event, 12 km WSW of Red Deer, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie soupconn\u00e9, 12 km OSO de Red Deer, AB"
+    }
+  },
+  {
+    "area": "RedDeer",
+    "catalogue": "NRCan",
+    "id": "ca2025dscb",
+    "time": "2025-02-22T14:05:18.000Z",
+    "lat": 52.2112,
+    "lon": -113.9551,
+    "magnitude": 3.1,
+    "magnitude_type": "ML",
+    "raw": {
+      "#EventID": "ca2025dscb",
+      "Time": "2025-02-22T14:05:18.000Z",
+      "Latitude": "52.2112",
+      "Longitude": "-113.9551",
+      "Depth/km": "1",
+      "MagType": "ML",
+      "Magnitude": "3.1",
+      "EventLocationName": "12 km WSW of Red Deer, AB/12 km OSO de Red Deer, AB"
+    }
+  },
+  {
+    "area": "FoxCreek",
+    "catalogue": "NRCan",
+    "id": "ca2024ftse",
+    "time": "2024-03-22T22:26:31.000Z",
+    "lat": 54.3437,
+    "lon": -117.3408,
+    "magnitude": 4.36,
+    "magnitude_type": "ML",
+    "raw": {
+      "#EventID": "ca2024ftse",
+      "Time": "2024-03-22T22:26:31.000Z",
+      "Latitude": "54.3437",
+      "Longitude": "-117.3408",
+      "Depth/km": "5.3",
+      "MagType": "ML",
+      "Magnitude": "4.36",
+      "EventLocationName": "Industry-related event, 35 km W of Fox Creek, AB/\u00c9v\u00e9nement li\u00e9 \u00e0 l'industrie, 35 km O de Fox Creek, AB"
+    }
+  },
+  {
+    "area": "FoxCreek",
+    "catalogue": "NRCan",
+    "id": "20220917.1914001",
+    "time": "2022-09-17T19:14:57.000Z",
+    "lat": 54.294,
+    "lon": -117.6397,
+    "magnitude": 4.04,
+    "magnitude_type": "ML",
+    "raw": {
+      "#EventID": "20220917.1914001",
+      "Time": "2022-09-17T19:14:57.000Z",
+      "Latitude": "54.294",
+      "Longitude": "-117.6397",
+      "Depth/km": "4.39",
+      "MagType": "ML",
+      "Magnitude": "4.04",
+      "EventLocationName": "55 km W of Fox Creek, AB/55 km O de Fox Creek, AB"
+    }
+  },
+  {
+    "area": "RedDeer",
+    "catalogue": "NRCan",
+    "id": "20210312.0745001",
+    "time": "2021-03-12T07:45:23.000Z",
+    "lat": 51.9881,
+    "lon": -113.8407,
+    "magnitude": 3.0,
+    "magnitude_type": "ML",
+    "raw": {
+      "#EventID": "20210312.0745001",
+      "Time": "2021-03-12T07:45:23.000Z",
+      "Latitude": "51.9881",
+      "Longitude": "-113.8407",
+      "Depth/km": "1",
+      "MagType": "ML",
+      "Magnitude": "3",
+      "EventLocationName": "28 km NE of Olds, AB/28 km NE de Olds, AB"
+    }
+  }
+]

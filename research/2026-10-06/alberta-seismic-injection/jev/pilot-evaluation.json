@@ -1,0 +1,40 @@
+[
+  {
+    "id": "C01-inclusive-threshold-stop",
+    "probabilities": [
+      0.92,
+      0.05,
+      0.28
+    ],
+    "expected": [
+      true,
+      false,
+      false
+    ],
+    "predicted": [
+      true,
+      false,
+      false
+    ],
+    "all_correct": true
+  },
+  {
+    "id": "C02-monthly-volume-trap",
+    "probabilities": [
+      0.11,
+      0.03,
+      0.82
+    ],
+    "expected": [
+      false,
+      false,
+      false
+    ],
+    "predicted": [
+      false,
+      false,
+      true
+    ],
+    "all_correct": false
+  }
+]

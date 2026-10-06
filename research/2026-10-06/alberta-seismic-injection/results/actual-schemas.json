@@ -1,0 +1,232 @@
+{
+  "fracture_columns": [
+    "Well_Licence_Number",
+    "Last_Submission_Date",
+    "Licensee",
+    "field_centre",
+    "UWI",
+    "Well_Name",
+    "Number_Of_Stages",
+    "Bottom_Hole_Latitude",
+    "Bottom_Hole_Longitude",
+    "Production_Fluid_Type",
+    "Max_True_Vertical_Depth",
+    "Total_Water_Volume",
+    "Start_Date",
+    "End_Date",
+    "Component_Type",
+    "Component_Trade_Name",
+    "Component_Quantity_UOM",
+    "Total_Component_Volume_or_Weight",
+    "Component_Supplier_Name",
+    "Additive_Purpose",
+    "Ingredient_Name",
+    "CAS#_HMIRC#",
+    "Concentration_Component",
+    "Concentration_HFF"
+  ],
+  "earthquake_fields": [
+    {
+      "name": "object_id",
+      "type": "esriFieldTypeOID",
+      "alias": "object_id",
+      "sqlType": "sqlTypeInteger",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Datetime_UTC",
+      "type": "esriFieldTypeString",
+      "alias": "Datetime_UTC",
+      "sqlType": "sqlTypeTimestamp2",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Origin time in Universal Coordinated Time\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Datetime_MT",
+      "type": "esriFieldTypeString",
+      "alias": "Datetime_MT",
+      "sqlType": "sqlTypeTimestamp2",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Origin time in Mountain Standard Time / Mountain Daylight Time\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Latitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "Latitude",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Geographical latitude in decimal degrees\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Longitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "Longitude",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Geographical longitude in decimal degrees\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Depth_km",
+      "type": "esriFieldTypeDouble",
+      "alias": "Depth_km",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Depth of earthquake in kilometers beneath the surface\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Depth_type",
+      "type": "esriFieldTypeString",
+      "alias": "Depth_type",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Depth type; whether the earthquake depth was fixed (g) or free (f) in the calculation\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Earthquake_type",
+      "type": "esriFieldTypeString",
+      "alias": "Earthquake_type",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Earthquake type: known induced (KI), suspected induced (SI), suspected (naturally-occurring) earthquake (SE), or under assessment (UA)\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "MLy",
+      "type": "esriFieldTypeDouble",
+      "alias": "MLy",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Local magnitude calculated using Yenier's correction\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "ML",
+      "type": "esriFieldTypeDouble",
+      "alias": "ML",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Local magnitude\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "M",
+      "type": "esriFieldTypeDouble",
+      "alias": "M",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Magnitudes reported by industry\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Mw",
+      "type": "esriFieldTypeDouble",
+      "alias": "Mw",
+      "sqlType": "sqlTypeFloat",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Moment magnitude\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "EDGE_Id",
+      "type": "esriFieldTypeInteger",
+      "alias": "EDGE_Id",
+      "sqlType": "sqlTypeInteger",
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Reference ID assigned to the incident report received by the Government of Alberta response centre (EDGE report)\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Location",
+      "type": "esriFieldTypeString",
+      "alias": "Location",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Distance and direction of event from nearest city, town, or settlement\",\"fieldValueType\":\"\"}"
+    },
+    {
+      "name": "Algorithm",
+      "type": "esriFieldTypeString",
+      "alias": "Algorithm",
+      "sqlType": "sqlTypeNVarchar",
+      "length": 256,
+      "domain": null,
+      "defaultValue": null,
+      "description": "{\"value\":\"Algorithm used to calculate earthquake location: generalized earthquake-location (GENLOC) or the double-difference earthquake location (HYPODD) method\",\"fieldValueType\":\"\"}"
+    }
+  ],
+  "order_fields": [
+    [
+      "DeletionFlag",
+      "C",
+      1,
+      0
+    ],
+    [
+      "OBJECTID",
+      "N",
+      10,
+      0
+    ],
+    [
+      "Order_Numb",
+      "C",
+      50,
+      0
+    ],
+    [
+      "Order_Name",
+      "C",
+      50,
+      0
+    ],
+    [
+      "Strat_Unit",
+      "C",
+      50,
+      0
+    ],
+    [
+      "Colour_RGB",
+      "C",
+      50,
+      0
+    ],
+    [
+      "Board_Orde",
+      "C",
+      150,
+      0
+    ],
+    [
+      "Subsurface",
+      "N",
+      5,
+      0
+    ],
+    [
+      "Shape_STAr",
+      "F",
+      19,
+      11
+    ],
+    [
+      "Shape_STLe",
+      "F",
+      19,
+      11
+    ]
+  ]
+}

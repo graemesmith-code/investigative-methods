@@ -1,0 +1,500 @@
+                                              Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+
+                           Learning Aid:
+                    Alberta Public Data – Well
+                     Infrastructure Download
+
+
+
+
+                                                                 Updated: September, 2022
+
+
+
+THIS MATERIAL IS CONFIDENTIAL AND SHALL NOT BE USED FOR ANY OTHER PURPOSE OR
+DISCLOSED TO ANY OTHER PARTY WITHOUT PRIOR APPROVAL BY PETRINEX.
+
+
+
+
+                                         1
+                                            Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+                                Change Log
+      Date                 Section                               Changes
+September, 2022   Data Field Table           New Orphan Well Flag
+March, 2022       Throughout Document        Cleanup and re-format of document
+January, 2022     Throughout Document        Cleanup and re-format of document
+
+
+
+
+                                        2
+                                                                        Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+                                              Table of Contents
+Introduction................................................................................................................... 4
+Scheduling and Timing ................................................................................................. 4
+Downloads.................................................................................................................... 5
+Data Fields ................................................................................................................... 6
+Open and Save CSV Document as Excel Spreadsheet ............................................. 11
+Glossary Terms .......................................................................................................... 12
+
+
+
+
+                                                                 3
+                                                   Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+The goal of this document is to provide information on the Alberta well infrastructure
+downloads accessed from the Petrinex Alberta Public Data page.
+
+Introduction
+
+Alberta non-confidential well information referenced in this document can be accessed
+by the public through the Alberta Public Data Access link on the Petrinex web site.
+
+The current status of all the Alberta wells in Petrinex as of the file creation date will be
+included in the downloadable files. The well information in this extract has had well data
+protection rules applied.
+
+Note: If users require a Saskatchewan well infrastructure output file, they are required to
+access the Saskatchewan Public Data Access link on the Petrinex web site.
+
+
+
+Scheduling and Timing
+The Alberta well infrastructure files are created nightly and available for public
+downloading the next morning. When a well is changed from non-confidential to
+confidential the files will be recreated immediately.
+
+During the re-creating process, the “Updated Date” column on the Alberta Public Data
+Access page for the file will be changed to “Refreshing…”. When the process is finished,
+the “Updated Date” will be updated to the file creation date.
+
+
+
+
+When the well is linked to more than one facility:
+   There will be multiple rows in the CSV extract.
+   For XML format the linked facility fields and commingled well fields will be
+     repeated.
+
+
+
+
+                                              4
+                                                      Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+Downloads
+This data download is available from the Alberta Public Data Access web page in
+Comma-Separated Value (CSV) and Extensible Markup Language (XML) formats.
+Select the desired report, choose a file format and click the “Download” button to obtain
+the download.
+
+Petrinex functionality allows users to request this report using a separate API address
+rather than the “download” process. Your report request should follow the following
+criteria:
+
+https:// www.petrinex.gov.ab.ca/publicdata/API/Files/{Jurisdiction}/Infra/{FileName}/{FileFormat}
+
+Examples:
+       https:// www.petrinex.gov.ab.ca/publicdata/API/Files/AB/Infra/Well%20Infrastructure/CSV
+
+       https:// www.petrinex.gov.ab.ca/publicdata/API/Files/AB/Infra/Well%20Infrastructure/XML
+
+Note: The report results will be the same no matter which of the request processes you
+use.
+
+Users downloading reports for personal use should request the CSV format. This format
+can be imported to and exported from programs that store data in tables, such as
+Microsoft Excel. For further information on creating an excel spreadsheet from CSV see
+the section below titled “Open and Save CSV Document as Excel Spreadsheet”.
+
+Users downloading the data to upload into other systems should request the XML
+format. This format shares both the format and the data using standard ASCII text. An
+XML format is similar to HTML.
+
+
+
+
+                                                5
+                                                         Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+Data Fields
+
+
+Data Element Name           Data Type   Length   Description                                      Data Protection
+
+
+                                                 The Province/State, Node type and
+Well ID                     String      20
+                                                 Unique identifier of the Well
+
+Well Province/State         String      2        Well Province/State for the well
+
+Well Type                   String      2        Well Type for the well (always WI)
+
+Well Identifier             String      20       Unique identifier for the well
+
+                                                 The DLS Legal Location Exception
+Well Location Exception     String      2
+                                                 designation for the well.
+                                                 The DLS Legal Subdivision designation for
+Well Legal Subdivision      String      2
+                                                 the well.
+Well Section                String      2        The DLS Section designation for the well.
+                                                 The DLS Township designation for the
+Well Township               String      3
+                                                 well.
+Well Range                  String      2        The DLS Range designation for the well.
+                                                 The DLS Meridian designation for the
+Well Meridian               String      2
+                                                 well.
+                                                 The DLS Event Sequence designation for
+Well Event Sequence         String      1
+                                                 the well.
+Well Name                   String      66       The name of the well
+                                                 Type of confidentiality assigned to the
+                                                 well. Non-Confidential, Confidential or
+Confidential Type           String      60       Confidential below. Well confidentiality
+                                                 applies to both infrastructure and
+                                                 volumetric data.
+                                                 Experimental confidential Indicator (Y/N).
+Experimental Confidential
+                            String      1        Experimental confidentiality applies to
+Indicator
+                                                 volumetric data only.
+                                                 Experimental confidential Effective date
+Experimental Confidential                        (YYYY-MM-DD), if applicable.
+                            Date        10
+Effective Date                                   Experimental confidentiality applies to
+                                                 volumetric data only.
+                                                 Experimental confidential Termination
+Experimental Confidential                        date (YYYY-MM-DD), if applicable.
+                            Date        10
+Termination Date                                 Experimental confidentiality applies to
+                                                 volumetric data only.
+Licence Type                String      20       Type of Licence. “WELL”.
+
+                                                  6
+                                                            Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+
+Data Element Name              Data Type   Length   Description                                      Data Protection
+
+
+                                                    The Unique number identifying the
+Licence Number                 String      9
+                                                    licence that the well id has been assigned.
+                                                    The Province/State, Node Type and
+Linked Facility ID             String      20
+                                                    Unique identifier of the Linked Facility.
+Linked Facility
+                               String      2        Province/State for linked Facility
+Province/State
+Linked Facility Type           String      2        Type for linked Facility
+Linked Facility Identifier     String      20       Unique identifier for linked Facility
+Linked Facility Name           String      60       Facility Name of the linked facility
+Linked Facility SubType        String      3        Current linked Facility sub type number
+                                                    Current linked Facility sub type
+Linked Facility SubType Desc   String      60
+                                                    description
+                                                    Date (YYYY-MM-DD) well to facility link
+Linked Start Date              Date        10
+                                                    started
+Linked Facility Operator BA
+                               String      20       Operator ID (Code) of the operator
+ID
+Linked Facility Operator                            The Operator's Legal Name for the BA
+                               String      150
+Legal Name                                          Legend report
+Field                          String      12       Unique Identifier for the field
+Field Name                     String      60       Name of the field
+Area                           String      12       Unique identifier for the area
+Area Name                      String      60       Name of the area
+                                                                                                     Masked for
+                                                    Unique Identifier for the pool or deposit
+                                                                                                     Confidential or
+Pool-Deposit                   String      12       in which the well event is producing or
+                                                                                                     Confidential
+                                                    injecting
+                                                                                                     Below well
+                                                                                                     Masked for
+                                                                                                     Confidential or
+Pool-Deposit Name              String      60       Name of the pool or deposit
+                                                                                                     Confidential
+                                                                                                     Below well
+                                                                                                     Masked for
+                                                                                                     Confidential or
+Pool/Deposit Density           Decimal     (9,1)    The density in kg/m3 of the Pool
+                                                                                                     Confidential
+                                                                                                     Below well
+                                                    Abbreviation of the primary fluid
+Well Status Fluid              String      12
+                                                    produced by the well event.
+                                                    Abbreviation of the mode of operation for
+Well Status Mode               String      12       the well event.(Examples include
+                                                    flowing, pumping etc.)
+
+
+
+                                                     7
+                                                          Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+
+Data Element Name            Data Type   Length   Description                                      Data Protection
+
+
+                                                  Abbreviation of the purpose of the well
+Well Status Type             String      12       event. Examples include production,
+                                                  injection, etc.)
+                                                  Abbreviation of the structure of the well
+                                                  event. If the well is capable of production
+                                                  from more than one zone, each well
+Well Status Structure        String      12       event will be assigned a structure code
+                                                  indicating that more than one zone has
+                                                  been completed or whether those zones
+                                                  have been commingled.
+                                                  The code of the primary fluid produced by
+Well Status Fluid Code       String      2
+                                                  the well event
+                                                  The code of the mode of operation for
+Well Status Mode Code        String      2
+                                                  the well event.
+                                                  The code of the purpose of the well
+Well Status Type Code        String      2
+                                                  event.
+                                                  A code to represent the structure of the
+                                                  well event. If the well is capable of
+                                                  production from more than one zone,
+Well Status Structure Code   String      2        each well event will be assigned a
+                                                  structure code indicating that more than
+                                                  one zone has been completed or whether
+                                                  those zones have been commingled.
+                                                  Date (YYYY-MM-DD) new well status
+Well Status Date             Date        10
+                                                  became effective
+                                                  Date (YYYY-MM-DD) that the drilling
+                                                  operations commenced with the
+Spud Date                    Date        10
+                                                  intention to drill the well to the projected
+                                                  total depth.
+                                                  The direction of the drilling operation of
+Horizontal Drill             String      20       the well (horizontal, directional or
+                                                  vertical)
+                                                  Date (YYYY-MM-DD) that the drilling
+Finished Drill Date          Date        10       operations to reach the total depth for
+                                                  the well were completed.
+                                                  The depth as measured along the well
+Final Total Depth            Decimal     (22,9)
+                                                  path to the bottom of the well.
+                                                  The maximum true vertical depth from
+                                                  the surface to the final total depth or
+Max True Vertical Depth      Decimal     (22,9)
+                                                  deepest point, measured on a straight
+                                                  line.
+Volumetric Gas Well Liquid                        The type of liquid hydrocarbon that is
+                             String      60
+Type                                              produced by this well event if it is
+
+                                                   8
+                                                          Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+
+Data Element Name            Data Type   Length   Description                                      Data Protection
+
+
+                                                  classified as a gas well. These liquids are
+                                                  typically classified as Oil or Condensate.
+Volumetric Gas Well Liquid                        Volumetric Gas Well Liquid effective date
+                             Date        10
+Effective Date                                    (YYYY-MM-DD)
+                                                  A code that uniquely identifies the
+Licensee ID                  String      20       business associate of the current well
+                                                  licensee.
+                                                  The name of the business associate for
+Licensee Name                String      150
+                                                  the current well licensee.
+Commingling Process                               Approval number of the commingling
+                             String      10
+Approval Number                                   well.
+                                                  The reporting well commingling process
+Commingling Process          String      20
+                                                  associated with a well event.
+                                                  The date (YYYY-MM-DD) in which
+Commingling Eff. Date        Date        10
+                                                  commingling process became effective.
+Commingled Reporting Well                         The Province/State, Node type and
+                             String      20
+ID                                                Unique identifier of the Reporting Well.
+Commingled Reporting Well                         Well Province/State for the commingled
+                             String      2
+Province/State                                    Reporting well (always AB)
+Commingled Reporting Well                         Well Type for the commingled Reporting
+                             String      2
+Type                                              well (always WI)
+Commingled Reporting Well                         Unique identifier for the commingled
+                             String      20
+Identifier                                        Reporting well
+Commingled Linked Facility                        The Province/State, Node type and
+                             String      20
+ID                                                Unique identifier of the linked facility.
+Commingled Linked Facility                        Province/State for Commingled Linked
+                             String      2
+Province/State                                    Facility (always AB)
+Commingled Linked Facility
+                             String      2        Type for Commingled Linked Facility
+Type
+Commingled Linked Facility                        Unique identifier for Commingled Linked
+                             String      20
+Identifier                                        Facility
+                                                  The allowable type describes whether the
+                                                  well is subject to allowable surveillance
+Allowable Type               String      60
+                                                  and, if so, what type of allowable is used
+                                                  as the basis of the calculation.
+                                                  The number that uniquely identifies a
+                                                  production block within a pool. Blocks are
+Block Number                 String      3
+                                                  used for administering production
+                                                  allowables.
+
+
+
+
+                                                   9
+                                                         Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+
+ Data Element Name          Data Type   Length   Description                                      Data Protection
+
+
+                                                 Description of recovery mechanism
+ Recovery Mechanism
+                            String      60       unique to the pool assigned to the well
+ Type
+                                                 event
+ Licence Issue Date         Date        10       Date the licence was issued.
+ Licence Status Date        Date        10       Current licence status date
+ Licence Status             String      20       Current licence status
+                                                 The previous well ID assigned to the well
+ Previous Well identifier   String      20
+                                                 if any.
+                                                 ‘Y’ or ‘N’ value. Derived from the facility
+                                                 licence. If ‘Y’, the facility licence is
+ Orphan Well Flag           String      1
+                                                 designated to the Orphan Well
+                                                 Association (OWA). (SEE NOTE BELOW)
+
+Note: In cases where no facility/well licence is linked to a reporting facility/well code, the “Orphan
+Well Association” field will be omitted from Petrinex screens, in the associated reports the new
+field will be will be blank.
+
+
+
+
+                                                  10
+                                                   Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+Open and Save CSV Document as Excel Spreadsheet
+If you have selected the Well Infrastructure Report and your download format is CSV,
+you should save your report to an appropriate folder. Click the “arrow” beside the “Save
+As” option to save this report to the selected folder.
+
+
+
+
+Note: The file that you save will be a zipped file (.zip). When you click on the file name it
+will open the zip file and present the requested report(s) which you will need to save to
+directory folder you have access to.
+
+When you open your csv report, you will notice that all of the preceding zero’s in any of
+the data has been lost. Example BA Code 0123 would show as 123, Facility Identifier
+0000123 would show as 123. You need to create a worksheet in text in order to sort and
+filter your report as necessary.
+
+           a. Open a new Excel worksheet, and click on Data to import your saved
+              report into this new worksheet.
+           b. Click From Text to open the Import Text file window
+           c. Highlight the document that you previously saved and click Import.
+           d. This opens the Text Import Wizard:
+              1. Click the radio button – Delimited and click Next
+              2. Change the radio button under Delimiters from Tab to Comma and
+                  click Next.
+              3. You will want to change all of the columns to be Text rather than
+                  General. To do this – Hold down the Shift Key and using the scroll bar
+                  on the bottom bring it as far to the right as you can. This will highlight
+                  all of the columns.
+              4. Click the radio button Text
+              5. Click Finish
+              6. You are now asked where you want to put the data? Click the radio
+                  button – Existing Worksheet and click OK.
+              7. Save the new worksheet as a .XLSX or .XLS file.
+
+
+
+
+                                             11
+                                                  Learning Aid: AB Public Data - Well Infrastructure Download
+
+
+
+Glossary Terms
+
+AER: Alberta Energy Regulator (Website: http://aer.ca/)
+
+
+CONFIDENTIALITY: Well confidentiality, which may also be referred to as geological (geo)
+or licensed confidentiality, protects the geological and stratigraphic information.
+
+      CONFIDENTIAL: If the well is outside the limits of AER-designated pools (formerly
+       known as G orders) or inside the boundaries of an existing AER-designated
+       confidential pool.
+
+      CONFIDENTIAL BELOW: Assigned when one or more uphole zones penetrated by
+       the well is inside an AER-designated nonconfidential pool. The “confidential below”
+       formation name is the name of the deepest designated pool the well penetrates.
+
+      NON-CONFIDENTIAL: When the well terminates in or just below an AER-
+       designated nonconfidential pool and is targeting that pool. If the well type and
+       substance are production of crude bitumen in an oil sands area, the well is also
+       nonconfidential.
+
+
+ORPHAN WELL ASSOCIATION (OWA): The OWA is an industry-funded not-for-profit
+organization that safely closes orphaned assets. When there is no legally responsible party
+to look after an asset, the AER may designate it an orphan. The responsibility for the
+orphaned asset is then transferred to the OWA. More information about the OWA.
+
+
+PUBLIC DATA: Also known as “non-operator data” refers to Petrinex data available to
+non-operators in Petrinex.
+
+
+
+
+                                            12
+
