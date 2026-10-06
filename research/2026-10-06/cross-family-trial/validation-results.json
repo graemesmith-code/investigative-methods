@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "checks": [
+    "nine frozen file hashes unchanged",
+    "55 unique primary IDs and15zero-weight refinement records",
+    "six family-diverse high and three seeded49-pool random reproduce",
+    "exactly nine frozen outcomes, no substitutions",
+    "honest outcomes and49charged attempts",
+    "case costs match and at most12each",
+    "logged spans plus60second uncertainty below900",
+    "no paid spend or administration counted as retrieval",
+    "saved HTTP body hashes and limits",
+    "TLS validation preserved and capped bodies unsaved",
+    "EPA false join detected",
+    "CIA PDF-named response is not PDF"
+  ],
+  "limits": "Consistency tests do not certify source truth, selection eligibility or substantive legal conclusions."
+}

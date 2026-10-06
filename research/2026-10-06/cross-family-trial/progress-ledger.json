@@ -1,0 +1,24 @@
+{
+  "freeze_commit": "c6157582afeab0c7927af086eda39ffaa0dd6de8",
+  "cases_closed": 9,
+  "status_counts": {
+    "indeterminate": 7,
+    "blocked": 2
+  },
+  "retrieval_attempts": 49,
+  "full_tests_completed": 0,
+  "surviving_leads": 0,
+  "falsified_leads": 0,
+  "limited_null_subchecks": [
+    "R01",
+    "N04"
+  ],
+  "weekly_usage_meter_available": false,
+  "last_user_report": {
+    "remaining_percent": 76,
+    "reported_utc": "2026-10-06 13:38"
+  },
+  "paid_external_cost": 0,
+  "no_new_paid_calls": true,
+  "remaining_work": "No first-pass cases remain. Second-stage selector/cap/schema repairs are proposals, not executed or substituted into these results."
+}
