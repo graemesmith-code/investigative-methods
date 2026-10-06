@@ -1,3 +1,17 @@
+# Resumed checkpoint
+
+The corpus and original analysis were pushed to private main at 36045a11a42e3bd463064602252fc151dda60c9f. The Jev repair was committed separately as 56115b1; the final response records the latest verified remote commit.
+
+`scripts/jev_v2.py` ran 12 new synthetic controls using the SAME cumulative ledger: 14 total successful calls, estimated US$0.000415, zero pending reservations and no other paid calls. Original failed control remains in `jev/C02-monthly-volume-trap.request.json` and `.response.json`; original ledger is archived as `jev/v1-ledger.json`.
+
+See `jev/METHOD-REPAIR.md` and `jev/v2/evaluation.json`. At an illustrative 0.5 cutoff, 34/36 atomic answers matched fixture labels, and 10/12 full fixtures matched. This is not a calibrated performance estimate. Explicit continuous pumping was missed in S03 and S10. Three-way deterministic gates now preserve abstention as null/indeterminate; the original derived gates are archived. No further API calls were needed for that correction. The 12 existing offline checks still pass, with the original cost check now using v1-ledger.json. Add checks for v2 and total accounting during final review.
+
+The extended data result is 2,692 surface-or-bottomhole reporting records across 1,328 UWIs. Two candidate physical events overlap date windows at three wells. Nine catalogue-event-well packets preserve agency differences, not nine discoveries. All remain indeterminate.
+
+Remaining: independent review; optional real evidence-gap ranking only, never accusation or compliance scoring; final report and technical annex; reproducibility and hash inventory; Library bundle; final remote verification. No raw-data change since the detailed checkpoint below. Preserve the live ledger and do not reset or replay paid calls.
+
+---
+
 # Handoff checkpoint — 2026-10-06, approximately 21:33 UTC
 
 Parent explicitly requested this checkpoint turn end so it can observe progress and resume. **Experiment is not finished or pushed.** Environment `/workspace/investigative-methods` is usable, branch `work`, HEAD and origin/main both `a92de4d1f5be5d9cfa0316ee3b8fa5aafe79085f`. No AGENTS.md or local skill instructions were found; `/workspace/.agents` was empty. All changes are new files under this experiment; earlier work untouched. No subagents spawned.
