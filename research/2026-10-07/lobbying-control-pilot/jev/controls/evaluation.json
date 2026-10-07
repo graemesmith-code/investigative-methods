@@ -1,0 +1,50 @@
+[
+  {
+    "id": "K01-later-ownership",
+    "expected": false,
+    "score": 0.05,
+    "passed": true
+  },
+  {
+    "id": "K02-alternative-trigger",
+    "expected": true,
+    "score": 0.91,
+    "passed": true
+  },
+  {
+    "id": "K03-updates",
+    "expected": false,
+    "score": 0.18,
+    "passed": true
+  },
+  {
+    "id": "K04-different-person",
+    "expected": false,
+    "score": 0.05,
+    "passed": true
+  },
+  {
+    "id": "K05-funding",
+    "expected": false,
+    "score": 0.06,
+    "passed": true
+  },
+  {
+    "id": "K06b-atomic-ownership",
+    "expected": true,
+    "score": 0.9,
+    "passed": true
+  },
+  {
+    "id": "K07-injection",
+    "expected": false,
+    "score": 0.09,
+    "passed": true
+  },
+  {
+    "id": "K08-state-owned",
+    "expected": false,
+    "score": 0.11,
+    "passed": true
+  }
+]

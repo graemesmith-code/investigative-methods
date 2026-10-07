@@ -1,0 +1,10 @@
+{
+  "model": "jev-1.13.0",
+  "state": "Fictional FARA client is Ministry of Finance X. LDA client is independent Charity X. Shared country only.",
+  "questions": {
+    "check": {
+      "type": "noul",
+      "instructions": "Do the records establish the same legal client?"
+    }
+  }
+}

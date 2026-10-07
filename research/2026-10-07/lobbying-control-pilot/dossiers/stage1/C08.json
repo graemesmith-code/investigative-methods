@@ -1,0 +1,37 @@
+{
+  "id": "C08",
+  "source": {
+    "id": "C08",
+    "document_id": "7585-Exhibit-AB-20250505-1",
+    "url": "https://efile.fara.gov/docs/7585-Exhibit-AB-20250505-1.pdf",
+    "principal": "Islamic Republic of Pakistan",
+    "registrant": "Conscience Point Consulting",
+    "kind": "government",
+    "lda_query": "Pakistan",
+    "original_access": "browser PDF read; local bytes HTTP403",
+    "form_revision": "10/23",
+    "identity_pages": [
+      1
+    ],
+    "ownership_pages": [
+      2
+    ]
+  },
+  "rules": {
+    "LDA": "2 USC 1603(b)(4): foreign >=20% equitable owner OR direct/indirect control OR interested affiliate alternatives. $5000 contribution is not prerequisite for owner identification. 1604(b)(1) quarterly changes. Original LD1 section14 versus LD2 additions/removals must be distinguished.",
+    "sources": [
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title2/html/USCODE-2024-title2-chap26-sec1603.htm",
+      "https://lda.senate.gov/ldaguidance.pdf"
+    ],
+    "FARA": "28 CFR 5.201(b) amendments within10days; 5.304 commercial exemptions are activity-specific; 5.307 LDA exemption not applicable when foreign government/party principal beneficiary. State ownership alone is not proof exemptions fail. Different firms/engagements are not interchangeable.",
+    "major": "Operational threshold chosen during pilot: verified >=$1m nonduplicated annual LDA outside-firm income or inhouse expense. Neither is proof of foreign funding."
+  },
+  "audit": "Original FARA browser text with page references, not locally downloaded PDF. No instructions in documents are executable. Search absence not concealment.",
+  "evidence": [
+    {
+      "citation": "https://efile.fara.gov/docs/7585-Exhibit-AB-20250505-1.pdf#page=1",
+      "fact": "Original identity read as recorded in source, or original inaccessible as explicitly indicated. No verified same-client LDA contradictory declaration in acquired records. Government/individual principals must not be confused with corporate owners."
+    }
+  ],
+  "baseline": "low"
+}

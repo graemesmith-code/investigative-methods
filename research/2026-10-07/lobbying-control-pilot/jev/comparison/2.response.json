@@ -1,0 +1,20 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "first": {
+      "type": "choice",
+      "choice": "E02",
+      "confidence": 0.46,
+      "probabilities": {
+        "E01": 0.24,
+        "abstain": 0.12,
+        "E02": 0.64
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 1694,
+    "output_tokens": 46
+  },
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"first\":{\"type\":\"choice\",\"choice\":\"E02\",\"confidence\":0.46,\"probabilities\":{\"E01\":0.24,\"abstain\":0.12,\"E02\":0.64}}},\"usage\":{\"input_tokens\":1694,\"output_tokens\":46}}"
+}

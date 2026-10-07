@@ -1,0 +1,9 @@
+{
+  "authorized_usd": 15,
+  "internal_cap_usd": 14,
+  "attempts": 42,
+  "successes": 42,
+  "accounted_usd": 0.002858,
+  "all_attempts_worst_case_reservation_usd": 0.126,
+  "accounting": "Conservative per-call rounded estimate from returned usage and checked price, not provider invoice; previous pilot excluded. No other paid providers."
+}

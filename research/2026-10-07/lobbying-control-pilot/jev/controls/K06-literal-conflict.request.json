@@ -1,0 +1,10 @@
+{
+  "model": "jev-1.13.0",
+  "state": "Fictional same legal client ID C and filing date. Original LD1 No foreign entity checked. Original dated share register gives foreign P 100% equitable ownership. No correction found in complete stated history.",
+  "questions": {
+    "check": {
+      "type": "noul",
+      "instructions": "Do the supplied literal declarations conflict on ownership disclosure? Do not infer intent or legal liability."
+    }
+  }
+}

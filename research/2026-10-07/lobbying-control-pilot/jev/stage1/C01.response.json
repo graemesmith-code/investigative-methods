@@ -1,0 +1,87 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "control": {
+      "type": "choice",
+      "choice": "later_only",
+      "confidence": 0.79,
+      "probabilities": {
+        "not_established": 0.15,
+        "not_applicable": 0.0,
+        "supported": 0.01,
+        "later_only": 0.84
+      }
+    },
+    "disclosure": {
+      "type": "choice",
+      "choice": "documentary_mismatch",
+      "confidence": 0.24,
+      "probabilities": {
+        "already_disclosed": 0.0,
+        "insufficient": 0.16,
+        "documentary_mismatch": 0.43,
+        "no_contradiction": 0.41
+      }
+    },
+    "identity": {
+      "type": "choice",
+      "choice": "strong",
+      "confidence": 0.91,
+      "probabilities": {
+        "strong": 0.9400000000000001,
+        "no_pair": 0.0,
+        "unresolved": 0.06
+      }
+    },
+    "innocent": {
+      "type": "choice",
+      "choice": "scope_regime",
+      "confidence": 0.3,
+      "probabilities": {
+        "earlier_disclosure": 0.03,
+        "scope_regime": 0.44,
+        "clerical_chain": 0.14,
+        "later_change": 0.32,
+        "unresolved": 0.07
+      }
+    },
+    "materiality": {
+      "type": "choice",
+      "choice": "below",
+      "confidence": 1.0,
+      "probabilities": {
+        "unknown": 0.0,
+        "below": 1.0,
+        "major": 0.0
+      }
+    },
+    "missing": {
+      "type": "choice",
+      "choice": "dated_share_register",
+      "confidence": 0.7,
+      "probabilities": {
+        "engagement_instructions": 0.02,
+        "dated_share_register": 0.76,
+        "complete_history": 0.12,
+        "none": 0.01,
+        "original_filings": 0.09
+      }
+    },
+    "priority": {
+      "type": "choice",
+      "choice": "high",
+      "confidence": 0.48,
+      "probabilities": {
+        "low": 0.0,
+        "abstain": 0.02,
+        "medium": 0.37,
+        "high": 0.61
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 2172,
+    "output_tokens": 366
+  },
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"control\":{\"type\":\"choice\",\"choice\":\"later_only\",\"confidence\":0.79,\"probabilities\":{\"not_established\":0.15,\"not_applicable\":0.0,\"supported\":0.01,\"later_only\":0.84}},\"disclosure\":{\"type\":\"choice\",\"choice\":\"documentary_mismatch\",\"confidence\":0.24,\"probabilities\":{\"already_disclosed\":0.0,\"insufficient\":0.16,\"documentary_mismatch\":0.43,\"no_contradiction\":0.41}},\"identity\":{\"type\":\"choice\",\"choice\":\"strong\",\"confidence\":0.91,\"probabilities\":{\"strong\":0.9400000000000001,\"no_pair\":0.0,\"unresolved\":0.06}},\"innocent\":{\"type\":\"choice\",\"choice\":\"scope_regime\",\"confidence\":0.3,\"probabilities\":{\"earlier_disclosure\":0.03,\"scope_regime\":0.44,\"clerical_chain\":0.14,\"later_change\":0.32,\"unresolved\":0.07}},\"materiality\":{\"type\":\"choice\",\"choice\":\"below\",\"confidence\":1.0,\"probabilities\":{\"unknown\":0.0,\"below\":1.0,\"major\":0.0}},\"missing\":{\"type\":\"choice\",\"choice\":\"dated_share_register\",\"confidence\":0.7,\"probabilities\":{\"engagement_instructions\":0.02,\"dated_share_register\":0.76,\"complete_history\":0.12,\"none\":0.01,\"original_filings\":0.09}},\"priority\":{\"type\":\"choice\",\"choice\":\"high\",\"confidence\":0.48,\"probabilities\":{\"low\":0.0,\"abstain\":0.02,\"medium\":0.37,\"high\":0.61}}},\"usage\":{\"input_tokens\":2172,\"output_tokens\":366}}"
+}

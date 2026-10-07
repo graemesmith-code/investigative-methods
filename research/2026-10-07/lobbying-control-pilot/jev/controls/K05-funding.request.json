@@ -1,0 +1,10 @@
+{
+  "model": "jev-1.13.0",
+  "state": "Fictional LD2 reports $2 million lobbying expenses, but supplies no payer-origin evidence.",
+  "questions": {
+    "check": {
+      "type": "noul",
+      "instructions": "Does the expense figure establish $2 million foreign funding?"
+    }
+  }
+}

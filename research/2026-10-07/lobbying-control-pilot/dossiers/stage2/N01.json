@@ -1,0 +1,25 @@
+{
+  "id": "N01",
+  "title": "IAI North America / Pillsbury",
+  "rules": {
+    "LDA": "2 USC 1603(b)(4): foreign >=20% equitable owner OR direct/indirect control OR interested affiliate alternatives. $5000 contribution is not prerequisite for owner identification. 1604(b)(1) quarterly changes. Original LD1 section14 versus LD2 additions/removals must be distinguished.",
+    "sources": [
+      "https://www.govinfo.gov/content/pkg/USCODE-2024-title2/html/USCODE-2024-title2-chap26-sec1603.htm",
+      "https://lda.senate.gov/ldaguidance.pdf"
+    ],
+    "FARA": "28 CFR 5.201(b) amendments within10days; 5.304 commercial exemptions are activity-specific; 5.307 LDA exemption not applicable when foreign government/party principal beneficiary. State ownership alone is not proof exemptions fail. Different firms/engagements are not interchangeable.",
+    "major": "Operational threshold chosen during pilot: verified >=$1m nonduplicated annual LDA outside-firm income or inhouse expense. Neither is proof of foreign funding."
+  },
+  "evidence": [
+    {
+      "citation": "https://lda.gov/filings/public/filing/a77c3c8a-af7b-4ac2-98f5-6effe2fba7b4/print/",
+      "fact": "LD1 posted2024-10-08 identifies IAI Ltd andStateIsrael each100%,contribution0. Later empty LD2 additions are not absence of disclosure.2025income480000. Negative control; client address13873ParkCenterRoad HerndonVA20171."
+    },
+    {
+      "citation": "https://www.lobbyregister.bundestag.de/media/41/4b/684080/IAI-FS-FY2024.pdf#page=55",
+      "fact": "IAI original consolidated financial statements2024,Note11(c),printedp54,physicalp55: equity AND voting rights100% for Stark Aerospace Inc.,ELTA North America Inc.,IAI North America Inc. asof2024-12-31 AND2023-12-31. Report dated2025-03-12. Note1 describes IAI as government owned. Annual2025Note11(c)printedp54 repeats100% asof2025-12-31/2024-12-31 (https://www.iai.co.il/wp-content/uploads/2026/04/IAI-FS-CONSOLIDATED-AND-SOLO-12.25.pdf). Year-end snapshots bracket filings; exact-day continuity and intermediate share register remain unverified. Consolidated interests not necessarily direct holdings."
+    }
+  ],
+  "baseline": "low",
+  "audit": "Ownership-table-driven expansion; not independently selected famous name. No liability inference."
+}

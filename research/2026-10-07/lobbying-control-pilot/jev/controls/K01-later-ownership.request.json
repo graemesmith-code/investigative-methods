@@ -1,0 +1,10 @@
+{
+  "model": "jev-1.13.0",
+  "state": "Fictional LD1 explicitly says No in January. Acquisition closes July. No earlier ownership record.",
+  "questions": {
+    "check": {
+      "type": "noul",
+      "instructions": "Does the July acquisition alone establish foreign ownership in January?"
+    }
+  }
+}

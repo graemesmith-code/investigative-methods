@@ -1,0 +1,437 @@
+[
+  {
+    "stage": "stage1",
+    "id": "C01",
+    "answers": {
+      "control": "later_only",
+      "disclosure": "documentary_mismatch",
+      "identity": "strong",
+      "innocent": "scope_regime",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "high"
+    },
+    "baseline": "medium",
+    "internally_cautionary": true
+  },
+  {
+    "stage": "stage1",
+    "id": "C02",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "dated_share_register",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C03",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C04",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C05",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C06",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C07",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C08",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C09",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C10",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C11",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C12",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "unresolved",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "medium"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C13",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C14",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C15",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "unresolved",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "medium"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C16",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "unresolved",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "abstain"
+    },
+    "baseline": "abstain",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C17",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "unresolved",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "abstain"
+    },
+    "baseline": "abstain",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C18",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "unresolved",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "abstain"
+    },
+    "baseline": "abstain",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage1",
+    "id": "C19",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "unresolved",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "abstain"
+    },
+    "baseline": "abstain",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage2",
+    "id": "C01",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "documentary_mismatch",
+      "identity": "strong",
+      "innocent": "clerical_chain",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "medium"
+    },
+    "baseline": "high",
+    "internally_cautionary": true
+  },
+  {
+    "stage": "stage2",
+    "id": "C02",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "dated_share_register",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage2",
+    "id": "C12",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "no_pair",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "medium"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage2",
+    "id": "C15",
+    "answers": {
+      "control": "not_applicable",
+      "disclosure": "no_contradiction",
+      "identity": "unresolved",
+      "innocent": "scope_regime",
+      "materiality": "unknown",
+      "missing": "original_filings",
+      "priority": "low"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage2",
+    "id": "E01",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "insufficient",
+      "identity": "unresolved",
+      "innocent": "unresolved",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "medium"
+    },
+    "baseline": "high",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage2",
+    "id": "E02",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "insufficient",
+      "identity": "unresolved",
+      "innocent": "clerical_chain",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "medium"
+    },
+    "baseline": "medium",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage2",
+    "id": "N01",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "already_disclosed",
+      "identity": "unresolved",
+      "innocent": "clerical_chain",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "medium"
+    },
+    "baseline": "low",
+    "internally_cautionary": false
+  },
+  {
+    "stage": "stage3",
+    "id": "C01",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "documentary_mismatch",
+      "identity": "strong",
+      "innocent": "clerical_chain",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "high"
+    },
+    "baseline": null,
+    "internally_cautionary": true
+  },
+  {
+    "stage": "stage3",
+    "id": "E01",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "documentary_mismatch",
+      "identity": "unresolved",
+      "innocent": "unresolved",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "medium"
+    },
+    "baseline": null,
+    "internally_cautionary": true
+  },
+  {
+    "stage": "stage3",
+    "id": "E02",
+    "answers": {
+      "control": "not_established",
+      "disclosure": "insufficient",
+      "identity": "unresolved",
+      "innocent": "clerical_chain",
+      "materiality": "below",
+      "missing": "dated_share_register",
+      "priority": "high"
+    },
+    "baseline": null,
+    "internally_cautionary": false
+  }
+]

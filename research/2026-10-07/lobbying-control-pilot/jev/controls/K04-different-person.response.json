@@ -1,0 +1,14 @@
+{
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"check\":{\"type\":\"noul\",\"noul\":0.05}},\"usage\":{\"input_tokens\":300,\"output_tokens\":20}}",
+  "answers": {
+    "check": {
+      "noul": 0.05,
+      "type": "noul"
+    }
+  },
+  "model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 300,
+    "output_tokens": 20
+  }
+}

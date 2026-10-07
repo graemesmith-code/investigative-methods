@@ -1,0 +1,183 @@
+[
+  {
+    "stage": "stage1",
+    "id": "C01",
+    "priority": "medium",
+    "flags": [
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "stage": "stage1",
+    "id": "C02",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C03",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C04",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C05",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C06",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C07",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C08",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C09",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C10",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C11",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C12",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C13",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C14",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C15",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C16",
+    "priority": "abstain",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C17",
+    "priority": "abstain",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C18",
+    "priority": "abstain",
+    "flags": null
+  },
+  {
+    "stage": "stage1",
+    "id": "C19",
+    "priority": "abstain",
+    "flags": null
+  },
+  {
+    "stage": "stage2",
+    "id": "C01",
+    "priority": "high",
+    "flags": [
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "stage": "stage2",
+    "id": "C02",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage2",
+    "id": "C12",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage2",
+    "id": "C15",
+    "priority": "low",
+    "flags": null
+  },
+  {
+    "stage": "stage2",
+    "id": "E01",
+    "priority": "high",
+    "flags": [
+      true,
+      true,
+      true,
+      false
+    ]
+  },
+  {
+    "stage": "stage2",
+    "id": "E02",
+    "priority": "medium",
+    "flags": [
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "stage": "stage2",
+    "id": "N01",
+    "priority": "low",
+    "flags": [
+      true,
+      true,
+      false,
+      false
+    ]
+  }
+]

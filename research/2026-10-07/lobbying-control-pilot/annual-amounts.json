@@ -1,0 +1,57 @@
+{
+  "65440": {
+    "client": "ELTA NORTH AMERICA",
+    "known_income": 87500.0,
+    "null_income_reports": [
+      "b4b32b58-8a12-444c-8de7-ee611dfbea25"
+    ],
+    "included_uuids": [
+      "7eaabec7-26e5-417b-b3b4-0acb7b67c04e",
+      "fdb9df86-0e8e-486a-bc29-cde6d19eeebc",
+      "28d621b8-b9f3-4a4c-9b2e-e6cee0296c56",
+      "b4b32b58-8a12-444c-8de7-ee611dfbea25"
+    ]
+  },
+  "61553": {
+    "client": "IAI NORTH AMERICA",
+    "known_income": 480000.0,
+    "null_income_reports": [],
+    "included_uuids": [
+      "e94b73cc-f6e8-4b9f-98fb-2aa22ff26056",
+      "1617912b-38d0-4928-8ecc-3acafae2c25f",
+      "3e854e5c-fc36-4572-a797-d05fd90fffd8",
+      "bcdcc434-7e30-4824-bd55-b16bfd6bd374"
+    ]
+  },
+  "118975": {
+    "client": "ISRAEL AEROSPACE INDUSTRIES N.A.",
+    "known_income": 24000.0,
+    "null_income_reports": [],
+    "included_uuids": [
+      "4127c95b-0a01-4dae-b87f-d1146484bea1",
+      "2ba8ae60-e4a3-4204-a998-4e309564f908",
+      "463ed56d-1adf-4095-8ee4-b887ffb11e0b",
+      "95cd26a1-3ef4-4710-9886-0870ded87446"
+    ]
+  },
+  "61125": {
+    "client": "STARK AEROSPACE",
+    "known_income": 126500.0,
+    "null_income_reports": [],
+    "included_uuids": [
+      "4004f955-b6c6-4545-bd20-a5eeee5199b8",
+      "994873a8-3041-4cc2-a964-0757be745f89",
+      "59e30414-1a98-4618-91f8-07fe3c9a76b4",
+      "6012d3af-bb86-4e96-92fc-96f68d52bfa4"
+    ]
+  },
+  "69451": {
+    "client": "STARK AEROSPACE, INC.",
+    "known_income": 10000.0,
+    "null_income_reports": [],
+    "included_uuids": [
+      "d1f48f59-22e5-4d98-b4dc-f2fd0073eb3d",
+      "50cce31a-c474-484c-ba42-64621ff72ba9"
+    ]
+  }
+}
