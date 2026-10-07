@@ -27,3 +27,9 @@ Six offline tests pass for the Jev-only adapter: provider restriction, retained 
 ## NAI calibration result
 
 Current official API history now confirms the zero-obligation vehicle termination and eight child delivery orders dated 13–14 December 2023. Gross positive obligations $36,309.46, negative adjustments −$15,662.32, net $20,647.14; no payments established. All eight child records identify the same NAI recipient/UEI. Dated official-business authorization is a concrete possible explanation; no breach is concluded. See NAI-calibration.md for the full table, coverage limits, and missing instruments. No paid Jev evaluation occurred.
+
+## Reattached originals: 11:29 UTC recovery checkpoint
+
+Both newly supplied Library references resolve to the expected original ZIP filenames (with an upload-added `(1)` suffix) and expected metadata byte sizes. The resolved-reference route successfully prepared both, but the current supported transfer helper returned HTTP 403 for each. One fresh preparation and bounded supported retry returned the same error for both. The consumer-local baseline directory contains no files. No archive hashes, contents, or original candidate counts have therefore been verified. Metadata is not byte recovery. See reattachment-recovery-status.json for exact identifiers and errors, with no signed links retained.
+
+The independent NAI calibration and offline guard tests remain available. Paid Jev evaluations and both full stages remain blocked pending readable original bytes. No further Library retries, bulk downloads, access changes, or manual URL transfers were attempted. New Jev spend remains $0.

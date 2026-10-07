@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-10-07T11:29:41Z",
+  "route": "New resolved Library references: prepare_materialize with explicit consumer-local destination, then current library_file_transfer.py materialize using complete transfer object",
+  "attachments": [
+    {
+      "library_file_id": "libfile_d1d2724240708191bfe0b39041bc947a",
+      "resolved_file_id": "file_0000000035188230966aba9c34c248d0",
+      "resolved_name": "sanctions-screen-evidence-2026-09-18(1).zip",
+      "metadata_bytes": 4753651
+    },
+    {
+      "library_file_id": "libfile_556f788522f48191b37abaff7c445ef9",
+      "resolved_file_id": "file_00000000accc81f59f313dfee46a87ca",
+      "resolved_name": "ofac-step1-2026-09-18(1).zip",
+      "metadata_bytes": 4559005
+    }
+  ],
+  "first_attempt": "Both preparations succeeded; both supported transfers failed: library file transfer failed: download failed with HTTP status 403",
+  "bounded_retry": "Fresh preparation for both IDs, then supported helper once per transfer; both returned the same HTTP 403",
+  "local_original_files": [],
+  "hashes_verified": false,
+  "zip_contents_verified": false,
+  "bounded_retry_exhausted": true,
+  "paid_calls": 0,
+  "new_jev_spend_usd": 0,
+  "security_changes": false,
+  "manual_transfer": false
+}
