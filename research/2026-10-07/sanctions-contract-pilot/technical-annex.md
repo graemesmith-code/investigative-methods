@@ -17,3 +17,7 @@ Original hashes are not claimed: bytes are not locally recovered. Library search
 Clean initial checkout; private repository metadata; supported environment-key presence without values; successful authenticated models GET; fresh HTTPS downloads of official pricing and API docs. No paid POST requests, no outreach, no new credentials. No live controls or candidate scoring took place. New ledger is a zero-call checkpoint only, not a tested executable spend guard.
 
 Parent messaging is not exposed as a callable tool in this execution environment. This checkpoint is returned for parent resumption as explicitly requested. Library delivery of a compact final bundle remains pending alongside both investigative stages.
+
+## Parent calibration lead received at checkpoint
+
+Parent independently reports an official-business general license, effective 21 December 2022 as 31 CFR 583.509 and renumbered 583.510 in March 2024. Treat this as an essential dated authorization hypothesis for NAI/DLA, not proof that any individual action qualified or that restrictions under other programs were displaced. This executor has not yet inspected these originals. Parent supplies https://ofac.treasury.gov/media/930146/download?inline= (pages 78479 and 78470) and https://ofac.treasury.gov/system/files/2024-03/20240311_global_magnitsky_sanctions_regulations.pdf (page 17738). Verify exact text, effective dates, program coverage, and transaction-specific conditions before triage.
