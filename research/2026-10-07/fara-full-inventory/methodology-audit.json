@@ -1,0 +1,371 @@
+{
+  "scope": "This lobbying experiment only; previous sanctions-pilot spend excluded. Whole platform/model usage is unavailable.",
+  "stages": [
+    {
+      "stage": "lobbying-control-pilot",
+      "calls": 42,
+      "request_models": [
+        "jev-1.13.0"
+      ],
+      "response_models": [
+        "jev-1.13.0"
+      ],
+      "reported_input_tokens": 67526,
+      "reported_output_tokens": 11087,
+      "estimated_cost_microusd_sum_attempts": 2858,
+      "reservation_microusd_sum_attempts": 126000
+    },
+    {
+      "stage": "lobbying-control-expansion",
+      "calls": 8,
+      "request_models": [
+        "jev-1.13.0"
+      ],
+      "response_models": [
+        "jev-1.13.0"
+      ],
+      "reported_input_tokens": 4111,
+      "reported_output_tokens": 328,
+      "estimated_cost_microusd_sum_attempts": 177,
+      "reservation_microusd_sum_attempts": 24000
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/2026-10-07/lobbying-control-pilot/jev/ledger.json",
+      "sha256": "c7cd65fa04870a2ba0ab88da57ba321289bdf82a3bb02d238a7fa227667e4c5a"
+    },
+    {
+      "path": "research/2026-10-07/lobbying-control-expansion/jev/ledger.json",
+      "sha256": "cbdd4ed373a865e3bc752ed3f0af117b4125062a4f705eaec958d47877a99c92"
+    },
+    {
+      "path": "research/2026-10-07/fara-full-inventory/all-original-interest-audit.json",
+      "sha256": "7dd06a0adcac363a1c2b86e8f423498eb0d484eb71ce17cc467e9fa997f1a9b0"
+    },
+    {
+      "path": "research/2026-10-07/fara-full-inventory/archive-scope.json",
+      "sha256": "5a9e4244e8c292ab43f8b8862598b2db160778967908196d4732913d61617df8"
+    },
+    {
+      "path": "research/2026-10-07/fara-full-inventory/supplied-source-provenance.json",
+      "sha256": "ee89dd8ce37b828cc4d38dbcb47c9b1819aa4c9545198e6cc1686febfd674e17"
+    },
+    {
+      "path": "research/2026-10-07/fara-full-inventory/full-match-coverage.json",
+      "sha256": "8b61293efc0bbbf56effff267eade5001d5129d95253be01c6bb1a829d0064a7"
+    },
+    {
+      "path": "research/2026-10-07/fara-full-inventory/full-role-coverage.json",
+      "sha256": "86df445e013ba1eaa4fb408406088395dbbf1bd1316a61955e9c3619809f697f"
+    }
+  ],
+  "jev_totals": {
+    "calls": 50,
+    "reported_input_tokens": 71637,
+    "reported_output_tokens": 11415,
+    "estimated_cost_microusd_sum_attempts": 3035,
+    "reservation_microusd_sum_attempts": 150000,
+    "reported_total_tokens": 83052
+  },
+  "whole_experiment_tokens": {
+    "value": null,
+    "credible_upper_bound": null,
+    "reason": "No telemetry for parent conversation, executor reasoning, native/cloud reviews, tools or prior source-inventory creation. File lengths and remaining weekly percentage do not reconstruct billed/model-processed tokens."
+  },
+  "openai_execution_model_ids": {
+    "value": null,
+    "reason": "No deployment model IDs recorded in these ledgers. Parent reports no explicit model overrides; platform labels/defaults do not establish actual execution identities."
+  },
+  "lda_original_report_year_counts": {
+    "1999": 45,
+    "2000": 57,
+    "2001": 48,
+    "2002": 56,
+    "2003": 63,
+    "2004": 55,
+    "2005": 54,
+    "2006": 50,
+    "2007": 62,
+    "2008": 104,
+    "2009": 107,
+    "2010": 110,
+    "2011": 127,
+    "2012": 120,
+    "2013": 116,
+    "2014": 119,
+    "2015": 119,
+    "2016": 129,
+    "2017": 129,
+    "2018": 132,
+    "2019": 157,
+    "2020": 154,
+    "2021": 146,
+    "2022": 152,
+    "2023": 161,
+    "2024": 190,
+    "2025": 1287,
+    "2026": 94
+  },
+  "house_archive_scope": {
+    "population": "All members of the four 2025 quarterly archives plus the 2025 registrations archive listed by the official House download index, acquired 7 October 2026. These are report-year archive selections, not a received-during-2025 census.",
+    "records": 109389,
+    "report_years": {
+      "2025": 109389
+    },
+    "signed_date_range": [
+      "2025-01-01T12:03:08",
+      "2026-10-02T17:54:21"
+    ],
+    "signed_dates_are_not_filing_received_dates": true,
+    "duplicate_document_ids": 0,
+    "byte_identical_xml_duplicates": 0,
+    "quarterly_document_records": 101537,
+    "relationship_quarters": 97567,
+    "registration_and_amendment_records": 7852,
+    "distinct_registration_relationships": 7417,
+    "archives": [
+      {
+        "quarter": "1",
+        "records": 24808,
+        "relationships": 23622,
+        "earliest_signed": "2025-01-02T18:54:42",
+        "latest_signed": "2026-09-29T12:05:52"
+      },
+      {
+        "quarter": "2",
+        "records": 25492,
+        "relationships": 24323,
+        "earliest_signed": "2025-04-04T13:46:59",
+        "latest_signed": "2026-10-02T17:54:21"
+      },
+      {
+        "quarter": "3",
+        "records": 25503,
+        "relationships": 24730,
+        "earliest_signed": "2025-04-04T13:47:42",
+        "latest_signed": "2026-10-02T12:17:31"
+      },
+      {
+        "quarter": "4",
+        "records": 25734,
+        "relationships": 24892,
+        "earliest_signed": "2025-03-17T15:29:56",
+        "latest_signed": "2026-10-02T12:19:31"
+      },
+      {
+        "quarter": "registration",
+        "records": 7852,
+        "relationships": 7417,
+        "earliest_signed": "2025-01-01T12:03:08",
+        "latest_signed": "2026-09-29T12:59:01"
+      }
+    ],
+    "report_types": {
+      "1@": 34,
+      "1A": 1027,
+      "1T": 1220,
+      "2@": 25,
+      "2A": 1027,
+      "2T": 1059,
+      "3@": 35,
+      "3A": 623,
+      "3T": 1147,
+      "4@": 25,
+      "4A": 628,
+      "4T": 1522,
+      "Q1": 22527,
+      "Q2": 23381,
+      "Q3": 23698,
+      "Q4": 23559,
+      "RA": 842,
+      "RR": 7010
+    },
+    "interpretation": "Originals, amendments, termination reports and amended terminations are separate document records. For provisional annual totals only one signed-date/document-ID version per relationship quarter is used. Source role matching retains all versions and must not be summed as spending. The same relationship legitimately occurs in multiple quarters and in registration files. All thirteen initial major totals were separately verified by API posting chronology and original HTML. House snapshot is not independently proven identical to API population.",
+    "additional_quarter_versions": 3970
+  },
+  "fara_provenance": [
+    {
+      "dataset": "Registrants",
+      "source_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+      "source_path": "research/FARA_All_Registrants.csv",
+      "git_blob_sha1_verified": "16e65695af74a61417561bbc365ab8e95ebbb9e7",
+      "sha256": "ef390cde50995b530b8c016b117ec4401ba070de996a5deb77da4d70b91281f1",
+      "bytes": 867985,
+      "declared_encoding": "iso-8859-1",
+      "rows": 7090,
+      "columns": [
+        "Registration Number",
+        "Registration Date",
+        "Termination Date",
+        "Name",
+        "Business Name",
+        "Address 1",
+        "Address 2",
+        "City",
+        "State",
+        "Zip"
+      ],
+      "exact_duplicate_rows_retained": 0,
+      "malformed_width_rows_recovered": 0,
+      "other_quote_parse_differences_flagged": 13,
+      "date_coverage": {
+        "Registration Date": {
+          "nonempty_valid": 7090,
+          "min": "1942-07-03",
+          "max": "2026-10-02",
+          "invalid": [],
+          "implausible": []
+        },
+        "Termination Date": {
+          "nonempty_valid": 6552,
+          "min": "1942-07-03",
+          "max": "2026-08-26",
+          "invalid": [],
+          "implausible": []
+        }
+      },
+      "nonterminated_rows": 538,
+      "terminated_rows": 6552,
+      "provenance_limitation": "User-supplied official export preserved byte-for-byte from GitHub. Publication timestamp and direct DOJ checksum unavailable; current nonterminated status is not historical status."
+    },
+    {
+      "dataset": "ForeignPrincipals",
+      "source_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+      "source_path": "research/FARA_All_ForeignPrincipals.csv",
+      "git_blob_sha1_verified": "15c0f522ddf1c9f895a693e4a29953543efa0a48",
+      "sha256": "9db085c56c5af1e7e3d0e063576b160cdf8bbca11551a143a14815549cabadb8",
+      "bytes": 2766720,
+      "declared_encoding": "iso-8859-1",
+      "rows": 17765,
+      "columns": [
+        "Foreign Principal Termination Date",
+        "Foreign Principal",
+        "Foreign Principal Registration Date",
+        "Country/Location Represented",
+        "Registration Number",
+        "Registrant Date",
+        "Registrant Name",
+        "Address 1",
+        "Address 2",
+        "City",
+        "State",
+        "Zip"
+      ],
+      "exact_duplicate_rows_retained": 1,
+      "malformed_width_rows_recovered": 15,
+      "other_quote_parse_differences_flagged": 145,
+      "date_coverage": {
+        "Foreign Principal Termination Date": {
+          "nonempty_valid": 16943,
+          "min": "1942-07-03",
+          "max": "2026-10-01",
+          "invalid": [],
+          "implausible": []
+        },
+        "Foreign Principal Registration Date": {
+          "nonempty_valid": 17765,
+          "min": "1942-07-03",
+          "max": "2026-10-02",
+          "invalid": [],
+          "implausible": []
+        },
+        "Registrant Date": {
+          "nonempty_valid": 17765,
+          "min": "1942-07-03",
+          "max": "2026-10-02",
+          "invalid": [],
+          "implausible": []
+        }
+      },
+      "nonterminated_rows": 822,
+      "terminated_rows": 16943,
+      "provenance_limitation": "User-supplied official export preserved byte-for-byte from GitHub. Publication timestamp and direct DOJ checksum unavailable; current nonterminated status is not historical status."
+    },
+    {
+      "dataset": "RegistrantDocs",
+      "source_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+      "source_path": "research/FARA_All_RegistrantDocs.csv",
+      "git_blob_sha1_verified": "b59934af5989c9ee167fa82123ae463881dfae28",
+      "sha256": "5ab5d5f66bc4119a9b15ebaa42509f574ec696982d875fb10677390a09de6c35",
+      "bytes": 24532522,
+      "declared_encoding": "iso-8859-1",
+      "rows": 154309,
+      "columns": [
+        "Date Stamped",
+        "Registrant Name",
+        "Registration Number",
+        "Document Type",
+        "Short Form Name",
+        "Foreign Principal Name",
+        "Foreign Principal Country",
+        "URL"
+      ],
+      "exact_duplicate_rows_retained": 440,
+      "malformed_width_rows_recovered": 0,
+      "other_quote_parse_differences_flagged": 1138,
+      "date_coverage": {
+        "Date Stamped": {
+          "nonempty_valid": 154309,
+          "min": "0200-11-16",
+          "max": "2026-10-06",
+          "invalid": [],
+          "implausible": [
+            {
+              "row": 154309,
+              "value": "11/16/0200"
+            }
+          ]
+        }
+      },
+      "nonterminated_rows": null,
+      "terminated_rows": null,
+      "provenance_limitation": "User-supplied official export preserved byte-for-byte from GitHub. Publication timestamp and direct DOJ checksum unavailable; current nonterminated status is not historical status."
+    }
+  ],
+  "client_match_coverage": {
+    "principal_rows_screened": 17765,
+    "distinct_principal_name_strings": 12646,
+    "lda_client_name_strings_screened": 23776,
+    "lda_house_relationships": 28341,
+    "name_edges": 456,
+    "relationship_edges": 598,
+    "principal_rows_with_edges": 329,
+    "temporal_edge_counts": {
+      "starts_after_2025": 6,
+      "overlaps_2025": 60,
+      "ended_before_2025": 520,
+      "catalog_chronology_inconsistent": 12
+    },
+    "rules": {
+      "normalized_exact": 299,
+      "punctuation_suffix_or_parenthetical_variant": 255,
+      "spelling_similarity_ge_0.94": 44
+    },
+    "overlapping_major_candidate_relationships": 1,
+    "scope": "Every usable principal row, all five 2025 House archives. Historical/chronologically inconsistent matches retained separately. Name matches are discovery, never legal-entity proof."
+  },
+  "role_match_coverage": {
+    "xml_records_screened": 109389,
+    "fara_principal_rows_screened": 17765,
+    "role_occurrences": {
+      "foreign_interest_narratives": 4538,
+      "affiliated_organization_occurrences": 1021,
+      "foreign_entity_occurrences": 1117
+    },
+    "distinct_role_name_or_text_strings": {
+      "foreign_interest_narrative": 1380,
+      "affiliated_organization": 700,
+      "foreign_entity": 863
+    },
+    "discovery_edges": 576,
+    "relationships_with_role_edges": 149,
+    "role_edge_counts": {
+      "foreign_interest_mention": 412,
+      "foreign_entity": 155,
+      "affiliated_organization": 9
+    },
+    "major_relationships_with_role_edges": 13,
+    "scope": "All original archive versions, not only latest. Role occurrences and edges count repeated/versioned disclosures. XML paths preserve roles; API historical entity arrays are not promoted to original-field facts. No claim of exhaustive aliases, indirect chains, or legal identity."
+  }
+}
