@@ -1,0 +1,41 @@
+[
+  {
+    "name": "stark-61125",
+    "params": {
+      "client_id": 61125
+    },
+    "count": 8,
+    "server_count": 8,
+    "complete": true,
+    "originals_acquired": 8,
+    "client_ids": [
+      61125
+    ]
+  },
+  {
+    "name": "stark-69451",
+    "params": {
+      "client_id": 69451
+    },
+    "count": 5,
+    "server_count": 5,
+    "complete": true,
+    "originals_acquired": 5,
+    "client_ids": [
+      69451
+    ]
+  },
+  {
+    "name": "futurewei-203486",
+    "params": {
+      "client_id": 203486
+    },
+    "count": 32,
+    "server_count": 32,
+    "complete": true,
+    "originals_acquired": 32,
+    "client_ids": [
+      203486
+    ]
+  }
+]

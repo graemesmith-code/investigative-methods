@@ -1,0 +1,15 @@
+{
+  "generated_edges": 390,
+  "client_ids_with_edges": 76,
+  "temporal_counts": {
+    "principal_relationship_terminated_before_2025": 359,
+    "inconsistent_catalog_chronology_no_temporal_inference": 11,
+    "principal_relationship_begins_after_2025": 5,
+    "catalog_dates_overlap_2025": 15
+  },
+  "current_overlap_name_false_positives": 14,
+  "retained_group_bridges_not_exact_legal_client_matches": 1,
+  "known_positive_recall_limitation": "PPD/Mercury, previously verified using original contract/address, is missed by this name-only baseline (LDA spelling DRUTVO vs FARA DRUSTVO and group suffix). Prior dossier remains in review; failure to generate an edge is not evidence of no relationship.",
+  "liability_scores_validated": false,
+  "new_paid_calls": 0
+}
