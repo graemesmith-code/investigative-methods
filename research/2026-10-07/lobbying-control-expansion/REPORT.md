@@ -2,6 +2,8 @@
 
 Private research, 7 October 2026. This extends the first checkpoint without changing it.
 
+**Coverage correction:** the initial ownership flag covered only the 780 high-amount forms. Discovery has now been rerun over all 1,184 annual forms, capturing U.S. Steel's below-threshold quarterly disclosure. [Iteration 2](ITERATION-02.md) records the correction and systematic domestic-client history extension. The initial expansion had full all-years histories for only 12 of 259 client IDs and zero RR retrievals for 138; neither group was cleared by those gaps. Updated scope appears in the coverage files.
+
 The broader search has not established that foreign control behind a major lobbying campaign was concealed. It has produced two concrete ownership-disclosure questions, a major reported engagement whose exact legal client remains unresolved, and several important false positives. Intent is not established in any case.
 
 We started with a reproducible activity screen, not prominent company names: every official LDA API result for reporting year 2025 with a reported amount of at least $1 million. That returned 780 filings attached to 259 client IDs. These are candidate filings, not 780 separate campaigns. A client ID identifies a filing relationship; it is not a universal company identifier. The screen misses campaigns spread across smaller quarterly or multiple-firm reports.
@@ -54,7 +56,7 @@ The stricter name join produced two historical edges linking Investment Company 
 
 ## What Jev adds—and what it does not
 
-The first checkpoint's model sometimes elevated negative controls and returned logically inconsistent identity and discrepancy judgments. Those results do not support unattended legal ranking. Before further calls, we froze a narrower test: ten previously unsubmitted original section-14 fragments and six new missingness/adversarial controls. Both Jev and an HTML parser scored 16/16. The repeated original fragments reduced the test to eight distinct request payloads; eight results were cache hits. This is a small, purposive test, not an independently annotated population benchmark.
+The first checkpoint's model sometimes elevated negative controls and returned logically inconsistent identity and discrepancy judgments. Those results do not support unattended legal ranking. Before further calls, we froze a narrower test: ten previously unsubmitted original section-14 fragments and six new missingness/adversarial controls. Both Jev and an HTML parser scored 16/16 listed items. This represents only **two distinct real-form payloads plus six synthetic controls**; eight results were cache hits. It is not 16 independent real cases or an independently annotated population benchmark.
 
 Jev added no demonstrated accuracy over the parser on this task. It has not been shown to improve the decisive work here: retrieving amendments, resolving legal entities and establishing ownership dates. Passing checkbox extraction does not validate concealment judgments. The expansion therefore reports evidence-based editorial priorities and abstentions, without new model-generated suspicion scores.
 
