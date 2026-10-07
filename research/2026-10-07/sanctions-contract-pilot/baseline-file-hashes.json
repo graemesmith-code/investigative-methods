@@ -1,0 +1,107 @@
+[
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18.zip",
+    "bytes": 4753651,
+    "sha256": "842876d3ca8e0dfea78647c25069582de011ed92eb2fc4a7e1a9b08bdb9de756"
+  },
+  {
+    "path": "baseline/ofac-step1-2026-09-18.zip",
+    "bytes": 4559005,
+    "sha256": "2b5c29bff61682d6623ed63882f9b9c9708e2c3c147f0211d148af2f95f4a1f6"
+  },
+  {
+    "path": "baseline/manifest.json",
+    "bytes": 1008,
+    "sha256": "058f3267e46bf6661d846072c3fcf0a735a0a02f42f6141e2dc0498375892277"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/sanctions-screen-results-2026-09-18.md",
+    "bytes": 9248,
+    "sha256": "87bef010735ae5403ab028f7f8c7344fd7106f4b35ca4d2c2147b1a1fe0abae0"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/sdn.xml",
+    "bytes": 29099992,
+    "sha256": "ab7951b5b70c22068903f1e571362f4358b90f2b983a966f322c82dffeca8170"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/prepare.py",
+    "bytes": 3496,
+    "sha256": "06fa55a50fd2217b61843999f246de3e864a65e7708f3ba46879a8c5ea5c4903"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/screen_contracts.py",
+    "bytes": 8018,
+    "sha256": "26bb3d6b576f4e04169e0a8f2d00db0e6f98e9c2c5f6022d80219e9e12043268"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/entities.json",
+    "bytes": 11402733,
+    "sha256": "f3901f2fac207dcc297881c5d9df93f14f1732b2208b98531668770e80371fa4"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/package_results.py",
+    "bytes": 10294,
+    "sha256": "4b4727850d39d2b0e478a861d4fb155f232bb6a266a563ba7adae87d84030ed8"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/source-summary.json",
+    "bytes": 749,
+    "sha256": "847e790ee55893532ebd6c743122a5692bb53663313bb25552c5cacde6a460e3"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/check_screen.py",
+    "bytes": 1385,
+    "sha256": "e77812cb884c6d6dd9b924d74af58e5e21d71cee8020a9d0408b8b62456b4400"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/names.json",
+    "bytes": 4058764,
+    "sha256": "ae9dbb43adac6e89b7f212a49a665fe0d67e87acd528a7551e7c107b0a00fa66"
+  },
+  {
+    "path": "baseline/ofac-step1-2026-09-18/sdn.xml",
+    "bytes": 29099992,
+    "sha256": "ab7951b5b70c22068903f1e571362f4358b90f2b983a966f322c82dffeca8170"
+  },
+  {
+    "path": "baseline/ofac-step1-2026-09-18/prepare.py",
+    "bytes": 3496,
+    "sha256": "06fa55a50fd2217b61843999f246de3e864a65e7708f3ba46879a8c5ea5c4903"
+  },
+  {
+    "path": "baseline/ofac-step1-2026-09-18/entities.json",
+    "bytes": 11402733,
+    "sha256": "f3901f2fac207dcc297881c5d9df93f14f1732b2208b98531668770e80371fa4"
+  },
+  {
+    "path": "baseline/ofac-step1-2026-09-18/source-summary.json",
+    "bytes": 749,
+    "sha256": "847e790ee55893532ebd6c743122a5692bb53663313bb25552c5cacde6a460e3"
+  },
+  {
+    "path": "baseline/ofac-step1-2026-09-18/names.json",
+    "bytes": 4058764,
+    "sha256": "ae9dbb43adac6e89b7f212a49a665fe0d67e87acd528a7551e7c107b0a00fa66"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-groups.json",
+    "bytes": 549009,
+    "sha256": "1f508d1ce41d063e87d70790f6611404fe3e3fdd5045eaeeb7c084ee4abf5945"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/screen-summary.json",
+    "bytes": 85775,
+    "sha256": "507735b9ad1c4dde4fcdf90a34db09502def818b568a77d9701339cfe141363a"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "bytes": 1999094,
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20"
+  },
+  {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/contract-source.json",
+    "bytes": 816,
+    "sha256": "0d8e14357e6d48581b39ab9288b081038cbd0d141f5dfed9ded6ecb6a6722f58"
+  }
+]

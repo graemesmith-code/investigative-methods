@@ -1,0 +1,494 @@
+{
+  "id": "C02",
+  "recipient": "DIGITAL TECHNOLOGIES, INC.",
+  "uei": "PGGGRPN3DDC7",
+  "cage_codes": [
+    "3X7R1"
+  ],
+  "contract_addresses": [
+    [
+      "760 S ROCHESTER",
+      "ONTARIO",
+      "CA",
+      "USA"
+    ],
+    [
+      "760 S ROCHESTER STE E",
+      "ONTARIO",
+      "CA",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "36423",
+    "primary_name": "LIMITED LIABILITY COMPANY DIGITAL TECHNOLOGIES",
+    "programs": [
+      "RUSSIA-EO14024"
+    ],
+    "aliases": [
+      {
+        "uid": "57386",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "DIGITAL TECHNOLOGIES LLC"
+      },
+      {
+        "uid": "57387",
+        "type": "a.k.a.",
+        "category": "strong",
+        "lastName": "TSIFROVYE TEKHNOLOGII"
+      }
+    ],
+    "addresses": [
+      {
+        "uid": "54721",
+        "address1": "19 Vavilova Street",
+        "city": "Moscow",
+        "postalCode": "117312",
+        "country": "Russia"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "25824",
+        "idType": "Registration Number",
+        "idNumber": "1157746819966",
+        "idCountry": "Russia"
+      },
+      {
+        "uid": "25825",
+        "idType": "Tax ID No.",
+        "idNumber": "7736252313",
+        "idCountry": "Russia"
+      },
+      {
+        "uid": "174204",
+        "idType": "Secondary sanctions risk:",
+        "idNumber": "See Section 11 of Executive Order 14024."
+      }
+    ],
+    "remarks": "(Linked To: PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA)"
+  },
+  "matched_names": [
+    {
+      "ofac_id": "36423",
+      "name": "DIGITAL TECHNOLOGIES LLC",
+      "kind": "a.k.a.",
+      "category": "weak",
+      "match_key": "digital technologies llc"
+    }
+  ],
+  "method": "legal_suffix_removed",
+  "designation": {
+    "path": "sources/designation-20220406.txt",
+    "sha256": "9de48fe40527cd38d4afb515a9c394a12b4f81d4172108a01de4ef3e656b13c6",
+    "character_start": 24874,
+    "excerpt": "LIMITED LIABILITY COMPANY DIGITAL TECHNOLOGIES (a.k.a. TSIFROVYE TEKHNOLOGII; a.k.a. \"DIGITAL TECHNOLOGIES LLC\"), 19 Vavilova Street, Moscow 117312, Russia; Tax ID No. 7736252313 (Russia); Registration Number 1157746819966 (Russia) [RUSSIA-EO14024] (Linked To: PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA). LIMITED LIABILITY COMPANY KORUS CONSULTING CIS (a.k.a. KORUS CONSULTING CIS LLC; a.k.a. KORUS CONSULTING SNG), Room 1N, 68 letter N Bolshoy Sampsonievskiy Ave, St. Petersburg 194100, Russia; Tax ID No. 7801392271 (Russia); Registration Number 1057812752502 (Russia) [RUSSIA-EO14024] (Linked To: PUBLIC JOINT STOCK COMPANY SBERBANK OF RUSSIA). LIMITED LIABILITY COMPANY MARKET FUND ADMINISTRATION (a.k.a. SBERBANK FUND ADMINISTRATION LIMITED LIABILITY COMPANY; a.k.a. \"MARKET FA LLC\"), 79 V. Lenina St, room 8, Derbent, Dagestan 368602, Russia; Executive Order 14024 Directive Information - For more information on directives, please visit the following link: https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions#directives ; Listi",
+    "date": "2022-04-06",
+    "scope": [
+      "RUSSIA-EO14024"
+    ],
+    "date_note": "OFAC dated addition notice; not a guarantee of all historical program changes"
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      2,
+      3,
+      4,
+      5,
+      14,
+      29,
+      33,
+      36,
+      58,
+      61,
+      67,
+      68,
+      69,
+      72,
+      73,
+      74,
+      79,
+      80,
+      83,
+      84,
+      88,
+      93,
+      94,
+      101,
+      102,
+      104,
+      116,
+      123,
+      124,
+      136,
+      137,
+      138,
+      139,
+      141,
+      145,
+      146,
+      148,
+      149
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 2,
+      "date": "2025-09-29",
+      "piid": "47PK0624P0010",
+      "mod": "PS0005",
+      "type": "PURCHASE ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 3,
+      "date": "2025-09-29",
+      "piid": "205AE925P00069",
+      "mod": "0",
+      "type": "PURCHASE ORDER",
+      "action": "",
+      "obligation": "2087520.21"
+    },
+    {
+      "line": 4,
+      "date": "2025-09-24",
+      "piid": "47PK0725C0041",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "57293.89"
+    },
+    {
+      "line": 5,
+      "date": "2025-09-22",
+      "piid": "47PK0625C0010",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "87281.49"
+    },
+    {
+      "line": 14,
+      "date": "2025-09-11",
+      "piid": "47PK0824C0010",
+      "mod": "PS0004",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "43514.00"
+    },
+    {
+      "line": 29,
+      "date": "2025-08-15",
+      "piid": "205AE925P00054",
+      "mod": "0",
+      "type": "PURCHASE ORDER",
+      "action": "",
+      "obligation": "5193.96"
+    },
+    {
+      "line": 33,
+      "date": "2025-08-05",
+      "piid": "47PK0725C0022",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "15944.32"
+    },
+    {
+      "line": 36,
+      "date": "2025-07-31",
+      "piid": "47PK0725C0026",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "26946.47"
+    },
+    {
+      "line": 58,
+      "date": "2025-06-18",
+      "piid": "47PK1720C0027",
+      "mod": "PS0013",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "10945.57"
+    },
+    {
+      "line": 61,
+      "date": "2025-06-12",
+      "piid": "47PK0625C0005",
+      "mod": "PS0001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 67,
+      "date": "2025-06-05",
+      "piid": "47PK0824C0010",
+      "mod": "PS0003",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 68,
+      "date": "2025-06-05",
+      "piid": "47PK0825C0009",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "17210.98"
+    },
+    {
+      "line": 69,
+      "date": "2025-06-04",
+      "piid": "47PK0725C0005",
+      "mod": "PS0001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "3193.50"
+    },
+    {
+      "line": 72,
+      "date": "2025-05-14",
+      "piid": "47PK0624P0013",
+      "mod": "PS0005",
+      "type": "PURCHASE ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 73,
+      "date": "2025-05-14",
+      "piid": "47PK1720C0027",
+      "mod": "PS0012",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 74,
+      "date": "2025-05-14",
+      "piid": "47PK1720C0027",
+      "mod": "PS0014",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 79,
+      "date": "2025-04-30",
+      "piid": "47PK0624P0010",
+      "mod": "PS0004",
+      "type": "PURCHASE ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 80,
+      "date": "2025-04-25",
+      "piid": "2091JB24C00031",
+      "mod": "P00001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 83,
+      "date": "2025-04-22",
+      "piid": "47PK0624P0010",
+      "mod": "PS0003",
+      "type": "PURCHASE ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 84,
+      "date": "2025-04-18",
+      "piid": "47PK0625C0003",
+      "mod": "PS0002",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "2585.00"
+    },
+    {
+      "line": 88,
+      "date": "2025-04-16",
+      "piid": "47PK0625C0003",
+      "mod": "PS0001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 93,
+      "date": "2025-04-10",
+      "piid": "47PK0824C0005",
+      "mod": "PS0003",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 94,
+      "date": "2025-04-10",
+      "piid": "47PK0824C0010",
+      "mod": "PS0002",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 101,
+      "date": "2025-03-25",
+      "piid": "2032H524P00104",
+      "mod": "P00001",
+      "type": "PURCHASE ORDER",
+      "action": "CLOSE OUT",
+      "obligation": "0.00"
+    },
+    {
+      "line": 102,
+      "date": "2025-03-17",
+      "piid": "47PK0624P0013",
+      "mod": "PS0003",
+      "type": "PURCHASE ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "1158.79"
+    },
+    {
+      "line": 104,
+      "date": "2025-03-14",
+      "piid": "47PK0725C0005",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "5704.95"
+    },
+    {
+      "line": 116,
+      "date": "2025-02-21",
+      "piid": "47PK0625C0005",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "9332.12"
+    },
+    {
+      "line": 123,
+      "date": "2025-01-13",
+      "piid": "N6247324P4001",
+      "mod": "P00001",
+      "type": "PURCHASE ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 124,
+      "date": "2025-01-10",
+      "piid": "47PK0624P0010",
+      "mod": "PS0002",
+      "type": "PURCHASE ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 136,
+      "date": "2024-11-25",
+      "piid": "47PK0625C0003",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "87037.07"
+    },
+    {
+      "line": 137,
+      "date": "2024-11-22",
+      "piid": "47PK1723C0010",
+      "mod": "PS0006",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "18189.64"
+    },
+    {
+      "line": 138,
+      "date": "2024-11-20",
+      "piid": "47PK0824C0005",
+      "mod": "PS0002",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 139,
+      "date": "2024-11-19",
+      "piid": "47PK0624P0013",
+      "mod": "PS0001",
+      "type": "PURCHASE ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 141,
+      "date": "2024-11-07",
+      "piid": "47PK0824C0010",
+      "mod": "PS0001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 145,
+      "date": "2024-10-24",
+      "piid": "47PK0624C0022",
+      "mod": "PS0004",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 146,
+      "date": "2024-10-21",
+      "piid": "47PK1723C0010",
+      "mod": "PS0005",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "155408.53"
+    },
+    {
+      "line": 148,
+      "date": "2024-10-11",
+      "piid": "47PK0624P0010",
+      "mod": "PS0001",
+      "type": "PURCHASE ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 149,
+      "date": "2024-10-08",
+      "piid": "47PK1823C0010",
+      "mod": "PS0001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "2634460.49",
+    "negative_obligations": "0",
+    "net_obligations": "2634460.49",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 0,
+  "on_or_after_designation_rows": 38,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

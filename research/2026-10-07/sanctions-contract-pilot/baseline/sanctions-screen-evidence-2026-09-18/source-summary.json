@@ -1,0 +1,21 @@
+{
+  "source_url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML",
+  "retrieved_date": "2026-09-18",
+  "source_publish_date": "09/17/2026",
+  "source_sha256": "ab7951b5b70c22068903f1e571362f4358b90f2b983a966f322c82dffeca8170",
+  "source_entries": 19399,
+  "source_types": {
+    "Entity": 9980,
+    "Individual": 7537,
+    "Vessel": 1540,
+    "Aircraft": 342
+  },
+  "retained_entities": 9980,
+  "names_including_aliases": 23398,
+  "addresses": 13853,
+  "alias_categories": {
+    "strong": 11341,
+    "weak": 2077
+  },
+  "scope": "Current Entity entries only. Not a historical list. Individuals, vessels and aircraft excluded. Weak aliases retained and flagged. No award matching or legal conclusions performed."
+}

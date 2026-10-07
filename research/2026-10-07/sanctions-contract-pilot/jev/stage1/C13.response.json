@@ -1,0 +1,96 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.92,
+      "probabilities": {
+        "possible_new_orders": 0.9400000000000001,
+        "identity_unresolved": 0.0,
+        "administrative_only": 0.06,
+        "predesignation": 0.0,
+        "insufficient": 0.0
+      }
+    },
+    "identity": {
+      "type": "choice",
+      "choice": "strong",
+      "confidence": 0.98,
+      "probabilities": {
+        "weak": 0.0,
+        "strong": 0.99,
+        "insufficient": 0.01
+      }
+    },
+    "identity_support": {
+      "type": "choice",
+      "choice": "ofac_vs_procurement_address",
+      "confidence": 1.0,
+      "probabilities": {
+        "ofac_vs_procurement_address": 1.0,
+        "name_only": 0.0,
+        "insufficient": 0.0
+      }
+    },
+    "innocent": {
+      "type": "choice",
+      "choice": "official_business",
+      "confidence": 0.97,
+      "probabilities": {
+        "before_designation": 0.0,
+        "administrative": 0.02,
+        "official_business": 0.98,
+        "different_entity": 0.0,
+        "insufficient": 0.0
+      }
+    },
+    "next_step": {
+      "type": "choice",
+      "choice": "orders_authorization",
+      "confidence": 1.0,
+      "probabilities": {
+        "identity_bridge": 0.0,
+        "historical_status": 0.0,
+        "orders_authorization": 1.0,
+        "insufficient": 0.0
+      }
+    },
+    "payment": {
+      "type": "choice",
+      "choice": "not_established",
+      "confidence": 1.0,
+      "probabilities": {
+        "established": 0.0,
+        "not_established": 1.0,
+        "insufficient": 0.0
+      }
+    },
+    "significance": {
+      "type": "choice",
+      "choice": "bounded_question",
+      "confidence": 0.99,
+      "probabilities": {
+        "administrative": 0.0,
+        "unresolved": 0.01,
+        "bounded_question": 0.99,
+        "insufficient": 0.0
+      }
+    },
+    "support": {
+      "type": "choice",
+      "choice": "nai_refreshed_history",
+      "confidence": 0.94,
+      "probabilities": {
+        "original_identity_rows": 0.03,
+        "nai_refreshed_history": 0.96,
+        "insufficient": 0.01
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 3422,
+    "output_tokens": 433
+  },
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"business\":{\"type\":\"choice\",\"choice\":\"possible_new_orders\",\"confidence\":0.92,\"probabilities\":{\"possible_new_orders\":0.9400000000000001,\"identity_unresolved\":0.0,\"administrative_only\":0.06,\"predesignation\":0.0,\"insufficient\":0.0}},\"identity\":{\"type\":\"choice\",\"choice\":\"strong\",\"confidence\":0.98,\"probabilities\":{\"weak\":0.0,\"strong\":0.99,\"insufficient\":0.01}},\"identity_support\":{\"type\":\"choice\",\"choice\":\"ofac_vs_procurement_address\",\"confidence\":1.0,\"probabilities\":{\"ofac_vs_procurement_address\":1.0,\"name_only\":0.0,\"insufficient\":0.0}},\"innocent\":{\"type\":\"choice\",\"choice\":\"official_business\",\"confidence\":0.97,\"probabilities\":{\"before_designation\":0.0,\"administrative\":0.02,\"official_business\":0.98,\"different_entity\":0.0,\"insufficient\":0.0}},\"next_step\":{\"type\":\"choice\",\"choice\":\"orders_authorization\",\"confidence\":1.0,\"probabilities\":{\"identity_bridge\":0.0,\"historical_status\":0.0,\"orders_authorization\":1.0,\"insufficient\":0.0}},\"payment\":{\"type\":\"choice\",\"choice\":\"not_established\",\"confidence\":1.0,\"probabilities\":{\"established\":0.0,\"not_established\":1.0,\"insufficient\":0.0}},\"significance\":{\"type\":\"choice\",\"choice\":\"bounded_question\",\"confidence\":0.99,\"probabilities\":{\"administrative\":0.0,\"unresolved\":0.01,\"bounded_question\":0.99,\"insufficient\":0.0}},\"support\":{\"type\":\"choice\",\"choice\":\"nai_refreshed_history\",\"confidence\":0.94,\"probabilities\":{\"original_identity_rows\":0.03,\"nai_refreshed_history\":0.96,\"insufficient\":0.01}}},\"usage\":{\"input_tokens\":3422,\"output_tokens\":433}}"
+}

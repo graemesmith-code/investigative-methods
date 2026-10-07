@@ -1,0 +1,11 @@
+{
+  "groups": 13,
+  "unique_transactions": 153,
+  "unique_awards": 72,
+  "entities": 9980,
+  "names_and_aliases": 23398,
+  "shared_original_files_identical": true,
+  "report_identical_to_repository": true,
+  "full_corpus_counts": "6639176 transactions and 101379 distinct recipient names are preserved original-run metadata, not recomputed without full corpus",
+  "bulk_redownload": false
+}

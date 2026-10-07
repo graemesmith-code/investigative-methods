@@ -1,0 +1,19 @@
+{
+  "seed": "C13 NAI LOGISTICS B.V.",
+  "seed_selection": "Only supported original identity; other 12 have no registration/address bridge",
+  "max_seed_candidates": 3,
+  "actual_seed_candidates": 1,
+  "max_names_per_seed": 5,
+  "selected_names": [
+    "NAI Logistics Limited",
+    "Fidelis Logistic and Supply Services",
+    "Secure Movement Logistics Services",
+    "Orbit International FZE",
+    "RG Group FZE"
+  ],
+  "max_search_pages_per_name": 2,
+  "rows_per_page": 20,
+  "period": "FY2024-FY2025",
+  "selection_reason": "Same directly named Treasury designation group; logistics/supply names and named group/intermediary candidates; not inferred subsidiaries",
+  "disallowed": "No new famous-name seeds, no inferred ownership percentages, no full corpus rerun"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "K01-obligation-not-payment",
+    "expected": false,
+    "score_not_calibrated_probability": 0.04,
+    "passed": true
+  },
+  {
+    "id": "K02-zero-termination",
+    "expected": false,
+    "score_not_calibrated_probability": 0.07,
+    "passed": true
+  },
+  {
+    "id": "K03-same-name",
+    "expected": false,
+    "score_not_calibrated_probability": 0.09,
+    "passed": true
+  },
+  {
+    "id": "K04-short-interval",
+    "expected": true,
+    "score_not_calibrated_probability": 0.54,
+    "passed": false
+  }
+]

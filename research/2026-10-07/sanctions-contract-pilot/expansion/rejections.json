@@ -1,0 +1,28 @@
+[
+  {
+    "claim": "NAI Logistics Limited is Dutch B.V. alias",
+    "status": "rejected",
+    "jev": {
+      "choice": "separate",
+      "confidence": 0.95,
+      "probabilities": {
+        "alias": 0.0,
+        "insufficient": 0.03,
+        "separate": 0.97
+      },
+      "type": "choice"
+    }
+  },
+  {
+    "claim": "NAI B.V. owns >=50% of proposed entities",
+    "status": "rejected",
+    "jev": {
+      "noul": 0.02,
+      "type": "noul"
+    }
+  },
+  {
+    "claim": "All other original candidates qualify for expansion",
+    "status": "rejected; identity not established"
+  }
+]

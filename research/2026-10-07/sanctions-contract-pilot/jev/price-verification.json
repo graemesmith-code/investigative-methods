@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-07",
+  "model": "jev-1.13.0",
+  "usd_per_million_input": 0.042,
+  "max_tokens": 64000,
+  "output_cost": 0,
+  "reservation_microusd": 3000,
+  "cap_microusd": 9000000,
+  "price_source": "https://docs.typesafe.ai/models",
+  "api_source": "https://docs.typesafe.ai/api",
+  "retries": 0
+}

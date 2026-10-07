@@ -1,0 +1,192 @@
+{
+  "id": "C04",
+  "recipient": "GCS LLC",
+  "uei": "JJXLTLEU5UN5",
+  "cage_codes": [
+    "4ZJH2"
+  ],
+  "contract_addresses": [
+    [
+      "1360 HIGHWAY 6 AND 50",
+      "LOMA",
+      "CO",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "50905",
+    "primary_name": "GIGANT COMPUTER SYSTEMS LLC",
+    "programs": [
+      "RUSSIA-EO14024"
+    ],
+    "aliases": [
+      {
+        "uid": "79737",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "GCS LLC"
+      }
+    ],
+    "addresses": [
+      {
+        "uid": "77303",
+        "address1": "Ul. 2-YA Entuziastov D. 5, Korp. 41",
+        "city": "Moscow",
+        "postalCode": "111024",
+        "country": "Russia"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "42899",
+        "idType": "Registration Number",
+        "idNumber": "1127747243260",
+        "idCountry": "Russia"
+      },
+      {
+        "uid": "42900",
+        "idType": "Tax ID No.",
+        "idNumber": "7720768984",
+        "idCountry": "Russia"
+      },
+      {
+        "uid": "179692",
+        "idType": "Secondary sanctions risk:",
+        "idNumber": "See Section 11 of Executive Order 14024."
+      }
+    ],
+    "remarks": ""
+  },
+  "matched_names": [
+    {
+      "ofac_id": "50905",
+      "name": "GCS LLC",
+      "kind": "a.k.a.",
+      "category": "weak",
+      "match_key": "gcs llc"
+    }
+  ],
+  "method": "normalized_exact",
+  "designation": {
+    "path": "sources/designation-20241030.txt",
+    "sha256": "c9085e701535e9f8879352657d17a5240887135dd447e9a943c52ac7f4ed5b2f",
+    "character_start": 45005,
+    "excerpt": "GIGANT COMPUTER SYSTEMS LLC (a.k.a. \"GCS LLC\"), Ul. 2-YA Entuziastov D. 5, Korp. 41, Moscow 111024, Russia; Secondary sanctions risk: See Section 11 of Executive Order 14024.; Tax ID No. 7720768984 (Russia); Registration Number 1127747243260 (Russia) [RUSSIA-EO14024]. GIT SISTEMS (a.k.a. KARNEEV SYSTEMS), sh. Entuziastov d. 56, str. 32, of. 429, Moscow 111123, Russia; Secondary sanctions risk: See Section 11 of Executive Order 14024.; Tax ID No. 7719478367 (Russia); Registration Number 1187746462419 (Russia) [RUSSIA-EO14024]. GNO INVESTMENT LTD OOD, 40, Ami Bue Street/Boulevard, Krasno Selo District, Floor 2, Apartment 3 Sofia, 1606, Stolichna, Bulgaria; Secondary sanctions risk: See Section 11 of Executive Order 14024.; Organization Established Date 03 Oct 2018; Tax ID No. BG205319107 (Bulgaria); Government Gazette Number 205319107 (Bulgaria) [RUSSIA-EO14024] (Linked To: CELIK, Ozgur Hasan). GOLDVAST ENTERPRISES COMPANY LIMITED, Room 803, Chevalier House 45-51 Chatham Road South, Tsim Sha Tsui, Kun, Hong Kong, China; Secondary sanctions risk: See Section 11 of Executive Order 14024.",
+    "date": "2024-10-30",
+    "scope": [
+      "RUSSIA-EO14024"
+    ],
+    "date_note": "OFAC dated addition notice; not a guarantee of all historical program changes"
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      8,
+      12,
+      16,
+      26,
+      27,
+      37,
+      43,
+      54,
+      134
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 8,
+      "date": "2025-09-18",
+      "piid": "1240LQ25F0015",
+      "mod": "0",
+      "type": "DELIVERY ORDER",
+      "action": "",
+      "obligation": "500.00"
+    },
+    {
+      "line": 12,
+      "date": "2025-09-15",
+      "piid": "1282B125C0008",
+      "mod": "P00001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 16,
+      "date": "2025-09-05",
+      "piid": "1240LT25C0019",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "246620.00"
+    },
+    {
+      "line": 26,
+      "date": "2025-08-27",
+      "piid": "140L1725C0004",
+      "mod": "P00001",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 27,
+      "date": "2025-08-26",
+      "piid": "140L1722C0004",
+      "mod": "P00005",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 37,
+      "date": "2025-07-30",
+      "piid": "1240LQ25D0010",
+      "mod": "0",
+      "type": "IDC",
+      "action": "",
+      "obligation": "0.00"
+    },
+    {
+      "line": 43,
+      "date": "2025-07-17",
+      "piid": "140L1725C0004",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "314050.00"
+    },
+    {
+      "line": 54,
+      "date": "2025-06-26",
+      "piid": "1240LT25D0040",
+      "mod": "0",
+      "type": "IDC",
+      "action": "",
+      "obligation": "0.00"
+    },
+    {
+      "line": 134,
+      "date": "2024-12-03",
+      "piid": "1282B125C0008",
+      "mod": "0",
+      "type": "DEFINITIVE CONTRACT",
+      "action": "",
+      "obligation": "2948425.00"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "3509595.00",
+    "negative_obligations": "0",
+    "net_obligations": "3509595.00",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 0,
+  "on_or_after_designation_rows": 9,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

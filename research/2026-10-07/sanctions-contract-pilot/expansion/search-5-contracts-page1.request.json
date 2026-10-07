@@ -1,0 +1,33 @@
+{
+  "filters": {
+    "recipient_search_text": [
+      "RG Group FZE"
+    ],
+    "time_period": [
+      {
+        "start_date": "2023-10-01",
+        "end_date": "2025-09-30"
+      }
+    ],
+    "award_type_codes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "fields": [
+    "Award ID",
+    "Recipient Name",
+    "Recipient UEI",
+    "Recipient Location",
+    "Award Amount",
+    "Start Date",
+    "Last Modified Date",
+    "generated_internal_id"
+  ],
+  "page": 1,
+  "limit": 20,
+  "sort": "Award ID",
+  "order": "asc"
+}

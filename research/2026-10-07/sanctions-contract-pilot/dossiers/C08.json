@@ -1,0 +1,127 @@
+{
+  "id": "C08",
+  "recipient": "APSCO, LLC",
+  "uei": "E9YGQYEK4NW7",
+  "cage_codes": [
+    "0PDP8"
+  ],
+  "contract_addresses": [
+    [
+      "14780 NE 95TH ST",
+      "REDMOND",
+      "WA",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "28534",
+    "primary_name": "AMANA SANITARY AND PAINTS COMPANY L.T.D.",
+    "programs": [
+      "SDGT"
+    ],
+    "aliases": [
+      {
+        "uid": "44973",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "APSCO"
+      }
+    ],
+    "addresses": [
+      {
+        "uid": "43141",
+        "address1": "second floor",
+        "address2": "Section 15B, Property 372",
+        "address3": "Chiyah",
+        "city": "Ghobeiri",
+        "country": "Lebanon"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "18904",
+        "idType": "Commercial Registry Number",
+        "idNumber": "2010822",
+        "idCountry": "Lebanon"
+      },
+      {
+        "uid": "187022",
+        "idType": "Secondary sanctions risk:",
+        "idNumber": "section 1(b) of Executive Order 13224, as amended by Executive Order 13886"
+      }
+    ],
+    "remarks": "(Linked To: ATLAS HOLDING)"
+  },
+  "matched_names": [
+    {
+      "ofac_id": "28534",
+      "name": "APSCO",
+      "kind": "a.k.a.",
+      "category": "weak",
+      "match_key": "apsco"
+    }
+  ],
+  "method": "legal_suffix_removed",
+  "designation": {
+    "path": "sources/designation-20200226.txt",
+    "sha256": "0e5924ff6c0e4f8f5b8a448b32d6f9cf13f1c0fd86aabca64309ca25296405af",
+    "character_start": 7011,
+    "excerpt": "AMANA SANITARY AND PAINTS COMPANY L.T.D. (a.k.a. \"APSCO\"), second floor, Section 15B, Property 372, Chiyah, Ghobeiri, Lebanon; Commercial Registry Number 2010822 (Lebanon) [SDGT] (Linked To: ATLAS HOLDING). ATLAS HOLDING (a.k.a. ATLAS HOLDING SAL), Lebanon; Mount Lebanon Mohafaza, Baabda Casa, MEC Center, Ghobairy, Lebanon; Chiyah, Ghobeiry, Lebanon; Commercial Registry Number 1900656 (Lebanon) [SDGT] (Linked To: MARTYRS FOUNDATION IN LEBANON). CAPITAL S.A.L., Section 34, Block B, Chiyah, Lebanon; Commercial Registry Number 2051340 (Lebanon) [SDGT] (Linked To: ATLAS HOLDING). CITY PHARMA SARL, Section 35, Block B, Property 2433, Borj al Barajneh, Lebanon; Commercial Registry Number 2014987 (Lebanon) [SDGT]. GLOBAL TOURISTIC SERVICES SAL, Property 362, Section 8, Block B, Eidi Building, Chiyah, Lebanon; Commercial Registry Number 2012409 (Lebanon) [SDGT] (Linked To: ATLAS HOLDING). MEDICAL EQUIPMENT AND DRUGS INTERNATIONAL CORPORATION (a.k.a. MEDICAL EQUIPMENT & DRUGS INTERNATIONAL CORPORATION; a.k.a. \"DRUGS AND MEDICAL SUPPLIES\"; a.k.a. \"MEDIC\"), Safco Center B1-B2, Airport Road, Bei",
+    "date": "2020-02-26",
+    "scope": [
+      "SDGT"
+    ],
+    "date_note": "OFAC dated addition notice; not a guarantee of all historical program changes"
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      18,
+      34,
+      75
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 18,
+      "date": "2025-09-05",
+      "piid": "FA462625P0018",
+      "mod": "P00002",
+      "type": "PURCHASE ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "6966.00"
+    },
+    {
+      "line": 34,
+      "date": "2025-08-04",
+      "piid": "FA462625P0018",
+      "mod": "P00001",
+      "type": "PURCHASE ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 75,
+      "date": "2025-05-05",
+      "piid": "FA462625P0018",
+      "mod": "0",
+      "type": "PURCHASE ORDER",
+      "action": "",
+      "obligation": "36608.00"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "43574.00",
+    "negative_obligations": "0",
+    "net_obligations": "43574.00",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 0,
+  "on_or_after_designation_rows": 3,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

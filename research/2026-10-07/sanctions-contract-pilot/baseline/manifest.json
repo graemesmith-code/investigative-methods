@@ -1,0 +1,36 @@
+[
+  {
+    "name": "ofac-step1-2026-09-18.zip",
+    "bytes": 4559005,
+    "sha256": "2b5c29bff61682d6623ed63882f9b9c9708e2c3c147f0211d148af2f95f4a1f6",
+    "members": [
+      "sdn.xml",
+      "entities.json",
+      "names.json",
+      "source-summary.json",
+      "prepare.py"
+    ],
+    "source_commit": "218de208b504372e06f73abae79de1e2e21d25a1"
+  },
+  {
+    "name": "sanctions-screen-evidence-2026-09-18.zip",
+    "bytes": 4753651,
+    "sha256": "842876d3ca8e0dfea78647c25069582de011ed92eb2fc4a7e1a9b08bdb9de756",
+    "members": [
+      "sdn.xml",
+      "entities.json",
+      "names.json",
+      "source-summary.json",
+      "prepare.py",
+      "screen_contracts.py",
+      "check_screen.py",
+      "package_results.py",
+      "results/screen-summary.json",
+      "results/candidate-groups.json",
+      "results/contract-source.json",
+      "results/candidate-transactions.jsonl",
+      "sanctions-screen-results-2026-09-18.md"
+    ],
+    "source_commit": "218de208b504372e06f73abae79de1e2e21d25a1"
+  }
+]

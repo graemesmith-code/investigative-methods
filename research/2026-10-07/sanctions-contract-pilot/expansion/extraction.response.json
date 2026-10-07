@@ -1,0 +1,74 @@
+{
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"alias_trap\":{\"type\":\"choice\",\"choice\":\"separate\",\"confidence\":0.95,\"probabilities\":{\"alias\":0.0,\"insufficient\":0.03,\"separate\":0.97}},\"name_0\":{\"type\":\"choice\",\"choice\":\"P1_same_designation_group\",\"confidence\":1.0,\"probabilities\":{\"NAI_subsidiary\":0.0,\"insufficient\":0.0,\"P1_same_designation_group\":1.0}},\"name_1\":{\"type\":\"choice\",\"choice\":\"P1_same_designation_group\",\"confidence\":0.98,\"probabilities\":{\"NAI_subsidiary\":0.0,\"insufficient\":0.01,\"P1_same_designation_group\":0.99}},\"name_2\":{\"type\":\"choice\",\"choice\":\"P1_same_designation_group\",\"confidence\":1.0,\"probabilities\":{\"NAI_subsidiary\":0.0,\"insufficient\":0.0,\"P1_same_designation_group\":1.0}},\"name_3\":{\"type\":\"choice\",\"choice\":\"P1_same_designation_group\",\"confidence\":0.98,\"probabilities\":{\"NAI_subsidiary\":0.0,\"insufficient\":0.01,\"P1_same_designation_group\":0.99}},\"name_4\":{\"type\":\"choice\",\"choice\":\"P1_same_designation_group\",\"confidence\":1.0,\"probabilities\":{\"NAI_subsidiary\":0.0,\"insufficient\":0.0,\"P1_same_designation_group\":1.0}},\"percentage_trap\":{\"type\":\"noul\",\"noul\":0.02}},\"usage\":{\"input_tokens\":1866,\"output_tokens\":351}}",
+  "answers": {
+    "alias_trap": {
+      "choice": "separate",
+      "confidence": 0.95,
+      "probabilities": {
+        "alias": 0.0,
+        "insufficient": 0.03,
+        "separate": 0.97
+      },
+      "type": "choice"
+    },
+    "name_0": {
+      "choice": "P1_same_designation_group",
+      "confidence": 1.0,
+      "probabilities": {
+        "NAI_subsidiary": 0.0,
+        "P1_same_designation_group": 1.0,
+        "insufficient": 0.0
+      },
+      "type": "choice"
+    },
+    "name_1": {
+      "choice": "P1_same_designation_group",
+      "confidence": 0.98,
+      "probabilities": {
+        "NAI_subsidiary": 0.0,
+        "P1_same_designation_group": 0.99,
+        "insufficient": 0.01
+      },
+      "type": "choice"
+    },
+    "name_2": {
+      "choice": "P1_same_designation_group",
+      "confidence": 1.0,
+      "probabilities": {
+        "NAI_subsidiary": 0.0,
+        "P1_same_designation_group": 1.0,
+        "insufficient": 0.0
+      },
+      "type": "choice"
+    },
+    "name_3": {
+      "choice": "P1_same_designation_group",
+      "confidence": 0.98,
+      "probabilities": {
+        "NAI_subsidiary": 0.0,
+        "P1_same_designation_group": 0.99,
+        "insufficient": 0.01
+      },
+      "type": "choice"
+    },
+    "name_4": {
+      "choice": "P1_same_designation_group",
+      "confidence": 1.0,
+      "probabilities": {
+        "NAI_subsidiary": 0.0,
+        "P1_same_designation_group": 1.0,
+        "insufficient": 0.0
+      },
+      "type": "choice"
+    },
+    "percentage_trap": {
+      "noul": 0.02,
+      "type": "noul"
+    }
+  },
+  "model": "jev-1.13.0",
+  "usage": {
+    "input_tokens": 1866,
+    "output_tokens": 351
+  }
+}

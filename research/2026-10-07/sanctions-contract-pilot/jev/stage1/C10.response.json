@@ -1,0 +1,96 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "business": {
+      "type": "choice",
+      "choice": "administrative_only",
+      "confidence": 0.52,
+      "probabilities": {
+        "administrative_only": 0.62,
+        "predesignation": 0.0,
+        "insufficient": 0.0,
+        "possible_new_orders": 0.1,
+        "identity_unresolved": 0.28
+      }
+    },
+    "identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.91,
+      "probabilities": {
+        "strong": 0.0,
+        "insufficient": 0.06,
+        "weak": 0.94
+      }
+    },
+    "identity_support": {
+      "type": "choice",
+      "choice": "name_only",
+      "confidence": 0.73,
+      "probabilities": {
+        "insufficient": 0.01,
+        "ofac_vs_procurement_address": 0.17,
+        "name_only": 0.82
+      }
+    },
+    "innocent": {
+      "type": "choice",
+      "choice": "different_entity",
+      "confidence": 0.99,
+      "probabilities": {
+        "administrative": 0.01,
+        "before_designation": 0.0,
+        "insufficient": 0.0,
+        "different_entity": 0.99,
+        "official_business": 0.0
+      }
+    },
+    "next_step": {
+      "type": "choice",
+      "choice": "identity_bridge",
+      "confidence": 0.99,
+      "probabilities": {
+        "insufficient": 0.0,
+        "historical_status": 0.0,
+        "orders_authorization": 0.01,
+        "identity_bridge": 0.99
+      }
+    },
+    "payment": {
+      "type": "choice",
+      "choice": "not_established",
+      "confidence": 1.0,
+      "probabilities": {
+        "established": 0.0,
+        "not_established": 1.0,
+        "insufficient": 0.0
+      }
+    },
+    "significance": {
+      "type": "choice",
+      "choice": "unresolved",
+      "confidence": 0.65,
+      "probabilities": {
+        "administrative": 0.01,
+        "bounded_question": 0.24,
+        "insufficient": 0.01,
+        "unresolved": 0.74
+      }
+    },
+    "support": {
+      "type": "choice",
+      "choice": "original_identity_rows",
+      "confidence": 0.76,
+      "probabilities": {
+        "original_identity_rows": 0.84,
+        "insufficient": 0.09,
+        "nai_refreshed_history": 0.07
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 3484,
+    "output_tokens": 427
+  },
+  "_raw_response_utf8": "{\"model\":\"jev-1.13.0\",\"answers\":{\"business\":{\"type\":\"choice\",\"choice\":\"administrative_only\",\"confidence\":0.52,\"probabilities\":{\"administrative_only\":0.62,\"predesignation\":0.0,\"insufficient\":0.0,\"possible_new_orders\":0.1,\"identity_unresolved\":0.28}},\"identity\":{\"type\":\"choice\",\"choice\":\"weak\",\"confidence\":0.91,\"probabilities\":{\"strong\":0.0,\"insufficient\":0.06,\"weak\":0.94}},\"identity_support\":{\"type\":\"choice\",\"choice\":\"name_only\",\"confidence\":0.73,\"probabilities\":{\"insufficient\":0.01,\"ofac_vs_procurement_address\":0.17,\"name_only\":0.82}},\"innocent\":{\"type\":\"choice\",\"choice\":\"different_entity\",\"confidence\":0.99,\"probabilities\":{\"administrative\":0.01,\"before_designation\":0.0,\"insufficient\":0.0,\"different_entity\":0.99,\"official_business\":0.0}},\"next_step\":{\"type\":\"choice\",\"choice\":\"identity_bridge\",\"confidence\":0.99,\"probabilities\":{\"insufficient\":0.0,\"historical_status\":0.0,\"orders_authorization\":0.01,\"identity_bridge\":0.99}},\"payment\":{\"type\":\"choice\",\"choice\":\"not_established\",\"confidence\":1.0,\"probabilities\":{\"established\":0.0,\"not_established\":1.0,\"insufficient\":0.0}},\"significance\":{\"type\":\"choice\",\"choice\":\"unresolved\",\"confidence\":0.65,\"probabilities\":{\"administrative\":0.01,\"bounded_question\":0.24,\"insufficient\":0.01,\"unresolved\":0.74}},\"support\":{\"type\":\"choice\",\"choice\":\"original_identity_rows\",\"confidence\":0.76,\"probabilities\":{\"original_identity_rows\":0.84,\"insufficient\":0.09,\"nai_refreshed_history\":0.07}}},\"usage\":{\"input_tokens\":3484,\"output_tokens\":427}}"
+}

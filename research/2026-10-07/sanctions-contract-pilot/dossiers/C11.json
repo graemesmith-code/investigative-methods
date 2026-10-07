@@ -1,0 +1,102 @@
+{
+  "id": "C11",
+  "recipient": "GEOTECH ENGINEERING, INC",
+  "uei": "NC4LP8N8L3B9",
+  "cage_codes": [
+    "7GD67"
+  ],
+  "contract_addresses": [
+    [
+      "4031 ALLPORT CUTOFF",
+      "MORRISDALE",
+      "PA",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "55921",
+    "primary_name": "GEOTECH ENGINEERING LIMITED",
+    "programs": [
+      "TCO"
+    ],
+    "aliases": [],
+    "addresses": [
+      {
+        "uid": "85601",
+        "city": "Hong Kong",
+        "country": "China"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "50075",
+        "idType": "Company Number",
+        "idNumber": "0485362",
+        "idCountry": "Hong Kong"
+      }
+    ],
+    "remarks": "(Linked To: CHEN, Zhi)"
+  },
+  "matched_names": [
+    {
+      "ofac_id": "55921",
+      "name": "GEOTECH ENGINEERING LIMITED",
+      "kind": "primary",
+      "category": "",
+      "match_key": "geotech engineering limited"
+    }
+  ],
+  "method": "legal_suffix_removed",
+  "designation": {
+    "path": "sources/designation-20251014.txt",
+    "sha256": "b4c71a0fc1efa14377ed9332c189950294fdd10fd1a7a35e9ff3b3fa3ba96068",
+    "character_start": 15581,
+    "excerpt": "GEOTECH ENGINEERING LIMITED, Hong Kong, China; Company Number 0485362 (Hong Kong) [TCO] (Linked To: CHEN, Zhi). GEOTECH HOLDINGS LIMITED, Hong Kong, China; Business Registration Number 66512554 (Hong Kong) [TCO] (Linked To: CHEN, Zhi). GIANT VICTORY HOLDINGS LIMITED, Phnom Penh, Cambodia; Company Number 1930566 (Virgin Islands, British) [TCO] (Linked To: CHEN, Zhi). GOLDEN ASCEND HK LIMITED, Hong Kong, China; Company Number 2713133 (Hong Kong) [TCO] (Linked To: CHEN, Zhi). GOLDEN ASCEND INTERNATIONAL LIMITED, Phnom Penh, Cambodia; Company Number 1976645 (Virgin Islands, British) [TCO] (Linked To: CHEN, Zhi). GOLDEN FORTUNE RESORTS WORLD CO. LTD., Cambodia; Tax ID No. K002-901803517 (Cambodia) [TCO] (Linked To: PRINCE GROUP TRANSNATIONAL CRIMINAL ORGANIZATION). GOOD EQUITY TEAM PTE. LTD., Singapore; Organization Type: Management consultancy activities; Identification Number 202446827M (Singapore) [TCO] (Linked To: CHEN, Xiuling). GRAND LEGEND INTERNATIONAL ASSET MANAGEMENT GROUP CO. LTD., Ngerbelas Island, Kayangel, Palau; Tax ID No. 016290 (Palau) [TCO] (Linked To: CHEN, Zhi). GREENB",
+    "date": "2025-10-14",
+    "scope": [
+      "TCO"
+    ],
+    "date_note": "OFAC dated addition notice; not a guarantee of all historical program changes"
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      90,
+      95
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 90,
+      "date": "2025-04-11",
+      "piid": "6973GH25P01943",
+      "mod": "0",
+      "type": "PURCHASE ORDER",
+      "action": "",
+      "obligation": "10900.00"
+    },
+    {
+      "line": 95,
+      "date": "2025-04-09",
+      "piid": "6973GH25P01931",
+      "mod": "0",
+      "type": "PURCHASE ORDER",
+      "action": "",
+      "obligation": "17700.00"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "28600.00",
+    "negative_obligations": "0",
+    "net_obligations": "28600.00",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 2,
+  "on_or_after_designation_rows": 0,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

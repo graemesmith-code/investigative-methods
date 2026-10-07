@@ -1,35 +1,55 @@
-# Sanctions/USAspending pilot — access checkpoint
+# Sanctions versus USAspending: bounded pilot
 
-7 October 2026. **Incomplete: no candidate findings or Jev evaluations produced. New Jev spend: US$0.** Alberta remains parked; its separate prior US$0.000507 is excluded.
+Completed 7 October 2026. **One credible identity match, one unresolved post-designation purchasing question, no established prohibited payment or sanctions violation.** The five-name expansion produced no additional leads within its stated search scope.
 
-The existing private repository was clean at starting commit fef7c60. No AGENTS.md or SKILL.md was found in the checkout; workspace .agents and .codex directories were empty. The prior OFAC report and selected JSON evidence exist under evidence/ofac, but the original ZIPs are absent. Counts in that report have not yet been independently recomputed from original evidence.
+**NAI Logistics B.V. remains the sole credible identity match.** Its FY2025 hit is a vehicle termination for cause on 11 March 2025 with zero additional obligations. Independently retrieved child histories reveal eight delivery orders dated 13–14 December 2023, two to three days after designation: $36,309.46 positive obligations, −$15,662.32 adjustments, **$20,647.14 net**. These are possible new-business records requiring the original instruments, not proof of payments or actual decision timing. Four orders are fully offset; a fifth is partly reduced. All eight reported total-outlay fields are null. [Full calibration and order table](NAI-calibration.md).
 
-Library search resolved all three requested originals. The current supported download helper, with exact selection of those three files, stopped at an HTTP 401 during its hosted-app tools lookup. No bytes were materialized. An initial missing companion was installed from the current skill before this authentication failure. No access settings, credentials, or TLS protections were changed. The parent session must restore supported Library transfer or supply the recovered original bytes through an authorized upload route. Do not redownload the full contract archive.
+A dated official-US-government-business general license offers a concrete possible lawful explanation (31 CFR 583.509 in December 2023; later 583.510). Qualification is not established. Neither a short interval nor the old vehicle automatically resolves authorization. The designation was already public; novelty of the order rows has not been established.
 
-Existing JEV_API_KEY passed authenticated GET /v1/models (HTTP 200). TYPESAFE_API_KEY is absent. No credential value was displayed or saved. Fresh public API/model documentation and the models response are archived with hashes. Version jev-1.13.0 remains US$0.042 per million input tokens, with free outputs and maximum 64,000 input tokens per request.
+The other 12 pairs have name/alias matches but conflicting locations and no corporate-registration or ownership bridge. Keep them **unresolved**, with likely name collision as the strongest innocent explanation. Do not attribute their contract amounts to sanctioned entities. Two counterpart entities—Geotech Engineering and Patriot Inc.—were listed after all supplied FY2025 actions. That date finding does not exclude an untested earlier ownership-based restriction.
 
-Budget design: separate new ledger, US$9 internal cap and US$10 authorization ceiling; reserve US$0.003 per request (64,000 × US$0.042 / 1,000,000 = US$0.002688). Every failed or uncertain request retains its reservation; no automatic retries, redirects, or other paid services. This bound is supported by current documentation, but the sanctions-only offline adapter now passes six failure-control tests; live transport and synthetic model calibration remain required before paid calls. Do not execute disabled Alberta scripts or use its old ledger.
+## Ranked reading list
 
-The documented Jev interface returns typed decisions (noul, choice, score), not free-form evidence extraction. Continuation must use code-generated, passage-anchored candidate choices with an insufficient-evidence option; Jev selections cannot invent a relationship or serve as verification.
+Tier 1 is the supported identity/records question. Tier 2 cases are tied unresolved identity leads, not a risk ranking. Tier 3 adds a temporal reason the current-list screen cannot establish post-designation activity. Every original pair is retained, including both Digital Technologies UEIs.
 
-Next: materialize and hash originals; inspect ZIP contents and reproduce subset counts; construct source-linked dossiers; verify historical designations and the NAI calibration from official sources; test the sanctions-only adapter and small controls; run bounded triage; expand only supported identities (maximum three candidates and five validated names each). Both stages remain pending. The user permits an empty credible shortlist. No conclusion about payments, authorization, or sanctions violations is made.
+| Tier | Recipient / UEI | Original actions | Listing date | Assessment |
+|---|---|---:|---|---|
+| 1 | [NAI LOGISTICS B.V.](dossiers/C13.md) / SLVJF3DR8MN5 | 1 | 2023-12-11 | credible identity; possible new child-order business; vehicle administrative |
+| 2 | [ACS LOGISTICS LLC](dossiers/C01.md) / P7NTM9B6RG69 | 20 | 2023-12-12 | unresolved identity; likely name collision |
+| 2 | [DIGITAL TECHNOLOGIES, INC.](dossiers/C02.md) / PGGGRPN3DDC7 | 38 | 2022-04-06 | unresolved identity; likely name collision |
+| 2 | [GCS LLC](dossiers/C04.md) / JJXLTLEU5UN5 | 9 | 2024-10-30 | unresolved identity; likely name collision |
+| 2 | [VMC, LLC](dossiers/C05.md) / DJF2Y1HE6JT6 | 3 | 2023-05-19 | unresolved identity; likely name collision |
+| 2 | [ADVANCED TECHNOLOGIES, INC.](dossiers/C06.md) / FV58GN6ZNRK1 | 22 | 2018-11-05 | unresolved identity; likely name collision |
+| 2 | [PHOENIX LLC](dossiers/C07.md) / HSDMSEKCW8J8 | 4 | 2024-02-23 | unresolved identity; likely name collision |
+| 2 | [APSCO, LLC](dossiers/C08.md) / E9YGQYEK4NW7 | 3 | 2020-02-26 | unresolved identity; likely name collision |
+| 2 | [RTS LLC](dossiers/C09.md) / XWSEFECGY3D9 | 1 | 2020-01-10 | unresolved identity; likely name collision |
+| 2 | [DIGITAL TECHNOLOGIES, INC.](dossiers/C10.md) / GUGBC8JMR6X5 | 6 | 2022-04-06 | unresolved identity; likely name collision |
+| 2 | [Z-AXIS, LLC](dossiers/C12.md) / DEAVQLC71338 | 3 | 2024-02-23 | unresolved identity; likely name collision |
+| 3 | [PATRIOT LLC](dossiers/C03.md) / LYMKSJG6DLQ5 | 41 | 2026-04-24 | unresolved identity; all supplied rows predate identified designation |
+| 3 | [GEOTECH ENGINEERING, INC](dossiers/C11.md) / NC4LP8N8L3B9 | 2 | 2025-10-14 | unresolved identity; all supplied rows predate identified designation |
 
-See [technical annex](technical-annex.md) and [source manifest](sources/manifest.json).
+## What Jev added—and did not
 
-## Follow-up checkpoint
+Jev agreed with the code/source assessment on the one strong identity and 12 weak identities. It added a consistent set of structured judgments and correctly rejected payment inference and the tested alias/ownership inventions. It found no new entity relationship or factual lead beyond the sources and ordinary code. The user-defined options and dossier context constrain this test: this was not a blind accuracy study or an open-ended entity-discovery benchmark.
 
-The one bounded retry after refreshed exact Library searches again failed with HTTP 401. See recovery-status.json for the exact route and error. Both ZIPs remain inaccessible. The repository report and derived excerpts are readable, inventoried with hashes; they do not replace missing original records. Git object-path history was also searched and recorded.
+The original screen already identified NAI and its zero-dollar termination. The useful new factual work—historical designation comparisons, child-order retrieval, separate positive/negative amounts, and the dated government-business authorization—came from official records and code. Jev selected the supported NAI follow-up after being supplied that work.
 
-Six offline tests pass for the Jev-only adapter: provider restriction, retained uncertain costs and retry blocking, cap enforcement, success caching and rounding, invalid usage rejection, and literal passage checking. These tests make no network calls and do not measure model accuracy. Run `python -m unittest discover -s research/2026-10-07/sanctions-contract-pilot/scripts -p 'test_*.py' -v` from repository root.
+Jev's weaknesses are retained. One broad short-interval control scored 0.54 and failed the pre-set threshold, so candidate calls stopped. A narrower literal record question scored 0.96; six atomic controls then passed. In candidate output, activity labels often ignored unresolved identity: 12 labels required an identity gate/clarification. It also called Geotech's actions predesignation correctly but labelled Z-AXIS and Phoenix administrative; those labels are not legal clearance. [All overrides](jev/human-overrides.json), [failed control](jev/controls/evaluation.json), [revised controls](jev/controls-v2/evaluation.json).
 
-[NAI partial calibration](NAI-calibration.md) now documents independently refreshed official records, separate from the unavailable immutable baseline. All requested original ZIP contents and full candidate dossiers remain blocked; no claimed 13-candidate dataset was reconstructed from memory.
+## Bounded expansion
 
-## NAI calibration result
+Only NAI qualified. The original Treasury designation notice supported five separately named members of the same disjunctive Rahmani designation group: NAI Logistics Limited, Fidelis Logistic and Supply Services, Secure Movement Logistics Services, Orbit International FZE, and RG Group FZE. Exact passage offsets/hashes and Jev selections were checked against the original notice and separate OFAC entries before search. These are **not established NAI subsidiaries or aliases**; exact ownership percentages and intermediary roles are unknown. Each is separately designated, so coverage is not inferred from association or the 50% rule.
 
-Current official API history now confirms the zero-obligation vehicle termination and eight child delivery orders dated 13–14 December 2023. Gross positive obligations $36,309.46, negative adjustments −$15,662.32, net $20,647.14; no payments established. All eight child records identify the same NAI recipient/UEI. Dated official-business authorization is a concrete possible explanation; no breach is concluded. See NAI-calibration.md for the full table, coverage limits, and missing instruments. No paid Jev evaluation occurred.
+Ten bounded USAspending queries—contracts and IDVs separately for each name, FY2024–FY2025, at most 20 rows per query—returned zero rows with no next page. This is a null result within these names, filters and dates, not proof of no historical, subcontractor, alias or differently reported activity. No extra seeds were introduced to fill a quota. [Exact extraction and search log](expansion/validated-extractions.json), [null results](expansion/search-summary.json), [rejections](expansion/rejections.json).
 
-## Reattached originals: 11:29 UTC recovery checkpoint
+## Evidence and cost
 
-Both newly supplied Library references resolve to the expected original ZIP filenames (with an upload-added `(1)` suffix) and expected metadata byte sizes. The resolved-reference route successfully prepared both, but the current supported transfer helper returned HTTP 403 for each. One fresh preparation and bounded supported retry returned the same error for both. The consumer-local baseline directory contains no files. No archive hashes, contents, or original candidate counts have therefore been verified. Metadata is not byte recovery. See reattachment-recovery-status.json for exact identifiers and errors, with no signed links retained.
+Both original ZIPs were recovered from private repository main commit 218de208b504372e06f73abae79de1e2e21d25a1, safely extracted and CRC-checked. Shared OFAC files match byte-for-byte; SDN hash matches the original source manifest; report matches the preserved repository report. The recovered subset confirms 13 pairs, 153 distinct transactions, 72 awards, 9,980 entities and 23,398 names/aliases. The full-run counts of 6,639,176 transactions and 101,379 distinct recipient names remain original-run metadata, not newly recomputed corpus counts. No bulk redownload. [Recovery checks](recovery-verification.json), [original archives and hashes](baseline/manifest.json).
 
-The independent NAI calibration and offline guard tests remain available. Paid Jev evaluations and both full stages remain blocked pending readable original bytes. No further Library retries, bulk downloads, access changes, or manual URL transfers were attempted. New Jev spend remains $0.
+**New Jev usage-derived conservative cost: US$0.002443 across 21 paid calls.** This includes the failed control and its revision; each call is rounded up to the next microdollar. It is not an invoice. No other paid service. Prior Alberta spending is excluded. The $9 internal reservation cap and $10 authorization ceiling were never approached. [Exact prompts, responses and ledger](jev/ledger.json).
+
+Eight offline guard tests and the original matching fixture passed; original subset counts, child sums and pagination were checked. [Technical annex and reproduction](FINAL-TECHNICAL-ANNEX.md). No outreach, credential changes, TLS bypass or resumed Alberta investigation.
+
+## Remaining questions
+
+Obtain original NAI order/modification instruments and purchasing timestamps; establish authorization scope for the actual transactions; review delivery acceptance and payment evidence if available. For any other candidate, first obtain a dated corporate identity/ownership bridge before attributing activity. Corporate registers, private licenses, original purchasing instruments, universal sanctions history and all NAI awards were not comprehensively obtained. The two bounded pilot stages are complete with those evidence limits; the result is a reading list, not verification of misconduct.

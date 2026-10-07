@@ -542,5 +542,229 @@
     "status": 200,
     "bytes": 6362,
     "sha256": "70091ac8c2207ccb64b3df4b445773806b1eb36813ee57329408c1b34307d4fa"
+  },
+  {
+    "name": "designation-20231212.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20231212",
+    "retrieved_utc": "2026-10-07T11:52:54.119170+00:00",
+    "bytes": 131636,
+    "sha256": "9afeaa5fe5018946c5de5a371628f76fb3bd5acad2e982340b6f7ffcad158703",
+    "status": 200
+  },
+  {
+    "name": "designation-20181105.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20181105",
+    "retrieved_utc": "2026-10-07T11:52:54.293158+00:00",
+    "bytes": 41384,
+    "sha256": "af6937b2f273f5a8cc479526d466f203635c759f15a9ddb0ff4d9d287256694e",
+    "status": 200
+  },
+  {
+    "name": "designation-20220406.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20220406",
+    "retrieved_utc": "2026-10-07T11:52:54.497246+00:00",
+    "bytes": 90639,
+    "sha256": "b1569e178f00f164592067b4d484974cf163c3c24b20ed3f881a9f86f62736b5",
+    "status": 200
+  },
+  {
+    "name": "designation-20241030.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20241030",
+    "retrieved_utc": "2026-10-07T11:52:54.729247+00:00",
+    "bytes": 204192,
+    "sha256": "412b3303a22f0d346c32370fd548d6c51409c26a6c7f6dc1b191afcc9a56203e",
+    "status": 200
+  },
+  {
+    "name": "designation-20251014.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20251014",
+    "retrieved_utc": "2026-10-07T11:52:54.932384+00:00",
+    "bytes": 70765,
+    "sha256": "c21ea8629de67c29c714dc10b2c9f7bbbe6ebeecacdc176ed6a8bd7197afad00",
+    "status": 200
+  },
+  {
+    "name": "designation-20260424.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20260424",
+    "retrieved_utc": "2026-10-07T11:52:55.147813+00:00",
+    "bytes": 50824,
+    "sha256": "26e31e4579fc5910d974c0ea0ff7ee0eabb8b2db384673530068da4bc9b5c187",
+    "status": 200
+  },
+  {
+    "name": "designation-20240223.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20240223",
+    "retrieved_utc": "2026-10-07T11:52:55.405850+00:00",
+    "bytes": 313713,
+    "sha256": "c3b40c5e25ee91d99b813df8dc48d58460e0ac7e606d6f9acead638863422c4c",
+    "status": 200
+  },
+  {
+    "name": "designation-20230519.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20230519",
+    "retrieved_utc": "2026-10-07T11:52:55.725381+00:00",
+    "bytes": 168319,
+    "sha256": "fef5fbcfb86e7403e70d23b007dce8deecea97369823f80718cae283b45f34bb",
+    "status": 200
+  },
+  {
+    "name": "designation-20200226.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20200226",
+    "retrieved_utc": "2026-10-07T11:52:56.165268+00:00",
+    "bytes": 46157,
+    "sha256": "7c90468fc1961d2677c28c9951e1d1eb7abe236c90e39ecd8ed442e6dbd876f9",
+    "status": 200
+  },
+  {
+    "name": "designation-20200110.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20200110",
+    "retrieved_utc": "2026-10-07T11:53:25.704132+00:00",
+    "bytes": 51872,
+    "sha256": "1178303cf74d1bf0e5b152e1dd5189ffc171be5c87e2f68c65e5705e358f9bf0",
+    "status": 200
+  },
+  {
+    "name": "treasury-sm1130.html",
+    "url": "https://home.treasury.gov/news/press-releases/sm1130",
+    "retrieved_utc": "2026-10-07T11:53:26.028718+00:00",
+    "bytes": 75560,
+    "sha256": "d41f7559577204953ae17bdf65a42c3a86df0cf397691af0a62d887cefcc1a47",
+    "status": 200
+  },
+  {
+    "name": "../expansion/search-1-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-1-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:31.680811+00:00",
+    "tls_verification": true,
+    "error_type": "HTTPError",
+    "status": 422
+  },
+  {
+    "name": "../expansion/search-1-contracts-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-1-contracts-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:56.499705+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-1-idvs-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-1-idvs-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:56.781450+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-2-contracts-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-2-contracts-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:57.059071+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-2-idvs-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-2-idvs-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:58.219077+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-3-contracts-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-3-contracts-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:58.599102+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-3-idvs-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-3-idvs-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:58.854798+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-4-contracts-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-4-contracts-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:59.104049+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-4-idvs-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-4-idvs-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:59.315319+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-5-contracts-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-5-contracts-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:59.513541+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "../expansion/search-5-idvs-page1.response.json",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request_file": "../expansion/search-5-idvs-page1.request.json",
+    "retrieved_utc": "2026-10-07T11:58:59.724567+00:00",
+    "tls_verification": true,
+    "status": 200,
+    "bytes": 481,
+    "sha256": "3ae03aec059a05e5d1de845137690da94123d5c910446f0157c363f1888ddb82"
+  },
+  {
+    "name": "ofac-faq-398.html",
+    "url": "https://ofac.treasury.gov/faqs/398",
+    "retrieved_utc": "2026-10-07T11:59:29.709785+00:00",
+    "sha256": "6c3632af28009a3159e82ec8dd9a99c5655ef9754fd144447a5edf9bd2bc2cf6",
+    "bytes": 37370,
+    "status": 200
+  },
+  {
+    "name": "ofac-faq-401.html",
+    "url": "https://ofac.treasury.gov/faqs/401",
+    "retrieved_utc": "2026-10-07T11:59:30.041106+00:00",
+    "sha256": "585d48920d13774099d5f6ff3b1fff6664f7a0ea663f26d66c07aa5c14be0b5c",
+    "bytes": 39611,
+    "status": 200
   }
 ]

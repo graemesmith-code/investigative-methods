@@ -1,0 +1,143 @@
+{
+  "id": "C12",
+  "recipient": "Z-AXIS, LLC",
+  "uei": "DEAVQLC71338",
+  "cage_codes": [
+    "6FVP3"
+  ],
+  "contract_addresses": [
+    [
+      "4600 S ULSTER ST STE 270",
+      "DENVER",
+      "CO",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "47535",
+    "primary_name": "Z AXIS LLC",
+    "programs": [
+      "RUSSIA-EO14024"
+    ],
+    "aliases": [
+      {
+        "uid": "73594",
+        "type": "a.k.a.",
+        "category": "strong",
+        "lastName": "ZET AKSIS"
+      },
+      {
+        "uid": "73595",
+        "type": "a.k.a.",
+        "category": "strong",
+        "lastName": "ZET AXIS LLC"
+      }
+    ],
+    "addresses": [
+      {
+        "uid": "70970",
+        "address1": "Per. Gagarinskii D. 22/8, Str. 1, Floor Tsokolnyi Kom 3",
+        "city": "Moscow",
+        "postalCode": "119002",
+        "country": "Russia"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "38038",
+        "idType": "Registration Number",
+        "idNumber": "1197746112002",
+        "idCountry": "Russia"
+      },
+      {
+        "uid": "38039",
+        "idType": "Tax ID No.",
+        "idNumber": "7704477392",
+        "idCountry": "Russia"
+      },
+      {
+        "uid": "169857",
+        "idType": "Secondary sanctions risk:",
+        "idNumber": "See Section 11 of Executive Order 14024."
+      },
+      {
+        "uid": "170062",
+        "idType": "Organization Type:",
+        "idNumber": "Wholesale of other machinery and equipment"
+      }
+    ],
+    "remarks": ""
+  },
+  "matched_names": [
+    {
+      "ofac_id": "47535",
+      "name": "Z AXIS LLC",
+      "kind": "primary",
+      "category": "",
+      "match_key": "z axis llc"
+    }
+  ],
+  "method": "normalized_exact",
+  "designation": {
+    "path": "sources/designation-20240223.txt",
+    "sha256": "ef7c5a42e22884ffe9f6c6268e244593468152cd2a491abf61e6886e6d329330",
+    "character_start": 246022,
+    "excerpt": "Z AXIS LLC (a.k.a. ZET AKSIS; a.k.a. ZET AXIS LLC), Per. Gagarinskii D. 22/8, Str. 1, Floor Tsokolnyi Kom 3, Moscow 119002, Russia; Secondary sanctions risk: this person is designated for operating or having operated in a sector of the Russian Federation economy determined to support Russia's military-industrial base pursuant to section 11 of Executive Order 14024, as amended by Executive Order 14114.; Organization Type: Wholesale of other machinery and equipment; Tax ID No. 7704477392 (Russia); Registration Number 1197746112002 (Russia) [RUSSIA-EO14024]. ZARUBEZHGEOLOGIYA AO (Cyrillic: \u0417\u0410\u0420\u0423\u0411\u0415\u0416\u0413\u0415\u041e\u041b\u041e\u0413\u0418\u042f \u0410\u041e) (a.k.a. JSC ZARUBEZHGEOLOGIA), D. 69 kom. 210, Ul. Novocheremushkinskaya, Moscow 117418, Russia; Tax ID No. 7704680468 (Russia); Registration Number 1087746311553 (Russia) [RUSSIA-EO14024]. ZAVOD LIPETSKTEKHNOLIT, Ter. Oez Ppt Lipetsk Str. 4A, Office 021/50, Gryazi 398010, Russia; Secondary sanctions risk: this person is designated for operating or having operated in a sector of the Russian Federation economy determined to support Russia's military-industrial base pursuant to secti",
+    "date": "2024-02-23",
+    "scope": [
+      "RUSSIA-EO14024"
+    ],
+    "date_note": "OFAC dated addition notice; not a guarantee of all historical program changes"
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      103,
+      109,
+      142
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 103,
+      "date": "2025-03-14",
+      "piid": "15JENR18P00000711",
+      "mod": "P00001",
+      "type": "PURCHASE ORDER",
+      "action": "FUNDING ONLY ACTION",
+      "obligation": "-84031.01"
+    },
+    {
+      "line": 109,
+      "date": "2025-03-07",
+      "piid": "15JENR18P00000261",
+      "mod": "P00001",
+      "type": "PURCHASE ORDER",
+      "action": "FUNDING ONLY ACTION",
+      "obligation": "-41510.00"
+    },
+    {
+      "line": 142,
+      "date": "2024-11-06",
+      "piid": "15JENR20P00000077",
+      "mod": "P00005",
+      "type": "PURCHASE ORDER",
+      "action": "FUNDING ONLY ACTION",
+      "obligation": "-124168.75"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "0",
+    "negative_obligations": "-249709.76",
+    "net_obligations": "-249709.76",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 0,
+  "on_or_after_designation_rows": 3,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

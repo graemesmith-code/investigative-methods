@@ -1,0 +1,378 @@
+{
+  "id": "C06",
+  "recipient": "ADVANCED TECHNOLOGIES, INC.",
+  "uei": "FV58GN6ZNRK1",
+  "cage_codes": [
+    "0KT86"
+  ],
+  "contract_addresses": [
+    [
+      "875 CITY CENTER BLVD",
+      "NEWPORT NEWS",
+      "VA",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "25647",
+    "primary_name": "ADVANCED TECHNOLOGIES COMPANY OF IRAN",
+    "programs": [
+      "IRAN",
+      "IFSR",
+      "NPWMD"
+    ],
+    "aliases": [
+      {
+        "uid": "40294",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "ADVANCED TECHNOLOGIES HOLDING COMPANY"
+      },
+      {
+        "uid": "40295",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "ADVANCED TECHNOLOGIES COMPANY"
+      },
+      {
+        "uid": "40296",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "ADVANCED TECHNOLOGIES"
+      },
+      {
+        "uid": "40297",
+        "type": "f.k.a.",
+        "category": "strong",
+        "lastName": "IRANIAN ENRICHMENT COMPANY"
+      },
+      {
+        "uid": "40298",
+        "type": "f.k.a.",
+        "category": "strong",
+        "lastName": "GHANI SAZI ENRICHMENT"
+      },
+      {
+        "uid": "40758",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "IATC"
+      },
+      {
+        "uid": "46168",
+        "type": "a.k.a.",
+        "category": "strong",
+        "lastName": "IRAN ADVANCED TECHNOLOGIES COMPANY"
+      },
+      {
+        "uid": "46169",
+        "type": "f.k.a.",
+        "category": "strong",
+        "lastName": "IRAN URANIUM ENRICHMENT COMPANY"
+      }
+    ],
+    "addresses": [
+      {
+        "uid": "38796",
+        "city": "Tehran",
+        "country": "Iran"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "19587",
+        "idType": "National ID No.",
+        "idNumber": "10103378982",
+        "idCountry": "Iran"
+      },
+      {
+        "uid": "19588",
+        "idType": "Registration Number",
+        "idNumber": "299780",
+        "idCountry": "Iran"
+      },
+      {
+        "uid": "129583",
+        "idType": "Additional Sanctions Information -",
+        "idNumber": "Subject to Secondary Sanctions"
+      }
+    ],
+    "remarks": "(Linked To: ATOMIC ENERGY ORGANIZATION OF IRAN)"
+  },
+  "matched_names": [
+    {
+      "ofac_id": "25647",
+      "name": "ADVANCED TECHNOLOGIES",
+      "kind": "a.k.a.",
+      "category": "weak",
+      "match_key": "advanced technologies"
+    }
+  ],
+  "method": "legal_suffix_removed",
+  "designation": {
+    "path": "sources/treasury-sm1130.txt",
+    "sha256": "50a7052be105996e6a67a961c1614898301e653e1c4a93338ce702c981337fae",
+    "character_start": 14269,
+    "excerpt": "Advanced Technologies Company of Iran (IATC) ,** Mesbah Energy Company**, and** NSTRI** are entities subordinate to the AEOI and active components of Iran\u2019s nuclear program. Treasury previously identified** IATC**,** Mesbah Energy Company** and** NSTRI** as part of the Government of Iran on November 5, 2018. Their listings have been updated to reflect their designation pursuant to E.O. 13382 and their role as key components of Iran\u2019s nuclear program. AEOI spokesman** Behrouz Kamalvandi** and Deputy Director** Pezhman Rahimian**, who heads the sanctioned AEOI-affiliated Nuclear Fuel and Raw Materials Production Company, were also designated pursuant to E.O. 13382.** SANCTIONS ON IRAN\u2019S BALLISIC MISSILE PROGRAMS** Treasury designated Iran-based** Mammut Industrial Group (Mammut Industries)** and its subsidiary** Mammut Diesel** pursuant to E.O. 13382 for providing support to an entity in Iran\u2019s ballistic missile program.** Mammut Industries** and** Mammut Diesel** are key producers and suppliers of military-grade, dual-use goods for Iran\u2019s missile programs. Since early 2000,** Mammut I",
+    "date": "2018-11-05",
+    "scope": [
+      "IRAN",
+      "IFSR",
+      "NPWMD"
+    ],
+    "date_note": "2018 government-of-Iran identification; later EO13382 designation discussed in same Treasury release",
+    "historical_events": [
+      {
+        "date": "2018-11-05",
+        "event": "Identified as Government of Iran",
+        "source": "sources/treasury-sm1130.txt"
+      },
+      {
+        "date": "2020-09-21",
+        "event": "EO13382 designation reported by Treasury",
+        "source": "sources/treasury-sm1130.txt"
+      }
+    ]
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      13,
+      23,
+      24,
+      25,
+      41,
+      56,
+      57,
+      63,
+      86,
+      89,
+      96,
+      100,
+      105,
+      112,
+      115,
+      118,
+      119,
+      127,
+      132,
+      133,
+      143,
+      153
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 13,
+      "date": "2025-09-11",
+      "piid": "80LARC19F0159",
+      "mod": "P00006",
+      "type": "DELIVERY ORDER",
+      "action": "FUNDING ONLY ACTION",
+      "obligation": "-21196.98"
+    },
+    {
+      "line": 23,
+      "date": "2025-08-28",
+      "piid": "80LARC24FA047",
+      "mod": "P00004",
+      "type": "DELIVERY ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.02"
+    },
+    {
+      "line": 24,
+      "date": "2025-08-27",
+      "piid": "80LARC24FA047",
+      "mod": "P00003",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 25,
+      "date": "2025-08-27",
+      "piid": "80LARC25FA035",
+      "mod": "P00001",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 41,
+      "date": "2025-07-24",
+      "piid": "80LARC25FA035",
+      "mod": "0",
+      "type": "DELIVERY ORDER",
+      "action": "",
+      "obligation": "54810.00"
+    },
+    {
+      "line": 56,
+      "date": "2025-06-23",
+      "piid": "80LARC24FA047",
+      "mod": "P00002",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 57,
+      "date": "2025-06-20",
+      "piid": "80LARC25FA007",
+      "mod": "P00003",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "154950.00"
+    },
+    {
+      "line": 63,
+      "date": "2025-06-10",
+      "piid": "80LARC21AA003",
+      "mod": "P00001",
+      "type": "BPA",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 86,
+      "date": "2025-04-17",
+      "piid": "80LARC25FA007",
+      "mod": "P00002",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "255815.00"
+    },
+    {
+      "line": 89,
+      "date": "2025-04-11",
+      "piid": "80LARC23DA005",
+      "mod": "P00004",
+      "type": "IDC",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 96,
+      "date": "2025-04-08",
+      "piid": "80LARC23F0054",
+      "mod": "P00005",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "6790.00"
+    },
+    {
+      "line": 100,
+      "date": "2025-04-01",
+      "piid": "80LARC25FW044",
+      "mod": "0",
+      "type": "BPA CALL",
+      "action": "",
+      "obligation": "14100.00"
+    },
+    {
+      "line": 105,
+      "date": "2025-03-13",
+      "piid": "80LARC25FA007",
+      "mod": "P00001",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "52600.00"
+    },
+    {
+      "line": 112,
+      "date": "2025-03-06",
+      "piid": "80LARC25FW041",
+      "mod": "0",
+      "type": "BPA CALL",
+      "action": "",
+      "obligation": "14125.00"
+    },
+    {
+      "line": 115,
+      "date": "2025-02-25",
+      "piid": "80LARC23F0054",
+      "mod": "P00004",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 118,
+      "date": "2025-01-24",
+      "piid": "80LARC23DA005",
+      "mod": "P00003",
+      "type": "IDC",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 119,
+      "date": "2025-01-23",
+      "piid": "N0042124P0304",
+      "mod": "P00001",
+      "type": "PURCHASE ORDER",
+      "action": "OTHER ADMINISTRATIVE ACTION",
+      "obligation": "0.00"
+    },
+    {
+      "line": 127,
+      "date": "2024-12-18",
+      "piid": "80LARC23F0054",
+      "mod": "P00003",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "30370.00"
+    },
+    {
+      "line": 132,
+      "date": "2024-12-10",
+      "piid": "80LARC25FA007",
+      "mod": "0",
+      "type": "DELIVERY ORDER",
+      "action": "",
+      "obligation": "148560.00"
+    },
+    {
+      "line": 133,
+      "date": "2024-12-09",
+      "piid": "80LARC24FA034",
+      "mod": "P00001",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 143,
+      "date": "2024-10-28",
+      "piid": "80LARC24FA047",
+      "mod": "P00001",
+      "type": "DELIVERY ORDER",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    },
+    {
+      "line": 153,
+      "date": "2024-10-02",
+      "piid": "80LARC23DA005",
+      "mod": "P00002",
+      "type": "IDC",
+      "action": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "obligation": "0.00"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "732120.02",
+    "negative_obligations": "-21196.98",
+    "net_obligations": "710923.04",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 0,
+  "on_or_after_designation_rows": 22,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

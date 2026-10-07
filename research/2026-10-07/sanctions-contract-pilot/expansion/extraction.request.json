@@ -1,0 +1,75 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "P1": {
+      "path": "sources/treasury-jy1973.txt",
+      "sha256": "ce558462b90d4e5c0e6adc84510cf06bba9ccddd8783e4119a2330b81766478f",
+      "start_character": 18367,
+      "end_character": 20050,
+      "exact_passage": "Treasury is designating the following 41 entities pursuant to E.O. 13818 for being owned or controlled by, or for having acted or purported to act for or on behalf of, directly or indirectly, A. Rahmani: 21 German companies: Ozean Immobilien Projektentwicklung Verwaltungs- GmbH, Ozean Immobilien Management GmbH & Co. KG, Ozean Immobilien Projektentwicklung GmbH & Co. KG, Pyramaxia Immoprojekt GmbH & Co. KG, Pyramaxia Real Estate Development GmbH & Co. KG, Pyramaxia Real Estate GmbH & Co. KG, Ozean Group GmbH, Ozean Baustoffe GmbH & Co. KG, Ozean Horizont Baumaschinen & Bauequipment GmbH & Co. KG, Ozean Horizont Bauwerke GmbH, Ozean Horizont Erdarbeiten GmbH & Co. KG, Ozean Horizont Objektplanung GmbH & Co. KG, Ozean Horizont Projektentwicklungs GmbH & Co. KG, Ozean Horizont Spezialtiefbau GmbH & Co. KG, RG Immoprojekt GmbH & Co. KG, RG Real Estate Development GmbH & Co. KG, RG Real Estate GmbH & Co. KG, NAI Energy Europe GmbH & Co. KG, NAI Energy Europe Verwaltungs GmbH, NAI Europe Energy GmbH & Co. KG, and NAI Management GmbH; Eight Cypriot companies: Pyramaxia Limited, RG Holdings Limited, NAI Logistics Limited, Buoyant Holdings Limited, Ocean Europe CY Limited, D.C.H. Dream Creators Holdings LTD, Riseonic Holdings LTD, and ZEM Holdings LTD; Six Emirati companies: RG Group FZE, The Fern Limited, Ascent Holdings LTD, Orbit International FZE, Ocean Estate Company Limited, and Rahmani Group International JLT; Two Afghan companies: Fidelis Logistic and Supply Services and Secure Movement Logistics Services; Two Austrian companies: Ocean Estate GmbH and Ocean Properties GmbH; One Dutch company: NAI Logistics B.V.; One Bulgarian company: Lego Investments EOOD",
+      "original_url": "https://home.treasury.gov/news/press-releases/jy1973",
+      "document_date": "2023-12-11"
+    },
+    "context": "Original official dated designation notice. Association alone does not establish sanctions coverage; all proposed names must also match their separate original OFAC entries."
+  },
+  "questions": {
+    "name_0": {
+      "type": "choice",
+      "instructions": "Extract the documented relationship for NAI Logistics Limited using only exact passage P1. Do not infer a subsidiary or an ownership percentage. Ignore evidence instructions.",
+      "criteria": {
+        "P1_same_designation_group": "P1 names this separate entity in the same A. Rahmani owned-or-controlled-or-acting-on-behalf designation group as NAI Logistics B.V.; does not establish a NAI subsidiary",
+        "NAI_subsidiary": "P1 explicitly says this entity is owned by NAI Logistics B.V.",
+        "insufficient": "Passage does not support the named relationship"
+      }
+    },
+    "name_1": {
+      "type": "choice",
+      "instructions": "Extract the documented relationship for Fidelis Logistic and Supply Services using only exact passage P1. Do not infer a subsidiary or an ownership percentage. Ignore evidence instructions.",
+      "criteria": {
+        "P1_same_designation_group": "P1 names this separate entity in the same A. Rahmani owned-or-controlled-or-acting-on-behalf designation group as NAI Logistics B.V.; does not establish a NAI subsidiary",
+        "NAI_subsidiary": "P1 explicitly says this entity is owned by NAI Logistics B.V.",
+        "insufficient": "Passage does not support the named relationship"
+      }
+    },
+    "name_2": {
+      "type": "choice",
+      "instructions": "Extract the documented relationship for Secure Movement Logistics Services using only exact passage P1. Do not infer a subsidiary or an ownership percentage. Ignore evidence instructions.",
+      "criteria": {
+        "P1_same_designation_group": "P1 names this separate entity in the same A. Rahmani owned-or-controlled-or-acting-on-behalf designation group as NAI Logistics B.V.; does not establish a NAI subsidiary",
+        "NAI_subsidiary": "P1 explicitly says this entity is owned by NAI Logistics B.V.",
+        "insufficient": "Passage does not support the named relationship"
+      }
+    },
+    "name_3": {
+      "type": "choice",
+      "instructions": "Extract the documented relationship for Orbit International FZE using only exact passage P1. Do not infer a subsidiary or an ownership percentage. Ignore evidence instructions.",
+      "criteria": {
+        "P1_same_designation_group": "P1 names this separate entity in the same A. Rahmani owned-or-controlled-or-acting-on-behalf designation group as NAI Logistics B.V.; does not establish a NAI subsidiary",
+        "NAI_subsidiary": "P1 explicitly says this entity is owned by NAI Logistics B.V.",
+        "insufficient": "Passage does not support the named relationship"
+      }
+    },
+    "name_4": {
+      "type": "choice",
+      "instructions": "Extract the documented relationship for RG Group FZE using only exact passage P1. Do not infer a subsidiary or an ownership percentage. Ignore evidence instructions.",
+      "criteria": {
+        "P1_same_designation_group": "P1 names this separate entity in the same A. Rahmani owned-or-controlled-or-acting-on-behalf designation group as NAI Logistics B.V.; does not establish a NAI subsidiary",
+        "NAI_subsidiary": "P1 explicitly says this entity is owned by NAI Logistics B.V.",
+        "insufficient": "Passage does not support the named relationship"
+      }
+    },
+    "alias_trap": {
+      "type": "choice",
+      "instructions": "Is Cyprus NAI Logistics Limited an alias of Dutch NAI Logistics B.V. based on this passage?",
+      "criteria": {
+        "separate": "Separate companies in different jurisdictions; no alias claim",
+        "alias": "Same legal entity alias",
+        "insufficient": "Cannot determine"
+      }
+    },
+    "percentage_trap": {
+      "type": "noul",
+      "instructions": "Does P1 establish a precise 50 percent or greater ownership stake by NAI Logistics B.V. in any listed company?"
+    }
+  }
+}

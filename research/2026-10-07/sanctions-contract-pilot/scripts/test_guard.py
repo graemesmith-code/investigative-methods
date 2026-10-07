@@ -43,5 +43,13 @@ class GuardTests(unittest.TestCase):
         self.assertFalse(g.validated_passage('A shares an address with B.', 'A owns B.'))
         self.assertFalse(g.validated_passage('A shares an address with B.', ''))
         self.assertTrue(g.validated_passage('A owns 60% of B.', 'A owns 60% of B.'))
+    def test_choice_validation_and_invalid_option(self):
+        body={**BODY,'questions':{'fact':{'type':'choice','instructions':'Select evidence','criteria':{'none':'Insufficient','record':'Cited record'}}}}
+        answer={**ANSWER,'answers':{'fact':{'type':'choice','choice':'none','probabilities':{'none':.9,'record':.1},'confidence':.8}}}
+        g.validate('jev',body,answer)
+        answer['answers']['fact']['choice']='invented'
+        with self.assertRaises(g.base.GuardError): g.validate('jev',body,answer)
+    def test_redirect_refused(self):
+        with self.assertRaises(g.base.GuardError): g.base.NoRedirect().redirect_request(None,None,302,'Found',{},'https://example.org')
 
 if __name__ == '__main__': unittest.main()

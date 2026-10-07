@@ -1,3 +1,5 @@
+> Historical access checkpoint; superseded by FINAL-TECHNICAL-ANNEX.md and recovery-verification.json.
+
 # Technical checkpoint
 
 Repository: graemesmith-code/investigative-methods; GitHub metadata confirmed visibility private on 7 October 2026. Existing code inspected: code/ati/pipeline.py and research/2026-10-06/alberta-seismic-injection/scripts/jev_v2.py. The shared implementation has transactional SQLite reservations, cached successful responses, model/usage validation, retained uncertain costs, no repeated request keys, and redirect refusal. Its multi-provider cap is unsuitable without a Jev-only adaptation; no old script was run.

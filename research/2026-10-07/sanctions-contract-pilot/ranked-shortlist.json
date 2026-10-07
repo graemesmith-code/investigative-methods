@@ -1,0 +1,431 @@
+[
+  {
+    "rank_tier": 1,
+    "id": "C13",
+    "recipient": "NAI LOGISTICS B.V.",
+    "uei": "SLVJF3DR8MN5",
+    "final_category": "credible identity; possible new child-order business; vehicle administrative",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "strong",
+      "confidence": 0.98,
+      "probabilities": {
+        "weak": 0.0,
+        "strong": 0.99,
+        "insufficient": 0.01
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.92,
+      "probabilities": {
+        "possible_new_orders": 0.9400000000000001,
+        "identity_unresolved": 0.0,
+        "administrative_only": 0.06,
+        "predesignation": 0.0,
+        "insufficient": 0.0
+      }
+    },
+    "designation": "2023-12-11",
+    "original_net_obligations": "0.00",
+    "actions": 1,
+    "identity_basis": "strong name/street match"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C01",
+    "recipient": "ACS LOGISTICS LLC",
+    "uei": "P7NTM9B6RG69",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.97,
+      "probabilities": {
+        "weak": 0.98,
+        "strong": 0.0,
+        "insufficient": 0.02
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.59,
+      "probabilities": {
+        "predesignation": 0.0,
+        "identity_unresolved": 0.33,
+        "possible_new_orders": 0.67,
+        "insufficient": 0.0,
+        "administrative_only": 0.0
+      }
+    },
+    "designation": "2023-12-12",
+    "original_net_obligations": "1336235.26",
+    "actions": 20,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C02",
+    "recipient": "DIGITAL TECHNOLOGIES, INC.",
+    "uei": "PGGGRPN3DDC7",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.92,
+      "probabilities": {
+        "strong": 0.0,
+        "weak": 0.95,
+        "insufficient": 0.05
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.5,
+      "probabilities": {
+        "possible_new_orders": 0.6,
+        "administrative_only": 0.0,
+        "insufficient": 0.0,
+        "predesignation": 0.0,
+        "identity_unresolved": 0.4
+      }
+    },
+    "designation": "2022-04-06",
+    "original_net_obligations": "2634460.49",
+    "actions": 38,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C04",
+    "recipient": "GCS LLC",
+    "uei": "JJXLTLEU5UN5",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.95,
+      "probabilities": {
+        "weak": 0.97,
+        "insufficient": 0.03,
+        "strong": 0.0
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.66,
+      "probabilities": {
+        "identity_unresolved": 0.27,
+        "administrative_only": 0.0,
+        "predesignation": 0.0,
+        "possible_new_orders": 0.73,
+        "insufficient": 0.0
+      }
+    },
+    "designation": "2024-10-30",
+    "original_net_obligations": "3509595.00",
+    "actions": 9,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C05",
+    "recipient": "VMC, LLC",
+    "uei": "DJF2Y1HE6JT6",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.95,
+      "probabilities": {
+        "strong": 0.0,
+        "weak": 0.97,
+        "insufficient": 0.03
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.56,
+      "probabilities": {
+        "possible_new_orders": 0.65,
+        "administrative_only": 0.04,
+        "insufficient": 0.0,
+        "predesignation": 0.0,
+        "identity_unresolved": 0.31
+      }
+    },
+    "designation": "2023-05-19",
+    "original_net_obligations": "51519.20",
+    "actions": 3,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C06",
+    "recipient": "ADVANCED TECHNOLOGIES, INC.",
+    "uei": "FV58GN6ZNRK1",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.92,
+      "probabilities": {
+        "weak": 0.95,
+        "strong": 0.0,
+        "insufficient": 0.05
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.57,
+      "probabilities": {
+        "administrative_only": 0.0,
+        "possible_new_orders": 0.66,
+        "predesignation": 0.0,
+        "insufficient": 0.0,
+        "identity_unresolved": 0.34
+      }
+    },
+    "designation": "2018-11-05",
+    "original_net_obligations": "710923.04",
+    "actions": 22,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C07",
+    "recipient": "PHOENIX LLC",
+    "uei": "HSDMSEKCW8J8",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.94,
+      "probabilities": {
+        "weak": 0.96,
+        "strong": 0.0,
+        "insufficient": 0.04
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "administrative_only",
+      "confidence": 0.5,
+      "probabilities": {
+        "insufficient": 0.0,
+        "identity_unresolved": 0.38,
+        "administrative_only": 0.6,
+        "predesignation": 0.0,
+        "possible_new_orders": 0.02
+      }
+    },
+    "designation": "2024-02-23",
+    "original_net_obligations": "0.00",
+    "actions": 4,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C08",
+    "recipient": "APSCO, LLC",
+    "uei": "E9YGQYEK4NW7",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.92,
+      "probabilities": {
+        "weak": 0.95,
+        "strong": 0.0,
+        "insufficient": 0.05
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.65,
+      "probabilities": {
+        "administrative_only": 0.0,
+        "possible_new_orders": 0.72,
+        "predesignation": 0.0,
+        "identity_unresolved": 0.28,
+        "insufficient": 0.0
+      }
+    },
+    "designation": "2020-02-26",
+    "original_net_obligations": "43574.00",
+    "actions": 3,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C09",
+    "recipient": "RTS LLC",
+    "uei": "XWSEFECGY3D9",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.95,
+      "probabilities": {
+        "weak": 0.97,
+        "strong": 0.0,
+        "insufficient": 0.03
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "possible_new_orders",
+      "confidence": 0.68,
+      "probabilities": {
+        "insufficient": 0.0,
+        "identity_unresolved": 0.26,
+        "possible_new_orders": 0.74,
+        "predesignation": 0.0,
+        "administrative_only": 0.0
+      }
+    },
+    "designation": "2020-01-10",
+    "original_net_obligations": "19375.80",
+    "actions": 1,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C10",
+    "recipient": "DIGITAL TECHNOLOGIES, INC.",
+    "uei": "GUGBC8JMR6X5",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.91,
+      "probabilities": {
+        "strong": 0.0,
+        "insufficient": 0.06,
+        "weak": 0.94
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "administrative_only",
+      "confidence": 0.52,
+      "probabilities": {
+        "administrative_only": 0.62,
+        "predesignation": 0.0,
+        "insufficient": 0.0,
+        "possible_new_orders": 0.1,
+        "identity_unresolved": 0.28
+      }
+    },
+    "designation": "2022-04-06",
+    "original_net_obligations": "250.00",
+    "actions": 6,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 2,
+    "id": "C12",
+    "recipient": "Z-AXIS, LLC",
+    "uei": "DEAVQLC71338",
+    "final_category": "unresolved identity; likely name collision",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.89,
+      "probabilities": {
+        "weak": 0.93,
+        "insufficient": 0.07,
+        "strong": 0.0
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "administrative_only",
+      "confidence": 0.69,
+      "probabilities": {
+        "predesignation": 0.0,
+        "insufficient": 0.0,
+        "identity_unresolved": 0.19,
+        "administrative_only": 0.75,
+        "possible_new_orders": 0.06
+      }
+    },
+    "designation": "2024-02-23",
+    "original_net_obligations": "-249709.76",
+    "actions": 3,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 3,
+    "id": "C03",
+    "recipient": "PATRIOT LLC",
+    "uei": "LYMKSJG6DLQ5",
+    "final_category": "unresolved identity; all supplied rows predate identified designation",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.91,
+      "probabilities": {
+        "weak": 0.94,
+        "strong": 0.0,
+        "insufficient": 0.06
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "predesignation",
+      "confidence": 0.47,
+      "probabilities": {
+        "insufficient": 0.0,
+        "predesignation": 0.58,
+        "identity_unresolved": 0.41,
+        "administrative_only": 0.0,
+        "possible_new_orders": 0.01
+      }
+    },
+    "designation": "2026-04-24",
+    "original_net_obligations": "15769976.45",
+    "actions": 41,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  },
+  {
+    "rank_tier": 3,
+    "id": "C11",
+    "recipient": "GEOTECH ENGINEERING, INC",
+    "uei": "NC4LP8N8L3B9",
+    "final_category": "unresolved identity; all supplied rows predate identified designation",
+    "jev_identity": {
+      "type": "choice",
+      "choice": "weak",
+      "confidence": 0.86,
+      "probabilities": {
+        "weak": 0.91,
+        "insufficient": 0.09,
+        "strong": 0.0
+      }
+    },
+    "jev_business": {
+      "type": "choice",
+      "choice": "predesignation",
+      "confidence": 0.55,
+      "probabilities": {
+        "administrative_only": 0.0,
+        "insufficient": 0.0,
+        "predesignation": 0.64,
+        "possible_new_orders": 0.0,
+        "identity_unresolved": 0.36
+      }
+    },
+    "designation": "2025-10-14",
+    "original_net_obligations": "28600.00",
+    "actions": 2,
+    "identity_basis": "name-only collision with conflicting locations; ownership unresolved"
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "name": "NAI Logistics Limited",
+    "jev_selection": "P1_same_designation_group",
+    "validated": true,
+    "passage_id": "P1",
+    "citation": {
+      "path": "sources/treasury-jy1973.txt",
+      "sha256": "ce558462b90d4e5c0e6adc84510cf06bba9ccddd8783e4119a2330b81766478f",
+      "start_character": 18367,
+      "end_character": 20050,
+      "exact_passage": "Treasury is designating the following 41 entities pursuant to E.O. 13818 for being owned or controlled by, or for having acted or purported to act for or on behalf of, directly or indirectly, A. Rahmani: 21 German companies: Ozean Immobilien Projektentwicklung Verwaltungs- GmbH, Ozean Immobilien Management GmbH & Co. KG, Ozean Immobilien Projektentwicklung GmbH & Co. KG, Pyramaxia Immoprojekt GmbH & Co. KG, Pyramaxia Real Estate Development GmbH & Co. KG, Pyramaxia Real Estate GmbH & Co. KG, Ozean Group GmbH, Ozean Baustoffe GmbH & Co. KG, Ozean Horizont Baumaschinen & Bauequipment GmbH & Co. KG, Ozean Horizont Bauwerke GmbH, Ozean Horizont Erdarbeiten GmbH & Co. KG, Ozean Horizont Objektplanung GmbH & Co. KG, Ozean Horizont Projektentwicklungs GmbH & Co. KG, Ozean Horizont Spezialtiefbau GmbH & Co. KG, RG Immoprojekt GmbH & Co. KG, RG Real Estate Development GmbH & Co. KG, RG Real Estate GmbH & Co. KG, NAI Energy Europe GmbH & Co. KG, NAI Energy Europe Verwaltungs GmbH, NAI Europe Energy GmbH & Co. KG, and NAI Management GmbH; Eight Cypriot companies: Pyramaxia Limited, RG Holdings Limited, NAI Logistics Limited, Buoyant Holdings Limited, Ocean Europe CY Limited, D.C.H. Dream Creators Holdings LTD, Riseonic Holdings LTD, and ZEM Holdings LTD; Six Emirati companies: RG Group FZE, The Fern Limited, Ascent Holdings LTD, Orbit International FZE, Ocean Estate Company Limited, and Rahmani Group International JLT; Two Afghan companies: Fidelis Logistic and Supply Services and Secure Movement Logistics Services; Two Austrian companies: Ocean Estate GmbH and Ocean Properties GmbH; One Dutch company: NAI Logistics B.V.; One Bulgarian company: Lego Investments EOOD",
+      "original_url": "https://home.treasury.gov/news/press-releases/jy1973",
+      "document_date": "2023-12-11"
+    },
+    "ofac_record": {
+      "ofac_id": "44252",
+      "primary_name": "NAI LOGISTICS LIMITED",
+      "programs": [
+        "GLOMAG"
+      ],
+      "aliases": [],
+      "addresses": [
+        {
+          "uid": "65871",
+          "address1": "Floor No: 1",
+          "address2": "Mpoumpoulinas 11",
+          "city": "Nicosia",
+          "postalCode": "1060",
+          "country": "Cyprus"
+        }
+      ],
+      "identifiers": [
+        {
+          "uid": "33680",
+          "idType": "Company Number",
+          "idNumber": "HE 351352",
+          "idCountry": "Cyprus"
+        },
+        {
+          "uid": "163904",
+          "idType": "Organization Established Date",
+          "idNumber": "19 Jan 2016"
+        }
+      ],
+      "remarks": "(Linked To: RAHMANI, Ajmal)"
+    },
+    "relationship": "Same disjunctive designated Rahmani network; no proven NAI ownership, subsidiary, or intermediary role",
+    "coverage": "Separately designated GLOMAG 2023-12-11, confirmed in original OFAC notice; not inferred under 50 percent rule",
+    "ownership_percent": null
+  },
+  {
+    "name": "Fidelis Logistic and Supply Services",
+    "jev_selection": "P1_same_designation_group",
+    "validated": true,
+    "passage_id": "P1",
+    "citation": {
+      "path": "sources/treasury-jy1973.txt",
+      "sha256": "ce558462b90d4e5c0e6adc84510cf06bba9ccddd8783e4119a2330b81766478f",
+      "start_character": 18367,
+      "end_character": 20050,
+      "exact_passage": "Treasury is designating the following 41 entities pursuant to E.O. 13818 for being owned or controlled by, or for having acted or purported to act for or on behalf of, directly or indirectly, A. Rahmani: 21 German companies: Ozean Immobilien Projektentwicklung Verwaltungs- GmbH, Ozean Immobilien Management GmbH & Co. KG, Ozean Immobilien Projektentwicklung GmbH & Co. KG, Pyramaxia Immoprojekt GmbH & Co. KG, Pyramaxia Real Estate Development GmbH & Co. KG, Pyramaxia Real Estate GmbH & Co. KG, Ozean Group GmbH, Ozean Baustoffe GmbH & Co. KG, Ozean Horizont Baumaschinen & Bauequipment GmbH & Co. KG, Ozean Horizont Bauwerke GmbH, Ozean Horizont Erdarbeiten GmbH & Co. KG, Ozean Horizont Objektplanung GmbH & Co. KG, Ozean Horizont Projektentwicklungs GmbH & Co. KG, Ozean Horizont Spezialtiefbau GmbH & Co. KG, RG Immoprojekt GmbH & Co. KG, RG Real Estate Development GmbH & Co. KG, RG Real Estate GmbH & Co. KG, NAI Energy Europe GmbH & Co. KG, NAI Energy Europe Verwaltungs GmbH, NAI Europe Energy GmbH & Co. KG, and NAI Management GmbH; Eight Cypriot companies: Pyramaxia Limited, RG Holdings Limited, NAI Logistics Limited, Buoyant Holdings Limited, Ocean Europe CY Limited, D.C.H. Dream Creators Holdings LTD, Riseonic Holdings LTD, and ZEM Holdings LTD; Six Emirati companies: RG Group FZE, The Fern Limited, Ascent Holdings LTD, Orbit International FZE, Ocean Estate Company Limited, and Rahmani Group International JLT; Two Afghan companies: Fidelis Logistic and Supply Services and Secure Movement Logistics Services; Two Austrian companies: Ocean Estate GmbH and Ocean Properties GmbH; One Dutch company: NAI Logistics B.V.; One Bulgarian company: Lego Investments EOOD",
+      "original_url": "https://home.treasury.gov/news/press-releases/jy1973",
+      "document_date": "2023-12-11"
+    },
+    "ofac_record": {
+      "ofac_id": "44599",
+      "primary_name": "FIDELIS LOGISTIC AND SUPPLY SERVICES",
+      "programs": [
+        "GLOMAG"
+      ],
+      "aliases": [],
+      "addresses": [
+        {
+          "uid": "66376",
+          "address1": "Pul-e-Charkhi",
+          "address2": "Industrial Estate",
+          "city": "Kabul",
+          "country": "Afghanistan"
+        }
+      ],
+      "identifiers": [
+        {
+          "uid": "34112",
+          "idType": "Tax ID No.",
+          "idNumber": "9002322874",
+          "idCountry": "Afghanistan"
+        },
+        {
+          "uid": "34113",
+          "idType": "Business Registration Number",
+          "idNumber": "101449",
+          "idCountry": "Afghanistan"
+        },
+        {
+          "uid": "34114",
+          "idType": "License",
+          "idNumber": "I 35870",
+          "idCountry": "Afghanistan"
+        },
+        {
+          "uid": "164614",
+          "idType": "Organization Established Date",
+          "idNumber": "04 Sep 2010"
+        }
+      ],
+      "remarks": "(Linked To: RAHMANI, Ajmal)"
+    },
+    "relationship": "Same disjunctive designated Rahmani network; no proven NAI ownership, subsidiary, or intermediary role",
+    "coverage": "Separately designated GLOMAG 2023-12-11, confirmed in original OFAC notice; not inferred under 50 percent rule",
+    "ownership_percent": null
+  },
+  {
+    "name": "Secure Movement Logistics Services",
+    "jev_selection": "P1_same_designation_group",
+    "validated": true,
+    "passage_id": "P1",
+    "citation": {
+      "path": "sources/treasury-jy1973.txt",
+      "sha256": "ce558462b90d4e5c0e6adc84510cf06bba9ccddd8783e4119a2330b81766478f",
+      "start_character": 18367,
+      "end_character": 20050,
+      "exact_passage": "Treasury is designating the following 41 entities pursuant to E.O. 13818 for being owned or controlled by, or for having acted or purported to act for or on behalf of, directly or indirectly, A. Rahmani: 21 German companies: Ozean Immobilien Projektentwicklung Verwaltungs- GmbH, Ozean Immobilien Management GmbH & Co. KG, Ozean Immobilien Projektentwicklung GmbH & Co. KG, Pyramaxia Immoprojekt GmbH & Co. KG, Pyramaxia Real Estate Development GmbH & Co. KG, Pyramaxia Real Estate GmbH & Co. KG, Ozean Group GmbH, Ozean Baustoffe GmbH & Co. KG, Ozean Horizont Baumaschinen & Bauequipment GmbH & Co. KG, Ozean Horizont Bauwerke GmbH, Ozean Horizont Erdarbeiten GmbH & Co. KG, Ozean Horizont Objektplanung GmbH & Co. KG, Ozean Horizont Projektentwicklungs GmbH & Co. KG, Ozean Horizont Spezialtiefbau GmbH & Co. KG, RG Immoprojekt GmbH & Co. KG, RG Real Estate Development GmbH & Co. KG, RG Real Estate GmbH & Co. KG, NAI Energy Europe GmbH & Co. KG, NAI Energy Europe Verwaltungs GmbH, NAI Europe Energy GmbH & Co. KG, and NAI Management GmbH; Eight Cypriot companies: Pyramaxia Limited, RG Holdings Limited, NAI Logistics Limited, Buoyant Holdings Limited, Ocean Europe CY Limited, D.C.H. Dream Creators Holdings LTD, Riseonic Holdings LTD, and ZEM Holdings LTD; Six Emirati companies: RG Group FZE, The Fern Limited, Ascent Holdings LTD, Orbit International FZE, Ocean Estate Company Limited, and Rahmani Group International JLT; Two Afghan companies: Fidelis Logistic and Supply Services and Secure Movement Logistics Services; Two Austrian companies: Ocean Estate GmbH and Ocean Properties GmbH; One Dutch company: NAI Logistics B.V.; One Bulgarian company: Lego Investments EOOD",
+      "original_url": "https://home.treasury.gov/news/press-releases/jy1973",
+      "document_date": "2023-12-11"
+    },
+    "ofac_record": {
+      "ofac_id": "44600",
+      "primary_name": "SECURE MOVEMENT LOGISTICS SERVICES",
+      "programs": [
+        "GLOMAG"
+      ],
+      "aliases": [],
+      "addresses": [
+        {
+          "uid": "66378",
+          "city": "Kabul",
+          "country": "Afghanistan"
+        }
+      ],
+      "identifiers": [
+        {
+          "uid": "34115",
+          "idType": "Tax ID No.",
+          "idNumber": "9003919520",
+          "idCountry": "Afghanistan"
+        },
+        {
+          "uid": "34116",
+          "idType": "Registration Number",
+          "idNumber": "111570",
+          "idCountry": "Afghanistan"
+        },
+        {
+          "uid": "34117",
+          "idType": "License",
+          "idNumber": "37629",
+          "idCountry": "Afghanistan"
+        },
+        {
+          "uid": "164616",
+          "idType": "Organization Established Date",
+          "idNumber": "2017"
+        }
+      ],
+      "remarks": "(Linked To: RAHMANI, Ajmal)"
+    },
+    "relationship": "Same disjunctive designated Rahmani network; no proven NAI ownership, subsidiary, or intermediary role",
+    "coverage": "Separately designated GLOMAG 2023-12-11, confirmed in original OFAC notice; not inferred under 50 percent rule",
+    "ownership_percent": null
+  },
+  {
+    "name": "Orbit International FZE",
+    "jev_selection": "P1_same_designation_group",
+    "validated": true,
+    "passage_id": "P1",
+    "citation": {
+      "path": "sources/treasury-jy1973.txt",
+      "sha256": "ce558462b90d4e5c0e6adc84510cf06bba9ccddd8783e4119a2330b81766478f",
+      "start_character": 18367,
+      "end_character": 20050,
+      "exact_passage": "Treasury is designating the following 41 entities pursuant to E.O. 13818 for being owned or controlled by, or for having acted or purported to act for or on behalf of, directly or indirectly, A. Rahmani: 21 German companies: Ozean Immobilien Projektentwicklung Verwaltungs- GmbH, Ozean Immobilien Management GmbH & Co. KG, Ozean Immobilien Projektentwicklung GmbH & Co. KG, Pyramaxia Immoprojekt GmbH & Co. KG, Pyramaxia Real Estate Development GmbH & Co. KG, Pyramaxia Real Estate GmbH & Co. KG, Ozean Group GmbH, Ozean Baustoffe GmbH & Co. KG, Ozean Horizont Baumaschinen & Bauequipment GmbH & Co. KG, Ozean Horizont Bauwerke GmbH, Ozean Horizont Erdarbeiten GmbH & Co. KG, Ozean Horizont Objektplanung GmbH & Co. KG, Ozean Horizont Projektentwicklungs GmbH & Co. KG, Ozean Horizont Spezialtiefbau GmbH & Co. KG, RG Immoprojekt GmbH & Co. KG, RG Real Estate Development GmbH & Co. KG, RG Real Estate GmbH & Co. KG, NAI Energy Europe GmbH & Co. KG, NAI Energy Europe Verwaltungs GmbH, NAI Europe Energy GmbH & Co. KG, and NAI Management GmbH; Eight Cypriot companies: Pyramaxia Limited, RG Holdings Limited, NAI Logistics Limited, Buoyant Holdings Limited, Ocean Europe CY Limited, D.C.H. Dream Creators Holdings LTD, Riseonic Holdings LTD, and ZEM Holdings LTD; Six Emirati companies: RG Group FZE, The Fern Limited, Ascent Holdings LTD, Orbit International FZE, Ocean Estate Company Limited, and Rahmani Group International JLT; Two Afghan companies: Fidelis Logistic and Supply Services and Secure Movement Logistics Services; Two Austrian companies: Ocean Estate GmbH and Ocean Properties GmbH; One Dutch company: NAI Logistics B.V.; One Bulgarian company: Lego Investments EOOD",
+      "original_url": "https://home.treasury.gov/news/press-releases/jy1973",
+      "document_date": "2023-12-11"
+    },
+    "ofac_record": {
+      "ofac_id": "44254",
+      "primary_name": "ORBIT INTERNATIONAL FZE",
+      "programs": [
+        "GLOMAG"
+      ],
+      "aliases": [
+        {
+          "uid": "68447",
+          "type": "a.k.a.",
+          "category": "strong",
+          "lastName": "ORBIT INTERNATIONAL GROUP LLC"
+        }
+      ],
+      "addresses": [
+        {
+          "uid": "65875",
+          "address1": "PO Box 346059",
+          "address2": "Office no. 902",
+          "address3": "Saba 1, Jumeirah Lakes Towers",
+          "city": "Dubai",
+          "country": "United Arab Emirates"
+        },
+        {
+          "uid": "65877",
+          "address1": "ELOB Office No. E2-123G-20",
+          "address2": "Hamriyah Free Zone",
+          "city": "Sharjah",
+          "country": "United Arab Emirates"
+        }
+      ],
+      "identifiers": [
+        {
+          "uid": "33766",
+          "idType": "Economic Register Number (CBLS)",
+          "idNumber": "11580667",
+          "idCountry": "United Arab Emirates"
+        },
+        {
+          "uid": "33857",
+          "idType": "Trade License No.",
+          "idNumber": "8251",
+          "idCountry": "United Arab Emirates"
+        },
+        {
+          "uid": "163914",
+          "idType": "Organization Established Date",
+          "idNumber": "18 Aug 2011"
+        }
+      ],
+      "remarks": "(Linked To: RAHMANI, Ajmal)"
+    },
+    "relationship": "Same disjunctive designated Rahmani network; no proven NAI ownership, subsidiary, or intermediary role",
+    "coverage": "Separately designated GLOMAG 2023-12-11, confirmed in original OFAC notice; not inferred under 50 percent rule",
+    "ownership_percent": null
+  },
+  {
+    "name": "RG Group FZE",
+    "jev_selection": "P1_same_designation_group",
+    "validated": true,
+    "passage_id": "P1",
+    "citation": {
+      "path": "sources/treasury-jy1973.txt",
+      "sha256": "ce558462b90d4e5c0e6adc84510cf06bba9ccddd8783e4119a2330b81766478f",
+      "start_character": 18367,
+      "end_character": 20050,
+      "exact_passage": "Treasury is designating the following 41 entities pursuant to E.O. 13818 for being owned or controlled by, or for having acted or purported to act for or on behalf of, directly or indirectly, A. Rahmani: 21 German companies: Ozean Immobilien Projektentwicklung Verwaltungs- GmbH, Ozean Immobilien Management GmbH & Co. KG, Ozean Immobilien Projektentwicklung GmbH & Co. KG, Pyramaxia Immoprojekt GmbH & Co. KG, Pyramaxia Real Estate Development GmbH & Co. KG, Pyramaxia Real Estate GmbH & Co. KG, Ozean Group GmbH, Ozean Baustoffe GmbH & Co. KG, Ozean Horizont Baumaschinen & Bauequipment GmbH & Co. KG, Ozean Horizont Bauwerke GmbH, Ozean Horizont Erdarbeiten GmbH & Co. KG, Ozean Horizont Objektplanung GmbH & Co. KG, Ozean Horizont Projektentwicklungs GmbH & Co. KG, Ozean Horizont Spezialtiefbau GmbH & Co. KG, RG Immoprojekt GmbH & Co. KG, RG Real Estate Development GmbH & Co. KG, RG Real Estate GmbH & Co. KG, NAI Energy Europe GmbH & Co. KG, NAI Energy Europe Verwaltungs GmbH, NAI Europe Energy GmbH & Co. KG, and NAI Management GmbH; Eight Cypriot companies: Pyramaxia Limited, RG Holdings Limited, NAI Logistics Limited, Buoyant Holdings Limited, Ocean Europe CY Limited, D.C.H. Dream Creators Holdings LTD, Riseonic Holdings LTD, and ZEM Holdings LTD; Six Emirati companies: RG Group FZE, The Fern Limited, Ascent Holdings LTD, Orbit International FZE, Ocean Estate Company Limited, and Rahmani Group International JLT; Two Afghan companies: Fidelis Logistic and Supply Services and Secure Movement Logistics Services; Two Austrian companies: Ocean Estate GmbH and Ocean Properties GmbH; One Dutch company: NAI Logistics B.V.; One Bulgarian company: Lego Investments EOOD",
+      "original_url": "https://home.treasury.gov/news/press-releases/jy1973",
+      "document_date": "2023-12-11"
+    },
+    "ofac_record": {
+      "ofac_id": "44213",
+      "primary_name": "RG GROUP FZE",
+      "programs": [
+        "GLOMAG"
+      ],
+      "aliases": [
+        {
+          "uid": "68381",
+          "type": "a.k.a.",
+          "category": "strong",
+          "lastName": "THE RAHMANI GROUP"
+        },
+        {
+          "uid": "68382",
+          "type": "a.k.a.",
+          "category": "strong",
+          "lastName": "RG GENERAL TRADING FZE"
+        }
+      ],
+      "addresses": [
+        {
+          "uid": "65804",
+          "address1": "Saif Office Q1-03-044/C",
+          "address2": "P.O. Box 514280",
+          "city": "Sharjah",
+          "country": "United Arab Emirates"
+        }
+      ],
+      "identifiers": [
+        {
+          "uid": "33765",
+          "idType": "Economic Register Number (CBLS)",
+          "idNumber": "11618292",
+          "idCountry": "United Arab Emirates"
+        },
+        {
+          "uid": "33856",
+          "idType": "Trade License No.",
+          "idNumber": "16816",
+          "idCountry": "United Arab Emirates"
+        },
+        {
+          "uid": "36506",
+          "idType": "Legal Entity Number",
+          "idNumber": "894500411FLFDQDDV988"
+        },
+        {
+          "uid": "163816",
+          "idType": "Organization Established Date",
+          "idNumber": "11 Jul 2016"
+        }
+      ],
+      "remarks": "(Linked To: RAHMANI, Ajmal)"
+    },
+    "relationship": "Same disjunctive designated Rahmani network; no proven NAI ownership, subsidiary, or intermediary role",
+    "coverage": "Separately designated GLOMAG 2023-12-11, confirmed in original OFAC notice; not inferred under 50 percent rule",
+    "ownership_percent": null
+  }
+]

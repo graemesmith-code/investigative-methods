@@ -1,0 +1,118 @@
+{
+  "id": "C09",
+  "recipient": "RTS LLC",
+  "uei": "XWSEFECGY3D9",
+  "cage_codes": [
+    "7C009"
+  ],
+  "contract_addresses": [
+    [
+      "2408 BLUE CREEK RD",
+      "WALLA WALLA",
+      "WA",
+      "USA"
+    ]
+  ],
+  "ofac": {
+    "ofac_id": "28296",
+    "primary_name": "REPUTABLE TRADING SOURCE LLC",
+    "programs": [
+      "IRAN-EO13871"
+    ],
+    "aliases": [
+      {
+        "uid": "44563",
+        "type": "a.k.a.",
+        "category": "strong",
+        "lastName": "REPUTABLE TRADING SOURCE LLC COMPANY"
+      },
+      {
+        "uid": "44564",
+        "type": "a.k.a.",
+        "category": "weak",
+        "lastName": "RTS LLC"
+      }
+    ],
+    "addresses": [
+      {
+        "uid": "42811",
+        "address1": "CR Number 1137785, PO Box: 888",
+        "city": "Muscat",
+        "postalCode": "111",
+        "country": "Oman"
+      },
+      {
+        "uid": "42812",
+        "address1": "PO Box 1295: 111 CPO, Azaiba",
+        "city": "Muscat",
+        "country": "Oman"
+      }
+    ],
+    "identifiers": [
+      {
+        "uid": "18743",
+        "idType": "Registration Number",
+        "idNumber": "1137785",
+        "idCountry": "Oman"
+      },
+      {
+        "uid": "133758",
+        "idType": "Additional Sanctions Information -",
+        "idNumber": "Subject to Secondary Sanctions"
+      }
+    ],
+    "remarks": "(Linked To: KHOUZESTAN STEEL COMPANY)"
+  },
+  "matched_names": [
+    {
+      "ofac_id": "28296",
+      "name": "RTS LLC",
+      "kind": "a.k.a.",
+      "category": "weak",
+      "match_key": "rts llc"
+    }
+  ],
+  "method": "normalized_exact",
+  "designation": {
+    "path": "sources/designation-20200110.txt",
+    "sha256": "1e742cf7c9ff66371355c3738d9d3ccae8b08afa5594cc9c8f7c513086f018d5",
+    "character_start": 12521,
+    "excerpt": "REPUTABLE TRADING SOURCE LLC (a.k.a. REPUTABLE TRADING SOURCE LLC COMPANY; a.k.a. \"RTS LLC\"), CR Number 1137785, PO Box: 888, Muscat 111, Oman; PO Box 1295: 111 CPO, Azaiba, Muscat, Oman; Additional Sanctions Information - Subject to Secondary Sanctions; Registration Number 1137785 (Oman) [IRAN-EO13871] (Linked To: KHOUZESTAN STEEL COMPANY). SABA STEEL (a.k.a. SABA STEEL COMPANY), KM 45 on Esfahan Shahrekord Road, Isfahan, Iran; Additional Sanctions Information - Subject to Secondary Sanctions; National ID No. 5028 (Iran) [IRAN-EO13871]. SOUTH KAVEH STEEL COMPANY (a.k.a. KISH SOUTH KAVEH STEEL COMPANY; a.k.a. SKS STEEL COMPANY; a.k.a. \"SKS CO.\"), No. 1/2 Seventh Ave., North Falamak-zarafshan intersections, Phase 4, Shahrak-E Gharb, Tehran, Iran; Persian Gulf Special Economic Zone, 13th Km Shahid Rajaee Highway, Bandar Abbas, Hormozgan, Iran; Next to Behjat Park, No. 12, Apartment Complex Kaveh Golabi Stre, Karimkhan Zand Avenue, Tehran, Iran; Additional Sanctions Information - Subject to Secondary Sanctions; Registration Number 7103 (Iran) [IRAN-EO13871]. The following vessel has bee",
+    "date": "2020-01-10",
+    "scope": [
+      "IRAN-EO13871"
+    ],
+    "date_note": "OFAC dated addition notice; not a guarantee of all historical program changes"
+  },
+  "transactions_source": {
+    "path": "baseline/sanctions-screen-evidence-2026-09-18/results/candidate-transactions.jsonl",
+    "sha256": "fe9a3a5de3b7230231210530678a288d1cd7cfa985f72c3902e11d4a5c793d20",
+    "line_numbers": [
+      19
+    ]
+  },
+  "transaction_rows": [
+    {
+      "line": 19,
+      "date": "2025-09-04",
+      "piid": "12569R25M1606",
+      "mod": "0",
+      "type": "DELIVERY ORDER",
+      "action": "",
+      "obligation": "19375.80"
+    }
+  ],
+  "amounts": {
+    "positive_obligations": "19375.80",
+    "negative_obligations": "0",
+    "net_obligations": "19375.80",
+    "payment_amount": "not established; award-level outlay fields are not summed",
+    "ceilings": "available in original rows; not payments or action obligations"
+  },
+  "before_designation_rows": 0,
+  "on_or_after_designation_rows": 1,
+  "code_only_identity": "name-only collision with conflicting locations; ownership unresolved",
+  "strongest_innocent_explanation": "Different legal persons sharing generic name or weak alias",
+  "missing_evidence": "Corporate registration/ownership bridge between US UEI and foreign designated entity; current snapshot is not historical coverage",
+  "legal_limit": "Triage only. Association is not sanctions coverage; dates do not establish illegality. An old contract is not automatically authorized. Short intervals are not automatically immaterial."
+}

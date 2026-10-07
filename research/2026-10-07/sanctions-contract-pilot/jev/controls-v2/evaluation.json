@@ -1,0 +1,38 @@
+[
+  {
+    "id": "K01-obligation-not-payment",
+    "expected": false,
+    "score_not_calibrated_probability": 0.04,
+    "passed": true
+  },
+  {
+    "id": "K02-zero-termination",
+    "expected": false,
+    "score_not_calibrated_probability": 0.07,
+    "passed": true
+  },
+  {
+    "id": "K03-same-name",
+    "expected": false,
+    "score_not_calibrated_probability": 0.09,
+    "passed": true
+  },
+  {
+    "id": "K04b-short-interval-atomic",
+    "expected": true,
+    "score_not_calibrated_probability": 0.96,
+    "passed": true
+  },
+  {
+    "id": "K05-old-contract",
+    "expected": false,
+    "score_not_calibrated_probability": 0.18,
+    "passed": true
+  },
+  {
+    "id": "K06-association",
+    "expected": false,
+    "score_not_calibrated_probability": 0.04,
+    "passed": true
+  }
+]
