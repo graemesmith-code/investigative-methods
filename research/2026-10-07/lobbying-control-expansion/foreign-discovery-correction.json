@@ -1,0 +1,16 @@
+{
+  "issue": "Prior field name omitted its initial >=$1m source scope; discovery now uses all acquired 2025 forms.",
+  "changed_clients": [
+    {
+      "client_id": 165440,
+      "client": "UNITED STATES STEEL CORPORATION",
+      "initial_high_amount_positive": false,
+      "any_2025_positive": true,
+      "source_uuids": [
+        "f938042d-26f9-49cb-988d-fa6c42ec8924"
+      ]
+    }
+  ],
+  "annual_positive_clients": 5,
+  "us_history_selection": 19
+}

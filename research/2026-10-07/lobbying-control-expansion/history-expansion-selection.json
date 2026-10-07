@@ -1,0 +1,139 @@
+{
+  "base_checkpoint": "f673516593b62e4a96f9c4ba763d7c07244971fd",
+  "rule": "All screened US-domiciled client IDs with a foreign entity listed in any acquired 2025 form OR any acquired original RR. Positive disclosure is a chronology lead, not evidence of wrongdoing.",
+  "annual_forms": 1184,
+  "selected": [
+    {
+      "client_id": 197760,
+      "client": "OTSUKA AMERICA PHARMACEUTICAL, INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 175443,
+      "client": "NOVO NORDISK INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 193858,
+      "client": "SAMSUNG ELECTRONICS AMERICA, INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 160884,
+      "client": "SAP AMERICA, INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 146693,
+      "client": "TOYOTA MOTOR NORTH AMERICA INC (TMA)",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 104875,
+      "client": "ASSOCIATION OF AMERICAN RAILROADS",
+      "annual_foreign_filing_uuids": [
+        "81ea427b-2ccb-4801-8f25-4f90f0dca0df",
+        "955bca3c-75bc-4516-8639-890c99369d92",
+        "e9dccf6b-a713-48ba-8e74-8857301f97f2"
+      ],
+      "rr_positive": false
+    },
+    {
+      "client_id": 158571,
+      "client": "ASTRAZENECA PHARMACEUTICALS LP",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 59822,
+      "client": "SK AMERICAS, INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 178410,
+      "client": "BOEHRINGER INGELHEIM USA CORPORATION",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 199695,
+      "client": "COINBASE, INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 203505,
+      "client": "BYTEDANCE INC.",
+      "annual_foreign_filing_uuids": [
+        "59efd5b6-6e5f-4098-80db-908d4d023f6d"
+      ],
+      "rr_positive": true
+    },
+    {
+      "client_id": 160754,
+      "client": "T-MOBILE USA, INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 188597,
+      "client": "PMI US CORPORATE SERVICES INC. (FKA PMI GLOBAL SERVICES INC.)",
+      "annual_foreign_filing_uuids": [
+        "18d7be5f-6e8f-45ea-88c1-19082302c49b",
+        "28e0d47c-6080-4b0c-90b1-0e243ad8c5a4",
+        "36a6ed60-5d1b-407e-8e13-4b2a9b1e7d14",
+        "e1c03b62-b015-4a6b-9bc4-4386e6d4c65f"
+      ],
+      "rr_positive": true
+    },
+    {
+      "client_id": 191427,
+      "client": "FCA US LLC",
+      "annual_foreign_filing_uuids": [
+        "7c72089a-8c81-4450-8e2d-01e37d6228b9",
+        "a758da94-da6a-4414-8ab9-96863c67842a",
+        "a93e5baf-3131-4015-bcde-b84c3602ca07",
+        "da9c0ce0-0a3f-490a-8655-46359b96587a"
+      ],
+      "rr_positive": true
+    },
+    {
+      "client_id": 203141,
+      "client": "NUTRIEN US LLC (FORMERLY KNOWN AS AGRIUM U.S. INC.) (A NUTRIEN LTD SUBSIDIARY)",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 165440,
+      "client": "UNITED STATES STEEL CORPORATION",
+      "annual_foreign_filing_uuids": [
+        "f938042d-26f9-49cb-988d-fa6c42ec8924"
+      ],
+      "rr_positive": true
+    },
+    {
+      "client_id": 169003,
+      "client": "TEVA PHARMACEUTICALS USA INC",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 160416,
+      "client": "TAKEDA PHARMACEUTICALS AMERICA INC",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    },
+    {
+      "client_id": 189281,
+      "client": "EISAI INC.",
+      "annual_foreign_filing_uuids": [],
+      "rr_positive": true
+    }
+  ]
+}

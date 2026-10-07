@@ -36,8 +36,12 @@ for id,c in clients.items():
 (P/'name-join-candidates.json').write_text(json.dumps(join,indent=2))
 summary=[]
 for id,c in clients.items():
- summary.append({'client_id':id,'client_name':c['name'],'country':c['country'],'high_amount_filings':len(c['rows']),'max_income':max(float(r['income'] or 0) for r in c['rows']),'max_expenses':max(float(r['expenses'] or 0) for r in c['rows']),'foreign_additions_present':any(r['foreign_entities'] for r in c['rows']),'fara_report_name_matches':sum(e['client_id']==id for e in join),'uuids':[r['filing_uuid'] for r in c['rows']]})
+ summary.append({'client_id':id,'client_name':c['name'],'country':c['country'],'high_amount_filings':len(c['rows']),'max_income':max(float(r['income'] or 0) for r in c['rows']),'max_expenses':max(float(r['expenses'] or 0) for r in c['rows']),'initial_high_amount_foreign_entities_listed':any(r['foreign_entities'] for r in c['rows']),'fara_report_name_matches':sum(e['client_id']==id for e in join),'uuids':[r['filing_uuid'] for r in c['rows']]})
+from foreign_discovery import enrich
+annual=[r for f in S.glob('lda-annual-*.json') for r in json.loads(f.read_text())['results']]
+rr=json.loads((P/'rr-coverage.json').read_text()) if (P/'rr-coverage.json').exists() else []
+summary=enrich(summary,annual,rr)
 (P/'client-screen.json').write_text(json.dumps(summary,indent=2))
 print('LDA records',len(rows),'clients',len(clients),'FARA report entries',len(records),'unique principals',len({r['normalized'] for r in records}),'join edges',len(join),'matched clients',len({r['client_id'] for r in join}))
 for x in summary:
- if x['fara_report_name_matches'] or x['country']!='US' or x['foreign_additions_present']:print({k:v for k,v in x.items() if k!='uuids'})
+ if x['fara_report_name_matches'] or x['country']!='US' or x['initial_high_amount_foreign_entities_listed']:print({k:v for k,v in x.items() if k!='uuids'})

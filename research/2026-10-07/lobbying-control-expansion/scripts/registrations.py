@@ -2,7 +2,7 @@
 import json,time,urllib.parse,concurrent.futures
 from acquire import P,S,fetch
 clients=json.loads((P/'client-screen.json').read_text())
-clients.sort(key=lambda c:(not (c['country']!='US' or c['foreign_additions_present'] or c['fara_report_name_matches']),c['client_id']))
+clients.sort(key=lambda c:(not (c['country']!='US' or c['initial_high_amount_foreign_entities_listed'] or c['fara_report_name_matches']),c['client_id']))
 progress=[]
 for c in clients:
  rows=[];url='https://lda.gov/api/v1/filings/?'+urllib.parse.urlencode({'client_id':c['client_id'],'filing_type':'RR','page_size':25});page=0
