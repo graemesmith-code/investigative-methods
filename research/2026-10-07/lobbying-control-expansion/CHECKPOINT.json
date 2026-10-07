@@ -1,0 +1,13 @@
+{
+  "executor": "usable",
+  "cohort": "All 780 API results for filing_year=2025 and filing_amount_reported_min=1000000; 259 client IDs. Candidate screen, not census or amendment-corrected major count.",
+  "fara": "Two complete official 2024 semiannual reports; 1598 extracted entries, not unique entities or 2025 population.",
+  "new_jev_calls": 8,
+  "new_jev_accounted_microusd": 177,
+  "entire_pilot_observed_microusd": 3035,
+  "all_58_calls_full_reservation_upper_bound_usd": 0.174,
+  "control_correct": 16,
+  "legal_ranking": "withheld",
+  "annual_clients_done": 75,
+  "rr_clients_done": 99
+}
