@@ -1,0 +1,14 @@
+{
+  "frozen_before_paid_calls": true,
+  "n": 16,
+  "pass_rule": "All 16 exact choices correct; no tuning or second attempt. Passing validates only literal checkbox extraction. Legal ranking remains withheld after earlier negative-control failures.",
+  "baseline": "HTMLParser checked-attribute parser",
+  "prior_successful_calls": 42,
+  "prior_accounted_microusd": 2858,
+  "prior_full_reservations_microusd": 126000,
+  "max_new_attempts": 16,
+  "new_worst_case_microusd": 48000,
+  "entire_pilot_worst_case_usd": 0.174,
+  "authorized_total_usd": 15,
+  "heldout_sha256": "a200d6d14f071eea7340c89b4ceb3112e1a9f3e0f8dfa153e7c0cc6d3c916d3e"
+}

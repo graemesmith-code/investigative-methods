@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-07",
+  "model": "jev-1.13.0",
+  "usd_per_million_input": 0.042,
+  "max_tokens": 64000,
+  "source": "https://docs.typesafe.ai/models",
+  "output_tokens_free": true,
+  "new_calls_max": 16,
+  "all_prior_reservations_carried_microusd": 126000
+}

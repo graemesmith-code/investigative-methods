@@ -1,0 +1,1312 @@
+[
+  {
+    "client_id": 58151,
+    "name": "NIPPON STEEL CORPORATION",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "c57e786a-a603-4359-b96a-bea177a6fa78"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 64158,
+    "name": "BARRICK MINING CORPORATION",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "00bac7c0-5027-4edc-8ede-69f96d481d46"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 64167,
+    "name": "KUCOIN",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "18c0f855-8f6a-4804-ba43-d0cb8d74a4da"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 64409,
+    "name": "PRVO PLINARSKO DRUTVO D.O.O.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "6ede88f5-9c9c-43d6-ba24-1dab72884c16"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 68910,
+    "name": "ARM LIMITED",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "0a0eb801-ece9-445c-b137-93067243f611"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 104875,
+    "name": "ASSOCIATION OF AMERICAN RAILROADS",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 126471,
+    "name": "INVESTMENT COMPANY INSTITUTE",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 188597,
+    "name": "PMI US CORPORATE SERVICES INC. (FKA PMI GLOBAL SERVICES INC.)",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "03fbe3b1-8963-4b8b-ab83-b5013d6644a2"
+    ],
+    "foreign_entities": [
+      [
+        {
+          "name": "FTR HOLDING S.A. (PARENT COMPANY IS PMI)",
+          "contribution": null,
+          "ownership_percentage": "100.00",
+          "address": "Quai Jeanrenaud 3",
+          "city": "2000 Neuchatel",
+          "state": null,
+          "state_display": null,
+          "country": "CH",
+          "country_display": "Switzerland",
+          "ppb_city": "2000 Neuchatel",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "CH",
+          "ppb_country_display": "Switzerland"
+        }
+      ]
+    ]
+  },
+  {
+    "client_id": 191427,
+    "name": "FCA US LLC",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "c6c8d644-64d8-47f9-852a-2d256b6eefdb"
+    ],
+    "foreign_entities": [
+      [
+        {
+          "name": "FIAT NORTH AMERICA LLC (FNA)",
+          "contribution": null,
+          "ownership_percentage": "20.00",
+          "address": "1209 Orange Street",
+          "city": "Wilmington",
+          "state": "DE",
+          "state_display": "Delaware",
+          "country": "US",
+          "country_display": "United States of America",
+          "ppb_city": "Torino",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "IT",
+          "ppb_country_display": "Italy"
+        }
+      ]
+    ]
+  },
+  {
+    "client_id": 200358,
+    "name": "ALIBABA GROUP HOLDING LIMITED",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "76deddfa-3cdf-4380-98bf-96c1a5b0af76"
+    ],
+    "foreign_entities": [
+      [
+        {
+          "name": "SOFTBANK GROUP CORP.",
+          "contribution": "0.00",
+          "ownership_percentage": "32.00",
+          "address": "1-9-1 Higashi-shimbasni, Minatu-ku",
+          "city": "Tokyo",
+          "state": null,
+          "state_display": null,
+          "country": "JP",
+          "country_display": "Japan",
+          "ppb_city": "Tokyo",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "JP",
+          "ppb_country_display": "Japan"
+        }
+      ]
+    ]
+  },
+  {
+    "client_id": 203505,
+    "name": "BYTEDANCE INC.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "db4253d6-2e54-4d67-bcdb-35771b6becf4"
+    ],
+    "foreign_entities": [
+      [
+        {
+          "name": "BYTEDANCE LTD CAYMAN",
+          "contribution": "0.00",
+          "ownership_percentage": "100.00",
+          "address": "Flr 4 Willow House, Cricket Sq, P.O. Box 2804",
+          "city": "Grand Cayman KY1-1112",
+          "state": null,
+          "state_display": null,
+          "country": "KY",
+          "country_display": "Cayman Islands",
+          "ppb_city": null,
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "KY",
+          "ppb_country_display": "Cayman Islands"
+        }
+      ]
+    ]
+  },
+  {
+    "client_id": 206637,
+    "name": "TENCENT HOLDINGS LIMITED",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "0096761c-f013-4800-af83-6ead86d8b230"
+    ],
+    "foreign_entities": [
+      [
+        {
+          "name": "WECHAT INTERNATIONAL PTE LTD",
+          "contribution": "0.00",
+          "ownership_percentage": "0.00",
+          "address": "10 Anson Road",
+          "city": "International Plaza #21-07",
+          "state": null,
+          "state_display": null,
+          "country": "SG",
+          "country_display": "Singapore",
+          "ppb_city": null,
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "SG",
+          "ppb_country_display": "Singapore"
+        },
+        {
+          "name": "NASPERS LIMITED (THROUGH MIH TC)",
+          "contribution": "0.00",
+          "ownership_percentage": "30.00",
+          "address": "40 Heerengracht",
+          "city": "Cape Town",
+          "state": null,
+          "state_display": null,
+          "country": "ZA",
+          "country_display": "South Africa",
+          "ppb_city": null,
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "ZA",
+          "ppb_country_display": "South Africa"
+        }
+      ]
+    ]
+  },
+  {
+    "client_id": 51060,
+    "name": "CONSTELLATION ENERGY GENERATION, LLC",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "e732a2e7-a751-43ab-9acb-0978f5d43929"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 51237,
+    "name": "TOBACCO-FREE KIDS ACTION FUND",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "f70b54e2-20e6-4ba4-8101-24e966ba9309"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 53005,
+    "name": "HEALTHEQUITY, INC.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "c71b05cd-9cc3-4513-96bc-78c4e1b76296"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 54163,
+    "name": "A16Z CAPITAL MANAGEMENT LLC (F/K/A AH CAPITAL MANAGEMENT L.L.C.)",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "7b18b8c6-dcd5-4e94-a6ba-e859e398de2a"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 57353,
+    "name": "ELECTRONIC PAYMENTS COALITION INC.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "df2b2640-a519-4072-aad6-12496d55c92a"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 59201,
+    "name": "ANTHROPIC",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "7f576e06-d7cc-4fb4-bab5-592aff21a232"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 59822,
+    "name": "SK AMERICAS, INC.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "dc5bbb1e-786b-4e17-a7a3-19be98042aae"
+    ],
+    "foreign_entities": [
+      [
+        {
+          "name": "SK INC.",
+          "contribution": "0.00",
+          "ownership_percentage": "20.00",
+          "address": "26, Jong-ro, Jongno-gu",
+          "city": "Seoul",
+          "state": null,
+          "state_display": null,
+          "country": "KR",
+          "country_display": "South Korea",
+          "ppb_city": "Seoul",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "KR",
+          "ppb_country_display": "South Korea"
+        },
+        {
+          "name": "SK INNOVATION CO., LTD.",
+          "contribution": "0.00",
+          "ownership_percentage": "20.00",
+          "address": "26, Jong-ro, Jongno-gu",
+          "city": "Seoul",
+          "state": null,
+          "state_display": null,
+          "country": "KR",
+          "country_display": "South Korea",
+          "ppb_city": "Seoul",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "KR",
+          "ppb_country_display": "South Korea"
+        },
+        {
+          "name": "SK TELECOM CO., LTD.",
+          "contribution": "0.00",
+          "ownership_percentage": "20.00",
+          "address": "65, Eulji-ro, Jung-gu",
+          "city": "Seoul",
+          "state": null,
+          "state_display": null,
+          "country": "KR",
+          "country_display": "South Korea",
+          "ppb_city": "Seoul",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "KR",
+          "ppb_country_display": "South Korea"
+        },
+        {
+          "name": "SK HYNIX INC.",
+          "contribution": "0.00",
+          "ownership_percentage": "20.00",
+          "address": "2091, Gyeongchung-daero, Bubal-eub, Icheon-si",
+          "city": "Gyeonggi-do",
+          "state": null,
+          "state_display": null,
+          "country": "KR",
+          "country_display": "South Korea",
+          "ppb_city": "Gyeonggi-do",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "KR",
+          "ppb_country_display": "South Korea"
+        },
+        {
+          "name": "SK E&S CO., LTD.",
+          "contribution": "0.00",
+          "ownership_percentage": "20.00",
+          "address": "26, Jong-ro, Jongno-gu",
+          "city": "Seoul",
+          "state": null,
+          "state_display": null,
+          "country": "KR",
+          "country_display": "South Korea",
+          "ppb_city": "Seoul",
+          "ppb_state": null,
+          "ppb_state_display": null,
+          "ppb_country": "KR",
+          "ppb_country_display": "South Korea"
+        }
+      ]
+    ]
+  },
+  {
+    "client_id": 61287,
+    "name": "STATE OF LOC NATION GLOBAL PUBLIC BENEFIT CORPORATION",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "5000632b-e40b-4762-affc-551b46a40c91"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 63863,
+    "name": "CHEVRON PHILLIPS CHEMICAL COMPANY LP",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "3810dbe6-1ff4-4a3b-b549-3a0c00e76bdf"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 63912,
+    "name": "SOUTHERN POVERTY LAW CENTER, INC.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "5286f250-3356-4bc2-b89a-5034e676cd38"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 64412,
+    "name": "RSL INVESTMENT CORPORATION",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "deba84a9-5b37-4af4-9d2d-7b7d916e2350"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 65325,
+    "name": "NVIDIA CORPORATION",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "3335276e-3c12-4258-b4c5-50f1a52d1274"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 67147,
+    "name": "FRED DAIBES",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "34d08de6-0f67-4ef6-9302-b805fa422b58"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 67344,
+    "name": "PWC US GROUP LLP",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "25b5fba7-0b6c-4756-bb31-7ed393df1525"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 68104,
+    "name": "LOGICAL STRATEGIES LLC",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "52b3a9dd-8f59-48c4-929f-90b04e0697bf"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 100021,
+    "name": "ABBOTT LABORATORIES",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 100400,
+    "name": "AIRBUS AMERICAS INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 100404,
+    "name": "AFL-CIO",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 100407,
+    "name": "AFLAC INCORPORATED",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 100444,
+    "name": "AIR TRANSPORT ASSOCIATION OF AMERICA, INC. (D/B/A AIRLINES FOR AMERICA)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102599,
+    "name": "ALZHEIMER'S ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102605,
+    "name": "AMERICAN ACADEMY OF FAMILY PHYSICIANS",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102607,
+    "name": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102619,
+    "name": "AMERICAN AIRLINES INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102624,
+    "name": "AMERICAN ASSOCIATION OF AIRPORT EXECUTIVES",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102632,
+    "name": "AMERICA'S HEALTH INSURANCE PLANS INC (AHIP)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102643,
+    "name": "AARP",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "520df200-2d84-47ae-aa5c-f9a88734c9ce"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 102650,
+    "name": "AMERICAN BANKERS ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 102678,
+    "name": "AMERICAN COUNCIL OF ENGINEERING COMPANIES",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "05a42d30-7a79-4e2e-811e-4453fb65ee35"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 103080,
+    "name": "AMERICAN COUNCIL OF LIFE INSURERS",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "d86853e3-17e8-4a9d-90a2-731899f8c638"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 103084,
+    "name": "CROPLIFE AMERICA",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103538,
+    "name": "AMERICAN DENTAL ASSOCIATION",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "8d646f7d-c2de-4b08-afe5-aec52466dd6f"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 103539,
+    "name": "AMERICAN ELECTRIC POWER COMPANY, INC. AND AFFILIATED CORPORATIONS",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103572,
+    "name": "AMERICAN HOSPITAL ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103604,
+    "name": "AMERICAN MEDICAL ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103618,
+    "name": "AMERICAN OPTOMETRIC ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103626,
+    "name": "AMERICAN PETROLEUM INSTITUTE",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103688,
+    "name": "AMERICAN CLEAN POWER ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103709,
+    "name": "AMGEN INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103799,
+    "name": "ANHEUSER-BUSCH COMPANIES",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 103979,
+    "name": "APPLE INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 104895,
+    "name": "AMERICAN ASSOCIATION FOR JUSTICE",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 106185,
+    "name": "BANK POLICY INSTITUTE",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 107350,
+    "name": "BASF CORPORATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 107401,
+    "name": "BAYER CORPORATION (CONSOLIDATED REPORT)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 107474,
+    "name": "BECTON DICKINSON AND COMPANY",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 107489,
+    "name": "VERIZON COMMUNICATIONS INC AND VARIOUS SUBSIDIARIES",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 107792,
+    "name": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 108760,
+    "name": "BLUE CROSS AND BLUE SHIELD ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 108773,
+    "name": "ELEVANCE HEALTH, INC.",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "763ee7fa-6897-4e21-a935-ca2322a1c23f"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 108802,
+    "name": "BOEING COMPANY",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 109642,
+    "name": "BRISTOL-MYERS SQUIBB COMPANY",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 110753,
+    "name": "BUSINESS ROUNDTABLE INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 112676,
+    "name": "CATERPILLAR INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 112866,
+    "name": "CTIA-THE WIRELESS ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 113107,
+    "name": "AMERICAN CHEMISTRY COUNCIL",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 113215,
+    "name": "CHEVRON U.S.A. INC.",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 113305,
+    "name": "NOVARTIS",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 113308,
+    "name": "THE CIGNA GROUP AND SUBSIDIARIES (FORMERLY CIGNA CORPORATION AND SUBSIDIARIES)",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "6ec324f1-a073-4400-8b55-7a55faf6dd69"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 113735,
+    "name": "COCA-COLA COMPANY",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 114100,
+    "name": "COMCAST CORPORATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 114369,
+    "name": "CONSUMER BANKERS ASSOCIATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 114383,
+    "name": "UNITED AIRLINES INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 115381,
+    "name": "CREDIT UNION NATIONAL ASSOCIATION, INC. DBA AMERICA'S CREDIT UNIONS",
+    "rr_count": 2,
+    "server_count": 2,
+    "complete": true,
+    "originals_readable": 2,
+    "uuids": [
+      "c8f6e575-7644-4294-a452-fa214a3d3c23",
+      "23b389b6-9f92-46fb-910d-b333a35904f6"
+    ],
+    "foreign_entities": [
+      [],
+      []
+    ]
+  },
+  {
+    "client_id": 115767,
+    "name": "CSX CORPORATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 116542,
+    "name": "DELL TECHNOLOGIES INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 116564,
+    "name": "DELTA AIR LINES INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 117067,
+    "name": "DISNEY WORLDWIDE SERVICES INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 117187,
+    "name": "DOW CHEMICAL COMPANY DBA DOW",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 117776,
+    "name": "DUKE ENERGY CORPORATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 117811,
+    "name": "CORTEVA AGRISCIENCE LLC (FKA E I DU PONT DE NEMOURS AND COMPANY)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 118723,
+    "name": "EASTMAN CHEMICAL COMPANY",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "26ebd34a-6520-488e-bb9d-4af3cfe9e57f"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 118842,
+    "name": "EDISON ELECTRIC INSTITUTE",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 118931,
+    "name": "ELI LILLY AND COMPANY",
+    "rr_count": 1,
+    "server_count": 1,
+    "complete": true,
+    "originals_readable": 1,
+    "uuids": [
+      "97799a3e-7943-4554-bad9-a0762d0ae71c"
+    ],
+    "foreign_entities": [
+      []
+    ]
+  },
+  {
+    "client_id": 119494,
+    "name": "EXXON MOBIL CORP",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 119580,
+    "name": "FEDERATION OF AMERICAN HOSPITALS",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 120880,
+    "name": "FORD MOTOR COMPANY",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121093,
+    "name": "FRIENDS COMMITTEE ON NATIONAL LEGISLATION",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121492,
+    "name": "BAE SYSTEMS INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121522,
+    "name": "GENERAL ATOMICS",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121523,
+    "name": "GENENTECH INC",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121527,
+    "name": "GENERAL ELECTRIC COMPANY (INCLUDING SUBSIDIARIES)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121529,
+    "name": "GENERAL DYNAMICS CORP",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121533,
+    "name": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 121722,
+    "name": "GSK (FKA GLAXOSMITHKLINE INC.)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 122663,
+    "name": "CONSUMER BRANDS ASSOCIATION (PKA: GROCERY MANUFACTURERS ASSOCIATION)",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  },
+  {
+    "client_id": 123312,
+    "name": "ADVANCED MEDICAL TECHNOLOGY ASSN",
+    "rr_count": 0,
+    "server_count": null,
+    "complete": true,
+    "originals_readable": 0,
+    "uuids": [],
+    "foreign_entities": []
+  }
+]
