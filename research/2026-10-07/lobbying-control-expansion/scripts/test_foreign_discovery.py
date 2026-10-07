@@ -19,4 +19,11 @@ class DiscoveryRegression(unittest.TestCase):
   o=enrich([{'client_id':1,'country':'JP'}],[],[{'client_id':1,'foreign_entities':[[{'name':'Owner'}]]}])[0];self.assertFalse(o['history_expansion_selected'])
  def test_empty_metadata_does_not_claim_no_owner(self):
   o=enrich([{'client_id':1,'country':'US'}],[],[])[0];self.assertFalse(o['history_expansion_selected']);self.assertIn('not an original-form No',o['foreign_field_interpretation'])
+ def test_removal_parser_ignores_extended_blank_row_numbers(self):
+  from ownership_timelines import extract_fields
+  s=b'<p>28. Name of each previously reported foreign entity that no longer owns, or controls, or is affiliated</p><td>1</td><td>24</td><td>Former Parent Ltd.</td><h2>CONVICTIONS DISCLOSURE</h2>'
+  self.assertEqual(extract_fields(s)['removed_foreign_entities'],['Former Parent Ltd.'])
+ def test_image_pdf_not_treated_as_no(self):
+  from ownership_timelines import extract_fields
+  self.assertNotIn('registration_section14_response',extract_fields(b'%PDF-1.4'))
 if __name__=='__main__':unittest.main()

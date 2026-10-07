@@ -1,0 +1,19 @@
+# Scope correction and domestic-client history expansion
+
+Continuation of the checkpoint at `f673516593b62e4a96f9c4ba763d7c07244971fd`. No new paid calls. Retrieval is in progress; final counts are in the machine-readable coverage files.
+
+The previous `foreign_additions_present` field was misleadingly named: it described only the initial 780 filings at or above $1 million, not all 1,184 acquired 2025 forms. It is now `initial_high_amount_foreign_entities_listed`. A separate `any_acquired_2025_foreign_entities_listed` field uses all annual forms and preserves the supporting filing UUIDs. Neither false value means that an original form checked No or that the client lacks foreign ownership.
+
+The rerun finds five clients with positive foreign-entity entries in the annual forms. Four were already flagged; United States Steel Corporation is newly captured. Its [Q3 original, section 27](https://lda.gov/filings/public/filing/f938042d-26f9-49cb-988d-fa6c42ec8924/print/) reports $360,000 expenses and explicitly identifies Nippon Steel Corporation at 100%, with zero contribution. It was excluded from the initial amount-filtered ownership screen solely because it was below $1 million. Its reconciled annual expenses are $2.53 million. This is documented disclosure, not a new concealment allegation, and is now a regression control.
+
+The next selection rule covers every screened US-domiciled client ID with a foreign entity listed in any acquired 2025 form or recovered original RR. It selects 19 relationships, including T-Mobile, U.S. Steel, SK Americas and the pharmaceutical, technology and manufacturing subsidiaries identified by the filings themselves. Four already had complete all-years histories; the other 15 are being acquired. This extends the earlier focus on seven foreign-country clients without selecting names for their notoriety.
+
+For the entire US-domiciled missing-RR group, all available registration amendments (RA) are also being sought. BASF, Shell USA and BAE Systems remain retrieval/history gaps until sources resolve them; a zero RR result never counts as a clean disclosure finding. An RA-only recovery is not equivalent to a complete all-years history. The first expansion had complete histories for only 12 of 259 client IDs and zero RR results for 138. These limits constrain every negative inference.
+
+`ownership-timelines.json` combines acquired annual forms, RR/RA records and other available histories at relationship level. It records positive disclosures, original HTML section-28 removals, registration responses when actually parsed, superseded quarterly versions and source locators. Filing dates are not ownership-effective dates. It does not turn an empty LD-2 update into a denial, assume an image-based PDF has been parsed, or infer current ownership from an incomplete event stream.
+
+The earlier three case qualifications are unchanged: PPD/Mercury reports $250,000 plus Q4 below $5,000 after amendment; Arm/FGS reports $210,000 after amendment, with earlier Carmen disclosure as counterevidence; KuCoin/A10 reports two $1 million quarters but its contracting legal entity remains unresolved. No concealment or liability conclusion follows.
+
+The Jev result is **two distinct real-form payloads plus six synthetic controls**, not 16 independent real cases. Sixteen listed test items included eight cache hits. Both Jev and the code baseline were correct on the same eight distinct payloads; this supplies no legal-scoring validation. Legal rankings remain withheld and the combined spending estimate remains $0.003035.
+
+Regression checks cover the actual U.S. Steel below-threshold disclosure, source UUID provenance, duplicate-row handling, RR-positive selection, country scope, missingness and image-PDF abstention. Extended blank table row numbers are excluded from removal events. The correction and selection are committed before completing the new retrieval.
