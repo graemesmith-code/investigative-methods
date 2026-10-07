@@ -1,0 +1,92 @@
+[
+  {
+    "file": "2025_1stQuarter_XML.zip",
+    "url": "https://disclosurespreview.house.gov/data/LD/2025_1stQuarter_XML.zip",
+    "official_display_name": "2025 1stQuarter XML (9/29/2026 2:12:05 PM)",
+    "retrieved_utc": "2026-10-07T20:53:59.989321+00:00",
+    "status": 200,
+    "last_modified": "Sun, 04 Oct 2026 09:28:16 GMT",
+    "bytes": 46912976,
+    "sha256": "fdefc9d025b94962f200dbfefce9b4db9b50e7688e71625a6b217d7aaacb4fc3",
+    "members": 24808,
+    "uncompressed_bytes": 316872101,
+    "member_examples": [
+      "301642857.xml",
+      "301660493.xml",
+      "301661357.xml"
+    ],
+    "crc_verified": true
+  },
+  {
+    "file": "2025_2ndQuarter_XML.zip",
+    "url": "https://disclosurespreview.house.gov/data/LD/2025_2ndQuarter_XML.zip",
+    "official_display_name": "2025 2ndQuarter XML (10/3/2026 2:14:57 PM)",
+    "retrieved_utc": "2026-10-07T20:53:59.989872+00:00",
+    "status": 200,
+    "last_modified": "Sun, 04 Oct 2026 09:31:50 GMT",
+    "bytes": 48616385,
+    "sha256": "d4ec728b3e275713525f1167f8c3ed353998981c46c15467ed078a8b0b0da5b0",
+    "members": 25492,
+    "uncompressed_bytes": 327931226,
+    "member_examples": [
+      "301695975.xml",
+      "301696155.xml",
+      "301698063.xml"
+    ],
+    "crc_verified": true
+  },
+  {
+    "file": "2025_3rdQuarter_XML.zip",
+    "url": "https://disclosurespreview.house.gov/data/LD/2025_3rdQuarter_XML.zip",
+    "official_display_name": "2025 3rdQuarter XML (10/2/2026 12:18:07 PM)",
+    "retrieved_utc": "2026-10-07T20:54:24.019904+00:00",
+    "status": 200,
+    "last_modified": "Sun, 04 Oct 2026 09:35:41 GMT",
+    "bytes": 48773257,
+    "sha256": "c927408c3956133dcab28dcfd7579321aceacfbcf5ec8809c162c2e62bfa85ba",
+    "members": 25503,
+    "uncompressed_bytes": 328112933,
+    "member_examples": [
+      "301695976.xml",
+      "301741264.xml",
+      "301767858.xml"
+    ],
+    "crc_verified": true
+  },
+  {
+    "file": "2025_4thQuarter_XML.zip",
+    "url": "https://disclosurespreview.house.gov/data/LD/2025_4thQuarter_XML.zip",
+    "official_display_name": "2025 4thQuarter XML (10/2/2026 12:20:09 PM)",
+    "retrieved_utc": "2026-10-07T20:54:25.800499+00:00",
+    "status": 200,
+    "last_modified": "Sun, 04 Oct 2026 09:39:52 GMT",
+    "bytes": 49084456,
+    "sha256": "59158a636f26b610b00ceb259d64311c4d808415509af414042246d59c16e6c6",
+    "members": 25734,
+    "uncompressed_bytes": 329113791,
+    "member_examples": [
+      "301684444.xml",
+      "301684445.xml",
+      "301695977.xml"
+    ],
+    "crc_verified": true
+  },
+  {
+    "file": "2025_Registrations_XML.zip",
+    "url": "https://disclosurespreview.house.gov/data/LD/2025_Registrations_XML.zip",
+    "official_display_name": "2025 Registrations XML (9/29/2026 1:22:10 PM)",
+    "retrieved_utc": "2026-10-07T20:54:44.509686+00:00",
+    "status": 200,
+    "last_modified": "Sun, 04 Oct 2026 09:41:24 GMT",
+    "bytes": 12112960,
+    "sha256": "b1d0ea9880df901a77a9d3fad8303a736ee8e1007dd69a00990b828fdd2c8da7",
+    "members": 7852,
+    "uncompressed_bytes": 53219747,
+    "member_examples": [
+      "301639256.xml",
+      "301639258.xml",
+      "301639259.xml"
+    ],
+    "crc_verified": true
+  }
+]

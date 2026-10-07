@@ -1,0 +1,22 @@
+{
+  "principal_rows_screened": 17765,
+  "distinct_principal_name_strings": 12646,
+  "lda_client_name_strings_screened": 23776,
+  "lda_house_relationships": 28341,
+  "name_edges": 456,
+  "relationship_edges": 598,
+  "principal_rows_with_edges": 329,
+  "temporal_edge_counts": {
+    "starts_after_2025": 6,
+    "overlaps_2025": 60,
+    "ended_before_2025": 520,
+    "catalog_chronology_inconsistent": 12
+  },
+  "rules": {
+    "normalized_exact": 299,
+    "punctuation_suffix_or_parenthetical_variant": 255,
+    "spelling_similarity_ge_0.94": 44
+  },
+  "overlapping_major_candidate_relationships": 1,
+  "scope": "Every usable principal row, all five 2025 House archives. Historical/chronologically inconsistent matches retained separately. Name matches are discovery, never legal-entity proof."
+}

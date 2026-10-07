@@ -1,0 +1,826 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lobbying Disclosure Notice: We've Moved!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link href="app.6e3857a352d2ff78613e.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        a:focus-visible, 
+        button:focus-visible, 
+        [tabindex="-1"]:focus-visible {
+            outline: 3px solid #005A9C !important;
+            outline-offset: 3px !important;
+        }
+
+        .c-btn--primary:focus {
+            outline: 3px solid #005A9C !important;
+            outline-offset: 2px !important;
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -60px;
+            left: 0;
+            background: #002C6C;
+            color: white;
+            padding: 12px 16px;
+            z-index: 1000;
+            transition: top 0.2s ease;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+            min-height: 44px;
+        }
+        .skip-link:focus {
+            top: 0;
+            outline: 3px solid #FFD54F !important;
+        }
+
+        .notice-accessible-link {
+            color: #004B87 !important;
+            font-weight: 600;
+            text-decoration: underline !important;
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            padding: 4px 0;
+        }
+        .notice-accessible-link:hover {
+            color: #002C6C !important;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .main-content-shift {
+            position: relative;
+            top: 0 !important; 
+            margin-top: 130px !important; 
+            padding-bottom: 2rem !important;
+            outline: none;
+            flex-grow: 1;
+        }
+
+        .compliance-footer {
+            background-color: #F8F9FA !important;
+            color: #4A5568 !important;
+            border-top: 1px solid #E2E8F0 !important;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            width: 100% !important;
+            padding: 2.5rem 1rem !important;
+            margin-top: auto !important;
+            position: relative;
+            z-index: 10; 
+        }
+
+        .footer-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-links-group {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-link {
+            color: #004B87 !important;
+            text-decoration: none !important;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
+            padding: 4px 0;
+            transition: color 0.15s ease-in-out;
+        }
+
+        .footer-link:hover {
+            color: #002C6C !important;
+            text-decoration: underline !important;
+        }
+
+        .footer-link .footer-chevron {
+            display: none;
+        }
+
+        .footer-meta-group {
+            text-align: right;
+            font-size: 0.8rem;
+            color: #718096 !important;
+            line-height: 1.5;
+        }
+
+        .footer-meta-group .agency-title {
+            font-weight: 600;
+            color: #4A5568 !important;
+            margin-bottom: 0.25rem;
+        }
+
+        .filings-select-wrap {
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .filings-groups {
+            display: grid;
+            gap: 1rem;
+            margin-top: 0.75rem;
+        }
+
+        .filings-group {
+            background-color: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-radius: 8px;
+            padding: 0.9rem;
+        }
+
+        .filings-group-title {
+            margin: 0 0 0.5rem 0;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #1A1A1A;
+            letter-spacing: 0.02em;
+        }
+
+        .filings-select-label {
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            color: #1A1A1A;
+        }
+
+        .filings-select-heading {
+            margin: 0 0 0.5rem 0;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: #1A1A1A;
+        }
+
+        .filings-select {
+            width: auto;
+            min-height: 44px;
+            border: 1px solid #CBD5E0;
+            border-radius: 6px;
+            padding: 0.55rem 2.4rem 0.55rem 0.65rem;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1rem;
+            color: #1A1A1A;
+            background-color: #FFFFFF;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20'%3E%3Cpath fill='%23334E68' d='M5.5 7.5L10 12l4.5-4.5 1.5 1.5-6 6-6-6z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.8rem center;
+            background-size: 0.95rem;
+        }
+
+        .filings-controls {
+            display: flex;
+            gap: 0.75rem;
+            align-items: stretch;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        .filings-controls .filings-select {
+            flex: 0 1 420px;
+            width: min(420px, 100%);
+        }
+
+        .filings-download-btn {
+            min-height: 44px;
+            border: 1px solid #057bc2;
+            border-radius: 6px;
+            padding: 0.55rem 1rem;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            background-color: #057bc2;
+            cursor: pointer;
+            transition: background-color 0.15s ease-in-out;
+        }
+
+        .filings-download-btn:hover {
+            background-color: #004B87;
+        }
+
+        .filings-download-btn:disabled {
+            background-color: #A0AEC0;
+            cursor: not-allowed;
+        }
+
+        .filings-select-help {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #4A5568;
+        }
+
+        @media screen and (max-width: 640px) {
+            .filings-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filings-controls .filings-select {
+                flex: 1 1 auto;
+                width: 100%;
+            }
+
+            .filings-download-btn {
+                width: 100%;
+            }
+        }
+
+        .notice-card-center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .notice-card-panel {
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            transform: none !important;
+            width: 100%;
+            background-color: #FFF3E0 !important;
+            color: #1A1A1A !important;
+        }
+
+        .notice-title-icon {
+            font-size: 4rem;
+            line-height: 1;
+            color: #1A1A1A !important;
+        }
+
+        .notice-main-title {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 2.2rem;
+            line-height: 1.3;
+            margin: 0 !important;
+            color: #1A1A1A !important;
+        }
+
+        .notice-button-nowrap {
+            white-space: nowrap;
+        }
+
+        .notice-primary-link {
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            padding: 0.65rem 1.5rem !important;
+            display: inline-flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .notice-primary-icon {
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+        }
+
+        .notice-body-text {
+            line-height: 1.6;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+            padding-top: 1.25rem;
+            margin-top: 0 !important;
+            color: #1A1A1A !important;
+        }
+
+        .notice-inline-icon {
+            font-size: 0.75rem;
+            margin-left: 0.25rem;
+        }
+
+        @media screen and (max-width: 414px) {
+            .header-mobile-override {
+                padding: 0.5rem !important;
+            }
+            .header-logo-container-mobile {
+                height: 70px !important;
+                padding: 0.5rem !important;
+            }
+            .header-logo-mobile {
+                height: 50px !important;
+            }
+
+            .notice-header-container {
+                flex-direction: column !important;
+                align-items: center !important;
+                text-align: center !important;
+                gap: 1.5rem !important;
+                margin-bottom: 1.2rem;
+            }
+            .notice-title-group {
+                flex-direction: column !important;
+                justify-content: center !important;
+                gap: 0.75rem;
+            }
+            .notice-title-group i {
+                font-size: 3rem !important;
+            }
+            .notice-title-group h1 {
+                font-size: 1.8rem !important;
+                line-height: 1.2 !important;
+            }
+            .notice-button-wrapper {
+                width: 100% !important;
+                margin-top: 0.5rem !important;
+                text-align: center !important;
+            }
+            .notice-button-wrapper .c-btn {
+                display: flex !important;
+                width: 100% !important;
+                min-height: 48px !important;
+            }
+
+            .compliance-footer {
+                padding: 2rem 1rem !important;
+            }
+            
+            .footer-container,
+            .footer-links-group,
+            .footer-meta-group {
+                display: flex !important;
+                flex-direction: column !important;
+                width: 100% !important;
+                align-items: stretch !important;
+                text-align: left !important;
+                gap: 0 !important;
+            }
+            
+            .footer-link {
+                display: flex !important; 
+                width: 100% !important; 
+                max-width: 100% !important;
+                justify-content: space-between !important;
+                background-color: rgba(0, 0, 0, 0.03) !important;
+                border: 1px solid rgba(0, 0, 0, 0.05) !important;
+                border-radius: 8px !important;
+                padding: 12px 16px !important;
+                margin-bottom: 0.65rem !important; 
+                min-height: 48px !important;
+                box-sizing: border-box !important;
+            }
+            
+            .footer-link:hover, .footer-link:focus-visible {
+                background-color: rgba(0, 90, 156, 0.06) !important;
+                border-color: rgba(0, 90, 156, 0.2) !important;
+            }
+            
+            .footer-link .footer-chevron {
+                display: inline-block !important;
+                font-size: 0.8rem;
+                color: #A0AEC0 !important;
+            }
+            
+            .footer-meta-group {
+                border-top: 1px solid #E2E8F0 !important;
+                padding-top: 1.25rem !important;
+                margin-top: 0.5rem !important;
+            }
+            
+            .footer-meta-group .agency-title,
+            .footer-meta-group div:last-child {
+                display: block !important;
+                width: 100% !important;
+                font-size: 0.8rem !important;
+                color: #718096 !important;
+                line-height: 1.5 !important;
+                margin-bottom: 0.25rem !important;
+            }
+        }
+
+        @media screen and (min-width: 415px) and (max-width: 834px) {
+            .notice-header-container {
+                flex-direction: column !important;
+                align-items: center !important;
+                text-align: center !important;
+                gap: 1.5rem !important;
+                margin-bottom: 1.5rem;
+            }
+            .notice-title-group {
+                flex-direction: row !important;
+                justify-content: center !important;
+                gap: 1.25rem;
+            }
+            .notice-button-wrapper {
+                width: 100% !important;
+                margin-top: 0.5rem !important;
+                text-align: center !important;
+            }
+            .notice-button-wrapper .c-btn {
+                display: inline-flex !important;
+                width: auto !important;
+                min-height: 44px !important;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .notice-header-container {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: center !important;
+                justify-content: space-between !important;
+                width: 100% !important;
+                margin-bottom: 1.5rem;
+                gap: 2rem;
+            }
+            .notice-title-group {
+                display: flex !important;
+                flex-direction: row !important;
+                align-items: center !important;
+                gap: 1.25rem;
+            }
+            .notice-button-wrapper {
+                margin-left: auto !important;
+                margin-top: 0 !important;
+            }
+            .notice-button-wrapper .c-btn {
+                min-height: 44px !important;
+            }
+            .notice-card-container {
+                max-width: 850px !important;
+            }
+        }
+
+        @media screen and (min-width: 1440px) {
+            .notice-card-container {
+                max-width: 1000px !important;
+            }
+            .notice-title-group h1 {
+                font-size: 2.5rem !important;
+            }
+        }
+    </style>
+</head>
+
+<body class="u-flex u-flex--column u-height--100%">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div id="root" class="u-flex u-flex--column u-flex--grow u-width--100%">
+
+        <header role="banner">
+            <div>
+                <div class="print-main-header--@print u-flex u-flex--no-shrink u-flex--column u-flex--centered-y">
+                    <div class="u-width--100% u-position--fixed u-t--0 u-l--0 u-z--2">
+                        <div class="print-main-header--@print u-flex u-flex--no-shrink u-flex--centered-y u-flex--wrap u-width--100% u-bg--white u-p-vertical--ms u-p-horizontal--md header-mobile-override">
+                            <div class="u-flex u-flex--grow u-flex--centered-y u-height--100% u-mr--auto u-height--45px u-pb--xs header-logo-container-mobile">
+                                <img class="u-mr u-height--100% header-logo-mobile"
+                                    alt="Office of the Clerk, U.S. House of Representatives - Lobbying Disclosure Search Home"
+                                    src="img/clerk-logo-web.71c05d819b4017efe46f422f8032aae5.svg">
+                            </div>
+                        </div>
+                        <div class="u-bg--blue u-color--white u-width--100% u-height--50px u-p-vertical--sm">
+                            <div class="u-p-vertical--sm u-text--center u-fw--semibold u-ls--1px">LOBBYING DISCLOSURES</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="main-content" tabindex="-1" role="main" class="u-width--100% u-p-horizontal--md u-flex u-flex--column u-centered-x main-content-shift">
+            <div class="u-width--100% u-mt--md u-flex u-justify--center">
+                <div class="u-flex u-flex--column u-width--100 notice-card-container notice-card-center">
+                    
+                    <section class="c-card u-bg--orange-light u-p-horizontal--xl u-p-vertical--lg u-bdrs notice-card-panel" 
+                        aria-label="Important Site Migration Notice">
+                        
+                        <div class="notice-header-container">
+                            <div class="notice-title-group">
+                                <i class="fas fa-truck-moving notice-title-icon" aria-hidden="true"></i>
+                                <h1 class="u-fw--bold u-m--none notice-main-title">
+                                    We've Moved!
+                                </h1>
+                            </div>
+
+                            <div class="notice-button-wrapper notice-button-nowrap">
+                                <a href="https://lda.gov" 
+                                   class="c-btn c-btn--primary u-bg--blue u-color--white u-text--center notice-primary-link" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer">
+                                    <span>Go to LDA.gov</span>
+                                    <i class="fas fa-external-link-alt notice-primary-icon" aria-hidden="true"></i>
+                                    <span class="sr-only">(opens in a new tab)</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <p class="u-mt--md u-m-bottom--none u-fz--md notice-body-text">
+                            <strong>Beginning July 31, 2026, this site will be unavailable, except for the ability to <br>download ZIP files.</strong><br>
+                            To update your saved links or systems using our REST API, start using 
+                            <a href="https://lda.gov" class="notice-accessible-link" target="_blank" rel="noopener noreferrer">
+                                <span>LDA.gov</span>
+                                <i class="fas fa-external-link-alt notice-inline-icon" aria-hidden="true"></i>
+                                <span class="sr-only">(opens in a new tab)</span>
+                            </a> today.
+                        </p>
+
+                        <div class="filings-select-wrap">
+                            <h2 class="filings-select-heading">Download past filings in XML format</h2>
+
+                            <div class="filings-groups">
+                                <div class="filings-group">
+                                    <h3 class="filings-group-title">LD Filings</h3>
+                                    <div class="filings-controls">
+                                        <label class="sr-only" for="past-filings-select">LD XML Format</label>
+                                        <select id="past-filings-select" class="filings-select" disabled>
+                                            <option value="">Loading filings...</option>
+                                        </select>
+                                        <button id="download-xml-btn" type="button" class="filings-download-btn" disabled>Download LD</button>
+                                    </div>
+                                    <div id="past-filings-status" class="filings-select-help" role="status" aria-live="polite"></div>
+                                </div>
+
+                                <div class="filings-group">
+                                    <h3 class="filings-group-title">LC Filings</h3>
+                                    <div class="filings-controls">
+                                        <label class="sr-only" for="past-lc-filings-select">LC XML Format</label>
+                                        <select id="past-lc-filings-select" class="filings-select" disabled>
+                                            <option value="">Loading filings...</option>
+                                        </select>
+                                        <button id="download-lc-xml-btn" type="button" class="filings-download-btn" disabled>Download LC</button>
+                                    </div>
+                                    <div id="past-lc-filings-status" class="filings-select-help" role="status" aria-live="polite"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <footer role="contentinfo" class="compliance-footer">
+            <div class="footer-container">
+                
+                <div class="footer-links-group">
+                    <a href="https://www.house.gov/privacy-policy" class="footer-link" target="_blank" rel="noopener noreferrer">
+                        <span>Privacy Statement</span>
+                        <i class="fas fa-chevron-right footer-chevron" aria-hidden="true"></i>
+                        <span class="sr-only">(opens in a new tab)</span>
+                    </a>
+                    <a href="https://www.house.gov/content/accessibility" class="footer-link" target="_blank" rel="noopener noreferrer">
+                        <span>Accessibility Services</span>
+                        <i class="fas fa-chevron-right footer-chevron" aria-hidden="true"></i>
+                        <span class="sr-only">(opens in a new tab)</span>
+                    </a>
+                    <a href="mailto:data-requests@clerk.house.gov" class="footer-link">
+                        <span>Data Requests &amp; Contact</span>
+                        <i class="fas fa-chevron-right footer-chevron" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="footer-meta-group">
+                    <div class="agency-title">Office of the Clerk, U.S. House of Representatives</div>
+                    <div>Last Updated: <time datetime="2026-06-17">2026-06-17</time></div>
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        (function () {
+
+            function getDataRoot() {
+                var isLocalFile = window.location.protocol === 'file:';
+                
+                return isLocalFile ? 'https://disclosurespreview.house.gov/' : '/';
+            }
+
+            var dataRoot = getDataRoot();
+
+            function extractFilingTimestamp(item) {
+                if (!item || !item.name) {
+                    return Number.NEGATIVE_INFINITY;
+                }
+
+                var match = item.name.match(/\(([^)]+)\)\s*$/);
+                if (!match) {
+                    return Number.NEGATIVE_INFINITY;
+                }
+
+                var parts = match[1].match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(\d{1,2}):(\d{2}):(\d{2})\s+(AM|PM)$/i);
+                if (!parts) {
+                    return Number.NEGATIVE_INFINITY;
+                }
+
+                var month = parseInt(parts[1], 10);
+                var day = parseInt(parts[2], 10);
+                var year = parseInt(parts[3], 10);
+                var hour = parseInt(parts[4], 10);
+                var minute = parseInt(parts[5], 10);
+                var second = parseInt(parts[6], 10);
+                var meridiem = parts[7].toUpperCase();
+
+                if (hour === 12) {
+                    hour = 0;
+                }
+                if (meridiem === 'PM') {
+                    hour += 12;
+                }
+
+                return new Date(year, month - 1, day, hour, minute, second).getTime();
+            }
+
+            function extractFilingYear(item) {
+                if (!item || !item.name) {
+                    return Number.NEGATIVE_INFINITY;
+                }
+
+                var match = item.name.match(/^(\d{4})\b/);
+                return match ? parseInt(match[1], 10) : Number.NEGATIVE_INFINITY;
+            }
+
+            function getTypeRank(item) {
+                if (!item || !item.name) {
+                    return 99;
+                }
+
+                var name = item.name.toLowerCase();
+
+                if (name.indexOf('registrations') !== -1) {
+                    return 0;
+                }
+                if (/4th\s*quarter|4th\s*quater|q4|fourth\s*quarter/.test(name)) {
+                    return 1;
+                }
+                if (/3rd\s*quarter|3rd\s*quater|q3|third\s*quarter/.test(name)) {
+                    return 2;
+                }
+                if (/2nd\s*quarter|2nd\s*quater|q2|second\s*quarter/.test(name)) {
+                    return 3;
+                }
+                if (/1st\s*quarter|1st\s*quater|q1|first\s*quarter/.test(name)) {
+                    return 4;
+                }
+
+                return 99;
+            }
+
+            function createPastFilingsDownloader(config) {
+                var url = config.url;
+                var fileBaseUrl = config.fileBaseUrl;
+                var filingsSelect = document.getElementById(config.selectId);
+                var filingsStatus = document.getElementById(config.statusId);
+                var downloadXmlBtn = document.getElementById(config.buttonId);
+                var logLabel = config.logLabel;
+
+                function updateDownloadState() {
+                    downloadXmlBtn.disabled = !filingsSelect.value;
+                }
+
+                function buildDownloadUrl(fileKey) {
+                    return fileBaseUrl + fileKey;
+                }
+
+                function setStatus(message) {
+                    filingsStatus.textContent = message;
+                }
+
+                function resetSelect(placeholder) {
+                    filingsSelect.innerHTML = '';
+                    var option = document.createElement('option');
+                    option.value = '';
+                    option.textContent = placeholder;
+                    filingsSelect.appendChild(option);
+                    filingsSelect.disabled = true;
+                    updateDownloadState();
+                }
+
+                resetSelect('Loading filings...');
+                setStatus('Fetching filing list...');
+
+                fetch(url)
+                    .then(function (response) {
+                        if (!response.ok) {
+                            throw new Error('Request failed with status ' + response.status);
+                        }
+                        return response.json();
+                    })
+                    .then(function (data) {
+                        if (!Array.isArray(data)) {
+                            throw new Error('Unexpected payload format. Expected an array.');
+                        }
+
+                        var sortedData = data.slice().sort(function (a, b) {
+                            var yearDiff = extractFilingYear(b) - extractFilingYear(a);
+                            if (yearDiff !== 0) {
+                                return yearDiff;
+                            }
+
+                            var rankDiff = getTypeRank(a) - getTypeRank(b);
+                            if (rankDiff !== 0) {
+                                return rankDiff;
+                            }
+
+                            var timeDiff = extractFilingTimestamp(b) - extractFilingTimestamp(a);
+                            if (timeDiff !== 0) {
+                                return timeDiff;
+                            }
+
+                            var aName = a && a.name ? a.name : '';
+                            var bName = b && b.name ? b.name : '';
+                            return aName.localeCompare(bName);
+                        });
+
+                        filingsSelect.innerHTML = '';
+
+                        sortedData.forEach(function (item, index) {
+                            var option = document.createElement('option');
+                            option.value = item && item.file ? item.file : '';
+                            option.textContent = item && item.name ? item.name : 'Filing ' + (index + 1);
+                            filingsSelect.appendChild(option);
+                        });
+
+                        if (sortedData.length > 0) {
+                            filingsSelect.selectedIndex = 0;
+                        }
+
+                        filingsSelect.disabled = sortedData.length === 0;
+                        updateDownloadState();
+                        setStatus('');
+                    })
+                    .catch(function (error) {
+                        resetSelect('Unable to load filings');
+                        setStatus('Failed to load filings. Check console for details.');
+                        console.error('Error fetching ' + logLabel + ':', error);
+                    });
+
+                filingsSelect.addEventListener('change', function () {
+                    updateDownloadState();
+                });
+
+                downloadXmlBtn.addEventListener('click', function () {
+                    if (!filingsSelect.value) {
+                        return;
+                    }
+
+                    var selectedFile = filingsSelect.value;
+                    var downloadUrl = buildDownloadUrl(selectedFile);
+                    var link = document.createElement('a');
+                    link.href = downloadUrl;
+                    link.download = selectedFile;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                });
+            }
+
+            createPastFilingsDownloader({
+                url: dataRoot + 'data/LD/LdSearchPastFilings.json',
+                fileBaseUrl: dataRoot + 'data/LD/',
+                selectId: 'past-filings-select',
+                statusId: 'past-filings-status',
+                buttonId: 'download-xml-btn',
+                logLabel: 'LdSearchPastFilings'
+            });
+
+            createPastFilingsDownloader({
+                url: dataRoot + 'data/LC/LcSearchPastFilings.json',
+                fileBaseUrl: dataRoot + 'data/LC/',
+                selectId: 'past-lc-filings-select',
+                statusId: 'past-lc-filings-status',
+                buttonId: 'download-lc-xml-btn',
+                logLabel: 'LcSearchPastFilings'
+            });
+        })();
+    </script>
+</body>
+
+</html>

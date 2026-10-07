@@ -13,3 +13,13 @@ Registration and principal dates range from 1942 to 2 October 2026; document sta
 Run `python ingest.py` to validate originals and rebuild the ignored SQLite working database. Run `python join_cohort.py` to reproduce source-driven discovery edges against the previously fixed 259 LDA client relationships. Edges do not establish identity, foreign control, a disclosure obligation, or concealment. Case assessment and original retrieval continue incrementally.
 
 No paid calls have been made in this continuation. The cumulative prior Jev estimate remains $0.003035; the same $15 ceiling applies. Legal ranking remains unvalidated and no new numerical legal scores are asserted.
+
+## Expanded archive checkpoint
+
+The five official House 2025 XML archives (four quarters and registrations) are acquired and checksum-recorded in `house-archive-downloads.json`. `parse_house.py` parsed all **109,389 XML records**, representing 23,776 distinct client-name strings and 28,341 House relationship identifiers. Four invalid XML character references in issue descriptions required explicitly logged, reversible literal escaping; none were silently discarded. ZIP originals remain local and reproducibly downloadable; selected original LDA forms are tracked separately.
+
+`match_full_inventory.py` screens all 17,765 FARA principal rows against those client names. It preserves **598 discovery edges**, including historical and inconsistent-date relationships, without asserting legal identity. Thirteen matched lobbying relationships provisionally exceed $1 million in annual income or expenses. Annual amounts use one latest signed archive form per quarter and require reconciliation against API posting chronology and original forms. In-house expenses and outside-firm income are not added together, and neither measures foreign funding.
+
+All-years histories for these thirteen relationships are being acquired by `major_histories.py`; current completion is recorded in `major-history-coverage.json`. A historical FARA termination does not establish termination of ownership. No new Jev calls were made. This is an acquisition checkpoint, not a completed ranking or a concealment finding.
+
+Gotion supplies useful counterevidence: the original in-house, Mercury, and Vogel registrations each expressly answer Yes to foreign entities and name a Chinese parent at 100%. Its FARA Exhibit A also expressly names an owner. The difference between an immediate and ultimate parent needs chain verification and is not itself evidence of concealment. The issuer's original 2024 annual report is preserved, including the subsidiary table; translated subsidiary naming still needs exact legal-entity reconciliation.

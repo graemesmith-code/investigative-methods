@@ -1,0 +1,97 @@
+{
+  "archives": [
+    {
+      "archive": "2025_1stQuarter_XML.zip",
+      "members": 24808,
+      "parsed": 24808,
+      "unparsed_signing_dates": 0
+    },
+    {
+      "archive": "2025_2ndQuarter_XML.zip",
+      "members": 25492,
+      "parsed": 25492,
+      "unparsed_signing_dates": 0
+    },
+    {
+      "archive": "2025_3rdQuarter_XML.zip",
+      "members": 25503,
+      "parsed": 25503,
+      "unparsed_signing_dates": 0
+    },
+    {
+      "archive": "2025_4thQuarter_XML.zip",
+      "members": 25734,
+      "parsed": 25734,
+      "unparsed_signing_dates": 0
+    },
+    {
+      "archive": "2025_Registrations_XML.zip",
+      "members": 7852,
+      "parsed": 7852,
+      "unparsed_signing_dates": 0
+    }
+  ],
+  "parsed_filings": 109389,
+  "distinct_client_name_strings": 23776,
+  "distinct_house_relationship_ids": 28341,
+  "report_type_counts": {
+    "Q1": 22527,
+    "1A": 1027,
+    "1T": 1220,
+    "1@": 34,
+    "Q2": 23381,
+    "2A": 1027,
+    "2T": 1059,
+    "2@": 25,
+    "Q3": 23698,
+    "3A": 623,
+    "3T": 1147,
+    "3@": 35,
+    "Q4": 23559,
+    "4A": 628,
+    "4T": 1522,
+    "4@": 25,
+    "RR": 7010,
+    "RA": 842
+  },
+  "parse_failures": [],
+  "explicit_character_reference_repairs": [
+    {
+      "archive": "2025_1stQuarter_XML.zip",
+      "member": "301709958.xml",
+      "original_sha256": "5a1615457c0c445b9ab7582efa71a878e8fdd74be4cbb495bc52044a687d9cbc",
+      "invalid_references_preserved_as_literal_text": [
+        "&#xB;"
+      ],
+      "raw_original_unchanged": true
+    },
+    {
+      "archive": "2025_1stQuarter_XML.zip",
+      "member": "301779742.xml",
+      "original_sha256": "bf2274416703f4e92d03ea5e70c047dbbd6718655f36b6ddd27cd37c1484cfa8",
+      "invalid_references_preserved_as_literal_text": [
+        "&#xB;"
+      ],
+      "raw_original_unchanged": true
+    },
+    {
+      "archive": "2025_2ndQuarter_XML.zip",
+      "member": "301767060.xml",
+      "original_sha256": "d597d3b222294e3978bc9885a99d0fa114fd8a740ff9f8865f334470a30d0352",
+      "invalid_references_preserved_as_literal_text": [
+        "&#xB;"
+      ],
+      "raw_original_unchanged": true
+    },
+    {
+      "archive": "2025_3rdQuarter_XML.zip",
+      "member": "301768646.xml",
+      "original_sha256": "0e70c3acfe4ec2d1ad254bb1de86b03b6a08d56b89ede5bba2c40fc07879b8ee",
+      "invalid_references_preserved_as_literal_text": [
+        "&#xB;"
+      ],
+      "raw_original_unchanged": true
+    }
+  ],
+  "scope": "All members of five officially listed 2025 House archives. House snapshot coverage is not independently proven equal to the unified API. Acquisition and field parsing do not mean complete legal review."
+}

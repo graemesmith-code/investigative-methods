@@ -37,5 +37,42 @@
     "client_ids": [
       203486
     ]
+  },
+  {
+    "name": "qatar-61132",
+    "params": {
+      "client_id": 61132
+    },
+    "count": 11,
+    "server_count": 11,
+    "complete": true,
+    "originals_acquired": 11,
+    "client_ids": [
+      61132
+    ]
+  },
+  {
+    "name": "boe-parent-2025",
+    "params": {
+      "client_name": "BOE Technology",
+      "filing_year": 2025
+    },
+    "count": 0,
+    "server_count": 0,
+    "complete": true,
+    "originals_acquired": 0,
+    "client_ids": []
+  },
+  {
+    "name": "huawei-parent-2025",
+    "params": {
+      "client_name": "Huawei Technologies",
+      "filing_year": 2025
+    },
+    "count": 0,
+    "server_count": 0,
+    "complete": true,
+    "originals_acquired": 0,
+    "client_ids": []
   }
 ]
