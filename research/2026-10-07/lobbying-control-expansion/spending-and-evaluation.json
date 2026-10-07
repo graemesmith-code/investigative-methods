@@ -12,5 +12,5 @@
   "authorization_usd": 15,
   "no_invoice_available": true,
   "comparison": "No accuracy gain over deterministic checked-attribute extraction. This held-out task does not repair previous legal-ranking failures.",
-  "limits": "Ten real fragments collapse to two repeated states plus some legacy variation; six synthetic controls. Small purposive test, not population accuracy estimate. Expected labels mechanically generated and manually inspected against forms. No independent external annotator."
+  "limits": "Ten real fragments collapse to two distinct repeated states; six synthetic controls. Small purposive test, not population accuracy estimate. Expected labels mechanically generated and manually inspected against forms. No independent external annotator."
 }

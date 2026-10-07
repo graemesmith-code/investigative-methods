@@ -12,6 +12,10 @@ for f in S.glob('lda-*.json'):
 index=[]
 for id,r in sorted(rows.items()):
  f=S/('original-'+id+'.html');b=f.read_bytes() if f.exists() else b''
+ if b.startswith(b'%PDF'):
+  # Retain immutable retrieval cache, add correctly suffixed offline viewing copy.
+  f=S/('original-'+id+'.pdf')
+  if not f.exists():f.write_bytes(b)
  index.append({'uuid':id,'client_id':r['client']['id'],'client':r['client']['name'],'registrant_id':r['registrant']['id'],'registrant':r['registrant']['name'],'year':r['filing_year'],'period':r['filing_period'],'type':r['filing_type'],'posted':r['dt_posted'],'original_url':r['filing_document_url'],'local_original':str(f.relative_to(P)) if b else '', 'sha256':hashlib.sha256(b).hexdigest() if b else ''})
 with (P/'filing-index.csv').open('w') as f:
  w=csv.DictWriter(f,fieldnames=list(index[0]));w.writeheader();w.writerows(index)

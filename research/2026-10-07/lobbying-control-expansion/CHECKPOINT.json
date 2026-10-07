@@ -5,9 +5,13 @@
   "new_jev_calls": 8,
   "new_jev_accounted_microusd": 177,
   "entire_pilot_observed_microusd": 3035,
-  "all_58_calls_full_reservation_upper_bound_usd": 0.174,
   "control_correct": 16,
   "legal_ranking": "withheld",
   "annual_clients_done": 75,
-  "rr_clients_done": 99
+  "rr_clients_done": 99,
+  "all_50_actual_calls_full_reservation_upper_bound_usd": 0.15,
+  "maximum_58_calls_protocol_bound_usd": 0.174,
+  "heldout_items": 16,
+  "distinct_request_payloads": 8,
+  "status": "Superseded by final-coverage.json; retained incremental checkpoint metadata"
 }

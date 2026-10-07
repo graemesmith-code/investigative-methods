@@ -6,12 +6,12 @@
 - annual forms: **1184**
 - annual ld2 amounts checked: **1171**
 - annual ld2 amount pairs matching: **1171**
-- rr queries complete: **256**
+- rr queries complete: **259**
 - rr queries target: **259**
-- rr forms recovered: **123**
+- rr forms recovered: **126**
 - rr zero result queries: **138**
-- unique catalogued lda filings across all expansion queries: **1749**
-- unique original lda forms across expansion: **1748**
+- unique catalogued lda filings across all expansion queries: **1751**
+- unique original lda forms across expansion: **1751**
 - fara report entries: **1598**
 - fara report normalized strings not entities: **859**
 - strict name edges: **2**

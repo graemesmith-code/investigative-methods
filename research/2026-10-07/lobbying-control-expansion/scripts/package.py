@@ -11,7 +11,7 @@ pdfmetrics.registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold", ita
 P=pathlib.Path(__file__).resolve().parents[1];ROOT=P.parents[2]
 styles=getSampleStyleSheet();
 for st in styles.byName.values():st.fontName='DejaVu'
-styles['BodyText'].fontSize=9;styles['BodyText'].leading=13;styles['BodyText'].spaceAfter=7
+styles['BodyText'].fontSize=10;styles['BodyText'].leading=14;styles['BodyText'].spaceAfter=7
 styles['Heading1'].textColor=colors.HexColor('#14334a');styles['Heading2'].textColor=colors.HexColor('#14334a')
 def inline(s):
  s=html.escape(s);s=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',lambda m:'<a href="'+m[2]+'" color="#165c92">'+m[1]+'</a>',s);s=re.sub(r'\*\*(.+?)\*\*',r'<b>\1</b>',s);return s.replace('`','')
