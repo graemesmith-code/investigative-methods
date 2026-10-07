@@ -1,0 +1,28 @@
+[
+  {
+    "source": "sources/nrcan-ca2025dscb-details.xml",
+    "event_id": "ca2025dscb",
+    "origins": 1,
+    "magnitudes": 1,
+    "picks": 0,
+    "arrivals": 0,
+    "origin_time": "2025-02-22T14:05:18.000Z",
+    "creation_time": "2025-04-02T00:00:00.000Z",
+    "magnitude": "3.1",
+    "magnitude_type": "ML",
+    "operator_notification_time": null
+  },
+  {
+    "source": "sources/nrcan-ca2025dwzq-details.xml",
+    "event_id": "ca2025dwzq",
+    "origins": 1,
+    "magnitudes": 1,
+    "picks": 0,
+    "arrivals": 0,
+    "origin_time": "2025-02-25T06:32:36.000Z",
+    "creation_time": "2025-02-25T00:00:00.000Z",
+    "magnitude": "3.76",
+    "magnitude_type": "ML",
+    "operator_notification_time": null
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "check": "acquisition source hashes",
+    "verified": 48
+  },
+  {
+    "check": "three official UWI mappings and six monthly aliases",
+    "passed": true
+  },
+  {
+    "check": "15 public attachments across five unique events; sizes match index",
+    "passed": true
+  },
+  {
+    "check": "event identities and actual returned XML fields",
+    "passed": true
+  },
+  {
+    "check": "original IAR zero counts distinguished from new errors",
+    "passed": true
+  }
+]

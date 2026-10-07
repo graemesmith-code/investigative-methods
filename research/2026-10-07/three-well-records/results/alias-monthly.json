@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    {
+      "licence": "0515889",
+      "old": "02/16-28-037-28W4/0",
+      "current": "00/15-28-037-28W4/0",
+      "original_issued": "102/16-28-037-28W4/00",
+      "change_report_date": "2025-10-30"
+    },
+    {
+      "licence": "0516327",
+      "old": "00/08-33-037-28W4/0",
+      "current": "00/07-33-037-28W4/0",
+      "original_issued": "100/08-33-037-28W4/00",
+      "change_report_date": "2025-10-30"
+    },
+    {
+      "licence": "0516328",
+      "old": "03/01-33-037-28W4/0",
+      "current": "00/02-33-037-28W4/0",
+      "original_issued": "103/01-33-037-28W4/00",
+      "change_report_date": "2025-10-30"
+    }
+  ],
+  "source_for_aliases": "ST1 October30 2025 exact licence amendment entries; original issue lists October30/November18 2024",
+  "petrinex_identifier_mapping": {
+    "ABWI102162803728W400": {
+      "licence": "0515889",
+      "alias": "02/16-28-037-28W4/0",
+      "alias_kind": "old"
+    },
+    "ABWI100152803728W400": {
+      "licence": "0515889",
+      "alias": "00/15-28-037-28W4/0",
+      "alias_kind": "current"
+    },
+    "ABWI100083303728W400": {
+      "licence": "0516327",
+      "alias": "00/08-33-037-28W4/0",
+      "alias_kind": "old"
+    },
+    "ABWI100073303728W400": {
+      "licence": "0516327",
+      "alias": "00/07-33-037-28W4/0",
+      "alias_kind": "current"
+    },
+    "ABWI103013303728W400": {
+      "licence": "0516328",
+      "alias": "03/01-33-037-28W4/0",
+      "alias_kind": "old"
+    },
+    "ABWI100023303728W400": {
+      "licence": "0516328",
+      "alias": "00/02-33-037-28W4/0",
+      "alias_kind": "current"
+    }
+  },
+  "monthly_source": "prior preserved February2025 volumetric snapshot",
+  "rows_scanned": 556249,
+  "matched_rows": [],
+  "linked_facilities": [],
+  "facility_history": [],
+  "limitations": "Monthly aggregates never establish pumping after an earthquake. Facility operator is not automatically well licensee or HF contractor. UWI amendment publication date does not establish when the physical bore geometry changed."
+}

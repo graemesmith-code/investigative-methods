@@ -1,0 +1,576 @@
+Frequently Asked Questions
+Directive 059: Drilling and Completion Data Submission
+March 2018
+
+
+Companies are to use the Digital Data Submission (DDS) system when submitting summary drilling,
+completion, reconditioning, and abandonment data and OneStop when submitting daily operations reports
+and fracture service company reports. This document addresses questions related to DDS submissions.
+For queries related to OneStop, see the quick reference guides on tour report submission, amendment, and
+compliance.
+
+General Inquiries
+Q1.         Where can I find a list of the business associate codes?
+
+A1.         A list of these codes can be found on the AER website and is updated monthly.
+
+Q2.         What are the duties of the DDS administrator?
+
+A2.         The administrator is responsible for new company account creation only, but can also assist
+            with password resets for the company administrators if necessary. If you are experiencing
+            account issues, please contact your company administrator. For all other DDS inquiries,
+            navigate to the appropriate section in the DDS system for appropriate contact information.
+            For example, to acquire contact information for the Well Data Services department, navigate
+            to AER > Submissions and click on “Well Drilling Completion Data.” The contact
+            information will appear on the right-hand side.
+
+Submission Requirements
+Q3.         How do I submit an amendment request?
+
+A3.         An amendment request can be submitted through the DDS system. To locate the amendment
+            request form, proceed to AER > Submissions > Well Drilling Completion Data > Submit
+            Well Drilling and Completion Data. The “Submit Amendment” option is on the submenu.
+            When submitting an amendment request, enter a valid licence number and a unique well
+            identifier (UWI) in the input boxes. Describe the amendment request in the text box in as
+            much detail as possible. Identify if the amendment is to add, delete, or change and include
+            from/to codes and values. Be sure to indicate which amendments apply to which UWI when
+            submitting a request for multiple UWIs under the same licence. Be sure to include all
+            required information, such as date, cementing information, casing types, completion dates,
+            and all interval top and base depths.
+
+
+                                               FAQ Directive 059: Drilling and Completion Data Submission 1 of 12
+                                                                                       Alberta Energy Regulator
+
+
+
+
+Q4.    On my DDS drilling and completion data submission, what is the submitter reference?
+
+A4.    The submitter reference is a reference number or phrase chosen by the submitter for your
+       personal record keeping. Some commonly used options are re-entry op, workover, person’s
+       name, or UWI of well. Note that the field has a limit of 12 characters. It is an optional field.
+
+Q5.    What is the difference between the spud date and the notification of well drilling
+       activity?
+
+A5.    Your spud date is the day your bit hits the ground or when an existing well is re-entered. A
+       well drilling activity notification is submitted within 12 hours of starting to drill to set surface
+       casing, starting to drill to licensed depth, or resuming drilling of a non-abandoned well.
+
+Q6.    We have only done preliminary work (conductor or surface casing) and then rigged off.
+       When is a DDS drilling data submission required?
+
+A6.    No submission is required if only conductor has been set unless it runs to a depth of
+       30 metres or greater. If surface casing has been set and the rig has left the site, then the well is
+       considered to be preset. For preset wells, a well drilling and completion data submission is
+       required within 30 days from when the presetting operation ended. However, if drilling is
+       resumed to licensed total depth (TD) within 30 days of the completion of the presetting
+       operation, all drilling data (i.e., preset and to TD) can be submitted within 30 days of the end
+       of the drilling operation.
+
+Q7.    What are the operation start and end dates on a submission?
+
+A7.    The operation start date is the date the rig moves onto the site. If the operation uses more than
+       one rig, then report the date the first rig moves on site. The operation end date is the date the
+       rig moves off the site. If the operation uses more than one rig, then report the date the last rig
+       leaves the site. Once the submission has been accepted, these dates cannot be changed.
+
+Casing and Cementing
+Q8.    In which sections would I report a slotted liner?
+
+A8.    The uncemented slotted liner is recorded in two areas. It is recorded in the Casings section as
+       a liner, and in the Completions section as code 7. The interval reported in Completions is
+       from the shoe of the last casing to the shoe of the liner. When reporting in the Casings section,
+       the cement interval is to be recorded as code 91 (uncemented slotted liner) with an interval
+       from the liner top to the liner base. This operation may be followed by an open hole
+       completion. For example, a slotted liner could be reported in the Casings section with an
+       interval from 600 m to 1100 m, reported as a liner (code 5) with cementing code 91
+       (uncemented slotted liner). It would then be reported under the Completions section as a
+       slotted liner (code 7) with an interval from shoe of lasted cemented casing to shoe of liner
+       (1100 m).
+
+
+
+                                             FAQ Directive 059: Drilling and Completion Data Submission 2 of 12
+                                                                                      Alberta Energy Regulator
+
+
+
+
+Completions
+Q9.    How do I report jetted or radial drilling in a well drilling data submission?
+
+A9.    A jet completion is reported as code 5. Shots per metre are not required. Radial drilling is
+       currently also being reported as a code 5.
+
+Q10.   Where can the currently reported completion information be verified?
+
+A10.   Petrinex has an option to query wells. This option displays the well information for drilling
+       (except for casing and cementing data) and completions. For copies of the original daily
+       reports, please contact the AER’s Core Research Centre, and for copies of well summaries,
+       contact AER Information Services.
+
+Q11.   What is the gross completion interval (GCI) when the wellbore has an open hole?
+
+A11.   The GCI is reported from the shoe of the last cemented casing to the total depth of the
+       wellbore.
+
+Packing Devices
+Q12.   Where do I record a packer or bridge plug with no cement?
+
+A12.   Packing devices are set on the drilling occurrence in the Packer Data section.
+
+       Example: If a packer is set in the /2 and /3 producing event, both packers must be recorded in
+       the Packer Data section of the /0 drilling occurrence. If a re-entry, your drilling occurrence
+       will now be the /2.
+
+Q13.   How would I correctly report a code 55?
+
+A13.   A code 55 is used for nonroutine abandonment where there is not enough room between
+       perforated intervals to place a packing device capped with 8 metres of cement (code 53), or a
+       packing device capped with 3 metres of resin-based gypsum cement (code 57). This requires
+       AER approval from Well Operations.
+
+       A code 55 may also be used for segregation, and in this case would be reported under the
+       Packer Data section as a packer code 2. No AER approval is required for this.
+
+
+
+
+                                            FAQ Directive 059: Drilling and Completion Data Submission 3 of 12
+                                                                                       Alberta Energy Regulator
+
+
+
+
+Q14.    How is the setting and pulling of a device reported in the Packer Data section?
+
+A14.    The setting or pulling of retrievable isolation devices (such as packers, cement retainers, and
+        uncemented bridge plugs) can be reported through a completion data submission in the
+        Packer Data section. The exception is if they are out of date or depth order. Packing devices
+        are to be set from deepest depth to shallowest depth and pulled from shallowest depth to
+        deepest depth.
+
+Status Questions
+Q15.    There are two perforated zones and both will be self-declared commingling. How many
+        events do I need?
+
+A15.    A single event would be required if the zones have been tested without segregation. If the
+        zones have been tested separately (with segregation), two events are required to be set up.
+        If the bottom zone was tested separately, then both zones were retested together, a single
+        event could be set up.
+
+Q16.    What is the difference between “abandon” and “abandon zone”?
+
+A16.    The status “abandon zone” is applied when you have correctly isolated a zone. The status
+        “abandoned” is applied to the well when all the downhole zones have been properly
+        abandoned, and the surface abandonment has been completed and reported through the DDS
+        system.
+
+Q17.    In a re-entry operation of an abandoned well, what is reported as the spud date?
+
+A17.    The spud date is the moment the cap is cut from the wellhead.
+
+Q18.    In a re-entry operation of an abandoned well, what is reported as the finish drilling
+        date?
+
+A18.    The finish drilling date would be that date you completed drilling through any isolation
+        devices within the wellbore. If a window is milled in the casing and a new hole is drilled, this
+        would be a new leg and would require its own information to be added on the next available
+        event sequence.
+
+Hydraulic Fracturing Fluid and Water Source Reporting
+Q19.    I can’t find the answer to my question. What do I do?
+
+A19.    Consult the Well Drilling Completion Data Submission user guide available through the DDS
+        system under AER > Submissions > Well Drilling Completion Data > Fracture Fluid
+        Composition Data. Alternatively, call the Well Data Services help line at 403-297-8696
+        (option 2) or send an email to WellDataServices@aer.ca.
+
+
+
+                                             FAQ Directive 059: Drilling and Completion Data Submission 4 of 12
+                                                                                     Alberta Energy Regulator
+
+
+
+
+Q20.   Can I validate an XML or a CSV file before submission?
+
+A20.   Yes. Under “Fracture Fluid Composition Data,” click on “Validate and Submit Fracture Fluid
+       by File.” Browse your computer for the XML or CSV file that you want to validate. Select
+       the file and click the Validate button.
+
+       Under “Fracture Fluid Water Source Data,” click on “Validate and Submit Water Source by
+       File.” Browse your computer for the XML or CSV file that you want to validate. Select the
+       file and click the Validate button.
+
+Q21.   Can I view my previous submissions?
+
+A21.   Yes. You can view previously submitted fracture fluid and water source data through “Save
+       or Submit Fracture Fluid by Form” or “Save or Submit Water Source by Form.” You need to
+       enter a valid well licence number to view the submitted data through the form screens.
+       Progress through the screens to the Submission & Print screen if you wish to print the
+       submission report (composition & water source) or cover sheet (composition only). Note that
+       only submissions made under the current login can be viewed.
+
+Q22.   I made a mistake. Can I amend my submission?
+
+A22.   Yes. Data regarding fracture fluid composition and water source data can now be amended.
+       The tabs are available under DDS Well Drilling Completion Data Submission System >
+       Fracture Fluid Composition Data and Fracture Fluid Water Source Data.
+
+Q23.   Are there any limits to how many wells and intervals for which I can submit data?
+
+A23.   The system enables you to submit fracture fluid composition data for up to 50 wells (i.e.,
+       unique well identifiers [UWIs]) per well licence. Note that data for well events greater than
+       nine can only be submitted by form. Up to 100 intervals can be submitted either by file or by
+       form per UWI. Each component can have up to a maximum of 50 ingredients. Up to 50 water
+       sources can be submitted either by file or by form per UWI.
+
+Q24.   Can I submit data for more than one licence in the same file?
+
+A24.   No. You can only submit data for one licence per file or submission.
+
+
+
+
+                                           FAQ Directive 059: Drilling and Completion Data Submission 5 of 12
+                                                                                       Alberta Energy Regulator
+
+
+
+
+Q25.   When do I get warning messages versus error messages? Is it okay to submit with
+       warning messages? What do the error and warning messages mean?
+
+A25.   Warning messages will only appear on form submissions. Error messages may appear on
+       form and file submissions.
+
+       An error message and red exclamation marks (if you are submitting by form) will appear if
+       the data submission has not fulfilled all the business rules for submissions. An error message
+       will prevent submission of the data.
+
+       A warning message will appear when the data entered may need to be reviewed prior to
+       submission. A warning message alone will not prevent submission of the data.
+
+       For an explanation of the error and warning messages, go to DDS Well Drilling Completion
+       Data > Fracture Fluid Composition Data or Fracture Fluid Water Source Data > Business
+       Rules worksheet.
+
+Q26.   What if the maximum concentration of all the ingredients in the additive or hydraulic
+       fracture fluid does not add up to 100%?
+
+A26.   An error message will appear and the submission will not be allowed.
+
+Q27.   Why do I have to use the web form when submitting data for well event sequences
+       greater than nine?
+
+A27.   Currently it is not possible to submit fracture fluid composition or water source data for well
+       event sequences greater than nine via an XML or CSV file. The AER anticipates having this
+       capability in the future, but industry will still need to submit the fracture intervals for these
+       event sequences through the form.
+
+Q28.   Is my entered data saved?
+
+A28.   For fracture fluid composition entered through the form, each item that has been saved will
+       be shown as part of the saved submission. The data will be saved for 14 days from the date of
+       last modification. Data that have not been modified or submitted within 14 days of the last
+       modification will be deleted. The same applies for fracture fluid water source data entered
+       through the form. To submit the data by form, you must proceed to the “Submission & Print”
+       page and click the Submit button. File submissions are only submitted when the Submit
+       button is clicked.
+
+Q29.   Why should I use a particular method for submission (CSV or XML file or form)?
+
+A29.   Submitting the data by batch file (i.e., CSV or XML) is the easiest and most efficient way of
+       submitting the data. However, you must follow the prescribed formats or the data will not be
+       accepted. For CSV file submission, you may also use the CSV generator tool, which enables
+
+
+
+                                             FAQ Directive 059: Drilling and Completion Data Submission 6 of 12
+                                                                                       Alberta Energy Regulator
+
+
+
+
+       users to input the data into an Excel spreadsheet and then save it as a CSV file prior to
+       submission. The CSV generator tool was developed in Excel 2010, so if you are using a
+       previous version of Excel, some of the functionality will not work (e.g., dropdown menus for
+       cell contents generated from the “lists” sheet). However, you should still be able to generate a
+       CSV file. If you are not able to generate an XML or CSV file, you can submit the data using
+       the form.
+
+Q30.   What is the accepted format for data submissions?
+
+A30.   XML file submissions must follow the XML schema. For fracture fluids composition data,
+       click on the “Validate and Submit Fracture Fluid by File” submenu, then the “Fracture Fluids
+       Data XML Schema” link. For water source data, click on the “Validate and Submit Water
+       Source by File” submenu, then the “Water Source Data XML Schema” link. CSV samples
+       and generators are also available for both fracture fluid composition and water source data
+       under the submenus.
+
+Q31.   For how many days are my submissions saved?
+
+A31.   Fourteen days from the last date the entered data was modified but not submitted.
+
+Q32.   What is the order of submission? Why can’t I see fracture fluid composition or water
+       source data on the form?
+
+A32.   Fracture intervals must be submitted and accepted first. Once submitted, the fracture intervals
+       will appear on the associated UWI record in the fracture fluid composition form. The UWI
+       will only appear on the fracture fluid water source data form once the fracture fluid
+       composition data have been submitted. If no water was used as a carrier fluid, no UWIs will
+       appear on the form as no water source data are required.
+
+Q33.   What does the term fracture scenario mean?
+
+A33.   A fracture scenario indicates the hole configuration and inclination angle (i.e., vertical,
+       directional, or horizontal).
+
+Q34.   What if my service provider is not listed?
+
+A34.   Consult the Well Drilling Completion Data Submission user guide, section B.6, “Adding an
+       Item to the Reference Table,” for the process to add unlisted service providers to the system
+       reference tables.
+
+
+
+
+                                             FAQ Directive 059: Drilling and Completion Data Submission 7 of 12
+                                                                                        Alberta Energy Regulator
+
+
+
+
+Q35.   What if I can’t see the well drilling completion menu?
+
+A35.   You probably have not been assigned the DDS role “Submit Well Drilling and Completion
+       Data.” Please contact your DDS administrator and have them assign the role to you. Note that
+       to be able to submit fracture fluid composition and water source data, you must also have the
+       “Submit Fracturing Fluids” role. To amend fracture fluid composition and water source data,
+       you must also have the “Amend Frac Fluids” role.
+
+Q36.   What if I have multiple water sources?
+
+A36.   Multiple sources per UWI can be submitted. There are fourteen water source types. Select all
+       that are applicable. Up to 50 water sources can be submitted per UWI.
+
+Q37.   In what units should carrier fluid and water source volumes be reported?
+
+A37.   Both carrier fluid volume and water source volume should be reported in cubic metres (m3).
+       It is important to report these volumes in cubic metres as other units such as litres will affect
+       the statistical analysis of the data.
+
+Q38.   Do I need to submit cover sheets?
+
+A38.   Cover sheets are no longer required.
+
+Q39.   Which specific reports do I need to submit after making an electronic submission for
+       fracture fluid composition and water source data?
+
+A39.   For fracture fluid composition data submissions, a copy of the job report from the service
+       company that executed the fracturing operation and daily completion tour reports from the
+       licensee are required. There is no need to submit a report for the water source data.
+
+Q40.   When I make a data amendment, do I need to submit additional reports?
+
+A40.   There is no requirement to submit a copy of the water submission report. For fracture fluid
+       composition data, if there is no difference from the reports submitted when the original
+       submission was made, then the reports do not have to be resubmitted. However, if there is a
+       difference, then a revised copy of the reports must be submitted. You may choose to print the
+       submission report and retain it for your company records.
+
+
+
+
+                                              FAQ Directive 059: Drilling and Completion Data Submission 8 of 12
+                                                                                      Alberta Energy Regulator
+
+
+
+
+Q41.   How do I enter fracture fluid data for more than 9 event sequences?
+
+A41.   You will use the web form for this operation. For wells with more than nine event sequences,
+       additional data entry fields will appear below the listing of event sequences 0–9. In these
+       fields, you can enter the well UWI (i.e., 10 and up), well name, total depth, and finish drill
+       date. The fracture fluid data can be added after the fracture intervals have been added on
+       following screens.
+
+Q42.   Can I amend fracture fluid and water source data for more than 9 events by file
+       submissions?
+
+A42.   No. Fracture fluid and water source data for more than 9 events can only be amended via the
+       web form; you cannot amend data for more than 9 events using file submissions (CSV or
+       XML).
+
+Q43.   What if there is no named water body listed?
+
+A43.   On the submission form, a list is automatically generated of the officially named water bodies
+       within a 200 m radius of the latitude and longitude entered. If there is no named water body
+       within the 200 m radius, then “Unknown water body” will be auto-populated. For CSV and
+       XML submissions, enter “Unknown water body.”
+
+Q44.   How should surface water and groundwater sources be submitted when there is no
+       authorization ID?
+
+A44.   In those situations, you may leave the “Diversion Authorization Type” and “Diversion
+       Authorization ID” fields blank and submit all of the remaining information.
+
+Q45.   Do I need to submit data for diagnostic fracture injectivity tests?
+
+A45.   The AER currently has no requirement for the submission of diagnostic fracture injectivity
+       test data. Therefore, these data should not be reported as codes 41 (Fracture) or 42 (Multi-
+       Stage Fracture) on DDS when completion data are being submitted.
+
+Q46.   We have several hydraulic fracture operations in which fracture ports were opened
+       and no fracture fluid was pumped. Do these unfractured ports have to be reported as
+       per Directive 059?
+
+A46.   In such situations, report any port that has been opened but not fractured using code 5
+       (Hydrajet perforation) not code 42 on DDS.
+
+       If a code 42 has already been reported, please request an amendment via DDS to have the
+       code 42 changed to a code 5. This will remove the interval from noncompliance reports
+       where a fracture fluid composition submission is expected because the code 42 exists.
+
+
+
+
+                                            FAQ Directive 059: Drilling and Completion Data Submission 9 of 12
+                                                                                     Alberta Energy Regulator
+
+
+
+
+Q47.   I am getting an error when trying to submit an amendment by file (CSV or XML) for a
+       well for which I know a valid submission exists. The error message says “No
+       submission with status SUBMITTED found for Submission ID: XXXXXX.”
+
+A47.   The first thing to check is whether you have an amendment in progress that was initiated
+       through a form amendment. If a user has an amendment in progress (saved amendment) for
+       fracture fluid composition data, they cannot go in and amend by file window and try to
+       submit an amendment for the same submission ID. They have to either submit the
+       amendment by form or cancel the amendment. If they cancel the amendment, the system will
+       reset and they can start afresh and submit by either form or file. To view data statuses
+       regarding amendments, view the well data under “Amend Fracture Fluid By Form” or
+       “Amend Water Source By Form.” The status will be shown as “Saved Amendment” if an
+       amendment is in progress. To cancel the saved amendment, go to the “Amend & Print” page
+       and click “Cancel.”
+
+Q48.   Our properties are very close to the SK and BC border, and many of our water sources
+       are located outside Alberta. How can the data for these water sources be submitted?
+
+A48.   In DDS under “Save or Submit Water Source By Form,” enter the licence number, then go to
+       the Water Source Data tab. In the Water Type field, select Municipal Water, then enter the
+       source latitude and longitude coordinates and click Verify. This will populate DLS Location,
+       Major Basin, and Major Subwatershed with “Out of Alberta.” In the Name of Supplier, Start
+       Date of Diversion, End Date of Diversion, and Total Volume fields, enter the appropriate
+       information and click Save.
+
+Q49.   We have wells for which the water-based carrier fluid was bought in packed form from
+       a chemical distribution company and contains a mix of water and other chemicals (e.g.,
+       potassium chloride [KCl], methanol, etc.) and which is not listed as one of the sources
+       on the drop down options on the DDS system. How is this water source to be
+       reported?
+
+A49.   In the near future, the AER will make efforts to add this category of water source as an option
+       on a drop down list. In the interim, the KCl, methanol, or other chemicals, as well as the
+       water, should be reported as ingredients in the water-based carrier fluid. The water supplier
+       should be reported using the central water distribution facility. The latitude/longitude can be
+       taken as the location of the manufacturer or the distribution source within Alberta.
+
+
+
+
+                                          FAQ Directive 059: Drilling and Completion Data Submission 10 of 12
+                                                                                      Alberta Energy Regulator
+
+
+
+
+Q50.   In order to make a water source submission through the DDS, what source should I
+       reference as my water source (surface water location) in a case where there were
+       several intake points along a river course and the water gets aggregated in a central
+       distribution facility before being used at the well site for the fracturing operation?
+
+A50.   The very last point or location from which the water was sourced, which in this case is the
+       central distribution facility, should be used as the water source.
+
+Q51.   What are the most common sources of error during the validation process of a CSV file
+       when a batch file submission is being made?
+
+A51.   The most common errors include the following:
+
+       •   Non-alignment of licence number, UWI (drilling events only), fracture date, type,
+           interval top and interval base with interval data on AER system.
+       •   Failure to include all leading zeroes from well licence numbers.
+       •   Reversion to a single 0 in the “le” column (there needs to be a leading zero; e.g. 00, 02,
+           etc.).
+       •   Failure to exclude leading zeroes on LSD, section, township, range, or meridian.
+       •   Failure to include all trailing zeroes on data that requires a specific number of decimal
+           places (e.g., volumeWeight).
+
+       Note that some of these errors are caused by Excel autoformatting features. When editing a
+       CSV file in Excel, keep it open while you try to validate and submit it. Also, viewing the file
+       in Notepad will reveal the data in its final form, which may make apparent, errors that were
+       not visible in Excel. Do not edit a CSV file in Notepad. Do all edits in Excel or another
+       application capable of editing and saving CSV files.
+
+Q52.   How can I be sure that my hydraulic fracturing composition data has been submitted
+       after a DDS submission is made?
+
+A52.   A confirmation email is sent to the submitter once the submission is made. This e-mail
+       contains the submission ID, the name and contact details of the submitter, the UWI, and the
+       well licence number. See A21 above for instructions on how to view a previous submission.
+
+Q53.   How can I obtain the latitude/longitude of my water source location?
+
+A53.   Latitude and longitude can be obtained through the use of a handheld GPS, GIS applications,
+       or public sources (e.g., Google Earth). Please ensure that the coordinates are referenced to
+       North American Datum 83 (NAD83) and are in decimal degrees.
+
+
+
+
+                                           FAQ Directive 059: Drilling and Completion Data Submission 11 of 12
+                                                                                      Alberta Energy Regulator
+
+
+
+
+Q54.   Directive 059 states that the submission of fracture composition data is due 30 days
+       after the end of the operation. Does that mean the last operation on the rig or the last
+       date of the fracture operation?
+
+A54.   The language in Directive 059 will be updated to clarify this issue. Fracture composition data
+       is expected 30 days after the date of the last fracture operation. Data to be submitted includes
+       fracture interval, fracture fluid composition, and fracture fluid water source (if a water-based
+       carrier fluid was used).
+
+Q55.   Can an incorrectly submitted fracture interval be deleted when fracture fluid
+       composition data is attached to the UWI?
+
+A55.   Yes. The deletion can be completed by requesting an amendment through the DDS system
+       under AER > Submissions > Well Drilling Completion Data > Submit Amendment. When
+       the fracture interval is deleted, the attached fracture fluid composition and water source data
+       will also be deleted and will have to be resubmitted.
+
+Q56.   Can I delete an entire fracture fluid composition or water source submission using the
+       “Amend by Form” function?
+
+A56.   Yes. For composition, on the Completions tab, select one of the intervals included in the
+       submission to be deleted, click the Update button and when the screen refreshes, click the
+       Save button. Navigate to the Amend & Print page and click the Delete Submission button. To
+       proceed with the deletion, click OK in the confirmation dialog box. For water source
+       submissions, the process is the same as above, but using the “Amend Water Source by Form”
+       function and the Water Source Data tab.
+
+
+
+
+                                           FAQ Directive 059: Drilling and Completion Data Submission 12 of 12
+

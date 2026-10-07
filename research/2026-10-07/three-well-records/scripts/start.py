@@ -1,0 +1,4 @@
+from acquire import fetch
+from concurrent.futures import ThreadPoolExecutor
+items=[('parallax-vesta.html','https://parallaxenergy.ca/vesta-energy/'),('st1.html','https://www.aer.ca/data-and-performance-reports/statistical-reports/st1'),('general-well.html','https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/general-well-data'),('tour-request.html','https://www.aer.ca/about-aer/facilities/core-research-centre/tour-report-request'),('tour-catalogue.html','https://www1.aer.ca/ProductCatalogue/197.html'),('decisions.html','https://www.aer.ca/applications-and-notices/application-status-and-notices/decisions'),('iar-form.html','https://dds.aer.ca/iar_query/FindApplications.aspx'),('licence-reports.html','https://www.aer.ca/data-and-performance-reports/activity-and-data/licence-reports')]
+with ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(lambda x:fetch(*x),items))

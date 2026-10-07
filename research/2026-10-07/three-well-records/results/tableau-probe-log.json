@@ -1,0 +1,19 @@
+[
+  {
+    "file": "tableau-licence-http-1.bin",
+    "method": "GET",
+    "url": "https://www2.aer.ca/t/Production/views/COM-WellLicenceMainDashboard/LicenceDetailDashboard?:embed=y&:showVizHome=no&%3Aembed=y&%3AshowVizHome=no",
+    "request_body": null,
+    "status": 403,
+    "sha256": "2910a27bfecebbee0309f642178a8947bc8271fca2a24c2556c46a9d68832bca",
+    "bytes": 1484,
+    "tls_verification": true,
+    "utc": "2026-10-07T07:00:23.177903+00:00"
+  },
+  {
+    "name": "licence",
+    "error_type": "AttributeError",
+    "error": "'NoneType' object has no attribute 'text'",
+    "tls_verification": true
+  }
+]

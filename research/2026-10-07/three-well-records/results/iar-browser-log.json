@@ -1,0 +1,10 @@
+[
+  {
+    "label": "app33151710",
+    "field": "Application_Number",
+    "value": "33151710",
+    "utc": "2026-10-07T07:04:00.995660+00:00",
+    "ignore_https_errors": false,
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://dds.aer.ca/iar_query/FindApplications.aspx?SEARCH=NEW\nCall log:\n  - navigating to \"https://dds.aer.ca/iar_query/FindApplications.aspx?SEARCH=NEW\", waiting until \"domcontentloaded\"\n"
+  }
+]
