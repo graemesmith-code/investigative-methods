@@ -1,0 +1,1738 @@
+[
+  {
+    "house_relationship_id": "304790000",
+    "client_names": [
+      "HYUNDAI MOTOR COMPANY"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-53618",
+        "params": {
+          "registrant_id": 53618,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "a328e10c-5d7e-4610-acd8-a0b9ea942ed8",
+        "source": "https://lda.gov/filings/public/filing/a328e10c-5d7e-4610-acd8-a0b9ea942ed8/print/",
+        "posted": "2025-04-21T18:27:32-04:00",
+        "period": "first_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "360000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "e43d79ab-27a3-4677-b888-da27fca56b08",
+        "source": "https://lda.gov/filings/public/filing/e43d79ab-27a3-4677-b888-da27fca56b08/print/",
+        "posted": "2025-07-21T14:57:48-04:00",
+        "period": "second_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "380000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "60859b45-648f-481e-ac76-e748edc5ae59",
+        "source": "https://lda.gov/filings/public/filing/60859b45-648f-481e-ac76-e748edc5ae59/print/",
+        "posted": "2025-10-20T18:24:40-04:00",
+        "period": "third_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "620000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "91ea42a2-fba6-41f5-b323-b478eddd71ce",
+        "source": "https://lda.gov/filings/public/filing/91ea42a2-fba6-41f5-b323-b478eddd71ce/print/",
+        "posted": "2026-01-20T17:09:04-05:00",
+        "period": "fourth_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "600000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "a328e10c-5d7e-4610-acd8-a0b9ea942ed8",
+        "source": "https://lda.gov/filings/public/filing/a328e10c-5d7e-4610-acd8-a0b9ea942ed8/print/",
+        "posted": "2025-04-21T18:27:32-04:00",
+        "period": "first_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "360000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "e43d79ab-27a3-4677-b888-da27fca56b08",
+        "source": "https://lda.gov/filings/public/filing/e43d79ab-27a3-4677-b888-da27fca56b08/print/",
+        "posted": "2025-07-21T14:57:48-04:00",
+        "period": "second_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "380000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "60859b45-648f-481e-ac76-e748edc5ae59",
+        "source": "https://lda.gov/filings/public/filing/60859b45-648f-481e-ac76-e748edc5ae59/print/",
+        "posted": "2025-10-20T18:24:40-04:00",
+        "period": "third_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "620000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "91ea42a2-fba6-41f5-b323-b478eddd71ce",
+        "source": "https://lda.gov/filings/public/filing/91ea42a2-fba6-41f5-b323-b478eddd71ce/print/",
+        "posted": "2026-01-20T17:09:04-05:00",
+        "period": "fourth_quarter",
+        "client_id": 158453,
+        "amounts": {
+          "income": null,
+          "expenses": "600000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "1960000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "307150000",
+    "client_names": [
+      "Zurich",
+      "Zurich American Insurance Company (fka Zurich)"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-42193",
+        "params": {
+          "registrant_id": 42193,
+          "filing_year": 2025
+        },
+        "count": 6,
+        "server_count": 6,
+        "complete": true
+      }
+    ],
+    "matched_forms": 6,
+    "originals_acquired": 6,
+    "checks": [
+      {
+        "uuid": "6ce275dc-63e3-4eb1-b4a0-44e8c101ce7c",
+        "source": "https://lda.gov/filings/public/filing/6ce275dc-63e3-4eb1-b4a0-44e8c101ce7c/print/",
+        "posted": "2025-04-21T08:50:38-04:00",
+        "period": "first_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "660000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "4972f7a7-fcf3-4830-9e43-b7b199292848",
+        "source": "https://lda.gov/filings/public/filing/4972f7a7-fcf3-4830-9e43-b7b199292848/print/",
+        "posted": "2025-07-21T12:12:00-04:00",
+        "period": "second_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "510000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "5ac060df-c736-4e3e-8bd2-59a0a36ef001",
+        "source": "https://lda.gov/filings/public/filing/5ac060df-c736-4e3e-8bd2-59a0a36ef001/print/",
+        "posted": "2025-10-20T19:30:42-04:00",
+        "period": "third_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "460000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "afc154cd-f5aa-4627-86ad-9a31f87fcd20",
+        "source": "https://lda.gov/filings/public/filing/afc154cd-f5aa-4627-86ad-9a31f87fcd20/print/",
+        "posted": "2026-01-20T13:07:07-05:00",
+        "period": "first_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "820000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "8dd67d5c-269a-4904-b93d-6fcbd83743de",
+        "source": "https://lda.gov/filings/public/filing/8dd67d5c-269a-4904-b93d-6fcbd83743de/print/",
+        "posted": "2026-01-20T13:10:16-05:00",
+        "period": "third_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "530000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "98889cf1-1eb7-4edb-aa32-aac6d8298168",
+        "source": "https://lda.gov/filings/public/filing/98889cf1-1eb7-4edb-aa32-aac6d8298168/print/",
+        "posted": "2026-01-20T13:15:25-05:00",
+        "period": "fourth_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "510000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "afc154cd-f5aa-4627-86ad-9a31f87fcd20",
+        "source": "https://lda.gov/filings/public/filing/afc154cd-f5aa-4627-86ad-9a31f87fcd20/print/",
+        "posted": "2026-01-20T13:07:07-05:00",
+        "period": "first_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "820000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "4972f7a7-fcf3-4830-9e43-b7b199292848",
+        "source": "https://lda.gov/filings/public/filing/4972f7a7-fcf3-4830-9e43-b7b199292848/print/",
+        "posted": "2025-07-21T12:12:00-04:00",
+        "period": "second_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "510000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "8dd67d5c-269a-4904-b93d-6fcbd83743de",
+        "source": "https://lda.gov/filings/public/filing/8dd67d5c-269a-4904-b93d-6fcbd83743de/print/",
+        "posted": "2026-01-20T13:10:16-05:00",
+        "period": "third_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "530000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "98889cf1-1eb7-4edb-aa32-aac6d8298168",
+        "source": "https://lda.gov/filings/public/filing/98889cf1-1eb7-4edb-aa32-aac6d8298168/print/",
+        "posted": "2026-01-20T13:15:25-05:00",
+        "period": "fourth_quarter",
+        "client_id": 152489,
+        "amounts": {
+          "income": null,
+          "expenses": "510000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "2370000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "308840000",
+    "client_names": [
+      "TOYOTA MOTOR NORTH AMERICA, INC. (TMA)"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-38266",
+        "params": {
+          "registrant_id": 38266,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "04c5d722-18c0-44ba-85a1-88bf5a3ee588",
+        "source": "https://lda.gov/filings/public/filing/04c5d722-18c0-44ba-85a1-88bf5a3ee588/print/",
+        "posted": "2025-04-21T13:54:57-04:00",
+        "period": "first_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1235360.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "425fc107-2d5c-4827-a6d6-fb03386a0c5d",
+        "source": "https://lda.gov/filings/public/filing/425fc107-2d5c-4827-a6d6-fb03386a0c5d/print/",
+        "posted": "2025-07-17T14:56:32-04:00",
+        "period": "second_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1943852.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "bdd62ac1-2e52-4f19-b5a6-fbfc0248ff6c",
+        "source": "https://lda.gov/filings/public/filing/bdd62ac1-2e52-4f19-b5a6-fbfc0248ff6c/print/",
+        "posted": "2025-10-20T15:53:20-04:00",
+        "period": "third_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1618086.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "755fc000-06df-4ec6-ab72-2efef1b1498d",
+        "source": "https://lda.gov/filings/public/filing/755fc000-06df-4ec6-ab72-2efef1b1498d/print/",
+        "posted": "2026-01-20T14:41:02-05:00",
+        "period": "fourth_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1553187.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "04c5d722-18c0-44ba-85a1-88bf5a3ee588",
+        "source": "https://lda.gov/filings/public/filing/04c5d722-18c0-44ba-85a1-88bf5a3ee588/print/",
+        "posted": "2025-04-21T13:54:57-04:00",
+        "period": "first_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1235360.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "425fc107-2d5c-4827-a6d6-fb03386a0c5d",
+        "source": "https://lda.gov/filings/public/filing/425fc107-2d5c-4827-a6d6-fb03386a0c5d/print/",
+        "posted": "2025-07-17T14:56:32-04:00",
+        "period": "second_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1943852.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "bdd62ac1-2e52-4f19-b5a6-fbfc0248ff6c",
+        "source": "https://lda.gov/filings/public/filing/bdd62ac1-2e52-4f19-b5a6-fbfc0248ff6c/print/",
+        "posted": "2025-10-20T15:53:20-04:00",
+        "period": "third_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1618086.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "755fc000-06df-4ec6-ab72-2efef1b1498d",
+        "source": "https://lda.gov/filings/public/filing/755fc000-06df-4ec6-ab72-2efef1b1498d/print/",
+        "posted": "2026-01-20T14:41:02-05:00",
+        "period": "fourth_quarter",
+        "client_id": 146693,
+        "amounts": {
+          "income": null,
+          "expenses": "1553187.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "6350485.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "314340000",
+    "client_names": [
+      "Nissan North America, Inc."
+    ],
+    "queries": [
+      {
+        "name": "role-annual-29356",
+        "params": {
+          "registrant_id": 29356,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "a74bb855-e8e2-415d-915d-07ad1b703c3c",
+        "source": "https://lda.gov/filings/public/filing/a74bb855-e8e2-415d-915d-07ad1b703c3c/print/",
+        "posted": "2025-04-21T18:12:15-04:00",
+        "period": "first_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "940000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "b5506e6b-2514-4bec-b5f7-dfe30f35be97",
+        "source": "https://lda.gov/filings/public/filing/b5506e6b-2514-4bec-b5f7-dfe30f35be97/print/",
+        "posted": "2025-07-21T18:05:26-04:00",
+        "period": "second_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "1090000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "6949d61a-e0a7-4048-9b37-17f7b69d643b",
+        "source": "https://lda.gov/filings/public/filing/6949d61a-e0a7-4048-9b37-17f7b69d643b/print/",
+        "posted": "2025-10-20T18:24:27-04:00",
+        "period": "third_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "440000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ed8dcd9b-f19a-4612-8f0a-e534a2be82d8",
+        "source": "https://lda.gov/filings/public/filing/ed8dcd9b-f19a-4612-8f0a-e534a2be82d8/print/",
+        "posted": "2026-01-20T17:43:06-05:00",
+        "period": "fourth_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "300000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "a74bb855-e8e2-415d-915d-07ad1b703c3c",
+        "source": "https://lda.gov/filings/public/filing/a74bb855-e8e2-415d-915d-07ad1b703c3c/print/",
+        "posted": "2025-04-21T18:12:15-04:00",
+        "period": "first_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "940000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "b5506e6b-2514-4bec-b5f7-dfe30f35be97",
+        "source": "https://lda.gov/filings/public/filing/b5506e6b-2514-4bec-b5f7-dfe30f35be97/print/",
+        "posted": "2025-07-21T18:05:26-04:00",
+        "period": "second_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "1090000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "6949d61a-e0a7-4048-9b37-17f7b69d643b",
+        "source": "https://lda.gov/filings/public/filing/6949d61a-e0a7-4048-9b37-17f7b69d643b/print/",
+        "posted": "2025-10-20T18:24:27-04:00",
+        "period": "third_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "440000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ed8dcd9b-f19a-4612-8f0a-e534a2be82d8",
+        "source": "https://lda.gov/filings/public/filing/ed8dcd9b-f19a-4612-8f0a-e534a2be82d8/print/",
+        "posted": "2026-01-20T17:43:06-05:00",
+        "period": "fourth_quarter",
+        "client_id": 134694,
+        "amounts": {
+          "income": null,
+          "expenses": "300000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "2770000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "322070000",
+    "client_names": [
+      "RAI Services Company"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-33204",
+        "params": {
+          "registrant_id": 33204,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "2a810917-ef88-4da5-b901-6c5e533b6f92",
+        "source": "https://lda.gov/filings/public/filing/2a810917-ef88-4da5-b901-6c5e533b6f92/print/",
+        "posted": "2025-04-21T10:17:36-04:00",
+        "period": "first_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1900000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "259919d5-1a2a-4e93-8bc2-107d48918c3d",
+        "source": "https://lda.gov/filings/public/filing/259919d5-1a2a-4e93-8bc2-107d48918c3d/print/",
+        "posted": "2025-07-21T13:07:07-04:00",
+        "period": "second_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1850000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "eb1e3171-6420-4f76-a611-58964eca62ce",
+        "source": "https://lda.gov/filings/public/filing/eb1e3171-6420-4f76-a611-58964eca62ce/print/",
+        "posted": "2025-10-20T12:14:17-04:00",
+        "period": "third_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1650000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "436a3e10-15ca-43dc-972f-3918310ce17a",
+        "source": "https://lda.gov/filings/public/filing/436a3e10-15ca-43dc-972f-3918310ce17a/print/",
+        "posted": "2026-01-20T11:06:39-05:00",
+        "period": "fourth_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1860000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "2a810917-ef88-4da5-b901-6c5e533b6f92",
+        "source": "https://lda.gov/filings/public/filing/2a810917-ef88-4da5-b901-6c5e533b6f92/print/",
+        "posted": "2025-04-21T10:17:36-04:00",
+        "period": "first_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1900000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "259919d5-1a2a-4e93-8bc2-107d48918c3d",
+        "source": "https://lda.gov/filings/public/filing/259919d5-1a2a-4e93-8bc2-107d48918c3d/print/",
+        "posted": "2025-07-21T13:07:07-04:00",
+        "period": "second_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1850000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "eb1e3171-6420-4f76-a611-58964eca62ce",
+        "source": "https://lda.gov/filings/public/filing/eb1e3171-6420-4f76-a611-58964eca62ce/print/",
+        "posted": "2025-10-20T12:14:17-04:00",
+        "period": "third_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1650000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "436a3e10-15ca-43dc-972f-3918310ce17a",
+        "source": "https://lda.gov/filings/public/filing/436a3e10-15ca-43dc-972f-3918310ce17a/print/",
+        "posted": "2026-01-20T11:06:39-05:00",
+        "period": "fourth_quarter",
+        "client_id": 141518,
+        "amounts": {
+          "income": null,
+          "expenses": "1860000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "7260000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "322480000",
+    "client_names": [
+      "ASSOCIATION OF AMERICAN RAILROADS"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-4516",
+        "params": {
+          "registrant_id": 4516,
+          "filing_year": 2025
+        },
+        "count": 6,
+        "server_count": 6,
+        "complete": true
+      }
+    ],
+    "matched_forms": 6,
+    "originals_acquired": 6,
+    "checks": [
+      {
+        "uuid": "955bca3c-75bc-4516-8639-890c99369d92",
+        "source": "https://lda.gov/filings/public/filing/955bca3c-75bc-4516-8639-890c99369d92/print/",
+        "posted": "2025-04-21T14:38:16-04:00",
+        "period": "first_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1426079.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "e9dccf6b-a713-48ba-8e74-8857301f97f2",
+        "source": "https://lda.gov/filings/public/filing/e9dccf6b-a713-48ba-8e74-8857301f97f2/print/",
+        "posted": "2025-07-21T14:47:30-04:00",
+        "period": "second_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1490000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "81ea427b-2ccb-4801-8f25-4f90f0dca0df",
+        "source": "https://lda.gov/filings/public/filing/81ea427b-2ccb-4801-8f25-4f90f0dca0df/print/",
+        "posted": "2025-10-20T15:55:15-04:00",
+        "period": "third_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1220000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "8f4d3323-7676-41e2-8ba6-8cf6b9bd06d1",
+        "source": "https://lda.gov/filings/public/filing/8f4d3323-7676-41e2-8ba6-8cf6b9bd06d1/print/",
+        "posted": "2026-01-15T14:19:09-05:00",
+        "period": "fourth_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1260000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "b916dd74-ae30-4990-9a8e-5d51fb33136d",
+        "source": "https://lda.gov/filings/public/filing/b916dd74-ae30-4990-9a8e-5d51fb33136d/print/",
+        "posted": "2026-03-02T15:22:06-05:00",
+        "period": "fourth_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1260000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "a8287bba-e99f-4517-903d-d5304830461c",
+        "source": "https://lda.gov/filings/public/filing/a8287bba-e99f-4517-903d-d5304830461c/print/",
+        "posted": "2026-03-03T14:51:02-05:00",
+        "period": "fourth_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1220000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "955bca3c-75bc-4516-8639-890c99369d92",
+        "source": "https://lda.gov/filings/public/filing/955bca3c-75bc-4516-8639-890c99369d92/print/",
+        "posted": "2025-04-21T14:38:16-04:00",
+        "period": "first_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1426079.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "e9dccf6b-a713-48ba-8e74-8857301f97f2",
+        "source": "https://lda.gov/filings/public/filing/e9dccf6b-a713-48ba-8e74-8857301f97f2/print/",
+        "posted": "2025-07-21T14:47:30-04:00",
+        "period": "second_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1490000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "81ea427b-2ccb-4801-8f25-4f90f0dca0df",
+        "source": "https://lda.gov/filings/public/filing/81ea427b-2ccb-4801-8f25-4f90f0dca0df/print/",
+        "posted": "2025-10-20T15:55:15-04:00",
+        "period": "third_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1220000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "a8287bba-e99f-4517-903d-d5304830461c",
+        "source": "https://lda.gov/filings/public/filing/a8287bba-e99f-4517-903d-d5304830461c/print/",
+        "posted": "2026-03-03T14:51:02-05:00",
+        "period": "fourth_quarter",
+        "client_id": 104875,
+        "amounts": {
+          "income": null,
+          "expenses": "1220000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "5356079.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "352130000",
+    "client_names": [
+      "T-Mobile USA, Inc."
+    ],
+    "queries": [
+      {
+        "name": "role-annual-59158",
+        "params": {
+          "registrant_id": 59158,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "40d72c0e-f5bb-41d2-8abf-ccfe4c28ce7c",
+        "source": "https://lda.gov/filings/public/filing/40d72c0e-f5bb-41d2-8abf-ccfe4c28ce7c/print/",
+        "posted": "2025-04-21T19:54:29-04:00",
+        "period": "first_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "2660000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "9e4c6cf5-2fb7-4e42-b72e-773d907c10e1",
+        "source": "https://lda.gov/filings/public/filing/9e4c6cf5-2fb7-4e42-b72e-773d907c10e1/print/",
+        "posted": "2025-07-21T19:56:34-04:00",
+        "period": "second_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "2660000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "8e0aac21-b7d3-4036-b89d-ca3c46b10bc9",
+        "source": "https://lda.gov/filings/public/filing/8e0aac21-b7d3-4036-b89d-ca3c46b10bc9/print/",
+        "posted": "2025-10-20T19:44:30-04:00",
+        "period": "third_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "3140000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "41b4210a-d422-42f4-90f5-755ecc923d56",
+        "source": "https://lda.gov/filings/public/filing/41b4210a-d422-42f4-90f5-755ecc923d56/print/",
+        "posted": "2026-01-20T18:40:42-05:00",
+        "period": "fourth_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "2684000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "40d72c0e-f5bb-41d2-8abf-ccfe4c28ce7c",
+        "source": "https://lda.gov/filings/public/filing/40d72c0e-f5bb-41d2-8abf-ccfe4c28ce7c/print/",
+        "posted": "2025-04-21T19:54:29-04:00",
+        "period": "first_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "2660000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "9e4c6cf5-2fb7-4e42-b72e-773d907c10e1",
+        "source": "https://lda.gov/filings/public/filing/9e4c6cf5-2fb7-4e42-b72e-773d907c10e1/print/",
+        "posted": "2025-07-21T19:56:34-04:00",
+        "period": "second_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "2660000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "8e0aac21-b7d3-4036-b89d-ca3c46b10bc9",
+        "source": "https://lda.gov/filings/public/filing/8e0aac21-b7d3-4036-b89d-ca3c46b10bc9/print/",
+        "posted": "2025-10-20T19:44:30-04:00",
+        "period": "third_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "3140000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "41b4210a-d422-42f4-90f5-755ecc923d56",
+        "source": "https://lda.gov/filings/public/filing/41b4210a-d422-42f4-90f5-755ecc923d56/print/",
+        "posted": "2026-01-20T18:40:42-05:00",
+        "period": "fourth_quarter",
+        "client_id": 160754,
+        "amounts": {
+          "income": null,
+          "expenses": "2684000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "11144000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "358040000",
+    "client_names": [
+      "United States Steel Corporation"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-71553",
+        "params": {
+          "registrant_id": 71553,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "94ce2951-7d4a-4aec-a8e7-5bba61d3bbf1",
+        "source": "https://lda.gov/filings/public/filing/94ce2951-7d4a-4aec-a8e7-5bba61d3bbf1/print/",
+        "posted": "2025-04-21T09:36:55-04:00",
+        "period": "first_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "990000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "9acdd928-d7c1-4825-8c40-26d37c16dd40",
+        "source": "https://lda.gov/filings/public/filing/9acdd928-d7c1-4825-8c40-26d37c16dd40/print/",
+        "posted": "2025-07-17T13:51:43-04:00",
+        "period": "second_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "1000000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "f938042d-26f9-49cb-988d-fa6c42ec8924",
+        "source": "https://lda.gov/filings/public/filing/f938042d-26f9-49cb-988d-fa6c42ec8924/print/",
+        "posted": "2025-10-20T10:38:22-04:00",
+        "period": "third_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "360000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "fce1b721-57e5-48ac-81ff-586a5c3a73d6",
+        "source": "https://lda.gov/filings/public/filing/fce1b721-57e5-48ac-81ff-586a5c3a73d6/print/",
+        "posted": "2026-01-16T16:18:24-05:00",
+        "period": "fourth_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "180000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "94ce2951-7d4a-4aec-a8e7-5bba61d3bbf1",
+        "source": "https://lda.gov/filings/public/filing/94ce2951-7d4a-4aec-a8e7-5bba61d3bbf1/print/",
+        "posted": "2025-04-21T09:36:55-04:00",
+        "period": "first_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "990000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "9acdd928-d7c1-4825-8c40-26d37c16dd40",
+        "source": "https://lda.gov/filings/public/filing/9acdd928-d7c1-4825-8c40-26d37c16dd40/print/",
+        "posted": "2025-07-17T13:51:43-04:00",
+        "period": "second_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "1000000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "f938042d-26f9-49cb-988d-fa6c42ec8924",
+        "source": "https://lda.gov/filings/public/filing/f938042d-26f9-49cb-988d-fa6c42ec8924/print/",
+        "posted": "2025-10-20T10:38:22-04:00",
+        "period": "third_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "360000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "fce1b721-57e5-48ac-81ff-586a5c3a73d6",
+        "source": "https://lda.gov/filings/public/filing/fce1b721-57e5-48ac-81ff-586a5c3a73d6/print/",
+        "posted": "2026-01-16T16:18:24-05:00",
+        "period": "fourth_quarter",
+        "client_id": 165440,
+        "amounts": {
+          "income": null,
+          "expenses": "180000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "2530000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "413770000",
+    "client_names": [
+      "Northeastern University"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-400633916",
+        "params": {
+          "registrant_id": 400633916,
+          "filing_year": 2025
+        },
+        "count": 5,
+        "server_count": 5,
+        "complete": true
+      }
+    ],
+    "matched_forms": 5,
+    "originals_acquired": 5,
+    "checks": [
+      {
+        "uuid": "ffbee999-023c-4d81-8679-c39739dff47b",
+        "source": "https://lda.gov/filings/public/filing/ffbee999-023c-4d81-8679-c39739dff47b/print/",
+        "posted": "2025-04-21T06:40:05-04:00",
+        "period": "first_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "6e497690-2c7e-4a4d-831d-9fd375cc382e",
+        "source": "https://lda.gov/filings/public/filing/6e497690-2c7e-4a4d-831d-9fd375cc382e/print/",
+        "posted": "2025-07-18T10:34:00-04:00",
+        "period": "second_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "5c82ea48-e8ea-4d00-a67d-57c9b8977995",
+        "source": "https://lda.gov/filings/public/filing/5c82ea48-e8ea-4d00-a67d-57c9b8977995/print/",
+        "posted": "2025-10-20T14:59:11-04:00",
+        "period": "third_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "240000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ad915db0-60f1-4dd6-9786-1f5c61282851",
+        "source": "https://lda.gov/filings/public/filing/ad915db0-60f1-4dd6-9786-1f5c61282851/print/",
+        "posted": "2026-01-16T14:18:35-05:00",
+        "period": "third_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "240000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ec6a1984-0061-48ae-81c4-35a376d5259d",
+        "source": "https://lda.gov/filings/public/filing/ec6a1984-0061-48ae-81c4-35a376d5259d/print/",
+        "posted": "2026-01-19T23:51:13-05:00",
+        "period": "fourth_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "225000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "ffbee999-023c-4d81-8679-c39739dff47b",
+        "source": "https://lda.gov/filings/public/filing/ffbee999-023c-4d81-8679-c39739dff47b/print/",
+        "posted": "2025-04-21T06:40:05-04:00",
+        "period": "first_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "6e497690-2c7e-4a4d-831d-9fd375cc382e",
+        "source": "https://lda.gov/filings/public/filing/6e497690-2c7e-4a4d-831d-9fd375cc382e/print/",
+        "posted": "2025-07-18T10:34:00-04:00",
+        "period": "second_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ad915db0-60f1-4dd6-9786-1f5c61282851",
+        "source": "https://lda.gov/filings/public/filing/ad915db0-60f1-4dd6-9786-1f5c61282851/print/",
+        "posted": "2026-01-16T14:18:35-05:00",
+        "period": "third_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "240000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ec6a1984-0061-48ae-81c4-35a376d5259d",
+        "source": "https://lda.gov/filings/public/filing/ec6a1984-0061-48ae-81c4-35a376d5259d/print/",
+        "posted": "2026-01-19T23:51:13-05:00",
+        "period": "fourth_quarter",
+        "client_id": 193633,
+        "amounts": {
+          "income": null,
+          "expenses": "225000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "1005000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "417350000",
+    "client_names": [
+      "RBC Capital Markets, LLC",
+      "RBC Capital Markets, LLC (formerly registered as Royal Bank of Canada)"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-400778341",
+        "params": {
+          "registrant_id": 400778341,
+          "filing_year": 2025
+        },
+        "count": 6,
+        "server_count": 6,
+        "complete": true
+      }
+    ],
+    "matched_forms": 6,
+    "originals_acquired": 6,
+    "checks": [
+      {
+        "uuid": "3aa7784f-b7d9-46d8-9636-8b4d6cf5d037",
+        "source": "https://lda.gov/filings/public/filing/3aa7784f-b7d9-46d8-9636-8b4d6cf5d037/print/",
+        "posted": "2025-04-21T15:54:24-04:00",
+        "period": "first_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "230000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "b248e7d7-51f4-4a4f-9758-f4845e17af03",
+        "source": "https://lda.gov/filings/public/filing/b248e7d7-51f4-4a4f-9758-f4845e17af03/print/",
+        "posted": "2025-05-02T15:51:51-04:00",
+        "period": "first_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "32a38569-b0f4-4304-b896-88eba8538eac",
+        "source": "https://lda.gov/filings/public/filing/32a38569-b0f4-4304-b896-88eba8538eac/print/",
+        "posted": "2025-05-02T15:59:12-04:00",
+        "period": "first_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ced9c12c-cdfe-48bf-be9f-1fb55236e6b8",
+        "source": "https://lda.gov/filings/public/filing/ced9c12c-cdfe-48bf-be9f-1fb55236e6b8/print/",
+        "posted": "2025-07-18T16:54:10-04:00",
+        "period": "second_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "320000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "d4df85e6-699e-431b-a7a5-b5bd6c182480",
+        "source": "https://lda.gov/filings/public/filing/d4df85e6-699e-431b-a7a5-b5bd6c182480/print/",
+        "posted": "2025-10-20T16:45:39-04:00",
+        "period": "third_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "110000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "5bc1c815-b817-4f4d-8653-5975b7b26b31",
+        "source": "https://lda.gov/filings/public/filing/5bc1c815-b817-4f4d-8653-5975b7b26b31/print/",
+        "posted": "2026-01-20T19:16:10-05:00",
+        "period": "fourth_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "410000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "32a38569-b0f4-4304-b896-88eba8538eac",
+        "source": "https://lda.gov/filings/public/filing/32a38569-b0f4-4304-b896-88eba8538eac/print/",
+        "posted": "2025-05-02T15:59:12-04:00",
+        "period": "first_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "270000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ced9c12c-cdfe-48bf-be9f-1fb55236e6b8",
+        "source": "https://lda.gov/filings/public/filing/ced9c12c-cdfe-48bf-be9f-1fb55236e6b8/print/",
+        "posted": "2025-07-18T16:54:10-04:00",
+        "period": "second_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "320000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "d4df85e6-699e-431b-a7a5-b5bd6c182480",
+        "source": "https://lda.gov/filings/public/filing/d4df85e6-699e-431b-a7a5-b5bd6c182480/print/",
+        "posted": "2025-10-20T16:45:39-04:00",
+        "period": "third_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "110000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "5bc1c815-b817-4f4d-8653-5975b7b26b31",
+        "source": "https://lda.gov/filings/public/filing/5bc1c815-b817-4f4d-8653-5975b7b26b31/print/",
+        "posted": "2026-01-20T19:16:10-05:00",
+        "period": "fourth_quarter",
+        "client_id": 195232,
+        "amounts": {
+          "income": null,
+          "expenses": "410000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "1110000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "423740000",
+    "client_names": [
+      "Samsung Electronics America, Inc."
+    ],
+    "queries": [
+      {
+        "name": "role-annual-400652963",
+        "params": {
+          "registrant_id": 400652963,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "ba15db76-aeb3-4cdc-bd5e-339fd814e04c",
+        "source": "https://lda.gov/filings/public/filing/ba15db76-aeb3-4cdc-bd5e-339fd814e04c/print/",
+        "posted": "2025-04-21T10:21:48-04:00",
+        "period": "first_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1570000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "6f605888-ce1f-486b-9f17-719336e4463e",
+        "source": "https://lda.gov/filings/public/filing/6f605888-ce1f-486b-9f17-719336e4463e/print/",
+        "posted": "2025-07-21T16:40:32-04:00",
+        "period": "second_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1290000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "12a20941-e95f-4ef8-abfc-22a87493211f",
+        "source": "https://lda.gov/filings/public/filing/12a20941-e95f-4ef8-abfc-22a87493211f/print/",
+        "posted": "2025-10-20T18:26:49-04:00",
+        "period": "third_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1530000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "52286461-629b-4080-99aa-0354441ef448",
+        "source": "https://lda.gov/filings/public/filing/52286461-629b-4080-99aa-0354441ef448/print/",
+        "posted": "2026-01-20T16:52:45-05:00",
+        "period": "fourth_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1320000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "ba15db76-aeb3-4cdc-bd5e-339fd814e04c",
+        "source": "https://lda.gov/filings/public/filing/ba15db76-aeb3-4cdc-bd5e-339fd814e04c/print/",
+        "posted": "2025-04-21T10:21:48-04:00",
+        "period": "first_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1570000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "6f605888-ce1f-486b-9f17-719336e4463e",
+        "source": "https://lda.gov/filings/public/filing/6f605888-ce1f-486b-9f17-719336e4463e/print/",
+        "posted": "2025-07-21T16:40:32-04:00",
+        "period": "second_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1290000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "12a20941-e95f-4ef8-abfc-22a87493211f",
+        "source": "https://lda.gov/filings/public/filing/12a20941-e95f-4ef8-abfc-22a87493211f/print/",
+        "posted": "2025-10-20T18:26:49-04:00",
+        "period": "third_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1530000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "52286461-629b-4080-99aa-0354441ef448",
+        "source": "https://lda.gov/filings/public/filing/52286461-629b-4080-99aa-0354441ef448/print/",
+        "posted": "2026-01-20T16:52:45-05:00",
+        "period": "fourth_quarter",
+        "client_id": 193858,
+        "amounts": {
+          "income": null,
+          "expenses": "1320000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "5710000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "432110001",
+    "client_names": [
+      "BMO Bank N.A. (fka BMO HARRIS BANK N.A.)"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-401103975",
+        "params": {
+          "registrant_id": 401103975,
+          "filing_year": 2025
+        },
+        "count": 4,
+        "server_count": 4,
+        "complete": true
+      }
+    ],
+    "matched_forms": 4,
+    "originals_acquired": 4,
+    "checks": [
+      {
+        "uuid": "2bd21f50-4166-4edf-9c0e-dfaf15a10c20",
+        "source": "https://lda.gov/filings/public/filing/2bd21f50-4166-4edf-9c0e-dfaf15a10c20/print/",
+        "posted": "2025-04-19T06:15:53-04:00",
+        "period": "first_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "170000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "472b8ed6-a653-4e2e-bf82-565c8fabd8c2",
+        "source": "https://lda.gov/filings/public/filing/472b8ed6-a653-4e2e-bf82-565c8fabd8c2/print/",
+        "posted": "2025-07-17T17:09:42-04:00",
+        "period": "second_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "260000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "5fd09356-6b8d-46ec-9aa4-05e009a0c124",
+        "source": "https://lda.gov/filings/public/filing/5fd09356-6b8d-46ec-9aa4-05e009a0c124/print/",
+        "posted": "2025-10-20T15:57:30-04:00",
+        "period": "third_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "390000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "b799fd94-f484-4201-b3bd-52c2faff635a",
+        "source": "https://lda.gov/filings/public/filing/b799fd94-f484-4201-b3bd-52c2faff635a/print/",
+        "posted": "2026-01-20T10:22:01-05:00",
+        "period": "fourth_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "380000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "2bd21f50-4166-4edf-9c0e-dfaf15a10c20",
+        "source": "https://lda.gov/filings/public/filing/2bd21f50-4166-4edf-9c0e-dfaf15a10c20/print/",
+        "posted": "2025-04-19T06:15:53-04:00",
+        "period": "first_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "170000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "472b8ed6-a653-4e2e-bf82-565c8fabd8c2",
+        "source": "https://lda.gov/filings/public/filing/472b8ed6-a653-4e2e-bf82-565c8fabd8c2/print/",
+        "posted": "2025-07-17T17:09:42-04:00",
+        "period": "second_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "260000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "5fd09356-6b8d-46ec-9aa4-05e009a0c124",
+        "source": "https://lda.gov/filings/public/filing/5fd09356-6b8d-46ec-9aa4-05e009a0c124/print/",
+        "posted": "2025-10-20T15:57:30-04:00",
+        "period": "third_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "390000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "b799fd94-f484-4201-b3bd-52c2faff635a",
+        "source": "https://lda.gov/filings/public/filing/b799fd94-f484-4201-b3bd-52c2faff635a/print/",
+        "posted": "2026-01-20T10:22:01-05:00",
+        "period": "fourth_quarter",
+        "client_id": 200550,
+        "amounts": {
+          "income": null,
+          "expenses": "380000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "1200000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  },
+  {
+    "house_relationship_id": "442220001",
+    "client_names": [
+      "NUTRIEN US LLC (Formerly Known as AGRIUM U.S. INC.) (a Nutrien Ltd subsidiary)"
+    ],
+    "queries": [
+      {
+        "name": "role-annual-401105074",
+        "params": {
+          "registrant_id": 401105074,
+          "filing_year": 2025
+        },
+        "count": 5,
+        "server_count": 5,
+        "complete": true
+      }
+    ],
+    "matched_forms": 5,
+    "originals_acquired": 5,
+    "checks": [
+      {
+        "uuid": "be10e5a4-9da3-42e4-9fc6-9eeddf6ff9f6",
+        "source": "https://lda.gov/filings/public/filing/be10e5a4-9da3-42e4-9fc6-9eeddf6ff9f6/print/",
+        "posted": "2025-04-21T15:37:58-04:00",
+        "period": "first_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "320000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "f470c462-cc29-4ee1-a359-c781db31ff55",
+        "source": "https://lda.gov/filings/public/filing/f470c462-cc29-4ee1-a359-c781db31ff55/print/",
+        "posted": "2025-07-11T16:54:57-04:00",
+        "period": "second_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "1170000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "cd1d9370-9091-442e-a9a5-9f5cee43e0ed",
+        "source": "https://lda.gov/filings/public/filing/cd1d9370-9091-442e-a9a5-9f5cee43e0ed/print/",
+        "posted": "2025-10-20T12:19:51-04:00",
+        "period": "third_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "1170000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "7ba9d488-cf9e-48fd-9811-874954fc68a1",
+        "source": "https://lda.gov/filings/public/filing/7ba9d488-cf9e-48fd-9811-874954fc68a1/print/",
+        "posted": "2025-10-22T09:15:09-04:00",
+        "period": "third_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "420000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "1b03e658-8e8b-437e-8374-335da9ec216a",
+        "source": "https://lda.gov/filings/public/filing/1b03e658-8e8b-437e-8374-335da9ec216a/print/",
+        "posted": "2026-01-20T15:00:20-05:00",
+        "period": "fourth_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "250000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "latest_versions": [
+      {
+        "uuid": "be10e5a4-9da3-42e4-9fc6-9eeddf6ff9f6",
+        "source": "https://lda.gov/filings/public/filing/be10e5a4-9da3-42e4-9fc6-9eeddf6ff9f6/print/",
+        "posted": "2025-04-21T15:37:58-04:00",
+        "period": "first_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "320000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "f470c462-cc29-4ee1-a359-c781db31ff55",
+        "source": "https://lda.gov/filings/public/filing/f470c462-cc29-4ee1-a359-c781db31ff55/print/",
+        "posted": "2025-07-11T16:54:57-04:00",
+        "period": "second_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "1170000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "7ba9d488-cf9e-48fd-9811-874954fc68a1",
+        "source": "https://lda.gov/filings/public/filing/7ba9d488-cf9e-48fd-9811-874954fc68a1/print/",
+        "posted": "2025-10-22T09:15:09-04:00",
+        "period": "third_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "420000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "1b03e658-8e8b-437e-8374-335da9ec216a",
+        "source": "https://lda.gov/filings/public/filing/1b03e658-8e8b-437e-8374-335da9ec216a/print/",
+        "posted": "2026-01-20T15:00:20-05:00",
+        "period": "fourth_quarter",
+        "client_id": 203141,
+        "amounts": {
+          "income": null,
+          "expenses": "250000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "annual_numeric_lower_bounds": {
+      "income": "0",
+      "expenses": "2160000.00"
+    },
+    "all_amounts_match": true,
+    "identity_scope": "API client name normalized within original registrant identifier. Foreign principal identity remains separate."
+  }
+]

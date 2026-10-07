@@ -1,0 +1,134 @@
+[
+  {
+    "client_id": 194108,
+    "year": 2010,
+    "selected_originals": [
+      {
+        "uuid": "7905c60f-08de-4d98-99d1-a386efb36cb6",
+        "source": "https://lda.gov/filings/public/filing/7905c60f-08de-4d98-99d1-a386efb36cb6/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-7905c60f-08de-4d98-99d1-a386efb36cb6.html",
+        "posted": "2011-01-20T18:25:52.067000-05:00",
+        "period": "fourth_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "150000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "expense_numeric_sum": "150000.00",
+    "unknown_expense_cells": 0
+  },
+  {
+    "client_id": 194108,
+    "year": 2011,
+    "selected_originals": [
+      {
+        "uuid": "acd1efe4-cb56-4311-aad3-cff7c66c56c1",
+        "source": "https://lda.gov/filings/public/filing/acd1efe4-cb56-4311-aad3-cff7c66c56c1/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-acd1efe4-cb56-4311-aad3-cff7c66c56c1.html",
+        "posted": "2011-04-20T12:47:01.337000-04:00",
+        "period": "first_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "310000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "bc7f0720-5554-407f-8276-63eb8c28df58",
+        "source": "https://lda.gov/filings/public/filing/bc7f0720-5554-407f-8276-63eb8c28df58/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-bc7f0720-5554-407f-8276-63eb8c28df58.html",
+        "posted": "2011-07-19T18:02:04.487000-04:00",
+        "period": "second_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "220000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "43973031-49c0-4de4-9b5d-3a3aa0336a22",
+        "source": "https://lda.gov/filings/public/filing/43973031-49c0-4de4-9b5d-3a3aa0336a22/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-43973031-49c0-4de4-9b5d-3a3aa0336a22.html",
+        "posted": "2011-10-20T15:08:20.133000-04:00",
+        "period": "third_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "390000.00"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "cca72705-d1aa-4e80-9f10-e68c0c5b3ce4",
+        "source": "https://lda.gov/filings/public/filing/cca72705-d1aa-4e80-9f10-e68c0c5b3ce4/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-cca72705-d1aa-4e80-9f10-e68c0c5b3ce4.html",
+        "posted": "2012-01-20T18:13:16.627000-05:00",
+        "period": "fourth_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "410000.00"
+        },
+        "matches_api": true
+      }
+    ],
+    "expense_numeric_sum": "1330000.00",
+    "unknown_expense_cells": 0
+  },
+  {
+    "client_id": 125608,
+    "year": 2012,
+    "selected_originals": [
+      {
+        "uuid": "a294de5b-85db-4da7-9531-2de8965fa0d0",
+        "source": "https://lda.gov/filings/public/filing/a294de5b-85db-4da7-9531-2de8965fa0d0/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-a294de5b-85db-4da7-9531-2de8965fa0d0.html",
+        "posted": "2012-04-20T14:45:40.647000-04:00",
+        "period": "first_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "540509.01"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "a141fbdf-21a6-4d40-b662-87c786b801a2",
+        "source": "https://lda.gov/filings/public/filing/a141fbdf-21a6-4d40-b662-87c786b801a2/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-a141fbdf-21a6-4d40-b662-87c786b801a2.html",
+        "posted": "2013-04-30T14:40:23.740000-04:00",
+        "period": "second_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "581483.98"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "ad51bdee-e837-467d-8d9f-9c517d99783a",
+        "source": "https://lda.gov/filings/public/filing/ad51bdee-e837-467d-8d9f-9c517d99783a/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-ad51bdee-e837-467d-8d9f-9c517d99783a.html",
+        "posted": "2013-04-30T14:22:21.253000-04:00",
+        "period": "third_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "494570.90"
+        },
+        "matches_api": true
+      },
+      {
+        "uuid": "9f634905-bf10-4e05-8e28-4e6ff367f2af",
+        "source": "https://lda.gov/filings/public/filing/9f634905-bf10-4e05-8e28-4e6ff367f2af/print/",
+        "original": "research/2026-10-07/fara-full-inventory/sources/lda-original-9f634905-bf10-4e05-8e28-4e6ff367f2af.html",
+        "posted": "2013-01-22T16:43:56.203000-05:00",
+        "period": "fourth_quarter",
+        "amounts": {
+          "income": null,
+          "expenses": "500786.60"
+        },
+        "matches_api": true
+      }
+    ],
+    "expense_numeric_sum": "2117350.49",
+    "unknown_expense_cells": 0
+  }
+]

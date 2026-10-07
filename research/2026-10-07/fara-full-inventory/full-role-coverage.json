@@ -1,0 +1,23 @@
+{
+  "xml_records_screened": 109389,
+  "fara_principal_rows_screened": 17765,
+  "role_occurrences": {
+    "foreign_interest_narratives": 4538,
+    "affiliated_organization_occurrences": 1021,
+    "foreign_entity_occurrences": 1117
+  },
+  "distinct_role_name_or_text_strings": {
+    "foreign_interest_narrative": 1380,
+    "affiliated_organization": 700,
+    "foreign_entity": 863
+  },
+  "discovery_edges": 576,
+  "relationships_with_role_edges": 149,
+  "role_edge_counts": {
+    "foreign_interest_mention": 412,
+    "foreign_entity": 155,
+    "affiliated_organization": 9
+  },
+  "major_relationships_with_role_edges": 13,
+  "scope": "All original archive versions, not only latest. Role occurrences and edges count repeated/versioned disclosures. XML paths preserve roles; API historical entity arrays are not promoted to original-field facts. No claim of exhaustive aliases, indirect chains, or legal identity."
+}

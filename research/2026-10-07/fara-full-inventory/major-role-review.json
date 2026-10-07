@@ -1,0 +1,618 @@
+[
+  {
+    "house_relationship_id": "304790000",
+    "client": "HYUNDAI MOTOR COMPANY",
+    "disposition": "explicit foreign-interest disclosure",
+    "assessment": "Hyundai Seoul interest is expressly described; self/affiliate/owner must remain distinct. Historical API section-label counterexample retained.",
+    "narratives_or_named_entries_reviewed": [
+      "Hyundai Motor Company, based in Seoul, Korea, has an interest in the manufacture and sale of Hyundai vehicles in the United States."
+    ],
+    "originals": [
+      {
+        "docid": "301725579",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301725579.xml",
+        "sha256": "7d04dd7e999c4896423547d23042d869ffb4373942e1e95c0dea2e96bf7505d1",
+        "file": "sources/selected-house-originals/301725579.xml",
+        "signed": "2025-04-21T18:27:32",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301761195",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301761195.xml",
+        "sha256": "f400740358857cbc98f1c63db31f90b02f538ed3a5345ee0a0231bbacc4dde43",
+        "file": "sources/selected-house-originals/301761195.xml",
+        "signed": "2025-07-21T14:57:48",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301810770",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301810770.xml",
+        "sha256": "9ec6712f2e17af191c255fccefe7224092cd4ae936a783de2c33e6c01107b802",
+        "file": "sources/selected-house-originals/301810770.xml",
+        "signed": "2025-10-20T18:24:40",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301837592",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301837592.xml",
+        "sha256": "27bef9c94f64074a8ec31991882644ad44c4798bed437a5713ca6e37317fd907",
+        "file": "sources/selected-house-originals/301837592.xml",
+        "signed": "2026-01-20T17:09:04",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "307150000",
+    "client": "Zurich",
+    "disposition": "corporate-group identity unresolved",
+    "assessment": "Original says Zurich Insurance Group is parent; FARA name says Zurich Insurance Company. Do not merge them. Foreign parent interest is explicitly disclosed.",
+    "narratives_or_named_entries_reviewed": [
+      "Zurich Insurance Group - interests are those of parent company."
+    ],
+    "originals": [
+      {
+        "docid": "301718997",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301718997.xml",
+        "sha256": "02fa3b6989c5ee3b10ea6f2af6f5135d78ee7324abb9481d16a0be7f77008a39",
+        "file": "sources/selected-house-originals/301718997.xml",
+        "signed": "2025-04-21T08:50:38",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301759023",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301759023.xml",
+        "sha256": "4a0602b44ee9753f05c8130066fe2b44e6e02934f868b81deda0902e3fe8f045",
+        "file": "sources/selected-house-originals/301759023.xml",
+        "signed": "2025-07-21T12:12:00",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301811401",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301811401.xml",
+        "sha256": "e3cee567010e8f1727c2164389188084d0e8f26c7d12cb57f745c35f8d9de182",
+        "file": "sources/selected-house-originals/301811401.xml",
+        "signed": "2025-10-20T19:30:42",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301833640",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301833640.xml",
+        "sha256": "a17198ddf01048c7f0ac9afac3a44acd5211ed29e3007cfb0c8a3287b4e5f0d1",
+        "file": "sources/selected-house-originals/301833640.xml",
+        "signed": "2026-01-20T13:07:07",
+        "report_type": "1A"
+      },
+      {
+        "docid": "301833694",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301833694.xml",
+        "sha256": "43acf93e85c07c6f58d063994b24f6e0179c486ec8be1a3d89b95209ee4d096d",
+        "file": "sources/selected-house-originals/301833694.xml",
+        "signed": "2026-01-20T13:10:16",
+        "report_type": "3A"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "308840000",
+    "client": "TOYOTA MOTOR NORTH AMERICA, INC. (TMA)",
+    "disposition": "explicit foreign-ownership disclosure",
+    "assessment": "Original describes Toyota Motor Corporation and 100% ownership of US subsidiaries. No concealment trigger from this role match.",
+    "narratives_or_named_entries_reviewed": [
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import and distribute vehicles and has an interest in cybersecurity issues and legislation.",
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import and distribute vehicles and has an interest in intelligent transportation technologies.",
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import and distribute vehicles and has an interest in vehicle safety and preventing counterfeit auto parts.",
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import, and distribute vehicles and has an interest in consumer data privacy and vehicle safety.",
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import, and distribute vehicles and has an interest in infrastructure improvements that will support fuel cell vehicles.",
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import, and distribute vehicles and has an interest in provisions impacting U.S. Customs.",
+      "Toyota Motor Corporation exports motor vehicles to the U.S. and has 100% ownership of U.S. subsidiaries that manufacture, import, and distribute vehicles and has an interest in tax provisions that stimulate economic growth and advance technology vehicles.",
+      "Toyota Motor Corporation is a global manufacturer and 100% ownership of U.S. subsidiaries that manufacture, import, and distribute vehicles and has an interest in legislation that impacts its investments in intellectual property",
+      "Toyota Motor Corporation is a global manufacturer and 100% ownership of U.S. subsidiaries that manufacture, import, and distribute vehicles and has an interest in legislation that impacts its investments in intellectual property.",
+      "Toyota Motor Corporation is a global manufacturers and has 100% ownership of U.S. subsidiaries that engage in like activities and has interests in legislation impacting workforce development and its talent pipeline."
+    ],
+    "originals": [
+      {
+        "docid": "301722075",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301722075.xml",
+        "sha256": "2e60f01d7c43d4552f906d644c8ea05a315022be7023ffe82ac246d1402e2aed",
+        "file": "sources/selected-house-originals/301722075.xml",
+        "signed": "2025-04-21T13:54:57",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301750471",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301750471.xml",
+        "sha256": "a768aaeca3bd26647ef4365e5a4716d72c56831b7e80f98c736dac3ccb117436",
+        "file": "sources/selected-house-originals/301750471.xml",
+        "signed": "2025-07-17T14:56:32",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301808450",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301808450.xml",
+        "sha256": "f2bd4d5fafbf45c942bf79df9b17895523c1706e9aba5cb4c7e871f881d9ae14",
+        "file": "sources/selected-house-originals/301808450.xml",
+        "signed": "2025-10-20T15:53:20",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301835135",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301835135.xml",
+        "sha256": "8f5575026cac9857e8ef759716c962e37fcadcb767c2d5bf85712f368677f075",
+        "file": "sources/selected-house-originals/301835135.xml",
+        "signed": "2026-01-20T14:41:02",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "314340000",
+    "client": "Nissan North America, Inc.",
+    "disposition": "explicit foreign-interest disclosure",
+    "assessment": "Original names Nissan Motor Co., Ltd. and its US commercial interests. Narrative does not independently prove a complete current ownership chain.",
+    "narratives_or_named_entries_reviewed": [
+      "Nissan Motor Co., Ltd. exports vehicles and parts to the U.S. for sale, and produces vehicles and parts here for sale in the U.S.  Nissan North America exports and distributes vehicles which are made in the U.S., and has an interest in monitoring and/or guiding regulations which impact vehicle/parts distribution/export operations.",
+      "Nissan Motor Co., Ltd. exports vehicles and parts to the U.S. for sale, and produces vehicles and parts here for sale in the U.S. Nissan North America operates its captive finance company to offer loan and lease programs to consumers and to offer financial programs to its dealers, and has an interest in monitoring and/or guiding regulations which impact financial arm of operations.",
+      "Nissan Motor Co., Ltd. exports vehicles and parts to the U.S. for sale, and produces vehicles and parts here for sale in the U.S. Nissan North America operates manufacturing facilities for vehicles and parts in the U.S., and has an interest in monitoring and/or guiding regulations which impact workforce development.",
+      "Nissan Motor Co., Ltd. exports vehicles and parts to the U.S. for sale, and produces vehicles and parts here for sale in the U.S., and has an interest in monitoring and/or guiding regulations that could affect corporate tax of U.S. operations as well as consumer tax incentives.",
+      "Nissan Motor Co., Ltd. exports vehicles and parts to the U.S. for sale, and produces vehicles and parts here for sale in the U.S., and has an interest in monitoring and/or guiding regulations that could affect vehicle design as well as privacy/security-related issues.  Nissan also has an interest in greenhouse gas reduction policies in the U.S."
+    ],
+    "originals": [
+      {
+        "docid": "301725394",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301725394.xml",
+        "sha256": "fedfe9befd6d65c2221edbc539837654ffaeb06a279eda5dcbaf194d0693fece",
+        "file": "sources/selected-house-originals/301725394.xml",
+        "signed": "2025-04-21T18:12:15",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301763748",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301763748.xml",
+        "sha256": "c410a6cb36b30e14f13a2f3308815e8f60f1cbd4a098f44b95fa0f994cd2c2c0",
+        "file": "sources/selected-house-originals/301763748.xml",
+        "signed": "2025-07-21T18:05:26",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301810764",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301810764.xml",
+        "sha256": "60d99f08d521e21cc6b62f2f43fd1fff0e2dd4aca2b82081dca7f39eaaf6ed8d",
+        "file": "sources/selected-house-originals/301810764.xml",
+        "signed": "2025-10-20T18:24:27",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301838080",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301838080.xml",
+        "sha256": "c65ee3abb0b0f96244201a9b9314f15ad49686ce5dedbcc398e6c7cd30d454e3",
+        "file": "sources/selected-house-originals/301838080.xml",
+        "signed": "2026-01-20T17:43:06",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "322070000",
+    "client": "RAI Services Company",
+    "disposition": "explicit parent disclosure; FARA branch mismatch",
+    "assessment": "Original names British American Tobacco plc as ultimate parent and refers to LD-1. Matched FARA record specifies a South America branch; that is not a verified identical principal.",
+    "narratives_or_named_entries_reviewed": [
+      "As the ultimate parent entity of RAI Services Company, British American Tobacco p.l.c., disclosed on the LD-1, has an interest in the issues above.",
+      "\u200bAs the ultimate parent entity of RAI Services Company, British American Tobacco p.l.c., disclosed on the LD-1, has an interest in the issues above."
+    ],
+    "originals": [
+      {
+        "docid": "301719597",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301719597.xml",
+        "sha256": "cef9423d29adce44b506b0705452ab9d7067851a9304eb1dd89f80ed11c73004",
+        "file": "sources/selected-house-originals/301719597.xml",
+        "signed": "2025-04-21T10:17:36",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301759696",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301759696.xml",
+        "sha256": "79826886025b8be136917acb6a2b2e5f85c36837bebb5ede09461e59759c1b0f",
+        "file": "sources/selected-house-originals/301759696.xml",
+        "signed": "2025-07-21T13:07:07",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301804998",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301804998.xml",
+        "sha256": "e7e4a74b3bafdf876a9e8575b4a9d8668ec16e0c34f6aa21b0110118594897b3",
+        "file": "sources/selected-house-originals/301804998.xml",
+        "signed": "2025-10-20T12:14:17",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301831639",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301831639.xml",
+        "sha256": "08d4a325d29249cef31d081e1e9ca6c8cf7e4d6727e0f983fc1c5e37b4187187",
+        "file": "sources/selected-house-originals/301831639.xml",
+        "signed": "2026-01-20T11:06:39",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "322480000",
+    "client": "ASSOCIATION OF AMERICAN RAILROADS",
+    "disposition": "membership/affiliate role, not assumed owner",
+    "assessment": "Canadian railways and their US operations are explicitly described as association members. Their names do not establish ownership/control of the association.",
+    "narratives_or_named_entries_reviewed": [
+      "Canadian Pacific",
+      "Soo Line Railroad Company d/b/a CPKC is wholly owned by Canadian Pacific Kansas City Limited, a publicly traded Canadian corporation with U.S. subsidiaries. Canadian National Railway Company is a publicly traded Canadian corporation with U.S. subsidiaries. Both railroads U.S. operations are members of the AAR whose core business is freight railroad transportation services in Canada and the United States. CPKC also provides freight railroad transportation services in Mexico.  Each of the companies interest in railroad issues is the impact of the referenced legislation and/or regulatory change on its ability to provide freight rail services to their customers in the U.S."
+    ],
+    "originals": [
+      {
+        "docid": "301722566",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301722566.xml",
+        "sha256": "e4961468d5772fc04e0dc9c9e73e92b1a72c45c6a5da76c63e504710676ec4d4",
+        "file": "sources/selected-house-originals/301722566.xml",
+        "signed": "2025-04-21T14:38:16",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301761037",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301761037.xml",
+        "sha256": "b6d3d81c9f8abaadc78dcb990482dacbb68f340c9b877cc41f52bcee4333f0f8",
+        "file": "sources/selected-house-originals/301761037.xml",
+        "signed": "2025-07-21T14:47:30",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301808483",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301808483.xml",
+        "sha256": "fbefb78e3f84c2155d1f2a91ffee2678b1fed0191bca8a0aff5b26a81432ccdd",
+        "file": "sources/selected-house-originals/301808483.xml",
+        "signed": "2025-10-20T15:55:15",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301823178",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301823178.xml",
+        "sha256": "334640b0062966eb393e608c39f58c03f2f66dc692894f5680704fe939f19ea6",
+        "file": "sources/selected-house-originals/301823178.xml",
+        "signed": "2026-01-15T14:19:09",
+        "report_type": "Q4"
+      },
+      {
+        "docid": "301844386",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301844386.xml",
+        "sha256": "a8ce3683d4b02fdee1d59bb4e061279f1db77c623572456a11cf0bd433ca5634",
+        "file": "sources/selected-house-originals/301844386.xml",
+        "signed": "2026-03-02T15:22:06",
+        "report_type": "4T"
+      },
+      {
+        "docid": "301844475",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301844475.xml",
+        "sha256": "365474fa6acf0e6df11c590abd3f1578db05f1824dd18f80b6391e3fa7289a30",
+        "file": "sources/selected-house-originals/301844475.xml",
+        "signed": "2026-03-03T14:51:02",
+        "report_type": "4A"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "352130000",
+    "client": "T-Mobile USA, Inc.",
+    "disposition": "explicit shareholder disclosure; percentages not current-certified",
+    "assessment": "Original names Deutsche Telekom and SoftBank as shareholders. This is what the filer reports, not independent validation that historical percentages remain current.",
+    "narratives_or_named_entries_reviewed": [
+      "\u200bAs identified in form LD-1, both Deutsche Telekom AG and SoftBank are shareholders of T-Mobile USA, Inc.(NASDAQ:TMUS)"
+    ],
+    "originals": [
+      {
+        "docid": "301726118",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301726118.xml",
+        "sha256": "3c81d8fa087f8a846b5258c66bd58d49c14192cbdf6bc0e83cf7e122f0253be6",
+        "file": "sources/selected-house-originals/301726118.xml",
+        "signed": "2025-04-21T19:54:29",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301764359",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301764359.xml",
+        "sha256": "f1095319d028950d961f5ff79dbb6985c82c37de4cd7e2b1c25cad276b00424e",
+        "file": "sources/selected-house-originals/301764359.xml",
+        "signed": "2025-07-21T19:56:34",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301811489",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301811489.xml",
+        "sha256": "828e081f168f79725689f4d4cd1c4606cb28ea8fab8de7f000b949cfae3def08",
+        "file": "sources/selected-house-originals/301811489.xml",
+        "signed": "2025-10-20T19:44:30",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301838763",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301838763.xml",
+        "sha256": "e72f43cb2be57943f52ab17ba10e521116875ca8c2c39a7f4fd37b9e72e54d59",
+        "file": "sources/selected-house-originals/301838763.xml",
+        "signed": "2026-01-20T18:40:42",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "358040000",
+    "client": "United States Steel Corporation",
+    "disposition": "explicit owner update",
+    "assessment": "Original quarter-three update names Nippon Steel at 100%. A later acquisition and update do not by themselves establish earlier nondisclosure.",
+    "narratives_or_named_entries_reviewed": [
+      "Nippon Steel Corporation"
+    ],
+    "originals": [
+      {
+        "docid": "301803400",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301803400.xml",
+        "sha256": "4777344f8456f44c9baaed24e79e2a939da4b382400607d9242363b1abdd1da5",
+        "file": "sources/selected-house-originals/301803400.xml",
+        "signed": "2025-10-20T10:38:22",
+        "report_type": "Q3"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "413770000",
+    "client": "Northeastern University",
+    "disposition": "foreign-interest mention, not ownership",
+    "assessment": "Northern Ireland Bureau / Embassy of Ireland appears as an interest narrative. It does not establish either body owns or controls Northeastern University. No ownership allegation follows.",
+    "narratives_or_named_entries_reviewed": [
+      "Northern Ireland Bureau / Embassy of Ireland."
+    ],
+    "originals": [
+      {
+        "docid": "301829939",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301829939.xml",
+        "sha256": "78ff6650199b6788820c8bedcd4122e52a7bdf350e715d046741ff5315d3057d",
+        "file": "sources/selected-house-originals/301829939.xml",
+        "signed": "2026-01-19T23:51:13",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "417350000",
+    "client": "RBC Capital Markets, LLC",
+    "disposition": "explicit principal interest; substring false match",
+    "assessment": "Original names Royal Bank of Canada. Bank of Canada is a nested-name false match and is rejected. Legal identity cannot be resolved by phrase containment.",
+    "narratives_or_named_entries_reviewed": [
+      "Royal Bank of Canada: Issues related to U.S. insider trading disclosure requirements.",
+      "Royal Bank of Canada: Issues related to capital framework and liquidity requirements for banks.",
+      "Royal Bank of Canada: Revisions to international tax policy. \nH.R. 1: One Big Beautiful Bill Act",
+      "Royal Bank of Canada: Revisions to international tax policy. \nH.R. 2423: Unfair Tax Prevention Act\nH.R. 591: Defending American Jobs and Investment Act\nH.R. 1: One Big Beautiful Bill Act"
+    ],
+    "originals": [
+      {
+        "docid": "301754335",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301754335.xml",
+        "sha256": "0c0e35b198c1858af3dee989022f86a4c2bc7ca32ee927cfd1ffeb093725c61c",
+        "file": "sources/selected-house-originals/301754335.xml",
+        "signed": "2025-07-18T16:54:10",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301809391",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301809391.xml",
+        "sha256": "b950767d59ddba8ff4bc9e26b7783452f6e317baf8a198cfbea437f39cb6e0ab",
+        "file": "sources/selected-house-originals/301809391.xml",
+        "signed": "2025-10-20T16:45:39",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301839113",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301839113.xml",
+        "sha256": "94095c858a72fd442561a9b149361d6cd1efd2587476a7a29375b6860a12bfc7",
+        "file": "sources/selected-house-originals/301839113.xml",
+        "signed": "2026-01-20T19:16:10",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "423740000",
+    "client": "Samsung Electronics America, Inc.",
+    "disposition": "explicit wholly owned subsidiary disclosure",
+    "assessment": "Original says Samsung Electronics America is wholly owned by Samsung Electronics Co., Ltd. Malformed FARA quote rendering is not proof of a second entity.",
+    "narratives_or_named_entries_reviewed": [
+      "Samsung Electronics America, Inc. (SEA) is a wholly owned subsidiary of Samsung Electronics Co., Ltd."
+    ],
+    "originals": [
+      {
+        "docid": "301719636",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301719636.xml",
+        "sha256": "f38474622bd1aab710e15b79f3151256de7fd40274f8815e47463b83cd9134b4",
+        "file": "sources/selected-house-originals/301719636.xml",
+        "signed": "2025-04-21T10:21:48",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301762645",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301762645.xml",
+        "sha256": "e761de99b291966cdf7d7c05ad2ab50f9e1c32adffe37978706ff8e487b1af86",
+        "file": "sources/selected-house-originals/301762645.xml",
+        "signed": "2025-07-21T16:40:32",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301810794",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301810794.xml",
+        "sha256": "e23a66e1ce96af69ef34fe649e59b7722a91a6261965edf35dc414347335f4db",
+        "file": "sources/selected-house-originals/301810794.xml",
+        "signed": "2025-10-20T18:26:49",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301837319",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301837319.xml",
+        "sha256": "a385fbcbc4ddd585c83309991d550a3fc9e6d4fcdd684413e1121eab0a690557",
+        "file": "sources/selected-house-originals/301837319.xml",
+        "signed": "2026-01-20T16:52:45",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "432110001",
+    "client": "BMO Bank N.A. (fka BMO HARRIS BANK N.A.)",
+    "disposition": "explicit parent disclosure",
+    "assessment": "Original calls Bank of Montreal the foreign parent and identifies its interest. No hidden-parent inference follows.",
+    "narratives_or_named_entries_reviewed": [
+      "While the registrant's lobbying activity was undertaken on its own on behalf, the registrant's foreign parent, Bank of Montreal, has an interest in the aforementioned lobbying issu",
+      "While the registrant's lobbying activity was undertaken on its own on behalf, the registrant's foreign parent, Bank of Montreal, has an interest in the aforementioned lobbying issue."
+    ],
+    "originals": [
+      {
+        "docid": "301716934",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301716934.xml",
+        "sha256": "2978baf7cd95539a71ed8c7dfc22b4146423a974f5baac65db912dc33b119e71",
+        "file": "sources/selected-house-originals/301716934.xml",
+        "signed": "2025-04-19T06:15:53",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301750977",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301750977.xml",
+        "sha256": "14474129b1876108a1f64f6be1d7aeca971592d4badcfd290dd2de35bc025313",
+        "file": "sources/selected-house-originals/301750977.xml",
+        "signed": "2025-07-17T17:09:42",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301808517",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301808517.xml",
+        "sha256": "df5c5e7db809be5800dfee9cbc4394a345270cf8e85a590ed04e9f5b37069615",
+        "file": "sources/selected-house-originals/301808517.xml",
+        "signed": "2025-10-20T15:57:30",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301831092",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301831092.xml",
+        "sha256": "5fedd888fecba39a73ff3d3f1814f9fa0945e13822e666335c76e4fd0547c444",
+        "file": "sources/selected-house-originals/301831092.xml",
+        "signed": "2026-01-20T10:22:01",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  },
+  {
+    "house_relationship_id": "442220001",
+    "client": "NUTRIEN US LLC (Formerly Known as AGRIUM U.S. INC.) (a Nutrien Ltd subsidiary)",
+    "disposition": "explicit foreign-entity chain narrative",
+    "assessment": "Original names Nutrien Ltd., 10706957 Canada Inc., Agrium and Potash Corporation. Corporate reorganizations and exact current roles require dated records; names are already disclosed.",
+    "narratives_or_named_entries_reviewed": [
+      "As foreign entities of Agrium U.S. Inc., 10706957 Canada Inc., Nutrien Ltd., Agrium, Inc., and Potash Corporation of Saskatchewan have a general interest in the issues disclosed above."
+    ],
+    "originals": [
+      {
+        "docid": "301723374",
+        "archive": "2025_1stQuarter_XML.zip",
+        "member": "301723374.xml",
+        "sha256": "87dc6a077855b4330cea9e0464d52b59125fae3653ef0e4fe7396c7e5465cd38",
+        "file": "sources/selected-house-originals/301723374.xml",
+        "signed": "2025-04-21T15:37:58",
+        "report_type": "Q1"
+      },
+      {
+        "docid": "301745401",
+        "archive": "2025_2ndQuarter_XML.zip",
+        "member": "301745401.xml",
+        "sha256": "8301664daae1b45646da9563651b2897f1493ad05c4d135f3a3c1d5f16c26745",
+        "file": "sources/selected-house-originals/301745401.xml",
+        "signed": "2025-07-11T16:54:57",
+        "report_type": "Q2"
+      },
+      {
+        "docid": "301805078",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301805078.xml",
+        "sha256": "27827b4eb11a8a4665e42f8ed3b2f69a8b732893f3209bbe4d182e0ce77c9ba3",
+        "file": "sources/selected-house-originals/301805078.xml",
+        "signed": "2025-10-20T12:19:51",
+        "report_type": "Q3"
+      },
+      {
+        "docid": "301813275",
+        "archive": "2025_3rdQuarter_XML.zip",
+        "member": "301813275.xml",
+        "sha256": "fd9e7ae7fddd9d5ba93cadbba27f115391b0557b0e4827f729b6688d3359a99b",
+        "file": "sources/selected-house-originals/301813275.xml",
+        "signed": "2025-10-22T09:15:09",
+        "report_type": "3A"
+      },
+      {
+        "docid": "301835518",
+        "archive": "2025_4thQuarter_XML.zip",
+        "member": "301835518.xml",
+        "sha256": "8f5ad41b7fa4d31467f0432f84396a13154214426cd835887825f06b5a2ccfd9",
+        "file": "sources/selected-house-originals/301835518.xml",
+        "signed": "2026-01-20T15:00:20",
+        "report_type": "Q4"
+      }
+    ],
+    "not_a_compliance_clearance": true
+  }
+]

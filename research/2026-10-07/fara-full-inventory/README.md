@@ -1,3 +1,7 @@
+# Final report available
+
+Start with [REPORT.md](REPORT.md), [ANNEX.md](ANNEX.md) and foreign-control-final.pdf. The final bundle is foreign-control-review.zip. Earlier checkpoints are historical, not the final assessment.
+
 # Full FARA inventory continuation
 
 This continues private checkpoint `750aa5eb3f4a2166451939db03f34ea26fd1d2aa`. The user supplied the three official CSV exports on `main`; their immutable source commit is `8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f`. The copied CSV bytes have matching Git blob hashes and independent SHA-256 hashes in `supplied-source-provenance.json`. Unrelated uploads and earlier reports are retained.

@@ -1,0 +1,5557 @@
+[
+  {
+    "house_relationship_id": "300190272",
+    "clients": [
+      "Institute of International Bankers"
+    ],
+    "registrants": [
+      "Baker & Hostetler LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "300740000",
+    "clients": [
+      "Institute of International Bankers"
+    ],
+    "registrants": [
+      "Institute of International Bankers"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "750000.00"
+  },
+  {
+    "house_relationship_id": "301740582",
+    "clients": [
+      "Gotion, Inc."
+    ],
+    "registrants": [
+      "Mercury Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "910000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "301740622",
+    "clients": [
+      "PRVO PLINARSKO DRUTVO d.o.o."
+    ],
+    "registrants": [
+      "Mercury Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "250000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "301740624",
+    "clients": [
+      "Dairy Farmers of Canada"
+    ],
+    "registrants": [
+      "Mercury Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "400000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "301740635",
+    "clients": [
+      "DOMTAR CORPORATION",
+      "Domtar CorporationDomtar Corporation"
+    ],
+    "registrants": [
+      "Mercury Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "180000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "301740670",
+    "clients": [
+      "Mercedes-Benz North America Corporation"
+    ],
+    "registrants": [
+      "Mercury Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "301740676",
+    "clients": [
+      "Bayer U.S. LLC"
+    ],
+    "registrants": [
+      "Mercury Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "180000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "303520307",
+    "clients": [
+      "Bureau Veritas"
+    ],
+    "registrants": [
+      "Nossaman LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "304410087",
+    "clients": [
+      "Bayer Corporation"
+    ],
+    "registrants": [
+      "The Russell Group, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "330000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "304700841",
+    "clients": [
+      "United States Steel Corporation"
+    ],
+    "registrants": [
+      "Hogan Lovells US LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "980000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "304790000",
+    "clients": [
+      "HYUNDAI MOTOR COMPANY"
+    ],
+    "registrants": [
+      "HYUNDAI MOTOR COMPANY"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1960000.00"
+  },
+  {
+    "house_relationship_id": "305560074",
+    "clients": [
+      "The Bayer Corporation"
+    ],
+    "registrants": [
+      "Holland & Hart LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "305580000",
+    "clients": [
+      "American Honda Motor Co., Inc."
+    ],
+    "registrants": [
+      "American Honda Motor Co., Inc."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "3763079.00"
+  },
+  {
+    "house_relationship_id": "305760020",
+    "clients": [
+      "Maurel & Prom",
+      "Maurel &amp; Prom"
+    ],
+    "registrants": [
+      "Eversheds Sutherland (US), LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "306170123",
+    "clients": [
+      "AMERICAN HONDA MOTOR CO., INC."
+    ],
+    "registrants": [
+      "Miller & Chevalier Chartered"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "70000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "306170209",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "MILLER & CHEVALIER, CHTD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "60000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "307150000",
+    "clients": [
+      "Zurich",
+      "Zurich American Insurance Company (fka Zurich)"
+    ],
+    "registrants": [
+      "Zurich",
+      "Zurich American Insurance Company (fka Zurich)"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "2370000.00"
+  },
+  {
+    "house_relationship_id": "307500071",
+    "clients": [
+      "EMBRAER EMPRESA BRASILEIRA DE AERONAUTICA S.A."
+    ],
+    "registrants": [
+      "King & Spalding LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "900000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "307500073",
+    "clients": [
+      "RAI SERVICES COMPANY (formerly known as RJ Reynolds)"
+    ],
+    "registrants": [
+      "King & Spalding LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "307700006",
+    "clients": [
+      "RAI SERVICES COMPANY"
+    ],
+    "registrants": [
+      "The Smith-Free Group, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "307710509",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "Williams and Jensen, PLLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "307710531",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "Williams and Jensen, PLLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "20000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308120000",
+    "clients": [
+      "CAMECO CORPORATION"
+    ],
+    "registrants": [
+      "CAMECO CORPORATION"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1040000.00"
+  },
+  {
+    "house_relationship_id": "308250409",
+    "clients": [
+      "Kinross Gold U.S.A., Inc."
+    ],
+    "registrants": [
+      "HOLLAND & KNIGHT LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308250994",
+    "clients": [
+      "Ava Labs, Inc."
+    ],
+    "registrants": [
+      "HOLLAND & KNIGHT LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "150000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308250996",
+    "clients": [
+      "Novo Nordisk, Inc."
+    ],
+    "registrants": [
+      "HOLLAND & KNIGHT LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "210000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308251277",
+    "clients": [
+      "Heckler & Koch GmbH"
+    ],
+    "registrants": [
+      "HOLLAND & KNIGHT LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308610477",
+    "clients": [
+      "Turkiye-U.S. Business Council (TAIK)"
+    ],
+    "registrants": [
+      "ArentFox Schiff LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308730259",
+    "clients": [
+      "Martin Baker Aircraft Co., Ltd."
+    ],
+    "registrants": [
+      "BAKER DONELSON BEARMAN CALDWELL & BERKOWITZ"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "308840000",
+    "clients": [
+      "TOYOTA MOTOR NORTH AMERICA, INC. (TMA)"
+    ],
+    "registrants": [
+      "TOYOTA MOTOR NORTH AMERICA, INC. (TMA)"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "6350485.00"
+  },
+  {
+    "house_relationship_id": "309090001",
+    "clients": [
+      "INSTITUTE OF INTERNATIONAL BANKERS"
+    ],
+    "registrants": [
+      "CLEARY GOTTLIEB STEEN & HAMILTON LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "311490081",
+    "clients": [
+      "NSO Group Technologies Ltd."
+    ],
+    "registrants": [
+      "PAUL HASTINGS LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "312570000",
+    "clients": [
+      "Bayer Corporation (consolidated report)"
+    ],
+    "registrants": [
+      "Bayer Corporation (consolidated report)"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "9200000.00"
+  },
+  {
+    "house_relationship_id": "312650021",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "Hecht Latham Spencer & Associates, Inc., formerly known as Hecht Spencer & Assoc"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313490067",
+    "clients": [
+      "US CHAMBER OF COMMERCE"
+    ],
+    "registrants": [
+      "Mayer Brown LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313490152",
+    "clients": [
+      "Swiss Bankers Association"
+    ],
+    "registrants": [
+      "Mayer Brown LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313490224",
+    "clients": [
+      "United States Steel Corporation"
+    ],
+    "registrants": [
+      "Mayer Brown LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "270000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313490304",
+    "clients": [
+      "Freedom Holding Corp"
+    ],
+    "registrants": [
+      "Mayer Brown LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "710000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313550894",
+    "clients": [
+      "Hyundai Motor Company, Ltd."
+    ],
+    "registrants": [
+      "K&L GATES LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313550999",
+    "clients": [
+      "Korea International Trade Association"
+    ],
+    "registrants": [
+      "K&L GATES LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313551048",
+    "clients": [
+      "H.Q. Energy Services (U.S.) Inc."
+    ],
+    "registrants": [
+      "K&L GATES LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313810198",
+    "clients": [
+      "Samsung Electronics America, Inc."
+    ],
+    "registrants": [
+      "Arnold & Porter Kaye Scholer LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "260000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313810220",
+    "clients": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "registrants": [
+      "Arnold & Porter Kaye Scholer LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "340000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313810329",
+    "clients": [
+      "Novo Nordisk, Inc."
+    ],
+    "registrants": [
+      "Arnold & Porter Kaye Scholer LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "300000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313810333",
+    "clients": [
+      "H.Q. ENERGY SERVICES (U.S.) INC."
+    ],
+    "registrants": [
+      "Arnold & Porter Kaye Scholer LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "210000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "313810343",
+    "clients": [
+      "Novo Nordisk A/S"
+    ],
+    "registrants": [
+      "Arnold & Porter Kaye Scholer LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "314290000",
+    "clients": [
+      "NESTLE USA"
+    ],
+    "registrants": [
+      "NESTLE USA"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1737352.00"
+  },
+  {
+    "house_relationship_id": "314340000",
+    "clients": [
+      "Nissan North America, Inc."
+    ],
+    "registrants": [
+      "Nissan North America, Inc."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "2770000.00"
+  },
+  {
+    "house_relationship_id": "315640064",
+    "clients": [
+      "Canadian National Railroad"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640167",
+    "clients": [
+      "Kurdistan Regional Government"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640216",
+    "clients": [
+      "Republic of India"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "450000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640507",
+    "clients": [
+      "Embassy of the Republic of Azerbaijan"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640516",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640566",
+    "clients": [
+      "Bayer Corporation"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640716",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315640764",
+    "clients": [
+      "JinkoSolar (U.S.) Inc."
+    ],
+    "registrants": [
+      "BGR Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315870316",
+    "clients": [
+      "Canada Life Reinsurance Company"
+    ],
+    "registrants": [
+      "Tiber Creek Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315870395",
+    "clients": [
+      "Dairy Farmers of Canada"
+    ],
+    "registrants": [
+      "Tiber Creek Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "315950542",
+    "clients": [
+      "DEACERO S.A.P.I. DE C.V."
+    ],
+    "registrants": [
+      "Greenberg Traurig, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316480241",
+    "clients": [
+      "Toyota Motor North America, Inc."
+    ],
+    "registrants": [
+      "ACG Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316480357",
+    "clients": [
+      "News Corporation"
+    ],
+    "registrants": [
+      "ACG Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316480360",
+    "clients": [
+      "Onex Corporation"
+    ],
+    "registrants": [
+      "ACG Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316760024",
+    "clients": [
+      "Toyota Motor Sales Inc."
+    ],
+    "registrants": [
+      "Policy Development Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316920000",
+    "clients": [
+      "Siemens Corporation"
+    ],
+    "registrants": [
+      "Siemens Corporation"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "3760000.00"
+  },
+  {
+    "house_relationship_id": "316990272",
+    "clients": [
+      "Yamaha Motor Corporation"
+    ],
+    "registrants": [
+      "Bracewell LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316990376",
+    "clients": [
+      "Cameco Corporation"
+    ],
+    "registrants": [
+      "Bracewell LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "280000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "316990395",
+    "clients": [
+      "Methanex (dba Methanex USA LLC, Methanex Louisiana LLC, Methanex Geismar III LLC"
+    ],
+    "registrants": [
+      "Bracewell LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317490225",
+    "clients": [
+      "Siemens Corporation"
+    ],
+    "registrants": [
+      "ALPINE GROUP PARTNERS, LLC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317840376",
+    "clients": [
+      "U.S. CHAMBER OF COMMERCE"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "60000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317840525",
+    "clients": [
+      "Bayer Corporation (FKA Monsanto Company)"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "250000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317840545",
+    "clients": [
+      "Siemens Corporation"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317840879",
+    "clients": [
+      "ZTE Corporation"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "790000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317840930",
+    "clients": [
+      "Esquel Enterprises Limited"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD",
+      "Akin, Gump, Strauss, Hauer & Feld"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "60000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317841119",
+    "clients": [
+      "Nippon Steel Corporation"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "3420000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317841188",
+    "clients": [
+      "INNIO Waukesha Gas Engines, Inc."
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "300000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317841201",
+    "clients": [
+      "Canadian Steel Producers Association"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "317841246",
+    "clients": [
+      "FANUC America Corporation"
+    ],
+    "registrants": [
+      "AKIN GUMP STRAUSS HAUER & FELD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318220199",
+    "clients": [
+      "Arianespace, Inc."
+    ],
+    "registrants": [
+      "INNOVATIVE FEDERAL STRATEGIES, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318270433",
+    "clients": [
+      "Samsung Semiconductor Inc. (SSI)"
+    ],
+    "registrants": [
+      "Covington & Burling LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318400000",
+    "clients": [
+      "British Airways, PLC"
+    ],
+    "registrants": [
+      "British Airways, PLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "10000.00"
+  },
+  {
+    "house_relationship_id": "318420003",
+    "clients": [
+      "VECTOR GROUP, LTD"
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "130000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420508",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "Brownstein Hyatt Farber Schreck, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "300000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420607",
+    "clients": [
+      "Marubeni Oil & Gas (USA) Inc."
+    ],
+    "registrants": [
+      "Brownstein Hyatt Farber Schreck, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420703",
+    "clients": [
+      "LISCR LLC"
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420816",
+    "clients": [
+      "Broken Hill Proprietary (USA) Inc."
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420887",
+    "clients": [
+      "Santos Limited"
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420943",
+    "clients": [
+      "Sumitomo Corporation of Americas"
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318420979",
+    "clients": [
+      "Los Angeles Organizing Committee for the Olympic and Paralympic Games 2028"
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "730000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318421032",
+    "clients": [
+      "Rubin Turnbull and Associates OBO Penske Truck Leasing Company, L.P."
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "318421084",
+    "clients": [
+      "AXA XL Global Services, Inc."
+    ],
+    "registrants": [
+      "BROWNSTEIN HYATT FARBER SCHRECK, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "50000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "319171674",
+    "clients": [
+      "Central American Bank for Economic Integration (CABEI)"
+    ],
+    "registrants": [
+      "Squire Patton Boggs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "319580436",
+    "clients": [
+      "BMO Financial Corp. f/k/a BMO Harris Bank"
+    ],
+    "registrants": [
+      "Venable LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "319580453",
+    "clients": [
+      "Agility Public Warehousing Company KSCP"
+    ],
+    "registrants": [
+      "Venable LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "321000097",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "Public Strategies Washington, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "321130440",
+    "clients": [
+      "Hyundai Motor America"
+    ],
+    "registrants": [
+      "DLA Piper LLP (US)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "321130453",
+    "clients": [
+      "Boston Dynamics, Inc."
+    ],
+    "registrants": [
+      "DLA Piper LLP (US)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "700000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "321130482",
+    "clients": [
+      "Coalition for Smarter Regulation of Nicotine"
+    ],
+    "registrants": [
+      "DLA Piper LLP (US)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "360000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "321130484",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "DLA Piper LLP (US)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "322070000",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "RAI Services Company"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "7260000.00"
+  },
+  {
+    "house_relationship_id": "322480000",
+    "clients": [
+      "ASSOCIATION OF AMERICAN RAILROADS"
+    ],
+    "registrants": [
+      "ASSOCIATION OF AMERICAN RAILROADS"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "5356079.00"
+  },
+  {
+    "house_relationship_id": "328840168",
+    "clients": [
+      "(Filed in Error) City of Inglewood",
+      "City of Inglewood"
+    ],
+    "registrants": [
+      "CARPI & CLAY, INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "329830028",
+    "clients": [
+      "Stark Aerospace, Inc."
+    ],
+    "registrants": [
+      "Emanuel & Associates, Inc. (fka Adam Emanuel)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "335890000",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "Novartis"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "7788000.00"
+  },
+  {
+    "house_relationship_id": "336750035",
+    "clients": [
+      "Cemex, Inc."
+    ],
+    "registrants": [
+      "Twenty-First Century Group, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "337650000",
+    "clients": [
+      "National Wildlife Federation"
+    ],
+    "registrants": [
+      "National Wildlife Federation"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "170000.00"
+  },
+  {
+    "house_relationship_id": "338540328",
+    "clients": [
+      "Cameco Corporation"
+    ],
+    "registrants": [
+      "Dentons US LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "210000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "338540489",
+    "clients": [
+      "US Chamber of Commerce"
+    ],
+    "registrants": [
+      "Dentons US LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "339620242",
+    "clients": [
+      "CRRC MA Corporation"
+    ],
+    "registrants": [
+      "ML Strategies, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "341590002",
+    "clients": [
+      "FEDERATION OF ELECTRIC POWER COMPANIES OF JAPAN"
+    ],
+    "registrants": [
+      "WASHINGTON POLICY & ANALYSIS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "342310041",
+    "clients": [
+      "CEMEX"
+    ],
+    "registrants": [
+      "DAWSON & ASSOCIATES, INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "343720000",
+    "clients": [
+      "HITACHI, LTD"
+    ],
+    "registrants": [
+      "HITACHI, LTD"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "330000.00"
+  },
+  {
+    "house_relationship_id": "345280416",
+    "clients": [
+      "BMW of North America, LLC"
+    ],
+    "registrants": [
+      "OGR"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "220000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "349060000",
+    "clients": [
+      "ARIANESPACE, INC"
+    ],
+    "registrants": [
+      "ARIANESPACE, INC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "240000.00"
+  },
+  {
+    "house_relationship_id": "352130000",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "T-Mobile USA, Inc."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "11144000.00"
+  },
+  {
+    "house_relationship_id": "352670010",
+    "clients": [
+      "CBI Sugar Group"
+    ],
+    "registrants": [
+      "Ryberg and Smith, L.L.C."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "352810000",
+    "clients": [
+      "EMBRAER AIRCRAFT HOLDING, INC."
+    ],
+    "registrants": [
+      "EMBRAER AIRCRAFT HOLDING, INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "240000.00"
+  },
+  {
+    "house_relationship_id": "353030000",
+    "clients": [
+      "CANADIAN NATIONAL RAILWAY COMPANY"
+    ],
+    "registrants": [
+      "CANADIAN NATIONAL RAILWAY COMPANY"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "720000.00"
+  },
+  {
+    "house_relationship_id": "356420000",
+    "clients": [
+      "JAPAN BANK FOR INTERNATIONAL COOPERATION",
+      "Japan Bank for International Cooperation"
+    ],
+    "registrants": [
+      "JAPAN BANK FOR INTERNATIONAL COOPERATION",
+      "Japan Bank for International Cooperation"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "357420019",
+    "clients": [
+      "RAI Services Company (fka Reynolds American, Inc.)",
+      "Reynolds American, Inc."
+    ],
+    "registrants": [
+      "Capitol Network LLC(fka Mr. David DiStefano)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "358040000",
+    "clients": [
+      "United States Steel Corporation"
+    ],
+    "registrants": [
+      "United States Steel Corporation"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "2530000.00"
+  },
+  {
+    "house_relationship_id": "358810000",
+    "clients": [
+      "Mitsubishi Electric US, Inc."
+    ],
+    "registrants": [
+      "Mitsubishi Electric US, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "400000.00"
+  },
+  {
+    "house_relationship_id": "358830249",
+    "clients": [
+      "International Group of P&I Clubs"
+    ],
+    "registrants": [
+      "BLANK ROME GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "358830269",
+    "clients": [
+      "DNV"
+    ],
+    "registrants": [
+      "BLANK ROME GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "70000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "358830330",
+    "clients": [
+      "Canadian National Railway"
+    ],
+    "registrants": [
+      "BLANK ROME GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "358830362",
+    "clients": [
+      "Blank Rome LLP (on behalf of Carnival Corporation)"
+    ],
+    "registrants": [
+      "BLANK ROME GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "affiliated_organization"
+    ],
+    "income_lower_bound": "50000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "358830368",
+    "clients": [
+      "Nippon Yusen Kaisha"
+    ],
+    "registrants": [
+      "BLANK ROME GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "359600103",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "NVG, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "440000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "359600114",
+    "clients": [
+      "Nintendo of America Inc."
+    ],
+    "registrants": [
+      "NVG, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "360510760",
+    "clients": [
+      "Yayasan Berbakti Semangat Indonesia"
+    ],
+    "registrants": [
+      "Cornerstone Government Affairs, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "360510798",
+    "clients": [
+      "US Chamber of Commerce"
+    ],
+    "registrants": [
+      "Cornerstone Government Affairs, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "361180168",
+    "clients": [
+      "News Corporation"
+    ],
+    "registrants": [
+      "CGCN GROUP, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "363450003",
+    "clients": [
+      "Toshiba Corporation"
+    ],
+    "registrants": [
+      "BlueWater Strategies"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "64000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "363710120",
+    "clients": [
+      "SCM Consulting Limited"
+    ],
+    "registrants": [
+      "DCI Group, L.L.C."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "363720000",
+    "clients": [
+      "DPWN Holdings (USA) Inc. (Formerly Known as Deutsche Post World Net-USA, Inc.)"
+    ],
+    "registrants": [
+      "DPWN Holdings (USA) Inc. (Formerly known as Deutsche Post World Net USA, Inc.)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "299150.00"
+  },
+  {
+    "house_relationship_id": "364650006",
+    "clients": [
+      "Federation of Electric Power Companies of Japan"
+    ],
+    "registrants": [
+      "Owen Evans Ingols"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "70000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "364730062",
+    "clients": [
+      "Institute of International Bankers"
+    ],
+    "registrants": [
+      "Rich Feuer Anderson"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "364730076",
+    "clients": [
+      "Zurich American Insurance Company"
+    ],
+    "registrants": [
+      "Rich Feuer Anderson"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "365480189",
+    "clients": [
+      "American Honda Motor Co., Inc. (formerly Honda North America)"
+    ],
+    "registrants": [
+      "FGS Global (US) LLC (FKA FGH Holdings LLC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "280000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "365590012",
+    "clients": [
+      "T-Mobile USA"
+    ],
+    "registrants": [
+      "TeleMedia Policy Corp."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "180000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "366610000",
+    "clients": [
+      "Framatome, Inc. (formely known as Areva, Inc.)"
+    ],
+    "registrants": [
+      "Framatome, Inc. (formely known as Areva, Inc.)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "220000.00"
+  },
+  {
+    "house_relationship_id": "367050019",
+    "clients": [
+      "Consorzio per la Tutela del Formaggio Pecorino Romano"
+    ],
+    "registrants": [
+      "Gibbons P.C."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "368440137",
+    "clients": [
+      "Hitachi, Ltd."
+    ],
+    "registrants": [
+      "Becker & Poliakoff, P.A."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "368590119",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "The Madison Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "150000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "368930178",
+    "clients": [
+      "Canadian Pacific Kansas City",
+      "Soo Line Corporation dba CPKC (f/k/a Canadian Pacific Kansas City)"
+    ],
+    "registrants": [
+      "Mehlman Consulting, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "260000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "369030000",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "Novo Nordisk Inc."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "7230000.00"
+  },
+  {
+    "house_relationship_id": "369690003",
+    "clients": [
+      "GENENTECH"
+    ],
+    "registrants": [
+      "The McManus Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "369690063",
+    "clients": [
+      "Roche Diagnostics"
+    ],
+    "registrants": [
+      "The McManus Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "369720027",
+    "clients": [
+      "Province of Saskatchewan"
+    ],
+    "registrants": [
+      "Nelson, Mullins, Riley & Scarborough"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "430000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "370290005",
+    "clients": [
+      "T-Mobile US, Inc."
+    ],
+    "registrants": [
+      "PutalaStrategies"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "373380130",
+    "clients": [
+      "Novo Nordisk, Inc."
+    ],
+    "registrants": [
+      "The Nickles Group, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "374340019",
+    "clients": [
+      "Bayer Corporation (Formerly known as MONSANTO COMPANY)"
+    ],
+    "registrants": [
+      "The Washington Tax & Public Policy Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "375020168",
+    "clients": [
+      "Johnson Matthey, Inc."
+    ],
+    "registrants": [
+      "Mindset Advocacy, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "375020172",
+    "clients": [
+      "RBC Capital Markets, LLC"
+    ],
+    "registrants": [
+      "Mindset Advocacy, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "220000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "375020180",
+    "clients": [
+      "Standard Chartered Bank"
+    ],
+    "registrants": [
+      "Mindset Advocacy, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "170000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "379190134",
+    "clients": [
+      "Association of Cyprus Banks"
+    ],
+    "registrants": [
+      "Pillsbury Winthrop Shaw Pittman LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "379190190",
+    "clients": [
+      "Rafael USA, Inc."
+    ],
+    "registrants": [
+      "Pillsbury Winthrop Shaw Pittman LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "720000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "380670052",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "Tarplin, Downs & Young, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "380670060",
+    "clients": [
+      "Boehringer Ingelheim"
+    ],
+    "registrants": [
+      "Tarplin, Downs & Young, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "280000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "380670072",
+    "clients": [
+      "SAS"
+    ],
+    "registrants": [
+      "Tarplin, Downs & Young, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "380670076",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "Tarplin, Downs & Young, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "380910013",
+    "clients": [
+      "(\"Bio\") Biotechnology Industry Organization"
+    ],
+    "registrants": [
+      "PORTERFIELD, FETTIG & SEARS, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "381040006",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "Aduston Consulting, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "383220033",
+    "clients": [
+      "Chamber of Marine Commerce"
+    ],
+    "registrants": [
+      "Miller & Wenhold Capitol Strategies"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "60000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "384290083",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "Monument Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "384290155",
+    "clients": [
+      "Boehringer Ingelheim USA Corporation"
+    ],
+    "registrants": [
+      "Monument Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "384290222",
+    "clients": [
+      "Johnson Matthey, Inc."
+    ],
+    "registrants": [
+      "Monument Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "384290227",
+    "clients": [
+      "PDI"
+    ],
+    "registrants": [
+      "Monument Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "384290253",
+    "clients": [
+      "Nestle USA"
+    ],
+    "registrants": [
+      "Monument Advocacy"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "385780044",
+    "clients": [
+      "Louis Dreyfus Company, LLC"
+    ],
+    "registrants": [
+      "Delta Strategy Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "360000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "386610000",
+    "clients": [
+      "INTERNATIONAL AIR TRANSPORT ASSOCIATION"
+    ],
+    "registrants": [
+      "INTERNATIONAL AIR TRANSPORT ASSOCIATION"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "80000.00"
+  },
+  {
+    "house_relationship_id": "391280147",
+    "clients": [
+      "Samsung Electronics America, Inc."
+    ],
+    "registrants": [
+      "Avoq, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "391280209",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "Avoq, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "391450145",
+    "clients": [
+      "Bayer Corporation"
+    ],
+    "registrants": [
+      "Invariant LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "392080003",
+    "clients": [
+      "Institute of Cetacean Research"
+    ],
+    "registrants": [
+      "Butterfield Evans & Associates LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "7000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "392150123",
+    "clients": [
+      "Akin Gump Strauss Hauer & Feld (on behalf of Nippon Steel Corporation)"
+    ],
+    "registrants": [
+      "Gephardt Group Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "70000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "393840073",
+    "clients": [
+      "RAI Services Company (formerly Reynolds American, Inc.)"
+    ],
+    "registrants": [
+      "Capitol Counsel LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "130000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "393840269",
+    "clients": [
+      "Bayer Corporation"
+    ],
+    "registrants": [
+      "Capitol Counsel LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "393840350",
+    "clients": [
+      "Innergex Renewable Development USA, LLC"
+    ],
+    "registrants": [
+      "Capitol Counsel, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "393840460",
+    "clients": [
+      "Province of Alberta"
+    ],
+    "registrants": [
+      "Capitol Counsel LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "540000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "395540054",
+    "clients": [
+      "Volvo Car Corporation"
+    ],
+    "registrants": [
+      "Kountoupes Denham Carr & Reid, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "395540125",
+    "clients": [
+      "Framatome, Inc."
+    ],
+    "registrants": [
+      "Kountoupes Denham Carr & Reid, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "20000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "396970000",
+    "clients": [
+      "SABIC Innovative Plastics US LLC"
+    ],
+    "registrants": [
+      "SABIC Innovative Plastics US LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "444000.00"
+  },
+  {
+    "house_relationship_id": "397840010",
+    "clients": [
+      "Royal Boskalis Westminster N.V."
+    ],
+    "registrants": [
+      "Samuels International Associates, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "398400078",
+    "clients": [
+      "ITC Modernization Alliance"
+    ],
+    "registrants": [
+      "Franklin Square Group, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "310000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "403690000",
+    "clients": [
+      "CEMEX Inc."
+    ],
+    "registrants": [
+      "CEMEX Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "960000.00"
+  },
+  {
+    "house_relationship_id": "404910029",
+    "clients": [
+      "Western States and Tribal Nations (WSTN)"
+    ],
+    "registrants": [
+      "HBW Resources"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "406220011",
+    "clients": [
+      "Atlas Lithium Corporation"
+    ],
+    "registrants": [
+      "Vision Americas LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "affiliated_organization",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "408690182",
+    "clients": [
+      "Hapag-Lloyd (America) LLC"
+    ],
+    "registrants": [
+      "Cozen O'Connor Public Strategies"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "210000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "410050043",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "TwinLogic Strategies, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "410050048",
+    "clients": [
+      "High Tech Inventors Alliance"
+    ],
+    "registrants": [
+      "TwinLogic Strategies, LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "410340002",
+    "clients": [
+      "National Council of Resistance of Iran"
+    ],
+    "registrants": [
+      "Rosemont Associates, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "164000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "411610032",
+    "clients": [
+      "Novartis Corporation"
+    ],
+    "registrants": [
+      "Thorn Run Partners"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "411610089",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "Thorn Run Partners"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "411660231",
+    "clients": [
+      "United States Steel Corporation"
+    ],
+    "registrants": [
+      "Crossroads Strategies, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "400000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "413770000",
+    "clients": [
+      "Northeastern University"
+    ],
+    "registrants": [
+      "Northeastern University"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1005000.00"
+  },
+  {
+    "house_relationship_id": "414830000",
+    "clients": [
+      "TransCanada Pipelines, Ltd"
+    ],
+    "registrants": [
+      "TransCanada Pipelines, Ltd"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "2720000.00"
+  },
+  {
+    "house_relationship_id": "414980000",
+    "clients": [
+      "Volvo Car Corporation"
+    ],
+    "registrants": [
+      "Volvo Car Corporation"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1495000.00"
+  },
+  {
+    "house_relationship_id": "415640007",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "Tiber Creek Health Strategies, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "416230000",
+    "clients": [
+      "Carnival Corporation (FKA Carnival North America LLC)",
+      "Carnival North America LLC"
+    ],
+    "registrants": [
+      "Carnival Corporation (FKA Carnival North America LLC)",
+      "Carnival North America LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "840000.00"
+  },
+  {
+    "house_relationship_id": "417200031",
+    "clients": [
+      "Samsung Electronics America, Inc."
+    ],
+    "registrants": [
+      "Roberti Global (fka Roberti White, LLC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "417320083",
+    "clients": [
+      "LVMH Moet Hennessy Louis Vuitton Inc."
+    ],
+    "registrants": [
+      "S-3 Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "417320203",
+    "clients": [
+      "Brunswick Corporation"
+    ],
+    "registrants": [
+      "S-3 Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "417350000",
+    "clients": [
+      "RBC Capital Markets, LLC",
+      "RBC Capital Markets, LLC (formerly registered as Royal Bank of Canada)"
+    ],
+    "registrants": [
+      "RBC Capital Markets, LLC",
+      "RBC Capital Markets, LLC (formerly registered as Royal Bank of Canada)"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1110000.00"
+  },
+  {
+    "house_relationship_id": "418640000",
+    "clients": [
+      "BMW of North America, LLC"
+    ],
+    "registrants": [
+      "BMW of North America, LLC"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1270000.00"
+  },
+  {
+    "house_relationship_id": "420260027",
+    "clients": [
+      "Carnival Corporation"
+    ],
+    "registrants": [
+      "Penn Avenue Partners"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "440000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "421310002",
+    "clients": [
+      "American Honda Motor Co., Inc."
+    ],
+    "registrants": [
+      "Forbes-Tate"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "280000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "421310134",
+    "clients": [
+      "Novartis, Inc."
+    ],
+    "registrants": [
+      "Forbes-Tate"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "422590079",
+    "clients": [
+      "Brita"
+    ],
+    "registrants": [
+      "Banner Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "300000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "422590083",
+    "clients": [
+      "Xtend Reality, Inc."
+    ],
+    "registrants": [
+      "Banner Public Affairs, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "60000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "422830035",
+    "clients": [
+      "AXA SA"
+    ],
+    "registrants": [
+      "FTI Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "422830132",
+    "clients": [
+      "CEMEX, Inc."
+    ],
+    "registrants": [
+      "FTI Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "422830159",
+    "clients": [
+      "Tetra Pak"
+    ],
+    "registrants": [
+      "FTI Government Affairs"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "423740000",
+    "clients": [
+      "Samsung Electronics America, Inc."
+    ],
+    "registrants": [
+      "Samsung Electronics America, Inc."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "5710000.00"
+  },
+  {
+    "house_relationship_id": "424230000",
+    "clients": [
+      "Fonterra Cooperative Group Limited"
+    ],
+    "registrants": [
+      "Fonterra Cooperative Group Limited"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "426370032",
+    "clients": [
+      "Stark Aerospace"
+    ],
+    "registrants": [
+      "Bramer Group, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "126500.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "426590021",
+    "clients": [
+      "Bayer Corporation"
+    ],
+    "registrants": [
+      "Todd Strategy Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "426590030",
+    "clients": [
+      "Novartis, Inc."
+    ],
+    "registrants": [
+      "Todd Strategy Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "426590070",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "Todd Strategy Group"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "427720077",
+    "clients": [
+      "Siemens Corporation"
+    ],
+    "registrants": [
+      "Fierce Government Relations"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "427870039",
+    "clients": [
+      "NUTRIEN US LLC"
+    ],
+    "registrants": [
+      "Venture Government Strategies, LLC (fka Hobart Hallaway & Quayle Ventures, LLC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "427870082",
+    "clients": [
+      "LIV Golf, Inc"
+    ],
+    "registrants": [
+      "Venture Government Strategies, LLC (fka Hobart Hallaway & Quayle Ventures, LLC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "427870137",
+    "clients": [
+      "Bombardier Aerospace Corporation"
+    ],
+    "registrants": [
+      "Venture Government Strategies, LLC (fka Hobart Hallaway & Quayle Ventures, LLC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "428410137",
+    "clients": [
+      "Westinghouse Electric Co. LLC"
+    ],
+    "registrants": [
+      "Michael Best Strategies LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "300000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "428550037",
+    "clients": [
+      "Maurel & Prom"
+    ],
+    "registrants": [
+      "McLarty Inbound LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "190000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "430770047",
+    "clients": [
+      "Siemens Corporation"
+    ],
+    "registrants": [
+      "TheGROUP DC, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "150000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "432110001",
+    "clients": [
+      "BMO Bank N.A. (fka BMO HARRIS BANK N.A.)"
+    ],
+    "registrants": [
+      "BMO Bank N.A. (fka BMO HARRIS BANK N.A.)"
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "1200000.00"
+  },
+  {
+    "house_relationship_id": "432210001",
+    "clients": [
+      "News Corporation"
+    ],
+    "registrants": [
+      "News Corporation"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "800000.00"
+  },
+  {
+    "house_relationship_id": "434120002",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "Goldstein Policy Solutions LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434580001",
+    "clients": [
+      "AMERICAN PRESIDENT LINES, LLC. (formerly Ltd.)",
+      "American President Lines, LLC"
+    ],
+    "registrants": [
+      "American President Lines, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "200000.00"
+  },
+  {
+    "house_relationship_id": "434770006",
+    "clients": [
+      "RAI Services Company (FKA- RAISC)"
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "560000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770074",
+    "clients": [
+      "Leonardo DRS, Inc."
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "190000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770341",
+    "clients": [
+      "Akin Gump Strauss Hauer & Feld (on behalf of Nippon Steel Corporation)"
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "180000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770402",
+    "clients": [
+      "Los Angeles Organizing Committee for the Olympic and Paralympic Games 2028"
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "330000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770409",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "360000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770410",
+    "clients": [
+      "BMW of North America LLC"
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "320000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770416",
+    "clients": [
+      "TotalEnergies EP Mozambique Area 1"
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "770000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "434770518",
+    "clients": [
+      "Novo Nordisk Inc."
+    ],
+    "registrants": [
+      "BALLARD PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "280000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "435030002",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "ROWLAND STRATEGY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "435050239",
+    "clients": [
+      "Carnival Corporation"
+    ],
+    "registrants": [
+      "Miller Strategies, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "20000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "436200005",
+    "clients": [
+      "Sony Corporation of America"
+    ],
+    "registrants": [
+      "Kevin Kayes LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "436240001",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "HR Strategies LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "180000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "436270001",
+    "clients": [
+      "JOHNSON MATTHEY INC."
+    ],
+    "registrants": [
+      "JOHNSON MATTHEY INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "550000.00"
+  },
+  {
+    "house_relationship_id": "436610017",
+    "clients": [
+      "BMW of North America. LLC"
+    ],
+    "registrants": [
+      "Neale Creek, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "437320029",
+    "clients": [
+      "Mitsubishi Electric Trane HVAC US LLC."
+    ],
+    "registrants": [
+      "BOUNDARY STONE PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "437850002",
+    "clients": [
+      "Royal Boskalis Westminster N.V."
+    ],
+    "registrants": [
+      "THE GUTMAN GROUP, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "438130015",
+    "clients": [
+      "ENGIE NORTH AMERICA, INC."
+    ],
+    "registrants": [
+      "LOT SIXTEEN LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "438130066",
+    "clients": [
+      "Hitachi Energy USA Inc."
+    ],
+    "registrants": [
+      "LOT SIXTEEN LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "80000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "438520040",
+    "clients": [
+      "Canadian National Railway Company"
+    ],
+    "registrants": [
+      "Tai Ginsberg & Associates, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "90000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "438740011",
+    "clients": [
+      "Sumitomo Corporation of Americas"
+    ],
+    "registrants": [
+      "CAPITAL PARK PARTNERS LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "438740015",
+    "clients": [
+      "Itochu Aviation, Inc."
+    ],
+    "registrants": [
+      "CAPITAL PARK PARTNERS LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "438940126",
+    "clients": [
+      "U.S. Chamber of Commerce"
+    ],
+    "registrants": [
+      "HB STRATEGIES",
+      "HB Strategies"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "205000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439180178",
+    "clients": [
+      "Gotion, Inc."
+    ],
+    "registrants": [
+      "THE VOGEL GROUP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "665000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439180232",
+    "clients": [
+      "NSO Group"
+    ],
+    "registrants": [
+      "THE VOGEL GROUP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "90000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439180239",
+    "clients": [
+      "Mitsubishi Electric US, Inc."
+    ],
+    "registrants": [
+      "THE VOGEL GROUP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "90000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439180253",
+    "clients": [
+      "Canadian National Railway"
+    ],
+    "registrants": [
+      "THE VOGEL GROUP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439230041",
+    "clients": [
+      "HYUNDAI MOTOR COMPANY"
+    ],
+    "registrants": [
+      "CHARTWELL STRATEGY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "640000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439230061",
+    "clients": [
+      "NSO Group"
+    ],
+    "registrants": [
+      "CHARTWELL STRATEGY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439230063",
+    "clients": [
+      "Mayer Brown on behalf of Freedom Holding Corp"
+    ],
+    "registrants": [
+      "CHARTWELL STRATEGY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "affiliated_organization"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439350027",
+    "clients": [
+      "RAI Services Company (Formerly known as Reynolds American)"
+    ],
+    "registrants": [
+      "FEROX STRATEGIES"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "280000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "439380001",
+    "clients": [
+      "JINKOSOLAR (U.S.) INC."
+    ],
+    "registrants": [
+      "JINKOSOLAR (U.S.) INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "360000.00"
+  },
+  {
+    "house_relationship_id": "440330015",
+    "clients": [
+      "CEMEX Inc"
+    ],
+    "registrants": [
+      "O'Keeffe Shahmoradi Strategies, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "440390001",
+    "clients": [
+      "Soo Line Railroad Company"
+    ],
+    "registrants": [
+      "Soo Line Railroad Company"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "522000.00"
+  },
+  {
+    "house_relationship_id": "440650028",
+    "clients": [
+      "PowerEx Corp."
+    ],
+    "registrants": [
+      "ATLAS CROSSING LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "441010004",
+    "clients": [
+      "Samsung Electronics America"
+    ],
+    "registrants": [
+      "CAPITOL CONSULTING GROUP LLC (DC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "250000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "441010008",
+    "clients": [
+      "British American Tobacco",
+      "RAI Services Company",
+      "RAI Services Company (FKA BRITISH AMERICAN TOBACCO)"
+    ],
+    "registrants": [
+      "CAPITOL CONSULTING GROUP LLC (DC)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "441040002",
+    "clients": [
+      "Lufthansa German Airlines"
+    ],
+    "registrants": [
+      "CAPITOL POINT GROUP, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "441120001",
+    "clients": [
+      "SUMITOMO CORPORATION OF AMERICAS"
+    ],
+    "registrants": [
+      "SUMITOMO CORPORATION OF AMERICAS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "280000.00"
+  },
+  {
+    "house_relationship_id": "442130001",
+    "clients": [
+      "STANDARD CHARTERED BANK",
+      "STANDARD CHARTERED BANK (FRA STANDARD CHARTERED BANK NEW YORK BRANCH)"
+    ],
+    "registrants": [
+      "STANDARD CHARTERED BANK",
+      "STANDARD CHARTERED BANK (FRA STANDARD CHARTERED BANK NEW YORK BRANCH)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "640000.00"
+  },
+  {
+    "house_relationship_id": "442220001",
+    "clients": [
+      "NUTRIEN US LLC (Formerly Known as AGRIUM U.S. INC.) (a Nutrien Ltd subsidiary)"
+    ],
+    "registrants": [
+      "NUTRIEN US LLC (Formerly Known as AGRIUM U.S. INC.) (a Nutrien Ltd subsidiary)."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "2160000.00"
+  },
+  {
+    "house_relationship_id": "442420031",
+    "clients": [
+      "News Corporation"
+    ],
+    "registrants": [
+      "RESOLUTION PUBLIC AFFAIRS, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "442990057",
+    "clients": [
+      "U.S. Chamber of Commerce"
+    ],
+    "registrants": [
+      "FULCRUM PUBLIC AFFAIRS LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "443410003",
+    "clients": [
+      "Embassy of the State of Qatar"
+    ],
+    "registrants": [
+      "BACHNER GROUP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "550000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "443570001",
+    "clients": [
+      "High Tech Inventors Alliance"
+    ],
+    "registrants": [
+      ""
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "440000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "443720009",
+    "clients": [
+      "Industrias Penoles, S.A.B. de C.V."
+    ],
+    "registrants": [
+      "IQOM STRATEGIC ADVISORS, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "444150001",
+    "clients": [
+      "FUTUREWEI TECHNOLOGIES, INC."
+    ],
+    "registrants": [
+      "FUTUREWEI TECHNOLOGIES, INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "444790004",
+    "clients": [
+      "News Corporation"
+    ],
+    "registrants": [
+      "BL PARTNERS GROUP, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "444790007",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "BL PARTNERS GROUP, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "445510038",
+    "clients": [
+      "CRRC MA Corporation"
+    ],
+    "registrants": [
+      "ELEVATE GOVERNMENT AFFAIRS, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "445970007",
+    "clients": [
+      "BMO Financial Corp."
+    ],
+    "registrants": [
+      "1607 STRATEGIES, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "446420002",
+    "clients": [
+      "Droit de Naitre"
+    ],
+    "registrants": [
+      "THE FOUNDATION FOR A CHRISTIAN CIVILIZATION, INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "446440042",
+    "clients": [
+      "Fujitsu"
+    ],
+    "registrants": [
+      "SALT POINT STRATEGIES"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "446570001",
+    "clients": [
+      "ATOLLetc LLC"
+    ],
+    "registrants": [
+      "ATOLLetc LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "446830001",
+    "clients": [
+      "Tony's Chocolonely"
+    ],
+    "registrants": [
+      ""
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "447560007",
+    "clients": [
+      "Toyota"
+    ],
+    "registrants": [
+      "H&M STRATEGIES LLP"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "447700007",
+    "clients": [
+      "SAS"
+    ],
+    "registrants": [
+      "GROUNDSWELL STRATEGY LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "22000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "447850002",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "EQV STRATEGIC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "447950003",
+    "clients": [
+      "Akin Gump Strauss Hauer & Feld LLP on behalf of Nippon Steel"
+    ],
+    "registrants": [
+      "VOX GLOBAL"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "450670001",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "HOLLIS PUBLIC AFFAIRS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "200000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "451060012",
+    "clients": [
+      "BHFS OBO Los Angeles Organizing Committee for the Olympic & Paralympic Games 28"
+    ],
+    "registrants": [
+      "NORTHERN COMPASS GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "452430035",
+    "clients": [
+      "Embraer Aircraft Holdings, Inc"
+    ],
+    "registrants": [
+      "RUBIN, TURNBULL & ASSOCIATES"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "60000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "452500009",
+    "clients": [
+      "Peter Damon Group on behalf of RAI Services Company"
+    ],
+    "registrants": [
+      "Old North Strategies, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "125000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "453570058",
+    "clients": [
+      "Samsung Electronics America"
+    ],
+    "registrants": [
+      "CONTINENTAL STRATEGY, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "300000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "453570070",
+    "clients": [
+      "Consejo Mexicano de Negocios"
+    ],
+    "registrants": [
+      "CONTINENTAL STRATEGY, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "affiliated_organization"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "453570101",
+    "clients": [
+      "XTEND Reality Inc."
+    ],
+    "registrants": [
+      "CONTINENTAL STRATEGY, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "125000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "453910080",
+    "clients": [
+      "National Association of Software and Service Companies"
+    ],
+    "registrants": [
+      "ACTUM I, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "455420001",
+    "clients": [
+      "Urenco USA Inc."
+    ],
+    "registrants": [
+      "Urenco USA Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "370000.00"
+  },
+  {
+    "house_relationship_id": "456220027",
+    "clients": [
+      "Bozel North America, LLC"
+    ],
+    "registrants": [
+      "CR Federal"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "26250.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "456220028",
+    "clients": [
+      "Polymet Alloys, Inc."
+    ],
+    "registrants": [
+      "CR Federal"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "26250.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "558690003",
+    "clients": [
+      "Korea International Trade Association"
+    ],
+    "registrants": [
+      "YC Consulting, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "559200013",
+    "clients": [
+      "ATS Group DOOEL Skopje"
+    ],
+    "registrants": [
+      "VALCOUR LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity"
+    ],
+    "income_lower_bound": "680000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "559370011",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "OnMessage Public Strategies"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "40000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "559800003",
+    "clients": [
+      "Colt's Manufacturing Company, LLC"
+    ],
+    "registrants": [
+      "Corrigan & Ussery LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "560620001",
+    "clients": [
+      "DCI Group, L.L.C. on behalf of SCM Consulting Limited"
+    ],
+    "registrants": [
+      "GLASSMAN ENTERPRISES, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "561740001",
+    "clients": [
+      "KOREA INTERNATIONAL TRADE ASSOCIATION"
+    ],
+    "registrants": [
+      "KOREA INTERNATIONAL TRADE ASSOCIATION"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "367813.00"
+  },
+  {
+    "house_relationship_id": "561940001",
+    "clients": [
+      "CDPQ U.S. INC."
+    ],
+    "registrants": [
+      "CDPQ U.S. INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "561950001",
+    "clients": [
+      "Korea International Trade Association"
+    ],
+    "registrants": [
+      "Thomas Capitol Partners, Inc."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "561980001",
+    "clients": [
+      "Lloyd's of London"
+    ],
+    "registrants": [
+      "HOWARD LAW & POLICY GROUP PLLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "380000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "563980001",
+    "clients": [
+      "Balfour Beatty Investments"
+    ],
+    "registrants": [
+      "Balfour Beatty Investments"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "350000.00"
+  },
+  {
+    "house_relationship_id": "564140054",
+    "clients": [
+      "Martin Baker Aircraft Co., Ltd."
+    ],
+    "registrants": [
+      "DB3, LLC (fka THE DASCHLE GROUP)",
+      "DB3, LLC (fka The Daschle Group)"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "130000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "564690003",
+    "clients": [
+      "T-Mobile USA, Inc."
+    ],
+    "registrants": [
+      "CONVERGENCE STRATEGIES, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "564700001",
+    "clients": [
+      "Gotion Inc."
+    ],
+    "registrants": [
+      "Gotion Inc."
+    ],
+    "major": true,
+    "disposition": "reviewed major discovery relationship; see original reconciliation and role review",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "2459072.00"
+  },
+  {
+    "house_relationship_id": "564960001",
+    "clients": [
+      "Akin Gump Strauss Hauer & Feld LLP obo Nippon Steel Corporation"
+    ],
+    "registrants": [
+      "VALIANT STRATEGIES LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "565120001",
+    "clients": [
+      "Indian Pharmaceutical Alliance(formerly Indian Pharmaceutical Association)"
+    ],
+    "registrants": [
+      "MEDSECUREAN.COM"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "945000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "565230004",
+    "clients": [
+      "Leadremit Inc.,"
+    ],
+    "registrants": [
+      "B Archetype"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "565660001",
+    "clients": [
+      "DOMTAR CORPORATION"
+    ],
+    "registrants": [
+      "DOMTAR CORPORATION"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "890000.00"
+  },
+  {
+    "house_relationship_id": "565700001",
+    "clients": [
+      "Trace Group Hold Plc"
+    ],
+    "registrants": [
+      "BLACKSUMMIT CAPITAL LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "566720011",
+    "clients": [
+      "Stolt Tankers USA, Inc."
+    ],
+    "registrants": [
+      "RIDGE PATH STRATEGIES"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567270016",
+    "clients": [
+      "Novartis"
+    ],
+    "registrants": [
+      "CORCORAN & ASSOCIATES, INC. DBA CORCORAN PARTNERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "170000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567390003",
+    "clients": [
+      "Novo Nordisk, Inc."
+    ],
+    "registrants": [
+      "CHECKMATE GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "360000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567390063",
+    "clients": [
+      "Beretta USA Corp"
+    ],
+    "registrants": [
+      "CHECKMATE GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "140000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567390080",
+    "clients": [
+      "Zygmunt Solorz"
+    ],
+    "registrants": [
+      "CHECKMATE GOVERNMENT RELATIONS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567530001",
+    "clients": [
+      "Union of Oil and Gas Producers Russia"
+    ],
+    "registrants": [
+      "QORVIS HOLDING INC - GEOPOLS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "10000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567570001",
+    "clients": [
+      "RAI Services Company"
+    ],
+    "registrants": [
+      "",
+      "Mr. Albert Wynn"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "567850008",
+    "clients": [
+      "BMO Bank N.A."
+    ],
+    "registrants": [
+      "MARBLE ARCH"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "180000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "568020001",
+    "clients": [
+      "Mr. Tobias Peter Noskwith"
+    ],
+    "registrants": [
+      "",
+      "Mr. Tobias Peter Noskwith"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "10000.00"
+  },
+  {
+    "house_relationship_id": "668780009",
+    "clients": [
+      "CEMEX, Inc."
+    ],
+    "registrants": [
+      "RIDGELINE ADVOCACY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "160000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "668780019",
+    "clients": [
+      "FTI Consulting on behalf of ST Engineering"
+    ],
+    "registrants": [
+      "RIDGELINE ADVOCACY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "30000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "668780022",
+    "clients": [
+      "FTI Consulting on behalf of Tetra Pak"
+    ],
+    "registrants": [
+      "RIDGELINE ADVOCACY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "affiliated_organization"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "668780025",
+    "clients": [
+      "ST Engineering North America, Inc",
+      "STE North America Inc. (Formerly ST Engineering North America, Inc.)"
+    ],
+    "registrants": [
+      "RIDGELINE ADVOCACY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "150000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "668780030",
+    "clients": [
+      "Tetra Pak Inc."
+    ],
+    "registrants": [
+      "RIDGELINE ADVOCACY GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "240000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "668830018",
+    "clients": [
+      "Institut Macaya"
+    ],
+    "registrants": [
+      "TSG ADVOCATES DC, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "90000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "769300001",
+    "clients": [
+      "DIGITALEUROPE"
+    ],
+    "registrants": [
+      "VIVID STRATEGIES LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client",
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "78000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "769700001",
+    "clients": [
+      "CANADIAN ASSOCIATION OF PETROLEUM PRODUCERS"
+    ],
+    "registrants": [
+      "CANADIAN ASSOCIATION OF PETROLEUM PRODUCERS"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "770500003",
+    "clients": [
+      "National Wildlife Federation"
+    ],
+    "registrants": [
+      "MAVEN ADVOCACY PARTNERS LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "70000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "770810028",
+    "clients": [
+      "Santos Limited"
+    ],
+    "registrants": [
+      "THE BERNHARDT GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "770810038",
+    "clients": [
+      "Marubeni Oil & Gas (USA) Inc."
+    ],
+    "registrants": [
+      "THE BERNHARDT GROUP LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity",
+      "foreign_interest_mention"
+    ],
+    "income_lower_bound": "120000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "770990018",
+    "clients": [
+      "Tiber Creek Group obo Siemens Healthineers"
+    ],
+    "registrants": [
+      "B HALL STRATEGIES, LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "90000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "771190001",
+    "clients": [
+      "Central American Bank for Economic Integration (CABEI)"
+    ],
+    "registrants": [
+      "PUENTES GLOBAL ADVISORY LLC"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "20000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "771510001",
+    "clients": [
+      "FUSION INDUSTRY ASSOCIATION"
+    ],
+    "registrants": [
+      "FUSION INDUSTRY ASSOCIATION"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "foreign_entity"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "772270001",
+    "clients": [
+      "BRUNSWICK CORPORATION"
+    ],
+    "registrants": [
+      "BRUNSWICK CORPORATION"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "120000.00"
+  },
+  {
+    "house_relationship_id": "772370001",
+    "clients": [
+      "Brita"
+    ],
+    "registrants": [
+      "CURRENT STRATEGIES"
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "100000.00",
+    "expense_lower_bound": "0"
+  },
+  {
+    "house_relationship_id": "773390001",
+    "clients": [
+      "TETRA PAK, INC."
+    ],
+    "registrants": [
+      "TETRA PAK, INC."
+    ],
+    "major": false,
+    "disposition": "did not qualify on acquired numeric annual data; not a compliance clearance",
+    "discovery_roles": [
+      "client"
+    ],
+    "income_lower_bound": "0",
+    "expense_lower_bound": "360000.00"
+  }
+]

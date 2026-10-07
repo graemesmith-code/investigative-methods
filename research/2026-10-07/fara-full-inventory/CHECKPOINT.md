@@ -1,3 +1,5 @@
+> Superseded by [REPORT.md](REPORT.md). The final narrative audit found explicit foreign-parent disclosures in Honda and Novartis quarterly filings; earlier hidden-control interpretations are withdrawn.
+
 # Foreign control and lobbying: full-inventory checkpoint
 
 **This is an expanded acquisition and source-review checkpoint, not a completed investigation or a validated Jev ranking. No concealment finding is established.** The wider screen has produced a new historical document inconsistency worth investigating, several explicit disclosures, and important warnings about relying on database fields.

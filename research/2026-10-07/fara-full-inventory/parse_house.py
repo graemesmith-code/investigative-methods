@@ -35,6 +35,8 @@ def run():
                     assert root.tag in ('LOBBYINGDISCLOSURE1','LOBBYINGDISCLOSURE2')
                     fields={c.tag:(c.text or '').strip() for c in root if not list(c)}
                     fields['foreign_entities']=[{c.tag:(c.text or '').strip() for c in entity} for entity in root.findall('.//foreignEntity') if any((c.text or '').strip() for c in entity)]
+                    fields['affiliated_organizations']=[{c.tag:(c.text or '').strip() for c in entity} for entity in root.findall('.//affiliatedOrg') if (entity.findtext('affiliatedOrgName') or '').strip()]
+                    fields['foreign_interest_narratives']=[(e.text or '').strip() for e in root.findall('.//foreign_entity_issues') if (e.text or '').strip()]
                     fields['removed_foreign_entities']=[(e.text or '').strip() for e in root.findall('.//inactive_ForeignEntity') if (e.text or '').strip()]
                     fields['specific_issue_text']=[(e.text or '').strip() for e in root.findall('.//description') if (e.text or '').strip()]
                     docid=pathlib.PurePosixPath(info.filename).stem;stamp=signed(fields.get('signedDate',''));bad_dates+=stamp is None;types[fields.get('reportType','')]+=1
