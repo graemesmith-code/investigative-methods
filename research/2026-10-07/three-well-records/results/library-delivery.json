@@ -1,0 +1,23 @@
+{
+  "operation": "create_library_file",
+  "status": "succeeded",
+  "path": "/Alberta-three-well-records-2026-10-07.zip",
+  "file_id": "file_00000000b6cc820a9d5d91b1d11d4f3c",
+  "library_file_id": "libfile_eaa64e65b0608191bbec22506ecf822c",
+  "file_name": "Alberta-three-well-records-2026-10-07.zip",
+  "current_version_number": 0,
+  "restored_from_version_number": null,
+  "xattrs": [
+    {
+      "name": "user.library-file-version",
+      "value": "0"
+    }
+  ],
+  "directory_id": "libdir_7140f0a850fc8191b258e19ebc6bf00e",
+  "mime_type": "application/zip",
+  "library_artifact_type": "other",
+  "file_size_bytes": 1162481,
+  "external_connectors_accessed": false,
+  "bundle_sha256": "427c16d05d54404953f2e55d9cc975fdeb6f3314a2f6ab76bde1420000d668d6",
+  "entries": 21
+}

@@ -29,3 +29,5 @@ Event anchors: February 22, 2025 **14:05:18 UTC / 07:05:18 MST**, NRCan ca2025ds
 Current ST37 labels all three production strings **Non Confidential**. That is a present snapshot, not a guarantee that every requested document is available or unredacted. Confirm holdings and any restrictions with the custodian before payment. The disposal-progress product is outside this HF follow-up and is not recommended.
 
 Do not buy the standard package merely on the assumption it supplies sub-day logs. First resolve the actual content and identifier questions above. Any outbound inquiry, ATI filing or purchase needs separate authorization; none is implicit in this prepared specification.
+
+Historical identity clarification: original application records show Vesta business associate A0L1, while current records show A97L. Request the exact well-level transition and effective date; the amalgamation notice does not establish continuity of those AER codes.

@@ -1,23 +1,26 @@
 [
   {
     "licence": "0515889",
-    "source": "../../2026-10-06/alberta-seismic-injection/sources/iar-search-0515889.html",
+    "source": "sources/iar-search-0515889.html",
+    "prior_root": "research/2026-10-06/alberta-seismic-injection",
     "sha256": "98b2415ec3e6ec144733a7c341d361534643f5322d1e8ed3dc5e0ddc166eab4e",
     "displayed_total": 0,
-    "inference": "Zero in this query/index only, not absence of applications or consent; OneStop separately returned documents."
+    "inference": "Zero in this query/index only; never proof records or consent absent."
   },
   {
     "licence": "0516327",
-    "source": "../../2026-10-06/alberta-seismic-injection/sources/iar-search-0516327.html",
+    "source": "sources/iar-search-0516327.html",
+    "prior_root": "research/2026-10-06/alberta-seismic-injection",
     "sha256": "cf42bbeebb82070cf588774ba8273620d0af6f6dd4f0e312e06e86c1b5842fd2",
     "displayed_total": 0,
-    "inference": "Zero in this query/index only, not absence of applications or consent; OneStop separately returned documents."
+    "inference": "Zero in this query/index only; never proof records or consent absent."
   },
   {
     "licence": "0516328",
-    "source": "../../2026-10-06/alberta-seismic-injection/sources/iar-search-0516328.html",
+    "source": "sources/iar-search-0516328.html",
+    "prior_root": "research/2026-10-06/alberta-seismic-injection",
     "sha256": "09978342f020ac8d6ab05c1adbf227964aac2860fbc60ff73d18a506315a3063",
     "displayed_total": 0,
-    "inference": "Zero in this query/index only, not absence of applications or consent; OneStop separately returned documents."
+    "inference": "Zero in this query/index only; never proof records or consent absent."
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "preserved_commit": "e3986e42a96ab70cbd1ed88e9123fecacbb59fb3",
+  "root": "research/2026-10-06/alberta-seismic-injection",
+  "files": [
+    {
+      "path": "sources/petrinex-vol-2025-02.zip",
+      "bytes": 7976008,
+      "sha256": "bd8d6172048959625851cbe1419e1bc8bde396f66f748b88cd8ce8200e9307c7"
+    },
+    {
+      "path": "sources/petrinex-operator-history.zip",
+      "bytes": 7215914,
+      "sha256": "07045e85bf155ef08d46781b2aec27e176614f6c6f7f82977abfd60866de531b"
+    },
+    {
+      "path": "results/evidence-packets.json",
+      "bytes": 70230,
+      "sha256": "9555725e16d1a1301fd5fac01086cff783f5932c3ea86f397ba81f2051d49c06"
+    },
+    {
+      "path": "results/st37-ST37_Surface_Holes.json",
+      "bytes": 4878837,
+      "sha256": "a3774125d453742195a4dea0f794ddea9afd1c90c26799a8b18b8bd129a05aad"
+    },
+    {
+      "path": "results/st37-ST_37_Bottom_Hole.json",
+      "bytes": 6445541,
+      "sha256": "f520c849619bb1663efb625ae54d398741b2645ebc5ffc2f6597c8c5b59a6bf1"
+    },
+    {
+      "path": "results/st37-Production_String.json",
+      "bytes": 11625586,
+      "sha256": "4f93116631100db0a38aca7159a4ad61b7d04fd9bfc43a15690506b80de2d03f"
+    },
+    {
+      "path": "sources/iar-search-0515889.html",
+      "bytes": 24898,
+      "sha256": "98b2415ec3e6ec144733a7c341d361534643f5322d1e8ed3dc5e0ddc166eab4e"
+    },
+    {
+      "path": "sources/iar-search-0516327.html",
+      "bytes": 24898,
+      "sha256": "cf42bbeebb82070cf588774ba8273620d0af6f6dd4f0e312e06e86c1b5842fd2"
+    },
+    {
+      "path": "sources/iar-search-0516328.html",
+      "bytes": 24898,
+      "sha256": "09978342f020ac8d6ab05c1adbf227964aac2860fbc60ff73d18a506315a3063"
+    }
+  ]
+}

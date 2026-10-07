@@ -21,3 +21,12 @@ assert all(r['origins']==r['magnitudes']==1 and r['picks']==r['arrivals']==0 for
 prior=json.loads((P/'results/prior-iar-count-check.json').read_text());assert all(x['displayed_total']==0 for x in prior)
 checks.append({'check':'original IAR zero counts distinguished from new errors','passed':True})
 (P/'results/validation.json').write_text(json.dumps(checks,indent=2)+'\n');print(json.dumps(checks,indent=2))
+for r in json.loads((P/'results/source-inventory.json').read_text()):
+ assert hashlib.sha256((P/r['path']).read_bytes()).hexdigest()==r['sha256']
+deps=json.loads((P/'results/prior-source-dependencies.json').read_text());old=P.parents[1]/'2026-10-06/alberta-seismic-injection'
+for r in deps['files']:assert hashlib.sha256((old/r['path']).read_bytes()).hexdigest()==r['sha256']
+c=json.loads((P/'results/coordinate-history-audit.json').read_text());assert len(c['packets'])==9
+for r in c['packets']:assert abs(r['surface_distance_recomputed_km']-r['prior_surface_distance_km'])<0.000001 and r['historical_stage_distance_km'] is None
+checks.append({'check':'complete retained source inventory and frozen prior dependencies','passed':True,'sources':len(json.loads((P/'results/source-inventory.json').read_text())),'prior_inputs':len(deps['files'])})
+checks.append({'check':'nine surface distances reproduced; historical stage distances explicitly unknown','passed':True})
+(P/'results/validation.json').write_text(json.dumps(checks,indent=2)+'\n');print('Additional provenance and coordinate checks passed.')

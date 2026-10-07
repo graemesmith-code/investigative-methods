@@ -1,0 +1,129 @@
+{
+  "surface_coordinates": {
+    "0515889": {
+      "lat": 52.22194,
+      "lon": -114.000452,
+      "original_licence_pdf": "sources/public-documents/33151710-33151712-1-Well-Licence-0515889.pdf",
+      "matches_later_ST37_surface": true,
+      "datum_label": "NAD83 ATS 4.1"
+    },
+    "0516327": {
+      "lat": 52.22212,
+      "lon": -114.000452,
+      "original_licence_pdf": "sources/public-documents/33174496-33174506-1-Well-Licence-0516327.pdf",
+      "matches_later_ST37_surface": true,
+      "datum_label": "NAD83 ATS 4.1"
+    },
+    "0516328": {
+      "lat": 52.22203,
+      "lon": -114.000452,
+      "original_licence_pdf": "sources/public-documents/33174496-33174507-1-Well-Licence-0516328.pdf",
+      "matches_later_ST37_surface": true,
+      "datum_label": "NAD83 ATS 4.1"
+    }
+  },
+  "method": "GRS80 ellipsoidal geodesic, matching prior screen; original licence NAD83 ATS4.1 numeric coordinates match later ST37. Approximate catalogue epicentre-to-surface distances, not hypocentral/stage distances; location/datum uncertainty not quantified.",
+  "packets": [
+    {
+      "packet_id": "AGS-9289976-0516328",
+      "licence": "0516328",
+      "event_id": "9289976",
+      "surface_distance_recomputed_km": 2.731186,
+      "prior_surface_distance_km": 2.731186,
+      "prior_current_BH_distance_km": 1.352529,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "AGS-9289976-0516327",
+      "licence": "0516327",
+      "event_id": "9289976",
+      "surface_distance_recomputed_km": 2.732233,
+      "prior_surface_distance_km": 2.732233,
+      "prior_current_BH_distance_km": 1.380242,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "AGS-9289976-0515889",
+      "licence": "0515889",
+      "event_id": "9289976",
+      "surface_distance_recomputed_km": 2.730174,
+      "prior_surface_distance_km": 2.730174,
+      "prior_current_BH_distance_km": 1.43795,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "NRCan-ca2025dscb-0516328",
+      "licence": "0516328",
+      "event_id": "ca2025dscb",
+      "surface_distance_recomputed_km": 3.325642,
+      "prior_surface_distance_km": 3.325642,
+      "prior_current_BH_distance_km": 1.259634,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "NRCan-ca2025dscb-0516327",
+      "licence": "0516327",
+      "event_id": "ca2025dscb",
+      "surface_distance_recomputed_km": 3.329281,
+      "prior_surface_distance_km": 3.329281,
+      "prior_current_BH_distance_km": 1.544218,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "NRCan-ca2025dscb-0515889",
+      "licence": "0515889",
+      "event_id": "ca2025dscb",
+      "surface_distance_recomputed_km": 3.322029,
+      "prior_surface_distance_km": 3.322029,
+      "prior_current_BH_distance_km": 1.04062,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "NRCan-ca2025dwzq-0516328",
+      "licence": "0516328",
+      "event_id": "ca2025dwzq",
+      "surface_distance_recomputed_km": 2.884079,
+      "prior_surface_distance_km": 2.884079,
+      "prior_current_BH_distance_km": 1.204464,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "NRCan-ca2025dwzq-0516327",
+      "licence": "0516327",
+      "event_id": "ca2025dwzq",
+      "surface_distance_recomputed_km": 2.88538,
+      "prior_surface_distance_km": 2.88538,
+      "prior_current_BH_distance_km": 1.263016,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    },
+    {
+      "packet_id": "NRCan-ca2025dwzq-0515889",
+      "licence": "0515889",
+      "event_id": "ca2025dwzq",
+      "surface_distance_recomputed_km": 2.882812,
+      "prior_surface_distance_km": 2.882812,
+      "prior_current_BH_distance_km": 1.272377,
+      "historical_stage_distance_km": null,
+      "classification": "indeterminate",
+      "BH_distance_status": "Later-snapshot screening proxy; NOT verified February 2025 geometry"
+    }
+  ],
+  "historical_BH_or_stage_geometry_available": false,
+  "result": "Surface screening survives. Historical BH distances and stage rule-area membership remain unverified. Do not backproject October 2025 updates."
+}

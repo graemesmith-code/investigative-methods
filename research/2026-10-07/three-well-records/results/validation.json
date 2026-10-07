@@ -18,5 +18,15 @@
   {
     "check": "original IAR zero counts distinguished from new errors",
     "passed": true
+  },
+  {
+    "check": "complete retained source inventory and frozen prior dependencies",
+    "passed": true,
+    "sources": 93,
+    "prior_inputs": 9
+  },
+  {
+    "check": "nine surface distances reproduced; historical stage distances explicitly unknown",
+    "passed": true
   }
 ]
