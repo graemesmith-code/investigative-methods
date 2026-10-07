@@ -23,3 +23,7 @@ The one bounded retry after refreshed exact Library searches again failed with H
 Six offline tests pass for the Jev-only adapter: provider restriction, retained uncertain costs and retry blocking, cap enforcement, success caching and rounding, invalid usage rejection, and literal passage checking. These tests make no network calls and do not measure model accuracy. Run `python -m unittest discover -s research/2026-10-07/sanctions-contract-pilot/scripts -p 'test_*.py' -v` from repository root.
 
 [NAI partial calibration](NAI-calibration.md) now documents independently refreshed official records, separate from the unavailable immutable baseline. All requested original ZIP contents and full candidate dossiers remain blocked; no claimed 13-candidate dataset was reconstructed from memory.
+
+## NAI calibration result
+
+Current official API history now confirms the zero-obligation vehicle termination and eight child delivery orders dated 13–14 December 2023. Gross positive obligations $36,309.46, negative adjustments −$15,662.32, net $20,647.14; no payments established. All eight child records identify the same NAI recipient/UEI. Dated official-business authorization is a concrete possible explanation; no breach is concluded. See NAI-calibration.md for the full table, coverage limits, and missing instruments. No paid Jev evaluation occurred.

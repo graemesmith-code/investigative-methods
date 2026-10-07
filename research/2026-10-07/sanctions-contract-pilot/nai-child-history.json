@@ -1,0 +1,1012 @@
+[
+  {
+    "award": {
+      "award_id": 334904902,
+      "award_type": "DELIVERY ORDER",
+      "description": "8509660283 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FSC9V_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2672.01,
+      "period_of_performance_current_end_date": "2023-01-30",
+      "period_of_performance_start_date": "2023-01-30",
+      "piid": "SPE60523FSC9V",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FSC9V-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FSC9V_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-01-25",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8509660283 FUEL OIL,BURNER",
+        "federal_action_obligation": 2672.01,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334904903,
+      "award_type": "DELIVERY ORDER",
+      "description": "8509660252 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FSC9W_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2672.01,
+      "period_of_performance_current_end_date": "2023-01-30",
+      "period_of_performance_start_date": "2023-01-30",
+      "piid": "SPE60523FSC9W",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FSC9W-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FSC9W_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-01-25",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8509660252 FUEL OIL,BURNER",
+        "federal_action_obligation": 2672.01,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334905355,
+      "award_type": "DELIVERY ORDER",
+      "description": "8509671092 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FSE9R_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 1791.75,
+      "period_of_performance_current_end_date": "2023-02-03",
+      "period_of_performance_start_date": "2023-02-03",
+      "piid": "SPE60523FSE9R",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FSE9R-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FSE9R_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-01-31",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8509671092 FUEL OIL,BURNER",
+        "federal_action_obligation": 1791.75,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334909893,
+      "award_type": "DELIVERY ORDER",
+      "description": "8509804384 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FTB2Z_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2202.85,
+      "period_of_performance_current_end_date": "2023-04-11",
+      "period_of_performance_start_date": "2023-04-11",
+      "piid": "SPE60523FTB2Z",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FTB2Z-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FTB2Z_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-04-03",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8509804384 FUEL OIL,BURNER",
+        "federal_action_obligation": 2202.85,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334909894,
+      "award_type": "DELIVERY ORDER",
+      "description": "8509804411!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FTB3A_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 4405.71,
+      "period_of_performance_current_end_date": "2023-04-11",
+      "period_of_performance_start_date": "2023-04-11",
+      "piid": "SPE60523FTB3A",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FTB3A-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FTB3A_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-04-03",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8509804411!FUEL OIL,BURNER",
+        "federal_action_obligation": 4405.71,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334910224,
+      "award_type": "DELIVERY ORDER",
+      "description": "8509812614!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FTC7W_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 5140.0,
+      "period_of_performance_current_end_date": "2023-04-14",
+      "period_of_performance_start_date": "2023-04-14",
+      "piid": "SPE60523FTC7W",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FTC7W-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FTC7W_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-04-06",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8509812614!FUEL OIL,BURNER",
+        "federal_action_obligation": 5140.0,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334919696,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510119828 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FUZ7X_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2155.73,
+      "period_of_performance_current_end_date": "2023-09-28",
+      "period_of_performance_start_date": "2023-09-28",
+      "piid": "SPE60523FUZ7X",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FUZ7X-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FUZ7X_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-09-01",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510119828 FUEL OIL,BURNER",
+        "federal_action_obligation": 2155.73,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334919706,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510120007!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60523FUZ8N_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 3449.19,
+      "period_of_performance_current_end_date": "2023-09-14",
+      "period_of_performance_start_date": "2023-09-14",
+      "piid": "SPE60523FUZ8N",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60523FUZ8N-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60523FUZ8N_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-09-01",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510120007!FUEL OIL,BURNER",
+        "federal_action_obligation": 3449.19,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334925999,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510278293!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVX9U_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 14350.57,
+      "period_of_performance_current_end_date": "2023-11-23",
+      "period_of_performance_start_date": "2023-11-23",
+      "piid": "SPE60524FVX9U",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVX9U-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVX9U_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-20",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510278293!FUEL OIL,BURNER",
+        "federal_action_obligation": 14350.57,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334926000,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510278300!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVX9V_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 4783.52,
+      "period_of_performance_current_end_date": "2023-11-27",
+      "period_of_performance_start_date": "2023-11-27",
+      "piid": "SPE60524FVX9V",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVX9V-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVX9V_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-20",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510278300!FUEL OIL,BURNER",
+        "federal_action_obligation": 4783.52,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334926006,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510278371!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVY0B_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 14350.57,
+      "period_of_performance_current_end_date": "2023-11-30",
+      "period_of_performance_start_date": "2023-11-30",
+      "piid": "SPE60524FVY0B",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVY0B-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVY0B_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-20",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510278371!FUEL OIL,BURNER",
+        "federal_action_obligation": 14350.57,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334926007,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510278182!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVY0C_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 14350.57,
+      "period_of_performance_current_end_date": "2023-11-29",
+      "period_of_performance_start_date": "2023-11-29",
+      "piid": "SPE60524FVY0C",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVY0C-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVY0C_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-20",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510278182!FUEL OIL,BURNER",
+        "federal_action_obligation": 14350.57,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334926280,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510285613 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVZ1R_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 5580.78,
+      "period_of_performance_current_end_date": "2023-11-29",
+      "period_of_performance_start_date": "2023-11-29",
+      "piid": "SPE60524FVZ1R",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVZ1R-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVZ1R_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-24",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510285613 FUEL OIL,BURNER",
+        "federal_action_obligation": 5580.78,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334926281,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510285576!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVZ1S_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 14350.57,
+      "period_of_performance_current_end_date": "2023-11-29",
+      "period_of_performance_start_date": "2023-11-29",
+      "piid": "SPE60524FVZ1S",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVZ1S-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVZ1S_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-24",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510285576!FUEL OIL,BURNER",
+        "federal_action_obligation": 14350.57,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334926282,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510285439 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FVZ1T_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2391.76,
+      "period_of_performance_current_end_date": "2023-11-29",
+      "period_of_performance_start_date": "2023-11-29",
+      "piid": "SPE60524FVZ1T",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FVZ1T-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FVZ1T_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-11-24",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510285439 FUEL OIL,BURNER",
+        "federal_action_obligation": 2391.76,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927414,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510317842!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWD9U_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 14224.21,
+      "period_of_performance_current_end_date": "2023-12-13",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWD9U",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWD9U-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWD9U_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-08",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510317842!FUEL OIL,BURNER",
+        "federal_action_obligation": 14224.21,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927415,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510317870!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWD9V_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 14224.21,
+      "period_of_performance_current_end_date": "2023-12-14",
+      "period_of_performance_start_date": "2023-12-14",
+      "piid": "SPE60524FWD9V",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWD9V-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWD9V_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-08",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510317870!FUEL OIL,BURNER",
+        "federal_action_obligation": 14224.21,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927423,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510317823 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWE0D_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2562.85,
+      "period_of_performance_current_end_date": "2023-12-12",
+      "period_of_performance_start_date": "2023-12-12",
+      "piid": "SPE60524FWE0D",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWE0D-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWE0D_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-08",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510317823 FUEL OIL,BURNER",
+        "federal_action_obligation": 2562.85,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927432,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510318138 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWE0R_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2116.44,
+      "period_of_performance_current_end_date": "2023-12-13",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWE0R",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWE0R-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWE0R_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-08",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510318138 FUEL OIL,BURNER",
+        "federal_action_obligation": 2116.44,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927760,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510327003!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF4N_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 13531.51,
+      "period_of_performance_current_end_date": "2023-12-18",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWF4N",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF4N-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4N_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510327003!FUEL OIL,BURNER",
+        "federal_action_obligation": 13531.51,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927762,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510327043!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF4Q_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 0.0,
+      "period_of_performance_current_end_date": "2023-12-21",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWF4Q",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF4Q-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4Q_P00001_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": "M",
+        "action_type_description": "OTHER ADMINISTRATIVE ACTION",
+        "modification_number": "P00001",
+        "description": "8510327043!",
+        "federal_action_obligation": -10750.03,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      },
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4Q_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510327043!FUEL OIL,BURNER",
+        "federal_action_obligation": 10750.03,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927763,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510326865!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF4R_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 0.0,
+      "period_of_performance_current_end_date": "2023-12-21",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWF4R",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF4R-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4R_P00001_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": "M",
+        "action_type_description": "OTHER ADMINISTRATIVE ACTION",
+        "modification_number": "P00001",
+        "description": "8510326865!",
+        "federal_action_obligation": -902.1,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      },
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4R_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510326865!FUEL OIL,BURNER",
+        "federal_action_obligation": 902.1,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927764,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510326866!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF4S_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 0.0,
+      "period_of_performance_current_end_date": "2023-12-21",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWF4S",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF4S-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4S_P00001_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": "M",
+        "action_type_description": "OTHER ADMINISTRATIVE ACTION",
+        "modification_number": "P00001",
+        "description": "8510326866!",
+        "federal_action_obligation": -1879.37,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      },
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4S_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510326866!FUEL OIL,BURNER",
+        "federal_action_obligation": 1879.37,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927767,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510327057!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF4V_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 0.0,
+      "period_of_performance_current_end_date": "2023-12-20",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWF4V",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF4V-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4V_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510327057!FUEL OIL,BURNER",
+        "federal_action_obligation": 2104.89,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      },
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF4V_P00001_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": "M",
+        "action_type_description": "OTHER ADMINISTRATIVE ACTION",
+        "modification_number": "P00001",
+        "description": "8510327057!",
+        "federal_action_obligation": -2104.89,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927773,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510327190!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF5C_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 725.82,
+      "period_of_performance_current_end_date": "2023-12-20",
+      "period_of_performance_start_date": "2023-12-13",
+      "piid": "SPE60524FWF5C",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF5C-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF5C_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510327190!FUEL OIL,BURNER",
+        "federal_action_obligation": 751.75,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      },
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF5C_P00001_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": "M",
+        "action_type_description": "OTHER ADMINISTRATIVE ACTION",
+        "modification_number": "P00001",
+        "description": "8510327190!FUEL OIL,BURNER",
+        "federal_action_obligation": -25.93,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927816,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510328011 FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWF6Y_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 2631.06,
+      "period_of_performance_current_end_date": "2023-12-21",
+      "period_of_performance_start_date": "2023-12-21",
+      "piid": "SPE60524FWF6Y",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWF6Y-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWF6Y_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-13",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510328011 FUEL OIL,BURNER",
+        "federal_action_obligation": 2631.06,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  },
+  {
+    "award": {
+      "award_id": 334927892,
+      "award_type": "DELIVERY ORDER",
+      "description": "8510330640!FUEL OIL,BURNER",
+      "funding_agency": "Department of Defense",
+      "awarding_agency": "Department of Defense",
+      "funding_agency_id": 1219,
+      "awarding_agency_id": 1219,
+      "generated_unique_award_id": "CONT_AWD_SPE60524FWG0C_9700_SPE60523D9402_9700",
+      "last_date_to_order": null,
+      "obligated_amount": 3758.75,
+      "period_of_performance_current_end_date": "2023-12-21",
+      "period_of_performance_start_date": "2023-12-14",
+      "piid": "SPE60524FWG0C",
+      "funding_agency_slug": "department-of-defense",
+      "awarding_agency_slug": "department-of-defense"
+    },
+    "transactions_source": "nai-child-SPE60524FWG0C-transactions.json",
+    "transactions": [
+      {
+        "id": "CONT_TX_9700_9700_SPE60524FWG0C_0_SPE60523D9402_0",
+        "type": "C",
+        "type_description": "DELIVERY ORDER",
+        "action_date": "2023-12-14",
+        "action_type": null,
+        "action_type_description": null,
+        "modification_number": "0",
+        "description": "8510330640!FUEL OIL,BURNER",
+        "federal_action_obligation": 3758.75,
+        "face_value_loan_guarantee": 0.0,
+        "original_loan_subsidy_cost": 0.0
+      }
+    ]
+  }
+]
