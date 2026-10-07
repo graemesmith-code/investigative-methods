@@ -1,0 +1,139 @@
+[
+  {
+    "dataset": "Registrants",
+    "source_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+    "source_path": "research/FARA_All_Registrants.csv",
+    "git_blob_sha1_verified": "16e65695af74a61417561bbc365ab8e95ebbb9e7",
+    "sha256": "ef390cde50995b530b8c016b117ec4401ba070de996a5deb77da4d70b91281f1",
+    "bytes": 867985,
+    "declared_encoding": "iso-8859-1",
+    "rows": 7090,
+    "columns": [
+      "Registration Number",
+      "Registration Date",
+      "Termination Date",
+      "Name",
+      "Business Name",
+      "Address 1",
+      "Address 2",
+      "City",
+      "State",
+      "Zip"
+    ],
+    "exact_duplicate_rows_retained": 0,
+    "malformed_width_rows_recovered": 0,
+    "other_quote_parse_differences_flagged": 13,
+    "date_coverage": {
+      "Registration Date": {
+        "nonempty_valid": 7090,
+        "min": "1942-07-03",
+        "max": "2026-10-02",
+        "invalid": [],
+        "implausible": []
+      },
+      "Termination Date": {
+        "nonempty_valid": 6552,
+        "min": "1942-07-03",
+        "max": "2026-08-26",
+        "invalid": [],
+        "implausible": []
+      }
+    },
+    "nonterminated_rows": 538,
+    "terminated_rows": 6552,
+    "provenance_limitation": "User-supplied official export preserved byte-for-byte from GitHub. Publication timestamp and direct DOJ checksum unavailable; current nonterminated status is not historical status."
+  },
+  {
+    "dataset": "ForeignPrincipals",
+    "source_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+    "source_path": "research/FARA_All_ForeignPrincipals.csv",
+    "git_blob_sha1_verified": "15c0f522ddf1c9f895a693e4a29953543efa0a48",
+    "sha256": "9db085c56c5af1e7e3d0e063576b160cdf8bbca11551a143a14815549cabadb8",
+    "bytes": 2766720,
+    "declared_encoding": "iso-8859-1",
+    "rows": 17765,
+    "columns": [
+      "Foreign Principal Termination Date",
+      "Foreign Principal",
+      "Foreign Principal Registration Date",
+      "Country/Location Represented",
+      "Registration Number",
+      "Registrant Date",
+      "Registrant Name",
+      "Address 1",
+      "Address 2",
+      "City",
+      "State",
+      "Zip"
+    ],
+    "exact_duplicate_rows_retained": 1,
+    "malformed_width_rows_recovered": 15,
+    "other_quote_parse_differences_flagged": 145,
+    "date_coverage": {
+      "Foreign Principal Termination Date": {
+        "nonempty_valid": 16943,
+        "min": "1942-07-03",
+        "max": "2026-10-01",
+        "invalid": [],
+        "implausible": []
+      },
+      "Foreign Principal Registration Date": {
+        "nonempty_valid": 17765,
+        "min": "1942-07-03",
+        "max": "2026-10-02",
+        "invalid": [],
+        "implausible": []
+      },
+      "Registrant Date": {
+        "nonempty_valid": 17765,
+        "min": "1942-07-03",
+        "max": "2026-10-02",
+        "invalid": [],
+        "implausible": []
+      }
+    },
+    "nonterminated_rows": 822,
+    "terminated_rows": 16943,
+    "provenance_limitation": "User-supplied official export preserved byte-for-byte from GitHub. Publication timestamp and direct DOJ checksum unavailable; current nonterminated status is not historical status."
+  },
+  {
+    "dataset": "RegistrantDocs",
+    "source_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+    "source_path": "research/FARA_All_RegistrantDocs.csv",
+    "git_blob_sha1_verified": "b59934af5989c9ee167fa82123ae463881dfae28",
+    "sha256": "5ab5d5f66bc4119a9b15ebaa42509f574ec696982d875fb10677390a09de6c35",
+    "bytes": 24532522,
+    "declared_encoding": "iso-8859-1",
+    "rows": 154309,
+    "columns": [
+      "Date Stamped",
+      "Registrant Name",
+      "Registration Number",
+      "Document Type",
+      "Short Form Name",
+      "Foreign Principal Name",
+      "Foreign Principal Country",
+      "URL"
+    ],
+    "exact_duplicate_rows_retained": 440,
+    "malformed_width_rows_recovered": 0,
+    "other_quote_parse_differences_flagged": 1138,
+    "date_coverage": {
+      "Date Stamped": {
+        "nonempty_valid": 154309,
+        "min": "0200-11-16",
+        "max": "2026-10-06",
+        "invalid": [],
+        "implausible": [
+          {
+            "row": 154309,
+            "value": "11/16/0200"
+          }
+        ]
+      }
+    },
+    "nonterminated_rows": null,
+    "terminated_rows": null,
+    "provenance_limitation": "User-supplied official export preserved byte-for-byte from GitHub. Publication timestamp and direct DOJ checksum unavailable; current nonterminated status is not historical status."
+  }
+]

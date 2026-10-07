@@ -1,4 +1,4 @@
-"""Validate locally materialized official FARA CSV ZIPs without extracting paths.
+"""Validate official FARA CSVs or CSV ZIPs without extracting archive paths.
 
 Usage: python validate_fara_bulk.py DIRECTORY
 No download is attempted: the official routes returned 403 in this executor.
@@ -10,6 +10,12 @@ def validate(root):
     results=[]
     for kind in KINDS:
         path=root/f'FARA_All_{kind}.csv.zip'
+        direct=root/f'FARA_All_{kind}.csv'
+        if direct.exists():
+            raw=direct.read_bytes();reader=csv.reader(io.StringIO(raw.decode('iso-8859-1')));fields=next(reader);rows=list(reader)
+            bad=[i+1 for i,r in enumerate(rows) if len(r)!=len(fields)]
+            results.append({'dataset':kind,'status':'direct CSV inspected; malformed records require explicit repair before joins' if bad else 'direct CSV structurally valid','sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),'fields':fields,'rows':len(rows),'malformed_width_record_numbers':bad,'raw_bytes_preserved':True})
+            continue
         if not path.exists():
             results.append({'dataset':kind,'status':'not materialized'});continue
         raw=path.read_bytes()

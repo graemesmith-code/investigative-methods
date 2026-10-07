@@ -1,0 +1,57 @@
+{
+  "unique_registration_numbers": 7089,
+  "duplicate_registration_rows": [
+    {
+      "row": 1788,
+      "line_start": 1790,
+      "line_end": 1790,
+      "Registration Number": "5769",
+      "Registration Date": "09/19/2006",
+      "Termination Date": "09/19/2006",
+      "Name": "O'Malley, Sheila",
+      "Business Name": "",
+      "Address 1": "98 Herrick Road",
+      "Address 2": "",
+      "City": "Southhampton",
+      "State": "NY",
+      "Zip": "11968"
+    },
+    {
+      "row": 1789,
+      "line_start": 1791,
+      "line_end": 1791,
+      "Registration Number": "5769",
+      "Registration Date": "09/19/2006",
+      "Termination Date": "08/01/2008",
+      "Name": "O'Malley, Sheila",
+      "Business Name": "",
+      "Address 1": "98 Herrick Road",
+      "Address 2": "",
+      "City": "Southhampton",
+      "State": "NY",
+      "Zip": "11968"
+    }
+  ],
+  "principal_registration_numbers_missing_from_registrants": [],
+  "document_registration_numbers_missing_from_registrants": [],
+  "principal_rows_with_no_official_principal_id_column": 17765,
+  "distinct_document_urls": 126481,
+  "document_types": {
+    "Short-Form": 43487,
+    "Informational Materials": 21476,
+    "Amendment": 15754,
+    "Exhibit AB": 16812,
+    "Supplemental Statement": 41437,
+    "Exhibit C": 2352,
+    "Registration Statement": 3848,
+    "Exhibit D": 113,
+    "Conflict Provision": 8,
+    "Dissemination Report": 9022
+  },
+  "registrants_with_no_document_row": 3207,
+  "registrants_with_no_principal_row": 10,
+  "document_2025_rows": 6015,
+  "non_downloadable_url_values": {
+    "Available-FARA-Public-Office": 27814
+  }
+}
