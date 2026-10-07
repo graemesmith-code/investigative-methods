@@ -37,13 +37,13 @@ def blocks(text):
  return out
 def footer(c,d):
  c.setFont('DejaVu',8);c.setFillColor(colors.grey);c.drawString(42,25,'Private research · 7 October 2026 · Evidence gaps are not findings of misconduct');c.drawRightString(552,25,str(d.page))
-story=blocks((P/'REPORT.md').read_text())+[PageBreak()]+blocks((P/'COVERAGE.md').read_text())+[PageBreak()]+blocks((P/'TECHNICAL-ANNEX.md').read_text())
+story=blocks((P/'REPORT.md').read_text())+[PageBreak()]+blocks((P/'ITERATION-02.md').read_text())+[PageBreak()]+blocks((P/'FARA-INVENTORY.md').read_text())+[PageBreak()]+blocks((P/'COVERAGE.md').read_text())+[PageBreak()]+blocks((P/'TECHNICAL-ANNEX.md').read_text())
 SimpleDocTemplate(str(P/'lobbying-control-expansion-report.pdf'),pagesize=(595,842),rightMargin=42,leftMargin=42,topMargin=40,bottomMargin=42,title='Foreign control and lobbying disclosure: investigative pilot').build(story,onFirstPage=footer,onLaterPages=footer)
 # Portable layout preserves the guard's repository-relative import.
 out=ROOT/'lobbying-control-expansion-20261007.zip'
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for f in sorted(list(P.rglob('*'))+list((P.parent/'lobbying-control-pilot').rglob('*'))):
-  if f.is_file() and '__pycache__' not in str(f) and not f.name.endswith(('-wal','-shm')):z.write(f,str(f.relative_to(ROOT)))
+  if f.is_file() and '__pycache__' not in str(f) and not f.name.endswith(('-wal','-shm')) and f.name not in ('delivery.json','lobbying-control-expansion-review.zip'):z.write(f,str(f.relative_to(ROOT)))
  z.write(ROOT/'code/ati/pipeline.py','code/ati/pipeline.py')
  z.writestr('START-HERE.txt','Open research/2026-10-07/lobbying-control-expansion/lobbying-control-expansion-report.pdf or REPORT.md. The first checkpoint is included separately and unchanged. Original source files and code are included. Live replay disabled; do not reset spending ledger.\n')
 print(out, out.stat().st_size)

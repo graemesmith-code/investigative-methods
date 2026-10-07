@@ -5,7 +5,7 @@ P=Path(__file__).resolve().parents[1]
 out=P/'lobbying-control-expansion-review.zip'
 with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for f in sorted(P.iterdir()):
-  if f.is_file() and f.suffix in ('.md','.pdf','.csv','.json') and f.name not in ('major-cohort.json','fara-report-principals.json','annual-reconciled.json'):
+  if f.is_file() and f.suffix in ('.md','.pdf','.csv','.json') and f.name not in ('major-cohort.json','fara-report-principals.json','annual-reconciled.json','delivery.json'):
    z.write(f,'expansion/'+f.name)
  for directory in ['scripts','jev']:
   for f in sorted((P/directory).rglob('*')):
@@ -18,5 +18,5 @@ with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  prior=P.parent/'lobbying-control-pilot'
  for name in ['README.md','TECHNICAL-ANNEX.md','spending-summary.json','lobbying-control-report.pdf','scripts/guard.py']:
   z.write(prior/name,'first-checkpoint/'+name)
- z.writestr('START-HERE.txt','Open expansion/lobbying-control-expansion-report.pdf. This compact review pack is not the complete offline source corpus and is not arranged as a runnable repository checkout. Full sources and runnable paths are in private repository graemesmith-code/investigative-methods, branch research/lobbying-control-pilot-20261007, directory research/2026-10-07/lobbying-control-expansion. The complete 109 MB offline ZIP also exists in the executor workspace. Library upload was blocked by authentication before any transfer. Paid calls are closed; never reset ledgers.\n')
+ z.writestr('START-HERE.txt','Open expansion/lobbying-control-expansion-report.pdf. This compact review pack is not the complete offline source corpus and is not arranged as a runnable repository checkout. Full sources and runnable paths are in private repository graemesmith-code/investigative-methods, branch research/lobbying-control-pilot-20261007, directory research/2026-10-07/lobbying-control-expansion. The complete offline ZIP also exists in the executor workspace. Library upload was blocked by authentication before any transfer. Paid calls are closed; never reset ledgers.\n')
 print(out,out.stat().st_size)

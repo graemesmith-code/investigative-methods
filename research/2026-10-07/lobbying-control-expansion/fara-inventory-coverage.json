@@ -1,0 +1,35 @@
+{
+  "snapshot_date": "2026-10-07",
+  "active_rows": 538,
+  "terminated_rows": 6552,
+  "unique_registration_numbers": 7089,
+  "duplicate_number_rows": [
+    {
+      "Zip": 11968,
+      "Address_1": "98 Herrick Road",
+      "State": "NY",
+      "Registration_Date": "09/19/2006",
+      "Termination_Date": "08/01/2008",
+      "City": "Southhampton",
+      "Registration_Number": 5769,
+      "Name": "O'Malley, Sheila"
+    },
+    {
+      "Zip": 11968,
+      "Address_1": "98 Herrick Road",
+      "State": "NY",
+      "Registration_Date": "09/19/2006",
+      "Termination_Date": "09/19/2006",
+      "City": "Southhampton",
+      "Registration_Number": 5769,
+      "Name": "O'Malley, Sheila"
+    }
+  ],
+  "registrant_rendered_responses_complete": true,
+  "raw_bulk_files_acquired": 0,
+  "full_foreign_principal_inventory_acquired": false,
+  "full_document_inventory_acquired": false,
+  "original_document_corpus_complete": false,
+  "legal_analysis_complete": false,
+  "interpretation": "Complete rendered endpoint responses, not independently reconciled against bulk bytes or all historical filings. Preserve distinct termination rows; never infer active or terminated status at a past filing date from current status alone."
+}

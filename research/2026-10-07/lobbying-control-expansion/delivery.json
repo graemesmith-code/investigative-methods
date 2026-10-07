@@ -1,22 +1,22 @@
 {
-  "library_upload_status": "blocked before preparation/transfer: required helper received HTTP 401 during tools/list; no Library ID or successful upload exists for these expansion artifacts",
-  "research_commit": "979e05d709b7dc925d5d758707848a526fac1982",
+  "library_upload_status": "Blocked before preparation/transfer: required helper received HTTP 401 during tools/list. No Library ID or successful upload exists for these expansion artifacts.",
   "private_branch": "research/lobbying-control-pilot-20261007",
+  "checkpoint_description": "Iteration 2 repair and complete rendered FARA registrant inventory; delivery metadata excluded from ZIPs to avoid self-reference. Containing Git commit is the authoritative research checkpoint.",
   "artifacts": [
     {
       "path": "/workspace/investigative-methods/research/2026-10-07/lobbying-control-expansion/lobbying-control-expansion-report.pdf",
-      "bytes": 73960,
-      "sha256": "43a5c6cbaf3a89c13e3f621bcbd07ee6acbc7a677565cc096a734210cb271cc2"
+      "bytes": 89476,
+      "sha256": "3fbb4277ab894c21303ffdc1e495b81e48ae369c4ff1fbc556f5acfe55278c20"
     },
     {
       "path": "/workspace/investigative-methods/research/2026-10-07/lobbying-control-expansion/lobbying-control-expansion-review.zip",
-      "bytes": 4126746,
-      "sha256": "78aac01ed884f7707461bef86cbc56ca94948d5a0de106bf7d70999439ccf479"
+      "bytes": 4884728,
+      "sha256": "7773677ec67834d127b82fbbdef21fd97a984be4aeba97c12ec970c1a7976c73"
     },
     {
       "path": "/workspace/investigative-methods/lobbying-control-expansion-20261007.zip",
-      "bytes": 108999555,
-      "sha256": "22d26df9d4fbfb52438f444e5a64da746faa55fdeedadb4469ddd0dc02556eec"
+      "bytes": 226165524,
+      "sha256": "bd970cf3506fe20896e65bf8ae5acb5af06f44262299aae092e7fe1b3f2b7ebc"
     }
   ]
 }

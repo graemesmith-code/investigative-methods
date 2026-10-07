@@ -2,7 +2,7 @@
 
 Private research, 7 October 2026. This extends the first checkpoint without changing it.
 
-**Coverage correction:** the initial ownership flag covered only the 780 high-amount forms. Discovery has now been rerun over all 1,184 annual forms, capturing U.S. Steel's below-threshold quarterly disclosure. [Iteration 2](ITERATION-02.md) records the correction and systematic domestic-client history extension. The initial expansion had full all-years histories for only 12 of 259 client IDs and zero RR retrievals for 138; neither group was cleared by those gaps. Updated scope appears in the coverage files.
+**Coverage correction:** the initial ownership flag covered only the 780 high-amount forms. Discovery has now been rerun over all 1,184 annual forms, capturing U.S. Steel's below-threshold quarterly disclosure. [Iteration 2](ITERATION-02.md) records the correction and systematic domestic-client history extension. The initial expansion had full all-years histories for only 12 of 259 client IDs and zero RR retrievals for 138; neither group was cleared by those gaps. The repair now preserves 3,045 originals and complete all-years histories for 27 IDs; all 138 missing-RR amendment queries completed. [FARA inventory work](FARA-INVENTORY.md) recovered 7,090 active/terminated registrant rows (7,089 registration numbers), but full principal and document inventories remain blocked. Updated scope appears in the coverage files.
 
 The broader search has not established that foreign control behind a major lobbying campaign was concealed. It has produced two concrete ownership-disclosure questions, a major reported engagement whose exact legal client remains unresolved, and several important false positives. Intent is not established in any case.
 
