@@ -1,0 +1,11 @@
+test_cap_reservation (test_guard.GuardTests.test_cap_reservation) ... ok
+test_exact_passage_rejects_invention (test_guard.GuardTests.test_exact_passage_rejects_invention) ... ok
+test_invalid_usage_stops_and_retains (test_guard.GuardTests.test_invalid_usage_stops_and_retains) ... ok
+test_other_provider_blocked_before_transport (test_guard.GuardTests.test_other_provider_blocked_before_transport) ... ok
+test_success_cached_and_rounded_up (test_guard.GuardTests.test_success_cached_and_rounded_up) ... ok
+test_uncertain_retains_reservation_blocks_retry (test_guard.GuardTests.test_uncertain_retains_reservation_blocks_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK

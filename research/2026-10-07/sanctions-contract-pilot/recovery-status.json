@@ -1,0 +1,11 @@
+{
+  "route": "Current Library skill search-result materialization via library_download.py; complete unchanged search JSON; exact selection 000001002",
+  "initial_preparation_error": "Missing library_hosted_apps companion; fetched from current skill before materialization",
+  "first_materialization_error": "library download request failed: hosted apps tools/list request failed with HTTP status 401",
+  "bounded_retry": "Refreshed exact filename Library searches and retried same supported helper once",
+  "bounded_retry_error": "library download request failed: hosted apps tools/list request failed with HTTP status 401",
+  "bounded_retry_exhausted": true,
+  "original_zip_bytes_recovered": false,
+  "readable_repository_evidence": "See repository-evidence-inventory.json; report, summaries, NAI derived excerpt only",
+  "required_resolution": "Authorized reupload of both original ZIPs or restoration of supported Library transfer; no manual signed URL transfer or bulk redownload"
+}

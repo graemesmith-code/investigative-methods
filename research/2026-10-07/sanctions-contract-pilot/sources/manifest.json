@@ -28,5 +28,60 @@
     "status": 200,
     "bytes": 311,
     "sha256": "7fbe8d7d66e3d1c9560506fd514b47dee5308246139de38f61a685b715362d60"
+  },
+  {
+    "name": "ofac-20231211.html",
+    "url": "https://ofac.treasury.gov/recent-actions/20231211",
+    "retrieved_utc": "2026-10-07T09:16:06.979488+00:00",
+    "tls_verification": true,
+    "method": "GET",
+    "baseline": false,
+    "status": 200,
+    "bytes": 57148,
+    "sha256": "4a3f3d566d2f0e4f4d123739c826a5bacd17357ccb9c1296f4739713f5bddfb0"
+  },
+  {
+    "name": "treasury-jy1973.html",
+    "url": "https://home.treasury.gov/news/press-releases/jy1973",
+    "retrieved_utc": "2026-10-07T09:16:07.360818+00:00",
+    "tls_verification": true,
+    "method": "GET",
+    "baseline": false,
+    "status": 200,
+    "bytes": 80697,
+    "sha256": "c88b1593d6d4d73ed97f02a6ed37d8db514a3499b4dcf615dee7c5611585d3a0"
+  },
+  {
+    "name": "glomag-2022.pdf",
+    "url": "https://ofac.treasury.gov/media/930146/download?inline=",
+    "retrieved_utc": "2026-10-07T09:16:07.548592+00:00",
+    "tls_verification": true,
+    "method": "GET",
+    "baseline": false,
+    "status": 200,
+    "bytes": 316913,
+    "sha256": "a9a519d5087ec7afdf3fb1d2130c67d32bcda8d98285895ac5e4e10043d1a3f0"
+  },
+  {
+    "name": "glomag-2024.pdf",
+    "url": "https://ofac.treasury.gov/system/files/2024-03/20240311_global_magnitsky_sanctions_regulations.pdf",
+    "retrieved_utc": "2026-10-07T09:16:07.938400+00:00",
+    "tls_verification": true,
+    "method": "GET",
+    "baseline": false,
+    "status": 200,
+    "bytes": 318389,
+    "sha256": "480c3e6d4a5cc99427fc96e5859db9891274a7cc12a8063d0bb69583422cdfda"
+  },
+  {
+    "name": "nai-current-award.json",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_IDV_SPE60523D9402_9700/",
+    "retrieved_utc": "2026-10-07T09:16:08.140291+00:00",
+    "tls_verification": true,
+    "method": "GET",
+    "baseline": false,
+    "status": 200,
+    "bytes": 5916,
+    "sha256": "0ed492b85f2501284226a82101bbebd273ee73b0669fe6e895dc98b9df6bb55e"
   }
 ]

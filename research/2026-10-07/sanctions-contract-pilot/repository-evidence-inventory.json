@@ -1,0 +1,27 @@
+[
+  {
+    "path": "evidence/ofac/contract-source.json",
+    "bytes": 816,
+    "sha256": "0d8e14357e6d48581b39ab9288b081038cbd0d141f5dfed9ded6ecb6a6722f58"
+  },
+  {
+    "path": "evidence/ofac/nai-transaction-excerpt.json",
+    "bytes": 763,
+    "sha256": "eb4b5a7b8d9d88ee37eb47d2c3bb0db2a0b24e0791c737a872e9f236ca1ab293"
+  },
+  {
+    "path": "evidence/ofac/original-report.md",
+    "bytes": 9248,
+    "sha256": "87bef010735ae5403ab028f7f8c7344fd7106f4b35ca4d2c2147b1a1fe0abae0"
+  },
+  {
+    "path": "evidence/ofac/screen-summary.json",
+    "bytes": 1256,
+    "sha256": "5428582b4e6b74abdee8650b9b21178bece7828b54a997f72fd3bc60ed2ddeb1"
+  },
+  {
+    "path": "evidence/ofac/source-summary.json",
+    "bytes": 749,
+    "sha256": "847e790ee55893532ebd6c743122a5692bb53663313bb25552c5cacde6a460e3"
+  }
+]
