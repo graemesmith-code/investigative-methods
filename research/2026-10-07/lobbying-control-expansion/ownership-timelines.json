@@ -133,7 +133,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "7f41f72b-1cd2-4ba9-85b8-489be5a28dca",
+        "posted": "2001-02-14T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 14267,
+        "registrant": "FEDERATION OF AMERICAN HOSPITALS",
+        "source": "https://lda.gov/filings/public/filing/7f41f72b-1cd2-4ba9-85b8-489be5a28dca/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 153538,
@@ -144,7 +160,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "4f58de83-8df5-4551-ba10-4cf8f8ff35e3",
+        "posted": "2017-05-11T16:02:36-04:00",
+        "reporting_year": 2017,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 45004,
+        "registrant": "DOMINION ENERGY, INC.",
+        "source": "https://lda.gov/filings/public/filing/4f58de83-8df5-4551-ba10-4cf8f8ff35e3/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 102605,
@@ -264,7 +297,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "72c719b9-39c9-4281-9b69-5e2b8d6830da",
+        "posted": "2008-02-13T17:07:25.310000-05:00",
+        "reporting_year": 2008,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 15532,
+        "registrant": "FRIENDS COMMITTEE ON NATIONAL LEGISLATION",
+        "source": "https://lda.gov/filings/public/filing/72c719b9-39c9-4281-9b69-5e2b8d6830da/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 129850,
@@ -706,7 +755,40 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "df247d77-e23b-400b-85e5-4ad68e0efd22",
+        "posted": "2011-02-11T12:04:47.997000-05:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 27811,
+        "registrant": "NFIB (NATIONAL FEDERATION OF INDEPENDENT BUSINESS)",
+        "source": "https://lda.gov/filings/public/filing/df247d77-e23b-400b-85e5-4ad68e0efd22/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "e6e147a9-3701-4d76-9ab1-d8003dd1498b",
+        "posted": "2013-01-22T15:12:56.820000-05:00",
+        "reporting_year": 2012,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 27811,
+        "registrant": "NFIB (NATIONAL FEDERATION OF INDEPENDENT BUSINESS)",
+        "source": "https://lda.gov/filings/public/filing/e6e147a9-3701-4d76-9ab1-d8003dd1498b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 188223,
@@ -2694,7 +2776,74 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "f9390be5-9e71-4914-855a-59794de56571",
+        "posted": "2012-06-04T10:19:28.700000-04:00",
+        "reporting_year": 2012,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 614,
+        "registrant": "AIR TRANSPORT ASSOCIATION OF AMERICA, INC. (D/B/A AIRLINES FOR AMERICA)",
+        "source": "https://lda.gov/filings/public/filing/f9390be5-9e71-4914-855a-59794de56571/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "AIR CANADA",
+            "contribution": "85000.00",
+            "ownership_percentage": null,
+            "address": "7373 Cote-Vertu Blvd. West",
+            "city": "Saint-Laurent",
+            "state": "QC",
+            "state_display": "Quebec",
+            "country": "CA",
+            "country_display": "Canada",
+            "ppb_city": "Montreal",
+            "ppb_state": "QC",
+            "ppb_state_display": "Quebec",
+            "ppb_country": "CA",
+            "ppb_country_display": "Canada"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "cd08d780-608e-4919-826d-a67ea71b73b1",
+        "posted": "2012-07-26T17:55:50.100000-04:00",
+        "reporting_year": 2012,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 614,
+        "registrant": "AIR TRANSPORT ASSOCIATION OF AMERICA, INC. (D/B/A AIRLINES FOR AMERICA)",
+        "source": "https://lda.gov/filings/public/filing/cd08d780-608e-4919-826d-a67ea71b73b1/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "AIR CANADA",
+            "contribution": "85000.00",
+            "ownership_percentage": null,
+            "address": "7373 Cote-Vertu Blvd. West",
+            "city": "Saint-Laurent",
+            "state": "QC",
+            "state_display": "Quebec",
+            "country": "CA",
+            "country_display": "Canada",
+            "ppb_city": "Montreal",
+            "ppb_state": "QC",
+            "ppb_state_display": "Quebec",
+            "ppb_country": "CA",
+            "ppb_country_display": "Canada"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      }
+    ]
   },
   {
     "client_id": 196376,
@@ -2755,7 +2904,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "d446e254-5772-4325-91b6-8223e84c193f",
+        "posted": "2000-02-14T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 5290,
+        "registrant": "BANK POLICY INSTITUTE",
+        "source": "https://lda.gov/filings/public/filing/d446e254-5772-4325-91b6-8223e84c193f/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 126395,
@@ -2876,7 +3041,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "94d52d8f-2763-4076-8317-faee306cfb05",
+        "posted": "2020-09-29T17:28:37-04:00",
+        "reporting_year": 2020,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 43285,
+        "registrant": "FEDEX CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/94d52d8f-2763-4076-8317-faee306cfb05/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 140853,
@@ -2887,7 +3069,113 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "d8a12eee-c33d-4b9a-94f1-6297ca3399af",
+        "posted": "2000-02-15T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/d8a12eee-c33d-4b9a-94f1-6297ca3399af/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "f7e74a2c-08c3-4d0d-b1ba-677114840d6c",
+        "posted": "2000-04-11T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/f7e74a2c-08c3-4d0d-b1ba-677114840d6c/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "f62b443b-b1e5-44cd-b88c-f333eb200f29",
+        "posted": "2002-11-01T00:00:00-05:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/f62b443b-b1e5-44cd-b88c-f333eb200f29/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "7e7ee3b3-3c7c-4688-914a-5ac772f80417",
+        "posted": "2003-09-22T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/7e7ee3b3-3c7c-4688-914a-5ac772f80417/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "16342872-33e6-49e5-8914-be170b6cd3a6",
+        "posted": "2005-02-24T00:00:00-05:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/16342872-33e6-49e5-8914-be170b6cd3a6/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "8cabcd3d-82b1-46fc-b9ee-154567cd91fd",
+        "posted": "2005-06-15T00:00:00-04:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/8cabcd3d-82b1-46fc-b9ee-154567cd91fd/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "f867e7ca-ddf7-476b-abb4-b9b6c8f18569",
+        "posted": "2005-06-15T00:00:00-04:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 32874,
+        "registrant": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/f867e7ca-ddf7-476b-abb4-b9b6c8f18569/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 188242,
@@ -3164,7 +3452,70 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "c4f4d12a-480e-49ad-8b19-78dd1c11e77a",
+        "posted": "2002-03-20T00:00:00-05:00",
+        "reporting_year": 2002,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 15931,
+        "registrant": "GENERAL ATOMICS",
+        "source": "https://lda.gov/filings/public/filing/c4f4d12a-480e-49ad-8b19-78dd1c11e77a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "f69e2d85-b05a-4758-bc00-929a0ae1be25",
+        "posted": "2002-08-08T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 15931,
+        "registrant": "GENERAL ATOMICS",
+        "source": "https://lda.gov/filings/public/filing/f69e2d85-b05a-4758-bc00-929a0ae1be25/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "7acb8678-1999-4fa0-bf55-7418fa9795c7",
+        "posted": "2012-10-18T14:31:17.397000-04:00",
+        "reporting_year": 2012,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 15931,
+        "registrant": "GENERAL ATOMICS",
+        "source": "https://lda.gov/filings/public/filing/7acb8678-1999-4fa0-bf55-7418fa9795c7/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "2c7476b4-c996-4238-bd3d-c0fd2cd9c7d6",
+        "posted": "2017-06-19T16:10:08-04:00",
+        "reporting_year": 2017,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 15931,
+        "registrant": "GENERAL ATOMICS",
+        "source": "https://lda.gov/filings/public/filing/2c7476b4-c996-4238-bd3d-c0fd2cd9c7d6/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 131182,
@@ -3291,7 +3642,38 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "de43295f-12cf-460a-b445-dedb2210cb22",
+        "posted": "1999-02-16T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6358,
+        "registrant": "BLUE CROSS AND BLUE SHIELD ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/de43295f-12cf-460a-b445-dedb2210cb22/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "e286ec6a-d95a-48dd-9444-6d3de71d8223",
+        "posted": "2000-08-10T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6358,
+        "registrant": "BLUE CROSS AND BLUE SHIELD ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/e286ec6a-d95a-48dd-9444-6d3de71d8223/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 58151,
@@ -3330,7 +3712,39 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "385f8307-470a-4d16-ab4c-e13ca730376a",
+        "posted": "2003-06-26T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 9204,
+        "registrant": "NOVARTIS",
+        "source": "https://lda.gov/filings/public/filing/385f8307-470a-4d16-ab4c-e13ca730376a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "304479ad-e757-465f-96c9-78ff1bd4b9d1",
+        "posted": "2011-01-14T12:02:48.970000-05:00",
+        "reporting_year": 2010,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 9204,
+        "registrant": "NOVARTIS",
+        "source": "https://lda.gov/filings/public/filing/304479ad-e757-465f-96c9-78ff1bd4b9d1/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 146969,
@@ -3341,7 +3755,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "7f09aabd-37ec-4761-85d7-f097be812eae",
+        "posted": "2003-06-16T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 38756,
+        "registrant": "CHAMBER OF COMMERCE OF THE U.S.A.",
+        "source": "https://lda.gov/filings/public/filing/7f09aabd-37ec-4761-85d7-f097be812eae/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 134662,
@@ -3352,7 +3782,98 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "ea0cc68e-f880-47e8-a8c8-a52294e7d4ad",
+        "posted": "1999-03-05T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29174,
+        "registrant": "NEW YORK LIFE INSURANCE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/ea0cc68e-f880-47e8-a8c8-a52294e7d4ad/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "bf29476b-ea1a-4d50-bb09-dc67875069b4",
+        "posted": "2002-11-15T00:00:00-05:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 29174,
+        "registrant": "NEW YORK LIFE INSURANCE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/bf29476b-ea1a-4d50-bb09-dc67875069b4/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "94d48391-08b6-41e6-9672-f3b1cdf65a7a",
+        "posted": "2004-06-04T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29174,
+        "registrant": "NEW YORK LIFE INSURANCE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/94d48391-08b6-41e6-9672-f3b1cdf65a7a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "4ef687d5-80d4-4137-84e4-3d7ad09cebd1",
+        "posted": "2005-02-14T00:00:00-05:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29174,
+        "registrant": "NEW YORK LIFE INSURANCE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/4ef687d5-80d4-4137-84e4-3d7ad09cebd1/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "32ba3e74-e3c8-482d-bd7f-6e6be0b34723",
+        "posted": "2005-12-19T00:00:00-05:00",
+        "reporting_year": 2005,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 29174,
+        "registrant": "NEW YORK LIFE INSURANCE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/32ba3e74-e3c8-482d-bd7f-6e6be0b34723/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "d04ba045-a357-40e3-80d4-41e2fc1aa343",
+        "posted": "2006-10-12T00:00:00-04:00",
+        "reporting_year": 2006,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 29174,
+        "registrant": "NEW YORK LIFE INSURANCE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/d04ba045-a357-40e3-80d4-41e2fc1aa343/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 123312,
@@ -3374,7 +3895,215 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "99bd91bc-7d1f-46e2-9b29-ef2a5cd56309",
+        "posted": "2008-04-15T00:00:00-04:00",
+        "reporting_year": 2008,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/99bd91bc-7d1f-46e2-9b29-ef2a5cd56309/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "ff299419-6256-43c6-89ae-72019f26a5bc",
+        "posted": "2008-10-07T12:39:11-04:00",
+        "reporting_year": 2008,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/ff299419-6256-43c6-89ae-72019f26a5bc/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "4c9c22b5-a39a-4f03-b886-e5d53f687f60",
+        "posted": "2009-04-15T10:46:35-04:00",
+        "reporting_year": 2009,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/4c9c22b5-a39a-4f03-b886-e5d53f687f60/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "4744dcbd-b35c-4e6d-8dd6-0bf77ad8af41",
+        "posted": "2009-10-20T14:44:47-04:00",
+        "reporting_year": 2009,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/4744dcbd-b35c-4e6d-8dd6-0bf77ad8af41/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "6892ff3c-288c-466c-affd-71322dbbb89c",
+        "posted": "2010-07-20T16:23:10.637000-04:00",
+        "reporting_year": 2010,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/6892ff3c-288c-466c-affd-71322dbbb89c/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "c30ea653-a8e4-4cf0-87a3-d49b6c6b7011",
+        "posted": "2010-07-20T19:53:02.317000-04:00",
+        "reporting_year": 2010,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/c30ea653-a8e4-4cf0-87a3-d49b6c6b7011/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "9c6f152c-5c4f-4ef3-b2c8-56562ee8f8b7",
+        "posted": "2010-10-21T09:13:27.957000-04:00",
+        "reporting_year": 2010,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/9c6f152c-5c4f-4ef3-b2c8-56562ee8f8b7/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "2bdaf82b-6533-47ff-9be7-6d05df8de616",
+        "posted": "2011-04-20T15:57:51.457000-04:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/2bdaf82b-6533-47ff-9be7-6d05df8de616/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "839e0b38-9135-4374-a9d8-68a4182258d0",
+        "posted": "2015-12-10T00:00:00-05:00",
+        "reporting_year": 2009,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/839e0b38-9135-4374-a9d8-68a4182258d0/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "b505e2a9-01cd-4925-8767-1a8b57790857",
+        "posted": "2015-12-10T13:35:53-05:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/b505e2a9-01cd-4925-8767-1a8b57790857/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "bf44abf9-9e3c-431d-b093-3ce8fef6142d",
+        "posted": "2019-07-17T10:56:27-04:00",
+        "reporting_year": 2019,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/bf44abf9-9e3c-431d-b093-3ce8fef6142d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "8867428e-ce68-4d42-9deb-6dc5a32b2950",
+        "posted": "2019-08-14T08:53:35-04:00",
+        "reporting_year": 2019,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/8867428e-ce68-4d42-9deb-6dc5a32b2950/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "6075971c-f717-4b1b-8b8d-8723966a845f",
+        "posted": "2019-08-14T10:08:24-04:00",
+        "reporting_year": 2019,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 12813,
+        "registrant": "CORTEVA AGRISCIENCE LLC (FKA E.I. DU PONT DE NEMOURS AND COMPANY)",
+        "source": "https://lda.gov/filings/public/filing/6075971c-f717-4b1b-8b8d-8723966a845f/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 102650,
@@ -3385,7 +4114,168 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "9078954d-ed93-44c1-8ddf-3789bb50d523",
+        "posted": "2011-02-08T11:34:05.223000-05:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/9078954d-ed93-44c1-8ddf-3789bb50d523/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "b2cda1a7-473c-4ae6-9693-7f2a4133ec74",
+        "posted": "2011-05-06T09:33:48.840000-04:00",
+        "reporting_year": 2011,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/b2cda1a7-473c-4ae6-9693-7f2a4133ec74/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "cd527cef-293d-406b-ade2-514a67c7b736",
+        "posted": "2011-07-19T17:34:02.363000-04:00",
+        "reporting_year": 2011,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/cd527cef-293d-406b-ade2-514a67c7b736/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "cd21b85d-6f59-415b-b647-d1a3762ca213",
+        "posted": "2012-07-20T10:17:20.290000-04:00",
+        "reporting_year": 2012,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/cd21b85d-6f59-415b-b647-d1a3762ca213/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "00ef645d-c74a-40fb-9746-2fad24205886",
+        "posted": "2012-10-24T15:41:50.247000-04:00",
+        "reporting_year": 2011,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/00ef645d-c74a-40fb-9746-2fad24205886/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "c68fd64b-3d51-4a10-8f4e-981d0cc8189a",
+        "posted": "2013-01-29T16:15:52.733000-05:00",
+        "reporting_year": 2013,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/c68fd64b-3d51-4a10-8f4e-981d0cc8189a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "8003c802-2ec0-4cd0-9f4d-b7dc8f733b47",
+        "posted": "2013-07-08T18:00:48.707000-04:00",
+        "reporting_year": 2013,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/8003c802-2ec0-4cd0-9f4d-b7dc8f733b47/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "205add39-be74-46d6-8cab-f7af0653785a",
+        "posted": "2013-07-24T18:00:18.637000-04:00",
+        "reporting_year": 2013,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/205add39-be74-46d6-8cab-f7af0653785a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "0e6e4217-7194-4ec1-9cf1-1c08a6652d20",
+        "posted": "2013-07-30T15:00:42.807000-04:00",
+        "reporting_year": 2013,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/0e6e4217-7194-4ec1-9cf1-1c08a6652d20/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "4ff3dbd4-863f-4f2c-96de-fc1acc50aa8a",
+        "posted": "2017-01-25T13:56:03-05:00",
+        "reporting_year": 2017,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 1785,
+        "registrant": "AMERICAN BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/4ff3dbd4-863f-4f2c-96de-fc1acc50aa8a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 189987,
@@ -3446,7 +4336,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "d3fc5380-5da7-4bb2-814d-84ce20942ce6",
+        "posted": "2011-04-22T09:38:34.600000-04:00",
+        "reporting_year": 2011,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 28468,
+        "registrant": "NATIONAL RETAIL FEDERATION",
+        "source": "https://lda.gov/filings/public/filing/d3fc5380-5da7-4bb2-814d-84ce20942ce6/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 138221,
@@ -3539,7 +4446,151 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "4f9f8481-f18d-4652-a2a9-0e7d79da2a65",
+        "posted": "2003-08-18T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/4f9f8481-f18d-4652-a2a9-0e7d79da2a65/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "a849fe3d-5aa3-40e4-822e-8a8ca5a571a7",
+        "posted": "2010-08-24T08:48:21.057000-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/a849fe3d-5aa3-40e4-822e-8a8ca5a571a7/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "797dcdef-e65b-4508-aa59-09f5cb1b6d76",
+        "posted": "2010-11-04T11:38:04.500000-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/797dcdef-e65b-4508-aa59-09f5cb1b6d76/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "59b370ee-c732-4d9a-bea2-a5c07e59012d",
+        "posted": "2011-03-22T09:01:52.273000-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/59b370ee-c732-4d9a-bea2-a5c07e59012d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "64c6b49f-baac-4568-9fb8-4cc338a399f7",
+        "posted": "2011-06-09T10:45:17.017000-04:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/64c6b49f-baac-4568-9fb8-4cc338a399f7/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "32af9d22-f32b-4feb-a711-61f2c05a3a7b",
+        "posted": "2011-06-27T12:59:24.243000-04:00",
+        "reporting_year": 2011,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/32af9d22-f32b-4feb-a711-61f2c05a3a7b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "5e5fbe44-6ace-4172-a667-84f278618a51",
+        "posted": "2011-11-03T13:26:57.747000-04:00",
+        "reporting_year": 2011,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/5e5fbe44-6ace-4172-a667-84f278618a51/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "77870adb-f818-4f37-a6fb-22313c3082a8",
+        "posted": "2011-11-11T09:22:48-05:00",
+        "reporting_year": 2011,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/77870adb-f818-4f37-a6fb-22313c3082a8/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "603daccd-5cae-424a-967f-78f075d7657c",
+        "posted": "2012-08-01T12:34:37.687000-04:00",
+        "reporting_year": 2012,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 29551,
+        "registrant": "NORTHROP GRUMMAN CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/603daccd-5cae-424a-967f-78f075d7657c/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 116542,
@@ -3550,7 +4601,40 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "ef114ff6-7f7d-4166-80ef-45bc24747905",
+        "posted": "2011-07-21T14:18:02.453000-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 11958,
+        "registrant": "DELL TECHNOLOGIES INC.",
+        "source": "https://lda.gov/filings/public/filing/ef114ff6-7f7d-4166-80ef-45bc24747905/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "ec99bfc7-e10e-4453-b295-b073ceb9ec93",
+        "posted": "2011-09-08T15:18:10.060000-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 11958,
+        "registrant": "DELL TECHNOLOGIES INC.",
+        "source": "https://lda.gov/filings/public/filing/ec99bfc7-e10e-4453-b295-b073ceb9ec93/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 147113,
@@ -3561,7 +4645,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "c1b9ee13-24e3-48e5-99d4-17dd9153420b",
+        "posted": "2019-01-04T10:33:11-05:00",
+        "reporting_year": 2018,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 38995,
+        "registrant": "UNION PACIFIC CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/c1b9ee13-24e3-48e5-99d4-17dd9153420b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 196275,
@@ -3638,7 +4739,83 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "593f123d-d149-4389-9a1a-3062d355d62e",
+        "posted": "2001-02-20T00:00:00-05:00",
+        "reporting_year": 2001,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 3060,
+        "registrant": "AMERICAN PETROLEUM INSTITUTE",
+        "source": "https://lda.gov/filings/public/filing/593f123d-d149-4389-9a1a-3062d355d62e/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "8359e6e7-aa4e-4bcb-9f5a-aa29528bd5f2",
+        "posted": "2002-05-16T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 3060,
+        "registrant": "AMERICAN PETROLEUM INSTITUTE",
+        "source": "https://lda.gov/filings/public/filing/8359e6e7-aa4e-4bcb-9f5a-aa29528bd5f2/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "e27e5a81-458d-4dfe-b95e-e998f2adc0c0",
+        "posted": "2003-02-26T00:00:00-05:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 3060,
+        "registrant": "AMERICAN PETROLEUM INSTITUTE",
+        "source": "https://lda.gov/filings/public/filing/e27e5a81-458d-4dfe-b95e-e998f2adc0c0/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "363d2e22-d1f1-421b-920d-dd1f4848e7bd",
+        "posted": "2003-08-13T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 3060,
+        "registrant": "AMERICAN PETROLEUM INSTITUTE",
+        "source": "https://lda.gov/filings/public/filing/363d2e22-d1f1-421b-920d-dd1f4848e7bd/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "986e1e6c-54c8-4780-85af-3cfcbcf54f36",
+        "posted": "2004-03-03T00:00:00-05:00",
+        "reporting_year": 2004,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 3060,
+        "registrant": "AMERICAN PETROLEUM INSTITUTE",
+        "source": "https://lda.gov/filings/public/filing/986e1e6c-54c8-4780-85af-3cfcbcf54f36/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 104875,
@@ -8213,7 +9390,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "3627a397-e346-4972-bc88-e588868a27bd",
+        "posted": "2000-08-09T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 2252,
+        "registrant": "AMERICAN ELECTRIC POWER COMPANY, INC. AND AFFILIATED CORPORATIONS",
+        "source": "https://lda.gov/filings/public/filing/3627a397-e346-4972-bc88-e588868a27bd/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 159922,
@@ -8262,7 +9455,38 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "0e17e6f4-1ff2-4941-96bf-e81929f1d8d1",
+        "posted": "1999-07-13T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 26854,
+        "registrant": "AMERICAN PROPERTY CASUALTY INSURANCE ASSOCIATION FKA PROPERTY CASUALTY INSURERS ASSOC. OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/0e17e6f4-1ff2-4941-96bf-e81929f1d8d1/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "c8f129c3-e24c-4e88-968c-92a3573a309f",
+        "posted": "2004-08-16T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 26854,
+        "registrant": "AMERICAN PROPERTY CASUALTY INSURANCE ASSOCIATION FKA PROPERTY CASUALTY INSURERS ASSOC. OF AMERICA",
+        "source": "https://lda.gov/filings/public/filing/c8f129c3-e24c-4e88-968c-92a3573a309f/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 134255,
@@ -8339,7 +9563,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "4748b336-d1e3-4c51-8225-046004be8c7b",
+        "posted": "2026-04-20T15:57:08-04:00",
+        "reporting_year": 2026,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 66,
+        "registrant": "ABBOTT LABORATORIES",
+        "source": "https://lda.gov/filings/public/filing/4748b336-d1e3-4c51-8225-046004be8c7b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 104895,
@@ -8361,7 +9602,173 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "f9836941-7eca-4e74-befe-eefc7790a065",
+        "posted": "1999-08-16T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/f9836941-7eca-4e74-befe-eefc7790a065/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "438292db-f91d-4c26-8a6d-bbc9c5271173",
+        "posted": "2000-08-11T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/438292db-f91d-4c26-8a6d-bbc9c5271173/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "954542a0-5dae-423c-89be-f3368d625aa9",
+        "posted": "2000-11-08T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/954542a0-5dae-423c-89be-f3368d625aa9/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "270ba072-b144-4f7f-9dc7-091328d51c11",
+        "posted": "2001-02-14T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/270ba072-b144-4f7f-9dc7-091328d51c11/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "787eaa8c-2ce3-4c27-b6df-6bb43bbfbfe6",
+        "posted": "2001-08-13T00:00:00-04:00",
+        "reporting_year": 2001,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/787eaa8c-2ce3-4c27-b6df-6bb43bbfbfe6/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "e587dfd2-f90f-4a74-97bd-3e4dba65f3eb",
+        "posted": "2003-02-13T00:00:00-05:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/e587dfd2-f90f-4a74-97bd-3e4dba65f3eb/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "c097bcc2-08dc-4ed2-b404-93d134fb89b4",
+        "posted": "2003-05-21T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/c097bcc2-08dc-4ed2-b404-93d134fb89b4/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "065db1c8-43a2-4517-a40a-b45846cef3fe",
+        "posted": "2004-04-08T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/065db1c8-43a2-4517-a40a-b45846cef3fe/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "387c7e6a-cabe-42a6-98d6-21ba4b12ec86",
+        "posted": "2005-04-13T00:00:00-04:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/387c7e6a-cabe-42a6-98d6-21ba4b12ec86/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "893edca1-a611-4edf-ade4-671394bee644",
+        "posted": "2007-03-22T11:53:25-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/893edca1-a611-4edf-ade4-671394bee644/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "ab234dc1-4c0c-419b-b30a-b53e950dcdd0",
+        "posted": "2008-06-08T00:00:00-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 6597,
+        "registrant": "BOEING COMPANY",
+        "source": "https://lda.gov/filings/public/filing/ab234dc1-4c0c-419b-b30a-b53e950dcdd0/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 160744,
@@ -8622,7 +10029,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "a4263670-1617-4f84-b732-de128153f9de",
+        "posted": "2024-08-13T11:54:23-04:00",
+        "reporting_year": 2024,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 39143,
+        "registrant": "UNITEDHEALTH GROUP, INC.",
+        "source": "https://lda.gov/filings/public/filing/a4263670-1617-4f84-b732-de128153f9de/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 103572,
@@ -8699,7 +10123,53 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "a288193f-1d76-4748-a248-26f1062a46c3",
+        "posted": "1999-06-22T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 40305,
+        "registrant": "WALMART INC.",
+        "source": "https://lda.gov/filings/public/filing/a288193f-1d76-4748-a248-26f1062a46c3/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "36fb904e-b082-4b41-b1c6-a5a99ab8d5bf",
+        "posted": "1999-11-08T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 40305,
+        "registrant": "WALMART INC.",
+        "source": "https://lda.gov/filings/public/filing/36fb904e-b082-4b41-b1c6-a5a99ab8d5bf/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "9ad61292-ba29-4926-84a4-684c4f5e69b3",
+        "posted": "1999-11-08T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 40305,
+        "registrant": "WALMART INC.",
+        "source": "https://lda.gov/filings/public/filing/9ad61292-ba29-4926-84a4-684c4f5e69b3/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 142919,
@@ -8710,7 +10180,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "e30937a9-b441-4cff-bc46-dc3c706bf977",
+        "posted": "2004-09-20T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 34455,
+        "registrant": "AT&T SERVICES, INC. AND ITS AFFILIATES",
+        "source": "https://lda.gov/filings/public/filing/e30937a9-b441-4cff-bc46-dc3c706bf977/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 117067,
@@ -8732,7 +10218,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "2bb38ded-d1b0-4aac-94a7-f43a60b22070",
+        "posted": "2000-05-22T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 26683,
+        "registrant": "NATIONAL ASSOCIATION OF CHILDRENS HOSPITALS AND AFFILIATES",
+        "source": "https://lda.gov/filings/public/filing/2bb38ded-d1b0-4aac-94a7-f43a60b22070/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 114100,
@@ -8831,7 +10333,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "0b76a087-1069-46fb-91d7-6b3344d21d62",
+        "posted": "2015-07-27T16:52:14-04:00",
+        "reporting_year": 2015,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 40156,
+        "registrant": "VISA INC.",
+        "source": "https://lda.gov/filings/public/filing/0b76a087-1069-46fb-91d7-6b3344d21d62/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 103799,
@@ -8991,7 +10510,173 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "5d7d390e-f5ee-4456-a032-215a2ca64882",
+        "posted": "1999-08-16T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/5d7d390e-f5ee-4456-a032-215a2ca64882/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "eb7fafe4-fc1f-4d9e-959c-22dd4ef6aaa2",
+        "posted": "1999-08-16T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/eb7fafe4-fc1f-4d9e-959c-22dd4ef6aaa2/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "a09926fd-9f2e-4f34-98e4-77bf9625c24a",
+        "posted": "2000-02-14T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/a09926fd-9f2e-4f34-98e4-77bf9625c24a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "c3cd80e8-ef28-4c64-af27-7df215951505",
+        "posted": "2000-08-14T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/c3cd80e8-ef28-4c64-af27-7df215951505/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "5d430b37-394e-4231-b9a9-c33f16db4066",
+        "posted": "2001-02-14T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/5d430b37-394e-4231-b9a9-c33f16db4066/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "14eaf7af-530f-44cc-84b6-8e9ead692495",
+        "posted": "2001-08-14T00:00:00-04:00",
+        "reporting_year": 2001,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/14eaf7af-530f-44cc-84b6-8e9ead692495/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "83c87137-54e0-4767-969d-15c48c6a9c19",
+        "posted": "2002-02-14T00:00:00-05:00",
+        "reporting_year": 2001,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/83c87137-54e0-4767-969d-15c48c6a9c19/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "ab66a127-c91a-473a-8199-6dc2a67f3f37",
+        "posted": "2002-03-20T00:00:00-05:00",
+        "reporting_year": 2002,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/ab66a127-c91a-473a-8199-6dc2a67f3f37/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "fcef955e-9793-49ab-ba1f-931218ecd514",
+        "posted": "2002-08-14T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/fcef955e-9793-49ab-ba1f-931218ecd514/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "10ce70a6-5455-4c18-8393-daa9ecb2231a",
+        "posted": "2007-04-02T09:37:53-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/10ce70a6-5455-4c18-8393-daa9ecb2231a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "9f10a330-7434-4b7c-90f4-aab232854674",
+        "posted": "2007-12-03T14:00:15-05:00",
+        "reporting_year": 2007,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 31406,
+        "registrant": "ALTRIA CLIENT SERVICES LLC",
+        "source": "https://lda.gov/filings/public/filing/9f10a330-7434-4b7c-90f4-aab232854674/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 138225,
@@ -9002,7 +10687,40 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "c17ec30c-9f86-4d0f-b5f7-135d2c72874d",
+        "posted": "2014-01-29T19:00:11.167000-05:00",
+        "reporting_year": 2013,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 31326,
+        "registrant": "PFIZER INC.",
+        "source": "https://lda.gov/filings/public/filing/c17ec30c-9f86-4d0f-b5f7-135d2c72874d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "7a7cfe65-d4e2-434b-b70b-089f0056adf4",
+        "posted": "2018-02-15T14:22:41-05:00",
+        "reporting_year": 2018,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 31326,
+        "registrant": "PFIZER INC.",
+        "source": "https://lda.gov/filings/public/filing/7a7cfe65-d4e2-434b-b70b-089f0056adf4/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 205847,
@@ -9509,7 +11227,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "bb3a67cd-6034-4d66-ab8a-1a04a6a31d4b",
+        "posted": "2012-05-07T12:02:16.417000-04:00",
+        "reporting_year": 2012,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 25192,
+        "registrant": "MICRON TECHNOLOGY, INC.",
+        "source": "https://lda.gov/filings/public/filing/bb3a67cd-6034-4d66-ab8a-1a04a6a31d4b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 180606,
@@ -9685,7 +11420,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "b66fa72d-f1bd-434b-915f-063740f96489",
+        "posted": "2008-04-11T00:00:00-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 10662,
+        "registrant": "UNITED AIRLINES, INC.",
+        "source": "https://lda.gov/filings/public/filing/b66fa72d-f1bd-434b-915f-063740f96489/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 112676,
@@ -9696,7 +11447,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "469228f3-ffc2-4a5b-9c36-f81bbbcefbea",
+        "posted": "2008-04-21T17:02:39-04:00",
+        "reporting_year": 2008,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 8475,
+        "registrant": "CATERPILLAR INC.",
+        "source": "https://lda.gov/filings/public/filing/469228f3-ffc2-4a5b-9c36-f81bbbcefbea/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 195383,
@@ -9894,7 +11662,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "33b3ed82-e956-417f-ab70-cd5a5a764b45",
+        "posted": "2008-04-21T17:26:24-04:00",
+        "reporting_year": 2008,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 38404,
+        "registrant": "U.S. TRAVEL ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/33b3ed82-e956-417f-ab70-cd5a5a764b45/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 184722,
@@ -9927,8 +11712,8 @@
     "client_id": 160754,
     "client": "T-MOBILE USA, INC.",
     "country": "US",
-    "complete_all_years_query_acquired": false,
-    "all_years_form_count": null,
+    "complete_all_years_query_acquired": true,
+    "all_years_form_count": 99,
     "original_rr_rows": 2,
     "initial_registration_gap": false,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
@@ -9993,7 +11778,9 @@
         "locator": "LD-1 section 14 or LD-2 sections 27-28",
         "registration_entities_or_ld2_additions": [],
         "latest_acquired_version_for_quarter": true,
-        "field_parse": "original missing"
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
       },
       {
         "uuid": "253f6312-9e28-46dc-bf3e-f4ac93493e80",
@@ -10040,7 +11827,9 @@
           }
         ],
         "latest_acquired_version_for_quarter": true,
-        "field_parse": "original missing"
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
       },
       {
         "uuid": "d12d3901-f7e3-4619-9994-821cdc009995",
@@ -10087,7 +11876,9 @@
           }
         ],
         "latest_acquired_version_for_quarter": true,
-        "field_parse": "original missing"
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
       },
       {
         "uuid": "ec4add51-7f40-4078-91ca-e431ac87cd19",
@@ -10134,7 +11925,9 @@
           }
         ],
         "latest_acquired_version_for_quarter": true,
-        "field_parse": "original missing"
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "removed_foreign_entities": []
       }
     ]
   },
@@ -10201,7 +11994,113 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "e5ac2715-fc74-46f6-9834-d812b044707b",
+        "posted": "1999-08-16T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/e5ac2715-fc74-46f6-9834-d812b044707b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "f55917f6-914e-444c-a819-836dc2fb5e5c",
+        "posted": "2001-08-15T00:00:00-04:00",
+        "reporting_year": 2001,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/f55917f6-914e-444c-a819-836dc2fb5e5c/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "a326e0aa-2c28-48e0-ad99-ebc3d5ded070",
+        "posted": "2006-02-23T00:00:00-05:00",
+        "reporting_year": 2006,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/a326e0aa-2c28-48e0-ad99-ebc3d5ded070/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "e52ca190-1b21-40a8-bf7a-6761399343c4",
+        "posted": "2007-02-14T15:31:46-05:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/e52ca190-1b21-40a8-bf7a-6761399343c4/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "c4cbb3a2-efc2-41f9-8358-8fa23f082045",
+        "posted": "2007-02-20T00:00:00-05:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/c4cbb3a2-efc2-41f9-8358-8fa23f082045/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "5347a4df-e273-4423-988a-c5083bb45e01",
+        "posted": "2007-08-14T19:22:22-04:00",
+        "reporting_year": 2005,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/5347a4df-e273-4423-988a-c5083bb45e01/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "b17197e7-7bcf-4f10-9493-63356cc21923",
+        "posted": "2007-08-20T00:00:00-04:00",
+        "reporting_year": 2007,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 4152,
+        "registrant": "APPLE INC.",
+        "source": "https://lda.gov/filings/public/filing/b17197e7-7bcf-4f10-9493-63356cc21923/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 180888,
@@ -10212,7 +12111,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "415c4d91-71ef-4ac4-be56-c13c1f36f105",
+        "posted": "2014-10-20T15:15:50-04:00",
+        "reporting_year": 2014,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 302778,
+        "registrant": "CVS HEALTH (AND SUBSIDIARIES)",
+        "source": "https://lda.gov/filings/public/filing/415c4d91-71ef-4ac4-be56-c13c1f36f105/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 188597,
@@ -12692,7 +14608,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "6ec379a8-1b35-46aa-a45a-1d5f475af9d1",
+        "posted": "1999-08-18T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 5836,
+        "registrant": "VERIZON COMMUNICATIONS INC. AND VARIOUS SUBSIDIARIES",
+        "source": "https://lda.gov/filings/public/filing/6ec379a8-1b35-46aa-a45a-1d5f475af9d1/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 119494,
@@ -12703,7 +14635,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "02693087-1a02-4c36-9b45-f4c617218f3a",
+        "posted": "2008-04-18T00:00:00-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 14017,
+        "registrant": "EXXON MOBIL CORP",
+        "source": "https://lda.gov/filings/public/filing/02693087-1a02-4c36-9b45-f4c617218f3a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 117776,
@@ -12752,7 +14700,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "07294511-121e-4386-9a90-89f2279ad431",
+        "posted": "2003-08-26T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 39267,
+        "registrant": "RTX CORPORATION AND AFFILIATES",
+        "source": "https://lda.gov/filings/public/filing/07294511-121e-4386-9a90-89f2279ad431/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 102632,
@@ -12829,7 +14793,88 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "b31d4722-b683-4da8-929e-39194de50490",
+        "posted": "2011-05-13T16:01:16-04:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400752252,
+        "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED",
+        "source": "https://lda.gov/filings/public/filing/b31d4722-b683-4da8-929e-39194de50490/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "b0bd3f01-c443-44fb-8163-8daf7f3a9d8d",
+        "posted": "2012-06-13T12:32:41.287000-04:00",
+        "reporting_year": 2012,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400752252,
+        "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED",
+        "source": "https://lda.gov/filings/public/filing/b0bd3f01-c443-44fb-8163-8daf7f3a9d8d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "2c261938-5c42-4c0f-a7a8-5982ef40d806",
+        "posted": "2013-05-08T08:03:13.583000-04:00",
+        "reporting_year": 2013,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400752252,
+        "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED",
+        "source": "https://lda.gov/filings/public/filing/2c261938-5c42-4c0f-a7a8-5982ef40d806/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "c58e5f09-e011-41c5-9675-c9e4a38bf699",
+        "posted": "2014-05-29T13:00:00.423000-04:00",
+        "reporting_year": 2014,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400752252,
+        "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED",
+        "source": "https://lda.gov/filings/public/filing/c58e5f09-e011-41c5-9675-c9e4a38bf699/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "15f00ba2-4f1e-4d15-83e2-694d30cfbb34",
+        "posted": "2015-02-25T17:52:22-05:00",
+        "reporting_year": 2015,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400752252,
+        "registrant": "HUNTINGTON INGALLS INDUSTRIES INCORPORATED",
+        "source": "https://lda.gov/filings/public/filing/15f00ba2-4f1e-4d15-83e2-694d30cfbb34/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 134513,
@@ -16744,7 +18789,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "1032cbfa-ac8f-4c45-9b9f-bf9b6b6a182f",
+        "posted": "2008-04-18T00:00:00-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 38450,
+        "registrant": "TRI-STATE GENERATION AND TRANSMISSION ASSOCIATION, INC.",
+        "source": "https://lda.gov/filings/public/filing/1032cbfa-ac8f-4c45-9b9f-bf9b6b6a182f/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 67147,
@@ -16778,8 +18839,8 @@
     "client_id": 203141,
     "client": "NUTRIEN US LLC (FORMERLY KNOWN AS AGRIUM U.S. INC.) (A NUTRIEN LTD SUBSIDIARY)",
     "country": "US",
-    "complete_all_years_query_acquired": false,
-    "all_years_form_count": null,
+    "complete_all_years_query_acquired": true,
+    "all_years_form_count": 38,
     "original_rr_rows": 1,
     "initial_registration_gap": false,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
@@ -16832,6 +18893,55 @@
         "format": "html",
         "field_parse": "parsed original HTML",
         "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "07995999-63fb-4980-8177-bb9111ca477c",
+        "posted": "2020-07-20T22:15:19.677000-04:00",
+        "reporting_year": 2020,
+        "period": "second_quarter",
+        "filing_type": "Q2",
+        "registrant_id": 401105074,
+        "registrant": "NUTRIEN US LLC (FORMERLY KNOWN AS AGRIUM U.S. INC.) (A NUTRIEN LTD SUBSIDIARY).",
+        "source": "https://lda.gov/filings/public/filing/07995999-63fb-4980-8177-bb9111ca477c/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "AGRIUM, INC.",
+            "contribution": "0.00",
+            "ownership_percentage": "100.00",
+            "address": "122 1st Avenue South",
+            "city": "Saskatoon",
+            "state": "SK",
+            "state_display": "Saskatchewan",
+            "country": "CA",
+            "country_display": "Canada",
+            "ppb_city": "Saskatoon",
+            "ppb_state": "SK",
+            "ppb_state_display": "Saskatchewan",
+            "ppb_country": "CA",
+            "ppb_country_display": "Canada"
+          },
+          {
+            "name": "10706957 CANADA INC.",
+            "contribution": "0.00",
+            "ownership_percentage": "100.00",
+            "address": "122 1st Avenue South",
+            "city": "Saskatoon",
+            "state": "SK",
+            "state_display": "Saskatchewan",
+            "country": "CA",
+            "country_display": "Canada",
+            "ppb_city": "Saskatoon",
+            "ppb_state": "SK",
+            "ppb_state_display": "Saskatchewan",
+            "ppb_country": "CA",
+            "ppb_country_display": "Canada"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "removed_foreign_entities": []
       }
     ]
   },
@@ -16961,8 +19071,8 @@
     "client_id": 165440,
     "client": "UNITED STATES STEEL CORPORATION",
     "country": "US",
-    "complete_all_years_query_acquired": false,
-    "all_years_form_count": null,
+    "complete_all_years_query_acquired": true,
+    "all_years_form_count": 91,
     "original_rr_rows": 1,
     "initial_registration_gap": false,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
@@ -16998,6 +19108,22 @@
         "latest_acquired_version_for_quarter": true,
         "format": "pdf",
         "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "c6a30ba0-2256-435b-abb9-5355fd2d19ef",
+        "posted": "2021-03-23T10:42:32-04:00",
+        "reporting_year": 2021,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 71553,
+        "registrant": "UNITED STATES STEEL CORPORATION",
+        "source": "https://lda.gov/filings/public/filing/c6a30ba0-2256-435b-abb9-5355fd2d19ef/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
       },
       {
         "uuid": "f938042d-26f9-49cb-988d-fa6c42ec8924",
@@ -17049,12 +19175,44 @@
     "client_id": 169003,
     "client": "TEVA PHARMACEUTICALS USA INC",
     "country": "US",
-    "complete_all_years_query_acquired": false,
-    "all_years_form_count": null,
+    "complete_all_years_query_acquired": true,
+    "all_years_form_count": 101,
     "original_rr_rows": 1,
     "initial_registration_gap": false,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
     "events": [
+      {
+        "uuid": "5814e67b-e49d-4320-826b-7afa360a3b2b",
+        "posted": "2002-08-13T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 76695,
+        "registrant": "TEVA PHARMACEUTICALS USA, INC.",
+        "source": "https://lda.gov/filings/public/filing/5814e67b-e49d-4320-826b-7afa360a3b2b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "TEVA PHARMACEUTICALS EUROPE B.V.",
+            "contribution": "0.00",
+            "ownership_percentage": null,
+            "address": null,
+            "city": null,
+            "state": null,
+            "state_display": null,
+            "country": "NL",
+            "country_display": "Netherlands",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "NL",
+            "ppb_country_display": "Netherlands"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
       {
         "uuid": "64410e76-147e-47bb-a9c6-7682d20b103d",
         "posted": "2002-08-14T00:00:00-04:00",
@@ -17102,6 +19260,71 @@
         "latest_acquired_version_for_quarter": true,
         "format": "pdf",
         "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "af4b53b7-d351-42c5-9fb9-6f823e9b166d",
+        "posted": "2014-01-17T18:15:15.967000-05:00",
+        "reporting_year": 2013,
+        "period": "fourth_quarter",
+        "filing_type": "Q4",
+        "registrant_id": 76695,
+        "registrant": "TEVA PHARMACEUTICALS USA, INC.",
+        "source": "https://lda.gov/filings/public/filing/af4b53b7-d351-42c5-9fb9-6f823e9b166d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "ORVET UK",
+            "contribution": "0.00",
+            "ownership_percentage": "100.00",
+            "address": "18 Bruntcliffe Way",
+            "city": "Morely Leeds",
+            "state": null,
+            "state_display": null,
+            "country": "GB",
+            "country_display": "United Kingdom",
+            "ppb_city": "Morely Leeds",
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "GB",
+            "ppb_country_display": "United Kingdom"
+          },
+          {
+            "name": "TEVA PHARMACEUTICALS EUROPE BV",
+            "contribution": "0.00",
+            "ownership_percentage": "100.00",
+            "address": "3640 (P.O. Box 306)",
+            "city": "Ad Mijdrecht",
+            "state": null,
+            "state_display": null,
+            "country": "NL",
+            "country_display": "Netherlands",
+            "ppb_city": "Ad Mijdrecht",
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "NL",
+            "ppb_country_display": "Netherlands"
+          },
+          {
+            "name": "TEVA PHARMACEUTICAL INDUSTRIES, LTD.",
+            "contribution": "0.00",
+            "ownership_percentage": "100.00",
+            "address": "5 Basel Street, P.O. Box 3190",
+            "city": "Petach Tikva",
+            "state": null,
+            "state_display": null,
+            "country": "IL",
+            "country_display": "Israel",
+            "ppb_city": "Petach Tikva",
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "IL",
+            "ppb_country_display": "Israel"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "removed_foreign_entities": []
       }
     ]
   },
@@ -17152,7 +19375,172 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "b343f1a0-d0d8-4b30-9907-8ad1e18d6a9b",
+        "posted": "2009-03-31T17:17:03-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 46940,
+        "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+        "source": "https://lda.gov/filings/public/filing/b343f1a0-d0d8-4b30-9907-8ad1e18d6a9b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "FRESENIUS MEDICAL CARE",
+            "contribution": null,
+            "ownership_percentage": "100.00",
+            "address": "920 Winter St.",
+            "city": "Waltham",
+            "state": "MA",
+            "state_display": "Massachusetts",
+            "country": "US",
+            "country_display": "United States of America",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "US",
+            "ppb_country_display": "United States of America"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "0057e0b3-defe-45be-bcf0-43e2dc5aeb4a",
+        "posted": "2009-07-30T10:21:17-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 46940,
+        "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+        "source": "https://lda.gov/filings/public/filing/0057e0b3-defe-45be-bcf0-43e2dc5aeb4a/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "8f6f6122-c7ba-4002-bc17-408e17d5d472",
+        "posted": "2011-11-04T13:12:52.553000-04:00",
+        "reporting_year": 2011,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 46940,
+        "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+        "source": "https://lda.gov/filings/public/filing/8f6f6122-c7ba-4002-bc17-408e17d5d472/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "FRESENIUS MEDICAL CARE",
+            "contribution": null,
+            "ownership_percentage": "100.00",
+            "address": "920 Winter St.",
+            "city": "Waltham",
+            "state": "MA",
+            "state_display": "Massachusetts",
+            "country": "US",
+            "country_display": "United States of America",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "US",
+            "ppb_country_display": "United States of America"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "5968a60a-a300-4186-a8ff-d5736eea2e46",
+        "posted": "2012-01-19T12:05:04-05:00",
+        "reporting_year": 2011,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 46940,
+        "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+        "source": "https://lda.gov/filings/public/filing/5968a60a-a300-4186-a8ff-d5736eea2e46/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "FRESENIUS MEDICAL CARE",
+            "contribution": null,
+            "ownership_percentage": "100.00",
+            "address": "920 Winter St.",
+            "city": "Waltham",
+            "state": "MA",
+            "state_display": "Massachusetts",
+            "country": "US",
+            "country_display": "United States of America",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "US",
+            "ppb_country_display": "United States of America"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "252ad72f-a9ab-4852-a6a0-ed340e1a6a76",
+        "posted": "2012-03-22T17:12:27.887000-04:00",
+        "reporting_year": 2012,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 46940,
+        "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+        "source": "https://lda.gov/filings/public/filing/252ad72f-a9ab-4852-a6a0-ed340e1a6a76/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "FRESENIUS MEDICAL CARE",
+            "contribution": null,
+            "ownership_percentage": "100.00",
+            "address": "920 Winter St.",
+            "city": "Waltham",
+            "state": "MA",
+            "state_display": "Massachusetts",
+            "country": "US",
+            "country_display": "United States of America",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "US",
+            "ppb_country_display": "United States of America"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "735d5e6e-e0a1-4f5d-9ac6-4d9b4891e1e8",
+        "posted": "2016-01-20T16:21:51-05:00",
+        "reporting_year": 2015,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 46940,
+        "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+        "source": "https://lda.gov/filings/public/filing/735d5e6e-e0a1-4f5d-9ac6-4d9b4891e1e8/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 126362,
@@ -17317,8 +19705,8 @@
     "client_id": 160416,
     "client": "TAKEDA PHARMACEUTICALS AMERICA INC",
     "country": "US",
-    "complete_all_years_query_acquired": false,
-    "all_years_form_count": null,
+    "complete_all_years_query_acquired": true,
+    "all_years_form_count": 99,
     "original_rr_rows": 1,
     "initial_registration_gap": false,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
@@ -17354,6 +19742,53 @@
         "latest_acquired_version_for_quarter": true,
         "format": "pdf",
         "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "b2432b5b-1494-4c16-acc6-b77f04861640",
+        "posted": "2008-02-18T19:42:27.413000-05:00",
+        "reporting_year": 2008,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 57954,
+        "registrant": "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+        "source": "https://lda.gov/filings/public/filing/b2432b5b-1494-4c16-acc6-b77f04861640/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "11062335-cd90-4c44-b0f6-bdfcdbe6a857",
+        "posted": "2008-04-17T20:17:35-04:00",
+        "reporting_year": 2008,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 57954,
+        "registrant": "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+        "source": "https://lda.gov/filings/public/filing/11062335-cd90-4c44-b0f6-bdfcdbe6a857/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "e4163041-bf01-49de-aebb-cfcf2de56e28",
+        "posted": "2010-01-13T11:35:34.727000-05:00",
+        "reporting_year": 2009,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 57954,
+        "registrant": "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+        "source": "https://lda.gov/filings/public/filing/e4163041-bf01-49de-aebb-cfcf2de56e28/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
       }
     ]
   },
@@ -17389,8 +19824,8 @@
     "client_id": 189281,
     "client": "EISAI INC.",
     "country": "US",
-    "complete_all_years_query_acquired": false,
-    "all_years_form_count": null,
+    "complete_all_years_query_acquired": true,
+    "all_years_form_count": 67,
     "original_rr_rows": 1,
     "initial_registration_gap": false,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
@@ -17427,6 +19862,55 @@
         "format": "html",
         "field_parse": "parsed original HTML",
         "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "bda8d799-a770-4508-931d-82908b749beb",
+        "posted": "2014-04-25T19:00:12.070000-04:00",
+        "reporting_year": 2014,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400321512,
+        "registrant": "EISAI INC.",
+        "source": "https://lda.gov/filings/public/filing/bda8d799-a770-4508-931d-82908b749beb/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "683670af-3262-40ac-97c1-a6c495728e3b",
+        "posted": "2022-03-30T14:40:07-04:00",
+        "reporting_year": 2022,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 400321512,
+        "registrant": "EISAI INC.",
+        "source": "https://lda.gov/filings/public/filing/683670af-3262-40ac-97c1-a6c495728e3b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "EISAI CO. LTD.",
+            "contribution": "0.00",
+            "ownership_percentage": "100.00",
+            "address": "4-6-10 Koishikawa",
+            "city": "Bunkyo-Ku, Tokyo",
+            "state": null,
+            "state_display": null,
+            "country": "JP",
+            "country_display": "Japan",
+            "ppb_city": "Tokyo, 112-8088",
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "JP",
+            "ppb_country_display": "Japan"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
       }
     ]
   },
@@ -17439,7 +19923,39 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "40237a12-d20d-41cb-a112-ad760c3639f1",
+        "posted": "2000-01-06T00:00:00-05:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 3708,
+        "registrant": "AMERICAN CLEAN POWER ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/40237a12-d20d-41cb-a112-ad760c3639f1/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "d40ae63d-3e7c-4763-a4b1-5f11614a8ee9",
+        "posted": "2021-01-13T14:13:12-05:00",
+        "reporting_year": 2021,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 3708,
+        "registrant": "AMERICAN CLEAN POWER ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/d40ae63d-3e7c-4763-a4b1-5f11614a8ee9/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 140464,
@@ -17450,7 +19966,104 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "b9731137-0025-4dfb-b3b6-ba2e0ba63dcc",
+        "posted": "2005-08-12T00:00:00-04:00",
+        "reporting_year": 2005,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 32225,
+        "registrant": "THE PROCTER AND GAMBLE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/b9731137-0025-4dfb-b3b6-ba2e0ba63dcc/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "ER SOUTHERN CONE",
+            "contribution": null,
+            "ownership_percentage": null,
+            "address": null,
+            "city": null,
+            "state": null,
+            "state_display": null,
+            "country": "AR",
+            "country_display": "Argentina",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "",
+            "ppb_country_display": "* Undetermined"
+          },
+          {
+            "name": "ARGENTINA & CHILE",
+            "contribution": null,
+            "ownership_percentage": null,
+            "address": null,
+            "city": null,
+            "state": null,
+            "state_display": null,
+            "country": "AR",
+            "country_display": "Argentina",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "AR",
+            "ppb_country_display": "Argentina"
+          },
+          {
+            "name": "P&G LATIN AMERICA",
+            "contribution": null,
+            "ownership_percentage": null,
+            "address": null,
+            "city": null,
+            "state": null,
+            "state_display": null,
+            "country": "VE",
+            "country_display": "Venezuela",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "VE",
+            "ppb_country_display": "Venezuela"
+          },
+          {
+            "name": "BRAZIL SAO PAULO",
+            "contribution": null,
+            "ownership_percentage": null,
+            "address": null,
+            "city": null,
+            "state": null,
+            "state_display": null,
+            "country": "BR",
+            "country_display": "Brazil",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "BR",
+            "ppb_country_display": "Brazil"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "efd9653e-1429-4bfe-8e7f-4465c2690a3e",
+        "posted": "2013-10-09T16:01:48.507000-04:00",
+        "reporting_year": 2013,
+        "period": "fourth_quarter",
+        "filing_type": "RA",
+        "registrant_id": 32225,
+        "registrant": "THE PROCTER AND GAMBLE COMPANY",
+        "source": "https://lda.gov/filings/public/filing/efd9653e-1429-4bfe-8e7f-4465c2690a3e/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 109642,
@@ -17461,7 +20074,39 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "6064298a-a37e-42a8-902e-b1020f638613",
+        "posted": "2003-02-13T00:00:00-05:00",
+        "reporting_year": 2003,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 7053,
+        "registrant": "BRISTOL-MYERS SQUIBB COMPANY",
+        "source": "https://lda.gov/filings/public/filing/6064298a-a37e-42a8-902e-b1020f638613/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "18d181db-1339-4502-bd7d-c691a89cd043",
+        "posted": "2013-05-21T15:00:00.590000-04:00",
+        "reporting_year": 2013,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 7053,
+        "registrant": "BRISTOL-MYERS SQUIBB COMPANY",
+        "source": "https://lda.gov/filings/public/filing/18d181db-1339-4502-bd7d-c691a89cd043/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 201038,
@@ -17566,7 +20211,69 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "dcd1a7e7-cc93-4f63-a349-3cc7f838ec51",
+        "posted": "2002-08-14T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6245,
+        "registrant": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+        "source": "https://lda.gov/filings/public/filing/dcd1a7e7-cc93-4f63-a349-3cc7f838ec51/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "52472d43-ed98-4479-8ed3-5c0278c1edb0",
+        "posted": "2002-08-19T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6245,
+        "registrant": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+        "source": "https://lda.gov/filings/public/filing/52472d43-ed98-4479-8ed3-5c0278c1edb0/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "735ec7bc-8939-45d2-9053-cc0a66264674",
+        "posted": "2004-08-10T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 6245,
+        "registrant": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+        "source": "https://lda.gov/filings/public/filing/735ec7bc-8939-45d2-9053-cc0a66264674/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "5e40ea38-545e-43b1-87fd-013acd35e809",
+        "posted": "2016-02-03T15:27:20-05:00",
+        "reporting_year": 2016,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 6245,
+        "registrant": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+        "source": "https://lda.gov/filings/public/filing/5e40ea38-545e-43b1-87fd-013acd35e809/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 173983,
@@ -17653,7 +20360,38 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "cd144d6e-8c5e-4fce-9d31-a69277c26786",
+        "posted": "2000-04-24T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29356,
+        "registrant": "NISSAN NORTH AMERICA, INC.",
+        "source": "https://lda.gov/filings/public/filing/cd144d6e-8c5e-4fce-9d31-a69277c26786/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "024433f6-141b-47e6-bb56-75c1a63ed222",
+        "posted": "2008-04-11T00:00:00-04:00",
+        "reporting_year": 2007,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 29356,
+        "registrant": "NISSAN NORTH AMERICA, INC.",
+        "source": "https://lda.gov/filings/public/filing/024433f6-141b-47e6-bb56-75c1a63ed222/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 127448,
@@ -17664,7 +20402,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "e6bfe9e0-4fdb-42ba-b816-6df010e06c0d",
+        "posted": "2021-01-05T12:40:57-05:00",
+        "reporting_year": 2021,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 20857,
+        "registrant": "EDWARD D. JONES & CO., L.P.",
+        "source": "https://lda.gov/filings/public/filing/e6bfe9e0-4fdb-42ba-b816-6df010e06c0d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 51237,
@@ -17730,7 +20485,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "2d5100df-3cf8-4403-a8cf-b246f9489d57",
+        "posted": "2012-04-20T14:51:57.037000-04:00",
+        "reporting_year": 2011,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 18546,
+        "registrant": "AMERICAN HONDA MOTOR CO., INC.",
+        "source": "https://lda.gov/filings/public/filing/2d5100df-3cf8-4403-a8cf-b246f9489d57/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 121722,
@@ -17741,7 +20513,57 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "3bb013e9-837a-464c-a756-a96be0ef7f7e",
+        "posted": "2009-04-03T15:39:31-04:00",
+        "reporting_year": 2002,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 16293,
+        "registrant": "GSK (FKA GLAXOSMITHKLINE INC.)",
+        "source": "https://lda.gov/filings/public/filing/3bb013e9-837a-464c-a756-a96be0ef7f7e/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      },
+      {
+        "uuid": "6ef9dd46-b495-46f5-9ab2-5bbabbea026f",
+        "posted": "2011-04-07T11:40:54.697000-04:00",
+        "reporting_year": 2011,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 16293,
+        "registrant": "GSK (FKA GLAXOSMITHKLINE INC.)",
+        "source": "https://lda.gov/filings/public/filing/6ef9dd46-b495-46f5-9ab2-5bbabbea026f/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "GLAXOSMITHKLINE, PLC",
+            "contribution": null,
+            "ownership_percentage": "100.00",
+            "address": "980 Great West Road, Brentford",
+            "city": "Middlesex,TW8 9GS",
+            "state": null,
+            "state_display": null,
+            "country": "GB",
+            "country_display": "United Kingdom",
+            "ppb_city": "Brentford, Middlesex",
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "GB",
+            "ppb_country_display": "United Kingdom"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      }
+    ]
   },
   {
     "client_id": 158904,
@@ -17848,7 +20670,123 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "cf95658c-0182-4063-9db7-11ee46520e97",
+        "posted": "2009-10-20T11:59:24-04:00",
+        "reporting_year": 2009,
+        "period": "third_quarter",
+        "filing_type": "RA",
+        "registrant_id": 330,
+        "registrant": "AIRBUS AMERICAS, INC",
+        "source": "https://lda.gov/filings/public/filing/cf95658c-0182-4063-9db7-11ee46520e97/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "EADS N.V. (FILING AMENDMENT DUE TO ADDRESS CHANGE)",
+            "contribution": null,
+            "ownership_percentage": "100.00",
+            "address": "Mendelweg 30 233 CS",
+            "city": "Leiden",
+            "state": null,
+            "state_display": null,
+            "country": "NL",
+            "country_display": "Netherlands",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "NL",
+            "ppb_country_display": "Netherlands"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "9d631b69-4033-48e0-9ced-29db0ff37f33",
+        "posted": "2015-04-22T11:26:48-04:00",
+        "reporting_year": 2015,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 330,
+        "registrant": "AIRBUS AMERICAS, INC",
+        "source": "https://lda.gov/filings/public/filing/9d631b69-4033-48e0-9ced-29db0ff37f33/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "AIRBUS GROUP N.V.",
+            "contribution": "820000.00",
+            "ownership_percentage": "100.00",
+            "address": "Mendelweg 30",
+            "city": "2303 DA Leiden",
+            "state": null,
+            "state_display": null,
+            "country": "NL",
+            "country_display": "Netherlands",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "NL",
+            "ppb_country_display": "Netherlands"
+          },
+          {
+            "name": "AIRBUS S.A.S.",
+            "contribution": "0.00",
+            "ownership_percentage": "0.00",
+            "address": "1 Rond Point Maurice Bellonte",
+            "city": "Blagnac",
+            "state": null,
+            "state_display": null,
+            "country": "FR",
+            "country_display": "France",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "FR",
+            "ppb_country_display": "France"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      },
+      {
+        "uuid": "2b92b0c0-1530-4ab5-976b-cb5ba514fbe9",
+        "posted": "2017-07-19T16:03:28-04:00",
+        "reporting_year": 2017,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 330,
+        "registrant": "AIRBUS AMERICAS, INC",
+        "source": "https://lda.gov/filings/public/filing/2b92b0c0-1530-4ab5-976b-cb5ba514fbe9/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [
+          {
+            "name": "AIRBUS S.A.S.",
+            "contribution": "900000.00",
+            "ownership_percentage": "100.00",
+            "address": "1 Rond Point Maurice Bellonte",
+            "city": "Blagnac",
+            "state": null,
+            "state_display": null,
+            "country": "FR",
+            "country_display": "France",
+            "ppb_city": null,
+            "ppb_state": null,
+            "ppb_state_display": null,
+            "ppb_country": "FR",
+            "ppb_country_display": "France"
+          }
+        ],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "Yes"
+      }
+    ]
   },
   {
     "client_id": 126309,
@@ -17897,7 +20835,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "7382f9f6-4552-46bc-80b2-dc272645ced9",
+        "posted": "1999-06-14T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 1331,
+        "registrant": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/7382f9f6-4552-46bc-80b2-dc272645ced9/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 206637,
@@ -17969,7 +20923,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "96e9aff0-7c12-4f67-b97d-d5b046251122",
+        "posted": "2002-09-13T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 10627,
+        "registrant": "CONSUMER BANKERS ASSOCIATION",
+        "source": "https://lda.gov/filings/public/filing/96e9aff0-7c12-4f67-b97d-d5b046251122/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 65325,
@@ -18221,7 +21191,23 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "b3e74efd-98e7-464d-b24e-37da9de92370",
+        "posted": "2002-08-15T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 24817,
+        "registrant": "MEDTRONIC, INC.",
+        "source": "https://lda.gov/filings/public/filing/b3e74efd-98e7-464d-b24e-37da9de92370/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 63912,
@@ -18332,7 +21318,38 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "43d53deb-0086-43f8-af10-c09d6c5c9499",
+        "posted": "1999-08-16T00:00:00-04:00",
+        "reporting_year": 1999,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 16998,
+        "registrant": "CONSUMER BRANDS ASSOCIATION (PKA: GROCERY MANUFACTURERS ASSOCIATION)",
+        "source": "https://lda.gov/filings/public/filing/43d53deb-0086-43f8-af10-c09d6c5c9499/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "87a30fa6-7c35-4294-ba43-4ce7b5b808b3",
+        "posted": "2008-04-11T00:00:00-04:00",
+        "reporting_year": 2008,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 16998,
+        "registrant": "CONSUMER BRANDS ASSOCIATION (PKA: GROCERY MANUFACTURERS ASSOCIATION)",
+        "source": "https://lda.gov/filings/public/filing/87a30fa6-7c35-4294-ba43-4ce7b5b808b3/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 123489,
@@ -18365,7 +21382,24 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "f2640df4-ecb7-4ed6-9882-7d43c54affe0",
+        "posted": "2008-07-21T08:57:00-04:00",
+        "reporting_year": 2008,
+        "period": "second_quarter",
+        "filing_type": "RA",
+        "registrant_id": 24863,
+        "registrant": "MELLON FINANCIAL SERVICES CORPORATION #1",
+        "source": "https://lda.gov/filings/public/filing/f2640df4-ecb7-4ed6-9882-7d43c54affe0/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 172156,
@@ -18469,7 +21503,69 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "cf7b8013-29fa-45ee-8149-e9668fcd77e9",
+        "posted": "2000-08-14T00:00:00-04:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 16032,
+        "registrant": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+        "source": "https://lda.gov/filings/public/filing/cf7b8013-29fa-45ee-8149-e9668fcd77e9/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "1334a4e4-3f67-41a8-b477-cf325c437e3b",
+        "posted": "2000-11-28T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 16032,
+        "registrant": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+        "source": "https://lda.gov/filings/public/filing/1334a4e4-3f67-41a8-b477-cf325c437e3b/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "a9d77ebc-db0a-493b-aaad-a4938e17097c",
+        "posted": "2001-04-11T00:00:00-04:00",
+        "reporting_year": 2001,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 16032,
+        "registrant": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+        "source": "https://lda.gov/filings/public/filing/a9d77ebc-db0a-493b-aaad-a4938e17097c/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "58f3da17-e2f1-4fb9-940f-327dda87d7eb",
+        "posted": "2017-07-27T10:26:50-04:00",
+        "reporting_year": 2017,
+        "period": "first_quarter",
+        "filing_type": "RA",
+        "registrant_id": 16032,
+        "registrant": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+        "source": "https://lda.gov/filings/public/filing/58f3da17-e2f1-4fb9-940f-327dda87d7eb/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "html",
+        "field_parse": "parsed original HTML",
+        "registration_section14_response": "No"
+      }
+    ]
   },
   {
     "client_id": 134545,
@@ -18518,7 +21614,38 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "75f0e23d-b572-4379-87f1-9db09796558e",
+        "posted": "2002-08-21T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 15133,
+        "registrant": "FORD MOTOR COMPANY",
+        "source": "https://lda.gov/filings/public/filing/75f0e23d-b572-4379-87f1-9db09796558e/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "b128fedb-ff1b-4b2f-87f9-556548a01dcf",
+        "posted": "2004-05-12T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 15133,
+        "registrant": "FORD MOTOR COMPANY",
+        "source": "https://lda.gov/filings/public/filing/b128fedb-ff1b-4b2f-87f9-556548a01dcf/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 131181,
@@ -18540,7 +21667,38 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "b908e775-4061-416a-912b-dc57d2cf31c4",
+        "posted": "2000-01-10T00:00:00-05:00",
+        "reporting_year": 2000,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 44300,
+        "registrant": "CISCO SYSTEMS, INC",
+        "source": "https://lda.gov/filings/public/filing/b908e775-4061-416a-912b-dc57d2cf31c4/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "24fd549d-d7c5-45cf-9e09-d09a67e3ee76",
+        "posted": "2006-08-10T00:00:00-04:00",
+        "reporting_year": 2006,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 44300,
+        "registrant": "CISCO SYSTEMS, INC",
+        "source": "https://lda.gov/filings/public/filing/24fd549d-d7c5-45cf-9e09-d09a67e3ee76/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   },
   {
     "client_id": 134218,
@@ -18562,6 +21720,112 @@
     "original_rr_rows": 0,
     "initial_registration_gap": true,
     "interpretation": "Observed filing events only; no claim of complete current ownership. Posted dates are disclosure dates, not ownership-effective dates. Empty LD-2 additions do not mean No. Image-PDF fields need original inspection.",
-    "events": []
+    "events": [
+      {
+        "uuid": "a01b30db-f936-4e97-a68f-da316bcf80ed",
+        "posted": "2002-08-12T00:00:00-04:00",
+        "reporting_year": 2002,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/a01b30db-f936-4e97-a68f-da316bcf80ed/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "449fa5c7-d8df-4cee-90d7-ffa9bfb4d20d",
+        "posted": "2003-08-13T00:00:00-04:00",
+        "reporting_year": 2003,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/449fa5c7-d8df-4cee-90d7-ffa9bfb4d20d/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "3cd5ff88-a254-4afb-9cb9-0aa6de730b67",
+        "posted": "2004-04-02T00:00:00-05:00",
+        "reporting_year": 2004,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/3cd5ff88-a254-4afb-9cb9-0aa6de730b67/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "f1783fdb-4683-4dc4-aab1-3c1e40be8120",
+        "posted": "2004-08-16T00:00:00-04:00",
+        "reporting_year": 2004,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/f1783fdb-4683-4dc4-aab1-3c1e40be8120/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "c07f8ca4-be2d-461c-aa97-9a093332bc57",
+        "posted": "2005-08-17T00:00:00-04:00",
+        "reporting_year": 2005,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/c07f8ca4-be2d-461c-aa97-9a093332bc57/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "1f6aa4a9-fb44-4168-a3b4-8cf9b86b4824",
+        "posted": "2007-02-13T17:26:02-05:00",
+        "reporting_year": 2006,
+        "period": "mid_year",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/1f6aa4a9-fb44-4168-a3b4-8cf9b86b4824/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      },
+      {
+        "uuid": "30d68001-b0cb-4a4b-b22e-d3880719dd99",
+        "posted": "2007-08-10T16:13:14-04:00",
+        "reporting_year": 2007,
+        "period": "year_end",
+        "filing_type": "RA",
+        "registrant_id": 2172,
+        "registrant": "CROPLIFE AMERICA",
+        "source": "https://lda.gov/filings/public/filing/30d68001-b0cb-4a4b-b22e-d3880719dd99/print/",
+        "locator": "LD-1 section 14 or LD-2 sections 27-28",
+        "registration_entities_or_ld2_additions": [],
+        "latest_acquired_version_for_quarter": true,
+        "format": "pdf",
+        "field_parse": "not inferred from image PDF metadata"
+      }
+    ]
   }
 ]
