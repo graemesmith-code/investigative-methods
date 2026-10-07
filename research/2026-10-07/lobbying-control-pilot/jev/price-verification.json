@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-07",
+  "model": "jev-1.13.0",
+  "usd_per_million_input": 0.042,
+  "max_tokens": 64000,
+  "authorization_usd": 15,
+  "internal_cap_usd": 14,
+  "reserve_per_call_usd": 0.003,
+  "source": "https://docs.typesafe.ai/models",
+  "authenticated_models_get": "200; aliases only; pinned version verified in documentation"
+}

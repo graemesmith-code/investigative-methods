@@ -1,0 +1,31 @@
+[
+  {
+    "file": "fara-bulk.html",
+    "url": "https://efile.fara.gov/ords/fara/r/fara_ws/api/bulkdata",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "lda-first.json",
+    "url": "https://lda.gov/api/v1/filings/?filing_year=2025&page_size=25",
+    "status": 200,
+    "bytes": 85795,
+    "sha256": "55c3b7225eef1047c6f3ce39b3b6934d19e6aa8e64250705f7c02194651f1319"
+  },
+  {
+    "file": "lda-guidance.pdf",
+    "url": "https://lobbyingdisclosure.house.gov/ldaguidance.pdf",
+    "status": 200,
+    "bytes": 481731,
+    "sha256": "c971949e651260453b1b48fc5bb83eaaaac9f139475024df422ef881d1ec5ea4"
+  },
+  {
+    "file": "jev-models.html",
+    "url": "https://docs.jev.ai/models",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "file": "jev-api.html",
+    "url": "https://docs.jev.ai/api",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "test_id": "X04",
+  "title": "Explicit foreign-entity declarations that cannot both fit the same facts",
+  "kind": "new_mechanism",
+  "primary_source_ids": [
+    117,
+    118
+  ],
+  "supporting_catalog_source_ids": [],
+  "initial_observation": "IF a dated LD-1 explicitly reports no qualifying foreign entity for a legal client, while a contemporaneous FARA Exhibit A identifies ownership/control of that same client that appears to meet the applicable LD-1 criteria.",
+  "expected_observation": "THEN establish the exact legal entities, registration scope, activity, ownership/control facts and filing-date rules, and compare amendments before calling the declarations inconsistent.",
+  "possible_finding_and_basis": "Inconsistent public descriptions of who directs a policy campaign can be consequential. FARA registration alone neither triggers every LDA field nor proves a false declaration.",
+  "operational_join": "LDA registrant/client IDs and FARA registration/principal IDs are distinct. Bridge exact legal client and disclosed control relationship with dated original documents.",
+  "temporal_geographic_scope": "US disclosures, same legal client and relevant dates/activity. Apply filing-date thresholds; an old semiannual instructions PDF is not current quarterly guidance.",
+  "ordinary_explanations_and_falsifiers": [
+    "Different clients, affiliates or services",
+    "Foreign principal is not the qualifying controlling entity",
+    "Ownership/control changed",
+    "Threshold or report scope not met",
+    "Amended or historically appropriate answer"
+  ],
+  "mandatory_evidence": [
+    "Actual LD-1 and amendments",
+    "Actual Exhibit A and referenced ownership evidence",
+    "Applicable current or historic LDA criteria",
+    "Specific client/activity and date crosswalk"
+  ],
+  "next_cheapest_check": "Read the exact yes/no declaration and applicable rule before joining names; confirm the client is the same entity described in Exhibit A.",
+  "novelty_vs_baseline": "I01 adds ownership context; this tests mutually inconsistent affirmative disclosure facts within carefully matched legal scope.",
+  "documentation_ids": [
+    "E07",
+    "E08",
+    "E09",
+    "E24"
+  ],
+  "consequence_score": 5,
+  "feasibility_score": 2,
+  "join_route_score": 1,
+  "burden_tier": 3,
+  "access_status": "Public search/forms documented; field interpretation and cross-regime identity need manual review. No filing sampled.",
+  "supporting_scope_extensions": [],
+  "pair_sufficient": false,
+  "case_rule_applicability_verified": false,
+  "legal_or_logical_status": "Conditional source-specific predicate; governing document and case facts must be established before a legal assertion.",
+  "checks_actually_performed": "Catalog fields, prior mechanisms and cited official documentation reviewed; no matching substantive records or positive finding tested.",
+  "checks_proposed_not_performed": "Read the exact yes/no declaration and applicable rule before joining names; confirm the client is the same entity described in Exhibit A.",
+  "execution_status": "not_executed",
+  "positive_finding": false,
+  "expectation_strength": "cross-regime declaration consistency; thresholds and scope must be verified",
+  "source_manifest": [
+    {
+      "sys_id": "SYS-0117",
+      "name": "US Senate Lobbying Disclosure data",
+      "explicit_catalog_fields": [
+        "Filing ID",
+        "registrant",
+        "client",
+        "lobbyist",
+        "issue code",
+        "period"
+      ],
+      "file": "references/rabbit/originals/Rabbit2(1).txt",
+      "line_start": 7734,
+      "block_sha256": "d97a10ded8cc4dd672e7121046b35bd8c11b623bbfdfc5cfa8abd1ac8760b8f4"
+    },
+    {
+      "sys_id": "SYS-0118",
+      "name": "FARA eFile and bulk data",
+      "explicit_catalog_fields": [
+        "Registration number",
+        "registrant",
+        "foreign principal",
+        "document ID",
+        "date"
+      ],
+      "file": "references/rabbit/originals/Rabbit2(1).txt",
+      "line_start": 7776,
+      "block_sha256": "5dc80ea8ed1ef790c1e39daea2036ea9d440e0db51b14c909575d5247cbf499d"
+    }
+  ],
+  "semantic_key": "6756d1fa1ac97aae89d5",
+  "triage_score": 52,
+  "importance_rank": 6,
+  "feasibility_rank": 8,
+  "triage_rank": 7
+}
