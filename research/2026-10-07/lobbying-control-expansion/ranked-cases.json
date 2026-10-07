@@ -1,0 +1,53 @@
+[
+  {
+    "editorial_order": 1,
+    "client_id": 64409,
+    "client": "Prvo plinarsko drustvo d.o.o.",
+    "registry_ids": {
+      "Croatia_MBS": "030070559",
+      "Croatia_OIB": "58292277611"
+    },
+    "lda_registrant_id": 70175,
+    "fara_registrant_number": 6170,
+    "major_in_acquired_relationship": false,
+    "status": "Ownership disclosure question; exact filing-date chain and full FARA amendments missing",
+    "innocent": "Form interpretation or filing error; documented later service-scope change",
+    "missing": "Certified dated ownership extract and complete principal-specific amendment history",
+    "jev_suspicion_score": null,
+    "source_dossier": "REPORT.md",
+    "liability_or_intent_finding": false
+  },
+  {
+    "editorial_order": 2,
+    "client_id": 68910,
+    "client": "Arm Limited",
+    "registry_ids": {
+      "UK_company": "02557590",
+      "UK_parent": "11299879"
+    },
+    "lda_registrant_id": 86196,
+    "fara_registrant_number": null,
+    "major_in_acquired_relationship": false,
+    "status": "UK ownership record vs particular LDA No; no FARA pair acquired",
+    "innocent": "Filing mistake or parent/client confusion; prior Carmen registration already discloses SoftBank",
+    "missing": "Filing-date share chain and explanation or correction of FGS response",
+    "jev_suspicion_score": null,
+    "source_dossier": "REPORT.md",
+    "liability_or_intent_finding": false
+  },
+  {
+    "editorial_order": 3,
+    "client_id": 64167,
+    "client": "KuCoin (unresolved legal entity)",
+    "registry_ids": {},
+    "lda_registrant_id": 401105040,
+    "fara_registrant_number": null,
+    "major_in_acquired_relationship": true,
+    "status": "Abstain on disclosure inconsistency; brand/entity and date bridge missing",
+    "innocent": "Different legal entities and intervening governance change",
+    "missing": "Engagement agreement identifying exact client and contemporaneous share register",
+    "jev_suspicion_score": null,
+    "source_dossier": "REPORT.md",
+    "liability_or_intent_finding": false
+  }
+]

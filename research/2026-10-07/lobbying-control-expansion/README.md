@@ -1,4 +1,8 @@
-# Expansion checkpoint: systematic major-activity cohort
+# Systematic expansion: start here
+
+Read [the English report](REPORT.md), then [actual coverage](COVERAGE.md) and [the technical annex](TECHNICAL-ANNEX.md). `ranked-cases.json` supplies editorial priorities and explicit abstentions, not model suspicion scores. The first pilot remains unchanged in `../lobbying-control-pilot`.
+
+Below is the original expansion declaration, retained as a record of scope and planned gates. Final results are in the linked report and coverage files.
 
 In progress, 7 October 2026. The first pilot at ../lobbying-control-pilot is frozen at commit 8b90ebb.
 

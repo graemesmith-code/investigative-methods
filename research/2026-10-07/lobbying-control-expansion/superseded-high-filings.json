@@ -276,6 +276,30 @@
     "latest_has_numeric_million": false
   },
   {
+    "client_id": 64409,
+    "client": "PRVO PLINARSKO DRUTVO D.O.O.",
+    "period": "second_quarter",
+    "old_uuid": "4012aaf7-8841-4f8a-90a6-db3a2a373e2a",
+    "latest_uuid": "a11e2cd7-bedf-422d-98a4-6e2a31b3d4d0",
+    "old_income": "1200000.00",
+    "old_expenses": null,
+    "latest_income": "120000.00",
+    "latest_expenses": null,
+    "latest_has_numeric_million": false
+  },
+  {
+    "client_id": 118723,
+    "client": "EASTMAN CHEMICAL COMPANY",
+    "period": "second_quarter",
+    "old_uuid": "871ba408-b2ed-4fe3-9819-e6da9f0e8e49",
+    "latest_uuid": "1eb7df47-bc88-4c29-aaf3-b4511399ddc4",
+    "old_income": null,
+    "old_expenses": "1096000.00",
+    "latest_income": null,
+    "latest_expenses": "1096000.00",
+    "latest_has_numeric_million": true
+  },
+  {
     "client_id": 188223,
     "client": "VERTEX PHARMACEUTICALS INCORPORATED",
     "period": "second_quarter",
@@ -300,6 +324,18 @@
     "latest_has_numeric_million": true
   },
   {
+    "client_id": 169003,
+    "client": "TEVA PHARMACEUTICALS USA INC",
+    "period": "second_quarter",
+    "old_uuid": "16786fdc-dff3-4efa-90dc-afe25d83fdf5",
+    "latest_uuid": "f086c98e-3f94-480d-9001-84427c04780f",
+    "old_income": null,
+    "old_expenses": "1390000.00",
+    "latest_income": null,
+    "latest_expenses": "1390000.00",
+    "latest_has_numeric_million": true
+  },
+  {
     "client_id": 201112,
     "client": "AICPA ASSOCIATION OF INTERNATIONAL CERTIFIED PROFESSIONAL ACCOUNTANTS",
     "period": "second_quarter",
@@ -312,6 +348,18 @@
     "latest_has_numeric_million": true
   },
   {
+    "client_id": 182185,
+    "client": "SALESFORCE, INC.",
+    "period": "second_quarter",
+    "old_uuid": "5ebb4320-a57a-452f-ac56-1ad97b3dba9e",
+    "latest_uuid": "ed87cc82-9c17-465a-a88e-0a76aff6b732",
+    "old_income": null,
+    "old_expenses": "1390000.00",
+    "latest_income": null,
+    "latest_expenses": "1410000.00",
+    "latest_has_numeric_million": true
+  },
+  {
     "client_id": 113308,
     "client": "THE CIGNA GROUP AND SUBSIDIARIES (FORMERLY CIGNA CORPORATION AND SUBSIDIARIES)",
     "period": "second_quarter",
@@ -321,6 +369,18 @@
     "old_expenses": "1890000.00",
     "latest_income": null,
     "latest_expenses": "1930000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 160416,
+    "client": "TAKEDA PHARMACEUTICALS AMERICA INC",
+    "period": "second_quarter",
+    "old_uuid": "4a44c577-b9b7-4c79-98cf-97852ed29abe",
+    "latest_uuid": "ac8b28a3-3571-449f-ae28-cd85303a9623",
+    "old_income": null,
+    "old_expenses": "1520000.00",
+    "latest_income": null,
+    "latest_expenses": "1570000.00",
     "latest_has_numeric_million": true
   },
   {
@@ -345,6 +405,18 @@
     "old_expenses": "1060000.00",
     "latest_income": null,
     "latest_expenses": "1110000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 134231,
+    "client": "NATIONAL ASSOCIATION OF HOME BUILDERS",
+    "period": "second_quarter",
+    "old_uuid": "81685085-3f14-40ae-ac98-5199d2c888ed",
+    "latest_uuid": "79a64c60-f480-4e81-94bd-48840ab77639",
+    "old_income": null,
+    "old_expenses": "1189190.00",
+    "latest_income": null,
+    "latest_expenses": "1189190.00",
     "latest_has_numeric_million": true
   },
   {
@@ -441,6 +513,18 @@
     "old_expenses": "9180000.00",
     "latest_income": null,
     "latest_expenses": "9180000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 102599,
+    "client": "ALZHEIMER'S ASSOCIATION",
+    "period": "second_quarter",
+    "old_uuid": "5407c334-4a60-4284-937b-74eb904d30d9",
+    "latest_uuid": "34955449-0e83-4794-96d8-d2cd6f921e57",
+    "old_income": null,
+    "old_expenses": "1790000.00",
+    "latest_income": null,
+    "latest_expenses": "1790000.00",
     "latest_has_numeric_million": true
   },
   {
@@ -600,6 +684,30 @@
     "latest_has_numeric_million": true
   },
   {
+    "client_id": 134231,
+    "client": "NATIONAL ASSOCIATION OF HOME BUILDERS",
+    "period": "third_quarter",
+    "old_uuid": "f6ca80bf-d6d5-4ebc-8a51-9d9296ca7a16",
+    "latest_uuid": "4a920df8-5845-4091-a9ee-78328eacadf3",
+    "old_income": null,
+    "old_expenses": "1011000.00",
+    "latest_income": null,
+    "latest_expenses": "1010000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 65325,
+    "client": "NVIDIA CORPORATION",
+    "period": "third_quarter",
+    "old_uuid": "5970151e-1f21-4cec-a20a-4596046aec34",
+    "latest_uuid": "adf866b5-9207-4479-a012-8697cf851bd5",
+    "old_income": null,
+    "old_expenses": "1900000.00",
+    "latest_income": null,
+    "latest_expenses": "1950000.00",
+    "latest_has_numeric_million": true
+  },
+  {
     "client_id": 113305,
     "client": "NOVARTIS",
     "period": "third_quarter",
@@ -744,6 +852,30 @@
     "latest_has_numeric_million": true
   },
   {
+    "client_id": 65325,
+    "client": "NVIDIA CORPORATION",
+    "period": "fourth_quarter",
+    "old_uuid": "ade7c6b4-395e-472b-8eae-224087b0eed8",
+    "latest_uuid": "e76ce48d-8b5c-46c3-b47e-6c146ad0909e",
+    "old_income": null,
+    "old_expenses": "1440000.00",
+    "latest_income": null,
+    "latest_expenses": "1460000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 68910,
+    "client": "ARM LIMITED",
+    "period": "fourth_quarter",
+    "old_uuid": "f44ab06b-02a3-4692-b80d-74f3cd211dd4",
+    "latest_uuid": "0ea84d9d-3c79-4ea3-af9d-536a797640e6",
+    "old_income": "1100000.00",
+    "old_expenses": null,
+    "latest_income": "110000.00",
+    "latest_expenses": null,
+    "latest_has_numeric_million": false
+  },
+  {
     "client_id": 201112,
     "client": "AICPA ASSOCIATION OF INTERNATIONAL CERTIFIED PROFESSIONAL ACCOUNTANTS",
     "period": "fourth_quarter",
@@ -876,6 +1008,18 @@
     "latest_has_numeric_million": true
   },
   {
+    "client_id": 134218,
+    "client": "NATIONAL ASSOCIATION OF COMMUNITY HEALTH CENTERS",
+    "period": "fourth_quarter",
+    "old_uuid": "aa5263bd-c206-4833-aa53-6df0e5bf554b",
+    "latest_uuid": "26244cbd-b02a-4cc4-82d1-482306f45cbc",
+    "old_income": null,
+    "old_expenses": "1910000.00",
+    "latest_income": null,
+    "latest_expenses": "191000.00",
+    "latest_has_numeric_million": false
+  },
+  {
     "client_id": 138225,
     "client": "PFIZER INC.",
     "period": "third_quarter",
@@ -885,6 +1029,18 @@
     "old_expenses": "2810000.00",
     "latest_income": null,
     "latest_expenses": "2870000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 103084,
+    "client": "CROPLIFE AMERICA",
+    "period": "fourth_quarter",
+    "old_uuid": "101d87c8-99df-442a-8bb3-3cfab7989262",
+    "latest_uuid": "eb8c1cc2-b070-42f6-89d9-0e33cfaa0ffa",
+    "old_income": null,
+    "old_expenses": "1053903.00",
+    "latest_income": null,
+    "latest_expenses": "1053903.00",
     "latest_has_numeric_million": true
   },
   {
@@ -957,6 +1113,30 @@
     "old_expenses": "1780000.00",
     "latest_income": null,
     "latest_expenses": "1790000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 182185,
+    "client": "SALESFORCE, INC.",
+    "period": "first_quarter",
+    "old_uuid": "66fb5489-fd38-4a3a-8111-ce8e9dcefc88",
+    "latest_uuid": "d400221c-db8d-43a9-8b71-e1a77b4f2731",
+    "old_income": null,
+    "old_expenses": "1060000.00",
+    "latest_income": null,
+    "latest_expenses": "1020000.00",
+    "latest_has_numeric_million": true
+  },
+  {
+    "client_id": 182185,
+    "client": "SALESFORCE, INC.",
+    "period": "second_quarter",
+    "old_uuid": "2a1eeab6-f823-4008-af02-242c431ece59",
+    "latest_uuid": "ed87cc82-9c17-465a-a88e-0a76aff6b732",
+    "old_income": null,
+    "old_expenses": "1470000.00",
+    "latest_income": null,
+    "latest_expenses": "1410000.00",
     "latest_has_numeric_million": true
   }
 ]

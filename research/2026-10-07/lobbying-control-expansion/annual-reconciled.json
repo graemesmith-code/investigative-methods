@@ -1,5 +1,105 @@
 [
   {
+    "client_id": 103084,
+    "client": "CROPLIFE AMERICA",
+    "registrant_id": 2172,
+    "registrant": "CROPLIFE AMERICA",
+    "income_known": "0",
+    "expenses_known": "2619019.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "ed4df07f-4d2d-4953-aba9-d321450b430b",
+        "period": "first_quarter",
+        "posted": "2025-04-11T15:30:54-04:00",
+        "income": null,
+        "expenses": "329765.00",
+        "original": "https://lda.gov/filings/public/filing/ed4df07f-4d2d-4953-aba9-d321450b430b/print/"
+      },
+      {
+        "uuid": "09aa71bf-906f-44af-8387-5b6af6021292",
+        "period": "second_quarter",
+        "posted": "2025-07-09T11:50:42-04:00",
+        "income": null,
+        "expenses": "507113.00",
+        "original": "https://lda.gov/filings/public/filing/09aa71bf-906f-44af-8387-5b6af6021292/print/"
+      },
+      {
+        "uuid": "3f638c9f-3ec4-4fb1-8a2b-4f346713a2c9",
+        "period": "third_quarter",
+        "posted": "2025-10-17T14:09:57-04:00",
+        "income": null,
+        "expenses": "728238.00",
+        "original": "https://lda.gov/filings/public/filing/3f638c9f-3ec4-4fb1-8a2b-4f346713a2c9/print/"
+      },
+      {
+        "uuid": "eb8c1cc2-b070-42f6-89d9-0e33cfaa0ffa",
+        "period": "fourth_quarter",
+        "posted": "2026-01-29T14:22:21-05:00",
+        "income": null,
+        "expenses": "1053903.00",
+        "original": "https://lda.gov/filings/public/filing/eb8c1cc2-b070-42f6-89d9-0e33cfaa0ffa/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 198701,
+    "client": "UBER TECHNOLOGIES, INC.",
+    "registrant_id": 401103362,
+    "registrant": "UBER TECHNOLOGIES, INC.",
+    "income_known": "0",
+    "expenses_known": "3380000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "e8d6baa7-4b59-462f-b518-adc7d779d01b",
+        "period": "first_quarter",
+        "posted": "2025-10-23T17:08:29-04:00",
+        "income": null,
+        "expenses": "730000.00",
+        "original": "https://lda.gov/filings/public/filing/e8d6baa7-4b59-462f-b518-adc7d779d01b/print/"
+      },
+      {
+        "uuid": "da9bdfdd-e984-4926-a106-8d572fe8f394",
+        "period": "second_quarter",
+        "posted": "2025-10-23T17:06:28-04:00",
+        "income": null,
+        "expenses": "850000.00",
+        "original": "https://lda.gov/filings/public/filing/da9bdfdd-e984-4926-a106-8d572fe8f394/print/"
+      },
+      {
+        "uuid": "2a389bf9-0523-40bb-989e-a876be3b1be3",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:26:35-04:00",
+        "income": null,
+        "expenses": "1010000.00",
+        "original": "https://lda.gov/filings/public/filing/2a389bf9-0523-40bb-989e-a876be3b1be3/print/"
+      },
+      {
+        "uuid": "cf2fa5cc-f133-4bbc-868f-13b380a7788d",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:36:40-05:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/cf2fa5cc-f133-4bbc-868f-13b380a7788d/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 140853,
     "client": "RECORDING INDUSTRY ASSOCIATION OF AMERICA",
     "registrant_id": 32874,
@@ -45,6 +145,56 @@
         "income": null,
         "expenses": "2059909.00",
         "original": "https://lda.gov/filings/public/filing/003328f9-14be-49ff-a99d-3e91866ed7e7/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 102624,
+    "client": "AMERICAN ASSOCIATION OF AIRPORT EXECUTIVES",
+    "registrant_id": 1513,
+    "registrant": "AMERICAN ASSOCIATION OF AIRPORT EXECUTIVES",
+    "income_known": "0",
+    "expenses_known": "3979429.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "962070c5-5ba8-4222-a225-3077ccca505a",
+        "period": "first_quarter",
+        "posted": "2025-04-17T15:56:05-04:00",
+        "income": null,
+        "expenses": "981979.00",
+        "original": "https://lda.gov/filings/public/filing/962070c5-5ba8-4222-a225-3077ccca505a/print/"
+      },
+      {
+        "uuid": "2e99ad6b-4560-4c5f-abf5-14b5398a46ef",
+        "period": "second_quarter",
+        "posted": "2025-07-17T10:35:23-04:00",
+        "income": null,
+        "expenses": "1037425.00",
+        "original": "https://lda.gov/filings/public/filing/2e99ad6b-4560-4c5f-abf5-14b5398a46ef/print/"
+      },
+      {
+        "uuid": "11413ef0-338f-44dc-8f97-ff222bcd669a",
+        "period": "third_quarter",
+        "posted": "2025-10-20T09:36:11-04:00",
+        "income": null,
+        "expenses": "972827.00",
+        "original": "https://lda.gov/filings/public/filing/11413ef0-338f-44dc-8f97-ff222bcd669a/print/"
+      },
+      {
+        "uuid": "4ef67746-7857-4d1e-a53c-884833da5ec2",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:02:47-05:00",
+        "income": null,
+        "expenses": "987198.00",
+        "original": "https://lda.gov/filings/public/filing/4ef67746-7857-4d1e-a53c-884833da5ec2/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -250,6 +400,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 53005,
+    "client": "HEALTHEQUITY, INC.",
+    "registrant_id": 401107002,
+    "registrant": "HEALTHEQUITY, INC.",
+    "income_known": "0",
+    "expenses_known": "3170000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "9ee1da0b-b07e-4585-a4d0-946761367c69",
+        "period": "first_quarter",
+        "posted": "2025-04-21T10:00:16-04:00",
+        "income": null,
+        "expenses": "700000.00",
+        "original": "https://lda.gov/filings/public/filing/9ee1da0b-b07e-4585-a4d0-946761367c69/print/"
+      },
+      {
+        "uuid": "975821a4-564f-4ae6-9ee9-66de3ec1d5b6",
+        "period": "second_quarter",
+        "posted": "2025-07-21T10:28:37-04:00",
+        "income": null,
+        "expenses": "1410000.00",
+        "original": "https://lda.gov/filings/public/filing/975821a4-564f-4ae6-9ee9-66de3ec1d5b6/print/"
+      },
+      {
+        "uuid": "f1b79310-ac1d-4138-8b17-b9d4a345c8d9",
+        "period": "third_quarter",
+        "posted": "2025-10-20T13:48:50-04:00",
+        "income": null,
+        "expenses": "530000.00",
+        "original": "https://lda.gov/filings/public/filing/f1b79310-ac1d-4138-8b17-b9d4a345c8d9/print/"
+      },
+      {
+        "uuid": "82a34a1e-2ad5-4fa2-83ae-b677edd53aba",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T12:52:20-05:00",
+        "income": null,
+        "expenses": "530000.00",
+        "original": "https://lda.gov/filings/public/filing/82a34a1e-2ad5-4fa2-83ae-b677edd53aba/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 160433,
     "client": "CARDINAL HEALTH INC",
     "registrant_id": 58055,
@@ -400,6 +600,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 132539,
+    "client": "MEDTRONIC INC",
+    "registrant_id": 24817,
+    "registrant": "MEDTRONIC, INC.",
+    "income_known": "0",
+    "expenses_known": "4690000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "5754d82e-331b-4f37-a241-68a1be245fb6",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:27:52-04:00",
+        "income": null,
+        "expenses": "970000.00",
+        "original": "https://lda.gov/filings/public/filing/5754d82e-331b-4f37-a241-68a1be245fb6/print/"
+      },
+      {
+        "uuid": "2603e630-84b4-43de-92a0-c791492387cc",
+        "period": "second_quarter",
+        "posted": "2025-07-21T16:05:08-04:00",
+        "income": null,
+        "expenses": "650000.00",
+        "original": "https://lda.gov/filings/public/filing/2603e630-84b4-43de-92a0-c791492387cc/print/"
+      },
+      {
+        "uuid": "d394f722-cb74-45e0-bcf3-5ad3f8107fae",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:39:26-04:00",
+        "income": null,
+        "expenses": "2080000.00",
+        "original": "https://lda.gov/filings/public/filing/d394f722-cb74-45e0-bcf3-5ad3f8107fae/print/"
+      },
+      {
+        "uuid": "a3567a28-2bff-462c-8966-37b02a5386fe",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:15:23-05:00",
+        "income": null,
+        "expenses": "990000.00",
+        "original": "https://lda.gov/filings/public/filing/a3567a28-2bff-462c-8966-37b02a5386fe/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 160744,
     "client": "CHARTER COMMUNICATIONS INC",
     "registrant_id": 59056,
@@ -445,6 +695,56 @@
         "income": null,
         "expenses": "2570000.00",
         "original": "https://lda.gov/filings/public/filing/c9ec8158-2e1b-4f3a-adeb-7dcf986c7993/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 121722,
+    "client": "GSK (FKA GLAXOSMITHKLINE INC.)",
+    "registrant_id": 16293,
+    "registrant": "GSK (FKA GLAXOSMITHKLINE INC.)",
+    "income_known": "0",
+    "expenses_known": "4820000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "196a5f38-f4dc-47fa-bf10-ce9c0de36dd3",
+        "period": "first_quarter",
+        "posted": "2025-05-06T17:17:51-04:00",
+        "income": null,
+        "expenses": "800000.00",
+        "original": "https://lda.gov/filings/public/filing/196a5f38-f4dc-47fa-bf10-ce9c0de36dd3/print/"
+      },
+      {
+        "uuid": "b4fc9eca-1428-460d-be6a-ee4e377b29ad",
+        "period": "second_quarter",
+        "posted": "2025-07-21T19:55:48-04:00",
+        "income": null,
+        "expenses": "1510000.00",
+        "original": "https://lda.gov/filings/public/filing/b4fc9eca-1428-460d-be6a-ee4e377b29ad/print/"
+      },
+      {
+        "uuid": "9f072fb9-7163-49fa-ba37-39630f2dfd42",
+        "period": "third_quarter",
+        "posted": "2025-10-20T21:48:41-04:00",
+        "income": null,
+        "expenses": "1700000.00",
+        "original": "https://lda.gov/filings/public/filing/9f072fb9-7163-49fa-ba37-39630f2dfd42/print/"
+      },
+      {
+        "uuid": "fc3aeed1-bc5e-4114-80ad-d45dfd06e8ba",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T19:41:32-05:00",
+        "income": null,
+        "expenses": "810000.00",
+        "original": "https://lda.gov/filings/public/filing/fc3aeed1-bc5e-4114-80ad-d45dfd06e8ba/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -595,6 +895,106 @@
         "income": null,
         "expenses": "3700000.00",
         "original": "https://lda.gov/filings/public/filing/6fb7d4d2-0244-4657-bacc-57ab9abbeffc/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 132593,
+    "client": "MELLON FINANCIAL SERVICES CORPORATION #1",
+    "registrant_id": 24863,
+    "registrant": "MELLON FINANCIAL SERVICES CORPORATION #1",
+    "income_known": "0",
+    "expenses_known": "1900000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "2dc84ff8-9294-43d9-9ffd-db92652e643c",
+        "period": "first_quarter",
+        "posted": "2025-04-17T16:51:22-04:00",
+        "income": null,
+        "expenses": "480000.00",
+        "original": "https://lda.gov/filings/public/filing/2dc84ff8-9294-43d9-9ffd-db92652e643c/print/"
+      },
+      {
+        "uuid": "2a6979d0-c716-4ec0-be9a-269ab9ae2f73",
+        "period": "second_quarter",
+        "posted": "2025-07-18T10:43:26-04:00",
+        "income": null,
+        "expenses": "150000.00",
+        "original": "https://lda.gov/filings/public/filing/2a6979d0-c716-4ec0-be9a-269ab9ae2f73/print/"
+      },
+      {
+        "uuid": "c4c7be2e-fea9-4b39-987d-53d8796da610",
+        "period": "third_quarter",
+        "posted": "2025-10-17T15:31:03-04:00",
+        "income": null,
+        "expenses": "240000.00",
+        "original": "https://lda.gov/filings/public/filing/c4c7be2e-fea9-4b39-987d-53d8796da610/print/"
+      },
+      {
+        "uuid": "ef2027ef-a82c-4a0f-a48b-87c89e4be34b",
+        "period": "fourth_quarter",
+        "posted": "2026-01-19T11:59:16-05:00",
+        "income": null,
+        "expenses": "1030000.00",
+        "original": "https://lda.gov/filings/public/filing/ef2027ef-a82c-4a0f-a48b-87c89e4be34b/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 169003,
+    "client": "TEVA PHARMACEUTICALS USA INC",
+    "registrant_id": 76695,
+    "registrant": "TEVA PHARMACEUTICALS USA, INC.",
+    "income_known": "0",
+    "expenses_known": "2520000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "26d49555-c502-4aa6-ad8f-31bc25d7df85",
+        "period": "first_quarter",
+        "posted": "2025-04-18T12:34:16-04:00",
+        "income": null,
+        "expenses": "310000.00",
+        "original": "https://lda.gov/filings/public/filing/26d49555-c502-4aa6-ad8f-31bc25d7df85/print/"
+      },
+      {
+        "uuid": "f086c98e-3f94-480d-9001-84427c04780f",
+        "period": "second_quarter",
+        "posted": "2025-09-04T10:17:14-04:00",
+        "income": null,
+        "expenses": "1390000.00",
+        "original": "https://lda.gov/filings/public/filing/f086c98e-3f94-480d-9001-84427c04780f/print/"
+      },
+      {
+        "uuid": "4330f46a-5884-49f2-986b-e6fad520dcde",
+        "period": "third_quarter",
+        "posted": "2025-10-17T11:10:30-04:00",
+        "income": null,
+        "expenses": "460000.00",
+        "original": "https://lda.gov/filings/public/filing/4330f46a-5884-49f2-986b-e6fad520dcde/print/"
+      },
+      {
+        "uuid": "0233b1ac-6874-4c92-ae38-363d33df317c",
+        "period": "fourth_quarter",
+        "posted": "2026-01-14T10:48:11-05:00",
+        "income": null,
+        "expenses": "360000.00",
+        "original": "https://lda.gov/filings/public/filing/0233b1ac-6874-4c92-ae38-363d33df317c/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -800,6 +1200,206 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 107792,
+    "client": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+    "registrant_id": 6245,
+    "registrant": "BIOTECHNOLOGY INNOVATION ORGANIZATION",
+    "income_known": "0",
+    "expenses_known": "5590000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "88c831f3-1763-4962-a53c-4fa75c5904bf",
+        "period": "first_quarter",
+        "posted": "2025-04-21T16:24:31-04:00",
+        "income": null,
+        "expenses": "890000.00",
+        "original": "https://lda.gov/filings/public/filing/88c831f3-1763-4962-a53c-4fa75c5904bf/print/"
+      },
+      {
+        "uuid": "69891cd6-56c3-43bf-8c8e-d2c8a23daf47",
+        "period": "second_quarter",
+        "posted": "2025-07-21T16:32:42-04:00",
+        "income": null,
+        "expenses": "1840000.00",
+        "original": "https://lda.gov/filings/public/filing/69891cd6-56c3-43bf-8c8e-d2c8a23daf47/print/"
+      },
+      {
+        "uuid": "572f615c-e68e-494e-a17e-e38148188ad2",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:52:04-04:00",
+        "income": null,
+        "expenses": "1350000.00",
+        "original": "https://lda.gov/filings/public/filing/572f615c-e68e-494e-a17e-e38148188ad2/print/"
+      },
+      {
+        "uuid": "cc3c3d81-dca7-45fa-9389-0790ef9b06a4",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:40:26-05:00",
+        "income": null,
+        "expenses": "1510000.00",
+        "original": "https://lda.gov/filings/public/filing/cc3c3d81-dca7-45fa-9389-0790ef9b06a4/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 120880,
+    "client": "FORD MOTOR COMPANY",
+    "registrant_id": 15133,
+    "registrant": "FORD MOTOR COMPANY",
+    "income_known": "0",
+    "expenses_known": "3886518.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "b54172a3-110c-4047-b83c-b7a037b283cf",
+        "period": "first_quarter",
+        "posted": "2025-04-21T16:02:49-04:00",
+        "income": null,
+        "expenses": "967416.00",
+        "original": "https://lda.gov/filings/public/filing/b54172a3-110c-4047-b83c-b7a037b283cf/print/"
+      },
+      {
+        "uuid": "e55001b8-4754-4951-9e14-0ca3bf60007b",
+        "period": "second_quarter",
+        "posted": "2025-07-21T17:03:18-04:00",
+        "income": null,
+        "expenses": "914920.00",
+        "original": "https://lda.gov/filings/public/filing/e55001b8-4754-4951-9e14-0ca3bf60007b/print/"
+      },
+      {
+        "uuid": "f05f1fb5-df65-4b1b-a093-b63fb95f0598",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:08:38-04:00",
+        "income": null,
+        "expenses": "727346.00",
+        "original": "https://lda.gov/filings/public/filing/f05f1fb5-df65-4b1b-a093-b63fb95f0598/print/"
+      },
+      {
+        "uuid": "6bdd2608-e673-4227-bb61-1ea27c26c087",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:31:53-05:00",
+        "income": null,
+        "expenses": "1276836.00",
+        "original": "https://lda.gov/filings/public/filing/6bdd2608-e673-4227-bb61-1ea27c26c087/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 160416,
+    "client": "TAKEDA PHARMACEUTICALS AMERICA INC",
+    "registrant_id": 57954,
+    "registrant": "TAKEDA PHARMACEUTICALS AMERICA, INC.",
+    "income_known": "0",
+    "expenses_known": "4020000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "347613ce-f21e-48c4-bd7f-0b0496e922e7",
+        "period": "first_quarter",
+        "posted": "2025-04-22T10:38:18-04:00",
+        "income": null,
+        "expenses": "490000.00",
+        "original": "https://lda.gov/filings/public/filing/347613ce-f21e-48c4-bd7f-0b0496e922e7/print/"
+      },
+      {
+        "uuid": "ac8b28a3-3571-449f-ae28-cd85303a9623",
+        "period": "second_quarter",
+        "posted": "2025-08-26T14:41:56-04:00",
+        "income": null,
+        "expenses": "1570000.00",
+        "original": "https://lda.gov/filings/public/filing/ac8b28a3-3571-449f-ae28-cd85303a9623/print/"
+      },
+      {
+        "uuid": "961d9ad4-5afc-41bd-942d-ec9669757efb",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:38:25-04:00",
+        "income": null,
+        "expenses": "1370000.00",
+        "original": "https://lda.gov/filings/public/filing/961d9ad4-5afc-41bd-942d-ec9669757efb/print/"
+      },
+      {
+        "uuid": "5c7b2a25-733a-49d5-a5b2-ed6edebd857c",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T15:30:58-05:00",
+        "income": null,
+        "expenses": "590000.00",
+        "original": "https://lda.gov/filings/public/filing/5c7b2a25-733a-49d5-a5b2-ed6edebd857c/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 203579,
+    "client": "HCA HEALTHCARE, INC.",
+    "registrant_id": 401105360,
+    "registrant": "HCA HEALTHCARE, INC.",
+    "income_known": "0",
+    "expenses_known": "4150000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "223b6964-05f9-47f5-9f56-c11bb7b82101",
+        "period": "first_quarter",
+        "posted": "2025-04-21T14:15:59-04:00",
+        "income": null,
+        "expenses": "470000.00",
+        "original": "https://lda.gov/filings/public/filing/223b6964-05f9-47f5-9f56-c11bb7b82101/print/"
+      },
+      {
+        "uuid": "017cfbaa-b9b3-48b9-af51-08c8588d4765",
+        "period": "second_quarter",
+        "posted": "2025-07-21T15:22:58-04:00",
+        "income": null,
+        "expenses": "1710000.00",
+        "original": "https://lda.gov/filings/public/filing/017cfbaa-b9b3-48b9-af51-08c8588d4765/print/"
+      },
+      {
+        "uuid": "fe74a1f3-0639-41df-96c2-a6a09b90837a",
+        "period": "third_quarter",
+        "posted": "2025-10-17T14:03:35-04:00",
+        "income": null,
+        "expenses": "480000.00",
+        "original": "https://lda.gov/filings/public/filing/fe74a1f3-0639-41df-96c2-a6a09b90837a/print/"
+      },
+      {
+        "uuid": "697e5d04-4686-48a8-af5f-988517eeafcc",
+        "period": "fourth_quarter",
+        "posted": "2026-01-19T14:41:13-05:00",
+        "income": null,
+        "expenses": "1490000.00",
+        "original": "https://lda.gov/filings/public/filing/697e5d04-4686-48a8-af5f-988517eeafcc/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 102632,
     "client": "AMERICA'S HEALTH INSURANCE PLANS INC (AHIP)",
     "registrant_id": 1581,
@@ -945,6 +1545,56 @@
         "income": null,
         "expenses": "190000.00",
         "original": "https://lda.gov/filings/public/filing/c702ff8b-949a-46cd-916f-825f68f9dd1a/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 63912,
+    "client": "SOUTHERN POVERTY LAW CENTER, INC.",
+    "registrant_id": 401107349,
+    "registrant": "SOUTHERN POVERTY LAW CENTER, INC.",
+    "income_known": "0",
+    "expenses_known": "4470000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "19ab272c-7e44-41db-9a6f-9c96204e3531",
+        "period": "first_quarter",
+        "posted": "2025-06-20T16:26:26-04:00",
+        "income": null,
+        "expenses": "590000.00",
+        "original": "https://lda.gov/filings/public/filing/19ab272c-7e44-41db-9a6f-9c96204e3531/print/"
+      },
+      {
+        "uuid": "73c8d840-d5bc-4120-a87c-334c0d3fb4ff",
+        "period": "second_quarter",
+        "posted": "2025-07-21T21:30:20-04:00",
+        "income": null,
+        "expenses": "930000.00",
+        "original": "https://lda.gov/filings/public/filing/73c8d840-d5bc-4120-a87c-334c0d3fb4ff/print/"
+      },
+      {
+        "uuid": "3a5ea000-2390-4ea0-a6c2-0503b3653c1b",
+        "period": "third_quarter",
+        "posted": "2025-10-20T20:55:33-04:00",
+        "income": null,
+        "expenses": "2700000.00",
+        "original": "https://lda.gov/filings/public/filing/3a5ea000-2390-4ea0-a6c2-0503b3653c1b/print/"
+      },
+      {
+        "uuid": "88562487-3671-407a-b553-f1faf5136503",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T20:03:52-05:00",
+        "income": null,
+        "expenses": "250000.00",
+        "original": "https://lda.gov/filings/public/filing/88562487-3671-407a-b553-f1faf5136503/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -1195,6 +1845,56 @@
         "income": null,
         "expenses": "1790000.00",
         "original": "https://lda.gov/filings/public/filing/d2869e81-0985-40f8-a59b-b0c732b91c39/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 172156,
+    "client": "STATE STREET BANK AND TRUST COMPANY AND ITS AFFILIATES",
+    "registrant_id": 83854,
+    "registrant": "STATE STREET BANK AND TRUST COMPANY AND ITS AFFILIATES",
+    "income_known": "0",
+    "expenses_known": "2570000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "acede5e3-ed30-4891-8751-3634dfb8ba39",
+        "period": "first_quarter",
+        "posted": "2025-04-21T12:21:11-04:00",
+        "income": null,
+        "expenses": "690000.00",
+        "original": "https://lda.gov/filings/public/filing/acede5e3-ed30-4891-8751-3634dfb8ba39/print/"
+      },
+      {
+        "uuid": "6a85a7e0-0f60-4161-98dc-50202b5769bd",
+        "period": "second_quarter",
+        "posted": "2025-07-18T13:27:15-04:00",
+        "income": null,
+        "expenses": "480000.00",
+        "original": "https://lda.gov/filings/public/filing/6a85a7e0-0f60-4161-98dc-50202b5769bd/print/"
+      },
+      {
+        "uuid": "0cd460e0-b205-4617-821b-6fe9edf79f90",
+        "period": "third_quarter",
+        "posted": "2025-10-17T12:37:51-04:00",
+        "income": null,
+        "expenses": "240000.00",
+        "original": "https://lda.gov/filings/public/filing/0cd460e0-b205-4617-821b-6fe9edf79f90/print/"
+      },
+      {
+        "uuid": "97434060-47f6-414f-9340-ee983025cf09",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T10:12:49-05:00",
+        "income": null,
+        "expenses": "1160000.00",
+        "original": "https://lda.gov/filings/public/filing/97434060-47f6-414f-9340-ee983025cf09/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -1600,6 +2300,156 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 134694,
+    "client": "NISSAN NORTH AMERICA, INC.",
+    "registrant_id": 29356,
+    "registrant": "NISSAN NORTH AMERICA, INC.",
+    "income_known": "0",
+    "expenses_known": "2770000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "a74bb855-e8e2-415d-915d-07ad1b703c3c",
+        "period": "first_quarter",
+        "posted": "2025-04-21T18:12:15-04:00",
+        "income": null,
+        "expenses": "940000.00",
+        "original": "https://lda.gov/filings/public/filing/a74bb855-e8e2-415d-915d-07ad1b703c3c/print/"
+      },
+      {
+        "uuid": "b5506e6b-2514-4bec-b5f7-dfe30f35be97",
+        "period": "second_quarter",
+        "posted": "2025-07-21T18:05:26-04:00",
+        "income": null,
+        "expenses": "1090000.00",
+        "original": "https://lda.gov/filings/public/filing/b5506e6b-2514-4bec-b5f7-dfe30f35be97/print/"
+      },
+      {
+        "uuid": "6949d61a-e0a7-4048-9b37-17f7b69d643b",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:24:27-04:00",
+        "income": null,
+        "expenses": "440000.00",
+        "original": "https://lda.gov/filings/public/filing/6949d61a-e0a7-4048-9b37-17f7b69d643b/print/"
+      },
+      {
+        "uuid": "ed8dcd9b-f19a-4612-8f0a-e534a2be82d8",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:43:06-05:00",
+        "income": null,
+        "expenses": "300000.00",
+        "original": "https://lda.gov/filings/public/filing/ed8dcd9b-f19a-4612-8f0a-e534a2be82d8/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 154402,
+    "client": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+    "registrant_id": 46940,
+    "registrant": "FRESENIUS MEDICAL CARE NORTH AMERICA",
+    "income_known": "0",
+    "expenses_known": "4630000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "b3edd2e5-1640-44ee-9a99-8018ebb4e536",
+        "period": "first_quarter",
+        "posted": "2025-04-21T14:00:08-04:00",
+        "income": null,
+        "expenses": "990000.00",
+        "original": "https://lda.gov/filings/public/filing/b3edd2e5-1640-44ee-9a99-8018ebb4e536/print/"
+      },
+      {
+        "uuid": "09307be9-21e4-409b-979a-37d3536b9c17",
+        "period": "second_quarter",
+        "posted": "2025-07-18T16:05:57-04:00",
+        "income": null,
+        "expenses": "1400000.00",
+        "original": "https://lda.gov/filings/public/filing/09307be9-21e4-409b-979a-37d3536b9c17/print/"
+      },
+      {
+        "uuid": "b742aacb-5549-4fd9-9fb8-3efe04f06efc",
+        "period": "third_quarter",
+        "posted": "2025-10-18T18:09:03-04:00",
+        "income": null,
+        "expenses": "1020000.00",
+        "original": "https://lda.gov/filings/public/filing/b742aacb-5549-4fd9-9fb8-3efe04f06efc/print/"
+      },
+      {
+        "uuid": "44329b02-9662-4f92-a939-f4bf30f5d55e",
+        "period": "fourth_quarter",
+        "posted": "2026-01-16T13:57:13-05:00",
+        "income": null,
+        "expenses": "1220000.00",
+        "original": "https://lda.gov/filings/public/filing/44329b02-9662-4f92-a939-f4bf30f5d55e/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 167072,
+    "client": "CONSUMER TECHNOLOGY ASSOCIATION",
+    "registrant_id": 73293,
+    "registrant": "CONSUMER TECHNOLOGY ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "4060000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "6f7103a0-d224-4fc6-b2c6-2f95983665a8",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:43:26-04:00",
+        "income": null,
+        "expenses": "730000.00",
+        "original": "https://lda.gov/filings/public/filing/6f7103a0-d224-4fc6-b2c6-2f95983665a8/print/"
+      },
+      {
+        "uuid": "bce58ee5-305f-4261-8d10-e1ad464f4cf5",
+        "period": "second_quarter",
+        "posted": "2025-07-21T16:18:15-04:00",
+        "income": null,
+        "expenses": "1450000.00",
+        "original": "https://lda.gov/filings/public/filing/bce58ee5-305f-4261-8d10-e1ad464f4cf5/print/"
+      },
+      {
+        "uuid": "5ba6dccb-6748-44a7-bb32-633f93b8b1ca",
+        "period": "third_quarter",
+        "posted": "2025-10-20T20:50:14-04:00",
+        "income": null,
+        "expenses": "800000.00",
+        "original": "https://lda.gov/filings/public/filing/5ba6dccb-6748-44a7-bb32-633f93b8b1ca/print/"
+      },
+      {
+        "uuid": "57d5295e-2cb4-4ea9-9236-f06298d81dd4",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T14:45:18-05:00",
+        "income": null,
+        "expenses": "1080000.00",
+        "original": "https://lda.gov/filings/public/filing/57d5295e-2cb4-4ea9-9236-f06298d81dd4/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 113305,
     "client": "NOVARTIS",
     "registrant_id": 9204,
@@ -1850,6 +2700,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 134231,
+    "client": "NATIONAL ASSOCIATION OF HOME BUILDERS",
+    "registrant_id": 26810,
+    "registrant": "NATIONAL ASSOCIATION OF HOME BUILDERS",
+    "income_known": "0",
+    "expenses_known": "4038190.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "9b098378-5f4e-4541-a76b-e72579c51d85",
+        "period": "first_quarter",
+        "posted": "2025-07-23T13:16:46-04:00",
+        "income": null,
+        "expenses": "929000.00",
+        "original": "https://lda.gov/filings/public/filing/9b098378-5f4e-4541-a76b-e72579c51d85/print/"
+      },
+      {
+        "uuid": "79a64c60-f480-4e81-94bd-48840ab77639",
+        "period": "second_quarter",
+        "posted": "2025-07-23T13:17:25-04:00",
+        "income": null,
+        "expenses": "1189190.00",
+        "original": "https://lda.gov/filings/public/filing/79a64c60-f480-4e81-94bd-48840ab77639/print/"
+      },
+      {
+        "uuid": "4a920df8-5845-4091-a9ee-78328eacadf3",
+        "period": "third_quarter",
+        "posted": "2025-10-20T13:25:39-04:00",
+        "income": null,
+        "expenses": "1010000.00",
+        "original": "https://lda.gov/filings/public/filing/4a920df8-5845-4091-a9ee-78328eacadf3/print/"
+      },
+      {
+        "uuid": "ac66bb1b-f43c-46d6-b450-b8caab2fec1d",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T15:20:39-05:00",
+        "income": null,
+        "expenses": "910000.00",
+        "original": "https://lda.gov/filings/public/filing/ac66bb1b-f43c-46d6-b450-b8caab2fec1d/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 197760,
     "client": "OTSUKA AMERICA PHARMACEUTICAL, INC.",
     "registrant_id": 401093052,
@@ -1895,6 +2795,106 @@
         "income": null,
         "expenses": "1030000.00",
         "original": "https://lda.gov/filings/public/filing/beecab57-cc85-435c-b8e6-cadf017366aa/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 185842,
+    "client": "AMERICAN INVESTMENT COUNCIL F/K/A PEGCC",
+    "registrant_id": 316536,
+    "registrant": "AMERICAN INVESTMENT COUNCIL F/K/A PEGCC",
+    "income_known": "0",
+    "expenses_known": "3014260.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "673f20c6-9e7b-4587-aa3b-d1d17969a865",
+        "period": "first_quarter",
+        "posted": "2025-04-21T15:27:17-04:00",
+        "income": null,
+        "expenses": "710000.00",
+        "original": "https://lda.gov/filings/public/filing/673f20c6-9e7b-4587-aa3b-d1d17969a865/print/"
+      },
+      {
+        "uuid": "e08f4242-20ca-4cb7-bad1-12767b3ea2f4",
+        "period": "second_quarter",
+        "posted": "2025-07-21T13:55:13-04:00",
+        "income": null,
+        "expenses": "620000.00",
+        "original": "https://lda.gov/filings/public/filing/e08f4242-20ca-4cb7-bad1-12767b3ea2f4/print/"
+      },
+      {
+        "uuid": "3fbcfceb-eed0-4a77-9508-770ff3c2f454",
+        "period": "third_quarter",
+        "posted": "2025-10-20T10:23:56-04:00",
+        "income": null,
+        "expenses": "680000.00",
+        "original": "https://lda.gov/filings/public/filing/3fbcfceb-eed0-4a77-9508-770ff3c2f454/print/"
+      },
+      {
+        "uuid": "ac9bdbec-5fca-44ad-8b5c-a6ac85746ca8",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T12:12:32-05:00",
+        "income": null,
+        "expenses": "1004260.00",
+        "original": "https://lda.gov/filings/public/filing/ac9bdbec-5fca-44ad-8b5c-a6ac85746ca8/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 178695,
+    "client": "ADVANCED MICRO DEVICES, INC.",
+    "registrant_id": 294030,
+    "registrant": "ADVANCED MICRO DEVICES, INC.",
+    "income_known": "0",
+    "expenses_known": "4850000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "7e1b2e55-d67c-4e4e-9bda-ec2cba0e9e2d",
+        "period": "first_quarter",
+        "posted": "2025-04-21T15:07:24-04:00",
+        "income": null,
+        "expenses": "590000.00",
+        "original": "https://lda.gov/filings/public/filing/7e1b2e55-d67c-4e4e-9bda-ec2cba0e9e2d/print/"
+      },
+      {
+        "uuid": "434071e0-5dae-4e40-8e7f-cb2cf022f185",
+        "period": "second_quarter",
+        "posted": "2025-07-21T19:28:23-04:00",
+        "income": null,
+        "expenses": "1120000.00",
+        "original": "https://lda.gov/filings/public/filing/434071e0-5dae-4e40-8e7f-cb2cf022f185/print/"
+      },
+      {
+        "uuid": "bab04aed-4496-4967-a26a-0f6a4eb7e8fa",
+        "period": "third_quarter",
+        "posted": "2025-10-20T13:46:35-04:00",
+        "income": null,
+        "expenses": "1470000.00",
+        "original": "https://lda.gov/filings/public/filing/bab04aed-4496-4967-a26a-0f6a4eb7e8fa/print/"
+      },
+      {
+        "uuid": "d9d2dcbb-128e-4adc-bc99-0ff7df908150",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T15:18:21-05:00",
+        "income": null,
+        "expenses": "1670000.00",
+        "original": "https://lda.gov/filings/public/filing/d9d2dcbb-128e-4adc-bc99-0ff7df908150/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -2050,6 +3050,156 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 123489,
+    "client": "HP INC",
+    "registrant_id": 18158,
+    "registrant": "HP INC.",
+    "income_known": "0",
+    "expenses_known": "3560000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "a60e4a93-72b9-4663-a463-68b5b77acb64",
+        "period": "first_quarter",
+        "posted": "2025-04-17T15:15:57-04:00",
+        "income": null,
+        "expenses": "840000.00",
+        "original": "https://lda.gov/filings/public/filing/a60e4a93-72b9-4663-a463-68b5b77acb64/print/"
+      },
+      {
+        "uuid": "7e8c65b8-2c8d-4763-8777-5296851247ab",
+        "period": "second_quarter",
+        "posted": "2025-07-18T10:37:05-04:00",
+        "income": null,
+        "expenses": "740000.00",
+        "original": "https://lda.gov/filings/public/filing/7e8c65b8-2c8d-4763-8777-5296851247ab/print/"
+      },
+      {
+        "uuid": "fc404bdd-3cae-4f51-82be-96f6482797d7",
+        "period": "third_quarter",
+        "posted": "2025-10-15T16:50:38-04:00",
+        "income": null,
+        "expenses": "800000.00",
+        "original": "https://lda.gov/filings/public/filing/fc404bdd-3cae-4f51-82be-96f6482797d7/print/"
+      },
+      {
+        "uuid": "2c66ae77-c5a5-454c-97bd-26a6d14c18ac",
+        "period": "fourth_quarter",
+        "posted": "2026-01-15T16:02:23-05:00",
+        "income": null,
+        "expenses": "1180000.00",
+        "original": "https://lda.gov/filings/public/filing/2c66ae77-c5a5-454c-97bd-26a6d14c18ac/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 59201,
+    "client": "ANTHROPIC",
+    "registrant_id": 401108320,
+    "registrant": "ANTHROPIC",
+    "income_known": "0",
+    "expenses_known": "3130000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "1fc93141-c0f8-4174-98dd-850afbed1b12",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:37:43-04:00",
+        "income": null,
+        "expenses": "360000.00",
+        "original": "https://lda.gov/filings/public/filing/1fc93141-c0f8-4174-98dd-850afbed1b12/print/"
+      },
+      {
+        "uuid": "df03939f-9d1d-4d6f-8798-54d9204993d7",
+        "period": "second_quarter",
+        "posted": "2025-08-01T13:03:52-04:00",
+        "income": null,
+        "expenses": "920000.00",
+        "original": "https://lda.gov/filings/public/filing/df03939f-9d1d-4d6f-8798-54d9204993d7/print/"
+      },
+      {
+        "uuid": "ba2fc44f-6b7a-42c0-abc8-a833ef824d69",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:43:33-04:00",
+        "income": null,
+        "expenses": "1010000.00",
+        "original": "https://lda.gov/filings/public/filing/ba2fc44f-6b7a-42c0-abc8-a833ef824d69/print/"
+      },
+      {
+        "uuid": "f1f12efe-e53f-4396-886b-2fb674e4e22e",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:19:41-05:00",
+        "income": null,
+        "expenses": "840000.00",
+        "original": "https://lda.gov/filings/public/filing/f1f12efe-e53f-4396-886b-2fb674e4e22e/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 103538,
+    "client": "AMERICAN DENTAL ASSOCIATION",
+    "registrant_id": 2228,
+    "registrant": "AMERICAN DENTAL ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "2710000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "6fe55660-0061-46c7-aac3-6fa9f79a2ea5",
+        "period": "first_quarter",
+        "posted": "2025-04-17T14:14:20-04:00",
+        "income": null,
+        "expenses": "420000.00",
+        "original": "https://lda.gov/filings/public/filing/6fe55660-0061-46c7-aac3-6fa9f79a2ea5/print/"
+      },
+      {
+        "uuid": "2b4a52b3-5e1f-4870-95bd-232f75f78a9b",
+        "period": "second_quarter",
+        "posted": "2025-07-21T18:01:42-04:00",
+        "income": null,
+        "expenses": "1660000.00",
+        "original": "https://lda.gov/filings/public/filing/2b4a52b3-5e1f-4870-95bd-232f75f78a9b/print/"
+      },
+      {
+        "uuid": "262acb93-4538-42d5-8fb8-5f2501f0d383",
+        "period": "third_quarter",
+        "posted": "2025-10-17T09:44:20-04:00",
+        "income": null,
+        "expenses": "280000.00",
+        "original": "https://lda.gov/filings/public/filing/262acb93-4538-42d5-8fb8-5f2501f0d383/print/"
+      },
+      {
+        "uuid": "a86225e5-28d1-4032-b39c-3a537f24784d",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T10:37:25-05:00",
+        "income": null,
+        "expenses": "350000.00",
+        "original": "https://lda.gov/filings/public/filing/a86225e5-28d1-4032-b39c-3a537f24784d/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 134239,
     "client": "NATIONAL ASSOCIATION OF MANUFACTURERS",
     "registrant_id": 26912,
@@ -2095,6 +3245,156 @@
         "income": null,
         "expenses": "2730000.00",
         "original": "https://lda.gov/filings/public/filing/1107fc16-7908-4657-8623-75487c7ba8e1/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 100404,
+    "client": "AFL-CIO",
+    "registrant_id": 363,
+    "registrant": "AFL-CIO",
+    "income_known": "0",
+    "expenses_known": "3400000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "84eaa28e-174c-47b4-ad97-3e8e8d38f398",
+        "period": "first_quarter",
+        "posted": "2025-04-21T15:22:12-04:00",
+        "income": null,
+        "expenses": "760000.00",
+        "original": "https://lda.gov/filings/public/filing/84eaa28e-174c-47b4-ad97-3e8e8d38f398/print/"
+      },
+      {
+        "uuid": "811a3780-a267-4722-a1ba-5a940bf8656e",
+        "period": "second_quarter",
+        "posted": "2025-07-21T16:55:14-04:00",
+        "income": null,
+        "expenses": "1020000.00",
+        "original": "https://lda.gov/filings/public/filing/811a3780-a267-4722-a1ba-5a940bf8656e/print/"
+      },
+      {
+        "uuid": "d8654c0c-717b-45ee-b847-5f3f58e15f49",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:31:44-04:00",
+        "income": null,
+        "expenses": "860000.00",
+        "original": "https://lda.gov/filings/public/filing/d8654c0c-717b-45ee-b847-5f3f58e15f49/print/"
+      },
+      {
+        "uuid": "dd83832a-ce15-4ebe-9521-cd8d2e6f3538",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T12:58:42-05:00",
+        "income": null,
+        "expenses": "760000.00",
+        "original": "https://lda.gov/filings/public/filing/dd83832a-ce15-4ebe-9521-cd8d2e6f3538/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 134545,
+    "client": "AMERICAN BEVERAGE ASSOCIATION",
+    "registrant_id": 28606,
+    "registrant": "AMERICAN BEVERAGE ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "3540000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "c8836d6d-5002-4cb1-98a3-5abfc06a3b4f",
+        "period": "first_quarter",
+        "posted": "2025-04-21T16:32:40-04:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/c8836d6d-5002-4cb1-98a3-5abfc06a3b4f/print/"
+      },
+      {
+        "uuid": "95fc970f-9f62-45ca-b5c2-8120abb41383",
+        "period": "second_quarter",
+        "posted": "2025-07-21T11:05:24-04:00",
+        "income": null,
+        "expenses": "910000.00",
+        "original": "https://lda.gov/filings/public/filing/95fc970f-9f62-45ca-b5c2-8120abb41383/print/"
+      },
+      {
+        "uuid": "924e63f8-5e09-487e-871e-c06859876fac",
+        "period": "third_quarter",
+        "posted": "2025-10-20T12:19:42-04:00",
+        "income": null,
+        "expenses": "690000.00",
+        "original": "https://lda.gov/filings/public/filing/924e63f8-5e09-487e-871e-c06859876fac/print/"
+      },
+      {
+        "uuid": "e6f80865-fc70-49c8-b2c3-cc9c7eb60433",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:11:10-05:00",
+        "income": null,
+        "expenses": "1150000.00",
+        "original": "https://lda.gov/filings/public/filing/e6f80865-fc70-49c8-b2c3-cc9c7eb60433/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 189281,
+    "client": "EISAI INC.",
+    "registrant_id": 400321512,
+    "registrant": "EISAI INC.",
+    "income_known": "0",
+    "expenses_known": "2950000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "d9d5f923-ec6e-4eeb-92ef-5eb10f1f28a7",
+        "period": "first_quarter",
+        "posted": "2025-04-21T10:10:09-04:00",
+        "income": null,
+        "expenses": "520000.00",
+        "original": "https://lda.gov/filings/public/filing/d9d5f923-ec6e-4eeb-92ef-5eb10f1f28a7/print/"
+      },
+      {
+        "uuid": "15be9923-d248-47f3-9fbe-e869ff135d41",
+        "period": "second_quarter",
+        "posted": "2025-07-21T11:50:45-04:00",
+        "income": null,
+        "expenses": "1100000.00",
+        "original": "https://lda.gov/filings/public/filing/15be9923-d248-47f3-9fbe-e869ff135d41/print/"
+      },
+      {
+        "uuid": "ef97ac67-0d60-4858-b876-a6635509526e",
+        "period": "third_quarter",
+        "posted": "2025-10-20T12:00:42-04:00",
+        "income": null,
+        "expenses": "620000.00",
+        "original": "https://lda.gov/filings/public/filing/ef97ac67-0d60-4858-b876-a6635509526e/print/"
+      },
+      {
+        "uuid": "39505573-53b1-485e-8a01-a9724c9d30e6",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T10:28:29-05:00",
+        "income": null,
+        "expenses": "710000.00",
+        "original": "https://lda.gov/filings/public/filing/39505573-53b1-485e-8a01-a9724c9d30e6/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -2300,6 +3600,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 134189,
+    "client": "NATIONWIDE MUTUAL INSURANCE COMPANY",
+    "registrant_id": 26411,
+    "registrant": "NATIONWIDE MUTUAL INSURANCE COMPANY",
+    "income_known": "0",
+    "expenses_known": "3630000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "f515a3f9-af1d-4f82-a44a-0b8f3a4e884b",
+        "period": "first_quarter",
+        "posted": "2025-04-16T16:34:42-04:00",
+        "income": null,
+        "expenses": "630000.00",
+        "original": "https://lda.gov/filings/public/filing/f515a3f9-af1d-4f82-a44a-0b8f3a4e884b/print/"
+      },
+      {
+        "uuid": "caadfe9f-e105-474e-90af-5d6ea37a3c4b",
+        "period": "second_quarter",
+        "posted": "2025-07-17T16:25:43-04:00",
+        "income": null,
+        "expenses": "1070000.00",
+        "original": "https://lda.gov/filings/public/filing/caadfe9f-e105-474e-90af-5d6ea37a3c4b/print/"
+      },
+      {
+        "uuid": "3b218ca5-9900-468c-8500-7aa01329fc60",
+        "period": "third_quarter",
+        "posted": "2025-10-17T17:52:24-04:00",
+        "income": null,
+        "expenses": "1260000.00",
+        "original": "https://lda.gov/filings/public/filing/3b218ca5-9900-468c-8500-7aa01329fc60/print/"
+      },
+      {
+        "uuid": "0e0914ae-124f-4bb2-84cd-a0e4b5477134",
+        "period": "fourth_quarter",
+        "posted": "2026-01-18T14:30:44-05:00",
+        "income": null,
+        "expenses": "670000.00",
+        "original": "https://lda.gov/filings/public/filing/0e0914ae-124f-4bb2-84cd-a0e4b5477134/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 102619,
     "client": "AMERICAN AIRLINES INC",
     "registrant_id": 1422,
@@ -2395,6 +3745,40 @@
         "income": null,
         "expenses": "1270000.00",
         "original": "https://lda.gov/filings/public/filing/18cae0bb-06ea-4ae7-a4df-98836d762119/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 68104,
+    "client": "LOGICAL STRATEGIES LLC",
+    "registrant_id": 401109020,
+    "registrant": "JAVELIN ADVISORS LLC",
+    "income_known": "1200000.00",
+    "expenses_known": "0",
+    "null_income_quarters": [
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "filings": [
+      {
+        "uuid": "dce3c038-9695-483f-b2ca-a2b1cec1dbc2",
+        "period": "third_quarter",
+        "posted": "2025-10-20T21:37:55-04:00",
+        "income": "1200000.00",
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/dce3c038-9695-483f-b2ca-a2b1cec1dbc2/print/"
+      },
+      {
+        "uuid": "0603c969-6364-4b44-9298-24d7836adbc0",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T10:16:55-05:00",
+        "income": null,
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/0603c969-6364-4b44-9298-24d7836adbc0/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -2500,6 +3884,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 54163,
+    "client": "A16Z CAPITAL MANAGEMENT LLC (F/K/A AH CAPITAL MANAGEMENT L.L.C.)",
+    "registrant_id": 401107259,
+    "registrant": "A16Z CAPITAL MANAGEMENT LLC (F/K/A AH CAPITAL MANAGEMENT L.L.C., D/B/A ANDREESSEN HOROWITZ)",
+    "income_known": "0",
+    "expenses_known": "3530000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "d9e5dd9e-1ab7-4a8e-a0e5-aba0b985fba4",
+        "period": "first_quarter",
+        "posted": "2025-04-21T13:43:04-04:00",
+        "income": null,
+        "expenses": "650000.00",
+        "original": "https://lda.gov/filings/public/filing/d9e5dd9e-1ab7-4a8e-a0e5-aba0b985fba4/print/"
+      },
+      {
+        "uuid": "bfcd9af3-9559-40ba-a776-69a456b0e1d1",
+        "period": "second_quarter",
+        "posted": "2025-08-08T15:15:20-04:00",
+        "income": null,
+        "expenses": "840000.00",
+        "original": "https://lda.gov/filings/public/filing/bfcd9af3-9559-40ba-a776-69a456b0e1d1/print/"
+      },
+      {
+        "uuid": "063643d3-792f-48c9-ae6d-5c798767efec",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:51:57-04:00",
+        "income": null,
+        "expenses": "1330000.00",
+        "original": "https://lda.gov/filings/public/filing/063643d3-792f-48c9-ae6d-5c798767efec/print/"
+      },
+      {
+        "uuid": "0666da41-0293-4b2a-a2b6-f8b29e1803a2",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:05:48-05:00",
+        "income": null,
+        "expenses": "710000.00",
+        "original": "https://lda.gov/filings/public/filing/0666da41-0293-4b2a-a2b6-f8b29e1803a2/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 129850,
     "client": "LOCKHEED MARTIN CORPORATION",
     "registrant_id": 23031,
@@ -2545,6 +3979,108 @@
         "income": null,
         "expenses": "3910000.00",
         "original": "https://lda.gov/filings/public/filing/5fb70928-8f46-4e82-aeb6-c4599381de38/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 64158,
+    "client": "BARRICK MINING CORPORATION",
+    "registrant_id": 401109224,
+    "registrant": "BARRICK MINING CORPORATION",
+    "income_known": "0",
+    "expenses_known": "1900000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [
+      "fourth_quarter"
+    ],
+    "filings": [
+      {
+        "uuid": "c8b319b1-df0f-4a0e-a6db-0d87e7195618",
+        "period": "first_quarter",
+        "posted": "2025-04-17T17:08:45-04:00",
+        "income": null,
+        "expenses": "410000.00",
+        "original": "https://lda.gov/filings/public/filing/c8b319b1-df0f-4a0e-a6db-0d87e7195618/print/"
+      },
+      {
+        "uuid": "a2760478-7912-416b-b774-5f73e9610e72",
+        "period": "second_quarter",
+        "posted": "2025-07-20T18:14:00-04:00",
+        "income": null,
+        "expenses": "1300000.00",
+        "original": "https://lda.gov/filings/public/filing/a2760478-7912-416b-b774-5f73e9610e72/print/"
+      },
+      {
+        "uuid": "d00b6951-ac7a-48fc-9932-74fffc7e164f",
+        "period": "third_quarter",
+        "posted": "2025-10-16T17:25:57-04:00",
+        "income": null,
+        "expenses": "190000.00",
+        "original": "https://lda.gov/filings/public/filing/d00b6951-ac7a-48fc-9932-74fffc7e164f/print/"
+      },
+      {
+        "uuid": "cf63a0c0-bd04-41a6-869a-61850d31eb4d",
+        "period": "fourth_quarter",
+        "posted": "2026-01-14T19:43:22-05:00",
+        "income": null,
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/cf63a0c0-bd04-41a6-869a-61850d31eb4d/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 127448,
+    "client": "EDWARD D. JONES & CO., L.P.",
+    "registrant_id": 20857,
+    "registrant": "EDWARD D. JONES & CO., L.P.",
+    "income_known": "0",
+    "expenses_known": "4310000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "7efdc822-f6c1-4ef4-9186-3dd09ed2ec47",
+        "period": "first_quarter",
+        "posted": "2025-04-21T09:51:20-04:00",
+        "income": null,
+        "expenses": "720000.00",
+        "original": "https://lda.gov/filings/public/filing/7efdc822-f6c1-4ef4-9186-3dd09ed2ec47/print/"
+      },
+      {
+        "uuid": "89d84dc9-ebd7-4a1b-a920-4de9b1deb979",
+        "period": "second_quarter",
+        "posted": "2025-07-21T19:11:12-04:00",
+        "income": null,
+        "expenses": "1370000.00",
+        "original": "https://lda.gov/filings/public/filing/89d84dc9-ebd7-4a1b-a920-4de9b1deb979/print/"
+      },
+      {
+        "uuid": "63e11079-4da8-4596-89ee-cfdda1261c1a",
+        "period": "third_quarter",
+        "posted": "2025-10-20T19:35:07-04:00",
+        "income": null,
+        "expenses": "580000.00",
+        "original": "https://lda.gov/filings/public/filing/63e11079-4da8-4596-89ee-cfdda1261c1a/print/"
+      },
+      {
+        "uuid": "90ec93d8-9995-4cf1-9d34-55190786232b",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T18:35:33-05:00",
+        "income": null,
+        "expenses": "1640000.00",
+        "original": "https://lda.gov/filings/public/filing/90ec93d8-9995-4cf1-9d34-55190786232b/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -2650,6 +4186,106 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 122663,
+    "client": "CONSUMER BRANDS ASSOCIATION (PKA: GROCERY MANUFACTURERS ASSOCIATION)",
+    "registrant_id": 16998,
+    "registrant": "CONSUMER BRANDS ASSOCIATION (PKA: GROCERY MANUFACTURERS ASSOCIATION)",
+    "income_known": "0",
+    "expenses_known": "6931000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "d20847c9-96fa-4cab-9a0a-a0020789a566",
+        "period": "first_quarter",
+        "posted": "2026-01-06T21:36:53-05:00",
+        "income": null,
+        "expenses": "715000.00",
+        "original": "https://lda.gov/filings/public/filing/d20847c9-96fa-4cab-9a0a-a0020789a566/print/"
+      },
+      {
+        "uuid": "d08b7301-e3ba-4a1a-b430-678c59c5d1e3",
+        "period": "second_quarter",
+        "posted": "2026-01-06T21:35:02-05:00",
+        "income": null,
+        "expenses": "1421000.00",
+        "original": "https://lda.gov/filings/public/filing/d08b7301-e3ba-4a1a-b430-678c59c5d1e3/print/"
+      },
+      {
+        "uuid": "4635f916-0ede-4378-a9fb-0acd476910b3",
+        "period": "third_quarter",
+        "posted": "2026-01-06T21:30:07-05:00",
+        "income": null,
+        "expenses": "1555000.00",
+        "original": "https://lda.gov/filings/public/filing/4635f916-0ede-4378-a9fb-0acd476910b3/print/"
+      },
+      {
+        "uuid": "a140a0f0-f8d7-4d2b-8b10-9f20ee8d911b",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:23:45-05:00",
+        "income": null,
+        "expenses": "3240000.00",
+        "original": "https://lda.gov/filings/public/filing/a140a0f0-f8d7-4d2b-8b10-9f20ee8d911b/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 173983,
+    "client": "ENTERPRISE HOLDINGS, INC. DBA ENTERPRISE MOBILITY",
+    "registrant_id": 89031,
+    "registrant": "ENTERPRISE HOLDINGS, INC. DBA ENTERPRISE MOBILITY",
+    "income_known": "0",
+    "expenses_known": "4830000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "9f943ff5-9849-45c8-87ec-7ca299a4d226",
+        "period": "first_quarter",
+        "posted": "2025-07-21T16:43:42-04:00",
+        "income": null,
+        "expenses": "1090000.00",
+        "original": "https://lda.gov/filings/public/filing/9f943ff5-9849-45c8-87ec-7ca299a4d226/print/"
+      },
+      {
+        "uuid": "855eed15-d2c5-4025-bb09-c1851cc37ec5",
+        "period": "second_quarter",
+        "posted": "2025-07-21T16:39:29-04:00",
+        "income": null,
+        "expenses": "1230000.00",
+        "original": "https://lda.gov/filings/public/filing/855eed15-d2c5-4025-bb09-c1851cc37ec5/print/"
+      },
+      {
+        "uuid": "625923d1-d628-429f-b972-03e309e00f06",
+        "period": "third_quarter",
+        "posted": "2025-10-17T11:55:09-04:00",
+        "income": null,
+        "expenses": "1050000.00",
+        "original": "https://lda.gov/filings/public/filing/625923d1-d628-429f-b972-03e309e00f06/print/"
+      },
+      {
+        "uuid": "eaad68e6-7c44-41de-ae34-30e8dd3bec3b",
+        "period": "fourth_quarter",
+        "posted": "2026-01-19T22:42:41-05:00",
+        "income": null,
+        "expenses": "1460000.00",
+        "original": "https://lda.gov/filings/public/filing/eaad68e6-7c44-41de-ae34-30e8dd3bec3b/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 107350,
     "client": "BASF CORPORATION",
     "registrant_id": 5506,
@@ -2750,6 +4386,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 155622,
+    "client": "FMR LLC",
+    "registrant_id": 48816,
+    "registrant": "FMR LLC",
+    "income_known": "0",
+    "expenses_known": "2970000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "3f0c7e13-2f82-4960-8cb3-d6150b56e9c6",
+        "period": "first_quarter",
+        "posted": "2025-04-18T11:17:01-04:00",
+        "income": null,
+        "expenses": "620000.00",
+        "original": "https://lda.gov/filings/public/filing/3f0c7e13-2f82-4960-8cb3-d6150b56e9c6/print/"
+      },
+      {
+        "uuid": "85163e0e-0787-410e-8043-48e8b8e4dd00",
+        "period": "second_quarter",
+        "posted": "2025-07-18T15:52:36-04:00",
+        "income": null,
+        "expenses": "1030000.00",
+        "original": "https://lda.gov/filings/public/filing/85163e0e-0787-410e-8043-48e8b8e4dd00/print/"
+      },
+      {
+        "uuid": "37e7903c-df4d-4fb2-b5ec-393cc3dbebdc",
+        "period": "third_quarter",
+        "posted": "2025-10-20T10:42:01-04:00",
+        "income": null,
+        "expenses": "650000.00",
+        "original": "https://lda.gov/filings/public/filing/37e7903c-df4d-4fb2-b5ec-393cc3dbebdc/print/"
+      },
+      {
+        "uuid": "b8dc2389-8dda-4e8f-99dd-e6f134989729",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T15:05:59-05:00",
+        "income": null,
+        "expenses": "670000.00",
+        "original": "https://lda.gov/filings/public/filing/b8dc2389-8dda-4e8f-99dd-e6f134989729/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 180606,
     "client": "DAVITA INC",
     "registrant_id": 301232,
@@ -2845,6 +4531,47 @@
         "income": null,
         "expenses": "1540000.00",
         "original": "https://lda.gov/filings/public/filing/ef30e2a8-ca1c-4027-af6d-7dcae3ee891c/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 67344,
+    "client": "PWC US GROUP LLP",
+    "registrant_id": 401109580,
+    "registrant": "PWC US GROUP LLP",
+    "income_known": "0",
+    "expenses_known": "2520000.00",
+    "null_income_quarters": [
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "d02afa77-2078-4602-910b-cb7ae0f9beec",
+        "period": "second_quarter",
+        "posted": "2025-10-20T17:02:45-04:00",
+        "income": null,
+        "expenses": "1000000.00",
+        "original": "https://lda.gov/filings/public/filing/d02afa77-2078-4602-910b-cb7ae0f9beec/print/"
+      },
+      {
+        "uuid": "51c749a7-d607-4992-b992-15f405eea6b2",
+        "period": "third_quarter",
+        "posted": "2025-10-20T16:46:00-04:00",
+        "income": null,
+        "expenses": "710000.00",
+        "original": "https://lda.gov/filings/public/filing/51c749a7-d607-4992-b992-15f405eea6b2/print/"
+      },
+      {
+        "uuid": "cdd2a099-77d4-4f56-a46b-7d4021a366f2",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:13:32-05:00",
+        "income": null,
+        "expenses": "810000.00",
+        "original": "https://lda.gov/filings/public/filing/cdd2a099-77d4-4f56-a46b-7d4021a366f2/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -2995,6 +4722,56 @@
         "income": null,
         "expenses": "1010000.00",
         "original": "https://lda.gov/filings/public/filing/d69340d3-69fb-4eb4-87a2-7df32aa084ca/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 102599,
+    "client": "ALZHEIMER'S ASSOCIATION",
+    "registrant_id": 1262,
+    "registrant": "ALZHEIMER'S ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "3960000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "7325931c-9c3f-4b03-99a1-320e2968e6b3",
+        "period": "first_quarter",
+        "posted": "2026-02-02T16:32:14-05:00",
+        "income": null,
+        "expenses": "560000.00",
+        "original": "https://lda.gov/filings/public/filing/7325931c-9c3f-4b03-99a1-320e2968e6b3/print/"
+      },
+      {
+        "uuid": "34955449-0e83-4794-96d8-d2cd6f921e57",
+        "period": "second_quarter",
+        "posted": "2026-05-20T10:47:35-04:00",
+        "income": null,
+        "expenses": "1790000.00",
+        "original": "https://lda.gov/filings/public/filing/34955449-0e83-4794-96d8-d2cd6f921e57/print/"
+      },
+      {
+        "uuid": "80c78087-d01d-4bb1-ba19-75b334164112",
+        "period": "third_quarter",
+        "posted": "2025-10-20T11:37:32-04:00",
+        "income": null,
+        "expenses": "1090000.00",
+        "original": "https://lda.gov/filings/public/filing/80c78087-d01d-4bb1-ba19-75b334164112/print/"
+      },
+      {
+        "uuid": "ab45c3c3-8ddc-40ed-ba46-ea8515421cfe",
+        "period": "fourth_quarter",
+        "posted": "2026-02-02T15:56:10-05:00",
+        "income": null,
+        "expenses": "520000.00",
+        "original": "https://lda.gov/filings/public/filing/ab45c3c3-8ddc-40ed-ba46-ea8515421cfe/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -3354,6 +5131,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 182185,
+    "client": "SALESFORCE, INC.",
+    "registrant_id": 306911,
+    "registrant": "SALESFORCE, INC.",
+    "income_known": "0",
+    "expenses_known": "4030000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "d400221c-db8d-43a9-8b71-e1a77b4f2731",
+        "period": "first_quarter",
+        "posted": "2026-04-22T11:36:57-04:00",
+        "income": null,
+        "expenses": "1020000.00",
+        "original": "https://lda.gov/filings/public/filing/d400221c-db8d-43a9-8b71-e1a77b4f2731/print/"
+      },
+      {
+        "uuid": "ed87cc82-9c17-465a-a88e-0a76aff6b732",
+        "period": "second_quarter",
+        "posted": "2026-04-22T11:39:11-04:00",
+        "income": null,
+        "expenses": "1410000.00",
+        "original": "https://lda.gov/filings/public/filing/ed87cc82-9c17-465a-a88e-0a76aff6b732/print/"
+      },
+      {
+        "uuid": "33f230a0-fba6-4486-85a3-3fb09e64012b",
+        "period": "third_quarter",
+        "posted": "2026-04-22T11:40:50-04:00",
+        "income": null,
+        "expenses": "810000.00",
+        "original": "https://lda.gov/filings/public/filing/33f230a0-fba6-4486-85a3-3fb09e64012b/print/"
+      },
+      {
+        "uuid": "333db955-277d-4f68-af02-29546d6ab3aa",
+        "period": "fourth_quarter",
+        "posted": "2026-04-22T11:42:39-04:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/333db955-277d-4f68-af02-29546d6ab3aa/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 126395,
     "client": "INTERNATIONAL ASSOCIATION OF MACHINISTS AND AEROSPACE WORKERS",
     "registrant_id": 19775,
@@ -3554,6 +5381,156 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 121533,
+    "client": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+    "registrant_id": 16032,
+    "registrant": "ASSOCIATION FOR ACCESSIBLE MEDICINES",
+    "income_known": "0",
+    "expenses_known": "3090000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "a2932449-d86b-4bf4-8b97-72e156da7087",
+        "period": "first_quarter",
+        "posted": "2025-04-16T18:37:15-04:00",
+        "income": null,
+        "expenses": "650000.00",
+        "original": "https://lda.gov/filings/public/filing/a2932449-d86b-4bf4-8b97-72e156da7087/print/"
+      },
+      {
+        "uuid": "d7999b2b-bf67-48f7-8ef1-8ca70b2d6d86",
+        "period": "second_quarter",
+        "posted": "2025-07-18T17:02:02-04:00",
+        "income": null,
+        "expenses": "650000.00",
+        "original": "https://lda.gov/filings/public/filing/d7999b2b-bf67-48f7-8ef1-8ca70b2d6d86/print/"
+      },
+      {
+        "uuid": "65e648b9-7f60-4da5-914e-f629aec57851",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:00:37-04:00",
+        "income": null,
+        "expenses": "640000.00",
+        "original": "https://lda.gov/filings/public/filing/65e648b9-7f60-4da5-914e-f629aec57851/print/"
+      },
+      {
+        "uuid": "a87602b8-2e62-4e4c-8a09-8ff30482111f",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:15:45-05:00",
+        "income": null,
+        "expenses": "1150000.00",
+        "original": "https://lda.gov/filings/public/filing/a87602b8-2e62-4e4c-8a09-8ff30482111f/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 103688,
+    "client": "AMERICAN CLEAN POWER ASSOCIATION",
+    "registrant_id": 3708,
+    "registrant": "AMERICAN CLEAN POWER ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "5050000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "7056e116-9468-43b7-b81e-994bc7dfe064",
+        "period": "first_quarter",
+        "posted": "2025-04-21T14:29:31-04:00",
+        "income": null,
+        "expenses": "510000.00",
+        "original": "https://lda.gov/filings/public/filing/7056e116-9468-43b7-b81e-994bc7dfe064/print/"
+      },
+      {
+        "uuid": "7177a496-c6a3-4f93-b72c-1764280e9230",
+        "period": "second_quarter",
+        "posted": "2025-07-21T12:11:18-04:00",
+        "income": null,
+        "expenses": "3800000.00",
+        "original": "https://lda.gov/filings/public/filing/7177a496-c6a3-4f93-b72c-1764280e9230/print/"
+      },
+      {
+        "uuid": "f819d096-9ccd-4785-a7dc-153937e682be",
+        "period": "third_quarter",
+        "posted": "2025-10-20T16:45:06-04:00",
+        "income": null,
+        "expenses": "350000.00",
+        "original": "https://lda.gov/filings/public/filing/f819d096-9ccd-4785-a7dc-153937e682be/print/"
+      },
+      {
+        "uuid": "8758ee61-b5ee-4c5c-9b76-fba3a9e6d951",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:00:36-05:00",
+        "income": null,
+        "expenses": "390000.00",
+        "original": "https://lda.gov/filings/public/filing/8758ee61-b5ee-4c5c-9b76-fba3a9e6d951/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 158512,
+    "client": "CAPITAL ONE FINANCIAL CORPORATION",
+    "registrant_id": 53824,
+    "registrant": "CAPITAL ONE FINANCIAL CORPORATION",
+    "income_known": "0",
+    "expenses_known": "4940000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "2c8f609c-12b5-4f2e-a0b4-1a26c255dde2",
+        "period": "first_quarter",
+        "posted": "2025-04-21T09:05:57-04:00",
+        "income": null,
+        "expenses": "950000.00",
+        "original": "https://lda.gov/filings/public/filing/2c8f609c-12b5-4f2e-a0b4-1a26c255dde2/print/"
+      },
+      {
+        "uuid": "fa8764da-df3f-4fb9-8948-19506a7f25e6",
+        "period": "second_quarter",
+        "posted": "2026-03-13T10:33:41-04:00",
+        "income": null,
+        "expenses": "480000.00",
+        "original": "https://lda.gov/filings/public/filing/fa8764da-df3f-4fb9-8948-19506a7f25e6/print/"
+      },
+      {
+        "uuid": "c28700a3-6963-4139-a3a4-d93808ac64dc",
+        "period": "third_quarter",
+        "posted": "2025-10-20T16:19:12-04:00",
+        "income": null,
+        "expenses": "1800000.00",
+        "original": "https://lda.gov/filings/public/filing/c28700a3-6963-4139-a3a4-d93808ac64dc/print/"
+      },
+      {
+        "uuid": "63e8e990-8da4-47fa-b30d-722d71e6490f",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T14:51:00-05:00",
+        "income": null,
+        "expenses": "1710000.00",
+        "original": "https://lda.gov/filings/public/filing/63e8e990-8da4-47fa-b30d-722d71e6490f/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 100407,
     "client": "AFLAC INCORPORATED",
     "registrant_id": 385,
@@ -3649,6 +5626,156 @@
         "income": null,
         "expenses": "1180000.00",
         "original": "https://lda.gov/filings/public/filing/2ce3c640-98f3-4173-9f2f-ad4a34f33337/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 140464,
+    "client": "THE PROCTER AND GAMBLE COMPANY",
+    "registrant_id": 32225,
+    "registrant": "THE PROCTER AND GAMBLE COMPANY",
+    "income_known": "0",
+    "expenses_known": "3591000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "9c56c490-3ec6-4138-8736-291979d04f2f",
+        "period": "first_quarter",
+        "posted": "2025-04-22T15:09:09-04:00",
+        "income": null,
+        "expenses": "993000.00",
+        "original": "https://lda.gov/filings/public/filing/9c56c490-3ec6-4138-8736-291979d04f2f/print/"
+      },
+      {
+        "uuid": "1e4b4e6f-4464-4afc-a54d-66572f7250e2",
+        "period": "second_quarter",
+        "posted": "2025-07-21T13:44:25-04:00",
+        "income": null,
+        "expenses": "1320000.00",
+        "original": "https://lda.gov/filings/public/filing/1e4b4e6f-4464-4afc-a54d-66572f7250e2/print/"
+      },
+      {
+        "uuid": "6b1fed12-8c8c-46d6-bb5c-26b1f7b55ad4",
+        "period": "third_quarter",
+        "posted": "2025-10-22T11:56:40-04:00",
+        "income": null,
+        "expenses": "751000.00",
+        "original": "https://lda.gov/filings/public/filing/6b1fed12-8c8c-46d6-bb5c-26b1f7b55ad4/print/"
+      },
+      {
+        "uuid": "e70e391e-5666-4100-86d2-5bd5576dae67",
+        "period": "fourth_quarter",
+        "posted": "2026-01-26T11:14:56-05:00",
+        "income": null,
+        "expenses": "527000.00",
+        "original": "https://lda.gov/filings/public/filing/e70e391e-5666-4100-86d2-5bd5576dae67/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 158904,
+    "client": "EBAY INC.",
+    "registrant_id": 54517,
+    "registrant": "EBAY INC.",
+    "income_known": "0",
+    "expenses_known": "4440000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "55e65dbf-18bd-4f50-b9e1-5c84bdce3536",
+        "period": "first_quarter",
+        "posted": "2025-04-21T18:41:05-04:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/55e65dbf-18bd-4f50-b9e1-5c84bdce3536/print/"
+      },
+      {
+        "uuid": "1e045845-3dc1-4419-be39-8638d1d76d56",
+        "period": "second_quarter",
+        "posted": "2025-07-21T20:56:10-04:00",
+        "income": null,
+        "expenses": "1340000.00",
+        "original": "https://lda.gov/filings/public/filing/1e045845-3dc1-4419-be39-8638d1d76d56/print/"
+      },
+      {
+        "uuid": "e953c8c3-0119-455d-ad4b-2433095b5f84",
+        "period": "third_quarter",
+        "posted": "2025-10-20T21:06:27-04:00",
+        "income": null,
+        "expenses": "1830000.00",
+        "original": "https://lda.gov/filings/public/filing/e953c8c3-0119-455d-ad4b-2433095b5f84/print/"
+      },
+      {
+        "uuid": "b0b923f4-2c77-45ae-8e7d-f18c14c9f363",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:26:23-05:00",
+        "income": null,
+        "expenses": "480000.00",
+        "original": "https://lda.gov/filings/public/filing/b0b923f4-2c77-45ae-8e7d-f18c14c9f363/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 102678,
+    "client": "AMERICAN COUNCIL OF ENGINEERING COMPANIES",
+    "registrant_id": 2046,
+    "registrant": "THE AMERICAN COUNCIL OF ENGINEERING COMPANIES",
+    "income_known": "0",
+    "expenses_known": "3575852.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "76f6e201-ac17-4769-83c9-077817f320bf",
+        "period": "first_quarter",
+        "posted": "2025-08-12T13:44:28-04:00",
+        "income": null,
+        "expenses": "1175661.00",
+        "original": "https://lda.gov/filings/public/filing/76f6e201-ac17-4769-83c9-077817f320bf/print/"
+      },
+      {
+        "uuid": "9112af56-3d25-43dc-af68-74ae9cc0cbec",
+        "period": "second_quarter",
+        "posted": "2025-08-14T13:18:47-04:00",
+        "income": null,
+        "expenses": "1078371.00",
+        "original": "https://lda.gov/filings/public/filing/9112af56-3d25-43dc-af68-74ae9cc0cbec/print/"
+      },
+      {
+        "uuid": "f4a5d96f-92e7-455e-8801-bbc44e3f6770",
+        "period": "third_quarter",
+        "posted": "2025-11-20T13:37:48-05:00",
+        "income": null,
+        "expenses": "633440.00",
+        "original": "https://lda.gov/filings/public/filing/f4a5d96f-92e7-455e-8801-bbc44e3f6770/print/"
+      },
+      {
+        "uuid": "7ff884b4-3cc1-4c43-8877-e42c63123158",
+        "period": "fourth_quarter",
+        "posted": "2026-06-26T14:33:29-04:00",
+        "income": null,
+        "expenses": "688380.00",
+        "original": "https://lda.gov/filings/public/filing/7ff884b4-3cc1-4c43-8877-e42c63123158/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -4604,6 +6731,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 202908,
+    "client": "JUUL LABS INC",
+    "registrant_id": 401104897,
+    "registrant": "JUUL LABS, INC.",
+    "income_known": "0",
+    "expenses_known": "3090000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "4e426577-57f0-4230-90fe-a24e54b3f009",
+        "period": "first_quarter",
+        "posted": "2025-10-20T21:11:27-04:00",
+        "income": null,
+        "expenses": "1070000.00",
+        "original": "https://lda.gov/filings/public/filing/4e426577-57f0-4230-90fe-a24e54b3f009/print/"
+      },
+      {
+        "uuid": "8d1f7d40-ccd3-4bbc-9e1d-59d7145155eb",
+        "period": "second_quarter",
+        "posted": "2025-10-20T21:12:31-04:00",
+        "income": null,
+        "expenses": "750000.00",
+        "original": "https://lda.gov/filings/public/filing/8d1f7d40-ccd3-4bbc-9e1d-59d7145155eb/print/"
+      },
+      {
+        "uuid": "5f823c09-f961-4e2b-b476-964e18f531d5",
+        "period": "third_quarter",
+        "posted": "2025-10-20T21:08:52-04:00",
+        "income": null,
+        "expenses": "570000.00",
+        "original": "https://lda.gov/filings/public/filing/5f823c09-f961-4e2b-b476-964e18f531d5/print/"
+      },
+      {
+        "uuid": "076e84e4-574a-4159-b556-51dcbd10dd40",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T19:33:03-05:00",
+        "income": null,
+        "expenses": "700000.00",
+        "original": "https://lda.gov/filings/public/filing/076e84e4-574a-4159-b556-51dcbd10dd40/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 108802,
     "client": "BOEING COMPANY",
     "registrant_id": 6597,
@@ -5154,6 +7331,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 165440,
+    "client": "UNITED STATES STEEL CORPORATION",
+    "registrant_id": 71553,
+    "registrant": "UNITED STATES STEEL CORPORATION",
+    "income_known": "0",
+    "expenses_known": "2530000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "94ce2951-7d4a-4aec-a8e7-5bba61d3bbf1",
+        "period": "first_quarter",
+        "posted": "2025-04-21T09:36:55-04:00",
+        "income": null,
+        "expenses": "990000.00",
+        "original": "https://lda.gov/filings/public/filing/94ce2951-7d4a-4aec-a8e7-5bba61d3bbf1/print/"
+      },
+      {
+        "uuid": "9acdd928-d7c1-4825-8c40-26d37c16dd40",
+        "period": "second_quarter",
+        "posted": "2025-07-17T13:51:43-04:00",
+        "income": null,
+        "expenses": "1000000.00",
+        "original": "https://lda.gov/filings/public/filing/9acdd928-d7c1-4825-8c40-26d37c16dd40/print/"
+      },
+      {
+        "uuid": "f938042d-26f9-49cb-988d-fa6c42ec8924",
+        "period": "third_quarter",
+        "posted": "2025-10-20T10:38:22-04:00",
+        "income": null,
+        "expenses": "360000.00",
+        "original": "https://lda.gov/filings/public/filing/f938042d-26f9-49cb-988d-fa6c42ec8924/print/"
+      },
+      {
+        "uuid": "fce1b721-57e5-48ac-81ff-586a5c3a73d6",
+        "period": "fourth_quarter",
+        "posted": "2026-01-16T16:18:24-05:00",
+        "income": null,
+        "expenses": "180000.00",
+        "original": "https://lda.gov/filings/public/filing/fce1b721-57e5-48ac-81ff-586a5c3a73d6/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 203439,
     "client": "INVENERGY LLC",
     "registrant_id": 401105235,
@@ -5449,6 +7676,156 @@
         "income": null,
         "expenses": "1210000.00",
         "original": "https://lda.gov/filings/public/filing/11b55f74-a3c4-4ae1-98a8-b46315d2f657/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 109642,
+    "client": "BRISTOL-MYERS SQUIBB COMPANY",
+    "registrant_id": 7053,
+    "registrant": "BRISTOL-MYERS SQUIBB COMPANY",
+    "income_known": "0",
+    "expenses_known": "10080000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "ac27ea6b-f56a-4779-8bd3-03f51fa7fa2c",
+        "period": "first_quarter",
+        "posted": "2025-04-20T17:12:12-04:00",
+        "income": null,
+        "expenses": "870000.00",
+        "original": "https://lda.gov/filings/public/filing/ac27ea6b-f56a-4779-8bd3-03f51fa7fa2c/print/"
+      },
+      {
+        "uuid": "cfdbd4a8-2adf-4ec0-b8c8-9ffa818f988b",
+        "period": "second_quarter",
+        "posted": "2025-07-21T13:52:23-04:00",
+        "income": null,
+        "expenses": "4780000.00",
+        "original": "https://lda.gov/filings/public/filing/cfdbd4a8-2adf-4ec0-b8c8-9ffa818f988b/print/"
+      },
+      {
+        "uuid": "9c13f0ed-27c7-4e0e-9194-f7d3997b9ca6",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:00:34-04:00",
+        "income": null,
+        "expenses": "3180000.00",
+        "original": "https://lda.gov/filings/public/filing/9c13f0ed-27c7-4e0e-9194-f7d3997b9ca6/print/"
+      },
+      {
+        "uuid": "23c034d5-a8b0-4076-94cc-55f4d7c27dc6",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:52:07-05:00",
+        "income": null,
+        "expenses": "1250000.00",
+        "original": "https://lda.gov/filings/public/filing/23c034d5-a8b0-4076-94cc-55f4d7c27dc6/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 206637,
+    "client": "TENCENT HOLDINGS LIMITED",
+    "registrant_id": 401105746,
+    "registrant": "TENCENT HOLDINGS LIMITED",
+    "income_known": "0",
+    "expenses_known": "4240000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "2a0654cd-8553-4c8f-a2f2-d8044be25052",
+        "period": "first_quarter",
+        "posted": "2025-04-21T11:00:42-04:00",
+        "income": null,
+        "expenses": "250000.00",
+        "original": "https://lda.gov/filings/public/filing/2a0654cd-8553-4c8f-a2f2-d8044be25052/print/"
+      },
+      {
+        "uuid": "aef47818-c7b0-4891-bc07-d313809b9228",
+        "period": "second_quarter",
+        "posted": "2025-07-21T15:53:15-04:00",
+        "income": null,
+        "expenses": "870000.00",
+        "original": "https://lda.gov/filings/public/filing/aef47818-c7b0-4891-bc07-d313809b9228/print/"
+      },
+      {
+        "uuid": "6bc0dac6-ed18-4691-972e-cf3b69a73cd1",
+        "period": "third_quarter",
+        "posted": "2025-10-20T12:20:20-04:00",
+        "income": null,
+        "expenses": "1560000.00",
+        "original": "https://lda.gov/filings/public/filing/6bc0dac6-ed18-4691-972e-cf3b69a73cd1/print/"
+      },
+      {
+        "uuid": "c8ffef2f-cd0a-4e2e-85dd-1d72fe5ec7a1",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T18:34:04-05:00",
+        "income": null,
+        "expenses": "1560000.00",
+        "original": "https://lda.gov/filings/public/filing/c8ffef2f-cd0a-4e2e-85dd-1d72fe5ec7a1/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 182010,
+    "client": "CENTENE CORPORATION",
+    "registrant_id": 306578,
+    "registrant": "CENTENE CORPORATION",
+    "income_known": "0",
+    "expenses_known": "4170000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "2974cb77-9873-476c-885e-8e78c0fb7d21",
+        "period": "first_quarter",
+        "posted": "2025-04-21T09:15:56-04:00",
+        "income": null,
+        "expenses": "860000.00",
+        "original": "https://lda.gov/filings/public/filing/2974cb77-9873-476c-885e-8e78c0fb7d21/print/"
+      },
+      {
+        "uuid": "b935d964-be94-433c-9e5e-a3e869fa8d30",
+        "period": "second_quarter",
+        "posted": "2025-07-21T08:35:22-04:00",
+        "income": null,
+        "expenses": "1510000.00",
+        "original": "https://lda.gov/filings/public/filing/b935d964-be94-433c-9e5e-a3e869fa8d30/print/"
+      },
+      {
+        "uuid": "48431cef-93f1-48a2-bcb9-9cb9b41b6f4b",
+        "period": "third_quarter",
+        "posted": "2025-10-20T10:34:06-04:00",
+        "income": null,
+        "expenses": "710000.00",
+        "original": "https://lda.gov/filings/public/filing/48431cef-93f1-48a2-bcb9-9cb9b41b6f4b/print/"
+      },
+      {
+        "uuid": "92958e0c-04f5-4b82-a296-f81e15691c02",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T09:48:52-05:00",
+        "income": null,
+        "expenses": "1090000.00",
+        "original": "https://lda.gov/filings/public/filing/92958e0c-04f5-4b82-a296-f81e15691c02/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -6004,6 +8381,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 131181,
+    "client": "MASSACHUSETTS MUTUAL LIFE INSURANCE COMPANY",
+    "registrant_id": 23986,
+    "registrant": "MASSACHUSETTS MUTUAL LIFE INSURANCE COMPANY",
+    "income_known": "0",
+    "expenses_known": "2970000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "a5cb8895-00de-4126-bc60-6b3045730bb4",
+        "period": "first_quarter",
+        "posted": "2025-04-21T14:58:33-04:00",
+        "income": null,
+        "expenses": "940000.00",
+        "original": "https://lda.gov/filings/public/filing/a5cb8895-00de-4126-bc60-6b3045730bb4/print/"
+      },
+      {
+        "uuid": "0bdaf643-fc99-4c01-83e4-4ba43ed95d65",
+        "period": "second_quarter",
+        "posted": "2025-07-21T18:47:47-04:00",
+        "income": null,
+        "expenses": "350000.00",
+        "original": "https://lda.gov/filings/public/filing/0bdaf643-fc99-4c01-83e4-4ba43ed95d65/print/"
+      },
+      {
+        "uuid": "fb57241c-862d-43ff-aa11-6bf741df3676",
+        "period": "third_quarter",
+        "posted": "2025-10-20T19:06:34-04:00",
+        "income": null,
+        "expenses": "560000.00",
+        "original": "https://lda.gov/filings/public/filing/fb57241c-862d-43ff-aa11-6bf741df3676/print/"
+      },
+      {
+        "uuid": "b8708f71-52bd-4744-a863-94c6bbadc768",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T21:10:59-05:00",
+        "income": null,
+        "expenses": "1120000.00",
+        "original": "https://lda.gov/filings/public/filing/b8708f71-52bd-4744-a863-94c6bbadc768/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 51060,
     "client": "CONSTELLATION ENERGY GENERATION, LLC",
     "registrant_id": 401106428,
@@ -6149,6 +8576,106 @@
         "income": null,
         "expenses": "1496000.00",
         "original": "https://lda.gov/filings/public/filing/c881b54e-be1f-406a-bea8-608bbd000c9a/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 180223,
+    "client": "TENET HEALTHCARE CORPORATION",
+    "registrant_id": 299877,
+    "registrant": "TENET HEALTHCARE CORPORATION",
+    "income_known": "0",
+    "expenses_known": "4120000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "68f5567c-51de-4407-81a8-c5ffd6fcd569",
+        "period": "first_quarter",
+        "posted": "2025-04-21T14:35:09-04:00",
+        "income": null,
+        "expenses": "610000.00",
+        "original": "https://lda.gov/filings/public/filing/68f5567c-51de-4407-81a8-c5ffd6fcd569/print/"
+      },
+      {
+        "uuid": "a6e96db3-1143-4357-9921-d9fefd34df88",
+        "period": "second_quarter",
+        "posted": "2025-07-21T10:30:16-04:00",
+        "income": null,
+        "expenses": "1170000.00",
+        "original": "https://lda.gov/filings/public/filing/a6e96db3-1143-4357-9921-d9fefd34df88/print/"
+      },
+      {
+        "uuid": "0f7ce4ff-30b7-446e-96ca-904110b3555c",
+        "period": "third_quarter",
+        "posted": "2025-10-20T14:25:18-04:00",
+        "income": null,
+        "expenses": "1170000.00",
+        "original": "https://lda.gov/filings/public/filing/0f7ce4ff-30b7-446e-96ca-904110b3555c/print/"
+      },
+      {
+        "uuid": "7e78ed69-7e88-46bb-bc60-7f371f6a7fcd",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T13:03:51-05:00",
+        "income": null,
+        "expenses": "1170000.00",
+        "original": "https://lda.gov/filings/public/filing/7e78ed69-7e88-46bb-bc60-7f371f6a7fcd/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 126309,
+    "client": "INDEPENDENT COMMUNITY BANKERS OF AMERICA",
+    "registrant_id": 19194,
+    "registrant": "INDEPENDENT COMMUNITY BANKERS OF AMERICA",
+    "income_known": "0",
+    "expenses_known": "5698431.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "99edf491-0fb0-4ad1-b39a-2719a7c68b81",
+        "period": "first_quarter",
+        "posted": "2025-04-22T11:13:26-04:00",
+        "income": null,
+        "expenses": "880760.00",
+        "original": "https://lda.gov/filings/public/filing/99edf491-0fb0-4ad1-b39a-2719a7c68b81/print/"
+      },
+      {
+        "uuid": "6df6b7ee-2f17-4b80-942f-b8ad6e1a6f7a",
+        "period": "second_quarter",
+        "posted": "2025-07-23T15:12:23-04:00",
+        "income": null,
+        "expenses": "2668980.00",
+        "original": "https://lda.gov/filings/public/filing/6df6b7ee-2f17-4b80-942f-b8ad6e1a6f7a/print/"
+      },
+      {
+        "uuid": "2628815b-87f0-49fb-945a-5fa2c84cec64",
+        "period": "third_quarter",
+        "posted": "2025-10-20T10:46:24-04:00",
+        "income": null,
+        "expenses": "866841.00",
+        "original": "https://lda.gov/filings/public/filing/2628815b-87f0-49fb-945a-5fa2c84cec64/print/"
+      },
+      {
+        "uuid": "80330064-a4b6-4549-9143-4d6b48e7c216",
+        "period": "fourth_quarter",
+        "posted": "2026-02-03T10:04:20-05:00",
+        "income": null,
+        "expenses": "1281850.00",
+        "original": "https://lda.gov/filings/public/filing/80330064-a4b6-4549-9143-4d6b48e7c216/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -6397,6 +8924,156 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 125608,
+    "client": "AMERICAN HONDA MOTOR CO., INC.",
+    "registrant_id": 18546,
+    "registrant": "AMERICAN HONDA MOTOR CO., INC.",
+    "income_known": "0",
+    "expenses_known": "3763079.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "1b0003f7-00d1-48d8-8735-bce3f3890dcc",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:07:09-04:00",
+        "income": null,
+        "expenses": "660000.00",
+        "original": "https://lda.gov/filings/public/filing/1b0003f7-00d1-48d8-8735-bce3f3890dcc/print/"
+      },
+      {
+        "uuid": "d9544227-9883-47cf-ad38-2125c6882871",
+        "period": "second_quarter",
+        "posted": "2025-07-21T19:49:05-04:00",
+        "income": null,
+        "expenses": "1667006.00",
+        "original": "https://lda.gov/filings/public/filing/d9544227-9883-47cf-ad38-2125c6882871/print/"
+      },
+      {
+        "uuid": "eea9cb20-75ac-41c9-80a1-15f3b045426e",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:46:53-04:00",
+        "income": null,
+        "expenses": "910000.00",
+        "original": "https://lda.gov/filings/public/filing/eea9cb20-75ac-41c9-80a1-15f3b045426e/print/"
+      },
+      {
+        "uuid": "d4d7b1c3-8ace-4849-a0dd-db55d91e3837",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T20:08:09-05:00",
+        "income": null,
+        "expenses": "526073.00",
+        "original": "https://lda.gov/filings/public/filing/d4d7b1c3-8ace-4849-a0dd-db55d91e3837/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 65325,
+    "client": "NVIDIA CORPORATION",
+    "registrant_id": 401109419,
+    "registrant": "NVIDIA CORPORATION",
+    "income_known": "0",
+    "expenses_known": "4970000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "ded7018b-7ab1-48f6-a144-fe1f88924dfe",
+        "period": "first_quarter",
+        "posted": "2025-04-25T12:27:20-04:00",
+        "income": null,
+        "expenses": "940000.00",
+        "original": "https://lda.gov/filings/public/filing/ded7018b-7ab1-48f6-a144-fe1f88924dfe/print/"
+      },
+      {
+        "uuid": "65879724-313e-4683-a5e5-95c3dbc310e0",
+        "period": "second_quarter",
+        "posted": "2025-07-18T12:54:17-04:00",
+        "income": null,
+        "expenses": "620000.00",
+        "original": "https://lda.gov/filings/public/filing/65879724-313e-4683-a5e5-95c3dbc310e0/print/"
+      },
+      {
+        "uuid": "adf866b5-9207-4479-a012-8697cf851bd5",
+        "period": "third_quarter",
+        "posted": "2026-01-18T15:42:24-05:00",
+        "income": null,
+        "expenses": "1950000.00",
+        "original": "https://lda.gov/filings/public/filing/adf866b5-9207-4479-a012-8697cf851bd5/print/"
+      },
+      {
+        "uuid": "e76ce48d-8b5c-46c3-b47e-6c146ad0909e",
+        "period": "fourth_quarter",
+        "posted": "2026-04-20T15:56:34-04:00",
+        "income": null,
+        "expenses": "1460000.00",
+        "original": "https://lda.gov/filings/public/filing/e76ce48d-8b5c-46c3-b47e-6c146ad0909e/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 134218,
+    "client": "NATIONAL ASSOCIATION OF COMMUNITY HEALTH CENTERS",
+    "registrant_id": 26706,
+    "registrant": "NATIONAL ASSOCIATION OF COMMUNITY HEALTH CENTERS",
+    "income_known": "0",
+    "expenses_known": "756000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "0dfa48cc-49fd-4126-9b82-bc590412b026",
+        "period": "first_quarter",
+        "posted": "2025-04-28T14:21:44-04:00",
+        "income": null,
+        "expenses": "185000.00",
+        "original": "https://lda.gov/filings/public/filing/0dfa48cc-49fd-4126-9b82-bc590412b026/print/"
+      },
+      {
+        "uuid": "faaa942a-1053-4c15-9c77-f768103f5d1a",
+        "period": "second_quarter",
+        "posted": "2025-07-21T15:57:47-04:00",
+        "income": null,
+        "expenses": "200000.00",
+        "original": "https://lda.gov/filings/public/filing/faaa942a-1053-4c15-9c77-f768103f5d1a/print/"
+      },
+      {
+        "uuid": "fcc94505-371e-42ba-9f2b-848b87f5d3ec",
+        "period": "third_quarter",
+        "posted": "2025-10-21T11:35:57-04:00",
+        "income": null,
+        "expenses": "180000.00",
+        "original": "https://lda.gov/filings/public/filing/fcc94505-371e-42ba-9f2b-848b87f5d3ec/print/"
+      },
+      {
+        "uuid": "26244cbd-b02a-4cc4-82d1-482306f45cbc",
+        "period": "fourth_quarter",
+        "posted": "2026-03-10T13:39:04-04:00",
+        "income": null,
+        "expenses": "191000.00",
+        "original": "https://lda.gov/filings/public/filing/26244cbd-b02a-4cc4-82d1-482306f45cbc/print/"
+      }
+    ],
+    "major_reported_lower_bound": false
+  },
+  {
     "client_id": 161352,
     "client": "QUALCOMM INCORPORATED",
     "registrant_id": 60674,
@@ -6442,6 +9119,56 @@
         "income": null,
         "expenses": "1770000.00",
         "original": "https://lda.gov/filings/public/filing/36fa6dd4-edcb-42b4-a31b-497a0329e7a4/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 203556,
+    "client": "ASCENSION HEALTH ALLIANCE D/B/A ASCENSION",
+    "registrant_id": 401105339,
+    "registrant": "ASCENSION HEALTH ALLIANCE D/B/A ASCENSION",
+    "income_known": "0",
+    "expenses_known": "2735000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "40b8264d-fc6b-43c6-b714-df00b73063ac",
+        "period": "first_quarter",
+        "posted": "2025-04-21T15:02:19-04:00",
+        "income": null,
+        "expenses": "400000.00",
+        "original": "https://lda.gov/filings/public/filing/40b8264d-fc6b-43c6-b714-df00b73063ac/print/"
+      },
+      {
+        "uuid": "e78c5f63-ec7a-4da0-a80a-cdffb1eb284a",
+        "period": "second_quarter",
+        "posted": "2025-07-21T11:02:35-04:00",
+        "income": null,
+        "expenses": "1300000.00",
+        "original": "https://lda.gov/filings/public/filing/e78c5f63-ec7a-4da0-a80a-cdffb1eb284a/print/"
+      },
+      {
+        "uuid": "cbaa6e96-3a39-4421-9ef5-c85b395bba6f",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:30:49-04:00",
+        "income": null,
+        "expenses": "550000.00",
+        "original": "https://lda.gov/filings/public/filing/cbaa6e96-3a39-4421-9ef5-c85b395bba6f/print/"
+      },
+      {
+        "uuid": "c938ef5a-c262-4966-9d79-fa73b185a6cc",
+        "period": "fourth_quarter",
+        "posted": "2026-01-16T11:22:24-05:00",
+        "income": null,
+        "expenses": "485000.00",
+        "original": "https://lda.gov/filings/public/filing/c938ef5a-c262-4966-9d79-fa73b185a6cc/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -6497,6 +9224,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 114369,
+    "client": "CONSUMER BANKERS ASSOCIATION",
+    "registrant_id": 10627,
+    "registrant": "CONSUMER BANKERS ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "3620000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "ba7237eb-ea0b-4384-92b2-2eff69518428",
+        "period": "first_quarter",
+        "posted": "2025-04-18T14:38:47-04:00",
+        "income": null,
+        "expenses": "850000.00",
+        "original": "https://lda.gov/filings/public/filing/ba7237eb-ea0b-4384-92b2-2eff69518428/print/"
+      },
+      {
+        "uuid": "afb4e456-8ae1-41e6-867a-60c9859d9daf",
+        "period": "second_quarter",
+        "posted": "2025-07-18T09:55:13-04:00",
+        "income": null,
+        "expenses": "650000.00",
+        "original": "https://lda.gov/filings/public/filing/afb4e456-8ae1-41e6-867a-60c9859d9daf/print/"
+      },
+      {
+        "uuid": "02c37a2c-2bca-49e5-ae54-7d3728317871",
+        "period": "third_quarter",
+        "posted": "2025-10-20T13:51:20-04:00",
+        "income": null,
+        "expenses": "1150000.00",
+        "original": "https://lda.gov/filings/public/filing/02c37a2c-2bca-49e5-ae54-7d3728317871/print/"
+      },
+      {
+        "uuid": "ce5077b6-4189-43a0-835e-183e60cc73bb",
+        "period": "fourth_quarter",
+        "posted": "2026-01-19T20:58:18-05:00",
+        "income": null,
+        "expenses": "970000.00",
+        "original": "https://lda.gov/filings/public/filing/ce5077b6-4189-43a0-835e-183e60cc73bb/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 63863,
     "client": "CHEVRON PHILLIPS CHEMICAL COMPANY LP",
     "registrant_id": 401109155,
@@ -6542,6 +9319,56 @@
         "income": null,
         "expenses": "440000.00",
         "original": "https://lda.gov/filings/public/filing/6c8ce299-9fbd-4ded-8e42-7a7c11518c15/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 201038,
+    "client": "JPMORGAN CHASE HOLDINGS LLC",
+    "registrant_id": 401104236,
+    "registrant": "JPMORGAN CHASE HOLDINGS LLC",
+    "income_known": "0",
+    "expenses_known": "4380000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "95bfdea3-705b-477c-8164-38753a168ef3",
+        "period": "first_quarter",
+        "posted": "2025-04-21T15:19:24-04:00",
+        "income": null,
+        "expenses": "940000.00",
+        "original": "https://lda.gov/filings/public/filing/95bfdea3-705b-477c-8164-38753a168ef3/print/"
+      },
+      {
+        "uuid": "12300457-0a95-4746-88ce-06217dd5daef",
+        "period": "second_quarter",
+        "posted": "2025-07-21T14:57:33-04:00",
+        "income": null,
+        "expenses": "1180000.00",
+        "original": "https://lda.gov/filings/public/filing/12300457-0a95-4746-88ce-06217dd5daef/print/"
+      },
+      {
+        "uuid": "a10ca24a-5db3-407d-9c97-1b88689f5896",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:24:22-04:00",
+        "income": null,
+        "expenses": "1140000.00",
+        "original": "https://lda.gov/filings/public/filing/a10ca24a-5db3-407d-9c97-1b88689f5896/print/"
+      },
+      {
+        "uuid": "95f3b501-2b4c-418c-91ba-aad928732fee",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T15:51:29-05:00",
+        "income": null,
+        "expenses": "1120000.00",
+        "original": "https://lda.gov/filings/public/filing/95f3b501-2b4c-418c-91ba-aad928732fee/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -6692,6 +9519,56 @@
         "income": null,
         "expenses": "1878641.00",
         "original": "https://lda.gov/filings/public/filing/7ee50a60-de53-4de9-b50f-c70e65ded141/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 157164,
+    "client": "NATURE CONSERVANCY",
+    "registrant_id": 50887,
+    "registrant": "THE NATURE CONSERVANCY",
+    "income_known": "0",
+    "expenses_known": "5030000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "f9e19e65-5b33-4080-8faa-af40608e757d",
+        "period": "first_quarter",
+        "posted": "2025-04-21T21:22:52-04:00",
+        "income": null,
+        "expenses": "680000.00",
+        "original": "https://lda.gov/filings/public/filing/f9e19e65-5b33-4080-8faa-af40608e757d/print/"
+      },
+      {
+        "uuid": "b070b5dd-0478-4abb-82ad-e0ffc86ad445",
+        "period": "second_quarter",
+        "posted": "2025-07-22T09:17:31-04:00",
+        "income": null,
+        "expenses": "2270000.00",
+        "original": "https://lda.gov/filings/public/filing/b070b5dd-0478-4abb-82ad-e0ffc86ad445/print/"
+      },
+      {
+        "uuid": "4f7d7782-a3db-4d6c-bfc0-a924bff964ce",
+        "period": "third_quarter",
+        "posted": "2025-10-21T00:59:59-04:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/4f7d7782-a3db-4d6c-bfc0-a924bff964ce/print/"
+      },
+      {
+        "uuid": "c69f0af7-9c24-47ff-b443-d9dc8de2fd4f",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T21:25:05-05:00",
+        "income": null,
+        "expenses": "1290000.00",
+        "original": "https://lda.gov/filings/public/filing/c69f0af7-9c24-47ff-b443-d9dc8de2fd4f/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -6997,6 +9874,106 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 135942,
+    "client": "SEMPRA",
+    "registrant_id": 30507,
+    "registrant": "SEMPRA",
+    "income_known": "0",
+    "expenses_known": "3400000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "fca12901-4825-489c-9aa5-63631dd461e5",
+        "period": "first_quarter",
+        "posted": "2025-05-06T12:07:37-04:00",
+        "income": null,
+        "expenses": "670000.00",
+        "original": "https://lda.gov/filings/public/filing/fca12901-4825-489c-9aa5-63631dd461e5/print/"
+      },
+      {
+        "uuid": "e80f154b-9d4c-4908-9715-fdfc3d52c472",
+        "period": "second_quarter",
+        "posted": "2025-07-18T10:51:26-04:00",
+        "income": null,
+        "expenses": "1040000.00",
+        "original": "https://lda.gov/filings/public/filing/e80f154b-9d4c-4908-9715-fdfc3d52c472/print/"
+      },
+      {
+        "uuid": "25c08236-4fb4-44ed-9b2f-37fef8944994",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:55:05-04:00",
+        "income": null,
+        "expenses": "700000.00",
+        "original": "https://lda.gov/filings/public/filing/25c08236-4fb4-44ed-9b2f-37fef8944994/print/"
+      },
+      {
+        "uuid": "56213951-ea2b-4f67-9e29-23679092a7b7",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T14:48:07-05:00",
+        "income": null,
+        "expenses": "990000.00",
+        "original": "https://lda.gov/filings/public/filing/56213951-ea2b-4f67-9e29-23679092a7b7/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 103618,
+    "client": "AMERICAN OPTOMETRIC ASSOCIATION",
+    "registrant_id": 2981,
+    "registrant": "AMERICAN OPTOMETRIC ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "3040000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "fe747c21-23bd-44f8-92cb-00daa4c0678b",
+        "period": "first_quarter",
+        "posted": "2025-04-22T15:32:15-04:00",
+        "income": null,
+        "expenses": "520000.00",
+        "original": "https://lda.gov/filings/public/filing/fe747c21-23bd-44f8-92cb-00daa4c0678b/print/"
+      },
+      {
+        "uuid": "05622151-bac2-4757-b2f7-8a3ff915b61e",
+        "period": "second_quarter",
+        "posted": "2025-07-21T16:42:18-04:00",
+        "income": null,
+        "expenses": "510000.00",
+        "original": "https://lda.gov/filings/public/filing/05622151-bac2-4757-b2f7-8a3ff915b61e/print/"
+      },
+      {
+        "uuid": "888cc00a-5641-4d39-8953-6aea61110144",
+        "period": "third_quarter",
+        "posted": "2025-10-20T14:04:32-04:00",
+        "income": null,
+        "expenses": "750000.00",
+        "original": "https://lda.gov/filings/public/filing/888cc00a-5641-4d39-8953-6aea61110144/print/"
+      },
+      {
+        "uuid": "4446fa6b-a9bd-479d-9cc4-81ddb40addf0",
+        "period": "fourth_quarter",
+        "posted": "2026-01-16T12:28:45-05:00",
+        "income": null,
+        "expenses": "1260000.00",
+        "original": "https://lda.gov/filings/public/filing/4446fa6b-a9bd-479d-9cc4-81ddb40addf0/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 156121,
     "client": "LYONDELL CHEMICAL COMPANY",
     "registrant_id": 49203,
@@ -7197,6 +10174,56 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 133644,
+    "client": "MORGAN STANLEY & CO LLC",
+    "registrant_id": 25842,
+    "registrant": "MORGAN STANLEY & CO. LLC",
+    "income_known": "0",
+    "expenses_known": "4450000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "b7c59fe8-79d7-46e7-8be9-53c063da6aad",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:12:16-04:00",
+        "income": null,
+        "expenses": "720000.00",
+        "original": "https://lda.gov/filings/public/filing/b7c59fe8-79d7-46e7-8be9-53c063da6aad/print/"
+      },
+      {
+        "uuid": "eba4a16f-6335-4584-baea-f0c3bd9ece7e",
+        "period": "second_quarter",
+        "posted": "2025-07-18T17:05:39-04:00",
+        "income": null,
+        "expenses": "890000.00",
+        "original": "https://lda.gov/filings/public/filing/eba4a16f-6335-4584-baea-f0c3bd9ece7e/print/"
+      },
+      {
+        "uuid": "3094b629-170c-4de5-a2a1-c5bd51f03a81",
+        "period": "third_quarter",
+        "posted": "2025-10-20T16:47:34-04:00",
+        "income": null,
+        "expenses": "620000.00",
+        "original": "https://lda.gov/filings/public/filing/3094b629-170c-4de5-a2a1-c5bd51f03a81/print/"
+      },
+      {
+        "uuid": "bd93ca56-4501-416c-a944-d9c5ac7fa286",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:02:50-05:00",
+        "income": null,
+        "expenses": "2220000.00",
+        "original": "https://lda.gov/filings/public/filing/bd93ca56-4501-416c-a944-d9c5ac7fa286/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 132779,
     "client": "MICROSOFT CORPORATION",
     "registrant_id": 25204,
@@ -7342,6 +10369,56 @@
         "income": null,
         "expenses": "916510.00",
         "original": "https://lda.gov/filings/public/filing/d0f345f1-923d-425d-966c-23731bf39cca/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 118723,
+    "client": "EASTMAN CHEMICAL COMPANY",
+    "registrant_id": 13005,
+    "registrant": "EASTMAN CHEMICAL COMPANY",
+    "income_known": "0",
+    "expenses_known": "3316000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "3cd91e2f-2e58-48e6-b046-12bfd5702c3f",
+        "period": "first_quarter",
+        "posted": "2025-04-17T15:37:45-04:00",
+        "income": null,
+        "expenses": "870000.00",
+        "original": "https://lda.gov/filings/public/filing/3cd91e2f-2e58-48e6-b046-12bfd5702c3f/print/"
+      },
+      {
+        "uuid": "1eb7df47-bc88-4c29-aaf3-b4511399ddc4",
+        "period": "second_quarter",
+        "posted": "2026-09-28T15:10:49-04:00",
+        "income": null,
+        "expenses": "1096000.00",
+        "original": "https://lda.gov/filings/public/filing/1eb7df47-bc88-4c29-aaf3-b4511399ddc4/print/"
+      },
+      {
+        "uuid": "c1bf8c2a-12e2-46ed-a283-b2546bc681fb",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:34:51-04:00",
+        "income": null,
+        "expenses": "670000.00",
+        "original": "https://lda.gov/filings/public/filing/c1bf8c2a-12e2-46ed-a283-b2546bc681fb/print/"
+      },
+      {
+        "uuid": "c702d02c-def6-4217-9d61-1047e79cdec1",
+        "period": "fourth_quarter",
+        "posted": "2026-07-27T16:45:10-04:00",
+        "income": null,
+        "expenses": "680000.00",
+        "original": "https://lda.gov/filings/public/filing/c702d02c-def6-4217-9d61-1047e79cdec1/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -7897,6 +10974,106 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 153203,
+    "client": "CISCO SYSTEMS INC",
+    "registrant_id": 44300,
+    "registrant": "CISCO SYSTEMS, INC",
+    "income_known": "0",
+    "expenses_known": "3780000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "90895b47-fdc2-45d5-9017-32d9dbba502e",
+        "period": "first_quarter",
+        "posted": "2025-04-21T18:58:52-04:00",
+        "income": null,
+        "expenses": "840000.00",
+        "original": "https://lda.gov/filings/public/filing/90895b47-fdc2-45d5-9017-32d9dbba502e/print/"
+      },
+      {
+        "uuid": "f401963d-6eff-43ec-aacf-ebc854e33c98",
+        "period": "second_quarter",
+        "posted": "2025-07-21T18:27:37-04:00",
+        "income": null,
+        "expenses": "700000.00",
+        "original": "https://lda.gov/filings/public/filing/f401963d-6eff-43ec-aacf-ebc854e33c98/print/"
+      },
+      {
+        "uuid": "afaca26c-efa1-4554-a5ec-1103245b19d9",
+        "period": "third_quarter",
+        "posted": "2025-10-20T19:58:58-04:00",
+        "income": null,
+        "expenses": "950000.00",
+        "original": "https://lda.gov/filings/public/filing/afaca26c-efa1-4554-a5ec-1103245b19d9/print/"
+      },
+      {
+        "uuid": "ffcd5b49-659a-41ef-8c6f-12dafe5b7450",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T21:55:31-05:00",
+        "income": null,
+        "expenses": "1290000.00",
+        "original": "https://lda.gov/filings/public/filing/ffcd5b49-659a-41ef-8c6f-12dafe5b7450/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 126362,
+    "client": "INTEL CORPORATION",
+    "registrant_id": 19536,
+    "registrant": "INTEL CORPORATION",
+    "income_known": "0",
+    "expenses_known": "3480000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "0b8cc0bb-6986-412d-9479-092bb140052e",
+        "period": "first_quarter",
+        "posted": "2025-04-21T15:55:32-04:00",
+        "income": null,
+        "expenses": "980000.00",
+        "original": "https://lda.gov/filings/public/filing/0b8cc0bb-6986-412d-9479-092bb140052e/print/"
+      },
+      {
+        "uuid": "787b8ebc-8a6d-47e0-96d7-cf25aab6d180",
+        "period": "second_quarter",
+        "posted": "2025-07-18T16:35:07-04:00",
+        "income": null,
+        "expenses": "1040000.00",
+        "original": "https://lda.gov/filings/public/filing/787b8ebc-8a6d-47e0-96d7-cf25aab6d180/print/"
+      },
+      {
+        "uuid": "6eedafca-5330-4599-bf95-05e628984f6a",
+        "period": "third_quarter",
+        "posted": "2025-10-20T16:14:05-04:00",
+        "income": null,
+        "expenses": "970000.00",
+        "original": "https://lda.gov/filings/public/filing/6eedafca-5330-4599-bf95-05e628984f6a/print/"
+      },
+      {
+        "uuid": "639306f6-fbee-45b2-90f7-3f3fcc857856",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:08:46-05:00",
+        "income": null,
+        "expenses": "490000.00",
+        "original": "https://lda.gov/filings/public/filing/639306f6-fbee-45b2-90f7-3f3fcc857856/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 121529,
     "client": "GENERAL DYNAMICS CORP",
     "registrant_id": 15986,
@@ -7942,6 +11119,56 @@
         "income": null,
         "expenses": "3753899.00",
         "original": "https://lda.gov/filings/public/filing/710b638e-0644-46fa-8ef7-ffab81445873/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 100400,
+    "client": "AIRBUS AMERICAS INC",
+    "registrant_id": 330,
+    "registrant": "AIRBUS AMERICAS, INC",
+    "income_known": "0",
+    "expenses_known": "3400000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "a5fb227b-af09-4f96-a897-698596ff75d3",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:25:40-04:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/a5fb227b-af09-4f96-a897-698596ff75d3/print/"
+      },
+      {
+        "uuid": "782f40b7-940d-499d-9d16-98bd82427b9f",
+        "period": "second_quarter",
+        "posted": "2025-07-22T10:03:02-04:00",
+        "income": null,
+        "expenses": "1020000.00",
+        "original": "https://lda.gov/filings/public/filing/782f40b7-940d-499d-9d16-98bd82427b9f/print/"
+      },
+      {
+        "uuid": "29555804-70bb-4c36-9c6d-d45158390914",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:59:33-04:00",
+        "income": null,
+        "expenses": "790000.00",
+        "original": "https://lda.gov/filings/public/filing/29555804-70bb-4c36-9c6d-d45158390914/print/"
+      },
+      {
+        "uuid": "c9b01a6e-f22f-412c-869a-546a9ad4e3f1",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:25:27-05:00",
+        "income": null,
+        "expenses": "800000.00",
+        "original": "https://lda.gov/filings/public/filing/c9b01a6e-f22f-412c-869a-546a9ad4e3f1/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -8347,6 +11574,106 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 143013,
+    "client": "LEIDOS INC",
+    "registrant_id": 34694,
+    "registrant": "LEIDOS, INC.",
+    "income_known": "0",
+    "expenses_known": "4880000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "6294ead4-d5d5-4ef6-80f5-362238c844c0",
+        "period": "first_quarter",
+        "posted": "2025-04-18T09:17:44-04:00",
+        "income": null,
+        "expenses": "990000.00",
+        "original": "https://lda.gov/filings/public/filing/6294ead4-d5d5-4ef6-80f5-362238c844c0/print/"
+      },
+      {
+        "uuid": "daf45b64-843d-402b-bb74-ef6b7cf12dec",
+        "period": "second_quarter",
+        "posted": "2025-07-18T17:38:30-04:00",
+        "income": null,
+        "expenses": "1110000.00",
+        "original": "https://lda.gov/filings/public/filing/daf45b64-843d-402b-bb74-ef6b7cf12dec/print/"
+      },
+      {
+        "uuid": "58302832-21aa-4769-8c30-d7bdfcd748c6",
+        "period": "third_quarter",
+        "posted": "2025-10-17T19:44:44-04:00",
+        "income": null,
+        "expenses": "1280000.00",
+        "original": "https://lda.gov/filings/public/filing/58302832-21aa-4769-8c30-d7bdfcd748c6/print/"
+      },
+      {
+        "uuid": "3898948e-e80a-45fb-a224-05e2ac2541c9",
+        "period": "fourth_quarter",
+        "posted": "2026-01-19T15:54:53-05:00",
+        "income": null,
+        "expenses": "1500000.00",
+        "original": "https://lda.gov/filings/public/filing/3898948e-e80a-45fb-a224-05e2ac2541c9/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 51237,
+    "client": "TOBACCO-FREE KIDS ACTION FUND",
+    "registrant_id": 401106380,
+    "registrant": "TOBACCO-FREE KIDS ACTION FUND",
+    "income_known": "0",
+    "expenses_known": "3620000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "c7ecc070-03d7-4779-987e-2fb5d115e142",
+        "period": "first_quarter",
+        "posted": "2025-04-21T16:24:16-04:00",
+        "income": null,
+        "expenses": "380000.00",
+        "original": "https://lda.gov/filings/public/filing/c7ecc070-03d7-4779-987e-2fb5d115e142/print/"
+      },
+      {
+        "uuid": "77c759f2-bd36-4c03-822e-19602815bedf",
+        "period": "second_quarter",
+        "posted": "2025-07-21T19:15:13-04:00",
+        "income": null,
+        "expenses": "1780000.00",
+        "original": "https://lda.gov/filings/public/filing/77c759f2-bd36-4c03-822e-19602815bedf/print/"
+      },
+      {
+        "uuid": "dba80e55-4d0d-42c9-9b9b-4d6f155dad10",
+        "period": "third_quarter",
+        "posted": "2025-10-20T15:54:04-04:00",
+        "income": null,
+        "expenses": "480000.00",
+        "original": "https://lda.gov/filings/public/filing/dba80e55-4d0d-42c9-9b9b-4d6f155dad10/print/"
+      },
+      {
+        "uuid": "188d67d4-0165-4912-9890-9a9f69a8aa1b",
+        "period": "fourth_quarter",
+        "posted": "2026-02-11T14:10:04-05:00",
+        "income": null,
+        "expenses": "980000.00",
+        "original": "https://lda.gov/filings/public/filing/188d67d4-0165-4912-9890-9a9f69a8aa1b/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
     "client_id": 191188,
     "client": "ALKERMES, INC.",
     "registrant_id": 400458235,
@@ -8392,6 +11719,56 @@
         "income": null,
         "expenses": "870000.00",
         "original": "https://lda.gov/filings/public/filing/6302e2fe-d9ac-491c-a203-abcc86212d00/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 200358,
+    "client": "ALIBABA GROUP HOLDING LIMITED",
+    "registrant_id": 401103900,
+    "registrant": "ALIBABA GROUP HOLDING LIMITED",
+    "income_known": "0",
+    "expenses_known": "3360000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "fb63d219-2bae-4e45-ab35-84e0d4caa92d",
+        "period": "first_quarter",
+        "posted": "2025-04-21T16:36:14-04:00",
+        "income": null,
+        "expenses": "620000.00",
+        "original": "https://lda.gov/filings/public/filing/fb63d219-2bae-4e45-ab35-84e0d4caa92d/print/"
+      },
+      {
+        "uuid": "d1049395-1952-4aad-b547-1f3d43f68202",
+        "period": "second_quarter",
+        "posted": "2025-10-20T18:09:45-04:00",
+        "income": null,
+        "expenses": "820000.00",
+        "original": "https://lda.gov/filings/public/filing/d1049395-1952-4aad-b547-1f3d43f68202/print/"
+      },
+      {
+        "uuid": "49982e0c-43f8-4595-9789-3f0e1fae34e1",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:10:52-04:00",
+        "income": null,
+        "expenses": "1050000.00",
+        "original": "https://lda.gov/filings/public/filing/49982e0c-43f8-4595-9789-3f0e1fae34e1/print/"
+      },
+      {
+        "uuid": "4c129318-5900-4a20-b8bd-45f578bbdf04",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T20:56:05-05:00",
+        "income": null,
+        "expenses": "870000.00",
+        "original": "https://lda.gov/filings/public/filing/4c129318-5900-4a20-b8bd-45f578bbdf04/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -8547,6 +11924,138 @@
     "major_reported_lower_bound": true
   },
   {
+    "client_id": 143852,
+    "client": "SIEMENS CORPORATION",
+    "registrant_id": 35263,
+    "registrant": "SIEMENS CORPORATION",
+    "income_known": "0",
+    "expenses_known": "3760000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "ad53e4be-5767-491d-8119-260a727f1577",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:45:55-04:00",
+        "income": null,
+        "expenses": "880000.00",
+        "original": "https://lda.gov/filings/public/filing/ad53e4be-5767-491d-8119-260a727f1577/print/"
+      },
+      {
+        "uuid": "1fef8609-6104-4a05-a77f-b4f0cd8b3e4e",
+        "period": "second_quarter",
+        "posted": "2025-07-21T17:06:01-04:00",
+        "income": null,
+        "expenses": "870000.00",
+        "original": "https://lda.gov/filings/public/filing/1fef8609-6104-4a05-a77f-b4f0cd8b3e4e/print/"
+      },
+      {
+        "uuid": "596edec6-5dd4-476a-9f91-80ff6c294e8b",
+        "period": "third_quarter",
+        "posted": "2025-10-20T17:50:54-04:00",
+        "income": null,
+        "expenses": "1040000.00",
+        "original": "https://lda.gov/filings/public/filing/596edec6-5dd4-476a-9f91-80ff6c294e8b/print/"
+      },
+      {
+        "uuid": "1287af4a-92c4-4fec-92e0-72c43ff5b0cb",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T11:40:15-05:00",
+        "income": null,
+        "expenses": "970000.00",
+        "original": "https://lda.gov/filings/public/filing/1287af4a-92c4-4fec-92e0-72c43ff5b0cb/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 178667,
+    "client": "CENCORA, INC.",
+    "registrant_id": 293756,
+    "registrant": "CENCORA, INC.",
+    "income_known": "0",
+    "expenses_known": "3800000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "c5f1f6f9-30a9-4162-b3b4-f21269b6d576",
+        "period": "first_quarter",
+        "posted": "2025-04-21T17:19:08-04:00",
+        "income": null,
+        "expenses": "450000.00",
+        "original": "https://lda.gov/filings/public/filing/c5f1f6f9-30a9-4162-b3b4-f21269b6d576/print/"
+      },
+      {
+        "uuid": "4e579df0-21ef-4ddc-a772-0c581266b654",
+        "period": "second_quarter",
+        "posted": "2025-07-21T17:13:18-04:00",
+        "income": null,
+        "expenses": "760000.00",
+        "original": "https://lda.gov/filings/public/filing/4e579df0-21ef-4ddc-a772-0c581266b654/print/"
+      },
+      {
+        "uuid": "9abd8d0a-4959-4deb-8a8c-92a5fa0d4915",
+        "period": "third_quarter",
+        "posted": "2025-10-20T18:30:30-04:00",
+        "income": null,
+        "expenses": "680000.00",
+        "original": "https://lda.gov/filings/public/filing/9abd8d0a-4959-4deb-8a8c-92a5fa0d4915/print/"
+      },
+      {
+        "uuid": "429d2b31-9d92-4b90-979c-97d282389a2a",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T17:26:26-05:00",
+        "income": null,
+        "expenses": "1910000.00",
+        "original": "https://lda.gov/filings/public/filing/429d2b31-9d92-4b90-979c-97d282389a2a/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 68910,
+    "client": "ARM LIMITED",
+    "registrant_id": 86196,
+    "registrant": "FGS GLOBAL (US) LLC (FKA FGH HOLDINGS LLC)",
+    "income_known": "210000.00",
+    "expenses_known": "0",
+    "null_income_quarters": [],
+    "null_expenses_quarters": [
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "filings": [
+      {
+        "uuid": "27749f5c-61fa-4396-9338-97f5563c74e0",
+        "period": "third_quarter",
+        "posted": "2025-10-16T08:39:43-04:00",
+        "income": "100000.00",
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/27749f5c-61fa-4396-9338-97f5563c74e0/print/"
+      },
+      {
+        "uuid": "0ea84d9d-3c79-4ea3-af9d-536a797640e6",
+        "period": "fourth_quarter",
+        "posted": "2026-01-22T07:33:41-05:00",
+        "income": "110000.00",
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/0ea84d9d-3c79-4ea3-af9d-536a797640e6/print/"
+      }
+    ],
+    "major_reported_lower_bound": false
+  },
+  {
     "client_id": 121527,
     "client": "GENERAL ELECTRIC COMPANY (INCLUDING SUBSIDIARIES)",
     "registrant_id": 15997,
@@ -8592,6 +12101,158 @@
         "income": null,
         "expenses": "720000.00",
         "original": "https://lda.gov/filings/public/filing/2fc2b362-20fe-41bf-a909-96b80dd11202/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 134537,
+    "client": "NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION (NRECA)",
+    "registrant_id": 28515,
+    "registrant": "NATIONAL RURAL ELECTRIC COOPERATIVE ASSOCIATION (NRECA)",
+    "income_known": "0",
+    "expenses_known": "3660144.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "1d825c65-a27c-4569-945c-d94173089b3f",
+        "period": "first_quarter",
+        "posted": "2025-05-06T15:07:52-04:00",
+        "income": null,
+        "expenses": "881710.00",
+        "original": "https://lda.gov/filings/public/filing/1d825c65-a27c-4569-945c-d94173089b3f/print/"
+      },
+      {
+        "uuid": "5a3a7322-cd4b-40a3-ab43-849c4a9171bd",
+        "period": "second_quarter",
+        "posted": "2025-07-17T10:12:19-04:00",
+        "income": null,
+        "expenses": "1168434.00",
+        "original": "https://lda.gov/filings/public/filing/5a3a7322-cd4b-40a3-ab43-849c4a9171bd/print/"
+      },
+      {
+        "uuid": "963956e8-2a6f-4d72-a945-1791929d639f",
+        "period": "third_quarter",
+        "posted": "2025-10-20T09:14:39-04:00",
+        "income": null,
+        "expenses": "840000.00",
+        "original": "https://lda.gov/filings/public/filing/963956e8-2a6f-4d72-a945-1791929d639f/print/"
+      },
+      {
+        "uuid": "9cde7d69-024d-4a3d-af4a-4ebcc96e16fd",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T09:11:59-05:00",
+        "income": null,
+        "expenses": "770000.00",
+        "original": "https://lda.gov/filings/public/filing/9cde7d69-024d-4a3d-af4a-4ebcc96e16fd/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 64409,
+    "client": "PRVO PLINARSKO DRUTVO D.O.O.",
+    "registrant_id": 70175,
+    "registrant": "MERCURY PUBLIC AFFAIRS, LLC",
+    "income_known": "250000.00",
+    "expenses_known": "0",
+    "null_income_quarters": [
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "filings": [
+      {
+        "uuid": "efb6d908-57b0-4643-ab66-4e4f96e05869",
+        "period": "first_quarter",
+        "posted": "2025-05-06T15:38:15-04:00",
+        "income": "90000.00",
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/efb6d908-57b0-4643-ab66-4e4f96e05869/print/"
+      },
+      {
+        "uuid": "a11e2cd7-bedf-422d-98a4-6e2a31b3d4d0",
+        "period": "second_quarter",
+        "posted": "2025-07-23T10:56:43-04:00",
+        "income": "120000.00",
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/a11e2cd7-bedf-422d-98a4-6e2a31b3d4d0/print/"
+      },
+      {
+        "uuid": "cd00a623-4961-4dd6-a4e3-8021073beae8",
+        "period": "third_quarter",
+        "posted": "2025-10-16T17:32:14-04:00",
+        "income": "40000.00",
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/cd00a623-4961-4dd6-a4e3-8021073beae8/print/"
+      },
+      {
+        "uuid": "0b010dee-76e4-45f1-b1c5-754340027ad6",
+        "period": "fourth_quarter",
+        "posted": "2026-01-14T15:00:40-05:00",
+        "income": null,
+        "expenses": null,
+        "original": "https://lda.gov/filings/public/filing/0b010dee-76e4-45f1-b1c5-754340027ad6/print/"
+      }
+    ],
+    "major_reported_lower_bound": false
+  },
+  {
+    "client_id": 160887,
+    "client": "BLOOD CANCER UNITED (FKA THE LEUKEMIA & LYMPHOMA SOCIETY)",
+    "registrant_id": 60218,
+    "registrant": "BLOOD CANCER UNITED (FKA THE LEUKEMIA & LYMPHOMA SOCIETY)",
+    "income_known": "0",
+    "expenses_known": "1940000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "b506f1b5-f28b-4fec-8bcb-277ac923fb16",
+        "period": "first_quarter",
+        "posted": "2025-04-22T02:10:40-04:00",
+        "income": null,
+        "expenses": "130000.00",
+        "original": "https://lda.gov/filings/public/filing/b506f1b5-f28b-4fec-8bcb-277ac923fb16/print/"
+      },
+      {
+        "uuid": "1d3fa273-5ee2-453c-9a74-8a1314c8922e",
+        "period": "second_quarter",
+        "posted": "2025-07-21T23:06:24-04:00",
+        "income": null,
+        "expenses": "1060000.00",
+        "original": "https://lda.gov/filings/public/filing/1d3fa273-5ee2-453c-9a74-8a1314c8922e/print/"
+      },
+      {
+        "uuid": "21e54a68-85c9-496b-b356-41bf7d9082c9",
+        "period": "third_quarter",
+        "posted": "2025-10-23T17:13:26-04:00",
+        "income": null,
+        "expenses": "140000.00",
+        "original": "https://lda.gov/filings/public/filing/21e54a68-85c9-496b-b356-41bf7d9082c9/print/"
+      },
+      {
+        "uuid": "0e40632b-e870-468e-a937-9c88dfe29356",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T16:30:12-05:00",
+        "income": null,
+        "expenses": "610000.00",
+        "original": "https://lda.gov/filings/public/filing/0e40632b-e870-468e-a937-9c88dfe29356/print/"
       }
     ],
     "major_reported_lower_bound": true
@@ -9042,6 +12703,56 @@
         "income": null,
         "expenses": "1400000.00",
         "original": "https://lda.gov/filings/public/filing/8dc25b05-34fb-4fcc-90d5-73fbc4472e2b/print/"
+      }
+    ],
+    "major_reported_lower_bound": true
+  },
+  {
+    "client_id": 102607,
+    "client": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION",
+    "registrant_id": 1331,
+    "registrant": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION",
+    "income_known": "0",
+    "expenses_known": "2770000.00",
+    "null_income_quarters": [
+      "first_quarter",
+      "second_quarter",
+      "third_quarter",
+      "fourth_quarter"
+    ],
+    "null_expenses_quarters": [],
+    "filings": [
+      {
+        "uuid": "41f9785c-e3b8-4acb-9d57-fbb53c9058a1",
+        "period": "first_quarter",
+        "posted": "2025-04-17T15:29:20-04:00",
+        "income": null,
+        "expenses": "710000.00",
+        "original": "https://lda.gov/filings/public/filing/41f9785c-e3b8-4acb-9d57-fbb53c9058a1/print/"
+      },
+      {
+        "uuid": "86e05642-b671-47d2-b73a-aa72ac85b2be",
+        "period": "second_quarter",
+        "posted": "2025-07-16T14:25:49-04:00",
+        "income": null,
+        "expenses": "510000.00",
+        "original": "https://lda.gov/filings/public/filing/86e05642-b671-47d2-b73a-aa72ac85b2be/print/"
+      },
+      {
+        "uuid": "05985ebd-dcd3-4388-aaf8-6be451fb9f84",
+        "period": "third_quarter",
+        "posted": "2025-10-16T11:29:06-04:00",
+        "income": null,
+        "expenses": "1100000.00",
+        "original": "https://lda.gov/filings/public/filing/05985ebd-dcd3-4388-aaf8-6be451fb9f84/print/"
+      },
+      {
+        "uuid": "b5ff482f-47d3-477b-a534-f5b6162181ef",
+        "period": "fourth_quarter",
+        "posted": "2026-01-20T10:24:48-05:00",
+        "income": null,
+        "expenses": "450000.00",
+        "original": "https://lda.gov/filings/public/filing/b5ff482f-47d3-477b-a534-f5b6162181ef/print/"
       }
     ],
     "major_reported_lower_bound": true
