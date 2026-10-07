@@ -1,0 +1,16 @@
+{
+  "new_paid_calls": 8,
+  "heldout_items": 16,
+  "distinct_request_payloads": 8,
+  "cache_hits": 8,
+  "correct_items": 16,
+  "baseline_correct": 16,
+  "new_token_rate_estimate_usd": 0.000177,
+  "previous_pilot_estimate_usd": 0.002858,
+  "total_this_authorization_estimate_usd": 0.003035,
+  "full_reservation_upper_bound_usd": 0.15,
+  "authorization_usd": 15,
+  "no_invoice_available": true,
+  "comparison": "No accuracy gain over deterministic checked-attribute extraction. This held-out task does not repair previous legal-ranking failures.",
+  "limits": "Ten real fragments collapse to two repeated states plus some legacy variation; six synthetic controls. Small purposive test, not population accuracy estimate. Expected labels mechanically generated and manually inspected against forms. No independent external annotator."
+}
