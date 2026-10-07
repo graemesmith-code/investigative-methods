@@ -1,0 +1,10 @@
+{
+  "method": "Original local PDF bytes rendered with PyMuPDF; listed pages visually inspected. OCR is only a search aid. No inference from API entity arrays substitutes for these observations.",
+  "reviews": [
+    {"uuid":"385f8307-470a-4d16-ab4c-e13ca730376a","physical_page":3,"original_section14":"No","printed_client":"Novartis","date_printed":"06/19/2003","note":"Handwritten amendment. No foreign entity listed in visible table. Current exact legal employer/client remains unresolved."},
+    {"uuid":"15b1e8df-cd1c-4820-902a-65da4da5fc7e","physical_page":2,"original_section14":"No","printed_client":"Hyun Kyu SHIN","original_section13":"Yes; Hyundai Motor Company, Seoul, Korea","note":"API foreign_entities includes HYUNDAI MOTOR CO, but original shows Hyundai in the affiliated-organizations section, not section 14. Registrant heading is Hyundai Motor Company Washington Office. Do not treat API label as original foreign-owner disclosure."},
+    {"uuid":"374949ba-da4a-494d-be1f-87ecdbbfeb8a","physical_page":2,"original_section14":"No","printed_client":"Self","printed_registrant":"Hyundai Motor Company","original_section13":"No","note":"Original amendment has empty foreign-entity table; API foreign_entities still names Hyundai. Self representation and corporate identity differ from prior original; no inference of concealment."},
+    {"uuid":"cace12cd-5613-4b96-8c64-1eafd2ed2d75","physical_page":3,"original_section14":"Yes","printed_registrant":"Novo Nordisk Pharmaceuticals, Inc.","foreign_entity":"Novo Nordisk A/S, Novo Alle, 2880 Bagsvaerd, Denmark","contribution":"$0.00","note":"Positive disclosure, even with zero contribution. Ownership column is not fully visible on this split scan page and no percentage is inferred."},
+    {"uuid":"bab27d00-3cd4-452f-9634-1464e5fe76ec","physical_page":3,"original_section14":"Yes","printed_registrant":"Novo Nordisk Pharmaceuticals, Inc.","foreign_entity":"Novo Nordisk A/S, Novo Alle, 2880 Bagsvaerd, Denmark","contribution":"$0.00","note":"Positive disclosure on amendment; no percentage inferred from clipped column."}
+  ]
+}

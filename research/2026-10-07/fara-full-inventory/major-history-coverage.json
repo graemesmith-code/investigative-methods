@@ -296,5 +296,92 @@
         "originals_acquired": 95
       }
     ]
+  },
+  {
+    "house_relationship_id": "414980000",
+    "client_names": [
+      "Volvo Car Corporation"
+    ],
+    "registrant_names": [
+      "Volvo Car Corporation"
+    ],
+    "senate_identifiers": [
+      "400618877-12"
+    ],
+    "fara_principal_rows": [
+      10487
+    ],
+    "all_temporal_classes_retained": true,
+    "resolved_client_ids": [
+      193550
+    ],
+    "identity_caveat": "ID correspondence uses registrant identifier and normalized client name; underlying legal identity remains subject to original review.",
+    "histories": [
+      {
+        "client_id": 193550,
+        "complete": true,
+        "forms": 66,
+        "server_count": 66,
+        "originals_acquired": 66
+      }
+    ]
+  },
+  {
+    "house_relationship_id": "414830000",
+    "client_names": [
+      "TransCanada Pipelines, Ltd"
+    ],
+    "registrant_names": [
+      "TransCanada Pipelines, Ltd"
+    ],
+    "senate_identifiers": [
+      "400684035-12"
+    ],
+    "fara_principal_rows": [
+      11260
+    ],
+    "all_temporal_classes_retained": true,
+    "resolved_client_ids": [
+      194108
+    ],
+    "identity_caveat": "ID correspondence uses registrant identifier and normalized client name; underlying legal identity remains subject to original review.",
+    "histories": [
+      {
+        "client_id": 194108,
+        "complete": true,
+        "forms": 67,
+        "server_count": 67,
+        "originals_acquired": 67
+      }
+    ]
+  },
+  {
+    "house_relationship_id": "418640000",
+    "client_names": [
+      "BMW of North America, LLC"
+    ],
+    "registrant_names": [
+      "BMW of North America, LLC"
+    ],
+    "senate_identifiers": [
+      "400822436-12"
+    ],
+    "fara_principal_rows": [
+      12284
+    ],
+    "all_temporal_classes_retained": true,
+    "resolved_client_ids": [
+      195503
+    ],
+    "identity_caveat": "ID correspondence uses registrant identifier and normalized client name; underlying legal identity remains subject to original review.",
+    "histories": [
+      {
+        "client_id": 195503,
+        "complete": true,
+        "forms": 63,
+        "server_count": 63,
+        "originals_acquired": 63
+      }
+    ]
   }
 ]
