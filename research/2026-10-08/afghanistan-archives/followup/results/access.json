@@ -1,0 +1,33 @@
+[
+  {
+    "id": "evaluation-cited",
+    "url": "http://www.international.gc.ca/department-ministere/evaluation/2014/dev-airp-rsia14.aspx?lang=eng",
+    "retrieved_utc": "2026-10-08T09:50:53Z",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "id": "evaluator-case-study",
+    "url": "https://vuawater.com/International-Case-Studies/Case-Studies-International-Afghanistan.html",
+    "retrieved_utc": "2026-10-08T09:51:02Z",
+    "status": 200,
+    "final_url": "https://vuawater.com/International-Case-Studies/Case-Studies-International-Afghanistan.html",
+    "bytes": 37681,
+    "sha256": "2081f82e29a47cc9aaa2ac2e107ba607c4b02a3aaec394afce9a91e9e7e45ef9"
+  },
+  {
+    "url": "https://publications.gc.ca/site/eng/9.502002/publication.html",
+    "retrieved_utc": "2026-10-08T09:51:47Z",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/site/eng/9.502002/publication.html",
+    "bytes": 103252,
+    "sha256": "0f19fa2a604075424ffe126b6f107c68aacf502f6c64b7fc48db2bbda690b7ac"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2012/bcp-pco/CP12-2-14-2012-fra.pdf",
+    "retrieved_utc": "2026-10-08T09:51:49Z",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2012/bcp-pco/CP12-2-14-2012-fra.pdf",
+    "bytes": 2828328,
+    "sha256": "fb4ae62d4b4a8714c2156f6f8798e4d12cd427d237adb4acef19a0982ebe66a2"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "french_pdf_sha256": "fb4ae62d4b4a8714c2156f6f8798e4d12cd427d237adb4acef19a0982ebe66a2",
+  "bytes": 2828328,
+  "pages": 69,
+  "checks": [
+    "PDF signature",
+    "SHA256 matches retrieval log",
+    "contiguous page numbers",
+    "69 source citations"
+  ],
+  "original_checkpoint": "24be212dba3fc2d14f4ed25e8745cf21d6c98348",
+  "paid_api_calls": 0
+}

@@ -4,6 +4,8 @@
 
 ## Read this first
 
+**Bounded follow-up:** [acreage/translation findings and missing records](followup/REPORT.md), [exact 15-PDF composition](corpus-composition.md), and [parked Colvin version queue](followup/request-queue.md). One 69-page French counterpart was added separately (combined PDF holdings: 16 files / 745 pages). The full 2014 evaluation and monitoring definitions remain unacquired; no new story or prior-knowledge chain established.
+
 - [Research map and ranked acquisition queue](research-map.md)
 - [Pilot evidence, competing explanations and novelty checks](evidence-report.md)
 - [Run and continuation instructions](RUNBOOK.md)
