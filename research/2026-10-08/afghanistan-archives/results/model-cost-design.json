@@ -1,0 +1,23 @@
+{
+  "method": "character-based estimate only, 3\u20135 characters per input token; not provider tokenization",
+  "full_corpus_characters": 2234861,
+  "review_packet_pages": 10,
+  "review_packet_characters": 41511,
+  "input_tokens_estimated_range": [
+    8302,
+    13837
+  ],
+  "output_budget_tokens": 3000,
+  "cost_formula_usd": "input_tokens * input_price_per_million / 1000000 + 3000 * output_price_per_million / 1000000",
+  "illustrative_prices_not_verified_or_selected": {
+    "input_usd_per_million": 0.1,
+    "output_usd_per_million": 0.4
+  },
+  "illustrative_packet_cost_usd_range": [
+    0.00203,
+    0.002584
+  ],
+  "paid_calls_authorized": false,
+  "paid_calls_made": 0,
+  "note": "No model credentials read. Platform assistant analysis is separate; no total platform cost claim."
+}

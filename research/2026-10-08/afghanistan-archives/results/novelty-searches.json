@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "tool": "free web search in assistant environment",
+  "queries": [
+    "Canada Afghanistan 2015 evaluation Dahla schools non functioning aid report CBC Globe Mail",
+    "\"2026 OIC 53\" Colvin",
+    "\"Afghanistan\" \"benchmark\" \"2009\" \"Dahla\" revised",
+    "Afghanistan \"additional 30,000 hectares\" Canada",
+    "\"Dahla\" \"total\" \"2012\" \"Globe\"",
+    "\"Canada\" \"Afghanistan\" \"schools\" \"Graeme Smith\""
+  ],
+  "scope": "bounded English searches; not exhaustive",
+  "key_results": [
+    {
+      "url": "https://infotel.ca/newsitem/afghanistan-audit-signatureprojects/cp32314565",
+      "result": "2015 Canadian Press already covered broad outcome and measurement criticisms"
+    },
+    {
+      "url": "https://www.canada.ca/en/news/archive/2009/09/fifth-quarterly-report-afghanistan-released.html",
+      "result": "public announcement acknowledged benchmark revisions"
+    },
+    {
+      "url": "https://natoassociation.ca/was-it-worth-it-canadas-intervention-in-afghanistan-and-why-we-left-too-soon/",
+      "result": "additional-acreage language circulated; not independent corroboration"
+    },
+    {
+      "url": "https://tvo.me/tvo-original-ghosts-of-afghanistan-reveals-the-true-face-of-the-auforever-warau/",
+      "result": "Graeme-work baseline lead; film itself not viewed"
+    }
+  ]
+}

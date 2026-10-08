@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "15 PDF signatures and SHA256 hashes",
+    "676 page identities and URL anchors",
+    "contiguous pages per document",
+    "26,102,498 source bytes",
+    "25 low-text pages matched to supplemental OCR",
+    "10 reading-packet pages exact source matches"
+  ],
+  "network_calls": 0
+}

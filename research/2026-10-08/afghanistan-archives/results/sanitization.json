@@ -1,0 +1,14 @@
+[
+  {
+    "path": "sources/lac-database.html",
+    "raw_sha256": "ade193f8542698bab65fa03a4d7b886f25c0ca66dd6e5d1c1b4232358348898d",
+    "sanitized_sha256": "59ac30931cfc89bd9aeade8db1ee0f5af17068d656017dd665cef3b94fce2629",
+    "change": "Removed anonymous session anti-forgery tokens; normalized newlines"
+  },
+  {
+    "path": "sources/lac-package-details.html",
+    "raw_sha256": "480dada63538300f7ed666c0272c921dcfb342e52a0daacb107842103a7a1a6b",
+    "sanitized_sha256": "7b63a712c209d22950f2bd0d4c9c4a65d561cb9cf80fde636981b5f2f8e66d61",
+    "change": "Removed anonymous session anti-forgery tokens; normalized newlines"
+  }
+]

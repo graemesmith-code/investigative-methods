@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=5877607&app=fonandcol",
+    "status": 403,
+    "evidence": "this worker source-access.json",
+    "retry": false
+  },
+  {
+    "url": "https://sas-das-presv.bac-lac.gc.ca/c1ef7b2a-c433-4e6c-81bd-ca0ec126319d/A-2023-07487_01.pdf",
+    "status": 403,
+    "evidence": "independent reviewer message supplied by parent; not retried in this worker",
+    "body_obtained": false,
+    "retry": false
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "lac-2026",
+    "url": "https://www.canada.ca/en/library-archives/corporate/transparency/reports-publications/atip/action-plan/june-2026-update.html",
+    "retrieved_utc": "2026-10-08T09:41:04Z",
+    "status": 200,
+    "final_url": "https://www.canada.ca/en/library-archives/corporate/transparency/reports-publications/atip/action-plan/june-2026-update.html",
+    "bytes": 40240,
+    "sha256": "a94b16ed75317c16343ca93efe764985b1d2c6fc25914cc9123793b23a0012af"
+  },
+  {
+    "id": "oic-2026-53",
+    "url": "https://www.oic-ci.gc.ca/en/decisions/final-reports/global-affairs-canada-re-2026-oic-53",
+    "retrieved_utc": "2026-10-08T09:41:06Z",
+    "status": 200,
+    "final_url": "https://www.oic-ci.gc.ca/en/decisions/final-reports/global-affairs-canada-re-2026-oic-53",
+    "bytes": 87342,
+    "sha256": "2cefc834bdcd84d8b238174e648ec340077ce5d021ded63da2fe5070cea2d291"
+  },
+  {
+    "id": "cjoc-catalogue",
+    "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/home/record?IdNumber=5877607&app=fonandcol",
+    "retrieved_utc": "2026-10-08T09:41:08Z",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "mpcc-2012",
+    "url": "https://www.mpcc-cppm.gc.ca/public-interest-investigations-and-hearings-enquetes-et-audiences-dinteret-public/afghanistan-hearing-audience/pih-aip-afghan-2008-042-fnl-rpt-eng.html",
+    "retrieved_utc": "2026-10-08T09:41:09Z",
+    "status": 200,
+    "final_url": "https://www.mpcc-cppm.gc.ca/public-interest-investigations-and-hearings-enquetes-et-audiences-dinteret-public/afghanistan-hearing-audience/pih-aip-afghan-2008-042-fnl-rpt-eng.html",
+    "bytes": 2776953,
+    "sha256": "afee8eba65d158092c1ad7cb2f04d007a67b81fabc8a94667247953daf928131"
+  },
+  {
+    "id": "lac-terms",
+    "url": "https://www.canada.ca/en/library-archives/terms-conditions.html",
+    "retrieved_utc": "2026-10-08T09:41:11Z",
+    "status": 200,
+    "final_url": "https://www.canada.ca/en/library-archives/terms-conditions.html",
+    "bytes": 79901,
+    "sha256": "552aa9f27f1de66f105ea993829bdc9128d9488d9ed85ed4d0500f5aedaa7743"
+  },
+  {
+    "id": "publications-terms",
+    "url": "https://publications.gc.ca/site/eng/corporate/termsConditions.html",
+    "retrieved_utc": "2026-10-08T09:41:12Z",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "lac-package-details",
+    "url": "https://telechargerdemandesaicompletees-downloadcompletedatirequests.bac-lac.gc.ca/eng/search/details/A-2023-07487",
+    "retrieved_utc": "2026-10-08T09:41:14Z",
+    "status": 200,
+    "final_url": "https://telechargerdemandesaicompletees-downloadcompletedatirequests.bac-lac.gc.ca/eng/search/details/A-2023-07487",
+    "bytes": 50986,
+    "sha256": "480dada63538300f7ed666c0272c921dcfb342e52a0daacb107842103a7a1a6b"
+  }
+]

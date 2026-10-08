@@ -1,0 +1,181 @@
+[
+  {
+    "url": "https://publications.gc.ca/site/eng/9.505603/publication.html",
+    "retrieved_utc": "2026-10-08T09:39:27Z",
+    "path": "sources/quarterly-index.html",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/site/eng/9.505603/publication.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 102192,
+    "sha256": "4d6cb0d8ac018943cbdfb3c5cd680161dff57521658a684b8f6bbf6ffd774196"
+  },
+  {
+    "url": "https://publications.gc.ca/site/eng/9.809780/publication.html",
+    "retrieved_utc": "2026-10-08T09:39:29Z",
+    "path": "sources/evaluation-index.html",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/site/eng/9.809780/publication.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 90235,
+    "sha256": "03d3b2d332e9ac1da8a99eafecf648f6a3c8d2ab41499aa0cfe9f6b8b2f7f3fb"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2008/pco-bcp/CP12-2-2-2008E.pdf",
+    "retrieved_utc": "2026-10-08T09:39:31Z",
+    "path": "sources/CP12-2-2-2008E.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/site/archivee-archived.html?url=https%3A%2F%2Fpublications.gc.ca%2Fcollections%2Fcollection_2008%2Fpco-bcp%2FCP12-2-2-2008E.pdf",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 19249,
+    "sha256": "e9b65b4b7b5a2c6a4363c9e1e7ab31a7ae4dd47f659a4bccb086f9c424851c14"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2008/pco-bcp/CP12-2-2-2008E.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 653032,
+    "sha256": "0159f7e5c6261a156aade019908c1694d80d2f4ecd05b6ca9e647fae97f0401b",
+    "retrieved_utc": "2026-10-08T09:40:43Z",
+    "note": "Followed explicit Continue to publication link with archive notice as Referer; initial HTTP 200 was notice HTML, not PDF."
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2008/pco-bcp/CP22-87-2008E.pdf",
+    "retrieved_utc": "2026-10-08T09:40:45Z",
+    "path": "sources/CP22-87-2008E.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2008/pco-bcp/CP22-87-2008E.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1810979,
+    "sha256": "3df9cb3118d2de26346fbd80dc2d1c2e5e7e1c4d7a1a43f5336d0f246dd159a0"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-3-2008E.pdf",
+    "retrieved_utc": "2026-10-08T09:40:47Z",
+    "path": "sources/CP12-2-3-2008E.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-3-2008E.pdf",
+    "content_type": "application/pdf",
+    "bytes": 662936,
+    "sha256": "8c16113686bb0c77e23cefb1e507bf70989079266436893a7f2075a16199591a"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-4-2009E.pdf",
+    "retrieved_utc": "2026-10-08T09:40:49Z",
+    "path": "sources/CP12-2-4-2009E.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-4-2009E.pdf",
+    "content_type": "application/pdf",
+    "bytes": 3422579,
+    "sha256": "150cd0f790bd5acff39be2e2c6086ad476ae4c566dd789849cd4ef18f8fa35cf"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-5-2009E.pdf",
+    "retrieved_utc": "2026-10-08T09:40:51Z",
+    "path": "sources/CP12-2-5-2009E.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-5-2009E.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1444065,
+    "sha256": "fff0f6892313fc7551756f9f79d61079969a3a94416560db8e18017e8868856e"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-6-2009E.pdf",
+    "retrieved_utc": "2026-10-08T09:40:53Z",
+    "path": "sources/CP12-2-6-2009E.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2009/bcp-pco/CP12-2-6-2009E.pdf",
+    "content_type": "application/pdf",
+    "bytes": 952024,
+    "sha256": "9af94ded9ff854f68622188e4e1c8ec0db8812441b52dd0bdfe5db96649d46f7"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2010/bcp-pco/CP12-2-7-2009-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:40:54Z",
+    "path": "sources/CP12-2-7-2009-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2010/bcp-pco/CP12-2-7-2009-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1663674,
+    "sha256": "31ed7bac0e08fecf9362676301cdf883706088c1234506db940e6543de4bee1a"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2010/bcp-pco/CP12-2-8-2010-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:40:56Z",
+    "path": "sources/CP12-2-8-2010-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2010/bcp-pco/CP12-2-8-2010-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 866689,
+    "sha256": "32caf2269d78a3e1abef61031bdaddff2317ee299c0ebf3d1780090d24dc8276"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2010/bcp-pco/CP12-2-9-2010-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:40:58Z",
+    "path": "sources/CP12-2-9-2010-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2010/bcp-pco/CP12-2-9-2010-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 910908,
+    "sha256": "c6cc01ead2ab5a9faa11dd458da3a31e247010015f4e6da4162bd78e8130ebad"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2011/bcp-pco/CP12-2-10-2010-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:41:00Z",
+    "path": "sources/CP12-2-10-2010-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2011/bcp-pco/CP12-2-10-2010-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 590496,
+    "sha256": "2230443cc24a131505894ca64e8e29f2b9433079419b12b633235d5d0a5e08cb"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2011/bcp-pco/CP12-2-11-2010-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:41:01Z",
+    "path": "sources/CP12-2-11-2010-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2011/bcp-pco/CP12-2-11-2010-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 2805527,
+    "sha256": "7b1c202c92fccbfddcab65d0a76ffa2ad22609d4cbe779fb20c001743c69c020"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2011/bcp-pco/CP12-2-12-2011-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:41:03Z",
+    "path": "sources/CP12-2-12-2011-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2011/bcp-pco/CP12-2-12-2011-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1860204,
+    "sha256": "577383cd83bd99309c24a23a9ceabef16dad3c990cd685c409c164bad0f653e8"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2012/bcp-pco/CP12-2-13-2011-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:41:05Z",
+    "path": "sources/CP12-2-13-2011-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2012/bcp-pco/CP12-2-13-2011-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1948068,
+    "sha256": "aa6ae23b00af9338186cf04d8d8027889803c4d6c44e131599a6cb4223a2ded1"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2012/bcp-pco/CP12-2-14-2012-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:41:06Z",
+    "path": "sources/CP12-2-14-2012-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2012/bcp-pco/CP12-2-14-2012-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 3458175,
+    "sha256": "2207e8a7fd64a15e7a174480d310b40f67df4b1f49d5a03d57ea658f7aa66488"
+  },
+  {
+    "url": "https://publications.gc.ca/collections/collection_2016/amc-gac/FR5-95-2015-eng.pdf",
+    "retrieved_utc": "2026-10-08T09:41:08Z",
+    "path": "sources/FR5-95-2015-eng.pdf",
+    "status": 200,
+    "final_url": "https://publications.gc.ca/collections/collection_2016/amc-gac/FR5-95-2015-eng.pdf",
+    "content_type": "application/pdf",
+    "bytes": 3053142,
+    "sha256": "cfad7ff60d64de3115aa10774c4c8af823372026f0f3e4e1c1f61e1cacc18d4f"
+  }
+]
