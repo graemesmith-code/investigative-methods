@@ -47,3 +47,9 @@ SEC HTML table numbers in the inputs are document-order indices from the pilot's
 For the next reporting pass, prioritize La Arena and Shahuindo gold plus Antamina and Cerro Lindo concentrate coverage. Search public technical reports and environmental-file appendices for existing original-return exhibits. If those cannot close the specific gate, retain the lead as unresolved and move on. Do not turn an unresolved case into an instruction to consult a regulator.
 
 For trade, retain the working SUNAT query as a separate acquisition capability. Do not build production-to-export or mirror-import contradiction rules until company/shipment and metal-content identity is established. Canada/UK/China routes tested here did not supply the necessary counterpart.
+
+## Follow-up implementation additions
+
+Two new standard-library helpers are available: `fetch_nexa_registry.py` for the observed free Nexa endpoints, and `replay_language_controls.py` for reviewed comparison controls. `fetch_sources.py --manifest` now accepts the follow-up manifest and JSON-encoded POST bodies. See [FREE_API.md](FREE_API.md) for exact commands and live-test evidence.
+
+The follow-up adds original regulator-hosted Spanish annual-report controls for Nexa, 45 registry document entries, and source/version fingerprints. It does not close the ministry product/assay gates for the four leads. Those cases are parked. The next implementable scope is clean SEC–SMV production comparisons plus acquisition/versioning; a separate original ESTAMIN-return connector has not been established.

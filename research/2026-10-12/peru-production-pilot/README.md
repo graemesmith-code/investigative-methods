@@ -32,3 +32,19 @@ python -m unittest discover -s code/peru_production_pilot -p 'test_*.py' -v
 ```
 
 The comparison runner uses only the Python standard library. The acquisition and extraction helpers have separate dependencies described in the implementation notes. No contradiction or illegality is asserted by this dataset.
+
+## Additional source and language follow-up
+
+Start with [FOLLOWUP_NEWSROOM.md](FOLLOWUP_NEWSROOM.md). [FOLLOWUP_TECHNICAL.md](FOLLOWUP_TECHNICAL.md) documents the selected 25-record follow-up, gold quarterly diagnostics, 43 overlapping control checks and parked cases. No confirmed contradiction was found. Nexa SEC–SMV quantities agree exactly in two sampled years, including gold. The original 100-record counts above are unchanged.
+
+- [FREE_API.md](FREE_API.md): tested free Nexa registry and implementation client.
+- [MEDIA_NOVELTY.md](MEDIA_NOVELTY.md): prior reporting and implications for novelty.
+- [followup-language-controls.json](followup-language-controls.json): reviewed bilingual/government-hosted values and fingerprints.
+- [followup-case-ledger.json](followup-case-ledger.json): every selected annual lead's disposition.
+- [followup-source-manifest.json](followup-source-manifest.json): tested downloads and replay information.
+
+```bash
+python code/peru_production_pilot/replay_language_controls.py
+```
+
+This replays reviewed arithmetic, not unattended extraction or claim-identity certification.

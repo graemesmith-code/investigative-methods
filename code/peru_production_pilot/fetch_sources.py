@@ -12,8 +12,9 @@ def main():
     ap.add_argument('--id',action='append',required=True,help='Source ID from source-manifest.json; repeat to select more')
     ap.add_argument('--output',type=Path,required=True,help='Local source cache, outside committed report files')
     ap.add_argument('--user-agent',required=True,help='Identify your project and a real contact; respect source access rules')
+    ap.add_argument('--manifest',type=Path,default=DATA/'source-manifest.json',help='Reviewed source manifest; accepts followup-source-manifest.json')
     a=ap.parse_args();a.output.mkdir(parents=True,exist_ok=True)
-    manifest=json.loads((DATA/'source-manifest.json').read_text());lookup={s['id']:s for s in manifest}
+    manifest=json.loads(a.manifest.read_text());lookup={s['id']:s for s in manifest}
     unknown=set(a.id)-set(lookup)
     if unknown:ap.error('Unknown source IDs: '+', '.join(sorted(unknown)))
     bad=False
@@ -24,7 +25,11 @@ def main():
         try:
             fields=s.get('request_fields')
             if s.get('method')=='POST' and not fields:raise ValueError('POST source lacks saved request fields')
-            req=urllib.request.Request(s['url'],data=urllib.parse.urlencode(fields).encode() if fields else None,headers={'User-Agent':a.user_agent})
+            headers={'User-Agent':a.user_agent}
+            if fields and s.get('request_encoding')=='json':
+                body=json.dumps(fields).encode();headers['Content-Type']='application/json'
+            else:body=urllib.parse.urlencode(fields).encode() if fields else None
+            req=urllib.request.Request(s['url'],data=body,headers=headers)
             with urllib.request.urlopen(req,timeout=45) as response:payload=response.read();result['status']=response.status
             sha=hashlib.sha256(payload).hexdigest();match=sha==s.get('sha256')
             dest=a.output/(source_id if match else source_id+'.changed-'+sha[:12])

@@ -52,3 +52,13 @@ Novelty assessment: the company's lower quantity is public in Spanish as well as
 No case was eliminated by finding a previous investigation of the exact comparison. All four still require semantic/evidence work before becoming publishable findings. Prior scandals are useful context but provide no evidence that a current numerical difference is false reporting. The meaningful possible novelty is a documented inconsistency in a precisely defined quantity, with original submission and amendment provenance.
 
 This check used both available web search engines, English and Spanish mine/company names, production-discrepancy and under-reporting terminology, selected exact quantities, and site searches for OjoPúblico, Convoca, Reuters and mining outlets. It included historical names Tahoe/Rio Alto for the gold operations and Milpo for Nexa where relevant to background. It was not an exhaustive paid media-archive search. Some searches returned unrelated entities with similar names; those were excluded. No inference that absence of a search result proves absence of coverage is made.
+
+## Follow-up: quantities already cross the language boundary
+
+Further primary-document work and media checks materially weaken the language-concealment premise for all four leads:
+
+- [Gestión, 17 January 2024](https://gestion.pe/economia/empresas/pan-american-planea-invertir-hasta-us-31-millones-en-mina-huaron-el-2024-mineria-pasco-plata-empresas-canada-noticia/) reports Pan American's preliminary 2023 output in Spanish: 140,100 oz Shahuindo and 97,100 oz La Arena. This is reporting of the company quantities, not a ministry reconciliation.
+- [Global Business Reports, Peru production 2023](https://www.gbreports.com/contents/peruproduction2023/) has search-indexed English content repeating ministry-based Antamina zinc 527,979 t and Nexa 84,710 t. Direct retrieval failed in this follow-up; indexed contents are not independently validated company submissions.
+- Antamina's own English and Spanish reports agree for the eight Cu/Zn controls reviewed. Nexa's bilingual disclosures agree for 25 metal-year controls, and exact SEC–SMV agreement was established for five metals in two years.
+
+These findings do not show that the ministry differences have been reported as a mismatch. They show that a numerical series is not confined to one language or audience. A future story would need to establish incompatible definitions and submission provenance before arguing false disclosure. See [FOLLOWUP_TECHNICAL.md](FOLLOWUP_TECHNICAL.md).
