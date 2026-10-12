@@ -1,0 +1,72 @@
+{
+  "purpose": "New archive integrity and recorded specimen arithmetic checks; no original source downloads reproduced",
+  "passed": true,
+  "saved_blocks": 132,
+  "profiles": [
+    [
+      "1",
+      "Kinross Paracatu in Brazil"
+    ],
+    [
+      "2",
+      "Southern Copper in Peru"
+    ],
+    [
+      "3",
+      "Endeavour Ity complex in Côte d’Ivoire"
+    ],
+    [
+      "4",
+      "Endeavour Sabodala Massawa in Senegal"
+    ],
+    [
+      "5",
+      "B2Gold Fekola in Mali"
+    ],
+    [
+      "6",
+      "Rio Tinto QMM in Madagascar"
+    ],
+    [
+      "7",
+      "Barrick and AngloGold Ashanti Kibali in DRC"
+    ],
+    [
+      "8",
+      "IAMGOLD Essakane in Burkina Faso"
+    ],
+    [
+      "9",
+      "Barrick Lumwana in Zambia"
+    ],
+    [
+      "10",
+      "Galiano Asanko in Ghana"
+    ]
+  ],
+  "source_urls": 37,
+  "reported_access_counts": {
+    "requests": 88,
+    "http_200": 85,
+    "failed": 3,
+    "independently_recomputed_from_original_ledger": false
+  },
+  "peru": {
+    "tonnes": "13385.96443107000",
+    "host_minus_converted_tonnes": "0.37764503000",
+    "overlap": true
+  },
+  "ity_usd_bounds": [
+    "43345763.22933164396579030725",
+    "45941910.46632646209628684617"
+  ],
+  "senegal_usd_bounds": [
+    "20561047.60532150776053215078",
+    "21792529.13784999664271805546"
+  ],
+  "fekola_usd_bounds": [
+    "51211306.3271040",
+    "55070792.9547930"
+  ],
+  "fekola_verdict": "REVIEW REQUIRED: definitions unresolved"
+}

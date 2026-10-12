@@ -1,0 +1,375 @@
+{
+  "purpose": "New archival HEAD availability checks; these do not validate contents, reproduce original access counts, or establish contradictions",
+  "results": [
+    {
+      "id": "URL-001",
+      "url": "https://data.sec.gov/submissions/CIK0000831259.json",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:43.886980+00:00",
+      "method": "HEAD",
+      "status": 403,
+      "final_url": "https://data.sec.gov/submissions/CIK0000831259.json",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "URL-002",
+      "url": "https://data.sec.gov/submissions/CIK0000863064.json",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:43.887734+00:00",
+      "method": "HEAD",
+      "status": 403,
+      "final_url": "https://data.sec.gov/submissions/CIK0000863064.json",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "URL-003",
+      "url": "https://www.sec.gov/Archives/edgar/full-index/2024/QTR1/master.gz",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:43.888146+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/full-index/2024/QTR1/master.gz",
+      "content_type": "binary/octet-stream"
+    },
+    {
+      "id": "URL-004",
+      "url": "https://www150.statcan.gc.ca/n1/pub/71-607-x/2022008/STC_DF_ESTMA-eng.csv",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:43.888613+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www150.statcan.gc.ca/n1/pub/71-607-x/2022008/STC_DF_ESTMA-eng.csv",
+      "content_type": "text/csv"
+    },
+    {
+      "id": "URL-005",
+      "url": "https://extractives.companieshouse.gov.uk/api/year/2024/json",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:44.040175+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://extractives.company-information.service.gov.uk:443/api/year/2024/json",
+      "content_type": "application/json"
+    },
+    {
+      "id": "URL-006",
+      "url": "https://extractives.companieshouse.gov.uk/api/company/00719885/json",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:44.057245+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://extractives.company-information.service.gov.uk:443/api/company/00719885/json",
+      "content_type": "application/json"
+    },
+    {
+      "id": "URL-007",
+      "url": "https://extractives.companieshouse.gov.uk/api/company/00719885/year/2023/json",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:44.104425+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://extractives.company-information.service.gov.uk:443/api/company/00719885/year/2023/json",
+      "content_type": "application/json"
+    },
+    {
+      "id": "URL-008",
+      "url": "https://extractives.companieshouse.gov.uk/developer/endpoints",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:44.216512+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://extractives.company-information.service.gov.uk:443/developer/endpoints",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "URL-009",
+      "url": "https://www.sec.gov/Archives/edgar/data/701818/000110465926035270/tm269365d1_ex99-1.htm",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:45.280338+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/701818/000110465926035270/tm269365d1_ex99-1.htm",
+      "content_type": "text/html"
+    },
+    {
+      "id": "URL-010",
+      "url": "https://dadosabertos.anm.gov.br/SIGBM/Barragens.csv",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:45.350578+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://dadosabertos.anm.gov.br/SIGBM/Barragens.csv",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "id": "URL-011",
+      "url": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025002017/scco-20241231x10k.htm",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:45.527625+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025002017/scco-20241231x10k.htm",
+      "content_type": "text/html"
+    },
+    {
+      "id": "URL-012",
+      "url": "https://cdn.www.gob.pe/uploads/document/file/7632703/6471629-bem-diciembre-2024-excel-de-anexos.xlsx?v=1739544984",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:45.678533+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://cdn.www.gob.pe/uploads/document/file/7632703/6471629-bem-diciembre-2024-excel-de-anexos.xlsx?v=1739544984",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "URL-013",
+      "url": "https://mineria.minem.gob.pe/obligaciones_mineras/estamin/",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:45.688324+00:00",
+      "method": "HEAD",
+      "status": 503,
+      "final_url": "https://mineria.minem.gob.pe/obligaciones_mineras/estamin/",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "URL-014",
+      "url": "https://edv-14806-s3.s3.eu-west-2.amazonaws.com/files/4717/4886/2253/Endeavour_Mining_ESTMA_2024.pdf",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:45.756195+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://edv-14806-s3.s3.eu-west-2.amazonaws.com/files/4717/4886/2253/Endeavour_Mining_ESTMA_2024.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-015",
+      "url": "https://eiti.org/document/26393",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:46.178581+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Rapport%20ITIE-CI%202024%20V.19%2008%2026%20FINAL.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-016",
+      "url": "https://eiti.org/document/26394",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:46.268612+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Annexe_Rapport%20ITIE%20CI%202024%20V%2019%2008%2026%20FINAL.xlsx?hash=1791799200",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "URL-017",
+      "url": "https://eiti.org/document/25525",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:47.236757+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/0.%20Rapport%20final%20ITIE-S%C3%A9n%C3%A9gal%202024%20-%20Version%20Finale%20-%20VF221225-1.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-018",
+      "url": "https://eiti.org/document/25614",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:47.548368+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Rapport-final-ITIE-Senegal-2024-Version-Finale-annexes-VF221225.xlsx?hash=1791799200",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "URL-019",
+      "url": "https://s204.q4cdn.com/324791784/files/doc_downloads/estma/2023-ESTMA-B2Gold-Report-Amended.pdf",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:47.900212+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://s204.q4cdn.com/324791784/files/doc_downloads/estma/2023-ESTMA-B2Gold-Report-Amended.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-020",
+      "url": "https://eiti.org/document/23795",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:48.020466+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/2024-07/Rapport-ITIE-2023-_-Version-Definitive.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-021",
+      "url": "https://itie.ml/wp-content/uploads/2024/06/Annexes-ITIE-2023-_-Version-Definitive.xlsx",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:48.310159+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://itie.ml/wp-content/uploads/2024/06/Annexes-ITIE-2023-_-Version-Definitive.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "URL-022",
+      "url": "https://data.fca.org.uk/artefacts/NSM/RNS/5196185.html",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:48.510093+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://data.fca.org.uk/artefacts/NSM/RNS/5196185.html",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "id": "URL-023",
+      "url": "https://eiti.org/document/25571",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:48.842592+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/2025_12_31_RAPPORT-ITIE-2023.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-024",
+      "url": "https://eitimadagascar.mg/wp-content/uploads/2025/12/Annexes-Rapport-2023.pdf",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:48.975939+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eitimadagascar.mg/wp-content/uploads/2025/12/Annexes-Rapport-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-025",
+      "url": "https://www.sec.gov/Archives/edgar/data/756894/000119312524068583/d643214dex991.htm",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.401901+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/756894/000119312524068583/d643214dex991.htm",
+      "content_type": "text/html"
+    },
+    {
+      "id": "URL-026",
+      "url": "https://eiti.org/document/25572",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.453849+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Rapport%20final%20ITIE%20RDC%20202%20%28Annexes%29%20%E2%80%93%2031-12-2025.xlsx?hash=1791799200",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "URL-027",
+      "url": "https://eiti.org/document/25573",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.559782+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Rapport%20final%20ITIE%20RDC%202023%20-%2031-12-2025%20%28Signe%CC%81%29.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-028",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973832/000162828024017820/au-20231231.htm",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.817457+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/1973832/000162828024017820/au-20231231.htm",
+      "content_type": "text/html"
+    },
+    {
+      "id": "URL-029",
+      "url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299324006457/exhibit99-1.htm",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.834684+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299324006457/exhibit99-1.htm",
+      "content_type": "text/html"
+    },
+    {
+      "id": "URL-030",
+      "url": "https://www.sec.gov/Archives/edgar/data/1203464/000162828025006844/q42024managementdiscussion.htm",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.884761+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/1203464/000162828025006844/q42024managementdiscussion.htm",
+      "content_type": "text/html"
+    },
+    {
+      "id": "URL-031",
+      "url": "https://eiti.org/document/25565",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:49.937735+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Annexes-Rapport-ITIE-2024-OK.xlsx?hash=1791799200",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": "URL-032",
+      "url": "https://eiti.org/document/25566",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:50.001282+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Rapport-ITIE-BF-2024_0.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-033",
+      "url": "https://www.barrick.com/files/doc_downloads/estma/Barrick_2023_ESTMA_Report.pdf",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:50.156145+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://s25.q4cdn.com/322814910/files/doc_downloads/estma/Barrick_2023_ESTMA_Report.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-034",
+      "url": "https://eiti.org/document/25291",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:50.532298+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Zambia%20EITI%202023%20%20and%202024%20report.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-035",
+      "url": "https://s203.q4cdn.com/835664992/files/doc_downloads/estma/galiano-gold-inc-2023-estma-report-final.pdf",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:50.575990+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://s203.q4cdn.com/835664992/files/doc_downloads/estma/galiano-gold-inc-2023-estma-report-final.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-036",
+      "url": "https://eiti.org/sites/default/files/2023%20gheiti%20mining%20sector%20reconciliation%20report.pdf",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:50.999490+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/2023%20gheiti%20mining%20sector%20reconciliation%20report.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "URL-037",
+      "url": "https://eiti.org/document/25353",
+      "provenance": "Direct link in recovered saved page; original download not bundled",
+      "checked_at": "2026-10-12T11:23:51.002234+00:00",
+      "method": "HEAD",
+      "status": 200,
+      "final_url": "https://eiti.org/sites/default/files/Mauritania%202024%20report.pdf?hash=1791799200",
+      "content_type": "application/pdf"
+    }
+  ]
+}

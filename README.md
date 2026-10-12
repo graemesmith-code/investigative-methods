@@ -16,6 +16,8 @@ Some trials use **Jev**, a model service that ranks or assesses text, and **Exa*
 
 ## Try something small, and keep what you learn
 
+The [mining disclosure study](research/2026-10-12/mining-cross-government-disclosures/README.md) preserves ten cross-government company-statement pairs, the full comparison methodology and an unresolved Fekola dividend lead. Access tests and consistent controls are kept separate from proven contradictions; none has yet been established to publication standard.
+
 Start with [the reporting recipe](docs/method.md) and [blank run record](templates/run.md), or browse [all ten experiments](experiments/README.md). Each account explains the question, source, steps, results, costs and next useful move.
 
 **What we still need to learn:** whether these methods save reporter time or find better questions than simple rules. Early trials have missing evidence, and historical examples benefit from hindsight. Read the [costs and limits](docs/costs-and-limitations.md), [correction history](research/2026-10-01/ati-live/correction-identity.md) and [unfinished work](docs/next-steps.md) alongside the results.

@@ -4,6 +4,8 @@ Read the [experiment accounts](../experiments/README.md) first if you want the r
 
 ## Detailed accounts
 
+The [12 October mining disclosure archive](../research/2026-10-12/mining-cross-government-disclosures/README.md) contains the complete recovered study, ten detailed profiles, source locators, comparison and translation rules, provenance, archival checks and an explicit manifest of missing original execution artifacts.
+
 | Readable experiment | Supporting detail |
 |---|---|
 | [Contracts and sanctions](../experiments/01-ofac-baseline.md) | [Full account](experiments/01-ofac-baseline.md), [original evidence report](../evidence/ofac/original-report.md), [reproduction](reproduction.md#ofac-baseline) |
