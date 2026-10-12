@@ -1,0 +1,151 @@
+{
+  "audit_date": "2026-10-12",
+  "retained": 4,
+  "parked": 6,
+  "proven_contradictions": 0,
+  "cases": [
+    {
+      "id": "RAB-MIN-01",
+      "country": "Brazil",
+      "project": "Kinross / Paracatu",
+      "decision": "parked",
+      "approved_scope": null,
+      "reason": "Current registry and historical SEC report do not establish the same construction stage. The last-raise-date bridge fails a cross-check against SEC-reported Eustaquio Stage 15 completion.",
+      "source_ids": [
+        "kinross-paracatu-2026.html",
+        "brazil-dams.csv",
+        "audit-sigbm-manual.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-02",
+      "country": "Peru",
+      "project": "Southern Copper / Toquepala + Cuajone",
+      "decision": "retained",
+      "approved_scope": "Calendar 2023; fine molybdenum output; full scope of both Peruvian mines",
+      "reason": "Retained historical 2023 from the 2024 annual workbook. Its 2024 column is explicitly preliminary and excluded.",
+      "source_ids": [
+        "southern-sec-2024.html",
+        "peru-dec2024.xlsx",
+        "audit-peru-annual-2024.xlsx",
+        "audit-southern-memoria2024.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-03",
+      "country": "Cote d'Ivoire",
+      "project": "Endeavour / Ity",
+      "decision": "retained",
+      "approved_scope": "Calendar 2024; SMI+SMD+SMF; both monetary mining royalty components; 100% project payments",
+      "reason": "AIF explicitly maps all three licence-holding companies. Company-initial and final royalty cells agree; comparison uses the disclosed FX range.",
+      "source_ids": [
+        "endeavour-estma-2024.pdf",
+        "ivory-annexes.bin",
+        "ivory-2024.pdf",
+        "audit-endeavour-aif-2024.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-04",
+      "country": "Senegal",
+      "project": "Endeavour / Sabodala-Massawa",
+      "decision": "parked",
+      "approved_scope": null,
+      "reason": "ESTMA project label Sabodala Mining Company SARL is not decisively bridged to the host declaration by separate legal entity Sabodala Gold Operations. 2025 government-side royalties were already removed in reconciliation.",
+      "source_ids": [
+        "endeavour-estma-2024.pdf",
+        "senegal-extra.bin",
+        "senegal-2024.pdf",
+        "audit-endeavour-aif-2024.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-05",
+      "country": "Mali",
+      "project": "B2Gold / Fekola",
+      "decision": "parked",
+      "approved_scope": null,
+      "reason": "Gross/net dividends and ordinary-shareholder versus qualifying distributions remain unresolved. Royalty basket mapping to ad-valorem plus ISCP is not explicit enough.",
+      "source_ids": [
+        "b2gold-estma-2023.pdf",
+        "mali-annexes-2023.xlsx",
+        "mali-2023.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-06",
+      "country": "Madagascar",
+      "project": "Rio Tinto / QMM",
+      "decision": "parked",
+      "approved_scope": null,
+      "reason": "UK annual-average FX basis is explicit but exact rate, underlying currencies, and royalty/recipient basket are not aligned with EITI.",
+      "source_ids": [
+        "uk-rio-2023.json",
+        "rio-fca-payments-2023.html",
+        "madagascar-2023.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-07",
+      "country": "DRC",
+      "project": "Barrick / Kibali",
+      "decision": "retained",
+      "approved_scope": "2023; Barrick group economic interest of 45%, not immediate registered shareholding",
+      "reason": "2023 ownership form and affirmative company-supply marker; host explicitly attributes Barrick 45% to company declaration; Western AIF applies 45% to 2023 operations.",
+      "source_ids": [
+        "barrick-sec-aif-2023.html",
+        "congo-annexes.bin",
+        "congo-2023.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-08",
+      "country": "Burkina Faso",
+      "project": "IAMGOLD / Essakane",
+      "decision": "retained",
+      "approved_scope": "Group/state economic interests 90%/10% across admissible 2023-2024 date interpretations",
+      "reason": "Original embedded form has conflicting date labels. Both interpretations precede the documented 20 June 2025 ownership change; no date label is silently corrected.",
+      "source_ids": [
+        "iamgold-sec-aif-2023.html",
+        "iamgold-sec-2024.html",
+        "audit-iamgold-sec-2025.html",
+        "burkina-annexes.bin",
+        "burkina-2024.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-09",
+      "country": "Zambia",
+      "project": "Barrick / Lumwana",
+      "decision": "parked",
+      "approved_scope": null,
+      "reason": "Reconciled royalty differs from original company figure; no unambiguous final company adoption or matching net-cash basis. Broad Western taxes are not automatically the host income-tax field.",
+      "source_ids": [
+        "barrick-estma-2023.pdf",
+        "zambia-2023-2024.pdf"
+      ],
+      "proven_contradiction": false
+    },
+    {
+      "id": "RAB-MIN-10",
+      "country": "Ghana",
+      "project": "Galiano / Asanko",
+      "decision": "parked",
+      "approved_scope": null,
+      "reason": "Host GRA/MIIF mineral-royalty basket is not proved to include the separate Western Register General recipient. Currency notes do not cover the whole Western total.",
+      "source_ids": [
+        "galiano-estma-2023.pdf",
+        "ghana-2023.pdf"
+      ],
+      "proven_contradiction": false
+    }
+  ]
+}

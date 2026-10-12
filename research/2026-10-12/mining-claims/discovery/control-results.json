@@ -1,0 +1,28 @@
+[
+  {
+    "id": "PERU-MOLYBDENUM-2024-CONTROL",
+    "unresolved_gates": [],
+    "status": "COMPATIBLE_WITH_PRECISION",
+    "meaning": "A logical comparison of supplied assertions, not a determination of truth, intent or liability."
+  },
+  {
+    "id": "ITY-ROYALTY-FX-ARITHMETIC-CONTROL",
+    "unresolved_gates": [],
+    "status": "COMPATIBLE_WITH_PRECISION",
+    "meaning": "A logical comparison of supplied assertions, not a determination of truth, intent or liability."
+  },
+  {
+    "id": "MALI-DIVIDEND-DEFINITION-GATE",
+    "unresolved_gates": [
+      "same_fact_definition",
+      "same_scope"
+    ],
+    "status": "REVIEW_REQUIRED"
+  },
+  {
+    "id": "SYNTHETIC-NO-REAL-COMPANY-EXAMPLE",
+    "unresolved_gates": [],
+    "status": "INCOMPATIBLE_CLAIMS",
+    "meaning": "A logical comparison of supplied assertions, not a determination of truth, intent or liability."
+  }
+]

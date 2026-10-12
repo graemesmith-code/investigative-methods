@@ -14,9 +14,11 @@ Start with any question below. Each account can be read without running code. â€
 | [08. Could old Enron filings support useful questions?](08-enron.md) | 30 Sep | Original filings checked; arithmetic and simple text search completed. No AI comparison or discovery claim. |
 | [09. What did bank surveys show before 2008?](09-bank-lending.md) | 30 Sep | Three survey editions extracted and checked; warnings were already public. |
 | [10. Is Canada's ATI index a useful place to start?](10-ati-source-check.md) | 30 Sep | Earlier source probe: twenty summaries inspected, three selected examples, no releases obtained at that stage. |
+| [11. Can a mining company give two governments incompatible facts?](11-mining-disclosure-pairs.md) | 12 Oct | Four of ten pairings retained for narrow comparisons; all four specimens consistent. Research archive and executable starter saved. |
 
 Jev is the model service used to rank or assess text in some trials. Exa is the search service used to retrieve possible earlier coverage. Their roles and costs are distinct. The requested OpenAI comparison is **blocked before its first API call**, with USD0 spent and no result to compare.
 
 For a new trial, use [the method](../docs/method.md) and [run record](../templates/run.md). For source ideas, use [the Rabbit reference](../catalogs/README.md). For exact historical settings and saved files, use [the annexes](../annexes/README.md).
 
 [Home](../README.md)
+

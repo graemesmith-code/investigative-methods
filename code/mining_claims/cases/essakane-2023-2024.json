@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "RAB-MIN-08",
+  "project": "IAMGOLD / Essakane",
+  "status": "retained_narrow_scope",
+  "reviewed_on": "2026-10-12",
+  "required_context": {
+    "entity_scope": "IAMGOLD group and state economic interest in Essakane",
+    "metric": "group/state economic ownership percent",
+    "period": "ambiguous: 31 December 2023 or calendar 2024",
+    "basis": "all admissible dates before 20 June 2025 ownership change",
+    "attribution": "SEC company AIF/MD&A / company-supplied embedded EITI form"
+  },
+  "comparison": {
+    "kind": "ownership_all_dates",
+    "admissible_dates": [
+      "2023-12-31",
+      "2024"
+    ],
+    "parties": [
+      "IAMGOLD",
+      "state"
+    ]
+  },
+  "required_gates": [
+    "company_attribution_reviewed",
+    "entity_bridge_reviewed",
+    "metric_basis_reviewed",
+    "period_reviewed",
+    "original_language_checked",
+    "amendment_status_reviewed",
+    "non_preliminary"
+  ],
+  "source_ids": [
+    "iamgold-sec-aif-2023.html",
+    "iamgold-sec-2024.html",
+    "audit-iamgold-sec-2025.html",
+    "burkina-annexes.bin",
+    "burkina-2024.pdf"
+  ],
+  "evidence_locators": [
+    "Outer workbook Annexe 10 row 9 / sheet11.xml.rels rId10 -> xl/embeddings/Microsoft_Excel_Worksheet3.xlsx",
+    "Embedded sheet 17.Structure de Capital : A6=2024 period, A12=capital at 31/12/2023; C15=IAMGOLD; D15=.9; D13=.1",
+    "SEC 2023 AIF and 2024 MD&A support 90/10; 2025 MD&A printed p.21 dates change to 20 June 2025; labels remain uncorrected"
+  ],
+  "scope_reason": "Original embedded form has conflicting date labels. Both interpretations precede the documented 20 June 2025 ownership change; no date label is silently corrected.",
+  "review_rule": "Approval applies only to the inspected hashes and stated scope. Changed documents or definitions block automatic reuse."
+}

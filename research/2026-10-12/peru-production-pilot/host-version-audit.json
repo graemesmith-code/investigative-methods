@@ -1,0 +1,2395 @@
+[
+  {
+    "record_id": "PERU-southern-Cu-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 70,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "149237.6762152"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 71,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "199659.0889396"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 86,
+        "plant": "PLANTA DE LIXIVIACION SX/EW TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "21586.550248056"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 87,
+        "plant": "PLTA. DE LIXIV.SX.CUAJONE",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "3665.923040339"
+      }
+    ],
+    "bulk_sum": "374149.238443195",
+    "yearbook_value": "374149.238443195",
+    "bulk_minus_yearbook": "0E-9"
+  },
+  {
+    "record_id": "PERU-southern-Cu-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 83,
+        "plant": "ACUMULACION TOQUEPALA 1",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "231660.081564"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 84,
+        "plant": "ACUMULACION CUAJONE",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "156405.060322"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 85,
+        "plant": "ACUMULACION TOQUEPALA 1",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "24146.023635"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 86,
+        "plant": "ACUMULACION CUAJONE",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "2182.844881"
+      }
+    ],
+    "bulk_sum": "414394.010402",
+    "yearbook_value": "414394.01041600015",
+    "bulk_minus_yearbook": "-0.00001400015"
+  },
+  {
+    "record_id": "PERU-southern-Cu-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 70,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "168669.537658"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 71,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "229119.174963"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 84,
+        "plant": "PLANTA DE LIXIVIACION SX/EW TOQUEPALA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "24052.155454"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 85,
+        "plant": "PLTA. DE LIXIV.SX.CUAJONE",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "1957.590904"
+      }
+    ],
+    "bulk_sum": "423798.458979",
+    "yearbook_value": "423798.458978665",
+    "bulk_minus_yearbook": "3.35E-7"
+  },
+  {
+    "record_id": "PERU-southern-Cu-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 72,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "168990.581209"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 73,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "203618.268898"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 85,
+        "plant": "PLANTA DE LIXIVIACION SX/EW TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "22149.880279"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 86,
+        "plant": "PLTA. DE LIXIV.SX.CUAJONE",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "3603.557719"
+      }
+    ],
+    "bulk_sum": "398362.288105",
+    "yearbook_value": "398362.28810335405",
+    "bulk_minus_yearbook": "0.00000164595"
+  },
+  {
+    "record_id": "PERU-southern-Cu-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 70,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "140380.273228"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 71,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "175067.063648"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 84,
+        "plant": "PLANTA DE LIXIVIACION SX/EW TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "23104.299998"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 85,
+        "plant": "PLTA. DE LIXIV.SX.CUAJONE",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "3346.670132"
+      }
+    ],
+    "bulk_sum": "341898.307006",
+    "yearbook_value": "341898.30700411083",
+    "bulk_minus_yearbook": "0.00000188917"
+  },
+  {
+    "record_id": "PERU-southern-Mo-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 104,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "3743.3878704"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 105,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "6311.9519016"
+      }
+    ],
+    "bulk_sum": "10055.3397720",
+    "yearbook_value": "10055.339772000001",
+    "bulk_minus_yearbook": "-1E-12"
+  },
+  {
+    "record_id": "PERU-southern-Mo-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/MOLIBDENO.xlsx",
+        "sheet": "InformacionGeneralAnual 2 ",
+        "row": 8,
+        "plant": "ACUMULACION TOQUEPALA 1",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "7276.981108"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/MOLIBDENO.xlsx",
+        "sheet": "InformacionGeneralAnual 2 ",
+        "row": 9,
+        "plant": "ACUMULACION CUAJONE",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "3285.583731"
+      }
+    ],
+    "bulk_sum": "10562.564839",
+    "yearbook_value": "10562.564838999999",
+    "bulk_minus_yearbook": "1E-12"
+  },
+  {
+    "record_id": "PERU-southern-Mo-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 99,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "4224.764404"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 100,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "10019.122321"
+      }
+    ],
+    "bulk_sum": "14243.886725",
+    "yearbook_value": "14243.8867248",
+    "bulk_minus_yearbook": "2E-7"
+  },
+  {
+    "record_id": "PERU-southern-Mo-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 100,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "4189.924665"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 101,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "10641.652840"
+      }
+    ],
+    "bulk_sum": "14831.577505",
+    "yearbook_value": "14831.577505799996",
+    "bulk_minus_yearbook": "-7.99996E-7"
+  },
+  {
+    "record_id": "PERU-southern-Mo-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 98,
+        "plant": "CONC. DE BOTIFLACA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "3625.235295"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 99,
+        "plant": "CONCENTRADORA TOQUEPALA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "7681.222775"
+      }
+    ],
+    "bulk_sum": "11306.458070",
+    "yearbook_value": "11306.458068999998",
+    "bulk_minus_yearbook": "0.000001000002"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Cu-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 67,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "420989.0927702"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 85,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "45474.3511101"
+      }
+    ],
+    "bulk_sum": "466463.4438803",
+    "yearbook_value": "466463.44388030004",
+    "bulk_minus_yearbook": "-4E-11"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Cu-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 77,
+        "plant": "CERRO VERDE 1,2,3",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "434023.027389"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 78,
+        "plant": "CERRO VERDE 1,2,3",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "39956.825919"
+      }
+    ],
+    "bulk_sum": "473979.853308",
+    "yearbook_value": "473979.853309",
+    "bulk_minus_yearbook": "-0.000001"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Cu-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 67,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "350516.606009"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 83,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "37411.722453"
+      }
+    ],
+    "bulk_sum": "387928.328462",
+    "yearbook_value": "387928.3284625699",
+    "bulk_minus_yearbook": "-5.699E-7"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Cu-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 69,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "374896.708669"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 84,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "43699.289633"
+      }
+    ],
+    "bulk_sum": "418595.998302",
+    "yearbook_value": "418595.99830229994",
+    "bulk_minus_yearbook": "-2.9994E-7"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Cu-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 67,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "414024.494742"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 83,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "45084.742075"
+      }
+    ],
+    "bulk_sum": "459109.236817",
+    "yearbook_value": "459109.23681679997",
+    "bulk_minus_yearbook": "2.0003E-7"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Mo-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 103,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "9974.1883755"
+      }
+    ],
+    "bulk_sum": "9974.1883755",
+    "yearbook_value": "9974.1883755",
+    "bulk_minus_yearbook": "0E-7"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Mo-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/MOLIBDENO.xlsx",
+        "sheet": "InformacionGeneralAnual 2 ",
+        "row": 6,
+        "plant": "CERRO VERDE 1,2,3",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "13007.358959"
+      }
+    ],
+    "bulk_sum": "13007.358959",
+    "yearbook_value": "13007.358959",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Mo-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 98,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "8843.601248"
+      }
+    ],
+    "bulk_sum": "8843.601248",
+    "yearbook_value": "8843.60124565",
+    "bulk_minus_yearbook": "0.00000235"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Mo-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 99,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "9445.609602"
+      }
+    ],
+    "bulk_sum": "9445.609602",
+    "yearbook_value": "9445.609601389999",
+    "bulk_minus_yearbook": "6.10001E-7"
+  },
+  {
+    "record_id": "PERU-cerro_verde-Mo-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 97,
+        "plant": "PLANTA DE BENEFICIO CERRO VERDE",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "10668.505539"
+      }
+    ],
+    "bulk_sum": "10668.505539",
+    "yearbook_value": "10668.505540000002",
+    "bulk_minus_yearbook": "-0.000001000002"
+  },
+  {
+    "record_id": "PERU-antamina-Cu-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 39,
+        "plant": "HUINCUSH",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "435378.425984200015"
+      }
+    ],
+    "bulk_sum": "435378.425984200015",
+    "yearbook_value": "435378.42598420003",
+    "bulk_minus_yearbook": "-1.5E-11"
+  },
+  {
+    "record_id": "PERU-antamina-Cu-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 14,
+        "plant": "ACUMULACION ANTAMINA PRINCIPAL",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "345121.974032"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 15,
+        "plant": "YANACANCHA 3",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "65596.712991"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 16,
+        "plant": "YANACANCHA 1",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "43719.029792"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 17,
+        "plant": "YANACANCHA 2",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "4780.981599"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 18,
+        "plant": "YANACANCHA 4",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "294.772091"
+      }
+    ],
+    "bulk_sum": "459513.470505",
+    "yearbook_value": "459513.4705121",
+    "bulk_minus_yearbook": "-0.0000071"
+  },
+  {
+    "record_id": "PERU-antamina-Cu-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 40,
+        "plant": "HUINCUSH",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "396246.511250"
+      }
+    ],
+    "bulk_sum": "396246.511250",
+    "yearbook_value": "396246.5112497999",
+    "bulk_minus_yearbook": "2.001E-7"
+  },
+  {
+    "record_id": "PERU-antamina-Cu-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 41,
+        "plant": "HUINCUSH",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "460651.683285"
+      }
+    ],
+    "bulk_sum": "460651.683285",
+    "yearbook_value": "460651.6832839",
+    "bulk_minus_yearbook": "0.0000011"
+  },
+  {
+    "record_id": "PERU-antamina-Cu-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 40,
+        "plant": "HUINCUSH",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "467904.596769"
+      }
+    ],
+    "bulk_sum": "467904.596769",
+    "yearbook_value": "467904.59676890005",
+    "bulk_minus_yearbook": "9.995E-8"
+  },
+  {
+    "record_id": "PERU-antamina-Zn-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 743,
+        "plant": "HUINCUSH",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "527979.419252300017"
+      }
+    ],
+    "bulk_sum": "527979.419252300017",
+    "yearbook_value": "527979.4192522999",
+    "bulk_minus_yearbook": "1.17E-10"
+  },
+  {
+    "record_id": "PERU-antamina-Zn-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ZINC.xlsx",
+        "sheet": "InformacionGeneralAnual 1 ",
+        "row": 15,
+        "plant": "ACUMULACION ANTAMINA PRINCIPAL",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "270534.656244"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ZINC.xlsx",
+        "sheet": "InformacionGeneralAnual 1 ",
+        "row": 16,
+        "plant": "YANACANCHA 3",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "52737.367913"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ZINC.xlsx",
+        "sheet": "InformacionGeneralAnual 1 ",
+        "row": 17,
+        "plant": "YANACANCHA 1",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "38486.232713"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ZINC.xlsx",
+        "sheet": "InformacionGeneralAnual 1 ",
+        "row": 18,
+        "plant": "YANACANCHA 2",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "3626.585171"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ZINC.xlsx",
+        "sheet": "InformacionGeneralAnual 1 ",
+        "row": 19,
+        "plant": "YANACANCHA 4",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "367.230331"
+      }
+    ],
+    "bulk_sum": "365752.072372",
+    "yearbook_value": "365752.072363",
+    "bulk_minus_yearbook": "0.000009"
+  },
+  {
+    "record_id": "PERU-antamina-Zn-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 603,
+        "plant": "HUINCUSH",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "491179.515036"
+      }
+    ],
+    "bulk_sum": "491179.515036",
+    "yearbook_value": "491179.51503510005",
+    "bulk_minus_yearbook": "8.9995E-7"
+  },
+  {
+    "record_id": "PERU-antamina-Zn-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 735,
+        "plant": "HUINCUSH",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "532603.123405"
+      }
+    ],
+    "bulk_sum": "532603.123405",
+    "yearbook_value": "532603.1234038",
+    "bulk_minus_yearbook": "0.0000012"
+  },
+  {
+    "record_id": "PERU-antamina-Zn-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 737,
+        "plant": "HUINCUSH",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "499969.109503"
+      }
+    ],
+    "bulk_sum": "499969.109503",
+    "yearbook_value": "499969.10950300004",
+    "bulk_minus_yearbook": "-4E-11"
+  },
+  {
+    "record_id": "PERU-hudbay-Cu-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 53,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "100486.63039981"
+      }
+    ],
+    "bulk_sum": "100486.63039981",
+    "yearbook_value": "100486.63039980999",
+    "bulk_minus_yearbook": "1E-11"
+  },
+  {
+    "record_id": "PERU-hudbay-Cu-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 48,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "113910.271028"
+      }
+    ],
+    "bulk_sum": "113910.271028",
+    "yearbook_value": "113910.271028",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-hudbay-Cu-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 55,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "73150.519349"
+      }
+    ],
+    "bulk_sum": "73150.519349",
+    "yearbook_value": "73150.51934880001",
+    "bulk_minus_yearbook": "1.9999E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Cu-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 56,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "77812.780611"
+      }
+    ],
+    "bulk_sum": "77812.780611",
+    "yearbook_value": "77812.78061182",
+    "bulk_minus_yearbook": "-8.2E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Cu-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 55,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "89395.057313"
+      }
+    ],
+    "bulk_sum": "89395.057313",
+    "yearbook_value": "89395.0573134",
+    "bulk_minus_yearbook": "-4E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Mo-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 100,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1565.63343729"
+      }
+    ],
+    "bulk_sum": "1565.63343729",
+    "yearbook_value": "1565.6334372899998",
+    "bulk_minus_yearbook": "2E-13"
+  },
+  {
+    "record_id": "PERU-hudbay-Mo-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/MOLIBDENO.xlsx",
+        "sheet": "InformacionGeneralAnual 2 ",
+        "row": 25,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "1272.299604"
+      }
+    ],
+    "bulk_sum": "1272.299604",
+    "yearbook_value": "1272.2996042799998",
+    "bulk_minus_yearbook": "-2.799998E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Mo-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 95,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "1203.619478"
+      }
+    ],
+    "bulk_sum": "1203.619478",
+    "yearbook_value": "1203.6194799198001",
+    "bulk_minus_yearbook": "-0.0000019198001"
+  },
+  {
+    "record_id": "PERU-hudbay-Mo-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 96,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1145.878024"
+      }
+    ],
+    "bulk_sum": "1145.878024",
+    "yearbook_value": "1145.8780231699998",
+    "bulk_minus_yearbook": "8.300002E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Mo-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 94,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1379.210424"
+      }
+    ],
+    "bulk_sum": "1379.210424",
+    "yearbook_value": "1379.2104229600002",
+    "bulk_minus_yearbook": "0.0000010399998"
+  },
+  {
+    "record_id": "PERU-hudbay-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 127,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "3552576.417756"
+      }
+    ],
+    "bulk_sum": "3552576.417756",
+    "yearbook_value": "3552576.4177559996",
+    "bulk_minus_yearbook": "4E-10"
+  },
+  {
+    "record_id": "PERU-hudbay-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 218,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "613943.58390"
+      }
+    ],
+    "bulk_sum": "613943.58390",
+    "yearbook_value": "613943.5839000001",
+    "bulk_minus_yearbook": "-1E-10"
+  },
+  {
+    "record_id": "PERU-hudbay-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 124,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "385521.77791"
+      }
+    ],
+    "bulk_sum": "385521.77791",
+    "yearbook_value": "385521.77791",
+    "bulk_minus_yearbook": "0.00000"
+  },
+  {
+    "record_id": "PERU-hudbay-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 123,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1564704.133082"
+      }
+    ],
+    "bulk_sum": "1564704.133082",
+    "yearbook_value": "1564704.1330820003",
+    "bulk_minus_yearbook": "-3E-10"
+  },
+  {
+    "record_id": "PERU-hudbay-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 121,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1811108.264441"
+      }
+    ],
+    "bulk_sum": "1811108.264441",
+    "yearbook_value": "1811108.264441",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-hudbay-Ag-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 604,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "77921.2210731473"
+      }
+    ],
+    "bulk_sum": "77921.2210731473",
+    "yearbook_value": "77921.2210731473",
+    "bulk_minus_yearbook": "0E-10"
+  },
+  {
+    "record_id": "PERU-hudbay-Ag-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 82,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "77962.793905"
+      }
+    ],
+    "bulk_sum": "77962.793905",
+    "yearbook_value": "77962.79390500001",
+    "bulk_minus_yearbook": "-1E-11"
+  },
+  {
+    "record_id": "PERU-hudbay-Ag-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 467,
+        "plant": "CONSTANCIA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "50479.976522"
+      }
+    ],
+    "bulk_sum": "50479.976522",
+    "yearbook_value": "50479.976521006996",
+    "bulk_minus_yearbook": "9.93004E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Ag-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 588,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "61365.569969"
+      }
+    ],
+    "bulk_sum": "61365.569969",
+    "yearbook_value": "61365.56996883041",
+    "bulk_minus_yearbook": "1.6959E-7"
+  },
+  {
+    "record_id": "PERU-hudbay-Ag-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 600,
+        "plant": "CONSTANCIA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "71828.691026"
+      }
+    ],
+    "bulk_sum": "71828.691026",
+    "yearbook_value": "71828.6910265189",
+    "bulk_minus_yearbook": "-5.189E-7"
+  },
+  {
+    "record_id": "PERU-yanacocha-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 554,
+        "plant": "P.LIXIV.CERRO YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "764120.7349"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 555,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "7810544.1846"
+      }
+    ],
+    "bulk_sum": "8574664.9195",
+    "yearbook_value": "8574664.9195",
+    "bulk_minus_yearbook": "0.0000"
+  },
+  {
+    "record_id": "PERU-yanacocha-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 312,
+        "plant": "CHAUPILOMA SUR",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "11430647.2370"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 313,
+        "plant": "CHAUPILOMA OESTE",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "3795408.9236"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 314,
+        "plant": "ACUMULACION CHAQUICOCHA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "959545.9075"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 315,
+        "plant": "CHAUPILOMA 51",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "100115.6218"
+      }
+    ],
+    "bulk_sum": "16285717.6899",
+    "yearbook_value": "16285717.690100001",
+    "bulk_minus_yearbook": "-0.000200001"
+  },
+  {
+    "record_id": "PERU-yanacocha-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 415,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "10576826.1389000001"
+      }
+    ],
+    "bulk_sum": "10576826.1389000001",
+    "yearbook_value": "10576826.138899999",
+    "bulk_minus_yearbook": "1.1E-9"
+  },
+  {
+    "record_id": "PERU-yanacocha-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 535,
+        "plant": "P.LIXIV.CERRO YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "2994231.9851"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 536,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "5219721.9109"
+      }
+    ],
+    "bulk_sum": "8213953.8960",
+    "yearbook_value": "8213953.896",
+    "bulk_minus_yearbook": "0.0000"
+  },
+  {
+    "record_id": "PERU-yanacocha-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 547,
+        "plant": "P.LIXIV.CERRO YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "992628.5670"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 548,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "6586526.5248"
+      }
+    ],
+    "bulk_sum": "7579155.0918",
+    "yearbook_value": "7579155.091799999",
+    "bulk_minus_yearbook": "1E-9"
+  },
+  {
+    "record_id": "PERU-yanacocha-Ag-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 672,
+        "plant": "P.LIXIV.CERRO YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "478.4224523978"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 673,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "4900.3125158017"
+      }
+    ],
+    "bulk_sum": "5378.7349681995",
+    "yearbook_value": null,
+    "bulk_minus_yearbook": null
+  },
+  {
+    "record_id": "PERU-yanacocha-Ag-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 112,
+        "plant": "CHAUPILOMA SUR",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "6681.454018"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 113,
+        "plant": "CHAUPILOMA OESTE",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "2268.427026"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 114,
+        "plant": "ACUMULACION CHAQUICOCHA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "635.755390"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 115,
+        "plant": "CHAUPILOMA 51",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "39.580765"
+      }
+    ],
+    "bulk_sum": "9625.217199",
+    "yearbook_value": null,
+    "bulk_minus_yearbook": null
+  },
+  {
+    "record_id": "PERU-yanacocha-Ag-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 524,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "8567.25431700000012"
+      }
+    ],
+    "bulk_sum": "8567.25431700000012",
+    "yearbook_value": null,
+    "bulk_minus_yearbook": null
+  },
+  {
+    "record_id": "PERU-yanacocha-Ag-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 653,
+        "plant": "P.LIXIV.CERRO YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "2008.079903"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 654,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "3052.759558"
+      }
+    ],
+    "bulk_sum": "5060.839461",
+    "yearbook_value": null,
+    "bulk_minus_yearbook": null
+  },
+  {
+    "record_id": "PERU-yanacocha-Ag-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 661,
+        "plant": "P.LIXIV.CERRO YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "542.390037"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 662,
+        "plant": "PLANTA DE LIXIV. YANACOCHA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "3519.767863"
+      }
+    ],
+    "bulk_sum": "4062.157900",
+    "yearbook_value": null,
+    "bulk_minus_yearbook": null
+  },
+  {
+    "record_id": "PERU-gold_fields-Cu-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 52,
+        "plant": "CERRO CORONA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "27871.4913325"
+      }
+    ],
+    "bulk_sum": "27871.4913325",
+    "yearbook_value": "27871.4913325",
+    "bulk_minus_yearbook": "0E-7"
+  },
+  {
+    "record_id": "PERU-gold_fields-Cu-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/COBRE.xlsx",
+        "sheet": "InformacionGeneralAnual 9 ",
+        "row": 46,
+        "plant": "CAROLINA Nº1",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "32650.550570"
+      }
+    ],
+    "bulk_sum": "32650.550570",
+    "yearbook_value": "32650.55057",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-gold_fields-Cu-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 53,
+        "plant": "CERRO CORONA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "24964.317506"
+      }
+    ],
+    "bulk_sum": "24964.317506",
+    "yearbook_value": "24964.317505499996",
+    "bulk_minus_yearbook": "5.00004E-7"
+  },
+  {
+    "record_id": "PERU-gold_fields-Cu-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 55,
+        "plant": "CERRO CORONA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "27028.641372"
+      }
+    ],
+    "bulk_sum": "27028.641372",
+    "yearbook_value": "27028.641372000002",
+    "bulk_minus_yearbook": "-2E-12"
+  },
+  {
+    "record_id": "PERU-gold_fields-Cu-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 54,
+        "plant": "CERRO CORONA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "28061.356421"
+      }
+    ],
+    "bulk_sum": "28061.356421",
+    "yearbook_value": "28061.356421",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-gold_fields-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 126,
+        "plant": "CERRO CORONA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "3955381.5135"
+      }
+    ],
+    "bulk_sum": "3955381.5135",
+    "yearbook_value": "3955381.5134999994",
+    "bulk_minus_yearbook": "6E-10"
+  },
+  {
+    "record_id": "PERU-gold_fields-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 187,
+        "plant": "CAROLINA Nº1",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "4927109.5195"
+      }
+    ],
+    "bulk_sum": "4927109.5195",
+    "yearbook_value": "4927109.5195",
+    "bulk_minus_yearbook": "0.0000"
+  },
+  {
+    "record_id": "PERU-gold_fields-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 122,
+        "plant": "CERRO CORONA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "3693998.54078"
+      }
+    ],
+    "bulk_sum": "3693998.54078",
+    "yearbook_value": "3693998.5407800004",
+    "bulk_minus_yearbook": "-4E-10"
+  },
+  {
+    "record_id": "PERU-gold_fields-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 122,
+        "plant": "CERRO CORONA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "3670226.2811"
+      }
+    ],
+    "bulk_sum": "3670226.2811",
+    "yearbook_value": "3670226.2810999993",
+    "bulk_minus_yearbook": "7E-10"
+  },
+  {
+    "record_id": "PERU-gold_fields-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 120,
+        "plant": "CERRO CORONA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "4185551.5951"
+      }
+    ],
+    "bulk_sum": "4185551.5951",
+    "yearbook_value": "4185551.5951",
+    "bulk_minus_yearbook": "0.0000"
+  },
+  {
+    "record_id": "PERU-la_arena-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 543,
+        "plant": "LA ARENA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "2980749.193425"
+      }
+    ],
+    "bulk_sum": "2980749.193425",
+    "yearbook_value": "2980749.1934249997",
+    "bulk_minus_yearbook": "3E-10"
+  },
+  {
+    "record_id": "PERU-la_arena-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 242,
+        "plant": "ACUMULACION LA ARENA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "4236694.633885"
+      }
+    ],
+    "bulk_sum": "4236694.633885",
+    "yearbook_value": "4236694.633800001",
+    "bulk_minus_yearbook": "0.000084999"
+  },
+  {
+    "record_id": "PERU-la_arena-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 404,
+        "plant": "LA ARENA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "3235055.978807"
+      }
+    ],
+    "bulk_sum": "3235055.978807",
+    "yearbook_value": "3235055.978807",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-la_arena-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 524,
+        "plant": "LA ARENA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "3405573.596342"
+      }
+    ],
+    "bulk_sum": "3405573.596342",
+    "yearbook_value": "3405573.5963419997",
+    "bulk_minus_yearbook": "3E-10"
+  },
+  {
+    "record_id": "PERU-la_arena-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 536,
+        "plant": "LA ARENA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "2962279.178553"
+      }
+    ],
+    "bulk_sum": "2962279.178553",
+    "yearbook_value": "2962279.178553",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-shahuindo-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 558,
+        "plant": "BENEFICIO SHAHUINDO",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "4443887.768592"
+      }
+    ],
+    "bulk_sum": "4443887.768592",
+    "yearbook_value": "4443887.768592001",
+    "bulk_minus_yearbook": "-1E-9"
+  },
+  {
+    "record_id": "PERU-shahuindo-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 402,
+        "plant": "ACUMULACION SHAHUINDO",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "5140738.214727"
+      }
+    ],
+    "bulk_sum": "5140738.214727",
+    "yearbook_value": "5140738.2148",
+    "bulk_minus_yearbook": "-0.000073"
+  },
+  {
+    "record_id": "PERU-shahuindo-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 418,
+        "plant": "BENEFICIO SHAHUINDO",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "4481986.034041"
+      }
+    ],
+    "bulk_sum": "4481986.034041",
+    "yearbook_value": "4481986.034041",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-shahuindo-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 540,
+        "plant": "BENEFICIO SHAHUINDO",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "4246478.600280"
+      }
+    ],
+    "bulk_sum": "4246478.600280",
+    "yearbook_value": "4246478.60028",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-shahuindo-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 551,
+        "plant": "BENEFICIO SHAHUINDO",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "4754736.690093"
+      }
+    ],
+    "bulk_sum": "4754736.690093",
+    "yearbook_value": "4754736.6900929995",
+    "bulk_minus_yearbook": "5E-10"
+  },
+  {
+    "record_id": "PERU-ares-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 121,
+        "plant": "EXPLORADOR",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "217141.191777"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 533,
+        "plant": "INMACULADA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "4271814.45"
+      }
+    ],
+    "bulk_sum": "4488955.641777",
+    "yearbook_value": "4488955.641777",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-ares-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 86,
+        "plant": "ACUMULACION GRAN INMACULADA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "5883346.55"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 87,
+        "plant": "ACUMULACION GRAN INMACULADA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "772722.03286"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 88,
+        "plant": "ORE BODY 3",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "32584.18503"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 89,
+        "plant": "GRAN ARCATA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "30039.4719"
+      }
+    ],
+    "bulk_sum": "6718692.23979",
+    "yearbook_value": "6718692.239789998",
+    "bulk_minus_yearbook": "2E-9"
+  },
+  {
+    "record_id": "PERU-ares-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 117,
+        "plant": "EXPLORADOR",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "401973.68246"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 396,
+        "plant": "INMACULADA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "4017144.46"
+      }
+    ],
+    "bulk_sum": "4419118.14246",
+    "yearbook_value": "4419118.14246",
+    "bulk_minus_yearbook": "0.00000"
+  },
+  {
+    "record_id": "PERU-ares-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 117,
+        "plant": "EXPLORADOR",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "404548.95157"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 513,
+        "plant": "INMACULADA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "5154875.02"
+      }
+    ],
+    "bulk_sum": "5559423.97157",
+    "yearbook_value": "5559423.971570001",
+    "bulk_minus_yearbook": "-1E-9"
+  },
+  {
+    "record_id": "PERU-ares-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 116,
+        "plant": "EXPLORADOR",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "341428.15707"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 526,
+        "plant": "INMACULADA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "4816336.50"
+      }
+    ],
+    "bulk_sum": "5157764.65707",
+    "yearbook_value": "5157764.657069999",
+    "bulk_minus_yearbook": "1E-9"
+  },
+  {
+    "record_id": "PERU-ares-Ag-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 590,
+        "plant": "EXPLORADOR",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "50552.6449032798"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 655,
+        "plant": "INMACULADA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "171556.1708721055"
+      }
+    ],
+    "bulk_sum": "222108.8157753853",
+    "yearbook_value": "222108.81577538536",
+    "bulk_minus_yearbook": "-6E-11"
+  },
+  {
+    "record_id": "PERU-ares-Ag-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 33,
+        "plant": "ACUMULACION GRAN INMACULADA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "215464.645799"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 34,
+        "plant": "ACUMULACION GRAN INMACULADA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "180849.249758"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 35,
+        "plant": "ORE BODY 3",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "9778.119430"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/PLATA.xlsx",
+        "sheet": "InformacionGeneralAnual 4 ",
+        "row": 36,
+        "plant": "GRAN ARCATA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "9682.232550"
+      }
+    ],
+    "bulk_sum": "415774.247537",
+    "yearbook_value": "415774.2475481",
+    "bulk_minus_yearbook": "-0.0000111"
+  },
+  {
+    "record_id": "PERU-ares-Ag-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 452,
+        "plant": "EXPLORADOR",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "107625.034548"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 511,
+        "plant": "INMACULADA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "97945.173318"
+      }
+    ],
+    "bulk_sum": "205570.207866",
+    "yearbook_value": "205570.2078659918",
+    "bulk_minus_yearbook": "8.2E-9"
+  },
+  {
+    "record_id": "PERU-ares-Ag-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 575,
+        "plant": "EXPLORADOR",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "97097.501484"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 636,
+        "plant": "INMACULADA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "188561.262404"
+      }
+    ],
+    "bulk_sum": "285658.763888",
+    "yearbook_value": "285658.76388770307",
+    "bulk_minus_yearbook": "2.9693E-7"
+  },
+  {
+    "record_id": "PERU-ares-Ag-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 584,
+        "plant": "EXPLORADOR",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "56635.543274"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 645,
+        "plant": "INMACULADA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "184624.389334"
+      }
+    ],
+    "bulk_sum": "241259.932608",
+    "yearbook_value": "241259.9326092835",
+    "bulk_minus_yearbook": "-0.0000012835"
+  },
+  {
+    "record_id": "PERU-nexa_peru-Zn-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 765,
+        "plant": "CERRO LINDO",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "84710.0344117999985"
+      }
+    ],
+    "bulk_sum": "84710.0344117999985",
+    "yearbook_value": "84710.03441179999",
+    "bulk_minus_yearbook": "8.5E-12"
+  },
+  {
+    "record_id": "PERU-nexa_peru-Zn-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ZINC.xlsx",
+        "sheet": "InformacionGeneralAnual 1 ",
+        "row": 65,
+        "plant": "CERRO LINDO",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "132198.496262"
+      }
+    ],
+    "bulk_sum": "132198.496262",
+    "yearbook_value": "132198.496274",
+    "bulk_minus_yearbook": "-0.000012"
+  },
+  {
+    "record_id": "PERU-nexa_peru-Zn-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 625,
+        "plant": "CERRO LINDO",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "100236.590987"
+      }
+    ],
+    "bulk_sum": "100236.590987",
+    "yearbook_value": "100236.590987",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-nexa_peru-Zn-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 755,
+        "plant": "CERRO LINDO",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "107650.963184"
+      }
+    ],
+    "bulk_sum": "107650.963184",
+    "yearbook_value": "107650.9631838",
+    "bulk_minus_yearbook": "2E-7"
+  },
+  {
+    "record_id": "PERU-nexa_peru-Zn-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 760,
+        "plant": "CERRO LINDO",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "90131.665038"
+      }
+    ],
+    "bulk_sum": "90131.665038",
+    "yearbook_value": "90131.66503777001",
+    "bulk_minus_yearbook": "2.2999E-7"
+  },
+  {
+    "record_id": "PERU-buenaventura-Au-2023",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 117,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "519936.14560"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 118,
+        "plant": "PLANTA CONC.Y RELAVES",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "6205.162940"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 119,
+        "plant": "TAMBOMAYO",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1069477.73503"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 531,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "2067552.61261"
+      },
+      {
+        "source": "research/pilot-raw/minem-2023-bulk/Producción metálica Ene - Dic 2023.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 532,
+        "plant": "TAMBOMAYO",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "226988.22198"
+      }
+    ],
+    "bulk_sum": "3890159.878160",
+    "yearbook_value": "3890159.87816",
+    "bulk_minus_yearbook": "0.000000"
+  },
+  {
+    "record_id": "PERU-buenaventura-Au-2019",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 79,
+        "plant": "TAMBOMAYO",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "1918751.95772"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 80,
+        "plant": "TAMBOMAYO",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "1168429.23879"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 81,
+        "plant": "ORCOPAMPA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "1120690.09826"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 82,
+        "plant": "ORCOPAMPA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "103508.73048"
+      },
+      {
+        "source": "research/pilot-raw/minem-2019-bulk/ORO.xlsx",
+        "sheet": "InformacionGeneralAnual 5 ",
+        "row": 83,
+        "plant": "JULCANI",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "4297.869159"
+      }
+    ],
+    "bulk_sum": "4315677.894409",
+    "yearbook_value": "4315677.894599",
+    "bulk_minus_yearbook": "-0.000190"
+  },
+  {
+    "record_id": "PERU-buenaventura-Au-2020",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 114,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "1100700.23851999999"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 115,
+        "plant": "PLANTA CONC.Y RELAVES",
+        "stage": "Concentración",
+        "process": "Flotación",
+        "sum_months": "2777.69874"
+      },
+      {
+        "source": "research/pilot-raw/minem-2020-bulk/Producción metálica Enero-Diciembre 2020.xlsx",
+        "sheet": "METALES",
+        "row": 395,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "Concentración",
+        "process": "Lixiviación",
+        "sum_months": "1878276.76240000002"
+      }
+    ],
+    "bulk_sum": "2981754.69966000001",
+    "yearbook_value": "2981754.6996599995",
+    "bulk_minus_yearbook": "5.1E-10"
+  },
+  {
+    "record_id": "PERU-buenaventura-Au-2021",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 113,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "110954.50168"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 114,
+        "plant": "PLANTA CONC.Y RELAVES",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "11488.552247"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 115,
+        "plant": "TAMBOMAYO",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1860084.10610"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 511,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "1444511.20849"
+      },
+      {
+        "source": "research/pilot-raw/minem-2021-bulk/Producción metálica Enero-Diciembre 2021.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 512,
+        "plant": "TAMBOMAYO",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "319088.48625"
+      }
+    ],
+    "bulk_sum": "3746126.854767",
+    "yearbook_value": "3746126.854766998",
+    "bulk_minus_yearbook": "2E-9"
+  },
+  {
+    "record_id": "PERU-buenaventura-Au-2022",
+    "rows": [
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 112,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "346958.58989"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 113,
+        "plant": "PLANTA CONC.Y RELAVES",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "5669.322355"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 114,
+        "plant": "TAMBOMAYO",
+        "stage": "CONCENTRACIÓN",
+        "process": "FLOTACIÓN",
+        "sum_months": "1486549.88657"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 524,
+        "plant": "CONC. ORCOPAMPA",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "2075936.88701"
+      },
+      {
+        "source": "research/pilot-raw/minem-2022-bulk/Producción metálica Ene - Dic 2022.xlsx",
+        "sheet": "InformaciónGeneral",
+        "row": 525,
+        "plant": "TAMBOMAYO",
+        "stage": "CONCENTRACIÓN",
+        "process": "LIXIVIACIÓN",
+        "sum_months": "213293.95908"
+      }
+    ],
+    "bulk_sum": "4128408.644905",
+    "yearbook_value": "4128408.644905",
+    "bulk_minus_yearbook": "0.000000"
+  }
+]

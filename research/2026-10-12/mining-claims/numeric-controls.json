@@ -1,0 +1,124 @@
+{
+  "peru_2023": {
+    "sec_thousand_lb": {
+      "Toquepala": {
+        "2024": 19771,
+        "2023": 13916,
+        "2022": 16934
+      },
+      "Cuajone": {
+        "2024": 9740,
+        "2023": 8252,
+        "2022": 7992
+      }
+    },
+    "host_cell": "Mo-Empresas!J7",
+    "host_tonnes": "10055.339772000001",
+    "normalized_tonnes": "10055.23565816",
+    "rounding_interval_tonnes": [
+      "10054.32847342",
+      "10056.14284290"
+    ],
+    "consistent": true,
+    "excluded_2024_header": "2024 1",
+    "preliminary_note": "1/ Datos preliminares."
+  },
+  "ity_2024": {
+    "cells": [
+      {
+        "sheet": "34.1",
+        "company": "SOCIETE DES MINES D'ITY",
+        "initial_cell": "E27",
+        "final_cell": "G27",
+        "label": "Taxes ad-valorem (85% Royalties)",
+        "initial": 15268099866,
+        "adjustment": 0,
+        "final": 15268099866
+      },
+      {
+        "sheet": "34.1",
+        "company": "SOCIETE DES MINES D'ITY",
+        "initial_cell": "E42",
+        "final_cell": "G42",
+        "label": "Taxes ad-valorem (15% Royalties)",
+        "initial": 2694370566,
+        "adjustment": 0,
+        "final": 2694370566
+      },
+      {
+        "sheet": "34.5",
+        "company": "SOCIETE DES MINES DE DAAPLEU",
+        "initial_cell": "E27",
+        "final_cell": "G27",
+        "label": "Taxes ad-valorem (85% Royalties)",
+        "initial": 465896430,
+        "adjustment": 0,
+        "final": 465896430
+      },
+      {
+        "sheet": "34.5",
+        "company": "SOCIETE DES MINES DE DAAPLEU",
+        "initial_cell": "E42",
+        "final_cell": "G42",
+        "label": "Taxes ad-valorem (15% Royalties)",
+        "initial": 82217017,
+        "adjustment": 0,
+        "final": 82217017
+      },
+      {
+        "sheet": "34.8",
+        "company": "SOCIETE DES MINES DE FLOLEU",
+        "initial_cell": "E27",
+        "final_cell": "G27",
+        "label": "Taxes ad-valorem (85% Royalties)",
+        "initial": 7529241371,
+        "adjustment": 0,
+        "final": 7529241371
+      },
+      {
+        "sheet": "34.8",
+        "company": "SOCIETE DES MINES DE FLOLEU",
+        "initial_cell": "E42",
+        "final_cell": "G42",
+        "label": "Taxes ad-valorem (15% Royalties)",
+        "initial": 1328689653,
+        "adjustment": 0,
+        "final": 1328689653
+      }
+    ],
+    "host_xof": "27368514903",
+    "fx_xof_per_usd": [
+      "595.72",
+      "631.40"
+    ],
+    "usd_interval_before_precision_allowance": [
+      "43345763.22933164396579030725",
+      "45941910.46632646209628684617"
+    ],
+    "western_usd": "45145203",
+    "consistent": true
+  },
+  "kibali_2023": {
+    "host_reporting_period": "Période couverte : 1er janvier au 31 décembre 2023",
+    "company_submitted": "Oui",
+    "identifier": "A0702049L",
+    "company_attribution": "N/A : La société a déclaré qu’elle est contrôlée par Barrick Gold et AngloGold, détenant chacun 45 % du capital, ces deux sociétés étant cotées en bourse.",
+    "host_barrick_percent": 45,
+    "western_barrick_percent": 45,
+    "consistent": true
+  },
+  "essakane_date_bracket": {
+    "period_header": "Période couverte : 1er janvier au 31 décembre 2024",
+    "capital_date_label": "PARTICIPATIONS AU 31/12/2023",
+    "company": "IAMGOLD CORPORATION",
+    "group_fraction": 0.9,
+    "state_fraction": 0.1,
+    "western_prior_to_change": [
+      0.9,
+      0.1
+    ],
+    "change_effective": "2025-06-20",
+    "consistent": true
+  },
+  "scope_note": "These calculations verify extraction and arithmetic. The legal/entity/period crosswalks are documented research judgments, not proven by numerical agreement."
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2019,
+    "operator_cu_t": 453133,
+    "operator_zn_t": 303178,
+    "cu_concentrate_dmt": 1666998,
+    "zn_concentrate_dmt": 596843,
+    "minem_cu_t": "459513.470505",
+    "minem_zn_t": "365752.072372",
+    "implied_cu_in_zn_concentrate_pct": "1.069036665421224677176409877",
+    "implied_zn_in_cu_concentrate_pct": "3.753698107136301303300903780",
+    "classification": "Conditional physical plausibility calculation, NOT observed assays or a reconciliation",
+    "assumption": "All gap assigned to other principal concentrate; ignores other streams, changes in assays, revisions and cutoffs"
+  },
+  {
+    "year": 2020,
+    "operator_cu_t": 378255,
+    "operator_zn_t": 430055,
+    "cu_concentrate_dmt": 1364641,
+    "zn_concentrate_dmt": 839137,
+    "minem_cu_t": "396246.511250",
+    "minem_zn_t": "491179.515036",
+    "implied_cu_in_zn_concentrate_pct": "2.144049332826463378447142719",
+    "implied_zn_in_cu_concentrate_pct": "4.479164486190873643690904787",
+    "classification": "Conditional physical plausibility calculation, NOT observed assays or a reconciliation",
+    "assumption": "All gap assigned to other principal concentrate; ignores other streams, changes in assays, revisions and cutoffs"
+  },
+  {
+    "year": 2021,
+    "operator_cu_t": 444290,
+    "operator_zn_t": 462666,
+    "cu_concentrate_dmt": 1584031,
+    "zn_concentrate_dmt": 901386,
+    "minem_cu_t": "460651.683285",
+    "minem_zn_t": "532603.123405",
+    "implied_cu_in_zn_concentrate_pct": "1.815169448493764047810815788",
+    "implied_zn_in_cu_concentrate_pct": "4.415136029850425907068737922",
+    "classification": "Conditional physical plausibility calculation, NOT observed assays or a reconciliation",
+    "assumption": "All gap assigned to other principal concentrate; ignores other streams, changes in assays, revisions and cutoffs"
+  },
+  {
+    "year": 2022,
+    "operator_cu_t": 454800,
+    "operator_zn_t": 433044,
+    "cu_concentrate_dmt": 1623296,
+    "zn_concentrate_dmt": 852334,
+    "minem_cu_t": "467904.596769",
+    "minem_zn_t": "499969.109503",
+    "implied_cu_in_zn_concentrate_pct": "1.537495485220582541585810257",
+    "implied_zn_in_cu_concentrate_pct": "4.122791499701841192240971456",
+    "classification": "Conditional physical plausibility calculation, NOT observed assays or a reconciliation",
+    "assumption": "All gap assigned to other principal concentrate; ignores other streams, changes in assays, revisions and cutoffs"
+  },
+  {
+    "year": 2023,
+    "operator_cu_t": 421824,
+    "operator_zn_t": 464116,
+    "cu_concentrate_dmt": 1533233,
+    "zn_concentrate_dmt": 917139,
+    "minem_cu_t": "435378.425984200015",
+    "minem_zn_t": "527979.419252300017",
+    "implied_cu_in_zn_concentrate_pct": "1.477903129645562450184759344",
+    "implied_zn_in_cu_concentrate_pct": "4.165278157481610231452101540",
+    "classification": "Conditional physical plausibility calculation, NOT observed assays or a reconciliation",
+    "assumption": "All gap assigned to other principal concentrate; ignores other streams, changes in assays, revisions and cutoffs"
+  }
+]

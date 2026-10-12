@@ -1,0 +1,269 @@
+{
+  "control_checks": 43,
+  "distinct_entity_metal_years": 33,
+  "within_precision": 43,
+  "government_hosted_checks": 10,
+  "gold_checks": 7,
+  "confirmed_contradictions": 0,
+  "scope": "Reviewed controls; overlapping checks are not independent trials",
+  "results": [
+    {
+      "control_id": "NEXA-LANGUAGE-Zn-2019",
+      "difference": "-10.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Cu-2019",
+      "difference": "22.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Pb-2019",
+      "difference": "44.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Ag-2019",
+      "difference": "-479",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Au-2019",
+      "difference": "42.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Zn-2020",
+      "difference": "-26.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Cu-2020",
+      "difference": "-20.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Pb-2020",
+      "difference": "10.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Ag-2020",
+      "difference": "15",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Au-2020",
+      "difference": "-20.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Zn-2021",
+      "difference": "25.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Cu-2021",
+      "difference": "-2.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Pb-2021",
+      "difference": "-49.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Ag-2021",
+      "difference": "269",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Au-2021",
+      "difference": "-29.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Zn-2022",
+      "difference": "8.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Cu-2022",
+      "difference": "42.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Pb-2022",
+      "difference": "-41.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Ag-2022",
+      "difference": "-29736.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Au-2022",
+      "difference": "-46.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Zn-2023",
+      "difference": "-9.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Cu-2023",
+      "difference": "12.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Pb-2023",
+      "difference": "-42.0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Ag-2023",
+      "difference": "-40975.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-LANGUAGE-Au-2023",
+      "difference": "-18.0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Zn-2021",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Cu-2021",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Pb-2021",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Ag-2021",
+      "difference": "0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Au-2021",
+      "difference": "0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Zn-2023",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Cu-2023",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Pb-2023",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Ag-2023",
+      "difference": "0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "NEXA-SEC-SMV-Au-2023",
+      "difference": "0",
+      "unit": "oz",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Cu-2019",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Zn-2019",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Cu-2020",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Zn-2020",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Cu-2021",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Zn-2021",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Cu-2023",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    },
+    {
+      "control_id": "ANTAMINA-LANGUAGE-Zn-2023",
+      "difference": "0",
+      "unit": "t",
+      "within_precision": true
+    }
+  ]
+}

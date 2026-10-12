@@ -16,6 +16,7 @@ Read the [experiment accounts](../experiments/README.md) first if you want the r
 | [Enron](../experiments/08-enron.md) | [Full source chronology and calculations](enron-report.md), [script guide](../research/2026-10-01/enron/README.txt) |
 | [Bank lending](../experiments/09-bank-lending.md) | [Full report](crisis-report.txt), [source and script guide](../research/2026-10-01/crisis/README.txt) |
 | [Earlier ATI source probe](../experiments/10-ati-source-check.md) | [Queries, three cases and proposed tests](lead-development-report.md) |
+| [Mining disclosure pairs](../experiments/11-mining-disclosure-pairs.md) | [Comparability audit](mining-claims-audit.md), [research archive](../research/2026-10-12/mining-claims/README.md), [four-case starter](../code/mining_claims/README.md) |
 
 The [overnight synthesis](overnight-research.md) and its [review checklist](../research/2026-10-01/REVIEW.md) describe the earlier 30 September work. Its “no Jev/Exa calls” and “no releases obtained” statements concern that stage, before the separately documented 1 October ATI run. Vendor prices and service limits in these historical reports are dated observations, not newly checked offers.
 
@@ -34,3 +35,4 @@ Code uses repository-relative paths and pinned file fingerprints. Moving the dat
 The original ATI database remains excluded because it contains third-party article passages. The accounting export does not replace it or authorize another paid run. Offline checks can be run without it; authenticated continuation is deliberately guarded.
 
 [Home](../README.md) · [Rabbit catalog reference](../catalogs/README.md)
+

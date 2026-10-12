@@ -6,6 +6,8 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 
 ## Choose a recipe for your beat
 
+- **Test whether two company disclosures can both be true.** The [mining-project comparison audit](experiments/11-mining-disclosure-pairs.md) retained four of ten proposed pairings. All four inspected samples were consistent; the research and implementation starter preserve the scope checks needed for a wider search. The [Peru production pilot](research/2026-10-12/peru-production-pilot/README.md) adds 100 annual records, including 35 gold records. Its [newsroom follow-up](research/2026-10-12/peru-production-pilot/FOLLOWUP_NEWSROOM.md) documents exact SEC–SMV agreement controls and parks four unresolved ministry comparisons.
+
 - **Find the next document to read.** The [Canadian ATI experiment](experiments/07-canadian-ati.md) turns short request summaries into choices: obtain a named file, sharpen a question, or recognize that the story is already covered. Try it when an index is much larger than your reading time.
 - **Check names without jumping to conclusions.** The [contracts-and-sanctions experiment](experiments/01-ofac-baseline.md) reduced millions of transactions to thirteen candidate pairs. Its strongest example shows why the action behind a match matters as much as the name.
 - **Test whether your search works.** The [missed known news story](experiments/03-headline-filter.md) offers a simple recipe: check an article you already know exists before trusting an empty search. No result does not mean no earlier reporting.
@@ -16,10 +18,11 @@ Some trials use **Jev**, a model service that ranks or assesses text, and **Exa*
 
 ## Try something small, and keep what you learn
 
-Start with [the reporting recipe](docs/method.md) and [blank run record](templates/run.md), or browse [all ten experiments](experiments/README.md). Each account explains the question, source, steps, results, costs and next useful move.
+Start with [the reporting recipe](docs/method.md) and [blank run record](templates/run.md), or browse [the experiments](experiments/README.md). Each account explains the question, source, steps, results, costs and next useful move.
 
 **What we still need to learn:** whether these methods save reporter time or find better questions than simple rules. Early trials have missing evidence, and historical examples benefit from hindsight. Read the [costs and limits](docs/costs-and-limitations.md), [correction history](research/2026-10-01/ati-live/correction-identity.md) and [unfinished work](docs/next-steps.md) alongside the results.
 
 [Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-Updated 1 October 2026. This repository remains private; access and licensing are unchanged.
+Mining comparison work added 12 October 2026. This repository remains private; access and licensing are unchanged.
+

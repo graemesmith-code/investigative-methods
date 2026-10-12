@@ -1,0 +1,154 @@
+{
+  "seed": 20261012,
+  "population": 32,
+  "sample_size": 10,
+  "selection": "Python random.Random(seed).sample over raw within-precision record IDs",
+  "independent_review": false,
+  "method": "Same assistant second pass against original source tables/PDF text, not a second human reviewer",
+  "findings": "No transcription error found in these ten; five remain blocked despite numerical agreement.",
+  "records": [
+    {
+      "record_id": "PERU-yanacocha-Au-2021",
+      "source": "research/pilot-raw/newmont-2021.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472722000007/nem-20211231.htm",
+      "locator": "Gold operating statistics; Yanacocha; consolidated production; HTML table 71 for 2019–21",
+      "components": [
+        "264"
+      ],
+      "unit": "koz",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": false,
+      "remaining_blocker": "measurement_or_scope_bridge_unresolved"
+    },
+    {
+      "record_id": "PERU-southern-Cu-2019",
+      "source": "research/pilot-raw/southern-2021.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1001838/000155837022002968/scco-20211231x10k.htm",
+      "locator": "HTML table 36; COPPER; Toquepala, Cuajone, SX‑EW Toquepala",
+      "components": [
+        "510752",
+        "344787",
+        "58045"
+      ],
+      "unit": "thousand_lb",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": true,
+      "remaining_blocker": null
+    },
+    {
+      "record_id": "PERU-yanacocha-Au-2020",
+      "source": "research/pilot-raw/newmont-2021.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472722000007/nem-20211231.htm",
+      "locator": "Gold operating statistics; Yanacocha; consolidated production; HTML table 71 for 2019–21",
+      "components": [
+        "340"
+      ],
+      "unit": "koz",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": false,
+      "remaining_blocker": "measurement_or_scope_bridge_unresolved"
+    },
+    {
+      "record_id": "PERU-southern-Mo-2023",
+      "source": "research/raw/southern-sec-2024.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025002017/scco-20241231x10k.htm",
+      "locator": "HTML table 33; MOLYBDENUM; Toquepala, Cuajone",
+      "components": [
+        "13916",
+        "8252"
+      ],
+      "unit": "thousand_lb",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": true,
+      "remaining_blocker": null
+    },
+    {
+      "record_id": "PERU-gold_fields-Au-2020",
+      "source": "research/pilot-raw/gf-2023-tech.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272424000013/exhibit968-technicalrepo.htm",
+      "locator": "Table 10.4.1 Cerro Corona process plant recent performance, p54–55",
+      "components": [
+        "119"
+      ],
+      "unit": "koz",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": false,
+      "remaining_blocker": "measurement_or_scope_bridge_unresolved"
+    },
+    {
+      "record_id": "PERU-gold_fields-Cu-2023",
+      "source": "research/pilot-raw/gf-2023-tech.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1172724/000117272424000013/exhibit968-technicalrepo.htm",
+      "locator": "Table 10.4.1 Cerro Corona process plant recent performance, p54–55",
+      "components": [
+        "27.8"
+      ],
+      "unit": "kt",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": false,
+      "remaining_blocker": "measurement_or_scope_bridge_unresolved"
+    },
+    {
+      "record_id": "PERU-hudbay-Mo-2020",
+      "source": "research/pilot-raw/hudbay-2021-results.html",
+      "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2022/Hudbay-Announces-Fourth-Quarter-and-Full-Year-2021-Results-and-Provides-Annual-Guidance/default.aspx",
+      "locator": "HTML table 5; Peru Operations; contained metal; Molybdenum; annual 2020",
+      "components": [
+        "1204"
+      ],
+      "unit": "t",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": true,
+      "remaining_blocker": null
+    },
+    {
+      "record_id": "PERU-yanacocha-Au-2023",
+      "source": "research/pilot-raw/newmont-2023.pdf",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1164727/000110465924033033/tm245570d2_ars.pdf",
+      "locator": "Gold operating statistics; Yanacocha; consolidated production; HTML table 71 for 2019–21",
+      "components": [
+        "276"
+      ],
+      "unit": "koz",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": false,
+      "remaining_blocker": "measurement_or_scope_bridge_unresolved"
+    },
+    {
+      "record_id": "PERU-hudbay-Mo-2019",
+      "source": "research/pilot-raw/hudbay-2020-mda.html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1322422/000106299321001733/exhibit99-3.htm",
+      "locator": "HTML table 10; Peru Operations; contained metal; Molybdenum; annual 2019",
+      "components": [
+        "1272"
+      ],
+      "unit": "t",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": true,
+      "remaining_blocker": null
+    },
+    {
+      "record_id": "PERU-hudbay-Au-2021",
+      "source": "research/pilot-raw/hudbay-2021-results.html",
+      "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2022/Hudbay-Announces-Fourth-Quarter-and-Full-Year-2021-Results-and-Provides-Annual-Guidance/default.aspx",
+      "locator": "HTML table 5; Peru Operations; contained metal; Gold; annual 2021",
+      "components": [
+        "50306"
+      ],
+      "unit": "oz",
+      "source_number_and_column_rechecked": true,
+      "transcription_error_found": false,
+      "screen_eligible": true,
+      "remaining_blocker": null
+    }
+  ]
+}

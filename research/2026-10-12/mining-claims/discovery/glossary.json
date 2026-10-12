@@ -1,0 +1,56 @@
+[
+  {
+    "language": "French",
+    "source": "Paiements Entreprises / Societes",
+    "meaning": "Company-declared payments",
+    "caution": "Distinguish initial, adjustments and final."
+  },
+  {
+    "language": "French",
+    "source": "Paiements Regies / Gouvernement",
+    "meaning": "Government-side amounts",
+    "caution": "Not a second company statement."
+  },
+  {
+    "language": "French",
+    "source": "Ristourne miniere",
+    "meaning": "Local share of a mining royalty in the Madagascar specimen",
+    "caution": "Do not automatically translate as a refund or discount."
+  },
+  {
+    "language": "French",
+    "source": "Taxe ad valorem / ISCP",
+    "meaning": "Distinct payment streams in Mali",
+    "caution": "A regulatory category crosswalk is required before summing into ESTMA royalties."
+  },
+  {
+    "language": "Portuguese",
+    "source": "Alteamento a jusante",
+    "meaning": "Downstream raising",
+    "caution": "Match the same dam and construction stage."
+  },
+  {
+    "language": "Portuguese",
+    "source": "Alteamento por linha de centro",
+    "meaning": "Centreline raising",
+    "caution": "Modified centreline may be a subtype, not an incompatible category."
+  },
+  {
+    "language": "Portuguese",
+    "source": "Dano Potencial Associado",
+    "meaning": "Potential consequence classification",
+    "caution": "Different from failure probability or the risk category."
+  },
+  {
+    "language": "Spanish",
+    "source": "TMF",
+    "meaning": "Fine metric tonnes",
+    "caution": "Do not compare with gross concentrate weight."
+  },
+  {
+    "language": "Spanish",
+    "source": "Produccion empresas",
+    "meaning": "Production by company",
+    "caution": "May aggregate several mines."
+  }
+]

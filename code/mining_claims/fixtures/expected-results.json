@@ -1,0 +1,65 @@
+{
+  "mode": "audited_fixture_replay",
+  "warning": "No finding of intentional misstatement. Source and scope review remains necessary.",
+  "results": [
+    {
+      "case_id": "RAB-MIN-08",
+      "project": "IAMGOLD / Essakane",
+      "status": "consistent",
+      "reason": "Claims are compatible within the approved scope and tolerances.",
+      "date_checks": [
+        {
+          "date": "2023-12-31",
+          "consistent": true
+        },
+        {
+          "date": "2024",
+          "consistent": true
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-MIN-03",
+      "project": "Endeavour / Ity",
+      "status": "consistent",
+      "reason": "Claims are compatible within the approved scope and tolerances.",
+      "unit": "USD",
+      "host_xof": "27368514903",
+      "host_interval": [
+        "43345763.21982895153626860944",
+        "45941910.47639830792989995300"
+      ],
+      "western_interval": [
+        "45145202",
+        "45145204"
+      ]
+    },
+    {
+      "case_id": "RAB-MIN-07",
+      "project": "Barrick / Kibali",
+      "status": "consistent",
+      "reason": "Claims are compatible within the approved scope and tolerances.",
+      "date_checks": [
+        {
+          "date": "2023",
+          "consistent": true
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-MIN-02",
+      "project": "Southern Copper / Toquepala + Cuajone",
+      "status": "consistent",
+      "reason": "Claims are compatible within the approved scope and tolerances.",
+      "unit": "fine metric tonnes",
+      "western_interval": [
+        "10054.32847342",
+        "10056.14284290"
+      ],
+      "host_interval": [
+        "10055.339772000001",
+        "10055.339772000001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "mode": "audited_fixture_replay",
+  "observations": [
+    {
+      "schema_version": 1,
+      "case_id": "RAB-MIN-02",
+      "context": {
+        "entity_scope": "100% Toquepala + Cuajone; Southern Peru branch",
+        "metric": "fine molybdenum mine production",
+        "period": "calendar 2023",
+        "basis": "annual production, not sales or concentrate gross mass",
+        "attribution": "SEC company filing / MINEM company-derived ESTAMIN statistics"
+      },
+      "gates": {
+        "company_attribution_reviewed": true,
+        "entity_bridge_reviewed": true,
+        "metric_basis_reviewed": true,
+        "period_reviewed": true,
+        "original_language_checked": true,
+        "amendment_status_reviewed": true,
+        "non_preliminary": true
+      },
+      "source_hashes": {
+        "southern-sec-2024.html": "7baceed41818715ef29c29024a07d3a21552901271ac00d48bfb8772f32bf2e9",
+        "peru-dec2024.xlsx": "436d50f4c68219264600a6c4bed8a3e44b1ecc6016a806034a731f192af119d6",
+        "audit-peru-annual-2024.xlsx": "b473233f516ce37c7ac465a63df12bd060876e7e34071a04be260eb1f5addb8d",
+        "audit-southern-memoria2024.pdf": "4c717de83e0cb6bcfef4aefdd2414437840c82b4ae601433ddf8cd2ebdf5a2d5"
+      },
+      "values": {
+        "western_thousand_lb": {
+          "Toquepala": "13916",
+          "Cuajone": "8252"
+        },
+        "host_fine_tonnes": "10055.339772000001"
+      }
+    },
+    {
+      "schema_version": 1,
+      "case_id": "RAB-MIN-03",
+      "context": {
+        "entity_scope": "100% Ity complex: SMI + SMD + SMF",
+        "metric": "monetary mining royalties, 85% plus 15% components",
+        "period": "calendar 2024",
+        "basis": "positive cash payments, payment-date FX bounds",
+        "attribution": "Canadian ESTMA company return / EITI initial company declarations unchanged after reconciliation"
+      },
+      "gates": {
+        "company_attribution_reviewed": true,
+        "entity_bridge_reviewed": true,
+        "metric_basis_reviewed": true,
+        "period_reviewed": true,
+        "original_language_checked": true,
+        "amendment_status_reviewed": true,
+        "non_preliminary": true
+      },
+      "source_hashes": {
+        "endeavour-estma-2024.pdf": "6c0343484f5dd7b2a660a2745fa45f7bfdf11fb7594166c45463eed7c65e5b49",
+        "ivory-annexes.bin": "bb7c707398dad4b5f43695a24d7c0c85ccd607ebe354599e03fd2ce1d5380cc8",
+        "ivory-2024.pdf": "0edf8b760a791792383a181eb98a6e227aa716b7f4510d3f7b28d3aeae82def9",
+        "audit-endeavour-aif-2024.pdf": "e369d92ca0fa964977871c2f573889f174168e318914ccb1cd04931d68dc3d33"
+      },
+      "values": {
+        "company_cells": [
+          {
+            "sheet": "34.1",
+            "row": 27,
+            "initial": "15268099866",
+            "adjustment": "0",
+            "final": "15268099866"
+          },
+          {
+            "sheet": "34.1",
+            "row": 42,
+            "initial": "2694370566",
+            "adjustment": "0",
+            "final": "2694370566"
+          },
+          {
+            "sheet": "34.5",
+            "row": 27,
+            "initial": "465896430",
+            "adjustment": "0",
+            "final": "465896430"
+          },
+          {
+            "sheet": "34.5",
+            "row": 42,
+            "initial": "82217017",
+            "adjustment": "0",
+            "final": "82217017"
+          },
+          {
+            "sheet": "34.8",
+            "row": 27,
+            "initial": "7529241371",
+            "adjustment": "0",
+            "final": "7529241371"
+          },
+          {
+            "sheet": "34.8",
+            "row": 42,
+            "initial": "1328689653",
+            "adjustment": "0",
+            "final": "1328689653"
+          }
+        ],
+        "fx_xof_per_usd": [
+          "595.72",
+          "631.40"
+        ],
+        "western_usd": "45145203"
+      }
+    },
+    {
+      "schema_version": 1,
+      "case_id": "RAB-MIN-07",
+      "context": {
+        "entity_scope": "Barrick group economic interest in Kibali",
+        "metric": "group economic ownership percent",
+        "period": "calendar 2023",
+        "basis": "group economic interest, not direct registered shareholding",
+        "attribution": "SEC company AIF / company-attributed EITI capital disclosure"
+      },
+      "gates": {
+        "company_attribution_reviewed": true,
+        "entity_bridge_reviewed": true,
+        "metric_basis_reviewed": true,
+        "period_reviewed": true,
+        "original_language_checked": true,
+        "amendment_status_reviewed": true,
+        "non_preliminary": true
+      },
+      "source_hashes": {
+        "barrick-sec-aif-2023.html": "6bcdf955b9b82b54e722595eb0d91bc4d678ab9e58ed982ca112da3fd80da6bd",
+        "congo-annexes.bin": "ca70d7339c27a7446af91be9fcf2c2b7ec0caf636acaf8801ceedbe634cb11d6",
+        "congo-2023.pdf": "7f4ede86034e8b4a56c6e587d6e13147e801ed3bb348d8013682ee6c794f3500"
+      },
+      "values": {
+        "host_percent": {
+          "Barrick": "45"
+        },
+        "western_percent_by_date": {
+          "2023": {
+            "Barrick": "45"
+          }
+        }
+      }
+    },
+    {
+      "schema_version": 1,
+      "case_id": "RAB-MIN-08",
+      "context": {
+        "entity_scope": "IAMGOLD group and state economic interest in Essakane",
+        "metric": "group/state economic ownership percent",
+        "period": "ambiguous: 31 December 2023 or calendar 2024",
+        "basis": "all admissible dates before 20 June 2025 ownership change",
+        "attribution": "SEC company AIF/MD&A / company-supplied embedded EITI form"
+      },
+      "gates": {
+        "company_attribution_reviewed": true,
+        "entity_bridge_reviewed": true,
+        "metric_basis_reviewed": true,
+        "period_reviewed": true,
+        "original_language_checked": true,
+        "amendment_status_reviewed": true,
+        "non_preliminary": true
+      },
+      "source_hashes": {
+        "iamgold-sec-aif-2023.html": "6f21a6e678b1e03555a5215b3a75bedeec8be49d53b31f0e97a072fdd5d032ec",
+        "iamgold-sec-2024.html": "509eabbfd2920cf7eccb8a891d80de6dfada2ec08c7af9ee0c22ec6a0503b31b",
+        "audit-iamgold-sec-2025.html": "359573c2a1521591a253adbb261d818c0260ee1d39ee434e34e0ff50e28e1fe5",
+        "burkina-annexes.bin": "470b85faa01d75e4d90fd88ef34859a2a9958484e6981a3d926267ae76b36ce5",
+        "burkina-2024.pdf": "7d38ba656ba3bb3f74c74d3d37f457b05f5215f3625feb32330ce21095080428"
+      },
+      "values": {
+        "host_percent": {
+          "IAMGOLD": "90",
+          "state": "10"
+        },
+        "western_percent_by_date": {
+          "2023-12-31": {
+            "IAMGOLD": "90",
+            "state": "10"
+          },
+          "2024": {
+            "IAMGOLD": "90",
+            "state": "10"
+          }
+        }
+      }
+    }
+  ]
+}

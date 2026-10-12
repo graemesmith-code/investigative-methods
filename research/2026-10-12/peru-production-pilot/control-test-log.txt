@@ -1,0 +1,18 @@
+test_conversion_constants (test_screen.ScreenControls.test_conversion_constants) ... ok
+test_exact_rounding_boundary (test_screen.ScreenControls.test_exact_rounding_boundary) ... ok
+test_frozen_denominator_and_no_duplicate_records (test_screen.ScreenControls.test_frozen_denominator_and_no_duplicate_records) ... ok
+test_gold_equivalent_not_gold (test_screen.ScreenControls.test_gold_equivalent_not_gold) ... ok
+test_injected_ten_percent_gap (test_screen.ScreenControls.test_injected_ten_percent_gap) ... ok
+test_known_agreement (test_screen.ScreenControls.test_known_agreement) ... ok
+test_missing_component_not_zero (test_screen.ScreenControls.test_missing_component_not_zero) ... ok
+test_missing_host_not_zero (test_screen.ScreenControls.test_missing_host_not_zero) ... ok
+test_provenance_required_even_for_flag (test_screen.ScreenControls.test_provenance_required_even_for_flag) ... ok
+test_scope_block_survives_numerical_agreement (test_screen.ScreenControls.test_scope_block_survives_numerical_agreement) ... ok
+test_unknown_unit_refused (test_screen.ScreenControls.test_unknown_unit_refused) ... ok
+test_wrong_entity (test_screen.ScreenControls.test_wrong_entity) ... ok
+test_wrong_year (test_screen.ScreenControls.test_wrong_year) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.004s
+
+OK

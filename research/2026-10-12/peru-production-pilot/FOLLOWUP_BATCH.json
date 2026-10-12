@@ -1,0 +1,40 @@
+{
+  "started_at_utc": "2026-10-12T19:32:35Z",
+  "selection_basis": "Follow-up of known recurring pilot alerts; no blind selection or independent holdout claim",
+  "records": 25,
+  "gold_records": 10,
+  "record_ids": [
+    "PERU-antamina-Cu-2023",
+    "PERU-antamina-Cu-2019",
+    "PERU-antamina-Cu-2020",
+    "PERU-antamina-Cu-2021",
+    "PERU-antamina-Cu-2022",
+    "PERU-antamina-Zn-2023",
+    "PERU-antamina-Zn-2019",
+    "PERU-antamina-Zn-2020",
+    "PERU-antamina-Zn-2021",
+    "PERU-antamina-Zn-2022",
+    "PERU-la_arena-Au-2023",
+    "PERU-la_arena-Au-2019",
+    "PERU-la_arena-Au-2020",
+    "PERU-la_arena-Au-2021",
+    "PERU-la_arena-Au-2022",
+    "PERU-shahuindo-Au-2023",
+    "PERU-shahuindo-Au-2019",
+    "PERU-shahuindo-Au-2020",
+    "PERU-shahuindo-Au-2021",
+    "PERU-shahuindo-Au-2022",
+    "PERU-nexa_peru-Zn-2023",
+    "PERU-nexa_peru-Zn-2019",
+    "PERU-nexa_peru-Zn-2020",
+    "PERU-nexa_peru-Zn-2021",
+    "PERU-nexa_peru-Zn-2022"
+  ],
+  "objectives": [
+    "Find original Spanish company filings or explicit measurement reconciliations",
+    "Test English/Spanish company language controls",
+    "Resolve exact concentrate product and gold assay/cutoff scope",
+    "Retain missing evidence and park irresolvable cases",
+    "Accept trade comparisons only with company/shipment and metal-content identity"
+  ]
+}

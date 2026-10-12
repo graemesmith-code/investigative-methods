@@ -1,0 +1,240 @@
+{
+  "as_of": "2026-10-12",
+  "status": "Source-tested opportunities, not proven contradictions",
+  "candidates": [
+    {
+      "id": "RAB-MIN-01",
+      "rank": 1,
+      "country": "Brazil",
+      "project": "Kinross - Paracatu tailings facilities",
+      "topic": "Dam construction, liners and stored material",
+      "period": "SEC effective date 31 December 2025; ANM snapshot retrieved 12 October 2026",
+      "western": [
+        "kinross-paracatu-2026.html"
+      ],
+      "host": [
+        "brazil-dams.csv"
+      ],
+      "actor": "The operator supplies SIGBM dam records to Brazil's mining regulator, ANM. Kinross files its technical report as an SEC exhibit.",
+      "identifiers": "Kinross Brasil Mineracao S/A; CNPJ 20346524000146; ANM dam IDs 8438 (Tank XII), 8431 (Eustaquio), 8433 (Santo Antonio). Match individual dams, not just Paracatu.",
+      "specimen": "SEC technical report section 18.4, printed pp. 158-159, describes Specific Tailings Tank XII as having downstream raises and a geomembrane liner. ANM row ID 8438 reports \"Alteamento a jusante\" and liner \"Sim\". The bulk file contains 906 dam rows; six belong to the selected Kinross operator.",
+      "rule": "IF two company declarations describe the same dam, same construction stage and same effective time, AND one asserts a mutually exclusive construction method or liner status, THEN those assertions cannot both be correct.",
+      "gates": "The SEC report is historical and the ANM file is current. Begin with historical design attributes and confirm no intervening modification; obtain a dated host snapshot for changing attributes. Translate modified centreline as a subtype, not as a contradiction of centreline. Current height is not the same fact as maximum licensed design height. Do not infer safety from a construction label.",
+      "pilot": "Extract the three named dams first, then all six Kinross structures. Approve a Portuguese-English construction-method dictionary and freeze dated snapshots. The downstream/liner specimen is consistent; it is a useful extraction control, not a misconduct finding.",
+      "value": "An irreconcilable declaration about tailings engineering could affect downstream communities, safety oversight and investor disclosure. This is the strongest non-financial family in the search.",
+      "readiness": "Download and entity match verified; historical-stage alignment required before automatic contradiction flags."
+    },
+    {
+      "id": "RAB-MIN-02",
+      "rank": 2,
+      "country": "Peru",
+      "project": "Southern Copper - Toquepala and Cuajone",
+      "topic": "Annual molybdenum production, with copper as a later extension",
+      "period": "Calendar 2024",
+      "western": [
+        "southern-sec-2024.html"
+      ],
+      "host": [
+        "peru-dec2024.xlsx"
+      ],
+      "actor": "Southern Copper reports mine production in its SEC 10-K. MINEM publishes company-level data compiled through the ministry's mining-statistics reporting system; monthly ESTAMIN declarations are compulsory.",
+      "identifiers": "Southern Peru Copper Corporation, Sucursal del Peru; Toquepala plus Cuajone. The ministry row is a company aggregate, so add both mines on the SEC side.",
+      "specimen": "MINEM workbook, sheet \"2. PRODUCCIÓN EMPRESAS\", F72: 13,386.3420761 fine metric tonnes of molybdenum. SEC 10-K production table, printed p. 37: Toquepala 19,771 and Cuajone 9,740 thousand pounds. Their sum converts to 13,385.96443107 tonnes, consistent within the two rows' combined rounding interval of +/-0.45359237 tonnes.",
+      "rule": "IF the same annual fine-metal output is reported for the same two mines at 100% scope, AND converted precision intervals do not overlap after revisions and measurement conventions are aligned, THEN the two final output assertions are incompatible.",
+      "gates": "Separate output from sales, concentrate weight from contained metal, and mine production from smelted/refined metal. Use the latest revisions to the same year. Exclude estimates or provisional measurements from a literal exact-fact test. Do not reuse the production denominator in cash-cost calculations: the 10-K separately identifies one as net of metallurgical losses.",
+      "pilot": "Implement molybdenum for 2023-2024 first using the already downloaded two-year ministry table and SEC history. The 2024 specimen is a positive control. Copper should wait for a documented basis crosswalk; an apparent copper difference is not yet a contradiction.",
+      "value": "A material conflict in declared output bears on the production and royalty base of major copper-molybdenum operations. The national workbook permits expansion to other producers once each metal definition is checked.",
+      "readiness": "Both sources and a numerical control verified; final-versus-provisional status remains a gate for any future flag."
+    },
+    {
+      "id": "RAB-MIN-03",
+      "rank": 3,
+      "country": "Cote d'Ivoire",
+      "project": "Endeavour Mining - Ity complex",
+      "topic": "Mining royalties and state-related dividends",
+      "period": "Calendar 2024",
+      "western": [
+        "endeavour-estma-2024.pdf"
+      ],
+      "host": [
+        "ivory-annexes.bin",
+        "ivory-2024.pdf"
+      ],
+      "actor": "Endeavour's Canadian ESTMA return is government-indexed. The national EITI workbook separately identifies the extractive company's initial, adjusted and final declarations.",
+      "identifiers": "Ity complex: Societe des Mines d'Ity (SMI), Societe des Mines de Daapleu (SMD) and Societe des Mines de Floleu (SMF). SMI tax identifier 8500064P; do not compare SMI alone with the whole complex.",
+      "specimen": "Host sheets 34.1, 34.5 and 34.8: company-final column G, rows 27 and 42, records the 85% and 15% royalty components. Their sum is XOF 27,368,514,903. ESTMA reports Ity royalties of USD 45,145,203. The disclosed payment-date FX range, XOF 595.72-631.40 per USD, puts the host sum within USD 43.346m-45.942m: no contradiction from this specimen.",
+      "rule": "IF the approved Ity entity set and the complete royalty basket cover the same 2024 payments, AND the Western USD amount falls outside the host amount's valid FX-and-rounding interval, THEN the payment declarations cannot both describe that same basket.",
+      "gates": "Approve the SMI/SMD/SMF-to-complex mapping before activating the rule. Add both royalty components. Treat state dividends and SODEMI dividends separately before aggregation; establish gross/net withholding treatment. Sheet 45.1 includes government-origin records too: its title alone does not prove company authorship.",
+      "pilot": "Use the six royalty cells as the first control. Then check state and SODEMI dividends, preserving the company columns. Extend separately to Lafigue, whose Western and host records are present, after checking its own entity map.",
+      "value": "The already inspected royalties alone are about USD 45m, and the Western Ity project payment total is USD 265.6m. An unexplained cross-filing conflict would concern substantial public revenue.",
+      "readiness": "Both returns and cell-level company attribution verified; project-basket mapping is the remaining activation gate."
+    },
+    {
+      "id": "RAB-MIN-04",
+      "rank": 4,
+      "country": "Senegal",
+      "project": "Endeavour Mining - Sabodala-Massawa",
+      "topic": "Mining royalties and cash dividends to the state",
+      "period": "Calendar 2024",
+      "western": [
+        "endeavour-estma-2024.pdf"
+      ],
+      "host": [
+        "senegal-extra.bin",
+        "senegal-2024.pdf"
+      ],
+      "actor": "Canadian ESTMA return versus company-declared amounts in Senegal's national EITI reconciliation workbook.",
+      "identifiers": "Sabodala Gold Operations (SGO) and Sabodala Mining Company (SMC) must be distinguished. The Western project is labelled Sabodala Mining Company SARL; the material host payment rows are SGO.",
+      "specimen": "Host sheet 11, I33: SGO company-final mining royalty XOF 12,982,245,458; I38: state dividends XOF 8,550,085,532. ESTMA project royalties are USD 21,399,746. The disclosed FX range yields USD 20.561m-21.793m for the host royalty, which contains the Western amount.",
+      "rule": "IF the project/subsidiary bridge is established and both returns describe the same recipient, payment category and cash year, AND the permissible monetary intervals are disjoint, THEN the paired claims are incompatible.",
+      "gates": "Never join solely on the word Sabodala: SGO and SMC are different legal entities. Use column I for the company, not L for government. The initial government royalty is XOF 16.602bn and was adjusted down; that domestic reconciliation is already public. Dividend gross/net treatment needs separate checking.",
+      "pilot": "Approve the SGO/SMC bridge, then compare royalties first. Preserve G/H/I and J/K/L to show original statements and amendments. Only after that activate dividends and other precisely matched payments.",
+      "value": "The Western project reports USD 207.6m in 2024 payments. A material false representation to either reporting system would be consequential for public revenue and investor disclosure.",
+      "readiness": "Both returns and company cells verified; legal-entity/project bridge required, with a consistent royalty control."
+    },
+    {
+      "id": "RAB-MIN-05",
+      "rank": 5,
+      "country": "Mali",
+      "project": "B2Gold - Fekola",
+      "topic": "Royalties, state dividends and the scope of amended disclosures",
+      "period": "Calendar 2023; 2024 host annexes also downloaded",
+      "western": [
+        "b2gold-estma-2023.pdf"
+      ],
+      "host": [
+        "mali-annexes-2023.xlsx",
+        "mali-2023.pdf"
+      ],
+      "actor": "B2Gold's amended Canadian ESTMA return versus Fekola's own declaration in the national EITI reconciliation schedule.",
+      "identifiers": "Fekola SA; NIF 087800848K. Keep the Fekola mine separate from the Western report's Fekola Regional exploration/development project.",
+      "specimen": "Host sheet \"Annexe 10 - (2)\": I6 tax ad valorem XOF 22,844,482,528; I13 ISCP XOF 22,873,818,742; I7 dividends XOF 32,135,608,890. Column I is company-after-adjustments. ESTMA Fekola reports royalties USD 75.69m and dividends USD 59.06m, within total payments USD 336.31m.",
+      "rule": "IF the same dividend or complete royalty payment basket is asserted for 2023, with free-carried versus ordinary equity dividends and gross/net tax treatment aligned, AND even the full disclosed FX range cannot reconcile it, THEN at least one underlying amount is incorrect.",
+      "gates": "Do not compare ESTMA royalties with the ad-valorem tax alone: determine whether ISCP belongs in the same basket. The dividend alone converts to USD 51.211m-55.071m using the report's CFA-to-USD bounds, below USD 59.06m; this is a review lead, not an established contradiction. Withholding, equity entitlement and cash scope could explain it.",
+      "pilot": "Resolve the dividend gross/net and entitlement definitions first; the required documents are already in hand. Retain the amended ESTMA version 2 and its amendment note. The 2024 host annex is also available for a follow-on year once its Western counterpart is retrieved.",
+      "value": "A large payment claim concerning a state shareholding and a major gold operation gives a concrete public-interest question. The available numbers support a targeted document request if their definitions remain unclear.",
+      "readiness": "Both declarations and exact cells verified; a numerical review lead exists, but no company wrongdoing is established."
+    },
+    {
+      "id": "RAB-MIN-06",
+      "rank": 6,
+      "country": "Madagascar",
+      "project": "Rio Tinto - QIT Madagascar Minerals (QMM)",
+      "topic": "Mining royalty payments, including the local share",
+      "period": "Calendar 2023",
+      "western": [
+        "uk-rio-2023.json",
+        "rio-fca-payments-2023.html"
+      ],
+      "host": [
+        "madagascar-2023.pdf",
+        "madagascar-annexes-2023.pdf"
+      ],
+      "actor": "Direct Companies House JSON of Rio Tinto's payment report, corroborated by an FCA-hosted filing, versus QMM's company return published by EITI Madagascar.",
+      "identifiers": "Rio Tinto plc, UK company 00719885; project code MDG01. QMM tax identifier 4000164665; RCS 1998B00480 (host annex PDF p. 15).",
+      "specimen": "UK JSON projectPayments/projectPayment: MDG01 Royalties USD 3,527,727. Host report PDF p. 264, table 109: QMM declares MGA 4,747,768,340.47 mining royalty plus MGA 11,078,126,125.81 local mining royalty share to the Fort-Dauphin treasury. The table explicitly attributes its source to companies' reporting templates.",
+      "rule": "IF those two Malagasy components exhaust the royalty basket reported in MDG01, AND payment-date currency conversion, timing and refund treatment cannot reconcile their sum with the UK amount, THEN the declarations conflict.",
+      "gates": "Use company declarations on p. 264, not the government-derived theoretical allocation on p. 259. Translate ristourne miniere as a local royalty share, not automatically as a refund. Do not treat promised project contributions on p. 214 as paid cash without checking the conditional wording. A single average exchange rate cannot establish a contradiction.",
+      "pilot": "Start with the royalty basket and obtain/derive legitimate payment-date FX bounds. Then expand across years using the UK company endpoint, which returned reports for 2015-2025 and preserves versions. The all-company 2024 endpoint returned 52 reports.",
+      "value": "This joins public revenues from a coastal mineral-sands project with a major multinational's UK filing; the local royalty share connects directly to community benefits.",
+      "readiness": "Direct government API and host company statement verified; royalty-basket and FX validation still required."
+    },
+    {
+      "id": "RAB-MIN-07",
+      "rank": 7,
+      "country": "Democratic Republic of Congo",
+      "project": "Barrick / AngloGold Ashanti - Kibali",
+      "topic": "Dated ownership percentages and shareholder identities",
+      "period": "2023 reporting year",
+      "western": [
+        "barrick-sec-aif-2023.html"
+      ],
+      "host": [
+        "congo-annexes.bin",
+        "congo-2023.pdf"
+      ],
+      "actor": "Barrick's SEC-filed Annual Information Form versus Kibali's capital-structure declaration to the DRC national EITI process.",
+      "identifiers": "Kibali Goldmines SA, NIF A0702049L; Barrick 45%, AngloGold Ashanti 45%, SOKIMO 10%. Match shareholder interests at the same corporate level.",
+      "specimen": "Host sheet \"Annexe 11 \" (trailing space), row 29: C29 says the company supplied its declaration; F29 is the tax ID, I29 records SOKIMO 10, N29 Barrick 45; the following row continues the other shareholder. \"Annexe 13 \" records the company's statement that Barrick and AngloGold each control 45%. Barrick's 2023 AIF reports a 45% interest.",
+      "rule": "IF two company statements describe the same class of shares or economic interest at the same company level and date, AND the named holder's percentages are mutually incompatible, THEN both cannot be correct.",
+      "gates": "Do not equate a direct holding-company share with a parent's effective economic interest. Track acquisition dates and share classes. Silence on a beneficial owner is not a contradictory denial. Kamoa was rejected for this ownership pilot because the same host table marks its capital declaration as not supplied.",
+      "pilot": "Use Kibali's 45/45/10 split as the first control; add AngloGold's SEC report as a third independent regulatory filing. Then map other DRC operators with an affirmative company-submission marker to listed Western parents.",
+      "value": "An ownership conflict could affect entitlement to profits, state participation and identification of the party responsible for a major gold operation. It avoids foreign-exchange ambiguity.",
+      "readiness": "Host company authorship and Western interest verified; same-date and same-level ownership checks remain mandatory."
+    },
+    {
+      "id": "RAB-MIN-08",
+      "rank": 8,
+      "country": "Burkina Faso",
+      "project": "IAMGOLD - Essakane",
+      "topic": "Company-declared equity ownership; production as a second-stage check",
+      "period": "Capital snapshot labelled 31 December 2023 inside the 2024 host return",
+      "western": [
+        "iamgold-sec-aif-2023.html",
+        "iamgold-sec-2024.html"
+      ],
+      "host": [
+        "burkina-annexes.bin",
+        "burkina-2024.pdf"
+      ],
+      "actor": "IAMGOLD's SEC-filed AIF versus an embedded company capital-structure form in Burkina Faso's national EITI workbook.",
+      "identifiers": "Iamgold Essakane SA, host tax identifier 00016079H. Annexe 10 row 9 identifies its supplied legal-ownership data; the embedded object is anchored to that row.",
+      "specimen": "Inside the XLSX ZIP: xl/embeddings/Microsoft_Excel_Worksheet3.xlsx, sheet \"17.Structure de Capital \". D13 is 0.10 state participation; C15 identifies IAMGOLD and D15 is 0.90. The Western AIF reports IAMGOLD 90% and state 10%. The form includes a management-attestation section. Its capital-date label is 2023 despite a 2024 reporting-period header.",
+      "rule": "IF the date label is resolved and two declarations assert different ownership fractions for the same shareholding at the same date, THEN both cannot be correct. A later ownership change cannot make the earlier statement contradictory.",
+      "gates": "Preserve the embedded document and the workbook relationship linking it to row 9. Do not silently change the date to 2024. Production is promising but not yet semantically aligned: company volume in Annexe 6 E18 is 14,603.158 kg, while the SEC 2024 table reports 454,000 ounces at 100% scope. Gold purity, inventory and production definitions must be settled first.",
+      "pilot": "Build the 90/10 ownership control, then extract other embedded capital forms. For the production branch, distinguish fine gold, dore, sales and attributable output; never call the raw kilogram/ounce difference a proven false statement.",
+      "value": "State equity determines public participation in profits. The embedded forms are a particularly useful corpus of attributable company representations that flat table scrapers can miss.",
+      "readiness": "Original embedded form, parent filing and provenance anchor verified; explicit date ambiguity is quarantined."
+    },
+    {
+      "id": "RAB-MIN-09",
+      "rank": 9,
+      "country": "Zambia",
+      "project": "Barrick - Lumwana",
+      "topic": "Mineral royalty and corporate-income-tax payments",
+      "period": "Calendar 2023; use the 2023 reconciliation in the combined 2023-2024 report",
+      "western": [
+        "barrick-estma-2023.pdf"
+      ],
+      "host": [
+        "zambia-2023-2024.pdf"
+      ],
+      "actor": "Barrick's Canadian ESTMA return versus Lumwana's company column in the Zambia EITI reconciliation.",
+      "identifiers": "Lumwana Mining Company; 100% project scope. Keep Kansanshi and its distinct ZCCM royalty arrangement outside this pilot.",
+      "specimen": "ESTMA project table: Lumwana royalties USD 66,410,000 and taxes USD 7,620,000. Host PDF physical p. 119 (printed p. 117): company-declared mineral royalty ZMW 1,295,435,702.84 and income tax ZMW 157,681,355.48, alongside government amounts and reconciliation notes.",
+      "rule": "IF the two declarations concern the same cash-paid mineral royalty or income tax for 2023, AND validated FX, refunds, offsets and amendments cannot reconcile them, THEN they cannot both be accurate descriptions of those payments.",
+      "gates": "The host report already explains duplicated government records and earlier-year amounts paid in 2023. Preserve that reconciliation; do not present it as a new discovery. A payment year differs from a liability year. The Western average ZMW/USD rate is contextual, not a permissible substitute for transaction-date conversion. Do not mix cash payments and VAT offsets.",
+      "pilot": "Begin with the two company-column fields. Check amended amounts and establish legitimate FX bounds before running annual comparisons. Broaden to Kansanshi only after separating statutory mineral royalty from payments to ZCCM-IH.",
+      "value": "The sample royalty is USD 66.4m on the Western side. A surviving conflict would bear on state revenue from a major copper project, rather than merely on a minor reporting line.",
+      "readiness": "Both disclosures and the exact company column verified; reconciliation, cash-basis and currency gates are unresolved."
+    },
+    {
+      "id": "RAB-MIN-10",
+      "rank": 10,
+      "country": "Ghana",
+      "project": "Galiano Gold - Asanko Gold Mine",
+      "topic": "Mining royalties declared through two reporting systems",
+      "period": "Calendar 2023",
+      "western": [
+        "galiano-estma-2023.pdf"
+      ],
+      "host": [
+        "ghana-2023.pdf"
+      ],
+      "actor": "Galiano's Canadian ESTMA return versus Asanko Gold Mines Ltd's own payment figures in Ghana's EITI reconciliation appendix.",
+      "identifiers": "Asanko Gold Mines Ltd; TIN C0004524764. Join the operating project, not merely the Galiano parent or its historical equity percentage.",
+      "specimen": "ESTMA project table reports Asanko royalties of USD 14,802,000. Host Appendix 3D begins at PDF p. 250; p. 251 gives company-final mineral royalty GHS 142,780,548. It separately shows a government adjustment of GHS 11,606,054. The Western return supplies currency-conversion notes and rounds to USD 1,000.",
+      "rule": "IF project scope, included royalty recipients and cash-year definitions are identical, AND the permitted conversion and rounding intervals do not overlap, THEN the two royalty declarations conflict.",
+      "gates": "Do not apply the parent's ownership percentage to a project-wide payment number. Galiano's corporate withholding-tax line is a different project line. Read category-specific currency notes; some payments may already be in USD. Exclude the domestic government adjustment from any claim of a newly found cross-government mismatch.",
+      "pilot": "Use the stated TIN and Appendix 3D to anchor extraction. Compare royalty components and their currency notes first; retain the company-final figure and original declaration separately. Expansion can reuse the same national reconciliation appendix for other Western-listed gold producers.",
+      "value": "This is a roughly USD 15m royalty claim in a producing gold mine. The English-language pair is a useful baseline to validate the financial rules before applying translated versions elsewhere.",
+      "readiness": "Both sources and company attribution verified; payment-currency and project-wide scope must be documented before a verdict."
+    }
+  ],
+  "embedded_specimen": {
+    "sha256": "a3fa2d6c613a963ce8ca70d28db8c857f9ccfd11c043625e06762ff72aa3f525",
+    "container": "burkina-annexes.bin",
+    "zip_path": "xl/embeddings/Microsoft_Excel_Worksheet3.xlsx",
+    "provenance": "Annexe 10 row 9; sheet11 relationship rId10; anchor row 8 zero-based"
+  }
+}

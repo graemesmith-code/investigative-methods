@@ -1,0 +1,76 @@
+{
+  "RAB-MIN-02": {
+    "method": "human-reviewed extraction retained from audit; source-hash bound",
+    "source_ids": [
+      "southern-sec-2024.html",
+      "peru-dec2024.xlsx",
+      "audit-peru-annual-2024.xlsx",
+      "audit-southern-memoria2024.pdf"
+    ],
+    "evidence_locators": [
+      "SEC 2024 10-K printed p.37; second MOLYBDENUM (thousand pounds) table, Toquepala and Cuajone, 2023 column",
+      "MINEM annual workbook Mo-Empresas!J4/J7 (2023); K4/A16 exclude preliminary 2024; A7 entity; A1/A2 units",
+      "Spanish annual report p.12: concentrate terminology cross-check"
+    ],
+    "western_values": null
+  },
+  "RAB-MIN-03": {
+    "method": "human-reviewed extraction retained from audit; source-hash bound",
+    "source_ids": [
+      "endeavour-estma-2024.pdf",
+      "ivory-annexes.bin",
+      "ivory-2024.pdf",
+      "audit-endeavour-aif-2024.pdf"
+    ],
+    "evidence_locators": [
+      "Endeavour ESTMA 2024 project table: Ity royalties and FX note",
+      "Endeavour AIF 2024 p.128: PE26/SMI, PE49/SMD, PE53/SMF",
+      "EITI sheets 34.1, 34.5, 34.8; E2 companies; K2 year; C27/C42 labels; E/F/G rows 27 and 42 company initial/adjustment/final",
+      "EITI report section 4.8 p.207: calendar-year flows"
+    ],
+    "western_values": "45145203"
+  },
+  "RAB-MIN-07": {
+    "method": "human-reviewed extraction retained from audit; source-hash bound",
+    "source_ids": [
+      "barrick-sec-aif-2023.html",
+      "congo-annexes.bin",
+      "congo-2023.pdf"
+    ],
+    "evidence_locators": [
+      "Barrick 2023 AIF printed p.30 (45% applied to 2023 results) and p.92 history",
+      "EITI Annexe 10!A6 period; Annexe 11 !C29=Oui, F29=A0702049L, L29=BARRICK, N29=45",
+      "EITI Annexe 13 !D27: company declaration attribution; preserve trailing spaces in sheet names"
+    ],
+    "western_values": {
+      "2023": {
+        "Barrick": "45"
+      }
+    }
+  },
+  "RAB-MIN-08": {
+    "method": "human-reviewed extraction retained from audit; source-hash bound",
+    "source_ids": [
+      "iamgold-sec-aif-2023.html",
+      "iamgold-sec-2024.html",
+      "audit-iamgold-sec-2025.html",
+      "burkina-annexes.bin",
+      "burkina-2024.pdf"
+    ],
+    "evidence_locators": [
+      "Outer workbook Annexe 10 row 9 / sheet11.xml.rels rId10 -> xl/embeddings/Microsoft_Excel_Worksheet3.xlsx",
+      "Embedded sheet 17.Structure de Capital : A6=2024 period, A12=capital at 31/12/2023; C15=IAMGOLD; D15=.9; D13=.1",
+      "SEC 2023 AIF and 2024 MD&A support 90/10; 2025 MD&A printed p.21 dates change to 20 June 2025; labels remain uncorrected"
+    ],
+    "western_values": {
+      "2023-12-31": {
+        "IAMGOLD": "90",
+        "state": "10"
+      },
+      "2024": {
+        "IAMGOLD": "90",
+        "state": "10"
+      }
+    }
+  }
+}
