@@ -1,0 +1,38 @@
+{
+  "frozen_records": 100,
+  "gold_records": 35,
+  "numeric_pairs": 94,
+  "raw_numeric_flags_including_blocked": 62,
+  "raw_within_precision_including_blocked": 32,
+  "narrow_screen_eligible": 45,
+  "outcomes": {
+    "unresolved_numeric_difference": 26,
+    "consistent_with_display_precision": 19,
+    "blocked_comparability": 49,
+    "missing_observation": 5,
+    "missing_numeric_component": 1
+  },
+  "confirmed_company_contradictions": 0,
+  "phase_outcomes": {
+    "development": {
+      "unresolved_numeric_difference": 5,
+      "consistent_with_display_precision": 4,
+      "blocked_comparability": 10,
+      "missing_observation": 1
+    },
+    "transfer_test": {
+      "consistent_with_display_precision": 15,
+      "unresolved_numeric_difference": 21,
+      "blocked_comparability": 39,
+      "missing_observation": 4,
+      "missing_numeric_component": 1
+    }
+  },
+  "gold_outcomes": {
+    "consistent_with_display_precision": 4,
+    "unresolved_numeric_difference": 1,
+    "blocked_comparability": 29,
+    "missing_numeric_component": 1
+  },
+  "cached_comparison_seconds": 0.003971280000769184
+}
