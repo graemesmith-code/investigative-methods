@@ -1,0 +1,62 @@
+{
+  "kind": "New archival deliverable manifest; not original acquisition manifest",
+  "sha256_scope": "Current archive file bytes excluding this manifest itself",
+  "files": [
+    {
+      "path": "FINDINGS.md",
+      "bytes": 33366,
+      "sha256": "77c6502e0b65960b9e358a79cb6a3aa4f5da81110286742cfff0f00f24159950"
+    },
+    {
+      "path": "METHODOLOGY.md",
+      "bytes": 4842,
+      "sha256": "e92ea459c4bcf5ec184d8b14d0106a3a5e70e77613a30fd5d72046121dff4361"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 3846,
+      "sha256": "03886b576f5a2779c2c8339fc9ea8cd647098599c297ce545b699e77261be60f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3955,
+      "sha256": "3547938567309951ab0e2442209cc58df2c3de1265ca2ef66b9d17c25a1d966d"
+    },
+    {
+      "path": "scripts/check_links.py",
+      "bytes": 1616,
+      "sha256": "f7e4f737fe4799e34fd74b4c7cda307b1b1c1dea36a451de6c606f83aa6f2eeb"
+    },
+    {
+      "path": "scripts/validate_archive.py",
+      "bytes": 2216,
+      "sha256": "5ef99f5f8e57cb68a0db7c2e4cf3aa23a9aff3ea4f9d29adb4c101c43962be20"
+    },
+    {
+      "path": "sources/saved-page.json",
+      "bytes": 98825,
+      "sha256": "5c9bd00bd081007808aa64835cc554a67f7c98141a428d2a7e310660dcfea11a"
+    },
+    {
+      "path": "sources/source-urls.json",
+      "bytes": 7197,
+      "sha256": "06d518fd3212af71302c631e5544ff82e27778e9dde5a8b41b580d4bb279ca5e"
+    },
+    {
+      "path": "validation/README.md",
+      "bytes": 1704,
+      "sha256": "e1eaedb6d1785258e64c31e367fe6dd5703eec304b03eff77d8bf35f60d9b29e"
+    },
+    {
+      "path": "validation/archive-checks.json",
+      "bytes": 1452,
+      "sha256": "b0005202e1ec0923387140b04ac4d4aa071307d0a34b8432e61b7e8c31efa34d"
+    },
+    {
+      "path": "validation/link-checks.json",
+      "bytes": 17456,
+      "sha256": "9b08ca36a317053b5d01497518db42187053170342abe6355c8d0f05bcd51616"
+    }
+  ],
+  "missing_original_artifacts": "See PROVENANCE.md; no missing execution artifacts reconstructed"
+}
