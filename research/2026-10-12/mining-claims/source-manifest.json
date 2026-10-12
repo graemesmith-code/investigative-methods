@@ -1,0 +1,312 @@
+[
+  {
+    "source_id": "audit-endeavour-aif-2024.pdf",
+    "url": "https://edv-14806-s3.s3.eu-west-2.amazonaws.com/files/5617/4558/2776/EDV_2024_AIF.pdf",
+    "final_url": "https://edv-14806-s3.s3.eu-west-2.amazonaws.com/files/5617/4558/2776/EDV_2024_AIF.pdf",
+    "tested_at_utc": "2026-10-12T11:44:17Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 33911967,
+    "sha256": "e369d92ca0fa964977871c2f573889f174168e318914ccb1cd04931d68dc3d33"
+  },
+  {
+    "source_id": "audit-iamgold-sec-2025.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299326001022/exhibit99-2.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299326001022/exhibit99-2.htm",
+    "tested_at_utc": "2026-10-12T11:55:52Z",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1723304,
+    "sha256": "359573c2a1521591a253adbb261d818c0260ee1d39ee434e34e0ff50e28e1fe5"
+  },
+  {
+    "source_id": "audit-peru-annual-2024.xlsx",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/8166327/6827926-am-2024-excel-de-anexos.xlsx?v=1749051484",
+    "final_url": "https://cdn.www.gob.pe/uploads/document/file/8166327/6827926-am-2024-excel-de-anexos.xlsx?v=1749051484",
+    "tested_at_utc": "2026-10-12T11:49:40Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 708446,
+    "sha256": "b473233f516ce37c7ac465a63df12bd060876e7e34071a04be260eb1f5addb8d"
+  },
+  {
+    "source_id": "audit-sigbm-manual.pdf",
+    "url": "https://www.gov.br/anm/pt-br/assuntos/acesso-a-sistemas/sistema-integrado-de-gestao-de-barragens-de-mineracao-sigbm-versao-minerador/manual-do-usuario-externo-sigbm/@@download/file",
+    "final_url": "https://www.gov.br/anm/pt-br/assuntos/acesso-a-sistemas/sistema-integrado-de-gestao-de-barragens-de-mineracao-sigbm-versao-minerador/manual-do-usuario-externo-sigbm/@@download/file",
+    "tested_at_utc": "2026-10-12T11:48:52Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 2000884,
+    "sha256": "d652c2d5215d31804727d41aa8acf41ce1bb463da96a035205cebd324c0dc679"
+  },
+  {
+    "source_id": "audit-southern-memoria2024.pdf",
+    "url": "https://southerncoppercorp.com/wp-content/uploads/2025/06/m2024e.pdf",
+    "final_url": "https://southerncoppercorp.com/wp-content/uploads/2025/06/m2024e.pdf",
+    "tested_at_utc": "2026-10-12T11:37:49Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 5147126,
+    "sha256": "4c717de83e0cb6bcfef4aefdd2414437840c82b4ae601433ddf8cd2ebdf5a2d5"
+  },
+  {
+    "source_id": "b2gold-estma-2023.pdf",
+    "url": "https://s204.q4cdn.com/324791784/files/doc_downloads/estma/2023-ESTMA-B2Gold-Report-Amended.pdf",
+    "final_url": "https://s204.q4cdn.com/324791784/files/doc_downloads/estma/2023-ESTMA-B2Gold-Report-Amended.pdf",
+    "tested_at_utc": "2026-10-12T09:31:41Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 505006,
+    "sha256": "87e0fd7c858a128d0b9af958b83db30f0f0dbea04d76baef0c8bc30958fbd303"
+  },
+  {
+    "source_id": "barrick-estma-2023.pdf",
+    "url": "https://www.barrick.com/files/doc_downloads/estma/Barrick_2023_ESTMA_Report.pdf",
+    "final_url": "https://s25.q4cdn.com/322814910/files/doc_downloads/estma/Barrick_2023_ESTMA_Report.pdf",
+    "tested_at_utc": "2026-10-12T09:31:46Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 259256,
+    "sha256": "5ac0063101d32f531c49752175aa6f5f1176eb8663bf5289d6c58254daf1eb20"
+  },
+  {
+    "source_id": "barrick-sec-aif-2023.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/756894/000119312524068583/d643214dex991.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/756894/000119312524068583/d643214dex991.htm",
+    "tested_at_utc": "2026-10-12T09:49:18Z",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1917681,
+    "sha256": "6bcdf955b9b82b54e722595eb0d91bc4d678ab9e58ed982ca112da3fd80da6bd"
+  },
+  {
+    "source_id": "brazil-dams.csv",
+    "url": "https://dadosabertos.anm.gov.br/SIGBM/Barragens.csv",
+    "final_url": "https://dadosabertos.anm.gov.br/SIGBM/Barragens.csv",
+    "tested_at_utc": "2026-10-12T09:30:45Z",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 3384198,
+    "sha256": "bfce8907fb986b1328ad6dda0116dc8d3347848dcc23ac5bf1a25bf979d0126f"
+  },
+  {
+    "source_id": "burkina-2024.pdf",
+    "url": "https://eiti.org/document/25566",
+    "final_url": "https://eiti.org/sites/default/files/Rapport-ITIE-BF-2024_0.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:29:27Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 2295788,
+    "sha256": "7d38ba656ba3bb3f74c74d3d37f457b05f5215f3625feb32330ce21095080428"
+  },
+  {
+    "source_id": "burkina-annexes.bin",
+    "url": "https://eiti.org/document/25565",
+    "final_url": "https://eiti.org/sites/default/files/Annexes-Rapport-ITIE-2024-OK.xlsx?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:29:27Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 17356887,
+    "sha256": "470b85faa01d75e4d90fd88ef34859a2a9958484e6981a3d926267ae76b36ce5"
+  },
+  {
+    "source_id": "congo-2023.pdf",
+    "url": "https://eiti.org/document/25573",
+    "final_url": "https://eiti.org/sites/default/files/Rapport%20final%20ITIE%20RDC%202023%20-%2031-12-2025%20%28Signe%CC%81%29.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:30:31Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 4231967,
+    "sha256": "7f4ede86034e8b4a56c6e587d6e13147e801ed3bb348d8013682ee6c794f3500"
+  },
+  {
+    "source_id": "congo-annexes.bin",
+    "url": "https://eiti.org/document/25572",
+    "final_url": "https://eiti.org/sites/default/files/Rapport%20final%20ITIE%20RDC%20202%20%28Annexes%29%20%E2%80%93%2031-12-2025.xlsx?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:30:31Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 7323019,
+    "sha256": "ca70d7339c27a7446af91be9fcf2c2b7ec0caf636acaf8801ceedbe634cb11d6"
+  },
+  {
+    "source_id": "endeavour-estma-2024.pdf",
+    "url": "https://edv-14806-s3.s3.eu-west-2.amazonaws.com/files/4717/4886/2253/Endeavour_Mining_ESTMA_2024.pdf",
+    "final_url": "https://edv-14806-s3.s3.eu-west-2.amazonaws.com/files/4717/4886/2253/Endeavour_Mining_ESTMA_2024.pdf",
+    "tested_at_utc": "2026-10-12T09:31:41Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 821834,
+    "sha256": "6c0343484f5dd7b2a660a2745fa45f7bfdf11fb7594166c45463eed7c65e5b49"
+  },
+  {
+    "source_id": "galiano-estma-2023.pdf",
+    "url": "https://s203.q4cdn.com/835664992/files/doc_downloads/estma/galiano-gold-inc-2023-estma-report-final.pdf",
+    "final_url": "https://s203.q4cdn.com/835664992/files/doc_downloads/estma/galiano-gold-inc-2023-estma-report-final.pdf",
+    "tested_at_utc": "2026-10-12T09:31:48Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 435496,
+    "sha256": "69eed780af76dc40a5dd4adfe8a844e99c83e0154cb4c248c79c7929f5c4f863"
+  },
+  {
+    "source_id": "ghana-2023.pdf",
+    "url": "https://eiti.org/sites/default/files/2023%20gheiti%20mining%20sector%20reconciliation%20report.pdf",
+    "final_url": "https://eiti.org/sites/default/files/2023%20gheiti%20mining%20sector%20reconciliation%20report.pdf",
+    "tested_at_utc": "2026-10-12T09:28:40Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 5196727,
+    "sha256": "21dae38cb0e39c686a6d6578aa808190514e913d7a5ac573695d12aa9697af0c"
+  },
+  {
+    "source_id": "iamgold-sec-2024.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1203464/000162828025006844/q42024managementdiscussion.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1203464/000162828025006844/q42024managementdiscussion.htm",
+    "tested_at_utc": "2026-10-12T09:42:56Z",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 2026458,
+    "sha256": "509eabbfd2920cf7eccb8a891d80de6dfada2ec08c7af9ee0c22ec6a0503b31b"
+  },
+  {
+    "source_id": "iamgold-sec-aif-2023.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299324006457/exhibit99-1.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1203464/000106299324006457/exhibit99-1.htm",
+    "tested_at_utc": "2026-10-12T09:50:59Z",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1050397,
+    "sha256": "6f21a6e678b1e03555a5215b3a75bedeec8be49d53b31f0e97a072fdd5d032ec"
+  },
+  {
+    "source_id": "ivory-2024.pdf",
+    "url": "https://eiti.org/document/26393",
+    "final_url": "https://eiti.org/sites/default/files/Rapport%20ITIE-CI%202024%20V.19%2008%2026%20FINAL.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:35:36Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 12305843,
+    "sha256": "0edf8b760a791792383a181eb98a6e227aa716b7f4510d3f7b28d3aeae82def9"
+  },
+  {
+    "source_id": "ivory-annexes.bin",
+    "url": "https://eiti.org/document/26394",
+    "final_url": "https://eiti.org/sites/default/files/Annexe_Rapport%20ITIE%20CI%202024%20V%2019%2008%2026%20FINAL.xlsx?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:35:36Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 5038715,
+    "sha256": "bb7c707398dad4b5f43695a24d7c0c85ccd607ebe354599e03fd2ce1d5380cc8"
+  },
+  {
+    "source_id": "kinross-paracatu-2026.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/701818/000110465926035270/tm269365d1_ex99-1.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/701818/000110465926035270/tm269365d1_ex99-1.htm",
+    "tested_at_utc": "2026-10-12T09:31:41Z",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 2552896,
+    "sha256": "636478d62e3c750e2e3b8d4c99245afa3140f2eae9dda9abded271c148a327bd"
+  },
+  {
+    "source_id": "madagascar-2023.pdf",
+    "url": "https://eiti.org/document/25571",
+    "final_url": "https://eiti.org/sites/default/files/2025_12_31_RAPPORT-ITIE-2023.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:47:31Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 9741664,
+    "sha256": "a72fa19679ad5c10bd9edf109a09035ed16408d969eb1f38a1935840130b8178"
+  },
+  {
+    "source_id": "mali-2023.pdf",
+    "url": "https://eiti.org/document/23795",
+    "final_url": "https://eiti.org/sites/default/files/2024-07/Rapport-ITIE-2023-_-Version-Definitive.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:31:41Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 3746311,
+    "sha256": "3fa578080393d623dad2e2229303bd9612b0e203a55a442b16757efa5c522a6c"
+  },
+  {
+    "source_id": "mali-annexes-2023.xlsx",
+    "url": "https://itie.ml/wp-content/uploads/2024/06/Annexes-ITIE-2023-_-Version-Definitive.xlsx",
+    "final_url": "https://itie.ml/wp-content/uploads/2024/06/Annexes-ITIE-2023-_-Version-Definitive.xlsx",
+    "tested_at_utc": "2026-10-12T09:43:44Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 758969,
+    "sha256": "9ba1df201bde470fb8b33490e4a1b5469a36d158f3511e952936aa09511381c8"
+  },
+  {
+    "source_id": "peru-dec2024.xlsx",
+    "url": "https://cdn.www.gob.pe/uploads/document/file/7632703/6471629-bem-diciembre-2024-excel-de-anexos.xlsx?v=1739544984",
+    "final_url": "https://cdn.www.gob.pe/uploads/document/file/7632703/6471629-bem-diciembre-2024-excel-de-anexos.xlsx?v=1739544984",
+    "tested_at_utc": "2026-10-12T09:34:16Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 340458,
+    "sha256": "436d50f4c68219264600a6c4bed8a3e44b1ecc6016a806034a731f192af119d6"
+  },
+  {
+    "source_id": "rio-fca-payments-2023.html",
+    "url": "https://data.fca.org.uk/artefacts/NSM/RNS/5196185.html",
+    "final_url": "https://data.fca.org.uk/artefacts/NSM/RNS/5196185.html",
+    "tested_at_utc": "2026-10-12T09:49:18Z",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 224119,
+    "sha256": "6000d80faac0be888437bfd7922dc6d1513c3100d2196bae5a20d3999977f651"
+  },
+  {
+    "source_id": "senegal-2024.pdf",
+    "url": "https://eiti.org/document/25525",
+    "final_url": "https://eiti.org/sites/default/files/0.%20Rapport%20final%20ITIE-S%C3%A9n%C3%A9gal%202024%20-%20Version%20Finale%20-%20VF221225-1.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:30:31Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 13577107,
+    "sha256": "55ac7912be7ee54d8d966e1c4f1d5032966e5004364ed8217f9515d35e61692f"
+  },
+  {
+    "source_id": "senegal-extra.bin",
+    "url": "https://eiti.org/document/25614",
+    "final_url": "https://eiti.org/sites/default/files/Rapport-final-ITIE-Senegal-2024-Version-Finale-annexes-VF221225.xlsx?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:30:45Z",
+    "status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytes": 18448540,
+    "sha256": "52d93919390a038be03e8081c9f519977cd844c81ec67eadd4537898da706138"
+  },
+  {
+    "source_id": "southern-sec-2024.html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025002017/scco-20241231x10k.htm",
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025002017/scco-20241231x10k.htm",
+    "tested_at_utc": "2026-10-12T09:37:16Z",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 10316967,
+    "sha256": "7baceed41818715ef29c29024a07d3a21552901271ac00d48bfb8772f32bf2e9"
+  },
+  {
+    "source_id": "uk-rio-2023.json",
+    "url": "https://extractives.companieshouse.gov.uk/api/company/00719885/year/2023/json",
+    "final_url": "https://extractives.company-information.service.gov.uk:443/api/company/00719885/year/2023/json",
+    "tested_at_utc": "2026-10-12T10:00:07Z",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 27537,
+    "sha256": "dde28ef723d79ecf9c6eb20fab64f8e8efa05987a3a66ce354ed4a85dc7c1d0a"
+  },
+  {
+    "source_id": "zambia-2023-2024.pdf",
+    "url": "https://eiti.org/document/25291",
+    "final_url": "https://eiti.org/sites/default/files/Zambia%20EITI%202023%20%20and%202024%20report.pdf?hash=1791799200",
+    "tested_at_utc": "2026-10-12T09:29:27Z",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 3410670,
+    "sha256": "0a87d16251692757492a9cd3a61933d6d708f9953f3ea65d971bb06bffa59333"
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "description": "Curated demonstration inputs. Gate values are for exercising the kernel; the PDF governs investigative readiness.",
+  "pairs": [
+    {
+      "id": "PERU-MOLYBDENUM-2024-CONTROL",
+      "gates": {
+        "company_attribution": true,
+        "same_entity_project": true,
+        "same_period": true,
+        "same_fact_definition": true,
+        "same_scope": true,
+        "same_unit_basis": true,
+        "version_checked": true,
+        "extraction_verified": true
+      },
+      "western": {
+        "kind": "interval",
+        "unit": "metric_tonnes_fine_molybdenum",
+        "low": "13385.51083870",
+        "high": "13386.41802344"
+      },
+      "host": {
+        "kind": "interval",
+        "unit": "metric_tonnes_fine_molybdenum",
+        "low": "13386.3420761",
+        "high": "13386.3420761"
+      },
+      "expected": "COMPATIBLE_WITH_PRECISION",
+      "note": "29,511 thousand lb, with +/-1 thousand lb combined rounding; this does not prove the statements true."
+    },
+    {
+      "id": "ITY-ROYALTY-FX-ARITHMETIC-CONTROL",
+      "gates": {
+        "company_attribution": true,
+        "same_entity_project": true,
+        "same_period": true,
+        "same_fact_definition": true,
+        "same_scope": true,
+        "same_unit_basis": true,
+        "version_checked": true,
+        "extraction_verified": true
+      },
+      "western": {
+        "kind": "interval",
+        "unit": "USD",
+        "low": "45145202.5",
+        "high": "45145203.5"
+      },
+      "host": {
+        "kind": "interval",
+        "unit": "USD",
+        "low": "43345763.2293",
+        "high": "45941910.4664"
+      },
+      "expected": "COMPATIBLE_WITH_PRECISION",
+      "note": "Conditional on the approved SMI/SMD/SMF basket. Do not infer source truth from overlap."
+    },
+    {
+      "id": "MALI-DIVIDEND-DEFINITION-GATE",
+      "gates": {
+        "company_attribution": true,
+        "same_entity_project": true,
+        "same_period": true,
+        "same_fact_definition": false,
+        "same_scope": false,
+        "same_unit_basis": true,
+        "version_checked": true,
+        "extraction_verified": true
+      },
+      "western": {
+        "kind": "interval",
+        "unit": "USD",
+        "low": "59055000",
+        "high": "59065000"
+      },
+      "host": {
+        "kind": "interval",
+        "unit": "USD",
+        "low": "51211306.3271",
+        "high": "55070792.9548"
+      },
+      "expected": "REVIEW_REQUIRED",
+      "note": "Non-overlapping arithmetic is not a verdict while gross/net and entitlement definitions are unresolved."
+    },
+    {
+      "id": "SYNTHETIC-NO-REAL-COMPANY-EXAMPLE",
+      "gates": {
+        "company_attribution": true,
+        "same_entity_project": true,
+        "same_period": true,
+        "same_fact_definition": true,
+        "same_scope": true,
+        "same_unit_basis": true,
+        "version_checked": true,
+        "extraction_verified": true
+      },
+      "western": {
+        "kind": "interval",
+        "unit": "same_unit",
+        "low": "100",
+        "high": "101"
+      },
+      "host": {
+        "kind": "interval",
+        "unit": "same_unit",
+        "low": "103",
+        "high": "104"
+      },
+      "expected": "INCOMPATIBLE_CLAIMS",
+      "note": "Invented values solely to verify the incompatible branch."
+    }
+  ]
+}

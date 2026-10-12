@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "RAB-MIN-03",
+  "project": "Endeavour / Ity",
+  "status": "retained_narrow_scope",
+  "reviewed_on": "2026-10-12",
+  "required_context": {
+    "entity_scope": "100% Ity complex: SMI + SMD + SMF",
+    "metric": "monetary mining royalties, 85% plus 15% components",
+    "period": "calendar 2024",
+    "basis": "positive cash payments, payment-date FX bounds",
+    "attribution": "Canadian ESTMA company return / EITI initial company declarations unchanged after reconciliation"
+  },
+  "comparison": {
+    "kind": "royalty_fx_interval",
+    "approved_fx_xof_per_usd": [
+      "595.72",
+      "631.40"
+    ],
+    "display_allowance": "one XOF per host cell; one USD for Western total"
+  },
+  "required_gates": [
+    "company_attribution_reviewed",
+    "entity_bridge_reviewed",
+    "metric_basis_reviewed",
+    "period_reviewed",
+    "original_language_checked",
+    "amendment_status_reviewed",
+    "non_preliminary"
+  ],
+  "source_ids": [
+    "endeavour-estma-2024.pdf",
+    "ivory-annexes.bin",
+    "ivory-2024.pdf",
+    "audit-endeavour-aif-2024.pdf"
+  ],
+  "evidence_locators": [
+    "Endeavour ESTMA 2024 project table: Ity royalties and FX note",
+    "Endeavour AIF 2024 p.128: PE26/SMI, PE49/SMD, PE53/SMF",
+    "EITI sheets 34.1, 34.5, 34.8; E2 companies; K2 year; C27/C42 labels; E/F/G rows 27 and 42 company initial/adjustment/final",
+    "EITI report section 4.8 p.207: calendar-year flows"
+  ],
+  "scope_reason": "AIF explicitly maps all three licence-holding companies. Company-initial and final royalty cells agree; comparison uses the disclosed FX range.",
+  "review_rule": "Approval applies only to the inspected hashes and stated scope. Changed documents or definitions block automatic reuse."
+}

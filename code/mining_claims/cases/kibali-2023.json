@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "RAB-MIN-07",
+  "project": "Barrick / Kibali",
+  "status": "retained_narrow_scope",
+  "reviewed_on": "2026-10-12",
+  "required_context": {
+    "entity_scope": "Barrick group economic interest in Kibali",
+    "metric": "group economic ownership percent",
+    "period": "calendar 2023",
+    "basis": "group economic interest, not direct registered shareholding",
+    "attribution": "SEC company AIF / company-attributed EITI capital disclosure"
+  },
+  "comparison": {
+    "kind": "ownership_all_dates",
+    "admissible_dates": [
+      "2023"
+    ],
+    "parties": [
+      "Barrick"
+    ]
+  },
+  "required_gates": [
+    "company_attribution_reviewed",
+    "entity_bridge_reviewed",
+    "metric_basis_reviewed",
+    "period_reviewed",
+    "original_language_checked",
+    "amendment_status_reviewed",
+    "non_preliminary"
+  ],
+  "source_ids": [
+    "barrick-sec-aif-2023.html",
+    "congo-annexes.bin",
+    "congo-2023.pdf"
+  ],
+  "evidence_locators": [
+    "Barrick 2023 AIF printed p.30 (45% applied to 2023 results) and p.92 history",
+    "EITI Annexe 10!A6 period; Annexe 11 !C29=Oui, F29=A0702049L, L29=BARRICK, N29=45",
+    "EITI Annexe 13 !D27: company declaration attribution; preserve trailing spaces in sheet names"
+  ],
+  "scope_reason": "2023 ownership form and affirmative company-supply marker; host explicitly attributes Barrick 45% to company declaration; Western AIF applies 45% to 2023 operations.",
+  "review_rule": "Approval applies only to the inspected hashes and stated scope. Changed documents or definitions block automatic reuse."
+}

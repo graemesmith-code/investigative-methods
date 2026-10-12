@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "RAB-MIN-02",
+  "project": "Southern Copper / Toquepala + Cuajone",
+  "status": "retained_narrow_scope",
+  "reviewed_on": "2026-10-12",
+  "required_context": {
+    "entity_scope": "100% Toquepala + Cuajone; Southern Peru branch",
+    "metric": "fine molybdenum mine production",
+    "period": "calendar 2023",
+    "basis": "annual production, not sales or concentrate gross mass",
+    "attribution": "SEC company filing / MINEM company-derived ESTAMIN statistics"
+  },
+  "comparison": {
+    "kind": "production_interval",
+    "units": [
+      "thousand pounds",
+      "fine metric tonnes"
+    ],
+    "rounding": "one thousand-pound display unit per mine, conservative"
+  },
+  "required_gates": [
+    "company_attribution_reviewed",
+    "entity_bridge_reviewed",
+    "metric_basis_reviewed",
+    "period_reviewed",
+    "original_language_checked",
+    "amendment_status_reviewed",
+    "non_preliminary"
+  ],
+  "source_ids": [
+    "southern-sec-2024.html",
+    "peru-dec2024.xlsx",
+    "audit-peru-annual-2024.xlsx",
+    "audit-southern-memoria2024.pdf"
+  ],
+  "evidence_locators": [
+    "SEC 2024 10-K printed p.37; second MOLYBDENUM (thousand pounds) table, Toquepala and Cuajone, 2023 column",
+    "MINEM annual workbook Mo-Empresas!J4/J7 (2023); K4/A16 exclude preliminary 2024; A7 entity; A1/A2 units",
+    "Spanish annual report p.12: concentrate terminology cross-check"
+  ],
+  "scope_reason": "Retained historical 2023 from the 2024 annual workbook. Its 2024 column is explicitly preliminary and excluded.",
+  "review_rule": "Approval applies only to the inspected hashes and stated scope. Changed documents or definitions block automatic reuse."
+}

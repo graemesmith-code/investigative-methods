@@ -1,0 +1,2 @@
+# Only source workbook extraction needs this dependency. The comparator uses stdlib.
+openpyxl==3.1.5

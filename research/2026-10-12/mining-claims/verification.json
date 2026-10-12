@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-12T12:36:53.868975+00:00",
+  "python_version": "3.12.14",
+  "core_tests_passed": 18,
+  "audit_originals_fingerprint_verified": 31,
+  "retained_originals_fingerprint_verified": 16,
+  "extracted_specimens": 4,
+  "consistent_results": 4,
+  "contradiction_candidates": 0,
+  "blocked_results": 0,
+  "verified_results_match_fixture_replay": true,
+  "automatic_extractors": [
+    "All four host workbook specimens",
+    "Southern Copper SEC per-mine production table"
+  ],
+  "manual_components": [
+    "Ity Western royalty and FX claim",
+    "Kibali Western group economic interest",
+    "Essakane Western ownership history",
+    "All semantic, entity, reporting-period and attribution bridges"
+  ],
+  "fixture_results_sha256": "e4af11d83c23980c0d6bccebd5ba92b268c9fa865003967a43a1f82c79aece6f",
+  "original_documents_bundled": false,
+  "discovery_preservation": "Historical recommendations are superseded by the audit; original source URLs and hashes retained."
+}
