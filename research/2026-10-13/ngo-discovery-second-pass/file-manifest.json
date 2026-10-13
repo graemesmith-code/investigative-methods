@@ -1,0 +1,74 @@
+{
+  "algorithm": "sha256",
+  "excluded": [
+    "file-manifest.json (self reference)",
+    "DELIVERY-VERIFICATION.json (later verification receipt)"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2045,
+      "sha256": "a7a27d0ce795f2795c7ce7736c1adefa35db11bfa65db51d5943c48ef6282e1f"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 19838,
+      "sha256": "55698bdb990634a5e2ae2cdabfee9bdd68961d8a96089355b3e530ae20acbb51"
+    },
+    {
+      "path": "TECHNICAL-LOG.md",
+      "bytes": 9311,
+      "sha256": "508344aca2375c4838f99e069ed5ce997edad36b607c030791226afa39c22c79"
+    },
+    {
+      "path": "annexes/browser-checks.json",
+      "bytes": 2306,
+      "sha256": "81bff1091edefbd72fa3f6c25e7ddaee668f6273354dbf4b4d0158fa16066622"
+    },
+    {
+      "path": "annexes/commencement-access-check.json",
+      "bytes": 527,
+      "sha256": "d18e0af31e2b32371a86eecf95784beeec07698ead454e6e6b8d2f10558aaf74"
+    },
+    {
+      "path": "annexes/enforcement-blind-spots.md",
+      "bytes": 24316,
+      "sha256": "6bde25f1950da5f50dbffe5e07452b825f6a8f99f0d9bfdc8e10027b655ea40d"
+    },
+    {
+      "path": "annexes/reading-audit.md",
+      "bytes": 5400,
+      "sha256": "355e7e9d9ddad9c0d8dcda6fd9e9b55954fb1446165704d9d31e976c15807cfe"
+    },
+    {
+      "path": "annexes/reproducibility.md",
+      "bytes": 9160,
+      "sha256": "8975d4b4f1fe5a310581af7ede6690c83c58cb4404840b100ebfdb0de0c80dca"
+    },
+    {
+      "path": "annexes/source-access-checks.json",
+      "bytes": 6335,
+      "sha256": "47685ed6c417d81279916000fe84350e17180f59f349e91c59826420c297d9ac"
+    },
+    {
+      "path": "annexes/source-reference-index.json",
+      "bytes": 18313,
+      "sha256": "4bdcf28a11861f8de7d861e87ccb2a89c16648cfada5d6a6b3a8f83eb22d68eb"
+    },
+    {
+      "path": "annexes/ti-monitoring-gaps.md",
+      "bytes": 24724,
+      "sha256": "cf19a245fe7e4fb6a4ca54baeb5c51903c62e4c7a71a0f238803b6ef315994f0"
+    },
+    {
+      "path": "scripts/check_sources.py",
+      "bytes": 3179,
+      "sha256": "6c74eeb0d6a7f299b1ec57f9556e765edf3d032b332c1e259be91c55384073ea"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 2238,
+      "sha256": "5e6402886ebcaee3c0aad0a8f493b1300fc590a3105b6afe358e18e5ac097a33"
+    }
+  ]
+}

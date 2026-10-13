@@ -1,0 +1,50 @@
+{
+  "recorded_utc": "2026-10-13T12:33:28.085581+00:00",
+  "channel": "browser; not raw-byte retrieval",
+  "checks": [
+    {
+      "id": "uk-transitional",
+      "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-transitional-and-saving-arrangements-html",
+      "result": "substantive browser page; updated 15 April 2026",
+      "depth": "Relevant commencement/old regime/contract management paragraphs",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "uk-start-date",
+      "url": "https://www.gov.uk/government/publications/procurement-act-2023-short-guides/the-procurement-act-2023-a-short-guide-for-senior-leaders-html",
+      "result": "substantive browser page; updated 23 June 2026",
+      "depth": "Opening paragraph confirms 24 February 2025 implementation",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "nrgi-browser",
+      "url": "https://resourcegovernance.org/articles/what-happens-after-mining-license-granted-indonesia-first-rga",
+      "result": "substantive browser page; article 19 August 2026",
+      "depth": "Post-award fragmentation, contract/public payment access and comparability limitations; local HTTPS 403 retained separately",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "commission-browser-followup",
+      "url": "https://commission.europa.eu/document/download/e8fc367d-1d98-47ca-8f77-dd0121be3d8e_en?filename=2024_Annual-report-activities-senior-officials-after-service_EN.PDF.pdf",
+      "result": "Initial PDF metadata/text returned; follow-up page/find produced Internal Error",
+      "depth": "Local verified PDF extraction used for actual relevant-page reading",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "id": "legislation-browser",
+      "url": "https://www.legislation.gov.uk/uksi/2024/959/contents/made",
+      "result": "Browser rejected application/xhtml+xml; local contents page accessible",
+      "depth": "Not evidence of commencement date; see official guide",
+      "bytes": null,
+      "sha256": null
+    }
+  ],
+  "failed_guessed_urls_not_used": [
+    "https://www.gov.uk/government/news/procurement-act-2023-goes-live",
+    "https://www.gov.uk/government/news/new-procurement-rules-set-to-unleash-growth"
+  ]
+}
