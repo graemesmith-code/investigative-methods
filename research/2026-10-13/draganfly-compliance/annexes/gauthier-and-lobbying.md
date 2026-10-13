@@ -46,6 +46,8 @@ The Corbould reports consistently use a broad R&D/technology description. That l
 
 Current OCL comparable-rank guidance dates September 2024, modified July 2026. It is useful for today's interpretation but cannot be represented as a 2009 individualized decision. Gauthier's military expertise and disclosed lobbying are not themselves misconduct.
 
+The [2023 Lobbyists' Code](https://lobbycanada.gc.ca/en/rules/the-lobbyists-code-of-conduct/lobbyists-code-of-conduct-2023/) supplies relevant continuing rules independently of the service-exit clock: accurate client/purpose disclosure, good faith, confidential information, and relationships creating a sense of obligation. It explicitly says having worked for the same employer does not alone establish a close relationship. No such relationship, gift, misleading communication or confidential-information misuse was established for Gauthier here. The source dates its monetary-limit update July 7, 2026; June and July conduct must not be tested using an undated current amount. That is a version safeguard, not a gift allegation.
+
 ## Disclosure timing question and disconfirming evidence
 
 For Corbould report 697412, the exploratory posting-date question was resolved during QA. The ordinary monthly filing rule points to September 15 for August contacts, so **this particular report is not late on those displayed dates**. The tempting August 15 deadline is wrong: it belongs to July communications. This correction defeats that hypothesis. Preserve the exact dates to avoid making it recur.

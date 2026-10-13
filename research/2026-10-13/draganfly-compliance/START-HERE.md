@@ -1,21 +1,26 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 20:00 UTC. Research is continuing; this is not a completed overnight report.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 20:20 UTC. This worker has stopped external writes at the parent's instruction for coordinated recovery; this is not a completed overnight report.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
-The broader register also reports Andre Corbould contacts with the Army commander in July, August and September, and ministerial staff during bidding. Multiple consultant filings may describe a shared meeting; amended reports must not be counted as extra contacts. Reconciliation is underway.
+The broader register also reports Andre Corbould contacts with the Army commander in July, August and September, and ministerial staff during bidding. Multiple consultant filings may describe a shared meeting; amended reports must not be counted as extra contacts. [The dated reconciliation](annexes/gauthier-and-lobbying.md) identifies companion officials/topics and preserves the uncertainty. An exploratory August 7 posting concern was resolved: September 15 is the ordinary deadline for August communications.
 
 CanadaBuys's award page was recovered through web extraction and confirms CW2467949, Draganfly Inc., C$439,851.55, September 10, 2026–September 10, 2031, and selective competition against DDI Stream 1. The signed contract remains missing. Public metadata is not a price schedule or complete options ceiling. The RFP-A public notice still contains the aircraft-title/ground-vehicle-description discrepancy. The operative bidder package remains missing.
 
 ## Reading order
 
-1. `NEWSROOM-SUMMARY.md` — synthesis as research develops.
-2. `annexes/gauthier-and-lobbying.md` — person, roles, dates, contacts, limits.
-3. `EVIDENCE-INDEX.md` — precise source links and capture types.
-4. `UNRESOLVED-AND-NEXT-STEPS.md` — records that could resolve the leads.
-5. `TECHNICAL-LOG.md` and `snapshots/` — retrieval and provenance.
-6. `prior-checklist.md` and `prior/` — earlier planning text and preserved original DOCX, subject to dated corrections.
+1. [Newsroom summary](NEWSROOM-SUMMARY.md) — synthesis as research develops.
+2. [Gauthier and lobbying](annexes/gauthier-and-lobbying.md) — person, roles, dates, contacts, limits.
+3. [Evidence index](EVIDENCE-INDEX.md) — precise source links and capture types.
+4. [Unresolved questions and next steps](UNRESOLVED-AND-NEXT-STEPS.md) — records that could resolve the leads.
+5. [Technical log](TECHNICAL-LOG.md) and [snapshots](snapshots/) — retrieval and provenance.
+6. [Prior checklist](prior-checklist.md), [original DOCX](prior/Draganfly_CAF_procurement_investigation_checklist.docx), [parent follow-up notes](prior-followup-notes.md) and [parent Gauthier memo](gauthier-role-review.md) — earlier work, subject to dated corrections.
+7. [Procurement records](annexes/procurement-records.md), [corporate changes](annexes/corporate-changes.md) and [recovery state](WORKSTATE.md) — independent branches and next work.
+
+## Overnight continuation status
+
+Seven hourly research passes were created on October 13 but **paused at 20:19 UTC**, before any run was confirmed, after the parent instructed this worker to stop external writes to avoid conflicts with a recovery task. The parent now coordinates continuation. The retained prompt requires a final useful checkpoint before October 14 at 03:50 UTC, ahead of the 04:00 UTC (06:00 Europe/Rome) delivery. No email task was created or modified by this worker.
 
 ## Scope and evidence discipline
 
