@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-13",
+  "global_witness": {
+    "catalog": "https://globalwitness.org/en/investigations/",
+    "enumerated_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "newest_page_gap": 1,
+    "outside_scope_page_checked": 11,
+    "raw403": [
+      "https://globalwitness.org/robots.txt",
+      "https://www.globalwitness.org/robots.txt",
+      "https://www.globalwitness.org/en/sitemap.xml"
+    ],
+    "sitemap_tool_unavailable": "https://globalwitness.org/sitemap.xml"
+  },
+  "gfi": {
+    "catalog": "https://gfintegrity.org/reports/",
+    "readable_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "challenge_pages": [
+      6,
+      7,
+      8
+    ],
+    "unusable_pages": [
+      9,
+      10
+    ],
+    "oldest_page_checked": 14,
+    "raw403": [
+      "https://gfintegrity.org/robots.txt",
+      "https://gfintegrity.org/wp-json/wp/v2/report?per_page=100"
+    ],
+    "sitemap_tool_unavailable": "https://gfintegrity.org/sitemap_index.xml"
+  },
+  "public_eye": {
+    "catalog": "https://www.publiceye.ch/en/publications/publication-all",
+    "sitemap": "https://www.publiceye.ch/sitemap.xml",
+    "initial_candidates": 119,
+    "translation_merges": 17,
+    "unique": 102,
+    "rawpdf": 15,
+    "rate_limited": true
+  },
+  "scope": {
+    "start": "2016-10-13",
+    "end": "2026-10-13"
+  },
+  "copyright": "Metadata and hashes only; bulk text cache /tmp/ngo-global-trade."
+}

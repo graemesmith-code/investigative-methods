@@ -1,0 +1,82 @@
+{
+  "tender_id": "bc2b85df808042fa8157d6ddbf79d0c6",
+  "tenderID": "UA-2026-09-10-011727-a",
+  "bidder_identifier": {
+    "scheme": "UA-EDR",
+    "id": "33412958",
+    "legalName": "ТОВ БМП СХІДБУД",
+    "legalName_en": "LLC SMP SHIDBUD"
+  },
+  "award_status": "active",
+  "qualification_document_id": "f03a844a3daa45d1ae090cf8fb584d76",
+  "qualification_sha256": "41267eba14cc05e6672f589def65d38c9188fd58a325d7d49db39cf309fcafc2",
+  "checks": [
+    {
+      "side": "bid_eligibility",
+      "bid_id": "5ace784b03c2470bb50fa8d9d1fde212",
+      "document": {
+        "confidentiality": "public",
+        "documentType": "qualificationDocuments",
+        "relatedItem": "a2165570d9f85330abd58e02fc8f967d",
+        "id": "a2845d63c7ea422a922a9ccbb886e0de",
+        "datePublished": "2026-09-24T08:59:41.887903+03:00",
+        "hash": "md5:034c701f97c67fc940877b26ce94790f",
+        "title": "Довідка про працівників.pdf",
+        "format": "application/pdf",
+        "url": "https://public-docs.prozorro.gov.ua/get/29b1978202e74fbd889eaf32eec567ee",
+        "documentOf": "lot",
+        "dateModified": "2026-09-24T08:59:41.887903+03:00",
+        "language": "uk"
+      },
+      "status": "acquired",
+      "bytes": 357763,
+      "sha256": "f6eeb4e95f06cfb015dd35b680400006cac5249830f802cdc49cbbd96ef3eca8",
+      "text_chars": 4045
+    },
+    {
+      "side": "bid_eligibility",
+      "bid_id": "5ace784b03c2470bb50fa8d9d1fde212",
+      "document": {
+        "confidentiality": "public",
+        "documentType": "qualificationDocuments",
+        "relatedItem": "a2165570d9f85330abd58e02fc8f967d",
+        "id": "1c019fd029794e41b8ac2827df987380",
+        "datePublished": "2026-09-24T08:59:44.176703+03:00",
+        "hash": "md5:a2cd5dd50e79fb16bce14ec08d8b84b3",
+        "title": "Довідка про працівників.p7s",
+        "format": "application/pkcs7-signature",
+        "url": "https://public-docs.prozorro.gov.ua/get/31a0d5abd1ee4957b81b37afa49333f2",
+        "documentOf": "lot",
+        "dateModified": "2026-09-24T08:59:44.176703+03:00",
+        "language": "uk"
+      },
+      "status": "acquired",
+      "bytes": 377243,
+      "sha256": "e25283ffc02b3af9ac944ee877550aaf9f1e442a7cd0372f739117ec15735476",
+      "text_chars": 4045
+    },
+    {
+      "side": "award_decision",
+      "award_id": "c8150b2e897b414b9b00dfa168e69851",
+      "bid_id": "5ace784b03c2470bb50fa8d9d1fde212",
+      "document": {
+        "confidentiality": "public",
+        "documentType": "winningBid",
+        "id": "7037baec96104a45abec5e69867b8cee",
+        "datePublished": "2026-09-29T10:35:30.573599+03:00",
+        "hash": "md5:f720de773909acb6fe79c23dc141afb1",
+        "title": "провулок Карпівський, 5.pdf",
+        "format": "application/pdf",
+        "url": "https://public-docs.prozorro.gov.ua/get/39d6361ecad848a9b32355bc7c78acff",
+        "documentOf": "tender",
+        "dateModified": "2026-09-29T10:35:30.573599+03:00",
+        "author": "tender_owner",
+        "language": "uk"
+      },
+      "status": "acquired",
+      "bytes": 637703,
+      "sha256": "0c37ae1b29172b33ce49652842b56580b79cdb63c717ab85edc66622e102f977",
+      "text_chars": 6928
+    }
+  ]
+}

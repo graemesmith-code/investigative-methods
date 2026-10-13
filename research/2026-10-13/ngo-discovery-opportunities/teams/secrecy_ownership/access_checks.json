@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://resourceprojects.org",
+    "status": 200,
+    "final_url": "https://resourceprojects.org",
+    "bytes": 82033,
+    "sha256": "ba446509933ff5df85f793abcb109a9508b00b6763b4b254552c265332578bcb"
+  },
+  {
+    "url": "https://resourcecontracts.org",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://resourcecontracts.org/api/contracts",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://eiti.org/countries/democratic-republic-congo",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.itierdc.net/rapport-itie/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://api.resourceprojects.org",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://data.resourceprojects.org",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000156208825000018/exhibit991payments.htm",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://natural-resources.canada.ca/minerals-mining/mining-data-statistics-analysis/extractive-sector-transparency-measures-act/links-estma-reports/18198",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-13",
+  "opportunity_id": "K-01",
+  "status": "parked_failed_two_sided_original_access_gate",
+  "checks": [
+    {"url":"https://cgyx.ccgp.gov.cn/cgyx/pub/proJ/details?projId=1441473e-18f5-408a-86b5-fb88968e9ece","source":"Chinese Government Procurement Network","unit":"procurement intention","index_date":"2024-03-04","result":"browser original open 502; search index only","success":false},
+    {"url":"https://cgyx.ccgp.gov.cn/cgyx/pub/proJ/details?projId=301b3b02-e52c-4dfa-9bf1-dccf8f00e4a8","source":"Chinese Government Procurement Network","unit":"procurement intention","index_date":"2025-02-07","result":"browser original open 502; search index only","success":false},
+    {"url":"https://caigou.ucas.ac.cn/htgs/2549.chtml","source":"University of Chinese Academy of Sciences procurement platform","unit":"contract notice","index_date":"2025-10-14","project_id":"4000005791760423001225","contract_id":"251190124757ZY","result":"browser original timeout; search index only","success":false},
+    {"url":"https://dam-cdn.nvd.orangelogic.com/AssetLink/u5hh6fv4r7564i4y673484y3m20083nj.pdf","source":"NVIDIA manufacturer datasheet","unit":"H100 SXM/NVL specifications","revision":"Sep24","pages":3,"sample":"p2 table: GPU memory 80GB/94GB; form factor SXM/PCIe; GPU server options differ","result":"successful browser PDF fulltext bounded sample","success":true},
+    {"url":"https://www.dell.com/en-us/shop/ipovw/poweredge-xe9680","source":"Dell","unit":"server model configuration","result":"redirected to generic homepage; no configuration acquired","success":false},
+    {"url":"https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and","source":"Federal Register/BIS","unit":"historical rule","result":"browser text open successful; effective-date paragraph checked, but not a full legal classification or all amendments","success":true}
+  ],
+  "cash_spend_usd": 0,
+  "paid_test_calls": 0,
+  "assertions": {"procurement_is_delivery":false,"missing_licence_proves_no_licence":false,"server_family_proves_installed_gpu":false}
+}

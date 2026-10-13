@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2022&reporterCode=604&cmdCode=260300&flowCode=X&partnerCode=156&partner2Code=0&customsCode=C00&motCode=0&maxRecords=5",
+    "status": 200,
+    "bytes": 984,
+    "sha256": "49901ae3b7013ff1ecfa4fdd708eaeeb3a9f73305d4509512caa2b335c3047b5",
+    "content_type": "application/json; charset=utf-8",
+    "sample": "{\"elapsedTime\":\"0.22 secs\",\"count\":1,\"data\":[{\"typeCode\":\"C\",\"freqCode\":\"A\",\"refPeriodId\":20220101,\"refYear\":2022,\"refMonth\":52,\"period\":\"2022\",\"reporterCode\":604,\"reporterISO\":null,\"reporterDesc\":null,\"flowCode\":\"X\",\"flowDesc\":null,\"partnerCode\":156,\"partnerISO\":null,\"partnerDesc\":null,\"partner2Code\":0,\"partner2ISO\":null,\"partner2Desc\":null,\"classificationCode\":\"H6\",\"classificationSearchCode\":\"HS"
+  },
+  {
+    "url": "https://download.companieshouse.gov.uk/en_pscdata.html",
+    "status": 200,
+    "bytes": 11472,
+    "sha256": "19cb47f236d2e8b1d11f9bc133ecad16e6e4bfcf5568d49c36f34bc0e34c3d21",
+    "content_type": "text/html",
+    "sample": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\" />\n<title>Companies House</title>\n    <!-- FILE_START::style-links.tmpl -->\n<link href=\"https://resources.companieshouse.gov.uk/css/reset.css\" rel="
+  },
+  {
+    "url": "https://api.shab.ch/api/v1/publications?publicationDate.start=2026-10-01&publicationDate.end=2026-10-01",
+    "status": "failed",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://download.companieshouse.gov.uk/psc-snapshot-2026-10-13_33of33.zip",
+    "status": 200,
+    "bytes": 2533020,
+    "sha256": "33f046dc23125f5e5906ff6c2e3c1433a04abb4329c6034ff4bcfdd4d0ab7c51",
+    "zip_member": "psc-snapshot-2026-10-13_33of33.txt",
+    "sample_parsed": true,
+    "sample_top_keys": [
+      "company_number",
+      "data"
+    ],
+    "purpose": "bounded download of smallest PSC snapshot part; no suspect test"
+  },
+  {
+    "url": "https://globalwitness.org/documents/466/The_companies_we_keep.pdf",
+    "method": "web screenshot physical page30",
+    "status": "failed",
+    "error": "403 Forbidden on fresh screenshot; cached web PDF parser metadata/passages readable. No original bytes acquired."
+  }
+]

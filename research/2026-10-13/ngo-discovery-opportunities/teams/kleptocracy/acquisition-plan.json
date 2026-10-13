@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-13",
+  "scope_start":"2016-10-13",
+  "scope_end":"2026-10-13",
+  "catalogs":[
+    {"org":"The Sentry","url":"https://thesentry.org/reports/","method":"open official browser catalog; follow link IDs 9 through 102 in 12-target batches","raw_catalog_targets":94,"note":"link IDs apply to captured response only, not a stable API; translations separately mapped"},
+    {"org":"OCCRP","url":"https://www.occrp.org/en/investigations/page/1","pages_sampled":[1,10,20,30,40,50,60,70,80,90],"method":"open each official archive page; extract date + heading title + captured browser link ID; follow investigation headings","raw_catalog_targets":108,"note":"purposive temporal sample; archive numbering differs among cached renditions"},
+    {"org":"C4ADS","url":"https://c4ads.org/reports/","method":"open official report archive and nine titles; supplement with four official-domain historical queries","raw_first_page_targets":9,"search_queries":["site:c4ads.org/reports/ 2017 2018","site:c4ads.org/reports/ 2019 2020","site:c4ads.org/reports/ 2021 2022","site:c4ads.org/reports/ 2023 2024"],"search_url_targets":16,"note":"archive pages 2-6 all 404 via browser; no exhaustive count inferred"}
+  ],
+  "shell_denials":["https://c4ads.org/robots.txt","https://thesentry.org/robots.txt","https://www.occrp.org/robots.txt","https://c4ads.org/wp-sitemap.xml","https://thesentry.org/wp-sitemap.xml","https://www.occrp.org/sitemap.xml"],
+  "shell_denial_status":403,
+  "copyright_policy":"Raw browser text stays only /tmp. Commit metadata, rendered hash, short justified excerpt and scripts; never full report caches.",
+  "date_policy":"Dates null unless recovered from original catalog/report; copyright years are not publication dates. Partial dates preserve month precision.",
+  "count_policy":"PDF versions and translation mirrors do not add canonical works. Browser headers do not count as acquired text. Context-read fulltext passages are not full-document reading or original downloads."
+}

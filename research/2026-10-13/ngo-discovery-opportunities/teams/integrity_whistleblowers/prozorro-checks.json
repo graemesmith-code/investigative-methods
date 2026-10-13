@@ -1,0 +1,581 @@
+[
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/c5ea88a473ee4773ab79d55a04c083e7",
+    "status": "acquired",
+    "bytes": 24055,
+    "sha256": "0725345795e9b33aa25bc3fdbe63fca61eddec89eb7fb3e54014e08c3adb11de",
+    "tenderID": "UA-2026-10-13-005500-a",
+    "procurementMethodType": "reporting",
+    "classification": [
+      {
+        "description": "Нафта і дистиляти",
+        "scheme": "ДК021",
+        "id": "09130000-9"
+      }
+    ],
+    "documents": [
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/8d1b8dbf16964ff4ba6b654f5931199d",
+        "id": "e17d1242d7c64dd19248980748c3ffca"
+      }
+    ],
+    "awards": 1,
+    "bids": 0,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/7c7be30000f14787b5a08beaf3f7dc59",
+    "status": "acquired",
+    "bytes": 334347,
+    "sha256": "900bd9b9042f961ed6259e4ae51eb9a78d3f65a8d50ec707dbc83c85c2db0cb5",
+    "tenderID": "UA-2026-09-23-014798-a",
+    "procurementMethodType": "aboveThreshold",
+    "classification": [
+      {
+        "description": "Оливні фільтри",
+        "scheme": "ДК021",
+        "id": "42913300-2"
+      },
+      {
+        "description": "Бензинові фільтри",
+        "scheme": "ДК021",
+        "id": "42913400-3"
+      },
+      {
+        "description": "Повітрозабірні фільтри",
+        "scheme": "ДК021",
+        "id": "42913500-4"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Тендерна документація.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/80112052892c42f9bfd0c99e51ac6ed7",
+        "id": "7dd328f29d9f4423a25b4c4a5cf07758"
+      },
+      {
+        "title": "Додаток 2 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/d7bed8a672264961897b56cef1427b4d",
+        "id": "136059dfd2a544eb8c06be3ffdb775a2"
+      },
+      {
+        "title": "Додаток 2.2. до Додатку 2 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/2988db7bfac14021b817f7db01d8dfef",
+        "id": "cb423c3b5c74440e968ee1b827202588"
+      },
+      {
+        "title": "Додаток 2.1. до Додатку 2 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/23c850a692494b0d941b2c0825b084a2",
+        "id": "a3790f707655442ea9bc508c719a71c5"
+      },
+      {
+        "title": "Додаток 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/da1cf4f93ad94adfa09e0bac32f8464c",
+        "id": "60b86b4206d140f4a9423e13fd4c0757"
+      },
+      {
+        "title": "Додаток 1.6 до Додатку 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/c81b456406ce4759bf77243d30b6f555",
+        "id": "55c80b193b264402a0b7f2d5078659ef"
+      },
+      {
+        "title": "Додаток 1.4. до Додатку 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/1bcd2c2e0f3e42959b1c963895582ff1",
+        "id": "5e69dffd75a241e29b2f5fffe073d2a7"
+      },
+      {
+        "title": "Додаток 1.3 до Додатку 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/40fd231a3f804c55b0b03f6cecfedf2f",
+        "id": "3995ac46a0044b4ca7e20d37f9e76802"
+      },
+      {
+        "title": "Додаток 1.2. до Додатку 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/add0b5797ce346e2a49c33890b31c58a",
+        "id": "ef085835f0484d1fabe4ba5cb2e741ed"
+      },
+      {
+        "title": "Додаток 1.1. до Додатку 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/f9e2d70f232f44839ef72eb59861d955",
+        "id": "5aee90d0165849f9b33845b76df12882"
+      },
+      {
+        "title": "Додаток 1.5. до Додатку 1 до тендерної документації.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/1e136668785348e3998e42bb34a2100d",
+        "id": "5ea85051575b4178b5827847c89b8976"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/96794c830fb340a0a07be62387e7f45f",
+        "id": "1e8f3b4059184ec2a9e3930d3ffe1a90"
+      },
+      {
+        "title": "audit_7c7be30000f14787b5a08beaf3f7dc59_c62687b0c4ba49de8ae17712c3fc3b08.yaml",
+        "url": "https://public-docs.prozorro.gov.ua/get/fa036c4fb69f4b949347b0e6ea9ae81a",
+        "id": "b1f8443a17074c2a81d51c796d9ee759"
+      }
+    ],
+    "awards": 1,
+    "bids": 2,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/d1570541578e4ec4a2dd7d5a6beeabf7",
+    "status": "acquired",
+    "bytes": 1144127,
+    "sha256": "a341ea6c87415340e14973fc5d0ccdb22e25450eb33d18a14ad01f200a97f887",
+    "tenderID": "UA-2026-08-04-004137-a",
+    "procurementMethodType": "aboveThreshold",
+    "classification": [
+      {
+        "description": "Залізничне обладнання",
+        "scheme": "ДК021",
+        "id": "34940000-8"
+      },
+      {
+        "description": "Залізничне обладнання",
+        "scheme": "ДК021",
+        "id": "34940000-8"
+      },
+      {
+        "description": "Залізничне обладнання",
+        "scheme": "ДК021",
+        "id": "34940000-8"
+      },
+      {
+        "description": "Залізничне обладнання",
+        "scheme": "ДК021",
+        "id": "34940000-8"
+      },
+      {
+        "description": "Залізничне обладнання",
+        "scheme": "ДК021",
+        "id": "34940000-8"
+      },
+      {
+        "description": "Залізничне обладнання",
+        "scheme": "ДК021",
+        "id": "34940000-8"
+      }
+    ],
+    "documents": [
+      {
+        "title": "ДОДАТОК 3 ( Вимоги до ПЕРЕМОЖЦЯ ).docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/65b41f1fc8f5480fb4b65c242b4b6ba3",
+        "id": "96ee5a59e2d14968abb1efd8ca67bda9"
+      },
+      {
+        "title": "ДОДАТОК  1 (Вимоги до УЧАСНИКА ).docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/9e38b0956a924e99a49c9565b94398ad",
+        "id": "420c783f8c6c428ea88db15473613e91"
+      },
+      {
+        "title": "ДОДАТОК 2 до ТД Проект договору (після 02.02.2026 ).doc",
+        "url": "https://public-docs.prozorro.gov.ua/get/a7cd4c895d22465dba99d4d5f2208984",
+        "id": "4eb4bd851d264df3bf8869b135ca86ba"
+      },
+      {
+        "title": "ТЕНДЕРНА  ДОКУМЕНТАЦІЯ .docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/5f0161cc11074f19a180523f6f384cd0",
+        "id": "dd03f904cfda4474bc5bfd5a54bb730d"
+      },
+      {
+        "title": "ДОДАТОК 4 (Технічна специфікація) ЛОТ №1.xls",
+        "url": "https://public-docs.prozorro.gov.ua/get/b10058f71c1643448bbbbce45985ee44",
+        "id": "dc50da48bdbc40828eb85494b27b6d31"
+      },
+      {
+        "title": "ДОДАТОК 4 (Технічна специфікація) ЛОТ №2.xls",
+        "url": "https://public-docs.prozorro.gov.ua/get/8d5514bf4c584e25b38b2bc4951ecb51",
+        "id": "b5056922c21b4ecd868e44227c0637ed"
+      },
+      {
+        "title": "ДОДАТОК 4 (Технічна специфікація) ЛОТ №3.xls",
+        "url": "https://public-docs.prozorro.gov.ua/get/194c45f59cd64009a51337565e69b385",
+        "id": "199adb40dd0844b5a095342fc70780e5"
+      },
+      {
+        "title": "Креслення ТКТ.62R1.000 СК.pdf",
+        "url": "https://public-docs.prozorro.gov.ua/get/dfe87472ca2948238c1ee8bb0ec428ce",
+        "id": "4e2f87cc8d7247bbbcb7bb9324cc967b"
+      },
+      {
+        "title": "ДОДАТОК 4 (Технічна специфікація) ЛОТ №4.xls",
+        "url": "https://public-docs.prozorro.gov.ua/get/e994f387479347ff9cd24ed47785eca1",
+        "id": "643b3847bd814f6cacf031fbf04d9aa1"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/54e133059d9d4c90809b09a229fc3790",
+        "id": "64d7dfa274054f92a246f6c8dbd049fe"
+      },
+      {
+        "title": "ТЕНДЕРНА  ДОКУМЕНТАЦІЯ зі змінами .docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/1b2675189fd647169f989da1b13ab91d",
+        "id": "dd03f904cfda4474bc5bfd5a54bb730d"
+      },
+      {
+        "title": "ДОДАТОК 1 (Вимоги до УЧАСНИКА ) зі змінами.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/95e27f7c11ba4855b77b423726b52215",
+        "id": "420c783f8c6c428ea88db15473613e91"
+      },
+      {
+        "title": "ДОДАТОК 4 ( Технічна специфікація ) зі змінами.xls.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/501981128b454db294117420b735df3c",
+        "id": "643b3847bd814f6cacf031fbf04d9aa1"
+      },
+      {
+        "title": "ДОДАТОК 4 ( Технічна специфікація ) зі змінами.xls.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/c8364025c82c4a42a39392f4320ee9c9",
+        "id": "4e2f87cc8d7247bbbcb7bb9324cc967b"
+      },
+      {
+        "title": "Повідомлення про внесення змін до ТД- 1.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/5d0491763b744c55a962c89626b20291",
+        "id": "5a18f64257ff478ab76396992a84a010"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/305cdba3cc5647c88a567907645cd86f",
+        "id": "64d7dfa274054f92a246f6c8dbd049fe"
+      },
+      {
+        "title": "ТЕНДЕРНА  ДОКУМЕНТАЦІЯ зміни №2.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/867e43601cd64a35b7a692e68a81a100",
+        "id": "dd03f904cfda4474bc5bfd5a54bb730d"
+      },
+      {
+        "title": "ДОДАТОК  1 (Вимоги до УЧАСНИКА ) зі змінами №2.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/434489b68e5e4cfd9c2465b790c42cc1",
+        "id": "420c783f8c6c428ea88db15473613e91"
+      },
+      {
+        "title": "ДОДАТОК 4 (Технічна специфікація) зі змінами 2 .docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/342b0d36756e42b28008888f9c719dd8",
+        "id": "643b3847bd814f6cacf031fbf04d9aa1"
+      },
+      {
+        "title": "ДОДАТОК 4 (Технічна специфікація) зі змінами 2 .docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/ef7c4f41a60e48a59f9b52f6395ac4fb",
+        "id": "4e2f87cc8d7247bbbcb7bb9324cc967b"
+      },
+      {
+        "title": "Повідомлення про внесення змін до ТД- 2.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/c9dda821881b4743a8af915fa198e4d8",
+        "id": "03d8a19a7fa84068bed8fd01dca777ae"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/aad9b6fe4bb1429f8793a708d69b4e54",
+        "id": "64d7dfa274054f92a246f6c8dbd049fe"
+      },
+      {
+        "title": "audit_d1570541578e4ec4a2dd7d5a6beeabf7_29b821e4e3a441f198898572404fbfb4.yaml",
+        "url": "https://public-docs.prozorro.gov.ua/get/51c0de44b8a74517b5584e04289b0323",
+        "id": "80646965c2d44795a353c88c69e2d693"
+      }
+    ],
+    "awards": 3,
+    "bids": 3,
+    "complaints": 2
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/ea985eda0ebf4e61bbd0234c160a3d68",
+    "status": "acquired",
+    "bytes": 29231,
+    "sha256": "6b776e6f06b1585d708438b809a038c3eeb828a20d959b5747a0f7012d3885bc",
+    "tenderID": "UA-2026-10-13-005295-a",
+    "procurementMethodType": "reporting",
+    "classification": [
+      {
+        "description": "Кріпильні деталі",
+        "scheme": "ДК021",
+        "id": "44530000-4"
+      },
+      {
+        "description": "Кріпильні деталі",
+        "scheme": "ДК021",
+        "id": "44530000-4"
+      },
+      {
+        "description": "Кріпильні деталі",
+        "scheme": "ДК021",
+        "id": "44530000-4"
+      },
+      {
+        "description": "Кріпильні деталі",
+        "scheme": "ДК021",
+        "id": "44530000-4"
+      },
+      {
+        "description": "Кріпильні деталі",
+        "scheme": "ДК021",
+        "id": "44530000-4"
+      },
+      {
+        "description": "Кріпильні деталі",
+        "scheme": "ДК021",
+        "id": "44530000-4"
+      }
+    ],
+    "documents": [
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/d51c340892b54b829f6a5ce6d7462fc7",
+        "id": "e6bac4e75bf04f148f5c2e5a5caa4d0f"
+      }
+    ],
+    "awards": 1,
+    "bids": 0,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/82cb2da48d154987ac615b695efe89e7",
+    "status": "acquired",
+    "bytes": 26870,
+    "sha256": "a289c3ec2f1e43328f1ca04107c6bda28b41799b8168e971d746f7f0228a8ab9",
+    "tenderID": "UA-2026-10-13-005415-a",
+    "procurementMethodType": "reporting",
+    "classification": [
+      {
+        "description": "Кухонне приладдя, товари для дому та господарства і приладдя для закладів громадського харчування",
+        "scheme": "ДК021",
+        "id": "39220000-0"
+      },
+      {
+        "description": "Кухонне приладдя, товари для дому та господарства і приладдя для закладів громадського харчування",
+        "scheme": "ДК021",
+        "id": "39220000-0"
+      },
+      {
+        "description": "Кухонне приладдя, товари для дому та господарства і приладдя для закладів громадського харчування",
+        "scheme": "ДК021",
+        "id": "39220000-0"
+      }
+    ],
+    "documents": [
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/92924460c4594346b7ce06af80d9e82c",
+        "id": "a3d1d868958c45818c792410b89ca7c8"
+      }
+    ],
+    "awards": 1,
+    "bids": 0,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/327484d2a3f1441491e133e4feab5277",
+    "status": "acquired",
+    "bytes": 247691,
+    "sha256": "97aa41aa3eedc7ce6eaa062774d1b7e7ba9f96e54823a2df66f49ddd1eb218b2",
+    "tenderID": "UA-2026-10-12-009036-a",
+    "procurementMethodType": "aboveThreshold",
+    "classification": [
+      {
+        "description": "Індивідуальне обмундирування",
+        "scheme": "ДК021",
+        "id": "35810000-5"
+      },
+      {
+        "description": "Індивідуальне обмундирування",
+        "scheme": "ДК021",
+        "id": "35810000-5"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Додаток 10.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/20598b3d7f3c4128853610b9d913c18f",
+        "id": "8da1107419764a3f83e9c2a552067733"
+      },
+      {
+        "title": "ТД .docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/1ca5864b05084c229aa60e381c12324d",
+        "id": "937f499a219d4e77a8e8b89245947dbe"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/3b5b6d2f8fab481583eb1e6f2cdf88fe",
+        "id": "caa7a2b4da834b3591983dbd281277dc"
+      }
+    ],
+    "awards": 0,
+    "bids": 0,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/889591b6e7dd416889419adffca9a402",
+    "status": "acquired",
+    "bytes": 284977,
+    "sha256": "8da8643fbb163ebd33244d7efd54248c520e9d71d98d1914c8b11c24b9d1306f",
+    "tenderID": "UA-2026-09-23-001259-a",
+    "procurementMethodType": "aboveThreshold",
+    "classification": [
+      {
+        "description": "Запасні частини до вантажних транспортних засобів, фургонів та легкових автомобілів",
+        "scheme": "ДК021",
+        "id": "34330000-9"
+      }
+    ],
+    "documents": [
+      {
+        "title": "Додаток_№_1_ттх.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/62d594d5143e4ae0b89c33fffaf07374",
+        "id": "5dd3ed0f3834446a9bb217384878eef6"
+      },
+      {
+        "title": "Додаток_№_2_Проект договору__2210+3110.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/4cc25da100f7446ba3914a9f8d730ec6",
+        "id": "9f14ce42574848cdb26df2d379ee7e45"
+      },
+      {
+        "title": "Додаток_№_3_Для учасника.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/411ef0aedad344c7ab353216d914a8ce",
+        "id": "bc533e0bc48542c58c7de42bad2f620f"
+      },
+      {
+        "title": "Додаток_№_4_Для переможця.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/47708c8a0b484e69a6ef2e2fc404438d",
+        "id": "20f8f3854f1b40e89e46b5a24559894f"
+      },
+      {
+        "title": "ТД фаркоп.doc",
+        "url": "https://public-docs.prozorro.gov.ua/get/c1c03ed0ed0a4245b89f4fd74aa5498e",
+        "id": "b63d8cd9b2a344c1b8c42d32c440218d"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/21187bcaa4d74d348677afb23e70771e",
+        "id": "f064309fb21541da801b7c1ef90fa674"
+      },
+      {
+        "title": "audit_889591b6e7dd416889419adffca9a402_0bc562f42a27430585266bdd692241f8.yaml",
+        "url": "https://public-docs.prozorro.gov.ua/get/e2721f03871545a48fd6d5134903e486",
+        "id": "e5ea7fc7e77a44b88dc2096c8f85320c"
+      }
+    ],
+    "awards": 1,
+    "bids": 2,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/dabd1cec8150461690ac5de6902abfea",
+    "status": "acquired",
+    "bytes": 24926,
+    "sha256": "144782cad66d0e30e8fee38965f5e9d89d533c64c68899bd306264decb265faf",
+    "tenderID": "UA-2026-10-13-005058-a",
+    "procurementMethodType": "reporting",
+    "classification": [
+      {
+        "description": "Клеї",
+        "scheme": "ДК021",
+        "id": "24910000-6"
+      },
+      {
+        "description": "Клеї",
+        "scheme": "ДК021",
+        "id": "24910000-6"
+      }
+    ],
+    "documents": [],
+    "awards": 1,
+    "bids": 0,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/b53bf07421da4b8896dd2359fdfeafdc",
+    "status": "acquired",
+    "bytes": 113367,
+    "sha256": "c9ed6dd47b6416e7bcd48d65c0bea5d07c43065cdf5844e30ce29e9e504d31bd",
+    "tenderID": "UA-2026-10-06-009082-a",
+    "procurementMethodType": "priceQuotation",
+    "classification": [
+      {
+        "description": "Машини для обробки даних (апаратна частина)",
+        "scheme": "ДК021",
+        "id": "30210000-4"
+      },
+      {
+        "description": "Машини для обробки даних (апаратна частина)",
+        "scheme": "ДК021",
+        "id": "30210000-4"
+      }
+    ],
+    "documents": [
+      {
+        "title": "2026. ноутбуки ЗПП.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/7dd4618d148f4a4989ceab24abf184b0",
+        "id": "14d3bdeb397a4f299a0ee4bfd06eb264"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/a79c9138312d40d5bd80d32ae7dfba90",
+        "id": "36278191f8f14f0ab8964cd532c6a6cb"
+      }
+    ],
+    "awards": 1,
+    "bids": 1,
+    "complaints": 0
+  },
+  {
+    "url": "https://public.api.openprocurement.org/api/2.5/tenders/7cba863981e7424dba76b4a34e151175",
+    "status": "acquired",
+    "bytes": 279746,
+    "sha256": "f5bcd140aa8d7346c08bb24612fe5dd66be95aec3440fb2d56018389e8bc7683",
+    "tenderID": "UA-2026-09-21-006630-a",
+    "procurementMethodType": "aboveThreshold",
+    "classification": [
+      {
+        "description": "Лікарські засоби різні",
+        "scheme": "ДК021",
+        "id": "33690000-3"
+      }
+    ],
+    "documents": [
+      {
+        "title": "1 - Проект договору- Реактиви.docx",
+        "url": "https://public-docs.prozorro.gov.ua/get/040e25983e03472480c593f9cea460ee",
+        "id": "9163f01c3b844ffb88a76ef43c651c34"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/c863a5cf1fc84173a290c22e14e5b2bb",
+        "id": "f241eaf208814080afacfd5679b3cacb"
+      },
+      {
+        "title": "01997248_2884201367_SU16092026145045.ZS2",
+        "url": "https://public-docs.prozorro.gov.ua/get/ebaab20753f84ff980dcf2eda4745be4",
+        "id": "539c1bd647864951be4211b730d8212f"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/e4508060adcb4708b65dfe4b56f9a432",
+        "id": "f241eaf208814080afacfd5679b3cacb"
+      },
+      {
+        "title": "1 - ТД - Реактиви.doc",
+        "url": "https://public-docs.prozorro.gov.ua/get/a9e0c4494504498bbc8d273651f48068",
+        "id": "539c1bd647864951be4211b730d8212f"
+      },
+      {
+        "title": "2 - НОВА РЕДАКЦІЯ - ТД - Реактиви.doc",
+        "url": "https://public-docs.prozorro.gov.ua/get/fdcfcfbdf2434e5db41616bb0252abb2",
+        "id": "380dc74a370642d2b449db7c9dcfa6f6"
+      },
+      {
+        "title": "2-Перелік змін,що вносяться Реактиви.doc",
+        "url": "https://public-docs.prozorro.gov.ua/get/74d29e312f05475bab7a3192b454e9b5",
+        "id": "7c25f214e6bf40799a68fbff0e102c93"
+      },
+      {
+        "title": "sign.p7s",
+        "url": "https://public-docs.prozorro.gov.ua/get/64e7dd4350a842349b3873d359f5f0aa",
+        "id": "f241eaf208814080afacfd5679b3cacb"
+      }
+    ],
+    "awards": 1,
+    "bids": 1,
+    "complaints": 0
+  }
+]

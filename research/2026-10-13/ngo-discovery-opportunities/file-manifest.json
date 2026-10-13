@@ -1,0 +1,560 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 34,
+      "sha256": "f31f202e296b9d09009d3dd48d195689fbdbdf0782b69eb7cef5808670a98a84"
+    },
+    {
+      "path": "COVERAGE.md",
+      "bytes": 7118,
+      "sha256": "2ec8614324338dfb594229910332cf95714c91823158d8bf5cfdf5f02b17aa8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4506,
+      "sha256": "676b1d484d0be60cf9cb06ce2feeb217f8775ebdc9bb2237a4add2e53a9ba4e0"
+    },
+    {
+      "path": "REJECTIONS.md",
+      "bytes": 10187,
+      "sha256": "5410fbde7f6d38014d794c2805d8de5927414fa15faef693e3acec273003b93b"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 10881,
+      "sha256": "3ae699433b3ca9a169a8ee68c16ee8e86b5d64848a924ca303900d43682548c8"
+    },
+    {
+      "path": "TECHNICAL-LOG.md",
+      "bytes": 8740,
+      "sha256": "d676aa06af06733aef785e75902ee16482618165501d95799f6140449a6ec7e9"
+    },
+    {
+      "path": "annexes/audit/audit.md",
+      "bytes": 12064,
+      "sha256": "d807a5ee61c8cc70c56caa008731cf94c71db9cc255e7d1a0c9265ec2b04648b"
+    },
+    {
+      "path": "annexes/audit/drc-kamoa-row-locations.json",
+      "bytes": 1669,
+      "sha256": "4871ecc82e066e77f76bc4f9ba6503ce26c4e5c5fc478712ba2b7b178d478406"
+    },
+    {
+      "path": "annexes/audit/reproduce_audit.py",
+      "bytes": 2402,
+      "sha256": "8039fd26b9912438080b04a2d8f9aa2a190ee526211e6d9683399605e21c42e2"
+    },
+    {
+      "path": "annexes/audit/request-manifest.json",
+      "bytes": 1887,
+      "sha256": "97230d720e1e212b5cfba79e7f02e4476e0a36ad258476ab3bc6543a3f9d6c95"
+    },
+    {
+      "path": "annexes/audit/xlsx-external-links.json",
+      "bytes": 289,
+      "sha256": "cf37b5b4825afac5382cea12310b4c44797338c5016bfb3f4add596f4902b499"
+    },
+    {
+      "path": "annexes/consolidation-duplicates.json",
+      "bytes": 3824,
+      "sha256": "e5a565dad7af399e054e96e727e295bee3c00b6f6283848f6ef5f2939574d2e7"
+    },
+    {
+      "path": "annexes/extraction-prompt.txt",
+      "bytes": 1795,
+      "sha256": "a7a2c14207e6d38a58fb3e977b9aa202c676eec389e03a13cc80c23632eeb654"
+    },
+    {
+      "path": "annexes/pricing-access.jsonl",
+      "bytes": 2053,
+      "sha256": "aee25010e897aedc0981c0c875cb0e93425635c7fbc7730a66fbf6a326b2ed12"
+    },
+    {
+      "path": "annexes/psc-guidance-check.json",
+      "bytes": 1182,
+      "sha256": "8ebb80f29a9b4dd9035f78d30ec1c3adacf72f9c1c09fc26bc28394f98c99771"
+    },
+    {
+      "path": "annexes/research-protocol.md",
+      "bytes": 5884,
+      "sha256": "2618bfce18e73fdca47e626994e0b7a141479dcb5b5f31c3012f0cb03f7e8d82"
+    },
+    {
+      "path": "annexes/why-now-and-costs.md",
+      "bytes": 5555,
+      "sha256": "3cf47b217e92cfd139f3a1de363180bbbf135eea44a088faf74bb527ad2e32a5"
+    },
+    {
+      "path": "coverage-counts.csv",
+      "bytes": 811,
+      "sha256": "cba62b805320dc4e4e0e4e51ba3961b13817addc09b0af263c121259cf3d5cd1"
+    },
+    {
+      "path": "coverage-counts.json",
+      "bytes": 5070,
+      "sha256": "1f2f07e5a6d971e2e2dbbb0e6a13cc7a6cd623d16cd326beea3c6a5f239eeb40"
+    },
+    {
+      "path": "machine-screen-inventory.jsonl",
+      "bytes": 1319156,
+      "sha256": "a1f5da64251d562275b31ab6ea2243214bf87a193bbf40fce163a51fa62d9402"
+    },
+    {
+      "path": "opportunity-manifest.json",
+      "bytes": 6095,
+      "sha256": "363593323edd59d5dd91f772569966c23f9149dd9a8f356eaf1d9c7a06c93fbb"
+    },
+    {
+      "path": "scripts/build_coverage.py",
+      "bytes": 7077,
+      "sha256": "4bec8f0c5eadecd2b9d127bc72f5a5ffbfe3944c38c725689f3f75450ebafe71"
+    },
+    {
+      "path": "scripts/check_pricing.py",
+      "bytes": 1458,
+      "sha256": "e4105769af4d77ad76896b9f810a8abd47c7ad60e69f3124adfb271561536d81"
+    },
+    {
+      "path": "scripts/consolidate.py",
+      "bytes": 7262,
+      "sha256": "a3470a803cf3d5cdbd7f10f6a93f6dd0c75b722f84b49fb76ea80a461a021d1f"
+    },
+    {
+      "path": "scripts/sanitize_public_links.py",
+      "bytes": 1326,
+      "sha256": "b4f7ba943797bc36ae1770de79ccc441d823366914b969118ddda153229678cd"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 5141,
+      "sha256": "5e4d8a5176d42a9399db4fb0c5906b088055caa76264f65fed884293387eb431"
+    },
+    {
+      "path": "source-inventory.jsonl",
+      "bytes": 2310900,
+      "sha256": "15150a1291fd9770d82812fff10f55fe0aa7c470b2bf47e4bbaddae1266ea20c"
+    },
+    {
+      "path": "teams/global_trade/acquisition-publiceye.jsonl",
+      "bytes": 24769,
+      "sha256": "e808e3b4ae48232a60d4656cdc398f328e534a87963c9278459f9cb0e67dea07"
+    },
+    {
+      "path": "teams/global_trade/additional-gfi.json",
+      "bytes": 1190,
+      "sha256": "b5485e91d2606527f7ec13a9ad159fd9a5d3b052015b31f786a1825801080b38"
+    },
+    {
+      "path": "teams/global_trade/census_publiceye.py",
+      "bytes": 4373,
+      "sha256": "e95e7b448411e7043cc67eb0890759d4299ef36983f645d798839fafcc7aec9e"
+    },
+    {
+      "path": "teams/global_trade/check_public_data.py",
+      "bytes": 1812,
+      "sha256": "820bc28b85123740db33f4cbe8239f4bfe67116662e194d7320af9d037af8831"
+    },
+    {
+      "path": "teams/global_trade/counts.json",
+      "bytes": 864,
+      "sha256": "46e80e913e51550ef681f4cb04fcda868165a6361b89593b5ed3f774429e56be"
+    },
+    {
+      "path": "teams/global_trade/data-checks.json",
+      "bytes": 2483,
+      "sha256": "56b45f94855e8626b458b0ee8d16b4ae3167b4e1901ef193e32b6c977887d9f4"
+    },
+    {
+      "path": "teams/global_trade/findings.md",
+      "bytes": 15690,
+      "sha256": "35f4a76f3fc8b1813dcf34496dfb101e66d796f48c7f36829f6658a859b58405"
+    },
+    {
+      "path": "teams/global_trade/inventory-publiceye.jsonl",
+      "bytes": 71711,
+      "sha256": "29dd23231e665c24e98b0013b616de66ff38aaca1b4849a5b9571770217e1788"
+    },
+    {
+      "path": "teams/global_trade/inventory-web.jsonl",
+      "bytes": 155011,
+      "sha256": "5e7297a47a1f369439c39b160c7bc7bbb65d43de7094b23d1719f092b1924586"
+    },
+    {
+      "path": "teams/global_trade/inventory.jsonl",
+      "bytes": 270103,
+      "sha256": "47027bcd10cba42045482d2bd9830cfd646381ca0b1bddf2a15de8e2431cf357"
+    },
+    {
+      "path": "teams/global_trade/machine-screen.jsonl",
+      "bytes": 254648,
+      "sha256": "5fcc29f33c09a51811e5e7d18d849fd3dc4423b59ed18164f49a425b78d5f8aa"
+    },
+    {
+      "path": "teams/global_trade/machine-screen.py",
+      "bytes": 5315,
+      "sha256": "4cd849e45cbf1bb1ff278f6d8d33fae5981c4b29af6d38817911e4fef7133d5a"
+    },
+    {
+      "path": "teams/global_trade/manifest.json",
+      "bytes": 2504,
+      "sha256": "6731aaa12e9f7e6a4ebc5e6bec9a6f598205bcee40e5bf458588413d00e17dbd"
+    },
+    {
+      "path": "teams/global_trade/publiceye-translations.json",
+      "bytes": 1435,
+      "sha256": "f2dcead08fe52f015c47ee2f3525c8c522fa13efe4beb6bfd4b2d0ec6a0387ea"
+    },
+    {
+      "path": "teams/global_trade/web-catalog-log.json",
+      "bytes": 1443,
+      "sha256": "8e6558b08d8d04ef8e727fd389a41f5867c99863fe281234ec6f4a7c55479a90"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/access-limitations.json",
+      "bytes": 549,
+      "sha256": "a5613c25b8ef74dcb5cfe0a08d0e67a6c46a6e4e941755e09d346c6360d1ce81"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/acquire.py",
+      "bytes": 1951,
+      "sha256": "ebe7d1ff76f72103438d766a4b4e30bd9678a9b4d23933379ec38841b8eee9c9"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/acquisition-log.jsonl",
+      "bytes": 33554,
+      "sha256": "9103eeb5b040d7ae00da4c7b41c4bb3c567af2cd051afbd22b7a9d3d54eb1896"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/census.py",
+      "bytes": 3909,
+      "sha256": "14e2b865a0fc6a840e3bef6ccbfa1494a855b1027d54687b0e8670b25d774c7d"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/coverage.json",
+      "bytes": 678,
+      "sha256": "37dfe7fb7dacd883ba0efdd4949d555407dafa7b9027423e024f099e74bf4846"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/evidence-manifest.json",
+      "bytes": 1945,
+      "sha256": "8f262303c17958023dd7da68e26b545e5ff81e14e81b878a49027553d1b7aaf4"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/finalize.py",
+      "bytes": 6137,
+      "sha256": "ccad59bec38c068270ea123f235c6678f4054f4a0c133da5265e16ea9e68cdec"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/findings.md",
+      "bytes": 18435,
+      "sha256": "ba902adfcb24146068ec87a7b57f15a0ab4783652c5179df2c086a3de18f2598"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/inventory.jsonl",
+      "bytes": 242840,
+      "sha256": "d3e3426460d8bbe5db928a72d2adaccae47c333d15518cb0283d9c34fc792736"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/machine-screen.jsonl",
+      "bytes": 224452,
+      "sha256": "410ee7fc92521e7fb730b0388a3befc71ace5ee6d10f3a420e9668bd638a161d"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/machine-screen.py",
+      "bytes": 2087,
+      "sha256": "df5f1783c57f3fb83c3cd3ee2bf3ce5dc6baa81ee5c4a78bffb7dc2093c334d8"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/pplaaf-acquisition.jsonl",
+      "bytes": 385,
+      "sha256": "ce848ce381393d539d251d63b94449e54dd0bd426b70e019320fb536807156cf"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/pplaaf-categories.json",
+      "bytes": 11162,
+      "sha256": "fff57afab5592454aa0e7039bc857420b1a427762cd39b29a04c0fa370e55314"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/pplaaf-inventory.jsonl",
+      "bytes": 37997,
+      "sha256": "25c58715325f2c4b2596a00d50eedcb0164c4158aca0d056b99f793c55425879"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/pplaaf-raw.jsonl",
+      "bytes": 66892,
+      "sha256": "cf352303d07e83d9de9296971b325caaa0b2e162911e8817c44ff956be30f9da"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/pplaaf.py",
+      "bytes": 2186,
+      "sha256": "325c765f836093d141c35e451d1c2aaa06ab2d572eb1d2fb32ac6547e472c9e1"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/prior_coverage.json",
+      "bytes": 2589,
+      "sha256": "d1e8d6ef6b61428ca8419ba2a28d17eeab5231a2ba37b9e7426eb5137e700211"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/prozorro-checks.json",
+      "bytes": 22351,
+      "sha256": "cc01043250f0709f9b7480147b293af94dd9b6550be6d33f89f04d71a0e02904"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/prozorro-comparison.json",
+      "bytes": 3225,
+      "sha256": "d19cb9138ad772da193b40ccfb895020aa354d0cf915b2ec23b2547e440b8056"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/prozorro-pilot.json",
+      "bytes": 37218,
+      "sha256": "2d143ac580401ac550c0c9c7ed8ea624fd6b6a33a4be55a6e02a097d163ba2bd"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/prozorro_compare.py",
+      "bytes": 2027,
+      "sha256": "942ac1c3e9f53a878cc9ac42f5973ed253a7701e7bbb62378515e8a55cc5fab4"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/prozorro_pilot.py",
+      "bytes": 1818,
+      "sha256": "6a83c5cf5ac49c73b1dd03e31af8b3cda47f4aee99ef14bed3453aa7f48d7312"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/raw-discovery.jsonl",
+      "bytes": 401201,
+      "sha256": "ee10acaeb4de166c084a92cd2d42cc4726be89008ca7efa964ffb6161166f55d"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/scrub_urls.py",
+      "bytes": 694,
+      "sha256": "7aeffae8b3f5dad4525c3e9f35832fdfc7ae2104713484ca8915df82be3b79e4"
+    },
+    {
+      "path": "teams/integrity_whistleblowers/technical-log.md",
+      "bytes": 3936,
+      "sha256": "520ae7231ea024873b94e08b5c4298cbe564d9cee2fd8265c0f7d5f9676dc689"
+    },
+    {
+      "path": "teams/kleptocracy/README.md",
+      "bytes": 1407,
+      "sha256": "530482f02d58e1b2741c4a038c07bb69a8a514c36bc9b8adc6c80b6446bb8d6a"
+    },
+    {
+      "path": "teams/kleptocracy/acquisition-plan.json",
+      "bytes": 2002,
+      "sha256": "f4c3ffa0f3eff726ba0a9bca804e5183c55b2a308c64a386429d49ca276279f4"
+    },
+    {
+      "path": "teams/kleptocracy/build_inventory.py",
+      "bytes": 9821,
+      "sha256": "696e3b43ff6530b0ebe79b3e52b76e4de9f95313edd6e75b7354d75c50f1dedd"
+    },
+    {
+      "path": "teams/kleptocracy/checks.json",
+      "bytes": 2166,
+      "sha256": "a14f99eac5c9d3964bd7a2494248643815efd3e08aa483230977510d40a4ef14"
+    },
+    {
+      "path": "teams/kleptocracy/counts.json",
+      "bytes": 1117,
+      "sha256": "a7247ae525c9de4afa7059c64ae3fd472ffab77c51a80258661544d415e162af"
+    },
+    {
+      "path": "teams/kleptocracy/findings.md",
+      "bytes": 12255,
+      "sha256": "9a6075dfec4282a15be113eaeabc5c7dfa3422b60359c3d31b63ca9c198264b1"
+    },
+    {
+      "path": "teams/kleptocracy/inventory.jsonl",
+      "bytes": 138399,
+      "sha256": "91c45445debc5d53be96fbd205cf8258fbc5b610fc3bfe997b62d917b01aa389"
+    },
+    {
+      "path": "teams/kleptocracy/occrp-catalog-discovery.json",
+      "bytes": 17031,
+      "sha256": "bd6c728d3ba071405febe7184adfc39abf49cb8948a3ddfe50f7a9544944a6da"
+    },
+    {
+      "path": "teams/kleptocracy/validate.py",
+      "bytes": 1347,
+      "sha256": "e25e4394323c7337c6b319239a8ed19b794cfb371ade3f0fd203b31daee9aea8"
+    },
+    {
+      "path": "teams/legal_enforcement/access-checks.json",
+      "bytes": 585,
+      "sha256": "c9ce8c1947ef80b38f503d425832e381e327ea50962d55db149752391f923270"
+    },
+    {
+      "path": "teams/legal_enforcement/acquire.py",
+      "bytes": 1771,
+      "sha256": "e9f2deab12e409a1ca2a183b99cb5a15b7a8f2aa46930812cbd414454852ead3"
+    },
+    {
+      "path": "teams/legal_enforcement/basel-sitemap-discovery.json",
+      "bytes": 50902,
+      "sha256": "d1efb705a48fd015803cadb5b2f6e3085c4927c1882369004dfb81ddc325aad8"
+    },
+    {
+      "path": "teams/legal_enforcement/census.py",
+      "bytes": 3335,
+      "sha256": "0dc3efff05aa085349bf866a66dfae6615137bae92aa3139b7089cea7e02226b"
+    },
+    {
+      "path": "teams/legal_enforcement/counts.json",
+      "bytes": 533,
+      "sha256": "ae1548d31a67cef302d662ac5d402ad2c30c028806d89746b57869caa2ae2f40"
+    },
+    {
+      "path": "teams/legal_enforcement/deduplication.json",
+      "bytes": 850,
+      "sha256": "d24dc4a3d88112d84863bc2c039dcd6cb1bfe8e9306b541396e67f498e8f071e"
+    },
+    {
+      "path": "teams/legal_enforcement/excluded-discovery.json",
+      "bytes": 11348,
+      "sha256": "5bf1c060a4dd0b1cf2c4a76db26fa74cecdc53e8a385d473f5aa85319956a01b"
+    },
+    {
+      "path": "teams/legal_enforcement/finalize.py",
+      "bytes": 6698,
+      "sha256": "d20a538b8ea59cf9924c578666753c309ac1f77d433a6d01805d66fd537c2c7f"
+    },
+    {
+      "path": "teams/legal_enforcement/findings.md",
+      "bytes": 12872,
+      "sha256": "5b96389d7442a630e053da1671c8e6ac894a8d2665c92f25b0d537c645307f0f"
+    },
+    {
+      "path": "teams/legal_enforcement/inventory.jsonl",
+      "bytes": 524721,
+      "sha256": "da054b5267d32be346354544c2a176a5e892431b2391c91a454fa5549d940578"
+    },
+    {
+      "path": "teams/legal_enforcement/machine-screen-summary.json",
+      "bytes": 2168,
+      "sha256": "c0b88e81706264b613a2da5129d31e69e336c645aa60a4e7a644e6b549926ab9"
+    },
+    {
+      "path": "teams/legal_enforcement/machine-screen.jsonl",
+      "bytes": 606761,
+      "sha256": "535cf9417f40bf540ae79d5177bfd2cde2e01474839b472548e6933356560471"
+    },
+    {
+      "path": "teams/legal_enforcement/machine-screen.py",
+      "bytes": 3896,
+      "sha256": "caecd0299a2963a617dfe4a8a9b5a6e2e936e3ba39b23d1910c29f3aecff7c28"
+    },
+    {
+      "path": "teams/legal_enforcement/repair_catalog.py",
+      "bytes": 1172,
+      "sha256": "a27ab06fad654702587db4eca9501c57af602fd2742a1e9b9f806319d6f4e80e"
+    },
+    {
+      "path": "teams/legal_enforcement/sherpa-discovery-2810.json",
+      "bytes": 2452,
+      "sha256": "2669ab97ab8a0410ec82f198236329d006dd24f6d58993c4eb8badd63855da85"
+    },
+    {
+      "path": "teams/legal_enforcement/sherpa-discovery-901.json",
+      "bytes": 16006,
+      "sha256": "9612d8e46d5135fe37b60fd4d59db6f4669ec20a6577c6fcc7ac2ced21b29895"
+    },
+    {
+      "path": "teams/legal_enforcement/spotlight-browser-metadata.json",
+      "bytes": 32709,
+      "sha256": "cab8ae6630ecf86abe3ead85d546bf3a57a9d0c4730ba67e506b45d872ee0658"
+    },
+    {
+      "path": "teams/legal_enforcement/spotlight-catalog-dates.json",
+      "bytes": 9336,
+      "sha256": "da4488905897103665dbc0354dc494a9a8391dbfaa2bd6a708e7a105b053c245"
+    },
+    {
+      "path": "teams/secrecy_ownership/README.md",
+      "bytes": 4190,
+      "sha256": "245966a8420f81e10b7f6ad8eb1351fe281b0b4922cd130931899077fe0036ab"
+    },
+    {
+      "path": "teams/secrecy_ownership/access_checks.json",
+      "bytes": 1271,
+      "sha256": "7b692fad14328ed39022fa8f9fb18a7b7d2c00204c0ffb6c48a5191092ba0dca"
+    },
+    {
+      "path": "teams/secrecy_ownership/acquire_selected.py",
+      "bytes": 1618,
+      "sha256": "3cfa105e74eb7c2dfd7383f6fd9d8f20c99a4b27f2bad781708d13000ffcf6a3"
+    },
+    {
+      "path": "teams/secrecy_ownership/bounded_access_check.py",
+      "bytes": 1432,
+      "sha256": "aa851c0aae86136dcd3d0de5539fd73b013b92769ba4e53a221acb76c102ae4c"
+    },
+    {
+      "path": "teams/secrecy_ownership/census_nrgi.py",
+      "bytes": 2216,
+      "sha256": "6e1cce98e66fbe3263bbfe8595c2f5162695d69f50f23c37b7fe86f9c46f795b"
+    },
+    {
+      "path": "teams/secrecy_ownership/counts.json",
+      "bytes": 873,
+      "sha256": "8fa2badff1a9655552f29a9152ba5290e965db8487c88c5fd2ee848908cd0f3b"
+    },
+    {
+      "path": "teams/secrecy_ownership/drc_pilot_acquisition.json",
+      "bytes": 1813,
+      "sha256": "ef425b31157ceaa7e65e74f6f6214094894f501511b62e44d7bb6e1d23cb40a4"
+    },
+    {
+      "path": "teams/secrecy_ownership/findings.md",
+      "bytes": 15332,
+      "sha256": "49e529ffc8be54f2f9e43c3398dd008e07aa1c20f39bb0668a67151ed3ba1cbe"
+    },
+    {
+      "path": "teams/secrecy_ownership/inventory.jsonl",
+      "bytes": 477069,
+      "sha256": "5a1022593ccacd61ebbdfdcfa5fdbed5f4e50498dd14a46968b6e6edff170771"
+    },
+    {
+      "path": "teams/secrecy_ownership/machine-screen.jsonl",
+      "bytes": 93727,
+      "sha256": "ac5c99e1637e351a5b075af8e72b8e58d2fcb3a74a62266d9cc2311668bdd45f"
+    },
+    {
+      "path": "teams/secrecy_ownership/machine_screen.py",
+      "bytes": 1793,
+      "sha256": "2e28a9624302fdf5a80f2048dcf829571faebcf515a173476218fc1dc7eaac6d"
+    },
+    {
+      "path": "teams/secrecy_ownership/nrgi_landing_inventory.jsonl",
+      "bytes": 409742,
+      "sha256": "746596408206b5ae911068d9211a6f49f88ee26f2336ffc1d63f7c22db3c80b2"
+    },
+    {
+      "path": "teams/secrecy_ownership/nrgi_selected_acquisition.json",
+      "bytes": 59601,
+      "sha256": "a0e6e00190c5462eb2cf6a9e40ff87cb0f399d1ad5d42227ee793f28ec8ed017"
+    },
+    {
+      "path": "teams/secrecy_ownership/oo_landing_inventory.jsonl",
+      "bytes": 71980,
+      "sha256": "0e1a060055c6e46fa60a6b3153bb7dcb57c33869f947f301975ed6fab895b2d2"
+    },
+    {
+      "path": "teams/secrecy_ownership/raw_nrgi_sitemap.json",
+      "bytes": 1056549,
+      "sha256": "ecdc93fc94f6747470814399a7cb78d9f981182629a513d6a711f4ca2f1278d5"
+    },
+    {
+      "path": "teams/secrecy_ownership/tjn_inventory.jsonl",
+      "bytes": 71967,
+      "sha256": "2c0b945f9f752a662cd959ba4974c628650fd2d14fe53b268e1bec81d81a521f"
+    },
+    {
+      "path": "totals.json",
+      "bytes": 452,
+      "sha256": "56782dd55ee3eaa346021aca0760d2ff902fa525762ab81f460fb467d38109bc"
+    }
+  ]
+}

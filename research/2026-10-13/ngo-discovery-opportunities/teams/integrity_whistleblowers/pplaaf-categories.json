@@ -1,0 +1,518 @@
+[
+  {
+    "id": 387,
+    "count": 0,
+    "description": "",
+    "link": "https://www.pplaaf.org/fr/category/blog",
+    "name": "Blog",
+    "slug": "blog",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 387
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/387",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=387"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "count": 14,
+    "description": "",
+    "link": "https://www.pplaaf.org/category/blog",
+    "name": "Blog",
+    "slug": "blog",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 183
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/183",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=183"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 227,
+    "count": 17,
+    "description": "",
+    "link": "https://www.pplaaf.org/fr/category/communique-de-presse",
+    "name": "COMMUNIQU\u00c9 DE PRESSE",
+    "slug": "communique-de-presse",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 227
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/227",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=227"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 384,
+    "count": 0,
+    "description": "",
+    "link": "https://www.pplaaf.org/fr/category/communique-de-presse/communique-public",
+    "name": "Communiqu\u00e9 public",
+    "slug": "communique-public",
+    "taxonomy": "category",
+    "parent": 227,
+    "meta": [],
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 384
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/384",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/227"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=384"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 59,
+    "description": "Find here the latest news and press",
+    "link": "https://www.pplaaf.org/category/non-classe",
+    "name": "Non class\u00e9",
+    "slug": "non-classe",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 1,
+      "fr": 7
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "count": 39,
+    "description": "",
+    "link": "https://www.pplaaf.org/fr/category/non-classe-fr",
+    "name": "Non class\u00e9",
+    "slug": "non-classe-fr",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 7,
+      "en": 1
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/7",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "count": 3,
+    "description": "Podcast Listing",
+    "link": "https://www.pplaaf.org/category/podcast",
+    "name": "Podcast",
+    "slug": "podcast",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 67,
+      "fr": 134
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/67",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=67"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "count": 0,
+    "description": "",
+    "link": "https://www.pplaaf.org/fr/category/podcast-fr",
+    "name": "Podcast",
+    "slug": "podcast-fr",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "fr",
+    "translations": {
+      "fr": 134,
+      "en": 67
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/134",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "count": 28,
+    "description": "",
+    "link": "https://www.pplaaf.org/category/communique-de-presse",
+    "name": "Press Releases",
+    "slug": "communique-de-presse",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 161
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/161",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=161"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 381,
+    "count": 1,
+    "description": "",
+    "link": "https://www.pplaaf.org/category/communique-de-presse/public-statement",
+    "name": "Public Statement",
+    "slug": "public-statement",
+    "taxonomy": "category",
+    "parent": 161,
+    "meta": [],
+    "acf": [],
+    "lang": "en",
+    "translations": {
+      "en": 381
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/381",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/categories/161"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.pplaaf.org/wp-json/wp/v2/posts?categories=381"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

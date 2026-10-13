@@ -1,0 +1,35 @@
+{
+  "Global Financial Integrity": {
+    "enumerated": 42,
+    "pdf_acquired": 0,
+    "web_excerpts_acquired": 35,
+    "fulltext_screened": 1,
+    "deeply_read": 1,
+    "eligible_date_confirmed": 41,
+    "pages_pdf_acquired": 0,
+    "retained_evidence_ready": 0
+  },
+  "Global Witness": {
+    "enumerated": 194,
+    "pdf_acquired": 0,
+    "web_excerpts_acquired": 194,
+    "fulltext_screened": 2,
+    "deeply_read": 2,
+    "eligible_date_confirmed": 194,
+    "pages_pdf_acquired": 0,
+    "retained_evidence_ready": 0
+  },
+  "Public Eye": {
+    "enumerated": 102,
+    "pdf_acquired": 15,
+    "web_excerpts_acquired": 0,
+    "fulltext_screened": 4,
+    "deeply_read": 1,
+    "eligible_date_confirmed": 102,
+    "pages_pdf_acquired": 854,
+    "retained_evidence_ready": 0,
+    "machine_screened": 15,
+    "nonempty_parsed_pdfs": 15,
+    "machine_term_hits": 1571
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "review_date": "2026-10-13",
+  "scope_start": "2016-10-13",
+  "scope_end": "2026-10-13",
+  "currency": "USD",
+  "incremental_cash_spend": 0,
+  "paid_model_calls": 0,
+  "outreach": false,
+  "finalists": [],
+  "conditional_designs": [
+    {
+      "rank": 1,
+      "opportunity_id": "IW-01",
+      "test": "Same-tender award/rejection reason versus applicable criteria and timely bidder evidence",
+      "status": "conditional_benchmark_only",
+      "source_ids": [
+        "SRC-ba0f145f81fc4a",
+        "SRC-ef2dd37799db14"
+      ],
+      "evidence_files": [
+        "teams/integrity_whistleblowers/prozorro-pilot.json",
+        "teams/integrity_whistleblowers/prozorro-comparison.json",
+        "teams/integrity_whistleblowers/prior_coverage.json"
+      ],
+      "gates": {
+        "1_original_passage": "pass; policy risk, not intractability claim",
+        "2_falsifiable_proposition": "pass; documentary accuracy only",
+        "3_datasets_and_equivalence": "partial; stable tender/lot/bid/award IDs; complete version/legal history not adjudicated",
+        "4_bounded_source_check": "pass; original rules, bidder evidence, decision downloaded and parsed; compatible control",
+        "5_AI_marginal_value": "unproved; clean text baseline works",
+        "6_innocent_explanations": "documented; conditional law, corrections, other attachments, lawful subcontractor evidence",
+        "7_why_now": "possible affordability improvement; no exclusive2026capability",
+        "8_newness": "not established; DOZORRO2018/proBI existing work",
+        "9_pilot_and_costs": "20tenders; baseline comparison; cash0free gate; optional estimates only; human8–16hunknownrate"
+      }
+    },
+    {
+      "rank": 2,
+      "opportunity_id": "GT-PSC",
+      "test": "Incorporation shareholder declaration versus same-effective-date PSC declaration",
+      "status": "conditional_benchmark_only",
+      "source_ids": [
+        "SRC-de28b5f19e8b37"
+      ],
+      "evidence_files": [
+        "annexes/audit/request-manifest.json",
+        "annexes/audit/audit.md"
+      ],
+      "gates": {
+        "1_original_passage": "pass; explicit old cross-check method,2018snapshot/2020landing",
+        "2_falsifiable_proposition": "pass; exact threshold/denominator/rights, applicable scope",
+        "3_datasets_and_equivalence": "pass for one founding control; later history untested",
+        "4_bounded_source_check": "pass;11pageincorporationPDF+datedPSCpage; no conflict",
+        "5_AI_marginal_value": "fails demonstration; successful control plain text, code sufficient",
+        "6_innocent_explanations": "documented; nominees, rights, applicability, corrections/timing",
+        "7_why_now": "no demonstrated2026exclusivecapability",
+        "8_newness": "unproved; NGO explicitly proposed check earlier",
+        "9_pilot_and_costs": "30registry-selectedincorporations; OCR/rulesbaseline;0cashassumingexistinghardware; humanunknown"
+      }
+    },
+    {
+      "rank": 3,
+      "opportunity_id": "NRGI-PTG-01",
+      "test": "Same-year external payment disclosure outside matching EITI recipient disclosure universe",
+      "status": "hold_missing_evidence_and_equivalence",
+      "source_ids": [
+        "SRC-fd47bc183660f8",
+        "SRC-d6d19b6af93d3a",
+        "SRC-67e7982f2064ea",
+        "SRC-fc101b12b5006d",
+        "SRC-e51c1307c5e7a8",
+        "SRC-ea54fe0aab4e4c",
+        "SRC-372b1e796fd953",
+        "SRC-50f4b99adb7da0",
+        "SRC-3e601dadf3cb75"
+      ],
+      "evidence_files": [
+        "teams/secrecy_ownership/drc_pilot_acquisition.json",
+        "annexes/audit/drc-kamoa-row-locations.json",
+        "annexes/audit/xlsx-external-links.json",
+        "annexes/audit/audit.md"
+      ],
+      "gates": {
+        "1_original_passage": "pass; harmonization/manualconversion/missingcontracts bottleneck",
+        "2_falsifiable_proposition": "pass; completeness, not theft",
+        "3_datasets_and_equivalence": "fail; entity/project/recipient/tax/FX/recognition bridge incomplete",
+        "4_bounded_source_check": "partial; report/workbook/issuerPDFsuccess; detailedAnnexe52missing",
+        "5_AI_marginal_value": "unproved; workbook structured, alias taxonomy possible",
+        "6_innocent_explanations": "documented; scope/thresholds/FX/cashdate/category/adjustments",
+        "7_why_now": "no new source access or demonstratedAIadvantage",
+        "8_newness": "fail for sampledresidual; EITIalreadyreports21,913,611",
+        "9_pilot_and_costs": "threeissuer-years; stop until detailedannex+bridge;0cashfreegate; reviewunknown"
+      }
+    },
+    {
+      "rank": null,
+      "opportunity_id": "K-01",
+      "test": "Identify exactGPUconfiguration behind server label in original procurement attachment",
+      "status": "hold_original_access_failed",
+      "source_ids": [
+        "SRC-557f8c853e1055"
+      ],
+      "evidence_files": [
+        "teams/kleptocracy/checks.json",
+        "teams/kleptocracy/findings.md"
+      ],
+      "gates": {
+        "1_original_passage": "pass;p8labelsblindspot",
+        "2_falsifiable_proposition": "purchase/configuration declaration only, no shipment/license allegation",
+        "3_datasets_and_equivalence": "fail; serverSKU-configbridgeincomplete",
+        "4_bounded_source_check": "failprocurement originals502/timeouts; vendor3pagePDFsuccess",
+        "5_AI_marginal_value": "plausiblesemanticsunproved",
+        "6_innocent_explanations": "licencedexport, notdelivered, productvariant, advertisement only",
+        "7_why_now": "2026reportnotproof2026exclusivecapability",
+        "8_newness": "NGOalreadycoversprocurement; unexaminedconfigsnewnessunproved",
+        "9_pilot_and_costs": "stopuntil originalsampleandSKUbridge; no modelspend"
+      }
+    }
+  ],
+  "counts_file": "totals.json",
+  "source_inventory": "source-inventory.jsonl",
+  "machine_screen_inventory": "machine-screen-inventory.jsonl",
+  "rejection_table": "REJECTIONS.md",
+  "note": "Conditional designs are not shortlisted investigative finalists. Source IDs identify NGO corpus records; public dataset controls are separate evidence manifest entries."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://antac.org.ua/robots.txt",
+    "status": "HTTP403"
+  },
+  {
+    "url": "https://antac.org.ua/sitemap.xml",
+    "status": "HTTP403"
+  },
+  {
+    "url": "https://zakon.rada.gov.ua/laws/show/3988-20",
+    "status": "browser_internal_error"
+  },
+  {
+    "url": "https://zakon.rada.gov.ua/laws/show/520-2026-%D0%BF",
+    "status": "browser_internal_error"
+  },
+  {
+    "url": "https://dozorro.org/blog/yak-shtuchnij-intelekt-dozorro-monitorit-zakupivli",
+    "status": "browser_HTTP403;extended_search_index_text_available"
+  }
+]

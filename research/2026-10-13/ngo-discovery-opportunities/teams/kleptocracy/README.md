@@ -1,0 +1,7 @@
+This tranche covers OCCRP, The Sentry and C4ADS. Read `findings.md`, then `counts.json`, `inventory.jsonl`, `checks.json` and `acquisition-plan.json`.
+
+`build_inventory.py` reconstructs the metadata and counts from authorized browser snapshots in `/tmp/kleptocracy-{sentry,occrp,c4}-browser.txt` and `/tmp/kleptocracy-deep-browser.txt and /tmp/kleptocracy-occrp-context.txt`, plus the committed official-catalog metadata `occrp-catalog-discovery.json`. Copyrighted browser snapshots are deliberately not committed. A future user must lawfully reacquire them using the source URLs and acquisition plan; browser response wrappers/link IDs may change, so exact byte-hash reproduction of rendering is not promised. Original-source hashes remain unknown.
+
+Fulltext-screened and deeply-read flags refer to the identified selected sections of four sources, never all pages. Abstract context reading is a separate field. Missing dates, inaccessible endpoints and unsupported comparisons remain blockers. No finalist is claimed and no investigation allegation is made.
+
+Validation: `python validate.py` checks URL uniqueness, required fields, translation mappings, acquisition/hash consistency, count agreement and zero spend. `python build_inventory.py` regenerates inventory and counts only when the required temporary snapshots exist. No network requests, paid services or messages are executed by these scripts.

@@ -1,0 +1,38 @@
+{
+  "OCCRP": {
+    "unique_source_records": 89,
+    "canonical_works_discovered": 89,
+    "translation_mirrors": 0,
+    "unique_report_landing_pages": 89,
+    "date_verified_in_window": 89,
+    "rendered_excerpt_acquired": 1,
+    "original_fulltext_acquired": 0,
+    "fulltext_passage_screened": 1,
+    "deeply_read_selected_sections": 1,
+    "retained_finalists": 0
+  },
+  "The Sentry": {
+    "unique_source_records": 90,
+    "canonical_works_discovered": 79,
+    "translation_mirrors": 9,
+    "unique_report_landing_pages": 88,
+    "date_verified_in_window": 3,
+    "rendered_excerpt_acquired": 5,
+    "original_fulltext_acquired": 0,
+    "fulltext_passage_screened": 2,
+    "deeply_read_selected_sections": 2,
+    "retained_finalists": 0
+  },
+  "C4ADS": {
+    "unique_source_records": 21,
+    "canonical_works_discovered": 20,
+    "translation_mirrors": 0,
+    "unique_report_landing_pages": 20,
+    "date_verified_in_window": 12,
+    "rendered_excerpt_acquired": 4,
+    "original_fulltext_acquired": 0,
+    "fulltext_passage_screened": 1,
+    "deeply_read_selected_sections": 1,
+    "retained_finalists": 0
+  }
+}

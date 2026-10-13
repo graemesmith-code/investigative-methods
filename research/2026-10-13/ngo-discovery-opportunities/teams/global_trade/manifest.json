@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-10-13",
+  "actual_cash_spend_usd": 0,
+  "validation": "338 unique URL records; required fields; boolean and hash-format integrity; scripts compile; selected actual download hashes recorded; 15 nonempty parsed PDF machine-screen records, report hashes, hit counts and page/global offsets validated",
+  "files": [
+    {
+      "path": "acquisition-publiceye.jsonl",
+      "bytes": 24769,
+      "sha256": "e808e3b4ae48232a60d4656cdc398f328e534a87963c9278459f9cb0e67dea07"
+    },
+    {
+      "path": "additional-gfi.json",
+      "bytes": 1190,
+      "sha256": "b5485e91d2606527f7ec13a9ad159fd9a5d3b052015b31f786a1825801080b38"
+    },
+    {
+      "path": "census_publiceye.py",
+      "bytes": 4373,
+      "sha256": "e95e7b448411e7043cc67eb0890759d4299ef36983f645d798839fafcc7aec9e"
+    },
+    {
+      "path": "check_public_data.py",
+      "bytes": 1812,
+      "sha256": "820bc28b85123740db33f4cbe8239f4bfe67116662e194d7320af9d037af8831"
+    },
+    {
+      "path": "counts.json",
+      "bytes": 864,
+      "sha256": "46e80e913e51550ef681f4cb04fcda868165a6361b89593b5ed3f774429e56be"
+    },
+    {
+      "path": "data-checks.json",
+      "bytes": 2483,
+      "sha256": "56b45f94855e8626b458b0ee8d16b4ae3167b4e1901ef193e32b6c977887d9f4"
+    },
+    {
+      "path": "findings.md",
+      "bytes": 15690,
+      "sha256": "35f4a76f3fc8b1813dcf34496dfb101e66d796f48c7f36829f6658a859b58405"
+    },
+    {
+      "path": "inventory-publiceye.jsonl",
+      "bytes": 71711,
+      "sha256": "29dd23231e665c24e98b0013b616de66ff38aaca1b4849a5b9571770217e1788"
+    },
+    {
+      "path": "inventory-web.jsonl",
+      "bytes": 155011,
+      "sha256": "5e7297a47a1f369439c39b160c7bc7bbb65d43de7094b23d1719f092b1924586"
+    },
+    {
+      "path": "inventory.jsonl",
+      "bytes": 270103,
+      "sha256": "47027bcd10cba42045482d2bd9830cfd646381ca0b1bddf2a15de8e2431cf357"
+    },
+    {
+      "path": "machine-screen.jsonl",
+      "bytes": 254648,
+      "sha256": "5fcc29f33c09a51811e5e7d18d849fd3dc4423b59ed18164f49a425b78d5f8aa"
+    },
+    {
+      "path": "machine-screen.py",
+      "bytes": 5315,
+      "sha256": "4cd849e45cbf1bb1ff278f6d8d33fae5981c4b29af6d38817911e4fef7133d5a"
+    },
+    {
+      "path": "publiceye-translations.json",
+      "bytes": 1435,
+      "sha256": "f2dcead08fe52f015c47ee2f3525c8c522fa13efe4beb6bfd4b2d0ec6a0387ea"
+    },
+    {
+      "path": "web-catalog-log.json",
+      "bytes": 1443,
+      "sha256": "8e6558b08d8d04ef8e727fd389a41f5867c99863fe281234ec6f4a7c55479a90"
+    }
+  ]
+}

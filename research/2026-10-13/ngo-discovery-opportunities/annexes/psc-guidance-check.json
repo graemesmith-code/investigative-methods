@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-13",
+  "method": "official GOV.UK search/readable source text via web tool; no raw byte hash measured",
+  "sources": [
+    {
+      "url": "https://www.gov.uk/government/publications/people-with-significant-control-summary-guidance/summary-guidance-for-companies-register-of-people-with-significant-control-pscs",
+      "published": "2025-11-19",
+      "use": "more than25percent shares or voting rights; statutory exceptions/full guidance required"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/people-with-significant-control-2026-company-statutory-guidance/statutory-guidance-on-the-meaning-of-significant-influence-or-control-over-companies-in-the-context-of-the-register-of-people-with-significant-contr",
+      "published": "2026-03-04",
+      "use": "scope and conditions; not retrospectively substituted for earlier effective rules"
+    }
+  ],
+  "original_bytes": null,
+  "sha256": null,
+  "paid_call": false,
+  "legal_adjudication_performed": false,
+  "note": "Proposed public-document consistency test only. For every historical record use effective legislation/guidance, rights and applicable exclusions at that date."
+}

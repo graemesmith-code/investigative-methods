@@ -1,0 +1,44 @@
+{
+  "record_count": 305,
+  "scope": "canonical acquired PDF reports only; merged language/version manifestations excluded from this count",
+  "missing_or_empty_count": 0,
+  "by_org": {
+    "Basel Institute on Governance": {
+      "nonempty_fulltext_machine_screened": 294
+    },
+    "Sherpa": {
+      "nonempty_fulltext_machine_screened": 11
+    }
+  },
+  "term_totals": {
+    "manual_labour": 314,
+    "cost": 758,
+    "data": 1915,
+    "access": 4025,
+    "pdf_format": 1144,
+    "ownership_registry": 1403,
+    "payments": 895,
+    "invoice_trade": 1810,
+    "procurement": 1575,
+    "bottleneck_missing": 644,
+    "identity_join": 3621,
+    "financial_evidence": 4549
+  },
+  "terms": {
+    "manual_labour": "\\b(?:manual(?:ly)?|labou?r(?:ious|intensive)?|time.consuming|manuell?e?s?|fastidieu\\w*|chronophage\\w*)\\b",
+    "cost": "\\b(?:costs?|expensive|affordab\\w*|coûts?|couteu\\w*|coûteu\\w*)\\b",
+    "data": "\\b(?:data|dataset\\w*|données?|donnees?)\\b",
+    "access": "\\b(?:access\\w*|inaccess\\w*|accès|acces|available|unavailable|disponib\\w*|indisponib\\w*)\\b",
+    "pdf_format": "\\b(?:pdf|scanned|ocr|unstructured|machine.readable|format\\w*|numéris\\w*)\\b",
+    "ownership_registry": "\\b(?:ownership|beneficial|registr(?:y|ies)|registers?|bénéficiaires?|beneficiaires?|registre\\w*|propriét\\w*|propriet\\w*)\\b",
+    "payments": "\\b(?:payments?|paiements?|versements?|receipts?|recettes?)\\b",
+    "invoice_trade": "\\b(?:invoic\\w*|misinvoic\\w*|factur\\w*|trade|commerce|customs|douan\\w*)\\b",
+    "procurement": "\\b(?:procurement|tenders?|contracts?|marchés?|marches?|appels? d.offres?)\\b",
+    "bottleneck_missing": "\\b(?:bottleneck\\w*|barriers?|limitations?|incomplete|missing|fragment\\w*|obstacles?|lacunes?|incompl\\w*|manquant\\w*)\\b",
+    "identity_join": "\\b(?:identit\\w*|identif\\w*|names?|noms?|matching|reconcil\\w*|rapprochement\\w*)\\b",
+    "financial_evidence": "\\b(?:bank|banks|banking|banqu\\w*|confidential\\w*|intelligence|private|privé\\w*|seized|saisi\\w*)\\b"
+  },
+  "character_offset_unit": "Python Unicode characters in cache text",
+  "no_contextual_reading_claim": true,
+  "missing_or_empty": []
+}

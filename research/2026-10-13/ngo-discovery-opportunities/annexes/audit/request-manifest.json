@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16545784/filing-history",
+    "http_status": 200,
+    "bytes": 40641,
+    "sha256": "5d02e3f16e013ade30e18019412105275587a8e310d4ad7150dbe19f2ce59064",
+    "content_type": "text/html;charset=UTF-8",
+    "acquisition_utc": "2026-10-13T09:02:11.019770+00:00",
+    "temporary_file": "/tmp/ngo-audit/5d02e3f16e013ade30e18019412105275587a8e310d4ad7150dbe19f2ce59064.html"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16545784/persons-with-significant-control",
+    "http_status": 200,
+    "bytes": 38295,
+    "sha256": "5ccbb5d4305e14d3ea8ac88b9811691ba3975282758df608469e09388757e89a",
+    "content_type": "text/html;charset=UTF-8",
+    "acquisition_utc": "2026-10-13T09:02:11.504477+00:00",
+    "temporary_file": "/tmp/ngo-audit/5ccbb5d4305e14d3ea8ac88b9811691ba3975282758df608469e09388757e89a.html"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/16545784/filing-history/MzQ3MTY3NDMyNWFkaXF6a2N4/document?download=0&format=pdf",
+    "http_status": 200,
+    "bytes": 290829,
+    "sha256": "1fdea69eff656f454b862d98878ca4f6bd233810108351b8687606dc8c17f0d7",
+    "content_type": "application/pdf",
+    "acquisition_utc": "2026-10-13T09:02:13.401101+00:00",
+    "temporary_file": "/tmp/ngo-audit/1fdea69eff656f454b862d98878ca4f6bd233810108351b8687606dc8c17f0d7.pdf"
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/confirmation-statement-form-cs01-new-version",
+    "http_status": 200,
+    "bytes": 92080,
+    "sha256": "83e9293e8535234a68778c6387df19e43508d058fcd9fb1b88e607baaefb1652",
+    "content_type": "text/html; charset=utf-8",
+    "acquisition_utc": "2026-10-13T09:02:14.332267+00:00",
+    "temporary_file": "/tmp/ngo-audit/83e9293e8535234a68778c6387df19e43508d058fcd9fb1b88e607baaefb1652.html"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "NRGI": {
+    "enumerated": 299,
+    "landing_acquired": 299,
+    "report_acquired": 38,
+    "fulltext_screened": 11,
+    "deeply_read": 1,
+    "primary_corpus_eligible": 299,
+    "retained_finalists": 0,
+    "raw_english_publication_urls": 455,
+    "outside_dates": 151,
+    "date_unknown": 5,
+    "pdf_download_responses": 45,
+    "unique_pdf_sha256": 44,
+    "machine_screened_works": 38,
+    "machine_screened_pdf_representations": 44
+  },
+  "TJN": {
+    "enumerated": 110,
+    "landing_acquired": 110,
+    "report_acquired": 1,
+    "fulltext_screened": 1,
+    "deeply_read": 1,
+    "primary_corpus_eligible": 77,
+    "retained_finalists": 0
+  },
+  "Open Ownership": {
+    "enumerated": 109,
+    "landing_acquired": 109,
+    "report_acquired": 3,
+    "fulltext_screened": 3,
+    "deeply_read": 2,
+    "primary_corpus_eligible": 89,
+    "retained_finalists": 0
+  }
+}

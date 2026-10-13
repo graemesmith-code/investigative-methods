@@ -1,0 +1,91 @@
+[
+  {
+    "sheet": "Annexe 0 ",
+    "matching_rows": [
+      {
+        "row": 14,
+        "values": [
+          7,
+          "KAMOA COPPER SA (ex. BARBADOS)",
+          "A0901048A",
+          "LUBUDI",
+          "LUALABA",
+          "Nc",
+          "oui",
+          "Pricewaterhousecoopers RDC SAS"
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "Annexe 3",
+    "matching_rows": [
+      {
+        "row": 610,
+        "values": [
+          605,
+          "KAMOA COPPER SA",
+          "12873",
+          "PE",
+          62,
+          "2012-08-20 00:00:00",
+          "2042-08-19 00:00:00",
+          "Lualaba",
+          "Actif"
+        ]
+      },
+      {
+        "row": 611,
+        "values": [
+          606,
+          "KAMOA COPPER SA",
+          "13025",
+          "PE",
+          204,
+          "2012-08-20 00:00:00",
+          "2042-08-19 00:00:00",
+          "Lualaba",
+          "Actif"
+        ]
+      },
+      {
+        "row": 612,
+        "values": [
+          607,
+          "KAMOA COPPER SA",
+          "13026",
+          "PE",
+          202,
+          "2012-08-20 00:00:00",
+          "2042-08-19 00:00:00",
+          "Lualaba",
+          "Actif"
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "Annexe 51",
+    "matching_rows": [
+      {
+        "row": 8,
+        "values": [
+          null,
+          "KAMOA COPPER SA (ex. BARBADOS)",
+          9929793,
+          0,
+          9929793
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "Annexe 52",
+    "row": 5,
+    "values": [
+      null,
+      "Voir annexe 52  - document Excel séparé"
+    ],
+    "meaning": "Required detailed company reconciliations are in a separate workbook, not this acquisition."
+  }
+]
