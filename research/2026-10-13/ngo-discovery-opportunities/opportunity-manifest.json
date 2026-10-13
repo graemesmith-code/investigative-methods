@@ -1,125 +1,193 @@
 {
   "review_date": "2026-10-13",
+  "revision": "targeted readiness pass after initial strict selection",
   "scope_start": "2016-10-13",
   "scope_end": "2026-10-13",
-  "currency": "USD",
   "incremental_cash_spend": 0,
   "paid_model_calls": 0,
   "outreach": false,
-  "finalists": [],
-  "conditional_designs": [
+  "completed_investigative_findings": [],
+  "pilot_ready": [
     {
-      "rank": 1,
-      "opportunity_id": "IW-01",
-      "test": "Same-tender award/rejection reason versus applicable criteria and timely bidder evidence",
-      "status": "conditional_benchmark_only",
+      "opportunity_id": "RI-01",
+      "title": "Cited procurement requirement–evidence–decision comparison",
+      "readiness": "pilot_ready",
       "source_ids": [
-        "SRC-ba0f145f81fc4a",
-        "SRC-ef2dd37799db14"
+        "SRC-ba0f145f81fc4a"
       ],
       "evidence_files": [
-        "teams/integrity_whistleblowers/prozorro-pilot.json",
-        "teams/integrity_whistleblowers/prozorro-comparison.json",
-        "teams/integrity_whistleblowers/prior_coverage.json"
+        "teams/revisit_integrity/findings.md",
+        "teams/revisit_integrity/procurement-bundle.json"
       ],
       "gates": {
-        "1_original_passage": "pass; policy risk, not intractability claim",
-        "2_falsifiable_proposition": "pass; documentary accuracy only",
-        "3_datasets_and_equivalence": "partial; stable tender/lot/bid/award IDs; complete version/legal history not adjudicated",
-        "4_bounded_source_check": "pass; original rules, bidder evidence, decision downloaded and parsed; compatible control",
-        "5_AI_marginal_value": "unproved; clean text baseline works",
-        "6_innocent_explanations": "documented; conditional law, corrections, other attachments, lawful subcontractor evidence",
-        "7_why_now": "possible affordability improvement; no exclusive2026capability",
-        "8_newness": "not established; DOZORRO2018/proBI existing work",
-        "9_pilot_and_costs": "20tenders; baseline comparison; cash0free gate; optional estimates only; human8–16hunknownrate"
-      }
+        "1_source": "AntAC25May2026 original tailored-requirement passage/HTML section",
+        "2_proposition": "Decision describes evidence accurately under operative requirements; original compatible/unadjudicated control allowed",
+        "3_inputs": "Authority and bidder original public streams; exact tender/lot/bid/award/document-version IDs; stage/date equivalence mandatory",
+        "4_access": "Complete current bundle63records/33files;32PDF employment ZIP; no private access; historical completeness not proved",
+        "5_AI_companion": "Classify mandatory/conditional rules, roles, bidder/winner/correction stages and cited triples after Ukrainian OCR baseline",
+        "6_alternatives": "Conditional law, subcontractors, archives, corrections, later winner-stage evidence; credentials not adjudicated",
+        "7_why_now": "Plausibly cheaper general-purpose semantic interpretation; benchmark before scale; no exclusivity claim",
+        "8_prior_new": "DOZORRO2018 risk screening is a comparator, not proof cited/version-aware task solved; no new case claimed",
+        "9_pilot_cost": "20seeded tenders/40clauses; 16of20complete-access threshold, precision/time gate; cash cap50estimated,6–12reviewhours; actual0"
+      },
+      "finding_established": false,
+      "AI_savings_measured": false
     },
     {
-      "rank": 2,
-      "opportunity_id": "GT-PSC",
-      "test": "Incorporation shareholder declaration versus same-effective-date PSC declaration",
-      "status": "conditional_benchmark_only",
+      "opportunity_id": "RIGHTS-HISTORY-01",
+      "title": "Interpret publicly filed rights and ownership-event history",
+      "readiness": "pilot_ready",
       "source_ids": [
-        "SRC-de28b5f19e8b37"
+        "SRC-de28b5f19e8b37",
+        "SRC-077eba42bd9c94",
+        "SRC-b77bdff413f951"
       ],
       "evidence_files": [
-        "annexes/audit/request-manifest.json",
-        "annexes/audit/audit.md"
+        "teams/revisit_ownership/findings.md",
+        "teams/revisit_ownership/public_filing_samples.json",
+        "teams/revisit_psc_root/cohort-check.json",
+        "teams/revisit_psc_root/history-companion.json",
+        "teams/revisit_psc_root/page-quality.json"
       ],
       "gates": {
-        "1_original_passage": "pass; explicit old cross-check method,2018snapshot/2020landing",
-        "2_falsifiable_proposition": "pass; exact threshold/denominator/rights, applicable scope",
-        "3_datasets_and_equivalence": "pass for one founding control; later history untested",
-        "4_bounded_source_check": "pass;11pageincorporationPDF+datedPSCpage; no conflict",
-        "5_AI_marginal_value": "fails demonstration; successful control plain text, code sufficient",
-        "6_innocent_explanations": "documented; nominees, rights, applicability, corrections/timing",
-        "7_why_now": "no demonstrated2026exclusivecapability",
-        "8_newness": "unproved; NGO explicitly proposed check earlier",
-        "9_pilot_and_costs": "30registry-selectedincorporations; OCR/rulesbaseline;0cashassumingexistinghardware; humanunknown"
-      }
+        "1_source": "GW shareholder crosscheck plus TJN/OO2025 range/rights/history limitations; original passages preserved",
+        "2_proposition": "Publicly operative rights and same-period control declarations internally compatible; no true/hidden-owner inference",
+        "3_inputs": "Company-number/document-ID/class/denominator/effective-date chain; current snapshot cannot replace history; same declarant",
+        "4_access": "Two seeded controls4PDFs17pages plus3registry-nominated controls9relevantPDFs92pages; scanned/contingent clauses observed",
+        "5_AI_companion": "Clause role/conditional-right interpretation and overrides/date links; OCR/numbers/code/human mandatory baseline",
+        "6_alternatives": "Nominees, class rights, transmission/member registration, redundant conditions, corrections, incomplete history",
+        "7_why_now": "Affordable clause interpretation hypothesis;44native-low-text pages in74NEWINCpages; old public data and methods",
+        "8_prior_new": "Existing graph/threshold methods reused; new clause/event evidence ledger and future cohort cases; no novelty assumption",
+        "9_pilot_cost": "5companies/100pages; complete histories/95percentfieldprecision/nofalseconditional-rightflags; reserve25cash,6–12humanhours; actual0"
+      },
+      "finding_established": false,
+      "AI_savings_measured": false
     },
     {
-      "rank": 3,
-      "opportunity_id": "NRGI-PTG-01",
-      "test": "Same-year external payment disclosure outside matching EITI recipient disclosure universe",
-      "status": "hold_missing_evidence_and_equivalence",
+      "opportunity_id": "RK-02",
+      "title": "Distinguish equity ownership from project/licence scope in issuer disclosures",
+      "readiness": "pilot_ready",
       "source_ids": [
-        "SRC-fd47bc183660f8",
-        "SRC-d6d19b6af93d3a",
-        "SRC-67e7982f2064ea",
-        "SRC-fc101b12b5006d",
-        "SRC-e51c1307c5e7a8",
-        "SRC-ea54fe0aab4e4c",
-        "SRC-372b1e796fd953",
-        "SRC-50f4b99adb7da0",
-        "SRC-3e601dadf3cb75"
+        "SRC-60088920c8016f"
       ],
       "evidence_files": [
-        "teams/secrecy_ownership/drc_pilot_acquisition.json",
-        "annexes/audit/drc-kamoa-row-locations.json",
-        "annexes/audit/xlsx-external-links.json",
-        "annexes/audit/audit.md"
+        "teams/revisit_kleptocracy/findings.md",
+        "teams/revisit_kleptocracy/checks.json",
+        "teams/revisit_kleptocracy/pilot-results.json"
       ],
       "gates": {
-        "1_original_passage": "pass; harmonization/manualconversion/missingcontracts bottleneck",
-        "2_falsifiable_proposition": "pass; completeness, not theft",
-        "3_datasets_and_equivalence": "fail; entity/project/recipient/tax/FX/recognition bridge incomplete",
-        "4_bounded_source_check": "partial; report/workbook/issuerPDFsuccess; detailedAnnexe52missing",
-        "5_AI_marginal_value": "unproved; workbook structured, alias taxonomy possible",
-        "6_innocent_explanations": "documented; scope/thresholds/FX/cashdate/category/adjustments",
-        "7_why_now": "no new source access or demonstratedAIadvantage",
-        "8_newness": "fail for sampledresidual; EITIalreadyreports21,913,611",
-        "9_pilot_and_costs": "threeissuer-years; stop until detailedannex+bridge;0cashfreegate; reviewunknown"
-      }
+        "1_source": "TheSentryGamingTheSystemDec2022 p17 ownership-narrative bottleneck; named case is known control",
+        "2_proposition": "Only same-unit/same-date equity claims can contradict an equity table; licence/control/project differences abstain",
+        "3_inputs": "Issuer audited financials plus original publicity/narrative; entity/project/title mapping and percentage type/reference date mandatory",
+        "4_access": "Original65page2020financials+originalJuly2020release readable;3public numeric controls executed; no raw sourcehash inferred",
+        "5_AI_companion": "Quantifier/qualification/ownership-object/scope classification with exact pages; code percentages, human bridge validation",
+        "6_alternatives": "Licence vs holder equity, consolidation below100percent, subproject scope, dates, amendments; official bridge required",
+        "7_why_now": "Plausible cheap prose interpretation; cost/time/accuracy gate; no measured saving",
+        "8_prior_new": "Sentry named case already covered; full subsidiary-table benchmark then independently defined issuer roster, no suspect selection",
+        "9_pilot_cost": "20labelledpairs incl agreement and2scope traps; no falseallegationflags/95percentfields/25percentreview-time gain;25modelcapestimate plus10–20humanhours; actual0"
+      },
+      "finding_established": false,
+      "AI_savings_measured": false
     },
     {
-      "rank": null,
-      "opportunity_id": "K-01",
-      "test": "Identify exactGPUconfiguration behind server label in original procurement attachment",
-      "status": "hold_original_access_failed",
+      "opportunity_id": "PE-DISCLOSURE",
+      "title": "Compare scanned supplier tables with the same report’s narrative",
+      "readiness": "pilot_ready",
       "source_ids": [
-        "SRC-557f8c853e1055"
+        "SRC-4d51b0d1e49eee"
       ],
       "evidence_files": [
-        "teams/kleptocracy/checks.json",
-        "teams/kleptocracy/findings.md"
+        "teams/revisit_publiceye/findings.md",
+        "teams/revisit_publiceye/population.json",
+        "teams/revisit_publiceye/control-records.json",
+        "teams/revisit_publiceye/german-table-baseline.json"
       ],
       "gates": {
-        "1_original_passage": "pass;p8labelsblindspot",
-        "2_falsifiable_proposition": "purchase/configuration declaration only, no shipment/license allegation",
-        "3_datasets_and_equivalence": "fail; serverSKU-configbridgeincomplete",
-        "4_bounded_source_check": "failprocurement originals502/timeouts; vendor3pagePDFsuccess",
-        "5_AI_marginal_value": "plausiblesemanticsunproved",
-        "6_innocent_explanations": "licencedexport, notdelivered, productvariant, advertisement only",
-        "7_why_now": "2026reportnotproof2026exclusivecapability",
-        "8_newness": "NGOalreadycoversprocurement; unexaminedconfigsnewnessunproved",
-        "9_pilot_and_costs": "stopuntil originalsampleandSKUbridge; no modelspend"
-      }
+        "1_source": "PublicEye/FEMNETJan2021 originalp2 risk/measure disclosure bottleneck andp8methodgrid",
+        "2_proposition": "Same-period/production-stage explicit supplier-country claims and tables agree; action completion differs from plans/effects",
+        "3_inputs": "Official50companydirectory nominates; originalcompanyreport narrative vs table, same hash/period/stage; self-reports not underlying transaction proof",
+        "4_access": "Firstdirectoryentry2originalscannedPDFs22pages;22OCRpages; German countrysets agreement and14of15region-gridcells recovered",
+        "5_AI_companion": "Multilingual role/scope/time/action-state labels plus table interpretation after suitable GermanOCR+grid baseline; local permitted processing",
+        "6_alternatives": "Office vs supplier, period/stage/group differences, updates andOCRerror; olderEnglish notsameperiodtranslation",
+        "7_why_now": "Plausible inexpensive semantic triage; strongfreeOCR baseline alreadyworks; measuredaccuracy/time gate",
+        "8_prior_new": "2021manual31-companymethod precedespilot; currentselectedcompanyoutsideoldsample; no new accusation/completecoverageclaim",
+        "9_pilot_cost": "10directorycompanies/50fields;98percentprecision/95percentrows/25percentreviewtimegain; localcompute0–50cashscenario,6–12humanhours+setup; actual0; restrictedguideexcluded"
+      },
+      "finding_established": false,
+      "AI_savings_measured": false
     }
   ],
+  "conditional_opportunities": [
+    {
+      "opportunity_id": "RK-01",
+      "title": "Implicit server/GPU configuration interpretation",
+      "readiness": "conditional_blocked",
+      "specific_blocker": "Originalprocurementsample inaccessible, exact configuredSKUbridge missing; comprehensivewhole-documentOCR+GPUaliases/specs baseline required",
+      "evidence_files": [
+        "teams/revisit_kleptocracy/findings.md",
+        "teams/kleptocracy/checks.json"
+      ],
+      "finding_established": false
+    },
+    {
+      "opportunity_id": "RI-02",
+      "title": "Separate site assertions from citations in environmental assessments",
+      "readiness": "conditional_blocked",
+      "specific_blocker": "OriginalBananaESIA unacquired; independentgeo/CRS/phase equivalence and externalprocessing terms unresolved; reachablecontrol hasOFFICIALUSEONLYwatermark",
+      "evidence_files": [
+        "teams/revisit_integrity/findings.md",
+        "teams/revisit_integrity/environment-access.json"
+      ],
+      "finding_established": false
+    },
+    {
+      "opportunity_id": "NRGI-PTG-01",
+      "title": "Comparable external-payment and recipient-disclosure reconciliation",
+      "readiness": "conditional_blocked",
+      "specific_blocker": "DetailedAnnexe52missing; entity/project/payment/FX/cash bridges incomplete; knownsamplegap alreadypublished",
+      "evidence_files": [
+        "teams/secrecy_ownership/findings.md",
+        "annexes/audit/audit.md"
+      ],
+      "finding_established": false
+    },
+    {
+      "opportunity_id": "LAND-EXEMPTION-01",
+      "title": "Interpret recorded-person transparency exemptions",
+      "readiness": "conditional_blocked",
+      "specific_blocker": "RCI403andpaidlegal-titleuniverse; no currenttwo-sidedstableIDsample",
+      "evidence_files": [
+        "teams/revisit_ownership/findings.md",
+        "teams/revisit_ownership/access_checks.json"
+      ],
+      "finding_established": false
+    },
+    {
+      "opportunity_id": "CONTRACT-AMENDMENT-01",
+      "title": "Multilingual stabilization carveouts and superseding amendments",
+      "readiness": "conditional_blocked",
+      "specific_blocker": "Originalpubliccontractpair/access blocked403; completeoperativeamendment/govlaw evidence unavailable",
+      "evidence_files": [
+        "teams/revisit_ownership/findings.md"
+      ],
+      "finding_established": false
+    },
+    {
+      "opportunity_id": "PE-CERTIFICATION",
+      "title": "Certification-compliance extension of supplier-disclosure test",
+      "readiness": "conditional_blocked",
+      "specific_blocker": "Currentcertificate/licensing/applicableobligationdates unverified; normativeguideprocessing/reuse restricted",
+      "evidence_files": [
+        "teams/revisit_publiceye/findings.md",
+        "teams/revisit_publiceye/access-checks.json"
+      ],
+      "finding_established": false
+    }
+  ],
+  "readiness_definition": "Pilot-ready means sufficient accessible originals to run a modest interpretation experiment, not a contradiction, measured AI advantage, exclusive2026capability or publishablecase novelty. Those are later gates.",
+  "initial_snapshot": "annexes/initial-review/opportunity-manifest.json",
   "counts_file": "totals.json",
   "source_inventory": "source-inventory.jsonl",
-  "machine_screen_inventory": "machine-screen-inventory.jsonl",
   "rejection_table": "REJECTIONS.md",
-  "note": "Conditional designs are not shortlisted investigative finalists. Source IDs identify NGO corpus records; public dataset controls are separate evidence manifest entries."
+  "note": "Source IDs anchor NGO corpus; company/procurement/ESIA controls remain separate test evidence. Same-host claimant streams are explicitly distinguished from independent factual corroboration."
 }

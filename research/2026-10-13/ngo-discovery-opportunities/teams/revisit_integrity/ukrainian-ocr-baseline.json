@@ -1,0 +1,58 @@
+{
+  "test": "bounded two-page suitable-language OCR baseline",
+  "language": "ukr",
+  "actual_spend_usd": 0,
+  "staff_text_published": false,
+  "credential_assessment": "unperformed",
+  "checks": [
+    {
+      "pdf_sha256": "bedee6c494681bcff4202dcedb816f98744b63d7572549fa87b2f83e697cbc25",
+      "pdf_page": 1,
+      "rendered_page_sha256": "73889e7604dc0582f7ce1b4a0000d7f6a1916724f718e8387535ffd9d6d09f69",
+      "ocr_total_characters": 560,
+      "ocr_cyrillic_characters": 390,
+      "ocr_replacement_characters": 0,
+      "previous_pdftext_total_characters": 971,
+      "previous_pdftext_cyrillic_characters": 0,
+      "elapsed_seconds": 0.714,
+      "recognition_quality_flag": "Cyrillic recognition restored;accuracy not manually annotated;do not infer credentials",
+      "ocr_text_sha256": "b10ff40706a10e398358257e748e76298278229ab4dc97efdb9e391c108120ab",
+      "staff_text_saved_only_in_tmp": true
+    },
+    {
+      "pdf_sha256": "ca4aae0be0edfe8ba359035f8c54c72e55f4e517f7794bb9450f3758c0ed1f1e",
+      "pdf_page": 1,
+      "rendered_page_sha256": "3d414cf3859ded585771b754b30722efcf43d54c8be886f60a2df865fecc7bc0",
+      "ocr_total_characters": 680,
+      "ocr_cyrillic_characters": 480,
+      "ocr_replacement_characters": 0,
+      "previous_pdftext_total_characters": 1562,
+      "previous_pdftext_cyrillic_characters": 0,
+      "elapsed_seconds": 0.806,
+      "recognition_quality_flag": "Cyrillic recognition restored;accuracy not manually annotated;do not infer credentials",
+      "ocr_text_sha256": "f869d3e5d6b4cd0a1984c0808efe590342e749bac0e839ded485afcfc55c5535",
+      "staff_text_saved_only_in_tmp": true
+    }
+  ],
+  "ukr.traineddata": {
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/ukr.traineddata",
+    "sha256": "d59e53e2bded32f4445f124b4b00240fcac7e8044c003ab822ccb94f0b3db59b",
+    "bytes": 3825102,
+    "tls_verification": "enabled",
+    "license": "See official tessdata_fast LICENSE;Apache-2.0"
+  },
+  "LICENSE": {
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358,
+    "tls_verification": "enabled",
+    "license": "Apache-2.0"
+  },
+  "tool_versions": {
+    "tesseract": "tesseract 5.5.0",
+    "pdftoppm": "pdftoppm version 26.05.0"
+  },
+  "archive_document_id": "c2075979c63b42cc884003324d27cf72",
+  "archive_sha256": "c49062428b691080e92f8746fc3d7621bbb4d3adefdbecf9acf3f75797dc7bbc",
+  "status": "success"
+}

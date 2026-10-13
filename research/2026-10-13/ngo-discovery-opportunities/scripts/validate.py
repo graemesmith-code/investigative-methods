@@ -51,13 +51,20 @@ def main():
  if len(set(m['source_id'] for m in machine))!=totals['machine_screened']:errors.append('machine-work count mismatch')
  checks['machine_index_records']=len(machine)
  opp=json.loads((P/'opportunity-manifest.json').read_text())
- if opp['finalists'] or totals['retained_finalist_sources']!=0:errors.append('unexpected promoted finalist')
- for o in opp['conditional_designs']:
+ if opp['completed_investigative_findings']:errors.append('unexpected completed investigative finding')
+ if len(opp['pilot_ready'])!=totals['pilot_ready_opportunities']:errors.append('pilot-ready count mismatch')
+ for o in opp['pilot_ready']:
   if len(o['gates'])!=9:errors.append('incomplete nine-gate manifest')
   for s in o['source_ids']:
    if s not in ids:errors.append(f'unknown candidate sourceID {s}')
   for e in o['evidence_files']:
    if not (P/e).is_file():errors.append(f'missing candidate evidence {e}')
+ for o in opp['conditional_opportunities']:
+  if not o['specific_blocker']:errors.append('conditional design lacks specific blocker')
+  for e in o['evidence_files']:
+   if not (P/e).is_file():errors.append(f'missing conditional evidence {e}')
+ expected_retained=set(s for o in opp['pilot_ready'] for s in o['source_ids'])
+ if set(r['source_id'] for r in rows if r['retained_pilot_source'])!=expected_retained:errors.append('retained source set mismatch')
  for f in P.rglob('*.md'):
   for target in re.findall(r'\]\(([^\s)]+)\)',f.read_text()):
    if target.startswith(('http://','https://','mailto:','#')):checks['external_or_anchor_links_recorded']+=1;continue
@@ -69,6 +76,6 @@ def main():
   recorded=json.loads((P/'file-manifest.json').read_text())['files']
   if recorded!=hashes():errors.append('file-manifest differs from current research files')
  else:errors.append('file-manifest missing; first run --write-manifest')
- result={'status':'PASS' if not errors else 'FAIL','checks':dict(checks),'errors':errors,'network_calls':0,'paid_calls':0,'finalists':0,'note':'External URLs are not silently called available: recorded acquisition/failure manifests supply access evidence.'}
+ result={'status':'PASS' if not errors else 'FAIL','checks':dict(checks),'errors':errors,'network_calls':0,'paid_calls':0,'completed_findings':0,'pilot_ready_opportunities':len(opp['pilot_ready']),'conditional_opportunities':len(opp['conditional_opportunities']),'note':'External URLs are not silently called available: recorded acquisition/failure manifests supply access evidence.'}
  (P/'validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2));return bool(errors)
 if __name__=='__main__':sys.exit(main())

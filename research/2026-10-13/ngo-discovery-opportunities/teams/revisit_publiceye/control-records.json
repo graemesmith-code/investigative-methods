@@ -1,0 +1,60 @@
+{
+  "opportunity_id": "PE-DISCLOSURE",
+  "status": "pilot_ready_documentary_benchmark",
+  "actual_spend_usd": 0,
+  "discrepancies_found": 0,
+  "controls": [
+    {
+      "document_url": "https://amidex.at/downloads/nachhaltigkeitsbericht-2026-01.pdf",
+      "document_sha256": "2c96e746024535ec084045dfce45d726412af2722c384f4e83f2200308e6979e",
+      "report_period": "2025",
+      "signature_date": "2025-12-06",
+      "signature_physical_pdf_page": 13,
+      "narrative_pages": [
+        1,
+        2
+      ],
+      "narrative_supplier_countries": [
+        "Slovakia",
+        "Turkey",
+        "Pakistan",
+        "China"
+      ],
+      "table_physical_pdf_page": 6,
+      "table_rows": [
+        {
+          "country": "Slovakia",
+          "region": "Zemplin",
+          "stage": "manufacturing"
+        },
+        {
+          "country": "Pakistan",
+          "region": "Sindh",
+          "stage": "full yarn and fabric production"
+        },
+        {
+          "country": "Pakistan",
+          "region": "Punjab",
+          "stage": "full yarn and fabric production"
+        },
+        {
+          "country": "China",
+          "region": "Hebei",
+          "stage": "full yarn and fabric production"
+        },
+        {
+          "country": "Turkey",
+          "region": "Denizli, Karamanmaras",
+          "stage": "full yarn and fabric production"
+        }
+      ],
+      "result": "country-set agreement",
+      "interpretation_limit": "Country-set agreement only; narrative stage scope not identical, no universal completeness or transaction claim",
+      "country_regex_failed_table_recovery": true,
+      "Austria_role": "office/contact country, not supplier by this record"
+    }
+  ],
+  "older_english_report": "Different time coverage and unverified signature date; not a same-period translation counterpart.",
+  "ai_benchmark_run": false,
+  "baseline": "22pages initial EnglishOCR; stronger GermanOCR+grid comparator recovered5/5countrycells,14/15normalizedtotalcells; manual table-region nomination; native text0"
+}

@@ -1,0 +1,186 @@
+{
+  "selection": "One downloaded basic-company snapshot part7of7; active Private Limited Company numericIDs incorporated2024; deterministic SHA256 seed sorts eligible records; first3 access controls. Partial alphabetic partition, not national randomsample. No suspect selection.",
+  "snapshot_url": "https://download.companieshouse.gov.uk/BasicCompanyData-2026-10-01-part7_7.zip",
+  "zip_member": "BasicCompanyData-2026-10-01-part7_7.csv",
+  "rows_parsed": 604714,
+  "eligible_rows_in_partition": 41395,
+  "csv_fields": [
+    "CompanyName",
+    " CompanyNumber",
+    "RegAddress.CareOf",
+    "RegAddress.POBox",
+    "RegAddress.AddressLine1",
+    " RegAddress.AddressLine2",
+    "RegAddress.PostTown",
+    "RegAddress.County",
+    "RegAddress.Country",
+    "RegAddress.PostCode",
+    "CompanyCategory",
+    "CompanyStatus",
+    "CountryOfOrigin",
+    "DissolutionDate",
+    "IncorporationDate",
+    "Accounts.AccountRefDay",
+    "Accounts.AccountRefMonth",
+    "Accounts.NextDueDate",
+    "Accounts.LastMadeUpDate",
+    "Accounts.AccountCategory",
+    "Returns.NextDueDate",
+    "Returns.LastMadeUpDate",
+    "Mortgages.NumMortCharges",
+    "Mortgages.NumMortOutstanding",
+    "Mortgages.NumMortPartSatisfied",
+    "Mortgages.NumMortSatisfied",
+    "SICCode.SicText_1",
+    "SICCode.SicText_2",
+    "SICCode.SicText_3",
+    "SICCode.SicText_4",
+    "LimitedPartnerships.NumGenPartners",
+    "LimitedPartnerships.NumLimPartners",
+    "URI",
+    "PreviousName_1.CONDATE",
+    " PreviousName_1.CompanyName",
+    " PreviousName_2.CONDATE",
+    " PreviousName_2.CompanyName",
+    "PreviousName_3.CONDATE",
+    " PreviousName_3.CompanyName",
+    "PreviousName_4.CONDATE",
+    " PreviousName_4.CompanyName",
+    "PreviousName_5.CONDATE",
+    " PreviousName_5.CompanyName",
+    "PreviousName_6.CONDATE",
+    " PreviousName_6.CompanyName",
+    "PreviousName_7.CONDATE",
+    " PreviousName_7.CompanyName",
+    "PreviousName_8.CONDATE",
+    " PreviousName_8.CompanyName",
+    "PreviousName_9.CONDATE",
+    " PreviousName_9.CompanyName",
+    "PreviousName_10.CONDATE",
+    " PreviousName_10.CompanyName",
+    "ConfStmtNextDueDate",
+    " ConfStmtLastMadeUpDate"
+  ],
+  "controls": [
+    {
+      "company_number": "15895159",
+      "incorporation_date": "2024-08-13",
+      "company_category": "Private Limited Company",
+      "sample_score": "0002739d8e07f549aa2c3eb9329d015376d9328bae599c40d23568cf75772e98",
+      "filing_history_access": true,
+      "documents": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history/MzUzODcyMTQ4OGFkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "15234b72f05c8a59e8b27449e3626d87056e72754a3034ad15eebcdf231667af",
+          "bytes": 85831,
+          "pages": 3,
+          "text_chars": 1323,
+          "text_sha256": "d6c01f4d0f584c03193f3f2c67b80fecde6ffc3dfe61252f295382e6751082df",
+          "contains_capital_or_rights": false
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history/MzUzNzcyNTgyM2FkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "361de6607539fd421d2471466bcff5d47fbde16d4ef68f1af1cc6616bf4bda9b",
+          "bytes": 81138,
+          "pages": 1,
+          "text_chars": 1001,
+          "text_sha256": "107e7fd8ec060ad432d2b5a1088195908bf0c89bcbb5bdb211dcfded596d6105",
+          "contains_capital_or_rights": false
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history/MzQ5OTk2MzIzM2FkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "bba673d1cebc3769f01f94653affa3c8ffb6b4a762edc83458c73662a1f86eaf",
+          "bytes": 19084,
+          "pages": 2,
+          "text_chars": 2,
+          "text_sha256": "7060584c3e59f0b2f12f34aa0b40faadf4aa5790a0459f3319852bcd63262cbb",
+          "contains_capital_or_rights": false
+        }
+      ],
+      "psc_page_access": true
+    },
+    {
+      "company_number": "15631631",
+      "incorporation_date": "2024-04-10",
+      "company_category": "Private Limited Company",
+      "sample_score": "0003aa1ad1d07a781202dccc44d46f51376a17ec8e61de7d634ae77825049733",
+      "filing_history_access": true,
+      "documents": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history/MzUxNTY0MjQ4MWFkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "9b71a9c1e9fead7dff9be3889caa1be0a0a39fa1ca9ccd549815d5c6e9204257",
+          "bytes": 84031,
+          "pages": 3,
+          "text_chars": 1311,
+          "text_sha256": "40dc7e8bd3db8b35e31f78e1e275f9cf677db5aad3ecd0db580c0237a051cbea",
+          "contains_capital_or_rights": false
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history/MzQ3NTY2OTUzOWFkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "3155bfd95cd806087c2f777cdf3015c4f439f9f122027bf5f355f22a6ec9a757",
+          "bytes": 42687,
+          "pages": 6,
+          "text_chars": 6,
+          "text_sha256": "7b2aa16484b6ad79ef5bec51da3501f5079367b625da44bf97468422d27e8e95",
+          "contains_capital_or_rights": false
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history/MzQ3NTY2OTUzOWFkaXF6a2N4/document?format=xhtml&download=1",
+          "inferred_category_needs_table_review": null,
+          "success": false
+        }
+      ],
+      "psc_page_access": true
+    },
+    {
+      "company_number": "15649902",
+      "incorporation_date": "2024-04-15",
+      "company_category": "Private Limited Company",
+      "sample_score": "0005afb668371894c498a301b640a199b14d2af3c6012a19f7b1949944d64c7a",
+      "filing_history_access": true,
+      "documents": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history/MzUyMDc2OTY3N2FkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "418964854aeb66581367454f1787639797cd1f6363cbcfb1bac50e8b97c4ff0b",
+          "bytes": 84646,
+          "pages": 3,
+          "text_chars": 1324,
+          "text_sha256": "f2b55ebe5bfcb5313b16b630dc7bd5751e830b6277585df25bfe579881d832eb",
+          "contains_capital_or_rights": false
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history/MzUwMDExNDc2MmFkaXF6a2N4/document?format=pdf&download=0",
+          "inferred_category_needs_table_review": null,
+          "success": true,
+          "sha256": "f02b514b405eb7a0d95c59bac00f43812b2fb7ee0c4ee13eb6c4cfff4d18bd01",
+          "bytes": 47529,
+          "pages": 9,
+          "text_chars": 9,
+          "text_sha256": "72babeb35d543219be557f8a5a73974b98a74a4a417117e9834d70f1384497c8",
+          "contains_capital_or_rights": false
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history/MzUwMDExNDc2MmFkaXF6a2N4/document?format=xhtml&download=1",
+          "inferred_category_needs_table_review": null,
+          "success": false
+        }
+      ],
+      "psc_page_access": true
+    }
+  ],
+  "paid_calls": 0,
+  "contradiction_test_executed": false,
+  "limitations": "Page labels inferred pending exact table review; current PSC is not historical state; no person details reproduced."
+}

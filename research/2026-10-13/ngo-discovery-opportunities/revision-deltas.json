@@ -1,0 +1,148 @@
+{
+  "revision_date": "2026-10-13",
+  "initial_commit": "e534c1de35bc3f0023f3f90174b596b4ac7eb0b5",
+  "initial_totals": {
+    "enumerated": 1752,
+    "date_recorded_in_window": 1665,
+    "date_unverified_or_boundary": 87,
+    "outside_window": 0,
+    "fulltext_acquired": 498,
+    "machine_screened": 483,
+    "context_screened": 79,
+    "complete_fulltext_screened": 69,
+    "deeply_read": 30,
+    "retained_finalist_sources": 0,
+    "unique_works": 1751,
+    "unique_context_screened_works": 78,
+    "unique_deeply_read_works": 29,
+    "machine_text_files": 489,
+    "machine_unmatched_records": 0
+  },
+  "revised_totals": {
+    "enumerated": 1753,
+    "date_recorded_in_window": 1669,
+    "date_unverified_or_boundary": 84,
+    "outside_window": 0,
+    "fulltext_acquired": 501,
+    "machine_screened": 483,
+    "context_screened": 98,
+    "complete_fulltext_screened": 74,
+    "deeply_read": 40,
+    "retained_pilot_sources": 6,
+    "unique_works": 1752,
+    "unique_context_screened_works": 97,
+    "unique_deeply_read_works": 39,
+    "machine_text_files": 489,
+    "machine_unmatched_records": 0,
+    "pilot_ready_opportunities": 4,
+    "conditional_opportunities": 6,
+    "supporting_external_records": 5,
+    "unique_retained_pilot_source_works": 5
+  },
+  "per_org_reading_deltas": [
+    {
+      "org": "Global Witness",
+      "new_records": 0,
+      "additional_unique_context_reads": 3,
+      "additional_unique_deep_reads": 1
+    },
+    {
+      "org": "Global Financial Integrity",
+      "new_records": 0,
+      "additional_unique_context_reads": 2,
+      "additional_unique_deep_reads": 1
+    },
+    {
+      "org": "OCCRP",
+      "new_records": 1,
+      "additional_unique_context_reads": 3,
+      "additional_unique_deep_reads": 3
+    },
+    {
+      "org": "Tax Justice Network",
+      "new_records": 0,
+      "additional_unique_context_reads": 3,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "Public Eye",
+      "new_records": 0,
+      "additional_unique_context_reads": 2,
+      "additional_unique_deep_reads": 1
+    },
+    {
+      "org": "Spotlight on Corruption",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "The Sentry",
+      "new_records": 0,
+      "additional_unique_context_reads": 3,
+      "additional_unique_deep_reads": 3
+    },
+    {
+      "org": "Sherpa",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "C4ADS",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "Basel Institute on Governance",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "Natural Resource Governance Institute",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "Open Ownership",
+      "new_records": 0,
+      "additional_unique_context_reads": 3,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "Transparency International",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    },
+    {
+      "org": "PPLAAF",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 1
+    },
+    {
+      "org": "AntAC",
+      "new_records": 0,
+      "additional_unique_context_reads": 0,
+      "additional_unique_deep_reads": 0
+    }
+  ],
+  "changed_judgments": {
+    "procurement": "conditionalbenchmark→pilot_ready; cited/stage-awaresemantic task not disproved by prior risk-scoring precedent",
+    "ownership": "conditionalbenchmark→pilot_ready; scanned rights/history companion substantiated with publiccontrols",
+    "issuer_ownership_scope": "newpilot_ready extraction/abstention benchmark; no false-disclosure finding",
+    "supplier_disclosure": "newpilot_ready within-report consistency benchmark; certification claimstillblocked",
+    "C4ADS": "conditional remains; corrected stronger full-docOCR/spec-keywordbaseline",
+    "PPLAAF_environment": "newconditional; originalBanana/phaseCRS/processingrights unresolved",
+    "DRC": "holdunchanged; no fillerpromotion"
+  },
+  "source_hash_scope": "Browser metadata/hash fields do not pretend to original PDF bytes; all provenance qualifiers retained.",
+  "cash_spend_usd": 0,
+  "paid_calls": 0,
+  "outreach": false,
+  "no_complete_decade_read_claim": true
+}

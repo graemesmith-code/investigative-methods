@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-10-13",
+  "actual_cash_spend_usd": 0,
+  "validation": "15unique refreshed/source records;50directoryentries;22OCRpage records;15GermanOCRcells14normalizedexact and5countryexact;documenthashcontrolmatches;scriptscompile",
+  "copyright": "No PDFs,images,bulkOCRtext or restricted guide copied; metadata and bounded factual fields only",
+  "files": [
+    {
+      "path": "access-checks.json",
+      "bytes": 3408,
+      "sha256": "6ef25369c4a99ed49d82832b57461d26d9fceb9d693798263736e2ca5ce010bb"
+    },
+    {
+      "path": "control-records.json",
+      "bytes": 2033,
+      "sha256": "b71422a19eb2cb8ee4d56dc5da4557220ce1f596ce283003125e602b781c7b0e"
+    },
+    {
+      "path": "counts.json",
+      "bytes": 706,
+      "sha256": "233bf664675977e309006512a78b529204d51d945a183b1d545e63c00505e2eb"
+    },
+    {
+      "path": "findings.md",
+      "bytes": 15106,
+      "sha256": "da45faef7e48f4f90f11717643ab7d39b2631cfbdf484a91f95c793914960cd1"
+    },
+    {
+      "path": "german-table-baseline.json",
+      "bytes": 7296,
+      "sha256": "a9666d4903f1f8310fcf5e6a00584711d92d15c09f01f7b1c85fd1a9f327161b"
+    },
+    {
+      "path": "inventory.jsonl",
+      "bytes": 14669,
+      "sha256": "6db070595f6fbfaa4454099c8b7089c5f722d670e8d14e306c2ce2ba06843f76"
+    },
+    {
+      "path": "ocr-baseline.jsonl",
+      "bytes": 13850,
+      "sha256": "814fe0e7dd3a3f7ac16ed55f0dd9696a965794713230f02735838d2baf07f72e"
+    },
+    {
+      "path": "pilot_baseline.py",
+      "bytes": 2631,
+      "sha256": "5bee5475bd1f4cdf2b4fcea3a163d9546e149efd824ef8e59c966786294a37b3"
+    },
+    {
+      "path": "population-links.json",
+      "bytes": 6311,
+      "sha256": "d88e4cb02f68399305d3974be0cc51a84bc7c486d72b62c1ba32a20948af71a4"
+    },
+    {
+      "path": "population.json",
+      "bytes": 12023,
+      "sha256": "ea695eab91c05786f24e610eaaa5c429c9dcf61af039c66f4067eeb66f5c7f0f"
+    },
+    {
+      "path": "table_baseline.py",
+      "bytes": 3463,
+      "sha256": "760da818ef0faec5c3a7912fc307257e12572b6eb3285ca73733b7aef557e917"
+    }
+  ]
+}

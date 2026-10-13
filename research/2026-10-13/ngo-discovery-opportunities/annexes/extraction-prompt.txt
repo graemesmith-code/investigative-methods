@@ -32,3 +32,11 @@ Do not compare consolidated and project totals without matching scopes, units an
 If a needed source is absent or a term is undefined, abstain and say what is missing.
 
 A human must review every candidate contradiction against both original records and amendments.
+
+Targeted revision companions (design only):
+- Procurement: classify clause mandatory/conditional/optional; bidder/winner/correction stage; required evidence type; operative version/date. Return an unresolved legal-applicability field when needed. Never equate post-award winner evidence with a late bid.
+- Rights/history: distinguish present/contingent rights, affected holder role, member-registration condition, override and effective date. No-updates documents are continuity claims, not empty shareholder lists.
+- Issuer ownership: equity/licence/project/control/holding-company percentage types are separate. Require explicit project/entity bridge or abstain.
+- Supplier disclosure: office/supplier roles, production stages, cutoff and completed/planned/conditional/unmeasured-effect actions are separate. Compare same-report sets only after explicit scope equivalence.
+
+Do not receive NGO allegation text, suspect labels or ground-truth control answers as extraction input. Preregister the document slice and retain unsuccessful draws. Compare against appropriate language OCR plus table/rule code and human review, not a deliberately weak extraction baseline. A correct abstention or agreement is a successful control. Measured savings and new-case reporting come later. Use only permitted input documents; restricted guides and unresolved confidential-marked materials are excluded from external model transmission.

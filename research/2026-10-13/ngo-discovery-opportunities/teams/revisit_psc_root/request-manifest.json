@@ -1,0 +1,155 @@
+[
+  {
+    "url": "https://download.companieshouse.gov.uk/en_output.html",
+    "checked_at": "2026-10-13T09:26:12.862538+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 7442,
+    "sha256": "dacb9fd8077400644a3f944bd6d734332bc249a9f06694741fd27d4cd951dad0"
+  },
+  {
+    "url": "https://download.companieshouse.gov.uk/BasicCompanyData-2026-10-01-part7_7.zip",
+    "checked_at": "2026-10-13T09:26:13.462133+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/zip",
+    "bytes": 52565573,
+    "sha256": "8c92bff4b20a47828d4ddb850c3bf9e8fbc7e44c6f979f40bde2d877e49c685b"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history",
+    "checked_at": "2026-10-13T09:26:31.350226+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 46040,
+    "sha256": "26c61f1c53971d1b900cc172bdb9c70d937856387a667b57b63a1c3d8945e329"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history/MzUzODcyMTQ4OGFkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:32.586816+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 85831,
+    "sha256": "15234b72f05c8a59e8b27449e3626d87056e72754a3034ad15eebcdf231667af"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history/MzUzNzcyNTgyM2FkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:34.545811+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 81138,
+    "sha256": "361de6607539fd421d2471466bcff5d47fbde16d4ef68f1af1cc6616bf4bda9b"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/filing-history/MzQ5OTk2MzIzM2FkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:40.701350+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 19084,
+    "sha256": "bba673d1cebc3769f01f94653affa3c8ffb6b4a762edc83458c73662a1f86eaf"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15895159/persons-with-significant-control",
+    "checked_at": "2026-10-13T09:26:42.575228+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 39008,
+    "sha256": "46504069b968ac859939840f4e2c64361f4e2de400ed602ef0afeff1172952f0"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history",
+    "checked_at": "2026-10-13T09:26:43.618908+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 43704,
+    "sha256": "adae77e757135756773f4ebbf150a391e1db266c6eaa813ed9e9aa8e591b7af8"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history/MzUxNTY0MjQ4MWFkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:44.151313+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 84031,
+    "sha256": "9b71a9c1e9fead7dff9be3889caa1be0a0a39fa1ca9ccd549815d5c6e9204257"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history/MzQ3NTY2OTUzOWFkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:46.328675+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 42687,
+    "sha256": "3155bfd95cd806087c2f777cdf3015c4f439f9f122027bf5f355f22a6ec9a757"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/filing-history/MzQ3NTY2OTUzOWFkaXF6a2N4/document?format=xhtml&download=1",
+    "checked_at": "2026-10-13T09:26:47.638465+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/xhtml+xml",
+    "bytes": 58401,
+    "sha256": "ab92ce4cbdebd4b19e6f2bf0c8ec0d09101fc3c8a6fd90a7141288597c75b24e"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15631631/persons-with-significant-control",
+    "checked_at": "2026-10-13T09:26:50.500953+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 39208,
+    "sha256": "87ca10c735e39eeafd8d68ef9be7577b1368a0a716dc2e07f94610bc55aef127"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history",
+    "checked_at": "2026-10-13T09:26:51.493466+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 42779,
+    "sha256": "d68049d7b883624526fc63e6029337cd0123f8b0e97806993600288a2cfe8caf"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history/MzUyMDc2OTY3N2FkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:52.507654+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 84646,
+    "sha256": "418964854aeb66581367454f1787639797cd1f6363cbcfb1bac50e8b97c4ff0b"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history/MzUwMDExNDc2MmFkaXF6a2N4/document?format=pdf&download=0",
+    "checked_at": "2026-10-13T09:26:53.817229+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/pdf",
+    "bytes": 47529,
+    "sha256": "f02b514b405eb7a0d95c59bac00f43812b2fb7ee0c4ee13eb6c4cfff4d18bd01"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/filing-history/MzUwMDExNDc2MmFkaXF6a2N4/document?format=xhtml&download=1",
+    "checked_at": "2026-10-13T09:26:55.112434+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "application/xhtml+xml",
+    "bytes": 64409,
+    "sha256": "e4101b092afea774ab486625cdb985aed13282bea6720ad063ff0dcf7eab3e74"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15649902/persons-with-significant-control",
+    "checked_at": "2026-10-13T09:26:56.181555+00:00",
+    "method": "verified HTTPS GET, no retries",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 39222,
+    "sha256": "a7b6be143d67b5b656e0db33aeb1fc8149d718f02e51e6bb238d2d129a243027"
+  }
+]

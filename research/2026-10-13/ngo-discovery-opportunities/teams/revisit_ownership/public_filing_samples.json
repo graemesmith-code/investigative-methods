@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11800000/filing-history/MzI1NDk0MjQ2MmFkaXF6a2N4/document?format=pdf&download=0",
+    "description": "20 Jan 2020 CS01 Confirmation statement made on 20 January 2020 with updates View PDF Confirmation statement made on 20 January 2020 with updates - link opens in a new window - 4 pages (4 pages)",
+    "company_id": "11800000",
+    "status": 200,
+    "bytes": 31080,
+    "sha256": "032914aec7a8cdf7a64e1c0b36471a8723879c2bb46c55617f5f61e478ff8102",
+    "pages": 4,
+    "cache_file": "/tmp/ngo-secrecy/032914aec7a8cdf7a64e1c0b36471a8723879c2bb46c55617f5f61e478ff8102.pdf",
+    "text_chars": 4,
+    "ocr_chars": 1619,
+    "ocr_file": "/tmp/ngo-secrecy/032914aec7a8cdf7a64e1c0b36471a8723879c2bb46c55617f5f61e478ff8102.ocr.txt"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11800000/filing-history/MzI1NDI3MDE5MmFkaXF6a2N4/document?format=pdf&download=0",
+    "description": "10 Jan 2020 PSC01 individual notification effective31March2019; names omitted from log",
+    "company_id": "11800000",
+    "status": 200,
+    "bytes": 20094,
+    "sha256": "7a3609644ae94b8bd8d388068bbc248d4b1d18c975df03c87ecf2f494a38b218",
+    "pages": 2,
+    "cache_file": "/tmp/ngo-secrecy/7a3609644ae94b8bd8d388068bbc248d4b1d18c975df03c87ecf2f494a38b218.pdf",
+    "text_chars": 2,
+    "ocr_chars": 1016,
+    "ocr_file": "/tmp/ngo-secrecy/7a3609644ae94b8bd8d388068bbc248d4b1d18c975df03c87ecf2f494a38b218.ocr.txt"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11800000/filing-history/MzIyNTg0OTcwMWFkaXF6a2N4/document?format=pdf&download=0",
+    "description": "31 Jan 2019 NEWINC Incorporation MODEL ARTICLES \u2010 Model articles adopted Statement of capital on 2019-01-31 GBP 1 View PDF Incorporation MODEL ARTICLES \u2010 Model articles adopted Statement of capital on 2019-01-31 GBP 1 - link opens in a new window - 10 pages (10 pages)",
+    "company_id": "11800000",
+    "status": 200,
+    "bytes": 89921,
+    "sha256": "5b9a1c3bafd416c2ec702fcd4f8864df52a90935f1403ccde72638783b240bc3",
+    "pages": 10,
+    "cache_file": "/tmp/ngo-secrecy/5b9a1c3bafd416c2ec702fcd4f8864df52a90935f1403ccde72638783b240bc3.pdf",
+    "text_chars": 10,
+    "ocr_chars": 3941,
+    "ocr_file": "/tmp/ngo-secrecy/5b9a1c3bafd416c2ec702fcd4f8864df52a90935f1403ccde72638783b240bc3.ocr.txt"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/company/11800001/filing-history/MzUwOTM0NTQ3NGFkaXF6a2N4/document?format=pdf&download=0",
+    "description": "10 Mar 2026 CS01 Confirmation statement made on 30 January 2026 with no updates View PDF Confirmation statement made on 30 January 2026 with no updates - link opens in a new window - 3 pages (3 pages)",
+    "company_id": "11800001",
+    "status": 200,
+    "bytes": 84009,
+    "sha256": "b0ed74f35398164c651cc31aca0131a3947aa1639ae5457305bd1d2bcc3b0ec7",
+    "pages": 3,
+    "cache_file": "/tmp/ngo-secrecy/b0ed74f35398164c651cc31aca0131a3947aa1639ae5457305bd1d2bcc3b0ec7.pdf",
+    "text_chars": 1297
+  }
+]

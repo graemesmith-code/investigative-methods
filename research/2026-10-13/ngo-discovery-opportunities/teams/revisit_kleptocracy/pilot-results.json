@@ -1,0 +1,25 @@
+{
+  "classification_results": [
+    {
+      "id": "issuer_kipushi_same_report",
+      "classification": "agree",
+      "model_run": false,
+      "allegation": false
+    },
+    {
+      "id": "western_foreland_licence_vs_magharibi_equity",
+      "classification": "unresolved_scope",
+      "model_run": false,
+      "allegation": false
+    },
+    {
+      "id": "kamoa_project_vs_holding_equity",
+      "classification": "unresolved_scope",
+      "model_run": false,
+      "allegation": false
+    }
+  ],
+  "cash_usd": 0,
+  "paid_calls": 0,
+  "limitations": "Human-transcribed controls; no OCR/model/timing benchmark run."
+}

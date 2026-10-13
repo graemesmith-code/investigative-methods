@@ -1,0 +1,24 @@
+[
+  {
+    "id": "RI-01",
+    "readiness": "pilot-ready interpretation benchmark",
+    "source_url": "https://antac.org.ua/en/news/cabinet-of-ministers-allows-construction-material-prices-to-be-concealed-in-procurement-for-the-reconstruction-of-war-affected-regions/",
+    "date": "2026-05-25",
+    "locator": "HTML Risk of artificially restricted competition",
+    "quote": "Contracting authorities will be able to write requirements into the terms of the framework agreements tailored to specific contractors",
+    "sample_bundle": "procurement-bundle.json",
+    "result": "33nativefilesacquired;no contradiction found;OCRquality and conditional-law interpretation remain unresolved",
+    "actual_spend_usd": 0
+  },
+  {
+    "id": "RI-02",
+    "readiness": "conditional blocker",
+    "source_url": "https://www.pplaaf.org/cases/drc-mangrove-marine-park-whistleblower.html",
+    "date": "2025-11-11",
+    "locator": "HTML DP World and the Banana Port Papers",
+    "quote": "references to other countries such as Togo, as well as factual errors and the use of maps of unrelated sites",
+    "sample_bundle": "environment-access.json",
+    "result": "PublicESIAandgazetteerdownloaded;no wrongsitefinding;originalBananaESIAunavailable,CRS/reuse terms unresolved",
+    "actual_spend_usd": 0
+  }
+]

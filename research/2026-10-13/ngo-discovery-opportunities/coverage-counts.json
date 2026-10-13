@@ -7,10 +7,10 @@
     "outside_window": 0,
     "fulltext_acquired": 2,
     "machine_screened": 0,
-    "context_screened": 2,
+    "context_screened": 5,
     "complete_fulltext_screened": 2,
-    "deeply_read": 2,
-    "retained_finalist_sources": 0
+    "deeply_read": 3,
+    "retained_pilot_sources": 1
   },
   {
     "org": "Global Financial Integrity",
@@ -20,23 +20,23 @@
     "outside_window": 0,
     "fulltext_acquired": 1,
     "machine_screened": 0,
-    "context_screened": 1,
+    "context_screened": 3,
     "complete_fulltext_screened": 1,
-    "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "deeply_read": 2,
+    "retained_pilot_sources": 0
   },
   {
     "org": "OCCRP",
-    "enumerated": 89,
-    "date_recorded_in_window": 89,
+    "enumerated": 90,
+    "date_recorded_in_window": 90,
     "date_unverified_or_boundary": 0,
     "outside_window": 0,
-    "fulltext_acquired": 0,
+    "fulltext_acquired": 3,
     "machine_screened": 0,
-    "context_screened": 1,
-    "complete_fulltext_screened": 0,
-    "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "context_screened": 4,
+    "complete_fulltext_screened": 3,
+    "deeply_read": 4,
+    "retained_pilot_sources": 0
   },
   {
     "org": "Tax Justice Network",
@@ -46,10 +46,10 @@
     "outside_window": 0,
     "fulltext_acquired": 0,
     "machine_screened": 0,
-    "context_screened": 1,
+    "context_screened": 4,
     "complete_fulltext_screened": 0,
     "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 1
   },
   {
     "org": "Public Eye",
@@ -59,10 +59,10 @@
     "outside_window": 0,
     "fulltext_acquired": 15,
     "machine_screened": 15,
-    "context_screened": 4,
-    "complete_fulltext_screened": 4,
-    "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "context_screened": 6,
+    "complete_fulltext_screened": 6,
+    "deeply_read": 2,
+    "retained_pilot_sources": 1
   },
   {
     "org": "Spotlight on Corruption",
@@ -75,20 +75,20 @@
     "context_screened": 2,
     "complete_fulltext_screened": 2,
     "deeply_read": 2,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 0
   },
   {
     "org": "The Sentry",
     "enumerated": 79,
-    "date_recorded_in_window": 2,
-    "date_unverified_or_boundary": 77,
+    "date_recorded_in_window": 5,
+    "date_unverified_or_boundary": 74,
     "outside_window": 0,
     "fulltext_acquired": 0,
     "machine_screened": 0,
-    "context_screened": 2,
+    "context_screened": 5,
     "complete_fulltext_screened": 0,
-    "deeply_read": 2,
-    "retained_finalist_sources": 0
+    "deeply_read": 5,
+    "retained_pilot_sources": 1
   },
   {
     "org": "Sherpa",
@@ -101,7 +101,7 @@
     "context_screened": 4,
     "complete_fulltext_screened": 2,
     "deeply_read": 3,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 0
   },
   {
     "org": "C4ADS",
@@ -114,7 +114,7 @@
     "context_screened": 1,
     "complete_fulltext_screened": 0,
     "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 0
   },
   {
     "org": "Basel Institute on Governance",
@@ -127,7 +127,7 @@
     "context_screened": 6,
     "complete_fulltext_screened": 6,
     "deeply_read": 5,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 0
   },
   {
     "org": "Natural Resource Governance Institute",
@@ -140,7 +140,7 @@
     "context_screened": 11,
     "complete_fulltext_screened": 11,
     "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 0
   },
   {
     "org": "Open Ownership",
@@ -150,10 +150,10 @@
     "outside_window": 0,
     "fulltext_acquired": 0,
     "machine_screened": 0,
-    "context_screened": 3,
+    "context_screened": 6,
     "complete_fulltext_screened": 0,
     "deeply_read": 2,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 1
   },
   {
     "org": "Transparency International",
@@ -166,7 +166,7 @@
     "context_screened": 19,
     "complete_fulltext_screened": 19,
     "deeply_read": 3,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 0
   },
   {
     "org": "PPLAAF",
@@ -178,8 +178,8 @@
     "machine_screened": 53,
     "context_screened": 14,
     "complete_fulltext_screened": 14,
-    "deeply_read": 1,
-    "retained_finalist_sources": 0
+    "deeply_read": 2,
+    "retained_pilot_sources": 0
   },
   {
     "org": "AntAC",
@@ -192,6 +192,6 @@
     "context_screened": 8,
     "complete_fulltext_screened": 8,
     "deeply_read": 4,
-    "retained_finalist_sources": 0
+    "retained_pilot_sources": 1
   }
 ]

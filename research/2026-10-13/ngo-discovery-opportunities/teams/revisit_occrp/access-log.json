@@ -1,0 +1,39 @@
+[
+  {
+    "url": "https://www.occrp.org/en/investigation/instead-of-helping-ukraines-poor-ferrexpos-charitable-donations-flowed-to-companies-associated-with-its-then-ceo",
+    "method": "official browser open; contextual follow-up open where needed",
+    "status": "readable_body",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "url": "https://www.occrp.org/en/investigation/a-police-hq-wind-farms-and-natural-gas-mapping-the-european-holdings-of-chinas-central-bank",
+    "method": "official browser open; contextual follow-up open where needed",
+    "status": "readable_body",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "url": "https://www.occrp.org/en/investigation/the-luxury-french-real-estate-of-alleged-latin-american-money-launderers-and-officials-accused-of-corruption",
+    "method": "official browser open; contextual follow-up open where needed",
+    "status": "readable_body",
+    "bytes": null,
+    "sha256": null
+  },
+  {
+    "url": "https://www.occrp.org/en/investigation/family-of-ilham-aliyevs-security-chief-owns-vast-property-holdings-in-the-united-kingdom",
+    "method": "browser open",
+    "status": "Internal Error; no retry or alternative route; not read"
+  },
+  {
+    "url": "https://gacc.occrp.org/post/who-really-owns-french-property",
+    "method": "browser open",
+    "status": "complete24-line case study read; supporting provenance only",
+    "date": "2023-10-15"
+  },
+  {
+    "url": "https://find-and-update.company-information.service.gov.uk/search?q=Ferrexpo",
+    "method": "browser open",
+    "status": "not accessible via tool; no retry or alternative route"
+  }
+]

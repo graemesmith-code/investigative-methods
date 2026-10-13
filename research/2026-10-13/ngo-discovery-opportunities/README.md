@@ -1,13 +1,17 @@
 # Reproducible NGO opportunity review
 
-Start with [the plain-English report](REPORT.md). No evidence-ready/newly unlocked finalist was retained. Three conditional designs and their failed gates are preserved; they are not findings of wrongdoing.
+Start with [the plain-English report](REPORT.md). The revised report ranks four pilot-ready document-interpretation opportunities and separates specifically blocked designs from rejected inferences. No investigative finding or measured AI saving is claimed. The initial zero-finalist audit is preserved in `annexes/initial-review` and Git history.
 
 - [Coverage and gaps](COVERAGE.md): all fifteen organizations and distinct stage counts.
 - [Rejections](REJECTIONS.md): concrete reasons, linked to original source passages in team ledgers.
 - [Technical log](TECHNICAL-LOG.md): methods, access failures, corrections and limits.
 - [Complete source inventory](source-inventory.jsonl), [machine index](machine-screen-inventory.jsonl), [counts](coverage-counts.csv) and [totals](totals.json).
-- [Selection manifest](opportunity-manifest.json): zero finalists, ranked conditional designs, nine gates.
+- [Selection manifest](opportunity-manifest.json): four pilot-ready methods, six selected blocked designs/extensions, nine-gate evidence and later reporting safeguards.
 - [Cost/why-now annex](annexes/why-now-and-costs.md), [protocol](annexes/research-protocol.md) and [independent audit](annexes/audit/audit.md).
+
+## Targeted revision
+
+Read the new ledgers for [procurement/ESIA](teams/revisit_integrity/findings.md), [rights/history](teams/revisit_ownership/findings.md), [registry-nominated controls](teams/revisit_psc_root/findings.md), [issuer scope/GPU](teams/revisit_kleptocracy/findings.md), [supplier disclosure and low-hit sample](teams/revisit_publiceye/findings.md) and [additional OCCRP methods](teams/revisit_occrp/findings.md). Source versions append their reading flags; repeated reads do not inflate unique counts. [Revision deltas](revision-deltas.json) preserve initial/current stages and changed judgments. Corporate/procurement test documents remain outside NGO corpus totals.
 
 ## Validate the saved result
 

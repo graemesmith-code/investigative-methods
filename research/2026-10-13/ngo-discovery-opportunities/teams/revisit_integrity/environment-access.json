@@ -1,0 +1,139 @@
+[
+  {
+    "url": "https://cdnweb.ictsi.com/Final%20Draft%20-%20BIPI%20ESIA%20v3.pdf",
+    "status": "acquired",
+    "bytes": 24184524,
+    "sha256": "d08442d7fd86ef9cdd5feedc09c6291e55a7ae7dadc123df7ff57bf79ea2ac67",
+    "type": "esia_control",
+    "pages": 397,
+    "text_characters": 1408916,
+    "notice": "Publicly reachable file bears OFFICIAL USE ONLY watermark; no external AI transmission; applicable reuse/processing terms unresolved."
+  },
+  {
+    "url": "https://download.geonames.org/export/dump/PH.zip",
+    "status": "acquired",
+    "bytes": 2555380,
+    "sha256": "8e335ff86597123961a1f240e7e05235589d46f44610f249089c056bdf103434",
+    "type": "gazetteer_control",
+    "records": 96645,
+    "bounded_place_matches": [
+      {
+        "geonameid": "1725988",
+        "name": "Bauan",
+        "latitude": "17.85938",
+        "longitude": "121.70507",
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "country_code": "PH",
+        "admin1": "02",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "1725989",
+        "name": "Bauan",
+        "latitude": "17.7366",
+        "longitude": "121.91115",
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "country_code": "PH",
+        "admin1": "02",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "1725990",
+        "name": "Bauan",
+        "latitude": "17.72256",
+        "longitude": "121.68028",
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "country_code": "PH",
+        "admin1": "02",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "1725991",
+        "name": "Bauan",
+        "latitude": "13.7917",
+        "longitude": "121.0085",
+        "feature_class": "P",
+        "feature_code": "PPLA3",
+        "country_code": "PH",
+        "admin1": "40",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "1725992",
+        "name": "Bauan",
+        "latitude": "13.79982",
+        "longitude": "120.97046",
+        "feature_class": "A",
+        "feature_code": "ADM3",
+        "country_code": "PH",
+        "admin1": "40",
+        "modification_date": "2025-08-07"
+      },
+      {
+        "geonameid": "1726278",
+        "name": "Batangas Bay",
+        "latitude": "13.70078",
+        "longitude": "120.98728",
+        "feature_class": "H",
+        "feature_code": "BAY",
+        "country_code": "PH",
+        "admin1": "40",
+        "modification_date": "2016-05-10"
+      },
+      {
+        "geonameid": "1726280",
+        "name": "Batangas",
+        "latitude": "13.7567",
+        "longitude": "121.0584",
+        "feature_class": "P",
+        "feature_code": "PPLA2",
+        "country_code": "PH",
+        "admin1": "40",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "8566482",
+        "name": "Batangas",
+        "latitude": "14.21825",
+        "longitude": "121.13556",
+        "feature_class": "R",
+        "feature_code": "ST",
+        "country_code": "PH",
+        "admin1": "40",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "11239788",
+        "name": "Batangas",
+        "latitude": "14.6564",
+        "longitude": "121.2697",
+        "feature_class": "P",
+        "feature_code": "PPL",
+        "country_code": "PH",
+        "admin1": "40",
+        "modification_date": "2017-12-13"
+      },
+      {
+        "geonameid": "11833646",
+        "name": "Bauan",
+        "latitude": "17.86791",
+        "longitude": "121.70787",
+        "feature_class": "A",
+        "feature_code": "ADM4",
+        "country_code": "PH",
+        "admin1": "02",
+        "modification_date": "2018-03-10"
+      }
+    ]
+  },
+  {
+    "url": "https://rsis.ramsar.org/RISapp/files/RISrep/CD788RIS.pdf",
+    "status": "acquired",
+    "bytes": 404751,
+    "sha256": "8f816851780b01b43702a9b1e82a474e18b30750bdf68618af3443229e447c4f",
+    "type": "ramsar_control"
+  }
+]

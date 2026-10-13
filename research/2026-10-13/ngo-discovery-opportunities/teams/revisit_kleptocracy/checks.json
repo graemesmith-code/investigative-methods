@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-13",
+  "checks": [
+    {
+      "opportunity_id": "RK-02",
+      "url": "https://ivanhoemines.com/site/assets/files/5195/ivn_q4_2020_financial_statements_final.pdf",
+      "success": true,
+      "sample": "printedp37 narrative; printedp53 Note30 equity table; printedp14 consolidation interpretation",
+      "pages": 65,
+      "original_claimant": "Ivanhoe Mines management; equity statements audited as a whole by PwC",
+      "date": "2021-03-04",
+      "reference_date": "2020-12-31, comparator2019-12-31",
+      "claim_status": "candidate_scope_question_not_proven_contradiction"
+    },
+    {
+      "opportunity_id": "RK-02",
+      "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-engaging-in-strategic-discussions-regarding-its-tier-one-assets-in-africa/",
+      "success": true,
+      "sample": "dated27July2020 paragraph under intro asserts100percent WesternForelandsProject; follows with licence-specific claim",
+      "date": "2020-07-27",
+      "original_claimant": "Ivanhoe Mines"
+    },
+    {
+      "opportunity_id": "RK-02",
+      "url": "https://www.ivanhoemines.com/site/assets/files/4845/condensed_consolidated_interim_financial_statements_for_the_three_months_ended_september_30-_2019.pdf",
+      "success": false,
+      "result": "browser inaccessible; no alternative route attempted"
+    },
+    {
+      "opportunity_id": "RK-02",
+      "url": "https://ivanhoemines.com/site/assets/files/4854/managements_discussion_and_analysis_for_the_three_months_ended_june_30-_2019.pdf",
+      "success": false,
+      "result": "browser inaccessible; no alternative route attempted"
+    },
+    {
+      "opportunity_id": "RK-02",
+      "url": "https://ivanhoemines.com/wp-content/uploads/2020_annual_Information_form.pdf",
+      "success": false,
+      "result": "browser inaccessible; no alternative route attempted"
+    },
+    {
+      "opportunity_id": "RK-01",
+      "url": "https://c4ads.org/wp-content/uploads/2026/09/Covert-Compute-C4ADS.pdf",
+      "success": true,
+      "sample": "printedpp7-8(methodology/limits); printedp32 endnote13",
+      "result": "371442governmentdocuments text-searchable;GPU-specificationkeywords already tested; server implicitconfiguration is narrow hypothesis"
+    },
+    {
+      "opportunity_id": "RK-01",
+      "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/u5hh6fv4r7564i4y673484y3m20083nj.pdf",
+      "success": true,
+      "sample": "priorchecked p2 H100SXM/NVL specificationtable, Sep24revision",
+      "result": "capabilityonly; no originalprocurement specimen; see ../kleptocracy/checks.json for failed original endpoints notretried"
+    }
+  ],
+  "cash_spend_usd": 0,
+  "paid_calls": 0
+}

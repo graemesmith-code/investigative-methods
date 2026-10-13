@@ -1,0 +1,87 @@
+[
+  {
+    "id": "gkguide",
+    "url": "https://gruener-knopf.de/sites/default/files/file/2026-08/Gruener-Knopf-Leitfaden-2.0.2_08.2026.pdf",
+    "status": 200,
+    "bytes": 10442534,
+    "sha256": "091907834e99fa66bb176763494b27dcf6054205882f60e60631c4ad2bd430b0",
+    "local_cache": "/tmp/ngo-revisit-publiceye/gkguide.pdf",
+    "parsed_chars": 486727
+  },
+  {
+    "id": "gkcompanies",
+    "url": "https://portal.gruener-knopf.de/unternehmen",
+    "status": 200,
+    "bytes": 12248,
+    "sha256": "70491d3bf0065c2f1a37a94a7edc343d4e8e05e4e888e11dfe7686564a2cfccb",
+    "local_cache": "/tmp/ngo-revisit-publiceye/gkcompanies.html"
+  },
+  {
+    "id": "snbpolicy",
+    "url": "https://www.snb.ch/en/particular/landing-pages/sustainability-report-2025",
+    "status": 200,
+    "bytes": 97929,
+    "sha256": "45d9440eac687a63dba51185e9b57b34600004d1cc97ea2e71cfbfe987599743",
+    "local_cache": "/tmp/ngo-revisit-publiceye/snbpolicy.html"
+  },
+  {
+    "id": "gkpopulation",
+    "url": "https://gruener-knopf.de/gk-unternehmen",
+    "final_url": "https://gruener-knopf.de/gk-unternehmen",
+    "status": 200,
+    "bytes": 189778,
+    "sha256": "0e2cfb05f849c212a1a61128e6430d8aeac4ae7b59aa17b199823a441d07bf26",
+    "local_cache": "/tmp/ngo-revisit-publiceye/gkpopulation.html"
+  },
+  {
+    "id": "amidex-old",
+    "url": "https://www.amidex.at/downloads/sustainability-report-2025.pdf",
+    "final_url": "https://www.amidex.at/downloads/sustainability-report-2025.pdf",
+    "status": 200,
+    "bytes": 3959118,
+    "sha256": "2e48a03cb319163f0ee77563e0cf8f95867be3a3e09707aa72bf5faa44a92b7d",
+    "local_cache": "/tmp/ngo-revisit-publiceye/amidex-old.pdf",
+    "parsed_chars": 8,
+    "pages": 8,
+    "text_sha256": "a61f149fa51d21a7666743f05977a61c858db20e63ecc70834dd3885b3062550"
+  },
+  {
+    "id": "amidex-current",
+    "url": "https://amidex.at/downloads/nachhaltigkeitsbericht-2026-01.pdf",
+    "final_url": "https://amidex.at/downloads/nachhaltigkeitsbericht-2026-01.pdf",
+    "status": 200,
+    "bytes": 7372562,
+    "sha256": "2c96e746024535ec084045dfce45d726412af2722c384f4e83f2200308e6979e",
+    "local_cache": "/tmp/ngo-revisit-publiceye/amidex-current.pdf",
+    "parsed_chars": 14,
+    "pages": 14,
+    "text_sha256": "bac73e8e5d0502cae3490d5e2a0617d2a437fb20599903f18494f207e4f80cdc"
+  },
+  {
+    "id": "gfi-vessel",
+    "url": "https://gfintegrity.org/wp-content/uploads/2023/04/Vessel-Ownership_Trade-Finance_and_Regulatory-Compliance_Whitepaper_April2023.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "gfi-kenya",
+    "url": "https://gfintegrity.org/wp-content/uploads/2024/07/Illicit-Financial-Flows-Iff-Risks-Related-To-Beneficial-Ownership-In-The-Mining-Sector-In-Kenya-6.pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "gfi-tbml",
+    "url": "https://gfintegrity.org/wp-content/uploads/2023/02/TBML-Policy-Brief-Final..pdf",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "tesseract-deu-fast",
+    "url": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/deu.traineddata",
+    "status": 200,
+    "bytes": 1525436,
+    "sha256": "19d219bbb6672c869d20a9636c6816a81eb9a71796cb93ebe0cb1530e2cdb22d",
+    "purpose": "Official free German OCR language data; bounded comparator.",
+    "local_cache": "/tmp/ngo-revisit-publiceye/tessdata/deu.traineddata"
+  }
+]

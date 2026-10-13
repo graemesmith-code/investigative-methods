@@ -8,28 +8,28 @@
     },
     {
       "path": "COVERAGE.md",
-      "bytes": 7118,
-      "sha256": "2ec8614324338dfb594229910332cf95714c91823158d8bf5cfdf5f02b17aa8e"
+      "bytes": 9223,
+      "sha256": "ea01e8f587a85d812b2fae525024dc6ae471a2b69324943801a7ab2b91f40f36"
     },
     {
       "path": "README.md",
-      "bytes": 4506,
-      "sha256": "676b1d484d0be60cf9cb06ce2feeb217f8775ebdc9bb2237a4add2e53a9ba4e0"
+      "bytes": 5393,
+      "sha256": "82657ae784064a4d9bee28af45a5cfa1d6df075eb92426ac6e3a876286f8faaa"
     },
     {
       "path": "REJECTIONS.md",
-      "bytes": 10187,
-      "sha256": "5410fbde7f6d38014d794c2805d8de5927414fa15faef693e3acec273003b93b"
+      "bytes": 11906,
+      "sha256": "8f6526e6674b34dde4eec22cfae8516be6817dc8979a09074e7cce581fd29b8c"
     },
     {
       "path": "REPORT.md",
-      "bytes": 10881,
-      "sha256": "3ae699433b3ca9a169a8ee68c16ee8e86b5d64848a924ca303900d43682548c8"
+      "bytes": 16897,
+      "sha256": "21b3559fe2ee159ade27f6d7ed56a910af363d88c7add64f6b3c48c9ee31ff57"
     },
     {
       "path": "TECHNICAL-LOG.md",
-      "bytes": 8740,
-      "sha256": "d676aa06af06733aef785e75902ee16482618165501d95799f6140449a6ec7e9"
+      "bytes": 13689,
+      "sha256": "ece7fc31a81ea760d4ea2811e70f2532d8b7226c4e9b04b035debf066d04c5f1"
     },
     {
       "path": "annexes/audit/audit.md",
@@ -58,13 +58,43 @@
     },
     {
       "path": "annexes/consolidation-duplicates.json",
-      "bytes": 3824,
-      "sha256": "e5a565dad7af399e054e96e727e295bee3c00b6f6283848f6ef5f2939574d2e7"
+      "bytes": 13308,
+      "sha256": "d3117a3069280882a3a6d035a1fcb55fbfd6a19f9953a3ffd70a14aa60f8ec2c"
     },
     {
       "path": "annexes/extraction-prompt.txt",
-      "bytes": 1795,
-      "sha256": "a7a2c14207e6d38a58fb3e977b9aa202c676eec389e03a13cc80c23632eeb654"
+      "bytes": 3220,
+      "sha256": "352f65f582db8f15f2f91de6f5994cd6e98fb11104008e50df9e212580b6308e"
+    },
+    {
+      "path": "annexes/initial-review/COVERAGE.md",
+      "bytes": 7399,
+      "sha256": "c01a58a5bde98e9898fce58415bcea82fa4cc37b233d7ccc079ce012adbd9f75"
+    },
+    {
+      "path": "annexes/initial-review/REJECTIONS.md",
+      "bytes": 10600,
+      "sha256": "833cbd6a12314cd9cda41e228aeed957f3f1d08d7762caebb9210acc624d2d01"
+    },
+    {
+      "path": "annexes/initial-review/REPORT.md",
+      "bytes": 11102,
+      "sha256": "d8946ef51cee5032fd3baf8959e60ecf78190cc9710f1cee7f7bc2a556a2328b"
+    },
+    {
+      "path": "annexes/initial-review/coverage-counts.json",
+      "bytes": 5070,
+      "sha256": "1f2f07e5a6d971e2e2dbbb0e6a13cc7a6cd623d16cd326beea3c6a5f239eeb40"
+    },
+    {
+      "path": "annexes/initial-review/opportunity-manifest.json",
+      "bytes": 6095,
+      "sha256": "363593323edd59d5dd91f772569966c23f9149dd9a8f356eaf1d9c7a06c93fbb"
+    },
+    {
+      "path": "annexes/initial-review/totals.json",
+      "bytes": 452,
+      "sha256": "56782dd55ee3eaa346021aca0760d2ff902fa525762ab81f460fb467d38109bc"
     },
     {
       "path": "annexes/pricing-access.jsonl",
@@ -78,8 +108,8 @@
     },
     {
       "path": "annexes/research-protocol.md",
-      "bytes": 5884,
-      "sha256": "2618bfce18e73fdca47e626994e0b7a141479dcb5b5f31c3012f0cb03f7e8d82"
+      "bytes": 6728,
+      "sha256": "56c83ebd9d8fa9320f9260fbf3aa51b1f45a1db18ee2da39ddd701a7c00a8eec"
     },
     {
       "path": "annexes/why-now-and-costs.md",
@@ -88,13 +118,13 @@
     },
     {
       "path": "coverage-counts.csv",
-      "bytes": 811,
-      "sha256": "cba62b805320dc4e4e0e4e51ba3961b13817addc09b0af263c121259cf3d5cd1"
+      "bytes": 808,
+      "sha256": "1d29952af9c45cb003a7189678ebad1019e16dc9f1a3b2e4c597541542b83432"
     },
     {
       "path": "coverage-counts.json",
-      "bytes": 5070,
-      "sha256": "1f2f07e5a6d971e2e2dbbb0e6a13cc7a6cd623d16cd326beea3c6a5f239eeb40"
+      "bytes": 5025,
+      "sha256": "d31540380a5b46d223abe17c407cc12d8747057d51485f295feb29e25c0a4dab"
     },
     {
       "path": "machine-screen-inventory.jsonl",
@@ -103,13 +133,18 @@
     },
     {
       "path": "opportunity-manifest.json",
-      "bytes": 6095,
-      "sha256": "363593323edd59d5dd91f772569966c23f9149dd9a8f356eaf1d9c7a06c93fbb"
+      "bytes": 11289,
+      "sha256": "4daf1b251b73f33850ec3c44e2a9de3d727c4b35dae32d69c199e685cc6134d0"
+    },
+    {
+      "path": "revision-deltas.json",
+      "bytes": 4578,
+      "sha256": "f63f25601d013e4473667ec9707b7b9c63e22797e82d13bf5cab29255f0ce701"
     },
     {
       "path": "scripts/build_coverage.py",
-      "bytes": 7077,
-      "sha256": "4bec8f0c5eadecd2b9d127bc72f5a5ffbfe3944c38c725689f3f75450ebafe71"
+      "bytes": 9939,
+      "sha256": "8d189d926db5c6ada8cef940176b6ea9db060ea73a33fbdb6af94946799c2701"
     },
     {
       "path": "scripts/check_pricing.py",
@@ -118,8 +153,8 @@
     },
     {
       "path": "scripts/consolidate.py",
-      "bytes": 7262,
-      "sha256": "a3470a803cf3d5cdbd7f10f6a93f6dd0c75b722f84b49fb76ea80a461a021d1f"
+      "bytes": 8423,
+      "sha256": "a71b62b78e4fae350e0e8e7176e114f2761667121088de8f62ede198dbc7f2dd"
     },
     {
       "path": "scripts/sanitize_public_links.py",
@@ -128,13 +163,18 @@
     },
     {
       "path": "scripts/validate.py",
-      "bytes": 5141,
-      "sha256": "5e4d8a5176d42a9399db4fb0c5906b088055caa76264f65fed884293387eb431"
+      "bytes": 5819,
+      "sha256": "90f5379c52b3b5c18bd0e95217a7060719be2088fe785b7fc9d9474c72503d90"
     },
     {
       "path": "source-inventory.jsonl",
-      "bytes": 2310900,
-      "sha256": "15150a1291fd9770d82812fff10f55fe0aa7c470b2bf47e4bbaddae1266ea20c"
+      "bytes": 2417450,
+      "sha256": "9ae060394f3be9db33b6a9d77914233e41562a1127915f0aef083e43fa022112"
+    },
+    {
+      "path": "supporting-source-inventory.jsonl",
+      "bytes": 3935,
+      "sha256": "3c271447e585fdd15e1d9ace4fe774f7f26c81ec59d47330559fe0c84d52b22a"
     },
     {
       "path": "teams/global_trade/acquisition-publiceye.jsonl",
@@ -472,6 +512,271 @@
       "sha256": "da4488905897103665dbc0354dc494a9a8391dbfaa2bd6a708e7a105b053c245"
     },
     {
+      "path": "teams/revisit_integrity/environment-access.json",
+      "bytes": 3967,
+      "sha256": "01e1793afcd011b689122616750a52ee324159c18dd60342bad78c1102024e3b"
+    },
+    {
+      "path": "teams/revisit_integrity/environment_check.py",
+      "bytes": 1772,
+      "sha256": "994a3f5cf7d9f2ba3748fe5278d0aa0069c05295040fbc76ca28b6e9f3bc45a9"
+    },
+    {
+      "path": "teams/revisit_integrity/evidence-manifest.json",
+      "bytes": 1290,
+      "sha256": "c7bc4602d0e407d04dd7c9409334413ffb013e137008062328a0d8fd831c6a5c"
+    },
+    {
+      "path": "teams/revisit_integrity/findings.md",
+      "bytes": 21745,
+      "sha256": "18c4b926969752c072b5af6afbc968702c8cb60cffa7c785ec796008784a318c"
+    },
+    {
+      "path": "teams/revisit_integrity/inventory.jsonl",
+      "bytes": 2454,
+      "sha256": "c5649155f4d9d840b39e32bf213c9c03a0bcc2787bcc66cba275d6d7c503f139"
+    },
+    {
+      "path": "teams/revisit_integrity/procurement-bundle.json",
+      "bytes": 55858,
+      "sha256": "96609a6765e3f12e9c0cb3e9fd81f7684e8eece21d3966d03f0821fcce1122b6"
+    },
+    {
+      "path": "teams/revisit_integrity/procurement-control-observations.json",
+      "bytes": 746,
+      "sha256": "64207b3e5e8f328f17069ed7eaa9d11669e06e458e8ee89b8060f54dcc4ed04b"
+    },
+    {
+      "path": "teams/revisit_integrity/procurement_bundle.py",
+      "bytes": 4385,
+      "sha256": "dcef4783e703e5e59fca4c5e4e0051eb480481dd5f7f1c35d5e073b8466bb8ce"
+    },
+    {
+      "path": "teams/revisit_integrity/ukrainian-ocr-baseline.json",
+      "bytes": 2523,
+      "sha256": "ffc2439bd75604c83070f4a61673b16a11dab77cc91ae7625af0eb99a311b9e0"
+    },
+    {
+      "path": "teams/revisit_integrity/ukrainian-ocr-baseline.py",
+      "bytes": 3066,
+      "sha256": "a9f7fffdb453b6341adfcfcfb7391961a1be1cd50ce8c1423ba23e8bc8a03aa0"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/README.md",
+      "bytes": 1142,
+      "sha256": "bcb747582c1d5e19f8f781669e11f8285c3c522d6301398ba2cc902d7fe875ea"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/checks.json",
+      "bytes": 2693,
+      "sha256": "143053bf1cae180575dbcbf85ace76d093c852fa82ce98c046c9522ea6bee9e0"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/controls.jsonl",
+      "bytes": 1207,
+      "sha256": "bfd4dbd4e34dd34f33055a07c0643ae0ea5c36980ec12c0929d48e89104a8d1a"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/counts.json",
+      "bytes": 279,
+      "sha256": "97fa8d9ce0e29240df76ed9e6b7fd8805ee229fc9f9f9823a884706b38be4842"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/findings.md",
+      "bytes": 14409,
+      "sha256": "2e01f73f1bcd69e0782cce3e5a8a0967a279c24881cf4963c7c86b1b9b0ebb19"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/interpretation-prompt.txt",
+      "bytes": 1025,
+      "sha256": "a8af4de8b50eea0f41506a5cae324b09ab98bb12b71a6fc4b68de4409d4f4dd2"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/inventory.jsonl",
+      "bytes": 5413,
+      "sha256": "333daae4ee6c50988b291bff3face6cc1afe479e81bb992b8307bf27a3e37c3d"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/pilot-results.json",
+      "bytes": 621,
+      "sha256": "f5f33df975214d170552858c524acdad48610cd139e6dc35b2514e715c02bca8"
+    },
+    {
+      "path": "teams/revisit_kleptocracy/pilot.py",
+      "bytes": 1272,
+      "sha256": "4f6500691f43cb4203cf45c7f34d3ea57177cf8929d07f87c12702bce7986d52"
+    },
+    {
+      "path": "teams/revisit_occrp/access-log.json",
+      "bytes": 1615,
+      "sha256": "41bda65da0ac71abeeb7b0c6a3b9bcf43aab54b963871c4e9639bad31d27a973"
+    },
+    {
+      "path": "teams/revisit_occrp/build_revisit.py",
+      "bytes": 3951,
+      "sha256": "551d7127b816ff7ca9bf3e5f18d15b94b445a56972fea4a55b82f32edab1cec5"
+    },
+    {
+      "path": "teams/revisit_occrp/check_public_report.py",
+      "bytes": 703,
+      "sha256": "f52f057aa07531bd702320acc58031d165def6df97554aa933afb9acff3accba"
+    },
+    {
+      "path": "teams/revisit_occrp/counts.json",
+      "bytes": 355,
+      "sha256": "daab53151aa901d91a92cb63eadfec6b5d59fb719d7f77fcfe6d7626e74be16a"
+    },
+    {
+      "path": "teams/revisit_occrp/findings.md",
+      "bytes": 12330,
+      "sha256": "e3caada6dfd6adc62d4746fc26fb70dd6735f602d1d0be96b1a72332e7571453"
+    },
+    {
+      "path": "teams/revisit_occrp/inventory.jsonl",
+      "bytes": 3216,
+      "sha256": "391cd19194e89043ce53a2ac56bd4d3e53a12b4441714753f3992c23085b2a95"
+    },
+    {
+      "path": "teams/revisit_occrp/public-report-check.json",
+      "bytes": 237,
+      "sha256": "7afbc3791728df96630a89c53e69dd3e95aaae5ff702c0b4b371ab2cc91153d6"
+    },
+    {
+      "path": "teams/revisit_ownership/access_checks.json",
+      "bytes": 1406,
+      "sha256": "3e0805850ea3c61ce510ffa2e977e8290afe3e84001def95b6f53cdcd2d00b2f"
+    },
+    {
+      "path": "teams/revisit_ownership/counts.json",
+      "bytes": 345,
+      "sha256": "1ab0289e238e29dfbe57037c1d40357ae012be4f6b79406fa9ff3ebca50de7c0"
+    },
+    {
+      "path": "teams/revisit_ownership/findings.md",
+      "bytes": 15706,
+      "sha256": "06a2cb27a7b4b763abb5261bfb2b3314286d939cee5cf5b811fe6632570f0302"
+    },
+    {
+      "path": "teams/revisit_ownership/inventory.jsonl",
+      "bytes": 12895,
+      "sha256": "ffede3a4c4cc4a872cf6e57a4757796482a792d3cf2084f131d4fd0b74d6180f"
+    },
+    {
+      "path": "teams/revisit_ownership/pilot.py",
+      "bytes": 3082,
+      "sha256": "ab5d05694b158fdb4aa84a33bcc5d0880e5768653d6360eee5116ec78a970969"
+    },
+    {
+      "path": "teams/revisit_ownership/public_filing_samples.json",
+      "bytes": 3109,
+      "sha256": "334b8dd990487f435acaf963883ac3ce138ee5baf6ba539b8aad3082358045a7"
+    },
+    {
+      "path": "teams/revisit_psc_root/check_cohort.py",
+      "bytes": 5314,
+      "sha256": "e463f90423c385c43e63943f65a09c9fec1dbe3800d371d85c011ce603b53032"
+    },
+    {
+      "path": "teams/revisit_psc_root/check_history_companion.py",
+      "bytes": 3028,
+      "sha256": "4ce8126f139267f2ef2c798d8c2a72c4a95316edc5c4e59a74c4094cf2f5eeca"
+    },
+    {
+      "path": "teams/revisit_psc_root/check_page_quality.py",
+      "bytes": 1763,
+      "sha256": "590dc4b99b695dabba2cf6a2955d28070eef31fe03cab44701dacb8e50c913c9"
+    },
+    {
+      "path": "teams/revisit_psc_root/cohort-check.json",
+      "bytes": 7930,
+      "sha256": "dedcd28fd2f515b3dda6c1257b013d1f483db833ff88d37fa3ef1480b52f3f88"
+    },
+    {
+      "path": "teams/revisit_psc_root/findings.md",
+      "bytes": 6605,
+      "sha256": "90878299f4baaf8324adb4ad8fef12a4146b4ec5c03de305276b9732766fccc4"
+    },
+    {
+      "path": "teams/revisit_psc_root/history-companion.json",
+      "bytes": 6805,
+      "sha256": "c8ac38be73e0fb70561e23e0859d91345628aaabf2da88fceae8d93509856fcf"
+    },
+    {
+      "path": "teams/revisit_psc_root/history-request-manifest.json",
+      "bytes": 5168,
+      "sha256": "5e51b59252c90d0ff0d3eea1ee723ad02f8e44399cae6c9b252d28079bc12d03"
+    },
+    {
+      "path": "teams/revisit_psc_root/page-quality.json",
+      "bytes": 4430,
+      "sha256": "0956e2aef092683730ad9f866891406e399353bba01b4a01939fadc62f9a4877"
+    },
+    {
+      "path": "teams/revisit_psc_root/request-manifest.json",
+      "bytes": 6947,
+      "sha256": "5feb30fe6a4e6ee46821aa6184b10886076e842e12297cde959944469b637d98"
+    },
+    {
+      "path": "teams/revisit_publiceye/access-checks.json",
+      "bytes": 3408,
+      "sha256": "6ef25369c4a99ed49d82832b57461d26d9fceb9d693798263736e2ca5ce010bb"
+    },
+    {
+      "path": "teams/revisit_publiceye/control-records.json",
+      "bytes": 2033,
+      "sha256": "b71422a19eb2cb8ee4d56dc5da4557220ce1f596ce283003125e602b781c7b0e"
+    },
+    {
+      "path": "teams/revisit_publiceye/counts.json",
+      "bytes": 706,
+      "sha256": "233bf664675977e309006512a78b529204d51d945a183b1d545e63c00505e2eb"
+    },
+    {
+      "path": "teams/revisit_publiceye/findings.md",
+      "bytes": 15106,
+      "sha256": "da45faef7e48f4f90f11717643ab7d39b2631cfbdf484a91f95c793914960cd1"
+    },
+    {
+      "path": "teams/revisit_publiceye/german-table-baseline.json",
+      "bytes": 7296,
+      "sha256": "a9666d4903f1f8310fcf5e6a00584711d92d15c09f01f7b1c85fd1a9f327161b"
+    },
+    {
+      "path": "teams/revisit_publiceye/inventory.jsonl",
+      "bytes": 14669,
+      "sha256": "6db070595f6fbfaa4454099c8b7089c5f722d670e8d14e306c2ce2ba06843f76"
+    },
+    {
+      "path": "teams/revisit_publiceye/manifest.json",
+      "bytes": 2053,
+      "sha256": "a9a6e1c49ee73c4127b45d8f96071351808bc92e0ecbf99d600f96329d634d19"
+    },
+    {
+      "path": "teams/revisit_publiceye/ocr-baseline.jsonl",
+      "bytes": 13850,
+      "sha256": "814fe0e7dd3a3f7ac16ed55f0dd9696a965794713230f02735838d2baf07f72e"
+    },
+    {
+      "path": "teams/revisit_publiceye/pilot_baseline.py",
+      "bytes": 2631,
+      "sha256": "5bee5475bd1f4cdf2b4fcea3a163d9546e149efd824ef8e59c966786294a37b3"
+    },
+    {
+      "path": "teams/revisit_publiceye/population-links.json",
+      "bytes": 6311,
+      "sha256": "d88e4cb02f68399305d3974be0cc51a84bc7c486d72b62c1ba32a20948af71a4"
+    },
+    {
+      "path": "teams/revisit_publiceye/population.json",
+      "bytes": 12023,
+      "sha256": "ea695eab91c05786f24e610eaaa5c429c9dcf61af039c66f4067eeb66f5c7f0f"
+    },
+    {
+      "path": "teams/revisit_publiceye/table_baseline.py",
+      "bytes": 3463,
+      "sha256": "760da818ef0faec5c3a7912fc307257e12572b6eb3285ca73733b7aef557e917"
+    },
+    {
       "path": "teams/secrecy_ownership/README.md",
       "bytes": 4190,
       "sha256": "245966a8420f81e10b7f6ad8eb1351fe281b0b4922cd130931899077fe0036ab"
@@ -553,8 +858,8 @@
     },
     {
       "path": "totals.json",
-      "bytes": 452,
-      "sha256": "56782dd55ee3eaa346021aca0760d2ff902fa525762ab81f460fb467d38109bc"
+      "bytes": 596,
+      "sha256": "a7d424fe54aed12149f4006caf1876fd8ac3c00bb542b57d89d4929f01d85923"
     }
   ]
 }

@@ -1,0 +1,14 @@
+For each supplied pair of original documentary spans, return JSON only:
+{claim_unit_a, claim_unit_b, percentage_type_a, percentage_type_b,
+reference_date_a, reference_date_b, exact_entity_names, incorporation_countries,
+quantifier_scope, qualifications, documentary_bridge_spans,
+classification: agree|unresolved_scope|unresolved_date|unresolved_membership|documentary_discrepancy_for_review,
+reason, citation_spans}.
+Use only supplied spans. Distinguish licence ownership, project economic interest,
+subsidiary equity, indirect holding-company equity and accounting control.
+Do not infer a bridge from similar names, percentages or NGO allegations.
+Do not infer wrongdoing, beneficial owner identity, delivery or payment.
+If exact unit/perimeter/reference date equivalence is unproved, abstain.
+Never silently replace a lower subsidiary equity percentage with its consolidated
+parent's control percentage. Retain the original issuer's provenance.
+This prompt is a proposed model companion, not a performed model experiment.

@@ -1,28 +1,44 @@
-# Coverage, stages and gaps — 13 October 2026
+# Coverage, stages and gaps — 13 October 2026 (revised)
 
-**1,752 organization-source records; 1,751 works after one identified cross-organization coauthored duplicate.** 1,665 records carry an in-window publication/republication/catalog date; 87 need date verification. PPLAAF migration dates are not verified original-publication dates. These are publication/investigation leads, not uniformly confirmed substantive reports.
+**1,753 organization-source records; 1,752 works after one identified cross-organization coauthored duplicate.** 1,669 records carry an in-window publication/republication/catalog/inferred date; 84 need date verification. PPLAAF migration dates are not verified original-publication dates. These are publication/investigation leads, not uniformly confirmed substantive reports.
 
-**Acquisition and screening:** 498 source records with underlying fulltext acquired/available (PDF, substantive HTML or browser text; not 498 downloaded PDFs). 489 nonempty text files were keyword-indexed, mapping to 483 report works. 79 organization-source records were context-screened (78 unique works); 69 screens used sources recorded fulltext-acquired, ten used partial-source text. 30 organization-source records received deep assessment of selected relevant sections (29 unique works). **Zero finalists or finalist-retained sources.** These are not counts of entire reports read cover to cover.
+**Acquisition and screening:** 501 source records with underlying fulltext acquired/available (PDF, substantive HTML or browser text; not 501 downloaded PDFs). 489 nonempty text files were keyword-indexed, mapping to 483 report works. 98 organization-source records were context-screened (97 unique works); 74 screens used sources recorded fulltext-acquired, 24 used partial-source text. 40 organization-source records received deep assessment of selected relevant sections (39 unique works). These are not counts of entire reports read cover to cover.
+
+**Selection:** 4 pilot-ready opportunities; 6 specifically blocked conditional designs/extensions. 6 NGO organization-source records anchor the ready pilots (5 unique works). Zero completed investigative findings. The initial zero-finalist metric is preserved in the snapshot; retained_pilot_sources counts the current research-design anchors.
 
 The coauthored 2025 UK PSC-register report appears in TJN and Open Ownership; each organization gets credit in the matrix, but totals identify the duplicate. Translation and PDF versions remain in original team manifests and nested source_versions. No automatic cross-language translation equivalence is claimed. Known mirrors were explicitly merged; unidentified mirrors remain a limitation.
 
-| Organization | Enumerated | Dated in window | Fulltext acquired | Machine-screened works | Context screens | Deep section reads | Finalists |
+| Organization | Enumerated | Dated in window | Fulltext acquired | Machine-screened works | Context screens | Deep section reads | Retained pilot anchors |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Global Witness | 194 | 194 | 2 | 0 | 2 | 2 | 0 |
-| Global Financial Integrity | 42 | 41 | 1 | 0 | 1 | 1 | 0 |
-| OCCRP | 89 | 89 | 0 | 0 | 1 | 1 | 0 |
-| Tax Justice Network | 110 | 110 | 0 | 0 | 1 | 1 | 0 |
-| Public Eye | 102 | 102 | 15 | 15 | 4 | 1 | 0 |
+| Global Witness | 194 | 194 | 2 | 0 | 5 | 3 | 1 |
+| Global Financial Integrity | 42 | 41 | 1 | 0 | 3 | 2 | 0 |
+| OCCRP | 90 | 90 | 3 | 0 | 4 | 4 | 0 |
+| Tax Justice Network | 110 | 110 | 0 | 0 | 4 | 1 | 1 |
+| Public Eye | 102 | 102 | 15 | 15 | 6 | 2 | 1 |
 | Spotlight on Corruption | 61 | 61 | 2 | 0 | 2 | 2 | 0 |
-| The Sentry | 79 | 2 | 0 | 0 | 2 | 2 | 0 |
+| The Sentry | 79 | 5 | 0 | 0 | 5 | 5 | 1 |
 | Sherpa | 41 | 41 | 11 | 11 | 4 | 3 | 0 |
 | C4ADS | 20 | 11 | 0 | 0 | 1 | 1 | 0 |
 | Basel Institute on Governance | 321 | 321 | 294 | 294 | 6 | 5 | 0 |
 | Natural Resource Governance Institute | 299 | 299 | 38 | 38 | 11 | 1 | 0 |
-| Open Ownership | 109 | 109 | 0 | 0 | 3 | 2 | 0 |
+| Open Ownership | 109 | 109 | 0 | 0 | 6 | 2 | 1 |
 | Transparency International | 224 | 224 | 74 | 72 | 19 | 3 | 0 |
-| PPLAAF | 53 | 53 | 53 | 53 | 14 | 1 | 0 |
-| AntAC | 8 | 8 | 8 | 0 | 8 | 4 | 0 |
+| PPLAAF | 53 | 53 | 53 | 53 | 14 | 2 | 0 |
+| AntAC | 8 | 8 | 8 | 0 | 8 | 4 | 1 |
+
+## Targeted pass and count deltas
+
+Initial unique contextual/deep counts: 78/29. Current: 97/39; additions 19/10. One new NGO work was enumerated. Repeated reading does not add a unique read.
+
+| Pass | What was added or clarified | Ledger |
+|---|---|---|
+| Global Witness/GFI/Public Eye | GW3 additional contexts; GFI2 full-report contexts; PE2, including measured4-hit Nestlé control; older landings/rereads separate. | [Revisit](teams/revisit_publiceye/findings.md) |
+| OCCRP | Three additional full-body methods/context/deep reads, one newly enumerated work. No local index, so method-diversity sampling rather than low-hit claim. | [Revisit](teams/revisit_occrp/findings.md) |
+| TJN/Open Ownership | Six additional contextual report/limitations reads; three rereads add no unique count. | [Revisit](teams/revisit_ownership/findings.md) |
+| Sentry/C4ADS | Three additional Sentry fulltext-section reads; C4 comprehensive baseline reread plus two executive HTML contexts. C4 size failures prevent claiming two new full-report reads or a measured low-hit sample. | [Revisit](teams/revisit_kleptocracy/findings.md) |
+| AntAC/PPLAAF | AntAC reread; one deeper PPLAAF assessment; new complete tender bundle and environmental controls are dataset evidence, not NGO count inflation. | [Revisit](teams/revisit_integrity/findings.md) |
+
+Native files, registry rows, company reports and new test documents are separately logged. Five additional external institutional/company records appear in [supporting-source-inventory.jsonl](supporting-source-inventory.jsonl), outside the NGO totals. No private evidence was inferred from public-document extraction.
 
 ## Per-organization boundaries
 
@@ -30,11 +46,11 @@ The coauthored 2025 UK PSC-register report appears in TJN and Open Ownership; ea
 |---|---|---|
 | Global Witness | Catalog pages 2–8; newest page 1 omitted. Direct raw 403;194 browser extracts mostly partial, not full reports read. Older archive coverage incomplete. | [Team ledger](teams/global_trade/findings.md) |
 | Global Financial Integrity | 41 dated+1 undated method. Cached catalog inconsistencies/challenges; older decade coverage incomplete.35 browser acquisitions mostly landing/body extracts; no direct PDFs. | [Team ledger](teams/global_trade/findings.md) |
-| OCCRP | Purposive 88 investigation catalog records+1 methodological project, not all 150 archive pages. Batch-body attribution errors excluded; no full original PDF acquisition. | [Team ledger](teams/kleptocracy/findings.md) |
+| OCCRP | Purposive 88 investigation catalog records+1 methodological project, not all 150 archive pages. Batch-body attribution errors excluded; no full original PDF acquisition. Revisit adds one French-property investigation; exact day inferred from supporting official case study, not original dateline. | [Team ledger](teams/kleptocracy/findings.md) |
 | Tax Justice Network | English official reports catalog 110.77 primary report-type candidates,33 adjacent posts/briefings. Acquisition predominantly abstracts/partial browser text; not all reports downloaded. | [Team ledger](teams/secrecy_ownership/findings.md) |
 | Public Eye | Reports catalog only, English preferred and 17 explicit translated mirrors merged. Magazines/other languages not exhaustive;429 halted broader acquisition. | [Team ledger](teams/global_trade/findings.md) |
 | Spotlight on Corruption | All 8 archive pages;63 entries minus 2 explicit duplicates. Broad court/enforcement publication archive, not every court document; raw requests 403. | [Team ledger](teams/legal_enforcement/findings.md) |
-| The Sentry | 79 canonical works including 88 landing-page versions/9 translations.77 canonical dates unverified; only selected originals read. Unattributed browser segments excluded. | [Team ledger](teams/kleptocracy/findings.md) |
+| The Sentry | 79 canonical works including 88 landing-page versions/9 translations.74 canonical dates unverified; only selected originals read. Unattributed browser segments excluded. | [Team ledger](teams/kleptocracy/findings.md) |
 | Sherpa | Legacy research/publication categories;41 eligible records.19 API bodies empty;2024–26 newer categories incomplete. Translation deduplication may remain incomplete. | [Team ledger](teams/legal_enforcement/findings.md) |
 | C4ADS | 20 canonical reports;9 dates unverified. Archive pagination 404/direct 403; underlying procurement/trade evidence inaccessible in checked examples. | [Team ledger](teams/kleptocracy/findings.md) |
 | Basel Institute on Governance | English-focused sitemap publications;321 after exclusions/deduplication. Includes publication-type leads, not all financial-investigation reports. Some unidentified language duplicates possible. | [Team ledger](teams/legal_enforcement/findings.md) |

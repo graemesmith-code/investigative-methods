@@ -1,0 +1,5 @@
+Read `findings.md` for two nine-gate designs and six-work contextual audit. Old logs and counts under `../kleptocracy/` remain unchanged. This revisit records zero additional canonical works because all six already appear in the broader discovery inventory; new reads are explicitly flagged. NGO report metadata alone is in `inventory.jsonl`; original issuer specimens and failures are in `checks.json`.
+
+Run `python pilot.py` for three human-transcribed, original-document numeric controls. It checks a conservative scope-aware baseline and cannot measure an AI saving. Use `interpretation-prompt.txt` only with supplied permitted public spans and a separately authorised local model. No network, paid calls, outreach or original copyrighted reports are embedded in the script.
+
+An ownership inconsistency can be flagged only after same-unit, same-date and explicit original project/entity membership gates pass. Present controls illustrate agreement and required abstention. A low-financial-keyword fulltext sample could not be established because the selected C4ADS PDF exceeded the browser's size limit; no alternate route was attempted.

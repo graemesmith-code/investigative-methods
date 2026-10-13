@@ -1,0 +1,285 @@
+{
+  "source_url": "https://amidex.at/downloads/nachhaltigkeitsbericht-2026-01.pdf",
+  "source_sha256": "2c96e746024535ec084045dfce45d726412af2722c384f4e83f2200308e6979e",
+  "engine": "Tesseract with official tessdata_fast deu",
+  "configuration": "German OCR plus raster grid line segmentation; human-located bounded table region; normalization strips nonletters and ignores case",
+  "horizontal_lines": [
+    2407,
+    2527,
+    2586,
+    2706,
+    2825,
+    2945,
+    3064
+  ],
+  "vertical_lines": [
+    224,
+    656,
+    1104,
+    1602
+  ],
+  "physical_pdf_page": 6,
+  "cells": [
+    {
+      "row": 1,
+      "column": 1,
+      "pixel_clip": [
+        229,
+        2531,
+        651,
+        2582
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 8,
+      "ocr_text_sha256": "5c24f7b8bf7edfb1a108a6e232ffedd61e8ae719245d8bda5e477ca0e9001322",
+      "ocr_value": "Slowakei",
+      "manual_gold": "Slowakei",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "pixel_clip": [
+        661,
+        2531,
+        1099,
+        2582
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 7,
+      "ocr_text_sha256": "eb32793b1fc522c0827698edee095014c88f7923ecc8e3b79f911e291f27e1c4",
+      "ocr_value": "Zemplin",
+      "manual_gold": "Zemplin",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "pixel_clip": [
+        1109,
+        2531,
+        1597,
+        2582
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 10,
+      "ocr_text_sha256": "7c1bc85e186a5799fca0875a43f1556d882459346aa160caff9c96a8e5689450",
+      "ocr_value": "Konfektion",
+      "manual_gold": "Konfektion",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "pixel_clip": [
+        229,
+        2590,
+        651,
+        2702
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 8,
+      "ocr_text_sha256": "f93517bb06cd750057bdfa717b8619561aa6d4a057939acc38d0a5e14af3aeb3",
+      "ocr_value": "Pakistan",
+      "manual_gold": "Pakistan",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "pixel_clip": [
+        661,
+        2590,
+        1099,
+        2702
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 5,
+      "ocr_text_sha256": "c5159a3ffddfc855fa8c351bb5f679c7ba87d3991021fb728d5605d048e60376",
+      "ocr_value": "Sindh",
+      "manual_gold": "Sindh",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "pixel_clip": [
+        1109,
+        2590,
+        1597,
+        2702
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 40,
+      "ocr_text_sha256": "0d19e37f2a08818ad130d1efd4fd5d7d302262f0505524181ceb2a818152d342",
+      "ocr_value": "Garn- und Stoff-\nherstellung, vollstufig",
+      "manual_gold": "Garn- und Stoff-herstellung, vollstufig",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "pixel_clip": [
+        229,
+        2710,
+        651,
+        2821
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 8,
+      "ocr_text_sha256": "f93517bb06cd750057bdfa717b8619561aa6d4a057939acc38d0a5e14af3aeb3",
+      "ocr_value": "Pakistan",
+      "manual_gold": "Pakistan",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "pixel_clip": [
+        661,
+        2710,
+        1099,
+        2821
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 6,
+      "ocr_text_sha256": "888c5bfbd43d0b3570a7546fe2f59c6993dacf8916fc3eff2bb4f3b8d5482594",
+      "ocr_value": "Punjap",
+      "manual_gold": "Punjab",
+      "normalized_exact_agreement": false,
+      "exit_status": 0
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "pixel_clip": [
+        1109,
+        2710,
+        1597,
+        2821
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 40,
+      "ocr_text_sha256": "0d19e37f2a08818ad130d1efd4fd5d7d302262f0505524181ceb2a818152d342",
+      "ocr_value": "Garn- und Stoff-\nherstellung, vollstufig",
+      "manual_gold": "Garn- und Stoff-herstellung, vollstufig",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "pixel_clip": [
+        229,
+        2829,
+        651,
+        2941
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 5,
+      "ocr_text_sha256": "4c4505d04d6fc6d6a326e4a4e45362ef58cf4e72ccab170787f2e5f7883e0b0d",
+      "ocr_value": "China",
+      "manual_gold": "China",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "pixel_clip": [
+        661,
+        2829,
+        1099,
+        2941
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 5,
+      "ocr_text_sha256": "cd2015d44df8b42e7a1bcf1f0de3de0803ce61905ffb60ffef926a209567100c",
+      "ocr_value": "Hebei",
+      "manual_gold": "Hebei",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "pixel_clip": [
+        1109,
+        2829,
+        1597,
+        2941
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 40,
+      "ocr_text_sha256": "0d19e37f2a08818ad130d1efd4fd5d7d302262f0505524181ceb2a818152d342",
+      "ocr_value": "Garn- und Stoff-\nherstellung, vollstufig",
+      "manual_gold": "Garn- und Stoff-herstellung, vollstufig",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "pixel_clip": [
+        229,
+        2949,
+        651,
+        3060
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 6,
+      "ocr_text_sha256": "89cfd3116df5336d1afb0ede471a252f9fa5ab92b9d4d2afbb67481fb57ea16e",
+      "ocr_value": "Türkei",
+      "manual_gold": "Türkei",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "pixel_clip": [
+        661,
+        2949,
+        1099,
+        3060
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 21,
+      "ocr_text_sha256": "726934b1628246423593db05b045ff64ad4b0b4cf3fa6eaafd1e90eac3adc2df",
+      "ocr_value": "Denizli,\nKaramanmaras",
+      "manual_gold": "Denizli, Karamanmaras",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "pixel_clip": [
+        1109,
+        2949,
+        1597,
+        3060
+      ],
+      "physical_pdf_page": 6,
+      "ocr_char_count": 40,
+      "ocr_text_sha256": "0d19e37f2a08818ad130d1efd4fd5d7d302262f0505524181ceb2a818152d342",
+      "ocr_value": "Garn- und Stoff-\nherstellung, vollstufig",
+      "manual_gold": "Garn- und Stoff-herstellung, vollstufig",
+      "normalized_exact_agreement": true,
+      "exit_status": 0
+    }
+  ],
+  "cell_count": 15,
+  "normalized_exact_cells": 14,
+  "country_cells_exact": 5,
+  "wall_seconds_ocr_cells": 1.757,
+  "model_api_calls": 0,
+  "limitations": "One fixed document/table; not generic table detection or a multilingual population accuracy estimate."
+}
