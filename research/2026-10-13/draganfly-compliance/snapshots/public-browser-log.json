@@ -1,0 +1,14 @@
+[
+  {
+    "name": "sap-public-rfsa",
+    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019561?anId=ANONYMOUS",
+    "retrieved_at_utc": "2026-10-13T19:56:31.128644+00:00",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019561?anId=ANONYMOUS\nCall log:\n  - navigating to \"https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019561?anId=ANONYMOUS\", waiting until \"networkidle\"\n"
+  },
+  {
+    "name": "registry-gauthier-browser",
+    "url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399",
+    "retrieved_at_utc": "2026-10-13T19:56:31.572360+00:00",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399\nCall log:\n  - navigating to \"https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399\", waiting until \"networkidle\"\n"
+  }
+]

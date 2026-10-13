@@ -1,0 +1,18 @@
+[
+  {
+    "name": "sap-public-rfsa",
+    "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019561?anId=ANONYMOUS",
+    "retrieved_at_utc": "2026-10-13T19:57:21.444313+00:00",
+    "certificate_trust": "Restricted to public keys of CA certificates provisioned by this execution environment; no blanket TLS-ignore setting",
+    "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110019561?anId=ANONYMOUS\", waiting until \"networkidle\"\n"
+  },
+  {
+    "name": "registry-gauthier-browser",
+    "url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399",
+    "retrieved_at_utc": "2026-10-13T19:58:06.482007+00:00",
+    "certificate_trust": "Restricted to public keys of CA certificates provisioned by this execution environment; no blanket TLS-ignore setting",
+    "status": 520,
+    "title": "lobbycanada.gc.ca | 520: Web server is returning an unknown error",
+    "text": "Web server is returning an unknown error Error code 520\nVisit cloudflare.com for more information.\n2026-10-13 19:58:07 UTC\nYou\nBrowser\nWorking\nS\u00e3o Paulo\nCloudflare\nWorking\nlobbycanada.gc.ca\nHost\nError\nWhat happened?\n\nThere is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.\n\nWhat can I do?\nIf you are a visitor of this website:\n\nPlease try again in a few minutes.\n\nIf you are the owner of this website:\n\nThere is an issue between Cloudflare's cache and your origin web server. Cloudflare monitors for these errors and automatically investigates the cause. To help support the investigation, you can pull the corresponding error log from your web server and submit it our support team. Please include the Ray ID (which is at the bottom of this error page). Additional troubleshooting resources.\n\nCloudflare Ray ID: a4a0eaccbeabaed2 \u2022 Your IP: Click to reveal \u2022 Performance & security by Cloudflare"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "lobbying-act.html",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/L-12.4/FullText.html",
+    "retrieved_at_utc": "2026-10-13T19:55:55.894377+00:00",
+    "status": 200,
+    "sha256": "36d8f6558c3d423c4f946c7b31d00fc8789b9ba37f703fa1ed9ee7e7d2ea9aac",
+    "size_bytes": 130296
+  },
+  {
+    "filename": "dpoh-regulations.html",
+    "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2008-117/FullText.html",
+    "retrieved_at_utc": "2026-10-13T19:55:57.634240+00:00",
+    "status": 200,
+    "sha256": "1a8f04ccab65ffab90c396eb83be377b1337718c24211df45b21f1f9057f1b80",
+    "size_bytes": 20800
+  },
+  {
+    "filename": "daod-7021-2.html",
+    "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/7000-series/7021/7021-2-post-employment.html",
+    "retrieved_at_utc": "2026-10-13T19:55:58.888296+00:00",
+    "status": 200,
+    "sha256": "feb5e427083a8e9d71c08acbba4ddbd39e9b9cbafab8b5da3111160471ab926e",
+    "size_bytes": 56111
+  },
+  {
+    "filename": "conflict-interest-act.html",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/C-36.65/FullText.html",
+    "retrieved_at_utc": "2026-10-13T19:56:01.448918+00:00",
+    "status": 200,
+    "sha256": "5996559e7d4ea244e937497ba3dee0031fce70be4e9d0f51683bfce6daf10044",
+    "size_bytes": 137241
+  },
+  {
+    "filename": "foi-security-act.html",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/O-5/FullText.html",
+    "retrieved_at_utc": "2026-10-13T19:56:02.907194+00:00",
+    "status": 200,
+    "sha256": "d97e56c3090047e55ce781e922b30808c88fc592bf3b5b666e2de8a21a45f5dd",
+    "size_bytes": 124286
+  },
+  {
+    "filename": "government-contracts-regulations.html",
+    "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-87-402/FullText.html",
+    "retrieved_at_utc": "2026-10-13T19:56:03.491914+00:00",
+    "status": 200,
+    "sha256": "87570e62026174fa83b1ff3a49590fc9160c33c0f8655f1006603c6fe1cfb9d7",
+    "size_bytes": 60107
+  },
+  {
+    "filename": "citt-procurement-regulations.html",
+    "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-93-602/FullText.html",
+    "retrieved_at_utc": "2026-10-13T19:56:04.648075+00:00",
+    "status": 200,
+    "sha256": "ae2fe921564f6b634a27e8bbead012dc04c9639b788874467b67f6f402ed8ddf",
+    "size_bytes": 86709
+  }
+]

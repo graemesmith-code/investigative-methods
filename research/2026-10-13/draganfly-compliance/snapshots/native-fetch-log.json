@@ -1,0 +1,74 @@
+[
+  {
+    "filename": "contract-history-2026-2027.csv",
+    "url": "https://canadabuys.canada.ca/opendata/pub/2026-2027-contractHistory-contratsOctroyes.csv",
+    "retrieved_at_utc": "2026-10-13T19:53:50.723793+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "canadabuys-data-dictionary.xml",
+    "url": "https://donnees-data.tpsgc-pwgsc.gc.ca/ba2/ac-cb/achatscanada-canadabuys-dd.xml",
+    "retrieved_at_utc": "2026-10-13T19:53:51.625197+00:00",
+    "status": 200,
+    "content_type": "text/xml",
+    "last_modified": "Tue, 24 Mar 2026 18:21:46 GMT",
+    "size_bytes": 60478,
+    "sha256": "092071569300e3c58ddfd300a821dddfc8a73e9c519bf3a611d6de0deacba0fe",
+    "archive_mode": "native complete resource"
+  },
+  {
+    "filename": "contract-history-support.html",
+    "url": "https://donnees-data.tpsgc-pwgsc.gc.ca/ba2/ac-cb/COsoutien-CHsupport-eng.html",
+    "retrieved_at_utc": "2026-10-13T19:53:52.656594+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": null,
+    "size_bytes": 16855,
+    "sha256": "a860e77549f8ef50d8edcfa210ccff6842e247d05d2e22a6c2ac8a6bc47c7c69",
+    "archive_mode": "native complete resource"
+  },
+  {
+    "filename": "dnd-cefcom-20090511.html",
+    "url": "https://www.canada.ca/en/news/archive/2009/05/change-command-canadian-expeditionary-force-command-449469.html",
+    "retrieved_at_utc": "2026-10-13T19:53:53.715651+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "last_modified": "Tue, 13 Oct 2026 19:52:20 GMT",
+    "size_bytes": 24456,
+    "sha256": "2ef34c8603513ed2c7b825719e1d37dbd46c6a63c4e2166ff92e456bdbe76b10",
+    "archive_mode": "native complete resource"
+  },
+  {
+    "filename": "ckan-contract-history-metadata.json",
+    "url": "https://open.canada.ca/data/api/action/package_show?id=4fe645a1-ffcd-40c1-9385-2c771be956a4",
+    "retrieved_at_utc": "2026-10-13T19:53:55.700977+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "last_modified": null,
+    "size_bytes": 40751,
+    "sha256": "5be659953952da3a110de60eaabe5fd6600d6a533c978a7dc4bb985264fe1ed3",
+    "archive_mode": "native complete resource"
+  },
+  {
+    "filename": "ckan-tender-metadata.json",
+    "url": "https://open.canada.ca/data/api/action/package_show?id=6abd20d4-7a1c-4b38-baa2-9525d0bb2fd2",
+    "retrieved_at_utc": "2026-10-13T19:53:56.926706+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "last_modified": null,
+    "size_bytes": 39128,
+    "sha256": "a2278b93c123f35e5274a9193e45587c6ea8eff05755188206070e8f75e791df",
+    "archive_mode": "native complete resource"
+  },
+  {
+    "filename": "ckan-award-metadata.json",
+    "url": "https://open.canada.ca/data/api/action/package_show?id=a1acb126-9ce8-40a9-b889-5da2b1dd20cb",
+    "retrieved_at_utc": "2026-10-13T19:53:58.556984+00:00",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "last_modified": null,
+    "size_bytes": 34172,
+    "sha256": "43f85855e76422bd966a8d41926d75f8fee70e0b2dd33516fa9a6951e7678007",
+    "archive_mode": "native complete resource"
+  }
+]

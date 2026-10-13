@@ -1,0 +1,30 @@
+[
+  {
+    "filename": "lobby-communication-dictionary.xlsx",
+    "url": "https://lobbycanada.gc.ca/media/ilifarxv/communications_dictionary_dictionnaire_communication.xlsx",
+    "retrieved_at_utc": "2026-10-13T19:59:56.875300+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "lobby-registration-dictionary.xlsx",
+    "url": "https://lobbycanada.gc.ca/media/hcvmsu4e/dictionary_registrations_dictionnaire_enregistrements.xlsx",
+    "retrieved_at_utc": "2026-10-13T19:59:57.043022+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "lobby-communication-metadata.json",
+    "url": "https://open.canada.ca/data/api/action/package_show?id=a34eb330-7136-4f5e-9f5f-3ba41df58b06",
+    "retrieved_at_utc": "2026-10-13T19:59:57.120263+00:00",
+    "status": 200,
+    "sha256": "57114cb4392ea89cfa2bbf96dc569bc87b696848fd85d2880175a959d322f3f3",
+    "size_bytes": 7622
+  },
+  {
+    "filename": "lobby-registration-metadata.json",
+    "url": "https://open.canada.ca/data/api/action/package_show?id=70ef2117-1095-4d77-80eb-b87f2bada2a4",
+    "retrieved_at_utc": "2026-10-13T20:00:06.312217+00:00",
+    "status": 200,
+    "sha256": "ff0b5987535b158bd244b530a0efca5437635d4a43b670512ea97c05f8822957",
+    "size_bytes": 7767
+  }
+]
