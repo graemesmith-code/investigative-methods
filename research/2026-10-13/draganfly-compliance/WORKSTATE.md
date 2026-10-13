@@ -1,6 +1,6 @@
 # Investigation status and next evidence
 
-Working checkpoint, October 13, 2026, approximately 23:28 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
+Working checkpoint, October 13, 2026, approximately 23:41 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
 ## What the evidence currently establishes
 
@@ -57,3 +57,5 @@ The [briefing and released-records pass](annexes/briefing-and-released-records-2
 Broader ATI searches acquired three exact completed-request summaries, not their released packages. Native and rendered pages expose no body downloads. They concern earlier manufacturing, RPAS policy and counter-UAS capability context; no award conclusion changes. Recovery verification succeeded and the preceding checkpoint was remote verified.
 
 Explicit September briefing-title branch completed: DND/PSPC/PCO September 2026 listings displayed zero. Ordinary title deadline October 30 is future; observed DND nonfuture cutoff August 31, future December 9 date flagged. No September content or nonpublication violation established. Published no-cost informal-copy route verified for already-released ATI packages; no requests sent. New WHAT-THIS-MEANS.md is the first newsroom read, and MORNING-EMAIL.md is an unsent parent-review draft. Further research should pursue a genuinely different substantive public source, not repeat unavailable September bodies or failed SAP/bulk endpoints.
+
+New independent acquisition memo preserved and narrow security-change branch executed. Actual April 22, 2026 manual replay body acquired, relevant sections matching current text. Financing dates/math rechecked; exact registration/entity/security agreement, notification and review outcome still missing. No breach inferred. Email verdict and honest scope/cost wording corrected; 104 questions mapped is not 104 completed tests.

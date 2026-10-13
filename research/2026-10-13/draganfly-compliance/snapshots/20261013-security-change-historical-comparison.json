@@ -1,0 +1,55 @@
+{
+  "checked": "2026-10-13T23:39:00.195565+00:00",
+  "sources": [
+    "contract-security-manual-index.html",
+    "security-manual-wayback-20260422.html"
+  ],
+  "method": "Normalized visible section text comparison; no assertion about intervening September versions or actual agreement",
+  "sections": [
+    {
+      "section": "scope",
+      "start_anchor": "s1_1",
+      "current_and_april22_text_match": true,
+      "archived_text": "id=\"s1_1\">1.1 Overview This manual is a reference for organizations to understand the Government of Canada's security standards, procedures and international commitments for working on government contracts, projects and programs with security requirements. It details the requirements that organizations must follow for safeguarding government information and assets provided to, or produced by, organizations registered in the CSP and to all contracts, Canadian or foreign, for which PSPC is responsible. Procedures are also provided for the same activities related to allied foreign governments contracting through PSPC , such as multinational ventures where Canada is a partner. Organizations awarded a government contract with security requirements or with a legitimate need to access protected or classified information must be registered and security screened at the appropriate level through the CSP . Once registered, organizations must comply with the security requirements set out in this manual and with all other applicable security policies, standards and directives including, but not limited to the following: <h3",
+      "current_text": "Matches archived section text"
+    },
+    {
+      "section": "clearance types and ongoing changes",
+      "start_anchor": "s3_2_1",
+      "current_and_april22_text_match": true,
+      "archived_text": "id=\"s3_2_1\">3.2.1 Types of organization clearances The request for organization screening will indicate the type of organization clearance needed for the pre-solicitation, contract, or subcontract. A provisional security clearance is temporary. It is required to access protected or classified information or assets during the pre-solicitation and/or bid preparation phases of a solicitation process. At a minimum, the CSO and the identified employees that need access to the information require a personnel security screening at the level they are required to access. A DOS is required to access Protected A or B information or assets. A DOS is also the minimum requirement to obtain a site access status or site access clearance for employees. Please see Section 4.3 Site access screening . At a minimum, the CSO will require a Reliability status. In some cases, selected KSO s may also require a Reliability status such as individual owners and individual partners. An FSC is required to access classified information or assets : Confidential, Secret or Top Secret, NATO Confidential, NATO Secret, or Control of Secret Material in an International Command (COSMIC) Top Secret Footnote 2 or other foreign equivalent classified information. Before an FSC is granted, the CSO and KSO s identified by the CSP must be security screened, as a minimum. A subsidiary is considered a separate legal entity requiring a separate DOS or FSC to be awarded a contract. A more detailed evaluation of the organization's ownership may also be required. Please see Section 3.3 Foreign ownership, control or influence . The CSP may require security screenings of all owners, directors, partners, and officers in positions of influence of organizations screened with the CSP , regardless of the security level required. A provisional security clearance is valid for the duration of the bid solicitation stage only. During the bid evaluation stage, confirmed bidders are invited to complete the screening process to obtain either a DOS or FSC . Once the clearance is granted, a DOS is valid for up to 2 years and an FSC is valid for up to 1 year if the organization complies with the requirements of the CSP and there are no changes. At the end of this period, the DOS or FSC will either be administratively terminated, if it is no longer required, or it will be maintained and renewed by the CSP . To be renewed and maintained by the CSP , the organization must be: executing an active contract or subcontract with security requirements participating in an international program with security requirements bidding on federal or foreign government or international organization solicitations that require an Application for registration (AFR) form as part of your bid submission within the past year that will result in a contract with security requirements It is the organization's responsibility to keep the CSP informed of any changes following the screening process. PSPC also reserves the right to request an update or a renewal at any time following the screening process. Note Access to Protected C information and assets requires enhanced screening. Please contact the Contract Security Program for information if you require access to Protected C information and assets. PSPC 's CSP will suspend or, as applicable, revoke a DOS or an FSC if the organization fails to maintain the required security standards of the CSP , consistent with the requirements of the security agreement and this manual. Suspension or revocation of a DOS or an FSC by the CSP could lead to a decision by the contract authority to cancel existing contracts. <h4",
+      "current_text": "Matches archived section text"
+    },
+    {
+      "section": "security agreement",
+      "start_anchor": "s3_5",
+      "current_and_april22_text_match": true,
+      "archived_text": "id=\"s3_5\">3.5 Government of Canada security agreement Before an organization receives a provisional security clearance, a DOS , or a FSC , an individual that has the authority to bind the legal entity must complete and sign a security agreement with the Government of Canada. The security agreement outlines the terms and conditions of the organization's security clearance as well as grounds for the suspension or revocation of the organization's security clearance. After signing the agreement, the organization agrees to abide by all security requirements of the CSP . This agreement is signed as part of the security screening process. <h3",
+      "current_text": "Matches archived section text"
+    },
+    {
+      "section": "organizational changes",
+      "start_anchor": "annexa_6_6",
+      "current_and_april22_text_match": true,
+      "archived_text": "id=\"annexa_6_6\">Organizational changes A CSO or ACSO who becomes aware of any changes in the organization's legal status, corporate structure, ownership or changes to the list of KSO s must promptly inform the CSP of these changes to start a review of the registration and organizational screening. <h4",
+      "current_text": "Matches archived section text"
+    }
+  ],
+  "financial_recheck": {
+    "issuer": "Draganfly Inc.",
+    "prospectus_date": "2026-09-28",
+    "new_shares": 1869159,
+    "before_common_shares": 37273597,
+    "after_common_shares": 39142756,
+    "sum_matches": true,
+    "combined_new_issuance_percent": 4.775236061558875,
+    "approx_equal_half_percent": 2.3876180307794375,
+    "closing_release_date": "2026-09-29 21:00 ET",
+    "limits": "Issued common shares only, not beneficial ownership, voting/control/side-rights assessment; equal half approximate because allocation rounding and existing holdings not resolved",
+    "primary_urls": [
+      "https://www.sec.gov/Archives/edgar/data/1786286/000149315226044659/formsuppl.htm",
+      "https://www.sec.gov/Archives/edgar/data/1786286/000149315226044481/ex99-1.htm",
+      "https://www.globenewswire.com/news-release/2026/09/30/3371481/0/en/draganfly-announces-closing-of-us-10-million-strategic-investment.html"
+    ]
+  }
+}

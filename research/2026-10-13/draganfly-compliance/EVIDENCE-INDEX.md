@@ -175,3 +175,15 @@ The [annex](annexes/briefing-and-released-records-20261013.md) identifies each r
 | `snapshots/20261013-september-and-copy-guidance-native-log.json` | URLs/status/time; no record request or form submission |
 
 [What this means](WHAT-THIS-MEANS.md) and [morning email](MORNING-EMAIL.md) are new derived newsroom prose, not original evidence. The email remains an unsent parent-review draft.
+
+## Historical security-change rule and independent memo
+
+- [Full parent-supplied acquisition memo](annexes/independent-acquisition-memo-20261013.md): preserved attributed text, not newly acquired controlling instruments.
+- [Independent implementation](annexes/organizational-change-security-20261013.md): historical rule, rechecked share arithmetic, exact entity/security gaps.
+- `snapshots/security-manual-wayback-20260422.html`: actual readable April 22, 2026 replay body, acquired from exact public calendar link; archive copy, not certified government version.
+- `snapshots/20261013-security-manual-history-discovery.json`, `snapshots/20261013-security-manual-historical-capture-log.json`: visible discovery and actual replay status/provenance.
+- `snapshots/20261013-security-change-historical-comparison.json`: derived comparison of four sections and rechecked financing numbers/primary URLs; not an actual security agreement or share register.
+- `snapshots/security-officer-change-responsibilities-20261013.html`, `snapshots/20261013-security-change-native-log.json`: native government guidance/status, modified metadata July 4, 2025; not individualized agreement.
+- `snapshots/20261013-security-change-public-query-notes.json`: four bounded public discovery queries and discarded false positives; no clearance census or record request.
+
+No missed notice, foreign-control disqualification, retrospective award defect or failed full reassessment established.
