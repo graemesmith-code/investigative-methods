@@ -92,3 +92,7 @@ See the procurement/production annex for exact locations, tested explanations an
 ## Lobbying additions, 21:52 UTC
 
 Four additional original registry bodies recovered: Cadario 692180 and Singh 690653, 690652 and 690651. See [bounded ledger annex](annexes/lobbying-ledger-pass-20261013.md) for exact URLs, preserved successful/failed routes, possible overlaps and the Speidel institution discrepancy. The derived [44-row ledger](snapshots/20261013-bounded-lobbying-ledger.json) has 31 matched report IDs and preserves null values for unmatched IDs. It is not a meeting count or a fresh company-wide census.
+
+## Australian developer history, 21:52 UTC
+
+Three original Australian government releases from January 30 and August 21, 2024, and August 19, 2025 corroborate AMSL Aero prototype/production contracts and completed aggregate deliveries. [Production-history annex](annexes/australian-production-history-20261013.md) preserves exact sources, currencies, product-name limits, qualification implications and native HTTP 503 failures. Web text archived; no native HTML acquired.

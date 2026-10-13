@@ -62,3 +62,7 @@ The contacts, public qualification dates, solicitation and award dates establish
 - June 22: Cadario report 692180 (Speidel, PrairiesCan), displayed July 8 posting; differs from de Bakker's institution label.
 
 Exact sources and capture limits are in the [new annex](annexes/lobbying-ledger-pass-20261013.md); none names this award.
+
+## Australian antecedents
+
+January 30, 2024: AMSL among 11 prototype/production-plan suppliers. August 21, 2024: AMSL among three AUD2.2 million development-and-production contracts for 100 drones each. August 19, 2025: Australian Defence confirms 300 aggregate units delivered across the three suppliers. [Exact primary sources and attribution limits](annexes/australian-production-history-20261013.md). These government texts do not name Astiia or a Draganfly project role.

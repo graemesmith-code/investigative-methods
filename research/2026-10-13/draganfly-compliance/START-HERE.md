@@ -26,6 +26,8 @@ CanadaBuys's award page was recovered through web extraction and confirms CW2467
 
 The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
 
+13. [Australian production history](annexes/australian-production-history-20261013.md) — original military production records and the limits of attributing partner experience.
+
 ## Overnight continuation status
 
 The predecessor's seven hourly research passes were **paused at 20:19 UTC**, before any run was confirmed. The recovery worker has not resumed or duplicated that automation. The parent coordinates continuation. The retained deadline is a final useful checkpoint before October 14 at 03:50 UTC, ahead of the 04:00 UTC (06:00 Europe/Rome) delivery. No email task was created or modified by this recovery worker.

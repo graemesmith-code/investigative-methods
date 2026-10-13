@@ -68,3 +68,7 @@ No paid APIs, external messages, ATI requests, account creation, login, hidden-a
 ## 21:41–21:52 UTC: public registry linked-list route and bounded ledger
 
 Actual shell and branch status succeeded. Public Cadario registration linked to a working six-month list; clicking report 692180 recovered the previously missing June 22 body. Singh six-month list similarly recovered individual bodies 690653, 690652 and 690651. New web extractions preserve exact clicked routes and direct refresh failures. No hidden APIs, credentials or guessed report IDs used. Derived inventory parsed 42 rows from unchanged five-list captures and added two earlier Gauthier bodies: 44 rows, 31 matched IDs; unmatched IDs null. Manual person/role QA corrected drafting errors in the derived Gauthier rows before checkpoint. No original source captures changed. Counts remain filings rather than meetings.
+
+## 21:52 UTC: Australian production-history falsification pass
+
+Three original government releases retrieved by web tool corroborate AMSL production history, weakening a paper-only-developer premise. Native requests to all three returned HTTP 503 and were logged, without repeats/bypass. Stored web extraction separately. The Astiia product-name connection remains separately sourced to developer/secondary statements; no Draganfly project role or Canadian licence established. Current Corbould 695232 text was rechecked: it labels July 22 as amendment date, not independently reacquired first posting. Main lobbying table wording narrowed accordingly.
