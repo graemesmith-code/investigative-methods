@@ -2,6 +2,10 @@
 
 13 October 2026 working checkpoint. Preserve this repository's existing files and use only branch `research/draganfly-compliance-2026-10-13`. All deliverables belong under `research/2026-10-13/draganfly-compliance/`. Main and repository access remain unchanged.
 
+## Bounded scheduled continuation
+
+Created at 20:15 UTC, **paused at 20:19 UTC** at the parent's stop-external-writes instruction, before any completed run was confirmed. Automation identifier for private recovery: `6ace9145a90081918c5e97cf4fdc1472`. The retained schedule has seven hourly flexible slots nominally October 13 20:30 UTC through October 14 02:30 UTC; it is currently disabled. Parent coordinates any recovery/continuation. Its already scheduled 04:00 UTC email is separate and must not be sent or changed here.
+
 ## Completed
 
 - Reverified original-government award metadata, original RFP-A body, Gauthier June/July records and companion lobbying records; bounded direct retrieval failures logged.
