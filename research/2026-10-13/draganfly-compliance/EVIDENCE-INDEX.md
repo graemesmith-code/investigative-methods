@@ -162,3 +162,16 @@ See [analysis and exact source links](annexes/briefing-and-released-records-2026
 - `snapshots/20261013-ati-dnd2026-scoped-results.json`: five actual DND/completion-year-2026 searches, initial hidden-control failure and successful visible selection. No invented filters or record request.
 
 The [annex](annexes/briefing-and-released-records-20261013.md) identifies each record's distinct purpose and likely holder. No acquired directive, memo, assessment or Draganfly award instrument.
+
+## September scope and published informal-copy route
+
+| Artifact | Type and limit |
+|---|---|
+| `snapshots/20261013-dnd-briefing-cutoff-notes.json` | Derived visible controls/first-page results, 401 displayed DND 2026 records; newest nonfuture displayed date August 31; future December 9 entry flagged |
+| `snapshots/20261013-september-briefing-explicit-notes.json` | Actual visible year/September URL and transparent combinations with verified institution parameters; DND, PSPC, PCO each displayed zero |
+| `snapshots/dnd-informal-copy-guidance-20261013.html` | Native 200 current DND DAOD 1001-1; section 3.6 previously released records supplied without formal application |
+| `snapshots/ati-index-copy-guidance-20261013.html` | Native 200 official index; intro advertises no-cost informal copies, not a tested request submission |
+| `snapshots/atia-briefing-publication-20261013.html` | Native 200 official Act; 74(b)/88(b) ordinary monthly title publication timing; consolidation/version limits labelled |
+| `snapshots/20261013-september-and-copy-guidance-native-log.json` | URLs/status/time; no record request or form submission |
+
+[What this means](WHAT-THIS-MEANS.md) and [morning email](MORNING-EMAIL.md) are new derived newsroom prose, not original evidence. The email remains an unsent parent-review draft.

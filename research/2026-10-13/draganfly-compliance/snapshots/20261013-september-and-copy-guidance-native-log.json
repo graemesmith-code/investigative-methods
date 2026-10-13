@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/1000-series/1001/1001-1-access-to-information-act-requests.html",
+    "checked": "2026-10-13T23:24:51.373121+00:00",
+    "method": "Ordinary public policy/statute/index GET; no copy request or form submission",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 52522,
+    "saved": "dnd-informal-copy-guidance-20261013.html"
+  },
+  {
+    "url": "https://search.open.canada.ca/ati/",
+    "checked": "2026-10-13T23:24:51.672898+00:00",
+    "method": "Ordinary public policy/statute/index GET; no copy request or form submission",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 408535,
+    "saved": "ati-index-copy-guidance-20261013.html"
+  },
+  {
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/A-1/FullText.html",
+    "checked": "2026-10-13T23:24:52.466201+00:00",
+    "method": "Ordinary public policy/statute/index GET; no copy request or form submission",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 443785,
+    "saved": "atia-briefing-publication-20261013.html"
+  }
+]

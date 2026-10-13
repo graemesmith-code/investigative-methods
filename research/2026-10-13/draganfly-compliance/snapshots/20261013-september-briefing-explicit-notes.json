@@ -1,0 +1,43 @@
+{
+  "initial_visible_september_selection": [
+    {
+      "checked": "2026-10-13T23:23:14.842390+00:00",
+      "url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9",
+      "method": "Actual visible year 2026 and September controls selected before institution",
+      "selected_institution_controls": []
+    }
+  ],
+  "combined_verified_public_filters": [
+    {
+      "checked": "2026-10-13T23:24:17.025147+00:00",
+      "requested_url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=dnd-mdn",
+      "organization": "National Defence",
+      "method": "Ordinary public listing GET combining exact year/month and organization parameters already generated/identified through visible controls. Institution disappeared from September facet; no hidden endpoint, guessed identifier or record request.",
+      "status": 200,
+      "final_url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=dnd-mdn",
+      "visible_result": "Found 0 records\nOrder By\nBest Match\nDate received\nTitle\nPrevious\nNext\n",
+      "record_links": []
+    },
+    {
+      "checked": "2026-10-13T23:24:19.523764+00:00",
+      "requested_url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=pco-bcp",
+      "organization": "Privy Council Office",
+      "method": "Ordinary public listing GET combining exact year/month and organization parameters already generated/identified through visible controls. Institution disappeared from September facet; no hidden endpoint, guessed identifier or record request.",
+      "status": 200,
+      "final_url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=pco-bcp",
+      "visible_result": "Found 0 records\nOrder By\nBest Match\nDate received\nTitle\nPrevious\nNext\n",
+      "record_links": []
+    },
+    {
+      "checked": "2026-10-13T23:24:20.963704+00:00",
+      "requested_url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=pwgsc-tpsgc",
+      "organization": "Public Services and Procurement Canada",
+      "method": "Ordinary public listing GET combining exact year/month and organization parameters already generated/identified through visible controls. Institution disappeared from September facet; no hidden endpoint, guessed identifier or record request.",
+      "status": 200,
+      "final_url": "https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=pwgsc-tpsgc",
+      "visible_result": "Found 0 records\nOrder By\nBest Match\nDate received\nTitle\nPrevious\nNext\n",
+      "record_links": []
+    }
+  ],
+  "interpretation": "All three institution September 2026 listing queries displayed zero. Exact valid public filter parameters observed in visible controls; no assertion of underlying record absence or disclosure failure."
+}

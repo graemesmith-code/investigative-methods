@@ -103,3 +103,9 @@ See the [bounded search, access and interpretation details](annexes/briefing-and
 | October 2025 | [A-2025-00315 / VCDS2025-0001784](https://search.open.canada.ca/ati/record/dnd-mdn,2025,10,A-2025-00315) | Counter-UAS directive release summary, twenty-two pages, disclosed in part; actual directive not obtained |
 | January 2026 | [A-2025-01652](https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-01652) | Drone Surge application/winner-timing summary, nine pages, disclosed in part; no winner list read |
 | May 2026 / January 1–December 24, 2025 | [A-2025-02170](https://search.open.canada.ca/ati/record/dnd-mdn,2026,5,A-2025-02170) | RPAS/uncrewed policy memos summary, thirteen pages, disclosed in part; creation dates/contents and award applicability unacquired |
+
+| Rule/source date | September scope and copy-route source | Interpretation |
+|---|---|---|
+| DND policy effective January 4, 2025; modified July 31, 2025 | [DAOD 1001-1, section 3.6](https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/1000-series/1001/1001-1-access-to-information-act-requests.html) | Previously released packages can be supplied without a formal application; official ATI index separately states no-cost informal copies. No request sent |
+| Inspected October 13, 2026 about 23:24 UTC | [Official DND September listing](https://search.open.canada.ca/briefingt/?year=2026&page=1&sort=date_received+desc&month=9&owner_org=dnd-mdn) | Displayed zero, as did PSPC/PCO. DND 2026 first page's latest displayed nonfuture date August 31; future December 9 row flagged, not used |
+| October 30, 2026 future | [ATIA 74(b)/88(b)](https://laws-lois.justice.gc.ca/eng/acts/A-1/FullText.html) | Ordinary deadline for September-received covered briefing titles; not passed, exceptions and index limits apply |

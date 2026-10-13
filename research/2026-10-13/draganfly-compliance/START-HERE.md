@@ -1,6 +1,6 @@
 # Draganfly procurement: start here
 
-Prepared for Graeme Smith. 13 October 2026, approximately 23:14 UTC. Independent review corrections incorporated; research remains open to new evidence.
+Prepared for Graeme Smith. 13 October 2026, approximately 23:28 UTC. Independent review corrections incorporated; research remains open to new evidence.
 
 Public records establish a disclosed lobbying relationship before Draganfly's September award and a small initial procurement with much larger issuer-described options. They do not yet connect a particular contact to the requirements, evaluation or decision. **No misconduct or complete compliance has been established.**
 
@@ -12,7 +12,7 @@ The 2009 service-end evidence weakens a retirement waiting-period theory. Compar
 
 ## Reading order
 
-1. [Newsroom summary](NEWSROOM-SUMMARY.md) — current conclusions and what would change them.
+1. [What this means](WHAT-THIS-MEANS.md) — the reporting judgment, strongest named lead and documents that would change it. Then [detailed findings](NEWSROOM-SUMMARY.md). The [morning email](MORNING-EMAIL.md) is an unsent draft for parent review.
 2. [Gauthier and contacts](annexes/gauthier-and-lobbying.md), [bounded ledger](annexes/lobbying-ledger-pass-20261013.md) and [Army/Senate corroboration](annexes/native-engagement-corroboration-20261013.md).
 3. [Procurement](annexes/procurement-records.md), [comparators](annexes/comparator-falsification-20261013.md), [filings/version provenance](annexes/filings-and-version-provenance-20261013.md), [Australian history](annexes/australian-production-history-20261013.md) and [oversight/equal access](annexes/oversight-and-equal-access-20261013.md).
 4. [104 questions mapped against the archive](annexes/compliance-matrix-20261013.md), [concern cards](annexes/compliance-concern-cards-20261013.md) and [public tests](annexes/compliance-public-tests-20261013.md). Categories describe evidence access/applicability, not adjudicated compliance.
