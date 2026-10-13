@@ -1,0 +1,81 @@
+{
+  "successful_visible_filter_pass": [
+    {
+      "date": "2026-10-13T23:16:56.758921+00:00",
+      "term": "drone",
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&page=1&sort=year+desc&year=2026&search_text=drone",
+      "scope": "Actual visible DND and completion year 2026 filters; not document creation year",
+      "text": "Found three records\nOrder By\nYear\nBest Match\nOrganization\nA-2025-01652\nJanuary 2026, 9 pages\n\nRecords pertaining to the number of total applications received under Drone surge: Scaling tactical Uncrewed Aerial Systems manufacturing for modern defence challenge and when will the winners be declared.\n\nNational Defence\nA-2025-01409\nAugust 2026, 1,179 pages\n\nAll records concerning any Directorate of Flight Safety investigations or occurrence reports that reference targets, unknown traffic, unidentified flying objects/aerial phenomena, unmanned aerial systems, or drones. Dates: 2010-01-01 to 2025-09-29\n\nNational Defence\nA-2025-01486\nFebruary 2026, 0 pages\n\nA record showing how members of the military or public service would react to removing a recreational drone from the airspace of Cold Lake. Show what method would be used: kinetic or non-kinetic.\n\nNational Defence\n",
+      "links": [
+        {
+          "text": "A-2025-01652",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-01652"
+        },
+        {
+          "text": "A-2025-01409",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,8,A-2025-01409"
+        },
+        {
+          "text": "A-2025-01486",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,2,A-2025-01486"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13T23:16:58.419209+00:00",
+      "term": "uncrewed",
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&page=1&sort=year+desc&year=2026&search_text=uncrewed",
+      "scope": "Actual visible DND and completion year 2026 filters; not document creation year",
+      "text": "Found four records\nOrder By\nYear\nBest Match\nOrganization\nA-2025-01652\nJanuary 2026, 9 pages\n\nRecords pertaining to the number of total applications received under Drone surge: Scaling tactical Uncrewed Aerial Systems manufacturing for modern defence challenge and when will the winners be declared.\n\nNational Defence\nA-2025-02170\nMay 2026, 13 pages\n\nMemos prepared for the associate deputy minister level or higher concerning the state of the Remotely Piloted Aircraft System (RPAS) procurement process and associated policies concerning the use of uncrewed systems. Dates: 2025-01-01 to 2025-12-24\n\nNational Defence\nA-2026-00548\nJuly 2026, 3 pages\n\nDRDC2026-0002822 - Extra-Large Uncrewed Underwater Vehicle (XL-UUV) Programs - April 21, 2026\n\nNational Defence\nA-2026-00584\nJuly 2026, 3 pages\n\nDRDC2026-0002822 - Extra-Large Uncrewed Underwater Vehicle (XL-UUV) Programs - April 21, 2026\n\nNational Defence\n",
+      "links": [
+        {
+          "text": "A-2025-01652",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-01652"
+        },
+        {
+          "text": "A-2025-02170",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,5,A-2025-02170"
+        },
+        {
+          "text": "A-2026-00548",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,7,A-2026-00548"
+        },
+        {
+          "text": "A-2026-00584",
+          "href": "https://search.open.canada.ca/ati/record/dnd-mdn,2026,7,A-2026-00584"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13T23:16:59.912873+00:00",
+      "term": "Drone Edge",
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&page=1&sort=year+desc&year=2026&search_text=Drone+Edge",
+      "scope": "Actual visible DND and completion year 2026 filters; not document creation year",
+      "text": "Found 0 records\nOrder By\nYear\nBest Match\nOrganization\nPrevious\nNext\n",
+      "links": []
+    },
+    {
+      "date": "2026-10-13T23:17:01.581313+00:00",
+      "term": "DRDC2026-0005257",
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&page=1&sort=year+desc&year=2026&search_text=DRDC2026-0005257",
+      "scope": "Actual visible DND and completion year 2026 filters; not document creation year",
+      "text": "Found 0 records\nOrder By\nYear\nBest Match\nOrganization\nPrevious\nNext\n",
+      "links": []
+    },
+    {
+      "date": "2026-10-13T23:17:03.293252+00:00",
+      "term": "MAT2026-0004915",
+      "url": "https://search.open.canada.ca/ati/?owner_org=dnd-mdn&page=1&sort=year+desc&year=2026&search_text=MAT2026-0004915",
+      "scope": "Actual visible DND and completion year 2026 filters; not document creation year",
+      "text": "Found 0 records\nOrder By\nYear\nBest Match\nOrganization\nPrevious\nNext\n",
+      "links": []
+    }
+  ],
+  "earlier_selection_failure": [
+    {
+      "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"Organization\", exact=True).first\n    - locator resolved to <option value=\"owner_org_en asc\">Organization</option>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    57 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+      "url": "https://search.open.canada.ca/ati/"
+    }
+  ],
+  "interpretation": "Completion year 2026 filter, not creation year; distinct keywords and visible scope only"
+}

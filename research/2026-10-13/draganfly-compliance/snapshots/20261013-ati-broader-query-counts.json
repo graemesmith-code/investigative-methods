@@ -1,0 +1,68 @@
+[
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "drone",
+    "checked": "2026-10-13T23:15:10.337136+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=drone&page=1",
+    "displayed_count": "120 records",
+    "coverage": "First displayed page only; no cross-index census",
+    "error": null
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "uncrewed",
+    "checked": "2026-10-13T23:15:14.577383+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=uncrewed&page=1",
+    "displayed_count": "12 records",
+    "coverage": "First displayed page only; no cross-index census",
+    "error": null
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "W8703",
+    "checked": "2026-10-13T23:15:17.184601+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=W8703&page=1",
+    "displayed_count": "0 records",
+    "coverage": "First displayed page only; no cross-index census",
+    "error": null
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "low cost",
+    "checked": "2026-10-13T23:15:19.366890+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=low+cost&page=1",
+    "displayed_count": "seven records",
+    "coverage": "First displayed page only; no cross-index census",
+    "error": null
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "FOCI",
+    "checked": "2026-10-13T23:15:21.671387+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=FOCI&page=1",
+    "displayed_count": "0 records",
+    "coverage": "First displayed page only; no cross-index census",
+    "error": null
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "DRDC",
+    "checked": "2026-10-13T23:15:23.910661+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=DRDC&page=1",
+    "displayed_count": "97 records",
+    "coverage": "First displayed page only; no cross-index census",
+    "error": null
+  }
+]

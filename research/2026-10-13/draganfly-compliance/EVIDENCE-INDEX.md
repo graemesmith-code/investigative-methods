@@ -153,3 +153,12 @@ See [analysis and exact source links](annexes/briefing-and-released-records-2026
 | `snapshots/20261013-briefing-dnd-scoped-notes.json` | Five queries, actual June–August DND scope; September not covered |
 | `snapshots/20261013-briefing-pass-native-log.json` | Native status/capture log; access failures retained |
 
+
+### Broader ATI metadata follow-up, approximately 23:18 UTC
+
+- `snapshots/ati-drone-surge-A-2025-01652.html`, `snapshots/ati-rpas-policy-A-2025-02170.html`, `snapshots/ati-cuas-directive-A-2025-00315.html`: native readable completed-request metadata, not released pages.
+- `snapshots/20261013-ati-summary-native-log.json`, `snapshots/20261013-ati-summary-rendered-notes.json`: native/rendered status and inspected body-link limits; unrelated navigation links excluded from notes.
+- `snapshots/20261013-ati-broader-query-counts.json`: six unfiltered query counts/URLs, first-page limits.
+- `snapshots/20261013-ati-dnd2026-scoped-results.json`: five actual DND/completion-year-2026 searches, initial hidden-control failure and successful visible selection. No invented filters or record request.
+
+The [annex](annexes/briefing-and-released-records-20261013.md) identifies each record's distinct purpose and likely holder. No acquired directive, memo, assessment or Draganfly award instrument.

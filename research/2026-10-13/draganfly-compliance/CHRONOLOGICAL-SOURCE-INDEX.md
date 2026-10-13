@@ -97,3 +97,9 @@ The contacts, public qualification dates, solicitation and award dates establish
 | September 21, 2026 tabled; question May 29 | [Q-1241 response, Sessional Paper 8555-451-1241](https://www.ourcommons.ca/written-questions/45-1/q-1241/14224001) | Selected DND/PSPC actual public response text acquired. General Chinese-drone safeguards; no Draganfly/Astiia or acquired FOCI assessment. PSPC model table still loading |
 
 See the [bounded search, access and interpretation details](annexes/briefing-and-released-records-20261013.md). No note body or award instrument was obtained, and no new request sent.
+
+| Listing month / underlying scope | Newly inspected completed ATI summary | Evidence limit |
+|---|---|---|
+| October 2025 | [A-2025-00315 / VCDS2025-0001784](https://search.open.canada.ca/ati/record/dnd-mdn,2025,10,A-2025-00315) | Counter-UAS directive release summary, twenty-two pages, disclosed in part; actual directive not obtained |
+| January 2026 | [A-2025-01652](https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-01652) | Drone Surge application/winner-timing summary, nine pages, disclosed in part; no winner list read |
+| May 2026 / January 1–December 24, 2025 | [A-2025-02170](https://search.open.canada.ca/ati/record/dnd-mdn,2026,5,A-2025-02170) | RPAS/uncrewed policy memos summary, thirteen pages, disclosed in part; creation dates/contents and award applicability unacquired |

@@ -35,6 +35,24 @@ The June 29-listed, 32-page Al Zaibak paper was text-searched through a public e
 
 The [ISC MINERVA ISR challenge](https://ised-isde.canada.ca/site/innovative-solutions-canada/en/minerva-initiative-intelligence-surveillance-and-reconnaissance-uncrewed-air-system) is an actual public requirements page, archived natively and read. Its August 24–September 21, 2026 window, Phase 2 prototype route, maximum C$500,000, 15-month duration and estimated five contracts concern this ISC competition. Its endurance/range requirements and Canadian eligibility provisions are not authenticated CW2467949 terms. Allied-country original equipment components appear as a scored additional outcome, not a mandatory requirement to transplant into DDI. The two linked CanadaBuys notices returned 403; no attachment text was acquired through those links.
 
+## Broader ATI follow-up, approximately 23:18 UTC
+
+Broader terms surfaced relevant **summaries**, after the narrower program/award searches returned zero. The unfiltered visible ATI searches displayed `drone` 120 records, `uncrewed` 12, `W8703` zero, `low cost` seven, `FOCI` zero and `DRDC` 97. Only the first displayed page was inspected. Actual DND and year-2026 filter controls then reduced `drone` to three and `uncrewed` to four records; `Drone Edge` and the two precise 2026 briefing references returned zero. Year is the completed-request listing year, not proof of when its underlying documents were created. The initial organization selection timed out on a hidden sort option; selecting the visible organization control succeeded. No endpoint or filter value was guessed.
+
+Three relevant exact record pages were read natively and through ordinary browser rendering:
+
+| Summary and listing month | Official description, disposition and pages | Use and limit |
+|---|---|---|
+| [A-2025-01652, January 2026](https://search.open.canada.ca/ati/record/dnd-mdn,2026,1,A-2025-01652) | Number of applications and timing of winners under Drone Surge, scaling tactical UAS manufacturing; disclosed in part, nine pages | A narrow manufacturing-program context lead. Not a DDI supplier census, award evaluation or verified winner list. |
+| [A-2025-02170, May 2026](https://search.open.canada.ca/ati/record/dnd-mdn,2026,5,A-2025-02170) | Associate-deputy-minister-or-higher memos on RPAS procurement and uncrewed-system policy; scope January 1–December 24, 2025; disclosed in part, thirteen pages | Earlier policy context, not September 2026 award approval. Exact memo identifiers and contents remain unacquired. |
+| [A-2025-00315, October 2025](https://search.open.canada.ca/ati/record/dnd-mdn,2025,10,A-2025-00315) | VCDS2025-0001784, CAF counter-uncrewed-aircraft capability development directive; disclosed in part, twenty-two pages | Precise potential capability-policy record, distinct from the tactical ISR supply contract. A summary is not the directive text or evidence of its applicability. |
+
+Neither the native nor rendered summary pages exposed a released-body PDF/document download link. No actual released pages were obtained and no copy request was sent. DND ATIP is the likely holder of the released packages, to verify; the original program office's custody and exact document dates are not established by a summary. Search-engine checks of these exact request/directive identifiers and the DRDC briefing reference returned no usable public body. This is a retrieval result, not proof no public copy exists anywhere.
+
+The four DND/uncrewed 2026 rows include two separate ATI requests for the same DRDC extra-large-underwater-vehicle briefing. That is not two different underlying notes, meetings or decisions. Other drone hits concerned older flight-safety records or Cold Lake procedures and were not treated as Draganfly evidence. The scoped and broader query counts, failed initial selection, native metadata and rendered inspection notes are archived.
+
+Supporting notes: [six broader query counts](../snapshots/20261013-ati-broader-query-counts.json), [DND 2026 scoped queries and initial UI failure](../snapshots/20261013-ati-dnd2026-scoped-results.json), [native summary log](../snapshots/20261013-ati-summary-native-log.json) and [rendered metadata inspection](../snapshots/20261013-ati-summary-rendered-notes.json).
+
 ## What changes and what remains missing
 
 There are now precise references for two DND program notes and actual already-public parliamentary text about broader drone policy. They improve the records plan and prevent conflating counter-UAS, ISC prototypes, general Chinese-drone safeguards and Draganfly's selective DDI supply contract. None supplies the signed award, operative solicitation/addenda, evaluation, exemption instrument or security decision. No compliance or misconduct conclusion changes.
