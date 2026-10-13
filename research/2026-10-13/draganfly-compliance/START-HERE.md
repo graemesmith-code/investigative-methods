@@ -1,6 +1,6 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 20:30 UTC. The saved environment and investigation branch were successfully reconnected. The predecessor stopped writing; its final handoff has been incorporated. Research is continuing under one active writer. This is not a completed overnight report.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 20:45 UTC. The saved environment and investigation branch are working. The predecessor stopped writing; its final handoff has been incorporated. Research is continuing under one active branch writer. This is not a completed overnight report.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
@@ -19,6 +19,9 @@ CanadaBuys's award page was recovered through web extraction and confirms CW2467
 7. [Procurement records](annexes/procurement-records.md), [corporate changes](annexes/corporate-changes.md) and [recovery state](WORKSTATE.md) — independent branches and next work.
 8. [Reconnection verification](annexes/recovery-verification-20261013.md) — three additional consultant registrations, seven report rows, Australian technology counterparties and holiday-deadline QA.
 9. [Chronological source index](CHRONOLOGICAL-SOURCE-INDEX.md) — key events in date order, with evidence status and exact links.
+10. [Procurement and production pass](annexes/procurement-and-production-pass-20261013.md) — candidate notice revision, qualification/IP evidence tests, original issuer filings and public-data conventions.
+
+The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
 
 ## Overnight continuation status
 

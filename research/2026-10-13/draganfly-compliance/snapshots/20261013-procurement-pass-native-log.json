@@ -1,0 +1,23 @@
+[
+  {
+    "name": "published-tender-data",
+    "url": "https://canadabuys.canada.ca/opendata/pub/2026-2027-TenderNotice-AvisAppelOffres.csv",
+    "retrieved_at_utc": "2026-10-13T20:33:18.199450+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "published-award-data",
+    "url": "https://canadabuys.canada.ca/opendata/pub/2026-2027-awardNotice-avisAttribution.csv",
+    "retrieved_at_utc": "2026-10-13T20:33:18.219198+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "tender-data-support",
+    "url": "https://donnees-data.tpsgc-pwgsc.gc.ca/ba2/ac-cb/soutien-support-eng.html",
+    "retrieved_at_utc": "2026-10-13T20:33:18.219888+00:00",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "d97cc3b3d2f86aac166d1e8b0da21260ab7d16bb98d2283330b27614b775846a",
+    "size_bytes": 23491
+  }
+]

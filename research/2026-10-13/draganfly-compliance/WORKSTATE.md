@@ -38,6 +38,14 @@ New work: verified Danchilla/DeWolfe/de Bakker registrations and seven further r
 
 No new misconduct finding. February 16 posting does not support lateness from a Sunday February 15 deadline. Both published OCL ZIPs returned 403. CanadaBuys award page reopened and matched the inherited baseline; operative A/B documents remain missing. Useful remaining paths: authentic public procurement attachment route, company-level registry census with report lineages, Canadian licence/production rights, later Gauthier appointments and actual coverage/NSE decisions. Avoid repeated failed URLs without a changed route or new evidence.
 
+## Substantive procurement/production pass, 20:30–20:45 UTC
+
+Connectivity retested at 20:33:53; shell and git reads succeeded, local/remote `8c95109` preserved. Acquired native tender/award data-support HTML and original SEC submission fields; both fiscal-year tender/award CSVs returned 403. SEC feed located the authentic September 8 qualification exhibit and August 10 financial statements/MD&A. Native government guide-PDF URL returned archive-notice HTML; web extraction read the 2023 PDF, ordinary browser stopped on blocked HTTP 500. No native guide PDF acquired.
+
+New discriminating leads: RFP-A search cache/current mirror changes September 1 to 3 and UAS to UGV, requiring official version history; candidate RFSA Q&A gives exact CM1/S1-M1/partner-rights questions but remains unverified; strategic policy separates supplier status and local value from foreign design; issuer incorporation/subsidiary evidence weakens a no-Canadian-presence premise. No actual failing qualification, access inequality, waived criterion, licence deficiency or price-review omission proved.
+
+Parent's deeper Gauthier evidence memo preserved at `prior/gauthier-deeper-evidence.md`. Parent independently inspected additional Army engagement, CSE compensation and Senate/partner records; do not describe that transfer as this worker's independent retrieval. Next useful branch: acquire native Army/Senate engagement records, examine actual access/requirement development chronology and corroborate partner production statement without inventing dates. Original procurement packages/decisions remain unresolved. No automation was changed; historically paused task is predecessor's internal continuation, not parent email.
+
 ## Execution constraints
 
 No third-party contacts, emails, ATI submissions, accounts, paid APIs, complaints, publication, access changes, merges or force pushes. Parent handles the morning email. After-October-15 monitoring is not authorized. Research delivery deadline is October 14 at 06:00 Europe/Rome = 04:00 UTC; finish final checkpoint before that. No invented cost/token totals or claims to read inaccessible records.

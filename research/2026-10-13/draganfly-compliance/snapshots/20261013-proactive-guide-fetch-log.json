@@ -1,0 +1,11 @@
+{
+  "url": "https://publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf",
+  "retrieved_at_utc": "2026-10-13T20:36:27.980339+00:00",
+  "version_limit": "2023 guide; award-date 2026 consolidation not authenticated by this download",
+  "status": 200,
+  "sha256": "11a01642e3f059d287d47e0e2e22ca40211a82ee89850af8c2c34a8b13fcc0e2",
+  "bytes": 19263,
+  "error": "PDF parser rejected non-PDF HTML response; no guide PDF acquired",
+  "acquisition_status": "Failed: HTTP 200 response was HTML, not PDF",
+  "archived_response": "proactive-guide-unexpected-response.html"
+}

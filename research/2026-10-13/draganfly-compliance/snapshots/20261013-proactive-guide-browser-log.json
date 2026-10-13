@@ -1,0 +1,16 @@
+{
+  "url": "https://publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf",
+  "retrieved_at_utc": "2026-10-13T20:38:12.116333+00:00",
+  "route": "Ordinary browser navigation and visible Continue to publication link only",
+  "certificate_trust": "Provisioned environment CA SPKI list only",
+  "responses": [
+    {
+      "url": "https://publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf",
+      "status": 500
+    }
+  ],
+  "status": 500,
+  "final_url": "https://publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf",
+  "title": "The URL you requested has been blocked",
+  "visible_text": "block\nWeb Page Blocked!\n\nThe page cannot be displayed. Please contact the administrator for additional information.\n\nURL: publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf\n\nClient IP: 90.96.184.69\nAttack ID: 20000051\nMessage ID: 000435156458"
+}

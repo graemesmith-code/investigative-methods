@@ -58,6 +58,20 @@ Retrieval date: 13 October 2026. Native-file retrieval timestamps and SHA-256 ar
 
 The chronological source index is separate from this capture inventory. The recovery's registration/communication ZIP attempts both failed HTTP 403 and are logged; no native export was obtained. The two further transferred memos are preserved under `prior/`, with original filenames also retained. `prior/checklist-content.md` is the complete earlier DOCX extraction, not a claimed exact copy of the truncated text transfer.
 
+## Procurement/production additions, 20:45 UTC
+
+| ID | Source | Finding | Capture / limitation |
+|---|---|---|---|
+| P09 | [Government tender/award data support](https://donnees-data.tpsgc-pwgsc.gc.ca/ba2/ac-cb/soutien-support-eng.html) | Synchronization, refresh and UTC-0500 representation | Native `tender-data-support.html`; actual rows missing; hashed native-fetch log |
+| P10 | [RFP-A secondary mirror](https://www.myprojectworld.ca/tenders/6a9124cdcb321d41ed809e5e) | Search-index/opened-page difference in closing date and body | Bounded factual fields in `20261013-procurement-pass-source-notes.json`; not authenticated government history |
+| D01/D02 | [July candidate Q&A](https://www.scribd.com/document/1072990713/DDI-RFSA-Questions-and-Answers-July-31-2026-1) / [August candidate Q&A](https://www.scribd.com/document/1072990710/DDI-RFSA-Questions-and-Responses-August-7-2026) | Specific qualification/access questions to verify | Public text inspected; unverified uploader; no full redistribution or governing-status claim |
+| S08 | [SEC submissions feed](https://data.sec.gov/submissions/CIK0001786286.json) | Filing accessions and dates since July | HTTP 200 selected original fields/hash/time in `20261013-issuer-submissions-check.json`; not a full archived feed |
+| S09 | [Filed September 8 qualification exhibit](https://www.sec.gov/Archives/edgar/data/1786286/000149315226041739/ex99-1.htm) | August 28/five-stream issuer claim | Bounded source notes; signed SA and decision missing |
+| S10 | [June statements](https://www.sec.gov/Archives/edgar/data/1786286/000149315226036867/ex99-1.htm) / [MD&A](https://www.sec.gov/Archives/edgar/data/1786286/000149315226036867/ex99-2.htm) | Corporate presence and operating-model counterevidence | Original issuer documents read, bounded notes; no licence or performance verification |
+| R15 | [2023 publication guide](https://publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf) | Option-reporting alternative, SA distinctions | Government PDF web extraction; native response was archive HTML; browser blocked; no native PDF or verified 2026 consolidation |
+
+See the procurement/production annex for exact locations, tested explanations and acquisition failures. Full issuer and commercial-mirror content is not redistributed. Unexpected HTML is preserved as an error/route response, not labelled a recovered PDF.
+
 ## Prior material and transfer provenance
 
 `prior/Draganfly_CAF_procurement_investigation_checklist.docx` is the materialized original Library file `libfile_0c65311677948191a83a5bfe3aedc91c`; `prior-checklist.md` is paragraph extraction, with original layout/hyperlinks preserved in the DOCX. The PDF original `libfile_14e5bb570c38819180ce96eb0ed2ad9f` remains untouched in Library.

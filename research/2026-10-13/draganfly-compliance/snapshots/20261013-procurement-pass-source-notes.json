@@ -1,0 +1,156 @@
+{
+  "capture_type": "Bounded source notes and extracted factual fields, not native complete documents",
+  "retrieved_date_utc": "2026-10-13",
+  "sources": [
+    {
+      "url": "https://www.myprojectworld.ca/tenders/6a9124cdcb321d41ed809e5e",
+      "source_class": "Secondary mirror",
+      "search_index_fields": {
+        "closing_date": "2026-09-01",
+        "description_subject": "UAS"
+      },
+      "direct_open_fields": {
+        "closing_date": "2026-09-03",
+        "closing_time": "14:00 EDT",
+        "description_subject": "CT-UGV",
+        "status": "Expired",
+        "attachments": "None displayed"
+      },
+      "limit": "Search cache differs from current extraction; neither is an authenticated government amendment history"
+    },
+    {
+      "url": "https://bidsfactory.com/en/tenders/w8703-270094-low-cost-uncrewed-aircraft-systems-ua-canadabuys-bc1337463dce2bb8",
+      "source_class": "Secondary mirror, search-indexed result",
+      "record": "RFP-B",
+      "fields": {
+        "closing_date": "2026-09-01",
+        "description_subject": "UAS"
+      },
+      "limit": "No operative package recovered"
+    },
+    {
+      "url": "https://ottawasted.ca/contracts/opportunities/WS5802684496-Doc5832281472",
+      "source_class": "Secondary search result",
+      "record": "RFSA additional event 001",
+      "publication_date": "2026-08-12",
+      "limit": "Direct open 403; event-capacity description is an unverified route lead"
+    },
+    {
+      "url": "https://www.scribd.com/document/1072990713/DDI-RFSA-Questions-and-Answers-July-31-2026-1",
+      "source_class": "Unverified user-uploaded candidate Q&A",
+      "displayed_document_pages": 15,
+      "document_identifiers": [
+        "Doc5802800603",
+        "W8703-270055"
+      ],
+      "selected_questions": [
+        98,
+        111,
+        112
+      ],
+      "license_label": "All Rights Reserved",
+      "limit": "Read public text only. No download, authentication, payment or full-text archival. Governing authority not established."
+    },
+    {
+      "url": "https://www.scribd.com/document/1072990710/DDI-RFSA-Questions-and-Responses-August-7-2026",
+      "source_class": "Unverified user-uploaded candidate Q&A",
+      "displayed_document_pages": 10,
+      "document_identifiers": [
+        "Doc5802800603",
+        "W8703-270055"
+      ],
+      "selected_questions": [
+        156,
+        168,
+        175,
+        176,
+        177,
+        182,
+        186,
+        189
+      ],
+      "limit": "Same authenticity and redistribution limits as July candidate"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226041739/ex99-1.htm",
+      "source_class": "Original issuer exhibit on EDGAR",
+      "document_date": "2026-09-08",
+      "qualification_claim_date": "2026-08-28",
+      "streams_claimed": 5,
+      "limit": "Issuer claim, not qualification decision or signed SA"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226036867/ex99-1.htm",
+      "source_class": "Original issuer financial statements, unaudited",
+      "period_end": "2026-06-30",
+      "board_authorized_date": "2026-08-10",
+      "reviewed_notes": [
+        1,
+        2
+      ],
+      "targeted_Astiia_name_match": false,
+      "limit": "No name match is document-bounded, not proof of no agreement"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226036867/ex99-2.htm",
+      "source_class": "Original issuer MD&A",
+      "document_date": "2026-08-10",
+      "targeted_name_matches": {
+        "Astiia": false,
+        "AMSL": false
+      },
+      "limit": "Generic component risks and group disclosures do not prove CAF performance failure or absence of licence"
+    },
+    {
+      "url": "https://publications.gc.ca/collections/collection_2023/sct-tbs/BT48-10-2023-eng.pdf",
+      "source_class": "Government PDF read via web extraction",
+      "reviewed_sections": [
+        "4.1.6",
+        "4.1.7",
+        "4.1.8"
+      ],
+      "pdf_page_1based": 5,
+      "version_effective": "2023-06-30",
+      "limit": "No native PDF acquired. HTTP 200 native response was archive-notice HTML; ordinary browser then blocked. 2026 version unverified."
+    },
+    {
+      "url": "https://canadabuys.canada.ca/en/buy-canadian-policy/policy-prioritizing-canadian-suppliers-and-canadian-content-strategic-federal-procurements",
+      "source_class": "Government policy web extraction",
+      "reviewed_sections": [
+        "3.2",
+        "3.3",
+        "3.6",
+        "4.6",
+        "4.7",
+        "5.3",
+        "Appendix C",
+        "Appendix E",
+        "Appendix F"
+      ],
+      "displayed_modified_date": "2026-02-20",
+      "limit": "Page footer is not a verified amendment history or award-specific application decision"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws5802684496-doc5832281472",
+      "status": "Web retrieval inaccessible"
+    },
+    {
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws5802684496-doc5802800603",
+      "status": "Web retrieval inaccessible"
+    },
+    {
+      "url": "https://canadabuys.canada.ca/en/tender-opportunities/contract-history/cw2465414-000",
+      "status": "403"
+    },
+    {
+      "url": "https://canadabuys.canada.ca/fr/occasions-de-marche/contrats-octroyes/cw2467949-000",
+      "status": "403 via ordinary visible language link"
+    },
+    {
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32763",
+      "status": "Request rejected HTML"
+    }
+  ]
+}
