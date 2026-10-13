@@ -46,6 +46,12 @@ New discriminating leads: RFP-A search cache/current mirror changes September 1 
 
 Parent's deeper Gauthier evidence memo preserved at `prior/gauthier-deeper-evidence.md`. Parent independently inspected additional Army engagement, CSE compensation and Senate/partner records; do not describe that transfer as this worker's independent retrieval. Next useful branch: acquire native Army/Senate engagement records, examine actual access/requirement development chronology and corroborate partner production statement without inventing dates. Original procurement packages/decisions remain unresolved. No automation was changed; historically paused task is predecessor's internal continuation, not parent email.
 
+## Native engagement and restart checkpoint, 21:25 UTC
+
+Acquired five native Army/DND/Senate HTML pages and derived text at 20:45:49, plus independently verified February CSE issuer PDF (temporary only). Requirements/event chronology, public advocacy and disclosed Senate precaution corroborated; quantity interpretation corrected because a divisional inventory forecast partly includes realignment of existing brigades. Later-role search found an undated University of Ottawa teaching reference; no later designated appointment established. See new native engagement annex.
+
+Environment later became marked starting. Wait reported ready; actual shell, HEAD/status and remote read succeeded at 21:24:46. Local/remote `bd32f21` preserved and all uncommitted native captures survived. Checkpoint these immediately, then continue useful public paths. No automation changes; parent email remains outside this worker's actions. Useful next branch: August investor deck/dated company disclosures for earliest Astiia rights/production evidence, while keeping negative name results bounded. Original RFSA/RFP/licence/decision files still missing.
+
 ## Execution constraints
 
 No third-party contacts, emails, ATI submissions, accounts, paid APIs, complaints, publication, access changes, merges or force pushes. Parent handles the morning email. After-October-15 monitoring is not authorized. Research delivery deadline is October 14 at 06:00 Europe/Rome = 04:00 UTC; finish final checkpoint before that. No invented cost/token totals or claims to read inaccessible records.

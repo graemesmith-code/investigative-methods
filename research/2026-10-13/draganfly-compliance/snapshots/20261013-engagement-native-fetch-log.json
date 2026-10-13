@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "army-minerva-events.html",
+    "url": "https://www.canada.ca/en/army/services/army-modernization/minerva-initiative/event-working-groups.html",
+    "retrieved_at_utc": "2026-10-13T20:45:49.071227+00:00",
+    "status": 200,
+    "final_url": "https://www.canada.ca/en/army/services/army-modernization/minerva-initiative/event-working-groups.html",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 21938,
+    "sha256": "309267686b6f293f06a9cc7ae8a502c37d875c0164739f0f8ccace7de2463454"
+  },
+  {
+    "filename": "army-minerva-orientation-20260126.html",
+    "url": "https://www.canada.ca/en/army/news-publications/2026/01/minerva-orientation.html",
+    "retrieved_at_utc": "2026-10-13T20:45:49.071983+00:00",
+    "status": 200,
+    "final_url": "https://www.canada.ca/en/army/news-publications/2026/01/minerva-orientation.html",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 27846,
+    "sha256": "3745bbf12df3fc4833c0fdb5b478d547a5e11097de5b00352842c1aff1224fc8"
+  },
+  {
+    "filename": "dnd-drone-workinggroup-20260209.html",
+    "url": "https://www.canada.ca/en/department-national-defence/corporate/news/regional-news/western-sentinel/2026/02/3-div-drone-en.html",
+    "retrieved_at_utc": "2026-10-13T20:45:49.072548+00:00",
+    "status": 200,
+    "final_url": "https://www.canada.ca/en/department-national-defence/corporate/news/regional-news/western-sentinel/2026/02/3-div-drone-en.html",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 34321,
+    "sha256": "b2405983835d444fb8156e7b98116b6d27a1dfffb52deef6059d6a1b54c3852b"
+  },
+  {
+    "filename": "senate-chell-evidence-20260413.html",
+    "url": "https://sencanada.ca/en/content/sen/committee/451/secd/16ev-57596-e",
+    "retrieved_at_utc": "2026-10-13T20:45:49.073243+00:00",
+    "status": 200,
+    "final_url": "https://sencanada.ca/en/content/sen/committee/451/secd/16ev-57596-e",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 186384,
+    "sha256": "3a7a56bd043c8f8fa18a12712a28f79b4673100106ff81af2f63f84f6d87daa3"
+  },
+  {
+    "filename": "senate-chell-minutes-20260413.html",
+    "url": "https://sencanada.ca/en/content/sen/committee/451/secd/16mn-57596-e",
+    "retrieved_at_utc": "2026-10-13T20:45:49.669386+00:00",
+    "status": 200,
+    "final_url": "https://sencanada.ca/en/content/sen/committee/451/secd/16mn-57596-e",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 66112,
+    "sha256": "495e2123a1d94117d3e86f8525c9099dbd0392a776d5216ade541e71c7734a18"
+  }
+]

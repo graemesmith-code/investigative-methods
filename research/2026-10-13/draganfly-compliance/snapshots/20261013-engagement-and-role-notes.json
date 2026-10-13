@@ -1,0 +1,27 @@
+{
+  "capture_type": "Bounded verification notes; full issuer/university content not redistributed",
+  "sources": [
+    {
+      "url": "https://webfiles.thecse.com/Draganfly_-_CSE_Form_7_-_Monthly_Progress_Report_-_February_2026.pdf?3jX1coFV1VneDrAA8fWaJDMqtW98XyTE=",
+      "source_class": "Original issuer PDF retrieved and parsed",
+      "page_locations": {
+        "appointment": 2,
+        "employee_changes": 3,
+        "director_officer_changes": 4,
+        "certification": 5
+      },
+      "document_date": "2026-03-04",
+      "limit": "No conclusion of unpaid engagement, no equity or complete consultant-disclosure history; full source temporary only"
+    },
+    {
+      "url": "https://www.uottawa.ca/faculty-social-sciences/public-international-affairs/about-school/senior-fellows/michel-gauthier",
+      "source_class": "University professional biography, public web extraction",
+      "limit": "Undated role reference only; no appointment or employment instrument; no later DPOH status established"
+    }
+  ],
+  "searches": [
+    "Michel Gauthier with later government/minister/appointment terms",
+    "Michel Gauthier with Canadian Forces College faculty terms"
+  ],
+  "search_limit": "Results included namesakes; no complete government-appointment census claimed."
+}

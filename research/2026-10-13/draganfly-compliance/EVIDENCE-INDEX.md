@@ -72,6 +72,17 @@ The chronological source index is separate from this capture inventory. The reco
 
 See the procurement/production annex for exact locations, tested explanations and acquisition failures. Full issuer and commercial-mirror content is not redistributed. Unexpected HTML is preserved as an error/route response, not labelled a recovered PDF.
 
+## Native engagement additions, 21:25 UTC
+
+| ID | Source | Finding | Capture / limitation |
+|---|---|---|---|
+| G09 | [Army events](https://www.canada.ca/en/army/services/army-modernization/minerva-initiative/event-working-groups.html) | December–August event chronology | Native HTML/derived text, `20261013-engagement-native-fetch-log.json`; no attendee census |
+| G10 | [January orientation](https://www.canada.ca/en/army/news-publications/2026/01/minerva-orientation.html) | Broad consultation and named requirements/experimentation roles | Same native log; later exact bid decisions unknown |
+| G11 | [February 9 division article](https://www.canada.ca/en/department-national-defence/corporate/news/regional-news/western-sentinel/2026/02/3-div-drone-en.html) | November planning, inventory forecast/realignment distinction | Same native log; forecast not purchase ledger |
+| G12 | [Senate April 13 evidence](https://sencanada.ca/en/content/sen/committee/451/secd/16ev-57596-e) / [minutes](https://sencanada.ca/en/content/sen/committee/451/secd/16mn-57596-e) | Public advocacy, stated conflict precaution and witness list | Same native log; Gauthier/Rubicon exact name searches negative only in these texts |
+| G13 | [February CSE Form 7](https://webfiles.thecse.com/Draganfly_-_CSE_Form_7_-_Monthly_Progress_Report_-_February_2026.pdf?3jX1coFV1VneDrAA8fWaJDMqtW98XyTE=) | Advisory appointment versus employee/director fields | Five-page PDF independently verified; temporary issuer file, bounded archival notes/log |
+| G14 | [Ottawa university biography](https://www.uottawa.ca/faculty-social-sciences/public-international-affairs/about-school/senior-fellows/michel-gauthier) | Undated consulting/teaching professional-role lead | Bounded source note, no appointment instrument or designated-office determination |
+
 ## Prior material and transfer provenance
 
 `prior/Draganfly_CAF_procurement_investigation_checklist.docx` is the materialized original Library file `libfile_0c65311677948191a83a5bfe3aedc91c`; `prior-checklist.md` is paragraph extraction, with original layout/hyperlinks preserved in the DOCX. The PDF original `libfile_14e5bb570c38819180ce96eb0ed2ad9f` remains untouched in Library.
