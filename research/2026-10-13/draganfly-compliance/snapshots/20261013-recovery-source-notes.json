@@ -1,0 +1,34 @@
+{
+  "capture_type": "Bounded paraphrased discovery and primary-source notes, not full HTML",
+  "retrieved_at_utc": "2026-10-13T20:28:47.113482+00:00",
+  "sources": [
+    {
+      "url": "https://www.missionsystems.com.au/post/astiia-the-world-s-longest-range-sub-2kg-drone-debuts-at-dsei-2025",
+      "publisher": "Mission Systems",
+      "published_date": "2025-09-16",
+      "status": "Primary developer statement read through web tool",
+      "note": "Describes Astiia developed with AMSL Aero, incorporating Mission Systems technology; DSEI display September 9-12, 2025. No Canadian licence, date, territory, exclusivity, sublicense or production quantity given. Developer performance claims not independently verified."
+    },
+    {
+      "url": "https://www.amslaero.com/astiia",
+      "status": "Web extraction reached page; navigation/footer only",
+      "note": "No substantive specification or licensing text acquired. No inference about whether full site contains additional material."
+    },
+    {
+      "url": "https://www.nasdaq.com/press-release/draganfly-selected-all-five-capability-streams-canadas-new-defence-drone-initiative",
+      "publisher": "Draganfly via GlobeNewswire/Nasdaq",
+      "published_date": "2026-09-08",
+      "note": "Company says qualified across all five streams as of August 28. This does not authenticate SA issue, acceptance or government decision timestamps."
+    }
+  ],
+  "failed_open_urls": [
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws5853743341-doc5853864815",
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws5853743341-doc5853864821"
+  ],
+  "search_scope": [
+    "Draganfly plus DeWolfe, Danchilla or de Bakker: secondary-index links located official registrations",
+    "Astiia plus Draganfly/licence: no signed licence obtained; development counterparties located",
+    "Exact solicitation/contract identifiers plus documents/ariba: no operative package obtained"
+  ],
+  "limit": "Search results were noisy and incomplete; absence is not proof that records do not exist."
+}

@@ -1,6 +1,6 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 20:20 UTC. This worker has stopped external writes at the parent's instruction for coordinated recovery; this is not a completed overnight report.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 20:30 UTC. The saved environment and investigation branch were successfully reconnected. The predecessor stopped writing; its final handoff has been incorporated. Research is continuing under one active writer. This is not a completed overnight report.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
@@ -17,13 +17,15 @@ CanadaBuys's award page was recovered through web extraction and confirms CW2467
 5. [Technical log](TECHNICAL-LOG.md) and [snapshots](snapshots/) — retrieval and provenance.
 6. [Prior checklist](prior-checklist.md), [original DOCX](prior/Draganfly_CAF_procurement_investigation_checklist.docx), [parent follow-up notes](prior-followup-notes.md) and [parent Gauthier memo](gauthier-role-review.md) — earlier work, subject to dated corrections.
 7. [Procurement records](annexes/procurement-records.md), [corporate changes](annexes/corporate-changes.md) and [recovery state](WORKSTATE.md) — independent branches and next work.
+8. [Reconnection verification](annexes/recovery-verification-20261013.md) — three additional consultant registrations, seven report rows, Australian technology counterparties and holiday-deadline QA.
+9. [Chronological source index](CHRONOLOGICAL-SOURCE-INDEX.md) — key events in date order, with evidence status and exact links.
 
 ## Overnight continuation status
 
-Seven hourly research passes were created on October 13 but **paused at 20:19 UTC**, before any run was confirmed, after the parent instructed this worker to stop external writes to avoid conflicts with a recovery task. The parent now coordinates continuation. The retained prompt requires a final useful checkpoint before October 14 at 03:50 UTC, ahead of the 04:00 UTC (06:00 Europe/Rome) delivery. No email task was created or modified by this worker.
+The predecessor's seven hourly research passes were **paused at 20:19 UTC**, before any run was confirmed. The recovery worker has not resumed or duplicated that automation. The parent coordinates continuation. The retained deadline is a final useful checkpoint before October 14 at 03:50 UTC, ahead of the 04:00 UTC (06:00 Europe/Rome) delivery. No email task was created or modified by this recovery worker.
 
 ## Scope and evidence discipline
 
-Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. No existing research files are overwritten. No outreach, emails, ATI submissions, paid services or access changes. Parent owns the scheduled morning delivery. Statute, policy, contract compliance, value for money and publicity are separate tests. Missing evidence is a reporting question. No procurement misconduct has been established.
+Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. Prior evidence and memos are preserved; dated synthesis updates retain Git history. No outreach, emails, ATI submissions, paid services or access changes. Parent owns the scheduled morning delivery. Statute, policy, contract compliance, value for money and publicity are separate tests. Missing evidence is a reporting question. No procurement misconduct has been established.
 
 Snapshots labelled **web extraction** preserve the retrieval tool's returned text, including errors and crawl information; they are not downloaded source HTML, signed records, a certified live export or proof that unavailable documents were read. Native public government files, where obtainable, are separately identified and hashed. Issuer announcements establish claims, not performance or contractual compliance.

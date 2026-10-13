@@ -30,6 +30,14 @@ Signed contract, SA, operative RFSA/RFP/addenda, evaluation, actual NSE/coverage
 6. **Exceptions and actual oversight.** Look for public DDI coverage/NSE records, tribunal/ombudsman decisions or documented equal-access concerns. A different DDI stream's NSE is only a lead until scope covers this UAS award. No public complaint search proves no complaint exists.
 7. **Source and allegation QA.** Independently trace strongest claims to exact source/version, test benign explanations, remove unsupported assertions, verify links/remote files and update newsroom summary. End with concise final status for parent's 04:00 UTC delivery.
 
+## Recovery owner checkpoint, 13 October 2026, 20:30 UTC
+
+The recovery environment successfully executed shell/repository commands. Main research branch at `65eae0d` was fetched with all three original commits intact. Predecessor archival branch `3a1dfb7` was inspected and cherry-picked as `ecc33e3`; predecessor remains stopped. This worker is the sole active writer on the requested research branch. No automation was resumed or duplicated; the parent coordinates future passes.
+
+New work: verified Danchilla/DeWolfe/de Bakker registrations and seven further report-list rows; recovered de Bakker's four 2025 individual report bodies; identified Mission Systems/AMSL Aero development partnership from a pre-award developer statement; archived native Interpretation Act holiday rules and Lobbyists Registration Regulations. Added chronological index, bounded source notes, restored prior memo files and preserved the full transferred cross-registrant memo. The complete checklist under `prior/checklist-content.md` remains the earlier DOCX extraction, with its own provenance.
+
+No new misconduct finding. February 16 posting does not support lateness from a Sunday February 15 deadline. Both published OCL ZIPs returned 403. CanadaBuys award page reopened and matched the inherited baseline; operative A/B documents remain missing. Useful remaining paths: authentic public procurement attachment route, company-level registry census with report lineages, Canadian licence/production rights, later Gauthier appointments and actual coverage/NSE decisions. Avoid repeated failed URLs without a changed route or new evidence.
+
 ## Execution constraints
 
 No third-party contacts, emails, ATI submissions, accounts, paid APIs, complaints, publication, access changes, merges or force pushes. Parent handles the morning email. After-October-15 monitoring is not authorized. Research delivery deadline is October 14 at 06:00 Europe/Rome = 04:00 UTC; finish final checkpoint before that. No invented cost/token totals or claims to read inaccessible records.

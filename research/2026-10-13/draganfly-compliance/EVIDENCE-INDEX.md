@@ -45,6 +45,19 @@ Retrieval date: 13 October 2026. Native-file retrieval timestamps and SHA-256 ar
 | S05 | [September 29 closing announcement](https://www.globenewswire.com/news-release/2026/09/30/3371481/0/en/draganfly-announces-closing-of-us-10-million-strategic-investment.html) | Issuer says investment closed | URL Sept30 versus stated release date Sept29; distinguish |
 | S06 | [October 13 DoD Solution investment](https://draganfly.com/press-release/draganfly-makes-strategic-investment-in-ukraine-defence-technology-company-solution/) | Issuer announces investment and Chell board role | New corporate lead; no link to CAF configuration or contract transfer shown |
 
+## Recovery additions, 20:30 UTC
+
+| ID | Source | Finding | Capture / limitation |
+|---|---|---|---|
+| L07 | [Danchilla registration 986292](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=385558&regId=986292) | March 30 undertaking, Government Contract Pursued category, zero displayed reports | `20261013-recovery-registration-extraction.json`; not evidence of zero contacts |
+| L08 | [DeWolfe registration 977685](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=383419&regId=977685) and linked two-report list | November 4 undertaking; January 20 Sousa / January 28 Sterie rows | Registration and report-list extractions; exact bodies not substantively extracted in this pass |
+| L09 | [de Bakker registration 975552](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382105&regId=975552) and linked five-report list | August 15 undertaking; 2025 contacts and June 22 Speidel | Registration/list and four 2025 individual bodies extracted; no award identified |
+| R13 | [Interpretation Act section 26](https://laws-lois.justice.gc.ca/eng/acts/I-21/section-26.html) / [section 35](https://laws-lois.justice.gc.ca/eng/acts/I-21/section-35.html) | Holiday extension and Sunday definition defeat raw February 16 lateness inference | Native HTML; hash/date in `20261013-recovery-legal-fetch-log.json` |
+| R14 | [Lobbyists Registration Regulations](https://laws-lois.justice.gc.ca/eng/regulations/SOR-2008-116/FullText.html) | Deemed receipt and prescribed communication distinctions | Native HTML; same log; actual filing/communication facts unresolved |
+| S07 | [Mission Systems September 16, 2025](https://www.missionsystems.com.au/post/astiia-the-world-s-longest-range-sub-2kg-drone-debuts-at-dsei-2025) / [AMSL Astiia](https://www.amslaero.com/astiia) | Developer identifies AMSL collaboration; AMSL extraction provides navigation only | Bounded paraphrase in recovery annex; no full commercial-page/image redistribution or Canadian licence |
+
+The chronological source index is separate from this capture inventory. The recovery's registration/communication ZIP attempts both failed HTTP 403 and are logged; no native export was obtained. The two further transferred memos are preserved under `prior/`, with original filenames also retained. `prior/checklist-content.md` is the complete earlier DOCX extraction, not a claimed exact copy of the truncated text transfer.
+
 ## Prior material and transfer provenance
 
 `prior/Draganfly_CAF_procurement_investigation_checklist.docx` is the materialized original Library file `libfile_0c65311677948191a83a5bfe3aedc91c`; `prior-checklist.md` is paragraph extraction, with original layout/hyperlinks preserved in the DOCX. The PDF original `libfile_14e5bb570c38819180ce96eb0ed2ad9f` remains untouched in Library.
