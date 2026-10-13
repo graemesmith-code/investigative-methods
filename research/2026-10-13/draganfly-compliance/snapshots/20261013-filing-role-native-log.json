@@ -1,0 +1,54 @@
+[
+  {
+    "key": "aif",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226012377/ex99-1.htm",
+    "status": 200,
+    "bytes": 823356,
+    "sha256": "0ad89059f4fb56f35542e5173575bc66275fdd22f8bb63d8204fa369e235c04f",
+    "matched_terms": [
+      "Gauthier",
+      "material contracts",
+      "related party"
+    ],
+    "capture_type": "Native HTML temporarily inspected; full issuer text not redistributed; selected sections and bounded name screening only"
+  },
+  {
+    "key": "suppl",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226044659/formsuppl.htm",
+    "status": 200,
+    "bytes": 860782,
+    "sha256": "5b2945b699b3034d0888520b1c6e22bb86f8db7744594ae2bc277082a7f398af",
+    "matched_terms": [],
+    "capture_type": "Native HTML temporarily inspected; full issuer text not redistributed; selected sections and bounded name screening only"
+  },
+  {
+    "key": "q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226036867/ex99-1.htm",
+    "status": 200,
+    "bytes": 1567040,
+    "sha256": "bb52424905e58d8468902de53e7839cd5f93ade0a76f6f829bca94093391e30c",
+    "matched_terms": [
+      "related parties",
+      "related party"
+    ],
+    "capture_type": "Native HTML temporarily inspected; full issuer text not redistributed; selected sections and bounded name screening only"
+  },
+  {
+    "key": "40f",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226012377/form40-f.htm",
+    "status": 200,
+    "bytes": 123830,
+    "sha256": "cb473fb2aa338c5dcb657b582299570e9cf7fb881cda3c59980183510820a659",
+    "matched_terms": [],
+    "capture_type": "Native HTML temporarily inspected; full issuer text not redistributed; selected sections and bounded name screening only"
+  },
+  {
+    "key": "sep9",
+    "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226041995/form6-k.htm",
+    "status": 200,
+    "bytes": 15108,
+    "sha256": "e2c2343d29534ba225533e4117abbd1d60189edbe027388db8d916d89112837c",
+    "matched_terms": [],
+    "capture_type": "Native HTML temporarily inspected; full issuer text not redistributed; selected sections and bounded name screening only"
+  }
+]

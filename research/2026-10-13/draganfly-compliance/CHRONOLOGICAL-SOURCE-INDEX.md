@@ -74,3 +74,8 @@ The contacts, public qualification dates, solicitation and award dates establish
 | May 8, 2026–May 30, 2027 | [FPDynamics contribution CO3-066c](https://search.open.canada.ca/grants/record/dnd-mdn,018-2026-2027-Q1-06-CO3-066c,current) | C$339,480 development contribution; original government extraction, not October supply contract or evidence of payment |
 | August 26 displayed | [FPDynamics qualification page](https://www.fpdynamics.ca/news/ddi-qualified-supplier.html) | Supplier claim, fully read; later context on page prevents treating displayed date as authenticated historical capture |
 | September 3 / 8 / 10, 2026 | [Volatus qualification](https://volatusaerospace.com/insights/defence-drone-initiative-marketplace/), [five streams](https://volatusaerospace.com/insights/volatus-aerospace-defence-initiative/), [award](https://volatusaerospace.com/insights/defence-contract-tactical-isr/) | Original supplier search extractions; direct403. Announcement timing is not acceptance time; discretionary options not revenue |
+
+| Source date | Newly traced original | Evidence limit |
+|---|---|---|
+| April 29, 2026 | [Shareholder circular](https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2.htm) | First 30 of 68 embedded images OCR-screened, five visually inspected; adviser RSUs refer to unnamed May 2025 recipients, not identified Gauthier payments |
+| September 14, furnished September 16 | [Material-change report](https://www.sec.gov/Archives/edgar/data/1786286/000149315226042839/ex99-2.htm) | September 11 announcement/material-change date is issuer disclosure timing; government award date remains September 10; no signed contract attached |

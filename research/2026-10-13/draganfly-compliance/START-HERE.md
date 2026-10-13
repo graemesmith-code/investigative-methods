@@ -1,6 +1,6 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 22:25 UTC. This is a working investigation, with source dates, evidence limits and unanswered questions preserved.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 22:45 UTC. This is a working investigation, with source dates, evidence limits and unanswered questions preserved.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
@@ -41,3 +41,5 @@ Snapshots labelled **web extraction** preserve the retrieval tool's returned tex
 The full-checklist audit does not establish compliance or misconduct. It found an official 2026 directive that distinguishes PSPC/DIA approval limits from DND limits, and primary security rules that distinguish pre-award clearance from later safeguards. These narrow broad allegations while leaving the actual approvals, security decision and contract unacquired.
 
 The [comparator falsification pass](annexes/comparator-falsification-20261013.md) weakens claims that five-year terms, 100-plus-4,900 options, conditional FOCI wording or allied foreign designs are unique to Draganfly. Nine fresh native award opens failed; the inherited ledger and each capture limit remain explicit. The small peer lobbying test yielded no newly verified original report bodies and cannot establish absent or equal access.
+
+The [filings and version-history pass](annexes/filings-and-version-provenance-20261013.md) found no dated pre-award Astiia licence statement in the bounded sources screened. It identified a separate filed award report and explains why material-contract and compensation summaries cannot establish absent agreements or Gauthier payments. A [ranked records plan](annexes/ranked-records-plan-draft-20261013.md) remains a draft; no requests were sent. Final delivery synthesis awaits independent corrections.

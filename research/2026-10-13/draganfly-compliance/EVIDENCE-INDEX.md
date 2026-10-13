@@ -127,3 +127,7 @@ See [oversight annex](annexes/oversight-and-equal-access-20261013.md) for exact 
 - [All nine native award attempts](snapshots/20261013-comparator-native-records.json): HTTP 403 throughout; no newly recovered native bodies.
 - [FPDynamics government contribution extraction](snapshots/20261013-comparator-fpd-grant-web-extraction.json): CO3-066c, May 8, 2026–May 30, 2027, C$339,480, distinct IDEaS development contribution.
 - Original Volatus statements recovered as search extraction; direct pages blocked. Original FPDynamics qualification page fully read; supplier byline/date and taxonomy caveats retained. Peer registry identifiers sourced from visible secondary page components; original opens failed.
+
+## Filings and historical-version sources
+
+[Analysis](annexes/filings-and-version-provenance-20261013.md) preserves exact source references and reading scope. New metadata archives: [SEC index](snapshots/20261013-filing-source-index-check.json), [native filing checks](snapshots/20261013-filing-role-native-log.json), [seven pre-award exhibit screens](snapshots/20261013-preaward-exhibit-screen.json), [first 30 circular images](snapshots/20261013-circular-bounded-screen.json) and [ordinary public archive checks](snapshots/20261013-public-archive-version-check.json). Full issuer text/images are not redistributed. No authenticated notice revision or signed adviser/licence instrument recovered.

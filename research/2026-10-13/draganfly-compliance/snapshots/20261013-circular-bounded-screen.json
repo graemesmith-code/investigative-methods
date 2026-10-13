@@ -1,0 +1,307 @@
+{
+  "source": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2.htm",
+  "reference_origin": "Actual September28 prospectus incorporated-document link59",
+  "scope": "First30of68 embedded images screened with OCR; not whole circular. Images2,3,5,13,25 visually inspected. Full images and OCR retained temporarily only, not redistributed.",
+  "no_Gauthier_or_Rubicon_OCR_match": true,
+  "limit": "OCR may miss words; negative name screen is not no-pay/no-engagement finding.",
+  "images": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_001.jpg",
+      "file": "dpro-ex99-2_001.jpg",
+      "status": 200,
+      "sha256": "79880cf6de805ce94a3b2e485b0f9470e769f9de962f4705e3dff2264b1dad4f",
+      "ocr_chars": 380,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_002.jpg",
+      "file": "dpro-ex99-2_002.jpg",
+      "status": 200,
+      "sha256": "6a9c9274740afa628e3680dbff9663ccf6fdef1f55d2be3112a417f059e8148f",
+      "ocr_chars": 814,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_003.jpg",
+      "file": "dpro-ex99-2_003.jpg",
+      "status": 200,
+      "sha256": "1b9e0622d05efda05b21ba999a71dc857bdb70e853bf97bb894ef72e9158e3a0",
+      "ocr_chars": 2337,
+      "hits": [
+        "advis",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_004.jpg",
+      "file": "dpro-ex99-2_004.jpg",
+      "status": 200,
+      "sha256": "65f1c392256508be4a8e8aa50511a09152f950c577d37ca8d730894c97d6bbf2",
+      "ocr_chars": 571,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_005.jpg",
+      "file": "dpro-ex99-2_005.jpg",
+      "status": 200,
+      "sha256": "09317ae1f5185ee94d4da0e6a93e7abefe438f4283545dc3a56ff03e18766584",
+      "ocr_chars": 3324,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_006.jpg",
+      "file": "dpro-ex99-2_006.jpg",
+      "status": 200,
+      "sha256": "37093993ccbc6624fcca266ba3e3cdd438d37804816c2a638c4d0d4b4515a167",
+      "ocr_chars": 3903,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_007.jpg",
+      "file": "dpro-ex99-2_007.jpg",
+      "status": 200,
+      "sha256": "be3d5c49ba17435689a1030a46bf960e37f5dc9ff55a44ef22eadbd82035da26",
+      "ocr_chars": 4744,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_008.jpg",
+      "file": "dpro-ex99-2_008.jpg",
+      "status": 200,
+      "sha256": "230d226146cd9a73496b71decc715d346feaff3482c2a886547cf1da9426ef92",
+      "ocr_chars": 3683,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_009.jpg",
+      "file": "dpro-ex99-2_009.jpg",
+      "status": 200,
+      "sha256": "caf946b0d7dc42619418951ab19f47848dd454579ebc131aec39a39acab8bc4a",
+      "ocr_chars": 3566,
+      "hits": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_010.jpg",
+      "file": "dpro-ex99-2_010.jpg",
+      "status": 200,
+      "sha256": "d22a47fa33bbfc121f38972571974ebdc46e7fa2139738fe007755b7864115ab",
+      "ocr_chars": 3625,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_011.jpg",
+      "file": "dpro-ex99-2_011.jpg",
+      "status": 200,
+      "sha256": "8e4b4c9589ffada5aa4f74f0acc9f8ab7c26db2ad429688ef02dc828b0ad4ca1",
+      "ocr_chars": 4208,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_012.jpg",
+      "file": "dpro-ex99-2_012.jpg",
+      "status": 200,
+      "sha256": "477d3f721b1d7c6c71d958f37254843ce05c320e3b032f3169f0b56a6b399508",
+      "ocr_chars": 3082,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_013.jpg",
+      "file": "dpro-ex99-2_013.jpg",
+      "status": 200,
+      "sha256": "cdd10c54344193005b9fcf582351de9b0326ae8f1667a74d53d111d0838251f6",
+      "ocr_chars": 3310,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_014.jpg",
+      "file": "dpro-ex99-2_014.jpg",
+      "status": 200,
+      "sha256": "6baf687324c3081c32a81823ef8db736aab67068780d83f3f4f69264d40247db",
+      "ocr_chars": 3418,
+      "hits": [
+        "advis",
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_015.jpg",
+      "file": "dpro-ex99-2_015.jpg",
+      "status": 200,
+      "sha256": "8846b4fc233a0045aab1a824c1acc6dfd96823b642067a44ef6cec896a4d5d84",
+      "ocr_chars": 2817,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_016.jpg",
+      "file": "dpro-ex99-2_016.jpg",
+      "status": 200,
+      "sha256": "25704c52dc3c9803c743a51e9240aed1f028f128fa0b107617d83b926a3fdc0f",
+      "ocr_chars": 2516,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_017.jpg",
+      "file": "dpro-ex99-2_017.jpg",
+      "status": 200,
+      "sha256": "533a4e6c987b4ced64dee40392ced14c7b5a44917148b8f410d062bce0007b8f",
+      "ocr_chars": 2890,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_018.jpg",
+      "file": "dpro-ex99-2_018.jpg",
+      "status": 200,
+      "sha256": "971d08925a2e3b9148096a7d7dde808fd0bd1cebd10c07f35b7ea763712c43b0",
+      "ocr_chars": 2460,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_019.jpg",
+      "file": "dpro-ex99-2_019.jpg",
+      "status": 200,
+      "sha256": "2b287d477108681cebbf17a1fc6aaf3303594a3536e17407d05e75b97df0a627",
+      "ocr_chars": 4468,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_020.jpg",
+      "file": "dpro-ex99-2_020.jpg",
+      "status": 200,
+      "sha256": "43ef8cfe7e888b3402b72e49800863b15e1aca2a5b743716883055426198cc23",
+      "ocr_chars": 3888,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_021.jpg",
+      "file": "dpro-ex99-2_021.jpg",
+      "status": 200,
+      "sha256": "25aea10bd1698ebb8555cdb147cd34d13ccf5788d270f62b85f5dd340e8927a9",
+      "ocr_chars": 4074,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_022.jpg",
+      "file": "dpro-ex99-2_022.jpg",
+      "status": 200,
+      "sha256": "82fb13f1bfbc81ca2f49dfea27562ba555ef1d1066534b898c32e5d04a8d1f4a",
+      "ocr_chars": 4128,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_023.jpg",
+      "file": "dpro-ex99-2_023.jpg",
+      "status": 200,
+      "sha256": "0559a78d5d6efc9de3a710f7033caa9a7743c025a33f3e7a826e4c758de3efae",
+      "ocr_chars": 3764,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_024.jpg",
+      "file": "dpro-ex99-2_024.jpg",
+      "status": 200,
+      "sha256": "9eb6ba3fd87dcd3a22f62916ab0bab5f0dfd9b7962bd0ae97c42a3a5b730728a",
+      "ocr_chars": 3033,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_025.jpg",
+      "file": "dpro-ex99-2_025.jpg",
+      "status": 200,
+      "sha256": "fd4284a4ee992f4947ac3d2781bb09d323a362e9f274cab5a7154a9c0baff8a7",
+      "ocr_chars": 3733,
+      "hits": [
+        "advis",
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_026.jpg",
+      "file": "dpro-ex99-2_026.jpg",
+      "status": 200,
+      "sha256": "257999d5fe87ca05fcab49cdff590428518bb5dd72f9633f769b38971fd13176",
+      "ocr_chars": 4023,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_027.jpg",
+      "file": "dpro-ex99-2_027.jpg",
+      "status": 200,
+      "sha256": "fd70e22cdf6c16e52c7b05f9e8f3ffdf38cf239555304a14345095bad9041aaa",
+      "ocr_chars": 3050,
+      "hits": [
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_028.jpg",
+      "file": "dpro-ex99-2_028.jpg",
+      "status": 200,
+      "sha256": "3997a6e34b6bdca3c9650f81921dd6cf3b32bb442c2fed560a0644122ef2ebee",
+      "ocr_chars": 2406,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_029.jpg",
+      "file": "dpro-ex99-2_029.jpg",
+      "status": 200,
+      "sha256": "b78001f96634c17bc567d020b25ca290f902557605f1297197cd7291eab775bc",
+      "ocr_chars": 3314,
+      "hits": [
+        "consult",
+        "COMPENSATION"
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2_030.jpg",
+      "file": "dpro-ex99-2_030.jpg",
+      "status": 200,
+      "sha256": "c92589075e607ddb317b2c67e284a81ce1f01f183cf8bf428f2dc7fbcb30684b",
+      "ocr_chars": 3181,
+      "hits": [
+        "COMPENSATION"
+      ]
+    }
+  ]
+}
