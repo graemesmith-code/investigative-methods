@@ -1,0 +1,134 @@
+[
+  {
+    "index": "https://search.open.canada.ca/briefingt/",
+    "term": "DRDC2026-0005257",
+    "checked": "2026-10-13T22:59:25.311405+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=DRDC2026-0005257&page=1",
+    "displayed_result_count": "one",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/briefingt/",
+    "term": "MINERVA",
+    "checked": "2026-10-13T22:59:29.797195+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=MINERVA&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/briefingt/",
+    "term": "Astiia",
+    "checked": "2026-10-13T22:59:32.311955+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=Astiia&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/briefingt/",
+    "term": "low-cost UAS",
+    "checked": "2026-10-13T22:59:34.628074+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=low-cost+UAS&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/briefingt/",
+    "term": "Gauthier",
+    "checked": "2026-10-13T22:59:36.972658+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=Gauthier&page=1",
+    "displayed_result_count": "13",
+    "coverage": "First displayed page only; homonym content not attributed or redistributed",
+    "relevance": "Gauthier hits concern other names; Corbould 2019 NRCan title is outside this award; neither establishes a Draganfly contact"
+  },
+  {
+    "index": "https://search.open.canada.ca/briefingt/",
+    "term": "Corbould",
+    "checked": "2026-10-13T22:59:39.202518+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=Corbould&page=1",
+    "displayed_result_count": "one",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "Gauthier hits concern other names; Corbould 2019 NRCan title is outside this award; neither establishes a Draganfly contact"
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "DRDC2026-0005257",
+    "checked": "2026-10-13T22:59:41.496983+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=DRDC2026-0005257&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "MINERVA",
+    "checked": "2026-10-13T22:59:44.147748+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=MINERVA&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "Astiia",
+    "checked": "2026-10-13T22:59:46.751362+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=Astiia&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "low-cost UAS",
+    "checked": "2026-10-13T22:59:49.006808+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=low-cost+UAS&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "DRDC reference yields title metadata only; other terms yielded zero"
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "Gauthier",
+    "checked": "2026-10-13T22:59:51.322699+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=Gauthier&page=1",
+    "displayed_result_count": "16",
+    "coverage": "First displayed page only; homonym content not attributed or redistributed",
+    "relevance": "Gauthier hits concern other names; Corbould 2019 NRCan title is outside this award; neither establishes a Draganfly contact"
+  },
+  {
+    "index": "https://search.open.canada.ca/ati/",
+    "term": "Corbould",
+    "checked": "2026-10-13T22:59:53.705714+00:00",
+    "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+    "status": 200,
+    "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=Corbould&page=1",
+    "displayed_result_count": "0",
+    "coverage": "Displayed search results; metadata search is not a record census",
+    "relevance": "Gauthier hits concern other names; Corbould 2019 NRCan title is outside this award; neither establishes a Draganfly contact"
+  }
+]

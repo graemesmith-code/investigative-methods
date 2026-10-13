@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://search.open.canada.ca/briefingt/record/dnd-mdn%2CMAT2026-0004915",
+    "retrieved_at": "2026-10-13T23:04:32.286044+00:00",
+    "status": 200,
+    "bytes": 73975,
+    "sha256": "4682f9f16c8a09f2f404c61180d0e4d3a34f172421cb4bc5951ff3a55d77c868",
+    "file": "mat-briefing-title-20260622.html",
+    "pdf_links": []
+  },
+  {
+    "url": "https://sencanada.ca/en/committees/SECD/briefs/45-1",
+    "retrieved_at": "2026-10-13T23:04:32.289189+00:00",
+    "status": 200,
+    "bytes": 63144,
+    "sha256": "4f57b5b9b39f3f6460c80c8380006081120eef96334f33ee1b91c79196e3aad1",
+    "file": "senate-secd-briefs-20261013.html",
+    "pdf_links": []
+  },
+  {
+    "url": "https://sencanada.ca/en/committees/SECD/reports/45-1",
+    "retrieved_at": "2026-10-13T23:04:32.295352+00:00",
+    "status": 200,
+    "bytes": 61755,
+    "sha256": "8bd1768078e9ddd88f6bd8dc673bda2cb300bd1503568ba6eb888adc65f835b8",
+    "file": "senate-secd-reports-20261013.html",
+    "pdf_links": []
+  },
+  {
+    "url": "https://ised-isde.canada.ca/site/innovative-solutions-canada/en/minerva-initiative-intelligence-surveillance-and-reconnaissance-uncrewed-air-system",
+    "retrieved_at": "2026-10-13T23:04:32.694428+00:00",
+    "status": 200,
+    "bytes": 65571,
+    "sha256": "04e8550f5f984a4dcb6c6c813b92c95c8f0da6b6cb1e96a6c137a28eee757b2c",
+    "file": "minerva-isc-isr-20261013.html",
+    "pdf_links": []
+  }
+]

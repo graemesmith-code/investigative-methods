@@ -86,3 +86,14 @@ The contacts, public qualification dates, solicitation and award dates establish
 |---|---|---|
 | January 22, 2010; end/delivery January 22, 2011 | [DND W7702-090871/001/WPG](https://search.open.canada.ca/contracts/record/dnd-mdn,C-2009-2010-Q4-01047) | Draganfly Innovations Inc., C$23,800, competitive-source comment, rotor components description; native body acquired. No exact legal continuity, performance or modern qualification proved |
 | July 3, 2026 received | [DRDC2026-0005257 title](https://search.open.canada.ca/briefingt/record/dnd-mdn%2CDRDC2026-0005257) | DRDC drone initiatives/innovation/experimentation, ADMDRDC, deputy-head addressee, for information. Native readable title metadata; no personal recipient or note contents |
+
+## Already-public briefing and parliamentary follow-up
+
+| Record date | Original record | Finding and limit |
+|---|---|---|
+| June 22, 2026 received | [MAT2026-0004915](https://search.open.canada.ca/briefingt/record/dnd-mdn%2CMAT2026-0004915) | ADMMAT note for ministerial signature concerning NATO Drone Edge counter-UAS marketplace; metadata only. Receipt is not creation, signature or connection to June 23 contact |
+| July 29, 2026 dated and received | [Al Zaibak defence procurement submission](https://sencanada.ca/Content/Sen/Committee/451/SECD/briefs/SECD_SS-4_Brief-1_AlZaibak_e.pdf) | Actual native 22-page PDF; selected passages discuss DDI and propose funding protection. Submitter's proposals, not adopted committee finding or Draganfly award assessment |
+| August 24–September 21, 2026 | [ISC MINERVA ISR challenge](https://ised-isde.canada.ca/site/innovative-solutions-canada/en/minerva-initiative-intelligence-surveillance-and-reconnaissance-uncrewed-air-system) | Actual public Phase 2 prototype requirements page; separate route, not authenticated DDI contract terms |
+| September 21, 2026 tabled; question May 29 | [Q-1241 response, Sessional Paper 8555-451-1241](https://www.ourcommons.ca/written-questions/45-1/q-1241/14224001) | Selected DND/PSPC actual public response text acquired. General Chinese-drone safeguards; no Draganfly/Astiia or acquired FOCI assessment. PSPC model table still loading |
+
+See the [bounded search, access and interpretation details](annexes/briefing-and-released-records-20261013.md). No note body or award instrument was obtained, and no new request sent.

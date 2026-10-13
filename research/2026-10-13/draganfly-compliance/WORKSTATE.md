@@ -1,6 +1,6 @@
 # Investigation status and next evidence
 
-Working checkpoint, October 13, 2026, approximately 22:57 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
+Working checkpoint, October 13, 2026, approximately 23:18 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
 ## What the evidence currently establishes
 
@@ -51,3 +51,5 @@ Next useful evidence: an actual SA/order ceiling, signatory/delegation or approv
 Latest comparator pass: context weakens uniqueness theories concerning long terms, options, conditional FOCI and allied designs. Nine fresh native award bodies were blocked, and the small lobbying comparator remains unverified. The remaining useful inquiry is actual signed scope, option/approval records, qualification time, security decision and communication content; do not repeat failed routes without a new source. See [comparator analysis](annexes/comparator-falsification-20261013.md).
 
 Filings/version pass completed as a working checkpoint: separate September 14 award material-change report, bounded first 30 circular-image screen and exact-URL archive checks added. No pre-award licence date or Gauthier pay terms established. The draft [ranked records plan](annexes/ranked-records-plan-draft-20261013.md) identifies likely holders, date scopes and decisive questions. Independent review has been received, preserved and implemented; the newsroom summary incorporates the verified corrections.
+
+The [briefing and released-records pass](annexes/briefing-and-released-records-20261013.md) acquired a second DND title, actual Q-1241 government response text and a Senate submission discussing DDI. No underlying briefing or award decision was obtained. DND title searches covered the visible June–August filter window, not September; unrelated homonyms were not attributed. Separate NATO counter-UAS, ISC prototype and Chinese-drone policy records do not establish Draganfly's compliance. Continue with genuinely different public sources; avoid repeating blocked bulk endpoints or submitting copy requests.

@@ -135,3 +135,21 @@ See [oversight annex](annexes/oversight-and-equal-access-20261013.md) for exact 
 ## Independent review and new primary records
 
 [Review as supplied](annexes/independent-review-20261013.md) and [implementation](annexes/review-corrections-and-history-20261013.md) distinguish baseline review from fresh verification. [Native review log](snapshots/20261013-review-primary-native-log.json) records successful GCR/Registration Regulations/2010 contract acquisitions and pricing-page native403. [2010 DND record](snapshots/review-dnd-contract2010-20261013.html) is actual readable government notice metadata, not performance proof. [Briefing-title record](snapshots/drdc-briefing-title-20260703.html) identifies DRDC2026-0005257, July 3, 2026, for information; no briefing body obtained. [Index-search notes](snapshots/20261013-public-index-search-notes.json) preserve four visible-form query results and the failed actual CSV route.
+
+## Public briefing and released-records follow-up, approximately 23:18 UTC
+
+See [analysis and exact source links](annexes/briefing-and-released-records-20261013.md). New evidence is program context and attributable public response text, not a Draganfly award decision.
+
+| Artifact | Capture type and limit |
+|---|---|
+| `snapshots/mat-briefing-title-20260622.html` | Native readable government metadata; not note body |
+| `snapshots/minerva-isc-isr-20261013.html` | Native ISC requirements page; distinct Phase 2 prototype route |
+| `snapshots/senate-secd-briefs-20261013.html`, `snapshots/senate-secd-reports-20261013.html` | Native public index HTML; did not expose the rendered submission list |
+| `snapshots/20261013-senate-defence-procurement-rendered-notes.json` | Derived browser-visible eleven-record study list and exact linked PDF URLs; not all documents read |
+| `snapshots/senate-alzaibak-ddi-20260729.pdf`, `snapshots/20261013-senate-pdf-capture.json` | Actual native 22-page PDF, selected pages read; submitter's proposals |
+| `snapshots/commons-q1241-public-rendered-20261013.html` | Public rendered government response HTML; selected DND/PSPC sections visible |
+| `snapshots/20261013-commons-q1241-selected-response.json` | Labelled visible response extraction; PSPC make/model table was still loading |
+| `snapshots/20261013-briefing-ati-deep-query-notes.json` | Twelve query counts/URLs and coverage limits; unrelated homonym personal details omitted |
+| `snapshots/20261013-briefing-dnd-scoped-notes.json` | Five queries, actual June–August DND scope; September not covered |
+| `snapshots/20261013-briefing-pass-native-log.json` | Native status/capture log; access failures retained |
+
