@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://scalca.blob.core.windows.net/2024/Draganfly_Inc._2024_Sid05j.pdf",
+    "retrieved_at_utc": "2026-10-13T22:11:38.609732+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.m2compliance.com/irwebsites/draganfly/corporate-information/",
+    "retrieved_at_utc": "2026-10-13T22:11:38.649297+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "size_bytes": 23313,
+    "sha256": "4f9b71fe4e7fc00bbde2923189175eda4215dddd7dcea91198cde71389e1f9d0",
+    "temporary_path": "/tmp/draganfly-public-governance.html"
+  }
+]

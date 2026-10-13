@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://publications.gc.ca/collections/collection_2026/sct-tbs/BT58-13-2026-eng.pdf",
+    "retrieved_at_utc": "2026-10-13T22:18:17.057435+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "content_limit": "Expected PDF but received non-PDF; not a recovered directive PDF.",
+    "filename": "directive-procurement-2026-unexpected-response.html",
+    "size_bytes": 19263,
+    "sha256": "2b071d2c40d45a643cfa2f2cafb15eb99073266764684aad9bf665207e89ddc3"
+  },
+  {
+    "url": "https://www.canada.ca/en/defence-investment-agency/corporate/about.html",
+    "retrieved_at_utc": "2026-10-13T22:18:17.761402+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "filename": "dia-about-20260720.html",
+    "size_bytes": 33237,
+    "sha256": "96e4605b8e5873875cca8b792764f7a9f2e9adebeae146565adc844bf2b34d7e"
+  },
+  {
+    "url": "https://www.canada.ca/en/treasury-board-secretariat/services/policy-notice/2026-2.html",
+    "retrieved_at_utc": "2026-10-13T22:18:18.105048+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "filename": "cpn-2026-2.html",
+    "size_bytes": 23004,
+    "sha256": "b4c557bd2fb1b56888052c9eaec75f9394e8332c525d4f7f72715ccaa2d96c4e"
+  }
+]

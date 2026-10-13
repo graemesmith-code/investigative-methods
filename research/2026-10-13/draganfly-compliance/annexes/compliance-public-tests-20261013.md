@@ -1,0 +1,46 @@
+# Public tests executed from the 104-item audit
+
+October 13, 2026, approximately 22:25 UTC. The [matrix](compliance-matrix-20261013.md) classifies all original checks; the [concern cards](compliance-concern-cards-20261013.md) carry each surviving rule/premise/record/consequence/test. This pass chose authority, security-stage and integrity tests because original rules and public action lists were obtainable, then followed the annual-report lead. It did not mark inaccessible bids, approvals or performance records clean.
+
+## Current primary approval rules: an important correction
+
+The actual CPN 2026-1 directive link returned Request Rejected. A targeted search then located the [official 2026 directive PDF](https://publications.gc.ca/collections/collection_2026/sct-tbs/BT58-13-2026-eng.pdf), 68 pages. Cover publication date is December 15, 2025, while its amendment note includes April 30, 2026. Selected applicable provisions were read, including the complete relevant approval, documentation and reporting passages, rather than relying on an older generic summary. This is not a claim to have read every unrelated appendix or to certify the absence of later amendments. Native PDF request returned archive HTML; web PDF extraction is separately preserved. No native directive PDF was acquired.
+
+| Provision / PDF page (zero-based) | What it establishes | What still needs this contract's evidence |
+|---|---|---|
+| Appendix A introduction / 31 | Limits do not confer legal contracting authority; PSPC references include DIA; taxes, fees and amendments matter. | Named signatory, actual delegation and valuation. |
+| A.1 Schedule 2 / 32 | Competitive-goods basic limits: PSPC/DIA CAD90 million; DND CAD9 million. | Who legally contracted and whether another instrument/exception governs. |
+| A.2 PSPC/DIA defence route / 39 | Conditional governance/risk-based routes and a high-risk route requiring advance Treasury Board strategy approval; defence acquisitions must meet scope. | Actual risk analysis, governance approval and route used. No inference that the route was used, required or failed. |
+| 4.6.1–4.6.1.3 / 14–15 | Approval test uses estimated value with taxes, expected amendments and follow-on work; acquisition instruments have a separate approved-limit test. | Real estimate and any SA ceiling. This wording must not be silently replaced with a different regime's option formula. |
+| B.2.5 / 49 | Specified DIA liability/risk departures have a Secretary of State (Defence Procurement) approval route. | Actual negotiated terms, risk and approval; do not automatically demand Treasury Board approval for every departure. |
+| 4.3.2.2; 4.4.2–3; 4.5.7 / 10, 13–14 | Conflict mitigation, engagement rules and evaluation/due-diligence obligations. | Who decided, actual information shared and final evaluation. |
+| 4.10.1.1–11 / 17–18 | Required file categories include individual/consensus assessments, decisions/dates, executed contract and NSE approval/rationale/strategy. | Actual file index and documents; public absence does not prove failure to retain. |
+| Appendix C / 51–53 | Current quarterly and other reporting procedure. | Posting worksheet/complete fields/exemptions; October 30 is still future for September quarter. |
+
+The public initial value and even optional exposure resembling issuer claims do not by themselves establish an excess over the stated PSPC/DIA competitive-goods basic limit. That narrows the concern; it does not verify an individual officer's delegated authority, risk-route approvals, a lower acquisition-instrument ceiling or separate mandatory pricing support. [DIA's original July 20 page](https://www.canada.ca/en/defence-investment-agency/corporate/about.html) identifies it as a special operating agency within PSPC. Native HTML acquired. [CPN 2026-2](https://www.canada.ca/en/treasury-board-secretariat/services/policy-notice/2026-2.html) also confirms pre-existing goods authority and later services/construction amendments; this is a goods purchase, not proof of the actual signature.
+
+Primary [DPWGS Act](https://laws-lois.justice.gc.ca/eng/acts/P-38.2/FullText.html) acquisition, delegation and incorporation provisions were read (ss.6–9, 20–22). The original consolidation states current September 21, last amended June 9, 2025. Primary [FAA payment/contracts page](https://laws-lois.justice.gc.ca/eng/acts/F-11/page-6.html) and preceding page supplied ss.32–34 and 40–42, with a September 1, 2026 last amendment. These establish distinct commitment, payment and contract mechanisms. In particular, lawful contract milestone/advance payments need their own test; no actual payment was acquired or called improper.
+
+## Security timing and entity scope
+
+Native complete [Contract Security Manual](https://www.canada.ca/en/public-services-procurement/services/industrial-security/security-requirements-contracting/contract-security-manual-contracting-government-canada/contract-security-manual.html) acquired, effective August 13, 2020 and page modified March 27, 2026. Chapters 2–3 were read, including the full operative passages on SRCL, pre-award screening, subcontracting, separate subsidiary clearances, FOCI, site inspection and security agreement.
+
+The new finding is a more precise stage test. Where required, DOS/FSC screening precedes award; IT, production capability and COMSEC safeguards are typically completed after award but before work. Site/contract DSC approval and protected-information access have distinct timing. Foreign interests can be mitigated and do not automatically prohibit clearance. A parent's/affiliate's role must be matched to the actual legal entity and access, not assumed from consolidation. These rules strengthen the inquiry into exact FOCI/clearance dates but establish no outstanding Draganfly assessment, unauthorized access or waiver. The SRCL and completed decision remain missing.
+
+## Integrity: actual public-list check and policy scope
+
+Native complete [policy effective May 31, 2024](https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance/policy-directives/ineligibility-suspension-policy.html) acquired. Relevant application, determination, suspension, exception, first-tier, disclosure and material-event provisions were read. Both original [ineligible/suspended list](https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance/ineligible-suspended-suppliers.html) and [administrative-agreement list](https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance/suppliers-administrative-agreements.html) were acquired and read. Exact case-insensitive searches for Draganfly, Dronelogics, AMSL and Mission Systems returned no matches in those captures.
+
+The list footer dates are September 3 and July 20, 2026; they are not certificates of an unchanged award-date database. The policy itself distinguishes public non-individual listings from the broader integrity database. No affirmative eligibility determination, director declaration, historical screening or subcontractor verification follows from the negative names. No actual ineligibility ground, false declaration, prohibited first-tier engagement or sanctions nexus is established.
+
+## Annual supply-chain reporting lead
+
+The original [Public Safety catalogue](https://www.publicsafety.gc.ca/cnt/rsrcs/lbrr/ctlg/dtls-en.aspx?d=PS&i=98781160) was acquired as native HTML and names a 2024 Draganfly S-211 report. The actual linked file `https://scalca.blob.core.windows.net/2024/Draganfly_Inc._2024_Sid05j.pdf` failed web reading (application/octet-stream) and native retrieval (tunnel 403). No PDF was acquired or read. The issuer governance page identifies a Modern Slavery Report; its actual intermediary route failed web access, while native HTTP 200 returned no slavery-document link. No hidden document endpoint was guessed.
+
+The 2024 catalogue record is counterevidence to a never-reported premise. It neither verifies the content nor a current-year submission. A bounded search for 2025/2026 reports did not establish those filings. The exact current duty, signed report and component-specific evidence still need their own tests; non-filing or forced labour cannot be inferred from these failures.
+
+## Acquisition record
+
+Native sources and failures are recorded in `20261013-matrix-rule-native-fetch-log.json`, `20261013-matrix-screening-native-fetch-log.json`, `20261013-matrix-authority-native-fetch-log.json`, `20261013-directive-authority-native-fetch-log.json` and `20261013-s211-acquisition-log.json`. Official PDF extractions are saved under `20261013-directive-*-provisions-web-extraction.json`; unexpected HTML is labelled as such. No substantive source is labelled a signature, clearance, contract, licence or decision that it does not contain.
+
+Next highest-value branch: actual acquisition-instrument limits and signatory/approval references, specific pre-award security milestones, or an authentic current annual filing. Configuration-dependent export, radio, battery and performance checks remain unexamined until the actual Canadian model/operator/shipment is identified. More generic searches cannot substitute for those factual triggers.

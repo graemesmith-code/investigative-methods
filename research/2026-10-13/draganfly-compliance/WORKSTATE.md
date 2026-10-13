@@ -1,6 +1,6 @@
 # Investigation status and next evidence
 
-Working checkpoint, October 13, 2026, approximately 22:05 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
+Working checkpoint, October 13, 2026, approximately 22:25 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
 ## What the evidence currently establishes
 
@@ -39,3 +39,11 @@ September lobbying disclosures are ordinarily due October 15 and quarterly Septe
 Start with START-HERE.md and NEWSROOM-SUMMARY.md; use the chronological index and annexes for exact dates, sources and conclusions. Native files, labelled web extractions and derived research aids are separately identified in the evidence index and capture logs. Source materials inherited from earlier work remain attributed; inaccessible records are not described as read.
 
 Private research only. No outreach, emails, ATI submissions, paid services, complaints, accounts, access changes or public publication. Morning delivery and any future scheduling are handled separately. This checkpoint does not represent a completed overnight investigation.
+
+## Audit of all original checks
+
+All 104 numbered items read and mapped to recovered evidence: 34 partly testable, 49 controlling-document/record gaps, 19 unresolved legal applicability, one bounded primary provenance test, and one bidder-remedy action inapplicable to this current journalistic task. None is labelled verified compliance. The matrix and concern cards link every P1 item to rule/version limits, support/counterevidence, decisive record, consequence and smallest public test.
+
+Executed branches acquired primary authority legislation, security manual, integrity policy and public action lists. A targeted follow-up located the official 2026 procurement directive PDF through web extraction, closing much of the approval-table and documentation/reporting-rule gap. PSPC/DIA competitive-goods basic limit is CAD90 million, distinct from DND CAD9 million; conditional risk routes and acquisition-instrument limits still matter. Actual signatory/approval/estimate remain missing. Native PDF route returned archive HTML, not a directive PDF.
+
+Next useful evidence: an actual SA/order ceiling, signatory/delegation or approval/risk reference; specific pre-award FOCI/entity/site milestone; authentic current annual reporting record; or, when a real configuration is known, the applicable export/operating permissions. Do not replay failed report/portal routes or treat missing records as clean checks.

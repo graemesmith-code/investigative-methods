@@ -110,3 +110,13 @@ Later public round-two route and dated browser shell log are described in the [p
 - Exact search record: `20261013-oversight-search-record.json`; OPO indexed leads and failed full-page retrieval remain labelled.
 
 See [oversight annex](annexes/oversight-and-equal-access-20261013.md) for exact original URLs, legal applicability, query limits and native/browser/web logs.
+
+## Compliance audit primary acquisitions, approximately 22:25 UTC
+
+- All 104 rows: `snapshots/20261013-compliance-matrix.json`; original priorities, tests and requested records preserved with independent status notes.
+- Native complete integrity policy, current public action lists and Contract Security Manual; labelled derived text and dated acquisition logs. Only relevant operative provisions are claimed read.
+- Native CPN 2026-1/2, DIA organizational account, DPWGS Act and FAA commitment/payment/contracts pages; actual signatory/instrument records remain absent.
+- Official 2026 procurement directive: 68-page PDF read through selected web extraction; native route returned non-PDF archive HTML, correctly labelled. Relevant basic/exceptional approval, record and reporting passages captured; no native PDF acquired.
+- Native Public Safety 2024 Draganfly catalogue; actual report fetch failures logged, no report content or current filing claimed read.
+
+[Source URLs, exact pages and new tests](annexes/compliance-public-tests-20261013.md); [concern cards](annexes/compliance-concern-cards-20261013.md).

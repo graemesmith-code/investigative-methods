@@ -1,6 +1,6 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 22:05 UTC. This is a working investigation, with source dates, evidence limits and unanswered questions preserved.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 22:25 UTC. This is a working investigation, with source dates, evidence limits and unanswered questions preserved.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
@@ -28,6 +28,8 @@ CanadaBuys's award page was recovered through web extraction and confirms CW2467
 
 14. [Oversight and equal bidder access](annexes/oversight-and-equal-access-20261013.md) — parliamentary governance question, award-date legal tests, public consultation and bounded oversight searches.
 
+15. [All 104 checks audited](annexes/compliance-matrix-20261013.md), [concern cards](annexes/compliance-concern-cards-20261013.md) and [executed public tests](annexes/compliance-public-tests-20261013.md) — evidence coverage, exact rule gaps and new authority/security/integrity counterchecks.
+
 The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
 
 ## Scope and evidence discipline
@@ -35,3 +37,5 @@ The newest procurement lead is a secondary cache/current-page difference in RFP-
 Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. Prior evidence and memos are preserved; dated synthesis updates retain Git history. No outreach, emails, ATI submissions, paid services or access changes. Statute, policy, contract compliance, value for money and publicity are separate tests. Missing evidence is a reporting question. No procurement misconduct has been established.
 
 Snapshots labelled **web extraction** preserve the retrieval tool's returned text, including errors and crawl information; they are not downloaded source HTML, signed records, a certified live export or proof that unavailable documents were read. Native public government files, where obtainable, are separately identified and hashed. Issuer announcements establish claims, not performance or contractual compliance.
+
+The full-checklist audit does not establish compliance or misconduct. It found an official 2026 directive that distinguishes PSPC/DIA approval limits from DND limits, and primary security rules that distinguish pre-award clearance from later safeguards. These narrow broad allegations while leaving the actual approvals, security decision and contract unacquired.

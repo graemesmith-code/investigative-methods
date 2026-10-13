@@ -38,3 +38,7 @@ For each possible allegation require the rule/version, who was obligated, event/
 ## Oversight and equal-access records
 
 The [oversight pass](annexes/oversight-and-equal-access-20261013.md) identifies Q-1530 as a future governance source, not a published answer. Award-specific coverage/NSE instruments and actual bidder distribution/version records remain the decisive missing evidence. Obtain actual invitation/attendance/content records before comparing dedicated demonstrations or lobbying with common bidder opportunities. Generic oversight recommendations and other drone procurements do not establish this award's failures. No future monitoring or outreach was created.
+
+## Full audit narrows the next public acquisition
+
+Use the [104-row audit](annexes/compliance-matrix-20261013.md) and [concern cards](annexes/compliance-concern-cards-20261013.md). The official 2026 directive now supplies actual approval/record/reporting provisions; do not keep describing its basic table as unrecovered. The material gaps are actual signatory/delegation, estimate/risk/selected route, acquisition-instrument ceiling, pricing advice, security milestones and delivery/acceptance. Current company integrity lists and the 2024 report catalogue narrow tests but do not establish all screening or current reporting. Configuration-dependent legal tests remain unexamined, not clean.

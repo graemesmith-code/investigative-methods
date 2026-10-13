@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance/ineligible-suspended-suppliers.html",
+    "retrieved_at_utc": "2026-10-13T22:11:13.494541+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "filename": "integrity-ineligible-list-20261013.html",
+    "size_bytes": 24818,
+    "sha256": "c6b6b57d003c06a296214a9748923387987b3df8c84d3b0178a31087e0e3d17d"
+  },
+  {
+    "url": "https://www.canada.ca/en/public-services-procurement/services/standards-oversight/supplier-integrity-compliance/suppliers-administrative-agreements.html",
+    "retrieved_at_utc": "2026-10-13T22:11:13.949764+00:00",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "filename": "integrity-agreements-list-20261013.html",
+    "size_bytes": 22260,
+    "sha256": "9701e70cb586c1f669a1093c55860364b85e86cf1db4e7037899772ef603c14e"
+  },
+  {
+    "url": "https://www.publicsafety.gc.ca/cnt/rsrcs/lbrr/ctlg/dtls-en.aspx?d=PS&i=98781160",
+    "retrieved_at_utc": "2026-10-13T22:11:14.443889+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "filename": "publicsafety-draganfly-2024-catalogue.html",
+    "size_bytes": 39475,
+    "sha256": "cfb223b7e4f5eb96419450c25ecc3f9067bf0287356592a63aefc72b1ce14268"
+  }
+]

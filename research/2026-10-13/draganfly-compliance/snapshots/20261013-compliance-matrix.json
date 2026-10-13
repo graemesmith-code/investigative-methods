@@ -1,0 +1,1580 @@
+{
+  "audited_at_utc": "2026-10-13T22:14:06.170641+00:00",
+  "scope": "All 104 original numbered checks read and classified. Status assesses recovered evidence, not innocence/guilt or completion of the whole compliance test. No item is labelled verified compliance. T4 concerns research provenance only. I103 concerns the present journalistic task, not immunity from bidder remedies.",
+  "status_legend": {
+    "T": "Tested with primary evidence (bounded test only)",
+    "P": "Partly testable",
+    "C": "Controlling document missing",
+    "I": "Inapplicable to current task",
+    "U": "Unresolved legal applicability"
+  },
+  "counts": {
+    "P": 34,
+    "C": 49,
+    "T": 1,
+    "U": 19,
+    "I": 1
+  },
+  "rows": [
+    {
+      "check": 1,
+      "title": "Identify the transaction precisely",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Original award identifies contractor and instrument; signed lot/SA crosswalk is missing.",
+      "original_test": "P1 | Test: Match legal supplier, solicitation, contract, lot and supply arrangement; do not merge different suppliers' awards or RFP-A and RFP-B. [S01, S02]",
+      "decisive_record_requested_in_original": "Executed CW2467949, award recommendation, procurement index, legal name/business number, all associated instrument IDs and versions.",
+      "ordinary_explanation_to_test": "Related notices use a common solicitation number but govern separate lots; the contract crosswalk explains the apparent mismatch.",
+      "concern_cards": [
+        "A"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 2,
+      "title": "Recover the controlling document hierarchy",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No signed order of precedence or complete incorporated annex set.",
+      "original_test": "P1 | Contract: Read the signed instrument's order-of-precedence clause and every incorporated annex, standard clause, certification and amendment, with effective version dates.",
+      "decisive_record_requested_in_original": "Complete signature package, statement of work, specifications, basis of payment, delivery schedule, security checklist, bid incorporated by reference and acceptance terms.",
+      "ordinary_explanation_to_test": "A provision that looks inconsistent in a public summary is correctly defined in a higher-ranking annex or authorized amendment.",
+      "concern_cards": [
+        "A"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 3,
+      "title": "Build a timestamped chronology",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Event and posting chronology exists; signature, receipt, qualification and FOCI timestamps do not.",
+      "original_test": "P1 | Fact check: Distinguish drafting, approval, signature, effective date, notification, public announcement, option exercise and payment.",
+      "decisive_record_requested_in_original": "Native timestamps and time zones for RFSA submission, qualification, invitations, bid receipt, evaluations, security approval, award and notice publication.",
+      "ordinary_explanation_to_test": "A date discrepancy reflects posting or notification after the legal event. A same-day announcement does not establish which event happened first.",
+      "concern_cards": [
+        "A"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 4,
+      "title": "Preserve originals and provenance",
+      "original_priority": "P1",
+      "status": "T",
+      "status_label": "Tested with primary evidence (bounded test only)",
+      "assessment": "Native sources, labelled extractions, hashes and inherited-source limits tested; controlling packages still unavailable.",
+      "original_test": "P1 | Evidence quality: Separate original government records, issuer filings, third-party mirrors and interview recollections. Never silently substitute a current RFSA round for the August version.",
+      "decisive_record_requested_in_original": "Native downloads, URLs, retrieval dates, hashes, attachments, revision history and provenance log; independent corroboration for mirror-only amendment counts.",
+      "ordinary_explanation_to_test": "A search snippet or aggregator is stale, incomplete or combines versions; the authenticated source removes the inconsistency.",
+      "concern_cards": [
+        "A"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 5,
+      "title": "Establish what a system contains",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "Issuer describes a system package, but contractual unit and line-item schedule remain missing.",
+      "original_test": "P1 | Contract: Confirm the unit of measure before calculating quantities or prices. “System,” “kit,” “aircraft” and “ground station” are not interchangeable. [S03]",
+      "decisive_record_requested_in_original": "Line-item schedule showing airframes, controllers, payloads, radios, batteries, spares, software, freight, training and documentation; shared versus per-kit equipment.",
+      "ordinary_explanation_to_test": "One package contains common support equipment or multiple airframes. Dividing C$439,851.55 by 100 would then misstate aircraft price.",
+      "concern_cards": [
+        "A"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 6,
+      "title": "Identify the Crown contracting authority",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "Primary DPWGS powers/delegation provisions and DIA structure checked; actual signatory/delegation missing.",
+      "original_test": "P1 | Law and delegation: Identify who could contract and who actually signed. CAF, DND, PSPC and DIA are not interchangeable legal authorities. [S07, S08]",
+      "decisive_record_requested_in_original": "Signature block, statutory authority relied on, departmental mandate, procurement-service agreement and dated delegation to the individual signatory.",
+      "ordinary_explanation_to_test": "PSPC or an authorized successor unit acted for DND under a valid delegation rather than DND's ordinary internal limit.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 7,
+      "title": "Test the correct competition route",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Selective SA competition is described; actual SA rules and NSE applicability unresolved.",
+      "original_test": "P1 | Law and contract: The public record describes selective competition under an SA, not a sole-source purchase. Test that route before looking for sole-source justification. GCR sections 3, 5, 6 and 7 must be read together. [S01, S09]",
+      "decisive_record_requested_in_original": "Approved procurement strategy, SA ordering rules, invitation records and any exception actually used.",
+      "ordinary_explanation_to_test": "Competition among the properly selected qualified suppliers satisfied the applicable route even if only one responsive offer remained.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 8,
+      "title": "Verify any national security exception",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "NSE law and dated-policy conflict checked; no actual scoped approval instrument.",
+      "original_test": "P1 | Law and policy: A no-agreements field does not itself establish an NSE. Obtain the signed responsible-ADM-or-equivalent approval letter dated before the award day, with scope covering this purchase, and the required rationale/strategy record. [S10, S11]",
+      "decisive_record_requested_in_original": "Approval or non-sensitive reference identifying authority/date, program coverage, rationale and secured record location.",
+      "ordinary_explanation_to_test": "A valid program-level letter covered this procurement; classified details are properly held separately.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 9,
+      "title": "Apply the post 2024 GCR rule",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "December 2024 exclusion and surviving s.18 verified; application depends on actual NSE.",
+      "original_test": "P1 | Law: Since 16 December 2024, GCR 3(1)(i) excludes qualifying NSE contracts from the regulations, while 3(3) preserves section 18. Do not apply a pre-2024 argument requiring an additional section 6 exception automatically. [S09]",
+      "decisive_record_requested_in_original": "Relevant NSE instrument, legal applicability determination and surviving terms.",
+      "ordinary_explanation_to_test": "The procurement was properly excluded from bid-solicitation provisions, while remaining subject to other applicable financial, policy and contractual controls.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 10,
+      "title": "Test CFTA coverage separately",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "August 2026 CFTA original reviewed; award-specific coverage rationale is missing.",
+      "original_test": "P1 | Treaty: Apply the August 2026 CFTA text, its entity, goods, value and exception provisions. Canada's Annex 519.1 lists no excluded entities or exceptions/notes; international defence-goods exclusions cannot simply be imported. National security is Article 901 in this version. [S12]",
+      "decisive_record_requested_in_original": "Written CFTA analysis and precise alternative exclusion or NSE relied on.",
+      "ordinary_explanation_to_test": "A valid Article 901 invocation or another actually applicable provision explains non-coverage; the notice alone does not.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 11,
+      "title": "Test international agreements separately",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "International defence schedules and actual classification not independently completed; no coverage finding.",
+      "original_test": "P1 | Treaty: CETA, CPTPP and revised WTO-GPA have entity schedules, defence-goods lists and other exclusions. Identify the real commodity and end user rather than inferring coverage from PSPC administration or one radio component. [S13-S15]",
+      "decisive_record_requested_in_original": "Agreement-by-agreement analysis, FSC classification, goods/services allocation and applicable schedule versions.",
+      "ordinary_explanation_to_test": "The purchase falls outside a defence positive list or within a valid exception even though its value exceeds the threshold.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 12,
+      "title": "Calculate the correct procurement value",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Public initial amount and issuer options differ; regime-specific pre-solicitation valuation absent.",
+      "original_test": "P1 | Treaty and policy: Use each regime's valuation rule, including relevant options and duration; do not substitute the first invoice or public initial value. For 2026-27, federal CFTA goods threshold is C$34,700; CETA/GPA/CPTPP goods/services threshold is C$239,200. [S12-S16]",
+      "decisive_record_requested_in_original": "Pre-solicitation estimate, option assumptions, taxes treatment and valuation date.",
+      "ordinary_explanation_to_test": "A defensible exclusion applies despite the numerical threshold; different approval and reporting values legitimately use different rules.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 13,
+      "title": "Check contract approval and signing limits",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Official 2026 Appendix A basic table now acquired by PDF extraction; actual signatory, exceptional/instrument limits and estimate remain unresolved.",
+      "original_test": "P1 | Policy and delegation: Separate project approval, expenditure initiation, contract approval and signature authority. Apply the limits effective on the approval date, including the changes effective 15 December 2025. [S08, S17]",
+      "decisive_record_requested_in_original": "Delegation chart, full approval valuation, risk/complexity assessment, special authority and Treasury Board decision if required.",
+      "ordinary_explanation_to_test": "A valid higher-level or exceptional approval covers the option-inclusive amount. An old public limit is not the controlling ceiling.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 14,
+      "title": "Check commitment and payment controls",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "FAA ss.32-34/40 read from primary pre-award consolidation; actual commitments and certifications missing.",
+      "original_test": "P1 | Law: FAA sections 32, 33 and 34 address different financial controls. Establish sufficient authority for amounts falling due in the fiscal year; do not assume all five-year options needed immediate appropriation. [S07]",
+      "decisive_record_requested_in_original": "Commitment record, financial coding, authorized approvals, appropriation/availability clause and separation of certification/payment duties.",
+      "ordinary_explanation_to_test": "Where consistent with fiscal-year obligations and applicable commitment rules, only the firm obligation was committed initially; later options required fresh funding and authorization.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 15,
+      "title": "Check procurement division and bundling",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Nine related records reconciled without missing-money inference; original packaging rationale absent.",
+      "original_test": "P2 | Treaty and policy: Test whether lots, prototypes, support contracts or staged awards were structured to evade an applicable threshold or approval rule; identify that rule first. [S12-S16]",
+      "decisive_record_requested_in_original": "Original needs forecast, acquisition plan, related awards, combined estimates and documented reasons for packaging.",
+      "ordinary_explanation_to_test": "Multiple awards, competitive experimentation, operational sequencing or genuinely separate requirements explain the structure without avoidance.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 16,
+      "title": "Recover the original RFSA round",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "First-round notice exists; operative RFSA, amendments and authenticated Q&A remain missing.",
+      "original_test": "P1 | Contract: Apply the first-round RFSA and amendments, not later Round 2 wording. The 23 July launch identified a first-round 14 August deadline. [S05, S06]",
+      "decisive_record_requested_in_original": "Issued RFSA W8703-270055, original qualification matrix, questions/answers, closing rules and version history.",
+      "ordinary_explanation_to_test": "A seemingly missing criterion was never required in the relevant round, or a later requirement did not apply retrospectively.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 17,
+      "title": "Confirm the qualified legal entity",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Award parent and subsidiary distinctions documented; executed SA/bid identity crosswalk absent.",
+      "original_test": "P1 | Contract: Compare SA holder, bidder and contractor, including any permitted affiliate or joint venture. Draganfly Inc. and Draganfly Innovations Inc. must not be treated as interchangeable. [S01, S40]",
+      "decisive_record_requested_in_original": "Executed SA, entity registration, bid signature, affiliate resource undertaking, assignment/novation consent where relevant.",
+      "ordinary_explanation_to_test": "The same qualified contractor performs using disclosed, permitted affiliates; group-level publicity merely shortens the name.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 18,
+      "title": "Resolve qualification dates and conditions",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "August 24/28 public dates preserved with ordinary date explanations; actual effective decision missing.",
+      "original_test": "P1 | Contract: Establish when qualification became effective and the stage at which it was required; reconcile the 24 August record with the issuer's 28 August description. [S06]",
+      "decisive_record_requested_in_original": "Qualification decision, signed SA, acceptance/notification timestamps, conditional approvals and portal activation.",
+      "ordinary_explanation_to_test": "Issue, acceptance and public announcement occurred on different dates, all before the relevant eligibility deadline.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 19,
+      "title": "Confirm the correct stream and product scope",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Notice says Stream 1; issuer says five streams; actual permitted product/stream schedule absent.",
+      "original_test": "P1 | Contract: Qualification in one DDI stream or for one capability does not automatically authorize every downstream competition.",
+      "decisive_record_requested_in_original": "SA schedules, qualified capability/product list, stream definition, category restrictions and authorized users/order ceiling.",
+      "ordinary_explanation_to_test": "Stream 1 qualification expressly covered Astiia or permitted a later specific product proposal; there was no requirement to qualify a named model initially.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 20,
+      "title": "Retest each qualification gate",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Candidate Q&A and Australian partner history narrow hypotheses; authenticity and bidder own-role evidence absent.",
+      "original_test": "P1 | Contract: Identify required experience, technical maturity, manufacturing capacity, Canadian business substance and certifications, and when they had to exist.",
+      "decisive_record_requested_in_original": "Submitted qualification evidence, criterion-by-criterion evaluation, reference checks, demonstrations and verification notes.",
+      "ordinary_explanation_to_test": "Allied partner experience or licensed production was permitted; previous CAF contracting or wholly Canadian intellectual property was not mandatory. [S05]",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 21,
+      "title": "Examine cures and admissions consistently",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No controlling cure/refresh provisions or applicant correction records.",
+      "original_test": "P1 | Contract: Determine whether deficiencies could be corrected, additional evidence submitted or applicants admitted between refresh windows, and whether comparable applicants received the same opportunity.",
+      "decisive_record_requested_in_original": "RFSA cure/refresh provisions, clarification correspondence, failed/pending applications and decision dates.",
+      "ordinary_explanation_to_test": "The RFSA allowed the correction or rolling admission and officials applied the same rule consistently.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 22,
+      "title": "Reconstruct the eligible invitation pool",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No actual ordering/invitation rule, dated eligible roster or distribution logs.",
+      "original_test": "P1 | Contract: Test the SA's actual invitation rule: all suppliers, minimum number, rotation, capability subset or another method. Do not invent an all-holders rule.",
+      "decisive_record_requested_in_original": "Dated roster, suspension/reinstatement record, invitation list, selection rationale and distribution logs.",
+      "ordinary_explanation_to_test": "An expressly permitted capability-based subset received the RFP, while other holders were outside scope or not yet qualified.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 23,
+      "title": "Check access and continuing eligibility",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "Public retrieval failures are not bidder access evidence; actual permissions and eligibility history absent.",
+      "original_test": "P2 | Contract: Establish whether eligible suppliers could obtain the operative package and whether any suspension, expiry or certification change affected Draganfly before award.",
+      "decisive_record_requested_in_original": "Ariba permissions, invitation delivery/bounce logs, access requests, help-desk tickets, SA validity and change notices.",
+      "ordinary_explanation_to_test": "Access problems were corrected in time or arose outside the buyer's control; eligibility remained valid under the SA's continuing-obligation clauses.",
+      "concern_cards": [
+        "C"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 24,
+      "title": "Explain RFP A and RFP B",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "A/B notice references identified; exact configurations and winning-package mapping absent.",
+      "original_test": "P1 | Contract: Determine whether A and B concern separate configurations, lots, phases or award paths, and which produced CW2467949. [S02]",
+      "decisive_record_requested_in_original": "Both complete packages, cross-reference notices, number-of-awards provisions, evaluation plans and award mapping.",
+      "ordinary_explanation_to_test": "Distinct competitions legitimately shared a parent number. A requirement from one did not govern the other.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 25,
+      "title": "Resolve the aircraft and ground vehicle mismatch",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Original public notice mismatch verified; no authenticated bidder-package mismatch or effect.",
+      "original_test": "P1 | Fact and contract: Trace the UAS title/UGV body inconsistency into the materials bidders actually saw. Test whether it impaired access, understanding or competition. [S02]",
+      "decisive_record_requested_in_original": "Original portal package, edit log, translations, bidder questions, correction notices and technical statement of requirement.",
+      "ordinary_explanation_to_test": "A public-page template error was corrected or never appeared in the authoritative aircraft solicitation; no bidder was misled.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 26,
+      "title": "Test the response period under applicable rules",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "CFTA reasonable-period rule checked; applicability, actual access times and SA-specific timetable unresolved.",
+      "original_test": "P1 | Contract and any covered treaty: Assess the 27 August to 3 September period against this SA, the requirements' complexity and any applicable permitted reductions. Do not import unrelated service-SA rules. [S02, S12-S15]",
+      "decisive_record_requested_in_original": "Exact issue/access time, tender timetable, urgency rationale, extension requests and responses.",
+      "ordinary_explanation_to_test": "Prequalified bidders had adequate preparation and the permitted downstream process did not require a longer period.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 27,
+      "title": "Authenticate every amendment",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Secondary September 1/3 and UAS/UGV differences found; governing versions/redlines not acquired.",
+      "original_test": "P1 | Contract: Establish what changed, when, who approved it, who received it and whether time to respond was extended as required.",
+      "decisive_record_requested_in_original": "All addenda and Q&A, redlines, distribution timestamps, acknowledgement rules and closing extensions.",
+      "ordinary_explanation_to_test": "The 3 September metadata reflects a minor public-notice edit rather than a material RFP amendment. Third-party amendment counts may combine different events. [S02]",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 28,
+      "title": "Check equal answers and private briefings",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Common public engagement opportunities documented; actual Q&A and private briefing contents absent.",
+      "original_test": "P1 | Contract and fairness: Compare questions, answers, demonstrations and one-to-one briefings for materially unequal information.",
+      "decisive_record_requested_in_original": "Q&A register including unanswered questions, meeting notes, help-desk communications and common clarification releases.",
+      "ordinary_explanation_to_test": "Private exchanges concerned administrative access or genuinely proprietary details; all generally material information was distributed to eligible bidders.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 29,
+      "title": "Trace restrictive specifications to the need",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No final specification, equivalency language or restrictive-need rationale.",
+      "original_test": "P1 | Contract and any covered treaty: Identify brand, dimensions, interfaces, origin restrictions, experience thresholds or delivery dates that unnecessarily excluded alternatives. [S12-S15]",
+      "decisive_record_requested_in_original": "Needs analysis, market research, drafting history, equivalency language, technical rationale and supplier input.",
+      "ordinary_explanation_to_test": "A restriction was objectively needed for interoperability, safety, security or urgency and was clearly disclosed and consistently evaluated.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 30,
+      "title": "Identify supplier involvement in drafting",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Industry engagement predates award; no source proves self-serving drafting or unmitigated information advantage.",
+      "original_test": "P2 | Policy and contract: Prior market engagement is not itself improper. Test whether a participant shaped specifications for itself or retained non-public information without effective mitigation. [S18, S26]",
+      "decisive_record_requested_in_original": "Requests for information, demonstration invitations, consultant terms, specification metadata, contact logs and conflict mitigation.",
+      "ordinary_explanation_to_test": "Officials independently validated the requirements and shared material information; the supplier's ordinary expertise created no unfair advantage.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 31,
+      "title": "Check complete evaluation instructions",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No final mandatory/rated/price/quantity allocation method.",
+      "original_test": "P1 | Contract: Locate every mandatory gate, rated criterion, pass mark, weight, price formula, option quantity, tie-breaker, allocation rule and right to make multiple awards.",
+      "decisive_record_requested_in_original": "Final instructions, evaluation matrix and locked evaluation plan approved before closing.",
+      "ordinary_explanation_to_test": "The apparent discretionary award was expressly permitted by the published selection method; the winner was not required to have the lowest bare unit price.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 32,
+      "title": "Check bid submission mechanics",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No received-bid channel/time/signature/acknowledgement register.",
+      "original_test": "P2 | Contract: Apply the stipulated channel, deadline/time zone, signature, format, file-size, language and acknowledgement rules; distinguish mandatory requirements from conveniences.",
+      "decisive_record_requested_in_original": "Bid receipt/opening register, original files and hashes, server logs, outage notices, late/replacement bid handling and amendment acknowledgements.",
+      "ordinary_explanation_to_test": "A permitted correction, verified platform outage procedure or non-mandatory formatting defect explains acceptance without unequal treatment.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 33,
+      "title": "Check cancellation and negotiation reservations",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No governing cancellation/negotiation reservations or use record.",
+      "original_test": "P2 | Contract: Determine whether government reserved a lawful right to cancel, negotiate, seek best-and-final offers, waive specified defects or change quantities; test its use against the actual terms.",
+      "decisive_record_requested_in_original": "Reservation clauses, approval/rationale, negotiation invitations and any relaunched solicitation.",
+      "ordinary_explanation_to_test": "The process used a disclosed mechanism consistently and did not secretly replace an essential competed requirement.",
+      "concern_cards": [
+        "D"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 34,
+      "title": "Preserve the original bids",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No original Draganfly bid or later clarification inventory.",
+      "original_test": "P1 | Evidence and contract: Work from the bid as received before closing, separately identifying every later clarification or replacement page.",
+      "decisive_record_requested_in_original": "Read-only originals, attachment inventory, submission timestamps, audit trail and evaluators' working copies.",
+      "ordinary_explanation_to_test": "A document thought to be a late improvement was already in the timely bid; later correspondence merely identified its location.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 35,
+      "title": "Reperform mandatory compliance",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No controlling mandatory matrix, deadlines or original compliant evidence.",
+      "original_test": "P1 | Contract: For each mandatory criterion, record the exact promised capability, evidence, compliance deadline and evaluator conclusion. Do not treat delivery-stage requirements as necessarily due at bid closing.",
+      "decisive_record_requested_in_original": "Compliance matrix, original technical offer, verification material and rejection reasons.",
+      "ordinary_explanation_to_test": "The bidder met the criterion in the prescribed way or valid equivalency applied; a preferred feature was not mandatory.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 36,
+      "title": "Distinguish clarification from bid repair",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No bid-to-clarification comparison or authorized cure rule.",
+      "original_test": "P1 | Contract: Identify whether later exchanges explained an existing commitment or supplied a new commitment necessary to become responsive; check any phased-compliance process.",
+      "decisive_record_requested_in_original": "Every clarification, request, response, revised page and governing cure clause; comparison with other bidders' defects.",
+      "ordinary_explanation_to_test": "The solicitation expressly allowed the cure, or the response clarified timely evidence without changing the offer.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 37,
+      "title": "Reproduce rated scores",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No individual/consensus score sheets or locked formulas.",
+      "original_test": "P1 | Contract: Recalculate each weighted score and pass mark; trace material differences between individual and consensus ratings. [S19]",
+      "decisive_record_requested_in_original": "Individual worksheets, reasons, consensus notes, spreadsheet formulas/version history and peer review.",
+      "ordinary_explanation_to_test": "A reasoned consensus corrected an individual misunderstanding under the published rubric; a high-level summary omitted that explanation.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 38,
+      "title": "Test demonstrations and samples fairly",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "Public demonstrations are not comparative procurement tests; actual protocols/raw results absent.",
+      "original_test": "P1 | Contract: Compare configuration, payload, weather, route, operator skill, test opportunities, failures, retests and any waivers across bidders.",
+      "decisive_record_requested_in_original": "Predetermined protocol, raw measurements, video if retained, calibration records, evaluator notes and exception approvals.",
+      "ordinary_explanation_to_test": "Different conditions were normalized under the protocol or an authorized retest was offered consistently. A polished demonstration alone does not prove production compliance.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 39,
+      "title": "Look for undisclosed criteria",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No final selection method paired with score/decision rationale.",
+      "original_test": "P1 | Contract: Identify factors used in ranking that were absent from the published method, including political desirability, relationships, extra features or an unannounced production preference.",
+      "decisive_record_requested_in_original": "Score rationales, decision brief, meeting records and communications compared with the final evaluation matrix.",
+      "ordinary_explanation_to_test": "The factor was genuinely within a disclosed criterion and supported by documented evidence rather than a new criterion introduced after bids arrived.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 40,
+      "title": "Check evaluator independence and information separation",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No evaluator identities, conflict declarations, recusals or price-access records.",
+      "original_test": "P1 | Policy: Test conflict declarations, recusals and price-access controls against the applicable PSPC-led evaluation rules. [S19, S26]",
+      "decisive_record_requested_in_original": "Team composition, signed declarations, access permissions, timestamps for technical completion and financial opening, substitute-evaluator records.",
+      "ordinary_explanation_to_test": "Necessary access was segregated, a conflict was effectively mitigated or the approved process differed for a justified reason.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 41,
+      "title": "Recalculate evaluated price",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No signed price schedule or evaluated-price model.",
+      "original_test": "P1 | Contract: Rebuild the financial comparison using the announced quantities, options, support costs, tax treatment, currency conversion, discounts, rounding and arithmetic correction rules.",
+      "decisive_record_requested_in_original": "Original price schedules, locked model, exchange-rate source/date, formula audit and independent recalculation.",
+      "ordinary_explanation_to_test": "A higher initial package price wins under a correctly disclosed total-cost or value-weighted formula.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 42,
+      "title": "Test multiple awards and allocations",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Multiple public awards exist; actual allocation rules/ranking not acquired.",
+      "original_test": "P1 | Contract: Establish how award count, quantity allocation, technical categories, ties and reserve suppliers were determined.",
+      "decisive_record_requested_in_original": "Published allocation method, comparative ranking, award recommendation and records for other relevant lots without conflating their prices.",
+      "ordinary_explanation_to_test": "Draganfly's allocation followed a disclosed portfolio or capacity-based method, rather than winner-take-all lowest price.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 43,
+      "title": "Compare negotiated and evaluated offers",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No evaluated-offer to signed-contract redline or negotiation approvals.",
+      "original_test": "P1 | Contract: Track changes to price, product, quantities, delivery, liability and conditions after selection. Determine whether they were allowed and materially changed the competition.",
+      "decisive_record_requested_in_original": "Negotiation record, bid-to-contract redline, approval of deviations and best-and-final requests where used.",
+      "ordinary_explanation_to_test": "Clarifications or permitted negotiations preserved the essential basis of competition and required approvals.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 44,
+      "title": "Audit the signed recommendation and debriefs",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No signed recommendation, approval chain or actual bidder debriefs.",
+      "original_test": "P2 | Policy and contract: Match final scores, technical endorsement, financial review, approval and award notification. Reconcile regret/debrief explanations with the actual evaluation. [S18, S19]",
+      "decisive_record_requested_in_original": "Signed consensus/recommendation, dissent or review findings, approval chain and unsuccessful-bidder correspondence.",
+      "ordinary_explanation_to_test": "A debrief was abbreviated or protected competitor information, while the underlying record supports the same result.",
+      "concern_cards": [
+        "E"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 45,
+      "title": "Explain the published value",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Notice amount and tax dictionary checked; contract/reporting worksheet mapping absent.",
+      "original_test": "P1 | Fact and reporting: Reconcile C$439,851.55 to signed line items and the public field definitions. Establish taxes, currency, initial versus amended value and whether options are excluded. [S01, S20]",
+      "decisive_record_requested_in_original": "Basis of payment, maximum liability, posting worksheet and amendments.",
+      "ordinary_explanation_to_test": "The public amount is the authorized firm package while unit rates or future options remain confidential or uncommitted.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 46,
+      "title": "Authenticate the optional quantity and value",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Original issuer option claim checked; executed quantities/windows/prices absent.",
+      "original_test": "P1 | Contract: Verify the issuer's 4,900 additional systems and approximate C$24.25 million against the executed option language. [S03]",
+      "decisive_record_requested_in_original": "Quantity bands, option windows, price schedule, training/support options, escalation and tax basis.",
+      "ordinary_explanation_to_test": "The announcement accurately describes contingent capacity, not a government obligation or booked revenue; rounded publicity differs from precise contractual arithmetic.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 47,
+      "title": "Check the approval value includes what it must",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Official 2026 directive valuation and separate acquisition-instrument gate read; actual estimate/options treatment and approval missing.",
+      "original_test": "P1 | Policy: Determine how each relevant authority values taxes, options, amendments and contingent liabilities; do not use the firm order automatically. [S17, S18]",
+      "decisive_record_requested_in_original": "Approval worksheet, original estimate, exception/delegation and amendment forecasts.",
+      "ordinary_explanation_to_test": "Required options were included in approval even though they were omitted from initial public reporting or annual commitment accounting.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 48,
+      "title": "Verify mandatory price support consultation",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Pre-award PSPC price-support triggers include options/taxes; estimate, actual consultation and exception absent.",
+      "original_test": "P1 | Policy: If PSPC's current rule applies, check consultation for competitive procurements of C$10m or more including taxes/options/amendments; C$7.5m or more with one compliant offer including taxes/options; and C$7.5m or more including taxes where prices are negotiated or likely to be negotiated by amendment. [S18]",
+      "decisive_record_requested_in_original": "Applicable directive/version, estimate, referral, advice and documented pricing decision, or authorized exception.",
+      "ordinary_explanation_to_test": "Consultation occurred or a genuine exception applied. The public C$0.44m entry is not automatically the relevant denominator.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 49,
+      "title": "Examine price reasonableness and assumptions",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No required price-validation/cost/comparable-package analysis.",
+      "original_test": "P2 | Policy and contract: Test the price analysis actually required, including supplier quotes, learning curves, exchange rates, profit assumptions and comparable package contents.",
+      "decisive_record_requested_in_original": "Price validation, comparable buys, cost substantiation where required, negotiation brief and sensitivity analysis.",
+      "ordinary_explanation_to_test": "Differences reflect payload, support, warranty, volume, delivery urgency or currency rather than excessive margins. A weak value-for-money case alone does not prove illegality.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 50,
+      "title": "Test volume pricing and escalation",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No option bands, escalation, FX or negotiation schedule.",
+      "original_test": "P2 | Contract: Check whether option prices decrease, increase, remain fixed or require negotiation, and whether the evaluated model captured the permitted pattern.",
+      "decisive_record_requested_in_original": "Quantity-band schedule, indexation formula, FX base date, economic-price-adjustment clauses, renewal rates and amendment rules.",
+      "ordinary_explanation_to_test": "An apparent price increase follows an authorized index or a different configuration; nominal unit comparisons omit included services.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 51,
+      "title": "Check payment structure and advances",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No advance/progress payment terms, security or liquidation evidence.",
+      "original_test": "P2 | Law and contract: Distinguish advance payments, progress payments, accepted deliveries and reimbursable costs; test applicable authority, security and reconciliation requirements. [S07]",
+      "decisive_record_requested_in_original": "Payment milestones, security/guarantee if required, invoices, holdbacks, liquidation of advances and audit rights.",
+      "ordinary_explanation_to_test": "An authorized advance bought tooling or long-lead parts with adequate protection; payment before final delivery was expressly permitted.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 52,
+      "title": "Check hidden recurring and lifecycle costs",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No full lifecycle-cost model and recurring support/licence schedule.",
+      "original_test": "P2 | Contract: Identify subscriptions, data plans, software seats, licence renewals, batteries, spare parts, repair, training and disposal costs outside the headline price.",
+      "decisive_record_requested_in_original": "Complete lifecycle-cost model, software/support agreements, option schedules and end-of-term obligations.",
+      "ordinary_explanation_to_test": "Ongoing costs were disclosed and evaluated or knowingly budgeted as separate requirements; a low acquisition price was not represented as the whole lifecycle cost.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 53,
+      "title": "Check client concurrence and required reviews",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No client concurrence or mandatory review/deviation file.",
+      "original_test": "P2 | Policy: Verify DND's written acceptance of specifications/evaluation criteria and required legal, security, risk or other reviews. [S18]",
+      "decisive_record_requested_in_original": "Client sign-off, review checklist, comments, resolutions and approvals for deviations.",
+      "ordinary_explanation_to_test": "A review was not mandatory for this risk category, or the required concurrence exists outside the central procurement file.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 54,
+      "title": "Audit reduced Crown protections",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "2026 Appendix B.2.5 provides a DIA approval route for specified risk departures; actual clauses and approval absent.",
+      "original_test": "P2 | Policy and contract: Examine unusual liability caps, shortened warranties, disclaimers, indemnities, termination payments and reduced audit rights. Apply required legal review before treating a departure as unauthorized. [S18]",
+      "decisive_record_requested_in_original": "Standard-to-final redline, legal review, client acceptance, insurance requirements and approval record.",
+      "ordinary_explanation_to_test": "A negotiated allocation of risk was expressly approved and reflected in price; it was not an unexplained waiver.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 55,
+      "title": "Verify integrity screening",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Primary policy and public company lists checked; no Draganfly listing, but award-date screening/declarations absent.",
+      "original_test": "P1 | Policy and contract: Apply the incorporated Ineligibility and Suspension Policy version and its actual grounds, exceptions and procedures. An allegation or investor association is not disqualification. [S25]",
+      "decisive_record_requested_in_original": "Declarations, required names, pre-award checks, relevant final decisions and any administrative agreement or public-interest exception.",
+      "ordinary_explanation_to_test": "No applicable ground existed, the actor was outside the rule's scope, or a valid exception covered the award.",
+      "concern_cards": [
+        "G"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 56,
+      "title": "Check subcontractor integrity obligations",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "Primary first-tier policy scope clarified; actual subcontractors and verification records absent.",
+      "original_test": "P2 | Contract: Determine which first-tier subcontractors required screening or approval and whether the contractor satisfied the clause. [S25]",
+      "decisive_record_requested_in_original": "Actual subcontractor list, screening dates, declarations, substitution notices and approval records.",
+      "ordinary_explanation_to_test": "A vendor was outside the clause's defined subcontractor scope or properly screened. Do not treat every ordinary supplier as a prohibited subcontractor.",
+      "concern_cards": [
+        "G"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 57,
+      "title": "Investigate concrete conflicts of interest",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Senate/lobbying facts and current directive conflict duty checked; actual award participation/mitigation file absent.",
+      "original_test": "P1 | Policy: Look for decision-maker financial interests, family/business relationships, gifts, employment negotiations and privileged access that required disclosure or mitigation. [S26]",
+      "decisive_record_requested_in_original": "Declarations, recusals, meeting/contact logs and decision participation, using relevant corroborated facts.",
+      "ordinary_explanation_to_test": "The relationship was disclosed and effectively managed, or the person had no role in the decision. Mere acquaintance is not proof of favouritism.",
+      "concern_cards": [
+        "H"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 58,
+      "title": "Audit lobbying registration and reports",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Known consultant roles and 44 report rows checked; not all communications or a meeting count.",
+      "original_test": "P2 | Law: Identify the actual paid consultant or in-house role, activity, officials contacted, subject and applicable registration/reporting rule at the time. [S27]",
+      "decisive_record_requested_in_original": "Registry histories, mandates, communication dates and official meeting records; distinguish a 2025 registration from a 2026 communication.",
+      "ordinary_explanation_to_test": "The contact was registered, reportable only under a different rule, exempt or outside lobbying activity. A registry entry alone is not evidence of improper influence.",
+      "concern_cards": [
+        "H"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 59,
+      "title": "Check former official restrictions precisely",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "2009 retirement and 2025 undertaking weaken waiting-period theory; later office and all contract restrictions not fully established.",
+      "original_test": "P2 | Law and contract: Establish former role, departure date, designated-office-holder status, actual lobbying activity and applicable cooling-off/exemption rules. Treat pension-related procurement clauses separately. [S27, S28]",
+      "decisive_record_requested_in_original": "Employment dates, duties, exemptions, relevant advisory mandate and the actual clause.",
+      "ordinary_explanation_to_test": "The period expired, an exemption applied, no prohibited lobbying occurred or a corporate employee was outside a personal-services disclosure clause.",
+      "concern_cards": [
+        "H"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 60,
+      "title": "Test representations against contemporaneous evidence",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No signed eligibility/origin/security/capacity attestations with contemporaneous substantiation.",
+      "original_test": "P1 | Contract: Identify material statements about eligibility, capacity, origin, security or product readiness and whether they were accurate when certified.",
+      "decisive_record_requested_in_original": "Signed attestations, substantiating records then available, verification questions, later corrections and continuing-notification duties.",
+      "ordinary_explanation_to_test": "A statement was a clearly permitted future commitment rather than a present fact, or a material change was disclosed and approved. Later difficulty alone does not prove an earlier lie.",
+      "concern_cards": [
+        "G"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 61,
+      "title": "Examine post award investment triggers",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Financing closing corroborated; voting/control/access rights and notification triggers unacquired.",
+      "original_test": "P2 | Contract and conditional law: The 28 September issuer release describes a planned US$10m offering, not independently verified closing or control. Test actual voting, board, veto, information and technology-access rights. [S41]",
+      "decisive_record_requested_in_original": "Closing documents, cap table, agreements and relevant change-notification clauses.",
+      "ordinary_explanation_to_test": "Minority investment caused no regulated control/access change, or required notices and mitigation were completed. Shareholder nationality alone does not establish non-compliance.",
+      "concern_cards": [
+        "I"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 62,
+      "title": "Check assignment and unauthorized substitution",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Public corporate announcements do not prove CAF contract transfer; assignment clause and consent absent.",
+      "original_test": "P2 | Contract: Distinguish a share investment, subcontract, asset transfer, licence change and legal assignment of the Crown contract.",
+      "decisive_record_requested_in_original": "Corporate transaction documents, actual performing entity, novation/assignment clause, consent and payment-registration changes.",
+      "ordinary_explanation_to_test": "The contractor remained unchanged and used permitted affiliates; no assignment consent was required. Separate Investment Canada Act questions require their own factual trigger.",
+      "concern_cards": [
+        "I"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 63,
+      "title": "Establish the applicable Canadian preference",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Strategic policy scope/threshold/definitions read; award estimate, transition and exception application unresolved.",
+      "original_test": "P1 | Policy and contract: Determine whether the strategic Buy Canadian policy applied, including its C$5m threshold for qualifying procurements published after 15 June 2026, SA transition rules and exceptions. [S23]",
+      "decisive_record_requested_in_original": "Estimated value including relevant options, RFSA/RFP dates, policy clause, scoring method and exception approval.",
+      "ordinary_explanation_to_test": "A valid transition/exception applies, or the policy required evaluation credits rather than an absolute Canadian-only gate.",
+      "concern_cards": [
+        "J"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 64,
+      "title": "Apply the actual Canadian supplier definition",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Canadian incorporation/subsidiary activity counterevidence acquired; actual eligibility attestation absent.",
+      "original_test": "P1 | Contract: Test required permanent business, registration/tax and substantive Canadian activity. Do not replace the actual definition with a wholly Canadian shareholder test. [S23]",
+      "decisive_record_requested_in_original": "Entity records, facilities, employees, business operations and signed eligibility attestation at the required date.",
+      "ordinary_explanation_to_test": "The bidder meets the definition despite foreign investors, a foreign office or exchange listing.",
+      "concern_cards": [
+        "J"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 65,
+      "title": "Recalculate Canadian content and value added",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No contractual Canadian-value method, bill of materials or certified line-item calculation.",
+      "original_test": "P1 | Contract: Use the solicitation's definition, denominator, credits and permitted imported components. Do not invent an 80 percent threshold or use consumer labelling tests. [S23]",
+      "decisive_record_requested_in_original": "Line-item origin declarations, bill of materials, invoices, Canadian labour/development costs and methodology.",
+      "ordinary_explanation_to_test": "Licensed allied technology and imported parts were allowed and correctly accounted for; Canadian value added meets the actual requirement.",
+      "concern_cards": [
+        "J"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 66,
+      "title": "Verify where work actually occurs",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Official licensed-production plan exists; actual work allocation and milestone performance absent.",
+      "original_test": "P1 | Contract: Compare promised Canadian manufacture, assembly, integration, training, support and sustainment with the delivered work allocation. [S04, S05]",
+      "decisive_record_requested_in_original": "Production plan, facility and subcontract records, work orders, staffing, test/assembly logs and shipment origins.",
+      "ordinary_explanation_to_test": "The tender allowed staged localization or imported subassemblies, with the required Canadian activities performed by the contractual milestone.",
+      "concern_cards": [
+        "J"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 67,
+      "title": "Authenticate the Astiia licence",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Developer/official licensing statements acquired; executed licence and licensor chain of authority absent.",
+      "original_test": "P1 | Contract: Verify enforceable rights for the particular model, term, territory, quantities and uses. Officially announced licensed production is neither proof of a signed licence nor a violation of sovereignty policy. [S04, S05, S35]",
+      "decisive_record_requested_in_original": "Executed licence and amendments, licensor authority, sublicensing, manufacture, modification, repair, software-update and training rights.",
+      "ordinary_explanation_to_test": "Valid rights cover the Canadian programme and its options, with required consents.",
+      "concern_cards": [
+        "K"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 68,
+      "title": "Test licence continuity and Crown access",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No contractual Crown rights, step-in, escrow, termination/insolvency or support continuity schedules.",
+      "original_test": "P2 | Contract: Examine termination, insolvency, change-of-control, export restriction and support-cessation risks; identify rights promised to Canada after supplier/licensor failure. [S35]",
+      "decisive_record_requested_in_original": "Background/foreground IP schedules, technical-data licence, escrow if required, step-in/sustainment rights and termination provisions.",
+      "ordinary_explanation_to_test": "Appropriate government use, repair and continuity rights exist even though the Crown does not own every patent or source file.",
+      "concern_cards": [
+        "K"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 69,
+      "title": "Verify software and third party IP rights",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No firmware/software licence inventory or third-party consents.",
+      "original_test": "P2 | Contract: Check firmware, ground-control software, mapping, codecs and open-source components for permitted government deployment, copying, modification and distribution.",
+      "decisive_record_requested_in_original": "Software bill of materials, licence inventory, third-party consents, deliverables and restriction notices.",
+      "ordinary_explanation_to_test": "Proper licences support the required use; proprietary components are allowed and do not conflict with promised Crown rights. Public branding is not an IP chain of title.",
+      "concern_cards": [
+        "K"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 70,
+      "title": "Test financial capability against actual obligations",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Original issuer finances/fundraising checked; required contract-specific capability assessment/mitigations absent.",
+      "original_test": "P2 | Policy and contract: Distinguish preliminary SA viability from ability to perform the defined firm order and option lead times. Losses or financing dependence alone do not make a bid non-responsive. [S42]",
+      "decisive_record_requested_in_original": "Required financial assessment, committed credit/guarantees, cash-flow plan, insurance and risk mitigation.",
+      "ordinary_explanation_to_test": "Financing and mitigations support the contracted schedule, notwithstanding weak historical revenue or continuing fundraising.",
+      "concern_cards": [
+        "J"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 71,
+      "title": "Verify the production ramp and critical dependencies",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No firm-order production plan, tooling/component commitments or capacity/lead-time acceptance record.",
+      "original_test": "P2 | Contract: Test staffing, tooling, yields, component supply, quality assurance and repair capacity against due quantities, not an assumed immediate 5,000-unit order.",
+      "decisive_record_requested_in_original": "Milestone plan, purchase orders, capacity reservations, alternate suppliers, long-lead inventory and tested production output.",
+      "ordinary_explanation_to_test": "The initial order fits existing capacity; later quantities require lead time and written option exercise before expansion is due.",
+      "concern_cards": [
+        "J"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 72,
+      "title": "Establish actual contract security requirements",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Primary security manual selected provisions read; actual SRCL and incorporated security scope missing.",
+      "original_test": "P1 | Contract: Obtain the security requirements checklist and incorporated clauses. Distinguish protected information, classified access, safeguarding, IT and personnel requirements. [S29]",
+      "decisive_record_requested_in_original": "SRCL, security guide, required entity/site/personnel clearances and the dates each became necessary.",
+      "ordinary_explanation_to_test": "No protected/classified access was required for a particular activity, or appropriate clearance existed before the relevant access or performance milestone.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 73,
+      "title": "Reconstruct the FOCI decision",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Official prospective FOCI statement and actual timing rules checked; no completed decision/entity/scope/date.",
+      "original_test": "P1 | Contract and policy: Reconcile foreign ownership, control or influence review, mitigation and approval with signature, conditional award and release to work. The PM backgrounder is not a completed approval. [S04, S29]",
+      "decisive_record_requested_in_original": "Initiation/completion dates, approving authority, covered entity/sites, conditions and authorization to proceed.",
+      "ordinary_explanation_to_test": "Assessment was completed in time. Clearance after award resolves the concern only if the governing requirement permitted that timing; it cannot cure an express pre-award FOCI gate. Prospective announcement language may have been general.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 74,
+      "title": "Check personnel and subcontract security",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No actual sensitive flows, approved subcontracts, personnel/site/foreign-transfer authorizations.",
+      "original_test": "P2 | Contract: Apply screening, need-to-know, visitor, remote-access and subcontract-approval rules to the actual information flows, including foreign partners. [S29, S30]",
+      "decisive_record_requested_in_original": "Relevant authorizations, subcontract security clauses, site access, approved foreign-security arrangements and changes.",
+      "ordinary_explanation_to_test": "Access was appropriately limited or approved; an ordinary non-sensitive component purchase did not need classified-contract treatment.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 75,
+      "title": "Classify controlled goods before alleging nonregistration",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Controlled-goods applicability requires actual configuration/data classification; military label is insufficient.",
+      "original_test": "P1 | Law: Determine whether actual hardware, firmware or technical data is controlled and which entity examines, possesses or transfers it. CGP is distinct from export permits and Secret clearance. [S31]",
+      "decisive_record_requested_in_original": "Classification, registrations/exemptions, covered sites, personnel assessments, designated official and transfer/access logs.",
+      "ordinary_explanation_to_test": "Items are not controlled, an exemption applies, or the relevant actor is properly registered. Military marketing alone is not classification.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 76,
+      "title": "Verify the correct CGP entity and dates",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Earlier official subsidiary directory lead retained; parent/site/historical certificate scope unverified.",
+      "original_test": "P2 | Fact and law: The current directory lists Draganfly Innovations Inc. with expiry 21 September 2028; it does not establish the parent's coverage or award-date validity. Directory absence is also inconclusive. [S31]",
+      "decisive_record_requested_in_original": "Actual certificate, historical effective dates, legal-entity/site scope and applicable affiliate arrangements.",
+      "ordinary_explanation_to_test": "The subsidiary is the registered actor carrying out controlled work under a lawful structure; no parent registration was required for unregulated activity.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 77,
+      "title": "Test cybersecurity certification only if required",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "CPCSC selected-contract rule known; incorporation, network/entity scope and attestation date absent.",
+      "original_test": "P1 | Contract: CPCSC Level 1 began in selected defence contracts in summer 2026; initial guidance requires it at award rather than throughout bidding. Do not retroactively demand Level 2 or 3. [S24]",
+      "decisive_record_requested_in_original": "Incorporated requirement, assessment/attestation date, entity/network scope, annual renewal and subcontract obligations.",
+      "ordinary_explanation_to_test": "This contract did not invoke CPCSC, or the appropriate certification was in place at the required stage.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 78,
+      "title": "Map mission data and external access",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No delivered data-flow, hosting/access architecture or applicable security boundary.",
+      "original_test": "P2 | Contract and security: Trace video, coordinates, metadata, logs, crash reports, support sessions and backups; compare storage, transit, access and retention with the actual clauses. [S29, S43]",
+      "decisive_record_requested_in_original": "Data-flow diagram, approved cloud/endpoints, access controls, ownership/use clauses and test evidence.",
+      "ordinary_explanation_to_test": "Architecture meets approved boundaries. Foreign ownership alone does not prove data leaves Canada, and Canadian hosting alone does not prove all access risks are resolved.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 79,
+      "title": "Test firmware and supply chain trust",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No configuration-specific provenance, update/disable/assurance evidence; no automatic US certification requirement.",
+      "original_test": "P2 | Contract or engineering test: Examine provenance, signed updates, key custody, vulnerabilities, patch timelines, remote disable functions, credential defaults and component substitutions.",
+      "decisive_record_requested_in_original": "Configuration-specific software/hardware inventories, penetration or assurance reports, update process and incident obligations.",
+      "ordinary_explanation_to_test": "Risks meet accepted requirements and mitigations. U.S. NDAA, Blue UAS or Green UAS claims matter only for the exact model and any incorporated requirement.",
+      "concern_cards": [
+        "L"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 80,
+      "title": "Verify import export and technology transfer permissions",
+      "original_priority": "P2",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "No actual hardware/data export classification or cross-border transfer; domestic CAF sale is not automatically export.",
+      "original_test": "P2 | Law and contract: Classify the actual goods/data, origins, destinations, end use and re-exports. Domestic sale to CAF is not automatically an export. [S36]",
+      "decisive_record_requested_in_original": "Canadian/Australian and any applicable U.S. classifications, licences/permits, exemptions, end-user conditions and foreign-access approvals.",
+      "ordinary_explanation_to_test": "Valid permissions cover the transfer or the item is outside the control. CGP registration does not substitute for foreign export authorization.",
+      "concern_cards": [
+        "K"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 81,
+      "title": "Screen sanctions against the transaction",
+      "original_priority": "P2",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Integrity policy sanctions nexus read; relevant transaction/ownership identities and applicable prohibitions unestablished.",
+      "original_test": "P2 | Law: Check relevant entities, ownership/control, banks, intermediaries and actual prohibitions at the transaction date; a list-name match alone is insufficient. [S37]",
+      "decisive_record_requested_in_original": "Due-diligence results, verified identities, ownership records, applicable regulation and any permit/exemption.",
+      "ordinary_explanation_to_test": "A namesake, no prohibited nexus, or valid authorization resolves the concern. No sanctions exposure is established by this checklist.",
+      "concern_cards": [
+        "G"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 82,
+      "title": "Trace forced labour and reporting duties separately",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Original 2024 report catalogue corroborated; document fetch failed, current-year duty/filing and component evidence unverified.",
+      "original_test": "P2 | Law and contract: Test incorporated anti-forced-labour obligations and customs restrictions against specific components. Separately establish the supplier's Supply Chains Act reporting duty and filings. [S38, S39]",
+      "decisive_record_requested_in_original": "Supply-chain mapping, due diligence, credible component-specific evidence and dated annual reports/board approval if required.",
+      "ordinary_explanation_to_test": "Supplier evidence addresses the risk or a filing exists outside the search results. A missing report would not itself prove tainted drones or void the award.",
+      "concern_cards": [
+        "M"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 83,
+      "title": "Freeze the delivered configuration",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No accepted Astiia model/hardware/firmware/payload/radio configuration baseline.",
+      "original_test": "P1 | Contract: Establish exact Astiia model, hardware/firmware revision, payload, radios, batteries and accessories; compare bid, test sample, approved design and production units.",
+      "decisive_record_requested_in_original": "Approved configuration baseline, serial numbers, change notices, substitutions and acceptance records.",
+      "ordinary_explanation_to_test": "An equivalent or improved component was approved under change control. Experience with an Australian version does not alone establish Canadian configuration compliance. [S04]",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 84,
+      "title": "Apply the correct airworthiness route",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Military/civil operating authority, category and clearance route require actual operator/mission records.",
+      "original_test": "P1 | Law and DND policy: Determine civil versus military operation and the applicable category. CAR 102.01 excludes Canadian military aircraft manoeuvred under MND authority; contractor demonstrations cannot automatically borrow that status. [S32, S33]",
+      "decisive_record_requested_in_original": "Operating intent, weight/category, operator, authority, required technical/operational clearance or applicable Open Category/sub-micro route.",
+      "ordinary_explanation_to_test": "A lawful alternative or exemption applies; absence of a conventional certificate alone is not proof of unauthorized flight.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 85,
+      "title": "Test mission performance in the required conditions",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No final mission thresholds, loaded configuration or independent acceptance measurements.",
+      "original_test": "P1 | Contract: Check endurance, range, payload/EO-IR performance, image quality, latency, navigation and interoperability against the final annex, with the stated load and environment.",
+      "decisive_record_requested_in_original": "Raw test results, calibration, independent acceptance record, configuration and pass/fail thresholds.",
+      "ordinary_explanation_to_test": "The system met the specified mission profile even if a marketing maximum differs. No numerical or MIL-STD/ISO/STANAG requirement should be invented.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 86,
+      "title": "Test reliability safety and environmental claims",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No specified environmental/safety limits and test/waiver/defect disposition.",
+      "original_test": "P2 | Contract or engineering test: Examine cold, wind, precipitation/ingress, vibration, electromagnetic interference, GNSS-degraded/lost-link behaviour, failsafes and operator hazards where required.",
+      "decisive_record_requested_in_original": "Approved procedures, failure logs, risk acceptance, corrective actions and retests.",
+      "ordinary_explanation_to_test": "Limits are explicitly stated and accepted, or an authorized waiver/equivalence applies. A risk or failure during development is not necessarily a breach at acceptance.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 87,
+      "title": "Verify spectrum authorization and certification",
+      "original_priority": "P2",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Exact transmitter/frequency/configuration and applicable spectrum/certification authority absent.",
+      "original_test": "P2 | Law and configuration: Match transmitter, module, antenna, power, frequency, modification and operating location to applicable ISED certification, licence/exemption or military authority. FCC approval is not enough. [S34]",
+      "decisive_record_requested_in_original": "Radio Equipment List entry where applicable, certificates, spectrum authorization and as-delivered configuration.",
+      "ordinary_explanation_to_test": "The configuration is certified or a valid exemption/special authorization applies; licence-exempt does not automatically mean exempt from technical standards.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 88,
+      "title": "Verify batteries transport and returns",
+      "original_priority": "P2",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Battery design, mode, consignor and actual shipment needed before transport rules apply.",
+      "original_test": "P2 | Law and contract: Apply dangerous-goods rules to the battery design, Wh rating, shipping mode, packaging and responsible consignor; damaged returns need separate attention. [S44]",
+      "decisive_record_requested_in_original": "Relevant UN test summary, classification, shipping documents, labels, training and special permits/exemptions.",
+      "ordinary_explanation_to_test": "Shipment complied under a valid mode-specific exception. UN38.3 transport testing alone does not prove flight endurance or military acceptance.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 89,
+      "title": "Check training manuals and usability deliverables",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Issuer initial/optional training descriptions checked; syllabus/manuals/delivery/acceptance absent.",
+      "original_test": "P2 | Contract: Verify initial cadre training, optional additional training, instructor competence, manuals, safety instructions, language and accessibility requirements actually promised. [S03]",
+      "decisive_record_requested_in_original": "Training syllabus/attendance, delivered manual revisions, exercises, operator assessment and acceptance sign-off.",
+      "ordinary_explanation_to_test": "The firm contract required only initial training; later sessions depend on options. A preferred language or format was not necessarily a mandatory deliverable.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 90,
+      "title": "Check sustainment warranty and obsolescence",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No actual sustainment, warranty, spares, update or obsolescence obligations/results.",
+      "original_test": "P2 | Contract: Test spare quantities, repair turnaround, warranty start/exclusions, software support, consumables, tooling, end-of-life notices and post-term data/parts access.",
+      "decisive_record_requested_in_original": "Support plan, service-level terms, spares inventory, warranty claims and licence continuity commitments.",
+      "ordinary_explanation_to_test": "Support meets the agreed service level or an accepted repair corrected a defect; an out-of-warranty failure does not prove original non-compliance.",
+      "concern_cards": [
+        "N"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 91,
+      "title": "Establish what was actually due and delivered",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No firm delivery schedule and serial-numbered receipts; silence does not prove lateness.",
+      "original_test": "P1 | Contract: Compare contractual dates, locations, quantities and configurations with delivery receipts; distinguish shipment, receipt, inspection and acceptance.",
+      "decisive_record_requested_in_original": "Delivery schedule, packing lists, serial-number register, receiving reports and approved extensions.",
+      "ordinary_explanation_to_test": "The deadline has not arrived, an authorized extension applies or a shipment awaits agreed acceptance testing. No public delivery announcement is not proof of failure.",
+      "concern_cards": [
+        "O"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 92,
+      "title": "Audit acceptance and rejected units",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No authorized acceptance, rejection, retest or concession records.",
+      "original_test": "P1 | Contract: Verify authorized acceptance against required tests, including partial/conditional acceptance, rejected units, rework and concession approvals.",
+      "decisive_record_requested_in_original": "Inspection/acceptance certificates, non-conformance reports, retests, defect classification and authorized waivers.",
+      "ordinary_explanation_to_test": "Defects were corrected before acceptance or a permitted concession was documented; raw failure logs without disposition are incomplete evidence.",
+      "concern_cards": [
+        "O"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 93,
+      "title": "Match payments to permitted milestones",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No invoice/receipt/contract match or FAA certification/payment evidence.",
+      "original_test": "P1 | Law and contract: Reconcile invoices, accepted quantities, advance/progress provisions, credits, taxes and FAA certification. [S07]",
+      "decisive_record_requested_in_original": "Three-way contract/receipt/invoice match, authorized section 34 certification, payment record and duplicate-invoice controls.",
+      "ordinary_explanation_to_test": "A payment relates to a lawful milestone, training or tooling rather than an undelivered aircraft. Price and cash paid need not equal on the same date.",
+      "concern_cards": [
+        "O"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 94,
+      "title": "Verify every option exercise",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No actual written option exercise; option publicity is not an order.",
+      "original_test": "P1 | Contract: Check written authorization, authorized signatory, issue within the option window, quantity/configuration, original pricing formula, delivery lead time and available funding.",
+      "decisive_record_requested_in_original": "Option notice, amendment, requisition, commitment and updated maximum liability.",
+      "ordinary_explanation_to_test": "No option has yet been exercised, or a valid exercise complied with all terms. Optional capacity is not itself an order.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 95,
+      "title": "Test amendments against competed scope",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No operative scope/options paired with actual amendment/approval record.",
+      "original_test": "P1 | Contract and applicable procurement rules: Determine whether later changes are a permitted option, administrative correction or material new requirement needing additional authority or competition.",
+      "decisive_record_requested_in_original": "Original scope/options, amendment redline, aggregate value, rationale, approval and new price analysis.",
+      "ordinary_explanation_to_test": "The change was anticipated, priced and competed, or a separately justified lawful exception covers the new work.",
+      "concern_cards": [
+        "F"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 96,
+      "title": "Check continuing obligations and incidents",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No actual notification clauses/register and triggering events tied to their deadlines.",
+      "original_test": "P2 | Contract: Test required notifications for ownership, sites, key subcontractors, security incidents, defects, financial distress, licence changes and production relocation.",
+      "decisive_record_requested_in_original": "Notification register, incident reports, change approvals, mitigation, revised certifications and corrective-action closure.",
+      "ordinary_explanation_to_test": "The triggering event did not occur, did not fall within the clause or was notified and resolved within the required period.",
+      "concern_cards": [
+        "I"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 97,
+      "title": "Follow inventory remedies and closeout",
+      "original_priority": "P2",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "No delivered inventory/custody/returns/credits/closeout record; due stages unverified.",
+      "original_test": "P2 | Contract and financial control: Reconcile delivered assets with inventory, custody, losses, returns, warranty credits, termination settlements and final release obligations.",
+      "decisive_record_requested_in_original": "Asset register, loss/return records, remedies considered, credits, final account and data/property return or destruction certificates when due.",
+      "ordinary_explanation_to_test": "Properly documented training consumption, authorized transfer or replacement explains a count difference; lawful discretion explains not pursuing a disproportionate remedy.",
+      "concern_cards": [
+        "O"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 98,
+      "title": "Separate the disclosure regimes and deadlines",
+      "original_priority": "P1",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Ordinary October 30 quarterly deadline not passed; complete publication regime/fields/version history unresolved.",
+      "original_test": "P1 | Law and policy: Distinguish CanadaBuys history, any treaty award notice and quarterly proactive publication. A September contract's ordinary ATIA section 86 quarter deadline is 30 October 2026; it is not late on 13 October. [S20-S22]",
+      "decisive_record_requested_in_original": "Applicable regime, required fields, publication dates, exemptions and correction history.",
+      "ordinary_explanation_to_test": "Publication is timely under the correct regime. A missing search result is not proof of an unpublished record.",
+      "concern_cards": [
+        "P"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 99,
+      "title": "Test confidentiality field by field",
+      "original_priority": "P1",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "ATIA framework identified; no actual withholding decision, field-by-field exemption or severability assessment.",
+      "original_test": "P1 | Law: A commercial confidentiality clause does not alone decide ATIA withholding. Identify the actual statutory basis and seek severable non-sensitive information; section 90 addresses proactive publication exceptions. [S21]",
+      "decisive_record_requested_in_original": "Decision record, withheld-field explanation, exemption relied on and severability assessment.",
+      "ordinary_explanation_to_test": "Unit rates or security details are properly withheld while the aggregate award remains public. “Commercially sensitive” may refer to narrower information than every financial term.",
+      "concern_cards": [
+        "P"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 100,
+      "title": "Reconcile public statements and later corrections",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Issuer/government statements separated from performance; no executed contract to settle every representation.",
+      "original_test": "P2 | Fact check: Compare department, ministerial and issuer statements with contract terms, signed orders, actual delivery and accounting periods; label claims by source.",
+      "decisive_record_requested_in_original": "Dated releases/filings, government approvals, correction correspondence and underlying values.",
+      "ordinary_explanation_to_test": "One statement describes optional potential and another firm spending; different scopes or dates explain the difference. A communications error need not invalidate the procurement.",
+      "concern_cards": [
+        "P"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 101,
+      "title": "Test record completeness and preservation",
+      "original_priority": "P1",
+      "status": "C",
+      "status_label": "Controlling document missing",
+      "assessment": "2026 directive specifies government record categories; no actual government file index/retention/disposition proof.",
+      "original_test": "P1 | Policy and evidence: Verify required decisions, individual/consensus evaluations, approvals, communications and financial validations were retained; identify the applicable retention schedule rather than inventing a universal period. [S18, S19, S45]",
+      "decisive_record_requested_in_original": "File index, native spreadsheets/messages, audit trails, retention/disposition authority, transfer logs and recorded missing documents.",
+      "ordinary_explanation_to_test": "Records reside with the technical team, security custodian or former organizational unit rather than in the central file; redaction does not prove destruction.",
+      "concern_cards": [
+        "P"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 102,
+      "title": "Check complaints and oversight without presuming standing",
+      "original_priority": "P2",
+      "status": "P",
+      "status_label": "Partly testable",
+      "assessment": "Bounded original oversight searches executed; inaccessible titles and generic reviews not award findings.",
+      "original_test": "P2 | Law: Search CITT, OPO, courts and relevant audit/committee records by supplier and procurement IDs. Distinguish allegations, decisions, settlements and final findings. [S11, S46, S47]",
+      "decisive_record_requested_in_original": "Complete pleadings/decisions, jurisdiction, disposition and response. Examine OPO practice reviews separately from individual award complaints.",
+      "ordinary_explanation_to_test": "No complaint was filed, it concerned another procurement or it was rejected on jurisdiction rather than merits. Absence of a case is not proof of compliance.",
+      "concern_cards": [
+        "P"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 103,
+      "title": "Reconstruct remedy deadlines separately",
+      "original_priority": "P1 when a bidder is considering action",
+      "status": "I",
+      "status_label": "Inapplicable to current task",
+      "assessment": "No supplier remedy action is being undertaken in this journalistic task; bidder-specific knowledge/standing/deadlines remain unresolved.",
+      "original_test": "P1 when a bidder is considering action | Law: CITT normally requires action within 10 working days of actual/constructive knowledge, with a timely-objection route and narrow exceptions; ATIP does not automatically stop the clock. A journalist is not automatically an eligible supplier complainant. [S11]",
+      "decisive_record_requested_in_original": "Trigger-by-ground ledger, objections/denials, debrief dates and completed filing date.",
+      "ordinary_explanation_to_test": "A newly discovered fact has a different trigger; a public solicitation defect may have become time-barred much earlier.",
+      "concern_cards": [
+        "P"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    },
+    {
+      "check": 104,
+      "title": "Check jurisdiction and legal versions before publishing a remedy claim",
+      "original_priority": "P2",
+      "status": "U",
+      "status_label": "Unresolved legal applicability",
+      "assessment": "Current NSE/jurisdiction changes and OPO thresholds examined; actual standing, coverage and challenged decision unestablished.",
+      "original_test": "P2 | Law: NSE, treaty scope and the 2025 Canadian-preference limits affect CITT jurisdiction. OPO award complaints normally concern below-CFTA-threshold contracts; court review and civil damages are different routes. [S11, S46, S47]",
+      "decisive_record_requested_in_original": "Current regulations, standing, challenged decision, forum and applicable limitation rule. Federal Courts Act judicial review ordinarily uses 30 days from communication, subject to extension.",
+      "ordinary_explanation_to_test": "One forum is unavailable without insulating every action from scrutiny; no universal damages deadline follows from the judicial-review period.",
+      "concern_cards": [
+        "B"
+      ],
+      "source_checklist": "prior/checklist-content.md"
+    }
+  ]
+}
