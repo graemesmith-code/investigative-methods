@@ -1,0 +1,235 @@
+{
+  "utc": "2026-10-13T08:57:16.912664+00:00",
+  "label_warning": "References are same-assistant source review, not independently labelled truth. Model probabilities do not establish truth. One mine, one year, one shared two-document pair; five correlated assertions.",
+  "coverage": {
+    "fresh_natural_targets": 5,
+    "paired_SEC_company_hosted_Spanish": 5,
+    "independently_acquired_SEC_SMV": 0,
+    "natural_document_pairs": 1,
+    "distinct_natural_documents": 2,
+    "original100_records_unchanged": true,
+    "prior43_checks_33_assertions_unchanged": true
+  },
+  "frozen_semantic_arm_results": {
+    "python": {
+      "natural_targets": 5,
+      "correct_evidenced_comparisons": 5,
+      "natural_comparisons_correct_classification": 5,
+      "valid_natural_comparisons_unnecessarily_parked_against_nonindependent_reference": 0,
+      "natural_unresolved": 0,
+      "natural_incorrect_comparability_acceptance": 0,
+      "natural_real_world_mismatch_recall": "unmeasured: no confirmed natural numerical differences",
+      "natural_classifications": {
+        "comparable_agreement": 5
+      },
+      "engineered_targets": 5,
+      "engineered_correct_classifications": 5,
+      "engineered_incorrect_comparability_acceptance": 0,
+      "missed_seeded_errors_returning_agreement": 0,
+      "missed_seeded_numerical_difference_alerts": 0,
+      "engineered_classifications": {
+        "comparable_numerical_difference": 1,
+        "invalid_comparison": 3,
+        "insufficient_evidence": 1
+      }
+    },
+    "openai": {
+      "natural_targets": 5,
+      "correct_evidenced_comparisons": 1,
+      "natural_comparisons_correct_classification": 1,
+      "valid_natural_comparisons_unnecessarily_parked_against_nonindependent_reference": 4,
+      "natural_unresolved": 4,
+      "natural_incorrect_comparability_acceptance": 0,
+      "natural_real_world_mismatch_recall": "unmeasured: no confirmed natural numerical differences",
+      "natural_classifications": {
+        "comparable_agreement": 1,
+        "insufficient_evidence": 4
+      },
+      "engineered_targets": 5,
+      "engineered_correct_classifications": 3,
+      "engineered_incorrect_comparability_acceptance": 1,
+      "missed_seeded_errors_returning_agreement": 1,
+      "missed_seeded_numerical_difference_alerts": 1,
+      "engineered_classifications": {
+        "invalid_comparison": 3,
+        "insufficient_evidence": 1,
+        "comparable_agreement": 1
+      }
+    },
+    "jev": {
+      "natural_targets": 5,
+      "correct_evidenced_comparisons": 5,
+      "natural_comparisons_correct_classification": 5,
+      "valid_natural_comparisons_unnecessarily_parked_against_nonindependent_reference": 0,
+      "natural_unresolved": 0,
+      "natural_incorrect_comparability_acceptance": 0,
+      "natural_real_world_mismatch_recall": "unmeasured: no confirmed natural numerical differences",
+      "natural_classifications": {
+        "comparable_agreement": 5
+      },
+      "engineered_targets": 5,
+      "engineered_correct_classifications": 4,
+      "engineered_incorrect_comparability_acceptance": 0,
+      "missed_seeded_errors_returning_agreement": 0,
+      "missed_seeded_numerical_difference_alerts": 1,
+      "engineered_classifications": {
+        "invalid_comparison": 4,
+        "insufficient_evidence": 1
+      }
+    }
+  },
+  "development_protected_hybrid_replay": {
+    "change": "After observing outputs, preserve preexisting Python explicit-conflict gates in all model workflows; model cannot override them. Frozen semantic results retained. No paid calls repeated. This is development, not a new untouched holdout. Affected classification OpenAI S05 from agreement to invalid.",
+    "metrics": {
+      "python": {
+        "natural_targets": 5,
+        "correct_evidenced_comparisons": 5,
+        "natural_comparisons_correct_classification": 5,
+        "valid_natural_comparisons_unnecessarily_parked_against_nonindependent_reference": 0,
+        "natural_unresolved": 0,
+        "natural_incorrect_comparability_acceptance": 0,
+        "natural_real_world_mismatch_recall": "unmeasured: no confirmed natural numerical differences",
+        "natural_classifications": {
+          "comparable_agreement": 5
+        },
+        "engineered_targets": 5,
+        "engineered_correct_classifications": 5,
+        "engineered_incorrect_comparability_acceptance": 0,
+        "missed_seeded_errors_returning_agreement": 0,
+        "missed_seeded_numerical_difference_alerts": 0,
+        "engineered_classifications": {
+          "comparable_numerical_difference": 1,
+          "invalid_comparison": 3,
+          "insufficient_evidence": 1
+        }
+      },
+      "openai": {
+        "natural_targets": 5,
+        "correct_evidenced_comparisons": 1,
+        "natural_comparisons_correct_classification": 1,
+        "valid_natural_comparisons_unnecessarily_parked_against_nonindependent_reference": 4,
+        "natural_unresolved": 4,
+        "natural_incorrect_comparability_acceptance": 0,
+        "natural_real_world_mismatch_recall": "unmeasured: no confirmed natural numerical differences",
+        "natural_classifications": {
+          "comparable_agreement": 1,
+          "insufficient_evidence": 4
+        },
+        "engineered_targets": 5,
+        "engineered_correct_classifications": 4,
+        "engineered_incorrect_comparability_acceptance": 0,
+        "missed_seeded_errors_returning_agreement": 0,
+        "missed_seeded_numerical_difference_alerts": 1,
+        "engineered_classifications": {
+          "invalid_comparison": 4,
+          "insufficient_evidence": 1
+        }
+      },
+      "jev": {
+        "natural_targets": 5,
+        "correct_evidenced_comparisons": 5,
+        "natural_comparisons_correct_classification": 5,
+        "valid_natural_comparisons_unnecessarily_parked_against_nonindependent_reference": 0,
+        "natural_unresolved": 0,
+        "natural_incorrect_comparability_acceptance": 0,
+        "natural_real_world_mismatch_recall": "unmeasured: no confirmed natural numerical differences",
+        "natural_classifications": {
+          "comparable_agreement": 5
+        },
+        "engineered_targets": 5,
+        "engineered_correct_classifications": 4,
+        "engineered_incorrect_comparability_acceptance": 0,
+        "missed_seeded_errors_returning_agreement": 0,
+        "missed_seeded_numerical_difference_alerts": 1,
+        "engineered_classifications": {
+          "invalid_comparison": 4,
+          "insufficient_evidence": 1
+        }
+      }
+    }
+  },
+  "costs": {
+    "openai": {
+      "requested_and_returned_models": [
+        "gpt-6-luna"
+      ],
+      "actual_calls": 10,
+      "retries": 0,
+      "input_tokens": 22130,
+      "output_tokens": 0,
+      "usage_derived_list_price_usd": "0.0022130",
+      "conservative_accounted_usd": "0.002217",
+      "remaining_authorized_budget_usd": "4.997783",
+      "invoice_actual_charges": "Unavailable from inference responses; exact invoice unsettled/unknown. No billing-admin credentials sought.",
+      "elapsed_call_seconds": 6.4714689830000225,
+      "per_kind": {
+        "natural_holdout": {
+          "calls": 5,
+          "tokens": 11499,
+          "usage_derived_list_price_usd": "0.0011499"
+        },
+        "engineered_stress": {
+          "calls": 5,
+          "tokens": 10631,
+          "usage_derived_list_price_usd": "0.0010631"
+        }
+      }
+    },
+    "jev": {
+      "requested_and_returned_models": [
+        "jev-1.13.0"
+      ],
+      "actual_calls": 10,
+      "retries": 0,
+      "input_tokens": 25775,
+      "output_tokens": 1896,
+      "usage_derived_list_price_usd": "0.001082550",
+      "conservative_accounted_usd": "0.001088",
+      "remaining_authorized_budget_usd": "4.998912",
+      "invoice_actual_charges": "Unavailable from inference responses; exact invoice unsettled/unknown. No billing-admin credentials sought.",
+      "elapsed_call_seconds": 3.1126844880000135,
+      "per_kind": {
+        "natural_holdout": {
+          "calls": 5,
+          "tokens": 13385,
+          "usage_derived_list_price_usd": "0.000562170"
+        },
+        "engineered_stress": {
+          "calls": 5,
+          "tokens": 12390,
+          "usage_derived_list_price_usd": "0.000520380"
+        }
+      }
+    }
+  },
+  "timing": {
+    "free_acquisition_request_seconds": 19.087147808999966,
+    "document_pair_download_seconds": 6.586670150999993,
+    "metadata_registry_seconds": 2.1411,
+    "preparation_script_seconds": 0.9232239479999862,
+    "source_inspection_preparation_review_wall_window_start": "2026-10-13T08:49:34.869670+00:00",
+    "source_inspection_preparation_review_wall_window_end": "2026-10-13T08:53:21.794032+00:00",
+    "window_note": "Bounds, not active labor stopwatch: includes downloads, inspection, source searches, fixture writing and review. No human labor occurred; user/editor review time unknown. Report-writing/setup time excluded. Approx prep string in original packet freeze is not a measured duration; use UTC bounds here.",
+    "python_compute_seconds": 0.0002381159999913507,
+    "inherited_fixed_setup": "Prior reviewed contracts,100-record extraction,43 controls,registry development: costs/time unknown, not charged to new marginal batch. New harness/reporting effort measured only by timestamps; human/ChatGPT subscription and translation judgement costs unknown. Shared pdftotext/lxml extraction has no paid API cost; no paid OCR/translation/services."
+  },
+  "blockers": [
+    {
+      "action": "Acquire independently regulator-hosted2025 annual report",
+      "target": "https://www.smv.gob.pe/SIMV/Frm_Memorias?data=A70181B60967D74090DCD93C4920AA1D769614EC12",
+      "reason": "Public ordinary company59/year2025 POST returned HTTP200 internal-error page (Error500); no document links. Searches found no verified2025 Nexa Peru SMV document. No outreach made.",
+      "state": "acquisition_failed; not authorization denial",
+      "completed_work": "Fresh SEC and company-hosted signed preliminary Spanish pair acquired,hashed,scored; cannot call it SEC-SMV coverage."
+    },
+    {
+      "action": "Independent blind human reference review",
+      "reason": "No human reviewer available within delegated route; same assistant source review was saved pre-output.",
+      "state": "unavailable; not denial"
+    },
+    {
+      "action": "Verify invoiced provider charges",
+      "reason": "Only inference credentials/interfaces used; responses provide tokens, not invoice. Usage pricing archived and conservative ledger enforced.",
+      "state": "actual invoice unavailable; cost is usage-derived list price"
+    }
+  ]
+}

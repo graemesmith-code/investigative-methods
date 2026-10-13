@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-13T08:53:21.794032+00:00",
+  "packet_sha256": {
+    "CL-2025-Ag.json": "de038b6774dd4c9ceea962d9fb45c392a166886d5b7057dff87da8fd75b49a46",
+    "CL-2025-Au.json": "5e59a07a99b364c7c47baef8e11c9e62d0d9de6bc51e0cdcdfe47ecc2eb0f888",
+    "CL-2025-Cu.json": "5f08a8123128f41ac48dd2bc409cf5bb589cc1d29d8ad392990919226d3846bc",
+    "CL-2025-Pb.json": "baef9783e965dc557b9552e714a2b269cd040b16057b85898071e673f9830c49",
+    "CL-2025-Zn.json": "0aea1e8d041874cea8d4a9bb2d0188dc4be10143e64854ba5617398a51b32d39",
+    "S01-quantity.json": "2f5c921d5f58447113131a995de64b8a1c8aae9061592635afc9f09b138f1013",
+    "S02-year.json": "23ffa81b25f0930920bfe8d37806ef62c882cc240fbb14803202c3c0652df301",
+    "S03-unit.json": "43d5da142d2981d33f86a8032a45959df8393b52a24903b69a0f572b6de0f070",
+    "S04-missing.json": "e325792466efa1ac0999070fe29e4fbfea8c4a1725e015e98655a87c0f6d18f5",
+    "S05-ownership.json": "0cf4c1d2ece7bbe776629b9d290ce370d7e7d544949cc168accb08aa68c3be17"
+  },
+  "reference_sha256": "ad50203bd95b9f674bffc27d02b7d13c13547dcabbf67aef0d6da7bb9a388d34",
+  "no_paid_calls_yet": true,
+  "preparation_script_elapsed_seconds": 0.9232239479999862,
+  "manual_or_assistant_layout_prep_window": "08:50–08:55 UTC approx; wall window includes reasoning/acquisition; no human stopwatch, no invented labor charge"
+}

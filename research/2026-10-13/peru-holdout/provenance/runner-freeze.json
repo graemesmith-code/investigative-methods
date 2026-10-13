@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-13T08:55:02.938496+00:00",
+  "code_sha256": {
+    "code/acquire.py": "dc9d5b32f158a98a0c88b25f1734b325508e0c9b621427c301aa8ec38fe8de8b",
+    "code/run.py": "df812f3a353ff94ad64bb4822960f6b9677915531dad81d217e3edeeaf1bfb49",
+    "code/prepare.py": "9bbe40f8db998d79c7eb54982ce83f55789441987fca3cca39af5ac13ded03c1"
+  },
+  "stage": "prepaid, no arm outputs inspected; offline Python replay completed",
+  "price_verification": {
+    "openai_decisions_input_per_million_usd": 0.1,
+    "openai_output_charge": 0,
+    "jev_input_per_million_usd": 0.042,
+    "jev_output_charge": 0,
+    "note": "Decisions-specific price supersedes generic Luna Responses output price; archived primary docs. Conservative reservations include possible failures; no auto retries."
+  }
+}

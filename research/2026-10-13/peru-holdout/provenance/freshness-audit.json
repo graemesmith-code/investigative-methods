@@ -1,0 +1,623 @@
+{
+  "base_commit": "c319cce044c416a90bb4b7e5ac81d49ec63fb11f",
+  "scope": "All committed Peru baseline files, including notes, manifests, controls, registry metadata, comparative column locators. Prior cached full documents not available here; conservative exclusion of 2024 based on annual2024 exposure. Other repository research searched separately.",
+  "files": [
+    {
+      "path": "research/2026-10-12/peru-production-pilot/CASE_REVIEW.md",
+      "sha256": "c82c7e1248ef5d0fd4409a6d559f749b5f6fdc95ec32207000325d147c92f4a8"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/FOLLOWUP_BATCH.json",
+      "sha256": "28cdf3f77ba6713f38cf719d0f029d2c84825557a306398e310a8a0426306356"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/FOLLOWUP_NEWSROOM.md",
+      "sha256": "52b5b0708e69ab2f1648bac11f9a86235359e44e7c21410695636764017814e5"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/FOLLOWUP_TECHNICAL.md",
+      "sha256": "1a7888626669a9ff9805aab7c158370c32d0c840f5827e244bf40d345a794ab8"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/FREE_API.md",
+      "sha256": "4a55deabdd7313704b7d1a8420eb349375b9cce640acdda0880ad9959b02487b"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/IMPLEMENTATION.md",
+      "sha256": "24a05f1ef3ec60e1cf9886ef7f35efcb22ec60fab06b89bd42702a938de4dab3"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/MEDIA_NOVELTY.md",
+      "sha256": "eafade9da1710e30a37671cb81ef568b73aa538d36b5b9c2c8862a2c30d63015"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/NEWSROOM_BRIEF.md",
+      "sha256": "a6b896bcfbd760d2337ee7a34cf0f0632126785a3cc30fb8d601cecd5ae4d5b0"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/PROTOCOL.md",
+      "sha256": "089af8c61f48660ea43fb0cffafe8ce4ec778e47bd8e0a859453b0786ad1a972"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/README.md",
+      "sha256": "6d41fc9af6939fcc437b013453e77219bd0f9c84c49f0e7474e49ef1cb24fc57"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/RESULTS.md",
+      "sha256": "8b315eb034dc59c7547dd3d9acf539b281ed0f1958ffd7b88805c7987b459fe7"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/SOURCES.md",
+      "sha256": "0cb1907d0c4ffc7ebf9483d028ed5682166b68bab9d0b7a4a2070c39dcc3f6f5"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/TECHNICAL_ANNEX.md",
+      "sha256": "ad9e089ae782752807e0a09be4eb7eecfaa9a1c506557576b5cf8b9677b3dcbe"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/TRADE_CHECK.md",
+      "sha256": "eca3ccdb19ea509df747bbab14b963585ec01332fe27e95c662dd57d303c14e7"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/agreement-audit.json",
+      "sha256": "1ec60448088d832e7d1c025f17b7bd4897c39d660671e87abdad71a45838029b"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/comparison-input.json",
+      "sha256": "c4031954304c39be6e51e98908ccef89cfcda8862aed4950530bcd522171bb3e"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/control-test-log.txt",
+      "sha256": "8b17697363d28cb210099f18427d57e3ec0b9da391795cc767f730123bbf4a51"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-access-log.jsonl",
+      "sha256": "43e9fc483ac10072f18ff5b5ead04883af4e7437bda428514b1041baf647d6df"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-antamina-product-hypothesis.json",
+      "sha256": "03175006733f606a695e42b7265283b607e4629b27d78fb9d67d6d6c5876f015"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-case-ledger.json",
+      "sha256": "1c8a8123e7809e149b5f9d42c1098b748f7dd33262188f040c2458fd266b7746"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-control-summary.json",
+      "sha256": "5492dcdd05a2d4906f67a1bb7e39ccbe85009259f4571863fb05d1d4729bec0d"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-fetcher-test.jsonl",
+      "sha256": "d0af9e3a1eb6c44e5470cf4a8dff7f1a28877417fa717cf505367c562df08f31"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-gold-quarterly.json",
+      "sha256": "5940d7d7023a10e4a7cc930668b4ec231c900f2367db3d53070ce49526b6b16d"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-language-controls.json",
+      "sha256": "ed7fa130b8b4616a3603ffad7f4fdb8bef841a3cc2c8a11e9ea19b88e5fed646"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-2019-registry.json",
+      "sha256": "a0783579ebbc4e4c6c176b73ac9f432d2cdca08929386ac0a61debe934272cfb"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-2020-registry.json",
+      "sha256": "4f2373d5936e5ae9f6ec8345faecd8c9e8d2e23fc6bc495ce7f703fd05349a67"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-2021-registry.json",
+      "sha256": "baefa27f611add2e9f5b0489695065e054efc0520809b943a4a63eb12ef94363"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-2022-registry.json",
+      "sha256": "49301bd293382ec1f973f85d8edc07f3edad363e4e0d4e9cc431180b8bcacf19"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-2023-registry.json",
+      "sha256": "4bd3600aa2ed241bad7d9fe18109d1272ad7850af6811a438042ff0cfad5af1a"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-2024-registry.json",
+      "sha256": "a9ef2f03dd9a0149d1e90cf4d211183c36ee83eb6828e53a30e380295213d969"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry/nexa-es-years.json",
+      "sha256": "6bd59f782ad23f2d7beecae013a83024777cfa4d81afb41e153d51644b6c26b3"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-registry-client-test.jsonl",
+      "sha256": "2f54bd7949292146ba218afddf131b1a29cbe08da9234e3702af931ec57c6d31"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "sha256": "5fdb24f439497a211fd88955ef6c656d49b6bd8f35d7352a2e456ce5231dd1c1"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/followup-test-log.txt",
+      "sha256": "918427cdaf64fe4992594642dded9d1cf5111d34988488e7d70618b73efcc888"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/frozen-batch.json",
+      "sha256": "cbcf4b2093eb408eefa7da2984fe723100a8226bfa5fa1b244989f076b3e7a7f"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/host-detailed-rows.json",
+      "sha256": "3d32907318456eb1fcec88642f87a4a018ad825904f6c682daca0b210c5c73c4"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/host-records.json",
+      "sha256": "0c43b76dc21c5b3bb97fad661e77d1a642fa406db2eaf39cc282a6052f223492"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/host-version-audit.json",
+      "sha256": "5c95161286e9f717c960b4b0b6d386be1e198cd4041c4b83c7b9d1a53066d5f0"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/results.json",
+      "sha256": "98de156ea433eb4fa7a12b1646c56cd5578429fc88b94f1870816519a547213b"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/review-ledger.json",
+      "sha256": "1e3f88914cd002ab74dafa709b0cd135d925b119d0da62daf0ca059552ace2a2"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/series-review.json",
+      "sha256": "c5f1e5b99cdd515cd7bae40e6b8ba2e108cd710f6c6b0a70d20212528ec424ed"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/source-manifest.json",
+      "sha256": "a1823b30a1134a8bfdc6430b074450f801079e5bc28b6636c45d192eebd32eab"
+    },
+    {
+      "path": "research/2026-10-12/peru-production-pilot/summary.json",
+      "sha256": "dfdb11771990a868abf0a43cc30296009c2cbd2afe986f28e1e3c3d0c97043b8"
+    }
+  ],
+  "prior_document_hashes": [
+    "01a1e15fbd30c2979bdd30611760bf0ac13597de3f6460a849c2af4da1be757f",
+    "04660f1151cb805eedf39f6d9f7c88b47fc37cfb1c06d7ddce7050504157b72e",
+    "0546551f9299759d5acc77897c246ff0be3883f60956d0bdd5e1781448281c36",
+    "09d80b1624316cbf7b727ebaba42dfa32c3cc6cdc2cdc8d8582afc99cc832745",
+    "0ac9b8002ab92d68d57f8a1f4a1cf6efa74196a41aff5d0f735fffa00223097c",
+    "0dc7542ba946bb407e8bc089501822080ac6a63fd6baf536030e8c88f191f433",
+    "12316238b7e8056145b3e39ee5e37743af1a30db6d3f14367ee4a75e291eb809",
+    "177eeb9c067a8dc10772a6933734c3577ca9deb479a7059319a1766b59533693",
+    "17f5e858a13c3872311fa2fab2afa17be0fbbc7d42f8ce637a8e2a84e296aef4",
+    "18a21343f0d9c3ec085bb41e91e964cbcc3881a04c92ab64740e726ab5f5da7f",
+    "19416be202b672b9603f5e8fdfe82ead23d88932673dfb93945b4cb1599f8194",
+    "19d1b56fda837f6fece94805a08540fd67186d1cc791097256ba6adfcb7a2831",
+    "1a6865a8b9ab4d239b797a9de52a25ad0049f0a003e196e1b56f53732bf9ba22",
+    "1aab3d20a9892e3adb08a15f0758f5640ce4c170dc54dcfc7abbb2e63b51e0a5",
+    "1f4effbcadaa4e476e0e4853f43687bea349a2550945dcd8344d896916976ea6",
+    "207e062611026f10af5cba0496c5427ed74643207a2e772244e2c0dad1379d05",
+    "24e42ded59e1393e52ee153bd1d1a1f48e4d5dd82b2c4c281b8e0a5b3e617301",
+    "296fab7f96ecf6674c4f784a3f83a07a873b625c51aa320c437244508d1e7b40",
+    "2b07658cad93a8202e2968f0e396a474f55a3dd1785452a0ccbf23586cf85129",
+    "2b2a0e4c226814a94b51c33fed751d895ff52c2bc67222fc13b4a936f94e88cf",
+    "2b89143cf67f813659326a42decb5a15099845023c18fe10004cdc3931d24870",
+    "3759a526ed844cfbb8179fcbb424a4b6a224227d8663670a40ffaf8762a23294",
+    "38293b7c54e94c6884bc117c4eedc8c7ef7fb4a5bb631ed26172497adf82a147",
+    "39caf495192c1773de0515156fe7b55ae0dea53c29c4adc9fb6d0b1c3bcdcb27",
+    "3d87fabd62da4d5c5ff2606dfd334dc2b389cd1f844465ca23d1773048e700e6",
+    "404d4a8568bde9abc76659b40c6e3515fe3568cc0a481655257ecf7d85b5150d",
+    "430fbc0a7cb6ceccc356d617c05c798dc94569a03b0f9a933430c08de505ecec",
+    "43c2ee5c09ebdc75173710b5ae421d1085fdbe26528c2c22e95a8eb512d036c0",
+    "43f51fe0823d88b146e339c0dc8e9121fa5e90ade57ca727054bcba907d226f4",
+    "449e7e31cbb3f675b5b9672663c3d782899424d20911c13a99afa4668e5c5cac",
+    "468780ca4789e29f655dbd046978c9eb9d66423eb1edaa1929131f1f28c35351",
+    "49301bd293382ec1f973f85d8edc07f3edad363e4e0d4e9cc431180b8bcacf19",
+    "4a13af06079094a8d509229b6f5d448c258a56f428191c450509d56dfb69337c",
+    "4bd3600aa2ed241bad7d9fe18109d1272ad7850af6811a438042ff0cfad5af1a",
+    "4e02af83f1cc5b46317747fe4f23b31a3ea1e39c9bdd972ff874b1744bb6369b",
+    "4eb647dcb71b6ebbce212a5c272360ba12acc18291fa9e96ed8277e99d057860",
+    "4f2373d5936e5ae9f6ec8345faecd8c9e8d2e23fc6bc495ce7f703fd05349a67",
+    "4f3846fe9c09e9beed94c04a421fc7feea22bf3e99c5fd96a4e34648118e7298",
+    "509bbb9a61e5dbcb3c6a47726d64abe2aaf8522325ea6b6606cae39cf1203807",
+    "5808181610741718af53c1f2fe9e597548bfa2666111935afea9ced28fdf38b5",
+    "5a0495f96c7dbb3295b4d2617d873b07a2db9959329161fddef18f8d326fc0cb",
+    "5a551b37f3272682c7abc9444b85528a7b6e9e562487402b13dab397081ca895",
+    "5ca64a3cb206220ea655473286a8ba0402b772cf293109cc3e6856f7c93842bc",
+    "5d05ee1d6b10e9aa95d21edde9bccae5b1a85e01181ef9dfe06357f434d0e513",
+    "697de479f030da5fd7af29a2771008a821cdfdad95b053daefba9c44ec2498f9",
+    "6b7b18fda442824769e4533d872f88e7f89c56706b3ccbab1580e9b17f17cfe0",
+    "6bd59f782ad23f2d7beecae013a83024777cfa4d81afb41e153d51644b6c26b3",
+    "6ef7b90a64ac587df6dd6c1e44da91bdc310c5d77ed8077a5d21cf942eee600f",
+    "6f0658b25daf4acfbc574e530b06fc6831eb5075452c765989fd0855ff94e63f",
+    "6f6b20a5ae50128c56fd6c116303652594382d0ac1a6748aafb960ee1d1e11e4",
+    "7929683b67bd5fc0f35b69eb74f1ca071a32484af43f38d016bc56745592a0fb",
+    "7baceed41818715ef29c29024a07d3a21552901271ac00d48bfb8772f32bf2e9",
+    "7ef76d83d29924b47afcf5a08e2202415bc387f10f2f941662604d60dd8e2f1e",
+    "8199fe51fe1b4e29e11d7aff269f550a804fa761caf930aa00a65883b0b3b6bd",
+    "82e27cd98b203dea24bf03ee3c53b5ae359ca64b618b3f0141bb4c93dfe93903",
+    "8567fa111e3445bd705329d387fd35f2727ffb9d7fafbbeee5f3a1159c45109b",
+    "89159edb75deb5495f254437139fee52496924a4cb5f53d097b442e6458abab7",
+    "8bb0bda32ad778194e1bac625ddfd1da146eeda88e843d9b56bacd6c9340442d",
+    "8dd570936ee0421db4833e47e9b65394fb1c3b006a93fa559e4eb43e7c2a1938",
+    "8e4dadc514026e35380bd4adbfa8118ddadf762d4cc2520ea156ea4293d30547",
+    "913fa4f15f1edceb3f8c1b9158cf0fb7ddc3563f3c67b0b123ede9fcc4dd924a",
+    "937741edb5678a788b60798968deabd047e8b551318051dee3eeb7160262d095",
+    "9c2eb6e767a68a3f7c1705a4e64547b3129c2b772dda4539a327ebeb8a429fae",
+    "9dd5ba38c6f7a0e888c70a19bfcacfcb856182b756c1f4924db5dc736e4132b3",
+    "a0783579ebbc4e4c6c176b73ac9f432d2cdca08929386ac0a61debe934272cfb",
+    "a736ea27245b50e7a57165ac0bb3d98a1507cbe8750a4d7404baaa53a2d623f4",
+    "a9ef2f03dd9a0149d1e90cf4d211183c36ee83eb6828e53a30e380295213d969",
+    "aaed0bc7330565bc87c016b0e133945b50b5e85a61e073eeb36521d412dcdd02",
+    "adf0f3c39e27b46f797c8b27813d78234a78fa964d206ce712f6f3a004bd7fb0",
+    "b3bc81e1612aa261387a2ed8237e26dacb9def55ada088d1fa2a5bfcae064b44",
+    "b403b0a6ce588bff079420076a1f4d79d98fc72dc1ba77da82769e53c31292a5",
+    "b473233f516ce37c7ac465a63df12bd060876e7e34071a04be260eb1f5addb8d",
+    "b626e046b2677294ade39ffc76b3022f2af421262ac47c1d64b690c2d2196939",
+    "b69391880247e3c91f6b3dc2f9d1823b85417d3571b6f560b0c769be2bc082a3",
+    "b74c65f83da73278b828ee1b8e9a4cab32207f6ed5f9c104d195f72ccd70daf0",
+    "baefa27f611add2e9f5b0489695065e054efc0520809b943a4a63eb12ef94363",
+    "bd01046e1979a5dd0d7e0e3f53e3b106eec6298c5979b2552c6cad6293b0f3e2",
+    "bda792c6f44846adaadb668ddf90c8fc8cfa560fb7461e7c6ac07d8a1f5e0cb8",
+    "c2194c36001c1bce760b3da53dad98b7e405359b7f311217288684e738ec5c68",
+    "c8e2a5a4bc7263b10ce2d294984c5dd1aefd1c12c04c516e5a5c351b20dadbcd",
+    "cbcec09c7399197102c1c2f5829c316e73a960fa2186e64df01dfb494561903f",
+    "d05d3922e117d11db2b0dd23d9dfbee9fb39a2ff3ef8113f1a897f4b9780bddd",
+    "d1ebd3d6e34d96f0d5af0b30da5b6b391a3c6f308570f902764db10431d641b9",
+    "d8a544b7e995130108130ba9bc467f5929c6d20ec4db6bb9bbd9c8ee338c6d66",
+    "dd49e2621194153c6da91837f281c363b92805cbee119fee48a2ac96617cfcf6",
+    "df3c060f17e7c487fd3d64d9db65d7f7c5552a888b16183e0ef07f93660f0be9",
+    "e00d2e6057b7b256146a48cae58de29700826eb0e989365e5d40e4e2c5ec103d",
+    "e1e50cda059f6b1e38ab1cf0fe37a740bdfa5c7eab1ac92ea2da2b81e9d9c1ea",
+    "e32c754a28c19e87b1444ce08239e70f2dd465267db97e8843fcae25035fc028",
+    "e3ff53908c9c6eba6a43e64b39b81f4b868f5e63aeb90d2818f540a70d7d6c41",
+    "e9271c65ab3fcf0dfcf3feafea224cb00d71bc62eb0252e6ffd1e794c1d1a089",
+    "f25c5530aa79652fcbe699f18ca22b2c3e2e81de8677d88fb054bf43bfa9bcbb",
+    "f696eea26a4bb51e7a56eda3bb5c1964b198dc3e37658964ee68be34f55bd29c",
+    "f7c854ca9e18a1c6ecb61f1078725b5aa5d85c4304687c2f3877e5c2180dabc2",
+    "f82d0563c5aa7be6df1d31f8e715329bd8bd255d7860aa242706702f7c043d43",
+    "f86a2599f8244d90dfa884441a732838fc2e19169e1921ed0414eeb9b5bb9462",
+    "f94bb8fe99eb9d5171139ce4d96c3b392db50d07e7d334a7d43e11a6b6a1aa37",
+    "fbc79dd027177f77b9b348a7fba3b1bcdb6cb1040fc23be002f66d075ab3b872",
+    "ff4d806fe8bc4e3a60f928c8b289d382ec5ea4f6d0f0321746c4caa2f842b428"
+  ],
+  "explicit_prior_assertion_keys": [
+    [
+      "Cerro Lindo",
+      "Ag",
+      2019
+    ],
+    [
+      "Cerro Lindo",
+      "Ag",
+      2020
+    ],
+    [
+      "Cerro Lindo",
+      "Ag",
+      2021
+    ],
+    [
+      "Cerro Lindo",
+      "Ag",
+      2022
+    ],
+    [
+      "Cerro Lindo",
+      "Ag",
+      2023
+    ],
+    [
+      "Cerro Lindo",
+      "Au",
+      2019
+    ],
+    [
+      "Cerro Lindo",
+      "Au",
+      2020
+    ],
+    [
+      "Cerro Lindo",
+      "Au",
+      2021
+    ],
+    [
+      "Cerro Lindo",
+      "Au",
+      2022
+    ],
+    [
+      "Cerro Lindo",
+      "Au",
+      2023
+    ],
+    [
+      "Cerro Lindo",
+      "Cu",
+      2019
+    ],
+    [
+      "Cerro Lindo",
+      "Cu",
+      2020
+    ],
+    [
+      "Cerro Lindo",
+      "Cu",
+      2021
+    ],
+    [
+      "Cerro Lindo",
+      "Cu",
+      2022
+    ],
+    [
+      "Cerro Lindo",
+      "Cu",
+      2023
+    ],
+    [
+      "Cerro Lindo",
+      "Pb",
+      2019
+    ],
+    [
+      "Cerro Lindo",
+      "Pb",
+      2020
+    ],
+    [
+      "Cerro Lindo",
+      "Pb",
+      2021
+    ],
+    [
+      "Cerro Lindo",
+      "Pb",
+      2022
+    ],
+    [
+      "Cerro Lindo",
+      "Pb",
+      2023
+    ],
+    [
+      "Cerro Lindo",
+      "Zn",
+      2019
+    ],
+    [
+      "Cerro Lindo",
+      "Zn",
+      2020
+    ],
+    [
+      "Cerro Lindo",
+      "Zn",
+      2021
+    ],
+    [
+      "Cerro Lindo",
+      "Zn",
+      2022
+    ],
+    [
+      "Cerro Lindo",
+      "Zn",
+      2023
+    ]
+  ],
+  "2025_mentions": [
+    {
+      "file": "research/2026-10-12/peru-production-pilot/FOLLOWUP_NEWSROOM.md",
+      "line": 30,
+      "text": "The linked [CooperAcción article](https://cooperaccion.org.pe/la-brecha-entre-la-produccion-y-la-exportacion-de-oro-en-el-peru/), published 11 May 2026, describes a national production/export gap exceeding 100 tonnes for 2025 and associates the gap with informal and illegal mining. It motivates investigating gold. It does not identify these companies as responsible or establish matching company-level production and exports. Our frozen production sample covers 2019–2023, not the article's latest "
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/FOLLOWUP_TECHNICAL.md",
+      "line": 16,
+      "text": "The SMV-hosted 2024 company annual report is also explicitly marked preliminary and subject to shareholder approval, digitally signed on 27 February 2025. It repeats **2023** quantities on PDF pages 108–109. These exactly match the 2023 SEC filing: Zn 78,209 t; Cu 28,588 t; Pb 13,042 t; Ag 3,540,975 oz; Au 3,418 oz. The Spanish source is a later comparative disclosure, explicitly not a contemporaneous 2023 ESTAMIN submission. These are regulator-hosted preliminary company statements, not confirm"
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/FOLLOWUP_TECHNICAL.md",
+      "line": 32,
+      "text": "The publicly filed Wheaton 2025 AIF repeats Teck-like historical quantities. Repetition is not independent measurement validation. No original company ESTAMIN return and amendments closing the stream/assay question were obtained. Park all ten Antamina lead records."
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/MEDIA_NOVELTY.md",
+      "line": 33,
+      "text": "- [The Guardian, 4 February 2025](https://www.theguardian.com/global-development/2025/feb/04/the-last-drops-of-our-water-how-a-mine-left-some-of-perus-poorest-high-and-dry): investigated water shortages, arsenic exposure and disputed environmental impacts around Antamina."
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/NEWSROOM_BRIEF.md",
+      "line": 42,
+      "text": "Finally, this sample does **not** test or explain the reported national production–export gap. [CooperAcción's article](https://cooperaccion.org.pe/la-brecha-entre-la-produccion-y-la-exportacion-de-oro-en-el-peru/) reports gaps of 73.9 tonnes in 2023, 98.5 tonnes in 2024 and more than 100 tonnes in 2025. That is the reason to investigate, not evidence that the Western-reporting companies in our sample caused it. Informal miners and gold buyers outside this sample may be central to that separate "
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/SOURCES.md",
+      "line": 65,
+      "text": "| ares-oefa-2025.pdf | HTTP Error 403: Forbidden | context / host / diagnostic | [source](https://cdn.www.gob.pe/uploads/document/file/7693736/6513529-resolucion-n-0134-2025-oefa-dfai.pdf) |"
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-access-log.jsonl",
+      "line": 6,
+      "text": "{\"id\": \"antamina-spanish-ar2024.pdf\", \"url\": \"https://www.antamina.com/wp-content/uploads/2025/11/reporte-de-sostenibilidad-2024-esp.pdf\", \"tested_at_utc\": \"2026-10-12T19:33:57Z\", \"error\": \"<urlopen error [Errno 1] Operation not permitted>\"}"
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-access-log.jsonl",
+      "line": 15,
+      "text": "{\"id\": \"antamina-spanish-ar2024.pdf\", \"url\": \"https://www.antamina.com/wp-content/uploads/2025/11/reporte-de-sostenibilidad-2024-esp.pdf\", \"tested_at_utc\": \"2026-10-12T19:40:48Z\", \"status\": 200, \"final_url\": \"https://www.antamina.com/wp-content/uploads/2025/11/reporte-de-sostenibilidad-2024-esp.pdf\", \"content_type\": \"application/pdf\", \"bytes\": 10791026, \"sha256\": \"207e062611026f10af5cba0496c5427ed74643207a2e772244e2c0dad1379d05\", \"format\": \"pdf\"}"
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-access-log.jsonl",
+      "line": 34,
+      "text": "{\"id\": \"pan-aif-2024.pdf\", \"url\": \"https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20250220/SEDAR_PLUS/CSA_SEDAR_PLUS_NOTICE_RECORD_ID_2036124.pdf\", \"tested_at_utc\": \"2026-10-12T19:46:05Z\", \"status\": 200, \"final_url\": \"https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20250220/SEDAR_PLUS/CSA_SEDAR_PLUS_NOTICE_RECORD_ID_2036124.pdf\", \"content_type\": \"application/pdf\", \"bytes\": 1889161, \"sha256\": \"4eb647dcb71b6ebbce212a5c272360ba12acc18291fa9e96ed8277e99d057860\""
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-access-log.jsonl",
+      "line": 48,
+      "text": "{\"id\": \"wheaton-aif-2025-sec.html\", \"url\": \"https://www.sec.gov/Archives/edgar/data/1323404/000119312526134908/d56281dex991.htm\", \"tested_at_utc\": \"2026-10-12T19:58:23Z\", \"status\": 200, \"final_url\": \"https://www.sec.gov/Archives/edgar/data/1323404/000119312526134908/d56281dex991.htm\", \"content_type\": \"text/html\", \"bytes\": 2017212, \"sha256\": \"8e4dadc514026e35380bd4adbfa8118ddadf762d4cc2520ea156ea4293d30547\", \"format\": \"html\"}"
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-language-controls.json",
+      "line": 1019,
+      "text": "      \"document_status\": \"Preliminary 2024 annual report, digitally signed 2025-02-27; 2023 comparative quantities; subject to shareholder approval\""
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-language-controls.json",
+      "line": 1048,
+      "text": "      \"document_status\": \"Preliminary 2024 annual report, digitally signed 2025-02-27; 2023 comparative quantities; subject to shareholder approval\""
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-language-controls.json",
+      "line": 1077,
+      "text": "      \"document_status\": \"Preliminary 2024 annual report, digitally signed 2025-02-27; 2023 comparative quantities; subject to shareholder approval\""
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-language-controls.json",
+      "line": 1106,
+      "text": "      \"document_status\": \"Preliminary 2024 annual report, digitally signed 2025-02-27; 2023 comparative quantities; subject to shareholder approval\""
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-language-controls.json",
+      "line": 1135,
+      "text": "      \"document_status\": \"Preliminary 2024 annual report, digitally signed 2025-02-27; 2023 comparative quantities; subject to shareholder approval\""
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "line": 116,
+      "text": "    \"url\": \"https://www.antamina.com/wp-content/uploads/2025/11/reporte-de-sostenibilidad-2024-esp.pdf\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "line": 119,
+      "text": "    \"final_url\": \"https://www.antamina.com/wp-content/uploads/2025/11/reporte-de-sostenibilidad-2024-esp.pdf\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "line": 415,
+      "text": "    \"url\": \"https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20250220/SEDAR_PLUS/CSA_SEDAR_PLUS_NOTICE_RECORD_ID_2036124.pdf\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "line": 418,
+      "text": "    \"final_url\": \"https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20250220/SEDAR_PLUS/CSA_SEDAR_PLUS_NOTICE_RECORD_ID_2036124.pdf\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "line": 610,
+      "text": "    \"id\": \"wheaton-aif-2025-sec.html\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/followup-source-manifest.json",
+      "line": 619,
+      "text": "    \"source_path\": \"research/peru-followup-raw/wheaton-aif-2025-sec.html\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/host-detailed-rows.json",
+      "line": 8516,
+      "text": "      \"14634.8937472025\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/source-manifest.json",
+      "line": 806,
+      "text": "    \"id\": \"ares-oefa-2025.pdf\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/source-manifest.json",
+      "line": 807,
+      "text": "    \"url\": \"https://cdn.www.gob.pe/uploads/document/file/7693736/6513529-resolucion-n-0134-2025-oefa-dfai.pdf\","
+    },
+    {
+      "file": "research/2026-10-12/peru-production-pilot/source-manifest.json",
+      "line": 810,
+      "text": "    \"source_path\": \"research/pilot-raw/ares-oefa-2025.pdf\","
+    }
+  ],
+  "decision_2024": "excluded: annual2024 SMV was read; full 2024 output likely exposed even when scored controls focused on comparative 2023",
+  "decision_2025": "Admitted as fresh against available committed baseline: new hashes, no prior2025 Cerro production assertion found; prior2025 mentions were publication/signature/other-company dates and registry buckets. Same-document comparative2024 excluded; unseen uncommitted prior assistant history cannot be proven absent.",
+  "new_document_hash_overlap": {
+    "english": false,
+    "spanish": false
+  },
+  "new_assertion_keys": [
+    [
+      "Cerro Lindo",
+      "Zn",
+      2025
+    ],
+    [
+      "Cerro Lindo",
+      "Cu",
+      2025
+    ],
+    [
+      "Cerro Lindo",
+      "Pb",
+      2025
+    ],
+    [
+      "Cerro Lindo",
+      "Ag",
+      2025
+    ],
+    [
+      "Cerro Lindo",
+      "Au",
+      2025
+    ]
+  ],
+  "baseline_repo_same_line2025_mentions": [
+    {
+      "file": "research/2026-10-01/ati-cloud-preflight/corpus/dfatd-maecd-00000.json",
+      "line": 1,
+      "excerpt": "{\"help\": \"https://open.canada.ca/data/api/3/action/help_show?name=datastore_search\", \"success\": true, \"result\": {\"filters\": {\"owner_org\": \"dfatd-maecd\", \"year\": 2026}, \"include_total\": true, \"limit\": 250, \"offset\": 0, \"records_format\": \"objects\", \"resource_id\": \"19383ca2-b01a-487d-88f7-e1ffbc7d39c2\", \"sort\": \"_id asc\", \"total_estimation_threshold\":"
+    },
+    {
+      "file": "research/2026-10-01/ati-cloud-preflight/corpus/records.csv",
+      "line": 166,
+      "excerpt": "124032797,2026,3,A-2024-12694,\"Records related to Global Affairs Canada's planning, threat assessments, or diplomatic coordination in relation to military, hybrid, or annexation threats originating from the United States dated from January 1, 2015, to March 31, 2025.\",\"Documents liés à la planification, à l’évaluation des menaces ou à la coordinati"
+    },
+    {
+      "file": "research/2026-10-01/ati-cloud-preflight/corpus/records.json",
+      "line": 2467,
+      "excerpt": "    \"summary_en\": \"Records related to Global Affairs Canada's planning, threat assessments, or diplomatic coordination in relation to military, hybrid, or annexation threats originating from the United States dated from January 1, 2015, to March 31, 2025.\","
+    },
+    {
+      "file": "research/2026-10-01/ati-live/calibration-ranked.csv",
+      "line": 44,
+      "excerpt": "124032797,2026,3,A-2024-12694,\"Records related to Global Affairs Canada's planning, threat assessments, or diplomatic coordination in relation to military, hybrid, or annexation threats originating from the United States dated from January 1, 2015, to March 31, 2025.\",\"Documents liés à la planification, à l’évaluation des menaces ou à la coordinati"
+    },
+    {
+      "file": "research/2026-10-01/ati-live/calibration-ranked.json",
+      "line": 889,
+      "excerpt": "    \"summary_en\": \"Records related to Global Affairs Canada's planning, threat assessments, or diplomatic coordination in relation to military, hybrid, or annexation threats originating from the United States dated from January 1, 2015, to March 31, 2025.\","
+    },
+    {
+      "file": "research/2026-10-01/ati-live/full-ranked.csv",
+      "line": 451,
+      "excerpt": "124032797,2026,3,A-2024-12694,\"Records related to Global Affairs Canada's planning, threat assessments, or diplomatic coordination in relation to military, hybrid, or annexation threats originating from the United States dated from January 1, 2015, to March 31, 2025.\",\"Documents liés à la planification, à l’évaluation des menaces ou à la coordinati"
+    },
+    {
+      "file": "research/2026-10-01/ati-live/full-ranked.json",
+      "line": 9415,
+      "excerpt": "    \"summary_en\": \"Records related to Global Affairs Canada's planning, threat assessments, or diplomatic coordination in relation to military, hybrid, or annexation threats originating from the United States dated from January 1, 2015, to March 31, 2025.\","
+    },
+    {
+      "file": "research/2026-10-04/source-pair-completeness/remaining-108-reviews.csv",
+      "line": 80,
+      "excerpt": "SYS-0286,Statistics Canada 2025 census-subdivision boundary service,SYS-0265,Statistics Canada Census Profile Web Data Service,\"[\"\"Census subdivision unique identifier\"\", \"\"name\"\", \"\"type\"\", \"\"higher geography IDs\"\"]\",support_population_denominator,Census subdivision IDs can support population estimates around a site only for a compatible census ge"
+    },
+    {
+      "file": "research/2026-10-04/source-pair-completeness/remaining-108-reviews.jsonl",
+      "line": 79,
+      "excerpt": "{\"sys_id\": \"SYS-0286\", \"name\": \"Statistics Canada 2025 census-subdivision boundary service\", \"partner_sys_id\": \"SYS-0265\", \"partner_name\": \"Statistics Canada Census Profile Web Data Service\", \"explicit_join_fields\": [\"Census subdivision unique identifier\", \"name\", \"type\", \"higher geography IDs\"], \"disposition\": \"support_population_denominator\", \"so"
+    },
+    {
+      "file": "research/2026-10-04/source-test-deep-review/remaining-108-reviews.csv",
+      "line": 80,
+      "excerpt": "SYS-0286,Statistics Canada 2025 census-subdivision boundary service,SYS-0265,Statistics Canada Census Profile Web Data Service,\"[\"\"Census subdivision unique identifier\"\", \"\"name\"\", \"\"type\"\", \"\"higher geography IDs\"\"]\",support_population_denominator,Census subdivision IDs can support population estimates around a site only for a compatible census ge"
+    },
+    {
+      "file": "research/2026-10-04/source-test-deep-review/remaining-108-reviews.jsonl",
+      "line": 79,
+      "excerpt": "{\"sys_id\": \"SYS-0286\", \"name\": \"Statistics Canada 2025 census-subdivision boundary service\", \"partner_sys_id\": \"SYS-0265\", \"partner_name\": \"Statistics Canada Census Profile Web Data Service\", \"explicit_join_fields\": [\"Census subdivision unique identifier\", \"name\", \"type\", \"higher geography IDs\"], \"disposition\": \"support_population_denominator\", \"so"
+    }
+  ]
+}

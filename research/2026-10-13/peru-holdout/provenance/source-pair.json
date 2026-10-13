@@ -1,0 +1,17 @@
+{
+  "english": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1713930/000129281426001787/nexaform20f_2025.htm",
+    "sha256": "2a45c1017bf3ed461bd09495a66900b6a1d68384a5547ee2720f8894206630a8",
+    "class": "SEC company 20-F",
+    "filing_date": "2026-03-26",
+    "locator": "printed page57; HTML table301 (zero-based lxml //table); 2025 first annual column"
+  },
+  "spanish": {
+    "url": "https://api.mziq.com/mzfilemanager/v2/d/fa653160-ea78-4cd6-897a-335d2c6c4b9f/13062f6d-2242-1632-38da-7c9a8d6cb775?origin=2",
+    "sha256": "2186477ee4ec8d17dbb77caa7bca81466579d2fafa02c0ab8a275fdb440665b0",
+    "class": "Company-hosted signed preliminary annual report; NOT independently retrieved from SMV",
+    "document_date": "2026-02-26 digital signature",
+    "locator": "PDF pages1,7,16-17; table4, 2025 second annual column",
+    "preliminary": true
+  }
+}

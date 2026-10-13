@@ -1,0 +1,82 @@
+{
+  "frozen_utc": "2026-10-13T08:48:50.810705+00:00",
+  "base_commit": "c319cce044c416a90bb4b7e5ac81d49ec63fb11f",
+  "targets": [
+    {
+      "id": "CL-2025-Zn",
+      "entity": "Cerro Lindo",
+      "year": 2025,
+      "metal": "Zn"
+    },
+    {
+      "id": "CL-2025-Cu",
+      "entity": "Cerro Lindo",
+      "year": 2025,
+      "metal": "Cu"
+    },
+    {
+      "id": "CL-2025-Pb",
+      "entity": "Cerro Lindo",
+      "year": 2025,
+      "metal": "Pb"
+    },
+    {
+      "id": "CL-2025-Ag",
+      "entity": "Cerro Lindo",
+      "year": 2025,
+      "metal": "Ag"
+    },
+    {
+      "id": "CL-2025-Au",
+      "entity": "Cerro Lindo",
+      "year": 2025,
+      "metal": "Au"
+    }
+  ],
+  "selection": "One genuinely unseen full year, 2025, five metals; all five retained including acquisition failure. Reject 2024 due to prior annual2024 document exposure. Audit document hashes AND assertion keys/notes/comparatives before eligibility. If no fresh paired year, separately label extraction-transfer only.",
+  "arms": [
+    "Python templates with timed manual preparation or abstention",
+    "same Python plus OpenAI Decisions gpt-6-luna",
+    "same Python plus Jev jev-1.13.0"
+  ],
+  "gate_rules": "Require explicit same mine/full-year/100% output/product-stage/metal; convertible explicit units; identify version/preliminary status without implying final approval. Document bucket is not claim period. Missing evidence => insufficient evidence; explicit conflict => invalid comparison. Metal in concentrate is distinct from concentrate mass; sales/payable/equity production is not 100% mine output. Missing/dash never zero. No proportional annualization. No model arithmetic or wrongdoing inference.",
+  "arithmetic": "Decimal; t/kt factor 1000; oz/koz factor 1000; MMoz factor 1000000; tonne/lb factor 0.00045359237; troy oz/kg factor 0.0311034768; compatible metal dimensions required; tolerance sum of one displayed unit per source (inherited convention); quantities only after all gates.",
+  "classification": [
+    "comparable_agreement",
+    "comparable_numerical_difference",
+    "invalid_comparison",
+    "insufficient_evidence"
+  ],
+  "threshold": "Jev and Decisions categorical highest-probability choice per gate; confidence does not certify evidence; all gates must be supported. Unknown preserved.",
+  "stress_design": [
+    "changed quantity +10%",
+    "wrong full year",
+    "wrong metal dimension unit",
+    "missing value",
+    "partial ownership period"
+  ],
+  "reference_review": "Source-grounded investigator/assistant review recorded before arm outputs; no human gold labels, and same assistant preparation/reference is not independent blind human review. Never use confidence as truth.",
+  "metrics": [
+    "correct evidenced comparisons / all frozen targets",
+    "incorrect comparability acceptance",
+    "missed seeded errors",
+    "valid comparisons unnecessarily parked",
+    "unresolved cases",
+    "tokens",
+    "provider charge estimate / actual invoice availability",
+    "all retries",
+    "acquisition/prep/review timings",
+    "document-level dependence"
+  ],
+  "costs": {
+    "openai_cap_usd": 5,
+    "jev_cap_usd": 5,
+    "combined_cap_usd": 10,
+    "new_budget": true,
+    "other_paid_services": false,
+    "auto_retries": 0,
+    "unknown_attempt_retains_full_reservation": true,
+    "prior_experiments_unchanged": true
+  },
+  "no_tuning": "Rules and prompts freeze before new-year source answer inspection; any fixes marked development and affected results disclosed."
+}

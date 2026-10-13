@@ -1,0 +1,102 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "id": "S01-quantity",
+    "kind": "engineered_stress",
+    "target": {
+      "entity": "Cerro Lindo",
+      "year": 2025,
+      "metal": "Zn"
+    },
+    "sources": {
+      "english": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1713930/000129281426001787/nexaform20f_2025.htm",
+        "sha256": "2a45c1017bf3ed461bd09495a66900b6a1d68384a5547ee2720f8894206630a8",
+        "class": "SEC company 20-F",
+        "filing_date": "2026-03-26",
+        "locator": "printed page57; HTML table301 (zero-based lxml //table); 2025 first annual column"
+      },
+      "spanish": {
+        "url": "https://api.mziq.com/mzfilemanager/v2/d/fa653160-ea78-4cd6-897a-335d2c6c4b9f/13062f6d-2242-1632-38da-7c9a8d6cb775?origin=2",
+        "sha256": "2186477ee4ec8d17dbb77caa7bca81466579d2fafa02c0ab8a275fdb440665b0",
+        "class": "Company-hosted signed preliminary annual report; NOT independently retrieved from SMV",
+        "document_date": "2026-02-26 digital signature",
+        "locator": "PDF pages1,7,16-17; table4, 2025 second annual column",
+        "preliminary": true
+      }
+    },
+    "evidence": {
+      "english": {
+        "ownership_context": "Cerro Lindo. Our Cerro Lindo mine is an underground mine located in Peru wholly owned by Nexa Peru, which is 83.55% directly and indirectly owned by Nexa Resources. Operations began in 2007 and, in 2025, the Cerro Lindo mine produced approximately 87.1 thousand tonnes of zinc contained in concentrates, 27.1 thousand tonnes of copper contained in concentrates, 10.3 thousand tonnes of lead contained in concentrates, 4.0 million ounces of silver contained in concentrates and 4.1 thousand ounces of gold contained in concentrates. The ore is treated at a concentrate plant that has a processing capacity of 20.0 thousand tonnes of ore per day. ·Vazante. Our Vazante mine is an un",
+        "table_title": "Cerro Lindo mine: Metal contained in concentrates production",
+        "heading": "For the Year Ended December 31, 2025 2024 2023",
+        "row": "Zinc (in tonnes) 87,141 86,207 78,209",
+        "value": "87141",
+        "unit": "t",
+        "display_step": "1",
+        "year": 2025,
+        "product_scope": "metal contained in concentrates production"
+      },
+      "spanish": {
+        "mine_context": "CERRO LINDO\n\nEs una mina subterránea polimetálica con mayor capacidad de producción en el Perú y se\nencuentra entre las 20 minas de zinc más grandes del mundo, especializada en la\nexploración, extracción, procesamiento y comercialización de concentrados de zinc, cobre\ny plomo, con contenidos significativos de plata y oro. Las operaciones comenzaron en\n2007.\n\n",
+        "report_scope": "Este documento presenta los impactos económicos, sociales y ambientales derivados de\nlas operaciones mineras de Nexa Resources Perú S.A.A. en Cerro Lindo, El Porvenir y\nAtacocha (Complejo Pasco), además de la oficina administrativa en Lima. Todas estas\nunidades se consolidan íntegramente para efectos del reporte financiero y representan el\n100% de los ingresos de Nexa Perú. Este alcance asegura la consistencia entre la\ninformación financiera y de sostenibilidad, en línea con la estructura interna de gestión y\nlos resultados del proceso de materialidad.\n\nLa Memoria sigue las directrices del Global Reporting Initiative (GRI) bajo la opción\nReferenciado, e incluye información correspondiente al periodo del 1 de enero al 31 de\ndiciembre de 2025. Paralelamente, se encuentra alineada con los criterios del Corporate\nSustainability Assessment (CSA), reforzando el compromiso de Nexa con la Sostenibilidad.\n\n",
+        "version_context": "Firmado Digitalmente por: VERSIÓN PRELIMINAR SUJETA A APROBACIÓN DE LA JUNTA      pág. 1 SUSY MAGALY BARDALES ROJAS Fecha: 26/02/2026 10:37:33 p.m.    OBLIGATORIA ANUAL DE ACCIONISTAS",
+        "table_text": "Tabla 4. Producción Anual de la UM Cerro Lindo\n                                                                                                           Variación\n      Principales Indicadores                  Unidad               2024                   2025\n                                                                                                             (%)\n Producción de Zn equivalente1               Miles de t           264.682                248.009              -6%\n                           Zinc              tmf                  86,207                 95,855                1%\n Producción de\n                           Cobre             tmf                  29,888                 27,081               -9%\n finos\n                           Plomo             tmf                  13,891                  10,252             -26%\n Contenidos de Plata                         Oz                 4,268,043               3,953,241             -7%\n Contenidos de Oro                           Oz                    4,904                  4,067              -17%\n Cash Cost ROM                               US$/t                  40.8                   39.9               -2%\n(t):               tonelada                 (tmf):                 Tonelada                   métrica                 fina\n(1) La producción minera consolidada en kt de equivalente de zinc se calcula convirtiendo los contenidos de cobre, plomo,\nplata y oro a un grado equivalente de zinc, asumiendo los precios promedio de la LME en 2025: Zn: US$1.30/lb; Cu:\nUS$4.51/lb; Pb: US$0.89/lb; y de la LBMA en 2025: Ag: US$40.03/oz; Au: US$3,432/oz\n\n",
+        "value": "95855",
+        "unit": "t",
+        "display_step": "1",
+        "year": 2025,
+        "product_scope": "Producción de finos (tmf: tonelada métrica fina); contenidos de plata/oro (Oz)"
+      }
+    },
+    "instruction": "Assess only supplied original bilingual excerpts and source provenance. Numbers are extracted by shared Python and arithmetic is downstream code; never infer absent scope from equality. Preliminary source is preliminary, not final approved or ministry return. No misconduct conclusion.",
+    "fixture_warning": "Planted fictional change to a real evidence packet. Never a discovery or natural prevalence observation."
+  },
+  "questions": {
+    "entity_operation": {
+      "type": "choice",
+      "instructions": "Do both source excerpts establish the target Cerro Lindo mine and operation population, not group totals or another mine?",
+      "criteria": {
+        "supported": "Explicit supplied source evidence establishes this gate.",
+        "conflict": "Supplied source evidence explicitly contradicts comparability.",
+        "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+      }
+    },
+    "period_ownership": {
+      "type": "choice",
+      "instructions": "Do both establish the target full calendar year and 100% mine output, not equity share or partial acquisition/sale period? Read table headings and footnotes.",
+      "criteria": {
+        "supported": "Explicit supplied source evidence establishes this gate.",
+        "conflict": "Supplied source evidence explicitly contradicts comparability.",
+        "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+      }
+    },
+    "measurement_product": {
+      "type": "choice",
+      "instructions": "Do both establish matching target metal production/content in mining concentrate streams? Gross concentrate mass, payable production, sales, doré or undefined cross-product scope cannot be substituted.",
+      "criteria": {
+        "supported": "Explicit supplied source evidence establishes this gate.",
+        "conflict": "Supplied source evidence explicitly contradicts comparability.",
+        "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+      }
+    },
+    "units": {
+      "type": "choice",
+      "instructions": "Are explicit source units of the target metal compatible under exact conversions? oz means troy ounces only where the mine metal context supports it. Mass vs volume is a conflict. Missing units unknown.",
+      "criteria": {
+        "supported": "Explicit supplied source evidence establishes this gate.",
+        "conflict": "Supplied source evidence explicitly contradicts comparability.",
+        "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+      }
+    },
+    "versions": {
+      "type": "choice",
+      "instructions": "Are source dates, actual claim year, source class and preliminary/version status identifiable? Preliminary comparable company disclosure can be compared as such but cannot be certified final. Missing status/version provenance unknown.",
+      "criteria": {
+        "supported": "Explicit supplied source evidence establishes this gate.",
+        "conflict": "Supplied source evidence explicitly contradicts comparability.",
+        "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+      }
+    }
+  }
+}

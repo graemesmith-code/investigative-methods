@@ -1,0 +1,517 @@
+[
+  {
+    "provider": "python",
+    "id": "CL-2025-Ag",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "3953241",
+    "spanish_normalized": "3953241",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "oz",
+    "elapsed_seconds": 6.88220000029105e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "CL-2025-Au",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "4067",
+    "spanish_normalized": "4067",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "oz",
+    "elapsed_seconds": 4.291400000511203e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "CL-2025-Cu",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "27081",
+    "spanish_normalized": "27081",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 1.9949999966684118e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "CL-2025-Pb",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "10252",
+    "spanish_normalized": "10252",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 1.6044000005877024e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "CL-2025-Zn",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "87141",
+    "spanish_normalized": "87141",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 1.5624000013758632e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "S01-quantity",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_numerical_difference",
+    "english_normalized": "87141",
+    "spanish_normalized": "95855",
+    "difference_spanish_minus_english": "8714",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 1.5152999992551486e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "S02-year",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "conflict",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 1.1177000033057993e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "S03-unit",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "conflict",
+      "units": "conflict",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 1.0785999961626658e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "S04-missing",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 2.4546000020109204e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "python",
+    "id": "S05-ownership",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "conflict",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 1.3099999989663047e-05,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "CL-2025-Ag",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "3953241",
+    "spanish_normalized": "3953241",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "oz",
+    "elapsed_seconds": 2.297620222999967,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "CL-2025-Au",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 0.9535106530000235,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "CL-2025-Cu",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 0.39403065600004084,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "CL-2025-Pb",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 0.2685390649999704,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "CL-2025-Zn",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 1.3155610709999905,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "S01-quantity",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "conflict",
+      "units": "conflict",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.2609943560000261,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "S02-year",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "conflict",
+      "period_ownership": "conflict",
+      "measurement_product": "conflict",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.2460982119999926,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "S03-unit",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "conflict",
+      "period_ownership": "unknown",
+      "measurement_product": "conflict",
+      "units": "conflict",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.2516477790000522,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "S04-missing",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "unknown",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 0.24874812400003066,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "openai",
+    "id": "S05-ownership",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "conflict",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "english_normalized": "87141",
+    "spanish_normalized": "87141",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 0.2592509169999744,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "CL-2025-Ag",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "3953241",
+    "spanish_normalized": "3953241",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "oz",
+    "elapsed_seconds": 0.38370814199998904,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "CL-2025-Au",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "4067",
+    "spanish_normalized": "4067",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "oz",
+    "elapsed_seconds": 0.27898215200002596,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "CL-2025-Cu",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "27081",
+    "spanish_normalized": "27081",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 0.4349626910000097,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "CL-2025-Pb",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "10252",
+    "spanish_normalized": "10252",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 0.3172878419999847,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "CL-2025-Zn",
+    "kind": "natural_holdout",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "supported",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "comparable_agreement",
+    "english_normalized": "87141",
+    "spanish_normalized": "87141",
+    "difference_spanish_minus_english": "0",
+    "tolerance": "2",
+    "common_unit": "t",
+    "elapsed_seconds": 0.27988440500001843,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "S01-quantity",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "conflict",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.2718367489999878,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "S02-year",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "conflict",
+      "measurement_product": "conflict",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.25041980800000374,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "S03-unit",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "conflict",
+      "units": "conflict",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.31025518600000623,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "S04-missing",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "unknown",
+      "measurement_product": "unknown",
+      "units": "unknown",
+      "versions": "supported"
+    },
+    "classification": "insufficient_evidence",
+    "elapsed_seconds": 0.25234932300003265,
+    "result_track": "development_protected_hybrid_replay"
+  },
+  {
+    "provider": "jev",
+    "id": "S05-ownership",
+    "kind": "engineered_stress",
+    "gates": {
+      "entity_operation": "supported",
+      "period_ownership": "conflict",
+      "measurement_product": "supported",
+      "units": "supported",
+      "versions": "supported"
+    },
+    "classification": "invalid_comparison",
+    "elapsed_seconds": 0.36197328999998035,
+    "result_track": "development_protected_hybrid_replay"
+  }
+]

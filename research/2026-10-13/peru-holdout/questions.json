@@ -1,0 +1,47 @@
+{
+  "entity_operation": {
+    "type": "choice",
+    "instructions": "Do both source excerpts establish the target Cerro Lindo mine and operation population, not group totals or another mine?",
+    "criteria": {
+      "supported": "Explicit supplied source evidence establishes this gate.",
+      "conflict": "Supplied source evidence explicitly contradicts comparability.",
+      "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+    }
+  },
+  "period_ownership": {
+    "type": "choice",
+    "instructions": "Do both establish the target full calendar year and 100% mine output, not equity share or partial acquisition/sale period? Read table headings and footnotes.",
+    "criteria": {
+      "supported": "Explicit supplied source evidence establishes this gate.",
+      "conflict": "Supplied source evidence explicitly contradicts comparability.",
+      "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+    }
+  },
+  "measurement_product": {
+    "type": "choice",
+    "instructions": "Do both establish matching target metal production/content in mining concentrate streams? Gross concentrate mass, payable production, sales, dor\u00e9 or undefined cross-product scope cannot be substituted.",
+    "criteria": {
+      "supported": "Explicit supplied source evidence establishes this gate.",
+      "conflict": "Supplied source evidence explicitly contradicts comparability.",
+      "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+    }
+  },
+  "units": {
+    "type": "choice",
+    "instructions": "Are explicit source units of the target metal compatible under exact conversions? oz means troy ounces only where the mine metal context supports it. Mass vs volume is a conflict. Missing units unknown.",
+    "criteria": {
+      "supported": "Explicit supplied source evidence establishes this gate.",
+      "conflict": "Supplied source evidence explicitly contradicts comparability.",
+      "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+    }
+  },
+  "versions": {
+    "type": "choice",
+    "instructions": "Are source dates, actual claim year, source class and preliminary/version status identifiable? Preliminary comparable company disclosure can be compared as such but cannot be certified final. Missing status/version provenance unknown.",
+    "criteria": {
+      "supported": "Explicit supplied source evidence establishes this gate.",
+      "conflict": "Supplied source evidence explicitly contradicts comparability.",
+      "unknown": "Missing, ambiguous, or undocumented; do not guess from equal quantities."
+    }
+  }
+}

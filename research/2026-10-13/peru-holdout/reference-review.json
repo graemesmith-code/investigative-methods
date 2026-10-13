@@ -1,0 +1,146 @@
+{
+  "utc": "2026-10-13T08:53:20.952493+00:00",
+  "reviewer": "Same assistant preparing packets; source-grounded, pre-output, not independent human labels. No separate model used as truth.",
+  "rows": [
+    {
+      "id": "CL-2025-Zn",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "comparable_agreement",
+      "source_grounded_reason": "Same Cerro Lindo full2025 mine output: SEC explicitly wholly-owned mine and metal contained in concentrate; Spanish full calendar-year scope, mine-specific fine metal/content table and concentrate description. One table100% unit output despite parent83.55% share. Identifiable preliminary company version, not final/SMV-certified. Both scalar rows match at integer display precision. No observed natural mismatch.",
+      "human_label": false,
+      "independent_blind_review": false
+    },
+    {
+      "id": "CL-2025-Cu",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "comparable_agreement",
+      "source_grounded_reason": "Same Cerro Lindo full2025 mine output: SEC explicitly wholly-owned mine and metal contained in concentrate; Spanish full calendar-year scope, mine-specific fine metal/content table and concentrate description. One table100% unit output despite parent83.55% share. Identifiable preliminary company version, not final/SMV-certified. Both scalar rows match at integer display precision. No observed natural mismatch.",
+      "human_label": false,
+      "independent_blind_review": false
+    },
+    {
+      "id": "CL-2025-Pb",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "comparable_agreement",
+      "source_grounded_reason": "Same Cerro Lindo full2025 mine output: SEC explicitly wholly-owned mine and metal contained in concentrate; Spanish full calendar-year scope, mine-specific fine metal/content table and concentrate description. One table100% unit output despite parent83.55% share. Identifiable preliminary company version, not final/SMV-certified. Both scalar rows match at integer display precision. No observed natural mismatch.",
+      "human_label": false,
+      "independent_blind_review": false
+    },
+    {
+      "id": "CL-2025-Ag",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "comparable_agreement",
+      "source_grounded_reason": "Same Cerro Lindo full2025 mine output: SEC explicitly wholly-owned mine and metal contained in concentrate; Spanish full calendar-year scope, mine-specific fine metal/content table and concentrate description. One table100% unit output despite parent83.55% share. Identifiable preliminary company version, not final/SMV-certified. Both scalar rows match at integer display precision. No observed natural mismatch.",
+      "human_label": false,
+      "independent_blind_review": false
+    },
+    {
+      "id": "CL-2025-Au",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "comparable_agreement",
+      "source_grounded_reason": "Same Cerro Lindo full2025 mine output: SEC explicitly wholly-owned mine and metal contained in concentrate; Spanish full calendar-year scope, mine-specific fine metal/content table and concentrate description. One table100% unit output despite parent83.55% share. Identifiable preliminary company version, not final/SMV-certified. Both scalar rows match at integer display precision. No observed natural mismatch.",
+      "human_label": false,
+      "independent_blind_review": false
+    },
+    {
+      "id": "S01-quantity",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "comparable_numerical_difference",
+      "human_label": false,
+      "independent_blind_review": false,
+      "reason": "Known engineered fixture; guard expectation fixed by protocol before arm calls."
+    },
+    {
+      "id": "S02-year",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "conflict",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "invalid_comparison",
+      "human_label": false,
+      "independent_blind_review": false,
+      "reason": "Known engineered fixture; guard expectation fixed by protocol before arm calls."
+    },
+    {
+      "id": "S03-unit",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "conflict",
+        "units": "conflict",
+        "versions": "supported"
+      },
+      "classification": "invalid_comparison",
+      "human_label": false,
+      "independent_blind_review": false,
+      "reason": "Known engineered fixture; guard expectation fixed by protocol before arm calls."
+    },
+    {
+      "id": "S04-missing",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "supported",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "insufficient_evidence",
+      "human_label": false,
+      "independent_blind_review": false,
+      "reason": "Known engineered fixture; guard expectation fixed by protocol before arm calls."
+    },
+    {
+      "id": "S05-ownership",
+      "gates": {
+        "entity_operation": "supported",
+        "period_ownership": "conflict",
+        "measurement_product": "supported",
+        "units": "supported",
+        "versions": "supported"
+      },
+      "classification": "invalid_comparison",
+      "human_label": false,
+      "independent_blind_review": false,
+      "reason": "Known engineered fixture; guard expectation fixed by protocol before arm calls."
+    }
+  ]
+}
