@@ -88,3 +88,7 @@ See the procurement/production annex for exact locations, tested explanations an
 `prior/Draganfly_CAF_procurement_investigation_checklist.docx` is the materialized original Library file `libfile_0c65311677948191a83a5bfe3aedc91c`; `prior-checklist.md` is paragraph extraction, with original layout/hyperlinks preserved in the DOCX. The PDF original `libfile_14e5bb570c38819180ce96eb0ed2ad9f` remains untouched in Library.
 
 `gauthier-role-review.md` preserves the parent's independent memo. Earlier follow-up assertions must retain inherited-source status when not reverified. In particular no current worker direct original B package, signed contract, full SA, completed FOCI decision or official evaluation was read.
+
+## Lobbying additions, 21:52 UTC
+
+Four additional original registry bodies recovered: Cadario 692180 and Singh 690653, 690652 and 690651. See [bounded ledger annex](annexes/lobbying-ledger-pass-20261013.md) for exact URLs, preserved successful/failed routes, possible overlaps and the Speidel institution discrepancy. The derived [44-row ledger](snapshots/20261013-bounded-lobbying-ledger.json) has 31 matched report IDs and preserves null values for unmatched IDs. It is not a meeting count or a fresh company-wide census.

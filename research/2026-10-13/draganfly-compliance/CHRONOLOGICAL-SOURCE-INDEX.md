@@ -54,3 +54,11 @@ Working index, 13 October 2026, 20:30 UTC. Dates mean the source's stated event 
 | October 30, 2026, future | Ordinary quarterly publication deadline for September contract | [ATIA section 86](https://laws-lois.justice.gc.ca/eng/acts/A-1/section-86.html?wbdisable=true) | Not overdue now; exceptions and record category must be checked |
 
 The contacts, public qualification dates, solicitation and award dates establish a sequence. They do not supply causation, evaluator authority, confidential-information access or proof of a waived requirement. Preserve these distinctions when using the chronology in a newsroom discussion.
+
+## Additional communication bodies recovered at 21:52 UTC
+
+- May 26, 2026: Singh reports 690652 (McNair) and 690651 (Deacon), displayed June 15 posting, general CAF applications.
+- May 27: Singh report 690653 (McGuinty), displayed June 15 posting, CAF applications and Ukraine-related contracting.
+- June 22: Cadario report 692180 (Speidel, PrairiesCan), displayed July 8 posting; differs from de Bakker's institution label.
+
+Exact sources and capture limits are in the [new annex](annexes/lobbying-ledger-pass-20261013.md); none names this award.

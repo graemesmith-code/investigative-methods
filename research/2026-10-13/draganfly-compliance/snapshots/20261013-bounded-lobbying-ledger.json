@@ -1,0 +1,537 @@
+{
+  "scope": "44 report rows across six known consultant undertakings, plus a separately observed Danchilla registration showing zero reports. Not unique meetings, a fresh full export or a complete company-wide census. Unknown report IDs remain null; displayed dates may reflect amendments.",
+  "rows": [
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2025-09-04",
+      "displayed_posted_date": "2025-10-15",
+      "officials_as_displayed": [
+        "Charles-Olivier Dubé, Policy Advisor | Finance Canada (FIN)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2025-09-15",
+      "displayed_posted_date": "2025-10-08",
+      "officials_as_displayed": [
+        "Yasmine Atassi, Senior Policy Advisor | Innovation, Science and Economic Development Canada (ISED)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2025-09-17",
+      "displayed_posted_date": "2025-10-15",
+      "officials_as_displayed": [
+        "Mathew Hall, Senior Policy Advisor | Prime Minister's Office (PMO)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2025-09-17",
+      "displayed_posted_date": "2025-10-15",
+      "officials_as_displayed": [
+        "Oz Jungic, Senior Policy Advisor | Prime Minister's Office (PMO)",
+        "Mathew Hall, Policy Advisor | Prime Minister's Office (PMO)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "de Bakker",
+      "undertaking": "382105",
+      "communication_date": "2025-09-17",
+      "displayed_posted_date": "2025-10-15",
+      "officials_as_displayed": [
+        "Mathew Hall, Senior Policy Advisor | Prime Minister's Office (PMO)"
+      ],
+      "report_id": 646930,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=646930"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2025-09-25",
+      "displayed_posted_date": "2025-10-15",
+      "officials_as_displayed": [
+        "James Rourke, Policy Advisor, Secretary of State for Defence Procurement | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "de Bakker",
+      "undertaking": "382105",
+      "communication_date": "2025-09-25",
+      "displayed_posted_date": "2025-10-15",
+      "officials_as_displayed": [
+        "James Rourke, Policy Advisor | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": 647461,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=647461"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2025-10-06",
+      "displayed_posted_date": "2025-11-15",
+      "officials_as_displayed": [
+        "Taras Zalusky, Chief of Staff to the Minister | Global Affairs Canada (GAC)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "de Bakker",
+      "undertaking": "382105",
+      "communication_date": "2025-10-06",
+      "displayed_posted_date": "2025-11-15",
+      "officials_as_displayed": [
+        "Taras Zalusky, Chief of Staff to the Minister | Global Affairs Canada (GAC)"
+      ],
+      "report_id": 648228,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=648228"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2025-10-20",
+      "displayed_posted_date": "2025-11-15",
+      "officials_as_displayed": [
+        "Wilder Walker-Stewart, Director of Policy | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2025-12-03",
+      "displayed_posted_date": "2026-01-09",
+      "officials_as_displayed": [
+        "Sarah Cozzi, Ministerial Assistant | Public Safety Canada (PS)",
+        "François Giroux, Chief of Staff | Public Safety Canada (PS)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2025-12-03",
+      "displayed_posted_date": "2026-01-09",
+      "officials_as_displayed": [
+        "Mathew Hall, Policy Advisor | Prime Minister's Office (PMO)",
+        "Lisa Jorgensen, Senior Advisor | Prime Minister's Office (PMO)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "de Bakker",
+      "undertaking": "382105",
+      "communication_date": "2025-12-03",
+      "displayed_posted_date": "2026-01-15",
+      "officials_as_displayed": [
+        "Matthew Trnkus, Senior Policy Advisor | Global Affairs Canada (GAC)"
+      ],
+      "report_id": 659434,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=659434"
+    },
+    {
+      "consultant": "DeWolfe",
+      "undertaking": "383419",
+      "communication_date": "2026-01-20",
+      "displayed_posted_date": "2026-02-16",
+      "officials_as_displayed": [
+        "Charles Sousa, Member of Parliament | House of Commons"
+      ],
+      "report_id": 669772,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=669772"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-01-28",
+      "displayed_posted_date": "2026-02-02",
+      "officials_as_displayed": [
+        "Chanel Sterie, Senior Advisor | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "DeWolfe",
+      "undertaking": "383419",
+      "communication_date": "2026-01-28",
+      "displayed_posted_date": "2026-02-16",
+      "officials_as_displayed": [
+        "Chanel Sterie, Policy Advisor, Minister's Office | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": 669784,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=669784"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-02-24",
+      "displayed_posted_date": "2026-03-09",
+      "officials_as_displayed": [
+        "Renee Filiatrault, Senior Advisor | National Defence (DND)",
+        "Conor Lewis, Policy Advisor, Minister's Office | National Defence (DND)",
+        "Samuel Serviss, EA to the Chief of Staff | National Defence (DND)",
+        "Ezechial Nana, Regional Advisor Quebec | National Defence (DND)",
+        "Hilary Hendriks, Senior Policy Advisor | National Defence (DND)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-02-24",
+      "displayed_posted_date": "2026-03-09",
+      "officials_as_displayed": [
+        "Mathew Hall, Policy Advisor | Prime Minister's Office (PMO)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-02-25",
+      "displayed_posted_date": "2026-03-09",
+      "officials_as_displayed": [
+        "Mary-Rose Brown, Chief of Staff, Minister's Office | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": null,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-03-24",
+      "displayed_posted_date": "2026-04-15",
+      "officials_as_displayed": [
+        "Michael Wright, Lieutenant-General of the Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 677958,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=677958"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-03-25",
+      "displayed_posted_date": "2026-04-15",
+      "officials_as_displayed": [
+        "Michael Wright, Lieutenant-General of the Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 677972,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=677972"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-05-26",
+      "displayed_posted_date": "2026-06-15",
+      "officials_as_displayed": [
+        "Lieutenant General Stephen Kelsey , Vice Chief of Defence Staff | National Defence (DND)"
+      ],
+      "report_id": 686474,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=686474"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-05-26",
+      "displayed_posted_date": "2026-06-15",
+      "officials_as_displayed": [
+        "Marty Deacon, Senator | Senate of Canada"
+      ],
+      "report_id": 690651,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=690651"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-05-26",
+      "displayed_posted_date": "2026-06-15",
+      "officials_as_displayed": [
+        "John McNair, Senator | Senate of Canada"
+      ],
+      "report_id": 690652,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=690652"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-05-27",
+      "displayed_posted_date": "2026-06-15",
+      "officials_as_displayed": [
+        "Lieutenant General Stephen Kelsey, Vice Chief of Defence Staff | National Defence (DND)"
+      ],
+      "report_id": 686475,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=686475"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-05-27",
+      "displayed_posted_date": "2026-06-15",
+      "officials_as_displayed": [
+        "David McGuinty, Minister of National Defence | National Defence (DND)"
+      ],
+      "report_id": 690653,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=690653"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-06-17",
+      "displayed_posted_date": "2026-07-15",
+      "officials_as_displayed": [
+        "Patrick Kelly, Director General, DIA | Public Services and Procurement Canada (PSPC)",
+        "Christopher Sullivan, Manager/Senior Policy Advisor, DIA | Innovation, Science and Economic Development Canada (ISED)"
+      ],
+      "report_id": 694796,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=694796"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-06-22",
+      "displayed_posted_date": "2026-07-08",
+      "officials_as_displayed": [
+        "Dakota Speidel, Parliamentary Assistant | Prairies Economic Development Canada (PrairiesCan)"
+      ],
+      "report_id": 692180,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=692180"
+    },
+    {
+      "consultant": "de Bakker",
+      "undertaking": "382105",
+      "communication_date": "2026-06-22",
+      "displayed_posted_date": "2026-07-15",
+      "officials_as_displayed": [
+        "Dakota Speidel, Parliamentary Assistant, Office of the Secretary of State for Rural Development | Innovation, Science and Economic Development Canada (ISED)"
+      ],
+      "report_id": 691167,
+      "list_snapshot": "20261013-recovery-report-lists-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=691167"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-06-23",
+      "displayed_posted_date": "2026-07-08",
+      "officials_as_displayed": [
+        "Wendy Hadwen, ADM | National Defence (DND)",
+        "Ty Curran, Deputy Director General | National Defence (DND)",
+        "Nicolas Verrault, Deputy Director of Operations | National Defence (DND)"
+      ],
+      "report_id": 692181,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=692181"
+    },
+    {
+      "consultant": "Gauthier",
+      "undertaking": "382133",
+      "communication_date": "2026-06-23",
+      "displayed_posted_date": "2026-06-25",
+      "officials_as_displayed": [
+        "Wendy Hadwen, ADM Policy-Industry | National Defence (DND)"
+      ],
+      "report_id": 691298,
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=691298",
+      "source_basis": "Previously archived individual official report; see Gauthier annex."
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-06-29",
+      "displayed_posted_date": "2026-07-15",
+      "officials_as_displayed": [
+        "Lisa Jorgensen, Senior Advisor | Prime Minister's Office (PMO)",
+        "Mathew Hall, Senior Global Affairs Advisor, Policy and Cabinet Affairs | Prime Minister's Office (PMO)"
+      ],
+      "report_id": 694809,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=694809"
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-06-30",
+      "displayed_posted_date": "2026-07-15",
+      "officials_as_displayed": [
+        "Doug Guzman, Chief Executive Officer, Office of the Secretary of State | Public Services and Procurement Canada (PSPC)"
+      ],
+      "report_id": 694807,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=694807"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-07-20",
+      "displayed_posted_date": "2026-08-15",
+      "officials_as_displayed": [
+        "Lieutenant-General Michael Wright, Commander of the Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 695232,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=695232"
+    },
+    {
+      "consultant": "Cadario",
+      "undertaking": "382126",
+      "communication_date": "2026-07-21",
+      "displayed_posted_date": "2026-08-07",
+      "officials_as_displayed": [
+        "Christiane Fox, Deputy Minister | National Defence (DND)"
+      ],
+      "report_id": 696306,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=696306"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-07-21",
+      "displayed_posted_date": "2026-08-15",
+      "officials_as_displayed": [
+        "Lieutenant-General Michael Wright, Commander of the Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 695231,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=695231"
+    },
+    {
+      "consultant": "Gauthier",
+      "undertaking": "382133",
+      "communication_date": "2026-07-21",
+      "displayed_posted_date": "2026-07-30",
+      "officials_as_displayed": [
+        "Christiane Fox, Deputy Minister | National Defence (DND)"
+      ],
+      "report_id": 695650,
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=695650",
+      "source_basis": "Previously archived individual official report; see Gauthier annex."
+    },
+    {
+      "consultant": "Singh",
+      "undertaking": "382127",
+      "communication_date": "2026-07-21",
+      "displayed_posted_date": "2026-08-13",
+      "officials_as_displayed": [
+        "Christiane Fox, Deputy Minister | National Defence (DND)",
+        "Robert Gray, Acting Assistant Deputy Minister, Materiel | National Defence (DND)"
+      ],
+      "report_id": 697309,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=697309"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-08-07",
+      "displayed_posted_date": "2026-09-15",
+      "officials_as_displayed": [
+        "Lieutenant-General Michael C. Wright, Commander of the Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 697412,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=697412"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-08-30",
+      "displayed_posted_date": "2026-09-15",
+      "officials_as_displayed": [
+        "Quinn Rinke, Regional Advisor - West and North, Ministerial Staff | National Defence (DND)"
+      ],
+      "report_id": 699616,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=699616"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-08-31",
+      "displayed_posted_date": "2026-09-15",
+      "officials_as_displayed": [
+        "Quinn Rinke, Regional Advisor West and North, Ministerial Staff | National Defence (DND)"
+      ],
+      "report_id": 699618,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=699618"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-09-08",
+      "displayed_posted_date": "2026-09-21",
+      "officials_as_displayed": [
+        "Lieutenant-General Michael C. Wright, Commander, Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 701802,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701802"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-09-09",
+      "displayed_posted_date": "2026-09-21",
+      "officials_as_displayed": [
+        "Lieutenant-General Michael C. Wright, Commander Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 701801,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701801"
+    },
+    {
+      "consultant": "Corbould",
+      "undertaking": "385457",
+      "communication_date": "2026-09-10",
+      "displayed_posted_date": "2026-09-21",
+      "officials_as_displayed": [
+        "Lieutenant-General Michael C. Wright, Commander Canadian Army | National Defence (DND)"
+      ],
+      "report_id": 701800,
+      "list_snapshot": "20261013-lobbying-lists-web-extraction.json",
+      "public_report_url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701800"
+    }
+  ],
+  "inventory_zero_report_undertaking": {
+    "consultant": "Danchilla",
+    "undertaking": "385558",
+    "scope": "Previously captured registration displayed zero; not a new live search."
+  }
+}
