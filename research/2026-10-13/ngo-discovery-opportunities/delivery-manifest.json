@@ -1,30 +1,42 @@
 {
-  "verified_at": "2026-10-13T09:20:23.187772+00:00",
+  "verified_at": "2026-10-13T10:10:21.244938+00:00",
   "repository": "graemesmith-code/investigative-methods",
   "visibility": "private",
   "authenticated_read_write_permission_confirmed": true,
   "branch": "research/ngo-discovery-2026-10-13",
-  "research_snapshot_commit": "e534c1de35bc3f0023f3f90174b596b4ac7eb0b5",
-  "git_ls_remote_branch_head": "e534c1de35bc3f0023f3f90174b596b4ac7eb0b5",
-  "main_report_permanent_url": "https://github.com/graemesmith-code/investigative-methods/blob/e534c1de35bc3f0023f3f90174b596b4ac7eb0b5/research/2026-10-13/ngo-discovery-opportunities/REPORT.md",
+  "research_snapshot_commit": "20b35e54008f6d03e89336c5c1f3a26230668b08",
+  "git_ls_remote_branch_head": "20b35e54008f6d03e89336c5c1f3a26230668b08",
+  "main_report_permanent_url": "https://github.com/graemesmith-code/investigative-methods/blob/20b35e54008f6d03e89336c5c1f3a26230668b08/research/2026-10-13/ngo-discovery-opportunities/REPORT.md",
   "remote_files_verified": [
     {
       "path": "REPORT.md",
-      "github_blob_sha": "936d3cc38d0c7334c8b5efa7a8a98deba2619905"
+      "github_blob_sha": "5d32e909f23115ae34654d5227df92aabb21c440"
     },
     {
       "path": "totals.json",
-      "github_blob_sha": "f5da5900cc434ec5b2ebdb1bd9e27f91181ec0ed"
+      "github_blob_sha": "c61dcf459124840ed66098d760cbb6a8389fa767"
     },
     {
       "path": "validation.json",
-      "github_blob_sha": "d0ef24e355a24b07f19e6c446ca29205e54af695"
+      "github_blob_sha": "9368c45268abc0d2a1815ddf67ef79d19178d98d"
+    },
+    {
+      "path": "opportunity-manifest.json",
+      "github_blob_sha": "779f9b178c01669fbb8aca38bbb67d921202dbc9"
+    },
+    {
+      "path": "revision-deltas.json",
+      "github_blob_sha": "461bb684771dc2afeb37c4c7f628182046c734de"
     }
   ],
-  "method": "Successful git push; exact ls-remote comparison; authenticated GitHub fetch at immutable commit for report/counts/validation; private metadata checked; remote blob SHAs match local git hash-object.",
+  "method": "Successful git push/exact ls-remote match; authenticated immutable-commit fetch of report/counts/validation/opportunities/deltas; remote blob SHAs exactly match local git hash-object; private permission metadata checked.",
   "validation_status": "PASS",
+  "pilot_ready_opportunities": 4,
+  "conditional_designs_or_extensions": 6,
+  "completed_findings": 0,
   "incremental_cash_spend_usd": 0,
   "outreach_or_email": false,
   "unrelated_worktree_or_peru_modified": false,
-  "note": "This delivery verification is committed after the research snapshot; its commit does not alter report or corpus files. It is excluded from the self-hashing file manifest."
+  "initial_snapshot_preserved": "annexes/initial-review/",
+  "note": "This verification is committed after the revised research snapshot without changing report or corpus files; excluded from self-hashing manifest."
 }
