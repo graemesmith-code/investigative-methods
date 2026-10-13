@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-13",
+  "award_denominator": "9 linked rows, 8 named suppliers; inherited ledger, not freshly recovered complete export",
+  "native_attempts": "All nine contract-history URLs returned HTTP403; no new native award bodies acquired",
+  "supplier_sources": [
+    {
+      "url": "https://volatusaerospace.com/insights/defence-contract-tactical-isr/",
+      "type": "original supplier search extraction; direct web/native403",
+      "date": "2026-09-10",
+      "finding": "Issuer describes five years; 100 firm, 4900 discretionary optional systems; up-to25m framework not contracted revenue. Initial delivery expected Q4."
+    },
+    {
+      "url": "https://volatusaerospace.com/insights/defence-drone-initiative-marketplace/",
+      "type": "original supplier search extraction; direct403",
+      "date": "2026-09-03",
+      "finding": "Initial qualification announcement; not actual acceptance-time evidence."
+    },
+    {
+      "url": "https://volatusaerospace.com/insights/volatus-aerospace-defence-initiative/",
+      "type": "original supplier search extraction; direct403",
+      "date": "2026-09-08",
+      "finding": "Expanded five-stream announcement follows initial qualification; not proof initial Stream1 arose that day."
+    },
+    {
+      "url": "https://www.fpdynamics.ca/news/ddi-qualified-supplier.html",
+      "type": "full original supplier web page read",
+      "date": "2026-08-26",
+      "finding": "Claims Stream1 plus unidentified additional streams and prototype pathway; page labels author AI Correspondent and includes later first-contract context, so displayed date is not authenticated historical snapshot; stream taxonomy differs from official DDI."
+    },
+    {
+      "url": "https://avss.co/2026/05/avss-collaborates-with-the-government-of-canada-through-innovative-solutions-canada-to-perform-avalanche-control-work-with-drones-in-jasper-national-park/",
+      "type": "original supplier search extraction; direct inaccessible",
+      "date": "2026-05",
+      "finding": "Claims Feb/Mar multi-department avalanche tests; different product/program, not evidence DDI evaluation or equal tender access."
+    }
+  ],
+  "lobbying_sample": {
+    "names": [
+      "Volatus",
+      "AVSS",
+      "Objexis"
+    ],
+    "window": "2026-01-01 through respective September2026 award date",
+    "method": "Exact names plus official-domain searches; Volatus secondary page inspected for source leads only",
+    "primary_verified_reports": 0,
+    "secondary_lead": "MyMP page links only registry root; embedded displayed component keys identify695836 and698116; ordinary primary public report opens failed. No meeting count or absence finding.",
+    "primary_attempt_urls": [
+      "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=695836",
+      "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=698116"
+    ],
+    "native_first_status": 520
+  },
+  "negative_checks": [
+    "No matched signed scope acquired for nine rows",
+    "No peer-specific FOCI decision acquired",
+    "No original comparator lobbying bodies acquired",
+    "No new Gauthier award-link, compensation or later qualifying-office instrument acquired"
+  ],
+  "query_groups": [
+    "Four exact official award IDs cw2465717/cw2467497/cw2467501/cw2467503; results mostly irrelevant, not absence evidence",
+    "Original Volatus award/qualification/FOCI statements",
+    "Official registry Volatus/AVSS/Objexis plus Cardill and report URL leads",
+    "Original AVSS/FPDynamics program statements and government grant",
+    "Michel Gauthier + Rubicon + procurement; broad name-only results conflate unrelated people/businesses"
+  ]
+}

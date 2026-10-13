@@ -120,3 +120,10 @@ See [oversight annex](annexes/oversight-and-equal-access-20261013.md) for exact 
 - Native Public Safety 2024 Draganfly catalogue; actual report fetch failures logged, no report content or current filing claimed read.
 
 [Source URLs, exact pages and new tests](annexes/compliance-public-tests-20261013.md); [concern cards](annexes/compliance-concern-cards-20261013.md).
+
+## Comparator falsification pass
+
+- [Dated analysis](annexes/comparator-falsification-20261013.md) and [source notes](snapshots/20261013-comparator-source-notes.json): nine-row/eight-supplier denominator, supplier claims, bounded lobbying failure and Gauthier alternatives.
+- [All nine native award attempts](snapshots/20261013-comparator-native-records.json): HTTP 403 throughout; no newly recovered native bodies.
+- [FPDynamics government contribution extraction](snapshots/20261013-comparator-fpd-grant-web-extraction.json): CO3-066c, May 8, 2026–May 30, 2027, C$339,480, distinct IDEaS development contribution.
+- Original Volatus statements recovered as search extraction; direct pages blocked. Original FPDynamics qualification page fully read; supplier byline/date and taxonomy caveats retained. Peer registry identifiers sourced from visible secondary page components; original opens failed.
