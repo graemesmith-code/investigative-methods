@@ -1,0 +1,21 @@
+{
+  "url": "https://decisions.citt-tcce.gc.ca/citt-tcce/p/en/item/521399/index.do",
+  "retrieved_at_utc": "2026-10-13T22:01:27.477913+00:00",
+  "certificate_trust": "Only provisioned environment CA public keys; no blanket TLS-ignore setting",
+  "responses": [
+    {
+      "url": "https://decisions.citt-tcce.gc.ca/citt-tcce/p/en/item/521399/index.do",
+      "status": 403
+    }
+  ],
+  "status": 403,
+  "frame_visible_text": [
+    {
+      "url": "https://decisions.citt-tcce.gc.ca/citt-tcce/p/en/item/521399/index.do",
+      "text": "Forbidden\n\nYou don't have permission to access this resource."
+    }
+  ],
+  "title": "403 Forbidden",
+  "visible_text": "Forbidden\n\nYou don't have permission to access this resource.",
+  "links": []
+}

@@ -100,3 +100,13 @@ Three original Australian government releases from January 30 and August 21, 202
 Current Speidel professional-role check is preserved in `snapshots/20261013-speidel-role-check.json`, with actual linked person-page URLs and date limits. This corroborates possible organizational overlap, not June office or evaluator authority.
 
 Later public round-two route and dated browser shell log are described in the [procurement pass annex](annexes/procurement-and-production-pass-20261013.md). No operative package was acquired.
+
+## Oversight and equal-access sources, approximately 22:05 UTC
+
+- Native Commons Q-1530: `commons-ddi-question1530-20261006.html`, October 6 question / awaiting response November 23 display.
+- Native CITT unpublished list: `citt-unpublished-decisions-20261013.html`, bounded string check and incomplete docket limits. Osiris case response is title-only; browser 403, no read holding.
+- Native DAOD 3016-0: `daod-3016-0-nse.html`, 2021 policy wording requiring reconciliation with newer regulation.
+- Native September 16 MINERVA and August 10 RED COBALT records: `dnd-minerva-industry-days-20260916.html` / `dnd-red-cobalt-advisory-20260810.html`; distinguish separate events and innovation pathways.
+- Exact search record: `20261013-oversight-search-record.json`; OPO indexed leads and failed full-page retrieval remain labelled.
+
+See [oversight annex](annexes/oversight-and-equal-access-20261013.md) for exact original URLs, legal applicability, query limits and native/browser/web logs.

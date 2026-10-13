@@ -1,6 +1,6 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 21:56 UTC. After a further restart, shell/repository/remote reads succeeded and uncommitted evidence survived. The predecessor stopped writing; its final handoff has been incorporated. Research is continuing under one active branch writer. This is not a completed overnight report.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 22:05 UTC. This is a working investigation, with source dates, evidence limits and unanswered questions preserved.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
@@ -26,14 +26,12 @@ CanadaBuys's award page was recovered through web extraction and confirms CW2467
 
 13. [Australian production history](annexes/australian-production-history-20261013.md) — original military production records and the limits of attributing partner experience.
 
+14. [Oversight and equal bidder access](annexes/oversight-and-equal-access-20261013.md) — parliamentary governance question, award-date legal tests, public consultation and bounded oversight searches.
+
 The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
-
-## Overnight continuation status
-
-The predecessor's seven hourly research passes were **paused at 20:19 UTC**, before any run was confirmed. The recovery worker has not resumed or duplicated that automation. The parent coordinates continuation. The retained deadline is a final useful checkpoint before October 14 at 03:50 UTC, ahead of the 04:00 UTC (06:00 Europe/Rome) delivery. No email task was created or modified by this recovery worker.
 
 ## Scope and evidence discipline
 
-Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. Prior evidence and memos are preserved; dated synthesis updates retain Git history. No outreach, emails, ATI submissions, paid services or access changes. Parent owns the scheduled morning delivery. Statute, policy, contract compliance, value for money and publicity are separate tests. Missing evidence is a reporting question. No procurement misconduct has been established.
+Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. Prior evidence and memos are preserved; dated synthesis updates retain Git history. No outreach, emails, ATI submissions, paid services or access changes. Statute, policy, contract compliance, value for money and publicity are separate tests. Missing evidence is a reporting question. No procurement misconduct has been established.
 
 Snapshots labelled **web extraction** preserve the retrieval tool's returned text, including errors and crawl information; they are not downloaded source HTML, signed records, a certified live export or proof that unavailable documents were read. Native public government files, where obtainable, are separately identified and hashed. Issuer announcements establish claims, not performance or contractual compliance.

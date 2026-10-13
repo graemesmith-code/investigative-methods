@@ -34,3 +34,7 @@ For each possible allegation require the rule/version, who was obligated, event/
 - Original round-one Q&A on Scribd remains an unauthenticated discovery lead; never elevate it into governing clauses without authenticated originals.
 - September lobbying reporting is not overdue before October 15. A later export would be useful but **no after-October-15 monitoring is authorized here**. ATIA Q2 publication ordinary deadline is October 30; no late-disclosure finding now.
 - The parent's morning email is scheduled separately for October 14 at 06:00 Europe/Rome (04:00 UTC). This investigation does not send it or contact anyone.
+
+## Oversight and equal-access records
+
+The [oversight pass](annexes/oversight-and-equal-access-20261013.md) identifies Q-1530 as a future governance source, not a published answer. Award-specific coverage/NSE instruments and actual bidder distribution/version records remain the decisive missing evidence. Obtain actual invitation/attendance/content records before comparing dedicated demonstrations or lobbying with common bidder opportunities. Generic oversight recommendations and other drone procurements do not establish this award's failures. No future monitoring or outreach was created.

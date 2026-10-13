@@ -1,75 +1,41 @@
-# Recovery state and overnight work queue
+# Investigation status and next evidence
 
-13 October 2026 working checkpoint. Preserve this repository's existing files and use only branch `research/draganfly-compliance-2026-10-13`. All deliverables belong under `research/2026-10-13/draganfly-compliance/`. Main and repository access remain unchanged.
+Working checkpoint, October 13, 2026, approximately 22:05 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
-## Bounded scheduled continuation
+## What the evidence currently establishes
 
-Created at 20:15 UTC, **paused at 20:19 UTC** at the parent's stop-external-writes instruction, before any completed run was confirmed. Automation identifier for private recovery: `6ace9145a90081918c5e97cf4fdc1472`. The retained schedule has seven hourly flexible slots nominally October 13 20:30 UTC through October 14 02:30 UTC; it is currently disabled. Parent coordinates any recovery/continuation. Its already scheduled 04:00 UTC email is separate and must not be sent or changed here.
+- CanadaBuys reports a September 10, 2026 selective award to Draganfly Inc. for CAD439,851.55, with a five-year term and DDI Stream 1 connection. This is notice metadata, not the signed contract.
+- The issuer describes 100 firm systems and 4,900 optional systems worth approximately CAD24.25 million. Options are discretionary and not committed revenue. Price schedules and tax treatment remain unacquired.
+- Michel Gauthier's Rubicon consulting undertaking began August 25, 2025, preceding his February 20, 2026 advisory appointment. Two individual reports identify June/July DND contacts without a specific award link. The disclosed 2009 retirement weakens a cooling-off theory; no later qualifying office is established.
+- The bounded lobbying ledger contains 44 report rows across six known undertakings, plus a separately observed zero-report registration. It is neither a company-wide census nor a count of separate meetings. Corbould's contacts during/near the tender require actual content/authority records before a causal claim.
+- Original Australian Defence releases corroborate AMSL Aero development and production history, but not Draganfly's own qualifying project role or Canadian licence rights.
+- Commons Q-1530 asks for DDI governance and decision authority. The original page shows an October 6 question awaiting response with November 23 displayed. There is no overdue-answer finding.
+- Public industry consultation and information opportunities are documented. August MINERVA industry days supported ISC challenges; they are not identified as Draganfly contract acceptance tests. No unequal bidder information has been proved.
 
-## Completed
+## Current decisive gaps
 
-- Reverified original-government award metadata, original RFP-A body, Gauthier June/July records and companion lobbying records; bounded direct retrieval failures logged.
-- Preserved parent checklist original DOCX plus hyperlink-bearing Markdown extraction, and independent Gauthier memo.
-- Added newsroom synthesis, evidence index, unresolved-record plan and Gauthier/contract/corporate annexes.
-- Downloaded native legal, government historical/program and CFTA records, with provenance logs. Public sources only; no login, paid calls or access changes.
-- Browser anonymous SAP route rendered shell; no controlling documents recovered. Browser CA trust limited to provisioned environment anchors. No hidden API replay or guessing.
-- Corrected exploratory August 7 disclosure concern: September 15 is the ordinary August-report deadline. No lateness evidence. Removed unverified September 8 amendment-chain inference.
-- New original FPDynamics record closes prior recovery gap. October 13 DoD Solution investment disclosure is a new corporate lead without demonstrated CAF linkage.
+Signed contract and price/options schedules; executed SA; operative first-round RFSA and call-up RFP/addenda; authenticated Q&A and distribution/version records; eligibility/technical evaluation and evaluator identities; coverage/NSE request and signed approval; completed FOCI assessment; licence/technology-transfer terms; delivery acceptance; actual meeting agendas/content and recipient authority.
 
-## Current blockers
+The RFP-A cache/current mirror discrepancy is an authentication lead, not a verified change to bidder terms. The actual original versions, publication times, recipients and any extension justification would discriminate between an administrative display issue and a substantive change.
 
-Signed contract, SA, operative RFSA/RFP/addenda, evaluation, actual NSE/coverage decision, FOCI assessment and meeting records remain missing. Native registry and CanadaBuys bulk CSV fetches failed; do not turn failures into compliance claims. First git read during a reported environment disconnect briefly failed authentication; subsequent checkpoint push and remote ref verification succeeded.
+## Rules and counterchecks
 
-## Overnight queue: choose useful, unfinished branches
+The December 2024 GCR amendment is material to a qualifying NSE exclusion, with s.18 preserved. DND's 2021 directive still contains older wording and cannot override the newer regulation. The CITT letter requirement must be checked against an actual instrument dated before the award day. No-agreements metadata is not an exemption instrument.
 
-1. **Complete public document route.** Inspect the explicitly public SAP anonymous preview only, including visible frames and attachments if it genuinely loads. Current body was a shell; use ordinary UI and stop at login/challenge/access boundaries. Examine legitimate published bulk-resource routes/metadata, not hidden endpoints. Recover original round-one or actual RFP only if public and authenticated.
-2. **Broader lobbying record.** Public export routes and remaining consultants (DeWolfe, de Bakker, Danchilla) can reconcile company-level chronology. Preserve communication date, first/current posting, amendments, officials and exact subjects. Counts are filings; same-date same-official filings are possible shared meetings, not proven duplicates or separate meetings. Do not use aggregator counts as primary evidence.
-3. **Gauthier appointments and actual activities.** Examine public professional, DND, Parliament and appointment records for a later qualifying office/return to service and substantive DDI/product involvement. Earlier registration precedes advisory appointment; exact terms/pay remain missing. Search only public professional facts. No speculation about private relationships or personal details.
-4. **Contract valuation and publication.** Reconcile known initial value, option claims, tax schema and peers' term patterns. Seek publicly available actual schedules, price-review or policy decisions. Repeating a missing-document list is not a new finding. Do not treat the nominal C$1 SA as a purchase price.
-5. **Licensed production and corporate changes.** Check counterparty/issuer filings for pre-award Astiia licence/production evidence, operating entity distinctions, transaction agreements and actual configuration/security changes. The new outward DoD Solution investment is not a foreign takeover of Draganfly.
-6. **Exceptions and actual oversight.** Look for public DDI coverage/NSE records, tribunal/ombudsman decisions or documented equal-access concerns. A different DDI stream's NSE is only a lead until scope covers this UAS award. No public complaint search proves no complaint exists.
-7. **Source and allegation QA.** Independently trace strongest claims to exact source/version, test benign explanations, remove unsupported assertions, verify links/remote files and update newsroom summary. End with concise final status for parent's 04:00 UTC delivery.
+If the relevant CFTA procurement rules apply, new bidder answers and changed requirements must be shared and published appropriately; the tender period must be reasonable in the circumstances. A short window alone does not prove a numeric-deadline violation. OPO's ordinary award-review thresholds differ from its administration/practice remit; generic reports and a separate drone-training complaint are not findings about this award.
 
-## Recovery owner checkpoint, 13 October 2026, 20:30 UTC
+September lobbying disclosures are ordinarily due October 15 and quarterly September contract publication October 30; neither date has passed. Missing public records and failed retrievals do not establish misconduct.
 
-The recovery environment successfully executed shell/repository commands. Main research branch at `65eae0d` was fetched with all three original commits intact. Predecessor archival branch `3a1dfb7` was inspected and cherry-picked as `ecc33e3`; predecessor remains stopped. This worker is the sole active writer on the requested research branch. No automation was resumed or duplicated; the parent coordinates future passes.
+## Next useful work
 
-New work: verified Danchilla/DeWolfe/de Bakker registrations and seven further report-list rows; recovered de Bakker's four 2025 individual report bodies; identified Mission Systems/AMSL Aero development partnership from a pre-award developer statement; archived native Interpretation Act holiday rules and Lobbyists Registration Regulations. Added chronological index, bounded source notes, restored prior memo files and preserved the full transferred cross-registrant memo. The complete checklist under `prior/checklist-content.md` remains the earlier DOCX extraction, with its own provenance.
+1. Acquire the actual first-round procurement documents from a genuinely different public route, including version dates and common bidder distribution. Do not replay exhausted SAP shells or blocked bulk CSV endpoints.
+2. Search identifiable original oversight decisions and public governance records with precise procurement identifiers. Preserve search/date limits; inaccessible decision titles are not read holdings.
+3. Trace an actual licence/production disclosure and identify the airframe/embedded-technology rights without assuming foreign design is disqualifying.
+4. Reconcile the actual value estimate, option treatment and price-review/policy approvals with their applicable thresholds; do not invent a contract ceiling or unit price.
+5. Check each material conclusion against original sources, and distinguish statute, policy, contract terms, value for money and publicity.
 
-No new misconduct finding. February 16 posting does not support lateness from a Sunday February 15 deadline. Both published OCL ZIPs returned 403. CanadaBuys award page reopened and matched the inherited baseline; operative A/B documents remain missing. Useful remaining paths: authentic public procurement attachment route, company-level registry census with report lineages, Canadian licence/production rights, later Gauthier appointments and actual coverage/NSE decisions. Avoid repeated failed URLs without a changed route or new evidence.
+## Reading and methodological limits
 
-## Substantive procurement/production pass, 20:30–20:45 UTC
+Start with START-HERE.md and NEWSROOM-SUMMARY.md; use the chronological index and annexes for exact dates, sources and conclusions. Native files, labelled web extractions and derived research aids are separately identified in the evidence index and capture logs. Source materials inherited from earlier work remain attributed; inaccessible records are not described as read.
 
-Connectivity retested at 20:33:53; shell and git reads succeeded, local/remote `8c95109` preserved. Acquired native tender/award data-support HTML and original SEC submission fields; both fiscal-year tender/award CSVs returned 403. SEC feed located the authentic September 8 qualification exhibit and August 10 financial statements/MD&A. Native government guide-PDF URL returned archive-notice HTML; web extraction read the 2023 PDF, ordinary browser stopped on blocked HTTP 500. No native guide PDF acquired.
-
-New discriminating leads: RFP-A search cache/current mirror changes September 1 to 3 and UAS to UGV, requiring official version history; candidate RFSA Q&A gives exact CM1/S1-M1/partner-rights questions but remains unverified; strategic policy separates supplier status and local value from foreign design; issuer incorporation/subsidiary evidence weakens a no-Canadian-presence premise. No actual failing qualification, access inequality, waived criterion, licence deficiency or price-review omission proved.
-
-Parent's deeper Gauthier evidence memo preserved at `prior/gauthier-deeper-evidence.md`. Parent independently inspected additional Army engagement, CSE compensation and Senate/partner records; do not describe that transfer as this worker's independent retrieval. Next useful branch: acquire native Army/Senate engagement records, examine actual access/requirement development chronology and corroborate partner production statement without inventing dates. Original procurement packages/decisions remain unresolved. No automation was changed; historically paused task is predecessor's internal continuation, not parent email.
-
-## Native engagement and restart checkpoint, 21:25 UTC
-
-Acquired five native Army/DND/Senate HTML pages and derived text at 20:45:49, plus independently verified February CSE issuer PDF (temporary only). Requirements/event chronology, public advocacy and disclosed Senate precaution corroborated; quantity interpretation corrected because a divisional inventory forecast partly includes realignment of existing brigades. Later-role search found an undated University of Ottawa teaching reference; no later designated appointment established. See new native engagement annex.
-
-Environment later became marked starting. Wait reported ready; actual shell, HEAD/status and remote read succeeded at 21:24:46. Local/remote `bd32f21` preserved and all uncommitted native captures survived. Native engagement checkpoint `decb802` pushed and remote reference verified. No automation changes; parent email remains outside this worker's actions. August investor-deck route subsequently failed native 403 and web retrieval; no absent-name conclusion follows. Useful next branch: other dated company/counterparty disclosures for earliest Astiia rights/production evidence, or bounded procurement/oversight records. Original RFSA/RFP/licence/decision files still missing.
-
-## Execution constraints
-
-No third-party contacts, emails, ATI submissions, accounts, paid APIs, complaints, publication, access changes, merges or force pushes. Parent handles the morning email. After-October-15 monitoring is not authorized. Research delivery deadline is October 14 at 06:00 Europe/Rome = 04:00 UTC; finish final checkpoint before that. No invented cost/token totals or claims to read inaccessible records.
-
-At each continuation read the latest remote WORKSTATE, TECHNICAL-LOG and summary, choose an unfinished useful branch, archive dated source/negative-search evidence where permitted, correct hypotheses openly, update the queue and checkpoint safely. Use file SHA/commit guards against concurrent changes and verify the remote content. If a branch is exhausted, work on another or perform evidence QA; do not simply refetch blocked URLs. If credentials genuinely fail, preserve local work where available and describe the exact blocker without pretending a push succeeded.
-
-## Linked registry recovery and bounded ledger, 21:52 UTC
-
-Recovered four additional individual official report bodies using visible public registration/list links: Cadario 692180 and Singh 690653/690652/690651. Cadario/de Bakker June 22 Speidel reports differ in institution label, with no demonstrated award linkage. Added bounded 44-row inventory across six known undertakings, 31 matched IDs, plus separately observed zero-report Danchilla registration. Not a fresh complete live export or meeting count. Selected Corbould amendment bodies and full-list refresh still failed; do not repeat unchanged blocked routes or infer September 8 predecessor ID. Next: authenticate RFP versions and dated counterparty licence/production disclosures; preserve ordinary explanations and no-misconduct conclusion.
-
-## Australian production-history pass, 21:52 UTC
-
-Read three original Australian government releases confirming AMSL prototype and production contracts in 2024 and aggregate delivery milestone in August 2025. Native requests returned 503; web extractions saved separately. This is counterevidence to a developer-without-military-production premise, not proof of Draganfly own experience, Canadian rights or accepted qualification. Corbould July 22 date wording corrected to the current body's amendment label. Next useful branch: original published RFP/RFSA version histories or public oversight decisions; avoid repeat blocked routes. All-night continuation remains authorized; no email/automation actions.
-
-## Approximately 21:56 UTC: useful counterchecks
-
-GEDS current professional entries support a possible ordinary administrative explanation for Speidel labels, but no June office determination. Broad DDI backgrounder allows licensed/allied routes and says prior defence experience not necessarily required; candidate stream-specific Q&A cannot be universalized or treated as governing without authentication. Chronological index now integrates new antecedents/contact bodies into main date order. Research is not declared complete; next substantive branch remains authentic procurement documents or public oversight decisions.
-
-## Later round route exhausted, approximately 21:56 UTC
-
-Secondary October round-two event E lead led to new publicly linked anonymous SAP event 1110027888, ordinary browser HTTP 200 shell only. No attachments or RFSA acquired. Event F mirror gated full detail behind account; stopped there. Round-two must not be retroactively applied to September. Next productive continuation: original public record acquisition from a genuinely different route, oversight-record search, or source/claim QA; unchanged SAP, bulk CSV and direct blocked registry routes are exhausted. Parent continues overnight coordination; this remains a checkpoint, not completed overnight delivery.
+Private research only. No outreach, emails, ATI submissions, paid services, complaints, accounts, access changes or public publication. Morning delivery and any future scheduling are handled separately. This checkpoint does not represent a completed overnight investigation.

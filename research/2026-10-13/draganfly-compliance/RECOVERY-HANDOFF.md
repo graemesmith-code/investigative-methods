@@ -31,7 +31,3 @@ Local checkpoint will be bundled at `/workspace/draganfly-local-checkpoint.bundl
 6. New October 13 outward DoD Solution investment/Chell board disclosure gives no amount/percentage or CAF/Astiia link. Do not treat as takeover or contract transfer.
 
 Signed contract, operative SA/RFSA/RFP/addenda, evaluation/approvals, actual NSE/FOCI and meeting materials remain missing. Browser SAP public UI rendered only shell; no attachments recovered. No paid calls, contacts, ATI requests or email.
-
-## Continuation control
-
-The worker created a seven-pass overnight research continuation but **paused it at 20:19 UTC** to avoid recovery conflicts. No run completion confirmed. Parent may coordinate one continuation route; do not run both blindly. Parent's morning email remains unchanged for October 14 06:00 Europe/Rome (04:00 UTC).

@@ -35,3 +35,9 @@ Native Army and Senate records now corroborate broad engagement and requirements
 ## Additional counterevidence and record recovery, 21:56 UTC
 
 Four more original lobbying bodies add contacts with Speidel, McGuinty, McNair and Deacon but no named award. The bounded inventory is 44 report rows, not a count of separate meetings. Current professional directory entries offer an ordinary administrative explanation to test for Speidel's different institution labels. Australian Defence releases corroborate AMSL Aero's development and production history before Canada's competition, weakening a no-military-production premise. They do not establish Draganfly's own project role or Canadian licence. See the [lobbying ledger](annexes/lobbying-ledger-pass-20261013.md) and [Australian production annex](annexes/australian-production-history-20261013.md). No misconduct conclusion follows.
+
+## Oversight and bidder-access check, approximately 22:05 UTC
+
+An October 6 Commons question seeks DDI governance and decision authority; the original page still shows it awaiting response with November 23 displayed. No answer is overdue now. Searches did not acquire an award-specific CITT, OPO or Auditor General finding, or an actual signed NSE instrument. These bounded negatives are not clearance.
+
+DND's public NSE directive dates to 2021 and contains wording that predates the December 2024 GCR change. It cannot alone settle the September 2026 duties. Original Army records distinguish August operational demonstrations for ISC innovation challenges from Draganfly acceptance tests. If the CFTA rules apply, the decisive bidder-access evidence is what information changed, who received it and when; a short window alone does not prove a numeric-deadline breach. [Sources and exact tests](annexes/oversight-and-equal-access-20261013.md).
