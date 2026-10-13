@@ -58,3 +58,13 @@ The [pre-award price-support guide](https://canadabuys.canada.ca/en/buyer-s-port
 4. Obtain the award estimate, value-reporting worksheet, policy applicability/exception approvals, Canadian-value attestation and pricing consultation. These distinguish reporting conventions from an actual omitted mandatory review.
 
 No external messages, requests, complaints, paid calls, login, access changes or automation changes were made. The parent owns the 06:00 Rome email. The predecessor's internal research continuation was the historically paused task, not that email. This is a substantive intermediate pass; it does not claim overnight completion.
+
+## Later qualification-round acquisition lead, approximately 21:56 UTC
+
+A [BidMaple public mirror](https://bidmaple.ca/fr/contracts/w8703-270055-marche-de-linitiative-des-drones-de-defense-dama-2e-ronde-e/01m4erfny20yjdtc5anbxg409s) identifies WS5802684496-Doc5923773937, round two event E, November 6 at 14:00 EST and an October 15 industry session. Its summary reports multiple capacity-limited events. These remain secondary imported metadata, not authenticated original terms. A separate [Contexium public listing](https://contexium.com/marketplace/58671/w8703-270055-defence-drone-initiative-marketplace-rfsa-round-2-f) describes event F and an October 8 start date; the full content asks for an account, which was not created or accessed.
+
+BidMaple's actual official-notice link led to anonymous public SAP event 1110027888. The web tool returned zero extracted lines. An ordinary browser using the visible event identifier and standard public preview route returned HTTP 200 and only the Business Network shell. No RFSA or attachments were acquired. [Inspection log](../snapshots/sap-roundtwo-public-inspection-20261013.json) and rendered shell are preserved separately from the older round-one attempt. Native BidMaple fetch returned 403, logged in `20261013-roundtwo-route-notes.json`. No hidden endpoint replay, guessed IDs, login or challenge bypass. Do not retry this unchanged shell route.
+
+A search also surfaced Northern Arc's publicly served July sector-briefing PDF. It is a consultancy briefing, with promotional claims and confidential footers, not the RFSA or a government decision. No full document was downloaded or redistributed, and it supplies no Draganfly-specific causal evidence. Its claims about political positioning must not become evidence that this award was politically directed.
+
+Round-two material, if later acquired, must be dated and compared with the operative first-round criteria. It cannot automatically govern the September award. The new route has narrowed the acquisition gap rather than closed it.

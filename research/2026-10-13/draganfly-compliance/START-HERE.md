@@ -1,6 +1,6 @@
 # Draganfly procurement: public-record investigation
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 21:52 UTC. After a further restart, shell/repository/remote reads succeeded and uncommitted evidence survived. The predecessor stopped writing; its final handoff has been incorporated. Research is continuing under one active branch writer. This is not a completed overnight report.
+Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 21:56 UTC. After a further restart, shell/repository/remote reads succeeded and uncommitted evidence survived. The predecessor stopped writing; its final handoff has been incorporated. Research is continuing under one active branch writer. This is not a completed overnight report.
 
 The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
 
@@ -24,9 +24,9 @@ CanadaBuys's award page was recovered through web extraction and confirms CW2467
 
 12. [Bounded lobbying ledger](annexes/lobbying-ledger-pass-20261013.md) — four recovered individual reports, possible shared communications and institution-label discrepancy.
 
-The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
-
 13. [Australian production history](annexes/australian-production-history-20261013.md) — original military production records and the limits of attributing partner experience.
+
+The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
 
 ## Overnight continuation status
 

@@ -69,3 +69,7 @@ Read three original Australian government releases confirming AMSL prototype and
 ## Approximately 21:56 UTC: useful counterchecks
 
 GEDS current professional entries support a possible ordinary administrative explanation for Speidel labels, but no June office determination. Broad DDI backgrounder allows licensed/allied routes and says prior defence experience not necessarily required; candidate stream-specific Q&A cannot be universalized or treated as governing without authentication. Chronological index now integrates new antecedents/contact bodies into main date order. Research is not declared complete; next substantive branch remains authentic procurement documents or public oversight decisions.
+
+## Later round route exhausted, approximately 21:56 UTC
+
+Secondary October round-two event E lead led to new publicly linked anonymous SAP event 1110027888, ordinary browser HTTP 200 shell only. No attachments or RFSA acquired. Event F mirror gated full detail behind account; stopped there. Round-two must not be retroactively applied to September. Next productive continuation: original public record acquisition from a genuinely different route, oversight-record search, or source/claim QA; unchanged SAP, bulk CSV and direct blocked registry routes are exhausted. Parent continues overnight coordination; this remains a checkpoint, not completed overnight delivery.

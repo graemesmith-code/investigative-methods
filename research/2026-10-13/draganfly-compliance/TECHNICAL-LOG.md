@@ -76,3 +76,7 @@ Three original government releases retrieved by web tool corroborate AMSL produc
 ## Approximately 21:56 UTC: recipient-role and program-scope checks
 
 Actual GEDS person links corroborate current parliamentary and ISED professional entries for Speidel; historical June office remains unverified. Bounded professional fields archived, unnecessary contact details omitted. July 23 native DND text rechecked: broad program says previous defence experience not necessarily required; formal stream-specific RFSA still controls. This cannot establish a waiver or universal stream requirement. Integrated new source events into date order in chronological index.
+
+## Approximately 21:56 UTC: later public qualification-round route
+
+New secondary event E reference Doc5923773937 exposed public anonymous SAP event 1110027888. Actual mirror link opened by web tool returned empty extraction; ordinary browser returned 200 shell only. Native mirror fetch 403. Separate dated route and browser logs saved. No new operative RFSA acquired; avoid unchanged retry. Consultancy July briefing surfaced but was neither an original RFSA nor a Draganfly-specific decision record, and was not downloaded/redistributed.

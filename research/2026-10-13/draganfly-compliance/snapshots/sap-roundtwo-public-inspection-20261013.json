@@ -1,0 +1,744 @@
+{
+  "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui#/RfxEvent/preview/1110027888?anId=ANONYMOUS",
+  "retrieved_at_utc": "2026-10-13T21:56:07.650990+00:00",
+  "certificate_trust": "Only provisioned environment CA public keys; no blanket TLS-ignore setting",
+  "responses": [
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/public/appext/comsapsbncdiscoveryui",
+      "status": 200
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/en/runtime.bf6abde5ec60fefd.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/assets/images/busy_indicator.gif",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/en/styles.1b20232055905609.css",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/en/polyfills.06d5de932e3a1f3f.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/en/main.7117b0e9a18cb9f5.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap-ui-core.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/en/72-Regular-full.2d78509215462bf6.woff",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/fl/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/AppCacheBuster.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/_IconRegistry.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/sap-ui-cachebuster-info.json?sap-ui-language=en-US",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/m/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/fl/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/assets/config.json",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/unified/library-preload-lazy.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/m/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/layout/library-preload-lazy.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/cldr/en.json",
+      "status": 200
+    },
+    {
+      "url": "https://sdk.split.io/api/splitChanges?s=1.3&since=-1&rbSince=-1",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/fl/library-preload-apply.js",
+      "status": 200
+    },
+    {
+      "url": "https://sdk.split.io/api/memberships/ANONYMOUS",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/cdn-cgi/rum?",
+      "status": 204
+    },
+    {
+      "url": "https://auth.split.io/api/v2/auth?s=1.3&users=ANONYMOUS",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/bn-dashboard/public/v1/shell-bar-info",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/dashboard/en/72-Bold.d11b34f25c2d13f2.woff",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncreusablelib/utils/TPPBootstrapHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap-ui-version.json",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/fl/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/m/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/manifest.json?sap-language=en",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/themes/sap_horizon/fonts/72-Regular.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/~6db21b93921b7da74b48ccc9e4038383d0cece64~/Component-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/i18n/i18n_en_US.properties",
+      "status": 404
+    },
+    {
+      "url": "https://webassistant.enable-now.cloud.sap/web_assistant/framework/wpb/Help4.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/i18n/i18n_en_US.properties",
+      "status": 404
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/layout/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/templates/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/layout/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/mdc/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/f/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/mdc/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/f/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/templates/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/macros/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/placeholder/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/f/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/layout/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/mdc/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/unified/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/controls/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/controls/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/fe/core/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/flexibility/ObjectPageSubSection.flexibility.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/unified/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/unified/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/flexibility/ObjectPageSection.flexibility.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/i18n/i18n_en_US.properties",
+      "status": 404
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncdiscoveryui/~32697c32a4410cb014b4ce5737f50cb6fffacad9~/css/style.css",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/changeHandler/UnstashObjectPageSection.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/changeHandler/RenameObjectPageSection.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/table/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/odata/public/discovery/v1/rfx/",
+      "status": 401
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/suite/ui/commons/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/table/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/suite/ui/commons/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/sbnc-external-approuter/comsapsbncreusablelib/extensibility/SbnFlexConnector.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/comp/library-preload-lazy.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/odata/public/discovery/v1/rfx/qna/",
+      "status": 401
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/auth/v1/user-session-info",
+      "status": 401
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/table/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/odata/public/discovery/v1/attachment/",
+      "status": 401
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/odata/public/discovery/v1/rfx/qna/$metadata",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/flexibility/flex/all/v3/data/com.sap.sbnc.discovery.ui?sap-language=en-US",
+      "status": 401
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/suite/ui/commons/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://webassistant.enable-now.cloud.sap/web_assistant/framework/wpb/less/text_styles_default.css",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/insights/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/odata/public/discovery/v1/attachment/$metadata",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/odata/public/discovery/v1/rfx/$metadata",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/flexibility/flex/all/v3/settings",
+      "status": 401
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/insights/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/insights/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/suite/ui/microchart/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/comp/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/comp/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/export/library-preload.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/suite/ui/microchart/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/export/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/suite/ui/microchart/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/comp/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/export/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageLayout.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageSubSection.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/LazyLoading.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ThrottledTaskHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/library.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageLayoutRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageSectionBase.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageLazyLoader.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageSubSectionRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://webassistant.enable-now.cloud.sap/web_assistant/framework/wpb/less/default-custom.css",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageLayoutABHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageSection.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/flexibility/ObjectPageHeader.flexibility.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageHeaderContent.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/BlockBase.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/flexibility/ObjectPageLayout.flexibility.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/flexibility/ObjectPageDynamicHeaderTitle.flexibility.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/flexibility/ObjectPageHeaderActionButton.flexibility.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/BlockBaseMetadata.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageHeaderContentRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ModelMapping.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectImageHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageHeaderRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/BlockBaseRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/changeHandler/MoveObjectPageSection.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/changeHandler/AddIFrameObjectPageLayout.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageSectionRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageDynamicHeaderTitle.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageDynamicHeaderContent.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageDynamicHeaderTitleRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/ObjectPageDynamicHeaderContentRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/api/env/Format.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/VizTooltip.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/data/FlattenedDataset.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/utils/FormatDataUtil.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/feeds/FeedItem.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/format/ChartFormatter.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/library.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/data/DimensionDefinition.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/BaseControl.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/data/MeasureDefinition.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/data/CVOMDatasetAdaptor.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/utils/Constants.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/data/Dataset.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/feeds/AnalysisObject.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/libs/rgbcolor.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/thirdparty/require.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/libs/CssPlugin.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/charttooltip/TooltipContainer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/thirdparty/d3.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/BaseControlRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/thirdparty/jqueryui/jquery-ui-widget.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/libs/canvg.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/thirdparty/jqueryui/jquery-ui-mouse.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/libs/sap-viz-info-framework.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/charttooltip/ContentPanel.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/thirdparty/jqueryui/jquery-ui-draggable.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/utils/ContentUtil.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/libs/sap-viz-info-charts.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/thirdparty/jqueryui/jquery-ui-droppable.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/libs/sap-viz-vizframe/sap-viz-vizframe.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/resources/chart/templates/standard_fiori/template.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/libs/sap-viz-vizservices/sap-viz-vizservices.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/uxap/messagebundle_en.properties",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/themes/sap_horizon/library.css?sap-ui-dist-version=1.148.3",
+      "status": 200
+    },
+    {
+      "url": "https://help.sap.com/webassistant/catalogue?%7B%22product%22%3A%22TPP%22%2C%22version%22%3A%22001%22%2C%22system%22%3A%5Bnull%2C%22%22%5D%2C%22appUrl%22%3A%5B%22dashboard-screen-undefined%22%2C%22dashboard-screen-undefined!whatsnew%22%5D%2C%22locale%22%3A%5B%22en-US%22%2C%22en-GB%22%5D%2C%22solution%22%3A%22unknown%22%7D",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/VizFrame.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/theming/Util.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/helpers/DefaultPropertiesHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/utils/CommonUtil.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/utils/SelectionDetailUtil.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/ResponsiveLegend.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/helpers/RuntimeOptionsHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/common/feeds/FeedHelper.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/VizFrameRenderer.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/WorkerCode.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/themes/sap_horizon/fonts/72-Bold.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/resources/framework/langs/language_en.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/ui5/controls/libs/sap-viz-vizframe/resources/locale/language_en.js",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/viz/resources/chart/langs/language_en.js",
+      "status": 200
+    },
+    {
+      "url": "https://portal.us.bn.cloud.ariba.com/tpx/ingress/tps/discovery-core/api/v1/orgs/null/linked-orgs",
+      "status": 401
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/themes/sap_horizon/fonts/72-Black.woff2",
+      "status": 200
+    },
+    {
+      "url": "https://ui5.sap.com/1.148.3/resources/sap/ui/core/themes/sap_horizon/fonts/SAP-icons.woff2",
+      "status": 200
+    }
+  ],
+  "status": 200,
+  "title": "SAP Business Network",
+  "visible_text": "Business Network",
+  "links": [
+    {
+      "text": "",
+      "href": "https://portal.us.bn.cloud.ariba.com/dashboard/#"
+    },
+    {
+      "text": "",
+      "href": "https://portal.us.bn.cloud.ariba.com/dashboard/#"
+    }
+  ]
+}

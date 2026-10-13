@@ -98,3 +98,5 @@ Four additional original registry bodies recovered: Cadario 692180 and Singh 690
 Three original Australian government releases from January 30 and August 21, 2024, and August 19, 2025 corroborate AMSL Aero prototype/production contracts and completed aggregate deliveries. [Production-history annex](annexes/australian-production-history-20261013.md) preserves exact sources, currencies, product-name limits, qualification implications and native HTTP 503 failures. Web text archived; no native HTML acquired.
 
 Current Speidel professional-role check is preserved in `snapshots/20261013-speidel-role-check.json`, with actual linked person-page URLs and date limits. This corroborates possible organizational overlap, not June office or evaluator authority.
+
+Later public round-two route and dated browser shell log are described in the [procurement pass annex](annexes/procurement-and-production-pass-20261013.md). No operative package was acquired.
