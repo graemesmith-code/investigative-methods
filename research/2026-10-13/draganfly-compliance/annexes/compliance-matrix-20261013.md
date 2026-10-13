@@ -85,7 +85,7 @@ Counts: T 1, P 34, C 49, I 1, U 19. Counts describe evidence access, not failure
 | 73 | Reconstruct the FOCI decision | P | Official prospective FOCI statement and actual timing rules checked; no completed decision/entity/scope/date. | L |
 | 74 | Check personnel and subcontract security | C | No actual sensitive flows, approved subcontracts, personnel/site/foreign-transfer authorizations. | L |
 | 75 | Classify controlled goods before alleging nonregistration | U | Controlled-goods applicability requires actual configuration/data classification; military label is insufficient. | L |
-| 76 | Verify the correct CGP entity and dates | P | Earlier official subsidiary directory lead retained; parent/site/historical certificate scope unverified. | L |
+| 76 | Verify the correct CGP entity and dates | P | Current native directory and matching detail verify Draganfly Innovations Inc., expiry September 21, 2028; parent/site/historical certificate scope unverified. | L |
 | 77 | Test cybersecurity certification only if required | U | CPCSC selected-contract rule known; incorporation, network/entity scope and attestation date absent. | L |
 | 78 | Map mission data and external access | C | No delivered data-flow, hosting/access architecture or applicable security boundary. | L |
 | 79 | Test firmware and supply chain trust | C | No configuration-specific provenance, update/disable/assurance evidence; no automatic US certification requirement. | L |

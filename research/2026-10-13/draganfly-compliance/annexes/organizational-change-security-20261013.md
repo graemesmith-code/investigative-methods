@@ -24,7 +24,7 @@ The change occurred after the September 10 award date. Its possible reporting co
 |---|---|---|
 | Government award metadata | Contractor named Draganfly Inc. | CSP registration number, signed security agreement, SRCL, clearance entity/site or sensitive work start date |
 | Issuer military/government webpage | Company claims Controlled Goods Program approval and a secure Saskatoon facility | CSP registration or an award-specific security decision; Controlled Goods and CSP are separate systems |
-| Earlier official subsidiary directory lead | Draganfly Innovations Inc. is a distinct Canadian subsidiary | Parent coverage, September clearance or the exact contracting/performing entity |
+| Current native Controlled Goods directory and matching detail, independently rechecked | Draganfly Innovations Inc. is publicly listed, expiry September 21, 2028; filings distinguish the subsidiary | Parent CSP coverage, September clearance or the exact contracting/performing entity; see the separate entity-chain annex |
 | October 12 Defense USA announcement | Announced U.S. structure and management roles | Incorporation/effective-change date, Canadian contract assignment or sensitive-information transfer |
 
 Four exact-name security searches did not recover a registration, company security officer, agreement or notification. Unrelated “Dragonfli” jobs, financial securities terminology and foreign-government rules were discarded. The issuer's general security marketing is not an independent clearance certificate. No private portal, verification contact or copy request was used.

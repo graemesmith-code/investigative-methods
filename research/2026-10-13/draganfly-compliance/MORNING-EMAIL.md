@@ -16,6 +16,8 @@ Michel Gauthier left the military in 2009. His disclosed lobbying began in 2025,
 
 The headline numbers also need care. The government notice records C$439,851.55. Draganfly describes 100 firm systems with equipment and support, plus 4,900 discretionary options worth roughly C$24.25 million. Those aren't 5,000 guaranteed purchases. Licensing an Australian design for Canadian production is worth checking against the tender, but the government's announcement describes allied foreign designs for other suppliers too.
 
+Corporate filings connect the older business to today's parent and subsidiary group. The current Controlled Goods directory names Draganfly Innovations Inc., while the award names Draganfly Inc. The tender's rules and actual performing entity would establish whether that distinction mattered; it does not demonstrate a breach by itself.
+
 The next evidence that could make or break the story is the signed contract, the actual qualification and evaluation records, the licence and security decisions, and the briefing/follow-up trail around those contacts. We still haven't obtained those documents. The briefing-title search also does not establish that September records are missing: September titles are ordinarily due October 30.
 
 Start with the shorter [What this means](https://github.com/graemesmith-code/investigative-methods/blob/research/draganfly-compliance-2026-10-13/research/2026-10-13/draganfly-compliance/WHAT-THIS-MEANS.md). The [private research folder](https://github.com/graemesmith-code/investigative-methods/tree/research/draganfly-compliance-2026-10-13/research/2026-10-13/draganfly-compliance) has the source trail and a prioritized records plan.

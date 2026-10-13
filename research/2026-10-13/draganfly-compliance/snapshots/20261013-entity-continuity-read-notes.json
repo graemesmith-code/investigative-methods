@@ -1,0 +1,39 @@
+{
+  "checked": "2026-10-13T23:48:37.411992+00:00",
+  "source_file": "issuer-listing-prospectus-20191029.pdf",
+  "document": "CSE listing statement dated October 29, 2019 enclosing final prospectus October 23, 2019; 199 PDF pages",
+  "method": "Native PDF text extraction; selected sections read, pages 16 and 68 visually inspected. Not a claim all 199 pages read.",
+  "selected_pdf_pages": [
+    16,
+    20,
+    21,
+    26,
+    68,
+    118
+  ],
+  "bounded_excerpts": [
+    {
+      "purpose": "2019 combination",
+      "pdf_page": 16,
+      "text": " Former Draganfly (the\n\u201cCombination Agreement\u201d) whereby: (i) Former Draganfly completed settlement of certain overdue debt in the aggregate\nof $2,779,726 (\u201cDebt Settlement\u201d); (ii) Former Draganfly continued to British Columbia (being the corporate law jurisdiction\nof the Company and Subco (the \u201cContinuance\u201d); (iii) Subco amalgamated (the \u201cAmalgamation\u201d) with Former Draganfly to\nform the amalgamated wholly-owned subsidiary of the Company, Draganfly Innovations Inc. (\u201cDraganfly Innovations\u201d);\nand (iv) the Company changed its name to \u201cDraganfly Inc.\u201d (the \u201cName Change\u201d).\n\nUnder the Amalgamation, holders of common shares of Former Draganfly (\u201cFormer Draganfly Shares\u201d) (other than\ndissenting shareholders) received 1.794 fully paid and non-assessable common shares in the authorized share structure of\nthe Company (the \u201cCommon Shares\u201d or the \u201cCompany Share\u201d) for each Former D"
+    },
+    {
+      "purpose": "2017 vertical amalgamation",
+      "pdf_page": 68,
+      "text": "S\n\nDraganfly Innovations Inc. (formerly Trace Live Network Inc.) (the \u201cCompany\u201d) was incorporated by articles of\nincorporation dated January 1, 2017 under the Business Corporations Act (Alberta). On January 1, 2017, the\nCompany completed a vertical amalgamation of its wholly-owned subsidiary Draganfly Innovations Inc.\n(\u201cDraganfly\u201d) which was incorporated on February 24, 1998. Concurrent with the vertical amalgamation, the name\nof the Company was changed from Trace Live Network Inc. to Draganfly Innovations Inc. The Company\u2019s principal\nbusiness activity is developing and manufacturing multi-rotor helicopters, industrial aerial video systems, civilian\nsmall unmanned aerial systems or vehicles, wireless video systems and custom engineering. The Company\u2019s\nproducts are available to consumers through its distributors in Canada and United States.\n\nThe head office, principal "
+    },
+    {
+      "purpose": "2019 June interim note",
+      "pdf_page": 118,
+      "text": "Draganfly Innovations Inc. (the \u201cCompany\u201d) was incorporated by articles of incorporation dated January 1, 2017 under the\nBusiness Corporations Act (Alberta). The Company develops and manufactures multi\u2010rotor helicopters, industrial aerial video\nsystems, civilian small unmanned aerial systems or vehicles, wireless video systems and custom engineering.\n\nThe head office, principal address and the registered records office of the Company is located at 2108 St., George Avenue,\nSaskatoon, Saskatchewan S7M 0K7.\n\nOn January 31, 2019, the Company and Drone Acquisition Corp. (\u201cDrone\u201d) entered into a Business Combination Agreement\n(the \u201cBCA\u201d) providing for a three\u2010cornered amalgamation (the \u201cAmalgamation\u201d) among the Company, Drone and a wholly\u2010\nowned subsidiary of Drone (the \u201cSubco\u201d). As of August 15, 2019, the Amalgamation closed and Drone acquired all of the\nissued and outstanding common shares of the Company (the \u201cDraganfly Shares\u201d). It was a condition of closing that Drone\ncomplete a private placement of 10,000,000 units (a \u201cUnit\u201d) at a price of $0.50 per Unit, with each Unit consisting of one\ncommon share and one warrant. Each warrant will be exercisable into one common share of the resulting issuer at a price of\n$0.50 for 12 months. Drone completed a private placement of 14,051,499 units raising $7,025,749.50. It is a post\u2010closing\ncovenant of the BCA that the resulting issuer from the Amalgamation obtains a listing for its common shares (the \u201cListing\u201d)\non the Canadian Securities Exchange (the \u201cCSE\u201d). Drone has changed its name to Draganfly Inc. and is the parent company of\nthe w"
+    }
+  ],
+  "current_directory_reconciliation": {
+    "native_alphabetical_link_id": "3715",
+    "current_detail_name": "Draganfly Innovations Inc.",
+    "displayed_expiry": "2028-09-21",
+    "indexed_search_earlier_id3787": "Fresh native/web body WSP Canada Inc., expiry 2029-01-24",
+    "web_extraction_alphabetical_link_id3721": "Web click returned Third Rock Consulting; native directory link was 3715",
+    "limits": "URL lookup keys are not legal company/certificate IDs. Names and body checked before attributing status. Cause of mismatch unknown; no certificate change inferred."
+  }
+}

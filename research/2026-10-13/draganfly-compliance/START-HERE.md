@@ -1,6 +1,6 @@
 # Draganfly procurement: start here
 
-Prepared for Graeme Smith. 13 October 2026, approximately 23:41 UTC. Independent review corrections incorporated; research remains open to new evidence.
+Prepared for Graeme Smith. 13 October 2026, approximately 23:51 UTC. Independent review corrections incorporated; research remains open to new evidence.
 
 Public records establish a disclosed lobbying relationship before Draganfly's September award and a small initial procurement with much larger issuer-described options. They do not yet connect a particular contact to the requirements, evaluation or decision. **No misconduct or complete compliance has been established.**
 
@@ -18,7 +18,7 @@ The 2009 service-end evidence weakens a retirement waiting-period theory. Compar
 4. [104 questions mapped against the archive](annexes/compliance-matrix-20261013.md), [concern cards](annexes/compliance-concern-cards-20261013.md) and [public tests](annexes/compliance-public-tests-20261013.md). Categories describe evidence access/applicability, not adjudicated compliance.
 5. [Independent review as supplied](annexes/independent-review-20261013.md), [verified corrections/history](annexes/review-corrections-and-history-20261013.md), [briefing/released-records follow-up](annexes/briefing-and-released-records-20261013.md), and the [new acquisition memo](annexes/independent-acquisition-memo-20261013.md) with its [security-change test](annexes/organizational-change-security-20261013.md). An actual April manual capture verifies earlier notification wording; the applicable company agreement and performance remain unknown.
 6. [Ranked draft records plan](annexes/ranked-records-plan-draft-20261013.md), [unresolved questions](UNRESOLVED-AND-NEXT-STEPS.md), [evidence index](EVIDENCE-INDEX.md) and [chronological index](CHRONOLOGICAL-SOURCE-INDEX.md).
-7. [Technical log](TECHNICAL-LOG.md), [snapshots](snapshots/), [working state](WORKSTATE.md), [corporate changes](annexes/corporate-changes.md) and [prior material](prior-checklist.md).
+7. [Final review checklist](FINAL-QA-CHECKLIST.md), [entity/certification evidence ladder](annexes/legal-entity-and-certification-chain-20261013.md), [Technical log](TECHNICAL-LOG.md), [snapshots](snapshots/), [working state](WORKSTATE.md), [corporate changes](annexes/corporate-changes.md) and [prior material](prior-checklist.md).
 
 ## Evidence discipline
 

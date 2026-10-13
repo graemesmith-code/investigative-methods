@@ -116,3 +116,10 @@ See the [bounded search, access and interpretation details](annexes/briefing-and
 | September 28 announcement/prospectus; September 29 closing release | [SEC offering table](https://www.sec.gov/Archives/edgar/data/1786286/000149315226044659/formsuppl.htm) and [closing](https://www.globenewswire.com/news-release/2026/09/30/3371481/0/en/draganfly-announces-closing-of-us-10-million-strategic-investment.html) | After-award issuance rechecked: 4.775236% combined new shares, approximate half 2.387618%; no majority/control or duty-performance conclusion |
 
 The officer's awareness date, change notice and CSP review disposition remain unacquired. These dates are not substituted with announcement or closing dates.
+
+| Date | Newly acquired/rechecked entity source | Interpretation |
+|---|---|---|
+| February 24, 1998; January 1, 2017; August 15, 2019 | [2019 listing statement/final prospectus](https://webfiles.thecse.com/DFLY_Form_2A.PDF), selected PDF pages 16 and 68 | Issuer-disclosed predecessor incorporation, vertical amalgamation and later BC continuance/amalgamation; modern parent incorporated June 1, 2018 remains separate |
+| April 30, 2020 | [CSE-filed acquisition release](https://webfiles.thecse.com/DFLY20200430NR.pdf) | Draganfly Inc. acquired all Dronelogics shares; no Astiia role or inherited certification established |
+| March 24 / June 30, 2026 | [AIF](https://www.sec.gov/Archives/edgar/data/1786286/000149315226012377/ex99-1.htm) / [June statements authorized August 10](https://www.sec.gov/Archives/edgar/data/1786286/000149315226036867/ex99-1.htm) | Subsidiary ownership/business/site disclosures; not a full September/October legal certificate |
+| Inspected October 13; displayed expiry September 21, 2028 | [Current native CGP detail linked from directory](https://iss-ssi.pwgsc-tpsgc.gc.ca/dmc-cgd/rchrch-srch/w4/new-re-qu-eng.asp?id=3715) | Draganfly Innovations Inc. row/body match; lookup key is not a certificate/company number. Historical effective date and parent CSP scope remain unknown |

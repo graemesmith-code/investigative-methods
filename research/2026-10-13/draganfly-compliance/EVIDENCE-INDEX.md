@@ -187,3 +187,17 @@ The [annex](annexes/briefing-and-released-records-20261013.md) identifies each r
 - `snapshots/20261013-security-change-public-query-notes.json`: four bounded public discovery queries and discarded false positives; no clearance census or record request.
 
 No missed notice, foreign-control disqualification, retrospective award defect or failed full reassessment established.
+
+## Exact entity and certification chain
+
+- [Entity analysis and evidence ladder](annexes/legal-entity-and-certification-chain-20261013.md) and [final review checklist](FINAL-QA-CHECKLIST.md) are derived work.
+- `snapshots/issuer-listing-prospectus-20191029.pdf`: native actual 199-page CSE document; selected portions read, pages 16 and 68 visually inspected. Not a complete-document reading claim.
+- `snapshots/issuer-dronelogics-acquisition-20200430.pdf`: actual native issuer acquisition release.
+- `snapshots/20261013-entity-primary-native-log.json`: native URLs/status/body types, including renamed WSP mismatch capture.
+- `snapshots/cgp-d-directory-20261013.html`, `snapshots/cgp-current-directory-linked-detail-20261013.html`: current native official row and matching Draganfly Innovations body/expiry.
+- `snapshots/cgp-stale-id3787-returned-wsp-20261013.html`: mismatched detail body, not Draganfly certification evidence.
+- `snapshots/20261013-cgp-directory-crosscheck-native-log.json`, `snapshots/20261013-cgp-current-detail-native-log.json`: actual native link discovery and follow-through.
+- `snapshots/20261013-entity-continuity-read-notes.json`: labelled selected PDF extracts, page coverage and directory/web lookup inconsistencies.
+- `snapshots/20261013-entity-affiliate-public-query-notes.json`: bounded discovery and explicit controlling-record stopping point.
+
+Issuer subsidiary schedules and operations were reread through original SEC web text; the evidence ladder labels issuer disclosure, current directory fact and unacquired legal/contract instruments separately.

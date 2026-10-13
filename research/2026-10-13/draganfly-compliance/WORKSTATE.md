@@ -1,6 +1,6 @@
 # Investigation status and next evidence
 
-Working checkpoint, October 13, 2026, approximately 23:41 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
+Working checkpoint, October 13, 2026, approximately 23:51 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
 ## What the evidence currently establishes
 
@@ -59,3 +59,5 @@ Broader ATI searches acquired three exact completed-request summaries, not their
 Explicit September briefing-title branch completed: DND/PSPC/PCO September 2026 listings displayed zero. Ordinary title deadline October 30 is future; observed DND nonfuture cutoff August 31, future December 9 date flagged. No September content or nonpublication violation established. Published no-cost informal-copy route verified for already-released ATI packages; no requests sent. New WHAT-THIS-MEANS.md is the first newsroom read, and MORNING-EMAIL.md is an unsent parent-review draft. Further research should pursue a genuinely different substantive public source, not repeat unavailable September bodies or failed SAP/bulk endpoints.
 
 New independent acquisition memo preserved and narrow security-change branch executed. Actual April 22, 2026 manual replay body acquired, relevant sections matching current text. Financing dates/math rechecked; exact registration/entity/security agreement, notification and review outcome still missing. No breach inferred. Email verdict and honest scope/cost wording corrected; 104 questions mapped is not 104 completed tests.
+
+Exact entity branch completed and stopped at controlling-document gaps. Native 2019 prospectus establishes issuer-disclosed 2017/2019 successor chain; 2020 Dronelogics acquisition and 2026 subsidiary schedules checked. Current native CGP directory link/body match Draganfly Innovations Inc., expiry September 21, 2028; stale/web lookup mismatches are preserved and not used as company status. Original affiliate criterion, certificate effective dates, Astiia performing/license entity and parent CSP scope remain unknown. Final QA checklist added; email updated and unsent.
