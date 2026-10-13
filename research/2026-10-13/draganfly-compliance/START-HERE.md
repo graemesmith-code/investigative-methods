@@ -1,45 +1,29 @@
-# Draganfly procurement: public-record investigation
+# Draganfly procurement: start here
 
-Prepared for Graeme Smith. Working checkpoint, 13 October 2026, approximately 22:45 UTC. This is a working investigation, with source dates, evidence limits and unanswered questions preserved.
+Prepared for Graeme Smith. 13 October 2026, approximately 22:55 UTC. Independent review corrections incorporated; research remains open to new evidence.
 
-The most concrete new lead is Draganfly's disclosed lobbying relationship with retired Lieutenant-General **Michel Gauthier**, which began in August 2025, before its February 2026 advisory-board announcement. Individual reports identify contacts with senior DND officials in June and July 2026. They do not identify the September winning bid or establish improper influence. The reported 2009 military-service end substantially weakens a retirement waiting-period theory.
+Public records establish a disclosed lobbying relationship before Draganfly's September award and a small initial procurement with much larger issuer-described options. They do not yet connect a particular contact to the requirements, evaluation or decision. **No misconduct or complete compliance has been established.**
 
-The broader register also reports Andre Corbould contacts with the Army commander in July, August and September, and ministerial staff during bidding. Multiple consultant filings may describe a shared meeting; amended reports must not be counted as extra contacts. [The dated reconciliation](annexes/gauthier-and-lobbying.md) identifies companion officials/topics and preserves the uncertainty. An exploratory August 7 posting concern was resolved: September 15 is the ordinary deadline for August communications.
+CanadaBuys identifies CW2467949, Draganfly Inc., C$439,851.55, September 10, 2026–September 10, 2031, and selective competition against DDI Stream 1. Draganfly describes 100 firm systems with associated equipment/support and 4,900 discretionary options at approximately C$24.25 million. The signed contract remains missing; options are not guaranteed revenue or an immediate delivery duty.
 
-CanadaBuys's award page was recovered through web extraction and confirms CW2467949, Draganfly Inc., C$439,851.55, September 10, 2026–September 10, 2031, and selective competition against DDI Stream 1. The signed contract remains missing. Public metadata is not a price schedule or complete options ceiling. The RFP-A public notice still contains the aircraft-title/ground-vehicle-description discrepancy. The operative bidder package remains missing.
+Michel Gauthier's disclosed consultant registration dates from August 25, 2025, before his February 2026 military advisory appointment. The registry field is not a verified engagement-contract signing date. Preserved reports identify June/July senior DND contacts without a specific award link. Corbould's bidding-period and near-award contacts are separate. Multiple reports do not necessarily mean separate meetings.
+
+The 2009 service-end evidence weakens a retirement waiting-period theory. Comparator evidence weakens uniqueness claims about long terms, option quantities, allied foreign designs and conditional FOCI wording. A newly verified 2010 DND notice naming Draganfly Innovations Inc. supplies historical context without proving modern qualification. Actual communication content, approvals, rights and security decisions remain decisive gaps.
 
 ## Reading order
 
-1. [Newsroom summary](NEWSROOM-SUMMARY.md) — synthesis as research develops.
-2. [Gauthier and lobbying](annexes/gauthier-and-lobbying.md) — person, roles, dates, contacts, limits.
-3. [Evidence index](EVIDENCE-INDEX.md) — precise source links and capture types.
-4. [Unresolved questions and next steps](UNRESOLVED-AND-NEXT-STEPS.md) — records that could resolve the leads.
-5. [Technical log](TECHNICAL-LOG.md) and [snapshots](snapshots/) — retrieval and provenance.
-6. [Prior checklist](prior-checklist.md), [original DOCX](prior/Draganfly_CAF_procurement_investigation_checklist.docx), [parent follow-up notes](prior-followup-notes.md) and [parent Gauthier memo](gauthier-role-review.md) — earlier work, subject to dated corrections.
-7. [Procurement records](annexes/procurement-records.md), [corporate changes](annexes/corporate-changes.md) and [recovery state](WORKSTATE.md) — independent branches and next work.
-8. [Reconnection verification](annexes/recovery-verification-20261013.md) — three additional consultant registrations, seven report rows, Australian technology counterparties and holiday-deadline QA.
-9. [Chronological source index](CHRONOLOGICAL-SOURCE-INDEX.md) — key events in date order, with evidence status and exact links.
-10. [Procurement and production pass](annexes/procurement-and-production-pass-20261013.md) — candidate notice revision, qualification/IP evidence tests, original issuer filings and public-data conventions.
-11. [Native engagement corroboration](annexes/native-engagement-corroboration-20261013.md) — archived Army/Senate records, requirements chronology, quantity correction and independently checked CSE advisory-role fields.
+1. [Newsroom summary](NEWSROOM-SUMMARY.md) — current conclusions and what would change them.
+2. [Gauthier and contacts](annexes/gauthier-and-lobbying.md), [bounded ledger](annexes/lobbying-ledger-pass-20261013.md) and [Army/Senate corroboration](annexes/native-engagement-corroboration-20261013.md).
+3. [Procurement](annexes/procurement-records.md), [comparators](annexes/comparator-falsification-20261013.md), [filings/version provenance](annexes/filings-and-version-provenance-20261013.md), [Australian history](annexes/australian-production-history-20261013.md) and [oversight/equal access](annexes/oversight-and-equal-access-20261013.md).
+4. [104 questions mapped against the archive](annexes/compliance-matrix-20261013.md), [concern cards](annexes/compliance-concern-cards-20261013.md) and [public tests](annexes/compliance-public-tests-20261013.md). Categories describe evidence access/applicability, not adjudicated compliance.
+5. [Independent review as supplied](annexes/independent-review-20261013.md) and [verified corrections/history](annexes/review-corrections-and-history-20261013.md).
+6. [Ranked draft records plan](annexes/ranked-records-plan-draft-20261013.md), [unresolved questions](UNRESOLVED-AND-NEXT-STEPS.md), [evidence index](EVIDENCE-INDEX.md) and [chronological index](CHRONOLOGICAL-SOURCE-INDEX.md).
+7. [Technical log](TECHNICAL-LOG.md), [snapshots](snapshots/), [working state](WORKSTATE.md), [corporate changes](annexes/corporate-changes.md) and [prior material](prior-checklist.md).
 
-12. [Bounded lobbying ledger](annexes/lobbying-ledger-pass-20261013.md) — four recovered individual reports, possible shared communications and institution-label discrepancy.
+## Evidence discipline
 
-13. [Australian production history](annexes/australian-production-history-20261013.md) — original military production records and the limits of attributing partner experience.
+Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. Earlier evidence and corrections remain in Git history. Native government captures, web extractions, issuer claims, secondary leads and access failures are labelled separately. An extraction is not a certified export or signed instrument.
 
-14. [Oversight and equal bidder access](annexes/oversight-and-equal-access-20261013.md) — parliamentary governance question, award-date legal tests, public consultation and bounded oversight searches.
+Statute, policy, contract compliance, value for money and publicity are separate tests. Missing records and incomplete searches establish gaps, not wrongdoing. Monthly reports are not every lobbying contact; disclosures are not complete decision records. September reporting deadlines had not passed on October 13.
 
-15. [All 104 checks audited](annexes/compliance-matrix-20261013.md), [concern cards](annexes/compliance-concern-cards-20261013.md) and [executed public tests](annexes/compliance-public-tests-20261013.md) — evidence coverage, exact rule gaps and new authority/security/integrity counterchecks.
-
-The newest procurement lead is a secondary cache/current-page difference in RFP-A's deadline and subject. It warrants authenticating the amendment history; it is not an authenticated change to bidder materials. The new original issuer records support Canadian corporate presence and sharpen the still-missing licence/operational-rights test. See the [parent's deeper Gauthier memo](prior/gauthier-deeper-evidence.md) for additional public-engagement sources awaiting selective independent corroboration.
-
-## Scope and evidence discipline
-
-Private branch `research/draganfly-compliance-2026-10-13` in `graemesmith-code/investigative-methods`. Prior evidence and memos are preserved; dated synthesis updates retain Git history. No outreach, emails, ATI submissions, paid services or access changes. Statute, policy, contract compliance, value for money and publicity are separate tests. Missing evidence is a reporting question. No procurement misconduct has been established.
-
-Snapshots labelled **web extraction** preserve the retrieval tool's returned text, including errors and crawl information; they are not downloaded source HTML, signed records, a certified live export or proof that unavailable documents were read. Native public government files, where obtainable, are separately identified and hashed. Issuer announcements establish claims, not performance or contractual compliance.
-
-The full-checklist audit does not establish compliance or misconduct. It found an official 2026 directive that distinguishes PSPC/DIA approval limits from DND limits, and primary security rules that distinguish pre-award clearance from later safeguards. These narrow broad allegations while leaving the actual approvals, security decision and contract unacquired.
-
-The [comparator falsification pass](annexes/comparator-falsification-20261013.md) weakens claims that five-year terms, 100-plus-4,900 options, conditional FOCI wording or allied foreign designs are unique to Draganfly. Nine fresh native award opens failed; the inherited ledger and each capture limit remain explicit. The small peer lobbying test yielded no newly verified original report bodies and cannot establish absent or equal access.
-
-The [filings and version-history pass](annexes/filings-and-version-provenance-20261013.md) found no dated pre-award Astiia licence statement in the bounded sources screened. It identified a separate filed award report and explains why material-contract and compensation summaries cannot establish absent agreements or Gauthier payments. A [ranked records plan](annexes/ranked-records-plan-draft-20261013.md) remains a draft; no requests were sent. Final delivery synthesis awaits independent corrections.
+No emails, outreach, ATI requests, paid services or access changes were undertaken. The records plan is a draft. Parent owns delivery and further authorization.

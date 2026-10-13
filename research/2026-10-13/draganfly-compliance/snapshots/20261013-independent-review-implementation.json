@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-13",
+  "review_baseline": "1c6a628752579667a6888763882ee1468526b301",
+  "implemented_items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "primary_checks": [
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-87-402/FullText.html",
+      "sections": [
+        "3(3)",
+        "18(1)(a)(b)(e)",
+        "18(2)(a)"
+      ],
+      "version": "current2026-09-21,lastamended2024-12-16",
+      "result": "Deemed terms survive exclusion; actual audit provisions unknown; no prohibited fee established"
+    },
+    {
+      "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+      "version": "published2026-01-30,modified2026-03-25",
+      "result": "All four mandatory-price bullets read; each valuation basis kept distinct; native403,webtextsuccess"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-93-602/FullText.html",
+      "sections": [
+        "10(3)"
+      ],
+      "result": "Responsible ADM/equivalent approval letter dated before award day; no actual letter obtained"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2008-116/FullText.html",
+      "sections": [
+        "4",
+        "6",
+        "7"
+      ],
+      "version": "current2026-09-21,lastamended2012-04-27",
+      "result": "Monthly communication scope/initiator subjects; deemed receipt by method; not complete lobbying census"
+    },
+    {
+      "url": "https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399",
+      "result": "Initial registration start date2025-08-25; RubiconStrategy; military-service disclosure throughMay2009; no engagement signing instrument; no personal addresses/phone retained"
+    }
+  ],
+  "faa_repair": "row14 current-toSeptember21 label; no independentSeptember10 version/commencement confirmation claimed",
+  "matrix_status_unchanged": true
+}

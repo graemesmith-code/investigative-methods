@@ -83,7 +83,7 @@
       "status": "C",
       "status_label": "Controlling document missing",
       "assessment": "Issuer describes a system package, but contractual unit and line-item schedule remain missing.",
-      "original_test": "P1 | Contract: Confirm the unit of measure before calculating quantities or prices. “System,” “kit,” “aircraft” and “ground station” are not interchangeable. [S03]",
+      "original_test": "P1 | Contract: Confirm the unit of measure before calculating quantities or prices. \u201cSystem,\u201d \u201ckit,\u201d \u201caircraft\u201d and \u201cground station\u201d are not interchangeable. [S03]",
       "decisive_record_requested_in_original": "Line-item schedule showing airframes, controllers, payloads, radios, batteries, spares, software, freight, training and documentation; shared versus per-kit equipment.",
       "ordinary_explanation_to_test": "One package contains common support equipment or multiple airframes. Dividing C$439,851.55 by 100 would then misstate aircraft price.",
       "concern_cards": [
@@ -217,7 +217,7 @@
       "original_priority": "P1",
       "status": "C",
       "status_label": "Controlling document missing",
-      "assessment": "FAA ss.32-34/40 read from primary pre-award consolidation; actual commitments and certifications missing.",
+      "assessment": "FAA ss.32\u201334/40 read in primary consolidation current to September 21; September 10 applicability still requires version/commencement confirmation. Actual commitments and certifications missing.",
       "original_test": "P1 | Law: FAA sections 32, 33 and 34 address different financial controls. Establish sufficient authority for amounts falling due in the fiscal year; do not assume all five-year options needed immediate appropriation. [S07]",
       "decisive_record_requested_in_original": "Commitment record, financial coding, authorized approvals, appropriation/availability clause and separation of certification/payment duties.",
       "ordinary_explanation_to_test": "Where consistent with fiscal-year obligations and applicable commitment rules, only the firm obligation was committed initially; later options required fresh funding and authorization.",
@@ -1495,7 +1495,7 @@
       "assessment": "ATIA framework identified; no actual withholding decision, field-by-field exemption or severability assessment.",
       "original_test": "P1 | Law: A commercial confidentiality clause does not alone decide ATIA withholding. Identify the actual statutory basis and seek severable non-sensitive information; section 90 addresses proactive publication exceptions. [S21]",
       "decisive_record_requested_in_original": "Decision record, withheld-field explanation, exemption relied on and severability assessment.",
-      "ordinary_explanation_to_test": "Unit rates or security details are properly withheld while the aggregate award remains public. “Commercially sensitive” may refer to narrower information than every financial term.",
+      "ordinary_explanation_to_test": "Unit rates or security details are properly withheld while the aggregate award remains public. \u201cCommercially sensitive\u201d may refer to narrower information than every financial term.",
       "concern_cards": [
         "P"
       ],
@@ -1576,5 +1576,6 @@
       ],
       "source_checklist": "prior/checklist-content.md"
     }
-  ]
+  ],
+  "review_corrections_date": "2026-10-13"
 }

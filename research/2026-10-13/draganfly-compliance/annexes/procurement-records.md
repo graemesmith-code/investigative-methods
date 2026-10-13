@@ -38,7 +38,7 @@ Company claims are 100 firm systems plus equipment/support/training, with approx
 
 ## Actual rules and records to pair
 
-The current price-support guide was published January 30 and modified March 25, before award. It requires consultation for competitive estimates at C$10m including taxes/options/amendments; C$7.5m for one compliant offer or specified negotiated-price situations. A quantity/option estimate matching company claims could matter, but no actual estimate, consultation or exception was obtained.
+The current price-support guide was published January 30 and modified March 25, before award. It requires consultation for competitive estimates at C$10m including taxes/options/amendments; C$7.5m including taxes/options for one compliant offer; a separate C$7.5m including taxes for contract negotiated prices or prices likely to be negotiated through amendment. The guide also lists a C$7.5m sole-source estimate including taxes/options/amendments. Preserve each trigger's own valuation language. A quantity/option estimate matching company claims could matter, but no actual estimate, consultation or exception was obtained.
 
 The June 16 policy announcement confirms the June 15 C$5m strategic-procurement threshold. The full policy adds scope, definitions, SA transition, methodologies and ministerial exceptions. Do not declare an automatic breach from Australian design: first recover the award-date policy/clause, estimate, attestation and applicable exception. Canadian supplier and Canadian content are distinct tests.
 

@@ -79,3 +79,10 @@ The contacts, public qualification dates, solicitation and award dates establish
 |---|---|---|
 | April 29, 2026 | [Shareholder circular](https://www.sec.gov/Archives/edgar/data/1786286/000149315226024384/ex99-2.htm) | First 30 of 68 embedded images OCR-screened, five visually inspected; adviser RSUs refer to unnamed May 2025 recipients, not identified Gauthier payments |
 | September 14, furnished September 16 | [Material-change report](https://www.sec.gov/Archives/edgar/data/1786286/000149315226042839/ex99-2.htm) | September 11 announcement/material-change date is issuer disclosure timing; government award date remains September 10; no signed contract attached |
+
+## Historical and briefing context verified after independent review
+
+| Record date | Original record | Finding and limit |
+|---|---|---|
+| January 22, 2010; end/delivery January 22, 2011 | [DND W7702-090871/001/WPG](https://search.open.canada.ca/contracts/record/dnd-mdn,C-2009-2010-Q4-01047) | Draganfly Innovations Inc., C$23,800, competitive-source comment, rotor components description; native body acquired. No exact legal continuity, performance or modern qualification proved |
+| July 3, 2026 received | [DRDC2026-0005257 title](https://search.open.canada.ca/briefingt/record/dnd-mdn%2CDRDC2026-0005257) | DRDC drone initiatives/innovation/experimentation, ADMDRDC, deputy-head addressee, for information. Native readable title metadata; no personal recipient or note contents |

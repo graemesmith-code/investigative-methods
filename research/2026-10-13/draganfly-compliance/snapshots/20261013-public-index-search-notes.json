@@ -1,0 +1,70 @@
+{
+  "searches": [
+    {
+      "index": "https://search.open.canada.ca/briefingt/",
+      "term": "Draganfly",
+      "checked": "2026-10-13T22:51:58.922141+00:00",
+      "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+      "status": 200,
+      "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=Draganfly&page=1",
+      "record_links": [],
+      "visible_result_excerpt": "Found 0 records\nOrder By\nBest Match\nDate received\nTitle\nPrevious\nNext\n",
+      "scope": "Two literal query strings, no institution/date filters; no complete census or all officials search",
+      "limit": "Search UI matches are title/summary metadata only; no note body or released ATI package obtained"
+    },
+    {
+      "index": "https://search.open.canada.ca/briefingt/",
+      "term": "Defence Drone Initiative",
+      "checked": "2026-10-13T22:52:03.767528+00:00",
+      "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+      "status": 200,
+      "result_url": "https://search.open.canada.ca/briefingt/?sort=date_received+desc&search_text=Defence+Drone+Initiative&page=1",
+      "record_links": [
+        {
+          "text": "DEFENCE RESEARCH AND DEVELOPMENT CANADA\u2019S DRONE INITIATIVES, INNOVATION, AND EXPERIMENTATION",
+          "href": "https://search.open.canada.ca/briefingt/record/dnd-mdn%2CDRDC2026-0005257"
+        }
+      ],
+      "visible_result_excerpt": "Found one record\nOrder By\nBest Match\nDate received\nTitle\nDEFENCE RESEARCH AND DEVELOPMENT CANADA\u2019S DRONE INITIATIVES, INNOVATION, AND EXPERIMENTATION\nJul 3, 2026\nReceived by Deputy Minister\u00a0\nReference Number:\nDRDC2026-0005257\nOrganization:\nNational Defence\nSector:\nADMDRDC\nAddressee:\nDeputy head (including a person appointed to a position of an equivalent rank)\nAction Required:\nFor Information\n",
+      "scope": "Two literal query strings, no institution/date filters; no complete census or all officials search",
+      "limit": "Search UI matches are title/summary metadata only; no note body or released ATI package obtained"
+    },
+    {
+      "index": "https://search.open.canada.ca/ati/",
+      "term": "Draganfly",
+      "checked": "2026-10-13T22:52:06.178500+00:00",
+      "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+      "status": 200,
+      "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=Draganfly&page=1",
+      "record_links": [],
+      "visible_result_excerpt": "Found 0 records\nOrder By\nYear\nBest Match\nOrganization\nPrevious\nNext\n",
+      "scope": "Two literal query strings, no institution/date filters; no complete census or all officials search",
+      "limit": "Search UI matches are title/summary metadata only; no note body or released ATI package obtained"
+    },
+    {
+      "index": "https://search.open.canada.ca/ati/",
+      "term": "Defence Drone Initiative",
+      "checked": "2026-10-13T22:52:08.937761+00:00",
+      "method": "Ordinary visible search form; no informal copy request or ATI submitted",
+      "status": 200,
+      "result_url": "https://search.open.canada.ca/ati/?sort=year+desc&search_text=Defence+Drone+Initiative&page=1",
+      "record_links": [],
+      "visible_result_excerpt": "Found 0 records\nOrder By\nYear\nBest Match\nOrganization\nPrevious\nNext\n",
+      "scope": "Two literal query strings, no institution/date filters; no complete census or all officials search",
+      "limit": "Search UI matches are title/summary metadata only; no note body or released ATI package obtained"
+    }
+  ],
+  "briefing_record": {
+    "url": "https://search.open.canada.ca/briefingt/record/dnd-mdn%2CDRDC2026-0005257",
+    "date": "2026-10-13T22:53:17.507448+00:00",
+    "status": 200,
+    "bytes": 73886,
+    "sha256": "c1597a8dfe00b951f80edc4908382720b18cc164b00123a99e6aebd4c8da3afc"
+  },
+  "csv_attempt": {
+    "url": "https://open.canada.ca/data/dataset/ee9bd7e8-90a5-45db-9287-85c8cf3589b6/resource/299a2e26-5103-4a49-ac3a-53db9fcc06c7/download/briefingt.csv",
+    "date": "2026-10-13T22:51:27.918866+00:00",
+    "method": "Actually published download link, ordinary urllib after curl transport returned000",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+}

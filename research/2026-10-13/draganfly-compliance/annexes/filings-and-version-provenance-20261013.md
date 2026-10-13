@@ -1,6 +1,6 @@
 # Filings and historical-version test
 
-Checked 13 October 2026. Working evidence checkpoint awaiting independent review. No new signed licence, adviser agreement or authentic bidder amendment was obtained. The useful result is a narrower statement of what the public disclosures can establish.
+Checked 13 October 2026. Working evidence checkpoint. The subsequent independent review and corrections are linked in START-HERE. No new signed licence, adviser agreement or authentic bidder amendment was obtained. The useful result is a narrower statement of what the public disclosures can establish.
 
 ## Earliest licence/production statement: date still unresolved
 
@@ -38,4 +38,4 @@ The notice contradiction therefore survives as a record-quality question. These 
 
 ## Honest stopping point
 
-This pass found useful disclosure boundaries and one additional original award report. It did not establish missing rights, improper compensation or procurement interference. The public routes checked have diminishing returns for these specific questions; they are not every conceivable public source. The [ranked draft records plan](ranked-records-plan-draft-20261013.md) identifies what would change a conclusion. No requests have been sent. Independent corrections remain pending before the delivery synthesis is finalized.
+This pass found useful disclosure boundaries and one additional original award report. It did not establish missing rights, improper compensation or procurement interference. The public routes checked have diminishing returns for these specific questions; they are not every conceivable public source. The [ranked draft records plan](ranked-records-plan-draft-20261013.md) identifies what would change a conclusion. No requests have been sent. The independent review has since been received and implemented in the dated corrections annex.

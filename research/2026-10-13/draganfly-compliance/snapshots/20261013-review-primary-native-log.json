@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://search.open.canada.ca/contracts/record/dnd-mdn,C-2009-2010-Q4-01047",
+    "retrieved_at": "2026-10-13T22:50:22.455012+00:00",
+    "status": 200,
+    "bytes": 76437,
+    "sha256": "90d1fd339475d37d4d54b9a34cf5dd480981d5f7768d3e7a46a3d72e6173c4a3",
+    "content_type": "text/html; charset=utf-8",
+    "contains_vendor": true,
+    "contains_contract": true,
+    "file": "review-dnd-contract2010-20261013.html"
+  },
+  {
+    "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-87-402/FullText.html",
+    "retrieved_at": "2026-10-13T22:50:22.456120+00:00",
+    "status": 200,
+    "bytes": 60107,
+    "sha256": "87570e62026174fa83b1ff3a49590fc9160c33c0f8655f1006603c6fe1cfb9d7",
+    "content_type": "text/html",
+    "file": "review-gcr-review-20261013.html"
+  },
+  {
+    "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2008-116/FullText.html",
+    "retrieved_at": "2026-10-13T22:50:22.456989+00:00",
+    "status": 200,
+    "bytes": 36423,
+    "sha256": "0d4af979e213d2ff462cd4f5d6015be91ade213010bda2f125c11d4c7a0c9674",
+    "content_type": "text/html",
+    "file": "review-lobby-regulations-review-20261013.html"
+  },
+  {
+    "url": "https://canadabuys.canada.ca/en/buyer-s-portal/buyer-s-guide/approve/prepare-approval-documents/additional-reviewers",
+    "retrieved_at": "2026-10-13T22:50:22.897927+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

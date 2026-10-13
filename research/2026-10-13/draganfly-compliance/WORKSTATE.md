@@ -1,12 +1,12 @@
 # Investigation status and next evidence
 
-Working checkpoint, October 13, 2026, approximately 22:25 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
+Working checkpoint, October 13, 2026, approximately 22:57 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
 ## What the evidence currently establishes
 
 - CanadaBuys reports a September 10, 2026 selective award to Draganfly Inc. for CAD439,851.55, with a five-year term and DDI Stream 1 connection. This is notice metadata, not the signed contract.
 - The issuer describes 100 firm systems and 4,900 optional systems worth approximately CAD24.25 million. Options are discretionary and not committed revenue. Price schedules and tax treatment remain unacquired.
-- Michel Gauthier's Rubicon consulting undertaking began August 25, 2025, preceding his February 20, 2026 advisory appointment. Two individual reports identify June/July DND contacts without a specific award link. The disclosed 2009 retirement weakens a cooling-off theory; no later qualifying office is established.
+- Michel Gauthier's disclosed Rubicon consultant registration dates from August 25, 2025, preceding his February 20, 2026 advisory appointment. Two individual reports identify June/July DND contacts without a specific award link. The disclosed 2009 retirement weakens a cooling-off theory; no later qualifying office is established.
 - The bounded lobbying ledger contains 44 report rows across six known undertakings, plus a separately observed zero-report registration. It is neither a company-wide census nor a count of separate meetings. Corbould's contacts during/near the tender require actual content/authority records before a causal claim.
 - Original Australian Defence releases corroborate AMSL Aero development and production history, but not Draganfly's own qualifying project role or Canadian licence rights.
 - Commons Q-1530 asks for DDI governance and decision authority. The original page shows an October 6 question awaiting response with November 23 displayed. There is no overdue-answer finding.
@@ -50,4 +50,4 @@ Next useful evidence: an actual SA/order ceiling, signatory/delegation or approv
 
 Latest comparator pass: context weakens uniqueness theories concerning long terms, options, conditional FOCI and allied designs. Nine fresh native award bodies were blocked, and the small lobbying comparator remains unverified. The remaining useful inquiry is actual signed scope, option/approval records, qualification time, security decision and communication content; do not repeat failed routes without a new source. See [comparator analysis](annexes/comparator-falsification-20261013.md).
 
-Filings/version pass completed as a working checkpoint: separate September 14 award material-change report, bounded first 30 circular-image screen and exact-URL archive checks added. No pre-award licence date or Gauthier pay terms established. The draft [ranked records plan](annexes/ranked-records-plan-draft-20261013.md) identifies likely holders, date scopes and decisive questions. Independent review must be incorporated before final delivery synthesis.
+Filings/version pass completed as a working checkpoint: separate September 14 award material-change report, bounded first 30 circular-image screen and exact-URL archive checks added. No pre-award licence date or Gauthier pay terms established. The draft [ranked records plan](annexes/ranked-records-plan-draft-20261013.md) identifies likely holders, date scopes and decisive questions. Independent review has been received, preserved and implemented; the newsroom summary incorporates the verified corrections.

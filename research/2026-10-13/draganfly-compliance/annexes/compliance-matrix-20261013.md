@@ -1,4 +1,4 @@
-# All 104 checks: evidence audit
+# 104 questions mapped and checked against the archive
 
 Working audit, October 13, 2026. Read against the recovered source archive and dated annexes. **No row is a clean bill of compliance.** The only T row tests research provenance, not the Crown procurement. The I row concerns a bidder-remedy action that is not being undertaken; it does not settle anyone else's remedy. Exact original tests and requested records remain in the [structured matrix](../snapshots/20261013-compliance-matrix.json) and [original checklist](../prior/checklist-content.md).
 
@@ -23,7 +23,7 @@ Counts: T 1, P 34, C 49, I 1, U 19. Counts describe evidence access, not failure
 | 11 | Test international agreements separately | U | International defence schedules and actual classification not independently completed; no coverage finding. | B |
 | 12 | Calculate the correct procurement value | P | Public initial amount and issuer options differ; regime-specific pre-solicitation valuation absent. | B |
 | 13 | Check contract approval and signing limits | U | Official 2026 Appendix A basic table now acquired by PDF extraction; actual signatory, exceptional/instrument limits and estimate remain unresolved. | B |
-| 14 | Check commitment and payment controls | C | FAA ss.32-34/40 read from primary pre-award consolidation; actual commitments and certifications missing. | B |
+| 14 | Check commitment and payment controls | C | FAA ss.32–34/40 read in primary consolidation current to September 21; September 10 applicability still requires version/commencement confirmation. Actual commitments and certifications missing. | B |
 | 15 | Check procurement division and bundling | P | Nine related records reconciled without missing-money inference; original packaging rationale absent. | B |
 | 16 | Recover the original RFSA round | C | First-round notice exists; operative RFSA, amendments and authenticated Q&A remain missing. | C |
 | 17 | Confirm the qualified legal entity | P | Award parent and subsidiary distinctions documented; executed SA/bid identity crosswalk absent. | C |

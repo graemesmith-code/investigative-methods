@@ -35,7 +35,7 @@ The [source notes](../snapshots/20261013-comparator-source-notes.json) preserve 
 
 ## Strongest Gauthier narrative challenged
 
-The strongest factual narrative is that Draganfly retained a retired operational commander as a disclosed consultant, then publicly appointed him to a military advisory board, and disclosed senior DND contacts before a later award. That supports inquiry into the decision chain. It does not supply the missing bridge between a specific contact and the winning requirements, evaluation or decision.
+The strongest factual narrative is that a retired operational commander registered a Draganfly consulting undertaking, the company later publicly appointed him to a military advisory board, and senior DND contacts were disclosed before a later award. The registration start date is not a verified engagement-contract signing date. That supports inquiry into the decision chain. It does not supply the missing bridge between a specific contact and the winning requirements, evaluation or decision.
 
 The [identity and source reconciliation](gauthier-and-lobbying.md) ties **Michel Gauthier** to CEFCOM, Rubicon's Draganfly registration and the issuer's February appointment. Broad name searches return unrelated people, including a same-named politician, and unrelated businesses using Rubicon. Those results cannot supply his employment history or party role. Military Advisory Board membership is not a corporate directorship. Neither consultant registration nor advisory publicity proves employment, bid authorship, contingent compensation or retained procurement authority.
 
