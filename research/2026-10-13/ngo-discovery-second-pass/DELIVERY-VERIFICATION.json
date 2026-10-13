@@ -1,0 +1,117 @@
+{
+  "repository": "graemesmith-code/investigative-methods",
+  "visibility_verified": "private",
+  "branch": "research/ngo-discovery-2026-10-13",
+  "original_commit": "22ed3314d612f880f16608ed1349fe79cd278238",
+  "content_commit": "19931b4efd9ec2176a14141f66f8a63bde628d39",
+  "verification_method": "Every one of the 14 committed package files fetched at immutable content commit through authenticated GitHub fetch_file and compared byte-for-byte with local bytes; SHA-256 recorded. Remote ref independently reread.",
+  "verified_utc": "2026-10-13 12:35:25 UTC",
+  "remote_head_at_verification": "19931b4efd9ec2176a14141f66f8a63bde628d39",
+  "preserved_first_pass_tree": "992c127ee5e41f8278b53d4a8df6eb57f1298d5c",
+  "offline_validation": "passed JSON, relative links, manifest hashes, original audit identity and changed-path confinement",
+  "external_paid_spend_usd": 0,
+  "email_sent": false,
+  "pilot_executed": false,
+  "third_research_memo_received": false,
+  "files": [
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/README.md",
+      "bytes": 2045,
+      "sha256": "a7a27d0ce795f2795c7ce7736c1adefa35db11bfa65db51d5943c48ef6282e1f",
+      "git_blob_sha": "f9033e219e9316500733f2d94b728642e2b626be",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/REPORT.md",
+      "bytes": 19838,
+      "sha256": "55698bdb990634a5e2ae2cdabfee9bdd68961d8a96089355b3e530ae20acbb51",
+      "git_blob_sha": "63e0bb81bba97e6b8bd883fbc44e172b3a221faa",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/TECHNICAL-LOG.md",
+      "bytes": 9311,
+      "sha256": "508344aca2375c4838f99e069ed5ce997edad36b607c030791226afa39c22c79",
+      "git_blob_sha": "bdceff3cfc3259d71337e1b5110426ce7be82d49",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/browser-checks.json",
+      "bytes": 2306,
+      "sha256": "81bff1091edefbd72fa3f6c25e7ddaee668f6273354dbf4b4d0158fa16066622",
+      "git_blob_sha": "4d6d9929d03156332aae5ef0f19efad607063444",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/commencement-access-check.json",
+      "bytes": 527,
+      "sha256": "d18e0af31e2b32371a86eecf95784beeec07698ead454e6e6b8d2f10558aaf74",
+      "git_blob_sha": "b86211b42fad93c44ced6a9c075f88051fa24d61",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/enforcement-blind-spots.md",
+      "bytes": 24316,
+      "sha256": "6bde25f1950da5f50dbffe5e07452b825f6a8f99f0d9bfdc8e10027b655ea40d",
+      "git_blob_sha": "28a4d7df3191799817801a93ded89be19c2aecc6",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/reading-audit.md",
+      "bytes": 5400,
+      "sha256": "355e7e9d9ddad9c0d8dcda6fd9e9b55954fb1446165704d9d31e976c15807cfe",
+      "git_blob_sha": "abcbd830cea4368b7e05c63bfec4f7192e3a64ef",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/reproducibility.md",
+      "bytes": 9160,
+      "sha256": "8975d4b4f1fe5a310581af7ede6690c83c58cb4404840b100ebfdb0de0c80dca",
+      "git_blob_sha": "40e71ecac29cebe732f4676417d52f27771f2762",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/source-access-checks.json",
+      "bytes": 6335,
+      "sha256": "47685ed6c417d81279916000fe84350e17180f59f349e91c59826420c297d9ac",
+      "git_blob_sha": "4b5dc5c61826305fd022aff3be3c1e25e0109315",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/source-reference-index.json",
+      "bytes": 18313,
+      "sha256": "4bdcf28a11861f8de7d861e87ccb2a89c16648cfada5d6a6b3a8f83eb22d68eb",
+      "git_blob_sha": "35b5c5efe618b78fafd0d4254e79c8e068fb5373",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/annexes/ti-monitoring-gaps.md",
+      "bytes": 24724,
+      "sha256": "cf19a245fe7e4fb6a4ca54baeb5c51903c62e4c7a71a0f238803b6ef315994f0",
+      "git_blob_sha": "29224668df6a5dd5fb9eff87837446f5c1dfbe44",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/file-manifest.json",
+      "bytes": 2252,
+      "sha256": "e3b84034c1f0ea1bc59e806b52b7fea9149f88cadb1da2d6c70e5137a9082754",
+      "git_blob_sha": "1e8e5ead82d6d61e3d1a4155fbee2c71f2bad875",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/scripts/check_sources.py",
+      "bytes": 3179,
+      "sha256": "6c74eeb0d6a7f299b1ec57f9556e765edf3d032b332c1e259be91c55384073ea",
+      "git_blob_sha": "5f1b53e41c221eb60386b5dcc87695efb2c64115",
+      "remote_bytes_equal": true
+    },
+    {
+      "path": "research/2026-10-13/ngo-discovery-second-pass/scripts/validate.py",
+      "bytes": 2238,
+      "sha256": "5e6402886ebcaee3c0aad0a8f493b1300fc590a3105b6afe358e18e5ac097a33",
+      "git_blob_sha": "ff8cb921e6536031106a51dd516ee6e31bf1c567",
+      "remote_bytes_equal": true
+    }
+  ],
+  "receipt_scope": "This receipt verifies the content commit. Its own containing commit and bytes are verified after push and reported in the final handoff, avoiding recursive self-reference."
+}
