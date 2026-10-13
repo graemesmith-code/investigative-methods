@@ -26,7 +26,7 @@ Dates below are **communication dates**, followed by the displayed **posting dat
 | August 7 (posted September 15) | Corbould [697412](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=697412) | Wright | Broad technology/R&D description; displayed posting falls on ordinary following-month deadline, so no lateness inference |
 | August 30 (posted September 15) | Corbould [699616](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=699616) | Ministerial adviser Quinn Rinke | During August 27–September 3 bidding window; topic does not identify this bid |
 | August 31 (posted September 15) | Corbould [699618](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=699618) | Rinke | Same limit; no evidence of private bid information or an instruction to evaluators |
-| September 8 (posted September 21) | Corbould [701802](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701802) | Wright | After closing; corrected name replaces 701799 |
+| September 8 (posted September 21) | Corbould [701802](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701802) | Wright | After closing; fields verified in primary index/initial extraction. Full amendment history not recovered on follow-up |
 | September 9 (posted September 21) | Corbould [701801](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701801) | Wright | Corrected name replaces 701798 |
 | September 10 (posted September 21) | Corbould [701800](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=701800) | Wright | Award date; corrected name replaces 701797. No time of day, decision or causal link given |
 
@@ -48,9 +48,9 @@ Current OCL comparable-rank guidance dates September 2024, modified July 2026. I
 
 ## Disclosure timing question and disconfirming evidence
 
-For Corbould report 697412, August 7 plus a September 15 posting is a **supported timing discrepancy worth resolving**, not yet a statutory late-filing finding. The ordinary monthly filing rule would point to September 15 for August contacts, so **this particular report is not late on those dates**. The tempting August 15 deadline is wrong: it belongs to July communications. This correction defeats that hypothesis. Preserve the exact dates to avoid making it recur.
+For Corbould report 697412, the exploratory posting-date question was resolved during QA. The ordinary monthly filing rule points to September 15 for August contacts, so **this particular report is not late on those displayed dates**. The tempting August 15 deadline is wrong: it belongs to July communications. This correction defeats that hypothesis. Preserve the exact dates to avoid making it recur.
 
-The July 20 amendment demonstrates another date trap: the original report was posted July 22, while the current amended entry displays August 15 and an amendment date July 22. Current posting is not necessarily first disclosure. The September corrections change Wright's name; they do not supply extra communications.
+The July 20 amendment demonstrates another date trap: the original report was posted July 22, while the current amended entry displays August 15 and an amendment date July 22. Current posting is not necessarily first disclosure. The verified September 9–10 corrections change Wright's name; they do not supply extra communications.
 
 Neither reviewed Gauthier report identifies Draganfly's RFP, contract number or Astiia. The July Ukraine subject provides a plausible separate procurement context. Draganfly's March demonstration announcement does not name Gauthier as organizer/attendee or establish evaluation of the winning product. Exact-name/product/solicitation searches found no direct public linkage in this pass; that bounded negative search cannot rule out unindexed meetings or correspondence.
 
