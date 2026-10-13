@@ -1,0 +1,32 @@
+{
+  "capture_date": "2026-10-13",
+  "method": "Bounded professional-role notes from original government pages opened with web tool. Contact details omitted.",
+  "sources": [
+    {
+      "url": "https://geds-sage.gc.ca/en/GEDS/?dn=Q049U1BFSURFTFwyQyBEQUtPVEEsT1U9OTI1MTgtOTI1MTgsT1U9MjI0LTIyNCxPVT1IT0MtQ0RDLE89R0MsQz1DQQ%3D%3D&pgid=015",
+      "role": "Dakota Speidel, Parliamentary Assistant",
+      "organization": "House of Commons / Members of the House of Commons / Buckley Belanger",
+      "date_modified": "2026-10-13"
+    },
+    {
+      "url": "https://geds-sage.gc.ca/en/GEDS/?dn=T1U9T1JTLU9TUixPVT1TT1MtU0UsT1U9SVNFRC1JU0RFLE89R0MsQz1DQQ%3D%3D&pgid=014",
+      "organization": "ISED / Secretary of State (Rural Development) / Operations and Regional Support",
+      "displayed_role": "Speidel, Dakota; Special Assistant",
+      "date_modified": "2026-10-13",
+      "response_limit": "An Error heading also appeared, but organization hierarchy and a two-person list were returned. Do not treat as a complete historical personnel record."
+    },
+    {
+      "url": "https://ised-isde.canada.ca/site/ised/en/our-ministers",
+      "professional_role": "Buckley Belanger, Secretary of State (Rural Development)",
+      "date_modified": "2026-09-01"
+    },
+    {
+      "url": "https://geds-sage.gc.ca/en/GEDS/?dn=Q049U1BFSURFTFwyQyBEQUtPVEEsT1U9T1JTLU9TUixPVT1TT1MtU0UsT1U9SVNFRC1JU0RFLE89R0MsQz1DQQ%3D%3D&pgid=015",
+      "retrieval": "Clicked actual person link from displayed ISED organization list",
+      "role": "Dakota Speidel, Special Assistant",
+      "organization": "ISED / Secretary of State (Rural Development) / Operations and Regional Support",
+      "date_modified": "2026-10-13"
+    }
+  ],
+  "limits": "Current directory fields, not June 22 appointment instruments. Multiple organizational entries offer an ordinary administrative explanation to test, not proof which lobbying institution was correct, meeting count, influence or misconduct."
+}

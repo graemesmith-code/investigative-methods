@@ -1,14 +1,17 @@
 # Chronological source index
 
-Working index, 13 October 2026, 20:30 UTC. Dates mean the source's stated event date unless otherwise marked. This is a selected chronology of the investigation's main leads, not all company activity. Full source/capture classification is in [EVIDENCE-INDEX.md](EVIDENCE-INDEX.md). Lobbying rows identify report records, not independently counted meetings. Times within the award day are unknown.
+Working index, 13 October 2026, approximately 21:56 UTC. Dates mean the source's stated event date unless otherwise marked. This is a selected chronology of the investigation's main leads, not all company activity. Full source/capture classification is in [EVIDENCE-INDEX.md](EVIDENCE-INDEX.md). Lobbying rows identify report records, not independently counted meetings. Times within the award day are unknown.
 
 | Date | Event or record | Primary source | Evidence status and limit |
 |---|---|---|---|
 | May 11, 2009 | Marc Lessard replaces Michel Gauthier as CEFCOM commander | [DND handover](https://www.canada.ca/en/news/archive/2009/05/change-command-canadian-expeditionary-force-command-449469.html) | Native official release; handover, not personnel release instrument |
 | May 2009 | Military service end disclosed | [Gauthier registration](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399) | Registrant assertion; exact day/later office unresolved |
 | November 25, 2009 | Parliamentary witness notice calls Gauthier retired | [Commons notice](https://www.ourcommons.ca/documentviewer/en/40-2/AFGH/meeting-16/notice) | Native official notice |
+| January 30, 2024 | AMSL among 11 prototype/production-plan suppliers | [Australian minister](https://www.minister.defence.gov.au/media-releases/2024-01-30/new-generation-drone-prototypes-take-part-strategic-capabilities-accelerator-challenge) | Original government text; no Draganfly role |
+| August 21, 2024 | AMSL among three development-and-production contracts for 100 UAS each | [Australian Defence](https://www.defence.gov.au/news-events/releases/2024-08-21/asca-invests-66m-australian-drone-technology) | AUD2.2 million each; development cost is not unit price |
 | December 16, 2024 | GCR last amendment, national-security exclusion added | [GCR](https://laws-lois.justice.gc.ca/eng/regulations/SOR-87-402/FullText.html) | Native consolidation; actual award exception remains missing |
 | August 15, 2025 | de Bakker consultant undertaking begins | [Registration 975552](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382105&regId=975552) | Official extraction; current version September 22 |
+| August 19, 2025 | Australian Defence confirms 300 aggregate units delivered across AMSL/Boresight/Grabba | [Delivery release](https://www.defence.gov.au/news-events/releases/2025-08-19/growing-sovereign-industrial-base-300-drones-delivered-defence) | Original government text; Astiia product name separately sourced, no Canadian licence |
 | August 20, 2025 | Cadario and Singh consultant undertakings begin | [Cadario](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382126&regId=975563), [Singh](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382127&regId=976221) | Earlier primary reviews; see inherited memo and captures |
 | August 25, 2025 | Gauthier Draganfly/Rubicon undertaking begins | [973399](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=382133&regId=973399) | Recovered original registration; precedes public advisory appointment |
 | September 9–12, 2025 | Astiia displayed at DSEI, as later described by developer | [Mission Systems September 16 statement](https://www.missionsystems.com.au/post/astiia-the-world-s-longest-range-sub-2kg-drone-debuts-at-dsei-2025) | Developer account of collaboration with AMSL Aero; no Canadian licence |
@@ -29,9 +32,10 @@ Working index, 13 October 2026, 20:30 UTC. Dates mean the source's stated event 
 | March 30, 2026 | Danchilla undertaking begins | [986292](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/vwRg?cno=385558&regId=986292) | Official extraction; zero displayed reports is not zero activity |
 | April 13, 2026 | Chell's Senate procurement-policy testimony | [Evidence](https://sencanada.ca/en/content/sen/committee/451/secd/16ev-57596-e), [minutes](https://sencanada.ca/en/content/sen/committee/451/secd/16mn-57596-e) | Native originals; public advocacy and stated precaution, not award causation |
 | May 26 / 27, 2026 | Corbould reports Kelsey contacts | [686474](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=686474), [686475](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=686475) | Parent primary-page review; no bid link established |
+| May 26 / 27, 2026 | Singh reports senators McNair/Deacon and Minister McGuinty contacts | [690652](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=690652), [690651](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=690651), [690653](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=690653) | Individual official bodies now recovered; no named award |
 | June 15, 2026 | Strategic-procurement threshold becomes C$5 million | [June 16 announcement](https://canadabuys.canada.ca/en/news-and-events/buy-canadian-update-strategic-procurement-threshold-lowered) | Applicable scope/exceptions and award clauses unresolved |
 | June 17, 2026 | Singh reports Kelly / Sullivan contact | [694796](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=694796) | Earlier official extraction; relevant routing lead, no proven decision |
-| June 22, 2026 | de Bakker reports Speidel contact | [691167](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=691167) | Official list verified; Defence category |
+| June 22, 2026 | de Bakker and Cadario report Speidel contacts | [691167](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=691167), [692180](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=692180) | Different institution labels; possible shared communication, no award identified |
 | June 23, 2026 | Gauthier / Cadario reports name Hadwen | [691298](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=691298), [692181](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=692181) | Companion filings, possible shared event; no award identified |
 | June 29 / 30, 2026 | Singh reports PMO / Guzman contacts | [694809](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=694809), [694807](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=694807) | Parent individual-page review; contracting interests, no award causation |
 | July 20 / 21, 2026 | Corbould reports Wright contacts | [695232](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=695232), [695231](https://lobbycanada.gc.ca/app/secure/ocl/lrs/do/cmmLgPblcVw?comlogId=695231) | July 20 current version replaces 695228; preserve lineage |
@@ -54,15 +58,3 @@ Working index, 13 October 2026, 20:30 UTC. Dates mean the source's stated event 
 | October 30, 2026, future | Ordinary quarterly publication deadline for September contract | [ATIA section 86](https://laws-lois.justice.gc.ca/eng/acts/A-1/section-86.html?wbdisable=true) | Not overdue now; exceptions and record category must be checked |
 
 The contacts, public qualification dates, solicitation and award dates establish a sequence. They do not supply causation, evaluator authority, confidential-information access or proof of a waived requirement. Preserve these distinctions when using the chronology in a newsroom discussion.
-
-## Additional communication bodies recovered at 21:52 UTC
-
-- May 26, 2026: Singh reports 690652 (McNair) and 690651 (Deacon), displayed June 15 posting, general CAF applications.
-- May 27: Singh report 690653 (McGuinty), displayed June 15 posting, CAF applications and Ukraine-related contracting.
-- June 22: Cadario report 692180 (Speidel, PrairiesCan), displayed July 8 posting; differs from de Bakker's institution label.
-
-Exact sources and capture limits are in the [new annex](annexes/lobbying-ledger-pass-20261013.md); none names this award.
-
-## Australian antecedents
-
-January 30, 2024: AMSL among 11 prototype/production-plan suppliers. August 21, 2024: AMSL among three AUD2.2 million development-and-production contracts for 100 drones each. August 19, 2025: Australian Defence confirms 300 aggregate units delivered across the three suppliers. [Exact primary sources and attribution limits](annexes/australian-production-history-20261013.md). These government texts do not name Astiia or a Draganfly project role.

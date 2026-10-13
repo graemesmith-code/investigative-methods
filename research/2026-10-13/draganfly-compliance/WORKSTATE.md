@@ -65,3 +65,7 @@ Recovered four additional individual official report bodies using visible public
 ## Australian production-history pass, 21:52 UTC
 
 Read three original Australian government releases confirming AMSL prototype and production contracts in 2024 and aggregate delivery milestone in August 2025. Native requests returned 503; web extractions saved separately. This is counterevidence to a developer-without-military-production premise, not proof of Draganfly own experience, Canadian rights or accepted qualification. Corbould July 22 date wording corrected to the current body's amendment label. Next useful branch: original published RFP/RFSA version histories or public oversight decisions; avoid repeat blocked routes. All-night continuation remains authorized; no email/automation actions.
+
+## Approximately 21:56 UTC: useful counterchecks
+
+GEDS current professional entries support a possible ordinary administrative explanation for Speidel labels, but no June office determination. Broad DDI backgrounder allows licensed/allied routes and says prior defence experience not necessarily required; candidate stream-specific Q&A cannot be universalized or treated as governing without authentication. Chronological index now integrates new antecedents/contact bodies into main date order. Research is not declared complete; next substantive branch remains authentic procurement documents or public oversight decisions.

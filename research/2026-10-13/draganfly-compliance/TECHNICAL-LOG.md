@@ -72,3 +72,7 @@ Actual shell and branch status succeeded. Public Cadario registration linked to 
 ## 21:52 UTC: Australian production-history falsification pass
 
 Three original government releases retrieved by web tool corroborate AMSL production history, weakening a paper-only-developer premise. Native requests to all three returned HTTP 503 and were logged, without repeats/bypass. Stored web extraction separately. The Astiia product-name connection remains separately sourced to developer/secondary statements; no Draganfly project role or Canadian licence established. Current Corbould 695232 text was rechecked: it labels July 22 as amendment date, not independently reacquired first posting. Main lobbying table wording narrowed accordingly.
+
+## Approximately 21:56 UTC: recipient-role and program-scope checks
+
+Actual GEDS person links corroborate current parliamentary and ISED professional entries for Speidel; historical June office remains unverified. Bounded professional fields archived, unnecessary contact details omitted. July 23 native DND text rechecked: broad program says previous defence experience not necessarily required; formal stream-specific RFSA still controls. This cannot establish a waiver or universal stream requirement. Integrated new source events into date order in chronological index.
