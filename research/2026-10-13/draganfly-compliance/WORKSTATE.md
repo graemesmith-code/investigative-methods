@@ -1,6 +1,6 @@
 # Investigation status and next evidence
 
-Working checkpoint, October 13, 2026, approximately 23:18 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
+Working checkpoint, October 13, 2026, approximately 23:14 UTC. Research concerns Draganfly Canada award CW2467949 and the procurement, production, lobbying and oversight records that could establish compliance. No procurement misconduct is established.
 
 ## What the evidence currently establishes
 

@@ -1,6 +1,6 @@
 # Draganfly procurement: start here
 
-Prepared for Graeme Smith. 13 October 2026, approximately 23:18 UTC. Independent review corrections incorporated; research remains open to new evidence.
+Prepared for Graeme Smith. 13 October 2026, approximately 23:14 UTC. Independent review corrections incorporated; research remains open to new evidence.
 
 Public records establish a disclosed lobbying relationship before Draganfly's September award and a small initial procurement with much larger issuer-described options. They do not yet connect a particular contact to the requirements, evaluation or decision. **No misconduct or complete compliance has been established.**
 

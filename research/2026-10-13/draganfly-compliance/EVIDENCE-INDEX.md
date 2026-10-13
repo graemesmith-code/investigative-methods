@@ -136,7 +136,7 @@ See [oversight annex](annexes/oversight-and-equal-access-20261013.md) for exact 
 
 [Review as supplied](annexes/independent-review-20261013.md) and [implementation](annexes/review-corrections-and-history-20261013.md) distinguish baseline review from fresh verification. [Native review log](snapshots/20261013-review-primary-native-log.json) records successful GCR/Registration Regulations/2010 contract acquisitions and pricing-page native403. [2010 DND record](snapshots/review-dnd-contract2010-20261013.html) is actual readable government notice metadata, not performance proof. [Briefing-title record](snapshots/drdc-briefing-title-20260703.html) identifies DRDC2026-0005257, July 3, 2026, for information; no briefing body obtained. [Index-search notes](snapshots/20261013-public-index-search-notes.json) preserve four visible-form query results and the failed actual CSV route.
 
-## Public briefing and released-records follow-up, approximately 23:18 UTC
+## Public briefing and released-records follow-up, approximately 23:14 UTC
 
 See [analysis and exact source links](annexes/briefing-and-released-records-20261013.md). New evidence is program context and attributable public response text, not a Draganfly award decision.
 

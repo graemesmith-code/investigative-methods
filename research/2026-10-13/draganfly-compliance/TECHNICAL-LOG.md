@@ -101,7 +101,7 @@ Preserved full transferred independent review at baseline 1c6a628; reverified GC
 
 Registry ZIP/dictionary routes were already denied at 20:20/19:59 and were not repeated. Actually linked briefing CSV failed transport/tunnel 403; visible public forms generated four query URLs. One DRDC title/control-number lead acquired natively, while other literal-query UI searches returned zero. No title/summary was treated as full released material and no copy request sent. Rewrote newsroom/start-here as current synthesis and linked detailed evidence; draft records plan remains unsent.
 
-## 22:59–23:18 UTC — public briefing and released-records pass
+## 22:59–23:14 UTC — public briefing and released-records pass
 
 Twelve ordinary visible-form queries in briefing-title and completed-ATI indices: DRDC reference, MINERVA, Astiia, low-cost UAS, Gauthier and Corbould. The reference produced title metadata only; program terms produced zero. Homonyms not attributed; first-page limits preserved. DND visible year/month selection covered June–August, with no September checkbox displayed; five queries added MAT2026-0004915. Adjacent inventory failed ERR_CONNECTION_CLOSED before pagination. Published CSV route returned tunnel 403 after a transport failure; no repeat or copy request.
 
