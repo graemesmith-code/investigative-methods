@@ -1,5 +1,22 @@
 # NAI Logistics: orders after designation and a later termination
 
+## Status: parked on 14 October 2026
+
+Graeme is deprioritizing this sanctions lead because, in his editorial judgment, the current evidence looks more consistent with administrative delay than a major scandal. **That is a prioritization decision, not a verified explanation for the delay or a finding of compliance.** No sanctions violation or actual post-designation supplier payment has been established. The eight dated order records, reducing modifications, original termination notice, and missing payment, delivery and case-specific authorization records remain unresolved. The report and evidence below are preserved as the completed public-records checkpoint.
+
+Active sanctions research is parked. No outreach or further sanctions investigation is initiated by this decision. Reopen a bounded check only if new, verifiable evidence materially changes the facts or expected reporting value, for example:
+
+- Original signed orders/modifications or additional official history that resolve the reported dates or establish material activity beyond the currently known December 13–14 window.
+- Dated disbursement, invoice settlement, delivery or acceptance records establishing actual relevant activity, rather than obligations or scheduled performance alone.
+- A contemporaneous applicability determination, authorization/exclusion or other primary legal record addressing these particular transactions and the basis for DLA's no-applicable-authorization statement.
+- Dated agency/OFAC/DFAS records establishing when restrictions began and why termination occurred later, with evidence that materially changes the significance of the delay.
+
+A newly supported ordinary explanation may justify an archive correction rather than renewed investigation. A generic license, an open database status or another speculative hypothesis alone is not a reopening trigger. Any reopening should name the changed fact and one feasible decisive check before expanding collection.
+
+The emerging method is **DATA1 + RULE + DATA2 = WORTH CHECKING**. Read the [plain-English options for a small Rabbit pilot](../../../docs/rule-based-source-comparisons.md) and [technical schema/examples](../../../annexes/rule-based-source-comparisons.md). These are proposals only; no pilot or full-catalog parsing has begun.
+
+---
+
 **Public-records follow-up, 14 October 2026. No sanctions violation has been established.**
 
 Official procurement records show **eight delivery orders with positive obligations dated 13–14 December 2023**, after Treasury designated NAI Logistics B.V. on 11 December. Those actions recorded **$36,309.46** in positive obligations. Five reducing modifications offset **$15,662.32**, leaving **$20,647.14 net**. Four orders were fully deobligated. These amounts describe reported contractual obligations; they do not establish payments or completed fuel deliveries.

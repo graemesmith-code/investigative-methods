@@ -10,6 +10,8 @@ Save the original link and retrieval date. If you later automate collection, a c
 
 ## 2. Decide what deserves a closer look
 
+A useful comparison is **DATA1 + RULE + DATA2 = WORTH CHECKING**: two observed records connected by a dated, applicable rule or explicit constraint. Stable identifiers help join records; they do not establish a duty, actual conduct or a violation. The [rule-grounded discovery options](rule-based-source-comparisons.md) explain five cheap routes and propose a small model-generated candidate pilot with skeptical verification. The pilot is not running.
+
 Start with rules you can explain: a change in scope, an unusual delay, or a named document that could answer a question. Keep the sentence that prompted your choice. If a model helps rank the records, ask a narrow question about their actual text, and compare its choices with yours or a simple rule.
 
 A model score is a suggestion about reading order, not a fact or a verdict. Keep some rejected examples so you can notice important things the method missed.
