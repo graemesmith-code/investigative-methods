@@ -1,0 +1,103 @@
+{
+  "malformed_or_missing_date_fara_principal_rows": [
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 631,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Trace Group Hold Plc"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 679,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "NGO “Free and Faithful\",03/25/2024\""
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 1008,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Saudi Arabia Railways (SAR\") "
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 1019,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "'PETRÓLEOS MEXICANOS (PEMEX\")"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 1041,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "The Government of Ukraine, The Ministry of Culture and Information Policy (MCIP\") through GroupM Sp z.o.o"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 1042,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "The Government of Ukraine, The Ministry of Culture and Information Policy (MCIP\") through GroupM Sp z.o.o"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 1347,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Ad Hoc Board of Petroleos de Venezuela, S.A (PDVSA\")"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 2245,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Ministry of Tourism for the Republic of Bulgaria on behalf of Glanz, Inc."
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 2510,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Ministry of Foreign Affairs, Republic of Kosovo"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 2822,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Federal Republic of Nigeria"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 3101,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Government of the Republic of Albania"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 5068,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "National Council on Privatisation, Secretariat: Bureau of Public Enterprises of the Federal Republic of Nigeria"
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 6572,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "National Petroleum Company, Sudan\""
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 15750,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "U.S.S.R. Company for Foreign Travel Intourist\""
+    },
+    {
+      "source_file": "FARA_All_ForeignPrincipals.csv",
+      "source_line": 16826,
+      "reason": "malformed CSV/schema",
+      "principal_name_discovery_only": "Newspaper Madrid\""
+    }
+  ],
+  "other_exclusions": [
+    "Blank recipient names: 3 actions, retained in transaction census but not name matching.",
+    "Canadian supplier placeholders such as None removed before matching.",
+    "Weaker legal-form and uncorroborated name matches not promoted.",
+    "Termination-day actions conservatively outside interval.",
+    "Four active US address pairs have no FY2025 action inside the recorded FARA interval.",
+    "FARA catalogue has 32 anomalous URL pointers; no PDF was read or repaired."
+  ],
+  "privacy": "Raw malformed rows and address fields omitted from this public exclusion ledger; source line and input hash permit review."
+}

@@ -1,0 +1,19 @@
+{
+  "verification": "Passed against saved evidence; Canada and review scripts also rerun with identical summaries.",
+  "us_archive_rows": 6639176,
+  "us_recipient_names": 101379,
+  "candidate_pairs": 273,
+  "exact_candidates": 200,
+  "weaker_candidates": 73,
+  "active_candidate_pairs": 35,
+  "direct_address_anchors": 14,
+  "uei_bridged_pairs": 21,
+  "corroborated_keys": 12,
+  "overlapping_us_actions": 2310,
+  "canadian_active_address_pairs": 11,
+  "canadian_names": 3,
+  "canadian_role_keys": 4,
+  "canadian_contract_temporal_fara_matches": 0,
+  "catalogue_url_anomalies": 32,
+  "external_spend_usd": 0
+}

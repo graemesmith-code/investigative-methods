@@ -8,6 +8,7 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 
 - **Find the next document to read.** The [Canadian ATI experiment](experiments/07-canadian-ati.md) turns short request summaries into choices: obtain a named file, sharpen a question, or recognize that the story is already covered. Try it when an index is much larger than your reading time.
 - **Check names without jumping to conclusions.** The [contracts-and-sanctions experiment](experiments/01-ofac-baseline.md) reduced millions of transactions to thirteen candidate pairs. Its strongest example shows why the action behind a match matters as much as the name. The [NAI follow-up](research/2026-10-14/nai-contract-history/README.md) reconstructs orders, modifications and the original termination notice; the lead was parked for editorial prioritization on 14 October 2026.
+- **Separate foreign-agent overlaps from disclosure violations.** The [FARA / federal-awards pilot](research/2026-10-14/fara-award-pilot/README.md) screened the complete FY2025 prime-contract archive for $0. Canadian Commercial Corporation dominates the corroborated action count; no disclosure violation was established, and grants/Canadian procurement remain incomplete.
 - **Test whether your search works.** The [missed known news story](experiments/03-headline-filter.md) offers a simple recipe: check an article you already know exists before trusting an empty search. No result does not mean no earlier reporting.
 - **Give a promising paragraph more context.** The [Enron filings](experiments/08-enron.md) and [bank-lending surveys](experiments/09-bank-lending.md) show how connected records and careful arithmetic can produce better questions—and catch misleading ones.
 - **Explore a new source.** Browse the [Rabbit catalog reference](catalogs/README.md), then use the [public-source trial](experiments/02-public-source-pilot.md) to check a few records before investing in a bigger collection.
@@ -24,4 +25,4 @@ The emerging [DATA1 + RULE + DATA2 method](docs/rule-based-source-comparisons.md
 
 [Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-Notebook updated 1 October 2026; NAI follow-up added 14 October 2026.
+Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026.

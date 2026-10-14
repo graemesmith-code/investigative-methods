@@ -6,6 +6,7 @@ Read the [experiment accounts](../experiments/README.md) first if you want the r
 
 | Readable experiment | Supporting detail |
 |---|---|
+| [FARA and federal awards](../research/2026-10-14/fara-award-pilot/README.md) | [Method and coverage](../research/2026-10-14/fara-award-pilot/TECHNICAL-ANNEX.md), [reconciled dossiers](../research/2026-10-14/fara-award-pilot/DOSSIERS.md), [reproduction](../research/2026-10-14/fara-award-pilot/REPRODUCE.md) |
 | [Contracts and sanctions](../experiments/01-ofac-baseline.md) | [Full account](experiments/01-ofac-baseline.md), [original evidence report](../evidence/ofac/original-report.md), [reproduction](reproduction.md#ofac-baseline) |
 | [Public-source access](../experiments/02-public-source-pilot.md) | [Source trial](experiments/02-public-source-pilot.md), [sample inventory and selection](../evidence/README.md) |
 | [Headline search](../experiments/03-headline-filter.md) | [Prototype references and missing controls](experiments/03-headline-filter.md) |

@@ -1,0 +1,102 @@
+{
+  "inputs": [
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/FY2025_All_Contracts_Full_20260906.zip",
+      "bytes": 1914255016,
+      "sha256": "792f6b3ee67afd4d4e9eb7f3463a083f80efaf13279a7a1bfaba6fecfd6443da",
+      "source_url": "https://files.usaspending.gov/award_data_archive/FY2025_All_Contracts_Full_20260906.zip"
+    },
+    {
+      "path": "research/FARA_All_ForeignPrincipals.csv",
+      "bytes": 2766720,
+      "sha256": "9db085c56c5af1e7e3d0e063576b160cdf8bbca11551a143a14815549cabadb8",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/FARA_All_RegistrantDocs.csv",
+      "bytes": 24532522,
+      "sha256": "5ab5d5f66bc4119a9b15ebaa42509f574ec696982d875fb10677390a09de6c35",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/FARA_All_Registrants.csv",
+      "bytes": 867985,
+      "sha256": "ef390cde50995b530b8c016b117ec4401ba070de996a5deb77da4d70b91281f1",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "experiments/ofac-step1-2026-09-18.zip",
+      "bytes": 4559005,
+      "sha256": "2b5c29bff61682d6623ed63882f9b9c9708e2c3c147f0211d148af2f95f4a1f6",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "experiments/sanctions-screen-evidence-2026-09-18.zip",
+      "bytes": 4753651,
+      "sha256": "842876d3ca8e0dfea78647c25069582de011ed92eb2fc4a7e1a9b08bdb9de756",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/canada-contract-history.csv",
+      "bytes": 5739528,
+      "sha256": "cff65f47b71b7c5e4ccbd7b96b0a1de9f15ab71d63ba0150fb18fe6a264eba27",
+      "source_url": "https://canadabuys.canada.ca/opendata/pub/2026-2027-contractHistory-contratsOctroyes.csv"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/canada-dictionary.xlsx",
+      "bytes": 22598,
+      "sha256": "ed8b5fa3e1a198450181e4d54d622b972d1378e37d8bd63b0675498eddcd3658",
+      "source_url": "https://lobbycanada.gc.ca/media/hcvmsu4e/dictionary_registrations_dictionnaire_enregistrements.xlsx"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/canada-registrations.zip",
+      "bytes": 86680273,
+      "sha256": "bde24de462dea65c59128b92783c39931b741c72164e89c8fa08f96c964f28fa",
+      "source_url": "https://lobbycanada.gc.ca/media/zwcjycef/registrations_enregistrements_ocl_cal.zip"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/prior-ANNEX.md",
+      "bytes": 8719,
+      "sha256": "66fd047bfaf4594af6825c9d88de0cfaa5758f54a06ab43960642b333a3ca299",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/prior-REPORT.md",
+      "bytes": 19259,
+      "sha256": "11b06d4534c3c6435fa00f3496a8f8d83aef64e1a9c8b8028f284383f800ba51",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/prior-ofac-contract-source.json",
+      "bytes": 816,
+      "sha256": "0d8e14357e6d48581b39ab9288b081038cbd0d141f5dfed9ded6ecb6a6722f58",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/prior-ofac-screen-summary.json",
+      "bytes": 85775,
+      "sha256": "507735b9ad1c4dde4fcdf90a34db09502def818b568a77d9701339cfe141363a",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/us-grants-canadian-commercial-corporation.json",
+      "bytes": 1307,
+      "sha256": "94e68ac06798fe04772cf2dc53c683577e1a14b610b9df07a89b7f46fecf0100",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/us-grants-patriot-strategies-llc.json",
+      "bytes": 1299,
+      "sha256": "f353b5c29cef1d12138294e66f38b82ef736dfdfaa56f47385948c1c637bf8c6",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/evidence/us-grants-sasakawa-peace-foundation-usa.json",
+      "bytes": 1305,
+      "sha256": "d4191ce6e6e03f324ef74e5af981a4794aeb0933efbd94b0b7b4908b49394794",
+      "source_url": "Repository input or pinned recovered baseline; see TECHNICAL-ANNEX.md"
+    }
+  ],
+  "new_bulk_inputs_published": false,
+  "scope": "Fingerprints identify the inspected sources. Large inputs and copied prior dossiers are intentionally not included."
+}

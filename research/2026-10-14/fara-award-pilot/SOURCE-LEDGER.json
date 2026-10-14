@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "external_spend_usd": 0,
+  "paid_calls": 0,
+  "requests": [
+    {
+      "url": "https://files.usaspending.gov/award_data_archive/FY2025_All_Contracts_Full_20260906.zip",
+      "status": 200,
+      "bytes": 1914255016,
+      "reason": "Original full award corpus not present in evidence archives or workspace; exact prior archive recovered and hash verified."
+    },
+    {
+      "url": "https://lobbycanada.gc.ca/en/open-data/",
+      "status": 520,
+      "reason": "Rabbit SYS-0120 route attempted; direct bulk handoff succeeded."
+    },
+    {
+      "url": "https://lobbycanada.gc.ca/media/zwcjycef/registrations_enregistrements_ocl_cal.zip",
+      "status": 200
+    },
+    {
+      "url": "https://lobbycanada.gc.ca/media/hcvmsu4e/dictionary_registrations_dictionnaire_enregistrements.xlsx",
+      "status": 200
+    },
+    {
+      "url": "https://canadabuys.canada.ca/opendata/pub/2026-2027-contractHistory-contratsOctroyes.csv",
+      "status": 200
+    },
+    {
+      "url": "https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv",
+      "status": 403
+    },
+    {
+      "url": "https://open.canada.ca/data/dataset/432527ab-7aac-45b5-81d6-7597107a7013/resource/1d15a62f-5656-49ad-8c88-f40ce689d831/download/grants.csv",
+      "status": 403
+    },
+    {
+      "url": "https://efile.fara.gov/docs/5971-Exhibit-AB-20100111-3.pdf",
+      "status": 403,
+      "contents_read": false
+    },
+    {
+      "url": "https://efile.fara.gov/docs/7242-Registration-Statement-20230310-1.pdf",
+      "status": 403,
+      "contents_read": false
+    },
+    {
+      "url": "https://efile.fara.gov/docs/7186-Registration-Statement-20221014-1.pdf",
+      "status": 403,
+      "contents_read": false
+    },
+    {
+      "url": "https://efile.fara.gov/docs/7537-Registration-Statement-20250211-1.pdf",
+      "status": 403,
+      "contents_read": false
+    }
+  ],
+  "targeted_us_grants_requests": "Saved individually in evidence/us-grants-*.json; three FY2025 name searches, zero returned rows."
+}

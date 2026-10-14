@@ -1,0 +1,131 @@
+{
+  "us": {
+    "snapshot": "2026-10-06",
+    "fara": {
+      "registrant": {
+        "raw_rows": 7090,
+        "usable_rows": 7090,
+        "active_cached_snapshot_rows": 538,
+        "unique_normalized_names": 6339
+      },
+      "foreign_principal": {
+        "raw_rows": 17765,
+        "usable_rows": 17750,
+        "active_cached_snapshot_rows": 821,
+        "unique_normalized_names": 12430
+      },
+      "documents_rows": 154309
+    },
+    "contract": {
+      "raw_rows": 6639176,
+      "unique_transactions": 6639176,
+      "candidate_unique_transactions": 10898,
+      "blank_recipient_name": 3
+    },
+    "distinct_nonblank_raw_recipient_names": 101379,
+    "recipient_name_identifier_address_groups": 126350,
+    "candidate_groups": 273,
+    "candidate_groups_by_role": {
+      "registrant": 168,
+      "foreign_principal": 105
+    },
+    "active_snapshot_candidate_groups_by_role": {
+      "registrant": 26,
+      "foreign_principal": 9
+    },
+    "corroborated_temporal_groups_by_role": {
+      "registrant": 2
+    },
+    "files": [
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_1.csv",
+        "rows": 1000000
+      },
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_2.csv",
+        "rows": 1000000
+      },
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_3.csv",
+        "rows": 1000000
+      },
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_4.csv",
+        "rows": 1000000
+      },
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_5.csv",
+        "rows": 1000000
+      },
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_6.csv",
+        "rows": 1000000
+      },
+      {
+        "member": "FY2025_All_Contracts_Full_20260907_7.csv",
+        "rows": 639176
+      }
+    ],
+    "archive_sha256": "792f6b3ee67afd4d4e9eb7f3463a083f80efaf13279a7a1bfaba6fecfd6443da",
+    "external_spend_usd": 0,
+    "grants_screened": false
+  },
+  "canada": {
+    "retrieval_date": "2026-10-14",
+    "primary_registration_version_rows": 177371,
+    "unique_client_profile_ids": 109035,
+    "active_primary_version_rows": 7787,
+    "latest_effective_date": "2026-10-09",
+    "latest_posted_date": "2026-10-09",
+    "fara_lobbying_version_candidate_pairs": 11077,
+    "fara_lobbying_active_pairs": 22,
+    "fara_lobbying_pairs_by_roles": {
+      "foreign_principal / registered_client": 9211,
+      "registrant / consultant_firm": 1572,
+      "registrant / registered_client": 175,
+      "foreign_principal / consultant_firm": 119
+    },
+    "contract_history_rows": 2083,
+    "contract_history_unique_reference_numbers": 1888,
+    "contract_history_distinct_legal_supplier_names": 1531,
+    "fara_contract_candidate_pairs": 7,
+    "fara_matched_contract_rows": 4,
+    "lobbying_contract_version_candidate_pairs": 6646,
+    "lobbying_matched_contract_rows": 254,
+    "lobbying_contract_temporal_pairs": 473,
+    "lobbying_contract_address_temporal_pairs": 112,
+    "funding_disclosure_rows": 218466,
+    "candidate_funding_disclosure_rows": 22004,
+    "canadian_grants_screened": false,
+    "all_federal_contracts_screened": false,
+    "external_spend_usd": 0
+  },
+  "review": {
+    "us_source_backed_identity_temporal_recipient_address_groups": 14,
+    "us_source_backed_active_cached_groups": 14,
+    "us_source_backed_by_role": {
+      "registrant": 12,
+      "foreign_principal": 2
+    },
+    "us_address_anchored_stable_uei_address_groups": 21,
+    "us_address_anchored_stable_uei_role_registration_recipient_keys": 12,
+    "us_address_anchored_stable_uei_temporal_transactions": 2310,
+    "canada_source_backed_active_version_pairs": 11,
+    "canada_source_backed_active_distinct_fara_role_registrant_name_keys": 4,
+    "note": "Building-level address corroboration; unit fields retained. No crosswalked FARA UEI exists. These are overlaps, not violations."
+  },
+  "direct_scope": {
+    "address_groups": 14,
+    "actions": 79,
+    "award_or_idv_ids": 37
+  },
+  "expanded_scope": {
+    "same_name_uei_address_groups": 21,
+    "recipient_role_registration_keys": 12,
+    "actions": 2310,
+    "award_or_idv_ids": 1719
+  },
+  "ccc_expanded_actions": 2184,
+  "external_spend_usd": 0,
+  "classification": "No disclosure violation established."
+}
