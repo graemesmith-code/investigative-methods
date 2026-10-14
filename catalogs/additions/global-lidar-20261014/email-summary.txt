@@ -1,0 +1,14 @@
+Subject: Free historical lidar archives for reporting
+
+Graeme,
+
+There are useful free laser-survey archives for comparing construction, demolition, excavation and industrial expansion. The strongest starting points in this review are England, the Netherlands, Switzerland, Vancouver, Auckland and Spain.
+
+We verified overlapping historical survey records in London Docklands, Zurich, Rotterdam, Vancouver and Auckland. Small anonymous metadata checks succeeded, and tiny samples confirmed genuine lidar file headers in the Netherlands and Trento. We have not yet measured any site changes.
+
+The main traps are missing historical coverage, terrain models that remove buildings, changed height datums, different processing methods and dataset-specific reuse terms. These scans can show physical change; permits, ownership records and other documents are still needed to establish a story.
+
+I suggest a small civilian redevelopment pilot in Docklands or Zurich first, using a known dated permit as a check. The public guide includes ranked sources, regional license/access details, reproducible checks and go/no-go criteria:
+https://github.com/graemesmith-code/investigative-methods/tree/main/catalogs/additions/global-lidar-20261014
+
+No paid external services were used. Draganfly material and unrelated research were excluded from these changes.

@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2006_pat_laz/",
+    "status": 200,
+    "bytes_read": 200000,
+    "content_type": "text/html",
+    "final_url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2006_pat_laz/",
+    "laz_links_sample": [
+      "dati-grezzi000001_WGS.laz",
+      "dati-grezzi000002_WGS.laz",
+      "dati-grezzi000003_WGS.laz"
+    ]
+  },
+  {
+    "url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2009_pat_laz/",
+    "status": 200,
+    "bytes_read": 26560,
+    "content_type": "text/html",
+    "final_url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2009_pat_laz/",
+    "laz_links_sample": [
+      "dati-grezzi000478_WGS.laz",
+      "dati-grezzi000524_WGS.laz",
+      "dati-grezzi000526_WGS.laz"
+    ]
+  },
+  {
+    "url": "https://siat.provincia.tn.it/stem/",
+    "status": 200,
+    "bytes_read": 3526,
+    "content_type": "text/html;charset=UTF-8",
+    "final_url": "https://siat.provincia.tn.it/stem/",
+    "laz_links_sample": []
+  },
+  {
+    "url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=9425938",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "checked_utc": "2026-10-14T10:27:22.084736+00:00",
+  "records": [
+    {
+      "year": 2013,
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2013/records?where=name%3D%224830E_54540N%22&limit=1",
+      "http_status": 200,
+      "bytes": 588,
+      "sha256": "f87b88fd57ecbcbb0ab18ee0eec338390cef613c77a6140de2413854a929caac",
+      "tile": {
+        "name": "4830E_54540N",
+        "geotiff_url": "https://webtransfer.vancouver.ca/opendata/2013GeoTIFF/4830E_54540N.zip",
+        "lidar_url": "https://webtransfer.vancouver.ca/opendata/2013LiDAR/COV_4830E_54540N.zip",
+        "geom": {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  -123.233540385675,
+                  49.238540629924
+                ],
+                [
+                  -123.233582808806,
+                  49.2475357590952
+                ],
+                [
+                  -123.219842666468,
+                  49.2475627222743
+                ],
+                [
+                  -123.21980273876,
+                  49.2385675846008
+                ],
+                [
+                  -123.233540385675,
+                  49.238540629924
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "properties": {}
+        },
+        "geo_point_2d": {
+          "lon": -123.22669215,
+          "lat": 49.2430518101
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2018/records?where=name%3D%224830E_54540N%22&limit=1",
+      "http_status": 200,
+      "bytes": 512,
+      "sha256": "1bce822efb82ab4eba718c3566107c82f0d9110bbf9efbbe10dbd429361ac560",
+      "tile": {
+        "name": "4830E_54540N",
+        "lidar_url": "https://webtransfer.vancouver.ca/opendata/2018LiDAR/4830E_54540N.zip",
+        "geom": {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  -123.23358275844421,
+                  49.24753575351701
+                ],
+                [
+                  -123.2198427057088,
+                  49.24756271651961
+                ],
+                [
+                  -123.2198027778521,
+                  49.23856754694576
+                ],
+                [
+                  -123.23354033517124,
+                  49.23854059244541
+                ],
+                [
+                  -123.23358275844421,
+                  49.24753575351701
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "properties": {}
+        },
+        "geo_point_2d": {
+          "lon": -123.226692144,
+          "lat": 49.2430517885
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/lidar-2022/records?where=name%3D%22483000_5454000%22&limit=1",
+      "http_status": 200,
+      "bytes": 526,
+      "sha256": "99be982d1fda5cb435bb2be7dcb9135f7f86078fa1f869a8125988d1d87d4610",
+      "tile": {
+        "name": "483000_5454000",
+        "lidar_url": "https://webtransfer.vancouver.ca/opendata/2022LiDAR/483000_5454000.zip",
+        "geom": {
+          "type": "Feature",
+          "geometry": {
+            "coordinates": [
+              [
+                [
+                  -123.23354033517124,
+                  49.23854059244541
+                ],
+                [
+                  -123.23358275844421,
+                  49.24753575351701
+                ],
+                [
+                  -123.2198427057088,
+                  49.24756271651961
+                ],
+                [
+                  -123.2198027778521,
+                  49.23856754694576
+                ],
+                [
+                  -123.23354033517124,
+                  49.23854059244541
+                ]
+              ]
+            ],
+            "type": "Polygon"
+          },
+          "properties": {}
+        },
+        "geo_point_2d": {
+          "lon": -123.22669214445838,
+          "lat": 49.243051788510094
+        }
+      }
+    }
+  ],
+  "note": "Compare polygons with coordinate rounding tolerance. Metadata only; no payload or surface analysis."
+}

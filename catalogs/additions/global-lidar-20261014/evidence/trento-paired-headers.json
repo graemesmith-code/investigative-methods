@@ -1,0 +1,40 @@
+[
+  {
+    "epoch_product": "2006",
+    "url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2006_pat_laz/dati-grezzi000478_WGS.laz",
+    "status": 206,
+    "content_range": "bytes 0-374/88106819",
+    "bytes_read": 375,
+    "signature": "LASF",
+    "las_version": "1.2",
+    "point_format": 1,
+    "legacy_point_count": 3146664,
+    "bounds_maxmin_xyz": [
+      667999.99,
+      666000.0,
+      5127999.99,
+      5126000.0,
+      1490.27,
+      633.22
+    ]
+  },
+  {
+    "epoch_product": "2009",
+    "url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2009_pat_laz/dati-grezzi000478_WGS.laz",
+    "status": 206,
+    "content_range": "bytes 0-374/21636303",
+    "bytes_read": 375,
+    "signature": "LASF",
+    "las_version": "1.2",
+    "point_format": 1,
+    "legacy_point_count": 772717,
+    "bounds_maxmin_xyz": [
+      667999.99,
+      667049.36,
+      5126050.0,
+      5126000.0,
+      1124.27,
+      1039.5
+    ]
+  }
+]

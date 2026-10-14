@@ -1,0 +1,30 @@
+{
+  "url": "https://siatservices.provincia.tn.it/idt/raster/lidar_2006_pat_laz/dati-grezzi000001_WGS.laz",
+  "status": 206,
+  "content_range": "bytes 0-374/51543243",
+  "bytes_read": 375,
+  "signature": "LASF",
+  "las_version": "1.2",
+  "creation_day": 8,
+  "creation_year": 2006,
+  "point_format": 1,
+  "legacy_point_count": 1840822,
+  "xyz_scale": [
+    0.01,
+    0.01,
+    0.01
+  ],
+  "xyz_offset": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bounds_maxmin_xyz": [
+    715999.99,
+    714000.0,
+    5157770.74,
+    5156000.0,
+    2998.34,
+    2204.31
+  ]
+}

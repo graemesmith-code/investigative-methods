@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-10-14T10:26:51.709530+00:00",
+  "sources": {
+    "auckland-2013-boundary.json": {
+      "url": "https://raw.githubusercontent.com/OpenTopography/Data_Catalog_Spatial_Boundaries/main/OpenTopography_Point_Cloud_Lidar/Auckland_2013.geojson",
+      "bytes": 40860,
+      "sha256": "7c0c0b7bbb979781edbd9be5180240a28b4510b6b4f189220b84da4f6809b000"
+    },
+    "BA31_10000_0405.json": {
+      "url": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/auckland/auckland-part-1_2024/dsm_1m/2193/BA31_10000_0405.json",
+      "bytes": 1491,
+      "sha256": "ab91c220b9806856767d419171ff1946fb706f8565a95748a8350fbfaa320f9d"
+    },
+    "collection.json": {
+      "url": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/auckland/auckland-part-1_2024/dsm_1m/2193/collection.json",
+      "bytes": 24242,
+      "sha256": "5844090f898ad4036dd13c913fdc6732a305bfcc011c511a647a19378a750d5e"
+    }
+  },
+  "point_lon_lat": [
+    174.72,
+    -36.85
+  ],
+  "point_in_2013_polygon": true,
+  "point_in_2024_tile_geometry": true,
+  "tile_2024": "BA31_10000_0405",
+  "note": "Metadata footprint verification only. Tile geometry may include no-data; no raster or point-cloud values tested."
+}

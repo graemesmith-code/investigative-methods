@@ -1,0 +1,161 @@
+{
+  "checked_utc": "2026-10-14T10:22:04.398489+00:00",
+  "purpose": "Metadata/header check only; acquisition dates and point classifications not decoded",
+  "records": [
+    {
+      "epoch": "AHN3",
+      "index_url": "https://basisdata.nl/hwh-portal/20230609_tmp/links/nationaal/Nederland/AHN3_PC.json",
+      "index_bytes": 589641,
+      "index_sha256": "c4e4af5a53bd7db9605501f41b2a95a4815b99e7eb4e7bffe5fb8381eab36c17",
+      "feature_count": 1374,
+      "selected_feature": {
+        "type": "Feature",
+        "properties": {
+          "file": "https://fsn1.your-objectstorage.com/hwh-ahn/AHN3/LAZ/C_37HN1.LAZ",
+          "size": 2002169775,
+          "mtime": "2025-03-19T11:29:23.947Z",
+          "sha256": "696e83912e47ed0bdec178a8b54aa76dc591476022062250fef1056721ef98c6"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                95000.0,
+                431250.0
+              ],
+              [
+                90000.0,
+                431250.0
+              ],
+              [
+                90000.0,
+                437500.0
+              ],
+              [
+                95000.0,
+                437500.0
+              ],
+              [
+                95000.0,
+                431250.0
+              ]
+            ]
+          ]
+        }
+      },
+      "selection_rd_xy": [
+        93000,
+        437000
+      ],
+      "http_status": 206,
+      "content_range": "bytes 0-4095/2002169775",
+      "sample_bytes": 4096,
+      "sample_sha256": "d362e03374c328ad13f4a49c697320bf0c7b4c3fb356b6fd9e7c25e028a63808",
+      "las_header": {
+        "version": "1.2",
+        "point_format_byte": 129,
+        "point_format_without_compression_bits": 1,
+        "legacy_point_count": 403713733,
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "offsets": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_min_xyz": [
+          94999.999,
+          90000.0,
+          437499.999,
+          431250.0,
+          208.272,
+          -8.838000000000001
+        ],
+        "creation_day": 339,
+        "creation_year": 2016
+      }
+    },
+    {
+      "epoch": "AHN4",
+      "index_url": "https://basisdata.nl/hwh-portal/20230609_tmp/links/nationaal/Nederland/AHN4_PC.json",
+      "index_bytes": 596985,
+      "index_sha256": "40038f9abac85719f2b924966352c65769cb7c846fb34bcfe7ea0debc93202bc",
+      "feature_count": 1381,
+      "selected_feature": {
+        "type": "Feature",
+        "properties": {
+          "file": "https://fsn1.your-objectstorage.com/hwh-ahn/ahn4/01_LAZ/C_37HN1.LAZ",
+          "size": 9378637927,
+          "mtime": "2025-03-19T15:35:53.787Z",
+          "sha256": "47f18e08fc0d3528f5a8576aa84ddb4f59fde575b8f8b0ef2fe6b078dc5966f2"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                95000.0,
+                431250.0
+              ],
+              [
+                90000.0,
+                431250.0
+              ],
+              [
+                90000.0,
+                437500.0
+              ],
+              [
+                95000.0,
+                437500.0
+              ],
+              [
+                95000.0,
+                431250.0
+              ]
+            ]
+          ]
+        }
+      },
+      "selection_rd_xy": [
+        93000,
+        437000
+      ],
+      "http_status": 206,
+      "content_range": "bytes 0-4095/9378637927",
+      "sample_bytes": 4096,
+      "sample_sha256": "109526b7bc1c027b3ac9e66fe346341a9b3fc598e4dbfa263c6da966184a2207",
+      "las_header": {
+        "version": "1.4",
+        "point_format_byte": 129,
+        "point_format_without_compression_bits": 1,
+        "legacy_point_count": 1217838109,
+        "scales": [
+          0.001,
+          0.001,
+          0.001
+        ],
+        "offsets": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "max_min_xyz": [
+          94999.999,
+          90000.0,
+          437499.999,
+          431250.001,
+          234.49800000000002,
+          -6.425
+        ],
+        "creation_day": 76,
+        "creation_year": 2020,
+        "extended_point_count": 1217838109
+      }
+    }
+  ]
+}

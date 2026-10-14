@@ -28,6 +28,7 @@ New source reviews are linked here separately from the preserved exports. Their 
 | Entry | Source and reporting method | Verification |
 |---|---|---|
 | [RAB-LIDAR-20261014-01 — Washington Lidar Portal](additions/washington-lidar.md) | Public historical elevation surveys; compare surface and terrain models, then corroborate changes with dated records | Official portal, help and project/download-query responses checked 14 October 2026; metadata file download blocked; workflow proposed |
+| [RAB-LIDAR-20261014-02 — Global historical lidar guide](additions/global-lidar-20261014/README.md) | Ranked repeat-survey sources, product/reuse distinctions, regional inventory and small reproducible metadata/header checks | Primary terms and selected overlapping footprints checked 14 October 2026; no completed change analysis |
 
 ## Try one source
 
@@ -48,6 +49,6 @@ Earlier **158 → 263 → 345** catalog counts belong to a separately verified w
 
 ## Access and reuse
 
-Treat prices, quotas and access descriptions as dated claims to check before a new run. A catalog entry is not a guarantee of permission to collect or republish a source. No compilation-wide license or byline was found in the recovered set; do not infer that a code license covers the catalog or the underlying records. This repository remains private, with no change to access or licensing.
+Treat prices, quotas and access descriptions as dated claims to check before a new run. A catalog entry is not a guarantee of permission to collect or republish a source. No compilation-wide license or byline was found in the recovered set; do not infer that a code license covers the catalog or the underlying records. This repository is public as of 14 October 2026. Public repository access does not grant rights in the underlying datasets or establish a compilation-wide license.
 
 [Home](../README.md) · [Experiment index](../experiments/README.md) · [Technical annexes](../annexes/README.md)

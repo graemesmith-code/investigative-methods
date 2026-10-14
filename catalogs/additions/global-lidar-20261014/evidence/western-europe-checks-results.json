@@ -1,0 +1,168 @@
+{
+  "england_docklands": {
+    "url": "https://environment.data.gov.uk/spatialdata/survey-index-files/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=dataset-9f0fa3fc-a860-4729-adc9-47fe53f658d0%3ANational_LIDAR_Programme_Index_Catalogue&outputFormat=application%2Fjson&count=20&srsName=EPSG%3A27700&bbox=537600%2C180200%2C537610%2C180210%2CEPSG%3A27700",
+    "http_status": 200,
+    "bytes": 2014,
+    "records": [
+      {
+        "polygon_id": "P_10768",
+        "dsm_fn": "DSM_TQ3580_P_10768_20171207_20180124.tif",
+        "dtm_fn": "DTM_TQ3580_P_10768_20171207_20180124.tif",
+        "fz_dsm_fn": "FZ_DSM_TQ3580_P_10768_20171207_20180124.tif",
+        "int_lz_fn": "Intensity_LZ_TQ3580_P_10768_20171207_20180124.tif",
+        "tilename": "TQ3580",
+        "sd_flown": "2017-12-07T00:00:00Z",
+        "ed_flown": "2018-01-24T00:00:00Z",
+        "surveys": "18-017 [ 2018/01/24 ], 17-279 [ 2017/12/07 ]",
+        "season": "2017/2018",
+        "pnt_fn": "TQ3580_P_10768_20171207_20180124.laz",
+        "resolution": 1,
+        "year": 2018,
+        "supplied": null,
+        "latest": "No",
+        "vom_fn": "VOM_TQ3580_P_10768_20171207_20180124.tif",
+        "gdb_geomattr_data": null,
+        "delivered": "20190218"
+      },
+      {
+        "polygon_id": "P_12151",
+        "dsm_fn": "DSM_TQ3580_P_12151_20201212_20201212.tif",
+        "dtm_fn": "DTM_TQ3580_P_12151_20201212_20201212.tif",
+        "fz_dsm_fn": "FZ_DSM_TQ3580_P_12151_20201212_20201212.tif",
+        "int_lz_fn": "Intensity_LZ_TQ3580_P_12151_20201212_20201212.tif",
+        "tilename": "TQ3580",
+        "sd_flown": "2020-12-12T00:00:00Z",
+        "ed_flown": "2020-12-12T00:00:00Z",
+        "surveys": "20-212 [ 2020/12/12 ]",
+        "season": "2020/2021",
+        "pnt_fn": "TQ3580_P_12151_20201212_20201212.laz",
+        "resolution": 1,
+        "year": 2020,
+        "supplied": null,
+        "latest": "No",
+        "vom_fn": "VOM_TQ3580_P_12151_20201212_20201212.tif",
+        "gdb_geomattr_data": null,
+        "delivered": "20220301"
+      }
+    ]
+  },
+  "switzerland_zurich": {
+    "url": "https://data.geo.admin.ch/api/stac/v1/collections/ch.swisstopo.swisssurface3d/items?bbox=8.537,47.372,8.54,47.374&limit=100",
+    "http_status": 200,
+    "bytes": 6647,
+    "records": [
+      {
+        "id": "swisssurface3d_2018_2682-1247",
+        "bbox": [
+          8.5242671,
+          47.3686138,
+          8.5376903,
+          47.3777324
+        ],
+        "properties": {
+          "datetime": "2018-01-01T00:00:00Z",
+          "created": "2021-02-23T19:33:56.358423Z",
+          "updated": "2025-01-17T08:35:16.264582Z"
+        },
+        "assets": {
+          "swisssurface3d_2018_2682-1247_2056_5728.las.zip": {
+            "type": "application/vnd.laszip",
+            "href": "https://data.geo.admin.ch/ch.swisstopo.swisssurface3d/swisssurface3d_2018_2682-1247/swisssurface3d_2018_2682-1247_2056_5728.las.zip",
+            "created": "2021-02-23T19:33:56.946875Z",
+            "updated": "2025-01-17T08:35:16.264582Z",
+            "proj:epsg": 2056,
+            "file:checksum": "12201FC5C2330F140A438242DDA4B235162C67E080F2203A6729BFCE9240F6CD6737"
+          }
+        }
+      },
+      {
+        "id": "swisssurface3d_2018_2683-1247",
+        "bbox": [
+          8.5375049,
+          47.3684871,
+          8.5509303,
+          47.3776072
+        ],
+        "properties": {
+          "datetime": "2018-01-01T00:00:00Z",
+          "created": "2021-02-23T19:41:05.257802Z",
+          "updated": "2025-01-17T08:49:16.473037Z"
+        },
+        "assets": {
+          "swisssurface3d_2018_2683-1247_2056_5728.las.zip": {
+            "type": "application/vnd.laszip",
+            "href": "https://data.geo.admin.ch/ch.swisstopo.swisssurface3d/swisssurface3d_2018_2683-1247/swisssurface3d_2018_2683-1247_2056_5728.las.zip",
+            "created": "2021-02-23T19:41:06.259065Z",
+            "updated": "2025-01-17T08:49:16.473037Z",
+            "proj:epsg": 2056,
+            "file:checksum": "122070058DA637D95E9A2212ED61A8DA5EB82E75B7396990C5287C4A514E26869E68"
+          }
+        }
+      },
+      {
+        "id": "swisssurface3d_2024_2682-1247",
+        "bbox": [
+          8.5242671,
+          47.3686138,
+          8.5376903,
+          47.3777324
+        ],
+        "properties": {
+          "datetime": "2024-01-01T00:00:00Z",
+          "created": "2025-08-15T13:22:05.464755Z",
+          "updated": "2025-12-15T07:28:22.782079Z"
+        },
+        "assets": {
+          "swisssurface3d_2024_2682-1247_2056_5728.copc.laz": {
+            "type": "application/vnd.laszip+copc",
+            "href": "https://data.geo.admin.ch/ch.swisstopo.swisssurface3d/swisssurface3d_2024_2682-1247/swisssurface3d_2024_2682-1247_2056_5728.copc.laz",
+            "created": "2025-08-15T13:22:05.614048Z",
+            "updated": "2025-12-15T07:28:22.782079Z",
+            "proj:epsg": 2056,
+            "file:checksum": "122082BA44196F1E7F973166081FCFA8A98B1164558A8B804A900C70BAE0EEDE318E"
+          }
+        }
+      },
+      {
+        "id": "swisssurface3d_2024_2683-1247",
+        "bbox": [
+          8.5375049,
+          47.3684871,
+          8.5509303,
+          47.3776072
+        ],
+        "properties": {
+          "datetime": "2024-01-01T00:00:00Z",
+          "created": "2025-08-15T13:23:55.063911Z",
+          "updated": "2025-12-15T07:31:44.845886Z"
+        },
+        "assets": {
+          "swisssurface3d_2024_2683-1247_2056_5728.copc.laz": {
+            "type": "application/vnd.laszip+copc",
+            "href": "https://data.geo.admin.ch/ch.swisstopo.swisssurface3d/swisssurface3d_2024_2683-1247/swisssurface3d_2024_2683-1247_2056_5728.copc.laz",
+            "created": "2025-08-15T13:23:55.237702Z",
+            "updated": "2025-12-15T07:31:44.845886Z",
+            "proj:epsg": 2056,
+            "file:checksum": "12204E63984DE2BD70632B6DDEBD3A06DE581B7EDCB361D3CA14E0956746E5AF546E"
+          }
+        }
+      }
+    ]
+  },
+  "swiss_range_header": {
+    "url": "https://data.geo.admin.ch/ch.swisstopo.swisssurface3d/swisssurface3d_2024_2682-1247/swisssurface3d_2024_2682-1247_2056_5728.copc.laz",
+    "http_status": 206,
+    "content_range": "bytes 0-4095/155767533",
+    "bytes": 4096,
+    "las_version": "1.4",
+    "point_format_and_compression_flag": 134,
+    "bounds_maxmin_xyz": [
+      2682999.99,
+      2682000.0,
+      1247999.99,
+      1247000.0,
+      495.51,
+      398.09000000000003
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "indexes": {
+    "2006": {
+      "status": 200,
+      "bytes_read": 224590
+    },
+    "2009": {
+      "status": 200,
+      "bytes_read": 26560
+    }
+  },
+  "same_named_tiles": 175,
+  "examples": [
+    "dati-grezzi000478_WGS.laz",
+    "dati-grezzi000524_WGS.laz",
+    "dati-grezzi000526_WGS.laz",
+    "dati-grezzi000527_WGS.laz",
+    "dati-grezzi000528_WGS.laz",
+    "dati-grezzi000573_WGS.laz",
+    "dati-grezzi000574_WGS.laz",
+    "dati-grezzi000575_WGS.laz",
+    "dati-grezzi000576_WGS.laz",
+    "dati-grezzi000577_WGS.laz"
+  ],
+  "caveat": "Same named geographic tiles suggest archived local repeat/update; acquisition years are product groups, not decoded GPS time; no alignment or scene change checked."
+}
