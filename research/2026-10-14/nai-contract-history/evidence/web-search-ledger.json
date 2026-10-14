@@ -1,0 +1,21 @@
+{
+  "queries": [
+    "\"SPE60523D9402\"",
+    "\"SPE605-23-D-9402\"",
+    "\"SPE60523D9402\" filetype:pdf",
+    "\"SPE60523D9402\" site:*.mil",
+    "\"SPE60523D9402\" \"P00002\"",
+    "\"SPE60524FWF6Y\"",
+    "\"SPE60524FWF4N\"",
+    "\"SPE60522R0214\" site:sam.gov",
+    "\"SPE605-22-R-0214\" site:sam.gov",
+    "\"SPE60522R0214\" \"NAI\"",
+    "\"NAI Logistics\" \"termination\" DLA",
+    "\"NAI Logistics\" site:dla.mil -AnnualReport",
+    "\"NAI Logistics\" site:defense.gov/News/Contracts",
+    "\"NAI Logistics\" site:war.gov/News/Contracts",
+    "\"NAI\" \"fuel\" site:dla.mil/Energy/",
+    "FPDS SAM contract data atom feed 2026"
+  ],
+  "method": "Web search tool; official sources used for facts; commercial result used only for document-link discovery, no commercial amounts relied on. Bounded search; no absence inference."
+}

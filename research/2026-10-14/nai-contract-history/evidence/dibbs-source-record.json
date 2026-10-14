@@ -1,0 +1,121 @@
+{
+  "package_url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRec.aspx?contract=SPE60523D9402&dlv=&cnt=",
+  "package_award_date": "2022-11-22",
+  "package_post_date": "2022-11-22",
+  "cage": "H2G78",
+  "searches": [
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRecs.aspx",
+      "method": "POST",
+      "retrieved_at": "2026-10-14T10:32:44.366473+00:00",
+      "status": 200,
+      "bytes": 49253,
+      "sha256": "548847fca0a3cf5404894a5f90dc2e179321bf19ab7ccfac551200ad345521ad",
+      "search_criteria": {
+        "category": "contract",
+        "value": "SPE60523D9402",
+        "scope": "all"
+      }
+    },
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRecs.aspx",
+      "method": "POST",
+      "retrieved_at": "2026-10-14T10:32:44.845424+00:00",
+      "status": 200,
+      "bytes": 39362,
+      "sha256": "4afe0e41623ea16a075df98b4bfb1bea2a17b5a14339870486d2038db65f121e",
+      "search_criteria": {
+        "category": "do",
+        "value": "SPE60524FWF6Y",
+        "scope": "all"
+      }
+    },
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRecs.aspx",
+      "method": "POST",
+      "retrieved_at": "2026-10-14T10:34:20.225225+00:00",
+      "status": 200,
+      "bytes": 49181,
+      "sha256": "b9e10056267c3ce68ae43e42e06084a72c32a0d0c9206602b90668d03eb3ef7f",
+      "search_criteria": {
+        "category": "cage",
+        "value": "H2G78",
+        "scope": "all"
+      }
+    },
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRecs.aspx",
+      "method": "POST",
+      "retrieved_at": "2026-10-14T10:34:25.145288+00:00",
+      "status": 200,
+      "bytes": 39453,
+      "sha256": "993321b1072bd179e82b6176b0f104b317e2a496f5a127456876d5ce81c7ef9c",
+      "search_criteria": {
+        "category": "contract",
+        "value": "SPE60524FWF6Y",
+        "scope": "all"
+      }
+    },
+    {
+      "url": "https://www.dibbs.bsm.dla.mil/Awards/AwdRecs.aspx",
+      "method": "POST",
+      "retrieved_at": "2026-10-14T10:34:28.889609+00:00",
+      "status": 200,
+      "bytes": 38684,
+      "sha256": "2514e66035eb552140fb94c01e90f2f5ea0e689bc4790b14cd95745dd20a43c2",
+      "search_criteria": {
+        "category": "do",
+        "value": [
+          "SPE60524FVX9U",
+          "SPE60524FVX9V",
+          "SPE60524FVY0B",
+          "SPE60524FVY0C",
+          "SPE60524FVZ1R",
+          "SPE60524FVZ1S",
+          "SPE60524FVZ1T",
+          "SPE60524FWD9U",
+          "SPE60524FWD9V",
+          "SPE60524FWE0D",
+          "SPE60524FWE0R",
+          "SPE60524FWF4N",
+          "SPE60524FWF4Q",
+          "SPE60524FWF4R",
+          "SPE60524FWF4S",
+          "SPE60524FWF4V",
+          "SPE60524FWF5C",
+          "SPE60524FWF6Y",
+          "SPE60524FWG0C"
+        ],
+        "scope": "all"
+      }
+    }
+  ],
+  "documents": [
+    {
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/22NOV22/SPE60523D9402.PDF",
+      "retrieved_at": "2026-10-14T10:32:51.051714+00:00",
+      "status": 200,
+      "bytes": 349278,
+      "sha256": "80c27e962acfcd43740619255ea26ffb62000f880e1fab1484a3bb51a47d639c"
+    },
+    {
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/22NOV22/SPE60523D9402_P00001.PDF",
+      "retrieved_at": "2026-10-14T10:32:52.069465+00:00",
+      "status": 200,
+      "bytes": 202766,
+      "sha256": "23684a020f4c9249a46e504e5165b0793ba10d2c542a9d8b76a079639086d9ba"
+    },
+    {
+      "url": "https://dibbs2.bsm.dla.mil/Downloads/Awards/22NOV22/SPE60523D9402_P00002.PDF",
+      "retrieved_at": "2026-10-14T10:32:52.677150+00:00",
+      "status": 200,
+      "bytes": 213205,
+      "sha256": "be0543b95ec56ef2ef39c5b01fb4b5d450f9bb3e402ff6fb67312cdf28b4c651"
+    }
+  ],
+  "authentication": "Ordinary public notice-and-consent forms; no account or TLS override.",
+  "embedded_attachment_provenance": {
+    "Termination Notice NAI T4C Signed.pdf": "Embedded in SPE60523D9402_P00002.pdf; extracted with pdfdetach -saveall",
+    "KTR signed copy P00001.pdf": "Embedded in SPE60523D9402_P00001.pdf; extracted with pdfdetach -saveall"
+  }
+}

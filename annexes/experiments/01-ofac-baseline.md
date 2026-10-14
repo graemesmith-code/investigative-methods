@@ -37,3 +37,7 @@ Scripts and exact input hashes are described in [technical reproduction](../repr
 The method should be evaluated on known matches and known collisions. It is limited to direct recipients and does not cover beneficial ownership, subcontractors, all sanctions lists or spelling variants.
 
 [Experiment index](../../experiments/README.md) · [Home](../../README.md)
+
+## Follow-up added 14 October 2026
+
+The [NAI vehicle and delivery-order reconstruction](../../research/2026-10-14/nai-contract-history/README.md) now covers the accessible award history and FY2024 orders, and recovers the original termination notice. It finds eight reported post-designation orders, reducing modifications, and unresolved delivery, payment and legal-applicability questions. No sanctions violation has been established. This dated addition leaves the historical screening results above intact.

@@ -28,3 +28,7 @@ No paid data or model calls were used. Downloading, computing, storage and revie
 For NAI, the next useful step is to reconstruct the vehicle and delivery-order history, including FY2024, and check timing and identity. That work has not been completed here.
 
 [Technical annex: counts, sources and reproduction](../annexes/experiments/01-ofac-baseline.md) · [All experiments](README.md) · [Home](../README.md)
+
+## Follow-up added 14 October 2026
+
+The [NAI vehicle and delivery-order reconstruction](../research/2026-10-14/nai-contract-history/README.md) now covers the accessible award history and FY2024 orders, and recovers the original termination notice. It finds eight reported post-designation orders, reducing modifications, and unresolved delivery, payment and legal-applicability questions. No sanctions violation has been established. This dated addition leaves the historical screening results above intact.
