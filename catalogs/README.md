@@ -21,6 +21,14 @@ These are starting points, not strict subject boundaries. A beat may cross sever
 
 The questions illustrate possible uses. They are not findings about any person or organization and do not mean the catalog supplies every record needed to answer them.
 
+## Dated catalog additions
+
+New source reviews are linked here separately from the preserved exports. Their local `RAB` identifiers do not renumber the original `SYS` or `AP` records, and they are excluded from the historical totals above.
+
+| Entry | Source and reporting method | Verification |
+|---|---|---|
+| [RAB-LIDAR-20261014-01 — Washington Lidar Portal](additions/washington-lidar.md) | Public historical elevation surveys; compare surface and terrain models, then corroborate changes with dated records | Official portal, help and project/download-query responses checked 14 October 2026; metadata file download blocked; workflow proposed |
+
 ## Try one source
 
 1. **Read an ordinary entry.** Work out what one record describes and what its dates and amounts mean.
