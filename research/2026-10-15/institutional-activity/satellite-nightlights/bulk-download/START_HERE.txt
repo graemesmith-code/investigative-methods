@@ -1,0 +1,54 @@
+NASA NIGHT-LIGHT DOWNLOAD — FIRST-STAGE SAMPLE
+
+This downloads 18 exact scientific files for three pre-event periods, about
+561 MiB (roughly 590 MB). Allow about 2 GB of free disk space for files and ZIPs.
+The data is free. It does NOT download the entire global archive or baseline years.
+
+ON YOUR MAC
+
+1. Unzip this package into Downloads. Open the resulting folder.
+
+2. Sign in at https://urs.earthdata.nasa.gov/ and choose Generate Token.
+   Generate/show an Earthdata Download token and copy it.
+   NASA instructions:
+   https://ladsweb.modaps.eosdis.nasa.gov/learn/download-files-using-edl-tokens/
+
+3. Open Terminal. Type python3 followed by a space, drag download.py from
+   Finder into the Terminal window, and press Return.
+
+4. Paste the token when the program asks. The paste will be invisible; press
+   Return. The token stays local, is not written to a file, and is not included
+   in the ZIPs. Do not paste it into ChatGPT.
+
+5. When Finished appears, open the UPLOAD_THESE folder beside download.py.
+   Upload its three ZIP files to the ChatGPT conversation:
+       iran_june_2025.zip
+       venezuela_jan_2026.zip
+       iran_feb_2026.zip
+
+Python 3 and curl are required; no extra Python packages. If Terminal reports
+that Python 3 is missing, tell ChatGPT; do not install anything merely to guess.
+The program can be run again after interruption: it checks completed files and
+avoids downloading them again. It stops on a rejected request or invalid file.
+
+OPTIONAL: append --pair to the command to download only the initial 67 MiB
+matched pair, or --list to display the plan without signing in/downloading.
+
+WHAT THIS ENABLES
+
+These are raw science files with quality flags and timestamps, not map pictures.
+First we need to check cloud coverage and extract valid measurements. Baseline
+and positive-control data are additional; this first batch cannot establish an
+anomaly or predictive value by itself.
+
+VALIDATION AND LIMITS
+
+The file list was obtained from NASA's public catalog. The downloader's manifest
+checks, HDF5 signature/size checks, archive creation and credential-safe command
+construction were tested locally. An authenticated NASA transfer has NOT yet
+been tested. If NASA rejects the token or transfer, share only the short error
+message, never the token. The cloud-browser restriction has not been altered.
+
+The local downloader uses NASA's documented HTTPS/curl method. It permits only
+HTTPS redirects, verifies TLS normally, keeps cookies in memory, and does not
+use curl's cross-host credential forwarding option (--location-trusted).
