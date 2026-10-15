@@ -1,0 +1,7 @@
+raw/
+*.part
+__pycache__/
+evidence/catalog_preflight.json
+evidence/VNP*.json
+evidence/veda_collections.json
+evidence/cmr_a2_collections.json

@@ -1,5 +1,7 @@
 # Can aggregate activity produce newsroom leads before military operations?
 
+**Selected follow-up:** [Satellite night-light pilot](satellite-nightlights/README.md) — historical coverage and timing checked; radiance analysis awaits free NASA Earthdata download access. No brightness result is claimed.
+
 **15 October 2026 — exploratory test completed; no validated warning signal.**
 
 We tested a cheap version of the “Pentagon Pizza” idea using public Metro passenger counts. The hypothesis was that unusually late departures near the Pentagon might supply a reporting lead before a major operation. We used station totals only: no phone identifiers, individual trips, employee identities or movement histories.

@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "frozen_before_reading_any_radiance": true,
+  "prepared_on": "2026-10-15",
+  "tile": "h10v05",
+  "products": [
+    "VNP46A1",
+    "VNP46A2"
+  ],
+  "collection_version": 2,
+  "regions": [
+    {
+      "id": "pentagon_broad",
+      "role": "target",
+      "bbox_wgs84": [
+        -77.06785121470752,
+        38.86290678987364,
+        -77.04474878529247,
+        38.88089321012635
+      ],
+      "nominal_width_km": 2,
+      "nominal_height_km": 2,
+      "definition": "Analyst-selected 2 km square; not a cadastral boundary or employee geofence."
+    },
+    {
+      "id": "rosslyn_commercial",
+      "role": "comparison",
+      "bbox_wgs84": [
+        -77.08325526378916,
+        38.88780678987364,
+        -77.06014473621086,
+        38.905793210126355
+      ],
+      "nominal_width_km": 2,
+      "nominal_height_km": 2,
+      "definition": "Analyst-selected 2 km square; not a cadastral boundary or employee geofence."
+    },
+    {
+      "id": "reston_town_center",
+      "role": "comparison",
+      "bbox_wgs84": [
+        -77.3685653350383,
+        38.94960678987364,
+        -77.3454346649617,
+        38.96759321012635
+      ],
+      "nominal_width_km": 2,
+      "nominal_height_km": 2,
+      "definition": "Analyst-selected 2 km square; not a cadastral boundary or employee geofence."
+    },
+    {
+      "id": "tysons_commercial",
+      "role": "comparison",
+      "bbox_wgs84": [
+        -77.2355598555628,
+        38.91600678987364,
+        -77.21244014443721,
+        38.93399321012635
+      ],
+      "nominal_width_km": 2,
+      "nominal_height_km": 2,
+      "definition": "Analyst-selected 2 km square; not a cadastral boundary or employee geofence."
+    }
+  ],
+  "screen": {
+    "mandatory_quality_flag": 0,
+    "cloud_confidence": 0,
+    "cloud_mask_quality": 3,
+    "night_only": true,
+    "snow_free": true,
+    "reject_shadow_cirrus_aurora_eclipse": true,
+    "a1_qf_dnb": 0,
+    "max_sensor_zenith_degrees": 60,
+    "min_valid_area_fraction": 0.75
+  },
+  "note": "This config specifies extraction and quality screening, not a validated detector."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "product": "VNP46A1",
+    "window": "recent",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-10-12T00%3A00%3A00Z%2C2026-10-15T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:28.802466+00:00",
+    "cmr_hits": "1",
+    "entry_count": 1,
+    "error": null
+  },
+  {
+    "product": "VNP46A2",
+    "window": "recent",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-10-12T00%3A00%3A00Z%2C2026-10-15T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:30.748626+00:00",
+    "cmr_hits": "0",
+    "entry_count": 0,
+    "error": null
+  },
+  {
+    "product": "VNP46A1_NRT",
+    "window": "recent",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-10-12T00%3A00%3A00Z%2C2026-10-15T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:33.550954+00:00",
+    "cmr_hits": "2",
+    "entry_count": 2,
+    "error": null
+  },
+  {
+    "product": "VNP46A2_NRT",
+    "window": "recent",
+    "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-10-12T00%3A00%3A00Z%2C2026-10-15T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:43.418389+00:00",
+    "cmr_hits": "2",
+    "entry_count": 2,
+    "error": null
+  }
+]

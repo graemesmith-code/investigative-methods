@@ -1,0 +1,202 @@
+{
+  "checked_on": "2026-10-15",
+  "veda_inventory_url": "https://openveda.cloud/api/stac/collections?limit=1000",
+  "total_collections": 247,
+  "matching_collections": [
+    {
+      "id": "burma-eq-night-lights",
+      "title": "Black Marble Night Lights - 2025 Burma Earthquake",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              89.23590884950805,
+              19.76973702602796,
+              100.09142868578725,
+              30.311737627095074
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2025-03-23 00:00:00+00",
+              "2025-03-29 23:59:59+00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta-disasters-hd-blackmarble-nightlights",
+      "title": "High Definition Black Marble Nightlights (2023 Rolling Fork Tornado)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.95641041935056,
+              32.83238037641129,
+              -90.78794047564391,
+              32.96655224164907
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2023-03-15 00:00:00+00",
+              "2023-03-25 00:00:00+00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "ercot-houston-nightlights-freeze",
+      "title": "Black Marble Night Lights (Houston, TX 2021 Deep Freeze)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -96.0885,
+              29.2045,
+              -94.5587,
+              30.3265
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2021-02-10 00:00:00+00",
+              "2021-02-16 00:00:00+00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "greenville-nightlights-tornadoes-2024",
+      "title": "Black Marble Night Lights (Greenville OH Tornado Damage)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -85.03689999999999,
+              39.748247905759165,
+              -84.1975,
+              40.41625209424083
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-05-07 00:00:00+00",
+              "2024-05-08 00:00:00+00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "lakeview-nightlights-tornadoes-2024",
+      "title": "Black Marble Night Lights (Lakeview OH Tornado Damage; Difference)",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -84.2954,
+              40.20127368220017,
+              -83.57612536287245,
+              40.69122631779985
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2024-03-14 00:00:00+00",
+              "2024-03-14 00:00:00+00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "nightlights-derecho",
+      "title": "VIIRS Night Lights Derecho",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -112.07926856247974,
+              39.47957304015183,
+              -88.2545230530161,
+              50.52441131325872
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2022-05-10 00:00:00+00",
+              "2022-05-10 00:00:00+00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "nightlights-hd-1band",
+      "title": "Black Marble High Definition Nightlights 1 band Dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -90.3037818244749,
+              17.912138994450856,
+              -65.57478762584185,
+              30.07177072705947
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2017-07-21T00:00:00+00:00",
+              "2021-08-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "nightlights-hd-monthly",
+      "title": "Black Marble High Definition Nightlights Monthly Dataset",
+      "extent": {
+        "spatial": {
+          "bbox": [
+            [
+              -122.63569641113281,
+              -37.08,
+              174.96,
+              54.584515
+            ]
+          ]
+        },
+        "temporal": {
+          "interval": [
+            [
+              "2019-01-01T00:00:00+00:00",
+              "2022-03-31T00:00:00+00:00"
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "conclusion": "None of these catalogued series covers daily Washington observations in the selected 2025/2026 windows.",
+  "aws_registry_url": "https://registry.opendata.aws/nasa-suomi-npp/",
+  "aws_access": "Registry explicitly specifies Earthdata Login and controlled access."
+}

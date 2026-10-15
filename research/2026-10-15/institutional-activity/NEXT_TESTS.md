@@ -1,4 +1,4 @@
-# Three next tests — awaiting the editor's selection
+# Three next tests — test 1 selected
 
 **Checked October 15, 2026. None of these tests has been launched.** They are not three verified live feeds. The first is a documented satellite measurement with a historical archive; the others have explicit access/coverage gates. No purchase, account creation or supplier contact is authorized by this shortlist alone.
 
@@ -61,3 +61,8 @@ Sources:
 ## Recommendation
 
 Choose **1** for the strongest currently documented combination of free data, an archive spanning the cases and a near-real-time product. Choose **2** if direct movement matters more and you accept a coverage/access audit first. Choose **3** to resolve whether the original phone-data idea is affordable and timely at all. None is a demonstrated military-warning method, and no test should be judged by these three famous events alone.
+
+
+## Selection update — 15 October 2026
+
+The editor selected test 1. Its [executed access/timing check, exact file manifest and analysis protocol](satellite-nightlights/README.md) are saved. Scientific-file download requires Earthdata authentication; no brightness backtest has yet run. Tests 2 and 3 remain unstarted. The original descriptions above record the shortlist before selection.

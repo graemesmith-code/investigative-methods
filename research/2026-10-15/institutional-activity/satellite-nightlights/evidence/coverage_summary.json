@@ -1,0 +1,146 @@
+[
+  {
+    "event": "iran_june_2025",
+    "product": "VNP46A1",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-06-18T00%3A00%3A00Z%2C2025-06-21T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:22.957878+00:00",
+    "raw_cmr_hits": 5,
+    "selected_date_count": 3,
+    "expected_date_count": 3,
+    "dates": [
+      "2025-06-18",
+      "2025-06-19",
+      "2025-06-20"
+    ]
+  },
+  {
+    "event": "venezuela_jan_2026",
+    "product": "VNP46A1",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-12-30T00%3A00%3A00Z%2C2026-01-02T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:19.823707+00:00",
+    "raw_cmr_hits": 5,
+    "selected_date_count": 3,
+    "expected_date_count": 3,
+    "dates": [
+      "2025-12-30",
+      "2025-12-31",
+      "2026-01-01"
+    ]
+  },
+  {
+    "event": "iran_feb_2026",
+    "product": "VNP46A1",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-02-25T00%3A00%3A00Z%2C2026-02-28T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:18.977459+00:00",
+    "raw_cmr_hits": 5,
+    "selected_date_count": 3,
+    "expected_date_count": 3,
+    "dates": [
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27"
+    ]
+  },
+  {
+    "event": "iran_june_2025",
+    "product": "VNP46A2",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-06-18T00%3A00%3A00Z%2C2025-06-21T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:23.438925+00:00",
+    "raw_cmr_hits": 5,
+    "selected_date_count": 3,
+    "expected_date_count": 3,
+    "dates": [
+      "2025-06-18",
+      "2025-06-19",
+      "2025-06-20"
+    ]
+  },
+  {
+    "event": "venezuela_jan_2026",
+    "product": "VNP46A2",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-12-30T00%3A00%3A00Z%2C2026-01-02T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:23.381012+00:00",
+    "raw_cmr_hits": 5,
+    "selected_date_count": 3,
+    "expected_date_count": 3,
+    "dates": [
+      "2025-12-30",
+      "2025-12-31",
+      "2026-01-01"
+    ]
+  },
+  {
+    "event": "iran_feb_2026",
+    "product": "VNP46A2",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-02-25T00%3A00%3A00Z%2C2026-02-28T00%3A00%3A00Z&page_size=100&sort_key=start_date&version=2",
+    "retrieved_at_utc": "2026-10-15T11:51:31.485354+00:00",
+    "raw_cmr_hits": 5,
+    "selected_date_count": 3,
+    "expected_date_count": 3,
+    "dates": [
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27"
+    ]
+  },
+  {
+    "event": "iran_june_2025",
+    "product": "VNP46A1_NRT",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-06-18T00%3A00%3A00Z%2C2025-06-21T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:28.822315+00:00",
+    "raw_cmr_hits": 0,
+    "selected_date_count": 0,
+    "expected_date_count": 3,
+    "dates": []
+  },
+  {
+    "event": "venezuela_jan_2026",
+    "product": "VNP46A1_NRT",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-12-30T00%3A00%3A00Z%2C2026-01-02T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:33.529562+00:00",
+    "raw_cmr_hits": 0,
+    "selected_date_count": 0,
+    "expected_date_count": 3,
+    "dates": []
+  },
+  {
+    "event": "iran_feb_2026",
+    "product": "VNP46A1_NRT",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A1_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-02-25T00%3A00%3A00Z%2C2026-02-28T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:33.493545+00:00",
+    "raw_cmr_hits": 0,
+    "selected_date_count": 0,
+    "expected_date_count": 3,
+    "dates": []
+  },
+  {
+    "event": "iran_june_2025",
+    "product": "VNP46A2_NRT",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-06-18T00%3A00%3A00Z%2C2025-06-21T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:36.459828+00:00",
+    "raw_cmr_hits": 0,
+    "selected_date_count": 0,
+    "expected_date_count": 3,
+    "dates": []
+  },
+  {
+    "event": "venezuela_jan_2026",
+    "product": "VNP46A2_NRT",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2025-12-30T00%3A00%3A00Z%2C2026-01-02T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:38.100966+00:00",
+    "raw_cmr_hits": 0,
+    "selected_date_count": 0,
+    "expected_date_count": 3,
+    "dates": []
+  },
+  {
+    "event": "iran_feb_2026",
+    "product": "VNP46A2_NRT",
+    "query_url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=VNP46A2_NRT&bounding_box=-77.1%2C38.8%2C-77%2C38.9&temporal=2026-02-25T00%3A00%3A00Z%2C2026-02-28T00%3A00%3A00Z&page_size=100&sort_key=start_date",
+    "retrieved_at_utc": "2026-10-15T11:51:38.131168+00:00",
+    "raw_cmr_hits": 0,
+    "selected_date_count": 0,
+    "expected_date_count": 3,
+    "dates": []
+  }
+]
