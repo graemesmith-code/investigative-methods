@@ -1,6 +1,6 @@
 # Satellite night-light pilot: access and timing result
 
-**15 October 2026. Status: archive/timing checks completed; brightness backtest blocked on free NASA Earthdata authentication. No radiance measurements have been downloaded or scored.**
+**15 October 2026. Status: archive/timing checks completed; brightness backtest blocked on scientific-file transfer. Earthdata sign-in succeeded, but the cloud browser rejected the download redirect. No radiance measurements have been downloaded or scored.**
 
 The selected test is feasible as a retrospective measurement experiment, subject to cloud/quality screening. It is **not yet an established advance-warning method**. The archive exists, but the corrected files currently returned for the selected dates were produced after the operations. Historical near-real-time queries returned no matching files.
 
@@ -18,7 +18,7 @@ NASA's public Common Metadata Repository was queried for Washington's tile `h10v
 
 Queries deliberately cover boundary days; CMR returns overlapping intervals inclusively. Counts above use strict observation-date filtering, not raw search hit counts. Metadata presence does not establish clear sky or usable pixels.
 
-A request for a specific scientific HDF5 file returned HTTP 302 to NASA's Earthdata login. No credential was supplied. The browser independently displayed the same sign-in requirement. AWS's registry explicitly identifies these assets as controlled access requiring Earthdata Login. The 247-collection public VEDA inventory contains some disaster night-light examples and monthly composites, but no matching daily Washington series for these windows. One documented VEDA CMR compatibility request returned HTTP 500; that is a service failure, not proof of permanent incompatibility.
+The initial anonymous request for a scientific HDF5 file returned HTTP 302 to NASA's Earthdata login. The user subsequently completed Earthdata sign-in through the secure browser flow; the signed-in profile was observed. The cloud browser then rejected the scientific-file download redirect under its URL security policy (unsupported protocol). No science file was obtained. That is a browser transfer limitation, not a NASA account failure or proof that the file is unavailable. AWS's registry explicitly identifies these assets as controlled access requiring Earthdata Login. The 247-collection public VEDA inventory contains some disaster night-light examples and monthly composites, but no matching daily Washington series for these windows. One documented VEDA CMR compatibility request returned HTTP 500; that is a service failure, not proof of permanent incompatibility.
 
 ## What this means for a newsroom
 
@@ -28,17 +28,18 @@ A future live test would need to retain the exact NRT files and first-seen times
 
 ## Resume this test
 
-1. Complete the free Earthdata sign-in in the secure browser prompt, or download the files yourself using [NASA's documented download-token procedure](https://nrt3.modaps.eosdis.nasa.gov/help/). Do not put credentials in this repository or chat.
+1. Earthdata sign-in is now complete. Because the cloud browser blocked the download redirect, download the science files in your own browser and upload them to the conversation. The exact initial pair is linked in [DOWNLOAD.md](DOWNLOAD.md). Alternatively, the prepared local script uses [NASA's documented download-token procedure](https://nrt3.modaps.eosdis.nasa.gov/help/). Do not put credentials in this repository or chat.
 2. Start with the June 20 A1/A2 pair: about **67.2 MiB**. The 18-file event-window manifest totals **561.4 MiB**, before baselines. `code/download_files.py` defaults to that two-file check and accepts `--all` for the listed 18 files. This downloader is prepared, not validated against an authenticated transfer.
 3. Inspect the real schema, acquisition times, quality flags and unfilled corrected radiance. Run the frozen broad-area screening in `PROTOCOL.md`. Only then obtain baseline/ordinary-night data and run a brightness comparison.
 
-The login is the immediate access dependency. Quality, sensitivity and warning performance remain unresolved scientific questions. None of the three cases has been counted as a hit or miss.
+Successful scientific-file transfer is the immediate dependency. Quality, sensitivity and warning performance remain unresolved scientific questions. None of the three cases has been counted as a hit or miss.
 
 ## Files
 
 - `download_manifest.json`: exact file identifiers, URLs, sizes and timestamps.
 - `evidence/coverage_summary.json`: dated queries and filtered historical coverage.
-- `evidence/download_access_check.json`: observed login redirect.
+- `evidence/download_access_check.json`: initial anonymous login redirect.
+- `evidence/browser_transfer_status.json`: successful sign-in followed by the browser policy rejection.
 - `evidence/public_alternatives.json`: compact public-service inventory.
 - `evidence/titiler_compatibility.json`: recorded service error.
 - `config.json`, `PROTOCOL.md`: broad areas and rules fixed before pixel inspection.

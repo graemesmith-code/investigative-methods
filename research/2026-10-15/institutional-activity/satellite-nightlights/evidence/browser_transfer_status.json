@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-10-15T12:31:10.295026+00:00",
+  "earthdata_sign_in": "succeeded; positive signed-in profile observed",
+  "science_files_obtained": 0,
+  "browser_error": "Browser URL policy blocks this action: requested URL protocol is not allowed; allowed protocols http and https.",
+  "action_blocked": "Follow NASA Redirect to Application link for the selected HDF5 download",
+  "response": "Stopped this browser download route. No alternate browser or raw browser-command workaround attempted.",
+  "continuation": "User downloads official files outside the agent browser and uploads the science files, or uses the prepared local downloader."
+}

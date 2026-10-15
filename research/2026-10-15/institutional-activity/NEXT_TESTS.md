@@ -65,4 +65,4 @@ Choose **1** for the strongest currently documented combination of free data, an
 
 ## Selection update — 15 October 2026
 
-The editor selected test 1. Its [executed access/timing check, exact file manifest and analysis protocol](satellite-nightlights/README.md) are saved. Scientific-file download requires Earthdata authentication; no brightness backtest has yet run. Tests 2 and 3 remain unstarted. The original descriptions above record the shortlist before selection.
+The editor selected test 1. Its [executed access/timing check, exact file manifest and analysis protocol](satellite-nightlights/README.md) are saved. Earthdata sign-in succeeded after the initial access check. The cloud browser then rejected the download redirect under its URL policy. Scientific-file transfer and the brightness backtest remain pending; see the exact links in the pilot's DOWNLOAD.md. Tests 2 and 3 remain unstarted. The original descriptions above record the shortlist before selection.

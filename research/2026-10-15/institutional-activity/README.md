@@ -1,6 +1,6 @@
 # Can aggregate activity produce newsroom leads before military operations?
 
-**Selected follow-up:** [Satellite night-light pilot](satellite-nightlights/README.md) — historical coverage and timing checked; radiance analysis awaits free NASA Earthdata download access. No brightness result is claimed.
+**Selected follow-up:** [Satellite night-light pilot](satellite-nightlights/README.md) — historical coverage and timing checked; Earthdata sign-in succeeded, but the cloud browser blocked the scientific-file download redirect. Radiance analysis remains pending; no brightness result is claimed.
 
 **15 October 2026 — exploratory test completed; no validated warning signal.**
 
