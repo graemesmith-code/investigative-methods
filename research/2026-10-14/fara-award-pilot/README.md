@@ -1,5 +1,16 @@
 # FARA and federal awards: overlap is not a disclosure violation
 
+## Editorial stopping note — 15 October 2026
+
+**Status: parked at the editor's request.** The pilot found overlaps between FARA relationships and federal award recipients; it did **not demonstrate a conflict of interest or disclosure violation**. Serving multiple clients is a lead-selection signal, not proof of misconduct.
+
+The main unresolved question is the **content of the work**: what the firm was doing for each client, on which issues and dates, and whether those duties actually conflicted. A substantive paired reading was not completed. It would require dated foreign-client mandates and activity reports alongside federal statements of work, deliverables, and the relevant conflict-of-interest, disclosure and waiver clauses. The first pass failed to retrieve four FARA originals (HTTP 403); catalogue links in the dossiers are discovery pointers, not documents reviewed.
+
+The separate, deeper foreign-principal/ownership branch also remains incomplete: 32 source-name groups were untested, and no false SAM declaration was established. That unfinished branch must not be presented as a completed negative finding.
+
+**Why stop here:** establishing a publishable story would now require document-intensive, case-by-case work beyond the inexpensive archive join. The editor decided that further work was not worth pursuing now. This is a resource-allocation decision, not exoneration or a legal conclusion. The original findings and limitations below remain as the historical record; no further research or outreach was undertaken for this stopping note.
+
+
 **No disclosure violation was established.** This $0 pilot identifies some FARA registrants and named foreign principals in federal award records. Canadian Commercial Corporation dominates the US action count. The other corroborated US keys are law/communications firms whose ordinary federal services can coexist with unrelated foreign-client engagements. Canadian funding disclosures are already present in the strongest organizational example. Grants and Canadian procurement coverage remain incomplete.
 
 Prepared 14 October 2026. These are descriptive overlaps, not accusations. No new research was conducted for publication.
