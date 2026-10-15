@@ -1,5 +1,10 @@
 # Corroborated overlaps: direct anchors and expanded recipient actions
 
+## Status — 15 October 2026
+
+**Parked at the editor's request.** These overlaps do not establish a conflict of interest. The substantive paired content-of-work review was not completed; see the [editorial stopping note](README.md#editorial-stopping-note--15-october-2026) for the missing evidence and reason for stopping. The dossiers below are preserved as the original record, not findings of misconduct or exoneration.
+
+
 
 
 These are descriptive, source-backed bulk-record overlaps, not accusations. Original FARA PDFs were inaccessible. A principal’s FARA number belongs to its agent registration, not to a unique principal ID. Amounts are obligations, not payments.
