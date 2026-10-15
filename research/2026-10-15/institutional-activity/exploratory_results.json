@@ -1,0 +1,376 @@
+{
+  "status": "Exploratory first pass; incomplete disruption chronology and event universe; not validated prediction",
+  "baseline_rule": "Previous 12 valid same weekdays within 16 weeks; minimum 8",
+  "minimum_station_volume_pm_plus_evening": 1000,
+  "calibration_year": 2024,
+  "calibration_scored_dates": 245,
+  "calibration_flagged_dates": 16,
+  "threshold_percentage_points": 2.3655285990897785,
+  "evaluation_period": "2025-01-01 to 2026-03-31",
+  "evaluation_calendar_days": 455,
+  "evaluation_scored_dates": 259,
+  "evaluation_flagged_dates": 23,
+  "flagged_per_30_scored_dates": 2.664092664092664,
+  "background_alert_episodes": 18,
+  "events": [
+    {
+      "cutoff": "2025-06-21",
+      "valid_evenings": 2,
+      "max_score": 0.004936752454173743,
+      "flag": false,
+      "days": [
+        {
+          "date": "2025-06-18",
+          "evening_entries": 358,
+          "baseline_evening_entries": 353.0,
+          "pm_entries": 5473,
+          "late_share": 0.06139598696621506,
+          "baseline_share": 0.05749652062990179,
+          "adjusted_score": -0.013678399134658188,
+          "flag": false,
+          "excluded_reason": ""
+        },
+        {
+          "date": "2025-06-19",
+          "evening_entries": 168,
+          "baseline_evening_entries": 381.0,
+          "pm_entries": 374,
+          "late_share": 0.30996309963099633,
+          "baseline_share": 0.06467444584014395,
+          "adjusted_score": null,
+          "flag": false,
+          "excluded_reason": "observed_federal_holiday"
+        },
+        {
+          "date": "2025-06-20",
+          "evening_entries": 245,
+          "baseline_evening_entries": 297.5,
+          "pm_entries": 2363,
+          "late_share": 0.09394171779141104,
+          "baseline_share": 0.06342227770632387,
+          "adjusted_score": 0.004936752454173743,
+          "flag": false,
+          "excluded_reason": ""
+        }
+      ],
+      "event_id": "iran_2025",
+      "case": "Operation Midnight Hammer",
+      "matched_background_windows": 5,
+      "percentile_vs_other_saturday_windows": 40.0
+    },
+    {
+      "cutoff": "2026-01-03",
+      "valid_evenings": 0,
+      "max_score": null,
+      "flag": null,
+      "days": [
+        {
+          "date": "2025-12-31",
+          "evening_entries": 182,
+          "baseline_evening_entries": 318.0,
+          "pm_entries": 711,
+          "late_share": 0.2038073908174692,
+          "baseline_share": 0.052869595362457535,
+          "adjusted_score": null,
+          "flag": false,
+          "excluded_reason": "traffic_below_1000"
+        },
+        {
+          "date": "2026-01-01",
+          "evening_entries": 72,
+          "baseline_evening_entries": 332.5,
+          "pm_entries": 127,
+          "late_share": 0.36180904522613067,
+          "baseline_share": 0.05716480938883873,
+          "adjusted_score": null,
+          "flag": false,
+          "excluded_reason": "observed_federal_holiday"
+        },
+        {
+          "date": "2026-01-02",
+          "evening_entries": 133,
+          "baseline_evening_entries": 250.0,
+          "pm_entries": 660,
+          "late_share": 0.1677175283732661,
+          "baseline_share": 0.05637901792801339,
+          "adjusted_score": null,
+          "flag": false,
+          "excluded_reason": "traffic_below_1000"
+        }
+      ],
+      "event_id": "venezuela_2026",
+      "case": "Operation Absolute Resolve",
+      "matched_background_windows": 0,
+      "percentile_vs_other_saturday_windows": null,
+      "stricter_midnight_jan_2_sensitivity": {
+        "cutoff": "2026-01-02",
+        "valid_evenings": 1,
+        "max_score": null,
+        "flag": null,
+        "days": [
+          {
+            "date": "2025-12-30",
+            "evening_entries": 207,
+            "baseline_evening_entries": 313.5,
+            "pm_entries": 2349,
+            "late_share": 0.08098591549295775,
+            "baseline_share": 0.0550767348835928,
+            "adjusted_score": -0.004227312794317956,
+            "flag": false,
+            "excluded_reason": ""
+          },
+          {
+            "date": "2025-12-31",
+            "evening_entries": 182,
+            "baseline_evening_entries": 318.0,
+            "pm_entries": 711,
+            "late_share": 0.2038073908174692,
+            "baseline_share": 0.052869595362457535,
+            "adjusted_score": null,
+            "flag": false,
+            "excluded_reason": "traffic_below_1000"
+          },
+          {
+            "date": "2026-01-01",
+            "evening_entries": 72,
+            "baseline_evening_entries": 332.5,
+            "pm_entries": 127,
+            "late_share": 0.36180904522613067,
+            "baseline_share": 0.05716480938883873,
+            "adjusted_score": null,
+            "flag": false,
+            "excluded_reason": "observed_federal_holiday"
+          }
+        ]
+      }
+    },
+    {
+      "cutoff": "2026-02-28",
+      "valid_evenings": 3,
+      "max_score": 0.020514342221508858,
+      "flag": false,
+      "days": [
+        {
+          "date": "2026-02-25",
+          "evening_entries": 426,
+          "baseline_evening_entries": 345,
+          "pm_entries": 6187,
+          "late_share": 0.06441856948434901,
+          "baseline_share": 0.055653852340357086,
+          "adjusted_score": 0.0013691167707523752,
+          "flag": false,
+          "excluded_reason": ""
+        },
+        {
+          "date": "2026-02-26",
+          "evening_entries": 385,
+          "baseline_evening_entries": 338.0,
+          "pm_entries": 6170,
+          "late_share": 0.05873379099923722,
+          "baseline_share": 0.05643386861226721,
+          "adjusted_score": -0.0039313672596022545,
+          "flag": false,
+          "excluded_reason": ""
+        },
+        {
+          "date": "2026-02-27",
+          "evening_entries": 314,
+          "baseline_evening_entries": 250.0,
+          "pm_entries": 4699,
+          "late_share": 0.06263714342708956,
+          "baseline_share": 0.05635177058927593,
+          "adjusted_score": 0.020514342221508858,
+          "flag": false,
+          "excluded_reason": ""
+        }
+      ],
+      "event_id": "iran_2026",
+      "case": "Operation Epic Fury",
+      "matched_background_windows": 46,
+      "percentile_vs_other_saturday_windows": 78.26086956521739
+    }
+  ],
+  "synthetic_sensitivity": [
+    {
+      "synthetic_extra_evening_passages": 250,
+      "eligible_noncase_dates": 237,
+      "flagged_after_injection": 216,
+      "newly_flagged_dates": 195,
+      "fraction_flagged_after_injection": 0.9113924050632911
+    },
+    {
+      "synthetic_extra_evening_passages": 500,
+      "eligible_noncase_dates": 237,
+      "flagged_after_injection": 237,
+      "newly_flagged_dates": 216,
+      "fraction_flagged_after_injection": 1.0
+    },
+    {
+      "synthetic_extra_evening_passages": 1000,
+      "eligible_noncase_dates": 237,
+      "flagged_after_injection": 237,
+      "newly_flagged_dates": 216,
+      "fraction_flagged_after_injection": 1.0
+    }
+  ],
+  "all_flagged_dates": [
+    "2025-01-02",
+    "2025-01-03",
+    "2025-01-14",
+    "2025-01-16",
+    "2025-01-17",
+    "2025-01-21",
+    "2025-01-22",
+    "2025-01-30",
+    "2025-02-04",
+    "2025-02-18",
+    "2025-02-20",
+    "2025-02-24",
+    "2025-03-03",
+    "2025-03-31",
+    "2025-05-05",
+    "2025-05-23",
+    "2025-05-27",
+    "2025-07-09",
+    "2025-07-14",
+    "2025-11-14",
+    "2025-12-19",
+    "2026-01-06",
+    "2026-03-03"
+  ],
+  "alert_episodes": [
+    {
+      "first_date": "2025-01-02",
+      "last_date": "2025-01-03",
+      "flagged_dates": [
+        "2025-01-02",
+        "2025-01-03"
+      ]
+    },
+    {
+      "first_date": "2025-01-14",
+      "last_date": "2025-01-17",
+      "flagged_dates": [
+        "2025-01-14",
+        "2025-01-16",
+        "2025-01-17"
+      ]
+    },
+    {
+      "first_date": "2025-01-21",
+      "last_date": "2025-01-22",
+      "flagged_dates": [
+        "2025-01-21",
+        "2025-01-22"
+      ]
+    },
+    {
+      "first_date": "2025-01-30",
+      "last_date": "2025-01-30",
+      "flagged_dates": [
+        "2025-01-30"
+      ]
+    },
+    {
+      "first_date": "2025-02-04",
+      "last_date": "2025-02-04",
+      "flagged_dates": [
+        "2025-02-04"
+      ]
+    },
+    {
+      "first_date": "2025-02-18",
+      "last_date": "2025-02-20",
+      "flagged_dates": [
+        "2025-02-18",
+        "2025-02-20"
+      ]
+    },
+    {
+      "first_date": "2025-02-24",
+      "last_date": "2025-02-24",
+      "flagged_dates": [
+        "2025-02-24"
+      ]
+    },
+    {
+      "first_date": "2025-03-03",
+      "last_date": "2025-03-03",
+      "flagged_dates": [
+        "2025-03-03"
+      ]
+    },
+    {
+      "first_date": "2025-03-31",
+      "last_date": "2025-03-31",
+      "flagged_dates": [
+        "2025-03-31"
+      ]
+    },
+    {
+      "first_date": "2025-05-05",
+      "last_date": "2025-05-05",
+      "flagged_dates": [
+        "2025-05-05"
+      ]
+    },
+    {
+      "first_date": "2025-05-23",
+      "last_date": "2025-05-23",
+      "flagged_dates": [
+        "2025-05-23"
+      ]
+    },
+    {
+      "first_date": "2025-05-27",
+      "last_date": "2025-05-27",
+      "flagged_dates": [
+        "2025-05-27"
+      ]
+    },
+    {
+      "first_date": "2025-07-09",
+      "last_date": "2025-07-09",
+      "flagged_dates": [
+        "2025-07-09"
+      ]
+    },
+    {
+      "first_date": "2025-07-14",
+      "last_date": "2025-07-14",
+      "flagged_dates": [
+        "2025-07-14"
+      ]
+    },
+    {
+      "first_date": "2025-11-14",
+      "last_date": "2025-11-14",
+      "flagged_dates": [
+        "2025-11-14"
+      ]
+    },
+    {
+      "first_date": "2025-12-19",
+      "last_date": "2025-12-19",
+      "flagged_dates": [
+        "2025-12-19"
+      ]
+    },
+    {
+      "first_date": "2026-01-06",
+      "last_date": "2026-01-06",
+      "flagged_dates": [
+        "2026-01-06"
+      ]
+    },
+    {
+      "first_date": "2026-03-03",
+      "last_date": "2026-03-03",
+      "flagged_dates": [
+        "2026-03-03"
+      ]
+    }
+  ],
+  "source_publication_lag_days": 7,
+  "predictive_validation": false
+}

@@ -15,6 +15,8 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 
 Some trials use **Jev**, a model service that ranks or assesses text, and **Exa**, a search service for finding possible earlier coverage. Their [ten-lead contract trial](experiments/06-jev-exa.md) shows why the original records and search results must accompany a dashboard.
 
+- **Check whether an activity indicator survives a backtest.** The [institutional-activity pilot](research/2026-10-15/institutional-activity/README.md) tested free Pentagon-area Metro counts against Iran and Venezuela operations. Neither scored Iran window flagged; Venezuela was unscorable. It preserves the negative result, code, data and lessons about publication delay, controls and misleading ratios.
+
 ## Try something small, and keep what you learn
 
 Start with [the reporting recipe](docs/method.md) and [blank run record](templates/run.md), or browse [all ten experiments](experiments/README.md). Each account explains the question, source, steps, results, costs and next useful move.
@@ -25,4 +27,4 @@ The emerging [DATA1 + RULE + DATA2 method](docs/rule-based-source-comparisons.md
 
 [Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026.
+Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026.
