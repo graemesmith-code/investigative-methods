@@ -1,0 +1,19 @@
+SCREENING METHOD — 15 October 2026
+
+Scope: the existing 239-record FinePDFs unknown-configuration selection, from parsed gov.af hostnames. Original item numbers and record IDs are preserved. No separate language configurations were queried.
+
+Evidence: FinePDFs text was available for all 239 records. Text excerpts for each record were reviewed; full available FinePDFs and native-PDF text were swept for scripts. Native PDF text extraction was attempted with PyMuPDF. Script matches were leads, not language decisions: bad font mappings and OCR noise can look like unrelated scripts. 147 selected page images from 75 records were visually inspected, prioritising sparse/failed extraction, image-only pages, contradictory language tags and possible foreign-language passages. Visual page numbers are recorded in the audit. Long repetitive documents were sampled, not visually checked on every page.
+
+Decision rule: remove records whose observed substantive content is English, Farsi/Dari and/or Pashto. Keep a record containing substantial other-language material even when it also contains one of the excluded languages. Incidental proper names, logos, running website/agency headings, stamps, technical symbols and conventional religious formulae are not sufficient. Language classification is distinct from authorship, intended audience, rarity or journalistic importance. Government hosting alone does not prove government authorship.
+
+Results: 235 requested-language exclusions; 1 photograph without substantive document text excluded; 2 leads retained; 1 damaged source unresolved. The 16 exclusions with incomplete/text-only sources are provisional and flagged. The absent content of any damaged source cannot be ruled out as containing another language. This is a practical reading filter, not a measured-recall language-identification benchmark.
+
+Item 17: Russian field labels in FinePDFs page segment 3. Extraction, not original visual layout, was reviewed. The available archive payload is exactly 1,048,576 bytes, truncated and unopenable. A fresh request on 2026-10-15 to the original source returned HTTP 502. The HTML presents extracted field labels and links to the unmodified extract; it is not a facsimile. The text suggests a sample waybill/railway form, not a completed shipment. Publication date not established; crawl date 2024-07-21.
+
+Item 117: original PDF has one page, printed as Gorash page 4, dated 20 Saratan 1395. The right article and some lower-middle verse are Turkmen; other columns are Dari. The page image was directly inspected. The masthead associates publication with the Ministry of Borders and Tribal Affairs. The ministry annual report for 1399, printed page 11, independently describes Gorash publishing in Turkmen in Jowzjan. This supports a domestic audience interpretation; no foreign partner is established. Crawl date 2019-02-20. Official corroborating source: https://www.mobta.gov.af/sites/default/files/2021-02/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D8%B3%D8%A7%D9%84%20%DB%B1%DB%B3%DB%B9%DB%B9%20%D9%85%D8%A7%D9%84%D9%8A.pdf
+
+Item 137: its recoverable first two spreads show Dari/Pashto and an English masthead. Other pages are blank/damaged in rendering. FinePDFs text is inadequate; unresolved, excluded from reading leads.
+
+Useful false positives: item 185 is an English table of Chinese employees, despite Chinese in its filename. Item 130 is an English scholarship list with incidental Thai website text. Dataset document tags for items 112 (Danish), 126 (Swedish), 144 (Urdu) and 153 (Arabic) were not supported by the reviewed content.
+
+Technical provenance: retained-source-records.jsonl preserves original metadata, PDF hashes and crawl locations. The damaged original is stored separately and clearly marked. Screening decisions are assisted editorial judgments. build_screened_pack.py packages the fixed decisions; it is not a general automatic language classifier.
