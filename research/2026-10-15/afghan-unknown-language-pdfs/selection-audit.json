@@ -1,0 +1,225 @@
+{
+  "dataset": "HuggingFaceFW/finepdfs",
+  "configuration": "unknown",
+  "selection": "urlsplit(url).hostname.lower() == gov.af OR endswith .gov.af",
+  "download_date": "2026-10-15",
+  "summary": {
+    "files": 14,
+    "rows": 17123442,
+    "hits": 239,
+    "failures": 0,
+    "seconds": 96
+  },
+  "files": [
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0000.parquet",
+        "filename": "0000.parquet",
+        "size": 3552984577
+      },
+      "rows": 1411954,
+      "row_groups": 1412,
+      "row_groups_scanned": 1412,
+      "matches": 21,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0001.parquet",
+        "filename": "0001.parquet",
+        "size": 3566232881
+      },
+      "rows": 1406045,
+      "row_groups": 1407,
+      "row_groups_scanned": 1407,
+      "matches": 19,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0002.parquet",
+        "filename": "0002.parquet",
+        "size": 3702260935
+      },
+      "rows": 1410981,
+      "row_groups": 1411,
+      "row_groups_scanned": 1411,
+      "matches": 17,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0003.parquet",
+        "filename": "0003.parquet",
+        "size": 3619045103
+      },
+      "rows": 1410793,
+      "row_groups": 1411,
+      "row_groups_scanned": 1411,
+      "matches": 20,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0004.parquet",
+        "filename": "0004.parquet",
+        "size": 3589037272
+      },
+      "rows": 1406513,
+      "row_groups": 1407,
+      "row_groups_scanned": 1407,
+      "matches": 20,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0005.parquet",
+        "filename": "0005.parquet",
+        "size": 3480186162
+      },
+      "rows": 1405178,
+      "row_groups": 1406,
+      "row_groups_scanned": 1406,
+      "matches": 18,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0006.parquet",
+        "filename": "0006.parquet",
+        "size": 3558056682
+      },
+      "rows": 1413891,
+      "row_groups": 1414,
+      "row_groups_scanned": 1414,
+      "matches": 24,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0007.parquet",
+        "filename": "0007.parquet",
+        "size": 3553599727
+      },
+      "rows": 1407652,
+      "row_groups": 1408,
+      "row_groups_scanned": 1408,
+      "matches": 19,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0008.parquet",
+        "filename": "0008.parquet",
+        "size": 3382260600
+      },
+      "rows": 1370985,
+      "row_groups": 1371,
+      "row_groups_scanned": 1371,
+      "matches": 22,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0009.parquet",
+        "filename": "0009.parquet",
+        "size": 3467917319
+      },
+      "rows": 1374394,
+      "row_groups": 1375,
+      "row_groups_scanned": 1375,
+      "matches": 13,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0010.parquet",
+        "filename": "0010.parquet",
+        "size": 2549167254
+      },
+      "rows": 1039032,
+      "row_groups": 1040,
+      "row_groups_scanned": 1040,
+      "matches": 18,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0011.parquet",
+        "filename": "0011.parquet",
+        "size": 2532087310
+      },
+      "rows": 1038678,
+      "row_groups": 1039,
+      "row_groups_scanned": 1039,
+      "matches": 16,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "train",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/train/0012.parquet",
+        "filename": "0012.parquet",
+        "size": 2604480786
+      },
+      "rows": 1026533,
+      "row_groups": 1027,
+      "row_groups_scanned": 1027,
+      "matches": 12,
+      "failures": []
+    },
+    {
+      "source": {
+        "dataset": "HuggingFaceFW/finepdfs",
+        "config": "unknown",
+        "split": "test",
+        "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/unknown/test/0000.parquet",
+        "filename": "0000.parquet",
+        "size": 3556562
+      },
+      "rows": 813,
+      "row_groups": 1,
+      "row_groups_scanned": 1,
+      "matches": 0,
+      "failures": []
+    }
+  ]
+}
