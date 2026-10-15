@@ -1,5 +1,7 @@
 # Afghan government PDFs: unidentified-language scan
 
+> **Scope correction (15 October 2026): This work did not fulfil the request for all Afghan government PDFs outside English, Dari/Farsi and Pashto. It selected only records labelled `unknown`, omitting the separately labelled foreign-language categories. The roughly 350 estimate referred to that unknown category alone; the completed unknown-category count was 239. The two retained leads are not the result of an all-language search. See [the correction](SCOPE-CORRECTION.md).
+
 > **Content screening update (15 October 2026):** The follow-up screen retained **two leads** (Russian extracted form text and a mixed Turkmen/Dari newspaper page), excluded 236 records, and left one damaged record unresolved. See [screened results and all 239 decisions](screened/README.md).
 
 The complete scan found **239 records** in the FinePDFs unknown-language partition whose URLs are on gov.af or a subdomain: **228 distinct URLs** across **56 hosts**. The records span FinePDFs crawl dates from 23 March 2017 to 12 February 2025.

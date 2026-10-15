@@ -1,5 +1,7 @@
 # Afghan government PDFs: screened reading selection
 
+> **Scope correction (15 October 2026): This package screens only the unknown-language category. It does not fulfil the broader request for all languages other than English, Dari/Farsi and Pashto. Separately labelled foreign-language categories still require a complete search. See [the correction](../SCOPE-CORRECTION.md).
+
 ## Findings
 
 The content screen retained **two leads** from the existing 239-record corpus. It excluded **236 records** and left **one damaged record unresolved**.
