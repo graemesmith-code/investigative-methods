@@ -90,7 +90,15 @@
     "Agency Tracking Number": 319,
     "Contract": 52117,
     "Duns": 81796,
-    "UEI": 0
+    "UEI": 207731
+  },
+  "absent_id_columns": [
+    "UEI"
+  ],
+  "retained_date_range": {
+    "min": "2018-07-27",
+    "max": "2023-10-23",
+    "valid_count": 18814
   },
   "all_field_missing_raw": {
     "Branch": 72303,

@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Bounded public acquisition; immutable payloads + append-only HTTP manifest. No secrets."""
-import argparse,datetime,hashlib,json,pathlib,shutil,sys,time
+import argparse,datetime,hashlib,json,pathlib,shutil,sys,time,os
 import requests
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-DATA=pathlib.Path('/workspace/task-data/future-warfare-investments')
+DATA=pathlib.Path(os.environ.get('ACQUISITION_DATA_DIR','/workspace/task-data/future-warfare-investments'))
+DATA.mkdir(parents=True,exist_ok=True)
+(DATA/'raw').mkdir(exist_ok=True)
+(DATA/'normalized').mkdir(exist_ok=True)
 MAX_TOTAL=15_000_000_000
 MIN_FREE=6_000_000_000
 
@@ -49,5 +52,6 @@ def usaspending(name,filters):
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('mode');a=p.parse_args()
  if a.mode=='sbir':fetch('sbir','https://data.www.sbir.gov/awarddatapublic/award_data.csv','award_data.csv',600_000_000)
+ elif a.mode=='sbir_current':fetch('sbir_current','https://data.www.sbir.gov/mod_awarddatapublic/award_data.csv','award_data.csv',600_000_000)
  elif a.mode=='grants':fetch('grants','https://prod-grants-gov-chatbot.s3.amazonaws.com/extracts/GrantsDBExtract20261016v2.zip','GrantsDBExtract20261016v2.zip',150_000_000)
  elif a.mode=='darpa':usaspending('usaspending_darpa',{'time_period':[{'start_date':'2018-10-01','end_date':'2026-09-30'}],'award_type_codes':['A','B','C','D'],'agencies':[{'type':'awarding','tier':'subtier','name':'Defense Advanced Research Projects Agency'}]})

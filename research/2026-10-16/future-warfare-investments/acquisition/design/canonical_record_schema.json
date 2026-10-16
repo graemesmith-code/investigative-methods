@@ -1,0 +1,21 @@
+{
+  "format": "Each canonical scalar is UTF-8 string or null; money/identifiers/tags use JSON-encoded strings in Parquet/JSONL for uniform Arrow schema. Source tables preserve richer original schemas.",
+  "fields": {
+    "document_id": "Source + stable identity/content hash; exact source duplicates may repeat; no row-number-only identity. PDF uses snapshot SHA256 + page.",
+    "source_record_id": "Source-provided key or documented composite; may collide across revisions",
+    "award_key": "Source-native composite award key; for SBIR contract alone is not globally sufficient",
+    "transaction_key": "USAspending transaction unique key; not a prime/subaward key",
+    "entity_key": "UEI preferred; legacy DUNS fallback; do not assume identifier equivalence",
+    "source_url": "Record link when available; otherwise source portal plus raw locator",
+    "raw_locator": "Filename + CSV data row, source key, XML opportunity ID or PDF physical page",
+    "text": "Source narrative, never model rewrite",
+    "money_json": "Source field names and string decimal values; dictionary determines grain and unit",
+    "eligibility": "Candidate/intent/context flags, not editorial inclusion decision",
+    "capability_tags": "Transparent regex features, not novelty or quality scoring",
+    "identifiers_json": "Original keys, agency/branch, solicitation and topic references where available",
+    "record_sha256": "Hash of canonicalized raw CSV row",
+    "source_snapshot_sha256": "Raw file hash; source snapshot/vintage boundary",
+    "action_date": "Source action date, opportunity posting date or SBIR performance-start date; semantics vary by source",
+    "retrieved_at": "UTC retrieval timestamp, not effective/award/publication date"
+  }
+}

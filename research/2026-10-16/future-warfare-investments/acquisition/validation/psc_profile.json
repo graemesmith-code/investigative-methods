@@ -1,0 +1,116 @@
+[
+  {
+    "sheet": "PSC for 042025",
+    "rows": 6109,
+    "columns": 14,
+    "first_rows": [
+      [
+        "PSC CODE",
+        "PRODUCT AND SERVICE CODE NAME",
+        "START DATE",
+        "END DATE",
+        "PRODUCT AND SERVICE CODE FULL NAME (DESCRIPTION)",
+        "PRODUCT AND SERVICE CODE INCLUDES",
+        "PRODUCT AND SERVICE CODE EXCLUDES",
+        "PRODUCT AND SERVICE CODE NOTES",
+        "Parent PSC Code",
+        "PSC Category: Service (S)/Product (P)",
+        "Level 1 Category Code",
+        "Level 1 Category",
+        "Level 2 Category Code",
+        "Level 2 Category"
+      ],
+      [
+        "10",
+        "WEAPONS",
+        "1979-10-01 00:00:00",
+        "",
+        "",
+        "",
+        "",
+        "This group includes combat weapons as well as weapon-like noncombat items, such as line throwing devices and pyrotechnic pistols. Also included in this group are weapon neutralizing equipment, such as degaussers, and deception equipment, such as camouflage nets. Excluded from this group are fire control and night devices classifiable in groups 12 or 58.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1000",
+        "",
+        "2003-12-12 00:00:00",
+        "2006-10-01 00:00:00",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "1005",
+        "GUNS, THROUGH 30MM",
+        "2011-10-01 00:00:00",
+        "",
+        "Guns, through 30 mm",
+        "Machine guns; Brushes, Machine Gun and Pistol.",
+        "Turrets, Aircraft.",
+        "",
+        "10 - WEAPONS",
+        "",
+        "12",
+        "Weapons & Ammunition",
+        "12.4",
+        "Guns"
+      ]
+    ]
+  },
+  {
+    "sheet": "Category Managers",
+    "rows": 23,
+    "columns": 7,
+    "first_rows": [
+      [
+        "Please refer to the Government-Wide Category Management Taxonomy for application to the Government-Wide Category Management Program.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "https://hallways.cap.gsa.gov/app/#/gateway/category-management/10892/product-service-code-psc-rebaseline.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Category",
+        "Category Name",
+        "",
+        "Category Manager",
+        "Program Manager",
+        "",
+        ""
+      ]
+    ]
+  }
+]

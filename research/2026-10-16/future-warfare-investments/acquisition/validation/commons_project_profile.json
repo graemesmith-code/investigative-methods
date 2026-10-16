@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "file": "5G_6G-Projects-1.pdf",
+      "parsed_project_headers": 5,
+      "currency_M_mentions": 6,
+      "lead_mentions": 5
+    },
+    {
+      "file": "Artificial-Intelligence-Hardware-AI-HW-Projects.pdf",
+      "parsed_project_headers": 9,
+      "currency_M_mentions": 9,
+      "lead_mentions": 9
+    },
+    {
+      "file": "Commercial-Leap-Ahead.pdf",
+      "parsed_project_headers": 17,
+      "currency_M_mentions": 14,
+      "lead_mentions": 17
+    },
+    {
+      "file": "Electromagnetic-Warfare.pdf",
+      "parsed_project_headers": 12,
+      "currency_M_mentions": 12,
+      "lead_mentions": 12
+    },
+    {
+      "file": "Quantum-Technology-Q-Projects.pdf",
+      "parsed_project_headers": 8,
+      "currency_M_mentions": 8,
+      "lead_mentions": 8
+    },
+    {
+      "file": "Secure-Edge-1.pdf",
+      "parsed_project_headers": 6,
+      "currency_M_mentions": 6,
+      "lead_mentions": 6
+    }
+  ],
+  "rows": 57,
+  "missing_pages": 0,
+  "duplicate_titles": 0,
+  "unspecified_amount_units": 1,
+  "warning": "Extracted project headers are not a verified census of unique investments. Preserve named co-development/cross-project relationships as hypotheses; amounts must not be combined with transactions."
+}

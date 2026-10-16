@@ -1,0 +1,54 @@
+{
+  "rows": 862,
+  "columns": [
+    "inst_id",
+    "year",
+    "ncses_inst_id",
+    "toi_code",
+    "ffrdctype",
+    "inst_name_long",
+    "inst_city",
+    "inst_state_code",
+    "inst_zip",
+    "questionnaire_no",
+    "question",
+    "row",
+    "column",
+    "data",
+    "status",
+    "othinfo",
+    "standardized_agency_names"
+  ],
+  "year_counts": {
+    "2025": 862
+  },
+  "institutions": 41,
+  "missing": {
+    "inst_id": 0,
+    "year": 0,
+    "ncses_inst_id": 54,
+    "toi_code": 0,
+    "ffrdctype": 0,
+    "inst_name_long": 0,
+    "inst_city": 0,
+    "inst_state_code": 0,
+    "inst_zip": 0,
+    "questionnaire_no": 0,
+    "question": 0,
+    "row": 0,
+    "column": 472,
+    "data": 0,
+    "status": 837,
+    "othinfo": 734,
+    "standardized_agency_names": 734
+  },
+  "duplicate_row_count": 0,
+  "duplicate_composite_key": 0,
+  "question_counts": {
+    "Type of R&D": 390,
+    "Federal agency": 180,
+    "Source": 164,
+    "Other agency specified": 128
+  },
+  "data_semantics": "Survey separately accounted R&D expenditure, thousands of dollars, verified questionnaire sections 1-3. Organization fiscal year 2025 may differ from federal FY. No sum across source/agency/type/field breakdowns."
+}

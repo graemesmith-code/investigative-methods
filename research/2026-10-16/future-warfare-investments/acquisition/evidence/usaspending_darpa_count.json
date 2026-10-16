@@ -1,0 +1,32 @@
+{
+  "results": {
+    "contracts": 12057,
+    "grants": 0,
+    "idvs": 0,
+    "loans": 0,
+    "direct_payments": 0,
+    "other": 0
+  },
+  "retrieved_at": "2026-10-16T20:57:11.496533+00:00",
+  "filters": {
+    "time_period": [
+      {
+        "start_date": "2018-10-01",
+        "end_date": "2026-09-30"
+      }
+    ],
+    "award_type_codes": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "agencies": [
+      {
+        "type": "awarding",
+        "tier": "subtier",
+        "name": "Defense Advanced Research Projects Agency"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "filters": {
+    "time_period": [
+      {
+        "start_date": "2018-10-01",
+        "end_date": "2026-09-30"
+      }
+    ],
+    "award_type_codes": [
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "agencies": [
+      {
+        "type": "awarding",
+        "tier": "toptier",
+        "name": "Department of Defense"
+      }
+    ],
+    "program_numbers": [
+      "12.300",
+      "12.431",
+      "12.800",
+      "12.910",
+      "12.630",
+      "12.615"
+    ]
+  },
+  "limit": 500000,
+  "file_format": "csv"
+}

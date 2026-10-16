@@ -31,19 +31,19 @@ class Writer:
  def close(self):
   self.flush();self.f.close()
   if self.pq:self.pq.close()
-SCHEMA=pa.schema([(k,pa.string()) for k in ['document_id','source','source_record_id','source_url','raw_locator','award_key','transaction_key','entity_key','entity_name','title','text','action_date','fiscal_year','capability_tags','eligibility','money_json','evidence_excerpt','retrieved_at']])
+SCHEMA=pa.schema([(k,pa.string()) for k in ['document_id','source','source_record_id','source_url','raw_locator','award_key','transaction_key','entity_key','entity_name','title','text','action_date','fiscal_year','capability_tags','eligibility','money_json','evidence_excerpt','retrieved_at','identifiers_json','record_sha256','source_snapshot_sha256']])
 def record(**kwargs):return {k:kwargs.get(k) for k in SCHEMA.names}
 def profile(rows,fields):
  return {'rows':rows,'fields':fields}
 def analyze(source):
  p=DATA/'raw'/source; files=list(p.glob('*.csv'))+list(p.glob('*.zip'))
- w=Writer(source);counts=collections.Counter();missing=collections.Counter();dates=collections.defaultdict(list);years=collections.Counter();agencies=collections.Counter();seen=set();dups=0;samples=[];schema=[];moneyfields=[];idfields=[];retained=0;selected_years=collections.Counter();selected_missing=collections.Counter();selected_seen=set();selected_dups=0;rawhash=hashlib.sha256();sourceurl='';retrieved=None
+ w=Writer(source);counts=collections.Counter();missing=collections.Counter();dates=collections.defaultdict(list);years=collections.Counter();agencies=collections.Counter();seen=set();dups=0;samples=[];schema=[];moneyfields=[];idfields=[];retained=0;selected_years=collections.Counter();selected_missing=collections.Counter();selected_seen=set();selected_dups=0;selected_dates=[];rawhash=hashlib.sha256();sourceurl='';retrieved=None;snapshothash=None
  for line in (ROOT/'validation/http_manifest.jsonl').read_text().splitlines():
   m=json.loads(line)
-  if m['source']==source and m['outcome']=='downloaded':sourceurl=m['url'];retrieved=m['retrieved_at']
+  if m['source']==source and m['outcome']=='downloaded':sourceurl=m['url'];retrieved=m['retrieved_at'];snapshothash=m['sha256']
  for path in files:
   if path.suffix=='.zip':
-   z=zipfile.ZipFile(path);save_json(ROOT/'validation'/f'{source}_zip_inventory.json',[{'name':x.filename,'compressed':x.compress_size,'uncompressed':x.file_size} for x in z.infolist()]);streams=[(n,io.TextIOWrapper(z.open(n),encoding='utf-8-sig',errors='replace',newline='')) for n in z.namelist() if n.endswith('.csv') and ('Contracts_' in n or 'Assistance_' in n or 'prime' in n.lower())]
+   z=zipfile.ZipFile(path);save_json(ROOT/'validation'/f'{source}_zip_inventory.json',[{'name':x.filename,'compressed':x.compress_size,'uncompressed':x.file_size} for x in z.infolist()]);streams=[(n,io.TextIOWrapper(z.open(n),encoding='utf-8-sig',errors='replace',newline='')) for n in z.namelist() if n.endswith('.csv') and ('PrimeTransactions' in n)]
   else:streams=[(path.name,path.open(encoding='utf-8-sig',errors='replace',newline=''))]
   for member,f in streams:
    reader=csv.DictReader(f);schema=reader.fieldnames
@@ -69,17 +69,18 @@ def analyze(source):
     if dt:dates['action_or_performance_start'].append(dt)
     if not keep:continue
     retained+=1;selected_years[year]+=1
+    if dt:selected_dates.append(dt)
     for k in idfields:
      if not r.get(k):selected_missing[k]+=1
     sid=identity
     if sid in selected_seen:selected_dups+=1
     selected_seen.add(sid)
-    out=record(document_id=source+':'+digest(identity),source=source,source_record_id=sid,source_url=link,raw_locator=f'{path.name}:{member}:data_row={i}',award_key=award,transaction_key=key,entity_key=ent,entity_name=entity,title=title,text=text,action_date=dt,fiscal_year=year,capability_tags=json.dumps(tags(title+' '+text)),eligibility=eligibility,money_json=json.dumps(monies),evidence_excerpt=text[:650],retrieved_at=retrieved)
+    out=record(document_id=source+':'+digest(identity+'|'+h),source=source,source_record_id=sid,source_url=link,raw_locator=f'{path.name}:{member}:data_row={i}',award_key=award,transaction_key=key,entity_key=ent,entity_name=entity,title=title,text=text,action_date=dt,fiscal_year=year,capability_tags=json.dumps(tags(title+' '+text)),eligibility=eligibility,money_json=json.dumps(monies),evidence_excerpt=text[:650],retrieved_at=retrieved,record_sha256=h,source_snapshot_sha256=snapshothash,identifiers_json=json.dumps({k:r.get(k) for k in (['Agency','Branch','Program','Phase','Agency Tracking Number','Contract','UEI','Duns','Topic Code','Solicitation Number','Award Year'] if source.startswith('sbir') else idfields+['parent_award_agency_id','parent_award_id_piid','awarding_agency_code','awarding_sub_agency_code','funding_agency_code','funding_sub_agency_code','product_or_service_code','naics_code','solicitation_identifier','cfda_number'])}))
     w.write(out)
     if len(samples)<8 and tags(title+' '+text):samples.append(out)
    f.close()
  w.close();total=sum(counts.values())
- result={'source':source,'raw_file_rows':dict(counts),'raw_rows':total,'retained_rows':retained,'raw_year_counts':dict(sorted(years.items())),'retained_year_counts':dict(sorted(selected_years.items())),'agency_counts':dict(agencies),'date_ranges':{k:{'min':min(v),'max':max(v),'valid_count':len(v)} for k,v in dates.items() if v},'exact_raw_duplicate_rows':dups,'retained_duplicate_source_ids':selected_dups,'retained_id_missing':dict(selected_missing),'id_missing_raw':{k:missing[k] for k in idfields},'all_field_missing_raw':dict(missing),'columns':schema,'money_fields':moneyfields,'logical_rows_sha256':rawhash.hexdigest(),'note':'Rows preserve duplicates; document IDs may repeat where source identity repeats. Inspect differences before deduplication. Counts describe retrieved snapshot, not universe completeness.'}
+ result={'source':source,'raw_file_rows':dict(counts),'raw_rows':total,'retained_rows':retained,'raw_year_counts':dict(sorted(years.items())),'retained_year_counts':dict(sorted(selected_years.items())),'agency_counts':dict(agencies),'date_ranges':{k:{'min':min(v),'max':max(v),'valid_count':len(v)} for k,v in dates.items() if v},'exact_raw_duplicate_rows':dups,'retained_duplicate_source_ids':selected_dups,'retained_id_missing':dict(selected_missing),'id_missing_raw':{k:(missing[k] if k in schema else total) for k in idfields},'absent_id_columns':[k for k in idfields if k not in schema],'retained_date_range':{'min':min(selected_dates) if selected_dates else None,'max':max(selected_dates) if selected_dates else None,'valid_count':len(selected_dates)},'all_field_missing_raw':dict(missing),'columns':schema,'money_fields':moneyfields,'logical_rows_sha256':rawhash.hexdigest(),'note':'Rows preserve duplicates; document IDs may repeat where source identity repeats. Inspect differences before deduplication. Counts describe retrieved snapshot, not universe completeness.'}
  save_json(ROOT/'validation'/f'{source}_profile.json',result)
  with (ROOT/'samples'/f'{source}.jsonl').open('w') as f:
   for r in samples:f.write(json.dumps(r,ensure_ascii=False)+'\n')

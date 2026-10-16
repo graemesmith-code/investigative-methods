@@ -1,0 +1,47 @@
+{
+  "status_url": "https://api.usaspending.gov/api/v2/download/status?file_name=PrimeTransactionsAndSubawards_2026-10-16_H20M43S23619214.zip",
+  "file_name": "PrimeTransactionsAndSubawards_2026-10-16_H20M43S23619214.zip",
+  "file_url": "https://files.usaspending.gov/generated_downloads/PrimeTransactionsAndSubawards_2026-10-16_H20M43S23619214.zip",
+  "download_request": {
+    "download_types": [
+      "elasticsearch_transactions",
+      "elasticsearch_sub_awards"
+    ],
+    "file_format": "csv",
+    "filters": {
+      "agencies": [
+        {
+          "name": "Department of Defense",
+          "tier": "toptier",
+          "type": "awarding"
+        }
+      ],
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "keywords": [
+        "autonomous",
+        "contested logistics",
+        "cyber",
+        "drone",
+        "electronic warfare",
+        "hypersonic",
+        "quantum",
+        "satellite",
+        "sensor",
+        "unmanned"
+      ],
+      "time_period": [
+        {
+          "end_date": "2026-09-30",
+          "start_date": "2018-10-01"
+        }
+      ]
+    },
+    "limit": 500000,
+    "request_type": "award"
+  }
+}
