@@ -2,7 +2,7 @@
 
 **Completed acquisition and validation: 2026-10-16T21:49:50.008156+00:00 UTC.** Actual files were downloaded, opened and parsed. This is a reusable evidence corpus for quantum, drones/autonomy, sensors, cyber, space, electronic warfare and logistics research; **record counts are not counts of investments, and no spending total or novelty ranking is asserted**.
 
-The strongest addition is the FY2019–FY2026 spending spine: **342,900 DoD R&D contract actions** and **88,273 research-grant actions**, with text, award/transaction/entity keys and separate monetary fields. An additional capability-keyword extract extends beyond R&D classifications. The unique-action index across acquired slices contains **712,186 transaction keys**; overlap is retained as provenance, not extra money.
+The FY2019–FY2026 spending spine contains: **342,900 DoD R&D contract actions** and **88,273 research-grant actions**, with text, award/transaction/entity keys and separate monetary fields. An additional capability-keyword extract extends beyond R&D classifications. The unique-action index across acquired slices contains **712,186 transaction keys**; overlap is retained as provenance, not extra money.
 
 ## What is ready
 
@@ -35,6 +35,6 @@ Read the [technical annex](TECHNICAL_ANNEX.md) for exact source bounds, units, d
 
 **SAM was not acquired:** documentation requires authorized keys; unauthenticated probes returned 404, and no key/account was created. Several direct defense budget fetches failed; working DARPA/GovInfo/OMB alternatives are explicit. No separate monthly File C corpus, complete OTA ultimate-performer ledger, classified universe or complete latest-quarter coverage is claimed.
 
-[Pipeline interfaces](design/PIPELINE_INTERFACES.md) prepare later capability/novelty scoring, uncertain relationships, newsworthiness, Exa checks and journalist dossiers. The **96-record deterministic dry run** keeps scores null; **zero model and Exa calls** were executed. No paid sources, whole scholarly graphs or standalone NIH corpus were acquired. No email was sent by this worker; the parent handles the morning email.
+[Pipeline interfaces](design/PIPELINE_INTERFACES.md) prepare later capability/novelty scoring, uncertain relationships, newsworthiness, Exa checks and journalist dossiers. The **96-record deterministic dry run** keeps scores null; **zero model and Exa calls** were executed. No paid sources, whole scholarly graphs or standalone NIH corpus were acquired.
 
-Large-data archive checksums and the actual retention/save outcome are recorded in [STORAGE.md](STORAGE.md) and [BUNDLE_MANIFEST.json](BUNDLE_MANIFEST.json). Workspace persistence alone is not guaranteed; use the confirmed archival copies and verify hashes on retrieval.
+**All six data archives are saved in private Library** (1,456,331,783 bytes). [STORAGE.md](STORAGE.md) gives confirmed file IDs and restore instructions; [BUNDLE_MANIFEST.json](BUNDLE_MANIFEST.json) and [checksums](BUNDLE_SHA256SUMS) identify exact bytes. Workspace persistence alone is not guaranteed.
