@@ -22,7 +22,9 @@ Priority labels retain the source passes' original vocabularies (for example Cor
 
 ## Historical coverage and joins
 
-The requested main window begins in **September 2018**. Coverage fields describe source holdings, not completed ingestion. The existing backed-up contract-paragraph corpus still begins in September 2023. Commerce Business Daily's 1996–2001 archive is optional earlier context, outside the requested main window.
+The requested main window begins in **September 2018**. The [published announcement extension](../history/README.md) adds 18,819 substantive paragraphs for 12 September 2018–11 September 2023; the original 10,000-row export remains unchanged. The [combined index](../history/combined_deduplicated_index.csv) contains 28,818 unique paragraph keys. Archive discovery is partial, 59 weekdays lack a recovered page, and the original export's oldest day is truncated at the page level. [Coverage details](../history/COVERAGE.md) explain why periods are not directly comparable.
+
+Register coverage fields still describe source holdings rather than asserting completed ingestion of every listed dataset. Commerce Business Daily's 1996–2001 archive is optional earlier context, outside the requested main window.
 
 Stable source IDs identify register entries. Award PIIDs, UEIs, CAGE codes, programme elements, project numbers, grant IDs, DOIs, report IDs and fund codes are potential joins, with different levels of reliability. Budget totals usually lack a universal award identifier. Name matches, duplicate portal views and publications acknowledging a large laboratory contract should not be treated as new awards.
 

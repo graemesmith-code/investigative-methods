@@ -6,9 +6,13 @@ Scope is **US national-security capability for international engagement**, inclu
 
 ## The historical window
 
-The target now starts in **September 2018**, five years before the existing announcement corpus. The original backed-up paragraphs still cover **September 2023–September 2026**; no earlier-year backfill is claimed here. A collection task for **12 September 2018–11 September 2023** has started; no earlier-year result has yet been verified. The register records what each source actually covers. An archive spanning 2018 does not guarantee continuous holdings or that every year has been retrieved.
+The [historical extension](../history/README.md) now supplies **18,819 substantive paragraphs from 1,245 in-period pages** for **12 September 2018–11 September 2023**. It sits alongside the unchanged original 10,000-row export covering September 2023–September 2026. The [combined index](../history/combined_deduplicated_index.csv) has **28,818 unique paragraph keys**, with pointers to both source files.
 
-This matters for comparing periods. The Pentagon's announcement threshold rose from $7.5 million to $9 million in October 2025. FPDS public search migrated to SAM; identifiers and access routes changed. Award modifications revise earlier totals, agency structures move, and public DoD procurement data have a 90-day delay. Today's snapshot is neither an unchanged historical record nor a complete view of the latest quarter. [Procurement source details](../sources/procurement.md)
+This is **partial public-archive coverage**, not a census of announcements. The collection uses Internet Archive copies of official pages because live listings returned 403. No recovered page was found for 59 weekdays; holidays and undiscovered pages remain possible. The original export contains only the first 20 of 29 source paragraphs on its oldest day, consistent with a 10,000-row cap. These differences preclude treating paragraph counts or dollar figures as comparable complete investment totals. [Coverage, validation and gaps](../history/COVERAGE.md)
+
+The wider source register describes each source's holdings and retrieval status. Completion of this announcement-archive collection pass does not mean the other listed datasets have all been downloaded.
+
+This matters for comparing periods. The Pentagon's announcement threshold rose from $7 million to $7.5 million in October 2020, then to $9 million in October 2025. The [historical collection's dated rule references](../history/README.md#announcement-thresholds-and-financial-limits) document both changes. FPDS public search migrated to SAM; identifiers and access routes changed. Award modifications revise earlier totals, agency structures move, and public DoD procurement data have a 90-day delay. Today's snapshot is neither an unchanged historical record nor a complete view of the latest quarter. [Procurement source details](../sources/procurement.md)
 
 ## 1. Public money: requests, allocations, awards and reported expenditure
 

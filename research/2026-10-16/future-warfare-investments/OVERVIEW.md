@@ -10,7 +10,7 @@ The universe now spans public money, research institutions and people, technical
 
 The [bulk-access register](track-1-data-universe/BULK_ACCESS_REGISTER.csv) identifies free downloads and collection routes, while separating successful samples from publisher-listed offers, account requirements, paid products and access failures. The source register consolidates **89 entries**: the initial 60 plus 29 distinct additions. Refinements and overlapping source views are reconciled explicitly; this is not a count of independent spending datasets.
 
-The requested main historical window now begins in **September 2018**. The existing backed-up contract-paragraph corpus still covers **September 2023–September 2026**. A collection task for **12 September 2018–11 September 2023** has started, but earlier records have not yet been verified or added to the backed-up corpus. This publication maps historical availability; it does not represent that collection as completed.
+The [historical extension](history/README.md) is now published: **18,819 substantive paragraphs from 1,245 in-period pages**, covering **12 September 2018–11 September 2023**, alongside the unchanged original September 2023–September 2026 export. The [combined deduplicated index](history/combined_deduplicated_index.csv) contains **28,818 unique paragraph keys**. These are archived copies of official pages; live listings returned 403. Coverage remains partial: **59 weekdays have no recovered page**, which does not establish that an announcement was missing. The original 10,000-row export also cuts off partway through its oldest day. Read the [coverage and comparability limits](history/COVERAGE.md) before comparing periods.
 
 ## 2. IHL, civilian protection and the funded research network
 
