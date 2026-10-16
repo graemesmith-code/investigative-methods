@@ -568,11 +568,29 @@
       }
     },
     {
+      "check": "sha256:raw/usaspending_dod_rd_contracts/PrimeTransactionsAndSubawards_2026-10-16_H20M52S21229194.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 82693277,
+        "sha256": "07eab31fef9bbfb54780888dd9ac1ab74192728448dad6b00dce7a320dcf5bd3"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_rd_contracts/PrimeTransactionsAndSubawards_2026-10-16_H20M52S21229194.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
       "check": "raw_download_budget",
       "passed": true,
       "severity": "error",
       "detail": {
-        "downloaded_bytes": 1045161207,
+        "downloaded_bytes": 1127854484,
         "budget_bytes": 15000000000
       }
     },
@@ -581,7 +599,7 @@
       "passed": true,
       "severity": "error",
       "detail": {
-        "free_bytes": 30102745088
+        "free_bytes": 29654142976
       }
     },
     {
@@ -754,6 +772,50 @@
     },
     {
       "check": "date_format:doe_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:financial_actions.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 712186
+      }
+    },
+    {
+      "check": "canonical_lineage:financial_actions.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 712186
+      }
+    },
+    {
+      "check": "canonical_lineage:financial_actions.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 712186
+      }
+    },
+    {
+      "check": "canonical_lineage:financial_actions.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 712186
+      }
+    },
+    {
+      "check": "date_format:financial_actions.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
@@ -1440,6 +1502,103 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 342900
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 342900
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 342900
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 342900
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_rd_contracts.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_rd_contracts.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 342900,
+        "profile_retained_rows": 342900
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131534
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131534
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131534
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131534
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_rd_contracts_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
       "check": "canonical_lineage:usaspending_dod_rd_fy2019.parquet:document_id",
       "passed": true,
       "severity": "error",
@@ -1742,7 +1901,7 @@
     {
       "check": "download_cap:usaspending_dod_research_grants",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 102416,
         "individual_csv_rows": {
@@ -1758,8 +1917,10 @@
       "passed": true,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 88273,
-        "parsed_prime_transactions": 88273
+        "search_api_transaction_count": 88273,
+        "download_route_count": null,
+        "parsed_prime_transactions": 88273,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
       }
     },
     {
@@ -1769,6 +1930,68 @@
       "detail": {
         "Assistance_PrimeTransactions_2026-10-16_H20M47S28_1.csv": {},
         "Assistance_Subawards_2026-10-16_H20M49S10_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_rd_contracts",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 474434,
+        "generator_reported_rows": 474434
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_rd_contracts",
+      "passed": true,
+      "severity": "coverage_warning",
+      "detail": {
+        "all_csv_rows": 474434,
+        "individual_csv_rows": {
+          "transactions": 342900,
+          "subawards": 131534
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_rd_contracts",
+      "passed": true,
+      "severity": "coverage_warning",
+      "detail": {
+        "search_api_transaction_count": 342900,
+        "download_route_count": 342900,
+        "parsed_prime_transactions": 342900,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
+      }
+    },
+    {
+      "check": "download_route_count_vs_download:usaspending_dod_rd_contracts",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "download_route_count": 342900,
+        "parsed_prime_transactions": 342900
+      }
+    },
+    {
+      "check": "subaward_count_vs_download:usaspending_dod_rd_contracts",
+      "passed": false,
+      "severity": "coverage_warning",
+      "detail": {
+        "subaward_count_endpoint": 131539,
+        "parsed_subaward_rows": 131534,
+        "note": "Generator output count matches actual CSV; separate count endpoint differs slightly. Cause unestablished."
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_rd_contracts",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H20M54S15_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H21M22S37_1.csv": {}
       }
     },
     {
@@ -1783,7 +2006,7 @@
     {
       "check": "download_cap:usaspending_dod_capabilities_fy2019",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 33156,
         "individual_csv_rows": {
@@ -1799,7 +2022,18 @@
       "passed": false,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 31105,
+        "search_api_transaction_count": 31105,
+        "download_route_count": 24383,
+        "parsed_prime_transactions": 24383,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
+      }
+    },
+    {
+      "check": "download_route_count_vs_download:usaspending_dod_capabilities_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "download_route_count": 24383,
         "parsed_prime_transactions": 24383
       }
     },
@@ -1824,7 +2058,7 @@
     {
       "check": "download_cap:usaspending_dod_rd_fy2026",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 36179,
         "individual_csv_rows": {
@@ -1840,8 +2074,10 @@
       "passed": true,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 33089,
-        "parsed_prime_transactions": 33089
+        "search_api_transaction_count": 33089,
+        "download_route_count": null,
+        "parsed_prime_transactions": 33089,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
       }
     },
     {
@@ -1865,7 +2101,7 @@
     {
       "check": "download_cap:usaspending_darpa",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 16926,
         "individual_csv_rows": {
@@ -1881,8 +2117,10 @@
       "passed": true,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 12057,
-        "parsed_prime_transactions": 12057
+        "search_api_transaction_count": 12057,
+        "download_route_count": null,
+        "parsed_prime_transactions": 12057,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
       }
     },
     {
@@ -1906,7 +2144,7 @@
     {
       "check": "download_cap:usaspending_dod_capabilities",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 337076,
         "individual_csv_rows": {
@@ -1922,7 +2160,18 @@
       "passed": false,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 324990,
+        "search_api_transaction_count": 324990,
+        "download_route_count": 305768,
+        "parsed_prime_transactions": 305768,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
+      }
+    },
+    {
+      "check": "download_route_count_vs_download:usaspending_dod_capabilities",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "download_route_count": 305768,
         "parsed_prime_transactions": 305768
       }
     },
@@ -1947,7 +2196,7 @@
     {
       "check": "download_cap:usaspending_dod_capabilities_fy2026",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 36373,
         "individual_csv_rows": {
@@ -1963,7 +2212,18 @@
       "passed": false,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 36069,
+        "search_api_transaction_count": 36069,
+        "download_route_count": 35822,
+        "parsed_prime_transactions": 35822,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
+      }
+    },
+    {
+      "check": "download_route_count_vs_download:usaspending_dod_capabilities_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "download_route_count": 35822,
         "parsed_prime_transactions": 35822
       }
     },
@@ -1988,7 +2248,7 @@
     {
       "check": "download_cap:usaspending_dod_rd_fy2019",
       "passed": true,
-      "severity": "error",
+      "severity": "coverage_warning",
       "detail": {
         "all_csv_rows": 64274,
         "individual_csv_rows": {
@@ -2004,8 +2264,10 @@
       "passed": true,
       "severity": "coverage_warning",
       "detail": {
-        "api_transaction_count": 44337,
-        "parsed_prime_transactions": 44337
+        "search_api_transaction_count": 44337,
+        "download_route_count": null,
+        "parsed_prime_transactions": 44337,
+        "note": "Search and download-route counts can differ; inspect route-specific comparison."
       }
     },
     {
@@ -2042,9 +2304,9 @@
       }
     }
   ],
-  "passed": 223,
+  "passed": 249,
   "failed": 0,
-  "coverage_warnings": 3,
-  "raw_bytes": 1045161207,
-  "normalized_bytes": 531589349
+  "coverage_warnings": 4,
+  "raw_bytes": 1127854484,
+  "normalized_bytes": 895792383
 }

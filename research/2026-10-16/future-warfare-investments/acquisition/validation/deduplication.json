@@ -10,15 +10,16 @@
     "source_rows": {
       "usaspending_dod_rd_fy2019": 44337,
       "usaspending_dod_rd_fy2026": 33089,
+      "usaspending_dod_rd_contracts": 342900,
       "usaspending_dod_capabilities_fy2019": 24383,
       "usaspending_dod_capabilities_fy2026": 35822,
       "usaspending_dod_capabilities": 305768,
       "usaspending_darpa": 12057,
       "usaspending_dod_research_grants": 88273
     },
-    "input_rows": 543729,
-    "unique_transaction_keys": 474975,
-    "overlapping_representation_rows": 68754,
+    "input_rows": 886629,
+    "unique_transaction_keys": 712186,
+    "overlapping_representation_rows": 174443,
     "keys_with_differing_content": 0,
     "precedence": [
       "usaspending_dod_rd_fy2019",
@@ -33,8 +34,8 @@
     "policy": "Index unique transaction keys; retain all alternate evidence references. Different row content requires vintage comparison. No spend totals computed."
   },
   "candidate_cross_source_links": {
-    "links": 634,
-    "distinct_sbir_documents": 634,
+    "links": 1898,
+    "distinct_sbir_documents": 1898,
     "policy": "Candidate relationships only, never automatic capability/award merge or additional funding."
   }
 }

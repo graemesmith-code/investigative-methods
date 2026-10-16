@@ -1,6 +1,6 @@
 {
-  "transaction_rows_across_extracts": 543729,
-  "unique_transaction_keys": 474975,
+  "transaction_rows_across_extracts": 886629,
+  "unique_transaction_keys": 712186,
   "pairwise_overlap": [
     {
       "left": "usaspending_dod_rd_fy2019",
@@ -16,6 +16,11 @@
       "left": "usaspending_dod_rd_fy2019",
       "right": "usaspending_dod_capabilities",
       "shared_transaction_keys": 3173
+    },
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_dod_rd_contracts",
+      "shared_transaction_keys": 44337
     },
     {
       "left": "usaspending_dod_rd_fy2019",
@@ -44,6 +49,11 @@
     },
     {
       "left": "usaspending_dod_rd_fy2026",
+      "right": "usaspending_dod_rd_contracts",
+      "shared_transaction_keys": 33089
+    },
+    {
+      "left": "usaspending_dod_rd_fy2026",
       "right": "usaspending_dod_research_grants",
       "shared_transaction_keys": 0
     },
@@ -64,6 +74,11 @@
     },
     {
       "left": "usaspending_darpa",
+      "right": "usaspending_dod_rd_contracts",
+      "shared_transaction_keys": 9896
+    },
+    {
+      "left": "usaspending_darpa",
       "right": "usaspending_dod_research_grants",
       "shared_transaction_keys": 0
     },
@@ -79,6 +94,11 @@
     },
     {
       "left": "usaspending_dod_capabilities",
+      "right": "usaspending_dod_rd_contracts",
+      "shared_transaction_keys": 26885
+    },
+    {
+      "left": "usaspending_dod_capabilities",
       "right": "usaspending_dod_research_grants",
       "shared_transaction_keys": 0
     },
@@ -91,6 +111,21 @@
       "left": "usaspending_dod_capabilities",
       "right": "usaspending_dod_capabilities_fy2026",
       "shared_transaction_keys": 35822
+    },
+    {
+      "left": "usaspending_dod_rd_contracts",
+      "right": "usaspending_dod_research_grants",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_rd_contracts",
+      "right": "usaspending_dod_capabilities_fy2019",
+      "shared_transaction_keys": 3173
+    },
+    {
+      "left": "usaspending_dod_rd_contracts",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 2762
     },
     {
       "left": "usaspending_dod_research_grants",

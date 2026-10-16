@@ -3,7 +3,7 @@
 import gzip,hashlib,json,pathlib,tarfile
 from acquire import DATA,ROOT,save_json
 OUT=DATA.parent/'fwi-bundles';OUT.mkdir(exist_ok=True)
-groups={'FWI-20261016-raw-snapshots':[(p,str(p.relative_to(DATA))) for p in sorted((DATA/'raw').rglob('*')) if p.is_file() and not p.name.endswith('.part')],'FWI-20261016-normalized-rd-contracts':[],'FWI-20261016-normalized-capabilities':[],'FWI-20261016-normalized-research-context':[],'FWI-20261016-provenance':[(p,'provenance/'+str(p.relative_to(ROOT))) for p in sorted(ROOT.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and p.name not in ['BUNDLE_MANIFEST.json','STORAGE.md']]}
+groups={'FWI-20261016-raw-sbir-snapshots':[(p,str(p.relative_to(DATA))) for p in sorted((DATA/'raw').rglob('*')) if p.is_file() and p.parent.name in ['sbir','sbir_current'] and not p.name.endswith('.part')],'FWI-20261016-raw-other-sources':[(p,str(p.relative_to(DATA))) for p in sorted((DATA/'raw').rglob('*')) if p.is_file() and p.parent.name not in ['sbir','sbir_current'] and not p.name.endswith('.part')],'FWI-20261016-normalized-rd-contracts':[],'FWI-20261016-normalized-capabilities':[],'FWI-20261016-normalized-research-context':[],'FWI-20261016-provenance':[(p,'provenance/'+str(p.relative_to(ROOT))) for p in sorted(ROOT.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and p.name not in ['BUNDLE_MANIFEST.json','STORAGE.md']]}
 for p in sorted((DATA/'normalized').glob('*')):
  if not p.is_file():continue
  if p.name.startswith(('usaspending_dod_rd','usaspending_darpa')):key='FWI-20261016-normalized-rd-contracts'

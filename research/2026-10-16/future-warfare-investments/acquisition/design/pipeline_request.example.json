@@ -1,12 +1,56 @@
 {
   "schema_version": "1.0",
   "run_id": "design-only",
-  "input_datasets": ["usaspending_dod_rd_contracts.parquet", "usaspending_dod_research_grants.parquet", "sbir_current.parquet", "commons_projects.parquet"],
-  "evidence_fields_required": ["document_id", "source_url", "raw_locator", "source_snapshot_sha256", "retrieved_at", "evidence_excerpt"],
-  "tasks": ["capability_novelty", "relationship_candidates", "cluster_newsworthiness", "coverage_checks", "journalist_dossier"],
-  "execution": {"mode": "design_only", "execute": false, "paid_calls_authorized": false, "max_model_calls": 0, "max_exa_requests": 0},
-  "scores": {"capability": null, "novelty": null, "newsworthiness": null},
-  "relationship_policy": {"preserve_uncertainty": true, "automatic_cross_source_merge": false},
-  "money_policy": {"aggregate_only_reviewed_unique_transactions": true, "sum_mixed_measures": false, "sum_prime_and_subawards": false, "sum_budget_vintages": false},
-  "human_review_required_before_editorial_claim": true
+  "input_datasets": [
+    "usaspending_dod_rd_contracts.parquet",
+    "usaspending_dod_research_grants.parquet",
+    "sbir_current.parquet",
+    "commons_projects.parquet"
+  ],
+  "evidence_fields_required": [
+    "document_id",
+    "source_url",
+    "raw_locator",
+    "source_snapshot_sha256",
+    "retrieved_at",
+    "evidence_excerpt"
+  ],
+  "tasks": [
+    "capability_novelty",
+    "relationship_candidates",
+    "cluster_newsworthiness",
+    "coverage_checks",
+    "journalist_dossier"
+  ],
+  "execution": {
+    "mode": "design_only",
+    "execute": false,
+    "paid_calls_authorized": false,
+    "max_model_calls": 0,
+    "max_exa_requests": 0
+  },
+  "scores": {
+    "capability": null,
+    "novelty": null,
+    "newsworthiness": null
+  },
+  "relationship_policy": {
+    "preserve_uncertainty": true,
+    "automatic_cross_source_merge": false
+  },
+  "money_policy": {
+    "aggregate_only_reviewed_unique_transactions": true,
+    "sum_mixed_measures": false,
+    "sum_prime_and_subawards": false,
+    "sum_budget_vintages": false
+  },
+  "human_review_required_before_editorial_claim": true,
+  "existing_announcement_adapter": {
+    "combined_index": "../history/combined_deduplicated_index.csv",
+    "stable_evidence_id": "announcement:<dedup_key>",
+    "text_field": "raw_paragraph_verbatim from referenced source CSV",
+    "preserve_original_files": true,
+    "announcement_money_default": "uninterpreted source amounts until reviewed",
+    "existing_scores_are_ground_truth": false
+  }
 }

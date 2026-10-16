@@ -165,6 +165,17 @@
     "rows": 862
   },
   {
+    "path": "normalized/financial_actions.jsonl.gz",
+    "bytes": 49316367,
+    "sha256": "ff0d07c674cc5ce7ce8cb1ffd2401857e7f4b299417e36dc7b901b17619ecbfa"
+  },
+  {
+    "path": "normalized/financial_actions.parquet",
+    "bytes": 41524804,
+    "sha256": "ae2668e2f7cbe282ef78de608808703346174eaa87752892e25ddfad94309bbf",
+    "rows": 712186
+  },
+  {
     "path": "normalized/govinfo_budget_pages.jsonl.gz",
     "bytes": 214398,
     "sha256": "eae87a00c3ca5b33619cce85061d0524fdd39fa38b3b84c1fc1ca91d0978b696"
@@ -266,9 +277,9 @@
   },
   {
     "path": "normalized/sbir_usaspending_candidate_links.parquet",
-    "bytes": 56168,
-    "sha256": "06535b807c0a635b49326faadef080b347d070212acf01bc63812a2aebeb5962",
-    "rows": 634
+    "bytes": 156349,
+    "sha256": "cea6bb0ffce50da5dd16b8bfdc3747ca58970b6b91e305c31048de7581355bef",
+    "rows": 1898
   },
   {
     "path": "normalized/usaspending_darpa.jsonl.gz",
@@ -407,6 +418,40 @@
     "rows": 305768
   },
   {
+    "path": "normalized/usaspending_dod_rd_contracts.jsonl.gz",
+    "bytes": 61383988,
+    "sha256": "9a2eda7f6aa588d4e2519f820410aa431937e63a3963fe6aaca1bb4aeb9c2788"
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts.parquet",
+    "bytes": 56400114,
+    "sha256": "42f2f99adb74dacd1e2c8dd9761acc1c773bf70b7ce124310da214859c2ffc9b",
+    "rows": 342900
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_subawards.jsonl.gz",
+    "bytes": 33031110,
+    "sha256": "cba8e45afc5a7b3de1a2f9bffc6def95dc9f7c98ade7edfb0f5dd097ecda5701"
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_subawards.parquet",
+    "bytes": 27165345,
+    "sha256": "d9f4ddb3eb3b8a44232fd5a25b92f68e8bee21cde13779377acdd7e7a0e1c08a",
+    "rows": 131534
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_subawards_source.parquet",
+    "bytes": 18461623,
+    "sha256": "62ebda85cf8e458b4189bfd190dcd811291526137bc7b965184b0eb47b7ad937",
+    "rows": 131534
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_transactions_source.parquet",
+    "bytes": 41598359,
+    "sha256": "24ad4be2c1949a184e8a52f482251ba978834db41c77d6ac643e5b8a4c84e9d8",
+    "rows": 342900
+  },
+  {
     "path": "normalized/usaspending_dod_rd_fy2019.jsonl.gz",
     "bytes": 8773419,
     "sha256": "1965f52f4f0634facdae73c90d11fac94ea68499aafe7d9eca45ea176aadf8da"
@@ -510,8 +555,8 @@
   },
   {
     "path": "normalized/usaspending_unique_transaction_index.parquet",
-    "bytes": 70450160,
-    "sha256": "f6d0fb2e753f638a487a5c08bb00f64ae77bb1b86925ca0f1016a1a4fcf2c6a0",
-    "rows": 474975
+    "bytes": 105671303,
+    "sha256": "6213ba7762fea82db443182372de772e08c201ac91c32d78821d67cff100b81f",
+    "rows": 712186
   }
 ]

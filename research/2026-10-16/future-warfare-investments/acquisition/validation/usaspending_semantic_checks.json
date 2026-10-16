@@ -2,6 +2,7 @@
   {
     "source": "usaspending_darpa",
     "rows": 12057,
+    "non_rd_psc_prefix_rows": null,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {
@@ -14,6 +15,7 @@
   {
     "source": "usaspending_dod_capabilities_fy2019",
     "rows": 24383,
+    "non_rd_psc_prefix_rows": null,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {
@@ -26,6 +28,7 @@
   {
     "source": "usaspending_dod_capabilities_fy2026",
     "rows": 35822,
+    "non_rd_psc_prefix_rows": null,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {
@@ -38,6 +41,7 @@
   {
     "source": "usaspending_dod_capabilities",
     "rows": 305768,
+    "non_rd_psc_prefix_rows": null,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {
@@ -48,8 +52,22 @@
     "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
   },
   {
+    "source": "usaspending_dod_rd_contracts",
+    "rows": 342900,
+    "non_rd_psc_prefix_rows": 0,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 342900
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 3,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
     "source": "usaspending_dod_rd_fy2019",
     "rows": 44337,
+    "non_rd_psc_prefix_rows": 0,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {
@@ -62,6 +80,7 @@
   {
     "source": "usaspending_dod_rd_fy2026",
     "rows": 33089,
+    "non_rd_psc_prefix_rows": 0,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {
@@ -74,6 +93,7 @@
   {
     "source": "usaspending_dod_research_grants",
     "rows": 88273,
+    "non_rd_psc_prefix_rows": null,
     "blank_ueis": 0,
     "nonempty_uei_syntax_flags": 0,
     "awarding_agency_counts": {

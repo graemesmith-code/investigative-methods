@@ -90,6 +90,12 @@
     "bytes": 20939
   },
   {
+    "path": "normalized/financial_actions.parquet",
+    "rows": 712186,
+    "columns": 15,
+    "bytes": 41524804
+  },
+  {
     "path": "normalized/govinfo_budget_pages.parquet",
     "rows": 114,
     "columns": 21,
@@ -151,9 +157,9 @@
   },
   {
     "path": "normalized/sbir_usaspending_candidate_links.parquet",
-    "rows": 172,
+    "rows": 1898,
     "columns": 7,
-    "bytes": 19469
+    "bytes": 156349
   },
   {
     "path": "normalized/usaspending_darpa.parquet",
@@ -252,6 +258,30 @@
     "bytes": 34702381
   },
   {
+    "path": "normalized/usaspending_dod_rd_contracts.parquet",
+    "rows": 342900,
+    "columns": 21,
+    "bytes": 56400114
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_subawards.parquet",
+    "rows": 131534,
+    "columns": 21,
+    "bytes": 27165345
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_subawards_source.parquet",
+    "rows": 131534,
+    "columns": 118,
+    "bytes": 18461623
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_contracts_transactions_source.parquet",
+    "rows": 342900,
+    "columns": 297,
+    "bytes": 41598359
+  },
+  {
     "path": "normalized/usaspending_dod_rd_fy2019.parquet",
     "rows": 44337,
     "columns": 21,
@@ -325,8 +355,8 @@
   },
   {
     "path": "normalized/usaspending_unique_transaction_index.parquet",
-    "rows": 100330,
+    "rows": 712186,
     "columns": 7,
-    "bytes": 14382796
+    "bytes": 105671303
   }
 ]

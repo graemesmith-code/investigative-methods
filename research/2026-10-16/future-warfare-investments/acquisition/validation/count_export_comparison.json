@@ -2,59 +2,92 @@
   "sources": [
     {
       "source": "usaspending_darpa",
-      "count_endpoint_prime_transactions": 12057,
+      "search_count_endpoint_prime_transactions": 12057,
+      "download_count_endpoint_prime_transactions": null,
       "parsed_prime_transactions": 12057,
-      "difference_count_minus_export": 0,
+      "search_count_minus_export": 0,
       "equal": true,
-      "interpretation": "Matched independent count"
+      "export_matches_download_count": null,
+      "interpretation": "Matched search count"
     },
     {
       "source": "usaspending_dod_capabilities_fy2019",
-      "count_endpoint_prime_transactions": 31105,
+      "search_count_endpoint_prime_transactions": 31105,
+      "download_count_endpoint_prime_transactions": 24383,
       "parsed_prime_transactions": 24383,
-      "difference_count_minus_export": 6722,
+      "search_count_minus_export": 6722,
       "equal": false,
-      "interpretation": "Coverage discrepancy; cause unestablished; do not claim full count-endpoint universe acquired"
+      "export_matches_download_count": true,
+      "interpretation": "Export exactly matches download-route count; search-count route differs. Counts from routes are not interchangeable; no shortfall relative to download count observed."
     },
     {
       "source": "usaspending_dod_capabilities_fy2026",
-      "count_endpoint_prime_transactions": 36069,
+      "search_count_endpoint_prime_transactions": 36069,
+      "download_count_endpoint_prime_transactions": 35822,
       "parsed_prime_transactions": 35822,
-      "difference_count_minus_export": 247,
+      "search_count_minus_export": 247,
       "equal": false,
-      "interpretation": "Coverage discrepancy; cause unestablished; do not claim full count-endpoint universe acquired"
+      "export_matches_download_count": true,
+      "interpretation": "Export exactly matches download-route count; search-count route differs. Counts from routes are not interchangeable; no shortfall relative to download count observed."
     },
     {
       "source": "usaspending_dod_capabilities",
-      "count_endpoint_prime_transactions": 324990,
+      "search_count_endpoint_prime_transactions": 324990,
+      "download_count_endpoint_prime_transactions": 305768,
       "parsed_prime_transactions": 305768,
-      "difference_count_minus_export": 19222,
+      "search_count_minus_export": 19222,
       "equal": false,
-      "interpretation": "Coverage discrepancy; cause unestablished; do not claim full count-endpoint universe acquired"
+      "export_matches_download_count": true,
+      "interpretation": "Export exactly matches download-route count; search-count route differs. Counts from routes are not interchangeable; no shortfall relative to download count observed."
+    },
+    {
+      "source": "usaspending_dod_rd_contracts",
+      "search_count_endpoint_prime_transactions": 342900,
+      "download_count_endpoint_prime_transactions": 342900,
+      "parsed_prime_transactions": 342900,
+      "search_count_minus_export": 0,
+      "equal": true,
+      "export_matches_download_count": true,
+      "interpretation": "Matched search count"
     },
     {
       "source": "usaspending_dod_rd_fy2019",
-      "count_endpoint_prime_transactions": 44337,
+      "search_count_endpoint_prime_transactions": 44337,
+      "download_count_endpoint_prime_transactions": null,
       "parsed_prime_transactions": 44337,
-      "difference_count_minus_export": 0,
+      "search_count_minus_export": 0,
       "equal": true,
-      "interpretation": "Matched independent count"
+      "export_matches_download_count": null,
+      "interpretation": "Matched search count"
     },
     {
       "source": "usaspending_dod_rd_fy2026",
-      "count_endpoint_prime_transactions": 33089,
+      "search_count_endpoint_prime_transactions": 33089,
+      "download_count_endpoint_prime_transactions": null,
       "parsed_prime_transactions": 33089,
-      "difference_count_minus_export": 0,
+      "search_count_minus_export": 0,
       "equal": true,
-      "interpretation": "Matched independent count"
+      "export_matches_download_count": null,
+      "interpretation": "Matched search count"
     },
     {
       "source": "usaspending_dod_research_grants",
-      "count_endpoint_prime_transactions": 88273,
+      "search_count_endpoint_prime_transactions": 88273,
+      "download_count_endpoint_prime_transactions": null,
       "parsed_prime_transactions": 88273,
-      "difference_count_minus_export": 0,
+      "search_count_minus_export": 0,
       "equal": true,
-      "interpretation": "Matched independent count"
+      "export_matches_download_count": null,
+      "interpretation": "Matched search count"
+    }
+  ],
+  "subaward_count_checks": [
+    {
+      "source": "usaspending_dod_rd_contracts",
+      "subaward_count_endpoint": 131539,
+      "parsed_subaward_rows": 131534,
+      "difference": 5,
+      "note": "Five-record difference for full R&D extract; source/replica/snapshot/filter cause unestablished. Export totals match generator, not represented as a subaward census."
     }
   ],
   "single_year_keyword_diagnostics": [

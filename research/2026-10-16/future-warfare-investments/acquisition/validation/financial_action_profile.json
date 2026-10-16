@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "rows": 712186,
+    "positive": 453749,
+    "negative": 71016,
+    "zero": 187421
+  },
+  "expected_unique_transaction_index_rows": 712186,
+  "date_min": "2018-10-01",
+  "date_max": "2026-09-30",
+  "schema": "document_id: string\ntransaction_key: string\naward_key: string\nentity_key: string\nentity_name: string\nsource: string\nsource_url: string\nraw_locator: string\nsource_snapshot_sha256: string\nretrieved_at: string\neligibility: string\ncapability_tags: string\naction_date: date32[day]\nfiscal_year: int16\naction_obligation_usd: decimal128(23, 2)",
+  "measure": "signed federal_action_obligation, USD, typed decimal128(23,2)",
+  "grain": "one preferred representation per unique native USAspending transaction key",
+  "eligibility": "Source selection/candidate flags retained; not all rows establish novel capability or international mission.",
+  "aggregation_rule": "This is a duplicate representation of the same source actions. Use this view OR the corresponding source rows, never add both. Sum only within a deliberately reviewed universe after retaining negative deobligations; do not add cumulative award values, options, requests, outlays, subawards or SBIR representations. No dollar total computed in this pass."
+}

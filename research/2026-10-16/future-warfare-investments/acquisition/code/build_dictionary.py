@@ -37,6 +37,7 @@ for p in sorted((ROOT/'validation').glob('*_schemas.json')):
    if monetary(k):
     meaning,unit,rule=semantics(k,kind);rows.append({'source':source,'member_kind':kind,'field':k,'meaning':meaning,'unit':unit,'aggregation_rule':rule,'official_definition':defs.get(k,''),'definition_source':'https://api.usaspending.gov/api/v2/references/data_dictionary/'})
 extras=[
+ ('financial_actions','unique_transaction','action_obligation_usd','Signed federal_action_obligation from one preferred representation per native transaction key','USD_decimal128_23_2','Duplicate view of source actions, not additional money. Use this OR corresponding source transactions. Negative deobligations retained; no amount totals computed. Eligibility/coverage restrictions remain.','https://api.usaspending.gov/api/v2/references/data_dictionary/'),
  ('sbir_current','award','Award Amount','Amount of the reported SBIR/STTR award','USD','Not a transaction history or outlay. Phase I/II awards, revisions and duplicate records require review; may overlap USAspending contract/grant.','https://www.sbir.gov/data-resources/data-dictionary'),
  ('grants','opportunity','AwardCeiling','Expected maximum individual award amount in an opportunity','USD','Funding intent, not award or obligation. Zero may mean unspecified; do not treat as realized funding.','https://www.grants.gov/xml-extract'),
  ('grants','opportunity','AwardFloor','Expected minimum individual award amount in an opportunity','USD','Funding intent; not additive to ceiling or program funding.','https://www.grants.gov/xml-extract'),

@@ -6,21 +6,22 @@
     "sbir_current": 10,
     "usaspending_darpa": 12,
     "usaspending_dod_research_grants": 14,
+    "usaspending_dod_rd_contracts": 11,
     "usaspending_dod_capabilities": 14,
     "grants": 10,
     "usaspending_dod_rd_fy2019": 13,
     "usaspending_dod_rd_fy2026": 12
   },
-  "total_candidate_records": 85,
+  "total_candidate_records": 96,
   "capability_regex_counts": {
-    "space": 13,
-    "logistics": 16,
-    "ai": 8,
-    "sensors": 28,
-    "autonomy_drones": 20,
-    "communications_ew": 11,
-    "quantum": 7,
-    "cyber": 8
+    "space": 14,
+    "logistics": 18,
+    "ai": 11,
+    "sensors": 29,
+    "autonomy_drones": 21,
+    "communications_ew": 12,
+    "quantum": 8,
+    "cyber": 10
   },
   "identifier_relationship_examples": [
     {

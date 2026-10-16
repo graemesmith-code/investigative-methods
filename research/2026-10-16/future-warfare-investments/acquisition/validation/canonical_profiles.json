@@ -72,6 +72,22 @@
     "malformed_nonempty_dates": 0
   },
   {
+    "file": "financial_actions.parquet",
+    "rows": 712186,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
     "file": "govinfo_budget_pages.parquet",
     "rows": 114,
     "missing": {
@@ -317,6 +333,42 @@
       "action_date": 0,
       "fiscal_year": 0,
       "transaction_key": 31308,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_rd_contracts.parquet",
+    "rows": 342900,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_rd_contracts_subawards.parquet",
+    "rows": 131534,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 1394,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 131534,
       "award_key": 0,
       "record_sha256": 0
     },

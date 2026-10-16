@@ -33,3 +33,7 @@ Input: reviewed evidence/relationship graph and coverage results. Produce a shor
 ## Reusable transport
 
 `pipeline_request.example.json` is a versioned batch contract. Add results as a new layer keyed to evidence IDs; never overwrite raw text or ingestion validation. Deterministic dry-run features and proposed queries are in `validation/dry_run.json` and `samples/dry_run_candidates.jsonl`. They are explicitly unscored.
+
+## Existing announcement adapter
+
+The unchanged original and historical announcements remain first-class later inputs. Use `../history/combined_deduplicated_index.csv`: its columns are `dedup_key`, `announcement_date`, `service_or_agency_section`, `paragraph_sha256`, and JSON `pointers`. Each pointer supplies file, data row, source URL and paragraph hash. An adapter can use `announcement:<dedup_key>` as its evidence ID and dereference the original/history CSV's `raw_paragraph_verbatim` without editing either collection. Retain existing original-file checksums and per-paragraph SHA-256. Announcement date is a publication date, not necessarily action date; announced face value, options, ceilings and explicitly obligated-at-award funds need separate interpretation. Existing paid-pilot scores/coverage outputs are historical annotations, not new validated labels or proof of novelty/no prior reporting. This pass does not rescore them.
