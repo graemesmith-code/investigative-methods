@@ -1,0 +1,1095 @@
+{
+  "parquet_files": [
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "acm_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/acm_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 813585
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "acm_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/acm_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 87509154
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "aeb_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/aeb_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 2129565
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "aeb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/aeb_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 207525980
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ajp_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ajp_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 52720
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ajp_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ajp_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 2858489
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "apc_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/apc_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 218812
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "apc_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/apc_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 28437845
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 41519372
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 4839691808
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0001.parquet",
+      "filename": "0001.parquet",
+      "size": 4841777399
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0002.parquet",
+      "filename": "0002.parquet",
+      "size": 4840928096
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0003.parquet",
+      "filename": "0003.parquet",
+      "size": 4872593244
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0004.parquet",
+      "filename": "0004.parquet",
+      "size": 4856418691
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0005.parquet",
+      "filename": "0005.parquet",
+      "size": 4840891786
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0006.parquet",
+      "filename": "0006.parquet",
+      "size": 4850115843
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0007.parquet",
+      "filename": "0007.parquet",
+      "size": 4846811248
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0008.parquet",
+      "filename": "0008.parquet",
+      "size": 3257105254
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0009.parquet",
+      "filename": "0009.parquet",
+      "size": 2340047820
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0010.parquet",
+      "filename": "0010.parquet",
+      "size": 2572581919
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0011.parquet",
+      "filename": "0011.parquet",
+      "size": 2442837077
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0012.parquet",
+      "filename": "0012.parquet",
+      "size": 2416573089
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0013.parquet",
+      "filename": "0013.parquet",
+      "size": 2226746306
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0014.parquet",
+      "filename": "0014.parquet",
+      "size": 1792431082
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Arab/train/0015.parquet",
+      "filename": "0015.parquet",
+      "size": 712790501
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Latn",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Latn/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 29180
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arb_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arb_Latn/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 7638928
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arq_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arq_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 14405
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arq_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arq_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 1409542
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ars_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ars_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 1063694
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ars_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ars_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 123673562
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ary_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ary_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 2262557
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ary_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ary_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 364106534
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arz_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arz_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 6826081
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "arz_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/arz_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 799771382
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ayp_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ayp_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 13198
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ayp_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ayp_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 4987385
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hif_Latn",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hif_Latn/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 654110
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hif_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hif_Latn/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 109753356
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hin_Deva",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hin_Deva/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 18531801
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hin_Deva",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hin_Deva/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 4484018160
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hin_Deva",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hin_Deva/train/0001.parquet",
+      "filename": "0001.parquet",
+      "size": 4298557641
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hin_Deva",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hin_Deva/train/0002.parquet",
+      "filename": "0002.parquet",
+      "size": 4164181599
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hin_Latn",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hin_Latn/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 23555
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "hin_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/hin_Latn/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 5342695
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ota_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ota_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 15667
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "ota_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/ota_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 287084
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 20928028
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 4838796202
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0001.parquet",
+      "filename": "0001.parquet",
+      "size": 4851815403
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0002.parquet",
+      "filename": "0002.parquet",
+      "size": 4873891976
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0003.parquet",
+      "filename": "0003.parquet",
+      "size": 4845183104
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0004.parquet",
+      "filename": "0004.parquet",
+      "size": 4837835460
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0005.parquet",
+      "filename": "0005.parquet",
+      "size": 4837034297
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0006.parquet",
+      "filename": "0006.parquet",
+      "size": 4835182364
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0007.parquet",
+      "filename": "0007.parquet",
+      "size": 4841319085
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0008.parquet",
+      "filename": "0008.parquet",
+      "size": 4850264745
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0009.parquet",
+      "filename": "0009.parquet",
+      "size": 4833437063
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0010.parquet",
+      "filename": "0010.parquet",
+      "size": 4852780485
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0011.parquet",
+      "filename": "0011.parquet",
+      "size": 4840018709
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0012.parquet",
+      "filename": "0012.parquet",
+      "size": 4837904250
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0013.parquet",
+      "filename": "0013.parquet",
+      "size": 4851811608
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0014.parquet",
+      "filename": "0014.parquet",
+      "size": 4844458459
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0015.parquet",
+      "filename": "0015.parquet",
+      "size": 4835179570
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0016.parquet",
+      "filename": "0016.parquet",
+      "size": 4846941224
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0017.parquet",
+      "filename": "0017.parquet",
+      "size": 4833691490
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0018.parquet",
+      "filename": "0018.parquet",
+      "size": 4834348593
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0019.parquet",
+      "filename": "0019.parquet",
+      "size": 4844221571
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0020.parquet",
+      "filename": "0020.parquet",
+      "size": 4833545080
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0021.parquet",
+      "filename": "0021.parquet",
+      "size": 4856465062
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0022.parquet",
+      "filename": "0022.parquet",
+      "size": 4837606218
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0023.parquet",
+      "filename": "0023.parquet",
+      "size": 4844541183
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0024.parquet",
+      "filename": "0024.parquet",
+      "size": 4842168047
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0025.parquet",
+      "filename": "0025.parquet",
+      "size": 4833879114
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0026.parquet",
+      "filename": "0026.parquet",
+      "size": 4851366433
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0027.parquet",
+      "filename": "0027.parquet",
+      "size": 4847211453
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0028.parquet",
+      "filename": "0028.parquet",
+      "size": 4840905657
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0029.parquet",
+      "filename": "0029.parquet",
+      "size": 4841280421
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0030.parquet",
+      "filename": "0030.parquet",
+      "size": 4846980991
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0031.parquet",
+      "filename": "0031.parquet",
+      "size": 4837365390
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0032.parquet",
+      "filename": "0032.parquet",
+      "size": 4834544577
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0033.parquet",
+      "filename": "0033.parquet",
+      "size": 4844649308
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0034.parquet",
+      "filename": "0034.parquet",
+      "size": 4846528862
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0035.parquet",
+      "filename": "0035.parquet",
+      "size": 4836297056
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0036.parquet",
+      "filename": "0036.parquet",
+      "size": 4867856935
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0037.parquet",
+      "filename": "0037.parquet",
+      "size": 3917714146
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0038.parquet",
+      "filename": "0038.parquet",
+      "size": 4327111042
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0039.parquet",
+      "filename": "0039.parquet",
+      "size": 4381454296
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0040.parquet",
+      "filename": "0040.parquet",
+      "size": 3892627516
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0041.parquet",
+      "filename": "0041.parquet",
+      "size": 4004973706
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0042.parquet",
+      "filename": "0042.parquet",
+      "size": 4140309404
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0043.parquet",
+      "filename": "0043.parquet",
+      "size": 4197427139
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0044.parquet",
+      "filename": "0044.parquet",
+      "size": 4138242816
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0045.parquet",
+      "filename": "0045.parquet",
+      "size": 3842951727
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0046.parquet",
+      "filename": "0046.parquet",
+      "size": 3914970338
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0047.parquet",
+      "filename": "0047.parquet",
+      "size": 4052028233
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0048.parquet",
+      "filename": "0048.parquet",
+      "size": 3678521135
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0049.parquet",
+      "filename": "0049.parquet",
+      "size": 3608150481
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0050.parquet",
+      "filename": "0050.parquet",
+      "size": 3722377701
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0051.parquet",
+      "filename": "0051.parquet",
+      "size": 3743046592
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0052.parquet",
+      "filename": "0052.parquet",
+      "size": 3659926048
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0053.parquet",
+      "filename": "0053.parquet",
+      "size": 3611956844
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0054.parquet",
+      "filename": "0054.parquet",
+      "size": 3662805016
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0055.parquet",
+      "filename": "0055.parquet",
+      "size": 3600725576
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0056.parquet",
+      "filename": "0056.parquet",
+      "size": 3741747090
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0057.parquet",
+      "filename": "0057.parquet",
+      "size": 3718134015
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0058.parquet",
+      "filename": "0058.parquet",
+      "size": 3663675800
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0059.parquet",
+      "filename": "0059.parquet",
+      "size": 3588528637
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0060.parquet",
+      "filename": "0060.parquet",
+      "size": 3661763979
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0061.parquet",
+      "filename": "0061.parquet",
+      "size": 3846146571
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0062.parquet",
+      "filename": "0062.parquet",
+      "size": 3715229850
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0063.parquet",
+      "filename": "0063.parquet",
+      "size": 3702372823
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0064.parquet",
+      "filename": "0064.parquet",
+      "size": 3777657970
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0065.parquet",
+      "filename": "0065.parquet",
+      "size": 3565079887
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0066.parquet",
+      "filename": "0066.parquet",
+      "size": 3589895443
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0067.parquet",
+      "filename": "0067.parquet",
+      "size": 3527155319
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0068.parquet",
+      "filename": "0068.parquet",
+      "size": 3548495843
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0069.parquet",
+      "filename": "0069.parquet",
+      "size": 3531515953
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0070.parquet",
+      "filename": "0070.parquet",
+      "size": 3582505621
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0071.parquet",
+      "filename": "0071.parquet",
+      "size": 3524454165
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0072.parquet",
+      "filename": "0072.parquet",
+      "size": 2064520328
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0073.parquet",
+      "filename": "0073.parquet",
+      "size": 1831451791
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "rus_Cyrl",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/rus_Cyrl/train/0074.parquet",
+      "filename": "0074.parquet",
+      "size": 1803610624
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "shu_Arab",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/shu_Arab/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 18759
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "shu_Arab",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/shu_Arab/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 2239337
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "test",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/test/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 19269566
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0000.parquet",
+      "filename": "0000.parquet",
+      "size": 4839194210
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0001.parquet",
+      "filename": "0001.parquet",
+      "size": 4842233113
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0002.parquet",
+      "filename": "0002.parquet",
+      "size": 4834544655
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0003.parquet",
+      "filename": "0003.parquet",
+      "size": 4834303174
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0004.parquet",
+      "filename": "0004.parquet",
+      "size": 4848473050
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0005.parquet",
+      "filename": "0005.parquet",
+      "size": 2083941323
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0006.parquet",
+      "filename": "0006.parquet",
+      "size": 303202697
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0007.parquet",
+      "filename": "0007.parquet",
+      "size": 373395748
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0008.parquet",
+      "filename": "0008.parquet",
+      "size": 267860408
+    },
+    {
+      "dataset": "HuggingFaceFW/finepdfs",
+      "config": "tur_Latn",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs/resolve/refs%2Fconvert%2Fparquet/tur_Latn/train/0009.parquet",
+      "filename": "0009.parquet",
+      "size": 50031039
+    }
+  ],
+  "partial": false,
+  "pending": [],
+  "failed": []
+}

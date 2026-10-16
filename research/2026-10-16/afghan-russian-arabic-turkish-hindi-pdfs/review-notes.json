@@ -1,0 +1,242 @@
+{
+  "1579c91d6678147e24d84225": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Arabic Hijri calendar, 1444 / 2022–2023",
+    "category": "administrative",
+    "reason": "Arabic month, weekday and holiday labels; original page directly inspected. Hosted by Ministry of Refugees and Repatriation; source author not established.",
+    "visual_pages": [
+      1
+    ]
+  },
+  "5fa8b60685ffe5c774ffd06a": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Egyptian Embassy / Al-Azhar scholarship registration form",
+    "category": "foreign_submission",
+    "reason": "Egyptian Embassy Kabul letterhead, with Arabic, English and Dari fields. Blank form, not a completed application. Published by Afghan Higher Education Ministry.",
+    "visual_pages": [
+      1
+    ]
+  },
+  "f9940700fa5a4db74fa00452": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Arabic reading textbook, grade 7",
+    "category": "education",
+    "reason": "Substantial Arabic teaching text with Pashto supporting material. Ministry of Education publication. Current-site recovered copy has 154 pages; archived FinePDFs extraction has 150 page segments.",
+    "visual_pages": [
+      1,
+      6
+    ]
+  },
+  "d06a671d65e058d9af5fb0b6": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Quran instruction textbook, grade 3",
+    "category": "education",
+    "reason": "Dari explanations and substantial Arabic Quran recitation passages. Ministry of Education publication.",
+    "visual_pages": [
+      1,
+      6
+    ]
+  },
+  "e542436253683775cdc38255": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "The ruling on imitation in light of the Quran and Sunnah",
+    "category": "public_university",
+    "reason": "Nangarhar University Sharia article with substantial Arabic body and Pashto abstract. Public university publication; not evidence of a foreign diplomatic or commercial relationship.",
+    "visual_pages": [
+      1,
+      6
+    ]
+  },
+  "2c869aa2cf7d562ef9dbb31f": {
+    "decision": "exclude",
+    "reason": "FinePDFs extraction supplies unrelated Arabic prose. Recovered original is an upside-down Dari internet-services contract with Afghan Telecom; Arabic extraction is not supported by inspected original.",
+    "visual_pages": [
+      1
+    ],
+    "extraction_problem": true
+  },
+  "eadfa8d09ba600fdf38082cb": {
+    "decision": "exclude",
+    "reason": "FinePDFs extraction supplies unrelated Arabic court and counselling prose. Inspected original contains faint Dari contract pages; extracted Arabic is unreliable.",
+    "visual_pages": [
+      1,
+      2
+    ],
+    "extraction_problem": true
+  },
+  "1935c566a42c9b6887ca45ba": {
+    "decision": "unresolved",
+    "reason": "Truncated archived customs-procedure PDF opens with zero pages; live URL returns 404. Extracted Arabic about an Egyptian doctors association appears unrelated to source filename. No Arabic content verified.",
+    "visual_pages": [],
+    "extraction_problem": true
+  },
+  "a08b7a72045e035b19fe5c4f": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Standard Friday sermon booklet with a prayer for Hibatullah Akhundzada",
+    "category": "religious_governance",
+    "reason": "Islamic Emirate Ministry of Hajj and Religious Affairs booklet. Pashto introduction and substantial Arabic sermon texts on PDF pages 8–12. The Arabic prayer names Hibatullah Akhundzada; introduction discusses unified sermons across mosques. Domestic religious/governance publication; foreign audience not established.",
+    "visual_pages": [
+      1,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "a32f260ebc4cc9bd986fc716": {
+    "decision": "retain",
+    "language": "Russian",
+    "title": "Signed protocol on Afghanistan joining the Central Asian cross-border transport agreement",
+    "category": "international_agreement",
+    "reason": "Four-page signed English/Russian protocol published by Afghan Transport Ministry. Russian text on PDF pages 3–4. Extends the transport corridor from Nizhni Pyanj / Sher Khan Bandar to Torkham and names Afghanistan, Tajikistan and Kyrgyzstan as parties. Signature blocks carry dates in 2011 and 2013; crawl in May 2022 is not publication date.",
+    "visual_pages": [
+      1,
+      4
+    ]
+  },
+  "54feb73a35a52b7fa8c3d444": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Arabic scholarship announcement from Maulana Malik Ibrahim State Islamic University, Indonesia",
+    "category": "foreign_submission",
+    "reason": "One-page Arabic poster for non-Indonesian bachelor applicants. Registration dates printed 24 February–24 March 2020. Published by Afghan Higher Education Ministry; issuing institution is in Malang, Indonesia. This is an announcement, not proof of an award.",
+    "visual_pages": [
+      1
+    ]
+  },
+  "e4d3dbf572b620d7ac2e635b": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Arabic reading textbook, grade 9, Pashto support",
+    "category": "education",
+    "reason": "Arabic language teaching textbook from Afghan Education Ministry, with Pashto supporting material.",
+    "visual_pages": [
+      1,
+      8
+    ]
+  },
+  "90060dbcea37ecdf4edae4e5": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Arabic reading textbook, grade 7, Dari support",
+    "category": "education",
+    "reason": "Arabic language teaching textbook from Afghan Education Ministry, with Dari supporting material. Separate edition from the grade-7 Pashto-support textbook.",
+    "visual_pages": [
+      1,
+      8
+    ]
+  },
+  "6fcd30d5c4252f6d5bcca565": {
+    "decision": "exclude",
+    "reason": "FinePDFs supplies an Arabic table or prose not supported by the inspected source. Recovered page shows a rotated Dari financial or contract document. Extracted Arabic is unreliable.",
+    "visual_pages": [
+      1
+    ],
+    "extraction_problem": true
+  },
+  "4545a564cf89644eaee6e31f": {
+    "decision": "exclude",
+    "reason": "FinePDFs supplies an Arabic table or prose not supported by the inspected source. Recovered page shows a rotated Dari financial or contract document. Extracted Arabic is unreliable.",
+    "visual_pages": [
+      1
+    ],
+    "extraction_problem": true
+  },
+  "93934858085333e7122909fb": {
+    "decision": "exclude",
+    "reason": "FinePDFs supplies an Arabic table or prose not supported by the inspected source. Recovered page shows a rotated Dari financial or contract document. Extracted Arabic is unreliable.",
+    "visual_pages": [
+      1
+    ],
+    "extraction_problem": true
+  },
+  "9cfd065b5da7b810b4b99123": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Quran recitation and tajweed textbook, grade 8",
+    "category": "education",
+    "reason": "Pashto instructions and substantial Arabic Quran text, not evidence of a foreign audience. Published by the Afghan Education Ministry. Current-site recovered copy.",
+    "visual_pages": [
+      1,
+      41,
+      71
+    ]
+  },
+  "2332c8ca32cb3c76fa7df67b": {
+    "decision": "retain",
+    "language": "Arabic",
+    "title": "Modernism in Andalusian and Mahjar literature",
+    "category": "public_university",
+    "reason": "Arabic research article with English abstract, hosted by Baghlan University. Academic publication, not a diplomatic or commercial submission.",
+    "visual_pages": [
+      1,
+      3
+    ]
+  },
+  "b203c98fa0cf1b4dbed0e22f": {
+    "decision": "retain",
+    "language": "Turkish",
+    "title": "A study of Jamal al-Din Afghani’s Political Discourses",
+    "category": "public_university",
+    "reason": "Turkish article in Diwan, volume 4 issue 1 (2023), hosted on its separate journal domain. Jawzjan University identifies Diwan as its international journal. Substantive Turkish prose verified beyond title and abstract.",
+    "visual_pages": [
+      1,
+      2,
+      6
+    ]
+  },
+  "fe45e55e281d6bc2de625643": {
+    "decision": "retain",
+    "language": "Russian",
+    "title": "Russian version of the 2015 regional cooperation conference statement",
+    "category": "diplomatic_publication",
+    "reason": "Three-page Russian conference statement with Republic-era Foreign Affairs Ministry branding, from historical recca.af. Printed title says President’s Statement. Paired Chinese version was delivered previously.",
+    "visual_pages": [
+      1,
+      2,
+      3
+    ]
+  },
+  "0b7c0b19ca8ed318aa40a54e": {
+    "decision": "retain",
+    "language": "Russian",
+    "title": "Russian version of the 2015 regional cooperation conference statement",
+    "category": "diplomatic_publication",
+    "reason": "Duplicate dataset record of the same historical source URL and identical recovered PDF bytes; one PDF in the reading package.",
+    "visual_pages": [
+      1,
+      2,
+      3
+    ]
+  },
+  "6306169ddfd2560ad34b37d6": {
+    "decision": "unresolved",
+    "reason": "Original PDF could not be recovered in usable form. Extracted text alone does not verify an Arabic document; not counted as a positive."
+  },
+  "c6e2052377253518af8766de": {
+    "decision": "unresolved",
+    "reason": "Original PDF could not be recovered in usable form. Extracted text alone does not verify an Arabic document; not counted as a positive."
+  },
+  "db5636950c8fecfad990539b": {
+    "decision": "exclude",
+    "reason": "Dari religious guidance with Arabic scriptural quotations; no sustained separately written Arabic section established. Not counted as an Arabic-language publication."
+  },
+  "f6f5d7ea9f3f5f772654cb96": {
+    "decision": "exclude",
+    "reason": "Inspected faint Dari mining contract; extracted Arabic literary discussion does not match source.",
+    "extraction_problem": true,
+    "visual_pages": [
+      1
+    ]
+  }
+}
