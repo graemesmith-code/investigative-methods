@@ -1,0 +1,10 @@
+test_dry_run_preserves_untagged (test_qa.QA.test_dry_run_preserves_untagged) ... ok
+test_hypersonic_and_untagged (test_qa.QA.test_hypersonic_and_untagged) ... ok
+test_required_lineage (test_qa.QA.test_required_lineage) ... ok
+test_restore_empty_partial_corrupt_and_complete (test_qa.QA.test_restore_empty_partial_corrupt_and_complete) ... ok
+test_two_vintages_exact_file_lineage (test_qa.QA.test_two_vintages_exact_file_lineage) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.640s
+
+OK

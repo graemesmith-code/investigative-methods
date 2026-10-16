@@ -1,0 +1,36 @@
+{
+  "mode": "offline_deterministic_no_paid_calls",
+  "checks": {
+    "sample_lineage": true,
+    "multiple_sources": true,
+    "untagged_retained": true,
+    "all_scores_null": true,
+    "relationship_endpoints_in_sample": true,
+    "commons_projects_lineage": true,
+    "apfit_fy2022_projects_lineage": true,
+    "darpa_pb2025_programs_lineage": true,
+    "hypersonic_project_evidence": true
+  },
+  "passed": 9,
+  "failed": 0,
+  "sample_rows": 128,
+  "source_counts": {
+    "sbir_current": 16,
+    "usaspending_darpa": 16,
+    "usaspending_dod_research_grants": 16,
+    "usaspending_dod_rd_contracts": 16,
+    "usaspending_dod_capabilities": 16,
+    "grants": 16,
+    "usaspending_dod_rd_fy2019": 16,
+    "usaspending_dod_rd_fy2026": 16
+  },
+  "project_rows_checked": {
+    "commons_projects": 57,
+    "apfit_fy2022_projects": 10,
+    "darpa_pb2025_programs": 256
+  },
+  "relationship_edges": 20,
+  "spending_sample_rows": 96,
+  "spending_text_under_200_chars": 84,
+  "warning": "Short spending descriptions are expected source limitations; SBIR abstracts, program/project narratives and linked evidence are essential before novelty review. Regex absence does not imply irrelevance."
+}

@@ -3,6 +3,7 @@
 import collections,csv,gzip,hashlib,json,pathlib,shutil,zipfile,re
 import pandas as pd,pyarrow.parquet as pq
 from acquire import DATA,ROOT,save_json
+from lineage import REQUIRED,PROJECT_TABLES,missing_columns
 checks=[]
 def check(name,passed,detail,severity='error'):checks.append({'check':name,'passed':bool(passed),'severity':severity,'detail':detail})
 manifest=[json.loads(x) for x in (ROOT/'validation/http_manifest.jsonl').read_text().splitlines()];downloaded=[m for m in manifest if m['outcome']=='downloaded'];rawbytes=0
@@ -14,13 +15,19 @@ for m in downloaded:
  if p.suffix=='.zip':
   z=zipfile.ZipFile(p);bad=z.testzip();check('zip_crc:'+m['relative_path'],bad is None,{'members':len(z.namelist()),'bad_member':bad})
 check('raw_download_budget',rawbytes<=15_000_000_000,{'downloaded_bytes':rawbytes,'budget_bytes':15_000_000_000});check('disk_headroom',shutil.disk_usage(DATA).free>=6_000_000_000,{'free_bytes':shutil.disk_usage(DATA).free})
-canonical_profiles=[]
+PROJECT_TABLES=PROJECT_TABLES | set(json.loads((ROOT/'design/evidence_table_contracts.json').read_text())['tables'])
+canonical_profiles=[];table_roles=[]
+for name in sorted(PROJECT_TABLES):check('required_evidence_table:'+name,(DATA/'normalized'/name).exists(),{'mandatory':True})
 for p in sorted((DATA/'normalized').glob('*.parquet')):
  schema=pq.read_schema(p)
- if 'document_id' not in schema.names or 'raw_locator' not in schema.names:continue
- df=pd.read_parquet(p,columns=[k for k in ['document_id','source_url','raw_locator','source_snapshot_sha256','text','action_date','fiscal_year','transaction_key','award_key','record_sha256'] if k in schema.names]);n=len(df);missing={k:int(df[k].isna().sum()+(df[k]=='').sum()) for k in df.columns};duplicates=int(df.document_id.duplicated().sum());bad_dates=int((df.action_date.notna()&~df.action_date.map(lambda x:x.isoformat() if hasattr(x,'isoformat') else x).fillna('').str.match(r'^\d{4}-\d{2}-\d{2}$')).sum()) if 'action_date' in df else 0
+ if p.name not in PROJECT_TABLES and not ('document_id' in schema.names and 'raw_locator' in schema.names):
+  table_roles.append({'file':p.name,'role':'source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline','pipeline_evidence_contract_applied':False});continue
+ table_roles.append({'file':p.name,'role':'pipeline evidence','pipeline_evidence_contract_applied':True})
+ absent=missing_columns(schema.names);check('lineage_schema:'+p.name,not absent,{'missing_required_columns':absent})
+ if absent:continue
+ df=pd.read_parquet(p,columns=[k for k in ['document_id','source_url','raw_locator','source_snapshot_sha256','retrieved_at','text','action_date','fiscal_year','transaction_key','award_key','record_sha256'] if k in schema.names]);n=len(df);missing={k:int(df[k].isna().sum()+(df[k]=='').sum()) for k in df.columns};duplicates=int(df.document_id.duplicated().sum());bad_dates=int((df.action_date.notna()&~df.action_date.map(lambda x:x.isoformat() if hasattr(x,'isoformat') else x).fillna('').str.match(r'^\d{4}-\d{2}-\d{2}$')).sum()) if 'action_date' in df else 0
  canonical_profiles.append({'file':p.name,'rows':n,'missing':missing,'duplicate_document_ids':duplicates,'malformed_nonempty_dates':bad_dates})
- for k in ['document_id','source_url','raw_locator','source_snapshot_sha256']:check('canonical_lineage:'+p.name+':'+k,missing.get(k,0)==0,{'missing':missing.get(k),'rows':n})
+ for k in REQUIRED:check('canonical_lineage:'+p.name+':'+k,missing.get(k,0)==0,{'missing':missing.get(k),'rows':n})
  check('date_format:'+p.name,bad_dates==0,{'malformed_nonempty':bad_dates})
  if (ROOT/'validation'/(p.stem+'_profile.json')).exists():
   prof=json.loads((ROOT/'validation'/(p.stem+'_profile.json')).read_text());expected=prof.get('retained_rows');check('canonical_count:'+p.name,n==expected,{'parquet_rows':n,'profile_retained_rows':expected})
@@ -51,6 +58,6 @@ for p in sorted((DATA/'normalized').glob('*')):
  h=hashlib.sha256(p.read_bytes()).hexdigest();item={'path':str(p.relative_to(DATA)),'bytes':p.stat().st_size,'sha256':h}
  if p.suffix=='.parquet':item['rows']=pq.ParquetFile(p).metadata.num_rows
  normalized.append(item)
-save_json(ROOT/'validation/normalized_manifest.json',normalized);save_json(ROOT/'validation/canonical_profiles.json',canonical_profiles);save_json(ROOT/'validation/checks.json',{'checks':checks,'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] and c['severity']=='error' for c in checks),'coverage_warnings':sum(not c['passed'] and c['severity']=='coverage_warning' for c in checks),'raw_bytes':rawbytes,'normalized_bytes':sum(x['bytes'] for x in normalized)})
+save_json(ROOT/'validation/table_roles.json',table_roles);save_json(ROOT/'validation/normalized_manifest.json',normalized);save_json(ROOT/'validation/canonical_profiles.json',canonical_profiles);save_json(ROOT/'validation/checks.json',{'checks':checks,'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] and c['severity']=='error' for c in checks),'coverage_warnings':sum(not c['passed'] and c['severity']=='coverage_warning' for c in checks),'raw_bytes':rawbytes,'normalized_bytes':sum(x['bytes'] for x in normalized)})
 print(json.dumps({'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] and c['severity']=='error' for c in checks),'coverage_warnings':sum(not c['passed'] and c['severity']=='coverage_warning' for c in checks),'raw_bytes':rawbytes,'unique_transaction_keys':len(union),'normalized_bytes':sum(x['bytes'] for x in normalized)}))
 if any(not c['passed'] and c['severity']=='error' for c in checks):raise SystemExit(1)

@@ -1,0 +1,177 @@
+{
+  "basis": "Original first-pass normalized archives retained locally, before their replacements",
+  "checks": [
+    {
+      "file": "normalized/usaspending_dod_capabilities.parquet",
+      "rows": 305768,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_capabilities_fy2019.parquet",
+      "rows": 24383,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "rows": 8773,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_capabilities_fy2026.parquet",
+      "rows": 35822,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "rows": 551,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_capabilities_subawards.parquet",
+      "rows": 31308,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_darpa.parquet",
+      "rows": 12057,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_darpa_subawards.parquet",
+      "rows": 4869,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_rd_contracts.parquet",
+      "rows": 342900,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_rd_contracts_subawards.parquet",
+      "rows": 131534,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_rd_fy2019.parquet",
+      "rows": 44337,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_rd_fy2019_subawards.parquet",
+      "rows": 19937,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_rd_fy2026.parquet",
+      "rows": 33089,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_rd_fy2026_subawards.parquet",
+      "rows": 3090,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/apfit_fy2022_projects.parquet",
+      "rows": 10,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/apfit_pages.parquet",
+      "rows": 11,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/commons_pages.parquet",
+      "rows": 26,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/commons_projects.parquet",
+      "rows": 57,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/darpa_budget_pages.parquet",
+      "rows": 252,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/darpa_pb2025_programs.parquet",
+      "rows": 256,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/doe_ldrd_pages.parquet",
+      "rows": 167,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/doe_ldrd_table1_fy2019_2025.parquet",
+      "rows": 123,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/ffrdc_expenditures.parquet",
+      "rows": 862,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/financial_actions.parquet",
+      "rows": 712186,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/govinfo_budget_pages.parquet",
+      "rows": 114,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/grants.parquet",
+      "rows": 3283,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/omb_security_fy2019_2026.parquet",
+      "rows": 38600,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/sandia_ldrd_pages.parquet",
+      "rows": 131,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/sbir.parquet",
+      "rows": 18814,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/sbir_current.parquet",
+      "rows": 25770,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/sbir_current_exact_deduplicated.parquet",
+      "rows": 25769,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_research_grants.parquet",
+      "rows": 88273,
+      "all_preexisting_non_tag_fields_identical": true
+    },
+    {
+      "file": "normalized/usaspending_dod_research_grants_subawards.parquet",
+      "rows": 14143,
+      "all_preexisting_non_tag_fields_identical": true
+    }
+  ],
+  "passed": 33,
+  "failed": 0,
+  "baseline_archive_sha256": {
+    "FWI-20261016-normalized-rd-contracts.tar.gz": "f23bf7d70d75db72e461e79ab98a29fcb68543f339a440bb461d18e0db32c0f5",
+    "FWI-20261016-normalized-capabilities.tar.gz": "1f331792ac34f3803fa9e76087ac771c494f6e9f4f8412a808cd1b9d94bc7029",
+    "FWI-20261016-normalized-research-context.tar.gz": "03c2df18a61a54a125a2d830b0d2fc59cd21993e0ec6e24987cf06b6dbeeba5b"
+  }
+}

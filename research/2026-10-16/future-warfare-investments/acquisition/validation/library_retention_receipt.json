@@ -1,5 +1,5 @@
 {
-  "confirmed_at_utc": "2026-10-16 21:58:35 UTC",
+  "confirmed_at_utc": "2026-10-16T22:14:38.520517+00:00",
   "storage": "ChatGPT Library (private, current user)",
   "archives": [
     {
@@ -27,48 +27,57 @@
     {
       "name": "FWI-20261016-normalized-rd-contracts.tar.gz",
       "status": "succeeded",
-      "version": 0,
-      "bytes": 298091981,
+      "version": 1,
+      "bytes": 298124789,
       "library_file_id": "libfile_73d770aecd84819190d75cca211793c9",
-      "file_id": "file_00000000c08081fd81540621f4d60efe",
+      "file_id": "file_000000008a8881f6a0d9584cebc468bc",
       "path": "/FWI-20261016-normalized-rd-contracts.tar.gz",
       "xattrs_applied": true,
-      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-rd-contracts.tar.gz"
+      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-rd-contracts.tar.gz",
+      "previous_version": 0
     },
     {
       "name": "FWI-20261016-normalized-capabilities.tar.gz",
       "status": "succeeded",
-      "version": 0,
-      "bytes": 193265183,
+      "version": 1,
+      "bytes": 193288531,
       "library_file_id": "libfile_42799e02d6a48191b79d01305ca2d993",
-      "file_id": "file_00000000f99481fdb4e6f71d14f93c96",
+      "file_id": "file_00000000a24081fd8ad5ed8e148f5fdb",
       "path": "/FWI-20261016-normalized-capabilities.tar.gz",
       "xattrs_applied": true,
-      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-capabilities.tar.gz"
+      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-capabilities.tar.gz",
+      "previous_version": 0
     },
     {
       "name": "FWI-20261016-normalized-research-context.tar.gz",
       "status": "succeeded",
-      "version": 0,
-      "bytes": 344416024,
+      "version": 1,
+      "bytes": 337205379,
       "library_file_id": "libfile_2c5e90bd409081918f53e9a9d5bf841a",
-      "file_id": "file_00000000bc8c820995f34972d4bf8706",
+      "file_id": "file_00000000e3648209aa61718a232b36db",
       "path": "/FWI-20261016-normalized-research-context.tar.gz",
       "xattrs_applied": true,
-      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-research-context.tar.gz"
+      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-research-context.tar.gz",
+      "previous_version": 0
     },
     {
       "name": "FWI-20261016-provenance.tar.gz",
       "status": "succeeded",
-      "version": 0,
-      "bytes": 464788,
+      "version": 1,
+      "bytes": 495868,
       "library_file_id": "libfile_172a4a390abc8191a8a0938be70ab5cc",
-      "file_id": "file_00000000d0d881f5978a179d05d7ff86",
+      "file_id": "file_0000000061e881fdbdaedd04c1c9b138",
       "path": "/FWI-20261016-provenance.tar.gz",
       "xattrs_applied": true,
-      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-provenance.tar.gz"
+      "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-provenance.tar.gz",
+      "previous_version": 0
     }
   ],
-  "workspace_retention": "not independently guaranteed; Library copies confirmed",
-  "transfer_note": "Prepared helper failed before transfer with relay HTTP401; existing authorized native Library file saves succeeded. No credentials created."
+  "qa_correction": {
+    "replacements": 4,
+    "all_replacement_versions": 1,
+    "raw_archives_unchanged": true,
+    "post_save_library_metadata_verified": true,
+    "local_archive_and_member_hash_verification": "qa_artifact_verification.json"
+  }
 }

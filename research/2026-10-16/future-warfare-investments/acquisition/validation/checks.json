@@ -599,7 +599,324 @@
       "passed": true,
       "severity": "error",
       "detail": {
-        "free_bytes": 29654142976
+        "free_bytes": 28208594944
+      }
+    },
+    {
+      "check": "required_evidence_table:apfit_fy2022_projects.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:apfit_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:commons_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:commons_projects.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:darpa_budget_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:darpa_pb2025_programs.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:doe_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:financial_actions.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:govinfo_budget_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:omb_security_fy2019_2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:sandia_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:sbir.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:sbir_current.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:sbir_current_exact_deduplicated.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_darpa.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_darpa_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_capabilities.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_capabilities_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_capabilities_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_capabilities_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_rd_contracts.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_rd_contracts_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_rd_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_rd_fy2019_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_rd_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_rd_fy2026_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_research_grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "required_evidence_table:usaspending_dod_research_grants_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "mandatory": true
+      }
+    },
+    {
+      "check": "lineage_schema:apfit_fy2022_projects.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_fy2022_projects.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 10
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_fy2022_projects.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 10
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_fy2022_projects.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 10
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_fy2022_projects.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 10
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_fy2022_projects.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 10
+      }
+    },
+    {
+      "check": "date_format:apfit_fy2022_projects.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:apfit_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -639,11 +956,28 @@
       }
     },
     {
+      "check": "canonical_lineage:apfit_pages.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 11
+      }
+    },
+    {
       "check": "date_format:apfit_pages.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:commons_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -683,11 +1017,89 @@
       }
     },
     {
+      "check": "canonical_lineage:commons_pages.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 26
+      }
+    },
+    {
       "check": "date_format:commons_pages.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:commons_projects.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_projects.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 57
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_projects.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 57
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_projects.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 57
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_projects.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 57
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_projects.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 57
+      }
+    },
+    {
+      "check": "date_format:commons_projects.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:darpa_budget_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -727,11 +1139,89 @@
       }
     },
     {
+      "check": "canonical_lineage:darpa_budget_pages.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 252
+      }
+    },
+    {
       "check": "date_format:darpa_budget_pages.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:darpa_pb2025_programs.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_pb2025_programs.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 256
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_pb2025_programs.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 256
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_pb2025_programs.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 256
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_pb2025_programs.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 256
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_pb2025_programs.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 256
+      }
+    },
+    {
+      "check": "date_format:darpa_pb2025_programs.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:doe_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -771,11 +1261,28 @@
       }
     },
     {
+      "check": "canonical_lineage:doe_ldrd_pages.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 167
+      }
+    },
+    {
       "check": "date_format:doe_ldrd_pages.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:financial_actions.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -815,11 +1322,28 @@
       }
     },
     {
+      "check": "canonical_lineage:financial_actions.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 712186
+      }
+    },
+    {
       "check": "date_format:financial_actions.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:govinfo_budget_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -859,11 +1383,28 @@
       }
     },
     {
+      "check": "canonical_lineage:govinfo_budget_pages.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 114
+      }
+    },
+    {
       "check": "date_format:govinfo_budget_pages.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -903,6 +1444,15 @@
       }
     },
     {
+      "check": "canonical_lineage:grants.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3283
+      }
+    },
+    {
       "check": "date_format:grants.parquet",
       "passed": true,
       "severity": "error",
@@ -917,6 +1467,75 @@
       "detail": {
         "parquet_rows": 3283,
         "profile_retained_rows": 3283
+      }
+    },
+    {
+      "check": "lineage_schema:omb_security_fy2019_2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
+      }
+    },
+    {
+      "check": "canonical_lineage:omb_security_fy2019_2026.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 38600
+      }
+    },
+    {
+      "check": "canonical_lineage:omb_security_fy2019_2026.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 38600
+      }
+    },
+    {
+      "check": "canonical_lineage:omb_security_fy2019_2026.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 38600
+      }
+    },
+    {
+      "check": "canonical_lineage:omb_security_fy2019_2026.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 38600
+      }
+    },
+    {
+      "check": "canonical_lineage:omb_security_fy2019_2026.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 38600
+      }
+    },
+    {
+      "check": "date_format:omb_security_fy2019_2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:sandia_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -956,11 +1575,28 @@
       }
     },
     {
+      "check": "canonical_lineage:sandia_ldrd_pages.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131
+      }
+    },
+    {
       "check": "date_format:sandia_ldrd_pages.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:sbir.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1000,6 +1636,15 @@
       }
     },
     {
+      "check": "canonical_lineage:sbir.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 18814
+      }
+    },
+    {
       "check": "date_format:sbir.parquet",
       "passed": true,
       "severity": "error",
@@ -1014,6 +1659,14 @@
       "detail": {
         "parquet_rows": 18814,
         "profile_retained_rows": 18814
+      }
+    },
+    {
+      "check": "lineage_schema:sbir_current.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1053,6 +1706,15 @@
       }
     },
     {
+      "check": "canonical_lineage:sbir_current.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25770
+      }
+    },
+    {
       "check": "date_format:sbir_current.parquet",
       "passed": true,
       "severity": "error",
@@ -1067,6 +1729,14 @@
       "detail": {
         "parquet_rows": 25770,
         "profile_retained_rows": 25770
+      }
+    },
+    {
+      "check": "lineage_schema:sbir_current_exact_deduplicated.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1106,11 +1776,28 @@
       }
     },
     {
+      "check": "canonical_lineage:sbir_current_exact_deduplicated.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25769
+      }
+    },
+    {
       "check": "date_format:sbir_current_exact_deduplicated.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_darpa.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1150,6 +1837,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_darpa.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 12057
+      }
+    },
+    {
       "check": "date_format:usaspending_darpa.parquet",
       "passed": true,
       "severity": "error",
@@ -1164,6 +1860,14 @@
       "detail": {
         "parquet_rows": 12057,
         "profile_retained_rows": 12057
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_darpa_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1203,11 +1907,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_darpa_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 4869
+      }
+    },
+    {
       "check": "date_format:usaspending_darpa_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_capabilities.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1247,6 +1968,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_capabilities.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 305768
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_capabilities.parquet",
       "passed": true,
       "severity": "error",
@@ -1261,6 +1991,14 @@
       "detail": {
         "parquet_rows": 305768,
         "profile_retained_rows": 305768
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_capabilities_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1300,6 +2038,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 24383
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_capabilities_fy2019.parquet",
       "passed": true,
       "severity": "error",
@@ -1314,6 +2061,14 @@
       "detail": {
         "parquet_rows": 24383,
         "profile_retained_rows": 24383
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1353,11 +2108,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 8773
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_capabilities_fy2019_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_capabilities_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1397,6 +2169,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 35822
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_capabilities_fy2026.parquet",
       "passed": true,
       "severity": "error",
@@ -1411,6 +2192,14 @@
       "detail": {
         "parquet_rows": 35822,
         "profile_retained_rows": 35822
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1450,11 +2239,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 551
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_capabilities_fy2026_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_capabilities_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1494,11 +2300,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_capabilities_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 31308
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_capabilities_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_rd_contracts.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1538,6 +2361,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 342900
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_rd_contracts.parquet",
       "passed": true,
       "severity": "error",
@@ -1552,6 +2384,14 @@
       "detail": {
         "parquet_rows": 342900,
         "profile_retained_rows": 342900
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_rd_contracts_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1591,11 +2431,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_contracts_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131534
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_rd_contracts_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_rd_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1635,6 +2492,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 44337
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_rd_fy2019.parquet",
       "passed": true,
       "severity": "error",
@@ -1649,6 +2515,14 @@
       "detail": {
         "parquet_rows": 44337,
         "profile_retained_rows": 44337
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_rd_fy2019_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1688,11 +2562,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 19937
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_rd_fy2019_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_rd_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1732,6 +2623,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 33089
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_rd_fy2026.parquet",
       "passed": true,
       "severity": "error",
@@ -1746,6 +2646,14 @@
       "detail": {
         "parquet_rows": 33089,
         "profile_retained_rows": 33089
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_rd_fy2026_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1785,11 +2693,28 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026_subawards.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3090
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_rd_fy2026_subawards.parquet",
       "passed": true,
       "severity": "error",
       "detail": {
         "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_research_grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1829,6 +2754,15 @@
       }
     },
     {
+      "check": "canonical_lineage:usaspending_dod_research_grants.parquet:retrieved_at",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 88273
+      }
+    },
+    {
       "check": "date_format:usaspending_dod_research_grants.parquet",
       "passed": true,
       "severity": "error",
@@ -1843,6 +2777,14 @@
       "detail": {
         "parquet_rows": 88273,
         "profile_retained_rows": 88273
+      }
+    },
+    {
+      "check": "lineage_schema:usaspending_dod_research_grants_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing_required_columns": []
       }
     },
     {
@@ -1874,6 +2816,15 @@
     },
     {
       "check": "canonical_lineage:usaspending_dod_research_grants_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 14143
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants_subawards.parquet:retrieved_at",
       "passed": true,
       "severity": "error",
       "detail": {
@@ -2304,9 +3255,9 @@
       }
     }
   ],
-  "passed": 249,
+  "passed": 362,
   "failed": 0,
   "coverage_warnings": 4,
   "raw_bytes": 1127854484,
-  "normalized_bytes": 895792383
+  "normalized_bytes": 884011827
 }

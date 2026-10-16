@@ -1,0 +1,302 @@
+[
+  {
+    "file": "PB2025_budget_authority_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "PB2025_outlays_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "PB2027_budget_authority_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "PB2027_outlays_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "apfit_fy2022_projects.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "apfit_pages.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "commons_pages.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "commons_projects.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "darpa_budget_pages.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "darpa_pb2025_programs.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "doe_ldrd_pages.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "doe_ldrd_table1_fy2019_2025.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "federal_funds_source_rows.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "ffrdc_expenditures.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "ffrdc_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "financial_actions.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "govinfo_budget_pages.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "grants.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "grants_selected_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "omb_security_fy2019_2026.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "psc_Category_Managers.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "psc_PSC_for_042025.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "sandia_ldrd_pages.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "sbir.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "sbir_current.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "sbir_current_exact_deduplicated.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "sbir_usaspending_candidate_links.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_darpa.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_darpa_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_darpa_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_darpa_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_capabilities.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2019.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2019_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2019_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2019_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2026.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2026_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2026_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2026_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_capabilities_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_capabilities_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_capabilities_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_rd_contracts.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_rd_contracts_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_rd_contracts_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_rd_contracts_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_rd_fy2019.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_rd_fy2019_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_rd_fy2019_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_rd_fy2019_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_rd_fy2026.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_rd_fy2026_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_rd_fy2026_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_rd_fy2026_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_research_grants.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_research_grants_subawards.parquet",
+    "role": "pipeline evidence",
+    "pipeline_evidence_contract_applied": true
+  },
+  {
+    "file": "usaspending_dod_research_grants_subawards_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_dod_research_grants_transactions_source.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  },
+  {
+    "file": "usaspending_unique_transaction_index.parquet",
+    "role": "source-specific context, lookup, index or candidate link; requires adapter before evidence pipeline",
+    "pipeline_evidence_contract_applied": false
+  }
+]

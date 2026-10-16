@@ -17,6 +17,8 @@ if a.regenerate:
  else:raise SystemExit('Export still pending after 30 minutes; use saved status URL later')
  print('Regenerated data is a new snapshot; compare its checksum and row counts before use.')
 else:
+ failures=0
+ if not entries:raise SystemExit('No downloaded manifest entries match selection')
  for e in entries:
   path=DATA/e['relative_path']
   if not a.verify_only and not path.exists():fetch(e['source'],e['url'],path.name,max(e['bytes']*2,5_000_000))
@@ -26,5 +28,7 @@ else:
     for b in iter(lambda:f.read(8*1024*1024),b''):h.update(b)
    good=h.hexdigest()==e['sha256']
    print(json.dumps({'source':e['source'],'path':str(path),'bytes':path.stat().st_size,'expected_sha256':e['sha256'],'actual_sha256':h.hexdigest(),'match':good}))
-   if not good:raise SystemExit('Snapshot checksum differs; retain as a new vintage, not the original acquisition.')
-  else:print(json.dumps({'source':e['source'],'missing':str(path)}))
+   if not good:failures+=1
+  else:
+   print(json.dumps({'source':e['source'],'missing':str(path)}));failures+=1
+ if failures:raise SystemExit(f'{failures} required payload(s) missing or checksum-mismatched')

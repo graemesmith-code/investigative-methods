@@ -1,0 +1,174 @@
+{
+  "cohort": "unchanged retained records; no re-selection or acquisition",
+  "taxonomy_role": "retrieval features, not novelty or eligibility judgments",
+  "tables": [
+    {
+      "file": "apfit_fy2022_projects.parquet",
+      "rows": 10,
+      "hypersonic": 0,
+      "untagged": 4
+    },
+    {
+      "file": "apfit_pages.parquet",
+      "rows": 11,
+      "hypersonic": 0,
+      "untagged": 5
+    },
+    {
+      "file": "commons_pages.parquet",
+      "rows": 26,
+      "hypersonic": 2,
+      "untagged": 1
+    },
+    {
+      "file": "commons_projects.parquet",
+      "rows": 57,
+      "hypersonic": 3,
+      "untagged": 15
+    },
+    {
+      "file": "darpa_budget_pages.parquet",
+      "rows": 252,
+      "hypersonic": 8,
+      "untagged": 60
+    },
+    {
+      "file": "doe_ldrd_pages.parquet",
+      "rows": 167,
+      "hypersonic": 0,
+      "untagged": 160
+    },
+    {
+      "file": "govinfo_budget_pages.parquet",
+      "rows": 114,
+      "hypersonic": 0,
+      "untagged": 66
+    },
+    {
+      "file": "grants.parquet",
+      "rows": 3283,
+      "hypersonic": 11,
+      "untagged": 1910
+    },
+    {
+      "file": "sandia_ldrd_pages.parquet",
+      "rows": 131,
+      "hypersonic": 13,
+      "untagged": 57
+    },
+    {
+      "file": "sbir.parquet",
+      "rows": 18814,
+      "hypersonic": 602,
+      "untagged": 7088
+    },
+    {
+      "file": "sbir_current.parquet",
+      "rows": 25770,
+      "hypersonic": 926,
+      "untagged": 9022
+    },
+    {
+      "file": "sbir_current_exact_deduplicated.parquet",
+      "rows": 25769,
+      "hypersonic": 926,
+      "untagged": 9022
+    },
+    {
+      "file": "usaspending_darpa.parquet",
+      "rows": 12057,
+      "hypersonic": 183,
+      "untagged": 9697
+    },
+    {
+      "file": "usaspending_darpa_subawards.parquet",
+      "rows": 4869,
+      "hypersonic": 3,
+      "untagged": 4539
+    },
+    {
+      "file": "usaspending_dod_capabilities.parquet",
+      "rows": 305768,
+      "hypersonic": 2323,
+      "untagged": 150332
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2019.parquet",
+      "rows": 24383,
+      "hypersonic": 212,
+      "untagged": 9330
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "rows": 8773,
+      "hypersonic": 48,
+      "untagged": 3666
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2026.parquet",
+      "rows": 35822,
+      "hypersonic": 278,
+      "untagged": 17614
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "rows": 551,
+      "hypersonic": 4,
+      "untagged": 331
+    },
+    {
+      "file": "usaspending_dod_capabilities_subawards.parquet",
+      "rows": 31308,
+      "hypersonic": 398,
+      "untagged": 13089
+    },
+    {
+      "file": "usaspending_dod_rd_contracts.parquet",
+      "rows": 342900,
+      "hypersonic": 2418,
+      "untagged": 285000
+    },
+    {
+      "file": "usaspending_dod_rd_contracts_subawards.parquet",
+      "rows": 131534,
+      "hypersonic": 354,
+      "untagged": 123070
+    },
+    {
+      "file": "usaspending_dod_rd_fy2019.parquet",
+      "rows": 44337,
+      "hypersonic": 266,
+      "untagged": 37091
+    },
+    {
+      "file": "usaspending_dod_rd_fy2019_subawards.parquet",
+      "rows": 19937,
+      "hypersonic": 48,
+      "untagged": 17848
+    },
+    {
+      "file": "usaspending_dod_rd_fy2026.parquet",
+      "rows": 33089,
+      "hypersonic": 235,
+      "untagged": 27706
+    },
+    {
+      "file": "usaspending_dod_rd_fy2026_subawards.parquet",
+      "rows": 3090,
+      "hypersonic": 3,
+      "untagged": 2994
+    },
+    {
+      "file": "usaspending_dod_research_grants.parquet",
+      "rows": 88273,
+      "hypersonic": 922,
+      "untagged": 70987
+    },
+    {
+      "file": "usaspending_dod_research_grants_subawards.parquet",
+      "rows": 14143,
+      "hypersonic": 195,
+      "untagged": 9982
+    }
+  ]
+}

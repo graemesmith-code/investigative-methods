@@ -1,0 +1,42 @@
+{
+  "archives": [
+    {
+      "filename": "FWI-20261016-raw-sbir-snapshots.tar.gz",
+      "sha256_matches": true,
+      "bytes": 267807774
+    },
+    {
+      "filename": "FWI-20261016-raw-other-sources.tar.gz",
+      "sha256_matches": true,
+      "bytes": 352286033
+    },
+    {
+      "filename": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "sha256_matches": true,
+      "bytes": 298124789
+    },
+    {
+      "filename": "FWI-20261016-normalized-capabilities.tar.gz",
+      "sha256_matches": true,
+      "bytes": 193288531
+    },
+    {
+      "filename": "FWI-20261016-normalized-research-context.tar.gz",
+      "sha256_matches": true,
+      "bytes": 337205379
+    },
+    {
+      "filename": "FWI-20261016-provenance.tar.gz",
+      "sha256_matches": true,
+      "bytes": 495868
+    }
+  ],
+  "required_raw_payloads": 54,
+  "required_normalized_files": 100,
+  "represented_paths": 154,
+  "missing_paths": [],
+  "duplicate_representations": {},
+  "hash_mismatches": [],
+  "passed": true,
+  "scope": "Local archive bytes and member hashes; Library retention is independently recorded in library_retention_receipt.json"
+}

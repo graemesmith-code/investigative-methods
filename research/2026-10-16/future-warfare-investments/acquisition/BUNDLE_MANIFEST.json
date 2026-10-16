@@ -97,8 +97,8 @@
     {
       "filename": "FWI-20261016-normalized-rd-contracts.tar.gz",
       "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-rd-contracts.tar.gz",
-      "bytes": 298091981,
-      "sha256": "f23bf7d70d75db72e461e79ab98a29fcb68543f339a440bb461d18e0db32c0f5",
+      "bytes": 298124789,
+      "sha256": "63809f0fbf8fc5427341e637054cfe2012f6f7f5c28379af9178f735a6762317",
       "members": 24,
       "member_paths": [
         "normalized/usaspending_darpa.jsonl.gz",
@@ -128,20 +128,21 @@
       ],
       "library": {
         "library_file_id": "libfile_73d770aecd84819190d75cca211793c9",
-        "file_id": "file_00000000c08081fd81540621f4d60efe",
+        "file_id": "file_000000008a8881f6a0d9584cebc468bc",
         "name": "FWI-20261016-normalized-rd-contracts.tar.gz",
         "path": "/FWI-20261016-normalized-rd-contracts.tar.gz",
-        "version": 0,
-        "bytes": 298091981,
+        "version": 1,
+        "bytes": 298124789,
         "status": "succeeded",
         "xattrs_applied": true
-      }
+      },
+      "library_previous_version": 0
     },
     {
       "filename": "FWI-20261016-normalized-capabilities.tar.gz",
       "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-capabilities.tar.gz",
-      "bytes": 193265183,
-      "sha256": "1f331792ac34f3803fa9e76087ac771c494f6e9f4f8412a808cd1b9d94bc7029",
+      "bytes": 193288531,
+      "sha256": "a06375165baf25a4532ee6bef8c3cb47aba05ebb6c03cc55db8253487953b96e",
       "members": 18,
       "member_paths": [
         "normalized/usaspending_dod_capabilities.jsonl.gz",
@@ -165,20 +166,21 @@
       ],
       "library": {
         "library_file_id": "libfile_42799e02d6a48191b79d01305ca2d993",
-        "file_id": "file_00000000f99481fdb4e6f71d14f93c96",
+        "file_id": "file_00000000a24081fd8ad5ed8e148f5fdb",
         "name": "FWI-20261016-normalized-capabilities.tar.gz",
         "path": "/FWI-20261016-normalized-capabilities.tar.gz",
-        "version": 0,
-        "bytes": 193265183,
+        "version": 1,
+        "bytes": 193288531,
         "status": "succeeded",
         "xattrs_applied": true
-      }
+      },
+      "library_previous_version": 0
     },
     {
       "filename": "FWI-20261016-normalized-research-context.tar.gz",
       "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-normalized-research-context.tar.gz",
-      "bytes": 344416024,
-      "sha256": "03c2df18a61a54a125a2d830b0d2fc59cd21993e0ec6e24987cf06b6dbeeba5b",
+      "bytes": 337205379,
+      "sha256": "b9ad7acc6061f21792c4d26efc57940e4506702e22c490046d69f5e5b292a8eb",
       "members": 58,
       "member_paths": [
         "normalized/DOE_FY2019_LDRD_1.ocr.json",
@@ -242,21 +244,22 @@
       ],
       "library": {
         "library_file_id": "libfile_2c5e90bd409081918f53e9a9d5bf841a",
-        "file_id": "file_00000000bc8c820995f34972d4bf8706",
+        "file_id": "file_00000000e3648209aa61718a232b36db",
         "name": "FWI-20261016-normalized-research-context.tar.gz",
         "path": "/FWI-20261016-normalized-research-context.tar.gz",
-        "version": 0,
-        "bytes": 344416024,
+        "version": 1,
+        "bytes": 337205379,
         "status": "succeeded",
         "xattrs_applied": true
-      }
+      },
+      "library_previous_version": 0
     },
     {
       "filename": "FWI-20261016-provenance.tar.gz",
       "local_path": "/workspace/task-data/fwi-bundles/FWI-20261016-provenance.tar.gz",
-      "bytes": 464788,
-      "sha256": "ae5a0c0c051263b20920ed808e7d1f3a42efbe0e31616bf032c252260760d9be",
-      "members": 176,
+      "bytes": 495868,
+      "sha256": "2821f829080e8529e7eedf70e367e0f27488ce2a5f8ae118f9704d35400d3f48",
+      "members": 189,
       "member_paths": [
         "provenance/.gitignore",
         "provenance/DATASETS.csv",
@@ -270,10 +273,12 @@
         "provenance/code/catalog.py",
         "provenance/code/collect_documents.py",
         "provenance/code/collect_ldrd.py",
+        "provenance/code/compare_retained.py",
         "provenance/code/coverage_checks.py",
         "provenance/code/deduplicate.py",
         "provenance/code/dry_run.py",
         "provenance/code/financial_actions.py",
+        "provenance/code/lineage.py",
         "provenance/code/normalize.py",
         "provenance/code/ocr_ldrd.py",
         "provenance/code/package_data.py",
@@ -285,12 +290,17 @@
         "provenance/code/render_readme.py",
         "provenance/code/requirements.lock.txt",
         "provenance/code/requirements.txt",
+        "provenance/code/retag_retained.py",
         "provenance/code/retrieve.py",
         "provenance/code/semantic_audit.py",
+        "provenance/code/smoke_test.py",
         "provenance/code/supplement_dictionaries.py",
+        "provenance/code/tests/test_qa.py",
         "provenance/code/validate.py",
+        "provenance/code/verify_bundles.py",
         "provenance/design/PIPELINE_INTERFACES.md",
         "provenance/design/canonical_record_schema.json",
+        "provenance/design/evidence_table_contracts.json",
         "provenance/design/pipeline_request.example.json",
         "provenance/evidence/financial_basis_examples.json",
         "provenance/evidence/ldrd_scanned_table1_transcription.csv",
@@ -393,14 +403,20 @@
         "provenance/validation/parquet_catalog.json",
         "provenance/validation/pdf_profiles.json",
         "provenance/validation/psc_profile.json",
+        "provenance/validation/qa_cohort_comparison.json",
+        "provenance/validation/qa_regression_tests.txt",
+        "provenance/validation/qa_restore_verification.json",
+        "provenance/validation/qa_smoke_test.json",
         "provenance/validation/rd_single_year_scope_checks.json",
         "provenance/validation/recovery_check.json",
+        "provenance/validation/retag_retained.json",
         "provenance/validation/runtime.json",
         "provenance/validation/sbir_current_profile.json",
         "provenance/validation/sbir_fields.csv",
         "provenance/validation/sbir_profile.json",
         "provenance/validation/sbir_retained_semantic_checks.json",
         "provenance/validation/source_fields.csv",
+        "provenance/validation/table_roles.json",
         "provenance/validation/usaspending_darpa_profile.json",
         "provenance/validation/usaspending_darpa_schemas.json",
         "provenance/validation/usaspending_darpa_source_table_profiles.json",
@@ -437,23 +453,22 @@
       ],
       "library": {
         "library_file_id": "libfile_172a4a390abc8191a8a0938be70ab5cc",
-        "file_id": "file_00000000d0d881f5978a179d05d7ff86",
+        "file_id": "file_0000000061e881fdbdaedd04c1c9b138",
         "name": "FWI-20261016-provenance.tar.gz",
         "path": "/FWI-20261016-provenance.tar.gz",
-        "version": 0,
-        "bytes": 464788,
+        "version": 1,
+        "bytes": 495868,
         "status": "succeeded",
         "xattrs_applied": true
-      }
+      },
+      "library_previous_version": 0
     }
   ],
   "durable_storage": {
-    "provider": "ChatGPT Library",
-    "visibility": "private current-user Library",
-    "confirmed_at_utc": "2026-10-16 21:58:35 UTC",
-    "all_six_saves_confirmed": true,
-    "all_reported_sizes_match_local_archives": true,
-    "local_identity_xattrs_applied": true,
-    "archive_bytes_total": 1456331783
+    "storage": "ChatGPT Library (private, current user)",
+    "confirmed_at_utc": "2026-10-16T22:14:38.520517+00:00",
+    "status": "all six archives retained; four corrected archives replaced at version 1; two raw archives unchanged at version 0",
+    "post_save_library_metadata_verified": true,
+    "raw_archives_unchanged": true
   }
 }

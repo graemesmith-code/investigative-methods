@@ -5,7 +5,7 @@ from decimal import Decimal,InvalidOperation
 import pyarrow as pa,pyarrow.parquet as pq
 from acquire import ROOT,DATA,save_json
 csv.field_size_limit(20_000_000)
-TERMS={'quantum':r'quantum|qubit','autonomy_drones':r'autonom|unmanned|uncrewed|\bUAS\b|\bUAV\b|drone|swarm','sensors':r'sensor|radar|lidar|infrared|photon|electro.optic','cyber':r'cyber|cryptograph|zero.trust','space':r'satellite|spacecraft|orbital|\bPNT\b|space domain','logistics':r'logistic|contested|supply.chain|additive manufactur|power.beam','communications_ew':r'electronic warfare|spectrum|radio.frequency|tactical network|communications','ai':r'artificial intelligence|machine learning|neural network'}
+TERMS={'hypersonic':r'hyper[- ]?sonic','quantum':r'quantum|qubit','autonomy_drones':r'autonom|unmanned|uncrewed|\bUAS\b|\bUAV\b|drone|swarm','sensors':r'sensor|radar|lidar|infrared|photon|electro.optic','cyber':r'cyber|cryptograph|zero.trust','space':r'satellite|spacecraft|orbital|\bPNT\b|space domain','logistics':r'logistic|contested|supply.chain|additive manufactur|power.beam','communications_ew':r'electronic warfare|spectrum|radio.frequency|tactical network|communications','ai':r'artificial intelligence|machine learning|neural network'}
 def digest(x):return hashlib.sha256(x.encode()).hexdigest()
 def tags(t):return [k for k,v in TERMS.items() if re.search(v,t,re.I)]
 def iso(s):
@@ -35,13 +35,28 @@ SCHEMA=pa.schema([(k,pa.string()) for k in ['document_id','source','source_recor
 def record(**kwargs):return {k:kwargs.get(k) for k in SCHEMA.names}
 def profile(rows,fields):
  return {'rows':rows,'fields':fields}
+def snapshot_metadata(path,manifest):
+ relative=str(path.relative_to(DATA))
+ matches=[m for m in manifest if m.get('outcome')=='downloaded' and m.get('relative_path')==relative]
+ if not matches:raise ValueError('No exact-file snapshot metadata: '+relative)
+ hashes={m['sha256'] for m in matches}
+ if len(hashes)!=1:raise ValueError('Conflicting snapshot metadata: '+relative)
+ m=matches[-1]
+ h=hashlib.sha256()
+ with path.open('rb') as f:
+  for b in iter(lambda:f.read(8*1024*1024),b''):h.update(b)
+ if h.hexdigest()!=m['sha256']:raise ValueError('Raw snapshot checksum mismatch: '+relative)
+ return m
 def analyze(source):
  p=DATA/'raw'/source; files=list(p.glob('*.csv'))+list(p.glob('*.zip'))
- w=Writer(source);counts=collections.Counter();missing=collections.Counter();dates=collections.defaultdict(list);years=collections.Counter();agencies=collections.Counter();seen=set();dups=0;samples=[];schema=[];moneyfields=[];idfields=[];retained=0;selected_years=collections.Counter();selected_missing=collections.Counter();selected_seen=set();selected_dups=0;selected_dates=[];rawhash=hashlib.sha256();sourceurl='';retrieved=None;snapshothash=None
- for line in (ROOT/'validation/http_manifest.jsonl').read_text().splitlines():
-  m=json.loads(line)
-  if m['source']==source and m['outcome']=='downloaded':sourceurl=m['url'];retrieved=m['retrieved_at'];snapshothash=m['sha256']
+ if not files:raise ValueError('No CSV/ZIP payloads for '+source)
+ counts=collections.Counter();missing=collections.Counter();dates=collections.defaultdict(list);years=collections.Counter();agencies=collections.Counter();seen=set();dups=0;samples=[];schema=[];moneyfields=[];idfields=[];retained=0;selected_years=collections.Counter();selected_missing=collections.Counter();selected_seen=set();selected_dups=0;selected_dates=[];rawhash=hashlib.sha256();sourceurl='';retrieved=None;snapshothash=None
+ manifest=[json.loads(line) for line in (ROOT/'validation/http_manifest.jsonl').read_text().splitlines()]
+ # Bind every row to its exact file, never the last source-level manifest entry.
+ snapshots={str(path):snapshot_metadata(path,manifest) for path in files}
+ w=Writer(source)
  for path in files:
+  m=snapshots[str(path)];sourceurl=m['url'];retrieved=m['retrieved_at'];snapshothash=m['sha256']
   if path.suffix=='.zip':
    z=zipfile.ZipFile(path);save_json(ROOT/'validation'/f'{source}_zip_inventory.json',[{'name':x.filename,'compressed':x.compress_size,'uncompressed':x.file_size} for x in z.infolist()]);streams=[(n,io.TextIOWrapper(z.open(n),encoding='utf-8-sig',errors='replace',newline='')) for n in z.namelist() if n.endswith('.csv') and ('PrimeTransactions' in n)]
   else:streams=[(path.name,path.open(encoding='utf-8-sig',errors='replace',newline=''))]
@@ -52,7 +67,7 @@ def analyze(source):
     idfields=[k for k in schema if k in ['contract_transaction_unique_key','contract_award_unique_key','award_id_piid','award_id_fain','award_id_uri','recipient_uei','recipient_duns','assistance_transaction_unique_key','assistance_award_unique_key']]
     moneyfields=[k for k in schema if any(a in k for a in ['obligat','outlay','value','loan','subsidy','non_federal_funding','total_funding']) and not k.endswith('_code')]
    for i,r in enumerate(reader,1):
-    counts[member]+=1
+    counts[f'{path.name}:{member}' if len(files)>1 else member]+=1
     for k in schema:
      if not (r.get(k) or '').strip():missing[k]+=1
     rowjson=json.dumps(r,sort_keys=True);h=digest(rowjson);rawhash.update((h+'\n').encode())

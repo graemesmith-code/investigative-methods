@@ -26,8 +26,8 @@
   {
     "path": "normalized/apfit_fy2022_projects.parquet",
     "rows": 10,
-    "columns": 12,
-    "bytes": 27242
+    "columns": 17,
+    "bytes": 28474
   },
   {
     "path": "normalized/apfit_pages.parquet",
@@ -39,25 +39,25 @@
     "path": "normalized/commons_pages.parquet",
     "rows": 26,
     "columns": 21,
-    "bytes": 65576
+    "bytes": 65593
   },
   {
     "path": "normalized/commons_projects.parquet",
     "rows": 57,
-    "columns": 18,
-    "bytes": 108283
+    "columns": 19,
+    "bytes": 85817
   },
   {
     "path": "normalized/darpa_budget_pages.parquet",
     "rows": 252,
     "columns": 21,
-    "bytes": 215861
+    "bytes": 215942
   },
   {
     "path": "normalized/darpa_pb2025_programs.parquet",
     "rows": 256,
-    "columns": 12,
-    "bytes": 202142
+    "columns": 16,
+    "bytes": 206164
   },
   {
     "path": "normalized/doe_ldrd_pages.parquet",
@@ -93,7 +93,7 @@
     "path": "normalized/financial_actions.parquet",
     "rows": 712186,
     "columns": 15,
-    "bytes": 41524804
+    "bytes": 41529606
   },
   {
     "path": "normalized/govinfo_budget_pages.parquet",
@@ -105,7 +105,7 @@
     "path": "normalized/grants.parquet",
     "rows": 3283,
     "columns": 21,
-    "bytes": 3621696
+    "bytes": 3621765
   },
   {
     "path": "normalized/grants_selected_source.parquet",
@@ -116,8 +116,8 @@
   {
     "path": "normalized/omb_security_fy2019_2026.parquet",
     "rows": 38600,
-    "columns": 18,
-    "bytes": 3296365
+    "columns": 19,
+    "bytes": 3343484
   },
   {
     "path": "normalized/psc_Category_Managers.parquet",
@@ -135,25 +135,25 @@
     "path": "normalized/sandia_ldrd_pages.parquet",
     "rows": 131,
     "columns": 21,
-    "bytes": 165635
+    "bytes": 165678
   },
   {
     "path": "normalized/sbir.parquet",
     "rows": 18814,
     "columns": 21,
-    "bytes": 16020166
+    "bytes": 16019658
   },
   {
     "path": "normalized/sbir_current.parquet",
     "rows": 25770,
     "columns": 21,
-    "bytes": 23584885
+    "bytes": 23584766
   },
   {
     "path": "normalized/sbir_current_exact_deduplicated.parquet",
     "rows": 25769,
     "columns": 21,
-    "bytes": 35513160
+    "bytes": 23591881
   },
   {
     "path": "normalized/sbir_usaspending_candidate_links.parquet",
@@ -165,13 +165,13 @@
     "path": "normalized/usaspending_darpa.parquet",
     "rows": 12057,
     "columns": 21,
-    "bytes": 1799055
+    "bytes": 1799133
   },
   {
     "path": "normalized/usaspending_darpa_subawards.parquet",
     "rows": 4869,
     "columns": 21,
-    "bytes": 973914
+    "bytes": 973929
   },
   {
     "path": "normalized/usaspending_darpa_subawards_source.parquet",
@@ -189,19 +189,19 @@
     "path": "normalized/usaspending_dod_capabilities.parquet",
     "rows": 305768,
     "columns": 21,
-    "bytes": 49897747
+    "bytes": 49899822
   },
   {
     "path": "normalized/usaspending_dod_capabilities_fy2019.parquet",
     "rows": 24383,
     "columns": 21,
-    "bytes": 4609046
+    "bytes": 4609228
   },
   {
     "path": "normalized/usaspending_dod_capabilities_fy2019_subawards.parquet",
     "rows": 8773,
     "columns": 21,
-    "bytes": 1652412
+    "bytes": 1652501
   },
   {
     "path": "normalized/usaspending_dod_capabilities_fy2019_subawards_source.parquet",
@@ -219,13 +219,13 @@
     "path": "normalized/usaspending_dod_capabilities_fy2026.parquet",
     "rows": 35822,
     "columns": 21,
-    "bytes": 8134122
+    "bytes": 8134536
   },
   {
     "path": "normalized/usaspending_dod_capabilities_fy2026_subawards.parquet",
     "rows": 551,
     "columns": 21,
-    "bytes": 205132
+    "bytes": 205130
   },
   {
     "path": "normalized/usaspending_dod_capabilities_fy2026_subawards_source.parquet",
@@ -243,7 +243,7 @@
     "path": "normalized/usaspending_dod_capabilities_subawards.parquet",
     "rows": 31308,
     "columns": 21,
-    "bytes": 6788776
+    "bytes": 6789261
   },
   {
     "path": "normalized/usaspending_dod_capabilities_subawards_source.parquet",
@@ -261,13 +261,13 @@
     "path": "normalized/usaspending_dod_rd_contracts.parquet",
     "rows": 342900,
     "columns": 21,
-    "bytes": 56400114
+    "bytes": 56403571
   },
   {
     "path": "normalized/usaspending_dod_rd_contracts_subawards.parquet",
     "rows": 131534,
     "columns": 21,
-    "bytes": 27165345
+    "bytes": 27166097
   },
   {
     "path": "normalized/usaspending_dod_rd_contracts_subawards_source.parquet",
@@ -285,13 +285,13 @@
     "path": "normalized/usaspending_dod_rd_fy2019.parquet",
     "rows": 44337,
     "columns": 21,
-    "bytes": 8219523
+    "bytes": 8219908
   },
   {
     "path": "normalized/usaspending_dod_rd_fy2019_subawards.parquet",
     "rows": 19937,
     "columns": 21,
-    "bytes": 4004922
+    "bytes": 4005070
   },
   {
     "path": "normalized/usaspending_dod_rd_fy2019_subawards_source.parquet",
@@ -309,13 +309,13 @@
     "path": "normalized/usaspending_dod_rd_fy2026.parquet",
     "rows": 33089,
     "columns": 21,
-    "bytes": 8239422
+    "bytes": 8240051
   },
   {
     "path": "normalized/usaspending_dod_rd_fy2026_subawards.parquet",
     "rows": 3090,
     "columns": 21,
-    "bytes": 831236
+    "bytes": 831265
   },
   {
     "path": "normalized/usaspending_dod_rd_fy2026_subawards_source.parquet",
@@ -333,13 +333,13 @@
     "path": "normalized/usaspending_dod_research_grants.parquet",
     "rows": 88273,
     "columns": 21,
-    "bytes": 14916808
+    "bytes": 14918088
   },
   {
     "path": "normalized/usaspending_dod_research_grants_subawards.parquet",
     "rows": 14143,
     "columns": 21,
-    "bytes": 5520643
+    "bytes": 5520895
   },
   {
     "path": "normalized/usaspending_dod_research_grants_subawards_source.parquet",
