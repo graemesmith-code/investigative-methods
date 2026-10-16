@@ -1,0 +1,1983 @@
+{
+  "stage": "measurement_feasibility_only",
+  "brightness_anomalies_computed": false,
+  "baseline_acquired": false,
+  "scenarios": {
+    "primary": {
+      "allow_a1_straylight_only": false,
+      "allow_medium_cloud_quality": false,
+      "post_hoc": false
+    },
+    "allow_a1_straylight_only": {
+      "allow_a1_straylight_only": true,
+      "allow_medium_cloud_quality": false,
+      "post_hoc": true
+    },
+    "allow_medium_cloud_quality": {
+      "allow_a1_straylight_only": false,
+      "allow_medium_cloud_quality": true,
+      "post_hoc": true
+    },
+    "both_relaxations": {
+      "allow_a1_straylight_only": true,
+      "allow_medium_cloud_quality": true,
+      "post_hoc": true
+    }
+  },
+  "cases": [
+    {
+      "event": "iran_feb_2026",
+      "eligible_dates": {
+        "primary": 0,
+        "allow_a1_straylight_only": 0,
+        "allow_medium_cloud_quality": 1,
+        "both_relaxations": 1
+      },
+      "primary_case_status": "unscorable",
+      "diagnostic_case_gate": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "eligible_dates": {
+        "primary": 0,
+        "allow_a1_straylight_only": 2,
+        "allow_medium_cloud_quality": 0,
+        "both_relaxations": 2
+      },
+      "primary_case_status": "unscorable",
+      "diagnostic_case_gate": {
+        "primary": false,
+        "allow_a1_straylight_only": true,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": true
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "eligible_dates": {
+        "primary": 0,
+        "allow_a1_straylight_only": 0,
+        "allow_medium_cloud_quality": 1,
+        "both_relaxations": 1
+      },
+      "primary_case_status": "unscorable",
+      "diagnostic_case_gate": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    }
+  ],
+  "dates": [
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-18",
+      "cutoff_local": "2025-06-21T00:00:00-04:00",
+      "a1_filename": "VNP46A1.A2025169.h10v05.002.2025171214849.h5",
+      "a2_filename": "VNP46A2.A2025169.h10v05.002.2025177154010.h5",
+      "a1_production_utc": "2025-06-20T21:48:49+00:00",
+      "a2_production_utc": "2025-06-26T15:40:10+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-19",
+      "cutoff_local": "2025-06-21T00:00:00-04:00",
+      "a1_filename": "VNP46A1.A2025170.h10v05.002.2025172013327.h5",
+      "a2_filename": "VNP46A2.A2025170.h10v05.002.2025178103956.h5",
+      "a1_production_utc": "2025-06-21T01:33:27+00:00",
+      "a2_production_utc": "2025-06-27T10:39:56+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": true,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": true
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-20",
+      "cutoff_local": "2025-06-21T00:00:00-04:00",
+      "a1_filename": "VNP46A1.A2025171.h10v05.002.2025172102335.h5",
+      "a2_filename": "VNP46A2.A2025171.h10v05.002.2025179160943.h5",
+      "a1_production_utc": "2025-06-21T10:23:35+00:00",
+      "a2_production_utc": "2025-06-28T16:09:43+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": true,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": true
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-25",
+      "cutoff_local": "2026-02-28T00:00:00-05:00",
+      "a1_filename": "VNP46A1.A2026056.h10v05.002.2026057121322.h5",
+      "a2_filename": "VNP46A2.A2026056.h10v05.002.2026064125719.h5",
+      "a1_production_utc": "2026-02-26T12:13:22+00:00",
+      "a2_production_utc": "2026-03-05T12:57:19+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-26",
+      "cutoff_local": "2026-02-28T00:00:00-05:00",
+      "a1_filename": "VNP46A1.A2026057.h10v05.002.2026058085156.h5",
+      "a2_filename": "VNP46A2.A2026057.h10v05.002.2026065141448.h5",
+      "a1_production_utc": "2026-02-27T08:51:56+00:00",
+      "a2_production_utc": "2026-03-06T14:14:48+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-27",
+      "cutoff_local": "2026-02-28T00:00:00-05:00",
+      "a1_filename": "VNP46A1.A2026058.h10v05.002.2026059083606.h5",
+      "a2_filename": "VNP46A2.A2026058.h10v05.002.2026072160506.h5",
+      "a1_production_utc": "2026-02-28T08:36:06+00:00",
+      "a2_production_utc": "2026-03-13T16:05:06+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": true,
+        "both_relaxations": true
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-30",
+      "cutoff_local": "2026-01-02T00:00:00-05:00",
+      "a1_filename": "VNP46A1.A2025364.h10v05.002.2026001173713.h5",
+      "a2_filename": "VNP46A2.A2025364.h10v05.002.2026007152134.h5",
+      "a1_production_utc": "2026-01-01T17:37:13+00:00",
+      "a2_production_utc": "2026-01-07T15:21:34+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-31",
+      "cutoff_local": "2026-01-02T00:00:00-05:00",
+      "a1_filename": "VNP46A1.A2025365.h10v05.002.2026001214011.h5",
+      "a2_filename": "VNP46A2.A2025365.h10v05.002.2026021172841.h5",
+      "a1_production_utc": "2026-01-01T21:40:11+00:00",
+      "a2_production_utc": "2026-01-21T17:28:41+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": false,
+        "both_relaxations": false
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2026-01-01",
+      "cutoff_local": "2026-01-02T00:00:00-05:00",
+      "a1_filename": "VNP46A1.A2026001.h10v05.002.2026002103242.h5",
+      "a2_filename": "VNP46A2.A2026001.h10v05.002.2026021183356.h5",
+      "a1_production_utc": "2026-01-02T10:32:42+00:00",
+      "a2_production_utc": "2026-01-21T18:33:56+00:00",
+      "a2_produced_before_cutoff": false,
+      "date_pass": {
+        "primary": false,
+        "allow_a1_straylight_only": false,
+        "allow_medium_cloud_quality": true,
+        "both_relaxations": true
+      }
+    }
+  ],
+  "regional_results": [
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-18",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-06-18T03:25:21.512032-04:00",
+      "local_time_max": "2025-06-18T03:25:21.846771-04:00",
+      "work_nights": [
+        "2025-06-17"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 1.0,
+        "a1_flag_zero": 0.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.10731429461321532,
+        "confidently_cloudy": 0.8926857053867847,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "2162": 0.10731429461321532,
+        "2290": 0.7265640856879555,
+        "2298": 0.16612161969882927
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-18",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-06-18T03:25:21.179008-04:00",
+      "local_time_max": "2025-06-18T03:25:21.512032-04:00",
+      "work_nights": [
+        "2025-06-17"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 1.0,
+        "a1_flag_zero": 0.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.1549908684445258,
+        "confidently_cloudy": 0.8008182758164355,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "2162": 0.0798128098285678,
+        "2170": 0.07517805861595803,
+        "2226": 0.044190855739038436,
+        "2290": 0.22665003294596195,
+        "2298": 0.5741682428704735
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-18",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-06-18T03:25:21.067429-04:00",
+      "local_time_max": "2025-06-18T03:25:21.402168-04:00",
+      "work_nights": [
+        "2025-06-17"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 1.0,
+        "a1_flag_zero": 0.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.9410537052404203,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 1.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "2738": 0.05894629475957974,
+        "2802": 0.9410537052404203
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-18",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0014348168177376374,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0014348168177376374
+      },
+      "local_time_min": "2025-06-18T03:25:21.179008-04:00",
+      "local_time_max": "2025-06-18T03:25:21.512032-04:00",
+      "work_nights": [
+        "2025-06-17"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.98442855858901,
+        "mandatory_high_quality": 0.0014348168177376374,
+        "mandatory_flag_1": 0.014136624593252463,
+        "a1_straylight_only": 1.0,
+        "a1_flag_zero": 0.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0155714414109901,
+        "probably_clear": 0.6709139203105011,
+        "confidently_cloudy": 0.285086528117526,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.0014348168177376374,
+        "1": 0.014136624593252463,
+        "255": 0.98442855858901
+      },
+      "cloud_mask_distribution": {
+        "50": 0.0155714414109901,
+        "114": 0.30536737871786424,
+        "2162": 0.36554654159263694,
+        "2226": 0.028428110160982734,
+        "2290": 0.285086528117526
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-19",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.19636953715393063,
+        "allow_a1_straylight_only": 0.9618008246183176,
+        "allow_medium_cloud_quality": 0.19636953715393063,
+        "both_relaxations": 0.9618008246183176
+      },
+      "local_time_min": "2025-06-19T03:06:34.460678-04:00",
+      "local_time_max": "2025-06-19T03:06:34.793701-04:00",
+      "work_nights": [
+        "2025-06-18"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.9618008246183176,
+        "mandatory_flag_1": 0.0381991753816825,
+        "a1_straylight_only": 0.8036304628460691,
+        "a1_flag_zero": 0.19636953715393063,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.9618008246183176,
+        "1": 0.0381991753816825
+      },
+      "cloud_mask_distribution": {
+        "50": 0.5103769489500094,
+        "58": 0.48962305104999054
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-19",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.07582225896729945,
+        "allow_a1_straylight_only": 0.9972740153344547,
+        "allow_medium_cloud_quality": 0.07582225896729945,
+        "both_relaxations": 0.9972740153344547
+      },
+      "local_time_min": "2025-06-19T03:06:34.125938-04:00",
+      "local_time_max": "2025-06-19T03:06:34.460678-04:00",
+      "work_nights": [
+        "2025-06-18"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.9972740153344547,
+        "mandatory_flag_1": 0.002725984665545117,
+        "a1_straylight_only": 0.9241777410327003,
+        "a1_flag_zero": 0.07582225896729945,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.9972740153344547,
+        "1": 0.002725984665545117
+      },
+      "cloud_mask_distribution": {
+        "50": 0.5317553675104336,
+        "58": 0.46824463248956616
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-19",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.3797482307265099,
+        "allow_a1_straylight_only": 1.0,
+        "allow_medium_cloud_quality": 0.3797482307265099,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2025-06-19T03:06:33.904495-04:00",
+      "local_time_max": "2025-06-19T03:06:34.237518-04:00",
+      "work_nights": [
+        "2025-06-18"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.6202517692734899,
+        "a1_flag_zero": 0.3797482307265099,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "50": 1.0
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-19",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.657937574911395,
+        "allow_a1_straylight_only": 1.0,
+        "allow_medium_cloud_quality": 0.657937574911395,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2025-06-19T03:06:34.014359-04:00",
+      "local_time_max": "2025-06-19T03:06:34.349098-04:00",
+      "work_nights": [
+        "2025-06-18"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.34206242508860496,
+        "a1_flag_zero": 0.657937574911395,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "50": 1.0
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-20",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.25038201409875754,
+        "allow_a1_straylight_only": 0.9582162799872113,
+        "allow_medium_cloud_quality": 0.25038201409875754,
+        "both_relaxations": 0.9582162799872113
+      },
+      "local_time_min": "2025-06-20T02:47:44.293671-04:00",
+      "local_time_max": "2025-06-20T02:47:44.626694-04:00",
+      "work_nights": [
+        "2025-06-19"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.9582162799872113,
+        "mandatory_flag_1": 0.04178372001278882,
+        "a1_straylight_only": 0.7496179859012423,
+        "a1_flag_zero": 0.25038201409875754,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.9582162799872113,
+        "1": 0.04178372001278882
+      },
+      "cloud_mask_distribution": {
+        "50": 0.5154003014238768,
+        "58": 0.48459969857612323
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-20",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.005152381562661866,
+        "allow_a1_straylight_only": 1.0,
+        "allow_medium_cloud_quality": 0.005152381562661866,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2025-06-20T02:47:43.958931-04:00",
+      "local_time_max": "2025-06-20T02:47:44.293671-04:00",
+      "work_nights": [
+        "2025-06-19"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.9948476184373378,
+        "a1_flag_zero": 0.005152381562661866,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "50": 0.6173596688383244,
+        "58": 0.38264033116167545
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-20",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.16691425332387438,
+        "allow_a1_straylight_only": 1.0,
+        "allow_medium_cloud_quality": 0.16691425332387438,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2025-06-20T02:47:43.402748-04:00",
+      "local_time_max": "2025-06-20T02:47:43.847351-04:00",
+      "work_nights": [
+        "2025-06-19"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.8330857466761257,
+        "a1_flag_zero": 0.16691425332387438,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "50": 1.0
+      }
+    },
+    {
+      "event": "iran_june_2025",
+      "date_utc": "2025-06-20",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.6852904935542368,
+        "allow_a1_straylight_only": 0.978524287759272,
+        "allow_medium_cloud_quality": 0.6852904935542368,
+        "both_relaxations": 0.978524287759272
+      },
+      "local_time_min": "2025-06-20T02:47:43.737488-04:00",
+      "local_time_max": "2025-06-20T02:47:44.070511-04:00",
+      "work_nights": [
+        "2025-06-19"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.978524287759272,
+        "mandatory_flag_1": 0.021475712240727987,
+        "a1_straylight_only": 0.31470950644576307,
+        "a1_flag_zero": 0.6852904935542368,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.978524287759272,
+        "1": 0.021475712240727987
+      },
+      "cloud_mask_distribution": {
+        "50": 1.0
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-25",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-25T02:04:54.272232-05:00",
+      "local_time_max": "2026-02-25T02:04:54.605255-05:00",
+      "work_nights": [
+        "2026-02-24"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.22268205986877673,
+        "cloud_quality_medium": 0.7773179401312232,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.42391731864837895,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "226": 0.4297989722462094,
+        "234": 0.08355764345369071,
+        "242": 0.06272606565172101,
+        "738": 0.06322262494942582,
+        "746": 0.20073869948189735,
+        "754": 0.15995599421705572
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-25",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-25T02:04:53.939209-05:00",
+      "local_time_max": "2026-02-25T02:04:54.272232-05:00",
+      "work_nights": [
+        "2026-02-24"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.6671627597534158,
+        "cloud_quality_medium": 0.332837240246584,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.8529947988007913,
+        "cloud_mask_snow_ice": 0.06346715619176821,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "242": 0.08353804500744041,
+        "738": 0.005152381562661866,
+        "746": 0.32768485868392216,
+        "754": 0.39071208647124456,
+        "762": 0.12944547208296264,
+        "1274": 0.06346715619176821
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-25",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-25T02:04:53.604469-05:00",
+      "local_time_max": "2026-02-25T02:04:53.939209-05:00",
+      "work_nights": [
+        "2026-02-24"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.06028213454494053,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "242": 0.9397178654550595,
+        "754": 0.06028213454494053
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-25",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-25T02:04:53.827629-05:00",
+      "local_time_max": "2026-02-25T02:04:54.160652-05:00",
+      "work_nights": [
+        "2026-02-24"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.9299455303210247,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "242": 0.0700544696789752,
+        "1266": 0.9299455303210247
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-26",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-26T01:46:03.090706-05:00",
+      "local_time_max": "2026-02-26T01:46:03.425446-05:00",
+      "work_nights": [
+        "2026-02-25"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.4099806425281444,
+        "cloud_quality_medium": 0.5900193574718556,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 1.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "738": 0.272539844310017,
+        "746": 0.3174795131618386,
+        "754": 0.4099806425281444
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-26",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-26T01:46:02.757683-05:00",
+      "local_time_max": "2026-02-26T01:46:03.090706-05:00",
+      "work_nights": [
+        "2026-02-25"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.650047721811152,
+        "cloud_quality_medium": 0.3499522781888479,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 1.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "738": 0.002426716748485586,
+        "746": 0.34752556144036234,
+        "754": 0.650047721811152
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-26",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-26T01:46:02.201500-05:00",
+      "local_time_max": "2026-02-26T01:46:02.536240-05:00",
+      "work_nights": [
+        "2026-02-25"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.8367749348078187,
+        "cloud_quality_medium": 0.16322506519218133,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 1.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "738": 0.16322506519218133,
+        "754": 0.8367749348078187
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-26",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2026-02-26T01:46:02.536240-05:00",
+      "local_time_max": "2026-02-26T01:46:02.869263-05:00",
+      "work_nights": [
+        "2026-02-25"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.7210778614525009,
+        "cloud_quality_medium": 0.27892213854749914,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 1.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "738": 0.27892213854749914,
+        "754": 0.7210778614525009
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-27",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.18448725466928068,
+        "allow_a1_straylight_only": 0.18448725466928068,
+        "allow_medium_cloud_quality": 0.9376370476794899,
+        "both_relaxations": 0.9376370476794899
+      },
+      "local_time_min": "2026-02-27T01:27:08.796959-05:00",
+      "local_time_max": "2026-02-27T01:27:09.131699-05:00",
+      "work_nights": [
+        "2026-02-26"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.9376370476794899,
+        "mandatory_flag_1": 0.06236295232051017,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.21725403064809823,
+        "cloud_quality_medium": 0.7827459693519018,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.9376370476794899,
+        "1": 0.06236295232051017
+      },
+      "cloud_mask_distribution": {
+        "34": 0.280344864329069,
+        "42": 0.5024011050228328,
+        "50": 0.21725403064809823
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-27",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.5338167228939155,
+        "allow_a1_straylight_only": 0.5338167228939155,
+        "allow_medium_cloud_quality": 1.0,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2026-02-27T01:27:08.352356-05:00",
+      "local_time_max": "2026-02-27T01:27:08.685379-05:00",
+      "work_nights": [
+        "2026-02-26"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.5338167228939155,
+        "cloud_quality_medium": 0.4661832771060844,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "42": 0.4661832771060844,
+        "50": 0.5338167228939155
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-27",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.7303119819631387,
+        "allow_a1_straylight_only": 0.7303119819631387,
+        "allow_medium_cloud_quality": 0.9751423814285722,
+        "both_relaxations": 0.9751423814285722
+      },
+      "local_time_min": "2026-02-27T01:27:07.574730-05:00",
+      "local_time_max": "2026-02-27T01:27:07.907753-05:00",
+      "work_nights": [
+        "2026-02-26"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.9751423814285722,
+        "mandatory_flag_1": 0.024857618571427705,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.7551696005345665,
+        "cloud_quality_medium": 0.24483039946543353,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.9751423814285722,
+        "1": 0.024857618571427705
+      },
+      "cloud_mask_distribution": {
+        "34": 0.24483039946543353,
+        "50": 0.7551696005345665
+      }
+    },
+    {
+      "event": "iran_feb_2026",
+      "date_utc": "2026-02-27",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.6670467354285314,
+        "allow_a1_straylight_only": 0.6670467354285314,
+        "allow_medium_cloud_quality": 1.0,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2026-02-27T01:27:08.019333-05:00",
+      "local_time_max": "2026-02-27T01:27:08.352356-05:00",
+      "work_nights": [
+        "2026-02-26"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.6670467354285314,
+        "cloud_quality_medium": 0.33295326457146857,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "34": 0.33295326457146857,
+        "50": 0.6670467354285314
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-30",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-30T01:32:25.306206-05:00",
+      "local_time_max": "2025-12-30T01:32:25.750809-05:00",
+      "work_nights": [
+        "2025-12-29"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.3984403932090733,
+        "mandatory_high_quality": 0.6015596067909268,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.6015596067909268,
+        "probably_clear": 0.045957087062447256,
+        "confidently_cloudy": 0.35248330614662593,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.6015596067909268,
+        "255": 0.3984403932090733
+      },
+      "cloud_mask_distribution": {
+        "1074": 0.38079701874971195,
+        "1082": 0.22076258804121493,
+        "1138": 0.045957087062447256,
+        "1266": 0.13400711293717746,
+        "1274": 0.21847619320944847
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-30",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-30T01:32:24.973183-05:00",
+      "local_time_max": "2025-12-30T01:32:25.306206-05:00",
+      "work_nights": [
+        "2025-12-29"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "1074": 0.4854081501978978,
+        "1082": 0.514591849802102
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-30",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-30T01:32:24.305420-05:00",
+      "local_time_max": "2025-12-30T01:32:24.638443-05:00",
+      "work_nights": [
+        "2025-12-29"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.5820939025745935,
+        "mandatory_high_quality": 0.41790609742540646,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.41790609742540646,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.5820939025745935,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.41790609742540646,
+        "255": 0.5820939025745935
+      },
+      "cloud_mask_distribution": {
+        "1074": 0.41790609742540646,
+        "1266": 0.5820939025745935
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-30",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-30T01:32:24.750023-05:00",
+      "local_time_max": "2025-12-30T01:32:24.973183-05:00",
+      "work_nights": [
+        "2025-12-29"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "1074": 1.0
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-31",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-31T02:53:57.228012-05:00",
+      "local_time_max": "2025-12-31T02:53:57.561035-05:00",
+      "work_nights": [
+        "2025-12-30"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "1266": 0.7121166631798541,
+        "1274": 0.28788333682014594
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-31",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-31T02:53:56.894989-05:00",
+      "local_time_max": "2025-12-31T02:53:57.228012-05:00",
+      "work_nights": [
+        "2025-12-30"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "1266": 0.3730490657609722,
+        "1274": 0.6269509342390276
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-31",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-31T02:53:57.116432-05:00",
+      "local_time_max": "2025-12-31T02:53:57.451172-05:00",
+      "work_nights": [
+        "2025-12-30"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "1234": 1.0
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2025-12-31",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.0,
+        "allow_a1_straylight_only": 0.0,
+        "allow_medium_cloud_quality": 0.0,
+        "both_relaxations": 0.0
+      },
+      "local_time_min": "2025-12-31T02:53:57.116432-05:00",
+      "local_time_max": "2025-12-31T02:53:57.451172-05:00",
+      "work_nights": [
+        "2025-12-30"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 1.0,
+        "mandatory_high_quality": 0.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.41150301824959123,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 0.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 1.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 1.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "255": 1.0
+      },
+      "cloud_mask_distribution": {
+        "1234": 0.5884969817504089,
+        "1266": 0.41150301824959123
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2026-01-01",
+      "region": "pentagon_broad",
+      "role": "target",
+      "cell_count": 30,
+      "area_km2": 4.000005756026781,
+      "coverage": {
+        "primary": 0.5996651293790256,
+        "allow_a1_straylight_only": 0.5996651293790256,
+        "allow_medium_cloud_quality": 0.861790442816124,
+        "both_relaxations": 0.861790442816124
+      },
+      "local_time_min": "2026-01-01T02:35:15.659523-05:00",
+      "local_time_max": "2026-01-01T02:35:15.994263-05:00",
+      "work_nights": [
+        "2025-12-31"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.861790442816124,
+        "mandatory_flag_1": 0.10916704767091741,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.7378746865629016,
+        "cloud_quality_medium": 0.2621253134370984,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.861790442816124,
+        "1": 0.10916704767091741,
+        "5": 0.02904250951295853
+      },
+      "cloud_mask_distribution": {
+        "34": 0.2621253134370984,
+        "50": 0.2800243420144121,
+        "58": 0.45785034454848955
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2026-01-01",
+      "region": "rosslyn_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756023665,
+      "coverage": {
+        "primary": 0.6935434572945466,
+        "allow_a1_straylight_only": 0.6935434572945466,
+        "allow_medium_cloud_quality": 0.8514386532277497,
+        "both_relaxations": 0.8514386532277497
+      },
+      "local_time_min": "2026-01-01T02:35:15.326500-05:00",
+      "local_time_max": "2026-01-01T02:35:15.659523-05:00",
+      "work_nights": [
+        "2025-12-31"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 0.9404260572897144,
+        "mandatory_flag_1": 0.05957394271028526,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.8003406825000451,
+        "cloud_quality_medium": 0.1996593174999548,
+        "confidently_clear": 0.9110125959380351,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.08898740406196487,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 0.9404260572897144,
+        "1": 0.05957394271028526
+      },
+      "cloud_mask_distribution": {
+        "42": 0.1996593174999548,
+        "50": 0.4096842354937474,
+        "58": 0.30166904294433283,
+        "250": 0.08898740406196487
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2026-01-01",
+      "region": "reston_town_center",
+      "role": "comparison",
+      "cell_count": 30,
+      "area_km2": 4.000005756027617,
+      "coverage": {
+        "primary": 1.0,
+        "allow_a1_straylight_only": 1.0,
+        "allow_medium_cloud_quality": 1.0,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2026-01-01T02:35:15.326500-05:00",
+      "local_time_max": "2026-01-01T02:35:15.659523-05:00",
+      "work_nights": [
+        "2025-12-31"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 1.0,
+        "cloud_quality_medium": 0.0,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "50": 1.0
+      }
+    },
+    {
+      "event": "venezuela_jan_2026",
+      "date_utc": "2026-01-01",
+      "region": "tysons_commercial",
+      "role": "comparison",
+      "cell_count": 35,
+      "area_km2": 4.000005756026686,
+      "coverage": {
+        "primary": 0.8329974423707437,
+        "allow_a1_straylight_only": 0.8329974423707437,
+        "allow_medium_cloud_quality": 1.0,
+        "both_relaxations": 1.0
+      },
+      "local_time_min": "2026-01-01T02:35:15.326500-05:00",
+      "local_time_max": "2026-01-01T02:35:15.659523-05:00",
+      "work_nights": [
+        "2025-12-31"
+      ],
+      "diagnostic_area_fractions": {
+        "observed_missing_or_invalid": 0.0,
+        "mandatory_high_quality": 1.0,
+        "mandatory_flag_1": 0.0,
+        "a1_straylight_only": 0.0,
+        "a1_flag_zero": 1.0,
+        "cloud_quality_high": 0.8329974423707437,
+        "cloud_quality_medium": 0.1670025576292562,
+        "confidently_clear": 1.0,
+        "probably_clear": 0.0,
+        "confidently_cloudy": 0.0,
+        "snow_flag": 0.0,
+        "angle_failure": 0.0,
+        "time_failure": 0.0,
+        "not_pre_cutoff": 0.0,
+        "daytime": 0.0,
+        "shadow": 0.0,
+        "cirrus": 0.0,
+        "cloud_mask_snow_ice": 0.0,
+        "aurora": 0.0,
+        "eclipse": 0.0
+      },
+      "mandatory_quality_distribution": {
+        "0": 1.0
+      },
+      "cloud_mask_distribution": {
+        "34": 0.1670025576292562,
+        "50": 0.8329974423707437
+      }
+    }
+  ]
+}

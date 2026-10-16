@@ -1,58 +1,72 @@
-# Satellite night-light pilot: access and timing result
+# Can satellite night lights provide a cheap newsroom lead?
 
-**15 October 2026. Status: archive/timing checks completed; brightness backtest blocked on scientific-file transfer. Earthdata sign-in succeeded, but the cloud browser rejected the download redirect. No radiance measurements have been downloaded or scored.**
+**15 October 2026: all three uploaded archives have been processed. The original quality rules leave every case unscorable. This is a completed measurement-feasibility test, not a completed brightness backtest. No warning signal has been established.**
 
-The selected test is feasible as a retrospective measurement experiment, subject to cloud/quality screening. It is **not yet an established advance-warning method**. The archive exists, but the corrected files currently returned for the selected dates were produced after the operations. Historical near-real-time queries returned no matching files.
+The recommendation is to **pause further bulk downloads and keep night lights as a research option**. Access is solved. The remaining problems are usable observations, quality flags, holiday comparisons, sensitivity to office activity, and proof of timely delivery.
 
-## What was actually checked
+We verified all **18 NASA files**, covering nine dates and four broad areas: **588.7 MB / 561.4 MiB**, with no data fee. We checked a roughly 2 km square around the Pentagon against similarly sized areas at Rosslyn, Reston Town Center and Tysons. These squares include surrounding roads and buildings. They measure neither employees nor occupancy.
 
-NASA's public Common Metadata Repository was queried for Washington's tile `h10v05`, using Suomi-NPP Collection 2 products `VNP46A1` (at-sensor light and observation time) and `VNP46A2` (corrected light). Each selected UTC observation date has both standard files:
+## The three-case result
 
-| Case | Selected observation dates (UTC) | Standard A1 / A2 files | Historical NRT A1 / A2 matches | A2 production delay, days* |
-|---|---|---:|---:|---:|
-| Iran, June 2025 | June 18–20 | 3 / 3 | 0 / 0 | 8.44–8.67 |
-| Venezuela, January 2026 | Dec 30–Jan 1 | 3 / 3 | 0 / 0 | 8.64–21.73 |
-| Iran, February 2026 | February 25–27 | 3 / 3 | 0 / 0 | 8.54–14.67 |
+A usable date requires at least **75% valid area in the target and two comparison areas**. A case needs at least **two usable dates**, followed by baseline and calendar checks. The latter checks have not been reached.
 
-\* Calculated from each filename's production timestamp minus the start of its UTC observation day. This is **not exact latency from overpass, nor first-publication time**. It describes the current archived versions; earlier versions may have existed. CMR `updated` is recorded separately and is not assumed to be first availability. The 9 A1 files' corresponding delays are 1.36–2.91 days.
+| Historical case | Dates examined | Usable dates, original rules | Usable dates, exploratory quality changes* | Conclusion |
+|---|---|---:|---:|---|
+| Iran, June 2025 | June 18–20 | 0 of 3 | 2 of 3 | Original test unscorable; revised method warrants review |
+| Venezuela, January 2026 | Dec 30–Jan 1 | 0 of 3 | 1 of 3 | Still below the two-date minimum |
+| Iran, February 2026 | February 25–27 | 0 of 3 | 1 of 3 | Still below the two-date minimum |
 
-Queries deliberately cover boundary days; CMR returns overlapping intervals inclusively. Counts above use strict observation-date filtering, not raw search hit counts. Metadata presence does not establish clear sky or usable pixels.
+\* These are **post hoc coverage diagnostics**, not detections or validated substitute rules. They retain the same areas, dates, 75% threshold, observed-data requirement and two-control requirement. They allow only the A1 stray-light-only flag and/or medium-quality cloud classification. They never admit cloudy pixels, snow warnings, other A1 flags, or poor-quality corrected-light retrievals. [All four scenarios](MEASUREMENT_TECHNICAL.md) remain separately reported.
 
-The initial anonymous request for a scientific HDF5 file returned HTTP 302 to NASA's Earthdata login. The user subsequently completed Earthdata sign-in through the secure browser flow; the signed-in profile was observed. The cloud browser then rejected the scientific-file download redirect under its URL security policy (unsupported protocol). No science file was obtained. That is a browser transfer limitation, not a NASA account failure or proof that the file is unavailable. AWS's registry explicitly identifies these assets as controlled access requiring Earthdata Login. The 247-collection public VEDA inventory contains some disaster night-light examples and monthly composites, but no matching daily Washington series for these windows. One documented VEDA CMR compatibility request returned HTTP 500; that is a service failure, not proof of permanent incompatibility.
+No brightness means, changes, anomaly scores, hits or misses have been calculated. The radiance array was read solely to check whether an observed value exists and is valid. Missing observations were not filled with earlier nights.
 
-## What this means for a newsroom
+## What prevented a fair test?
 
-The free standard archive could answer **“was this broad area unusually bright?”** once quality-screened pixels are available. It cannot, by itself, answer **“could we have issued that lead before the operation?”** NASA documents a near-real-time service, but its general LANCE guidance describes a roughly seven-day rolling archive. Zero historical matches here do not prove no timely files were originally published.
+**June: our initial filter may be too restrictive.** Two dates have over 95% usable target area under the corrected product's other requirements, but most of that area also carries an upstream stray-light flag. Our original rule vetoes it. NASA describes Black Marble's correction for stray light, so applying that extra veto deserves review; correction alone does not establish that residual error is small enough for an office-activity signal. With the veto relaxed, both dates have sufficient comparison coverage. We have not changed the primary finding.
 
-A future live test would need to retain the exact NRT files and first-seen timestamps as they arrive. This run has not scheduled or started ongoing collection. Brightness measures emitted light, not staff numbers: an extra thousand workers may leave exterior illumination unchanged.
+**February: clouds remove two dates.** The remaining date rises from 18.4% to 93.8% valid target area if medium cloud-mask quality is accepted while still requiring confidently clear sky. One date is insufficient under the chosen case rule.
 
-## Resume this test
+**Venezuela: weather flags and the New Year limit the test.** December 30 has partial cloud/missing coverage and a cloud-mask snow/ice flag across the target. Its separate Snow_Flag says no snow: that disagreement is recorded, not resolved by selecting the favorable field. December 31 has no observed corrected-light retrieval across the target and is classified cloudy. January 1 rises from 60.0% to 86.2% valid target area under the medium-quality diagnostic, with sufficient controls. It is still only one date, observed at about 02:35 local time after New Year's Eve.
 
-1. Earthdata sign-in is now complete. Because the cloud browser blocked the download redirect, download the science files in your own browser and upload them to the conversation. The exact initial pair is linked in [DOWNLOAD.md](DOWNLOAD.md). Alternatively, the prepared local script uses [NASA's documented download-token procedure](https://nrt3.modaps.eosdis.nasa.gov/help/). Do not put credentials in this repository or chat.
-2. Start with the June 20 A1/A2 pair: about **67.2 MiB**. The 18-file event-window manifest totals **561.4 MiB**, before baselines. `code/download_files.py` defaults to that two-file check and accepts `--all` for the listed 18 files. This downloader is prepared, not validated against an authenticated transfer.
-3. Inspect the real schema, acquisition times, quality flags and unfilled corrected radiance. Run the frozen broad-area screening in `PROTOCOL.md`. Only then obtain baseline/ordinary-night data and run a brightness comparison.
+The two recoverable June observations are at about 03:07 on June 19 and 02:48 on June 20, corresponding to work nights June 18 and 19. [OPM lists June 19, 2025 as a federal holiday and January 1, 2026 as New Year's Day](https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/). Holiday-eve and holiday behavior therefore need handling before an ordinary-weekday comparison could be trusted. This is a calendar confound, not proof of a particular lighting change.
 
-Successful scientific-file transfer is the immediate dependency. Quality, sensitivity and warning performance remain unresolved scientific questions. None of the three cases has been counted as a hit or miss.
+## Does it meet the original brief?
 
-## Files
+| Requirement | What this test establishes |
+|---|---|
+| Extremely cheap | NASA data fee is zero; this batch was 561.4 MiB. Analyst time and repeated transfers remain costs. |
+| Broad aggregation | Yes: fixed areas of about 4 km²; no phone data, identifiers, trajectories or small cohorts. |
+| Timely | Not established. Every downloaded corrected-file version was produced after its conservative event cutoff. |
+| Backtestable | Historical files exist, but these windows fail the original measurement gate. No ordinary-night baseline was acquired. |
+| Detects an extra 1,000–2,000 workers | Unknown. More people can leave exterior lighting unchanged; brightness cannot be converted to headcounts here. |
 
-- `download_manifest.json`: exact file identifiers, URLs, sizes and timestamps.
-- `evidence/coverage_summary.json`: dated queries and filtered historical coverage.
-- `evidence/download_access_check.json`: initial anonymous login redirect.
-- `evidence/browser_transfer_status.json`: successful sign-in followed by the browser policy rejection.
-- `evidence/public_alternatives.json`: compact public-service inventory.
-- `evidence/titiler_compatibility.json`: recorded service error.
-- `config.json`, `PROTOCOL.md`: broad areas and rules fixed before pixel inspection.
-- `code/catalog_preflight.py`, `code/summarize_preflight.py`: reproduce the metadata audit.
-- `code/download_files.py`: bounded, credential-safe download handoff.
+The target observations occur between roughly **01:27 and 03:25 Washington time**. A timely satellite feed would still supply an overnight snapshot, not continuous evening monitoring. NASA documents a separate near-real-time service; the [LANCE FAQ](https://forum.earthdata.nasa.gov/viewtopic.php?t=5201) describes a roughly three-hour delivery goal and a roughly seven-day archive. Our historical queries found no matching NRT versions. That does **not** prove none existed: we cannot reconstruct historical warning delivery from this batch. Current versions' production dates are not first-publication logs.
 
-## Primary documentation
+## The useful next step
 
-- [NASA Black Marble Collection 2 user guide](https://landweb.modaps.eosdis.nasa.gov/data/userguide/BlackMarbleUserGuide_Collection2.0_20241203.pdf), especially filename convention, Tables 5–10 and section 5.4.
-- [NASA VIIRS Black Marble products](https://viirsland.gsfc.nasa.gov/Products/NASA/BlackMarble.html).
-- [NASA LANCE FAQ: retention, latency and registration](https://forum.earthdata.nasa.gov/viewtopic.php?t=5201).
-- [NASA download authentication](https://nrt3.modaps.eosdis.nasa.gov/help/).
-- [AWS registry: NASA Suomi-NPP access](https://registry.opendata.aws/nasa-suomi-npp/).
-- [VEDA's public statistics service](https://docs.openveda.cloud/user-guide/notebooks/quickstarts/timeseries-stac-api.html).
+The next investment should be **a small method-validation exercise, not another large event download**. [NEXT_STEP.md](NEXT_STEP.md) specifies the outstanding flag questions, a bounded independent-date sample, costs and stop rules. It separates a retrospective physical-response study from a later test of real-time availability. Neither has been launched.
 
-These sources describe products and access. The counts and delays above are this project's own calculations from the saved NASA metadata manifest.
+Before claiming a reporting lead, we need a defensible quality rule, an independent positive control, ordinary-night variability, an unchanged scoring rule and a count of alerts on other dates. A known blackout can test a large loss of light; it cannot establish sensitivity to extra office workers.
+
+## Lessons to carry forward
+
+1. **Obtain a small sample before transferring a long archive.** Catalog coverage is not usable coverage.
+2. **Inspect actual product versions.** Collection 2 quality codes differ from older examples; an old tutorial can silently admit poor data.
+3. **Separate failed observations from negative results.** None of these cases establishes that the area stayed normally bright.
+4. **Audit the filters themselves.** Extra caution can discard corrected observations. Relaxations must remain visible and cannot become successes after seeing the cases.
+5. **Preserve three clocks and the local work night.** Acquisition, availability and the event are different times.
+6. **Validate the link to activity.** A technically excellent light measurement may still be a poor staffing proxy.
+
+## Inspect or reproduce
+
+- [Technical report, date-by-date coverage and timing](MEASUREMENT_TECHNICAL.md)
+- [Bounded next step and stop rules](NEXT_STEP.md)
+- [Original protocol](PROTOCOL.md) and [fixed regions and primary rules](config.json), unchanged
+- [Machine-readable results](evidence/measurement_results.json)
+- [Verified input hashes and download receipts](evidence/verified_uploads.json)
+- [Independent verification result](evidence/independent_verification.json)
+- [Preserved earlier access-stage audit](ACCESS_AUDIT.md)
+
+Code and small quality extracts accompany this report. The 18 large science files are reproducible from the exact download manifest and are not committed to GitHub. The independent check reproduced **1,170 pixel decisions and 36 regional summaries across all four scenarios**, within numerical tolerance. The original six Iran results were also reproduced before finalizing Venezuela.
+
+Primary product references: [NASA Collection 2 guide](https://landweb.modaps.eosdis.nasa.gov/data/userguide/BlackMarbleUserGuide_Collection2.0_20241203.pdf), [NASA Black Marble description](https://viirsland.gsfc.nasa.gov/Products/NASA/BlackMarble.html), and [NASA's quality-code changes](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/VNP46A2/). Numerical results are this project's calculations from the uploads.

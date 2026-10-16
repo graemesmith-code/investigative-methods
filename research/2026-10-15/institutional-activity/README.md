@@ -1,6 +1,6 @@
 # Can aggregate activity produce newsroom leads before military operations?
 
-**Selected follow-up:** [Satellite night-light pilot](satellite-nightlights/README.md) — historical coverage and timing checked; Earthdata sign-in succeeded, but the cloud browser blocked the scientific-file download redirect. Radiance analysis remains pending; no brightness result is claimed.
+**Selected follow-up completed through measurement screening:** [Satellite night-light pilot](satellite-nightlights/README.md) — all 18 uploaded NASA files verified; all three historical cases are unscorable under the original quality rules. Exploratory mask changes recover two June dates but only one date in each winter case. No brightness anomaly or warning accuracy is claimed. [Bounded next step](satellite-nightlights/NEXT_STEP.md).
 
 **15 October 2026 — exploratory test completed; no validated warning signal.**
 
@@ -43,7 +43,7 @@ The public source also has a **seven-day publication delay**. Regardless of stat
 ## Reproduce or inspect
 
 - [Technical specification and limitations](TECHNICAL.md)
-- [Three next tests for the editor to choose from](NEXT_TESTS.md) — **none launched**
+- [Original three next-test options](NEXT_TESTS.md) — **satellite test selected; measurement screening completed; road counters and supplier feasibility not launched**
 - [Exact first-pass results](exploratory_results.json)
 - [Two-page results report](institutional-activity-pilot-results.pdf)
 - [Complete pilot kit: original exports, cleaned CSV, code and provenance](institutional-activity-pilot-kit.zip)
