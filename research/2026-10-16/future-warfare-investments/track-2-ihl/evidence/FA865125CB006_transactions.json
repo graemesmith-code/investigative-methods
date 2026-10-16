@@ -1,0 +1,63 @@
+{
+  "page_metadata": {
+    "page": 1,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865125CB006_P00003_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2025-06-30",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00003",
+      "description": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY - AUTONOMY STANDARDS & IDEALS WITH MILITARY OPERATIONAL VALUES PROGRAM",
+      "federal_action_obligation": 600000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865125CB006_P00002_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2025-02-24",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00002",
+      "description": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY - AUTONOMY STANDARDS AND IDEALS WITH MILITARY OPERATIONAL VALUES- PROGRAM",
+      "federal_action_obligation": 654992.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865125CB006_P00001_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2024-11-25",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00001",
+      "description": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY - AUTONOMY STANDARDS AND IDEALS WITH MILITARY OPERATIONAL VALUES - PROGRAM",
+      "federal_action_obligation": 800000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865125CB006_0_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2024-10-23",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "AUTONOMY STANDARD AND IDEALS WITH MILITARY OPERATIONAL VALUES PROGRAM",
+      "federal_action_obligation": 675000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "query": {
+    "filters": {
+      "keywords": [
+        "CIVILIAN HARM"
+      ],
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "time_period": [
+        {
+          "start_date": "2020-01-01",
+          "end_date": "2026-10-16"
+        }
+      ]
+    },
+    "fields": [
+      "Award ID",
+      "Recipient Name",
+      "Award Amount",
+      "Description",
+      "Start Date",
+      "End Date"
+    ],
+    "limit": 100,
+    "page": 1
+  },
+  "response": {
+    "spending_level": "awards",
+    "limit": 100,
+    "results": [
+      {
+        "internal_id": 309487449,
+        "Award ID": "N0001424FT171",
+        "Recipient Name": "THE CNA CORPORATION",
+        "Award Amount": 500000.0,
+        "Description": "PROJECT TITLE: CIVILIAN HARM AND RESPONSIBLE AI PROJECT NO. 0007.5957.F580.01",
+        "Start Date": "2024-07-01",
+        "End Date": "2025-10-31",
+        "generated_internal_id": "CONT_AWD_N0001424FT171_9700_N0001422D7001_9700"
+      },
+      {
+        "internal_id": 309487188,
+        "Award ID": "N0001423FT077",
+        "Recipient Name": "THE CNA CORPORATION",
+        "Award Amount": 518000.0,
+        "Description": "FORMATIVE EVALUATION OF CIVILIAN HARM MITIGATION IN SECURITY COOPERATION 0007.5806.F218.00",
+        "Start Date": "2023-06-01",
+        "End Date": "2024-12-31",
+        "generated_internal_id": "CONT_AWD_N0001423FT077_9700_N0001422D7001_9700"
+      },
+      {
+        "internal_id": 307230107,
+        "Award ID": "HQ003423F0437",
+        "Recipient Name": "HII MISSION TECHNOLOGIES CORP",
+        "Award Amount": 40609.49,
+        "Description": "CIVILIAN HARM MITIGATION CURRICULUM DEVELOPMENT COURSE",
+        "Start Date": "2023-09-01",
+        "End Date": "2024-02-29",
+        "generated_internal_id": "CONT_AWD_HQ003423F0437_9700_HQ003423D0016_9700"
+      }
+    ],
+    "page_metadata": {
+      "page": 1,
+      "hasNext": false,
+      "last_record_unique_id": null,
+      "last_record_sort_value": "None"
+    },
+    "messages": [
+      "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+    ]
+  }
+}

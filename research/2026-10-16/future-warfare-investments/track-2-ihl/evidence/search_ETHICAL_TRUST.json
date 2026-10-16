@@ -1,0 +1,66 @@
+{
+  "query": {
+    "filters": {
+      "keywords": [
+        "ETHICAL TRUST"
+      ],
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "time_period": [
+        {
+          "start_date": "2020-01-01",
+          "end_date": "2026-10-16"
+        }
+      ]
+    },
+    "fields": [
+      "Award ID",
+      "Recipient Name",
+      "Award Amount",
+      "Description",
+      "Start Date",
+      "End Date"
+    ],
+    "limit": 100,
+    "page": 1
+  },
+  "response": {
+    "spending_level": "awards",
+    "limit": 100,
+    "results": [
+      {
+        "internal_id": 298564223,
+        "Award ID": "FA864922P1015",
+        "Recipient Name": "PERCEPTRONICS SOLUTIONS, INC",
+        "Award Amount": 750000.0,
+        "Description": "CALIBRATION OF ETHICAL TRUST FOR LETHAL AUTONOMOUS WEAPONS (CETLAWS)",
+        "Start Date": "2022-05-02",
+        "End Date": "2023-12-11",
+        "generated_internal_id": "CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-"
+      },
+      {
+        "internal_id": 298563139,
+        "Award ID": "FA864921P1296",
+        "Recipient Name": "PERCEPTRONICS SOLUTIONS, INC",
+        "Award Amount": 49998.0,
+        "Description": "ETHICAL TRUST CALIBRATION FOR LETHAL AUTONOMOUS ROBOTS",
+        "Start Date": "2021-04-14",
+        "End Date": "2021-07-14",
+        "generated_internal_id": "CONT_AWD_FA864921P1296_9700_-NONE-_-NONE-"
+      }
+    ],
+    "page_metadata": {
+      "page": 1,
+      "hasNext": false,
+      "last_record_unique_id": null,
+      "last_record_sort_value": "None"
+    },
+    "messages": [
+      "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+    ]
+  }
+}

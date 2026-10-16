@@ -1,0 +1,56 @@
+{
+  "query": {
+    "filters": {
+      "keywords": [
+        "DEONTIC"
+      ],
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "time_period": [
+        {
+          "start_date": "2020-01-01",
+          "end_date": "2026-10-16"
+        }
+      ]
+    },
+    "fields": [
+      "Award ID",
+      "Recipient Name",
+      "Award Amount",
+      "Description",
+      "Start Date",
+      "End Date"
+    ],
+    "limit": 100,
+    "page": 1
+  },
+  "response": {
+    "spending_level": "awards",
+    "limit": 100,
+    "results": [
+      {
+        "internal_id": 307305749,
+        "Award ID": "HR001125F0028",
+        "Recipient Name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+        "Award Amount": 2481841.0,
+        "Description": "HUMAN-AI COMMUNICATION FOR DEONTIC REASONING DEVOPS (CODORD)",
+        "Start Date": "2025-03-04",
+        "End Date": "2027-04-16",
+        "generated_internal_id": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700"
+      }
+    ],
+    "page_metadata": {
+      "page": 1,
+      "hasNext": false,
+      "last_record_unique_id": null,
+      "last_record_sort_value": "None"
+    },
+    "messages": [
+      "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+    ]
+  }
+}

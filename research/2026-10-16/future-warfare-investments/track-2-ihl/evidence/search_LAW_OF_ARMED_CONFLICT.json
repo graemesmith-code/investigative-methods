@@ -1,0 +1,106 @@
+{
+  "query": {
+    "filters": {
+      "keywords": [
+        "LAW OF ARMED CONFLICT"
+      ],
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "time_period": [
+        {
+          "start_date": "2020-01-01",
+          "end_date": "2026-10-16"
+        }
+      ]
+    },
+    "fields": [
+      "Award ID",
+      "Recipient Name",
+      "Award Amount",
+      "Description",
+      "Start Date",
+      "End Date"
+    ],
+    "limit": 100,
+    "page": 1
+  },
+  "response": {
+    "spending_level": "awards",
+    "limit": 100,
+    "results": [
+      {
+        "internal_id": 349408064,
+        "Award ID": "W911SD19P0260",
+        "Recipient Name": "OAK RIDGE ASSOCIATED UNIVERSITIES, INCORPORATED",
+        "Award Amount": 138337.92,
+        "Description": "LAW OF ARMED CONFLICT (LOAC) AND FUTURE RESEARCHER",
+        "Start Date": "2019-09-23",
+        "End Date": "2020-09-22",
+        "generated_internal_id": "CONT_AWD_W911SD19P0260_9700_-NONE-_-NONE-"
+      },
+      {
+        "internal_id": 307230743,
+        "Award ID": "HQ003424F0015",
+        "Recipient Name": "HII MISSION TECHNOLOGIES CORP",
+        "Award Amount": 27206.93,
+        "Description": "HUMAN RIGHTS AND THE LAW OF ARMED CONFLICT TRAINING SERVICE",
+        "Start Date": "2023-11-10",
+        "End Date": "2024-01-01",
+        "generated_internal_id": "CONT_AWD_HQ003424F0015_9700_HQ003423D0016_9700"
+      },
+      {
+        "internal_id": 291313476,
+        "Award ID": "70Z04121PQWJ51700",
+        "Recipient Name": "NOONE, GREGORY P",
+        "Award Amount": 9500.0,
+        "Description": "TRAINING SERVICES IN SUPPORT OF THE INTERNATIONAL MARITIME OFFICERS COURSE CODE. INSTRUCTION OF LAW OF ARMED CONFLICT AND INTERNATIONAL CONVENTIONS OF LAW ON THE SEA.  PERIOD OF PERFORMANCE: 30AUG-02SEP 2021",
+        "Start Date": "2021-08-25",
+        "End Date": "2021-09-24",
+        "generated_internal_id": "CONT_AWD_70Z04121PQWJ51700_7008_-NONE-_-NONE-"
+      },
+      {
+        "internal_id": 291313475,
+        "Award ID": "70Z04121PQWJ50200",
+        "Recipient Name": "NOONE, GREGORY P",
+        "Award Amount": 9500.0,
+        "Description": "TRAINING SERVICES IN SUPPORT OF THE INTERNATIONAL MARITIME DOMAIN AWARENESS (IMDA) COURSE CODE P171064, INSTRUCTION OF LAW OF ARMED CONFLICT AND INTERNATIONAL CONVENTIONS OF LAW ON THE SEA. POP 07/13/21-07/16/2021.",
+        "Start Date": "2021-07-06",
+        "End Date": "2021-08-05",
+        "generated_internal_id": "CONT_AWD_70Z04121PQWJ50200_7008_-NONE-_-NONE-"
+      },
+      {
+        "internal_id": 291313413,
+        "Award ID": "70Z04121PMJAL0400",
+        "Recipient Name": "NOONE, GREGORY P",
+        "Award Amount": 9500.0,
+        "Description": "TRAINING SERVICES FOR INTERNATIONAL MARITIME OFFICER'S COURSE (IMOC) 65 64, COURSE P171575, INSTRUCTION OF LAW OF ARMED CONFLICT AND INTERNATIONAL CONVENTIONS OF LAW ON THE SEA, PER THE STATEMENT OF WORK.",
+        "Start Date": "2021-04-08",
+        "End Date": "2021-05-08",
+        "generated_internal_id": "CONT_AWD_70Z04121PMJAL0400_7008_-NONE-_-NONE-"
+      },
+      {
+        "internal_id": 291313412,
+        "Award ID": "70Z04121PMJA00400",
+        "Recipient Name": "NOONE, GREGORY P",
+        "Award Amount": 9500.0,
+        "Description": "TRAINING SERVICES FOR INTERNATIONAL MARITIME OFFICER'S COURSE (IMOC) 64, COURSE P171575, INSTRUCTION OF LAW OF ARMED CONFLICT AND INTERNATIONAL CONVENTIONS OF LAW ON THE SEA, PER THE STATEMENT OF WORK.",
+        "Start Date": "2020-10-30",
+        "End Date": "2020-11-29",
+        "generated_internal_id": "CONT_AWD_70Z04121PMJA00400_7008_-NONE-_-NONE-"
+      }
+    ],
+    "page_metadata": {
+      "page": 1,
+      "hasNext": false,
+      "last_record_unique_id": null,
+      "last_record_sort_value": "None"
+    },
+    "messages": [
+      "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+    ]
+  }
+}

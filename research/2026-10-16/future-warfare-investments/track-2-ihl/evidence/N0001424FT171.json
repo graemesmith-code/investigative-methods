@@ -1,0 +1,257 @@
+{
+  "id": 309487449,
+  "generated_unique_award_id": "CONT_AWD_N0001424FT171_9700_N0001422D7001_9700",
+  "piid": "N0001424FT171",
+  "category": "contract",
+  "type": "C",
+  "type_description": "DELIVERY ORDER",
+  "description": "PROJECT TITLE: CIVILIAN HARM AND RESPONSIBLE AI PROJECT NO. 0007.5957.F580.01",
+  "total_obligation": 500000.0,
+  "subaward_count": 0,
+  "total_subaward_amount": null,
+  "date_signed": "2024-07-01",
+  "base_exercised_options": 550000.0,
+  "base_and_all_options": 550000.0,
+  "total_account_outlay": 4654.29,
+  "total_account_obligation": 45345.71,
+  "account_outlays_by_defc": [
+    {
+      "code": "Q",
+      "amount": 4654.29
+    }
+  ],
+  "account_obligations_by_defc": [
+    {
+      "code": "Q",
+      "amount": 45345.71
+    }
+  ],
+  "parent_award": {
+    "agency_id": 1173,
+    "agency_name": "Department of Defense",
+    "agency_slug": "department-of-defense",
+    "sub_agency_id": "9700",
+    "sub_agency_name": "Department of Defense",
+    "award_id": 351361676,
+    "generated_unique_award_id": "CONT_IDV_N0001422D7001_9700",
+    "idv_type_description": "IDC",
+    "multiple_or_single_aw_desc": "SINGLE AWARD",
+    "piid": "N0001422D7001",
+    "type_of_idc_description": "INDEFINITE DELIVERY / INDEFINITE QUANTITY"
+  },
+  "latest_transaction_contract_data": {
+    "idv_type_description": null,
+    "type_of_idc_description": null,
+    "referenced_idv_agency_iden": "9700",
+    "referenced_idv_agency_desc": "DEPT OF DEFENSE",
+    "solicitation_identifier": null,
+    "solicitation_procedures": "SSS",
+    "number_of_offers_received": null,
+    "extent_competed": "C",
+    "type_set_aside": null,
+    "type_set_aside_description": null,
+    "evaluated_preference": "NONE",
+    "fed_biz_opps": "X",
+    "fed_biz_opps_description": "NOT APPLICABLE",
+    "small_business_competitive": false,
+    "product_or_service_code": "B541",
+    "naics": "541990",
+    "naics_description": "ALL OTHER PROFESSIONAL, SCIENTIFIC, AND TECHNICAL SERVICES",
+    "sea_transportation": null,
+    "clinger_cohen_act_planning": "N",
+    "labor_standards": "N",
+    "cost_or_pricing_data": "Y",
+    "domestic_or_foreign_entity": "A",
+    "foreign_funding": "X",
+    "major_program": null,
+    "program_acronym": null,
+    "subcontracting_plan": "F",
+    "multi_year_contract": "N",
+    "consolidated_contract": "D",
+    "type_of_contract_pricing": "U",
+    "national_interest_action": null,
+    "multiple_or_single_award_description": null,
+    "solicitation_procedures_description": "ONLY ONE SOURCE",
+    "extent_competed_description": "NOT COMPETED",
+    "other_than_full_and_open": "MES",
+    "other_than_full_and_open_description": "MOBILIZATION, ESSENTIAL R&D (FAR 6.302-3)",
+    "commercial_item_acquisition": "D",
+    "commercial_item_acquisition_description": "COMMERCIAL PRODUCTS/SERVICES PROCEDURES NOT USED",
+    "commercial_item_test_program": "N",
+    "commercial_item_test_program_description": "NO",
+    "evaluated_preference_description": "NO PREFERENCE USED",
+    "fair_opportunity_limited": null,
+    "fair_opportunity_limited_description": null,
+    "product_or_service_description": "SPECIAL STUDIES/ANALYSIS- DEFENSE",
+    "dod_claimant_program": null,
+    "dod_claimant_program_description": null,
+    "dod_acquisition_program": "000",
+    "dod_acquisition_program_description": "NONE",
+    "information_technology_commercial_item_category": "Z",
+    "information_technology_commercial_item_category_description": "NOT IT PRODUCTS OR SERVICES",
+    "sea_transportation_description": null,
+    "clinger_cohen_act_planning_description": "NO",
+    "construction_wage_rate": "N",
+    "construction_wage_rate_description": "NO",
+    "labor_standards_description": "NO",
+    "materials_supplies": "N",
+    "materials_supplies_description": "NO",
+    "cost_or_pricing_data_description": "YES",
+    "domestic_or_foreign_entity_description": "U.S. OWNED BUSINESS",
+    "foreign_funding_description": "NOT APPLICABLE",
+    "interagency_contracting_authority": "X",
+    "interagency_contracting_authority_description": "NOT APPLICABLE",
+    "price_evaluation_adjustment": null,
+    "subcontracting_plan_description": "INDIVIDUAL SUBCONTRACT PLAN",
+    "multi_year_contract_description": "NO",
+    "purchase_card_as_payment_method": "N",
+    "purchase_card_as_payment_method_description": "NO",
+    "consolidated_contract_description": "NOT CONSOLIDATED",
+    "type_of_contract_pricing_description": "COST PLUS FIXED FEE",
+    "national_interest_action_description": null
+  },
+  "funding_agency": {
+    "id": 1215,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Immediate Office of the Secretary of Defense",
+      "code": "97AD",
+      "abbreviation": "SECDEF"
+    },
+    "office_agency_name": "OFFICE, CHIEF DIGITAL & AI OFFICER"
+  },
+  "awarding_agency": {
+    "id": 1174,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Navy",
+      "code": "1700",
+      "abbreviation": "USN"
+    },
+    "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+  },
+  "period_of_performance": {
+    "start_date": "2024-07-01",
+    "end_date": "2025-10-31",
+    "last_modified_date": "2025-02-14",
+    "potential_end_date": "2025-10-31 00:00:00"
+  },
+  "recipient": {
+    "recipient_hash": "481e4579-f0e1-606e-2ddf-66581a0c433c-C",
+    "recipient_name": "THE CNA CORPORATION",
+    "recipient_uei": "MC5HF1LR16H1",
+    "recipient_unique_id": null,
+    "parent_recipient_hash": "481e4579-f0e1-606e-2ddf-66581a0c433c-P",
+    "parent_recipient_name": "THE CNA CORPORATION",
+    "parent_recipient_uei": "MC5HF1LR16H1",
+    "parent_recipient_unique_id": null,
+    "business_categories": [
+      "Category Business",
+      "Corporate Entity Tax Exempt",
+      "Nonprofit Organization",
+      "Not Designated a Small Business",
+      "Special Designations",
+      "U.S.-Owned Business"
+    ],
+    "location": {
+      "location_country_code": "USA",
+      "country_name": "UNITED STATES",
+      "state_code": "VA",
+      "state_name": "VIRGINIA",
+      "city_name": "ARLINGTON",
+      "county_code": "013",
+      "county_name": "ARLINGTON",
+      "address_line1": "3003 WASHINGTON BLVD",
+      "address_line2": null,
+      "address_line3": null,
+      "congressional_code": "08",
+      "zip4": "2194",
+      "zip5": "22201",
+      "foreign_postal_code": null,
+      "foreign_province": null
+    }
+  },
+  "executive_details": {
+    "officers": [
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      }
+    ]
+  },
+  "place_of_performance": {
+    "location_country_code": "USA",
+    "country_name": "UNITED STATES",
+    "county_code": "013",
+    "county_name": "ARLINGTON",
+    "city_name": "ARLINGTON",
+    "state_code": "VA",
+    "state_name": "VIRGINIA",
+    "congressional_code": "08",
+    "zip4": "2194",
+    "zip5": "22201",
+    "address_line1": null,
+    "address_line2": null,
+    "address_line3": null,
+    "foreign_province": null,
+    "foreign_postal_code": null
+  },
+  "psc_hierarchy": {
+    "toptier_code": {
+      "code": "B",
+      "description": "SPECIAL STUDIES/ANALYSIS, NOT R&D"
+    },
+    "midtier_code": {
+      "code": "B5",
+      "description": "SPECIAL STUDIES - NOT R and D"
+    },
+    "subtier_code": {},
+    "base_code": {
+      "code": "B541",
+      "description": "SPECIAL STUDIES/ANALYSIS- DEFENSE"
+    }
+  },
+  "naics_hierarchy": {
+    "toptier_code": {
+      "code": "54",
+      "description": "Professional, Scientific, and Technical Services"
+    },
+    "midtier_code": {
+      "code": "5419",
+      "description": "Other Professional, Scientific, and Technical Services"
+    },
+    "base_code": {
+      "code": "541990",
+      "description": "All Other Professional, Scientific, and Technical Services"
+    }
+  },
+  "total_outlay": 4654.29
+}

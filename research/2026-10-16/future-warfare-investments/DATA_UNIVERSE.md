@@ -1,5 +1,7 @@
 # The available data on US international security capabilities
 
+**Initial source map, 16 October 2026.** The [expanded two-track overview](OVERVIEW.md) and [current data-universe register](track-1-data-universe/SOURCE_REGISTER.csv) incorporate additional institutions and newly tested access routes. This first-pass map remains a dated record; use the current track for revised access findings and the September 2018-onward collection target.
+
 **Source map checked 16 October 2026.** Scope: investments supporting US international engagement and overseas national-security missions, across military and other security institutions. This describes available data before choosing investigations, methods or story pitches. It builds outward from the existing roughly 10,000 Pentagon contract-announcement paragraphs covering September 2023–September 2026.
 
 ## The central finding
@@ -81,3 +83,4 @@ USAspending award records, SAM/FPDS-derived actions and daily announcements over
 6. [Civilian Protection Center of Excellence: identity and history](IHL_CENTRE_HISTORY.md), an emerging source strand on civilian protection, technology and international humanitarian law. The note distinguishes documented activity from unverified current-use and algorithmic-law claims.
 
 The detailed inventories preserve exact official links, years, sample records and access qualifications. Their domestic/civilian entries remain as clearly labeled adjacent sources, not a decision to include those activities. The register's mission_scope and capability_coverage fields identify that boundary. Source dates are 16 October 2026 unless an entry states a different publication, reporting or record date. This collection does not yet contain a chosen analysis design, exhaustive capability classification or a list of supposedly unreported stories.
+

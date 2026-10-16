@@ -1,5 +1,7 @@
 # Civilian Protection Center of Excellence: identity and history
 
+**Initial history note, 16 October 2026.** The [current team-and-product deep dive](track-2-ihl/TEAM_CONTINUITY.md) adds a directly readable 13 October congressional source for the reported seven-person staffing level and follows named people and products. This first-pass note is preserved; newer evidence and unresolved continuity questions are set out in [Track 2](track-2-ihl/README.md).
+
 Research checked 16 October 2026.
 
 ## Bottom line
@@ -51,3 +53,4 @@ Former centre law/policy adviser Chris Rogers argued on **23 March 2026** that n
 An October 2026 New York Times report was located, with its exact link verified through Brown University's Costs of War archive. The original could not be opened. Republishing sites say seven centre personnel remained and a final reassignment effort was withdrawn after congressional intervention. This is a lead, **not directly verified original-report evidence**; the principal account above therefore does not rely on those later headcounts.
 - https://www.nytimes.com/2026/10/01/us/politics/military-civilian-deaths-in-war.html
 - Link provenance: https://costsofwar.watson.brown.edu/news/archive/2026
+

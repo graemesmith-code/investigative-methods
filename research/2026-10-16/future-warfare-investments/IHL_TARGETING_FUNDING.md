@@ -1,5 +1,7 @@
 # Public evidence of funding for IHL/LOAC-related military AI
 
+**Initial funding note, 16 October 2026.** The [current contract investigation](track-2-ihl/CONTRACT_BREADCRUMBS.md) and [primary award ledger](track-2-ihl/ihl_prime_awards.csv) supersede the uncertainty below about the CETLAWS amount and identify all seven ASIMOV prime awards and their reported obligations. This first-pass note remains a dated record; use [Track 2](track-2-ihl/README.md) for the expanded evidence and remaining limits.
+
 Checked 16 October 2026. This is a targeted public-source check, not a complete spending census. Amounts below are not added together: a program budget, a total award, a subcontract increment, and a solicitation ceiling measure different things.
 
 ## Short answer
@@ -29,4 +31,5 @@ The best specific current-period award is **Army → Perceptronics Solutions, TE
 - Commercial contract mirrors provide additional promising IDs: CODORD RTX BBN HR00112590088, APL task HR001125F0028; ASIMOV STR FA865125CB003 and Lockheed FA865125CB018. Amounts/periods were not promoted into the verified table because primary award transactions were not retrieved and some mirrors conflict or include generated summaries.
 - The FY2026 and FY2027 official budget PDFs were available in indexed search extracts but returned access errors on full open. Budget values above therefore retain exact book/date/page labels. The FY2026 ASIMOV value of $23.205m was disambiguated against a [mirror of the government XML](https://github.com/handriss/defense-budget-justification-data/blob/main/fy2026/RDTE_Vol1_DARPA_MasterJustificationBook_PB_2026.xml), because the search-extracted page-break table misplaces the value. This is a request, not verified expenditure. No program-specific FY2027 successor amount was verified. Check original downloaded pages before use in a quantitative corpus.
 - The Civilian Protection Center of Excellence is a separate institutional/civilian-harm track; this note does not establish its current staffing or whether a particular activity stopped. Its report and oversight record need to be read separately.
+
 

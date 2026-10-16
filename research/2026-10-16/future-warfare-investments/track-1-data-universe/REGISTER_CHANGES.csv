@@ -1,0 +1,39 @@
+input_source_id,canonical_source_ids,change,reason
+FW-X01,FW-X01,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X02,FW-X02,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X03,FW-X03,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X04,FW-X04,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X05,FW-X05,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X06,FW-X06,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X07,FW-X07,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X08,FW-X08,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X09,FW-X09,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X10,FW-X10,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X11,FW-X11,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X12,FW-X12,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X13,FW-X13,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X14,FW-X14,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X15,FW-X15,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X16,FW-X16,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X17,FW-X17,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X18,FW-X18,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X19,FW-X19,NEW_ENTRY_NEW_FAMILY,Distinct dataset or record unit; retain original scope and overlap caveats.
+FW-X20,FW-B17,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+FW-X21,FW-R04,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+FW-X22,FW-R06,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+FW-X23,FW-R14,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+FW-X24,FW-R16,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+FW-X25,FW-R01,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+FW-X26,FW-B12 ; FW-B08,REFINEMENT_FOLDED_INTO_EXISTING,Existing source family; new access test or finer record route.
+OS-01,OS-01,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-02,OS-02,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-03,OS-03,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-04,OS-04,NEW_ENTRY_EXISTING_FAMILY,State adds institutional coverage inside the existing civilian-security budget family.
+OS-05,OS-05,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-06,FW-X06,DUPLICATE_COALESCED,Same DDTC Section 655 reports; overseas research adds a historical PDF retrieval and current-access limits.
+OS-07,OS-07,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-08,OS-08,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-09,OS-09,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-10,OS-10,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-11,OS-11,NEW_ENTRY_NEW_FAMILY,Distinct programme/source or record unit.
+OS-12,FW-C10,REFINEMENT_FOLDED_INTO_EXISTING,NSTXL project notices refine the existing consortium-disclosure entry.

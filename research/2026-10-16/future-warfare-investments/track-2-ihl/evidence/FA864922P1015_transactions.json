@@ -1,0 +1,37 @@
+{
+  "page_metadata": {
+    "page": 1,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": "CONT_TX_9700_-NONE-_FA864922P1015_P00001_-NONE-_0",
+      "type": "B",
+      "type_description": "PURCHASE ORDER",
+      "action_date": "2023-09-05",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00001",
+      "description": "CALIBRATION OF ETHICAL TRUST FOR LETHAL AUTONOMOUS WEAPONS (CETLAWS)",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA864922P1015_0_-NONE-_0",
+      "type": "B",
+      "type_description": "PURCHASE ORDER",
+      "action_date": "2022-05-02",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "CALIBRATION OF ETHICAL TRUST FOR LETHAL AUTONOMOUS WEAPONS (CETLAWS)",
+      "federal_action_obligation": 750000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}
