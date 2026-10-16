@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic project extraction with page evidence; amounts remain source-labelled disclosures."""
 import json,re,subprocess
+from decimal import Decimal
 import pandas as pd
 from acquire import ROOT,DATA,save_json
 from normalize import digest,tags
@@ -15,7 +16,7 @@ def commons():
     head=re.split(r'\n {2,}',para,maxsplit=1)[0];head=re.sub(r'^.*Projects\s*\n','',head);flat=' '.join(head.split());match=re.search(r'\$\s*([\d.]+)\s*([Mk]?)\s*,?\s*(.*?)Lead:\s*(.*)',flat)
     if not match:continue
     title=flat[:match.start()].rstrip(' -');lead=match[4].rstrip('- ');page=next((i+1 for i,t in enumerate(rawpages) if title[:30] in ' '.join(t.split())),None)
-    current={'document_id':'commons_project:'+digest(m['sha256']+'|'+title),'source':'commons','title':title,'lead_text':lead,'source_url':m['url']+(f'#page={page}' if page else ''),'source_snapshot_sha256':m['sha256'],'retrieved_at':m['retrieved_at'],'raw_file':p.name,'raw_page':page,'disclosed_project_amount_raw':match[0].split('Lead:')[0].strip(),'unit_in_source':match[2] or 'UNSPECIFIED','amount_usd':str(int(float(match[1])*({'M':1_000_000,'k':1000}[match[2]]))) if match[2] else None,'amount_label_in_source':match[0].split('Lead:')[0]+'Lead:','money_semantics':'Disclosed project amount in technology-area sheet; financial time basis/obligation status unspecified. Not an action obligation, outlay, ceiling or total program sum without corroboration. Cross-area project mentions can overlap.','text':para.strip(),'eligibility':'security_capability_candidate;amount_basis_review_required'};records.append(current);count+=1
+    current={'document_id':'commons_project:'+digest(m['sha256']+'|'+title),'source':'commons','title':title,'lead_text':lead,'source_url':m['url']+(f'#page={page}' if page else ''),'source_snapshot_sha256':m['sha256'],'retrieved_at':m['retrieved_at'],'raw_file':p.name,'raw_page':page,'disclosed_project_amount_raw':match[0].split('Lead:')[0].strip(),'unit_in_source':match[2] or 'UNSPECIFIED','amount_usd':str(Decimal(match[1])*({'M':1_000_000,'k':1000}[match[2]])) if match[2] else None,'amount_label_in_source':match[0].split('Lead:')[0]+'Lead:','money_semantics':'Disclosed project amount in technology-area sheet; financial time basis/obligation status unspecified. Not an action obligation, outlay, ceiling or total program sum without corroboration. Cross-area project mentions can overlap.','text':para.strip(),'eligibility':'security_capability_candidate;amount_basis_review_required'};records.append(current);count+=1
    elif current:current['text']+='\n\n'+para.strip()
   profiles.append({'file':p.name,'parsed_project_headers':count,'currency_M_mentions':len(re.findall(r'\$\s*[\d.]+\s*M',text)),'lead_mentions':text.count('Lead:')})
  for r in records:r['capability_tags']=json.dumps(tags(r['title']+' '+r['text']));r['evidence_excerpt']=r['text'][:900]

@@ -1,0 +1,90 @@
+{
+  "sources": [
+    {
+      "source": "usaspending_darpa",
+      "count_endpoint_prime_transactions": 12057,
+      "parsed_prime_transactions": 12057,
+      "difference_count_minus_export": 0,
+      "equal": true,
+      "interpretation": "Matched independent count"
+    },
+    {
+      "source": "usaspending_dod_capabilities_fy2019",
+      "count_endpoint_prime_transactions": 31105,
+      "parsed_prime_transactions": 24383,
+      "difference_count_minus_export": 6722,
+      "equal": false,
+      "interpretation": "Coverage discrepancy; cause unestablished; do not claim full count-endpoint universe acquired"
+    },
+    {
+      "source": "usaspending_dod_capabilities_fy2026",
+      "count_endpoint_prime_transactions": 36069,
+      "parsed_prime_transactions": 35822,
+      "difference_count_minus_export": 247,
+      "equal": false,
+      "interpretation": "Coverage discrepancy; cause unestablished; do not claim full count-endpoint universe acquired"
+    },
+    {
+      "source": "usaspending_dod_capabilities",
+      "count_endpoint_prime_transactions": 324990,
+      "parsed_prime_transactions": 305768,
+      "difference_count_minus_export": 19222,
+      "equal": false,
+      "interpretation": "Coverage discrepancy; cause unestablished; do not claim full count-endpoint universe acquired"
+    },
+    {
+      "source": "usaspending_dod_rd_fy2019",
+      "count_endpoint_prime_transactions": 44337,
+      "parsed_prime_transactions": 44337,
+      "difference_count_minus_export": 0,
+      "equal": true,
+      "interpretation": "Matched independent count"
+    },
+    {
+      "source": "usaspending_dod_rd_fy2026",
+      "count_endpoint_prime_transactions": 33089,
+      "parsed_prime_transactions": 33089,
+      "difference_count_minus_export": 0,
+      "equal": true,
+      "interpretation": "Matched independent count"
+    },
+    {
+      "source": "usaspending_dod_research_grants",
+      "count_endpoint_prime_transactions": 88273,
+      "parsed_prime_transactions": 88273,
+      "difference_count_minus_export": 0,
+      "equal": true,
+      "interpretation": "Matched independent count"
+    }
+  ],
+  "single_year_keyword_diagnostics": [
+    {
+      "fiscal_year": 2019,
+      "broad_export_year_unique_keys": 24383,
+      "single_year_export_unique_keys": 24383,
+      "single_year_added_keys": 0,
+      "broad_year_absent_from_single_year": 0,
+      "same_key_sets": true
+    },
+    {
+      "fiscal_year": 2026,
+      "broad_export_year_unique_keys": 35822,
+      "single_year_export_unique_keys": 35822,
+      "single_year_added_keys": 0,
+      "broad_year_absent_from_single_year": 0,
+      "same_key_sets": true
+    }
+  ],
+  "count_after_download_confirmed": {
+    "results": {
+      "contracts": 324990,
+      "grants": 0,
+      "idvs": 0,
+      "loans": 0,
+      "direct_payments": 0,
+      "other": 0
+    },
+    "retrieved_at": "2026-10-16T21:14:24.114167+00:00"
+  },
+  "scope": "Observed downloaded files and corresponding public count responses only. No inference that absent records were deleted, classified or deliberately withheld. Smaller-window equality does not prove whole-source completeness."
+}

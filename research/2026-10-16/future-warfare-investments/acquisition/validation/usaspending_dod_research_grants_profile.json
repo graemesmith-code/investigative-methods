@@ -46,11 +46,14 @@
   "exact_raw_duplicate_rows": 0,
   "retained_duplicate_source_ids": 0,
   "retained_id_missing": {
+    "award_id_uri": 85535,
     "recipient_duns": 55625
   },
   "id_missing_raw": {
     "assistance_transaction_unique_key": 0,
     "assistance_award_unique_key": 0,
+    "award_id_fain": 0,
+    "award_id_uri": 85535,
     "recipient_uei": 0,
     "recipient_duns": 55625
   },

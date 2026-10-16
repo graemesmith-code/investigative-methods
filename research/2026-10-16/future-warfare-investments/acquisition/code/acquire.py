@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Bounded public acquisition; immutable payloads + append-only HTTP manifest. No secrets."""
 import argparse,datetime,hashlib,json,pathlib,shutil,sys,time,os
-import requests
+import requests,fcntl
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATA=pathlib.Path(os.environ.get('ACQUISITION_DATA_DIR','/workspace/task-data/future-warfare-investments'))
 DATA.mkdir(parents=True,exist_ok=True)
@@ -12,19 +12,24 @@ MIN_FREE=6_000_000_000
 
 def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def save_json(p,obj):
- p=pathlib.Path(p);p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(obj,indent=2,ensure_ascii=False)+'\n')
+ p=pathlib.Path(p);p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_name(p.name+'.tmp');tmp.write_text(json.dumps(obj,indent=2,ensure_ascii=False)+'\n');tmp.replace(p)
 def fetch(source,url,filename,cap=1_000_000_000):
+ with (DATA/'.download_budget.lock').open('a') as lock:
+  fcntl.flock(lock,fcntl.LOCK_EX)
+  return _fetch(source,url,filename,cap)
+def _fetch(source,url,filename,cap=1_000_000_000):
  out=DATA/'raw'/source/filename;out.parent.mkdir(parents=True,exist_ok=True)
  if out.exists():return out
  event={'source':source,'url':url,'retrieved_at':now(),'relative_path':str(out.relative_to(DATA))}
  try:
-  if sum(x.stat().st_size for x in (DATA/'raw').rglob('*') if x.is_file())>=MAX_TOTAL:raise RuntimeError('15GB download budget reached')
+  already=sum(x.stat().st_size for x in (DATA/'raw').rglob('*') if x.is_file() and not x.name.endswith('.part'))
+  if already>=MAX_TOTAL:raise RuntimeError('15GB download budget reached')
   r=requests.get(url,stream=True,timeout=(20,120));event.update(status=r.status_code,final_url=r.url,content_type=r.headers.get('Content-Type'),etag=r.headers.get('ETag'),last_modified=r.headers.get('Last-Modified'));r.raise_for_status()
   size=0;h=hashlib.sha256();temp=out.with_suffix(out.suffix+'.part')
   with temp.open('wb') as f:
    for b in r.iter_content(1024*1024):
     size+=len(b)
-    if size>cap or shutil.disk_usage(DATA).free<MIN_FREE:raise RuntimeError('source byte cap or disk headroom reached')
+    if size>cap or already+size>MAX_TOTAL or shutil.disk_usage(DATA).free<MIN_FREE:raise RuntimeError('source byte cap or disk headroom reached')
     f.write(b);h.update(b)
   temp.rename(out);event.update(bytes=size,sha256=h.hexdigest(),outcome='downloaded')
  except Exception as e:

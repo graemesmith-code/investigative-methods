@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+"""Small navigational data catalog. Record units remain explicit and nonadditive."""
+import csv,json,pathlib
+import pyarrow.parquet as pq
+from acquire import DATA,ROOT,save_json
+manifest=[json.loads(x) for x in (ROOT/'validation/http_manifest.jsonl').read_text().splitlines()];rows=[]
+for p in sorted((ROOT/'validation').glob('usaspending_*_source_table_profiles.json')):
+ source=p.name.removesuffix('_source_table_profiles.json');http=next(x for x in manifest if x['source']==source and x['outcome']=='downloaded')
+ for prof in json.loads(p.read_text()):
+  kind=prof['kind'];path=f'normalized/{source}'+('_subawards' if kind=='subawards' else '')+'.parquet'
+  rows.append({'dataset':source+'_'+kind,'source_register_ids':'FW-C02' if kind=='subawards' else 'FW-C01','record_unit':'reported first-tier subaward row' if kind=='subawards' else 'prime award action','records':prof['rows'],'raw_container':http['relative_path'],'raw_container_bytes_shared':http['bytes'],'primary_normalized_path':path,'full_source_table_path':f'normalized/{source}_{kind}_source.parquet','date_min':prof['action_date_min'],'date_max':prof['action_date_max'],'scope':'Exact source request in evidence; awarding agency DoD; dates FY2019-26 or source-specific single FY','role':'overlapping extraction; consult unique transaction index; no mixed-grain sum','financial_semantics':'Dictionary required; action obligations, cumulative values, options/outlays/subawards distinct'})
+extras=[
+ ('sbir_current','FW-R01','award snapshot row',25770,'normalized/sbir_current.parquet','2018-07-27','2026-01-23','Reported Award Year FY2019-26; defense/war and capability-selected DOE','primary; exact deduplicated view 25769 rows; repeated-content variants retained','Reported award amount, not action/payment history'),
+ ('sbir','FW-R01','older award snapshot row',18814,'normalized/sbir.parquet','','','Same reported-year selection on older official file','superseded comparison only; do not combine with primary','Reported award amount; overlapping snapshot'),
+ ('grants','FW-R04;FW-X21','opportunity synopsis/forecast version',3283,'normalized/grants.parquet','2018-10-15','2026-09-30','FY2019-26 PostDate; DoD and selected DOE/DHS/State capability candidates','funding intent only; full snapshot 83576 records','Ceiling, floor and estimated program funding, not awards'),
+ ('omb_budget','FW-B12;FW-X26','account-year-measure-vintage cell',38600,'normalized/omb_security_fy2019_2026.parquet','FY2019','FY2026','Security-account context, PB2025 and PB2027 vintages','vintages/measures nonadditive; broad accounts need mission/capability review','Net budget authority vs net outlays; thousands; actual/estimated status explicit'),
+ ('darpa_budget','FW-B03','program title funding row',256,'normalized/darpa_pb2025_programs.parquet','FY2023','FY2025','One complete PB2025 justification book','partial table extraction; full252 pages; no complete project-award crosswalk','Millions; FY2025 request separate from earlier exhibit columns'),
+ ('commons','OS-02','project header disclosure',57,'normalized/commons_projects.parquet','publication hints 2025-04','','All six linked technology-area sheets','public disclosed projects; one monetary scale unspecified','Disclosed project amount; obligation/time basis unspecified'),
+ ('apfit','OS-03','FY2022 selected project',10,'normalized/apfit_fy2022_projects.parquet','FY2022','FY2022','March2023 implementation report cohort','historical cohort, not current-complete portfolio','Selected funding, not action obligation/payment; overlapping procurement'),
+ ('doe_ldrd','FW-R07','laboratory-year financial row including totals',123,'normalized/doe_ldrd_table1_fy2019_2025.parquet','FY2019','FY2025','Seven annual Table1 reports; 16/17labs plus one annual total','institutional context; scan transcriptions documented; totals nest lab rows','Costs in millions; DOE/SPP/total/LDRD distinct; percent/count nonmonetary'),
+ ('sandia_ldrd','FW-R07','physical report page',131,'normalized/sandia_ldrd_pages.parquet','FY2025','FY2025','One full FY2025 LDRD narrative/highlights report','evidence pages, not a project census','Uninterpreted page mentions; Sandia program cost excluding PM differs from DOE total'),
+ ('ffrdc','FW-X01','institution-question-dimension expenditure row',862,'normalized/ffrdc_expenditures.parquet','organization FY2025','organization FY2025','Complete finite CSV microdata;41institutions','institutional research context; breakdowns overlap','R&D expenditure, thousands; organization FY may differ from federal FY'),
+ ('federal_funds','FW-B17;FW-X20','positional table row including headers/footnotes',8355,'normalized/federal_funds_source_rows.parquet','FY1951 historical tables','FY2025 preliminary','99 complete table workbooks; raw table units retained','context; not 8355 independent financial observations','Per-table thousands/millions/percent; federal obligations/outlays not survey expenditures'),
+ ('psc','FW-X17','main-sheet row including headers',6109,'normalized/psc_PSC_for_042025.parquet','April2025','April2025','Complete classification workbook and separate category-manager sheet','lookup only; not6109unique codes asserted','No money'),
+ ('govinfo_budget','FW-B12','physical appendix page',114,'normalized/govinfo_budget_pages.parquet','PB2026','PB2026','Complete FY2026 DoD appendix PDF','budget context evidence','Source columns and units must be read; no page currency-string aggregation')]
+for name,ids,unit,n,path,mind,maxd,scope,role,money in extras:
+ http=[x for x in manifest if x['source']==name and x['outcome']=='downloaded'];rows.append({'dataset':name,'source_register_ids':ids,'record_unit':unit,'records':n,'raw_container':';'.join(x['relative_path'] for x in http),'raw_container_bytes_shared':sum(x['bytes'] for x in http),'primary_normalized_path':path,'full_source_table_path':'','date_min':mind,'date_max':maxd,'scope':scope,'role':role,'financial_semantics':money})
+with (ROOT/'DATASETS.csv').open('w') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+# This includes all physical derived files, including overlap/source views, not an additive record count.
+files=[]
+for p in sorted((DATA/'normalized').glob('*.parquet')):files.append({'path':str(p.relative_to(DATA)),'rows':pq.ParquetFile(p).metadata.num_rows,'columns':pq.ParquetFile(p).metadata.num_columns,'bytes':p.stat().st_size})
+save_json(ROOT/'validation/parquet_catalog.json',files);print('Datasets',len(rows),'Parquet files',len(files))

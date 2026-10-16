@@ -49,7 +49,7 @@ def analyze(source):
    reader=csv.DictReader(f);schema=reader.fieldnames
    if source.startswith('sbir'):idfields=['Agency Tracking Number','Contract','Duns','UEI'];moneyfields=['Award Amount']
    else:
-    idfields=[k for k in schema if k in ['contract_transaction_unique_key','contract_award_unique_key','award_id_piid','recipient_uei','recipient_duns','assistance_transaction_unique_key','assistance_award_unique_key']]
+    idfields=[k for k in schema if k in ['contract_transaction_unique_key','contract_award_unique_key','award_id_piid','award_id_fain','award_id_uri','recipient_uei','recipient_duns','assistance_transaction_unique_key','assistance_award_unique_key']]
     moneyfields=[k for k in schema if any(a in k for a in ['obligat','outlay','value','loan','subsidy','non_federal_funding','total_funding']) and not k.endswith('_code')]
    for i,r in enumerate(reader,1):
     counts[member]+=1

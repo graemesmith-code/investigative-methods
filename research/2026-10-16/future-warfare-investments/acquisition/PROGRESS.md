@@ -23,3 +23,13 @@ Further acquisition: complete FY2019–FY2025 DOE LDRD annual financial reports 
 Pending USAspending exports: a ten-term DoD capability slice (324,990 prime actions reported by count endpoint) and the broader DoD R&D PSC category A slice (342,900 prime actions reported by count endpoint). These overlap DARPA and each other. No summed investment total is calculated.
 
 Access limits: R-1/Army/Navy direct budget routes returned errors; official DARPA/GovInfo alternatives succeeded. SBA API returned 403, published bulk CSV succeeded. SAM API probes returned 404; documentation requires an authorized key. Workspace persistence remains unconfirmed; a Library archive is planned, not yet saved at this checkpoint.
+
+## 21:35 UTC checkpoint
+
+The downloaded payloads now total **1,045,161,207 bytes**; normalized files total **531,589,349 bytes**, including intentionally overlapping/source-preserving views. **223 checks pass**, with **zero integrity errors and three explicit keyword-family count/export coverage warnings**. Current parsed spending extracts contain **474,975 unique transaction keys** after exact-key union; this is a count of actions, not investments or an additive monetary estimate.
+
+The full keyword ZIP is **47,414,894 bytes**, containing **305,768 prime actions** and **31,308 subaward rows**. Its count endpoint reports 324,990 prime actions. Smaller FY2019 and FY2026 exports return precisely the same transaction-key sets as those years in the broad export, while retaining count discrepancies (31,105 vs 24,383; 36,069 vs 35,822). The cause remains unestablished; the files are usable evidence with a qualified coverage claim.
+
+R&D single-year diagnostics have been downloaded and parsed: FY2019 **44,337 prime actions + 19,937 subaward rows**; FY2026 **33,089 prime actions + 3,090 subaward rows**. Prime counts match the independent count endpoint. The broader FY2019–FY2026 R&D job has reported 342,900 prime actions, matching its count response, but its complete ZIP is still generating. It is not yet counted as downloaded.
+
+All seven DOE LDRD reports are parsed, with two scanned Table1s manually transcribed against rendered source pages. The seven-year financial table has **123 rows including seven annual totals**; annual project counts reconcile. The full selected report corpus supplies **701 physical PDF pages**, with OCR flagged. Source/monetary dictionaries, semantic audits, exact duplicate views, candidate identifier joins and the deterministic pipeline dry run are now available. Large-data Library archival remains pending completion of the main R&D export.

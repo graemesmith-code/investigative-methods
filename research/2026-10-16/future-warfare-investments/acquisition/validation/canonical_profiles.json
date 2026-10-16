@@ -1,0 +1,434 @@
+[
+  {
+    "file": "apfit_pages.parquet",
+    "rows": 11,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 11,
+      "fiscal_year": 11,
+      "transaction_key": 11,
+      "award_key": 11,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "commons_pages.parquet",
+    "rows": 26,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 26,
+      "fiscal_year": 26,
+      "transaction_key": 26,
+      "award_key": 26,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "darpa_budget_pages.parquet",
+    "rows": 252,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 252,
+      "fiscal_year": 252,
+      "transaction_key": 252,
+      "award_key": 21,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "doe_ldrd_pages.parquet",
+    "rows": 167,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 1,
+      "action_date": 167,
+      "fiscal_year": 167,
+      "transaction_key": 167,
+      "award_key": 167,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "govinfo_budget_pages.parquet",
+    "rows": 114,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 3,
+      "action_date": 114,
+      "fiscal_year": 114,
+      "transaction_key": 114,
+      "award_key": 114,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "grants.parquet",
+    "rows": 3283,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 3283,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "sandia_ldrd_pages.parquet",
+    "rows": 131,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 131,
+      "fiscal_year": 131,
+      "transaction_key": 131,
+      "award_key": 131,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "sbir.parquet",
+    "rows": 18814,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 18814,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 1,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "sbir_current.parquet",
+    "rows": 25770,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 25770,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 1,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "sbir_current_exact_deduplicated.parquet",
+    "rows": 25769,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 25769,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_darpa.parquet",
+    "rows": 12057,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_darpa_subawards.parquet",
+    "rows": 4869,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 4869,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_capabilities.parquet",
+    "rows": 305768,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2019.parquet",
+    "rows": 24383,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2019_subawards.parquet",
+    "rows": 8773,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 8773,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2026.parquet",
+    "rows": 35822,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_capabilities_fy2026_subawards.parquet",
+    "rows": 551,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 551,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_capabilities_subawards.parquet",
+    "rows": 31308,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 1,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 31308,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_rd_fy2019.parquet",
+    "rows": 44337,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_rd_fy2019_subawards.parquet",
+    "rows": 19937,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 2,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 19937,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_rd_fy2026.parquet",
+    "rows": 33089,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_rd_fy2026_subawards.parquet",
+    "rows": 3090,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 3090,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_research_grants.parquet",
+    "rows": 88273,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 0,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 0,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  },
+  {
+    "file": "usaspending_dod_research_grants_subawards.parquet",
+    "rows": 14143,
+    "missing": {
+      "document_id": 0,
+      "source_url": 0,
+      "raw_locator": 0,
+      "source_snapshot_sha256": 0,
+      "text": 6,
+      "action_date": 0,
+      "fiscal_year": 0,
+      "transaction_key": 14143,
+      "award_key": 0,
+      "record_sha256": 0
+    },
+    "duplicate_document_ids": 0,
+    "malformed_nonempty_dates": 0
+  }
+]

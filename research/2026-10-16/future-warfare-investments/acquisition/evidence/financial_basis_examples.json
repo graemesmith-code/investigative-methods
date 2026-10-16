@@ -1,0 +1,8 @@
+{
+  "case": "Sandia FY2025 LDRD portfolio",
+  "observations": [
+    {"source_url": "https://www.sandia.gov/app/uploads/sites/156/2026/04/FY25-Sandia-Labs-LDRD-Annual-Report-SAND2026-19220R.pdf#page=13", "amount_usd": "260600000", "measure": "program cost excluding PM costs", "projects": 536, "evidence_excerpt": "Total Program Cost (not including PM costs)"},
+    {"source_url": "https://www.energy.gov/sites/default/files/2026-04/fy-2025-doe-ldrd-report-to-congress.pdf#page=9", "amount_usd": "265380000", "measure": "LDRD total costs", "projects": 536, "evidence_excerpt": "LDRD Total Costs ($M)"}
+  ],
+  "interpretation": "Two different financial bases for the same reported project count. Preserve labels and scope. Do not add these representations or assume they are contradictory. No causal reconciliation of the entire difference has been performed."
+}

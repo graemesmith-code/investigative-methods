@@ -1,0 +1,332 @@
+[
+  {
+    "path": "normalized/PB2025_budget_authority_source.parquet",
+    "rows": 5003,
+    "columns": 66,
+    "bytes": 703877
+  },
+  {
+    "path": "normalized/PB2025_outlays_source.parquet",
+    "rows": 5631,
+    "columns": 81,
+    "bytes": 900353
+  },
+  {
+    "path": "normalized/PB2027_budget_authority_source.parquet",
+    "rows": 5128,
+    "columns": 69,
+    "bytes": 731605
+  },
+  {
+    "path": "normalized/PB2027_outlays_source.parquet",
+    "rows": 5760,
+    "columns": 84,
+    "bytes": 930735
+  },
+  {
+    "path": "normalized/apfit_fy2022_projects.parquet",
+    "rows": 10,
+    "columns": 12,
+    "bytes": 27242
+  },
+  {
+    "path": "normalized/apfit_pages.parquet",
+    "rows": 11,
+    "columns": 21,
+    "bytes": 25837
+  },
+  {
+    "path": "normalized/commons_pages.parquet",
+    "rows": 26,
+    "columns": 21,
+    "bytes": 65576
+  },
+  {
+    "path": "normalized/commons_projects.parquet",
+    "rows": 57,
+    "columns": 18,
+    "bytes": 108283
+  },
+  {
+    "path": "normalized/darpa_budget_pages.parquet",
+    "rows": 252,
+    "columns": 21,
+    "bytes": 215861
+  },
+  {
+    "path": "normalized/darpa_pb2025_programs.parquet",
+    "rows": 256,
+    "columns": 12,
+    "bytes": 202142
+  },
+  {
+    "path": "normalized/doe_ldrd_pages.parquet",
+    "rows": 167,
+    "columns": 21,
+    "bytes": 91909
+  },
+  {
+    "path": "normalized/doe_ldrd_table1_fy2019_2025.parquet",
+    "rows": 123,
+    "columns": 21,
+    "bytes": 31041
+  },
+  {
+    "path": "normalized/federal_funds_source_rows.parquet",
+    "rows": 8355,
+    "columns": 5,
+    "bytes": 271018
+  },
+  {
+    "path": "normalized/ffrdc_expenditures.parquet",
+    "rows": 862,
+    "columns": 24,
+    "bytes": 33193
+  },
+  {
+    "path": "normalized/ffrdc_source.parquet",
+    "rows": 862,
+    "columns": 17,
+    "bytes": 20939
+  },
+  {
+    "path": "normalized/govinfo_budget_pages.parquet",
+    "rows": 114,
+    "columns": 21,
+    "bytes": 235075
+  },
+  {
+    "path": "normalized/grants.parquet",
+    "rows": 3283,
+    "columns": 21,
+    "bytes": 3621696
+  },
+  {
+    "path": "normalized/grants_selected_source.parquet",
+    "rows": 3283,
+    "columns": 39,
+    "bytes": 5018743
+  },
+  {
+    "path": "normalized/omb_security_fy2019_2026.parquet",
+    "rows": 38600,
+    "columns": 18,
+    "bytes": 3296365
+  },
+  {
+    "path": "normalized/psc_Category_Managers.parquet",
+    "rows": 23,
+    "columns": 7,
+    "bytes": 6169
+  },
+  {
+    "path": "normalized/psc_PSC_for_042025.parquet",
+    "rows": 6109,
+    "columns": 14,
+    "bytes": 307662
+  },
+  {
+    "path": "normalized/sandia_ldrd_pages.parquet",
+    "rows": 131,
+    "columns": 21,
+    "bytes": 165635
+  },
+  {
+    "path": "normalized/sbir.parquet",
+    "rows": 18814,
+    "columns": 21,
+    "bytes": 16020166
+  },
+  {
+    "path": "normalized/sbir_current.parquet",
+    "rows": 25770,
+    "columns": 21,
+    "bytes": 23584885
+  },
+  {
+    "path": "normalized/sbir_current_exact_deduplicated.parquet",
+    "rows": 25769,
+    "columns": 21,
+    "bytes": 35513160
+  },
+  {
+    "path": "normalized/sbir_usaspending_candidate_links.parquet",
+    "rows": 172,
+    "columns": 7,
+    "bytes": 19469
+  },
+  {
+    "path": "normalized/usaspending_darpa.parquet",
+    "rows": 12057,
+    "columns": 21,
+    "bytes": 1799055
+  },
+  {
+    "path": "normalized/usaspending_darpa_subawards.parquet",
+    "rows": 4869,
+    "columns": 21,
+    "bytes": 973914
+  },
+  {
+    "path": "normalized/usaspending_darpa_subawards_source.parquet",
+    "rows": 4869,
+    "columns": 118,
+    "bytes": 708289
+  },
+  {
+    "path": "normalized/usaspending_darpa_transactions_source.parquet",
+    "rows": 12057,
+    "columns": 297,
+    "bytes": 1459702
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities.parquet",
+    "rows": 305768,
+    "columns": 21,
+    "bytes": 49897747
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2019.parquet",
+    "rows": 24383,
+    "columns": 21,
+    "bytes": 4609046
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2019_subawards.parquet",
+    "rows": 8773,
+    "columns": 21,
+    "bytes": 1652412
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2019_subawards_source.parquet",
+    "rows": 8773,
+    "columns": 118,
+    "bytes": 1121561
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2019_transactions_source.parquet",
+    "rows": 24383,
+    "columns": 297,
+    "bytes": 3970143
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2026.parquet",
+    "rows": 35822,
+    "columns": 21,
+    "bytes": 8134122
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2026_subawards.parquet",
+    "rows": 551,
+    "columns": 21,
+    "bytes": 205132
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2026_subawards_source.parquet",
+    "rows": 551,
+    "columns": 118,
+    "bytes": 244398
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_fy2026_transactions_source.parquet",
+    "rows": 35822,
+    "columns": 297,
+    "bytes": 6554358
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_subawards.parquet",
+    "rows": 31308,
+    "columns": 21,
+    "bytes": 6788776
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_subawards_source.parquet",
+    "rows": 31308,
+    "columns": 118,
+    "bytes": 4854731
+  },
+  {
+    "path": "normalized/usaspending_dod_capabilities_transactions_source.parquet",
+    "rows": 305768,
+    "columns": 297,
+    "bytes": 34702381
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2019.parquet",
+    "rows": 44337,
+    "columns": 21,
+    "bytes": 8219523
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2019_subawards.parquet",
+    "rows": 19937,
+    "columns": 21,
+    "bytes": 4004922
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2019_subawards_source.parquet",
+    "rows": 19937,
+    "columns": 118,
+    "bytes": 2945214
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2019_transactions_source.parquet",
+    "rows": 44337,
+    "columns": 297,
+    "bytes": 7072611
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2026.parquet",
+    "rows": 33089,
+    "columns": 21,
+    "bytes": 8239422
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2026_subawards.parquet",
+    "rows": 3090,
+    "columns": 21,
+    "bytes": 831236
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2026_subawards_source.parquet",
+    "rows": 3090,
+    "columns": 118,
+    "bytes": 607021
+  },
+  {
+    "path": "normalized/usaspending_dod_rd_fy2026_transactions_source.parquet",
+    "rows": 33089,
+    "columns": 297,
+    "bytes": 7275227
+  },
+  {
+    "path": "normalized/usaspending_dod_research_grants.parquet",
+    "rows": 88273,
+    "columns": 21,
+    "bytes": 14916808
+  },
+  {
+    "path": "normalized/usaspending_dod_research_grants_subawards.parquet",
+    "rows": 14143,
+    "columns": 21,
+    "bytes": 5520643
+  },
+  {
+    "path": "normalized/usaspending_dod_research_grants_subawards_source.parquet",
+    "rows": 14143,
+    "columns": 113,
+    "bytes": 3873127
+  },
+  {
+    "path": "normalized/usaspending_dod_research_grants_transactions_source.parquet",
+    "rows": 88273,
+    "columns": 116,
+    "bytes": 8447294
+  },
+  {
+    "path": "normalized/usaspending_unique_transaction_index.parquet",
+    "rows": 100330,
+    "columns": 7,
+    "bytes": 14382796
+  }
+]

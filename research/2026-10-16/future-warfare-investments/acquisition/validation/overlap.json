@@ -1,0 +1,112 @@
+{
+  "transaction_rows_across_extracts": 543729,
+  "unique_transaction_keys": 474975,
+  "pairwise_overlap": [
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_dod_rd_fy2026",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_darpa",
+      "shared_transaction_keys": 929
+    },
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_dod_capabilities",
+      "shared_transaction_keys": 3173
+    },
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_dod_research_grants",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_dod_capabilities_fy2019",
+      "shared_transaction_keys": 3173
+    },
+    {
+      "left": "usaspending_dod_rd_fy2019",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_rd_fy2026",
+      "right": "usaspending_darpa",
+      "shared_transaction_keys": 787
+    },
+    {
+      "left": "usaspending_dod_rd_fy2026",
+      "right": "usaspending_dod_capabilities",
+      "shared_transaction_keys": 2762
+    },
+    {
+      "left": "usaspending_dod_rd_fy2026",
+      "right": "usaspending_dod_research_grants",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_rd_fy2026",
+      "right": "usaspending_dod_capabilities_fy2019",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_rd_fy2026",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 2762
+    },
+    {
+      "left": "usaspending_darpa",
+      "right": "usaspending_dod_capabilities",
+      "shared_transaction_keys": 1095
+    },
+    {
+      "left": "usaspending_darpa",
+      "right": "usaspending_dod_research_grants",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_darpa",
+      "right": "usaspending_dod_capabilities_fy2019",
+      "shared_transaction_keys": 136
+    },
+    {
+      "left": "usaspending_darpa",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 64
+    },
+    {
+      "left": "usaspending_dod_capabilities",
+      "right": "usaspending_dod_research_grants",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_capabilities",
+      "right": "usaspending_dod_capabilities_fy2019",
+      "shared_transaction_keys": 24383
+    },
+    {
+      "left": "usaspending_dod_capabilities",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 35822
+    },
+    {
+      "left": "usaspending_dod_research_grants",
+      "right": "usaspending_dod_capabilities_fy2019",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_research_grants",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 0
+    },
+    {
+      "left": "usaspending_dod_capabilities_fy2019",
+      "right": "usaspending_dod_capabilities_fy2026",
+      "shared_transaction_keys": 0
+    }
+  ],
+  "warning": "Do not sum extracts. Same SBIR award, announcement, subaward, budget and project disclosures may represent same investment. Cross-source amounts and grains remain separate."
+}

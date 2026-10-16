@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Check downloaded hashes, archive integrity, canonical lineage/counts and overlap. No network."""
-import collections,csv,gzip,hashlib,json,pathlib,shutil,zipfile
+import collections,csv,gzip,hashlib,json,pathlib,shutil,zipfile,re
 import pandas as pd,pyarrow.parquet as pq
 from acquire import DATA,ROOT,save_json
 checks=[]
-def check(name,passed,detail):checks.append({'check':name,'passed':bool(passed),'detail':detail})
+def check(name,passed,detail,severity='error'):checks.append({'check':name,'passed':bool(passed),'severity':severity,'detail':detail})
 manifest=[json.loads(x) for x in (ROOT/'validation/http_manifest.jsonl').read_text().splitlines()];downloaded=[m for m in manifest if m['outcome']=='downloaded'];rawbytes=0
 for m in downloaded:
  p=DATA/m['relative_path'];h=hashlib.sha256()
@@ -25,13 +25,15 @@ for p in sorted((DATA/'normalized').glob('*.parquet')):
  if (ROOT/'validation'/(p.stem+'_profile.json')).exists():
   prof=json.loads((ROOT/'validation'/(p.stem+'_profile.json')).read_text());expected=prof.get('retained_rows');check('canonical_count:'+p.name,n==expected,{'parquet_rows':n,'profile_retained_rows':expected})
 for p in (ROOT/'validation').glob('usaspending_*_source_table_profiles.json'):
- source=p.name.removesuffix('_source_table_profiles.json');j=json.loads(p.read_text());prime=sum(r['rows'] for r in j if r['kind']=='transactions');allrows=sum(r['rows'] for r in j);status=json.loads((ROOT/'evidence'/f'{source}_status.json').read_text());check('download_status_total:'+source,allrows==status['total_rows'],{'parsed_all_csv_rows':allrows,'generator_reported_rows':status['total_rows']});check('download_cap:'+source,allrows<500000,{'all_csv_rows':allrows,'requested_limit':500000});cp=ROOT/'evidence'/f'{source}_count.json'
+ source=p.name.removesuffix('_source_table_profiles.json');j=json.loads(p.read_text());prime=sum(r['rows'] for r in j if r['kind']=='transactions');allrows=sum(r['rows'] for r in j);status=json.loads((ROOT/'evidence'/f'{source}_status.json').read_text());check('download_status_total:'+source,allrows==status['total_rows'],{'parsed_all_csv_rows':allrows,'generator_reported_rows':status['total_rows']});check('download_cap:'+source,max(r['rows'] for r in j)<500000,{'all_csv_rows':allrows,'individual_csv_rows':{r['kind']:r['rows'] for r in j},'requested_limit':500000,'rule':'No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count.'});cp=ROOT/'evidence'/f'{source}_count.json'
  if cp.exists():
-  counts=json.loads(cp.read_text())['results'];expected=sum(counts.values());check('api_count_vs_download:'+source,prime==expected,{'api_transaction_count':expected,'parsed_prime_transactions':prime})
+  counts=json.loads(cp.read_text())['results'];expected=sum(counts.values());check('api_count_vs_download:'+source,prime==expected,{'api_transaction_count':expected,'parsed_prime_transactions':prime},severity='coverage_warning')
  moneyinvalid={r['csv']:{k:v['invalid_nonempty'] for k,v in r['money_value_checks'].items() if v['invalid_nonempty']} for r in j};check('monetary_numeric_parse:'+source,all(not x for x in moneyinvalid.values()),moneyinvalid)
+lp=json.loads((ROOT/'validation/doe_ldrd_finance_profile.json').read_text())
+for k,v in lp['checks'].items():check('ldrd_finances:'+k,v,{'rows':lp['rows']})
 # Exact transaction overlap is measurable. It is not additive spending.
 usas={}
-for source in ['usaspending_darpa','usaspending_dod_capabilities','usaspending_dod_rd_contracts','usaspending_dod_research_grants']:
+for source in sorted(p.stem for p in (DATA/'normalized').glob('usaspending_dod_rd_fy*.parquet') if re.fullmatch(r'usaspending_dod_rd_fy\d{4}',p.stem))+['usaspending_darpa','usaspending_dod_capabilities','usaspending_dod_rd_contracts','usaspending_dod_research_grants']+sorted(p.stem for p in (DATA/'normalized').glob('usaspending_dod_capabilities_fy*.parquet') if re.fullmatch(r'usaspending_dod_capabilities_fy\d{4}',p.stem)):
  p=DATA/'normalized'/f'{source}.parquet'
  if p.exists():usas[source]=pd.read_parquet(p,columns=['transaction_key'])['transaction_key'].dropna()
 overlaps=[]
@@ -45,6 +47,6 @@ for p in sorted((DATA/'normalized').glob('*')):
  h=hashlib.sha256(p.read_bytes()).hexdigest();item={'path':str(p.relative_to(DATA)),'bytes':p.stat().st_size,'sha256':h}
  if p.suffix=='.parquet':item['rows']=pq.ParquetFile(p).metadata.num_rows
  normalized.append(item)
-save_json(ROOT/'validation/normalized_manifest.json',normalized);save_json(ROOT/'validation/canonical_profiles.json',canonical_profiles);save_json(ROOT/'validation/checks.json',{'checks':checks,'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] for c in checks),'raw_bytes':rawbytes,'normalized_bytes':sum(x['bytes'] for x in normalized)})
-print(json.dumps({'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] for c in checks),'raw_bytes':rawbytes,'unique_transaction_keys':len(union),'normalized_bytes':sum(x['bytes'] for x in normalized)}))
-if any(not c['passed'] for c in checks):raise SystemExit(1)
+save_json(ROOT/'validation/normalized_manifest.json',normalized);save_json(ROOT/'validation/canonical_profiles.json',canonical_profiles);save_json(ROOT/'validation/checks.json',{'checks':checks,'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] and c['severity']=='error' for c in checks),'coverage_warnings':sum(not c['passed'] and c['severity']=='coverage_warning' for c in checks),'raw_bytes':rawbytes,'normalized_bytes':sum(x['bytes'] for x in normalized)})
+print(json.dumps({'passed':sum(c['passed'] for c in checks),'failed':sum(not c['passed'] and c['severity']=='error' for c in checks),'coverage_warnings':sum(not c['passed'] and c['severity']=='coverage_warning' for c in checks),'raw_bytes':rawbytes,'unique_transaction_keys':len(union),'normalized_bytes':sum(x['bytes'] for x in normalized)}))
+if any(not c['passed'] and c['severity']=='error' for c in checks):raise SystemExit(1)

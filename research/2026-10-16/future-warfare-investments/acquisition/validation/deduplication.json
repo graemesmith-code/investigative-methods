@@ -1,0 +1,40 @@
+{
+  "sbir_current": {
+    "input_rows": 25770,
+    "exact_content_document_duplicates_removed": 1,
+    "deduplicated_rows": 25769,
+    "different_content_same_source_key_groups": 41,
+    "policy": "Drop only exact identity/content duplicates. Different content with same composite source ID remains a separate version; no amount summation."
+  },
+  "usaspending": {
+    "source_rows": {
+      "usaspending_dod_rd_fy2019": 44337,
+      "usaspending_dod_rd_fy2026": 33089,
+      "usaspending_dod_capabilities_fy2019": 24383,
+      "usaspending_dod_capabilities_fy2026": 35822,
+      "usaspending_dod_capabilities": 305768,
+      "usaspending_darpa": 12057,
+      "usaspending_dod_research_grants": 88273
+    },
+    "input_rows": 543729,
+    "unique_transaction_keys": 474975,
+    "overlapping_representation_rows": 68754,
+    "keys_with_differing_content": 0,
+    "precedence": [
+      "usaspending_dod_rd_fy2019",
+      "usaspending_dod_rd_fy2026",
+      "usaspending_dod_rd_contracts",
+      "usaspending_dod_capabilities_fy2019",
+      "usaspending_dod_capabilities_fy2026",
+      "usaspending_dod_capabilities",
+      "usaspending_darpa",
+      "usaspending_dod_research_grants"
+    ],
+    "policy": "Index unique transaction keys; retain all alternate evidence references. Different row content requires vintage comparison. No spend totals computed."
+  },
+  "candidate_cross_source_links": {
+    "links": 634,
+    "distinct_sbir_documents": 634,
+    "policy": "Candidate relationships only, never automatic capability/award merge or additional funding."
+  }
+}

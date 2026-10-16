@@ -1,0 +1,86 @@
+[
+  {
+    "source": "usaspending_darpa",
+    "rows": 12057,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 12057
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 0,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
+    "source": "usaspending_dod_capabilities_fy2019",
+    "rows": 24383,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 24383
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 0,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
+    "source": "usaspending_dod_capabilities_fy2026",
+    "rows": 35822,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 35822
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 121,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
+    "source": "usaspending_dod_capabilities",
+    "rows": 305768,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 305768
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 121,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
+    "source": "usaspending_dod_rd_fy2019",
+    "rows": 44337,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 44337
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 0,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
+    "source": "usaspending_dod_rd_fy2026",
+    "rows": 33089,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 33089
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 3,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  },
+  {
+    "source": "usaspending_dod_research_grants",
+    "rows": 88273,
+    "blank_ueis": 0,
+    "nonempty_uei_syntax_flags": 0,
+    "awarding_agency_counts": {
+      "097": 88273
+    },
+    "reported_action_fy_mismatches": 0,
+    "actions_after_2026_07_18": 2133,
+    "warning": "UEI syntax check is not registry/entity identity verification. Recent public rows do not establish complete quarter coverage."
+  }
+]

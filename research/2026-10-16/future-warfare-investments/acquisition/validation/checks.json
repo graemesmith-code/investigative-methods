@@ -1,0 +1,2050 @@
+{
+  "checks": [
+    {
+      "check": "sha256:raw/sbir/award_data.csv",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 367551355,
+        "sha256": "81e1662648f81e83b9571c91ee7c5baadcc92a96097de1fafcee7969ef46ea1d"
+      }
+    },
+    {
+      "check": "sha256:raw/grants/GrantsDBExtract20261016v2.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 78292394,
+        "sha256": "a0ff04012ed2528f8dcc3f6ca9c4e8fde222b66d09eb9e582758d2dbd22bd04c"
+      }
+    },
+    {
+      "check": "zip_crc:raw/grants/GrantsDBExtract20261016v2.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 1,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_darpa/PrimeTransactionsAndSubawards_2026-10-16_H20M40S35746664.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 2417982,
+        "sha256": "96acc33715a7830305d5359daec33631e5e7720ea8f2f1596c2798f80458e812"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_darpa/PrimeTransactionsAndSubawards_2026-10-16_H20M40S35746664.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/sbir_current/award_data.csv",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 394911278,
+        "sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe"
+      }
+    },
+    {
+      "check": "sha256:raw/darpa_budget/DARPA_PB2025.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 4253354,
+        "sha256": "a9b8f42601bc17c7fb165b3fc069cd85885c149beb06e244926e4a433620477f"
+      }
+    },
+    {
+      "check": "sha256:raw/govinfo_budget/BUDGET-2026-DOD.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 2127622,
+        "sha256": "f31efbfdb3fadb7dc565f4bab53bf1e43a7ad8ecc83dead6469dc21204493bb3"
+      }
+    },
+    {
+      "check": "sha256:raw/ffrdc/ffrdc_r_and_d_2025.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 29809,
+        "sha256": "e44e6bfa909200edaf8660c7c833d4633c110fdefbc2b07b0f16e15be17f3a96"
+      }
+    },
+    {
+      "check": "zip_crc:raw/ffrdc/ffrdc_r_and_d_2025.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/commons/Quantum-Technology-Q-Projects.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 138945,
+        "sha256": "dc8948cad7fc251526fbd666acec94623a25d66765e133fc90011cae70cb5185"
+      }
+    },
+    {
+      "check": "sha256:raw/commons/Electromagnetic-Warfare.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 182652,
+        "sha256": "1235f2513086c9fd4c1953a837bba111e27b638eb9c22ff6678578bb91ed277c"
+      }
+    },
+    {
+      "check": "sha256:raw/commons/Secure-Edge-1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 139545,
+        "sha256": "e04dd79918741045e24afcaa0d4c3710dbbca13544d75fe6678d6f98a31f345a"
+      }
+    },
+    {
+      "check": "sha256:raw/apfit/index.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 517019,
+        "sha256": "d56a25099919f05cd572fe4868abad61a52d6d21dfbef3ed97398e127d686a9b"
+      }
+    },
+    {
+      "check": "sha256:raw/apfit/APFIT_20230321.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 603542,
+        "sha256": "b279c70e38029f8835e46dd7dc16b69b2c46ef9555087f5f597aa15376541fdb"
+      }
+    },
+    {
+      "check": "sha256:raw/sbir_docs/data_dictionary.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 45394,
+        "sha256": "2e3aad2db88ade6ffd3d5c74daccc8677dc4d6a9e67f50343d0d61fb161af59c"
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_docs/about-the-data-download.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 465759,
+        "sha256": "cb269d8863ff1c889d08c75562d206e903f71c50e1c8d289376671150a8cd4fc"
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_docs/Federal-Spending-Guide.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 422906,
+        "sha256": "8895f6c22d5642aa2ec5f8e15ded2201e14ee402912bcaf4c9aa3c290ad10dc7"
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_docs/data_dictionary.json",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 358054,
+        "sha256": "3d0f2e3a952297050db5c2a4addf40765460a49d499427da1b57ef3c7edea3c3"
+      }
+    },
+    {
+      "check": "sha256:raw/commons/index.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 465676,
+        "sha256": "4f02974746db0e3fb80cbc78bf389d6b6c620650584d430245ef6de48337cd99"
+      }
+    },
+    {
+      "check": "sha256:raw/commons/Artificial-Intelligence-Hardware-AI-HW-Projects.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 163402,
+        "sha256": "31fe22e90985586fad8fac19fc878e1432ca90efa4d676ce2df2648712c71dfa"
+      }
+    },
+    {
+      "check": "sha256:raw/commons/5G_6G-Projects-1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 100998,
+        "sha256": "77e6cfa4b416fcbf7b4a7753da4e50de94b038fe72d2ea7fb22d9e32a9b655ec"
+      }
+    },
+    {
+      "check": "sha256:raw/commons/Commercial-Leap-Ahead.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 152835,
+        "sha256": "5adf2f1a418d7a92a2804178c55a846bf5a8df9c871de72fb77a09c61e0e7a34"
+      }
+    },
+    {
+      "check": "sha256:raw/omb_budget/PB2025_budget_authority.xlsx",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 1186512,
+        "sha256": "e3d629ce5323159d04a93ca038c53e0a462f0e774ac8303b5b44bf01a161f800"
+      }
+    },
+    {
+      "check": "sha256:raw/omb_budget/PB2025_outlays.xlsx",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 2018319,
+        "sha256": "fc958c3a6797d9d8f624579a32e19a9dfa4a932cb558fa545474cf277075b8d2"
+      }
+    },
+    {
+      "check": "sha256:raw/omb_budget/PB2027_budget_authority.xlsx",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 1611310,
+        "sha256": "5191c7288e5004c7a54d93ce88f233c0fb4c19db69a111a7920ed09296269635"
+      }
+    },
+    {
+      "check": "sha256:raw/omb_budget/PB2027_outlays.xlsx",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 2144765,
+        "sha256": "ceced07cf3bd3b81265c3da69a7dc9852b8ce1d5d1366cbb2d233d535d899b2e"
+      }
+    },
+    {
+      "check": "sha256:raw/omb_docs/db_guide_fy2027.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 249763,
+        "sha256": "cc4871365009d485dae32bc6aeaa402005f06151516399efd8499c72f0542bb3"
+      }
+    },
+    {
+      "check": "sha256:raw/federal_funds/nsf26316-data-tables-tables-excels.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 1167352,
+        "sha256": "f84f31dcac55fb7c3ce7ffe4826bcfe2d377ae1e960d72bfabeaff65aba50e0d"
+      }
+    },
+    {
+      "check": "zip_crc:raw/federal_funds/nsf26316-data-tables-tables-excels.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 100,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/psc/PSC_April_2025.xlsx",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 462762,
+        "sha256": "5ae8159d8dff645f24e5b397decc4914f7efebb25f7777cbea8e75ab7e8430f4"
+      }
+    },
+    {
+      "check": "sha256:raw/ffrdc_docs/ffrdc_2025.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 158494,
+        "sha256": "85c000323dce362f37f72302d5a03da7fe6be3a0bff5dcf168695bd5a95b5314"
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_dod_research_grants/PrimeTransactionsAndSubawards_2026-10-16_H20M47S03483824.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 15958687,
+        "sha256": "86a86c1bdef630ca0d0219c1044aaf37294d1117dbb4c6da48d9888d4c415dab"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_research_grants/PrimeTransactionsAndSubawards_2026-10-16_H20M47S03483824.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/ffrdc_docs/questionnaire.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 276269,
+        "sha256": "cb3ac17db4728ac3de9a86b46696ec242461dbf63a4e644cb28a677f09afca17"
+      }
+    },
+    {
+      "check": "sha256:raw/sam_docs/contract-awards.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 276169,
+        "sha256": "46cb995d2d026bef0d5a1e85ff2ec2220c3775b9d3701fded4895f5244ac7fb2"
+      }
+    },
+    {
+      "check": "sha256:raw/sam_docs/opportunities.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 46217,
+        "sha256": "448b85ab4a22e33d139295cb1d6a3a6384b685a936d8c645dd12e69ed938fa62"
+      }
+    },
+    {
+      "check": "sha256:raw/sandia_ldrd/Sandia_FY2025_LDRD.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 62296860,
+        "sha256": "95147a676bc72c266624c27c3929c4364c6c5ef38d24d633db3910b4dd08446e"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/index.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 126603,
+        "sha256": "873dbf2ff816a07f335ec0e1da10da2128736cfe9f3ec2e6346293605ba3d6ce"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2025_LDRD.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 558246,
+        "sha256": "83fda21a0c170e019f04ba3490c1c091bfdf2ba5ad563f0b2140dc624e9c3a17"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/FY2019_landing.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 114417,
+        "sha256": "8d42cf7b933eb91c7c541241cd86a3a77172fd9a6f61d12d6fcf0cbee53de616"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2019_LDRD_1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 1972368,
+        "sha256": "ecff06c1ee2f6abc0d8bef7f2bd283704774dadf5813b3a2ef44fd17e97b04cc"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/FY2020_landing.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 114376,
+        "sha256": "821cd78cbc478b544c6ad4a238769b9322987d7cc9554f8a47f6e8527b9bdc98"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2020_LDRD_1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 781096,
+        "sha256": "5646174a5273c29c06b508fb8e008cf9144fd0c8569cc56ecabfb613d7f1b41f"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/FY2021_landing.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 114374,
+        "sha256": "fd2d4f36164f6b45d67672bd5fdb2d7c6b0ec826f8a1163d18cd32da5c28767b"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/FY2022_landing.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 113809,
+        "sha256": "47304e01dd477f972b2729dd447027639f4897eb16751beca9447e8f41ae3172"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2022_LDRD_1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 628939,
+        "sha256": "007536d07e88a65b0c98a08cfedaa7e8759e33a1cc7865effb75d6e4df6b0994"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/FY2023_landing.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 113871,
+        "sha256": "47df6c6ae39d93ca2f1abbfb17c35ac9ecf34e864d707b16706002fd581486cb"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2023_LDRD_1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 551206,
+        "sha256": "7babc434424ce028d6c7d8e17c34747aeda6d23925fc95d01974cc75f007b813"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/FY2024_landing.html",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 112775,
+        "sha256": "5f2c7f9742eb25b03ffd50b146d828646aed8fe5dae6d7e38335e2ce787ae346"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2024_LDRD_1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 518591,
+        "sha256": "f4d5b6ebab1123c5be3ba438b3fa59f6859e43147297c2c1bc7c0db96d520e39"
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_docs/transaction_search_mapping.py",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 45893,
+        "sha256": "df5e09c94a16e480b60d02a9a687bb9bba4e416a9daa5157a0e356770b46a808"
+      }
+    },
+    {
+      "check": "sha256:raw/doe_ldrd/DOE_FY2021_LDRD_1.pdf",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 13006676,
+        "sha256": "ac9c2207cbd946f9bca35046492839eff24e053f141d269bcbc033e262ab20db"
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_dod_capabilities/PrimeTransactionsAndSubawards_2026-10-16_H20M43S23619214.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 47414894,
+        "sha256": "2a1eccb001369d73e6729b1b470465477e12202c777c0e9163e89e2ed19febe9"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_capabilities/PrimeTransactionsAndSubawards_2026-10-16_H20M43S23619214.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_dod_capabilities_fy2026/PrimeTransactionsAndSubawards_2026-10-16_H21M17S46193371.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 8605044,
+        "sha256": "49cd49e5e10dd2188f263c78f5812c0a2c1d8cee459aff8a0d4a93593f3fee09"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_capabilities_fy2026/PrimeTransactionsAndSubawards_2026-10-16_H21M17S46193371.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_dod_capabilities_fy2019/PrimeTransactionsAndSubawards_2026-10-16_H21M17S46493929.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 5953698,
+        "sha256": "5701ede554a78b74735368632f2b16f9c621b4d94075ebaf2e7205c0844d02a6"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_capabilities_fy2019/PrimeTransactionsAndSubawards_2026-10-16_H21M17S46493929.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_dod_rd_fy2026/PrimeTransactionsAndSubawards_2026-10-16_H21M21S39660311.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 11122542,
+        "sha256": "0addacabdcae7b0567c6ce1995cb04b689135cd1cde3d5feaa3428edeb038664"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_rd_fy2026/PrimeTransactionsAndSubawards_2026-10-16_H21M21S39660311.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "sha256:raw/usaspending_dod_rd_fy2019/PrimeTransactionsAndSubawards_2026-10-16_H21M21S40102990.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "bytes": 11997789,
+        "sha256": "851ddc681f2fde6a31a83bc762b7307b5947b66488122ca8679b337ecddda8da"
+      }
+    },
+    {
+      "check": "zip_crc:raw/usaspending_dod_rd_fy2019/PrimeTransactionsAndSubawards_2026-10-16_H21M21S40102990.zip",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "members": 2,
+        "bad_member": null
+      }
+    },
+    {
+      "check": "raw_download_budget",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "downloaded_bytes": 1045161207,
+        "budget_bytes": 15000000000
+      }
+    },
+    {
+      "check": "disk_headroom",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "free_bytes": 30102745088
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_pages.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 11
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_pages.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 11
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_pages.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 11
+      }
+    },
+    {
+      "check": "canonical_lineage:apfit_pages.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 11
+      }
+    },
+    {
+      "check": "date_format:apfit_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_pages.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 26
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_pages.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 26
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_pages.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 26
+      }
+    },
+    {
+      "check": "canonical_lineage:commons_pages.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 26
+      }
+    },
+    {
+      "check": "date_format:commons_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_budget_pages.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 252
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_budget_pages.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 252
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_budget_pages.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 252
+      }
+    },
+    {
+      "check": "canonical_lineage:darpa_budget_pages.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 252
+      }
+    },
+    {
+      "check": "date_format:darpa_budget_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:doe_ldrd_pages.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 167
+      }
+    },
+    {
+      "check": "canonical_lineage:doe_ldrd_pages.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 167
+      }
+    },
+    {
+      "check": "canonical_lineage:doe_ldrd_pages.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 167
+      }
+    },
+    {
+      "check": "canonical_lineage:doe_ldrd_pages.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 167
+      }
+    },
+    {
+      "check": "date_format:doe_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:govinfo_budget_pages.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 114
+      }
+    },
+    {
+      "check": "canonical_lineage:govinfo_budget_pages.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 114
+      }
+    },
+    {
+      "check": "canonical_lineage:govinfo_budget_pages.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 114
+      }
+    },
+    {
+      "check": "canonical_lineage:govinfo_budget_pages.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 114
+      }
+    },
+    {
+      "check": "date_format:govinfo_budget_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:grants.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3283
+      }
+    },
+    {
+      "check": "canonical_lineage:grants.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3283
+      }
+    },
+    {
+      "check": "canonical_lineage:grants.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3283
+      }
+    },
+    {
+      "check": "canonical_lineage:grants.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3283
+      }
+    },
+    {
+      "check": "date_format:grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 3283,
+        "profile_retained_rows": 3283
+      }
+    },
+    {
+      "check": "canonical_lineage:sandia_ldrd_pages.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131
+      }
+    },
+    {
+      "check": "canonical_lineage:sandia_ldrd_pages.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131
+      }
+    },
+    {
+      "check": "canonical_lineage:sandia_ldrd_pages.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131
+      }
+    },
+    {
+      "check": "canonical_lineage:sandia_ldrd_pages.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 131
+      }
+    },
+    {
+      "check": "date_format:sandia_ldrd_pages.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 18814
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 18814
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 18814
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 18814
+      }
+    },
+    {
+      "check": "date_format:sbir.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:sbir.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 18814,
+        "profile_retained_rows": 18814
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25770
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25770
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25770
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25770
+      }
+    },
+    {
+      "check": "date_format:sbir_current.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:sbir_current.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 25770,
+        "profile_retained_rows": 25770
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current_exact_deduplicated.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25769
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current_exact_deduplicated.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25769
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current_exact_deduplicated.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25769
+      }
+    },
+    {
+      "check": "canonical_lineage:sbir_current_exact_deduplicated.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 25769
+      }
+    },
+    {
+      "check": "date_format:sbir_current_exact_deduplicated.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 12057
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 12057
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 12057
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 12057
+      }
+    },
+    {
+      "check": "date_format:usaspending_darpa.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_darpa.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 12057,
+        "profile_retained_rows": 12057
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 4869
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 4869
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 4869
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_darpa_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 4869
+      }
+    },
+    {
+      "check": "date_format:usaspending_darpa_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 305768
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 305768
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 305768
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 305768
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_capabilities.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_capabilities.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 305768,
+        "profile_retained_rows": 305768
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 24383
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 24383
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 24383
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 24383
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_capabilities_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_capabilities_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 24383,
+        "profile_retained_rows": 24383
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 8773
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 8773
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 8773
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2019_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 8773
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 35822
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 35822
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 35822
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 35822
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_capabilities_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_capabilities_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 35822,
+        "profile_retained_rows": 35822
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 551
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 551
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 551
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_fy2026_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 551
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 31308
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 31308
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 31308
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_capabilities_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 31308
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_capabilities_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 44337
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 44337
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 44337
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 44337
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_rd_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_rd_fy2019.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 44337,
+        "profile_retained_rows": 44337
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 19937
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 19937
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 19937
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2019_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 19937
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_rd_fy2019_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 33089
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 33089
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 33089
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 33089
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_rd_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_rd_fy2026.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 33089,
+        "profile_retained_rows": 33089
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3090
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3090
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3090
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_rd_fy2026_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 3090
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_rd_fy2026_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 88273
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 88273
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 88273
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 88273
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_research_grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "canonical_count:usaspending_dod_research_grants.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parquet_rows": 88273,
+        "profile_retained_rows": 88273
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants_subawards.parquet:document_id",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 14143
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants_subawards.parquet:source_url",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 14143
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants_subawards.parquet:raw_locator",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 14143
+      }
+    },
+    {
+      "check": "canonical_lineage:usaspending_dod_research_grants_subawards.parquet:source_snapshot_sha256",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "missing": 0,
+        "rows": 14143
+      }
+    },
+    {
+      "check": "date_format:usaspending_dod_research_grants_subawards.parquet",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "malformed_nonempty": 0
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_research_grants",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 102416,
+        "generator_reported_rows": 102416
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_research_grants",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 102416,
+        "individual_csv_rows": {
+          "transactions": 88273,
+          "subawards": 14143
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_research_grants",
+      "passed": true,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 88273,
+        "parsed_prime_transactions": 88273
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_research_grants",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Assistance_PrimeTransactions_2026-10-16_H20M47S28_1.csv": {},
+        "Assistance_Subawards_2026-10-16_H20M49S10_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_capabilities_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 33156,
+        "generator_reported_rows": 33156
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_capabilities_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 33156,
+        "individual_csv_rows": {
+          "transactions": 24383,
+          "subawards": 8773
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_capabilities_fy2019",
+      "passed": false,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 31105,
+        "parsed_prime_transactions": 24383
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_capabilities_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H21M17S56_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H21M20S06_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_rd_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 36179,
+        "generator_reported_rows": 36179
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_rd_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 36179,
+        "individual_csv_rows": {
+          "transactions": 33089,
+          "subawards": 3090
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_rd_fy2026",
+      "passed": true,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 33089,
+        "parsed_prime_transactions": 33089
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_rd_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H21M21S47_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H21M25S17_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_darpa",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 16926,
+        "generator_reported_rows": 16926
+      }
+    },
+    {
+      "check": "download_cap:usaspending_darpa",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 16926,
+        "individual_csv_rows": {
+          "transactions": 12057,
+          "subawards": 4869
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_darpa",
+      "passed": true,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 12057,
+        "parsed_prime_transactions": 12057
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_darpa",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H20M40S41_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H20M41S56_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_capabilities",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 337076,
+        "generator_reported_rows": 337076
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_capabilities",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 337076,
+        "individual_csv_rows": {
+          "transactions": 305768,
+          "subawards": 31308
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_capabilities",
+      "passed": false,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 324990,
+        "parsed_prime_transactions": 305768
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_capabilities",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H20M45S38_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H21M06S14_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_capabilities_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 36373,
+        "generator_reported_rows": 36373
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_capabilities_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 36373,
+        "individual_csv_rows": {
+          "transactions": 35822,
+          "subawards": 551
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_capabilities_fy2026",
+      "passed": false,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 36069,
+        "parsed_prime_transactions": 35822
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_capabilities_fy2026",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H21M17S58_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H21M20S25_1.csv": {}
+      }
+    },
+    {
+      "check": "download_status_total:usaspending_dod_rd_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "parsed_all_csv_rows": 64274,
+        "generator_reported_rows": 64274
+      }
+    },
+    {
+      "check": "download_cap:usaspending_dod_rd_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "all_csv_rows": 64274,
+        "individual_csv_rows": {
+          "transactions": 44337,
+          "subawards": 19937
+        },
+        "requested_limit": 500000,
+        "rule": "No individual CSV reaches the requested row ceiling; prime completeness additionally compared with independent count."
+      }
+    },
+    {
+      "check": "api_count_vs_download:usaspending_dod_rd_fy2019",
+      "passed": true,
+      "severity": "coverage_warning",
+      "detail": {
+        "api_transaction_count": 44337,
+        "parsed_prime_transactions": 44337
+      }
+    },
+    {
+      "check": "monetary_numeric_parse:usaspending_dod_rd_fy2019",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "Contracts_PrimeTransactions_2026-10-16_H21M22S25_1.csv": {},
+        "Contracts_Subawards_2026-10-16_H21M26S46_1.csv": {}
+      }
+    },
+    {
+      "check": "ldrd_finances:all_seven_fiscal_years",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "rows": 123
+      }
+    },
+    {
+      "check": "ldrd_finances:exactly_one_total_per_year",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "rows": 123
+      }
+    },
+    {
+      "check": "ldrd_finances:project_counts_reconcile_each_year",
+      "passed": true,
+      "severity": "error",
+      "detail": {
+        "rows": 123
+      }
+    }
+  ],
+  "passed": 223,
+  "failed": 0,
+  "coverage_warnings": 3,
+  "raw_bytes": 1045161207,
+  "normalized_bytes": 531589349
+}

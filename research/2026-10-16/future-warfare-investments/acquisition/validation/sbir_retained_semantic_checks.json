@@ -1,0 +1,93 @@
+{
+  "retained_rows": 25770,
+  "reported_award_fy_vs_performance_start_fy_mismatch": [
+    {
+      "document_id": "sbir_current:45edd09cb8d6d6a856b7281fa5eda40f0ee1824d5f0b5fdc2c7f02edd4b12249",
+      "source_record_id": "Department of Energy||SBIR|Phase II|287712|DE-SC0022388|2025",
+      "reported_award_fy": "2025",
+      "performance_start": "2025-10-03",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=306"
+    },
+    {
+      "document_id": "sbir_current:87b13f0dcd9a4404d292bbf801581b4aef5e4f24673142194e1701fc996fb14d",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase II|2251-1511|DE-AR0001386|2020",
+      "reported_award_fy": "2020",
+      "performance_start": "2023-03-31",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=16348"
+    },
+    {
+      "document_id": "sbir_current:556bd152cf63ab683b8401a19146280d94e9a2cb0608e2232390235a4c25cb66",
+      "source_record_id": "Department of Energy||SBIR|Phase I|1954-1859|DE-AR0001659|2023",
+      "reported_award_fy": "2023",
+      "performance_start": "2022-09-26",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=18230"
+    },
+    {
+      "document_id": "sbir_current:5d8e7e9e3c4221e640d20714a161592d83ed7826d36250b64ab19fb6cf8ad129",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase I|2335-1515|DE-AR0001446|2021",
+      "reported_award_fy": "2021",
+      "performance_start": "2021-10-16",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=24481"
+    },
+    {
+      "document_id": "sbir_current:3d5fb862e347ff1ff9180cf28fceeb78a6e1e911ad4bd058a46b2fe8811a1154",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase II|2335-1515|DE-AR0001446|2021",
+      "reported_award_fy": "2021",
+      "performance_start": "2021-10-16",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=24482"
+    },
+    {
+      "document_id": "sbir_current:cc804fd21788e8f2199f3638bff1b0a7f6575ef9023cc692a15e96b8f5fb802c",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase II|2335-1515|DE-AR0001446|2021",
+      "reported_award_fy": "2021",
+      "performance_start": "2021-10-16",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=24483"
+    },
+    {
+      "document_id": "sbir_current:2623d86ea142b503d09ed755804c516a88ce075b3128f5aaaa5124abb6d0dda6",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase II|2251-1515|DE-AR0001387|2020",
+      "reported_award_fy": "2020",
+      "performance_start": "2021-06-24",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=27139"
+    },
+    {
+      "document_id": "sbir_current:7bc398d7b82555c1aead846c22a5634bbe23b0b74f6e3faf0e653013bdea6d87",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase II|1954-1606|DE-AR0001246|2020",
+      "reported_award_fy": "2020",
+      "performance_start": "2021-04-09",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=28854"
+    },
+    {
+      "document_id": "sbir_current:76fbeac90592391c49ca8ef214ab689ccb568f08d9ce6be2b2533784ecafb6bd",
+      "source_record_id": "Department of Energy|ARPA-E|SBIR|Phase I|2251-1511|DE-AR0001386|2020",
+      "reported_award_fy": "2020",
+      "performance_start": "2021-03-31",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=29034"
+    },
+    {
+      "document_id": "sbir_current:3dd8ee46b0d3ba56705b9f0021a17e82783b191c827e75a340fcf7f681ae810d",
+      "source_record_id": "Department of Defense|Air Force|SBIR|Phase I|F182-005-1047|FA3002-18-P-0018|2019",
+      "reported_award_fy": "2019",
+      "performance_start": "2018-07-27",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=47534"
+    }
+  ],
+  "performance_start_outside_action_window": [
+    {
+      "document_id": "sbir_current:3dd8ee46b0d3ba56705b9f0021a17e82783b191c827e75a340fcf7f681ae810d",
+      "source_record_id": "Department of Defense|Air Force|SBIR|Phase I|F182-005-1047|FA3002-18-P-0018|2019",
+      "reported_award_fy": "2019",
+      "performance_start": "2018-07-27",
+      "raw_locator": "award_data.csv:award_data.csv:data_row=47534"
+    }
+  ],
+  "money_checks": {
+    "valid": 25770,
+    "positive": 25770
+  },
+  "id_checks": {
+    "Duns:blank": 1287,
+    "Duns:syntax_flag": 13,
+    "UEI:blank": 15
+  }
+}

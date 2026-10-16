@@ -1,0 +1,110 @@
+{
+  "rows": 123,
+  "year_profiles": [
+    {
+      "year": 2019,
+      "rows": 17,
+      "laboratories": 16,
+      "total_rows": 1,
+      "project_sum_labs": 2034,
+      "project_total_reported": 2034,
+      "ldrd_cost_sum_labs_millions": "637.30",
+      "ldrd_cost_reported_total_millions": "637.31",
+      "max_component_rounding_difference_millions": "0.01",
+      "extraction_methods": [
+        "manual_transcription_checked_against_rendered_source_page"
+      ]
+    },
+    {
+      "year": 2020,
+      "rows": 17,
+      "laboratories": 16,
+      "total_rows": 1,
+      "project_sum_labs": 2207,
+      "project_total_reported": 2207,
+      "ldrd_cost_sum_labs_millions": "686.49",
+      "ldrd_cost_reported_total_millions": "686.48",
+      "max_component_rounding_difference_millions": "0.01",
+      "extraction_methods": [
+        "pdftotext_layout_regex"
+      ]
+    },
+    {
+      "year": 2021,
+      "rows": 17,
+      "laboratories": 16,
+      "total_rows": 1,
+      "project_sum_labs": 2394,
+      "project_total_reported": 2394,
+      "ldrd_cost_sum_labs_millions": "734.30",
+      "ldrd_cost_reported_total_millions": "734.30",
+      "max_component_rounding_difference_millions": "0.01",
+      "extraction_methods": [
+        "manual_transcription_checked_against_rendered_source_page"
+      ]
+    },
+    {
+      "year": 2022,
+      "rows": 18,
+      "laboratories": 17,
+      "total_rows": 1,
+      "project_sum_labs": 2403,
+      "project_total_reported": 2403,
+      "ldrd_cost_sum_labs_millions": "782.51",
+      "ldrd_cost_reported_total_millions": "782.51",
+      "max_component_rounding_difference_millions": "0.01",
+      "extraction_methods": [
+        "pdftotext_layout_regex"
+      ]
+    },
+    {
+      "year": 2023,
+      "rows": 18,
+      "laboratories": 17,
+      "total_rows": 1,
+      "project_sum_labs": 2485,
+      "project_total_reported": 2485,
+      "ldrd_cost_sum_labs_millions": "872.34",
+      "ldrd_cost_reported_total_millions": "872.34",
+      "max_component_rounding_difference_millions": "0.01",
+      "extraction_methods": [
+        "pdftotext_layout_regex"
+      ]
+    },
+    {
+      "year": 2024,
+      "rows": 18,
+      "laboratories": 17,
+      "total_rows": 1,
+      "project_sum_labs": 2649,
+      "project_total_reported": 2649,
+      "ldrd_cost_sum_labs_millions": "986.33",
+      "ldrd_cost_reported_total_millions": "986.33",
+      "max_component_rounding_difference_millions": "0.00",
+      "extraction_methods": [
+        "pdftotext_layout_regex"
+      ]
+    },
+    {
+      "year": 2025,
+      "rows": 18,
+      "laboratories": 17,
+      "total_rows": 1,
+      "project_sum_labs": 2648,
+      "project_total_reported": 2648,
+      "ldrd_cost_sum_labs_millions": "1006.84",
+      "ldrd_cost_reported_total_millions": "1006.84",
+      "max_component_rounding_difference_millions": "0.00",
+      "extraction_methods": [
+        "pdftotext_layout_regex"
+      ]
+    }
+  ],
+  "scan_method": "FY2019 and FY2021 Table1, physical PDF page8, manually transcribed and visually checked against full-resolution rendered page. Whole-document OCR is supplementary and unreliable for monetary tables.",
+  "checks": {
+    "all_seven_fiscal_years": true,
+    "exactly_one_total_per_year": true,
+    "project_counts_reconcile_each_year": true
+  },
+  "warning": "Source financial bases are not identical to Sandia report cost excluding PM. Historical overhead/accounting scope and rounding need review. Do not infer all DOE laboratories or expenditures are military."
+}

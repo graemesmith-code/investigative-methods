@@ -14,7 +14,7 @@ def transactions(source):
    schemas[name]=list(chunk.columns);rows+=len(chunk);missing.update((chunk=='').sum().to_dict());t=pa.Table.from_pandas(chunk,preserve_index=False)
    if pw is None:pw=pq.ParquetWriter(outfile,t.schema,compression='zstd')
    pw.write_table(t)
-   amountfields=[k for k in chunk.columns if any(s in k for s in ['obligation','obligated','outlay','_value','_amount','loan_subsidy_cost']) and not k.endswith(('code','description'))]
+   amountfields=[k for k in chunk.columns if any(s in k for s in ['obligation','obligated','outlay','_value','_amount','loan_subsidy_cost']) and not k.endswith(('code','description','name'))]
    for k in amountfields:
     s=pd.to_numeric(chunk[k],errors='coerce');v=moneyprofiles.setdefault(k,{'nonempty':0,'invalid_nonempty':0,'negative':0,'zero':0,'positive':0});v['nonempty']+=int((chunk[k]!='').sum());v['invalid_nonempty']+=int(((chunk[k]!='')&s.isna()).sum());v['negative']+=int((s<0).sum());v['zero']+=int((s==0).sum());v['positive']+=int((s>0).sum())
    datekey='subaward_action_date' if suffix=='subawards' else 'action_date';yk=datekey+'_fiscal_year'

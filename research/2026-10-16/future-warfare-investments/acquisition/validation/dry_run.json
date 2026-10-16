@@ -1,0 +1,209 @@
+{
+  "mode": "deterministic_only",
+  "model_calls": 0,
+  "exa_calls": 0,
+  "records_by_source": {
+    "sbir_current": 10,
+    "usaspending_darpa": 12,
+    "usaspending_dod_research_grants": 14,
+    "usaspending_dod_capabilities": 14,
+    "grants": 10,
+    "usaspending_dod_rd_fy2019": 13,
+    "usaspending_dod_rd_fy2026": 12
+  },
+  "total_candidate_records": 85,
+  "capability_regex_counts": {
+    "space": 13,
+    "logistics": 16,
+    "ai": 8,
+    "sensors": 28,
+    "autonomy_drones": 20,
+    "communications_ew": 11,
+    "quantum": 7,
+    "cyber": 8
+  },
+  "identifier_relationship_examples": [
+    {
+      "left_document_id": "usaspending_darpa:d7e133f6eac8913e65232a98f8ff70e7b6d82f040e7a76f090af6c715306930e",
+      "right_document_id": "usaspending_darpa:826e537571e88cfbadd5a100716e238cfe2f324910a30cd719692d6b03b4531c",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:d7e133f6eac8913e65232a98f8ff70e7b6d82f040e7a76f090af6c715306930e",
+      "right_document_id": "usaspending_darpa:f098488e38c44f9f6106d25897d00022ec68371f48012894dbff79bfea8318e8",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:4e14050e4690d780df8d0615583ad71ae25f08ee2a56f6239e19348a93ea2887",
+      "right_document_id": "usaspending_darpa:229f323bf12a92113d1cee233d5ba2618ac45e6f9e1d606649e145ee413ae9d6",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:4e14050e4690d780df8d0615583ad71ae25f08ee2a56f6239e19348a93ea2887",
+      "right_document_id": "usaspending_darpa:11df900204212ed919ae77e0542b491080d4fb9c99f6b5ce7a9c48016ad9407c",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:c540bbeaef539963ffdb8785227c09dae0ba68a11a7f97c4f461544e60feaa18",
+      "right_document_id": "usaspending_darpa:eaf9100ca20b38d2dbc79fd6f343bea5204acc92ebc7966539bd2313469830e8",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:c540bbeaef539963ffdb8785227c09dae0ba68a11a7f97c4f461544e60feaa18",
+      "right_document_id": "usaspending_darpa:b526cde206768fdf1338d9a3c9d3e96b37a6a7cecaea5fc6982679dbae64beca",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:c540bbeaef539963ffdb8785227c09dae0ba68a11a7f97c4f461544e60feaa18",
+      "right_document_id": "usaspending_darpa:899476fc30668a55ec5c2f13311232da66ec3bd8ff30bde7dc0c7b3e7abcddc7",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:c540bbeaef539963ffdb8785227c09dae0ba68a11a7f97c4f461544e60feaa18",
+      "right_document_id": "usaspending_darpa:8f342b595f5fb5f7011976c0de77507750ee3e81c136e794d233eeb17f603b53",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:6744aed261476d4b1c00b539e95b8452901aa256c16d0a15c6bd8609f857463f",
+      "right_document_id": "usaspending_darpa:568954d9dbd3b881fefaffb8362c3630ca13f0ea6efe1b7a7736673eff6a130c",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:8cf563fd626e905b0a8575d08753fe97f6dc0da8042b4026ecfb99973edc9fdf",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:fe9f96b145692ab2e11e8573ab952a74dbb1b38c1ab2b2b87554741020ab6729",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:6dd13a9a460a65513d74da3d1c153026dd3fb942ce7dcef09bf9c30a9fa1840c",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:9bacd153319a816584039c6b537a9463797b45f4e1baf6b922cb57e018ce17a2",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:a5db3086540b3a683f899a3af32a2c380a9b4b02d9870f8d44a353ea0484a22a",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:3bde23b8493d8114a48cd1045de31ca32e6748ebc5e4fc28c6d73e9576b4950d",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:4cc0a5d54f6d722f68ab0935bf9ffc7d54b60ca37d78ffb0ab09b49d67275120",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:752c50271970c2aa7984205f08d2c25716855e7c8e7b06c917bc0c717a4c1ab0",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:1af74259e8764829f17102513028c945c881750c638dc8754ea4c0adc0902939",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:3f70b815988e55d38324548627d97f2897c5d62ae89854a1ce5ad9a679491492",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    },
+    {
+      "left_document_id": "usaspending_darpa:bc2d32b133127d5bfea5ed714b61c4cbfd88353829c7f71fee21218b7ab61e2b",
+      "right_document_id": "usaspending_darpa:55a30b80cd3efe525f937c6a64a768892ed29610705f315a052384fd810bdab4",
+      "relation_type": "same_reported_award",
+      "basis": "exact USAspending native award key",
+      "confidence": "identifier_supported",
+      "review_status": "not_editorially_reviewed",
+      "financial_aggregation_permitted": false
+    }
+  ],
+  "all_scores_null": true,
+  "warning": "Features and exact-key relationships are not evidence of novelty, same capability, newsworthiness or absence of reporting."
+}

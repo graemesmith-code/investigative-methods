@@ -1,0 +1,43 @@
+field,definition,form_type,format,source
+Company,Name of the business,Text,1-255 characters,https://www.sbir.gov/data-resources/data-dictionary
+Award Title,Title of the project,Text,1-255 characters,https://www.sbir.gov/data-resources/data-dictionary
+Agency,Agency making the award,Dropdown,2-4 characters,https://www.sbir.gov/data-resources/data-dictionary
+Branch,"Optional if agency is not “DOD”, but mandatory if Agency is “DOD”",Dropdown,0 or 2-4 charaters,https://www.sbir.gov/data-resources/data-dictionary
+Phase,Phase I or Phase II,Radio,"""1"" or ""2"" without quotes",https://www.sbir.gov/data-resources/data-dictionary
+Program,SBIR or STTR Program,Radio,"""SBIR"" or ""STTR"" without quotes",https://www.sbir.gov/data-resources/data-dictionary
+Agency Tracking Number,Unique code assigned by the agency/branch that made the Phase 1 submission. Must be unique across all of TECH-Net,Text,1-60 characters,https://www.sbir.gov/data-resources/data-dictionary
+Contract,Contract,Text,0-20 characters,https://www.sbir.gov/data-resources/data-dictionary
+Proposal Award Date,The first day of contract performance,Date,Date Format YYYY-MM-DD,https://www.sbir.gov/data-resources/data-dictionary
+Contract End Date,The last day of contract performance,Date,Date Format YYYY-MM-DD,https://www.sbir.gov/data-resources/data-dictionary
+Solicitation Number,Solicitation Number,Text,0-55 characters,https://www.sbir.gov/data-resources/data-dictionary
+Solicitation Year,The Fiscal Year in which the proposal was submitted,Text,4 digit Year (YYYY),https://www.sbir.gov/data-resources/data-dictionary
+Solicitation Close Date,The date of the solicitation close for the solicitation,Date,Date Format YYYY-MM-DD,https://www.sbir.gov/data-resources/data-dictionary
+Proposal Receipt Date,Proposal receipt date as labeled in bulk export; not award/performance date. Online dictionary uses Proposal Submitted Date; do not silently equate terminology for timeliness analysis.,date,MM/DD/YYYY or blank,bulk CSV label; compare online dictionary
+Date of Notification,The first day of contract performance,Date,Date Format YYYY-MM-DD,https://www.sbir.gov/data-resources/data-dictionary
+Topic Code,The code or number for the topic or subtopic,Text,0-15 character,https://www.sbir.gov/data-resources/data-dictionary
+Award Year,The Fiscal year of the award,Dropdown,4 digit Federal Fiscal Year,https://www.sbir.gov/data-resources/data-dictionary
+Award Amount,Amount of the Award,Text,"in dollars, plain or formatted",https://www.sbir.gov/data-resources/data-dictionary
+UEI,Unique Entity Identifier assigned by SAM.gov,Text,12 characters,https://www.sbir.gov/data-resources/data-dictionary
+Duns,Dunn and Bradstreet DUNS number,Text,9 numeric digits without any dash in the format XXXXXXXXX,https://www.sbir.gov/data-resources/data-dictionary
+HUBZone Owned,Hubzone Owned,Radio,1 character: “Y” or “N” or “U” without quotes (U = Unavailable),https://www.sbir.gov/data-resources/data-dictionary
+Socially and Economically Disadvantaged,This field was previously known-as “Minority-Owned”,Radio,1 character: “Y” or “N” or “U” without quotes (U = Unavailable),https://www.sbir.gov/data-resources/data-dictionary
+Woman Owned,At least 51% owned by women,Radio,1 character: “Y” or “N” or “U” without quotes (U = Unavailable),https://www.sbir.gov/data-resources/data-dictionary
+Number Employees,Number Employees,Text,whole number in the range of 0-500,https://www.sbir.gov/data-resources/data-dictionary
+Company Website,The URL for the company’s website,Text,0-255 Characters,https://www.sbir.gov/data-resources/data-dictionary
+Address1,Address1,Text,1-80 characters,https://www.sbir.gov/data-resources/data-dictionary
+Address2,Address2,Text,0-80 characters,https://www.sbir.gov/data-resources/data-dictionary
+City,City,Text,1-40 characters,https://www.sbir.gov/data-resources/data-dictionary
+State,State,Dropdown,2 characters and in the US Postal Service’s list of valid state codes,https://www.sbir.gov/data-resources/data-dictionary
+Zip,Zip,Text,"5 numeric digits, or 9 numeric digits with hyphen after 5 digits",https://www.sbir.gov/data-resources/data-dictionary
+Abstract,Description of the award,Text Area,any length except 0,https://www.sbir.gov/data-resources/data-dictionary
+Contact Name,Public award company contact name field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+Contact Title,Public award company contact title field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+Contact Phone,Public award company contact phone field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+Contact Email,Public award company contact email field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+PI Name,Public principal investigator name field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+PI Title,Public principal investigator title field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+PI Phone,Public principal investigator phone field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+PI Email,Public principal investigator email field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+RI Name,Public research institution name field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+RI POC Name,Public research institution contact poc name field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header
+RI POC Phone,Public research institution contact poc phone field supplied in bulk export. Not an entity/award join or monetary measure.,text,source string; may be blank,bulk CSV header; role inferred from header

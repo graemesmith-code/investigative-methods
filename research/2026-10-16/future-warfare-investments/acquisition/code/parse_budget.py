@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate complete OMB workbooks; normalize security-account FY2019-26 cells with vintage."""
 import collections,csv,io,json,pathlib,re,subprocess,zipfile
+from decimal import Decimal
 import pandas as pd
 from acquire import ROOT,DATA,save_json
 from normalize import digest
@@ -17,7 +18,7 @@ def omb():
    for year in bound:
     v=r[year];num=pd.to_numeric(v,errors='coerce')
     if v and pd.isna(num):non_numeric.append({'excel_row':int(i)+2,'year':year,'value':v})
-    rec={'document_id':'omb:'+digest(p.name+'|'+key+'|'+year),'source':'omb_budget','source_url':meta['url'],'source_snapshot_sha256':meta['sha256'],'retrieved_at':meta['retrieved_at'],'raw_file':p.name,'excel_sheet':'Sheet1','excel_row':int(i)+2,'budget_vintage':vintage,'fiscal_year':int(year),'measure':measure,'value_in_source_units':v,'unit':'USD_thousands','amount_usd':str(int(num)*1000) if pd.notna(num) else None,'status':'actual_as_revised_in_vintage' if int(year)<=vintage-2 else ('current_year_estimate' if int(year)==vintage-1 else 'budget_year_or_future_estimate'),'account_key':r['Agency Code']+'|'+r['Bureau Code']+'|'+r['Account Code'],'dimensions_json':key,'eligibility':'security_institution_context;capability_and_mission_review_required'}
+    rec={'document_id':'omb:'+digest(p.name+'|'+key+'|'+year),'source':'omb_budget','source_url':meta['url'],'source_snapshot_sha256':meta['sha256'],'retrieved_at':meta['retrieved_at'],'raw_file':p.name,'excel_sheet':'Sheet1','excel_row':int(i)+2,'budget_vintage':vintage,'fiscal_year':int(year),'measure':measure,'value_in_source_units':v,'unit':'USD_thousands','amount_usd':str(Decimal(v)*1000) if pd.notna(num) else None,'status':'actual_as_revised_in_vintage' if int(year)<=vintage-2 else ('current_year_estimate' if int(year)==vintage-1 else 'budget_year_or_future_estimate'),'account_key':r['Agency Code']+'|'+r['Bureau Code']+'|'+r['Account Code'],'dimensions_json':key,'eligibility':'security_institution_context;capability_and_mission_review_required'}
     records.append(rec);retained+=1
   profiles.append({'file':p.name,'rows':len(df),'columns':len(df.columns),'min_year_column':min(yearcols),'max_year_column':max(yearcols),'security_rows':len(sec),'retained_long_rows':retained,'retained_years':bound,'missing_key_fields':missing,'duplicate_full_dimension_rows':duplicates,'nonnumeric_retained_cells':non_numeric[:50],'note':'Full raw workbooks parsed. All agency/account subsets retained as context, not all eligible capability spending. Amounts are net of offsetting collections; negative receipts must remain signed. Vintage-specific estimates cannot be added to actuals from another vintage.'})
   # Retain lossless structured full table and full source keys for future alternate slicing.
