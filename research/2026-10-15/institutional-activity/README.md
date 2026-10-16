@@ -1,6 +1,6 @@
 # Can aggregate activity produce newsroom leads before military operations?
 
-**Selected follow-up completed through measurement screening:** [Satellite night-light pilot](satellite-nightlights/README.md) — all 18 uploaded NASA files verified; all three historical cases are unscorable under the original quality rules. Exploratory mask changes recover two June dates but only one date in each winter case. No brightness anomaly or warning accuracy is claimed. [Bounded next step](satellite-nightlights/NEXT_STEP.md).
+**16 October satellite follow-up completed:** [Results and reproducible tests](satellite-nightlights/FOLLOWUP_RESULTS.md) use the same 18 uploaded NASA files. An exploratory quality change recovers a June two-night comparison: the central 500 m square brightens 5.3%, versus 6.6% nearby and 6.9% across the original 2 km square. Smaller apertures and synthetic increases do not establish a link to overnight staffing. Each winter case still has only one usable night. The original failed quality screen remains on record; no anomaly backtest or warning accuracy is claimed. The next step is independent validation of occupancy, lighting and satellite response.
 
 **15 October 2026 — exploratory test completed; no validated warning signal.**
 
@@ -43,7 +43,7 @@ The public source also has a **seven-day publication delay**. Regardless of stat
 ## Reproduce or inspect
 
 - [Technical specification and limitations](TECHNICAL.md)
-- [Original three next-test options](NEXT_TESTS.md) — **satellite test selected; measurement screening completed; road counters and supplier feasibility not launched**
+- [Original three next-test options](NEXT_TESTS.md) — **satellite test selected; screening and exploratory brightness tests completed; road counters and supplier feasibility not launched**
 - [Exact first-pass results](exploratory_results.json)
 - [Two-page results report](institutional-activity-pilot-results.pdf)
 - [Complete pilot kit: original exports, cleaned CSV, code and provenance](institutional-activity-pilot-kit.zip)

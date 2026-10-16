@@ -1,0 +1,9 @@
+{
+  "result": "passed",
+  "pixel_records": 1548,
+  "regional_mask_summaries": 252,
+  "pair_mask_summaries": 36,
+  "synthetic_perturbations": 4,
+  "independent_mask_decoder": true,
+  "core_ring_no_shared_grid_cells": true
+}

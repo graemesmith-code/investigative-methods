@@ -1,5 +1,9 @@
 # Can satellite night lights provide a cheap newsroom lead?
 
+**16 October follow-up: the same downloads now support a two-night brightness comparison, but no staffing inference or anomaly backtest.** Relaxing the extra upstream stray-light veto recovers the June 19–20 pair. The central 500 m square rises **5.3%**, compared with **6.6%** in disjoint nearby surroundings and **6.9%** in the original 2 km square. The increase is not strongest in the smallest building-centred area. January and February still have only one usable night each. [Full follow-up, spatial test and synthetic dilution test](FOLLOWUP_RESULTS.md).
+
+The next priority is independent evidence linking aggregate overnight occupancy to visible light at the satellite overpass hour. More event images alone will not establish that relationship. No alert or completed anomaly backtest is claimed. The original screening result below is retained for comparison.
+
 **15 October 2026: all three uploaded archives have been processed. The original quality rules leave every case unscorable. This is a completed measurement-feasibility test, not a completed brightness backtest. No warning signal has been established.**
 
 The recommendation is to **pause further bulk downloads and keep night lights as a research option**. Access is solved. The remaining problems are usable observations, quality flags, holiday comparisons, sensitivity to office activity, and proof of timely delivery.
@@ -18,7 +22,7 @@ A usable date requires at least **75% valid area in the target and two compariso
 
 \* These are **post hoc coverage diagnostics**, not detections or validated substitute rules. They retain the same areas, dates, 75% threshold, observed-data requirement and two-control requirement. They allow only the A1 stray-light-only flag and/or medium-quality cloud classification. They never admit cloudy pixels, snow warnings, other A1 flags, or poor-quality corrected-light retrievals. [All four scenarios](MEASUREMENT_TECHNICAL.md) remain separately reported.
 
-No brightness means, changes, anomaly scores, hits or misses have been calculated. The radiance array was read solely to check whether an observed value exists and is valid. Missing observations were not filled with earlier nights.
+In the initial 15 October measurement screen, no brightness means, changes, anomaly scores, hits or misses were calculated. The radiance array was read solely to check whether an observed value exists and is valid. The [16 October follow-up](FOLLOWUP_RESULTS.md) subsequently calculated descriptive brightness levels and changes; it still supplies no anomaly scores, hits or misses. Missing observations were not filled with earlier nights.
 
 ## What prevented a fair test?
 
@@ -44,7 +48,7 @@ The target observations occur between roughly **01:27 and 03:25 Washington time*
 
 ## The useful next step
 
-The next investment should be **a small method-validation exercise, not another large event download**. [NEXT_STEP.md](NEXT_STEP.md) specifies the outstanding flag questions, a bounded independent-date sample, costs and stop rules. It separates a retrospective physical-response study from a later test of real-time availability. Neither has been launched.
+The next investment should be **a small method-validation exercise, not another large event download**. The [16 October follow-up](FOLLOWUP_RESULTS.md#what-would-answer-the-overnight-work-question) specifies a two-link validation: overnight work to light, then light to satellite. Its smaller-aperture and synthetic tests have been run on the existing batch; independent staffing validation and a baseline backtest have not. The earlier [NEXT_STEP.md](NEXT_STEP.md) preserves the original bounded proposal, flag questions, costs and stop rules. Real-time availability remains a separate untested requirement.
 
 Before claiming a reporting lead, we need a defensible quality rule, an independent positive control, ordinary-night variability, an unchanged scoring rule and a count of alerts on other dates. A known blackout can test a large loss of light; it cannot establish sensitivity to extra office workers.
 
@@ -59,6 +63,8 @@ Before claiming a reporting lead, we need a defensible quality rule, an independ
 
 ## Inspect or reproduce
 
+- [16 October follow-up results and recommended validation](FOLLOWUP_RESULTS.md)
+- [Follow-up protocol frozen before brightness inspection](FOLLOWUP_PROTOCOL.md), [machine-readable results](evidence/followup_results.json), and [independent checks](evidence/followup_verification.json)
 - [Technical report, date-by-date coverage and timing](MEASUREMENT_TECHNICAL.md)
 - [Bounded next step and stop rules](NEXT_STEP.md)
 - [Original protocol](PROTOCOL.md) and [fixed regions and primary rules](config.json), unchanged
