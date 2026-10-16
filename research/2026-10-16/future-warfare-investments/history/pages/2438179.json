@@ -1,0 +1,95 @@
+{
+  "article_id": "2438179",
+  "capture_timestamp": "20211026082546",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2438179/",
+  "cdx_digest": "HVBNCZRDU7MQ4XA5CRM27COZFXPN3VHI",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20211026082546id_/https://www.defense.gov/News/Contracts/Contract/Article/2438179/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:43:02.203047+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20211026082546id_/https://www.defense.gov/News/Contracts/Contract/Article/2438179/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Tue, 26 Oct 2021 08:25:45 GMT",
+    "memento-datetime": "Tue, 26 Oct 2021 08:25:46 GMT",
+    "x-archive-src": "CC-MAIN-2021-43-1634323587854.13-0026/CC-MAIN-20211026072759-20211026102759-00533.warc.gz"
+  },
+  "response_sha256": "59679bb92c638560fc669f57490d74596f43d0c7f99717b0c1d9c88a10f74da6",
+  "response_bytes": 74887,
+  "html_file": "html/2438179.html.gz",
+  "announcement_date": "2020-12-07",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-12-07",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "West-MGE JV,* Tempe, Arizona, was awarded a $40,000,000 firm-fixed-price contract for civil works and hydrology and hydraulics services.  Bids were solicited via the internet with 15 received.  Work locations and funding will be determined with each order, with an estimated completion date of Dec. 7, 2025.  The U.S. Army Corps of Engineers, Albuquerque, New Mexico, is the contracting activity (W912PP-21-D-0001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2438179/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2020-12-07",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "International Enterprises Inc., Talladega, Alabama, has been awarded a $12,469,948 firm-fixed-price, indefinite-delivery/indefinite-quantity (IDIQ), requirements contract for F-16 modular low power radio frequency (MLPRF) and dual mode transmitter (DMT) repairs.  This contract provides for the repair of both MLPRF and DMT, which function as part of the radar systems of each F-16 C/D aircraft.  Work will be performed in Talladega, Alabama, and is expected to be completed Dec. 6, 2025.  This award is the result of a competitive acquisition and one offer was received.  Funding for the initial order is not presently available due to the contract being a requirements-type IDIQ.  The Air Force Material Command, Hill Air Force Base, Utah, is the contracting activity (FA8251-21-D-0004).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2438179/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    },
+    {
+      "announcement_date": "2020-12-07",
+      "service_or_agency_section": "U.S. TRANSPORTATION COMMAND",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Air Transport International Inc., Wilmington, Ohio, has been awarded a task order HTC711-21-F-W009 under contract HTC711-19-D-W002 in the estimated amount of $7,650,630.  The contract provides international, commercial, door to door, cargo transportation services.  Multiple or single modes (e.g. airlift, sealift, linehaul) of transportation may be used in any combination to move cargo globally.  The task order period of performance is from Dec. 4, 2020, to March 6, 2021.  Fiscal 2021 transportation working capital funds were obligated at award.  U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity. (Awarded Dec. 4, 2020)",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2438179/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "ARMY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "West-MGE JV,* Tempe, Arizona, was awarded a $40,000,000 firm-fixed-price contract for civil works and hydrology and hydraulics services.  Bids were solicited via the internet with 15 received.  Work locations and funding will be determined with each order, with an estimated completion date of Dec. 7, 2025.  The U.S. Army Corps of Engineers, Albuquerque, New Mexico, is the contracting activity (W912PP-21-D-0001)."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "section",
+      "text": "AIR FORCE"
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "International Enterprises Inc., Talladega, Alabama, has been awarded a $12,469,948 firm-fixed-price, indefinite-delivery/indefinite-quantity (IDIQ), requirements contract for F-16 modular low power radio frequency (MLPRF) and dual mode transmitter (DMT) repairs.  This contract provides for the repair of both MLPRF and DMT, which function as part of the radar systems of each F-16 C/D aircraft.  Work will be performed in Talladega, Alabama, and is expected to be completed Dec. 6, 2025.  This award is the result of a competitive acquisition and one offer was received.  Funding for the initial order is not presently available due to the contract being a requirements-type IDIQ.  The Air Force Material Command, Hill Air Force Base, Utah, is the contracting activity (FA8251-21-D-0004)."
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "section",
+      "text": "U.S. TRANSPORTATION COMMAND"
+    },
+    {
+      "paragraph_index": 5,
+      "kind": "record",
+      "text": "Air Transport International Inc., Wilmington, Ohio, has been awarded a task order HTC711-21-F-W009 under contract HTC711-19-D-W002 in the estimated amount of $7,650,630.  The contract provides international, commercial, door to door, cargo transportation services.  Multiple or single modes (e.g. airlift, sealift, linehaul) of transportation may be used in any combination to move cargo globally.  The task order period of performance is from Dec. 4, 2020, to March 6, 2021.  Fiscal 2021 transportation working capital funds were obligated at award.  U.S. Transportation Command, Directorate of Acquisition, Scott Air Force Base, Illinois, is the contracting activity. (Awarded Dec. 4, 2020)"
+    },
+    {
+      "paragraph_index": 6,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Tue, 26 Oct 2021 08:25:46 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:46.591201+00:00"
+}

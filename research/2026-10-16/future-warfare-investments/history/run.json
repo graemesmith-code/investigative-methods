@@ -1,0 +1,28 @@
+{
+  "source_window": [
+    "2018-09-12",
+    "2023-09-11"
+  ],
+  "collection_phase": "complete for discovered candidates; archive/publication coverage remains partial",
+  "candidate_count": 1247,
+  "network_attempts_in_collector": 1249,
+  "initial_probes_included_in_attempt_count": false,
+  "attempt_http_statuses": {
+    "200": 1247,
+    "exception": 2
+  },
+  "first_recorded_retrieval_started_at_utc": "2026-10-16T13:34:07.820682+00:00",
+  "last_recorded_retrieval_started_at_utc": "2026-10-16T13:55:03.842596+00:00",
+  "final_parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "phases": [
+    "Public access probes and CDX discovery",
+    "Three-worker first pass; 12 parser/layout failures and two network timeouts retained",
+    "Offline reparse of retained HTTP-200 responses; all 12 parser/layout failures resolved",
+    "One bounded retry pass; both network timeouts resolved",
+    "Offline byte/extraction/index/original integrity verification",
+    "Integrity check identified universal-newline normalization in CSV verification and mixed-case agency headings on two source pages; corrected readers and heading recognition, then reprocessed and repeated verification"
+  ],
+  "paid_api_or_model_scoring_calls": 0,
+  "originals_preserved": true,
+  "verification_result": "Passed with zero errors and zero warnings; 1,247 retained HTTP-200 responses hash-checked and reconstructed; all index pointers verified"
+}

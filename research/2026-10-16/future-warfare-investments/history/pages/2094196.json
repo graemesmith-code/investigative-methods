@@ -1,0 +1,305 @@
+{
+  "article_id": "2094196",
+  "capture_timestamp": "20210928174317",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+  "cdx_digest": "4ZK6OFMQL7WQSLKKPEISEN6DLGC6R4XW",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20210928174317id_/https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:40:01.085769+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20210928174317id_/https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Tue, 28 Sep 2021 17:43:17 GMT",
+    "memento-datetime": "Tue, 28 Sep 2021 17:43:17 GMT",
+    "x-archive-src": "CC-MAIN-2021-39-1631780060877.21-0007/CC-MAIN-20210928153533-20210928183533-00156.warc.gz"
+  },
+  "response_sha256": "9090af20ef479af1ef4866cb13002be39dc371bc7e2068177f03f699a06e7905",
+  "response_bytes": 89883,
+  "html_file": "html/2094196.html.gz",
+  "announcement_date": "2020-02-25",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Palantir USG Inc., Palo Alto, California (W56KGY-20-D-0005); and BAE Systems Information and Electronic SYS INT INC, San Diego, California (W56KGY-20-D-0006), will compete for each order of the $823,263,105 firm-fixed-price contract to upgrade/replace components found in the Distributed Common Ground System-Army.  Bids were solicited via the internet with six received.  Work locations and funding will be determined with each order, with an estimated completion date of Feb. 24, 2027.  U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Northrop Grumman Systems Corp., Herndon, Virginia, was awarded a $42,088,702 hybrid (cost-no-fee, cost-plus-fixed-fee, cost-plus-incentive-fee, firm-fixed-price, fixed-price-incentive) modification (P00054) to contract (W58RGZ-17-C-0014) for contractor logistics support services for government-owned fixed-wing fleet performing Special Electronic Mission Aircraft missions.  Bids were solicited via the internet with three received.  Work will be performed in Herndon, Virginia, with an estimated completion date of Aug. 31, 2020.  Fiscal 2020 operations and maintenance, Army funds in the amount of $42,088,721 were obligated at the time of the award.  U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 2
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Leidos Inc., Reston, Virginia, was awarded a $19,653,151 modification (P00023) to contract W52P1J-18-C-0002 to provide Class V munitions supply support for all ammunition stocks accounted for by 1st Sustainment Command (Theater) to U.S. military/government components, Department of Defense agencies, and, as required, coalition forces in the Central Command Area of Responsibility.  Work will be performed in Kuwait City, Kuwait, with an estimated completion date of Feb. 28, 2021.  Fiscal 2020 operation and maintenance, Army funds in the amount of $19,653,151 were obligated at the time of the award.  U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Unisys Corp. Federal Systems, Reston, Virginia, was awarded a $14,029,965 cost-no-fee, firm-fixed-price contract for an 18-month bridge to continue support for the Army Enterprise Service Desk.  Bids were solicited via the internet with one received.  Work will be performed in Augusta, Georgia, with an estimated completion date of Sept. 25, 2021.  Fiscal 2020 operations and maintenance, Army funds in the amount of $14,029,965 were obligated at the time of the award.  U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-20-C-0010).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 4
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "A. WBE-CCI JV One LLC,* Itasca, Illinois, was awarded an $11,877,000 firm-fixed-price contract for construction of a pre-engineered metal hangar with conventional construction for adjacent support shop, administrative and non-destructive inspection testing spaces.  Bids were solicited via the internet with four received.  Work will be performed in Klamath Falls, Oregon, with an estimated completion date of March 9, 2021.  Fiscal 2018 military construction, Army National Guard funds in the amount of $11,877,000 were obligated at the time of the award.  U.S. Property and Fiscal Office, Salem, Oregon, is the contracting activity (W50S8Z-20-C-0001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 5
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "PAS MRO Inc.,* Irvine, California, was awarded a $9,787,000 firm-fixed-price contract to overhaul UH-60 tip caps.  Bids were solicited via the internet with eight received.  Work locations and funding will be determined with each order, with an estimated completion date of Feb. 25, 2025.  U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-20-D-0026).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 6
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Deloitte Consulting LLP, Arlington, Virginia; Boston Consulting Group Federal Corp., Bethesda, Maryland; Whitney, Bradley & Brown Inc., Reston, Virginia; Mid-Atlantic Technical and Executive Consulting LLC,* Arlington, Virginia; and CACI Inc., Federal, Chantilly, Virginia, are awarded a cumulative not-to-exceed $249,000,000 indefinite-delivery/indefinite-quantity (IDIQ) contracts for the Navy's System-Level Cost Analysis with Total Ownership Cost Analysis initiative.  The competitive ordering period for both firm-fixed-price or cost-plus-fixed-fee type orders shall not exceed five years.  Work will be performed at contractor and vendor facilities as determined on individual orders and is expected to be completed by February 2025.  Fiscal 2020 operations and maintenance (Navy) funding in the amount of $15,000 will be obligated at time of award to fulfill the minimum guarantees of the IDIQs and will not expire at the end of the current fiscal year.  This contract was competitively procured via the Federal Business Opportunities website, with seven offers received.  The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-20-D-2425, N00024-20-D-2431, N00024-20-D-2432, N00024-20-D-2433, and N00024-20-D-2434).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 8
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "BAE Systems Land & Armaments L.P., Sterling Heights, Michigan, is awarded a $113,548,696 modification to exercise options for the fixed-price-incentive (firm target) contract line item numbers 4001 and 4005 portions of a previously awarded contract (M67854-16-C-0006).  This modification is for the purchase of 26 amphibious combat vehicles and other associated production costs.  Work will be performed in York, Pennsylvania (60%), Aiken, South Carolina (15%), San Jose, California (15%), Sterling Heights, Michigan (5%), and Stafford, Virginia (5%), and is expected to be completed in April 2022.  Fiscal 2020 procurement (Marine Corps) funds in the amount of $113,548,696 will be obligated at the time of award and will not expire at the end of the current fiscal year.  The contract was based on full and open competition with the solicitation publicized on the Federal Business Opportunities website with five offers received.  The option contract line item numbers were included within that contract and are being exercised in accordance with Federal Acquisition Regulation 52.217-7 option for increased quantity-separately priced line item.  The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-16-C-0006).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 9
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Vertex Aerospace LLC, Madison, Mississippi, is awarded a $23,925,125 modification (P00005) to a previously awarded firm-fixed-price, cost contract (N00421-19-D-0031).  This modification exercises the option to provide contractor owned and operated aircraft to Navy fleet customers, foreign military sales customers, and contractors as well as Department of Defense and other government agencies in support of the Contracted Air Services (CAS) program.  The CAS program provides airborne threat simulation capabilities to train shipboard and aircraft squadron weapon systems operators and aircrew on how to counter potential enemy electronic warfare and electronic attack operations in today's electronic combat environment.  Work will be performed in Virginia Beach, Virginia (50%); Coronado, California (40%); and Kauai, Hawaii (10%), and is expected to be completed in February 2021.  No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued.  The Naval Air Warfare Center, Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 10
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "L3Harris Technologies Inc., Palm Bay, Florida, is being awarded a $14,693,123 modification to exercise priced options to a previously awarded firm-fixed-price contract issued by the Naval Information Warfare Systems Command.  This modification increases the value of the basic contract by $14,693,123; the new total value is $61,180,747.  This modification provides for the exercise of firm-fixed-price options for Commercial Broadband Satellite Program Unit Level Variant (ULV) hardware production units.  ULV provides terminal-to-shore, space and terrestrial connectivity to significantly increase throughput for commercial satellite communication and provides redundancy for military satellite communications.  Work will be performed in Palm Bay, Florida, and is expected to be completed by August 2020.  Fiscal 2019 shipbuilding and conversion (Navy), and fiscal 2019 and fiscal 2020 other procurement (Navy) funds in the amount of $14,693,123 will be obligated at the time of award and will not expire at the end of the fiscal year.  The Naval Information Warfare Systems Command, San Diego, California, is the contracting activity (N00039-14-C-0041).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 11
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "DCS Corp., Alexandria, Virginia, is awarded a $10,649,613 modification (P00027) to a previously awarded cost reimbursable, cost-plus-fixed-fee contract (N00421-17-C-0043).  This modification provides for the planning and execution of test efforts for aircraft and weapons components through a Milestone C decision to include developmental and operational test and evaluation efforts associated with modifications to existing commercial-off-the-shelf and non-developmental items, which require engineering, design, integration, test and evaluation.  This modification also provides contractor services support in administration, engineering and management functions in support of the Naval Test Wing Atlantic, Naval Air Systems Command and the Naval Air Warfare Center Aircraft Division.  Work will be performed in Patuxent River, Maryland, and is expected to be completed in February 2021.  Working capital (Navy) funds in the amount of $3,062,000 and fiscal 2020 operations and maintenance funds in the amount of $812,739 will be obligated at time of award, $812,739 of which will expire at the end of the current fiscal year.  The Naval Air Warfare Center, Aircraft Division, Patuxent River, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 12
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Progeny Systems Corp.,* Manassas, Virginia, is awarded a $9,913,382 cost-plus-fixed-fee delivery order (N68335-20-F-0068) against basic ordering agreement (N68335-18-G-0039).  This delivery order provides for continued maturation of the Expeditionary Mission Planning System.  Work will be performed in Manassas, Virginia (65%) and Middletown, Virginia (35%), and is expected to be completed in February 2022.  Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $9,100,000 will be obligated at time of award, all of which will expire at the end of the current fiscal year.  The Naval Air Warfare Center, Aircraft Division, Lakehurst, New Jersey, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 13
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Vigor Marine LLC, Portland, Oregon, is awarded a $9,329,088 firm-fixed-price contract for the maintenance, repair and preservation of Caisson Six.  Work will be performed in Seattle, Washington, and is expected to be completed by December 2020.  Fiscal 2020 operations and maintenance (Navy) funding in the amount of $9,329,088 will be obligated at time of award and will expire at the end of the current fiscal year.  This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(1) (only one responsible source and no other supplies or services will satisfy agency requirements).  The Puget Sound Naval Shipyard and Intermediate Maintenance Facility code 400, Bremerton, Washington, is the contracting activity (N4523A-20-C-1053).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 14
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Raytheon Co., Missile Systems, Tucson, Arizona, was awarded a $7,992,944 cost plus fixed fee modification to previously awarded contract (N00024-17-C-5405) for design agent engineering and technical support services for the Phalanx Close-In Weapon System, SeaRAM, and Land-based Phalanx Weapon System.  Work will be performed in Tucson, Arizona, and is expected to be completed by January 2022.  Fiscal 2020 weapon procurement (Navy) funding in the amount of $7,992,944 will be obligated at time of award and will not expire at the end of the current fiscal year.  In accordance with 10 U.S. Code 2304(c)(1), this contract was not competitively procured; only one responsible source and no other supplies or services will satisfy agency requirements.  Phalanx Close-In Weapon System is a fast-reaction terminal defense against low and high-flying, high-speed maneuvering anti-ship missile threats that have penetrated all other defenses.  The Naval Sea Systems Command, Washington Navy Yard, District of Columbia, is the contracting activity. Awarded Feb. 24, 2020.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 15
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "The Boeing Co., St. Louis, Missouri, is awarded a $7,373,400 firm-fixed-price delivery order (N00019-20-F-0573) against basic ordering agreement (N00019-16-G-0001).  This delivery order procures 30 A1 G-Model kits and 66 A3 E-Model kits in support of F/A-18E/F and EA-18G modifications.  Work will be performed in El Segundo, California (86%); St. Louis, Missouri (6%); San Antonio, Texas (6%); and Mesa, Arizona (2%), and is expected to be completed in October 2023.  Fiscal 2019 ($3,701,400) and fiscal 2020 ($3,672,000) aircraft procurement (Navy) funds in the amount of $7,373,400 will be obligated at time of award, none of which will expire at the end of the current fiscal year.  The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 16
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Tapestry Solutions Inc., San Diego, California, has been awarded a $28,390,620 for F-15 mission planning software development and maintenance.  This contract provides for the F-15 software development of the v6.1 Mission Planning Environment and supports the F-15 Organizational Flight Program Suite 9.1 through sustainment of the previously-fielded v5.0 Mission Planning Environment for the Air Force and foreign country specific releases for the foreign military sales (FMS) client nations as well as the in-test v6.0 Mission Planning Environment.  The foreign military sales effort allows continued support to incorporate requirements to provide country specific versions of Air Force Mission Planning Environment updates in accordance with each country specific FMS Letters of Acceptance between the U.S. government and the foreign government.  The Mission Planning Environment updates will be fielded outside the continental U.S. to the foreign military sales costumers with current Letters of Acceptance in place with the U.S. government.  Work will be performed in Maryland Heights, Missouri, and is expected to be complete by July 31, 2023.  This contract involves foreign military sales to Canada, Saudi Arabia, Singapore, Korea and Qatar.  Plans to include Japan and other countries are to be anticipated.  This award is the result of a sole-source acquisition.  Fiscal 2020, 2021, 2022 and 2023 and include operations and maintenance and research and development funds in the amount of $387,876 are being obligated at the time of award.  Hanscom Air Force Base, Massachusetts, is the contracting activity (FA8730-20-C-0001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 18
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "L3Harris Technologies Inc., Colorado Springs, Colorado, has been awarded a $22,990,454 cost reimbursement and cost-plus-incentive-fee contract for Transition-On and Ground Based Electro-Optical Deep Space Surveillance Upgrade Technical Maturation and Risk Reduction on the Maintenance of Space Situational Awareness Integrated Capabilities (MOSSAIC) acquisition.  MOSSAIC will provide sustainment services for current and future ground-based Space Situational Awareness (SSA) sensors, SSA Command and Control systems, and Space Battle Management Command and Control capabilities in the Space and Missile System Center Space Domain Awareness Division Special Programs - Ground portfolio.  Additionally, MOSSAIC provides for sustainment of and modernization of associated test and integration infrastructure capabilities supporting the Space Domain Awareness Division Special Programs - Ground portfolio.  The MOSSAIC contract scope will also include modifications and upgrades for all MOSSAIC systems, it sustains or will sustain, to maintain operational performance and evolve system capabilities to meet new mission needs, as necessary.  The location of performance is Colorado Springs, Colorado, and Dahlgren, Virginia.  This awarded work is expected to be completed by Nov. 30, 2020.  This award is a result of a competitive acquisition solicited on BetaSam and two offers were received.  Fiscal 2020 operations and maintenance funds in the amount of $1,804,531 and fiscal 2020 research and development funds in the amount of $6,000,000 are being obligated at the time of award.  The Space and Missile System Center Directorate of Contracting, Peterson Air Force Base, Colorado Springs, Colorado, is the contracting activity (FA8823-20-C-0004).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 19
+    },
+    {
+      "announcement_date": "2020-02-25",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Call Henry Inc., Titusville Florida, has been awarded a $10,096,797 predominantly fixed-price incentive modification (P00075) to previously awarded contract FA4610-18-C-0005, to exercise option year three.  This modification provides management and support, maintenance and repair, operations, other services and minor alteration related to launch operations support.  This modification brings the total cumulative face value of the contract to $60,535,156.  Work will be performed at Vandenberg Air Force Base, California, and is expected to be completed by June 30, 2021.  Fiscal 2020 operations and maintenance funds in the amount of $3,200,000 will be obligated at the time of award.  The 30th Contracting Squadron, Vandenberg Air Force Base, California, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2094196/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 20
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "ARMY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Palantir USG Inc., Palo Alto, California (W56KGY-20-D-0005); and BAE Systems Information and Electronic SYS INT INC, San Diego, California (W56KGY-20-D-0006), will compete for each order of the $823,263,105 firm-fixed-price contract to upgrade/replace components found in the Distributed Common Ground System-Army.  Bids were solicited via the internet with six received.  Work locations and funding will be determined with each order, with an estimated completion date of Feb. 24, 2027.  U.S. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "record",
+      "text": "Northrop Grumman Systems Corp., Herndon, Virginia, was awarded a $42,088,702 hybrid (cost-no-fee, cost-plus-fixed-fee, cost-plus-incentive-fee, firm-fixed-price, fixed-price-incentive) modification (P00054) to contract (W58RGZ-17-C-0014) for contractor logistics support services for government-owned fixed-wing fleet performing Special Electronic Mission Aircraft missions.  Bids were solicited via the internet with three received.  Work will be performed in Herndon, Virginia, with an estimated completion date of Aug. 31, 2020.  Fiscal 2020 operations and maintenance, Army funds in the amount of $42,088,721 were obligated at the time of the award.  U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity."
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "Leidos Inc., Reston, Virginia, was awarded a $19,653,151 modification (P00023) to contract W52P1J-18-C-0002 to provide Class V munitions supply support for all ammunition stocks accounted for by 1st Sustainment Command (Theater) to U.S. military/government components, Department of Defense agencies, and, as required, coalition forces in the Central Command Area of Responsibility.  Work will be performed in Kuwait City, Kuwait, with an estimated completion date of Feb. 28, 2021.  Fiscal 2020 operation and maintenance, Army funds in the amount of $19,653,151 were obligated at the time of the award.  U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity."
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "record",
+      "text": "Unisys Corp. Federal Systems, Reston, Virginia, was awarded a $14,029,965 cost-no-fee, firm-fixed-price contract for an 18-month bridge to continue support for the Army Enterprise Service Desk.  Bids were solicited via the internet with one received.  Work will be performed in Augusta, Georgia, with an estimated completion date of Sept. 25, 2021.  Fiscal 2020 operations and maintenance, Army funds in the amount of $14,029,965 were obligated at the time of the award.  U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W52P1J-20-C-0010)."
+    },
+    {
+      "paragraph_index": 5,
+      "kind": "record",
+      "text": "A. WBE-CCI JV One LLC,* Itasca, Illinois, was awarded an $11,877,000 firm-fixed-price contract for construction of a pre-engineered metal hangar with conventional construction for adjacent support shop, administrative and non-destructive inspection testing spaces.  Bids were solicited via the internet with four received.  Work will be performed in Klamath Falls, Oregon, with an estimated completion date of March 9, 2021.  Fiscal 2018 military construction, Army National Guard funds in the amount of $11,877,000 were obligated at the time of the award.  U.S. Property and Fiscal Office, Salem, Oregon, is the contracting activity (W50S8Z-20-C-0001)."
+    },
+    {
+      "paragraph_index": 6,
+      "kind": "record",
+      "text": "PAS MRO Inc.,* Irvine, California, was awarded a $9,787,000 firm-fixed-price contract to overhaul UH-60 tip caps.  Bids were solicited via the internet with eight received.  Work locations and funding will be determined with each order, with an estimated completion date of Feb. 25, 2025.  U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity (W58RGZ-20-D-0026)."
+    },
+    {
+      "paragraph_index": 7,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 8,
+      "kind": "record",
+      "text": "Deloitte Consulting LLP, Arlington, Virginia; Boston Consulting Group Federal Corp., Bethesda, Maryland; Whitney, Bradley & Brown Inc., Reston, Virginia; Mid-Atlantic Technical and Executive Consulting LLC,* Arlington, Virginia; and CACI Inc., Federal, Chantilly, Virginia, are awarded a cumulative not-to-exceed $249,000,000 indefinite-delivery/indefinite-quantity (IDIQ) contracts for the Navy's System-Level Cost Analysis with Total Ownership Cost Analysis initiative.  The competitive ordering period for both firm-fixed-price or cost-plus-fixed-fee type orders shall not exceed five years.  Work will be performed at contractor and vendor facilities as determined on individual orders and is expected to be completed by February 2025.  Fiscal 2020 operations and maintenance (Navy) funding in the amount of $15,000 will be obligated at time of award to fulfill the minimum guarantees of the IDIQs and will not expire at the end of the current fiscal year.  This contract was competitively procured via the Federal Business Opportunities website, with seven offers received.  The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity (N00024-20-D-2425, N00024-20-D-2431, N00024-20-D-2432, N00024-20-D-2433, and N00024-20-D-2434)."
+    },
+    {
+      "paragraph_index": 9,
+      "kind": "record",
+      "text": "BAE Systems Land & Armaments L.P., Sterling Heights, Michigan, is awarded a $113,548,696 modification to exercise options for the fixed-price-incentive (firm target) contract line item numbers 4001 and 4005 portions of a previously awarded contract (M67854-16-C-0006).  This modification is for the purchase of 26 amphibious combat vehicles and other associated production costs.  Work will be performed in York, Pennsylvania (60%), Aiken, South Carolina (15%), San Jose, California (15%), Sterling Heights, Michigan (5%), and Stafford, Virginia (5%), and is expected to be completed in April 2022.  Fiscal 2020 procurement (Marine Corps) funds in the amount of $113,548,696 will be obligated at the time of award and will not expire at the end of the current fiscal year.  The contract was based on full and open competition with the solicitation publicized on the Federal Business Opportunities website with five offers received.  The option contract line item numbers were included within that contract and are being exercised in accordance with Federal Acquisition Regulation 52.217-7 option for increased quantity-separately priced line item.  The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-16-C-0006)."
+    },
+    {
+      "paragraph_index": 10,
+      "kind": "record",
+      "text": "Vertex Aerospace LLC, Madison, Mississippi, is awarded a $23,925,125 modification (P00005) to a previously awarded firm-fixed-price, cost contract (N00421-19-D-0031).  This modification exercises the option to provide contractor owned and operated aircraft to Navy fleet customers, foreign military sales customers, and contractors as well as Department of Defense and other government agencies in support of the Contracted Air Services (CAS) program.  The CAS program provides airborne threat simulation capabilities to train shipboard and aircraft squadron weapon systems operators and aircrew on how to counter potential enemy electronic warfare and electronic attack operations in today's electronic combat environment.  Work will be performed in Virginia Beach, Virginia (50%); Coronado, California (40%); and Kauai, Hawaii (10%), and is expected to be completed in February 2021.  No funds are being obligated at time of award; funds will be obligated on individual orders as they are issued.  The Naval Air Warfare Center, Aircraft Division, Patuxent River, Maryland, is the contracting activity."
+    },
+    {
+      "paragraph_index": 11,
+      "kind": "record",
+      "text": "L3Harris Technologies Inc., Palm Bay, Florida, is being awarded a $14,693,123 modification to exercise priced options to a previously awarded firm-fixed-price contract issued by the Naval Information Warfare Systems Command.  This modification increases the value of the basic contract by $14,693,123; the new total value is $61,180,747.  This modification provides for the exercise of firm-fixed-price options for Commercial Broadband Satellite Program Unit Level Variant (ULV) hardware production units.  ULV provides terminal-to-shore, space and terrestrial connectivity to significantly increase throughput for commercial satellite communication and provides redundancy for military satellite communications.  Work will be performed in Palm Bay, Florida, and is expected to be completed by August 2020.  Fiscal 2019 shipbuilding and conversion (Navy), and fiscal 2019 and fiscal 2020 other procurement (Navy) funds in the amount of $14,693,123 will be obligated at the time of award and will not expire at the end of the fiscal year.  The Naval Information Warfare Systems Command, San Diego, California, is the contracting activity (N00039-14-C-0041)."
+    },
+    {
+      "paragraph_index": 12,
+      "kind": "record",
+      "text": "DCS Corp., Alexandria, Virginia, is awarded a $10,649,613 modification (P00027) to a previously awarded cost reimbursable, cost-plus-fixed-fee contract (N00421-17-C-0043).  This modification provides for the planning and execution of test efforts for aircraft and weapons components through a Milestone C decision to include developmental and operational test and evaluation efforts associated with modifications to existing commercial-off-the-shelf and non-developmental items, which require engineering, design, integration, test and evaluation.  This modification also provides contractor services support in administration, engineering and management functions in support of the Naval Test Wing Atlantic, Naval Air Systems Command and the Naval Air Warfare Center Aircraft Division.  Work will be performed in Patuxent River, Maryland, and is expected to be completed in February 2021.  Working capital (Navy) funds in the amount of $3,062,000 and fiscal 2020 operations and maintenance funds in the amount of $812,739 will be obligated at time of award, $812,739 of which will expire at the end of the current fiscal year.  The Naval Air Warfare Center, Aircraft Division, Patuxent River, Maryland, is the contracting activity."
+    },
+    {
+      "paragraph_index": 13,
+      "kind": "record",
+      "text": "Progeny Systems Corp.,* Manassas, Virginia, is awarded a $9,913,382 cost-plus-fixed-fee delivery order (N68335-20-F-0068) against basic ordering agreement (N68335-18-G-0039).  This delivery order provides for continued maturation of the Expeditionary Mission Planning System.  Work will be performed in Manassas, Virginia (65%) and Middletown, Virginia (35%), and is expected to be completed in February 2022.  Fiscal 2019 research, development, test and evaluation (Navy) funds in the amount of $9,100,000 will be obligated at time of award, all of which will expire at the end of the current fiscal year.  The Naval Air Warfare Center, Aircraft Division, Lakehurst, New Jersey, is the contracting activity."
+    },
+    {
+      "paragraph_index": 14,
+      "kind": "record",
+      "text": "Vigor Marine LLC, Portland, Oregon, is awarded a $9,329,088 firm-fixed-price contract for the maintenance, repair and preservation of Caisson Six.  Work will be performed in Seattle, Washington, and is expected to be completed by December 2020.  Fiscal 2020 operations and maintenance (Navy) funding in the amount of $9,329,088 will be obligated at time of award and will expire at the end of the current fiscal year.  This contract was not competitively procured in accordance with 10 U.S. Code 2304(c)(1) (only one responsible source and no other supplies or services will satisfy agency requirements).  The Puget Sound Naval Shipyard and Intermediate Maintenance Facility code 400, Bremerton, Washington, is the contracting activity (N4523A-20-C-1053)."
+    },
+    {
+      "paragraph_index": 15,
+      "kind": "record",
+      "text": "Raytheon Co., Missile Systems, Tucson, Arizona, was awarded a $7,992,944 cost plus fixed fee modification to previously awarded contract (N00024-17-C-5405) for design agent engineering and technical support services for the Phalanx Close-In Weapon System, SeaRAM, and Land-based Phalanx Weapon System.  Work will be performed in Tucson, Arizona, and is expected to be completed by January 2022.  Fiscal 2020 weapon procurement (Navy) funding in the amount of $7,992,944 will be obligated at time of award and will not expire at the end of the current fiscal year.  In accordance with 10 U.S. Code 2304(c)(1), this contract was not competitively procured; only one responsible source and no other supplies or services will satisfy agency requirements.  Phalanx Close-In Weapon System is a fast-reaction terminal defense against low and high-flying, high-speed maneuvering anti-ship missile threats that have penetrated all other defenses.  The Naval Sea Systems Command, Washington Navy Yard, District of Columbia, is the contracting activity. Awarded Feb. 24, 2020."
+    },
+    {
+      "paragraph_index": 16,
+      "kind": "record",
+      "text": "The Boeing Co., St. Louis, Missouri, is awarded a $7,373,400 firm-fixed-price delivery order (N00019-20-F-0573) against basic ordering agreement (N00019-16-G-0001).  This delivery order procures 30 A1 G-Model kits and 66 A3 E-Model kits in support of F/A-18E/F and EA-18G modifications.  Work will be performed in El Segundo, California (86%); St. Louis, Missouri (6%); San Antonio, Texas (6%); and Mesa, Arizona (2%), and is expected to be completed in October 2023.  Fiscal 2019 ($3,701,400) and fiscal 2020 ($3,672,000) aircraft procurement (Navy) funds in the amount of $7,373,400 will be obligated at time of award, none of which will expire at the end of the current fiscal year.  The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+    },
+    {
+      "paragraph_index": 17,
+      "kind": "section",
+      "text": "AIR FORCE"
+    },
+    {
+      "paragraph_index": 18,
+      "kind": "record",
+      "text": "Tapestry Solutions Inc., San Diego, California, has been awarded a $28,390,620 for F-15 mission planning software development and maintenance.  This contract provides for the F-15 software development of the v6.1 Mission Planning Environment and supports the F-15 Organizational Flight Program Suite 9.1 through sustainment of the previously-fielded v5.0 Mission Planning Environment for the Air Force and foreign country specific releases for the foreign military sales (FMS) client nations as well as the in-test v6.0 Mission Planning Environment.  The foreign military sales effort allows continued support to incorporate requirements to provide country specific versions of Air Force Mission Planning Environment updates in accordance with each country specific FMS Letters of Acceptance between the U.S. government and the foreign government.  The Mission Planning Environment updates will be fielded outside the continental U.S. to the foreign military sales costumers with current Letters of Acceptance in place with the U.S. government.  Work will be performed in Maryland Heights, Missouri, and is expected to be complete by July 31, 2023.  This contract involves foreign military sales to Canada, Saudi Arabia, Singapore, Korea and Qatar.  Plans to include Japan and other countries are to be anticipated.  This award is the result of a sole-source acquisition.  Fiscal 2020, 2021, 2022 and 2023 and include operations and maintenance and research and development funds in the amount of $387,876 are being obligated at the time of award.  Hanscom Air Force Base, Massachusetts, is the contracting activity (FA8730-20-C-0001)."
+    },
+    {
+      "paragraph_index": 19,
+      "kind": "record",
+      "text": "L3Harris Technologies Inc., Colorado Springs, Colorado, has been awarded a $22,990,454 cost reimbursement and cost-plus-incentive-fee contract for Transition-On and Ground Based Electro-Optical Deep Space Surveillance Upgrade Technical Maturation and Risk Reduction on the Maintenance of Space Situational Awareness Integrated Capabilities (MOSSAIC) acquisition.  MOSSAIC will provide sustainment services for current and future ground-based Space Situational Awareness (SSA) sensors, SSA Command and Control systems, and Space Battle Management Command and Control capabilities in the Space and Missile System Center Space Domain Awareness Division Special Programs - Ground portfolio.  Additionally, MOSSAIC provides for sustainment of and modernization of associated test and integration infrastructure capabilities supporting the Space Domain Awareness Division Special Programs - Ground portfolio.  The MOSSAIC contract scope will also include modifications and upgrades for all MOSSAIC systems, it sustains or will sustain, to maintain operational performance and evolve system capabilities to meet new mission needs, as necessary.  The location of performance is Colorado Springs, Colorado, and Dahlgren, Virginia.  This awarded work is expected to be completed by Nov. 30, 2020.  This award is a result of a competitive acquisition solicited on BetaSam and two offers were received.  Fiscal 2020 operations and maintenance funds in the amount of $1,804,531 and fiscal 2020 research and development funds in the amount of $6,000,000 are being obligated at the time of award.  The Space and Missile System Center Directorate of Contracting, Peterson Air Force Base, Colorado Springs, Colorado, is the contracting activity (FA8823-20-C-0004)."
+    },
+    {
+      "paragraph_index": 20,
+      "kind": "record",
+      "text": "Call Henry Inc., Titusville Florida, has been awarded a $10,096,797 predominantly fixed-price incentive modification (P00075) to previously awarded contract FA4610-18-C-0005, to exercise option year three.  This modification provides management and support, maintenance and repair, operations, other services and minor alteration related to launch operations support.  This modification brings the total cumulative face value of the contract to $60,535,156.  Work will be performed at Vandenberg Air Force Base, California, and is expected to be completed by June 30, 2021.  Fiscal 2020 operations and maintenance funds in the amount of $3,200,000 will be obligated at the time of award.  The 30th Contracting Squadron, Vandenberg Air Force Base, California, is the contracting activity."
+    },
+    {
+      "paragraph_index": 21,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Tue, 28 Sep 2021 17:43:17 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:41.417531+00:00"
+}

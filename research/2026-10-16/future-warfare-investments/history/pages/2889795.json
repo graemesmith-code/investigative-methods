@@ -1,0 +1,71 @@
+{
+  "article_id": "2889795",
+  "capture_timestamp": "20220105221746",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2889795//",
+  "cdx_digest": "QMBNX3JPHOR4IVCBMSON7563OOO3PZ6F",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20220105221746id_/https://www.defense.gov/News/Contracts/Contract/Article/2889795//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:47:17.561044+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20220105221746id_/https://www.defense.gov/News/Contracts/Contract/Article/2889795//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Wed, 05 Jan 2022 22:17:47 GMT",
+    "memento-datetime": "Wed, 05 Jan 2022 22:17:46 GMT",
+    "x-archive-src": "archiveteam_urls_20220105222105_dcc8f8ae/urls_20220105222105_dcc8f8ae.1606352862.megawarc.warc.zst"
+  },
+  "response_sha256": "8fb3342f605924291a87e9c814eba4a2b37daf37d06e5ea6789a1b4d5bbe74be",
+  "response_bytes": 74763,
+  "html_file": "html/2889795.html.gz",
+  "announcement_date": "2022-01-05",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2022-01-05",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Northrop Grumman Systems Corp., Huntsville, Alabama, was awarded a $9,945,634 modification (P00020) to contract W31P4Q-19-C-0003 for the procurement of Integrated Air & Missile Defense Battle Command System production hardware and software. Work will be performed in Huntsville, Alabama, with an estimated completion date of Dec. 31, 2025. Fiscal 2010 Foreign Military Sales (Poland) funds in the amount of $9,945,634 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2889795//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2022-01-05",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded an $8,240,416 cost-plus-fixed-fee order (N0001922F0016) against a previously issued basic ordering agreement (N0001919G0008). This order provides program management, delivery management, project engineering, and logistics support services required to deliver air vehicle initial spares for the F-35 Joint Strike Fighter production aircraft for the Air Force, Navy, Marine Corps, Foreign Military sales (FMS) customers, and non-Department of Defense (DOD) partners. Work will be performed in Fort Worth, Texas, and is expected to be completed in December 2022. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $1,991,586; fiscal 2021 aircraft procurement (Air Force) funds in the amount of $3,316,265; FMS funds in the amount of $1,023,201; and non-DoD partner funds in the amount of $1,909,364 will be obligated on this award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2889795//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "ARMY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Northrop Grumman Systems Corp., Huntsville, Alabama, was awarded a $9,945,634 modification (P00020) to contract W31P4Q-19-C-0003 for the procurement of Integrated Air & Missile Defense Battle Command System production hardware and software. Work will be performed in Huntsville, Alabama, with an estimated completion date of Dec. 31, 2025. Fiscal 2010 Foreign Military Sales (Poland) funds in the amount of $9,945,634 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded an $8,240,416 cost-plus-fixed-fee order (N0001922F0016) against a previously issued basic ordering agreement (N0001919G0008). This order provides program management, delivery management, project engineering, and logistics support services required to deliver air vehicle initial spares for the F-35 Joint Strike Fighter production aircraft for the Air Force, Navy, Marine Corps, Foreign Military sales (FMS) customers, and non-Department of Defense (DOD) partners. Work will be performed in Fort Worth, Texas, and is expected to be completed in December 2022. Fiscal 2022 aircraft procurement (Navy) funds in the amount of $1,991,586; fiscal 2021 aircraft procurement (Air Force) funds in the amount of $3,316,265; FMS funds in the amount of $1,023,201; and non-DoD partner funds in the amount of $1,909,364 will be obligated on this award, none of which will expire at the end of the current fiscal year. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Wed, 05 Jan 2022 22:17:46 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:52.866671+00:00"
+}

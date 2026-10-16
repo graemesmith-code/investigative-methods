@@ -1,0 +1,57 @@
+{
+  "article_id": "2803214",
+  "capture_timestamp": "20211006215720",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2803214//",
+  "cdx_digest": "LFPT5IQZMP6TV5XO6JOJWSSCVLHONDBD",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20211006215720id_/https://www.defense.gov/News/Contracts/Contract/Article/2803214//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:46:21.475190+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20211006215720id_/https://www.defense.gov/News/Contracts/Contract/Article/2803214//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Wed, 06 Oct 2021 21:57:20 GMT",
+    "memento-datetime": "Wed, 06 Oct 2021 21:57:20 GMT",
+    "x-archive-src": "archiveteam_urls_20211006220104_33fc8910/urls_20211006220104_33fc8910.1606352862.megawarc.warc.zst"
+  },
+  "response_sha256": "be1f60bd1bccdcbd8bc861c203e0e15bf8f414a334552eac8e6ccfcb7a18b04d",
+  "response_bytes": 74259,
+  "html_file": "html/2803214.html.gz",
+  "announcement_date": "2021-10-06",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2021-10-06",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "A2A Integrated Logistics Inc.,* Fayetteville, North Carolina (M67854-21-D-5118); AvMEDICAL, LLC,* Franklin, Tennessee (M67854-21-D-5119); and Sterile Services Co.,* Miami, Florida (M67854-21-D-5120), are awarded a multiple-award, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the purchase of medical and dental supplies up to a combined maximum of $46,934,526. The contract will involve the procurement of items on the Authorized Medical Allowance Lists, the Authorized Dental Allowance List, and medical kits managed by the Marine Corps Systems Command. These lists are highly specialized capability sets comprised of Department of Defense-classified Class VIII medical equipment and materiel that are required to sustain the operational readiness of Marine Corps Health Service Support units. Work will be performed in Fayetteville, North Carolina; Franklin, Tennessee; and Miami, Florida, and is expected to be completed by October 2027. No funds will be obligated at time of award. All funding will be made available at the delivery order level as contracting actions occur. Each awardee will be awarded a minimum of $25,000 (minimum contract guarantee per awardee) within one year of base contract award, using fiscal 2022 procurement (Marine Corps) funds. The contract was competitively procured via the beta.sam.gov website, with 10 offers received. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2803214//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "A2A Integrated Logistics Inc.,* Fayetteville, North Carolina (M67854-21-D-5118); AvMEDICAL, LLC,* Franklin, Tennessee (M67854-21-D-5119); and Sterile Services Co.,* Miami, Florida (M67854-21-D-5120), are awarded a multiple-award, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the purchase of medical and dental supplies up to a combined maximum of $46,934,526. The contract will involve the procurement of items on the Authorized Medical Allowance Lists, the Authorized Dental Allowance List, and medical kits managed by the Marine Corps Systems Command. These lists are highly specialized capability sets comprised of Department of Defense-classified Class VIII medical equipment and materiel that are required to sustain the operational readiness of Marine Corps Health Service Support units. Work will be performed in Fayetteville, North Carolina; Franklin, Tennessee; and Miami, Florida, and is expected to be completed by October 2027. No funds will be obligated at time of award. All funding will be made available at the delivery order level as contracting actions occur. Each awardee will be awarded a minimum of $25,000 (minimum contract guarantee per awardee) within one year of base contract award, using fiscal 2022 procurement (Marine Corps) funds. The contract was competitively procured via the beta.sam.gov website, with 10 offers received. The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Wed, 06 Oct 2021 21:57:20 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:51.424887+00:00"
+}

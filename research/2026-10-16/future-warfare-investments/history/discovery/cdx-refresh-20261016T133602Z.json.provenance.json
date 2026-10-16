@@ -1,0 +1,9 @@
+{
+  "requested_at_utc": "2026-10-16T13:35:57.139024+00:00",
+  "request_url": "https://web.archive.org/cdx/search/cdx?url=www.defense.gov%2FNews%2FContracts%2FContract%2FArticle%2F%2A&output=json&filter=statuscode%3A200&collapse=urlkey&fl=timestamp%2Coriginal%2Cdigest%2Cmimetype&limit=3000&showResumeKey=true",
+  "retrieval_url": "https://web.archive.org/cdx/search/cdx?url=www.defense.gov%2FNews%2FContracts%2FContract%2FArticle%2F%2A&output=json&filter=statuscode%3A200&collapse=urlkey&fl=timestamp%2Coriginal%2Cdigest%2Cmimetype&limit=3000&showResumeKey=true",
+  "http_status": 503,
+  "response_sha256": "e084d527921708642a79724e9f0210da659bbc0905c6ce9a3a1f416e4628091c",
+  "source_label": "Internet Archive CDX index",
+  "response_file": "cdx-refresh-20261016T133602Z.json"
+}

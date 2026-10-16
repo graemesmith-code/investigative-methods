@@ -1,0 +1,57 @@
+{
+  "article_id": "3190929",
+  "capture_timestamp": "20221017221711",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/3190929//",
+  "cdx_digest": "K2UBGOGLF45OA3RPHEZAYTAZP5KQ5TIY",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20221017221711id_/https://www.defense.gov/News/Contracts/Contract/Article/3190929//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:50:02.576220+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20221017221711id_/https://www.defense.gov/News/Contracts/Contract/Article/3190929//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Mon, 17 Oct 2022 22:17:11 GMT",
+    "memento-datetime": "Mon, 17 Oct 2022 22:17:11 GMT",
+    "x-archive-src": "archiveteam_urls_20221017221755_eb31d4b0/urls_20221017221755_eb31d4b0.1650286618.megawarc.warc.zst"
+  },
+  "response_sha256": "6327c1c5697f0b2d54d47d281e46ce7f03f5ec0ccda758cfcfa8bb0b7983ad2f",
+  "response_bytes": 81273,
+  "html_file": "html/3190929.html.gz",
+  "announcement_date": "2022-10-17",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2022-10-17",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Pole/Zero Acquisition Inc., West Chester, Ohio, is awarded a $53,544,462 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures up to 346 antenna interface units and communications trays, to include 190 for the Navy, 132 for Foreign Military Sales (FMS) customers and 24 for the government of Australia, as well as required technical data, assemblies, subassemblies, and spares in support of the P-8A Poseidon communications suite. Work will be performed in West Chester, Ohio, and is expected to be completed in October 2028. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to Defense Federal Acquisition Regulations 6.302-1. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833523D0001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3190929//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Pole/Zero Acquisition Inc., West Chester, Ohio, is awarded a $53,544,462 firm-fixed-price, indefinite-delivery/indefinite-quantity contract. This contract procures up to 346 antenna interface units and communications trays, to include 190 for the Navy, 132 for Foreign Military Sales (FMS) customers and 24 for the government of Australia, as well as required technical data, assemblies, subassemblies, and spares in support of the P-8A Poseidon communications suite. Work will be performed in West Chester, Ohio, and is expected to be completed in October 2028. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to Defense Federal Acquisition Regulations 6.302-1. The Naval Air Warfare Center Aircraft Division, Lakehurst, New Jersey, is the contracting activity (N6833523D0001)."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "note",
+      "text": "\n\r\n*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Mon, 17 Oct 2022 22:17:11 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:58.346379+00:00"
+}

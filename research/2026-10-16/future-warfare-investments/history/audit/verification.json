@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "warnings": [],
+  "unhandled_money_block_pages": 0,
+  "history_rows": 18819,
+  "history_rows_by_year": {
+    "2018": 1538,
+    "2019": 3952,
+    "2020": 3993,
+    "2021": 3665,
+    "2022": 3422,
+    "2023": 2249
+  },
+  "original_rows": 10000,
+  "original_sha256": "bf717bac8ad92d8c4d7d4aa6371b73b64580f0df7f3f9708cf2d798af895349c",
+  "index_unique_rows": 28818,
+  "index_pointer_count": 28819,
+  "hash_checked_pages": 1247,
+  "successful_pages": 1247,
+  "history_paragraph_length_range": [
+    160,
+    13844
+  ],
+  "note": "Verifies retained response bytes and deterministic complete-block extraction. Does not establish archive/publication coverage or financial comparability."
+}

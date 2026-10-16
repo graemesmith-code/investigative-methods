@@ -1,0 +1,71 @@
+{
+  "article_id": "3193751",
+  "capture_timestamp": "20221020073514",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/3193751//",
+  "cdx_digest": "LCMFD3AJ2Y3J6N6WYSLDXRSAKQTL6P57",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20221020073514id_/https://www.defense.gov/News/Contracts/Contract/Article/3193751//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:50:04.176571+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20221020073514id_/https://www.defense.gov/News/Contracts/Contract/Article/3193751//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Thu, 20 Oct 2022 07:35:14 GMT",
+    "memento-datetime": "Thu, 20 Oct 2022 07:35:14 GMT",
+    "x-archive-src": "archiveteam_urls_20221020074358_9c41b9d1/urls_20221020074358_9c41b9d1.1650286618.megawarc.warc.zst"
+  },
+  "response_sha256": "a6534eb21ff1d5b0bfc73484adde255fb5d4996d487e9b0f00ed4bd1505c812f",
+  "response_bytes": 81732,
+  "html_file": "html/3193751.html.gz",
+  "announcement_date": "2022-10-19",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2022-10-19",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Golden Manufacturing,* Golden, Mississippi, has been awarded a maximum $10,800,320 modification (P00024) exercising the third one-year option period of an 18-month base contract (SPE1C1-19-D-1160) with three one-year option periods for various types of trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is North Carolina, with an Oct. 23, 2023, ordering period end date. Using military services are Navy and Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3193751//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2022-10-19",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "National Industries for the Blind,** Alexandria, Virginia, has been awarded a maximum $9,074,847 modification (P00012) exercising the fourth one-year option period of a one-year base contract (SPE1C1-19-D-B043) with four one-year option periods for moisture wicking t-shirts. This is an indefinite-delivery contract. Locations of performance are North Carolina and Arkansas, with an Oct. 30, 2023, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania. ",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3193751//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 2
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "DEFENSE LOGISTICS AGENCY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Golden Manufacturing,* Golden, Mississippi, has been awarded a maximum $10,800,320 modification (P00024) exercising the third one-year option period of an 18-month base contract (SPE1C1-19-D-1160) with three one-year option periods for various types of trousers. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is North Carolina, with an Oct. 23, 2023, ordering period end date. Using military services are Navy and Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "record",
+      "text": "National Industries for the Blind,** Alexandria, Virginia, has been awarded a maximum $9,074,847 modification (P00012) exercising the fourth one-year option period of a one-year base contract (SPE1C1-19-D-B043) with four one-year option periods for moisture wicking t-shirts. This is an indefinite-delivery contract. Locations of performance are North Carolina and Arkansas, with an Oct. 30, 2023, ordering period end date. Using military service is Army. Type of appropriation is fiscal 2023 through 2024 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania. "
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "note",
+      "text": "\n\r\n*Small business \n\r\n**Mandatory source"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Thu, 20 Oct 2022 07:35:14 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:58.387533+00:00"
+}

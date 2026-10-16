@@ -1,0 +1,57 @@
+{
+  "article_id": "2428811",
+  "capture_timestamp": "20211026233524",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2428811/",
+  "cdx_digest": "EGXLAGYKQ4IPJ5Y7AJSXRN44ZPBWSGQE",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20211026233524id_/https://www.defense.gov/News/Contracts/Contract/Article/2428811/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:42:57.402379+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20211026233524id_/https://www.defense.gov/News/Contracts/Contract/Article/2428811/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Tue, 26 Oct 2021 23:35:24 GMT",
+    "memento-datetime": "Tue, 26 Oct 2021 23:35:24 GMT",
+    "x-archive-src": "CC-MAIN-2021-43-1634323587963.12-0011/CC-MAIN-20211026231833-20211027021833-00225.warc.gz"
+  },
+  "response_sha256": "e5a3dc763187ab363327827a0e27d75a30b31afa75d81a55a3fd328ea4911e5f",
+  "response_bytes": 72669,
+  "html_file": "html/2428811.html.gz",
+  "announcement_date": "2020-11-27",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-11-27",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Lockheed Martin Corp., Rotary and Mission Systems, Syracuse, New York, was awarded a $14,108,019 cost-plus-fixed-fee and cost-only modification to previously awarded contract N00024-18-C-5300 to exercise options for AN/SLQ-32(V)6 design agent engineering services.  Work will be performed in Syracuse, New York, and is expected to be completed by November 2021.  Fiscal 2021 other procurement (Navy) (91%); and 2021 operation and maintenance (Navy) (9%) funding in the amount of $3,008,846 will be obligated at time of award, of which, $281,857 will expire at the end of the current fiscal year.  The Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Nov. 24, 2020)",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2428811/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Lockheed Martin Corp., Rotary and Mission Systems, Syracuse, New York, was awarded a $14,108,019 cost-plus-fixed-fee and cost-only modification to previously awarded contract N00024-18-C-5300 to exercise options for AN/SLQ-32(V)6 design agent engineering services.  Work will be performed in Syracuse, New York, and is expected to be completed by November 2021.  Fiscal 2021 other procurement (Navy) (91%); and 2021 operation and maintenance (Navy) (9%) funding in the amount of $3,008,846 will be obligated at time of award, of which, $281,857 will expire at the end of the current fiscal year.  The Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Nov. 24, 2020)"
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Tue, 26 Oct 2021 23:35:24 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:46.449049+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "article_id": "2052047",
+  "capture_timestamp": "20250217210444",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052047/",
+  "cdx_digest": "TAOS2A6ZRUYSPU4ZUTRKXNVO4ORD62OM",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20250217210444id_/https://www.defense.gov/News/Contracts/Contract/Article/2052047/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:39:32.678924+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20250217210444id_/https://www.defense.gov/News/Contracts/Contract/Article/2052047/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Mon, 17 Feb 2025 21:04:44 GMT",
+    "memento-datetime": "Mon, 17 Feb 2025 21:04:44 GMT",
+    "x-archive-src": "CC-MAIN-2025-08-1738832259438.98-0037/CC-MAIN-20250217191831-20250217221831-00745.warc.gz"
+  },
+  "response_sha256": "b60dda4ef537dc3425c30c43664e8cef544d23ca34526a506fcff6faf36ec80e",
+  "response_bytes": 108487,
+  "html_file": "html/2052047.html.gz",
+  "announcement_date": "2020-01-07",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-01-07",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Ensign-Bickford Aerospace & Defense, Simsbury, Connecticut, is awarded a $28,323,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with a five-year ordering period and five one-year options for the MK 150 MOD 0 4.0 second Delay Detonator, and the MK 164 MOD 0 Non Electric Dual Detonator. The MN50 is a 4.0 second delay detonator with 7' of pyrotechnic lead with one non-electric delay detonator on one end and an inline initiator on the other end. The MP29 is a non-electric dual detonator with 40' of dual, no flash pyrotechnic lead with two non-electric detonators on one end and two inline initiators on the other end. They are used for demolition breaching, critical target destruction and obstacle clearing for U.S. Naval Special Warfare Command. Work will be performed in Graham, Kentucky, and is expected to be complete by January 2030. Fiscal 2019 procurement of ammunition, Navy and Marine Corps, funding in the amount of $305,486; and defense procurement funding in the amount of $149,971 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website with one offer received. The Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N0016420DJR74).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052047/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2020-01-07",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Dyncorp International LLC, Fort Worth, Texas, was awarded a $19,810,314 modification (P00022) to contract W58RGZ-19-C-0025 for aviation maintenance services. Work will be performed in Fort Campbell, Kentucky; Afghanistan and Iraq, with an estimated completion date of Nov. 30, 2020. Fiscal 2020 operations and maintenance, Army funds in the amount of $19,810,314 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052047/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Ensign-Bickford Aerospace & Defense, Simsbury, Connecticut, is awarded a $28,323,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract with a five-year ordering period and five one-year options for the MK 150 MOD 0 4.0 second Delay Detonator, and the MK 164 MOD 0 Non Electric Dual Detonator. The MN50 is a 4.0 second delay detonator with 7' of pyrotechnic lead with one non-electric delay detonator on one end and an inline initiator on the other end. The MP29 is a non-electric dual detonator with 40' of dual, no flash pyrotechnic lead with two non-electric detonators on one end and two inline initiators on the other end. They are used for demolition breaching, critical target destruction and obstacle clearing for U.S. Naval Special Warfare Command. Work will be performed in Graham, Kentucky, and is expected to be complete by January 2030. Fiscal 2019 procurement of ammunition, Navy and Marine Corps, funding in the amount of $305,486; and defense procurement funding in the amount of $149,971 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was competitively procured via the Federal Business Opportunities website with one offer received. The Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contracting activity (N0016420DJR74)."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "section",
+      "text": "ARMY"
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "Dyncorp International LLC, Fort Worth, Texas, was awarded a $19,810,314 modification (P00022) to contract W58RGZ-19-C-0025 for aviation maintenance services. Work will be performed in Fort Campbell, Kentucky; Afghanistan and Iraq, with an estimated completion date of Nov. 30, 2020. Fiscal 2020 operations and maintenance, Army funds in the amount of $19,810,314 were obligated at the time of the award. U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity."
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Mon, 17 Feb 2025 21:04:44 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:40.464932+00:00"
+}

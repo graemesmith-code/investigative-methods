@@ -1,0 +1,80 @@
+{
+  "article_id": "3184727",
+  "capture_timestamp": "20221011211639",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/3184727//",
+  "cdx_digest": "LLB2H2YVCP2QDRLNKQY2JWHJLIMLRPJI",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20221011211639id_/https://www.defense.gov/News/Contracts/Contract/Article/3184727//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:49:59.375364+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20221011211639id_/https://www.defense.gov/News/Contracts/Contract/Article/3184727//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Tue, 11 Oct 2022 21:16:39 GMT",
+    "memento-datetime": "Tue, 11 Oct 2022 21:16:39 GMT",
+    "x-archive-src": "archiveteam_urls_20221011211656_bd67cd01/urls_20221011211656_bd67cd01.1650286618.megawarc.warc.zst"
+  },
+  "response_sha256": "952829e8d52cd404c75360585daa3d113c86cc8f00614bc9e1afdd9688d10de2",
+  "response_bytes": 77746,
+  "html_file": "html/3184727.html.gz",
+  "announcement_date": "2022-10-11",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2022-10-11",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "AAR Government Services Inc., Wood Dale, Illinois, is awarded an $114,476,783 modification (P00020) to a previously awarded, firm-fixed-price, time-and-materials, indefinite-delivery/indefinite-quantity contract (N0001918D0111). This modification exercises an option to provide P-8A Poseidon aircraft depot scheduled and unscheduled maintenance, depot in-service repair/planner and estimator requirements, technical directive incorporation, airframe modifications, aircraft on ground support, and removal and replacement of engines in support of the Navy, the government of Australia, and Foreign Military Sales customers. Work will be performed in Indianapolis, Indiana, and is expected to be completed in October 2023. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3184727//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2022-10-11",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "The Boeing Co., Seattle, Washington, is awarded an $84,526,041 modification (P00009) to a previously awarded, firm-fixed-price, time-and-materials, indefinite-delivery/indefinite-quantity contract (N0001918D0113). This modification exercises an option to provide P-8A Poseidon CFM56-7B27A/3 and CFM56-7B27AE engine depot-level maintenance and repair in support of the Navy, the government of Australia, and Foreign Military Sales customers. Work will be performed in Atlanta, Georgia (97%); and Seattle, Washington (3%), and is expected to be completed in October 2023. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3184727//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 2
+    },
+    {
+      "announcement_date": "2022-10-11",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "CORRECTION: The Sept. 23, 2022, announcement of a contract award to Fincantieri Marinette Marine, Marinette, Wisconsin (N00024-20-C-2300), for procurement of long-lead time material for the land based engineering site for the Constellation-class frigate should have stated that work will be performed in Philadelphia, Pennsylvania, not Marinette, Wisconsin.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3184727//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "AAR Government Services Inc., Wood Dale, Illinois, is awarded an $114,476,783 modification (P00020) to a previously awarded, firm-fixed-price, time-and-materials, indefinite-delivery/indefinite-quantity contract (N0001918D0111). This modification exercises an option to provide P-8A Poseidon aircraft depot scheduled and unscheduled maintenance, depot in-service repair/planner and estimator requirements, technical directive incorporation, airframe modifications, aircraft on ground support, and removal and replacement of engines in support of the Navy, the government of Australia, and Foreign Military Sales customers. Work will be performed in Indianapolis, Indiana, and is expected to be completed in October 2023. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "record",
+      "text": "The Boeing Co., Seattle, Washington, is awarded an $84,526,041 modification (P00009) to a previously awarded, firm-fixed-price, time-and-materials, indefinite-delivery/indefinite-quantity contract (N0001918D0113). This modification exercises an option to provide P-8A Poseidon CFM56-7B27A/3 and CFM56-7B27AE engine depot-level maintenance and repair in support of the Navy, the government of Australia, and Foreign Military Sales customers. Work will be performed in Atlanta, Georgia (97%); and Seattle, Washington (3%), and is expected to be completed in October 2023. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "CORRECTION: The Sept. 23, 2022, announcement of a contract award to Fincantieri Marinette Marine, Marinette, Wisconsin (N00024-20-C-2300), for procurement of long-lead time material for the land based engineering site for the Constellation-class frigate should have stated that work will be performed in Philadelphia, Pennsylvania, not Marinette, Wisconsin."
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Tue, 11 Oct 2022 21:16:39 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:58.264581+00:00"
+}

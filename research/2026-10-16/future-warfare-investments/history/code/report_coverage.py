@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""Human-readable coverage report from retained collection products."""
+import collections,csv,json
+from collect_history import ROOT,write_csv
+
+def main():
+ summary=json.loads((ROOT/'summary.json').read_text());daily=list(csv.DictReader((ROOT/'daily_coverage.csv').open()));pages=json.loads((ROOT/'page_manifest.json').read_text());verification=json.loads((ROOT/'audit/verification.json').read_text())
+ months={}
+ for r in daily:
+  m=months.setdefault(r['date'][:7],collections.Counter())
+  m['calendar_days']+=1;m['weekdays']+=r['weekday'] not in ['Saturday','Sunday'];m['recovered_dates']+=r['status']=='recovered';m['official_no_awards_dates']+=r['status']=='official_no_awards';m['unresolved_weekdays']+=r['status']=='unresolved_no_recovered_page' and r['weekday'] not in ['Saturday','Sunday'];m['paragraphs']+=int(r['paragraphs'])
+ write_csv(ROOT/'monthly_coverage.csv',[dict(month=k,**{field:v[field] for field in ['calendar_days','weekdays','recovered_dates','official_no_awards_dates','unresolved_weekdays','paragraphs']}) for k,v in sorted(months.items())],['month','calendar_days','weekdays','recovered_dates','official_no_awards_dates','unresolved_weekdays','paragraphs'])
+ failed=[p for p in pages if p['status']!='ok'];inperiod=[p for p in pages if p['status']=='ok' and p.get('in_requested_period')];empty=[r for r in daily if r['status']=='official_no_awards'];gaps=[r for r in daily if r['status']=='unresolved_no_recovered_page'];years=collections.defaultdict(collections.Counter)
+ for r in daily:
+  y=years[r['date'][:4]];y['paragraphs']+=int(r['paragraphs']);y['page_dates']+=r['status']!='unresolved_no_recovered_page';y['unresolved_weekdays']+=r['status']=='unresolved_no_recovered_page' and r['weekday'] not in ['Saturday','Sunday']
+ lines=['# Coverage and remaining gaps','',f"Built at {summary['built_at_utc']}. Requested period: 2018-09-12 through 2023-09-11, inclusive.",'','**Partial public-archive coverage; publication completeness is not established.**','',f"- {summary['candidate_pages']:,} candidate article IDs; {summary['attempted_pages']:,} attempted; {summary['successful_pages']:,} successfully parsed (including out-of-period boundary controls).",f"- {len(inperiod):,} in-period pages; {len(empty):,} explicit no-award dates; {summary['paragraphs']:,} complete substantive paragraphs.",f"- {summary['recovered_dates']:,} dates supported by recovered pages; {len(gaps):,} calendar dates without a recovered page, including {summary['unresolved_weekdays']:,} weekdays. Weekends and holidays are not proof of nonpublication.",f"- {len(failed):,} unresolved candidate retrieval/parse failures; see `candidate_coverage.csv` and `retrieval_attempts.jsonl`.",f"- Combined index: {verification['index_unique_rows']:,} unique keys and {verification['index_pointer_count']:,} source-row pointers, including the original 10,000 rows.",'','| Year (requested-window portion only) | Paragraphs | Supported dates | Unresolved weekdays |','| --- | ---: | ---: | ---: |']
+ for year,v in sorted(years.items()):lines.append(f"| {year} | {v['paragraphs']:,} | {v['page_dates']:,} | {v['unresolved_weekdays']:,} |")
+ lines+=['','`daily_coverage.csv` enumerates every date and `monthly_coverage.csv` aggregates the same evidence. Supported dates include explicit no-award notices; paragraph counts exclude headings and retained footnotes. An unresolved date is a gap in this recovery, not a finding that no announcement exists. Discovery came from a bounded public CDX response, not an official census.','', '## Candidate failures','']
+ if failed:
+  for p in failed:lines.append(f"- Article {p['article_id']}: {p.get('error','unknown failure')}; [official URL]({p['original_url']}).")
+ else:lines.append('No discovered candidate remains in a failed state. Undiscovered pages and date gaps remain possible.')
+ lines+=['','## Verification and comparability','',f"All {verification['hash_checked_pages']:,} retained response files passed byte-hash checks. Validation errors: {len(verification['errors'])}; body-reconstruction warnings: {len(verification['warnings'])}; pages with dollar-bearing nonrecord blocks: {verification['unhandled_money_block_pages']}. See `audit/verification.json` and `audit/page_extraction_checks.csv`.",'','The original export remains unchanged. Its oldest day contains the first 20 of 29 source paragraphs, demonstrating a cutoff consistent with a 10,000-row cap. Its full selection configuration remains unavailable. The historical period also crosses the 1 October 2020 announcement threshold change ($7 million to $7.5 million); the original period crosses the 1 October 2025 change ($7.5 million to $9 million). Archive coverage, reporting thresholds, source revisions and selection differ. Do not treat these paragraph counts or dollar figures as comparable complete investment totals.']
+ (ROOT/'COVERAGE.md').write_text('\n'.join(lines)+'\n')
+if __name__=='__main__':main()

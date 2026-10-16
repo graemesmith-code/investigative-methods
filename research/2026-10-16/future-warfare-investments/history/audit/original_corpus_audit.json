@@ -1,0 +1,23 @@
+{
+  "original_file": "../raw/pentagon_contract_paragraphs_10000.csv",
+  "original_sha256": "bf717bac8ad92d8c4d7d4aa6371b73b64580f0df7f3f9708cf2d798af895349c",
+  "row_count": 10000,
+  "unique_full_rows": 10000,
+  "unique_paragraphs": 10000,
+  "source_pages": 713,
+  "announcement_dates": 713,
+  "minimum_date": "2023-09-12",
+  "maximum_date": "2026-09-25",
+  "ordered_newest_date_first": true,
+  "paragraph_length_range": [
+    177,
+    9482
+  ],
+  "boundary_date": "2023-09-12",
+  "boundary_export_rows": 20,
+  "boundary_source_paragraphs": 29,
+  "boundary_export_matches_source_prefix": true,
+  "boundary_missing_source_paragraphs": 9,
+  "source_response_sha256": "fe1ed2b6fdca580a6c03f3d952fd66d36ba97cb965f96e8a39b5c5bb8fc9d1ba",
+  "interpretation": "Newest-first capped selection; complete paragraphs in boundary prefix, but page-level truncation at 10,000 rows. Original collector, exact sampling/extraction configuration and broader page completeness remain unavailable/unverified. No assertion of comparable full coverage."
+}

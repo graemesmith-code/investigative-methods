@@ -1,0 +1,137 @@
+{
+  "article_id": "2060522",
+  "capture_timestamp": "20250317042149",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+  "cdx_digest": "ADBAEXO2M5RFTFXU3K2JHCF4TY54ZS52",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20250317042149id_/https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:39:39.561819+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20250317042149id_/https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Mon, 17 Mar 2025 04:21:49 GMT",
+    "memento-datetime": "Mon, 17 Mar 2025 04:21:49 GMT",
+    "x-archive-src": "archiveteam_archivebot_go_20250317073940_1a2723ed/urls-transfer.archivete.am-www.defense.gov_news_urls.txt-shallow-20250317-024831-8xlbr-00000.warc.gz"
+  },
+  "response_sha256": "d2ae00bfc036f39d3b36ef8a05783d3c16abcca62fbda1326205109231903238",
+  "response_bytes": 111583,
+  "html_file": "html/2060522.html.gz",
+  "announcement_date": "2020-01-17",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-01-17",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Raytheon Integrated Defense Systems, Tewksbury, Massachusetts, is awarded a $30,358,285 cost-plus-fixed-fee and cost-only modification to previously-awarded contract N00024-19-C-5509 to exercise the option for dual band radar design agent support efforts. Work will be performed in Tewksbury, Massachusetts (69%); Port Hueneme, California (17%); and Arvonia, Virginia (14%), and is expected to be completed by January 2021. Fiscal 2020 shipbuilding and conversion (Navy); and fiscal 2019 research, development, test and evaluation (Navy) funding in the amount of $2,099,910 will be obligated at time of award, and funds in the amount of $1,069,769 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2020-01-17",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "CACI International Inc./BIT Systems, Sterling, Virginia, is awarded a $13,336,559 firm-fixed-price, cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract. This contract provides engineering, program management and technical services to support the installation, integration and sustainment of counter unmanned aerial systems. Installation and integration includes modeling and simulation, hardware installation, software integration, verification testing and integration trouble shooting support. System sustainment includes maintainability and deployment upgrades of operational systems, reconfiguration of installed systems, training, system maintenance, software updates and hardware repairs. Work will be performed in Sterling, Virginia (34%); various locations within the continental U.S (33%); and various locations outside the continental U.S. (33%), and is expected to be completed in January 2022. No funds will be obligated at the time of award. Funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to 10 U.S. Code 2304(c)(1). The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-20-D-0020).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 2
+    },
+    {
+      "announcement_date": "2020-01-17",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Phillips Corp.,* Hanover, Maryland, was awarded a $28,570,997 firm-fixed-price contract for the procurement of Computer Numeric Control mill and lathe assemblies. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 16, 2025. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W9098S-20-D-0004).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 4
+    },
+    {
+      "announcement_date": "2020-01-17",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Four Tribes Enterprises Inc.,* Gaithersburg, Maryland, was awarded a $13,147,968 firm-fixed-price contract for the construction of a perimeter security entry point at Rome Laboratory. One bid was solicited via the internet with one bid received. Work will be performed in Rome, New York, with an estimated completion date of July 14, 2021. Fiscal 2020 civil construction funds in the amount of $13,147,968 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-20-C-0005).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 5
+    },
+    {
+      "announcement_date": "2020-01-17",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Booz Allen Hamilton Inc., McLean, Virginia, was awarded an $8,873,629 firm-fixed-price contract for program management support services on the Integrated Personnel and Pay System-Army for the Functional Management Division, Deputy Chief of Staff, G-1, Technology and Business Architecture Integration Directorate. Fifty-five bids were solicited with one bid received. Work will be performed in Arlington, Virginia, with an estimated completion date of Jan. 17, 2023. Fiscal 2020 operations and maintenance, Army, funds in the amount of $8,873,629 were obligated at the time of the award. U.S. Army Contracting Command, New Jersey, is the contracting activity (W15QKN-20-F-0144).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 6
+    },
+    {
+      "announcement_date": "2020-01-17",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Honeywell International, doing business as Honeywell Aerospace-Tucson, Tucson, Arizona, has been awarded a $25,664,750 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for helicopter generators. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a one-year base contract with four one-year options periods. Location of performance is Arizona with a Jan 17, 2026, performance completion date. Using military service is the Army. Type of appropriation is fiscal 2020 Army working capital funds. The contracting activity is Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-20-D-0016).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2060522/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Raytheon Integrated Defense Systems, Tewksbury, Massachusetts, is awarded a $30,358,285 cost-plus-fixed-fee and cost-only modification to previously-awarded contract N00024-19-C-5509 to exercise the option for dual band radar design agent support efforts. Work will be performed in Tewksbury, Massachusetts (69%); Port Hueneme, California (17%); and Arvonia, Virginia (14%), and is expected to be completed by January 2021. Fiscal 2020 shipbuilding and conversion (Navy); and fiscal 2019 research, development, test and evaluation (Navy) funding in the amount of $2,099,910 will be obligated at time of award, and funds in the amount of $1,069,769 will expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, District of Columbia, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "record",
+      "text": "CACI International Inc./BIT Systems, Sterling, Virginia, is awarded a $13,336,559 firm-fixed-price, cost-plus-fixed-fee, cost reimbursable, indefinite-delivery/indefinite-quantity contract. This contract provides engineering, program management and technical services to support the installation, integration and sustainment of counter unmanned aerial systems. Installation and integration includes modeling and simulation, hardware installation, software integration, verification testing and integration trouble shooting support. System sustainment includes maintainability and deployment upgrades of operational systems, reconfiguration of installed systems, training, system maintenance, software updates and hardware repairs. Work will be performed in Sterling, Virginia (34%); various locations within the continental U.S (33%); and various locations outside the continental U.S. (33%), and is expected to be completed in January 2022. No funds will be obligated at the time of award. Funds will be obligated on individual orders as they are issued. This contract was not competitively procured pursuant to 10 U.S. Code 2304(c)(1). The Naval Air Warfare Center Aircraft Division, Patuxent River, Maryland, is the contracting activity (N00421-20-D-0020)."
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "section",
+      "text": "ARMY"
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "record",
+      "text": "Phillips Corp.,* Hanover, Maryland, was awarded a $28,570,997 firm-fixed-price contract for the procurement of Computer Numeric Control mill and lathe assemblies. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Jan. 16, 2025. U.S. Army Contracting Command, Rock Island Arsenal, Illinois, is the contracting activity (W9098S-20-D-0004)."
+    },
+    {
+      "paragraph_index": 5,
+      "kind": "record",
+      "text": "Four Tribes Enterprises Inc.,* Gaithersburg, Maryland, was awarded a $13,147,968 firm-fixed-price contract for the construction of a perimeter security entry point at Rome Laboratory. One bid was solicited via the internet with one bid received. Work will be performed in Rome, New York, with an estimated completion date of July 14, 2021. Fiscal 2020 civil construction funds in the amount of $13,147,968 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-20-C-0005)."
+    },
+    {
+      "paragraph_index": 6,
+      "kind": "record",
+      "text": "Booz Allen Hamilton Inc., McLean, Virginia, was awarded an $8,873,629 firm-fixed-price contract for program management support services on the Integrated Personnel and Pay System-Army for the Functional Management Division, Deputy Chief of Staff, G-1, Technology and Business Architecture Integration Directorate. Fifty-five bids were solicited with one bid received. Work will be performed in Arlington, Virginia, with an estimated completion date of Jan. 17, 2023. Fiscal 2020 operations and maintenance, Army, funds in the amount of $8,873,629 were obligated at the time of the award. U.S. Army Contracting Command, New Jersey, is the contracting activity (W15QKN-20-F-0144)."
+    },
+    {
+      "paragraph_index": 7,
+      "kind": "section",
+      "text": "DEFENSE LOGISTICS AGENCY"
+    },
+    {
+      "paragraph_index": 8,
+      "kind": "record",
+      "text": "Honeywell International, doing business as Honeywell Aerospace-Tucson, Tucson, Arizona, has been awarded a $25,664,750 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for helicopter generators. This was a sole-source acquisition using justification 10 U.S. Code 2304 (c)(1), as stated in Federal Acquisition Regulation 6.302-1. This is a one-year base contract with four one-year options periods. Location of performance is Arizona with a Jan 17, 2026, performance completion date. Using military service is the Army. Type of appropriation is fiscal 2020 Army working capital funds. The contracting activity is Defense Logistics Agency Aviation, Redstone Arsenal, Alabama (SPRRA1-20-D-0016)."
+    },
+    {
+      "paragraph_index": 9,
+      "kind": "note",
+      "text": "*Small Business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Mon, 17 Mar 2025 04:21:49 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:40.652744+00:00"
+}

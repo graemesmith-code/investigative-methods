@@ -1,0 +1,42 @@
+{
+  "article_id": "3289924",
+  "capture_timestamp": "20230207173949",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/3289924//",
+  "cdx_digest": "24QNJPN6NVGM7LNP43SRUCZABNHBBG33",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20230207173949id_/https://www.defense.gov/News/Contracts/Contract/Article/3289924//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:51:17.901590+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20230207173949id_/https://www.defense.gov/News/Contracts/Contract/Article/3289924//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Tue, 07 Feb 2023 17:39:49 GMT",
+    "memento-datetime": "Tue, 07 Feb 2023 17:39:49 GMT",
+    "x-archive-src": "SPNOUTLINKS-20230207172557-crawl901/SPNOUTLINKS-20230207173453-00656.warc.gz"
+  },
+  "response_sha256": "d50a2953d4a1d0026b01b03cbcff148da158cc6d9efc517826a5afeee4dbc0bc",
+  "response_bytes": 79555,
+  "html_file": "html/3289924.html.gz",
+  "archive_memento_datetime": "Tue, 07 Feb 2023 17:39:49 GMT",
+  "announcement_date": "2023-02-06",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "note",
+      "text": "There are no contracts to announce today."
+    },
+    {
+      "paragraph_index": 0,
+      "kind": "official_no_awards",
+      "text": "\nThere are no contracts to announce today.\n"
+    }
+  ],
+  "in_requested_period": true,
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:58:00.469660+00:00"
+}

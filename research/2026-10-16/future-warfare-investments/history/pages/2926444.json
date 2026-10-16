@@ -1,0 +1,71 @@
+{
+  "article_id": "2926444",
+  "capture_timestamp": "20220207222137",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2926444//",
+  "cdx_digest": "SF37I3YK52RKUZ3DUGWKRKA3PRAARPOL",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20220207222137id_/https://www.defense.gov/News/Contracts/Contract/Article/2926444//",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:47:36.767803+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20220207222137id_/https://www.defense.gov/News/Contracts/Contract/Article/2926444//",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Mon, 07 Feb 2022 22:21:37 GMT",
+    "memento-datetime": "Mon, 07 Feb 2022 22:21:37 GMT",
+    "x-archive-src": "archiveteam_urls_20220207222234_32c5b049/urls_20220207222234_32c5b049.1606352862.megawarc.warc.zst"
+  },
+  "response_sha256": "33465b891de1eab011d85807b27a1d822f9d97aadf89c18084ab7236ed71afbc",
+  "response_bytes": 74814,
+  "html_file": "html/2926444.html.gz",
+  "announcement_date": "2022-02-07",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2022-02-07",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "System High Corp., Chantilly, Virginia, is awarded a $104,877,823 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. This contract provides program security services for the F-35 Joint Program Office to include program management, general security, information security, industrial security, physical security, personnel security, counter-intelligence and foreign disclosure support.  Additionally, this contract provides special security studies, program protection cybersecurity and security control assessments as well as and engineering services support. Work will be performed in Arlington, Virginia (90%); Wright-Patterson Air Force Base, Ohio (4%); Stuttgart, Germany (2%); Fort Worth, Texas (2%); Patuxent River, Maryland (1%); and Eglin AFB, Florida (1%), and is expected to be completed in February 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; one offer was received. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001922D0008).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2926444//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2022-02-07",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Avon Protection Ceradyne LLC, Irvin, California, has been awarded a maximum $45,762,327 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for second generation advanced combat helmets. This was a competitive acquisition with two responses received. This is a one-year base contract with four one-year option periods. Locations of performance are California and New Hampshire, with a Feb. 1, 2023, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-22-D-1516).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2926444//",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "System High Corp., Chantilly, Virginia, is awarded a $104,877,823 cost-plus-fixed-fee, indefinite-delivery/indefinite-quantity contract. This contract provides program security services for the F-35 Joint Program Office to include program management, general security, information security, industrial security, physical security, personnel security, counter-intelligence and foreign disclosure support.  Additionally, this contract provides special security studies, program protection cybersecurity and security control assessments as well as and engineering services support. Work will be performed in Arlington, Virginia (90%); Wright-Patterson Air Force Base, Ohio (4%); Stuttgart, Germany (2%); Fort Worth, Texas (2%); Patuxent River, Maryland (1%); and Eglin AFB, Florida (1%), and is expected to be completed in February 2027. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured via an electronic request for proposal; one offer was received. The Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity (N0001922D0008)."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "section",
+      "text": "DEFENSE LOGISTICS AGENCY"
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "Avon Protection Ceradyne LLC, Irvin, California, has been awarded a maximum $45,762,327 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for second generation advanced combat helmets. This was a competitive acquisition with two responses received. This is a one-year base contract with four one-year option periods. Locations of performance are California and New Hampshire, with a Feb. 1, 2023, ordering period end date. Using military services are Army, Navy, Air Force and Marine Corps. Type of appropriation is fiscal 2022 through 2023 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-22-D-1516)."
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Mon, 07 Feb 2022 22:21:37 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:53.547302+00:00"
+}

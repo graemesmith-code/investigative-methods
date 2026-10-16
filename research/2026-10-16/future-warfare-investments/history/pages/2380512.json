@@ -1,0 +1,85 @@
+{
+  "article_id": "2380512",
+  "capture_timestamp": "20211016093214",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2380512/",
+  "cdx_digest": "OAHQ5VFPKQU6SNHKSDMDZYTV7LYPPHL5",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20211016093214id_/https://www.defense.gov/News/Contracts/Contract/Article/2380512/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:42:24.673788+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20211016093214id_/https://www.defense.gov/News/Contracts/Contract/Article/2380512/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Sat, 16 Oct 2021 09:32:14 GMT",
+    "memento-datetime": "Sat, 16 Oct 2021 09:32:14 GMT",
+    "x-archive-src": "IA-COLLIE-002-20211016085841894-06499-06506-wbgrp-crawl302/IA-COLLIE-002-20211016092640898-06504-21509~wbgrp-crawl302.us.archive.org~8443.warc.gz"
+  },
+  "response_sha256": "185118da44b05d921324ce0f81bbdfc424c38216e997cca0f41f719245c5eb7f",
+  "response_bytes": 74767,
+  "html_file": "html/2380512.html.gz",
+  "announcement_date": "2020-10-13",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-10-13",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Longbow Ltd., Orlando, Florida, was awarded a $32,154,552 modification (P00001) to contract W58RGZ-20-F-0464 for generic spare parts kits for AH-64E Apache helicopters.  Work will be performed in Orlando, Florida, with an estimated completion date of April 30, 2024.  Fiscal 2020 Foreign Military Sales (India, Morocco, Netherlands, and United Arab Emirates) funds in the amount of $32,154,552 were obligated at the time of the award.  U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2380512/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2020-10-13",
+      "service_or_agency_section": "ARMY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Spence Brothers, Saginaw, Michigan, was awarded a $19,304,000 firm-fixed-price contract to modify the Union Street Dam and a bi-directional fish passage.  Bids were solicited via the internet with five received.  Work will be performed in Traverse City, Michigan, with an estimated completion date of Sept. 2, 2024.  Fiscal 2021 Great Lakes Fishery Commission funds in the amount of $19,304,000 were obligated at the time of the award.  U.S. Army Corps of Engineers, Detroit, Michigan, is the contracting activity (W911XK-21-C-0001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2380512/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 2
+    },
+    {
+      "announcement_date": "2020-10-13",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Altamira Ltd., Pittsburgh, Pennsylvania, has been awarded a maximum $11,875,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for medical equipment and accessories for the Defense Logistics Agency electronic catalog.  This was a competitive acquisition with 130 responses received.  This is a five-year contract with no option periods.  Location of performance is Pennsylvania, with an Oct. 12, 2025, ordering period end date.  Using military services are Army, Navy, Air Force and Marine Corps.  Type of appropriation is fiscal 2021 through 2026 defense working capital funds.  The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DH-21-D-0051).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2380512/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "ARMY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Longbow Ltd., Orlando, Florida, was awarded a $32,154,552 modification (P00001) to contract W58RGZ-20-F-0464 for generic spare parts kits for AH-64E Apache helicopters.  Work will be performed in Orlando, Florida, with an estimated completion date of April 30, 2024.  Fiscal 2020 Foreign Military Sales (India, Morocco, Netherlands, and United Arab Emirates) funds in the amount of $32,154,552 were obligated at the time of the award.  U.S. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "record",
+      "text": "Spence Brothers, Saginaw, Michigan, was awarded a $19,304,000 firm-fixed-price contract to modify the Union Street Dam and a bi-directional fish passage.  Bids were solicited via the internet with five received.  Work will be performed in Traverse City, Michigan, with an estimated completion date of Sept. 2, 2024.  Fiscal 2021 Great Lakes Fishery Commission funds in the amount of $19,304,000 were obligated at the time of the award.  U.S. Army Corps of Engineers, Detroit, Michigan, is the contracting activity (W911XK-21-C-0001)."
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "section",
+      "text": "DEFENSE LOGISTICS AGENCY"
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "record",
+      "text": "Altamira Ltd., Pittsburgh, Pennsylvania, has been awarded a maximum $11,875,000 fixed-price with economic-price-adjustment, indefinite-delivery/indefinite-quantity contract for medical equipment and accessories for the Defense Logistics Agency electronic catalog.  This was a competitive acquisition with 130 responses received.  This is a five-year contract with no option periods.  Location of performance is Pennsylvania, with an Oct. 12, 2025, ordering period end date.  Using military services are Army, Navy, Air Force and Marine Corps.  Type of appropriation is fiscal 2021 through 2026 defense working capital funds.  The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE2DH-21-D-0051)."
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Sat, 16 Oct 2021 09:32:14 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:45.672855+00:00"
+}

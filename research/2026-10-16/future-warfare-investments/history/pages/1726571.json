@@ -1,0 +1,57 @@
+{
+  "article_id": "1726571",
+  "capture_timestamp": "20250317042100",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/1726571/",
+  "cdx_digest": "UA5J3NOBN5RLN4KI6Y5JYAMFTBUDCKP4",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20250317042100id_/https://www.defense.gov/News/Contracts/Contract/Article/1726571/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:35:59.296678+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20250317042100id_/https://www.defense.gov/News/Contracts/Contract/Article/1726571/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Mon, 17 Mar 2025 04:21:00 GMT",
+    "memento-datetime": "Mon, 17 Mar 2025 04:21:00 GMT",
+    "x-archive-src": "archiveteam_archivebot_go_20250317073940_1a2723ed/urls-transfer.archivete.am-www.defense.gov_news_urls.txt-shallow-20250317-024831-8xlbr-00000.warc.gz"
+  },
+  "response_sha256": "3428fd23fe7ee7a732e7971229f7df13f149085b4b8e6d6cfe0aebabb6c6f3c0",
+  "response_bytes": 108094,
+  "html_file": "html/1726571.html.gz",
+  "announcement_date": "2019-01-08",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2019-01-08",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "McRae Industries Inc.,* Mt. Gilead, North Carolina, has been awarded a maximum $9,934,688 modification (P00014) exercising the fourth one-year option period of one-year base contract (SPE1C1-15-D-1023) with four one-year option periods for hot-weather flame resistant combat boots. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is North Carolina, with a Jan. 8, 2020, performance completion date. Using customer is Army. Type of appropriation is fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.   ",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/1726571/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "DEFENSE LOGISTICS AGENCY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "McRae Industries Inc.,* Mt. Gilead, North Carolina, has been awarded a maximum $9,934,688 modification (P00014) exercising the fourth one-year option period of one-year base contract (SPE1C1-15-D-1023) with four one-year option periods for hot-weather flame resistant combat boots. This is a firm-fixed-price, indefinite-delivery/indefinite-quantity contract. Location of performance is North Carolina, with a Jan. 8, 2020, performance completion date. Using customer is Army. Type of appropriation is fiscal 2019 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.   "
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Mon, 17 Mar 2025 04:21:00 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:32.704831+00:00"
+}

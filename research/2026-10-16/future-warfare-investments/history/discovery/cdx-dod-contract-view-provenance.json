@@ -1,0 +1,9 @@
+{
+  "requested_at_utc": "2026-10-16T13:44:54.173432+00:00",
+  "request_url": "https://web.archive.org/cdx/search/cdx?url=dod.defense.gov%2FNews%2FContracts%2FContract-View%2FArticle%2F%2A&output=json&filter=statuscode%3A200&collapse=urlkey&fl=timestamp%2Coriginal%2Cdigest%2Cmimetype&limit=3000&showResumeKey=true",
+  "retrieval_url": "https://web.archive.org/cdx/search/cdx?url=dod.defense.gov%2FNews%2FContracts%2FContract-View%2FArticle%2F%2A&output=json&filter=statuscode%3A200&collapse=urlkey&fl=timestamp%2Coriginal%2Cdigest%2Cmimetype&limit=3000&showResumeKey=true",
+  "http_status": 200,
+  "response_sha256": "075529a3246cf4baf1305d0cb0b1a6c088d10817b60292b2705c2abe80c842f9",
+  "source_label": "Internet Archive CDX index",
+  "response_file": "cdx-dod-contract-view-response.txt"
+}

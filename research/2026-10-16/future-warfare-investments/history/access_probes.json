@@ -1,0 +1,31 @@
+{
+  "retrieval_date_utc": "2026-10-16",
+  "timestamp_precision": "date; initial probe command did not log individual request timestamps",
+  "probes": [
+    {
+      "url": "https://www.defense.gov/News/Contracts/",
+      "http_status": 403,
+      "client": "Python urllib public HTTPS request"
+    },
+    {
+      "url": "https://www.defense.gov/News/Contracts/StartDate/20180912/EndDate/20230911/",
+      "http_status": 403,
+      "client": "Python urllib public HTTPS request"
+    },
+    {
+      "url": "https://www.war.gov/News/Contracts/",
+      "http_status": 403,
+      "client": "Python urllib public HTTPS request"
+    },
+    {
+      "url": "https://www.war.gov/News/Contracts/Contract/Article/1641072/contracts-for-sep-20-2018/",
+      "http_status": 403,
+      "client": "Python urllib public HTTPS request"
+    }
+  ],
+  "successful_alternative": "Public Internet Archive CDX index and normal Wayback replay; captures and labels retained",
+  "unretained_failed_probes": [
+    "Date-glob CDX queries and article-prefix 16 query returned HTTP 503; no data used from those responses"
+  ],
+  "rule_access": "2018 DFARS page verified via web retrieval; local direct HTTP request returned 503 and is preserved in rules/ provenance."
+}

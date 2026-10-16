@@ -1,0 +1,17 @@
+{
+  "source_label": "Internet Archive CDX index of official Defense.gov URLs",
+  "retrieval_date_utc": "2026-10-16",
+  "request_timestamp_precision": "date only; initial access probe did not log request start time",
+  "parameters": {
+    "url": "www.defense.gov/News/Contracts/Contract-View/Article/*",
+    "output": "json",
+    "filter": "statuscode:200",
+    "collapse": "urlkey",
+    "fl": "timestamp,original,digest,mimetype",
+    "limit": 3000,
+    "showResumeKey": "true"
+  },
+  "http_status": 200,
+  "response_file": "cdx-contract-view.json",
+  "response_sha256": "ccb948dd07a3cab630e118c5fad0c54830488b92c7508f74c0f1d8adabed3b28"
+}

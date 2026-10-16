@@ -1,0 +1,90 @@
+{
+  "article_id": "2052857",
+  "capture_timestamp": "20241215045156",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052857/",
+  "cdx_digest": "MXK7FARG2TJ2XJZ4GMHF6TJDLNGIIMWR",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20241215045156id_/https://www.defense.gov/News/Contracts/Contract/Article/2052857/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:39:33.479708+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20241215045156id_/https://www.defense.gov/News/Contracts/Contract/Article/2052857/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Sun, 15 Dec 2024 04:51:57 GMT",
+    "memento-datetime": "Sun, 15 Dec 2024 04:51:56 GMT",
+    "x-archive-src": "archiveteam_urls_20241215045407_b1ad0be6/urls_20241215045407_b1ad0be6.1726247528.megawarc.warc.zst"
+  },
+  "response_sha256": "633ecadce80e02920e9e677b336b6316eace56094fd8762b67c8dbbe52c4ea74",
+  "response_bytes": 108145,
+  "html_file": "html/2052857.html.gz",
+  "announcement_date": "2020-01-08",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2020-01-08",
+      "service_or_agency_section": "DEFENSE LOGISTICS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Aurora Industries,* Camuy, Puerto Rico, has been awarded a maximum $53,594,133 modification (P00008) exercising the first one-year option period of a one-year base contract (SPE1C1-19-D-1128) with three one-year option periods for coats and trousers. This is a firm-fixed price, indefinite-delivery/indefinite-quantity contract. Location of performance is Puerto Rico, with a Jan. 10, 2021, performance completion date.  Using military services are Army and Air Force. Type of appropriation is fiscal 2020 through 2021 defense working capital funds.  The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052857/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2020-01-08",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "BAE Systems Information and Electronic Systems Integration Inc., San Diego, California, has been awarded a $49,620,000 indefinite-delivery/indefinite-quantity modification (P00026) to previously awarded FA4600-12-D-0002 for additional Air Vehicle Planning System (APS) support. The contract modification is for a ceiling increase to allow the purchase of continued maintenance and sustainment activities, ongoing development activities, increased onsite support requirements and required modifications to APS for new and modified weapons. Work will be performed at Offutt Air Force Base, Nebraska; Bellevue, Nebraska; and San Diego, California, and is expected to be completed by Jan. 31, 2024. The total cumulative face value of the contract is $195,000,826.  Fiscal 2019 and 2020 research, development, test and evaluation funds; and fiscal 2020 operations and maintenance funds are being used. No funds are being obligated at the time of award. The 55th Contracting Squadron, Offutt Air Force Base, Nebraska, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052857/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    },
+    {
+      "announcement_date": "2020-01-08",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Kapsuun Group LLC, Lorton, Virginia, has been awarded a $14,535,027 firm-fixed-price contract for A4/A6 staff support services.  Work will be performed at Shaw Air Force Base, South Carolina, and is expected to be complete by July 9, 2025.  This award is the result of direct award acquisition with one offer being received. Fiscal 2020 operations and maintenance funds in the amount of $1,719,657 are being obligated at the time of award. The Air Combat Command's Acquisition Management Integration Center, Langley Air Force Base, Virginia, is the contracting activity (FA4890-20-C-0002).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2052857/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "DEFENSE LOGISTICS AGENCY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "Aurora Industries,* Camuy, Puerto Rico, has been awarded a maximum $53,594,133 modification (P00008) exercising the first one-year option period of a one-year base contract (SPE1C1-19-D-1128) with three one-year option periods for coats and trousers. This is a firm-fixed price, indefinite-delivery/indefinite-quantity contract. Location of performance is Puerto Rico, with a Jan. 10, 2021, performance completion date.  Using military services are Army and Air Force. Type of appropriation is fiscal 2020 through 2021 defense working capital funds.  The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "section",
+      "text": "AIR FORCE"
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "BAE Systems Information and Electronic Systems Integration Inc., San Diego, California, has been awarded a $49,620,000 indefinite-delivery/indefinite-quantity modification (P00026) to previously awarded FA4600-12-D-0002 for additional Air Vehicle Planning System (APS) support. The contract modification is for a ceiling increase to allow the purchase of continued maintenance and sustainment activities, ongoing development activities, increased onsite support requirements and required modifications to APS for new and modified weapons. Work will be performed at Offutt Air Force Base, Nebraska; Bellevue, Nebraska; and San Diego, California, and is expected to be completed by Jan. 31, 2024. The total cumulative face value of the contract is $195,000,826.  Fiscal 2019 and 2020 research, development, test and evaluation funds; and fiscal 2020 operations and maintenance funds are being used. No funds are being obligated at the time of award. The 55th Contracting Squadron, Offutt Air Force Base, Nebraska, is the contracting activity."
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "record",
+      "text": "Kapsuun Group LLC, Lorton, Virginia, has been awarded a $14,535,027 firm-fixed-price contract for A4/A6 staff support services.  Work will be performed at Shaw Air Force Base, South Carolina, and is expected to be complete by July 9, 2025.  This award is the result of direct award acquisition with one offer being received. Fiscal 2020 operations and maintenance funds in the amount of $1,719,657 are being obligated at the time of award. The Air Combat Command's Acquisition Management Integration Center, Langley Air Force Base, Virginia, is the contracting activity (FA4890-20-C-0002)."
+    },
+    {
+      "paragraph_index": 5,
+      "kind": "note",
+      "text": "*Small Business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Sun, 15 Dec 2024 04:51:56 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:40.511655+00:00"
+}

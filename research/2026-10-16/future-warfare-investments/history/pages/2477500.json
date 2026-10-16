@@ -1,0 +1,90 @@
+{
+  "article_id": "2477500",
+  "capture_timestamp": "20211024212652",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2477500/",
+  "cdx_digest": "WGGTAIQGTU2KMZYYVPTO3HS3IKYCWJIE",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20211024212652id_/https://www.defense.gov/News/Contracts/Contract/Article/2477500/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:43:36.501422+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20211024212652id_/https://www.defense.gov/News/Contracts/Contract/Article/2477500/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Sun, 24 Oct 2021 21:26:52 GMT",
+    "memento-datetime": "Sun, 24 Oct 2021 21:26:52 GMT",
+    "x-archive-src": "CC-MAIN-2021-43-1634323587606.8-0024/CC-MAIN-20211024204628-20211024234628-00494.warc.gz"
+  },
+  "response_sha256": "eed6a882243474050b0fce226f9edf7cefe1e22c5f7d66fcd13cb801d4a0ffde",
+  "response_bytes": 74730,
+  "html_file": "html/2477500.html.gz",
+  "announcement_date": "2021-01-20",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2021-01-20",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "The Boeing Co., Seattle, Washington, has been awarded a $2,124,531,149 modification (P00232) to contract FA8625-11-C-6600 for Lot 7 production KC-46 aircraft, subscriptions and licenses and G081 flat file.  The modification provides for the exercise of an option for an additional quantity of 15 KC-46 aircraft, data, subscriptions and licenses, and G081 flat file being produced under the basic contract.  Work will be performed in Seattle, Washington, and is expected to be completed May 31, 2024.  Fiscal 2021 aircraft procurement funds in the full amount are being obligated at the time of award.  The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2477500/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2021-01-20",
+      "service_or_agency_section": "AIR FORCE",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "CORRECTION:  The contract announced on Jan. 15, 2021, for Mile Two LLC, Dayton, Ohio, for $14,788,874, was listed with an incorrect contract number.  The correct contract number is FA8650-21-C-6271.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2477500/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 2
+    },
+    {
+      "announcement_date": "2021-01-20",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Detyens Shipyard Inc., Charleston, South Carolina, is awarded a $19,150,225 firm-fixed-price contract for a 76-calendar day shipyard availability.  The work to be performed under this contract provides regular overhaul availability and dry-docking services for the fleet replenishment oiler USNS Laramie (T-AO 203).  The contract also contains six unexercised options, which if exercised, would increase cumulative contract value to $19,841,567.  Work will be performed in Charleston, South Carolina, and is expected to be completed by June 4, 2021.  Fiscal 2021 working capital contract funds (Navy) in the amount of $19,150,225 are obligated on this award and will not expire at the end of the current fiscal year.  This contract was competitively procured via the beta.SAM.gov website, with two proposals received.  The Military Sealift Command, Norfolk, Virginia, is the contracting activity (N32205-21-C-4001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2477500/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "AIR FORCE"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "The Boeing Co., Seattle, Washington, has been awarded a $2,124,531,149 modification (P00232) to contract FA8625-11-C-6600 for Lot 7 production KC-46 aircraft, subscriptions and licenses and G081 flat file.  The modification provides for the exercise of an option for an additional quantity of 15 KC-46 aircraft, data, subscriptions and licenses, and G081 flat file being produced under the basic contract.  Work will be performed in Seattle, Washington, and is expected to be completed May 31, 2024.  Fiscal 2021 aircraft procurement funds in the full amount are being obligated at the time of award.  The Air Force Life Cycle Management Center, Wright-Patterson Air Force Base, Ohio, is the contracting activity."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "record",
+      "text": "CORRECTION:  The contract announced on Jan. 15, 2021, for Mile Two LLC, Dayton, Ohio, for $14,788,874, was listed with an incorrect contract number.  The correct contract number is FA8650-21-C-6271."
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "record",
+      "text": "Detyens Shipyard Inc., Charleston, South Carolina, is awarded a $19,150,225 firm-fixed-price contract for a 76-calendar day shipyard availability.  The work to be performed under this contract provides regular overhaul availability and dry-docking services for the fleet replenishment oiler USNS Laramie (T-AO 203).  The contract also contains six unexercised options, which if exercised, would increase cumulative contract value to $19,841,567.  Work will be performed in Charleston, South Carolina, and is expected to be completed by June 4, 2021.  Fiscal 2021 working capital contract funds (Navy) in the amount of $19,150,225 are obligated on this award and will not expire at the end of the current fiscal year.  This contract was competitively procured via the beta.SAM.gov website, with two proposals received.  The Military Sealift Command, Norfolk, Virginia, is the contracting activity (N32205-21-C-4001)."
+    },
+    {
+      "paragraph_index": 5,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Sun, 24 Oct 2021 21:26:52 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:47.229060+00:00"
+}

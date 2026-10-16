@@ -1,0 +1,17 @@
+{
+  "built_at_utc": "2026-10-16T13:58:09.281411+00:00",
+  "period": [
+    "2018-09-12",
+    "2023-09-11"
+  ],
+  "candidate_pages": 1247,
+  "attempted_pages": 1247,
+  "successful_pages": 1247,
+  "in_period_pages": 1245,
+  "paragraphs": 18819,
+  "recovered_dates": 1245,
+  "unresolved_weekdays": 59,
+  "original_sha256": "bf717bac8ad92d8c4d7d4aa6371b73b64580f0df7f3f9708cf2d798af895349c",
+  "index_unique_records": 28818,
+  "status": "partial; archive discovery and missing dates do not establish publication completeness"
+}

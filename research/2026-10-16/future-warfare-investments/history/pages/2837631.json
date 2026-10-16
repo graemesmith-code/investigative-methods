@@ -1,0 +1,90 @@
+{
+  "article_id": "2837631",
+  "capture_timestamp": "20211111100530",
+  "original_url": "https://www.defense.gov/News/Contracts/Contract/Article/2837631/",
+  "cdx_digest": "UTT7BCFR75UBNIKVSLYE3I74TMSZTRZE",
+  "cdx_mimetype": "text/html",
+  "discovery_file": "discovery/cdx-contract-first3000.json",
+  "source_label": "Internet Archive Wayback replay of official DoD page",
+  "requested_retrieval_url": "https://web.archive.org/web/20211111100530id_/https://www.defense.gov/News/Contracts/Contract/Article/2837631/",
+  "status": "ok",
+  "retrieved_at_utc": "2026-10-16T13:46:41.827917+00:00",
+  "http_status": 200,
+  "retrieval_url": "https://web.archive.org/web/20211111100530id_/https://www.defense.gov/News/Contracts/Contract/Article/2837631/",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-archive-orig-date": "Thu, 11 Nov 2021 10:05:30 GMT",
+    "memento-datetime": "Thu, 11 Nov 2021 10:05:30 GMT",
+    "x-archive-src": "GDELT-20211110193621-crawl501/GDELT-20211111052759-00279.warc.gz"
+  },
+  "response_sha256": "40778bf00f3327872515d6cb33c7af61d6c1aa330b91877a0a23334e10277c48",
+  "response_bytes": 75185,
+  "html_file": "html/2837631.html.gz",
+  "announcement_date": "2021-11-08",
+  "source_page_title": "> U.S. Department of Defense > Contract",
+  "records": [
+    {
+      "announcement_date": "2021-11-08",
+      "service_or_agency_section": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "The Johns Hopkins University Applied Physics Laboratory LLC, Laurel, Maryland, was awarded a $225,000,000 ceiling, indefinite-delivery/indefinite-quantity contract with cost-plus-fixed-fee term and completion task orders contemplated for engineering, development, and research capabilities. This contract provides for establishing and maintaining an essential capability for engineering or developmental work calling for the practical application of investigative findings and theories of a scientific or technical nature. Work will be performed primarily in Laurel, Maryland, with an expected ordering completion date of November 2026. No funds are being obligated at the time of award; the minimum guaranteed amount will be obligated with the first task order. This contract was a sole-source acquisition. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001122D0001).",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2837631/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 1
+    },
+    {
+      "announcement_date": "2021-11-08",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Environmental Chemical Corp., Burlingame, California, is awarded a $25,976,855 firm-fixed-price task order (N3319121F4241) under previously-awarded global contingency multiple-award construction contract N62470-19-D-8025 for airfield construction and improvements at Larissa Air Force Base in Larissa, Greece. Work will be performed in Larissa, Greece, and is expected to be completed by November 2022. Fiscal 2021 other procurement (Air Force) funds in the amount of $25,976,855 will be obligated at time of award and will expire at the end of the current fiscal year. Two proposals were received for this task order. The Naval Facilities Engineering Systems Command Europe Africa Central, Naples, Italy, is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2837631/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 3
+    },
+    {
+      "announcement_date": "2021-11-08",
+      "service_or_agency_section": "NAVY",
+      "contractor_name": "",
+      "raw_paragraph_verbatim": "Leidos Inc., Reston, Virginia, is awarded a $9,383,698 cost-plus-incentive-fee modification to previously-awarded contract (N00024-18-C-6209) to exercise an option for continuing the development of the Acoustic Device Countermeasure MK 5. Work will be performed in Reston, Virginia, and is expected to be completed by November 2022. Fiscal 2022 research, development and testing (Navy) funds in the amount of $1,959,208 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/2837631/",
+      "source_page_title": "> U.S. Department of Defense > Contract",
+      "paragraph_index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "paragraph_index": 0,
+      "kind": "section",
+      "text": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY"
+    },
+    {
+      "paragraph_index": 1,
+      "kind": "record",
+      "text": "The Johns Hopkins University Applied Physics Laboratory LLC, Laurel, Maryland, was awarded a $225,000,000 ceiling, indefinite-delivery/indefinite-quantity contract with cost-plus-fixed-fee term and completion task orders contemplated for engineering, development, and research capabilities. This contract provides for establishing and maintaining an essential capability for engineering or developmental work calling for the practical application of investigative findings and theories of a scientific or technical nature. Work will be performed primarily in Laurel, Maryland, with an expected ordering completion date of November 2026. No funds are being obligated at the time of award; the minimum guaranteed amount will be obligated with the first task order. This contract was a sole-source acquisition. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity (HR001122D0001)."
+    },
+    {
+      "paragraph_index": 2,
+      "kind": "section",
+      "text": "NAVY"
+    },
+    {
+      "paragraph_index": 3,
+      "kind": "record",
+      "text": "Environmental Chemical Corp., Burlingame, California, is awarded a $25,976,855 firm-fixed-price task order (N3319121F4241) under previously-awarded global contingency multiple-award construction contract N62470-19-D-8025 for airfield construction and improvements at Larissa Air Force Base in Larissa, Greece. Work will be performed in Larissa, Greece, and is expected to be completed by November 2022. Fiscal 2021 other procurement (Air Force) funds in the amount of $25,976,855 will be obligated at time of award and will expire at the end of the current fiscal year. Two proposals were received for this task order. The Naval Facilities Engineering Systems Command Europe Africa Central, Naples, Italy, is the contracting activity."
+    },
+    {
+      "paragraph_index": 4,
+      "kind": "record",
+      "text": "Leidos Inc., Reston, Virginia, is awarded a $9,383,698 cost-plus-incentive-fee modification to previously-awarded contract (N00024-18-C-6209) to exercise an option for continuing the development of the Acoustic Device Countermeasure MK 5. Work will be performed in Reston, Virginia, and is expected to be completed by November 2022. Fiscal 2022 research, development and testing (Navy) funds in the amount of $1,959,208 will be obligated at time of award and will not expire at the end of the current fiscal year. The Naval Sea Systems Command, Washington, D.C., is the contracting activity."
+    },
+    {
+      "paragraph_index": 5,
+      "kind": "note",
+      "text": "*Small business"
+    }
+  ],
+  "in_requested_period": true,
+  "archive_memento_datetime": "Thu, 11 Nov 2021 10:05:30 GMT",
+  "parser_sha256": "66ebf8f551ab730a16075603f0e038aaa83a420cb1cff570279de777fe082d61",
+  "parsed_at_utc": "2026-10-16T13:57:52.058173+00:00"
+}

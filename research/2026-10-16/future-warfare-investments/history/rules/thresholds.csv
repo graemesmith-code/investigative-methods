@@ -1,0 +1,4 @@
+start_date,end_date,threshold_usd,comparison,financial_basis,source_url,retained_evidence
+2018-09-12,2020-09-30,7000000,more_than,face value excluding unexercised options,https://www.govinfo.gov/content/pkg/FR-2020-09-29/html/2020-21122.htm,dfars_2020_change.html
+2020-10-01,2025-09-30,7500000,more_than,face value excluding unexercised options,https://www.govinfo.gov/content/pkg/FR-2020-09-29/html/2020-21122.htm,dfars_2020_change.html
+2025-10-01,,9000000,more_than,face value excluding unexercised options,https://www.govinfo.gov/content/pkg/FR-2025-08-25/html/2025-16205.htm,dfars_2025_change.html
