@@ -77,5 +77,6 @@ USAspending award records, SAM/FPDS-derived actions and daily announcements over
 2. [Budgets, Congress, allocation and oversight](sources/budgets.md)
 3. [Research funding, laboratory projects, use and capability evidence](sources/research.md)
 4. [Prior-reporting and media access](sources/media.md)
+5. [Civilian Protection Center of Excellence: identity and history](IHL_CENTRE_HISTORY.md), an emerging source strand on civilian protection, technology and international humanitarian law. The note distinguishes documented activity from unverified current-use and algorithmic-law claims.
 
 The detailed inventories preserve exact official links, years, sample records and access qualifications. Their domestic/civilian entries remain as clearly labeled adjacent sources, not a decision to include those activities. The register's mission_scope and capability_coverage fields identify that boundary. Source dates are 16 October 2026 unless an entry states a different publication, reporting or record date. This collection does not yet contain a chosen analysis design, exhaustive capability classification or a list of supposedly unreported stories.
