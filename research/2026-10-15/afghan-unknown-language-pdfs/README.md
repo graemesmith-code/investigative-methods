@@ -1,5 +1,7 @@
 # Afghan government PDFs: unidentified-language scan
 
+> **Chinese-language follow-up (16 October 2026):** A complete scan of all eight Chinese-language categories found one verified Afghan Ministry of Foreign Affairs publication: the Chinese 2015 conference chairman's statement, archived at **recca.af**. This official domain was outside the earlier gov.af filter. [Read the finding, scope and audit](../../2026-10-16/afghan-chinese-language-pdfs/README.md). Other foreign-language categories remain unfinished.
+
 > **Scope correction (15 October 2026): This work did not fulfil the request for all Afghan government PDFs outside English, Dari/Farsi and Pashto. It selected only records labelled `unknown`, omitting the separately labelled foreign-language categories. The roughly 350 estimate referred to that unknown category alone; the completed unknown-category count was 239. The two retained leads are not the result of an all-language search. See [the correction](SCOPE-CORRECTION.md).
 
 > **Content screening update (15 October 2026):** The follow-up screen retained **two leads** (Russian extracted form text and a mixed Turkmen/Dari newspaper page), excluded 236 records, and left one damaged record unresolved. See [screened results and all 239 decisions](screened/README.md).

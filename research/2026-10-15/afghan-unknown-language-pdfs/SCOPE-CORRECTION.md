@@ -1,5 +1,7 @@
 # Scope correction: Afghan government foreign-language PDFs
 
+> **Chinese-language follow-up (16 October 2026):** A complete scan of all eight Chinese-language categories found one verified Afghan Ministry of Foreign Affairs publication: the Chinese 2015 conference chairman's statement, archived at **recca.af**. This official domain was outside the earlier gov.af filter. [Read the finding, scope and audit](../../2026-10-16/afghan-chinese-language-pdfs/README.md). Other foreign-language categories remain unfinished.
+
 ## Finding
 
 The original selection was too narrow. The request covered documents from Afghan government domains in languages other than English, Dari/Farsi and Pashto. The delivered corpus contained only FinePDFs records whose language category was `unknown`.
