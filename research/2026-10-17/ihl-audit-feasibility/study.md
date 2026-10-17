@@ -4,6 +4,8 @@ Prepared for Graeme Smith | 17 October 2026 | Public evidence cutoff 17 October 
 
 A feasibility study of DeonticBench and DAR, with military assurance claims considered only as accountability context.
 
+Revision 2 | Scientific review structure added on 17 October 2026. No expert review or outreach performed.
+
 ## Contents
 
 1. Executive verdict
@@ -20,27 +22,29 @@ A feasibility study of DeonticBench and DAR, with military assurance claims cons
 
 7. First gate independent answer oracle
 
-8. Discovery and confirmatory design
+8. Scientific review and reviewer roles
 
-9. Transformations and valid controls
+9. Discovery and confirmatory design
 
-10. Reproducibility and denominator protocol
+10. Transformations and valid controls
 
-11. Statistics and interpretation
+11. Reproducibility and denominator protocol
 
-12. Automation architecture and provenance
+12. Statistics and interpretation
 
-13. Isolation and fail safe cost controls
+13. Automation architecture and provenance
 
-14. Personnel and achievable tiers
+14. Isolation and fail safe cost controls
 
-15. Transparent token and financial model
+15. Personnel and achievable tiers
 
-16. Adoption consequence and investment gate
+16. Transparent token and financial model
 
-17. Counterarguments fair publication and deliverables
+17. Adoption consequence and investment gate
 
-18. Limitations and verification record
+18. Counterarguments fair publication and deliverables
+
+19. Limitations and verification record
 
 ## 1 Executive verdict
 
@@ -118,13 +122,29 @@ Before inference, establish a small answer set that does not depend on either th
 
 For numerical cases, implement a separate, small deterministic checker from the reviewed derivation using exact integer or decimal arithmetic. Test bracket boundaries, inclusivity, rounding, aggregation and exception priority. Do not translate the authors' Prolog line by line and call agreement independent verification. Compare the independent result with the source label and Prolog only after the human derivation is locked. Disagreement creates an oracle-dispute record; resolve it openly before the confirmatory manifest is frozen or exclude it with a reason recorded before model execution.
 
-The reviewer may be an appropriately skilled rule analyst rather than retained counsel for every record. Obtain limited domain-expert advice on genuinely ambiguous provisions, exception conflicts and the validity of transformation families. The expert validates rule semantics, not the complete investigation or an AI-generated corpus. Do not present this as professional legal advice or an adjudication of anyone's real case.
+The reviewer may be an appropriately skilled rule analyst rather than retained counsel for every record. Obtain limited domain-expert advice on genuinely ambiguous provisions, exception conflicts and the validity of transformation families. The expert validates rule semantics, not the complete investigation or an AI-generated corpus. The scientific-review stages below require separate methodological and contextual expertise where appropriate. Do not present this as professional legal advice or an adjudication of anyone's real case.
 
 Recommended gate: 24 numerical anchors, with rule provenance and answer derivations accepted by both reviewers, plus two invariant variants and one changed-answer control per anchor. If 24 cannot be validated within the time cap, narrow the claim and case set; do not compensate with thousands of unreviewed outputs. Immigration and housing may need more interpretive work and enter only after a separate semantic feasibility check.
 
 Every final scheduled test must have a trusted label in an external grading manifest before it runs. Agents must not be able to read that manifest, source labels, reference answers or verifier credentials. Oracle ambiguity discovered later triggers transparent sensitivity analysis and correction, never silent relabelling toward a preferred conclusion.
 
-## 8 Discovery and confirmatory design
+## 8 Scientific review and reviewer roles
+
+Journalistic publication should meet a scientific standard: specify the question, preserve falsifiable predictions, freeze the confirmatory protocol and retain negative or null results. Graeme expects possible access to former JAGs, ethicists and ICRC specialists for methodology, results review and commentary. Availability is a user expectation, not confirmed access. No reviewer, collaboration, institutional endorsement or ICRC participation has been secured. No contact has been made.
+
+Before preregistration is frozen, an independent methodological and statistical reviewer should challenge sampling, controls, cluster units, multiplicity, power, denominators, retry rules and inference limits. Resolve material objections in a dated decision log; retain unresolved dissent. Before inference, suitable civilian-domain reviewers validate the selected rule-to-fact derivations, numeric checker assumptions and transformation families. Former JAG or ICRC experience does not by itself establish tax or baggage-policy expertise. These roles may differ.
+
+After outputs are collected, disputed answers should be adjudicated against the frozen rubric by a reviewer blinded, where practical, to model identity, configuration and investigators' preferred conclusion. Record what was masked and any unavoidable unblinding. Keep original labels, outputs, reviewer decisions and disagreements. A new interpretation after inference must not silently rewrite the confirmatory oracle: report the original analysis and a clearly labelled amended sensitivity analysis.
+
+After analysis, IHL and ethics specialists can assess the wording, public-interest relevance and limits of military-assurance interpretations. Expertise cannot validate out-of-scope claims or turn civilian results into evidence of battlefield harm. Offer authors a fair opportunity to respond to the exact findings and proposed wording; reviewer commentary and author response remain distinct from the statistical results.
+
+Review packet checklist: question and claim ledger; pinned protocol and analysis plan; sampling frame and oracle derivations; transformations and controls; schedule and denominators; blinded dispute bundle; analysis code and statistical plan; exclusions, negative results and amendments; proposed claims and expertise limits. Retain a versioned packet index and written reviewer disposition.
+
+Separate investigator, engineer, rule reviewer, statistical reviewer and contextual commentator responsibilities. Disclose funding, authorship, prior involvement and relevant institutional ties; record recusals or independent adjudication where conflicts matter. The engineer maintains execution and isolation, not automatic authority over legal labels or interpretation. Do not assume extensive unpaid expert work. Agree bounded tasks, hours, compensation if any and availability before committing to a tier; narrow or pause confirmatory work if essential review is unavailable.
+
+Preserve exploratory and confirmatory distinctions, all exclusions with timing and reasons, and every dated protocol amendment with its rationale and whether outputs had been seen. Publish negative and null findings under the same standards as positive findings. Review is scrutiny, not certification or endorsement.
+
+## 9 Discovery and confirmatory design
 
 Use a small discovery set, such as 8-12 anchors outside the confirmatory set, to debug formats, identify interpretation pitfalls and choose deterministic transformation families. Those sizes are planning choices, not completed sampling. Record all exploration. Do not reuse discovery failures as if they were a held-out confirmation. Freeze a separate confirmatory list, seed, transformation specification, primary endpoints, exclusions, retries, budgets and decision thresholds before viewing confirmatory model outputs.
 
@@ -136,7 +156,7 @@ Report controlled-budget comparisons with matched token or spending limits separ
 
 For each condition, collect three planned stochastic draws per input if authorized. Retain all draws. Randomize and interleave configurations and variants in small blocks to reduce confounding by endpoint drift and time of day. Record provider response model identifiers, dates and routing information where available. A provider seed is useful metadata but not a guarantee of determinism. A changed or unavailable endpoint creates a new cohort, not an invisible continuation.
 
-## 9 Transformations and valid controls
+## 10 Transformations and valid controls
 
 Meaning-preserving changes should leave the oracle answer unchanged under the frozen rule text. Candidate families include consistent renaming of non-operative identifiers, reordering independent fact sentences, and equivalent display of quantities with units preserved. A family is admissible only after a reviewer checks references, negation scope, entity roles, temporal order, exceptions and cross-references. If reordering changes what a pronoun refers to, it is not a valid invariant. Avoid replacing legally operative terms with casual synonyms merely because they sound similar.
 
@@ -148,7 +168,7 @@ Missing or conflicting facts belong in a separately labelled extended test. An a
 
 Use deterministic transformation code with unit and property checks, a reversible change log and field-level diffs. Property tests can ensure entity-renaming bijections and unchanged quantities, but cannot prove legal equivalence. Preserve a human-reviewed sample per family and review every exceptional case. Cosmetic invariance supports only a narrow robustness claim; it does not establish broad semantic or legal competence.
 
-## 10 Reproducibility and denominator protocol
+## 11 Reproducibility and denominator protocol
 
 Create a pre-run manifest containing every scheduled anchor, variant, condition and draw, including trusted expected labels outside the agent environment. Assign stable IDs and hashes before execution. Reconcile the full Cartesian schedule against output records even when a job produces no result file. All scheduled cases remain in the primary denominator; report successful completions as a secondary conditional metric only.
 
@@ -160,7 +180,7 @@ Report strict answer normalization and a separate normalization sensitivity anal
 
 For F1, derive the class universe and true labels from the schedule, not successful verifier text. Missing predictions must contribute failures for their known true class; unknown scheduled truth is a failed oracle gate. Report confusion matrices, class support, coverage and error categories alongside macro-F1. Keep numerical exact accuracy separate; a pooled cross-domain score must disclose weighting and should not conceal small-domain failures.
 
-## 11 Statistics and interpretation
+## 12 Statistics and interpretation
 
 The unit of independence is not a response. All variants and repeated draws derived from one anchor share a base-case ID; cases can also share statutes or rule-source families. Treat each anchor's outputs as a bundle. For a finite public benchmark, report descriptive scores for exactly that fixed set and avoid suggesting that a confidence interval makes it representative of all legal reasoning tasks.
 
@@ -174,7 +194,7 @@ Public benchmark contamination is unavoidable as a possibility. Training exposur
 
 A stable wrong answer is not robustness. A new failure should survive independent semantic review, repeated draws and a valid changed-answer control before becoming a headline example.
 
-## 12 Automation architecture and provenance
+## 13 Automation architecture and provenance
 
 Use a narrow pipeline: acquire and hash public inputs; validate schemas and oracle records; freeze a schedule; construct agent-safe inputs; execute authorized tasks; collect immutable outputs; independently score; analyze paired bundles; produce a claim ledger and report. Separate stages so a scorer update never silently changes the input schedule. Every derivative points to parent hashes and a transformation version.
 
@@ -188,7 +208,7 @@ The engineer's valuable intervention is reviewing isolation, state transitions, 
 
 Rebuilds should use a locked dependency environment and content-addressed container images. The inspected template uses a dated base image, unpinned apt packages and a remote install script piped to a shell; it was read but not executed. A historical build may be difficult to recreate exactly. A secure replacement build must be labelled as a changed implementation. [S10]
 
-## 13 Isolation and fail safe cost controls
+## 14 Isolation and fail safe cost controls
 
 Do not run repository setup commands or model-generated programs on the researcher's normal workstation. First review the relevant scripts and dependency chain. Build a disposable environment with no personal credentials, home-directory mounts or access to the evidence archive. Give the model only the frozen civilian task inputs and permitted tools. Keep gold labels, reference programs and the evaluator in a separate process or environment inaccessible to the agent.
 
@@ -202,19 +222,19 @@ Stop on missing gold labels, schema mismatch, endpoint changes, leaked grading f
 
 No paid run or funding commitment is authorized by this feasibility study. A donor plan must be an explicit future proposal with the maximum spend and human review requirement visible before execution.
 
-## 14 Personnel and achievable tiers
+## 15 Personnel and achievable tiers
 
 Tier 0 is a free technical feasibility package: preserve public artifacts, pin versions, inspect licenses, map paper claims to implementation, check scoring on synthetic inputs and document missing dependencies. It supports a bounded access and measurement story, not model capability conclusions. This study has completed those acquisition and code-inspection elements; container execution, model availability tests and broad scorer certification remain unperformed. A follow-on engineering review is estimated at 6-12 hours and researcher verification at 6-12 hours, depending on environment familiarity.
 
 Tier 1 is the recommended 24-anchor numerical pilot. With a baseline, two validated invariant variants and one independently answer-changing control, there are four inputs per anchor. Two configurations and three draws yield 24 x 4 x 2 x 3 = 576 scheduled responses. There are only 24 anchor clusters, possibly fewer independent rule families. A second model doubles responses and cost, not the number of anchors.
 
-Planning estimates for Tier 1: base-case derivations 6-12 hours; review of 72 variants 6-12 hours; independent second review of all 96 instances 8-16 hours; engineering 12-20 hours; analysis and reporting 8-16 hours. Total 40-76 hours, reasonably budgeted as 40-80 hours before difficult disputes or additional development. These are estimates, not measured productivity. Role overlap must not erase the independent second review. The engineer need not perform all semantic work, but 12-20 engineering hours may already exceed a friend's availability.
+Planning estimates for Tier 1: base-case derivations 6-12 hours; review of 72 variants 6-12 hours; independent second review of all 96 instances 8-16 hours; engineering 12-20 hours; analysis and reporting 8-16 hours. Total 40-76 hours, reasonably budgeted as 40-80 hours before difficult disputes or additional development. Add an estimated 6-12 hours for independent methodological/statistical review and 4-8 hours for post-analysis contextual review: roughly 50-100 hours overall, with disputed-output adjudication potentially requiring more. The existing independent case-review allocation covers the civilian semantic role; it must not be counted twice. These additional reviewer allocations are planning allowances, not confirmed access or unpaid commitments. These are estimates, not measured productivity. Role overlap must not erase the independent second review. The engineer need not perform all semantic work, but 12-20 engineering hours may already exceed a friend's availability.
 
 Tier 2 extends to DAR's 173 anchors. The same design yields 173 x 4 x 2 x 3 = 4,152 responses per model, or 8,304 for two models. It may require 200-400 or more human hours because immigration interpretation, family validation and error adjudication scale unevenly. This exceeds the minor-intervention premise. Budget more conservatively if all five DeonticBench configurations or housing are added.
 
 The low-personnel fallback is therefore honest: do a strong technical audit, then a smaller semantically defensible pilot. More tokens cannot replace answer validation. A donor-funded team is an option only after the access, oracle and consequence gates pass.
 
-## 15 Transparent token and financial model
+## 16 Transparent token and financial model
 
 No fixed experiment quote is defensible before token measurement and an exact endpoint choice. For each condition, compute cost as (uncached_input_tokens x input_rate + output_tokens x output_rate + cache_write_tokens x write_rate + cache_read_tokens x read_rate) / 1,000,000, plus applicable tools, hosting, storage, tax and other charges. Count every agent turn, repair, failed billable attempt and repeated context. Define token categories so cached input is not charged again as uncached input in the estimate.
 
@@ -226,7 +246,7 @@ A stress illustration at 50,000 input and 8,000 output tokens is USD 0.27 per re
 
 If paid human rates are h_i and hours H_i, personnel cost is sum(h_i x H_i). Add that explicitly to a donor budget. An inexpensive API bill does not make a 200-hour study a low-cost solo project. No purchases, model credits or runs have been approved.
 
-## 16 Adoption consequence and investment gate
+## 17 Adoption consequence and investment gate
 
 TEELAWS has the strongest inspected evidence of actual use among the comparison targets: an Army article dated 23 April 2026 reports testing in West Point's PY201 course. The official SBIR award record lists Perceptronics Solutions, a Phase II award of USD 1,899,999 and an end date of 29 October 2026. The same record describes educational development. The classroom report establishes bounded adoption at that time; the scheduled award end is not evidence of renewal, continued use after that date or operational deployment. No executable TEELAWS package was verified. [S14, S15]
 
@@ -238,7 +258,7 @@ A large investment requires two separate go decisions. Scientific go: independen
 
 The audit cannot certify compliance with international humanitarian law, diagnose battlefield safety or establish unlawful conduct. Civilian rule tasks offer evidence about narrow rule-following and evaluation reliability. Military relevance should be expressed as a question about the evidentiary basis of assurance claims, with the missing validation bridge made explicit.
 
-## 17 Counterarguments fair publication and deliverables
+## 18 Counterarguments fair publication and deliverables
 
 A fair objection is that the authors already describe low scores, nonuniform harness gains and limitations. The audit should acknowledge that prominently. Another is that corrected references may improve present artifacts without changing old outputs; the study must compare exact versions before drawing a connection. A third is that a harness artifact or formatting mismatch may explain a failure. Report the original behavior, strict scoring and normalization sensitivity separately, with minimal reproducing examples and all failed attempts retained.
 
@@ -252,7 +272,7 @@ Reusable newsworthiness criteria: a specific public claim; evidence of consequen
 
 Decision today: publish this feasibility study, preserve the public evidence and seek only a narrow, capped pilot if independent semantic review can be staffed. No full audit, donor commitment, purchase, model run or outreach follows automatically.
 
-## 18 Limitations and verification record
+## 19 Limitations and verification record
 
 Verified in this work: two repository heads and their relevant contents; ten downloaded Parquet files and row counts; hard and smoke JSON counts; public pre- and post-correction hard files; three versioned paper PDFs; public program, award and classroom-use pages; the specific current scorer branches; and the bounded synthetic outputs. Raw source acquisition comprises 21 successful URL snapshots, plus ten pinned Parquet downloads. Repository clones and historical extracts are additional evidence objects and are counted separately. The reference list below has 16 primary-source entries; some entries aggregate metadata endpoints and pinned code files from one source family.
 
@@ -262,7 +282,7 @@ Absence statements are scoped to the named repository trees, paper references an
 
 The synthetic check is deliberately tiny and cannot certify all evaluator paths. It excludes Kira's evaluator, parser fuzzing and publication-log reconstruction. Parquet reading and JSON counting establish acquisition and structure; they do not establish semantic validity or safe execution of included Prolog. No imported benchmark code was executed wholesale.
 
-PDF quality assurance covers full-page rendering, visual page review, text extraction, hyperlink annotations, page boundaries and content parity against the Markdown authoring source. Publication verification covers the exact remote commit and file links. Those mechanical checks cannot independently validate the proposed legal interpretations, which remain an explicit gate for any later experiment.
+This revised edition adds a prospective scientific-review structure; no expert review has yet occurred. The source cutoff and acquisition findings are unchanged. PDF quality assurance covers full-page rendering, visual page review, text extraction, hyperlink annotations, page boundaries and content parity against the Markdown authoring source. Publication verification covers the exact remote commit and file links. Those mechanical checks cannot independently validate the proposed legal interpretations, which remain an explicit gate for any later experiment.
 
 Local raw evidence is retained outside the publication repository under /workspace/ihl-evidence, with checksums and acquisition metadata. The published evidence manifest omits local machine paths. The repository publication is confined to research/2026-10-17/ihl-audit-feasibility/ and preserves unrelated work.
 
