@@ -1,0 +1,167 @@
+{
+  "counts": {
+    "data/airline/hard.json": 80,
+    "data/airline/smoke.json": 5,
+    "data/housing/hard.json": 78,
+    "data/housing/smoke.json": 5,
+    "data/sara_binary/hard.json": 30,
+    "data/sara_binary/smoke.json": 5,
+    "data/sara_numeric/hard.json": 35,
+    "data/sara_numeric/smoke.json": 5,
+    "data/uscis-aao/hard.json": 28,
+    "data/uscis-aao/smoke.json": 5
+  },
+  "historical_files": [
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/airline/hard.json",
+      "rows": 80,
+      "sha256": "78c349102d66b9dc273f3317c4dfe2e9f3e5db433292f5eb8ae0e2131ad4074a"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/housing/hard.json",
+      "rows": 78,
+      "sha256": "0accb5c1c32494260b527d13abe0db031d81cd914d36e90027346a7244cd61a7"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/sara_binary/hard.json",
+      "rows": 30,
+      "sha256": "6fb93d48cd5f7f52ed807d5052bae6b8a0b20bbea7b2706da5769633b05f2710"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/sara_numeric/hard.json",
+      "rows": 35,
+      "sha256": "81a6b58b9456721d55076070da2a7bfeee02f8e52035ff3ff044b565cbd76d04"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/uscis-aao/hard.json",
+      "rows": 28,
+      "sha256": "05f02a7be1b7355d4d3c09395150934597d857abdf2b792cc93ae4a47b1778cc"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/airline/hard.json",
+      "rows": 80,
+      "sha256": "555e39d5fa53883d4a152056c994d2d8f30a388c8e388ebfe7c054f5d77c0472"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/housing/hard.json",
+      "rows": 78,
+      "sha256": "e3a01a1c878af8a32c8b59dc38a6963d14a8ae8983ac4ae44e6719b8fbbd8ea9"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/sara_binary/hard.json",
+      "rows": 30,
+      "sha256": "66a5bc7cbd9aee2015073bb3116018beb549348dd2857573a8339f11e74d2c05"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/sara_numeric/hard.json",
+      "rows": 35,
+      "sha256": "d50ba484e5d5693d0e21eeaee861249e8491042a86fbb261b87caab1a3a44307"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/uscis-aao/hard.json",
+      "rows": 28,
+      "sha256": "aca2ecca6d83560f1b6471a3d194ad31badb0373d2745b530eec36368b79a7fe"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/airline/hard.json",
+      "rows": 80,
+      "sha256": "2831cbd4f457a7239c99bbc357ff1a3963d053770d8b84285292ee41bfd370e4"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/housing/hard.json",
+      "rows": 78,
+      "sha256": "a355efb36618a75c21117f5c518dd277b87960b0b3d91a2fb864025850d3fc27"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/sara_binary/hard.json",
+      "rows": 30,
+      "sha256": "2c7ef64b44cec7b17254ff2b98a82484775253e1c442f805fd6e88dfa171385d"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/sara_numeric/hard.json",
+      "rows": 35,
+      "sha256": "2703a325253ad89ad14a21f8d42d4f492be82de8b9bb9965e1f3de1a833ccdc4"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/uscis-aao/hard.json",
+      "rows": 28,
+      "sha256": "a0f53a1cabb7f243fbff58aa6f11b2cbd5f3b7e769a2e43a1889afa899a4abfd"
+    }
+  ],
+  "synthetic_scoring": {
+    "False": {
+      "model": "synthetic",
+      "dataset": "airline",
+      "metric": "Accuracy",
+      "score": 1.0,
+      "n": 2,
+      "correct": 2,
+      "details": "2/2 correct"
+    },
+    "True": {
+      "model": "synthetic",
+      "dataset": "airline",
+      "metric": "Accuracy",
+      "score": 0.5,
+      "n": 2,
+      "correct": 1,
+      "details": "1/2 correct"
+    },
+    "strict_f1_unknown_expected": {
+      "model": "synthetic",
+      "dataset": "sara-binary",
+      "metric": "Macro-F1",
+      "score": 0.3333333333333333,
+      "n": 3,
+      "correct": 1,
+      "details": "no: P=0.00 R=0.00 F1=0.00  yes: P=0.50 R=1.00 F1=0.67"
+    }
+  },
+  "execution_scope": "Reviewed pure functions only; no repository module imports, harness, model, generated Prolog or install scripts executed.",
+  "synthetic_inputs": {
+    "accuracy": [
+      [
+        "",
+        "",
+        true
+      ],
+      [
+        "10",
+        "10",
+        false
+      ]
+    ],
+    "f1": [
+      [
+        "yes",
+        "yes",
+        false
+      ],
+      [
+        "no",
+        "yes",
+        false
+      ],
+      [
+        "",
+        "",
+        true
+      ]
+    ]
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "cutoff": "2026-10-17",
+  "scope": "Public acquisition and minimal offline inspection only; no model inference or harness execution.",
+  "pins": {
+    "DeonticBench": "3c168f943880fcbd3a3d717a516500312534273b",
+    "harbor-deonticbench": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+    "HuggingFace": "805fb0529d7ae295679c5c1730765ec07d2c20ac"
+  },
+  "source_entry_count": 16,
+  "url_snapshot_count": 21,
+  "successful_url_snapshots": 21,
+  "pinned_parquet_download_count": 10,
+  "url_snapshots": [
+    {
+      "id": "deontic-meta",
+      "url": "https://api.github.com/repos/guangyaodou/DeonticBench",
+      "final_url": "https://api.github.com/repos/guangyaodou/DeonticBench",
+      "status": 200,
+      "bytes": 5515,
+      "sha256": "5add87040c5c906ef753f88c9fe4f59c250028382b235803cf0a741438226b12",
+      "accessed_utc": "2026-10-17T14:55:47.971295+00:00"
+    },
+    {
+      "id": "deontic-commits",
+      "url": "https://api.github.com/repos/guangyaodou/DeonticBench/commits?per_page=100",
+      "final_url": "https://api.github.com/repos/guangyaodou/DeonticBench/commits?per_page=100",
+      "status": 200,
+      "bytes": 28936,
+      "sha256": "4cc8b2d7b8f771b7e8b5885f09d5202ef5a7a43d015158e7a2cd775710960cc2",
+      "accessed_utc": "2026-10-17T14:55:48.440449+00:00"
+    },
+    {
+      "id": "deontic-tree",
+      "url": "https://api.github.com/repos/guangyaodou/DeonticBench/git/trees/main?recursive=1",
+      "final_url": "https://api.github.com/repos/guangyaodou/DeonticBench/git/trees/main?recursive=1",
+      "status": 200,
+      "bytes": 16609,
+      "sha256": "1013f07df929cd063dd11b57ee31ebbf838a43231a121416fb63f473a2ab855f",
+      "accessed_utc": "2026-10-17T14:55:47.958564+00:00"
+    },
+    {
+      "id": "deontic-readme",
+      "url": "https://raw.githubusercontent.com/guangyaodou/DeonticBench/main/README.md",
+      "final_url": "https://raw.githubusercontent.com/guangyaodou/DeonticBench/main/README.md",
+      "status": 200,
+      "bytes": 20509,
+      "sha256": "b4db080b50612af7ece0998d0400f5cc66e2eea651ce35853f9dfef1b208a46c",
+      "accessed_utc": "2026-10-17T14:55:47.462184+00:00"
+    },
+    {
+      "id": "harbor-meta",
+      "url": "https://api.github.com/repos/guangyaodou/harbor-deonticbench",
+      "final_url": "https://api.github.com/repos/guangyaodou/harbor-deonticbench",
+      "status": 200,
+      "bytes": 5832,
+      "sha256": "8b8951f1183406c8292be18b4884b2129935bb78867dab35f71542d61fa99198",
+      "accessed_utc": "2026-10-17T14:55:48.179305+00:00"
+    },
+    {
+      "id": "harbor-tree",
+      "url": "https://api.github.com/repos/guangyaodou/harbor-deonticbench/git/trees/main?recursive=1",
+      "final_url": "https://api.github.com/repos/guangyaodou/harbor-deonticbench/git/trees/main?recursive=1",
+      "status": 200,
+      "bytes": 593967,
+      "sha256": "ceb73a8cb006a17819a3ac3b83dc90f52b391ec2133c4c2bd05395d6419167bf",
+      "accessed_utc": "2026-10-17T14:55:48.448617+00:00"
+    },
+    {
+      "id": "harbor-readme",
+      "url": "https://raw.githubusercontent.com/guangyaodou/harbor-deonticbench/main/README.md",
+      "final_url": "https://raw.githubusercontent.com/guangyaodou/harbor-deonticbench/main/README.md",
+      "status": 200,
+      "bytes": 9376,
+      "sha256": "658075972a6a55277ff8e7a529d572f44323e3a9d1ecf22abb4e762ffac07051",
+      "accessed_utc": "2026-10-17T14:55:47.450015+00:00"
+    },
+    {
+      "id": "scorer",
+      "url": "https://raw.githubusercontent.com/guangyaodou/harbor-deonticbench/main/evaluate_deonticbench.py",
+      "final_url": "https://raw.githubusercontent.com/guangyaodou/harbor-deonticbench/main/evaluate_deonticbench.py",
+      "status": 200,
+      "bytes": 15217,
+      "sha256": "e6fe526d269f37f6c19d017819fe8bd6009cd9c2a8f08a4639a72c7d38f45ea2",
+      "accessed_utc": "2026-10-17T14:55:47.603754+00:00"
+    },
+    {
+      "id": "hf-meta",
+      "url": "https://huggingface.co/api/datasets/gydou/DeonticBench",
+      "final_url": "https://huggingface.co/api/datasets/gydou/DeonticBench",
+      "status": 200,
+      "bytes": 2856,
+      "sha256": "aeb0781bc9827406d5174f793b3bc902dd5540f14b6d0776b3bfdfedbdc640f6",
+      "accessed_utc": "2026-10-17T14:55:47.919122+00:00"
+    },
+    {
+      "id": "hf-tree",
+      "url": "https://huggingface.co/api/datasets/gydou/DeonticBench/tree/main?recursive=true&limit=1000",
+      "final_url": "https://huggingface.co/api/datasets/gydou/DeonticBench/tree/main?recursive=true&limit=1000",
+      "status": 200,
+      "bytes": 3856,
+      "sha256": "297bff577b92c4b0e2321e03e097bbc8682961220f76a30fd0de901cacffcc3c",
+      "accessed_utc": "2026-10-17T14:55:48.131899+00:00"
+    },
+    {
+      "id": "hf-readme",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/raw/main/README.md",
+      "final_url": "https://huggingface.co/datasets/gydou/DeonticBench/raw/main/README.md",
+      "status": 200,
+      "bytes": 6330,
+      "sha256": "f5463d3d91c2c76694f2c29338e514606e9a86c2473e62b7d8ff8990d274882b",
+      "accessed_utc": "2026-10-17T14:55:48.524341+00:00"
+    },
+    {
+      "id": "paper-bench",
+      "url": "https://arxiv.org/pdf/2604.04443v1",
+      "final_url": "https://arxiv.org/pdf/2604.04443v1",
+      "status": 200,
+      "bytes": 894315,
+      "sha256": "c187c2435015cea3a869a366ea4affdb69f63af84bb27abfc4bd3b91d050ca95",
+      "accessed_utc": "2026-10-17T14:55:48.979786+00:00"
+    },
+    {
+      "id": "paper-dar",
+      "url": "https://arxiv.org/pdf/2606.05009v1",
+      "final_url": "https://arxiv.org/pdf/2606.05009v1",
+      "status": 200,
+      "bytes": 554967,
+      "sha256": "c86df6bdd5309f81cb31b6f5d9851a416f694a0bf13019f04eefb2a77132ad16",
+      "accessed_utc": "2026-10-17T14:55:48.985230+00:00"
+    },
+    {
+      "id": "paper-rebar",
+      "url": "https://arxiv.org/pdf/2605.18423v1",
+      "final_url": "https://arxiv.org/pdf/2605.18423v1",
+      "status": 200,
+      "bytes": 2605356,
+      "sha256": "5e3743ab4662d483a00aba5393c31141624c19329706f29d9a274a972d5d63bb",
+      "accessed_utc": "2026-10-17T14:55:49.190654+00:00"
+    },
+    {
+      "id": "codord",
+      "url": "https://www.darpa.mil/research/programs/codord",
+      "final_url": "https://www.darpa.mil/research/programs/codord",
+      "status": 200,
+      "bytes": 58324,
+      "sha256": "a2468e2093e217282c8f18af7d944f9eefd00f92ca915ca1b64bccb99b0c0ecc",
+      "accessed_utc": "2026-10-17T14:55:50.887914+00:00"
+    },
+    {
+      "id": "asimov",
+      "url": "https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values",
+      "final_url": "https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values",
+      "status": 200,
+      "bytes": 39641,
+      "sha256": "069d545c75cbd355abe297af677e30458a730719a27cafccf830dcd024e8d886",
+      "accessed_utc": "2026-10-17T14:55:50.073975+00:00"
+    },
+    {
+      "id": "award",
+      "url": "https://www.sbir.gov/awards/215327",
+      "final_url": "https://www.sbir.gov/awards/215327",
+      "status": 200,
+      "bytes": 36948,
+      "sha256": "8f2bcd583ac1997aacdda358ca7df2f65ab936a54498a870f9dfceb61892aa2c",
+      "accessed_utc": "2026-10-17T14:55:49.324502+00:00"
+    },
+    {
+      "id": "army",
+      "url": "https://www.army.mil/article/291926/cadets_work_with_software_using_lethal_autonomous_weapons_systems_that_analyzes_tactical_decisions_provides_ethical_score",
+      "final_url": "https://www.army.mil/article/291926/cadets_work_with_software_using_lethal_autonomous_weapons_systems_that_analyzes_tactical_decisions_provides_ethical_score",
+      "status": 200,
+      "bytes": 48647,
+      "sha256": "87881cb4ce03ef5683f411b56c454aba0c672a71399a147a7dfa629033855c53",
+      "accessed_utc": "2026-10-17T14:55:50.972046+00:00"
+    },
+    {
+      "id": "rtx",
+      "url": "https://www.rtx.com/news/news-center/2025/08/28/rtx-bbn-technologies-to-empower-ai-to-understand-and-apply-regulatory-legalese",
+      "final_url": "https://www.rtx.com/news/news-center/2025/08/28/rtx-bbn-technologies-to-empower-ai-to-understand-and-apply-regulatory-legalese",
+      "status": 200,
+      "bytes": 65166,
+      "sha256": "839998d7654741af69d3bf30c9b88cd92ec33ddca81653eede4aae42aed1f751",
+      "accessed_utc": "2026-10-17T14:55:49.414844+00:00"
+    },
+    {
+      "id": "price-anthropic",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "final_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "status": 200,
+      "bytes": 1202839,
+      "sha256": "f5dcf0072c27c80e998d0d23e2745538b72478865a4273836619d5da84ddec6d",
+      "accessed_utc": "2026-10-17T14:55:49.019340+00:00"
+    },
+    {
+      "id": "price-openai",
+      "url": "https://openai.com/api/pricing/",
+      "final_url": "https://openai.com/business/pricing/#api",
+      "status": 200,
+      "bytes": 863294,
+      "sha256": "f770d4e4fac92f8216c728525f23fc7a7f42828df5fa71563ab7120626203c2e",
+      "accessed_utc": "2026-10-17T14:55:49.077844+00:00"
+    }
+  ],
+  "parquet_files": [
+    {
+      "path": "airline/hard-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/airline/hard-00000-of-00001.parquet",
+      "bytes": 122780,
+      "sha256": "e45cad6c5f1719baaf52fde3aaa6daf626dbec4cd3ad6a731d2a868c38db85e8",
+      "rows": 80,
+      "columns": [
+        "id",
+        "text",
+        "question",
+        "label",
+        "reference_prolog",
+        "statutes"
+      ]
+    },
+    {
+      "path": "airline/whole-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/airline/whole-00000-of-00001.parquet",
+      "bytes": 413921,
+      "sha256": "c3ab7ffc403929dc3c5ac3851c784656f0d8b93d0b4e573661928a598361c6bb",
+      "rows": 300,
+      "columns": [
+        "id",
+        "text",
+        "question",
+        "label",
+        "reference_prolog",
+        "statutes"
+      ]
+    },
+    {
+      "path": "housing/hard-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/housing/hard-00000-of-00001.parquet",
+      "bytes": 174340,
+      "sha256": "39906400943ef8c3220188189de3612944588a45689bf966888e15fe7c11b916",
+      "rows": 78,
+      "columns": [
+        "id",
+        "state",
+        "question",
+        "statutes",
+        "label",
+        "reference_prolog"
+      ]
+    },
+    {
+      "path": "housing/whole-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/housing/whole-00000-of-00001.parquet",
+      "bytes": 28909596,
+      "sha256": "f74240fc3cfb8807dc8f7c89023169b5aa33a292ea39fa19b147dbfd987f4310",
+      "rows": 5314,
+      "columns": [
+        "id",
+        "state",
+        "question",
+        "statutes",
+        "label",
+        "reference_prolog"
+      ]
+    },
+    {
+      "path": "sara_binary/hard-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/sara_binary/hard-00000-of-00001.parquet",
+      "bytes": 38096,
+      "sha256": "ff8b295b33e1356767c7fdd37af4bf76d4e959a36bd1bbb45ea4bba63293c0df",
+      "rows": 30,
+      "columns": [
+        "id",
+        "text",
+        "question",
+        "label",
+        "reference_prolog",
+        "statutes"
+      ]
+    },
+    {
+      "path": "sara_binary/whole-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/sara_binary/whole-00000-of-00001.parquet",
+      "bytes": 162804,
+      "sha256": "297a5d859e1165a1a69f773443d720c88a8f96574c4d7941ab0e891df78ebd57",
+      "rows": 276,
+      "columns": [
+        "id",
+        "text",
+        "question",
+        "label",
+        "reference_prolog",
+        "statutes"
+      ]
+    },
+    {
+      "path": "sara_numeric/hard-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/sara_numeric/hard-00000-of-00001.parquet",
+      "bytes": 77246,
+      "sha256": "d97c29e51f8ead262145a0e61948bea72cd85af7d148e62b7a363ee802c8bc55",
+      "rows": 35,
+      "columns": [
+        "id",
+        "text",
+        "question",
+        "label",
+        "reference_prolog",
+        "statutes"
+      ]
+    },
+    {
+      "path": "sara_numeric/whole-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/sara_numeric/whole-00000-of-00001.parquet",
+      "bytes": 168723,
+      "sha256": "f6601ff5c48b6bcc34724b4b493c5128f6f28a652f573bcbbdbb3e28d5fc4ac2",
+      "rows": 100,
+      "columns": [
+        "id",
+        "text",
+        "question",
+        "label",
+        "reference_prolog",
+        "statutes"
+      ]
+    },
+    {
+      "path": "uscis-aao/hard-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/uscis-aao/hard-00000-of-00001.parquet",
+      "bytes": 107347,
+      "sha256": "841fbaa5ac003d21bdd4750d9174462f7ab2c7094a71314503544e0fd93ab717",
+      "rows": 28,
+      "columns": [
+        "id",
+        "text",
+        "statutes",
+        "question",
+        "label",
+        "reference_prolog",
+        "case_number"
+      ]
+    },
+    {
+      "path": "uscis-aao/whole-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/gydou/DeonticBench/resolve/805fb0529d7ae295679c5c1730765ec07d2c20ac/uscis-aao/whole-00000-of-00001.parquet",
+      "bytes": 817973,
+      "sha256": "6b030c96adb08de9c19a0dc429bd1cd7e2e249c6088f318b0fcd8b23626ad15b",
+      "rows": 242,
+      "columns": [
+        "id",
+        "text",
+        "statutes",
+        "question",
+        "label",
+        "reference_prolog",
+        "case_number"
+      ]
+    }
+  ],
+  "selected_git_files": [
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "README.md",
+      "bytes": 20509,
+      "sha256": "b4db080b50612af7ece0998d0400f5cc66e2eea651ce35853f9dfef1b208a46c"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/airline/hard.json",
+      "bytes": 358989,
+      "sha256": "2831cbd4f457a7239c99bbc357ff1a3963d053770d8b84285292ee41bfd370e4"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/airline/smoke.json",
+      "bytes": 21017,
+      "sha256": "ea0a997857790b003065cf32d2ae2bdae71c8dc2a09acc769bdcfc9acf90bc10"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/housing/hard.json",
+      "bytes": 452297,
+      "sha256": "a355efb36618a75c21117f5c518dd277b87960b0b3d91a2fb864025850d3fc27"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/housing/smoke.json",
+      "bytes": 23541,
+      "sha256": "a4be5d1539e6934d723e1883b608cfbd3028964aa0eb6b205413a5c4ffe62721"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/sara_binary/hard.json",
+      "bytes": 78260,
+      "sha256": "2c7ef64b44cec7b17254ff2b98a82484775253e1c442f805fd6e88dfa171385d"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/sara_binary/smoke.json",
+      "bytes": 9515,
+      "sha256": "755ab773261cd2c1177b8cc6ba821680a660c589b97d8c20be8d89b21a9ef60c"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/sara_numeric/hard.json",
+      "bytes": 189627,
+      "sha256": "2703a325253ad89ad14a21f8d42d4f492be82de8b9bb9965e1f3de1a833ccdc4"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/sara_numeric/smoke.json",
+      "bytes": 24309,
+      "sha256": "49c6ed66d2de0cf8c087e8935595e03ad883c6703283e748473a0c8f23ff9945"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/uscis-aao/hard.json",
+      "bytes": 261125,
+      "sha256": "a0f53a1cabb7f243fbff58aa6f11b2cbd5f3b7e769a2e43a1889afa899a4abfd"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "data/uscis-aao/smoke.json",
+      "bytes": 44811,
+      "sha256": "109d89b7ca9fa353a2fa29f73a26ef61d093dc96c781117afd305040bf40f08f"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/airline/section1_non_textual",
+      "bytes": 19624,
+      "sha256": "24d38221ec6d4eff4b8d81312e4e9e1542bc141891cab128d9d7b13c19311c71"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section1",
+      "bytes": 3264,
+      "sha256": "3b106554678fb02fbd300c88c47c1b757fc25a2d5bf9c30c31d04ef0b114eb5b"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section151",
+      "bytes": 2297,
+      "sha256": "19b77bd75903c923ceed3ec1547ef6ce22b6a70f9b6030cd8e47fc883e8f3fdb"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section152",
+      "bytes": 3588,
+      "sha256": "eef7ebd24155cdd0e1dad2c109a82dafcb49725a41826ebd6ec470c15cd6ba50"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section2",
+      "bytes": 3823,
+      "sha256": "903c744f46ff575b729040106a42604f60ce160a80c0a1fadcb5b7551eef4a17"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section3301",
+      "bytes": 359,
+      "sha256": "1c80b838dcae648a097ec1b1eb78bdd9ddb26a670697cd508117f7920445326b"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section3306",
+      "bytes": 6985,
+      "sha256": "cf05cdf1f27dc8d8a848bb7d41db413875b0358ceb30c63754dc08296c73c654"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section63",
+      "bytes": 4375,
+      "sha256": "1bd818a6b6a3915152a2f5f515947d2a93d749c354ef97dc24ffeb7322b623a1"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section68",
+      "bytes": 1252,
+      "sha256": "fa8da4ed50222067a2e98501a2c3f9b1b83ea48ad0887db0239536b7fb77281d"
+    },
+    {
+      "repository": "DeonticBench",
+      "revision": "3c168f943880fcbd3a3d717a516500312534273b",
+      "path": "statutes/sara/section7703",
+      "bytes": 1206,
+      "sha256": "6bd8dea671d2991df57cc2cff2fe9afb6f09f2460a9be3e186a0505db621c34e"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "README.md",
+      "bytes": 9376,
+      "sha256": "658075972a6a55277ff8e7a529d572f44323e3a9d1ecf22abb4e762ffac07051"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "evaluate_deonticbench.py",
+      "bytes": 15217,
+      "sha256": "e6fe526d269f37f6c19d017819fe8bd6009cd9c2a8f08a4639a72c7d38f45ea2"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": ".gitignore",
+      "bytes": 4997,
+      "sha256": "e91ba541b8f0fda2e247debe3b64a9a7e7fd0769c07926c55d936750506551e9"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/README.md",
+      "bytes": 1373,
+      "sha256": "f6c1b613dd4414117fe81f33bbe8a2b29f5c186a8f0d4a938d4dda6b68356211"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/adapter.py",
+      "bytes": 7234,
+      "sha256": "e4a896653604a41fde9097e043541a194ca88f031efd25d3aef72fd91113e5ad"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/pyproject.toml",
+      "bytes": 213,
+      "sha256": "d9d87f380459ba4346d072d6abddf36eb3754abd20988f3cc2b2b0eefd68ec12"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/run_adapter.py",
+      "bytes": 4420,
+      "sha256": "2acb20b7a68ca9f94ceb054642fca59eb636bb726133f1cb2ab5106b1f0e2553"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/template/environment/Dockerfile",
+      "bytes": 326,
+      "sha256": "e76b500073e7c94ab042b1542a8d91be8af42a6140a1577b83f88364097c8e47"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/template/instruction.md",
+      "bytes": 459,
+      "sha256": "76f14b1cf8684a6979ad50be70dcd1331dca63e57bc098b192a9015d2e054cac"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/template/task.toml",
+      "bytes": 244,
+      "sha256": "54557fcf3bd8046a726a3b50277a0e7bab73769e80284a9ab67cb59d26b3a1a1"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/template/tests/test.sh",
+      "bytes": 1088,
+      "sha256": "9ff9c6266fe626de77808979c12f1c2c02fac59b91ed12e01f86b9592c8c1cf2"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_direct/uv.lock",
+      "bytes": 19186,
+      "sha256": "cd933a6e5dfe1126be9f0b55f1a1828922e4cd30f1c922ac043d3d55c04d2808"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/README.md",
+      "bytes": 1451,
+      "sha256": "5754a7bfb444a9b418988b145e677a1e8b23d7b7654aa0c8fc3626e229e90b43"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/adapter.py",
+      "bytes": 1017,
+      "sha256": "e3c8fed1a16e10733d2b776bd9675e76778c336728d7d47e4e7a2626280b84b0"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/pyproject.toml",
+      "bytes": 217,
+      "sha256": "18990744335477c9156e8f030a009ec77f6d50fd90353fb5741b165c99de35e4"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/run_adapter.py",
+      "bytes": 4460,
+      "sha256": "88600191c7ebc6edcf27d8fa0c258de51920bc3fd3706a481aa0b0d4a327c551"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/template/environment/Dockerfile",
+      "bytes": 326,
+      "sha256": "e76b500073e7c94ab042b1542a8d91be8af42a6140a1577b83f88364097c8e47"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/template/instruction.md",
+      "bytes": 856,
+      "sha256": "fef2d5ff65eb75587563618d902cfbde7e865445b073df4a9295265f72bb866a"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/template/task.toml",
+      "bytes": 254,
+      "sha256": "9e381c11d0dd93a5669d820aa5b6bedc2614b8c9385cac9ce1de43806634cba6"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/template/tests/test.sh",
+      "bytes": 1161,
+      "sha256": "767aab273eb0cd1772092c9ca46feeb9845d9030e9642f837728a3c6b7f1e1f0"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_zeroshot/uv.lock",
+      "bytes": 19188,
+      "sha256": "6eaed52cb2a3b3171518030edc8e4dd68e6b6581be09f3a6ce72cd3e52a39ffd"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/README.md",
+      "bytes": 1781,
+      "sha256": "d17e3e3f2c99ee756c608ee820e08c8d1f27f6310092ea020ddc53be16bc60c4"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/adapter.py",
+      "bytes": 2036,
+      "sha256": "250900ae466175f32185281d5c6ae08c4915daa5815ac2b411314933d444dc21"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/pyproject.toml",
+      "bytes": 215,
+      "sha256": "d6e92b29da6a204412a7a540d295379afc3f4e391ac2475a1f05370674fdde5d"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/run_adapter.py",
+      "bytes": 4441,
+      "sha256": "9a2eac4d9fa4ab9aee49d8a7e1a0246e6f57d51fe14c4e4d48fffeb52f95711c"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/template/environment/Dockerfile",
+      "bytes": 362,
+      "sha256": "ecbe6fb864ee5c598be8d8ef50b1d5d3e5865e4ab7b582803e8ee147ce2954b1"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/template/instruction.md",
+      "bytes": 1033,
+      "sha256": "977590b7f0377db1f7d9327569a4d3a5289aefd1dbdac62164de19083171ace9"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/template/task.toml",
+      "bytes": 254,
+      "sha256": "9e381c11d0dd93a5669d820aa5b6bedc2614b8c9385cac9ce1de43806634cba6"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/template/tests/test.sh",
+      "bytes": 1161,
+      "sha256": "767aab273eb0cd1772092c9ca46feeb9845d9030e9642f837728a3c6b7f1e1f0"
+    },
+    {
+      "repository": "harbor-deonticbench",
+      "revision": "2fe3aa40bf856d533a79a6052a28eb3fc1b618f1",
+      "path": "adapters/deonticbench_fewshot/uv.lock",
+      "bytes": 19187,
+      "sha256": "7593963cc0e3ad4afd8c305c035126825a53bda47303d7be676f8786b487adc7"
+    }
+  ],
+  "historical_extracts": [
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/airline/hard.json",
+      "rows": 80,
+      "sha256": "78c349102d66b9dc273f3317c4dfe2e9f3e5db433292f5eb8ae0e2131ad4074a"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/housing/hard.json",
+      "rows": 78,
+      "sha256": "0accb5c1c32494260b527d13abe0db031d81cd914d36e90027346a7244cd61a7"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/sara_binary/hard.json",
+      "rows": 30,
+      "sha256": "6fb93d48cd5f7f52ed807d5052bae6b8a0b20bbea7b2706da5769633b05f2710"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/sara_numeric/hard.json",
+      "rows": 35,
+      "sha256": "81a6b58b9456721d55076070da2a7bfeee02f8e52035ff3ff044b565cbd76d04"
+    },
+    {
+      "revision": "c421259e4cc6dbe41f568f94fb4e11017b2ea98b",
+      "path": "data/uscis-aao/hard.json",
+      "rows": 28,
+      "sha256": "05f02a7be1b7355d4d3c09395150934597d857abdf2b792cc93ae4a47b1778cc"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/airline/hard.json",
+      "rows": 80,
+      "sha256": "555e39d5fa53883d4a152056c994d2d8f30a388c8e388ebfe7c054f5d77c0472"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/housing/hard.json",
+      "rows": 78,
+      "sha256": "e3a01a1c878af8a32c8b59dc38a6963d14a8ae8983ac4ae44e6719b8fbbd8ea9"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/sara_binary/hard.json",
+      "rows": 30,
+      "sha256": "66a5bc7cbd9aee2015073bb3116018beb549348dd2857573a8339f11e74d2c05"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/sara_numeric/hard.json",
+      "rows": 35,
+      "sha256": "d50ba484e5d5693d0e21eeaee861249e8491042a86fbb261b87caab1a3a44307"
+    },
+    {
+      "revision": "e2516e32ab4f86e63ba4046d8549dd58a7d992a0",
+      "path": "data/uscis-aao/hard.json",
+      "rows": 28,
+      "sha256": "aca2ecca6d83560f1b6471a3d194ad31badb0373d2745b530eec36368b79a7fe"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/airline/hard.json",
+      "rows": 80,
+      "sha256": "2831cbd4f457a7239c99bbc357ff1a3963d053770d8b84285292ee41bfd370e4"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/housing/hard.json",
+      "rows": 78,
+      "sha256": "a355efb36618a75c21117f5c518dd277b87960b0b3d91a2fb864025850d3fc27"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/sara_binary/hard.json",
+      "rows": 30,
+      "sha256": "2c7ef64b44cec7b17254ff2b98a82484775253e1c442f805fd6e88dfa171385d"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/sara_numeric/hard.json",
+      "rows": 35,
+      "sha256": "2703a325253ad89ad14a21f8d42d4f492be82de8b9bb9965e1f3de1a833ccdc4"
+    },
+    {
+      "revision": "c6e3fe749a200fbfe1d78622968d33e4f6cec31d",
+      "path": "data/uscis-aao/hard.json",
+      "rows": 28,
+      "sha256": "a0f53a1cabb7f243fbff58aa6f11b2cbd5f3b7e769a2e43a1889afa899a4abfd"
+    }
+  ],
+  "absence_scope": "Named trees, official pages and paper links inspected; no exhaustive global search."
+}
