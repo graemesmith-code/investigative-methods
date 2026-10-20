@@ -29,6 +29,7 @@ New source reviews are linked here separately from the preserved exports. Their 
 |---|---|---|
 | [RAB-LIDAR-20261014-01 — Washington Lidar Portal](additions/washington-lidar.md) | Public historical elevation surveys; compare surface and terrain models, then corroborate changes with dated records | Official portal, help and project/download-query responses checked 14 October 2026; metadata file download blocked; workflow proposed |
 | [RAB-LIDAR-20261014-02 — Global historical lidar guide](additions/global-lidar-20261014/README.md) | Ranked repeat-survey sources, product/reuse distinctions, regional inventory and small reproducible metadata/header checks | Primary terms and selected overlapping footprints checked 14 October 2026; no completed change analysis |
+| [RAB-MEDIA-20261020-01 — WorldStateMedia and conflict narratives](additions/worldstatemedia.md) | Seven research designs for conflict-permission narratives, off ramps and technology claims, with temporal validation safeguards | Paper and public documentation reviewed 20 October 2026; no gated corpus access, classification or predictive test |
 
 ## Try one source
 
