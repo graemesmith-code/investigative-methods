@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "tuscany-corporate-records-2026-10-22",
+  "review_date": "2026-10-22",
+  "source_count": 11,
+  "pdf_pages": 135,
+  "page_numbering": "PDF pages counted from 1; includes bilingual repetitions",
+  "limits": [
+    "Hashes identify the reviewed bytes; they do not authenticate the underlying claims.",
+    "Original download routes and collection access conditions were not reconstructed.",
+    "The supplied PDFs are not included in this repository update."
+  ],
+  "sources": [
+    {
+      "source_id": "S01",
+      "filename": "2076255_Articles-20of-20association-unlocked-.pdf",
+      "description": "Consolidated articles as at 22 June 2012",
+      "bytes": 788370,
+      "pages": 13,
+      "sha256": "8cc88759fddb5dbdc411c852f67f719bc6e43cfbbe862369c12079480dde3fc0",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S02",
+      "filename": "2076252_Annual-20accounts-20-eCDF-unlocked-.pdf",
+      "description": "Accounts, 9–31 March 2012",
+      "bytes": 303104,
+      "pages": 15,
+      "sha256": "644bcd51255861ac8529eee17651893ae80048389e88996798cacf907b837ef5",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S03",
+      "filename": "2076251_Annual-20accounts-20-eCDF-unlocked-.pdf",
+      "description": "Accounts, 1 April 2012–31 March 2013",
+      "bytes": 314708,
+      "pages": 17,
+      "sha256": "a794f3025781a3ef330e71d47e99b8cf58ae690cc4078052138d34012d0194ca",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S04",
+      "filename": "2076249_Modification-unlocked-.pdf",
+      "description": "Management and address changes filed April 2015",
+      "bytes": 232300,
+      "pages": 7,
+      "sha256": "502b9d1e70be9a63e079e79ba86b0f509a7ab2d9a8801e32619b06bc81052071",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S05",
+      "filename": "2076248_Annual-20accounts-20-eCDF-unlocked-.pdf",
+      "description": "Accounts, 1 April 2014–31 March 2015",
+      "bytes": 269199,
+      "pages": 15,
+      "sha256": "db2892d934c3b2a944eb282fcf4e39b08140d0266563f9b988293292ecde3a10",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S06",
+      "filename": "2076247_Modification-unlocked-.pdf",
+      "description": "Capital conversion, 29 June 2016",
+      "bytes": 260873,
+      "pages": 11,
+      "sha256": "6a12e4637d3b085578188b596825656116899c7d2f297e5e84627b5a038272d5",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S07",
+      "filename": "2076246_Annual-20accounts-20-eCDF-unlocked-.pdf",
+      "description": "Accounts, 1 April 2015–31 March 2016",
+      "bytes": 203729,
+      "pages": 15,
+      "sha256": "edf51298e9e51eac0ebf4def98f03d579c7ff268a4a1ee5e2aeccf659723e85c",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S08",
+      "filename": "2076245_Articles-20of-20association-unlocked-.pdf",
+      "description": "Consolidated articles as at 29 June 2016",
+      "bytes": 133684,
+      "pages": 10,
+      "sha256": "c6973cb4ef39b09a47fc02f84de765c15648b51273c982e6188878afd8fbcb31",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S09",
+      "filename": "2076244_Annual-20accounts-20-eCDF-unlocked-.pdf",
+      "description": "Accounts, 1 April 2016–31 March 2017",
+      "bytes": 404183,
+      "pages": 14,
+      "sha256": "b669714a5ea7da4b98e485a6351da88d00b578cc7c71a600824e379895c1de9b",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S10",
+      "filename": "2076243_ory-20modification-20of-20the-20agents-unlocked-.pdf",
+      "description": "Existing manager address update, January 2019",
+      "bytes": 147435,
+      "pages": 4,
+      "sha256": "22151d8e00ad8e0b0fd04d4c21c91ae5cbf80d6c639b971df4bc2fd11dd8754f",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    },
+    {
+      "source_id": "S11",
+      "filename": "2076242_Annual-20accounts-20-eCDF-unlocked-.pdf",
+      "description": "Accounts, 1 April 2017–31 March 2018",
+      "bytes": 872684,
+      "pages": 14,
+      "sha256": "aa39b245101eb74c9aa410576b91945d9e9a1952b1bb1efe41cbf13c23fec238",
+      "acquisition_mode": "user_supplied_upload",
+      "original_url": null,
+      "original_pdf_published_in_this_update": false
+    }
+  ]
+}

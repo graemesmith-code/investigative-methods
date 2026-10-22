@@ -26,6 +26,8 @@ Search by a distinctive identifier, then by the people or organizations, action 
 
 For each surviving question, keep the original record, what reporting already establishes, an ordinary explanation and the one missing fact that matters most. Decide to obtain a particular document, do a specific check, or stop. Do not keep searching only because a result sounds interesting.
 
+The [Tuscany company-records review](../research/2026-10-22/tuscany-corporate-records/README.md) adds a stopping rule for network searches: before expanding, state the reporting question, its public consequence and the one record or comparison that could resolve it. After a bounded review, continue only if the evidence has made that question more answerable or more consequential. Count correctly extracted facts separately from useful reporting leads. Another shareholder, director or loan balance is not sufficient by itself.
+
 The [ATI mental-health example](../experiments/07-canadian-ati.md#a-useful-decision-to-stop) shows a successful stop. The [brokering-permit example](../experiments/10-ati-source-check.md) shows when a document is more useful than another broad query.
 
 ## 5. Judge the trial honestly
@@ -35,3 +37,4 @@ Record useful questions, important missed examples, paid usage and reading time.
 Use the [blank run record](../templates/run.md). If you automate it, the [annexes](../annexes/README.md) preserve code and the extra details someone else will need to repeat the work.
 
 [Home](../README.md) · [Costs and limitations](costs-and-limitations.md) · [Next steps](next-steps.md)
+

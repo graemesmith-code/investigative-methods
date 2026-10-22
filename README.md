@@ -11,6 +11,7 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 - **Separate foreign-agent overlaps from disclosure violations.** The [FARA / federal-awards pilot](research/2026-10-14/fara-award-pilot/README.md) screened the complete FY2025 prime-contract archive for $0. Canadian Commercial Corporation dominates the corroborated action count; no disclosure violation was established, and grants/Canadian procurement remain incomplete.
 - **Test whether your search works.** The [missed known news story](experiments/03-headline-filter.md) offers a simple recipe: check an article you already know exists before trusting an empty search. No result does not mean no earlier reporting.
 - **Give a promising paragraph more context.** The [Enron filings](experiments/08-enron.md) and [bank-lending surveys](experiments/09-bank-lending.md) show how connected records and careful arithmetic can produce better questions—and catch misleading ones.
+- **Stop when a company network does not produce a story.** The [Tuscany company-records review](research/2026-10-22/tuscany-corporate-records/README.md) extracted ownership and lending facts from eleven filings but established no consequential new finding. Parked on 22 October 2026; it records an editorial stopping rule and the limits of the extraction result.
 - **Explore a new source.** Browse the [Rabbit catalog reference](catalogs/README.md), then use the [public-source trial](experiments/02-public-source-pilot.md) to check a few records before investing in a bigger collection.
 
 Some trials use **Jev**, a model service that ranks or assesses text, and **Exa**, a search service for finding possible earlier coverage. Their [ten-lead contract trial](experiments/06-jev-exa.md) shows why the original records and search results must accompany a dashboard.
@@ -27,4 +28,5 @@ The emerging [DATA1 + RULE + DATA2 method](docs/rule-based-source-comparisons.md
 
 [Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026.
+Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026; Tuscany company-records review added 22 October 2026.
+

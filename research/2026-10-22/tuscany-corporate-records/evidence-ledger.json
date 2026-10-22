@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "experiment_id": "tuscany-corporate-records-2026-10-22",
+  "review_date": "2026-10-22",
+  "editorial_status": "parked",
+  "editorial_reason": "Insufficient demonstrated reporting value; no consequential new finding established from this selected corpus.",
+  "currency": "EUR",
+  "amount_format": "decimal strings; principal separate from accrued interest",
+  "page_numbering": "PDF pages counted from 1",
+  "evidence_basis": "statements recorded in supplied filings; not independently verified bank transactions",
+  "claims": [
+    {
+      "id": "F01",
+      "type": "direct_corporate_ownership",
+      "as_of": "2016-06-29",
+      "owner": {
+        "name": "Framestone Limited",
+        "jurisdiction": "Cyprus",
+        "registration": "HE315582"
+      },
+      "owned_company": {
+        "name": "Luxembourg Beverage Supply Company S.à r.l.",
+        "registration": "B167623"
+      },
+      "ownership_percent": "100",
+      "source_id": "S06",
+      "pdf_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "limit": "Does not identify ultimate human owners or prove ownership at other dates."
+    },
+    {
+      "id": "F02",
+      "type": "debt_to_equity_conversion",
+      "event_date": "2016-06-29",
+      "creditor": "Framestone Limited",
+      "debtor": "Luxembourg Beverage Supply Company S.à r.l.",
+      "converted_claim": "365400.00",
+      "capital_before": "100000.00",
+      "capital_after": "465400.00",
+      "fresh_cash_established": false,
+      "source_id": "S06",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "limit": "Waiver of part of an existing claim, not a new cash investment or a winery purchase price."
+    },
+    {
+      "id": "F03",
+      "type": "loan_payable_balance",
+      "as_of": "2015-03-31",
+      "lender_label": "Framestone",
+      "borrower": "Luxembourg Beverage Supply Company S.à r.l.",
+      "principal": "271700.00",
+      "interest": "4254.28",
+      "source_id": "S05",
+      "pdf_pages": [
+        6,
+        15
+      ],
+      "limit": "The note supplies an abbreviated lender name without a registration number."
+    },
+    {
+      "id": "F04",
+      "type": "loan_payable_balance",
+      "as_of": "2016-03-31",
+      "lender_label": "Framestone",
+      "borrower": "Luxembourg Beverage Supply Company S.à r.l.",
+      "principal": "365400.00",
+      "interest": "10808.76",
+      "source_id": "S07",
+      "pdf_pages": [
+        5,
+        15
+      ],
+      "limit": "The note supplies an abbreviated lender name without a registration number."
+    },
+    {
+      "id": "F05",
+      "type": "affiliate_loan_receivable",
+      "as_of": "2017-03-31",
+      "lender": "Luxembourg Beverage Supply Company S.à r.l.",
+      "borrower_label": "Framestone Limited",
+      "principal": "523168.70",
+      "interest_rate_percent": "1.55",
+      "accrued_interest": "1198.70",
+      "source_id": "S09",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "id": "F06",
+      "type": "affiliate_loan_receivable",
+      "as_of": "2017-03-31",
+      "lender": "Luxembourg Beverage Supply Company S.à r.l.",
+      "borrower_label": "IPCOM Limited",
+      "principal": "1099344.17",
+      "interest_rate_percent": "1.55",
+      "accrued_interest": "1947.51",
+      "source_id": "S09",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "id": "F07",
+      "type": "affiliate_loan_receivable",
+      "as_of": "2018-03-31",
+      "lender": "Luxembourg Beverage Supply Company S.à r.l.",
+      "borrower_label": "Framestone Limited",
+      "principal": "534000.00",
+      "interest_rate_percent": "1.55",
+      "accrued_interest": "9411.60",
+      "source_id": "S11",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "id": "F08",
+      "type": "affiliate_loan_receivable",
+      "as_of": "2018-03-31",
+      "lender": "Luxembourg Beverage Supply Company S.à r.l.",
+      "borrower_label": "IPCOM Limited",
+      "principal": "1064792.96",
+      "interest_rate_percent": "1.55",
+      "accrued_interest": "17721.34",
+      "source_id": "S11",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "id": "F09",
+      "type": "affiliate_loan_receivable",
+      "as_of": "2018-03-31",
+      "lender": "Luxembourg Beverage Supply Company S.à r.l.",
+      "borrower_label": "SHILDA ESTATE",
+      "principal": "120500.00",
+      "interest_rate_percent": "14",
+      "accrued_interest": "15745.35",
+      "source_id": "S11",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "id": "F10",
+      "type": "affiliate_loan_receivable",
+      "as_of": "2018-03-31",
+      "lender": "Luxembourg Beverage Supply Company S.à r.l.",
+      "borrower_label": "Kindzmarauli Kvareli Ltd.",
+      "principal": "61530.00",
+      "interest_rate_percent": "14",
+      "accrued_interest": "6672.85",
+      "source_id": "S11",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "id": "F11",
+      "type": "branch_opening_reported",
+      "event_date": "2012-06-19",
+      "company": "Luxembourg Beverage Supply Company S.à r.l.",
+      "branch_jurisdiction": "Switzerland",
+      "source_id": "S02",
+      "pdf_pages": [
+        14
+      ],
+      "corroborating_sources": [
+        {
+          "source_id": "S03",
+          "pdf_pages": [
+            12
+          ]
+        }
+      ],
+      "limit": "A branch opening is distinct from the later legal-seat transfer."
+    },
+    {
+      "id": "F12",
+      "type": "annual_results",
+      "period_start": "2015-04-01",
+      "period_end": "2016-03-31",
+      "company": "Luxembourg Beverage Supply Company S.à r.l.",
+      "net_turnover": "2296766.01",
+      "net_result": "-51708.74",
+      "source_id": "S07",
+      "pdf_pages": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "F13",
+      "type": "annual_results",
+      "period_start": "2016-04-01",
+      "period_end": "2017-03-31",
+      "company": "Luxembourg Beverage Supply Company S.à r.l.",
+      "net_turnover": "25995026.19",
+      "net_result": "1409524.65",
+      "source_id": "S09",
+      "pdf_pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "F14",
+      "type": "annual_results",
+      "period_start": "2017-04-01",
+      "period_end": "2018-03-31",
+      "company": "Luxembourg Beverage Supply Company S.à r.l.",
+      "net_turnover": "52971257.56",
+      "net_result": "4719312.35",
+      "source_id": "S11",
+      "pdf_pages": [
+        6,
+        7
+      ]
+    }
+  ],
+  "general_limits": [
+    "Borrower labels in loan tables are not fully resolved legal entities; no country or registry number is inferred from their names.",
+    "A dated balance is not a transaction date or bank-transfer record.",
+    "No loan in this ledger is established as financing a Tuscan acquisition.",
+    "No ultimate beneficial owner, false sale or misconduct is established.",
+    "No population-wide extraction or discovery-performance claim is supported."
+  ],
+  "discrepancies": [
+    {
+      "id": "D01",
+      "source_id": "S06",
+      "issue": "English narrative contains 167263; filing identifiers corroborate B167623."
+    },
+    {
+      "id": "D02",
+      "source_ids": [
+        "S09",
+        "S11"
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "issue": "Framestone maturity printed 2022-02-09 in 2017 accounts and 2022-02-08 in 2018 accounts."
+    },
+    {
+      "id": "D03",
+      "source_ids": [
+        "S05",
+        "S07"
+      ],
+      "pdf_pages": [
+        15
+      ],
+      "issue": "2015 Framestone principal 271700.00 in original year's account; 271000.00 in 2016 prior-year comparison."
+    },
+    {
+      "id": "D04",
+      "source_id": "S11",
+      "pdf_pages": [
+        12
+      ],
+      "issue": "Other-loan asset described as security deposit received; commercial direction not resolved."
+    }
+  ],
+  "metrics": {
+    "source_pdfs": 11,
+    "pdf_pages": 135,
+    "model_usage": null,
+    "cash_cost": null,
+    "review_minutes": null,
+    "precision": null,
+    "recall": null,
+    "held_out_evaluation": false,
+    "bulk_aleph_run_performed": false
+  }
+}
+
