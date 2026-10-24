@@ -1,0 +1,2200 @@
+{
+  "as_of": "2026-10-24",
+  "records": [
+    {
+      "piid": "FA228024P0001",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "U719HNLEESB3",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Asian Pacific American Owned Business",
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Manufacturer of Goods",
+          "Minority Owned Business",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business",
+          "Woman Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST, STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "CONTROL SYSTEMS FOR COORDINATED OPERATIONS.",
+      "money": {
+        "total_obligation": {
+          "value": 3450000.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 3450000.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 3450000.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2023-11-08",
+      "period_of_performance": {
+        "start_date": "2023-11-06",
+        "end_date": "2027-02-18",
+        "last_modified_date": "2026-07-29",
+        "potential_end_date": "2027-02-18 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA2280  AFRL/RGKA"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBBP AFRL RYZ"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA228024P0001_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA228024P0001_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:38.616060+00:00",
+      "raw_json": "live/FA228024P0001.json"
+    },
+    {
+      "piid": "FA228025C0002",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "U719HNLEESB3",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Manufacturer of Goods",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT SMALL BUSINESS INNOVATION RESEARCH PHASE II STRATEGIC FUNDING INCREASE",
+      "money": {
+        "total_obligation": {
+          "value": 12434000.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 12434000.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 15000000.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2024-12-13",
+      "period_of_performance": {
+        "start_date": "2024-12-13",
+        "end_date": "2026-05-18",
+        "last_modified_date": "2026-05-19",
+        "potential_end_date": "2026-05-18 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA2280  AFRL/RGKA"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA228025C0002_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA228025C0002_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:35.928088+00:00",
+      "raw_json": "live/FA228025C0002.json"
+    },
+    {
+      "piid": "FA228025C0010",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "U719HNLEESB3",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Not Designated a Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "EPISYS UNMANNED AERIAL VEHICLE KITS SMALL BUSINESS INNOVATION RESEARCH PHASE III",
+      "money": {
+        "total_obligation": {
+          "value": 4725000.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 4725000.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 4725000.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-09-26",
+      "period_of_performance": {
+        "start_date": "2025-09-30",
+        "end_date": "2026-10-15",
+        "last_modified_date": "2026-03-06",
+        "potential_end_date": "2026-10-15 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA2280  AFRL/RGKA"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FTBS AFLCMC WF AFSAC"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA228025C0010_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA228025C0010_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:36.043129+00:00",
+      "raw_json": "live/FA228025C0010.json"
+    },
+    {
+      "piid": "FA864924P1112",
+      "recipient": {
+        "recipient_hash": "e4a3495f-0d0f-940c-f868-17c82b2346dd-C",
+        "recipient_name": "RHOMAN AEROSPACE CORPORATION",
+        "recipient_uei": "Y1X1FEH3U895",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "e4a3495f-0d0f-940c-f868-17c82b2346dd-P",
+        "parent_recipient_name": "RHOMAN AEROSPACE CORPORATION",
+        "parent_recipient_uei": "Y1X1FEH3U895",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "MARINA DEL REY",
+          "county_code": "037",
+          "county_name": "LOS ANGELES",
+          "address_line1": "4676 ADMIRALTY WAY STE 503",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "36",
+          "zip4": "6606",
+          "zip5": "90292",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "MARITIME GLOBAL POSITIONING SYSTEM-DENIED UNMANNED AERIAL VEHICLE AUTONOMY AND ALT-POSITIONING-NAVIGATION-TIMING, NO-EMIT, ALL SOURCE POSITION AND NAVIGATION AND MOD PAYLOAD COMPLIANT SOLUTION",
+      "money": {
+        "total_obligation": {
+          "value": 1799600.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1799600.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1799600.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2024-08-28",
+      "period_of_performance": {
+        "start_date": "2024-08-30",
+        "end_date": "2026-07-28",
+        "last_modified_date": "2026-02-12",
+        "potential_end_date": "2026-07-28 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P1112_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864924P1112_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:44.372141+00:00",
+      "raw_json": "live/FA864924P1112.json"
+    },
+    {
+      "piid": "FA864925P0087",
+      "recipient": {
+        "recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-C",
+        "recipient_name": "GAMBIT DEFENSE, INC.",
+        "recipient_uei": "XC2HQCWYPMW4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-P",
+        "parent_recipient_name": "GAMBIT DEFENSE, INC.",
+        "parent_recipient_uei": "XC2HQCWYPMW4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "VALLEY VILLAGE",
+          "county_code": "037",
+          "county_name": "LOS ANGELES",
+          "address_line1": "4817 RADFORD AVE",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "29",
+          "zip4": "3720",
+          "zip5": "91607",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "NEURON: MESH NETWORK FOR TACTICAL EDGE EMBODIED ARTIFICIAL INTELLIGENCE",
+      "money": {
+        "total_obligation": {
+          "value": 74566.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 74566.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 74566.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-01-17",
+      "period_of_performance": {
+        "start_date": "2025-01-17",
+        "end_date": "2025-04-17",
+        "last_modified_date": "2025-07-03",
+        "potential_end_date": "2025-04-17 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0087_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0087_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:38.371854+00:00",
+      "raw_json": "live/FA864925P0087.json"
+    },
+    {
+      "piid": "FA864925P0190",
+      "recipient": {
+        "recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-C",
+        "recipient_name": "GAMBIT DEFENSE, INC.",
+        "recipient_uei": "XC2HQCWYPMW4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-P",
+        "parent_recipient_name": "GAMBIT DEFENSE, INC.",
+        "parent_recipient_uei": "XC2HQCWYPMW4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "VALLEY VILLAGE",
+          "county_code": "037",
+          "county_name": "LOS ANGELES",
+          "address_line1": "4817 RADFORD AVE",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "29",
+          "zip4": "3720",
+          "zip5": "91607",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "CORTEX: ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING (ML) FOR TACTICAL EDGE EMBODIED AI",
+      "money": {
+        "total_obligation": {
+          "value": 109341.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 109341.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 109341.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-01-15",
+      "period_of_performance": {
+        "start_date": "2025-01-15",
+        "end_date": "2025-04-15",
+        "last_modified_date": "2025-06-24",
+        "potential_end_date": "2025-04-15 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0190_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0190_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:38.323325+00:00",
+      "raw_json": "live/FA864925P0190.json"
+    },
+    {
+      "piid": "FA864925P0453",
+      "recipient": {
+        "recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-C",
+        "recipient_name": "GAMBIT DEFENSE, INC.",
+        "recipient_uei": "XC2HQCWYPMW4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-P",
+        "parent_recipient_name": "GAMBIT DEFENSE, INC.",
+        "parent_recipient_uei": "XC2HQCWYPMW4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "VALLEY VILLAGE",
+          "county_code": "037",
+          "county_name": "LOS ANGELES",
+          "address_line1": "4817 RADFORD AVE",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "29",
+          "zip4": "3720",
+          "zip5": "91607",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "SPECTRUM SUPREMACY UTILIZING A MESH NETWORK: NEURON",
+      "money": {
+        "total_obligation": {
+          "value": 1511684.51,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1511684.51,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1511684.51,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-08-26",
+      "period_of_performance": {
+        "start_date": "2025-08-26",
+        "end_date": "2027-04-29",
+        "last_modified_date": "2026-06-17",
+        "potential_end_date": "2027-04-29 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA2385 USAF AFMC AFRL PZL AFRL RSKD"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0453_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0453_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:38.455493+00:00",
+      "raw_json": "live/FA864925P0453.json"
+    },
+    {
+      "piid": "FA864925P0493",
+      "recipient": {
+        "recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-C",
+        "recipient_name": "GAMBIT DEFENSE, INC.",
+        "recipient_uei": "XC2HQCWYPMW4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "5a08f138-3f26-2f71-f752-73d33163bbd0-P",
+        "parent_recipient_name": "GAMBIT DEFENSE, INC.",
+        "parent_recipient_uei": "XC2HQCWYPMW4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "VALLEY VILLAGE",
+          "county_code": "037",
+          "county_name": "LOS ANGELES",
+          "address_line1": "4817 RADFORD AVE",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "29",
+          "zip4": "3720",
+          "zip5": "91607",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "DEDICATED COUNTER UNMANNED AERIAL SYSTEMS OPPOSING FORCES UTILIZING ARTIFICIAL INTELLIGENCE/MACHINE LEARNING: CORTEX",
+      "money": {
+        "total_obligation": {
+          "value": 1788872.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1788872.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1788872.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-08-25",
+      "period_of_performance": {
+        "start_date": "2025-08-25",
+        "end_date": "2027-06-01",
+        "last_modified_date": "2026-06-12",
+        "potential_end_date": "2027-06-01 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0493_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0493_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:38.406390+00:00",
+      "raw_json": "live/FA864925P0493.json"
+    },
+    {
+      "piid": "FA864926P0005",
+      "recipient": {
+        "recipient_hash": "e4a3495f-0d0f-940c-f868-17c82b2346dd-C",
+        "recipient_name": "RHOMAN AEROSPACE CORPORATION",
+        "recipient_uei": "Y1X1FEH3U895",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "e4a3495f-0d0f-940c-f868-17c82b2346dd-P",
+        "parent_recipient_name": "RHOMAN AEROSPACE CORPORATION",
+        "parent_recipient_uei": "Y1X1FEH3U895",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "MARINA DEL REY",
+          "county_code": "037",
+          "county_name": "LOS ANGELES",
+          "address_line1": "4676 ADMIRALTY WAY STE 503",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "36",
+          "zip4": "6606",
+          "zip5": "90292",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "GLOBAL POSITIONING SYSTEM-DENIED UNMANNED AERIAL VEHICLE NAVIGATION IN LAND AND MARITIME ENVIRONMENTS: MODULAR, NO-EMIT, MULTI-SPECTRAL ALTERNATIVE-POSITIONING, NAVIGATION AND TIMING, AIR FORCE INSTITUTE TECHNOLOGY, RHOMAN AERO",
+      "money": {
+        "total_obligation": {
+          "value": 1799617.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1799617.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1799617.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2026-02-27",
+      "period_of_performance": {
+        "start_date": "2026-02-27",
+        "end_date": "2027-11-29",
+        "last_modified_date": "2026-07-16",
+        "potential_end_date": "2027-11-29 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA864926P0005_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864926P0005_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:47.947026+00:00",
+      "raw_json": "live/FA864926P0005.json"
+    },
+    {
+      "piid": "FA865123CB002",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "U719HNLEESB3",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Asian Pacific American Owned Business",
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Manufacturer of Goods",
+          "Minority Owned Business",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business",
+          "Woman Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST, STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "DEEP MODEL-BASED REINFORCEMENT LEARNING FOR COLLABORATIVE AUTONOMOUS WEAPONS",
+      "money": {
+        "total_obligation": {
+          "value": 1592988.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1592988.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1592988.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2023-09-25",
+      "period_of_performance": {
+        "start_date": "2023-10-01",
+        "end_date": "2025-10-01",
+        "last_modified_date": "2025-06-03",
+        "potential_end_date": "2025-10-01 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8651 AFRL RAZ"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F1TBTA AFRL RW RWTA HANGAR 421"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865123CB002_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865123CB002_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:38:48.869749+00:00",
+      "raw_json": "live/FA865123CB002.json"
+    },
+    {
+      "piid": "FA865124CB024",
+      "recipient": {
+        "recipient_hash": "fc192af5-e93c-aa03-1ad2-5de2acee093b-C",
+        "recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "recipient_uei": "C12TQVKF5413",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "fc192af5-e93c-aa03-1ad2-5de2acee093b-P",
+        "parent_recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "parent_recipient_uei": "C12TQVKF5413",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "MA",
+          "state_name": "MASSACHUSETTS",
+          "city_name": "WOBURN",
+          "county_code": "017",
+          "county_name": "MIDDLESEX",
+          "address_line1": "500 W CUMMINGS PARK STE 3000",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "05",
+          "zip4": "6562",
+          "zip5": "01801",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "TACTICAL AUTONOMOUS LOOK OPTIMIZATION NETWORK (TALON)",
+      "money": {
+        "total_obligation": {
+          "value": 2839551.44,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 2839551.44,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 2839551.44,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2024-07-31",
+      "period_of_performance": {
+        "start_date": "2024-07-31",
+        "end_date": "2027-09-30",
+        "last_modified_date": "2026-07-21",
+        "potential_end_date": "2027-09-30 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8651 AFRL RAZ"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:38:42.437047+00:00",
+      "raw_json": "live/FA865124CB024.json"
+    },
+    {
+      "piid": "FA865124FB022",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "8a199eb5-0f07-3719-e394-15a0968e3fe5-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "DBQBN4CD1DZ9",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Asian Pacific American Owned Business",
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Manufacturer of Goods",
+          "Minority Owned Business",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business",
+          "Woman Owned Business",
+          "Women Owned Small Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DELIVERY ORDER",
+      "description": "INTEROPERABILITY STUDY",
+      "money": {
+        "total_obligation": {
+          "value": 192293.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 192293.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 192293.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2024-05-21",
+      "period_of_performance": {
+        "start_date": "2024-05-21",
+        "end_date": "2024-12-16",
+        "last_modified_date": "2024-11-14",
+        "potential_end_date": "2024-12-16 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8651 AFRL RAZ"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F1TB1A AFRL RW RWIA"
+      },
+      "parent_award": {
+        "agency_id": 1173,
+        "agency_name": "Department of Defense",
+        "agency_slug": "department-of-defense",
+        "sub_agency_id": "9700",
+        "sub_agency_name": "Department of Defense",
+        "award_id": 351192250,
+        "generated_unique_award_id": "CONT_IDV_FA865124DB007_9700",
+        "idv_type_description": "IDC",
+        "multiple_or_single_aw_desc": "SINGLE AWARD",
+        "piid": "FA865124DB007",
+        "type_of_idc_description": "INDEFINITE DELIVERY / INDEFINITE QUANTITY"
+      },
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865124FB022_9700_FA865124DB007_9700/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124FB022_9700_FA865124DB007_9700/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:36.098247+00:00",
+      "raw_json": "live/FA865124FB022.json"
+    },
+    {
+      "piid": "FA865124FB071",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "U719HNLEESB3",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Asian Pacific American Owned Business",
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Manufacturer of Goods",
+          "Minority Owned Business",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business",
+          "Woman Owned Business",
+          "Women Owned Small Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DELIVERY ORDER",
+      "description": "AFRL/RW GOVERNMENT REFERENCE ARCHITECTURE (GRA) STUDY",
+      "money": {
+        "total_obligation": {
+          "value": 910531.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 910531.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 910531.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2024-09-11",
+      "period_of_performance": {
+        "start_date": "2024-09-11",
+        "end_date": "2025-05-16",
+        "last_modified_date": "2025-02-10",
+        "potential_end_date": "2025-05-16 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8651 AFRL RAZ"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F1TBAU AFRL RW DWS"
+      },
+      "parent_award": {
+        "agency_id": 1173,
+        "agency_name": "Department of Defense",
+        "agency_slug": "department-of-defense",
+        "sub_agency_id": "9700",
+        "sub_agency_name": "Department of Defense",
+        "award_id": 351192250,
+        "generated_unique_award_id": "CONT_IDV_FA865124DB007_9700",
+        "idv_type_description": "IDC",
+        "multiple_or_single_aw_desc": "SINGLE AWARD",
+        "piid": "FA865124DB007",
+        "type_of_idc_description": "INDEFINITE DELIVERY / INDEFINITE QUANTITY"
+      },
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865124FB071_9700_FA865124DB007_9700/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124FB071_9700_FA865124DB007_9700/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:36.016736+00:00",
+      "raw_json": "live/FA865124FB071.json"
+    },
+    {
+      "piid": "FA865125FB052",
+      "recipient": {
+        "recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-C",
+        "recipient_name": "EPISYS SCIENCE INC",
+        "recipient_uei": "U719HNLEESB3",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "3f2eefed-7669-c32a-0905-098bc9081bd6-P",
+        "parent_recipient_name": "EPISYS SCIENCE INC",
+        "parent_recipient_uei": "U719HNLEESB3",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Asian Pacific American Owned Business",
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Manufacturer of Goods",
+          "Minority Owned Business",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business",
+          "Woman Owned Business",
+          "Women Owned Small Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CA",
+          "state_name": "CALIFORNIA",
+          "city_name": "POWAY",
+          "county_code": "073",
+          "county_name": "SAN DIEGO",
+          "address_line1": "13025 DANIELSON ST STE 106",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "48",
+          "zip4": "8815",
+          "zip5": "92064",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DELIVERY ORDER",
+      "description": "GOVERNMENT REFERENCE ARCHITECTURE DEVELOPMENT -MODEL-BASED SYSTEMS ENGINEERING",
+      "money": {
+        "total_obligation": {
+          "value": 667470.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 667470.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1996050.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-04-30",
+      "period_of_performance": {
+        "start_date": "2025-04-30",
+        "end_date": "2025-11-30",
+        "last_modified_date": "2025-07-30",
+        "potential_end_date": "2026-04-30 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8651 AFRL RAZ"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F1TBAU AFRL RW DWS"
+      },
+      "parent_award": {
+        "agency_id": 1173,
+        "agency_name": "Department of Defense",
+        "agency_slug": "department-of-defense",
+        "sub_agency_id": "9700",
+        "sub_agency_name": "Department of Defense",
+        "award_id": 351192250,
+        "generated_unique_award_id": "CONT_IDV_FA865124DB007_9700",
+        "idv_type_description": "IDC",
+        "multiple_or_single_aw_desc": "SINGLE AWARD",
+        "piid": "FA865124DB007",
+        "type_of_idc_description": "INDEFINITE DELIVERY / INDEFINITE QUANTITY"
+      },
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865125FB052_9700_FA865124DB007_9700/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865125FB052_9700_FA865124DB007_9700/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:36.163732+00:00",
+      "raw_json": "live/FA865125FB052.json"
+    },
+    {
+      "piid": "FA865621C0116",
+      "recipient": {
+        "recipient_hash": "fc192af5-e93c-aa03-1ad2-5de2acee093b-C",
+        "recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "recipient_uei": "C12TQVKF5413",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "fc192af5-e93c-aa03-1ad2-5de2acee093b-P",
+        "parent_recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "parent_recipient_uei": "C12TQVKF5413",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "MA",
+          "state_name": "MASSACHUSETTS",
+          "city_name": "WOBURN",
+          "county_code": "017",
+          "county_name": "MIDDLESEX",
+          "address_line1": "500 W CUMMINGS PARK STE 3000",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "05",
+          "zip4": "6562",
+          "zip5": "01801",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "SIBR PHASE II - EVENT HORIZON PROCESSING",
+      "money": {
+        "total_obligation": {
+          "value": 949960.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 949960.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 949960.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2021-04-29",
+      "period_of_performance": {
+        "start_date": "2021-04-29",
+        "end_date": "2021-04-29",
+        "last_modified_date": "2025-04-22",
+        "potential_end_date": "2022-01-10 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8656 AFLCMC EBX"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F4FBEQ AFRL RGF"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865621C0116_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865621C0116_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:38:45.928506+00:00",
+      "raw_json": "live/FA865621C0116.json"
+    },
+    {
+      "piid": "FA865925CB002",
+      "recipient": {
+        "recipient_hash": "fc192af5-e93c-aa03-1ad2-5de2acee093b-C",
+        "recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "recipient_uei": "C12TQVKF5413",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "fc192af5-e93c-aa03-1ad2-5de2acee093b-P",
+        "parent_recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "parent_recipient_uei": "C12TQVKF5413",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Not Designated a Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "MA",
+          "state_name": "MASSACHUSETTS",
+          "city_name": "BURLINGTON",
+          "county_code": "017",
+          "county_name": "MIDDLESEX",
+          "address_line1": "77 S BEDFORD ST., STE 300",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "06",
+          "zip4": "5221",
+          "zip5": "01803",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "SBIR PHASE III FOR IMPROVING BLUE AI SOFTWARE FOR NETWORKED COLLABORATIVE AUTONOMOUS (NCA) WEAPONS BY DEVELOPING A NEXT GENERATION COLOSSEUM.",
+      "money": {
+        "total_obligation": {
+          "value": 1999633.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1999633.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1999633.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-06-10",
+      "period_of_performance": {
+        "start_date": "2025-06-01",
+        "end_date": "2026-05-31",
+        "last_modified_date": "2025-06-10",
+        "potential_end_date": "2026-05-31 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "FA8659  AFLCMC EBI"
+      },
+      "funding_agency": {
+        "id": 1196,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Air Force",
+          "code": "5700",
+          "abbreviation": "USAF"
+        },
+        "office_agency_name": "F1TBTA AFRL RW RWTA HANGAR 421"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_FA865925CB002_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865925CB002_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:38:38.927155+00:00",
+      "raw_json": "live/FA865925CB002.json"
+    },
+    {
+      "piid": "N0001424C1333",
+      "recipient": {
+        "recipient_hash": "e82bdd82-d0c5-525c-d87e-a0a994c0418a-C",
+        "recipient_name": "VIVUM COMPUTING, INC",
+        "recipient_uei": "YB44PJQUTMH5",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "e82bdd82-d0c5-525c-d87e-a0a994c0418a-P",
+        "parent_recipient_name": "VIVUM COMPUTING, INC",
+        "parent_recipient_uei": "YB44PJQUTMH5",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Asian Pacific American Owned Business",
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Minority Owned Business",
+          "Self-Certified Small Disadvantaged Business",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business",
+          "Veteran Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "IN",
+          "state_name": "INDIANA",
+          "city_name": "BLOOMINGTON",
+          "county_code": "105",
+          "county_name": "MONROE",
+          "address_line1": "3509 E EDWARD CT",
+          "address_line2": null,
+          "address_line3": null,
+          "congressional_code": "09",
+          "zip4": "4408",
+          "zip5": "47401",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "DYNAMIC NEURAL UMVS - ENHANCED AUTONOMY FOR THE U.S. NAVY",
+      "money": {
+        "total_obligation": {
+          "value": 920802.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 920802.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1826487.84,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2024-08-27",
+      "period_of_performance": {
+        "start_date": "2024-08-27",
+        "end_date": "2026-08-31",
+        "last_modified_date": "2024-11-20",
+        "potential_end_date": "2028-08-31 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1174,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Navy",
+          "code": "1700",
+          "abbreviation": "USN"
+        },
+        "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+      },
+      "funding_agency": {
+        "id": 1174,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Navy",
+          "code": "1700",
+          "abbreviation": "USN"
+        },
+        "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_N0001424C1333_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001424C1333_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:47.920384+00:00",
+      "raw_json": "live/N0001424C1333.json"
+    },
+    {
+      "piid": "W5170125CA138",
+      "recipient": {
+        "recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-C",
+        "recipient_name": "PRIMORDIAL LABS INC.",
+        "recipient_uei": "GVGJU27ANGH4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-P",
+        "parent_recipient_name": "PRIMORDIAL LABS INC.",
+        "parent_recipient_uei": "GVGJU27ANGH4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CT",
+          "state_name": "CONNECTICUT",
+          "city_name": "NEW HAVEN",
+          "county_code": "170",
+          "county_name": "SOUTH CENTRAL CONNECTICUT",
+          "address_line1": "157 CHURCH ST",
+          "address_line2": "FL 19",
+          "address_line3": null,
+          "congressional_code": "03",
+          "zip4": "2100",
+          "zip5": "06510",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "PRIMORDIAL LABS, INC, SBIR PH II, A234-P017",
+      "money": {
+        "total_obligation": {
+          "value": 1898591.05,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1898591.05,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1898591.05,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2025-04-23",
+      "period_of_performance": {
+        "start_date": "2025-04-28",
+        "end_date": "2026-07-27",
+        "last_modified_date": "2026-03-24",
+        "potential_end_date": "2026-07-27 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W27P USA ACQ SPT CTR"
+      },
+      "funding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W27P USA ACQ SPT CTR"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_W5170125CA138_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA138_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:44.312299+00:00",
+      "raw_json": "live/W5170125CA138.json"
+    },
+    {
+      "piid": "W5170126CA118",
+      "recipient": {
+        "recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-C",
+        "recipient_name": "PRIMORDIAL LABS INC.",
+        "recipient_uei": "GVGJU27ANGH4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-P",
+        "parent_recipient_name": "PRIMORDIAL LABS INC.",
+        "parent_recipient_uei": "GVGJU27ANGH4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CT",
+          "state_name": "CONNECTICUT",
+          "city_name": "NEW HAVEN",
+          "county_code": "170",
+          "county_name": "SOUTH CENTRAL CONNECTICUT",
+          "address_line1": "157 CHURCH ST",
+          "address_line2": "FL 19",
+          "address_line3": null,
+          "congressional_code": "03",
+          "zip4": "2100",
+          "zip5": "06510",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "A244-P001 - VOICE COMMAND AUTONOMY FOR ARMY HUMAN-MACHINE INTEGRATED FORMATIONS",
+      "money": {
+        "total_obligation": {
+          "value": 1899925.03,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 1899925.03,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 1899925.03,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2026-03-31",
+      "period_of_performance": {
+        "start_date": "2026-04-15",
+        "end_date": "2027-04-15",
+        "last_modified_date": "2026-06-15",
+        "potential_end_date": "2027-04-15 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W27P USA ACQ SPT CTR"
+      },
+      "funding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W27P USA ACQ SPT CTR"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_W5170126CA118_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170126CA118_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:46.316910+00:00",
+      "raw_json": "live/W5170126CA118.json"
+    },
+    {
+      "piid": "W911W626CA001",
+      "recipient": {
+        "recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-C",
+        "recipient_name": "PRIMORDIAL LABS INC.",
+        "recipient_uei": "GVGJU27ANGH4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-P",
+        "parent_recipient_name": "PRIMORDIAL LABS INC.",
+        "parent_recipient_uei": "GVGJU27ANGH4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CT",
+          "state_name": "CONNECTICUT",
+          "city_name": "NEW HAVEN",
+          "county_code": "170",
+          "county_name": "SOUTH CENTRAL CONNECTICUT",
+          "address_line1": "157 CHURCH ST",
+          "address_line2": "FL 19",
+          "address_line3": null,
+          "congressional_code": "03",
+          "zip4": "2100",
+          "zip5": "06510",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "DEFINITIVE CONTRACT",
+      "description": "NATURALISTIC VOICE COMMAND WITH MANNED-UNMANNED TEAMING CAPABILITY",
+      "money": {
+        "total_obligation": {
+          "value": 985548.76,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 985548.76,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 985548.76,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2026-03-27",
+      "period_of_performance": {
+        "start_date": "2026-04-01",
+        "end_date": "2027-03-31",
+        "last_modified_date": "2026-03-27",
+        "potential_end_date": "2027-03-31 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W6QK AATD CONTR OFF"
+      },
+      "funding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W1DF CCDC AV MISSILE CENTER"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_W911W626CA001_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911W626CA001_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:44.515730+00:00",
+      "raw_json": "live/W911W626CA001.json"
+    },
+    {
+      "piid": "W912CG26PA010",
+      "recipient": {
+        "recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-C",
+        "recipient_name": "PRIMORDIAL LABS INC.",
+        "recipient_uei": "GVGJU27ANGH4",
+        "recipient_unique_id": null,
+        "parent_recipient_hash": "7889f620-37ec-6097-678d-1676ade215c0-P",
+        "parent_recipient_name": "PRIMORDIAL LABS INC.",
+        "parent_recipient_uei": "GVGJU27ANGH4",
+        "parent_recipient_unique_id": null,
+        "business_categories": [
+          "Category Business",
+          "Corporate Entity Not Tax Exempt",
+          "Small Business",
+          "Special Designations",
+          "U.S.-Owned Business"
+        ],
+        "location": {
+          "location_country_code": "USA",
+          "country_name": "UNITED STATES",
+          "state_code": "CT",
+          "state_name": "CONNECTICUT",
+          "city_name": "NEW HAVEN",
+          "county_code": "170",
+          "county_name": "SOUTH CENTRAL CONNECTICUT",
+          "address_line1": "157 CHURCH ST",
+          "address_line2": "FL 19",
+          "address_line3": null,
+          "congressional_code": "03",
+          "zip4": "2100",
+          "zip5": "06510",
+          "foreign_postal_code": null,
+          "foreign_province": null
+        }
+      },
+      "procurement_type": "PURCHASE ORDER",
+      "description": "ANURA SOLDIER ENHANCEMENT PROGRAM - RESEARCH AND DEVELOPMENT",
+      "money": {
+        "total_obligation": {
+          "value": 266000.0,
+          "currency": "USD",
+          "meaning": "live award total federal obligation, not outlay"
+        },
+        "current_value": {
+          "value": 266000.0,
+          "currency": "USD",
+          "meaning": "base and exercised options"
+        },
+        "ceiling": {
+          "value": 266000.0,
+          "currency": "USD",
+          "meaning": "base and all options, not assumed spending"
+        }
+      },
+      "signed": "2026-06-22",
+      "period_of_performance": {
+        "start_date": "2026-06-22",
+        "end_date": "2027-06-21",
+        "last_modified_date": "2026-06-22",
+        "potential_end_date": "2027-06-21 00:00:00"
+      },
+      "awarding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W6QK ACC CCDC STTC"
+      },
+      "funding_agency": {
+        "id": 1188,
+        "has_agency_page": true,
+        "toptier_agency": {
+          "name": "Department of Defense",
+          "code": "097",
+          "abbreviation": "DOD",
+          "slug": "department-of-defense"
+        },
+        "subtier_agency": {
+          "name": "Department of the Army",
+          "code": "2100",
+          "abbreviation": "USA"
+        },
+        "office_agency_name": "W1D1 NATICK SOLDIER CENTER"
+      },
+      "parent_award": null,
+      "usaspending_url": "https://www.usaspending.gov/award/CONT_AWD_W912CG26PA010_9700_-NONE-_-NONE-/",
+      "api_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CG26PA010_9700_-NONE-_-NONE-/",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-24T16:31:44.462131+00:00",
+      "raw_json": "live/W912CG26PA010.json"
+    }
+  ],
+  "count": 21
+}

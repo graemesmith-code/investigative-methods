@@ -1,0 +1,17 @@
+{
+  "report_source_sha256": "100373a4a0c835775cb34fb3905bb38a2e7ddfe78f6a6876a965f33ec6260206",
+  "docx_sha256": "d8ebf4bb63605f33c94d56a6d109eb91a8adfb53ca31f799a37c1c244278ff2f",
+  "docx_bytes": 67023,
+  "rendered_pages": 17,
+  "all_pages_visually_inspected": true,
+  "external_source_hyperlinks_preserved": 58,
+  "audited_identifiers_retained": 32,
+  "audited_dollar_strings_retained": 64,
+  "accessibility_issues": 0,
+  "personal_document_metadata_scrubbed": true,
+  "qa_date": "2026-10-24",
+  "recovery_check": "Exact QA-approved DOCX bytes recovered. Reconstructed pre-addendum Markdown matched all 156 non-table report paragraphs and every table cell in order, retaining all 58 external source URLs and all original grades. Later Markdown-only register addendum is explicitly identified, not represented as present in the unchanged DOCX.",
+  "docx_source_snapshot_sha256": "db4e18289a3e14065738ca5c8b110a7d5af7fdc501bfe9144dbd94a1610c34f9",
+  "published_markdown_includes_later_register_addendum": true,
+  "docx_snapshot_scope": "QA-approved grading-amended report; does not include later register reproduction addendum. Current Markdown and SCREENING_REGISTERS.md explicitly identify and explain that addendum."
+}

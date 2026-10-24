@@ -1,0 +1,26 @@
+[
+  {
+    "file": "lane1/candidate_register.jsonl",
+    "bytes": 131358465,
+    "sha256": "3d9da480674082d8c82c74e72a54be8d72767d8835a84cb25a41c0fec050a43e",
+    "reason": "Large intermediate; reproducible from source hashes and supplied scripts, not an individually reviewed case list"
+  },
+  {
+    "file": "lane1/transaction_hits.tsv",
+    "bytes": 43654092,
+    "sha256": "bf52cac01b2365e7d0d4005b12555df735a767f4a145b329e73c9151dc830c4e",
+    "reason": "Large intermediate; reproducible from source hashes and supplied scripts, not an individually reviewed case list"
+  },
+  {
+    "file": "lane2/exact_piid_join.jsonl",
+    "bytes": 88922459,
+    "sha256": "4dfb102d95784c9918b13f958799fb130c4dc999951178911290d9cc1c454480",
+    "reason": "Large intermediate; reproducible from source hashes and supplied scripts, not an individually reviewed case list"
+  },
+  {
+    "file": "lane2/recipient_potential_followons.jsonl",
+    "bytes": 100198873,
+    "sha256": "4bfd31c25382ea0d5e0ca225fa721d54bf6bd18443e9ec71ee6411dabd815348",
+    "reason": "Large intermediate; reproducible from source hashes and supplied scripts, not an individually reviewed case list"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "patterns": {
+    "ai": "\\b(?:artificial intelligence|machine learning|deep learning|neural|reinforcement learning|learned|self-supervised|computer vision|AI/ML|deep reinforcement|vision.language|perception)\\b",
+    "autonomy": "\\b(?:autonom\\w*|robot\\w*|swarm\\w*|unmanned|uncrewed|collaborative combat|attritable|multi.agent|UGV|UUV|USV|UAV|UAS|CCA)\\b",
+    "weapon": "\\b(?:terminal guidance|seeker|munition\\w*|lethal\\w*|loitering|target recognition|ATR|target acquisition|targeting|weapon\\w*|fires|counter.UAS|counter.drone|electronic attack|jamm\\w*|breach\\w*|minefield|mine countermeasure\\w*|mine warfare|kill chain)\\b",
+    "contested": "\\b(?:GPS.denied|GNSS.denied|contested|denied navigation|off.road|spectrum|radio.frequency|RF|electronic warfare|damage|terrain|navigation)\\b",
+    "physical": "\\b(?:test\\w*|demonstrat\\w*|integrat\\w*|platform\\w*|aircraft|drone\\w*|vehicle\\w*|missile\\w*|torpedo\\w*|soldier\\w*|warfighter\\w*|fleet|field\\w*)\\b",
+    "follow": "\\b(?:Phase III|Phase II enhancement|sequential|TACFI|STRATFI|transition\\w*|APFIT|RDER|operational|deploy\\w*)\\b"
+  },
+  "counts": {
+    "sbir_current.jsonl.gz": {
+      "rows": 25770,
+      "broad": 2426,
+      "ai_autonomy_weapon": 214,
+      "phase_ii_broad": 714,
+      "all_text_chars": 36972067
+    },
+    "sbir.jsonl.gz": {
+      "rows": 18814,
+      "broad": 1445,
+      "ai_autonomy_weapon": 113,
+      "phase_ii_broad": 513,
+      "all_text_chars": 24934260
+    }
+  },
+  "broad_total": 3871,
+  "unique_project_keys": 2517,
+  "cross_and_within_duplicates": 1354,
+  "source_sha256": {
+    "sbir_current.jsonl.gz": "523734ebbb86f656ed64c96bc821baf370a9cb2294ac114f46f46ba0ea798940",
+    "sbir.jsonl.gz": "4dd9d3eb9bc560ce544e7ed3107c73511c00104902681cee749257e94b33dbd4"
+  }
+}

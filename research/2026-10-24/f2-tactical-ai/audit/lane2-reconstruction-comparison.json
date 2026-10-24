@@ -1,0 +1,60 @@
+{
+  "original_join_audit": {
+    "financial_rows_scanned": 712186,
+    "recipient_financial_rows_2024_on": 46087,
+    "broad_recipient_financial_rows_2024_on": 18741,
+    "exact_financial_rows": 53584,
+    "exact_financial_rows_2024_on": 17779,
+    "all_sbir_source_rows": 44584,
+    "all_sbir_distinct_normalized_piids": 25198,
+    "distinct_exact_matched_piids": 22653,
+    "distinct_potential_recipient_followon_piids": 8921,
+    "distinct_broad_recipient_followon_piids": 2809
+  },
+  "reconstructed_join_audit": {
+    "financial_rows_scanned": 712186,
+    "recipient_financial_rows_2024_on": 46087,
+    "broad_recipient_financial_rows_2024_on": 18741,
+    "exact_financial_rows": 53584,
+    "exact_financial_rows_2024_on": 17779,
+    "all_sbir_source_rows": 44584,
+    "all_sbir_distinct_normalized_piids": 25198,
+    "distinct_exact_matched_piids": 22653,
+    "distinct_potential_recipient_followon_piids": 9006,
+    "distinct_broad_recipient_followon_piids": 2834
+  },
+  "differing_join_counts": {
+    "distinct_broad_recipient_followon_piids": {
+      "original": 2809,
+      "reconstructed": 2834
+    },
+    "distinct_potential_recipient_followon_piids": {
+      "original": 8921,
+      "reconstructed": 9006
+    }
+  },
+  "bulk_hash_comparison": [
+    {
+      "file": "lane2/exact_piid_join.jsonl",
+      "bytes": 88922459,
+      "sha256": "4dfb102d95784c9918b13f958799fb130c4dc999951178911290d9cc1c454480",
+      "reason": "Large intermediate; reproducible from source hashes and supplied scripts, not an individually reviewed case list",
+      "restored_sha256": "4dfb102d95784c9918b13f958799fb130c4dc999951178911290d9cc1c454480",
+      "restored_bytes": 88922459,
+      "exact_match": true
+    },
+    {
+      "file": "lane2/recipient_potential_followons.jsonl",
+      "bytes": 100198873,
+      "sha256": "4bfd31c25382ea0d5e0ca225fa721d54bf6bd18443e9ec71ee6411dabd815348",
+      "reason": "Large intermediate; reproducible from source hashes and supplied scripts, not an individually reviewed case list",
+      "restored_sha256": "df27988fef602c49848b8798dc8a8359a22d7519c623d0643ea7f08d7e6ba650",
+      "restored_bytes": 100201928,
+      "exact_match": false
+    }
+  ],
+  "final_description_audit_identical_as_json": true,
+  "original_92_membership_comparison": "Unavailable: no original 92-row file, full award-summary file, or membership hash survives in the restored public package or retained functions store. Same final count and denominator do not establish identical membership. Exact number of changed high-score candidates is therefore unknown.",
+  "filter_unchanged": true,
+  "flags_not_adjusted_to_force_count": true
+}

@@ -1,0 +1,98 @@
+{
+  "piid": "HR0011269E197",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR0011269E197%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 3,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22HR0011269E197%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "HR0011269E197",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2026-06-04 00:00:00",
+      "effectiveDate": "2026-06-04 00:00:00",
+      "currentCompletionDate": "2026-11-03 00:00:00",
+      "ultimateCompletionDate": "2027-01-03 00:00:00",
+      "obligatedAmount": "242216.00",
+      "baseAndExercisedOptionsValue": "4903954.00",
+      "baseAndAllOptionsValue": "6373110.00",
+      "totalObligatedAmount": "4903954.00",
+      "totalBaseAndExercisedOptionsValue": "4903954.00",
+      "totalBaseAndAllOptionsValue": "6373110.00",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "descriptionOfContractRequirement": "GROUND-AIR UNMANNED NETWORKED TEAMING AND LETHAL EFFECTOR\nTECHNOLOGY (GAUNTLET)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "reason": null,
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HR0011269E197",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2026-06-16 00:00:00",
+      "effectiveDate": "2026-06-04 00:00:00",
+      "currentCompletionDate": "2026-11-03 00:00:00",
+      "ultimateCompletionDate": "2027-01-03 00:00:00",
+      "obligatedAmount": "3827229.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4903954.00",
+      "totalBaseAndExercisedOptionsValue": "4903954.00",
+      "totalBaseAndAllOptionsValue": "6373110.00",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "GROUND-AIR UNMANNED NETWORKED TEAMING AND LETHAL EFFECTOR TECHNOLOGY (GAUNTLET)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HR0011269E197",
+      "agencyID": "9700",
+      "modNumber": "P00002",
+      "signedDate": "2026-07-24 00:00:00",
+      "effectiveDate": "2026-06-04 00:00:00",
+      "currentCompletionDate": "2026-11-03 00:00:00",
+      "ultimateCompletionDate": "2027-01-03 00:00:00",
+      "obligatedAmount": "834509.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4903954.00",
+      "totalBaseAndExercisedOptionsValue": "6373110.00",
+      "totalBaseAndAllOptionsValue": "6373110.00",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "GROUND-AIR UNMANNED NETWORKED TEAMING AND LETHAL EFFECTOR TECHNOLOGY (GAUNTLET)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    }
+  ]
+}

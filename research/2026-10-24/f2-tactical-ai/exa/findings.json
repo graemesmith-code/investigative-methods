@@ -1,0 +1,739 @@
+{
+  "scope": "Public-source coverage and discovery review through 24 October 2026",
+  "accounting": {
+    "F2_requests": 104,
+    "F2_cost_usd": "0.728",
+    "prior_requests": 248,
+    "prior_cost_usd": "1.736",
+    "cumulative_requests": 352,
+    "cumulative_cost_usd": "2.464",
+    "uncertain_exposure": 0,
+    "failed_requests": 0,
+    "bytes": 29412,
+    "sha256": "905af9ad514b734f298c6a12d48b145104457d597d092214528817ce5ca0c020",
+    "query_ids": [
+      "249",
+      "352"
+    ],
+    "first_request_utc": "2026-10-24T16:24:20.573307+00:00",
+    "last_request_utc": "2026-10-24T16:42:57.253426+00:00",
+    "verification": "Transferred complete ledger decoded and SHA-256 verified locally; all 104 statuses success; $0.007 provider cost per row; no article bodies published"
+  },
+  "editorial_note": "Coverage is graded, not a binary veto. The coverage reviewer favored reserve status for Bullfrog; the final report retains it as a conditional procurement-and-acceptance dossier, not a new product scoop. OKSI is downgraded to historical boundary. Search absence never proves universal absence.",
+  "final_candidates": [
+    {
+      "search_case_id": "f2-c1",
+      "name": "Overland GAUNTLET / Fort Knox integration",
+      "strongest_located_coverage": "Primary exact-event disclosure",
+      "evidence_and_remaining_question": "The Army describes the October 2026 Fort Knox demonstration. Earlier Overland and Anduril teaming was public. Exact GAUNTLET work-package attribution and acceptance remain unresolved.",
+      "final_editorial_disposition": "WPN01 conditional main",
+      "sources": [
+        {
+          "url": "https://www.army.mil/article/296278/darpa_autonomous_vehicles_deliver_command_controlled_robotic_lethality_at_fort_knox_event",
+          "publication_date_when_verified": "2026-10-22",
+          "source_category": "Official test account"
+        },
+        {
+          "url": "https://www.overland.ai/news/anduril-overland-ai-coordinating-autonomous-effects-across-air-and-land",
+          "publication_date_when_verified": "2025-10-10",
+          "source_category": "Vendor account"
+        },
+        {
+          "url": "https://www.tectonicdefense.com/darpa-wraps-up-the-racer-autonomy-program/",
+          "publication_date_when_verified": "2026-01-15",
+          "source_category": "Substantive specialist interview"
+        },
+        {
+          "url": "https://www.govchime.com/market-intelligence/awards/CONT_AWD_HR0011269E197_97AE_-NONE-_-NONE-/",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c2",
+      "name": "Overland Marine MUGV / IBEX production",
+      "strongest_located_coverage": "Substantive specialist and regional technology reporting",
+      "evidence_and_remaining_question": "The official June announcement resolves MADIS and predecessor identity. DefenseScoop and GeekWire already cover the production transition. Conflicting financial fields remain separately typed.",
+      "final_editorial_disposition": "Context for WPN01; not a separate scoop",
+      "sources": [
+        {
+          "url": "https://www.war.gov/News/Contracts/Contract/Article/4528154/contracts-for-june-26-2026/",
+          "publication_date_when_verified": "2026-06-26",
+          "source_category": "Official award announcement"
+        },
+        {
+          "url": "https://defensescoop.com/2026/06/29/autonomous-ground-vehicle-marine-corps-overland-ai-contract/",
+          "publication_date_when_verified": "2026-06-29",
+          "source_category": "Substantive specialist interview"
+        },
+        {
+          "url": "https://www.axios.com/2026/10/07/overland-ibex-marine-corps-madis-autonomy",
+          "publication_date_when_verified": "2026-10-07",
+          "source_category": "Independent tech-policy reporting"
+        },
+        {
+          "url": "https://www.geekwire.com/2026/overland-ai-unveils-ibex-a-new-autonomous-ground-vehicle-selected-by-the-marine-corps/",
+          "publication_date_when_verified": "2026-10-08",
+          "source_category": "Regional technology reporting; company-attributed specs"
+        },
+        {
+          "url": "https://www.overland.ai/news/overland-ai-grows-apfit-contract-to-25m",
+          "publication_date_when_verified": "2026-10-06",
+          "source_category": "Vendor modification account"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c3",
+      "name": "EpiSci STRATFI heterogeneous autonomy",
+      "strongest_located_coverage": "Existing specialist flight and training coverage",
+      "evidence_and_remaining_question": "The STRATFI abstract names intended adaptations, not completed integration on every named aircraft. It is Phase II, distinct from the separately verified UAV-kit Phase III.",
+      "final_editorial_disposition": "RES03",
+      "sources": [
+        {
+          "url": "https://www.sbir.gov/awards/216103",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/episci-completes-operator-training-on-autonomy-products-for-afwerx-autonomy-prime-302132484.html",
+          "publication_date_when_verified": "2024-05-01",
+          "source_category": "Vendor syndicated release"
+        },
+        {
+          "url": "https://www.aviationtoday.com/2024/05/16/collaborative-autonomy-tested-in-episci-usaf-autonomy-prime-flights-may-2/",
+          "publication_date_when_verified": "2024-05-16",
+          "source_category": "Specialist reporting with company-attributed flights"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c4",
+      "name": "Primordial ADViCE / Anura",
+      "strongest_located_coverage": "Deep independent prior reporting",
+      "evidence_and_remaining_question": "Forbes and Defense News already examined voice-controlled drone demonstrations and recognition or feedback concerns. New contract-linked acceptance results would be required.",
+      "final_editorial_disposition": "OUT05",
+      "sources": [
+        {
+          "url": "https://www.sbir.gov/awards/218516",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.sbir.gov/awards/207181",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.forbes.com/sites/erictegler/2024/03/06/this-startup-figures-the-best-way-to-control-drones-is-talking-to-them/",
+          "publication_date_when_verified": "2024-03-06",
+          "source_category": "Substantive independent reporting"
+        },
+        {
+          "url": "https://www.defensenews.com/industry/techwatch/2025/03/04/voice-controlled-drones-a-military-game-changer-primordial-labs-says/",
+          "publication_date_when_verified": "2025-03-04",
+          "source_category": "Substantive independent observed demonstration"
+        },
+        {
+          "url": "https://defenseautonomyreview.com/articles/primordial-anura-vehicle-intent-control/",
+          "publication_date_when_verified": "2026-10-21",
+          "source_category": "Editorial analysis of teaming announcement"
+        },
+        {
+          "url": "https://www.highergov.com/contract/W5170124C0061/",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c5",
+      "name": "Gambit NEURON / CORTEX",
+      "strongest_located_coverage": "Government exact-trial account plus existing company coverage",
+      "evidence_and_remaining_question": "NPS names NEURON in captions and reports communications maintained under jamming. The captions describe tests, not a separate measured learning ablation. Company funding was already covered.",
+      "final_editorial_disposition": "WPN02 conditional main",
+      "sources": [
+        {
+          "url": "https://nps.edu/-/energizing-the-technology-of-tomorrow",
+          "publication_date_when_verified": "2026-09-30",
+          "source_category": "Official military field account"
+        },
+        {
+          "url": "https://www.sbir.gov/awards/216349",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.sbir.gov/awards/216352",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.gambit.us/news-and-blogs/pendleton-uas-range-andgambit-partner-to-deliver-red-force-as-a-service-for-counter-uas-testing-and-training",
+          "publication_date_when_verified": "2026-03-23",
+          "source_category": "Vendor partnership release"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c6",
+      "name": "Tiami PolyEdge / AiON C2",
+      "strongest_located_coverage": "Participant publicity and syndication for the exact integration",
+      "evidence_and_remaining_question": "PolyEdge tracks were displayed in AiON according to participants. No autonomous interception or exact model-to-prime-line-item bridge is established. The SEMPRE value is not Tiami funding.",
+      "final_editorial_disposition": "RES01",
+      "sources": [
+        {
+          "url": "https://tiaminetworks.com/polyedge-aion-c2-integration-courage-lethality-2026/",
+          "publication_date_when_verified": "2026-05-20",
+          "source_category": "Vendor release with partner quote"
+        },
+        {
+          "url": "https://apnews.com/press-release/ein-presswire-newsmatics/tiami-networks-demonstrates-polyedge-integration-with-northrop-grumman-aion-c2-system-during-courage-lethality-2026-adad6c868af8a07e4b88694d797b741b",
+          "publication_date_when_verified": "2026-05-20",
+          "source_category": "Syndicated vendor release"
+        },
+        {
+          "url": "https://www.sbir.gov/awards/215350",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.army.mil/article/291911/i_corps_validates_multi_domain_fires_during_operation_courage_lethality",
+          "publication_date_when_verified": "2026-04-22",
+          "source_category": "Official exercise account"
+        },
+        {
+          "url": "https://sempre.ai/news/sempre-announces-contract-with-afgsc-to-deliver-counter-uas-protection-with-partners-dedrone-by-axon-and-tiami-networks",
+          "publication_date_when_verified": "2026-01-28",
+          "source_category": "Vendor prime announcement"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c7",
+      "name": "Scout Fury Army contracts / UxS",
+      "strongest_located_coverage": "Substantial mainstream and specialist coverage",
+      "evidence_and_remaining_question": "WIRED covered the lethal demonstration; Breaking Defense covered the MRZR platform change. Exact government acceptance and the relationship to marketed demonstrations remain open.",
+      "final_editorial_disposition": "RES04",
+      "sources": [
+        {
+          "url": "https://www.wired.com/story/ai-lab-scout-ai-is-using-ai-agents-to-blow-things-up/",
+          "publication_date_when_verified": "2026-02-18",
+          "source_category": "Substantive mainstream technology reporting"
+        },
+        {
+          "url": "https://breakingdefense.com/2026/08/army-now-using-polaris-mrzr-for-uxs-program-official/",
+          "publication_date_when_verified": "2026-08-11",
+          "source_category": "Substantive specialist interview"
+        },
+        {
+          "url": "https://www.federalcompass.com/fed-contract-award/W5170125CA057",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        },
+        {
+          "url": "https://www.highergov.com/contract/W5170126CA024/",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c8",
+      "name": "DARPA AIR / VENOM autonomy kit",
+      "strongest_located_coverage": "Substantive specialist technical reporting",
+      "evidence_and_remaining_question": "June was checkout flying; July was successful autonomous flight. Aerospace America already explains realistic sensors and dynamics. Current AIR funding does not identify the flown agent.",
+      "final_editorial_disposition": "RES03",
+      "sources": [
+        {
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "publication_date_when_verified": "2026-07-16",
+          "source_category": "Official technical programme account"
+        },
+        {
+          "url": "https://afresearchlab.com/venom-program-progresses-to-piloted-flights-autonomy-tests/",
+          "publication_date_when_verified": "2026-07-16",
+          "source_category": "Official flight-test account"
+        },
+        {
+          "url": "https://aerospaceamerica.aiaa.org/new-test-campaign-will-put-ai-pilots-in-most-realistic-flight-conditions-yet-darpa-official-says/",
+          "publication_date_when_verified": "2026-07-22",
+          "source_category": "Substantive specialist interview"
+        },
+        {
+          "url": "https://www.defensenews.com/industry/techwatch/2026/07/20/air-force-begins-piloted-flights-autonomy-tests-for-modified-f-16s/",
+          "publication_date_when_verified": "2026-07-20",
+          "source_category": "Specialist reporting"
+        },
+        {
+          "url": "https://www.highergov.com/contract/HR001124C0356/",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c9",
+      "name": "Deepnight Army UAS low-light perception",
+      "strongest_located_coverage": "Specialist interview already covers base tests",
+      "evidence_and_remaining_question": "Shephard covered the Barksdale and Goldwater trials. Separate Army UAS objectives have not been shown to use the same configuration or achieve engagement capability.",
+      "final_editorial_disposition": "RES02",
+      "sources": [
+        {
+          "url": "https://www.sbir.gov/awards/215803",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://circleoptics.com/circle-optics-and-deepnight-deploy-integrated-counter-uas-capability-across-u-s-air-force-installations/",
+          "publication_date_when_verified": "2026-04-28",
+          "source_category": "Vendor deployment account"
+        },
+        {
+          "url": "https://www.shephardmedia.com/news/defence-notes/sof-week-2026-us-military-tests-ai-algorithm-to-support-missions-in-low-light-scenarios/",
+          "publication_date_when_verified": "2026-05-20",
+          "source_category": "Specialist journalist interview; partial access"
+        },
+        {
+          "url": "https://picogrid.com/newsroom/picogrid-and-deepnight-bring-ai-enabled-digital-night-vision-to-protect-critical-military-infrastructure",
+          "publication_date_when_verified": "2025-11-19",
+          "source_category": "Vendor related integration account"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c10",
+      "name": "Scientific Systems BLUE / next-generation Colosseum",
+      "strongest_located_coverage": "Primary technical and vendor disclosures with unresolved lineage",
+      "evidence_and_remaining_question": "BLUE funds a Colosseum evaluation effort. Rusty Dagger coordinated-arrival claims are not linked to this contract; inconsistent page and image dates remain unresolved.",
+      "final_editorial_disposition": "RES03",
+      "sources": [
+        {
+          "url": "https://sam.directory/contractors/scientific-systems-company-inc-c12tqvkf5413",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        },
+        {
+          "url": "https://fedspendmap.com/recipient/c12tqvkf5413-scientific-systems-company-inc/",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        },
+        {
+          "url": "https://www.jhuapl.edu/news/news-releases/211208-golden-horde-operation-protovision-first-competition-debuts-new-simulation-environment",
+          "publication_date_when_verified": "2021-12-08",
+          "source_category": "Primary research-lab account"
+        },
+        {
+          "url": "https://www.ssci.com/what-we-do/collaborative-weapons-autonomy/",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor capability/test claim"
+        },
+        {
+          "url": "https://www.ssci.com/news/zone-5-technologies-selects-scientific-systems-software-for-integration-in-new-enterprise-test-vehicle-etv/",
+          "publication_date_when_verified": "2025-03-04",
+          "source_category": "Vendor syndicated release"
+        },
+        {
+          "url": "https://www.ssci.com/news/scientific-systems-autonomy-software-successfully-demonstrates-improved-kill-chain-capabilities-at-project-convergence-capstone-5/",
+          "publication_date_when_verified": "2025-06-25",
+          "source_category": "Vendor field-demo account for distinct RAPTOR effort"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c11",
+      "name": "USAF autonomous swarm airfield repair: RMD / Charles River / GreenSight",
+      "strongest_located_coverage": "Primary funded objectives; operational learned result missing",
+      "evidence_and_remaining_question": "The airfield-repair awards do not demonstrate completed repair swarms or a modern learned mechanism. Separate NASA work is not military acceptance.",
+      "final_editorial_disposition": "OUT01",
+      "sources": [
+        {
+          "url": "https://www.sbir.gov/awards/209171",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.sbir.gov/awards/208874",
+          "publication_date_when_verified": null,
+          "source_category": "Official funded abstract"
+        },
+        {
+          "url": "https://www.highergov.com/contract/FA462524C0011/",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        },
+        {
+          "url": "https://greensightdefense.com/",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor R&D listing"
+        },
+        {
+          "url": "https://cra.com/aster-proven-autonomous-collaboration-for-multi-robot-swarms-now-ready-for-commercial-partners/",
+          "publication_date_when_verified": "2026-02-10",
+          "source_category": "Vendor account of separate NASA project"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c12",
+      "name": "Pacific Defense distributed autonomous cyber-EW common sensor platform",
+      "strongest_located_coverage": "Existing specialist architecture and award reporting",
+      "evidence_and_remaining_question": "The 2024 cyber-EW award has prior coverage. A named learned model on a physical tactical platform under this award remains unverified.",
+      "final_editorial_disposition": "OUT02",
+      "sources": [
+        {
+          "url": "https://www.war.gov/News/Contracts/Contract/Article/3685947/contracts-for-feb-23-2024/",
+          "publication_date_when_verified": "2024-02-23",
+          "source_category": "Official award announcement"
+        },
+        {
+          "url": "https://www.militaryaerospace.com/rf-analog/article/14305857/electromagnetic-warfare-electronic-warfare-ew-cyber-warfare",
+          "publication_date_when_verified": "2024-02-29",
+          "source_category": "Specialist contract-based article"
+        },
+        {
+          "url": "https://www.pacific-defense.com/press-releases/pacific-defense-awarded-usn-contract-to-advance-ai-and-ml-enabled-ew-systems-for-multi-mission-multi-platform-applications",
+          "publication_date_when_verified": "2024-03-04",
+          "source_category": "Vendor release"
+        },
+        {
+          "url": "https://www.pacific-defense.com/press-releases/pacific-defense-showcases-its-sosa/cmoss-equipped-demonstration-vehicle-ares-at-bold-quest-2023-camp-pendleton-ca",
+          "publication_date_when_verified": "2023-11-15",
+          "source_category": "Vendor earlier field-demo account"
+        },
+        {
+          "url": "https://www.pacific-defense.com/press-releases/pacific-defense-us-air-force-contract",
+          "publication_date_when_verified": "2026-08-31",
+          "source_category": "Vendor separate PhaseIII announcement"
+        }
+      ]
+    },
+    {
+      "search_case_id": "f2-c13",
+      "name": "Allen Control Systems Bullfrog",
+      "strongest_located_coverage": "Substantial mainstream and specialist prior reporting",
+      "evidence_and_remaining_question": "The public vendor paper reports 13 targets across ten sequences and nine hours of availability observation. Independent acceptance, outcomes by control mode and exact contract-to-test attribution remain open.",
+      "final_editorial_disposition": "WPN03 conditional main, not an unreported product",
+      "sources": [
+        {
+          "url": "https://saemobilus.sae.org/papers/bullfrog-ai-powered-counter-unmanned-aerial-system-2026-01-7519",
+          "publication_date_when_verified": "2026-09-22",
+          "source_category": "Vendor-authored technical paper abstract"
+        },
+        {
+          "url": "https://ndia-mich.org/2026%20tech%20papers/AR/11%2040%20AM%20-%20Bullfrog%20GVSETS26_ACS_Bullfrog%20CUAS_Final.pdf",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor-authored public manuscript"
+        },
+        {
+          "url": "https://www.wired.com/story/us-military-robot-drone-guns/",
+          "publication_date_when_verified": "2024-11-11",
+          "source_category": "Substantive mainstream technology reporting"
+        },
+        {
+          "url": "https://www.tectonicdefense.com/exclusive-allen-control-systems-to-demo-bullfrog-for-the-jco/",
+          "publication_date_when_verified": "2025-03-06",
+          "source_category": "Substantive specialist company interview"
+        },
+        {
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/weapons/us-army-to-test-c-uas-auto-turret-for-combat-vehicles",
+          "publication_date_when_verified": "2025-12-17",
+          "source_category": "Substantive specialist executive interview"
+        },
+        {
+          "url": "https://www.federalcompass.com/fed-contract-award/W911NF25CA031",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        }
+      ],
+      "public_vendor_test_denominator": {
+        "source_url": "https://ndia-mich.org/2026%20tech%20papers/AR/11%2040%20AM%20-%20Bullfrog%20GVSETS26_ACS_Bullfrog%20CUAS_Final.pdf",
+        "sections": "3.1 to 3.3",
+        "test_dates": "4 to 12 December 2025",
+        "targets": 13,
+        "sequences": 10,
+        "reported_defeats": 13,
+        "availability_observation_hours": 9,
+        "reported_availability_percent": 99.45,
+        "source_access": "Public indexed manuscript sections inspected; direct download returned 406; no independent raw-data validation",
+        "limits": "Vendor-authored test; no accepted operational result or control-mode-specific denominator established"
+      }
+    },
+    {
+      "search_case_id": "f2-c14",
+      "name": "OKSI / AimLock neural ATR weapon integration",
+      "strongest_located_coverage": "Independent policy research and broader mainstream coverage",
+      "evidence_and_remaining_question": "CSET covered the underlying award in 2023. Older AimLock publicity predates current AI. The $4.25 million Phase III identifier and accepted deliverables are unresolved; the 2024 publication does not date the test.",
+      "final_editorial_disposition": "HB01 historical boundary, not current transition",
+      "sources": [
+        {
+          "url": "https://media.defense.gov/2024/Mar/18/2003415107/-1/-1/0/OKSI_v2.PDF",
+          "publication_date_when_verified": "2024-03-18",
+          "source_category": "Government success sheet; indexed primary text reviewed"
+        },
+        {
+          "url": "https://cset.georgetown.edu/wp-content/uploads/CSET-U.S.-and-Chinese-Military-AI-Purchases-1.pdf",
+          "publication_date_when_verified": "2023-08-15",
+          "source_category": "Independent policy research"
+        },
+        {
+          "url": "https://ruleoftwo.io/contract/W15QKN20C0025-034cf3bb",
+          "publication_date_when_verified": null,
+          "source_category": "Contract aggregator"
+        },
+        {
+          "url": "https://www.army.mil/article/198989/automatic_targeting_system_sets_sights_on_improving_hit_probability",
+          "publication_date_when_verified": "2018-01-11",
+          "source_category": "Official earlier system account"
+        },
+        {
+          "url": "https://www.armytimes.com/news/your-army/2018/01/18/aiming-identifying-targets-this-system-will-do-everything-but-pull-the-trigger/",
+          "publication_date_when_verified": "2018-01-18",
+          "source_category": "Earlier military press coverage"
+        },
+        {
+          "url": "https://www.businessinsider.com/us-company-focused-on-rifle-accuracy-now-counter-drone-fight-2025-5",
+          "publication_date_when_verified": "2025-05-10",
+          "source_category": "Substantive mainstream company interview"
+        },
+        {
+          "url": "https://www.sbir.gov/awards/208863",
+          "publication_date_when_verified": null,
+          "source_category": "Official distinct funded abstract"
+        }
+      ]
+    }
+  ],
+  "lane4_discovery": [
+    {
+      "id": "F2D01",
+      "name": "Pacific Defense iCMOSS2",
+      "disposition": "Not promoted independently",
+      "reason": "The May iCMOSS2 announcement prints N0001425C1110, but primary records identify that PIID as Moebius. Pacific Defense N0001425C1115 is a separate June 2025 Sanctuary award, not a proven correction. The announcement mismatch remains unresolved; no amount is reassigned.",
+      "sources": [
+        {
+          "url": "https://www.war.gov/News/Contracts/Contract/Article/4180309/contracts-for-may-9-2025/",
+          "publication_date_when_verified": "2025-05-09",
+          "source_category": "Official award announcement"
+        },
+        {
+          "url": "https://www.pacific-defense.com/press-releases/ew/cmoss-aiml",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor release"
+        },
+        {
+          "url": "https://militaryembedded.com/ai/cognitive-ew/aiml-enabled-electronic-warfare-systems-to-be-developed-for-us-navy",
+          "publication_date_when_verified": "2025-06-18",
+          "source_category": "Specialist release-based digest"
+        },
+        {
+          "url": "https://www.highergov.com/contract/N0001425C1110/",
+          "publication_date_when_verified": null,
+          "source_category": "Aggregator conflicting attribution"
+        }
+      ]
+    },
+    {
+      "id": "F2D02",
+      "name": "ANDRO RF HAWK",
+      "disposition": "Not promoted independently",
+      "reason": "Vendor reports a roughly $1 million Army Applications Laboratory prototype. Exact award-to-payload lineage and independent outcomes were not established. Local same-recipient awards do not fill that gap.",
+      "sources": [
+        {
+          "url": "https://www.androcs.com/wp/2025/03/andro-awarded-army-contract-for-electromagnetic-sensing-payload/",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor release"
+        },
+        {
+          "url": "https://www.romesentinel.com/news/rome-andro-army-contract-rfhawk/article_a10800c7-7d63-47b4-8ce4-f5f63775639c.html",
+          "publication_date_when_verified": "2025-04-02",
+          "source_category": "Local newspaper reporting; full article unavailable for depth assessment"
+        }
+      ]
+    },
+    {
+      "id": "F2D03",
+      "name": "Overland heavy truck breaching",
+      "disposition": "Not promoted independently",
+      "reason": "Exact N6833526C1060 announcement says Phase II, six trucks and an October 2027 target. The headline and component funding lines differ by one dollar. No completed six-truck acceptance is established.",
+      "sources": [
+        {
+          "url": "https://envzone.com/award-record/overland-ai-wins-14-3m-contract-for-autonomous-breaching-vehicle-capability/",
+          "publication_date_when_verified": "2026-08-18",
+          "source_category": "Contract digest"
+        },
+        {
+          "url": "https://www.overland.ai/news/overland-ai-awarded-14-million-contract-to-automate-the-breach",
+          "publication_date_when_verified": "2026-09-11",
+          "source_category": "Vendor release"
+        },
+        {
+          "url": "https://www.tectonicdefense.com/overland-led-team-scores-20m-contract-for-eabc/",
+          "publication_date_when_verified": "2026-09-09",
+          "source_category": "Specialist reporting of a separate EABC award"
+        }
+      ]
+    },
+    {
+      "id": "F2D04",
+      "name": "Overland Marine production",
+      "disposition": "Not promoted independently",
+      "reason": "Primary follow-on and MADIS purpose are established; production transition already has substantial reporting. Later exact financial audit supersedes preliminary discovery uncertainty.",
+      "sources": [
+        {
+          "url": "https://defensescoop.com/2026/06/29/autonomous-ground-vehicle-marine-corps-overland-ai-contract/",
+          "publication_date_when_verified": "2026-06-29",
+          "source_category": "Substantive specialist interview"
+        },
+        {
+          "url": "https://www.overland.ai/news/overland-ai-is-the-first-ground-autonomy-company-to-prime-a-production-award",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor primary account"
+        },
+        {
+          "url": "https://www.overland.ai/news/overland-ai-grows-apfit-contract-to-25m",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor modification account"
+        }
+      ]
+    },
+    {
+      "id": "F2D05",
+      "name": "Oshkosh and Forterra ROGUE Fires",
+      "disposition": "Not promoted independently",
+      "reason": "Production and integration announcements are already specialist-covered. Multiple autonomy trials do not prove which learned software entered a particular delivery order.",
+      "sources": [
+        {
+          "url": "https://oshkoshdefense.com/u-s-marine-corps-expands-autonomous-fires-capability-with-oshkosh-defense-rogue-fires-block-2-award/",
+          "publication_date_when_verified": "2026-06-01",
+          "source_category": "Vendor release"
+        },
+        {
+          "url": "https://www.forterra.com/posts/forterra-and-oshkosh-defense-to-deliver-first-production-contract-for-ground-vehicle-autonomy",
+          "publication_date_when_verified": "2025-01-13",
+          "source_category": "Vendor release"
+        },
+        {
+          "url": "https://insidedefense.com/insider/rogue-fires-receive-self-driving-capability-under-new-30-million-award",
+          "publication_date_when_verified": "2025-01-13",
+          "source_category": "Specialist report"
+        },
+        {
+          "url": "https://www.axios.com/2026/02/11/kodiak-ai-marine-rogue-fires",
+          "publication_date_when_verified": "2026-02-11",
+          "source_category": "Reported technology story about a supplier trial"
+        }
+      ]
+    },
+    {
+      "id": "F2D06",
+      "name": "Fortem DroneHunter and Replicator 2",
+      "disposition": "Not promoted independently",
+      "reason": "An official account describes a two-system acquisition with expected delivery. The exact order value and delivery acceptance were not resolved; unrelated Fortem awards are not substituted.",
+      "sources": [
+        {
+          "url": "https://www.army.mil/article/289979/joint_interagency_task_force_announces_first_replicator_2_purchase_to_counter_homeland_drone_threats",
+          "publication_date_when_verified": "2026-01-14",
+          "source_category": "Official military account"
+        },
+        {
+          "url": "https://insidedefense.com/daily-news/jiatf-401-awards-contract-fortem-technologies-kick-replicator-2",
+          "publication_date_when_verified": "2026-01-13",
+          "source_category": "Specialist announcement reporting"
+        }
+      ]
+    },
+    {
+      "id": "F2D07",
+      "name": "Seasats Lightfish",
+      "disposition": "Not promoted independently",
+      "reason": "APFIT selection and a reported Phase III ceiling are not summed as obligations. N0002425C6260 belongs to General Dynamics Mission Systems, not Seasats. Learned mechanism and exact accepted configuration remain unresolved.",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/seasats-awarded-24m-in-department-of-war-apfit-funding-to-accelerate-fielding-of-its-autonomous-surface-vessels-302662524.html",
+          "publication_date_when_verified": "2026-01-15",
+          "source_category": "Vendor syndicated release"
+        },
+        {
+          "url": "https://www.navy.mil/DesktopModules/ArticleCS/Print.aspx?Article=4288613&ModuleId=4201&PortalId=1",
+          "publication_date_when_verified": null,
+          "source_category": "Official Navy fact sheet"
+        }
+      ]
+    },
+    {
+      "id": "F2D08",
+      "name": "Seatrec thermal powered profiler",
+      "disposition": "Not promoted independently",
+      "reason": "APFIT selection and reported endurance trials are meaningful ocean-robotics evidence, but the learned payload and exact current procurement bridge were not verified.",
+      "sources": [
+        {
+          "url": "https://seatrec.com/tag/psap/",
+          "publication_date_when_verified": null,
+          "source_category": "Vendor primary-source compilation"
+        },
+        {
+          "url": "https://www.war.gov/News/Releases/Release/Article/4544621/department-of-war-issues-final-fy26-apfit-awards-surpassing-2-billion-milestone/",
+          "publication_date_when_verified": "2026-07-14",
+          "source_category": "Official APFIT selection announcement"
+        }
+      ]
+    },
+    {
+      "id": "F2D09",
+      "name": "Shield AI on BQM 177A",
+      "disposition": "Not promoted independently",
+      "reason": "NAVAIR documents an August 2025 physical test; Janes already reported it. Later simultaneous multi-aircraft tests were planned, not assumed completed. Exact procurement-to-software linkage remains open.",
+      "sources": [
+        {
+          "url": "https://www.navair.navy.mil/news/Navy-demonstrates-AI-autonomy-BQM-177A-target/Mon-09222025-1208",
+          "publication_date_when_verified": "2025-09-22",
+          "source_category": "Official test account"
+        },
+        {
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/usn-demonstrates-ai-autonomy-on-bqm-177a-subsonic-target",
+          "publication_date_when_verified": "2025-09-24",
+          "source_category": "Specialist coverage"
+        }
+      ]
+    },
+    {
+      "id": "F2D10",
+      "name": "Army integrated EW and autonomous breaching",
+      "disposition": "Not promoted independently",
+      "reason": "Official field accounts describe real experiments. These are separate programmes, not one contract, and exact supplier or model lineage is incomplete.",
+      "sources": [
+        {
+          "url": "https://www.army.mil/article/296023/army_combines_c5isr_developed_technologies_to_advance_ew_counter_measure_capabilities",
+          "publication_date_when_verified": "2026-10-08",
+          "source_category": "Official field-test account"
+        },
+        {
+          "url": "https://www.army.mil/article/290196/autonomous_breaching_system_will_surpass_legacy_systems_to_enhance_breaching_operations",
+          "publication_date_when_verified": "2026-01-27",
+          "source_category": "Official R&D/test account"
+        }
+      ]
+    }
+  ],
+  "lane4_context": {
+    "AUTOWARCOM": "Organizational announcements and future milestones are not executed hardware procurement.",
+    "RDER": "A July 2025 specialist headline reports termination or service transfer; no primary termination document was verified in this pass, so ongoing 2026 status was not presumed.",
+    "Replicator": "Known programme publicity does not establish a new contract, delivered system or modern learned mechanism.",
+    "solicitations": "W56KGY-26-R-0099 and DON26TZ05-NV023 are solicitation or topic identifiers, not executed awards."
+  },
+  "source_transfer": {
+    "original_compact_bytes": 46882,
+    "original_compact_sha256": "3829225c17ce5049054f94194ec7a4629f2dee48fef1a4f32044e2368ae7ce22",
+    "verification": "Complete three-part payload decoded and SHA-256 checked locally",
+    "public_export": "Rewritten into readable prose and updated with later primary identity checks; full article bodies and large hit index omitted. This public export has its own manifest hash."
+  },
+  "limitations": [
+    "No full commercial article bodies are published.",
+    "Some direct sources failed while public indexed text was available; no access controls were bypassed.",
+    "The remote 914-result index is not included in this local public package; all 104 exact query logs and response hashes are included.",
+    "No new paid calls were made for transfer or packaging."
+  ],
+  "classification_note": "Source categories preserve article-level review descriptions, including release-based specialist pieces and company-attributed interviews. An interview about a vendor is not relabeled vendor publicity. Publication on a wire-service press-release page is not relabeled independent journalism."
+}

@@ -1,0 +1,113 @@
+{
+  "piid": "FA228025C0010",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA228025C0010%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 2,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22FA228025C0010%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "FA228025C0010",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2025-09-26 00:00:00",
+      "effectiveDate": "2025-09-30 00:00:00",
+      "currentCompletionDate": "2026-10-15 00:00:00",
+      "ultimateCompletionDate": "2026-10-15 00:00:00",
+      "obligatedAmount": "4725000.00",
+      "baseAndExercisedOptionsValue": "4725000.00",
+      "baseAndAllOptionsValue": "4725000.00",
+      "totalObligatedAmount": "4725000.00",
+      "totalBaseAndExercisedOptionsValue": "4725000.00",
+      "totalBaseAndAllOptionsValue": "4725000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "descriptionOfContractRequirement": "EPISYS UNMANNED AERIAL VEHICLE KITS SMALL BUSINESS INNOVATION RESEARCH PHASE III",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FTBS",
+      "extentCompeted": "B",
+      "solicitationProcedures": "SSS",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "reason": null,
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FTBS AFLCMC WF AFSAC"
+        }
+      }
+    },
+    {
+      "PIID": "FA228025C0010",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2026-02-11 00:00:00",
+      "effectiveDate": "2025-09-30 00:00:00",
+      "currentCompletionDate": "2026-10-15 00:00:00",
+      "ultimateCompletionDate": "2026-10-15 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4725000.00",
+      "totalBaseAndExercisedOptionsValue": "4725000.00",
+      "totalBaseAndAllOptionsValue": "4725000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "reasonForModification": "D",
+      "descriptionOfContractRequirement": "EPISYS UAV KITS SBIR PH III",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FTBS",
+      "extentCompeted": "B",
+      "solicitationProcedures": "SSS",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "reason": {
+        "description": "CHANGE ORDER"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FTBS AFLCMC WF AFSAC"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "piid": "HQ08452390066",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HQ08452390066%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 6,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22HQ08452390066%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "HQ08452390066",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2023-09-12 00:00:00",
+      "effectiveDate": "2023-09-12 00:00:00",
+      "currentCompletionDate": "2025-09-12 00:00:00",
+      "ultimateCompletionDate": "2025-09-12 00:00:00",
+      "obligatedAmount": "1538336.00",
+      "baseAndExercisedOptionsValue": "1538336.00",
+      "baseAndAllOptionsValue": "18607169.00",
+      "totalObligatedAmount": "6262295.57",
+      "totalBaseAndExercisedOptionsValue": "6262295.57",
+      "totalBaseAndAllOptionsValue": "20191846.57",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "descriptionOfContractRequirement": "GROUND VEHICLE AUTONOMOUS PATHWAYS II",
+      "contractingOfficeAgencyID": "97AD",
+      "contractingOfficeID": "HQ0845",
+      "fundingRequestingAgencyID": "2100",
+      "fundingRequestingOfficeID": "W50ZDM",
+      "reason": null,
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HQ08452390066",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2023-10-23 00:00:00",
+      "effectiveDate": "2023-09-12 00:00:00",
+      "currentCompletionDate": "2025-09-12 00:00:00",
+      "ultimateCompletionDate": "2025-09-12 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "6262295.57",
+      "totalBaseAndExercisedOptionsValue": "6262295.57",
+      "totalBaseAndAllOptionsValue": "20191846.57",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "GROUND VEHICLE AUTONOMOUS PATHWAYS II",
+      "contractingOfficeAgencyID": "97AD",
+      "contractingOfficeID": "HQ0845",
+      "fundingRequestingAgencyID": "2100",
+      "fundingRequestingOfficeID": "W50ZDM",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HQ08452390066",
+      "agencyID": "9700",
+      "modNumber": "P00002",
+      "signedDate": "2024-01-18 00:00:00",
+      "effectiveDate": "2023-09-12 00:00:00",
+      "currentCompletionDate": "2025-09-12 00:00:00",
+      "ultimateCompletionDate": "2025-09-12 00:00:00",
+      "obligatedAmount": "2919282.00",
+      "baseAndExercisedOptionsValue": "2919282.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "6262295.57",
+      "totalBaseAndExercisedOptionsValue": "6262295.57",
+      "totalBaseAndAllOptionsValue": "20191846.57",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "G",
+      "descriptionOfContractRequirement": "GROUND VEHICLE AUTONOMOUS PATHWAYS II",
+      "contractingOfficeAgencyID": "97AD",
+      "contractingOfficeID": "HQ0845",
+      "fundingRequestingAgencyID": "2100",
+      "fundingRequestingOfficeID": "W50ZDM",
+      "reason": {
+        "description": "EXERCISE AN OPTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HQ08452390066",
+      "agencyID": "9700",
+      "modNumber": "P00003",
+      "signedDate": "2024-08-20 00:00:00",
+      "effectiveDate": "2023-09-12 00:00:00",
+      "currentCompletionDate": "2025-09-12 00:00:00",
+      "ultimateCompletionDate": "2025-09-12 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "6262295.57",
+      "totalBaseAndExercisedOptionsValue": "6262295.57",
+      "totalBaseAndAllOptionsValue": "20191846.57",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "B",
+      "descriptionOfContractRequirement": "GROUND VEHICLE AUTONOMOUS PATHWAYS II",
+      "contractingOfficeAgencyID": "97AD",
+      "contractingOfficeID": "HQ0845",
+      "fundingRequestingAgencyID": "2100",
+      "fundingRequestingOfficeID": "W50ZDM",
+      "reason": {
+        "description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HQ08452390066",
+      "agencyID": "9700",
+      "modNumber": "P00004",
+      "signedDate": "2024-12-18 00:00:00",
+      "effectiveDate": "2023-09-12 00:00:00",
+      "currentCompletionDate": "2025-09-30 00:00:00",
+      "ultimateCompletionDate": "2025-09-30 00:00:00",
+      "obligatedAmount": "220000.00",
+      "baseAndExercisedOptionsValue": "220000.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4677618.00",
+      "totalBaseAndExercisedOptionsValue": "4677618.00",
+      "totalBaseAndAllOptionsValue": "18607169.00",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "B",
+      "descriptionOfContractRequirement": "GROUND VEHICLE AUTONOMOUS PATHWAYS II",
+      "contractingOfficeAgencyID": "97AD",
+      "contractingOfficeID": "HQ0845",
+      "fundingRequestingAgencyID": "2100",
+      "fundingRequestingOfficeID": "WK4B9S",
+      "reason": {
+        "description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "HQ08452390066",
+      "agencyID": "9700",
+      "modNumber": "P00005",
+      "signedDate": "2025-09-26 00:00:00",
+      "effectiveDate": "2023-09-12 00:00:00",
+      "currentCompletionDate": "2026-04-30 00:00:00",
+      "ultimateCompletionDate": "2026-09-11 00:00:00",
+      "obligatedAmount": "1584677.57",
+      "baseAndExercisedOptionsValue": "1584677.57",
+      "baseAndAllOptionsValue": "1584677.57",
+      "totalObligatedAmount": "6262295.57",
+      "totalBaseAndExercisedOptionsValue": "6262295.57",
+      "totalBaseAndAllOptionsValue": "20191846.57",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "B",
+      "descriptionOfContractRequirement": "GROUND VEHICLE AUTONOMOUS PATHWAYS (GVAP) 2",
+      "contractingOfficeAgencyID": "97AD",
+      "contractingOfficeID": "HQ0845",
+      "fundingRequestingAgencyID": "2100",
+      "fundingRequestingOfficeID": "WK4B9S",
+      "reason": {
+        "description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    }
+  ]
+}

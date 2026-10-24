@@ -1,0 +1,71 @@
+{
+  "method": "All rows parsed; regex across all available title, text, text_page_excerpt and entity_name fields. Triage score is a discovery aid, not an inclusion decision. Assistance descriptions are often title-only, not full technical abstracts. Opportunity rows are funding intent, not award proof. Budget values never treated as obligations.",
+  "patterns": {
+    "flagship": "\\b(RACER|ANSR|LINC|TIAMAT|MANTA RAY|DCIST|NOMARS|SEA TRAIN|REMA|ALPHAICE|VENOM)\\b|air combat evolution|artificial intelligence.{0,6}reinforcements|control of revolutionary aircraft|robotic autonomy in complex|assured neuro.?symbolic|learning introspective control|transfer from imprecise|collaborative operations in denied|offensive swarm|aircrew labor in.cockpit automation|OFFSET.{0,10}swarm",
+    "ai": "\\bAI\\b|artificial intelligence|machine learning|deep learning|reinforcement learning|neural|learned|learning|autonom|robot|unmanned|uncrewed|swarm",
+    "physical": "vehicle|aircraft|drone|ground|maritime|underwater|undersea|weapon|munition|seeker|missile|target recognition|breach|minefield|fire control|combat|tactical|electronic warfare|counter.?uas|counter.?uav|flight|maneuver|manoeuv",
+    "transition": "transition|prototype|demonstrat|experiment|field.test|flight.test|testbed|integrat|phase iii|phase 3|manufactur|deploy|production|operational",
+    "vendor": "overland|episy?sci|episys|physicsai|heron systems|shield ai|scientific systems|aurora flight|raytheon|lockheed|northrop|anduril|forterra|dual.?ity|applied intuition|textron|leidos|general atomics|calspan|saronic|peraton|soartech|soar technology"
+  },
+  "files": {
+    "darpa_pb2025_programs.jsonl.gz": {
+      "counts": {
+        "rows": 256,
+        "flagship_matches": 11,
+        "ai_matches": 71,
+        "physical_matches": 88,
+        "transition_matches": 188,
+        "vendor_matches": 0,
+        "broad_matches": 38,
+        "prioritized_matches": 35,
+        "unique_award_or_document_keys": 256
+      },
+      "compressed_sha256": "617eeeab868762d1cb61b3e692c69acb19c8d1a298da70ab3412f5c5f701903e",
+      "matches_file": "lane3/darpa_pb2025_programs_matches.jsonl"
+    },
+    "grants.jsonl.gz": {
+      "counts": {
+        "rows": 3283,
+        "flagship_matches": 7,
+        "ai_matches": 488,
+        "physical_matches": 896,
+        "transition_matches": 1688,
+        "vendor_matches": 2,
+        "broad_matches": 206,
+        "prioritized_matches": 152,
+        "unique_award_or_document_keys": 3283
+      },
+      "compressed_sha256": "6c5e6a1f10a70f19f6f23e12cf2f2532b89fe7f5d487ab90d2b9f25ece91be88",
+      "matches_file": "lane3/grants_matches.jsonl"
+    },
+    "usaspending_dod_research_grants.jsonl.gz": {
+      "counts": {
+        "rows": 88273,
+        "flagship_matches": 26,
+        "ai_matches": 10463,
+        "physical_matches": 4179,
+        "transition_matches": 9479,
+        "vendor_matches": 134,
+        "broad_matches": 1181,
+        "prioritized_matches": 152,
+        "unique_award_or_document_keys": 23955
+      },
+      "compressed_sha256": "7f046eb480f076cd84ff79a9eb426a22442099c187ffc6c42c12eac170ff8a89",
+      "matches_file": "lane3/usaspending_dod_research_grants_matches.jsonl"
+    }
+  },
+  "ai_assisted_source_review": {
+    "darpa_title_count": 38,
+    "darpa_full_excerpts": 18,
+    "opportunities_title_count": 152,
+    "opportunities_full_text": 7,
+    "assistance_unique_title_count": 214,
+    "assistance_initial_title_count": 213,
+    "assistance_final_correction_title_count": 1,
+    "assistance_full_awards": 5,
+    "assistance_full_transaction_rows": 13,
+    "external_dossiers": "See lane3_findings.md and selection_register.tsv; source scope and limitations stated per case."
+  },
+  "assistance_unique_broad_awards": 341,
+  "assistance_unique_priority_awards": 47
+}

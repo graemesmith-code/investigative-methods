@@ -1,0 +1,143 @@
+[
+  {
+    "candidate": "Gambit NEURON/CORTEX",
+    "piids": [
+      "FA864925P0453",
+      "FA864925P0493",
+      "FA864925P0087",
+      "FA864925P0190"
+    ],
+    "decision": "main candidate",
+    "grade": "Plausible Prototype Enabler",
+    "reason": "NEURON explicitly named in NPS flight captions; RL autonomy credible but test contribution not isolated."
+  },
+  {
+    "candidate": "EpiSci Tactical AI / UAV kits",
+    "piids": [
+      "FA228025C0002",
+      "FA228025C0010",
+      "FA865123CB002"
+    ],
+    "decision": "reserve / precise procurement question",
+    "grade": "Plausible Prototype Enabler for broader stack",
+    "reason": "Named maritime integration; particular Phase III kit and munition acceptance unverified."
+  },
+  {
+    "candidate": "Rhoman / Firestorm",
+    "piids": [
+      "FA864924P1112",
+      "FA864926P0005"
+    ],
+    "decision": "reserve",
+    "grade": "Plausible Prototype Enabler",
+    "reason": "Named hardware and field data collection; closed-loop navigation performance not established."
+  },
+  {
+    "candidate": "SSCI Blue AI / Colosseum",
+    "piids": [
+      "FA865925CB002",
+      "FA865124CB024"
+    ],
+    "decision": "reserve / precise procurement question",
+    "grade": "Unresolved for exact transition",
+    "reason": "No contract-to-Rusty-Dagger link or particular learned mechanism; no main promotion."
+  },
+  {
+    "candidate": "Primordial Anura",
+    "piids": [
+      "H92405259E002",
+      "H92405239P004",
+      "W5170125CA138",
+      "W5170126CA118",
+      "W911W626CA001",
+      "W912CG26PA010"
+    ],
+    "decision": "low-priority reserve / novelty boundary",
+    "grade": "Plausible Prototype Enabler",
+    "reason": "Physical drone voice control; prior deep coverage; OTA primary obligations unresolved."
+  },
+  {
+    "candidate": "Autonodyne",
+    "piids": [
+      "FA864920C0036"
+    ],
+    "decision": "ruled out",
+    "grade": "Marketing / Unproven as modern learned AI",
+    "reason": "Petri Net behavior composition not demonstrated learned mechanism."
+  },
+  {
+    "candidate": "Vivum",
+    "piids": [
+      "N0001424C1333"
+    ],
+    "decision": "boundary",
+    "grade": "Plausible research only",
+    "reason": "Named hardware plans, no verified realized field trial."
+  },
+  {
+    "candidate": "Cenith PATH",
+    "piids": [
+      "W5170125CA259"
+    ],
+    "decision": "ruled out",
+    "grade": "Unproven operational integration",
+    "reason": "Learning mechanism but no named integrated vehicle test found."
+  },
+  {
+    "candidate": "Attollo",
+    "piids": [
+      "FA865124CB007",
+      "FA865125CB028"
+    ],
+    "decision": "ruled out",
+    "grade": "Unproven causal AI",
+    "reason": "GPU/seeker hardware does not prove learned weapon function."
+  },
+  {
+    "candidate": "Ombra RavenStrike",
+    "piids": [
+      "FA864925P0380"
+    ],
+    "decision": "ruled out",
+    "grade": "Unproven operational integration",
+    "reason": "No named realized hardware/test results located."
+  },
+  {
+    "candidate": "Toyon DEWL / SEAMTP",
+    "piids": [
+      "FA865621C0108",
+      "FA865621C0113"
+    ],
+    "decision": "ruled out",
+    "grade": "Upstream in reviewed evidence",
+    "reason": "No verified 2024\u20132026 physical transition."
+  },
+  {
+    "candidate": "Unmanned Experts",
+    "piids": [
+      "FA865822CB006",
+      "FA864924P0981"
+    ],
+    "decision": "ruled out",
+    "grade": "Upstream in reviewed evidence",
+    "reason": "Proposed physical test is not a result."
+  },
+  {
+    "candidate": "STRATIN DEMINSW",
+    "piids": [
+      "W911NF24C0073"
+    ],
+    "decision": "ruled out",
+    "grade": "Unproven AI mechanism",
+    "reason": "Physical breach programme does not itself establish learned AI."
+  },
+  {
+    "candidate": "RDRTEC",
+    "piids": [
+      "N6833525C0110"
+    ],
+    "decision": "ruled out",
+    "grade": "Unproven causal AI",
+    "reason": "Cannot credit proposed ML with earlier physics-based baseline performance."
+  }
+]

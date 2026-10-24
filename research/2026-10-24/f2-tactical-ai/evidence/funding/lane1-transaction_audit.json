@@ -1,0 +1,188 @@
+[
+  {
+    "award_id": "W911NF25CA031",
+    "pages": [
+      {
+        "url": "https://api.usaspending.gov/api/v2/transactions/",
+        "method": "POST",
+        "body": {
+          "award_id": 353910434,
+          "limit": 100,
+          "page": 1,
+          "sort": "action_date",
+          "order": "desc"
+        },
+        "status": 200,
+        "retrieved_utc": "2026-10-24T16:43:47.586099+00:00",
+        "sha256": "e57ea47252655fb8efdb4fd174301f87235e5fbbdd2a6951f99b42db30e79b6d",
+        "bytes": 498,
+        "file": "W911NF25CA031_transactions_page1.json"
+      }
+    ],
+    "live_count": 1,
+    "live_net_cents": 155155353,
+    "live_latest_action": "2025-09-25",
+    "archive": {
+      "count": 1,
+      "net_cents": 155155353,
+      "latest_action": "2025-09-25"
+    },
+    "live_archive_net_match": true,
+    "live_archive_count_match": true
+  },
+  {
+    "award_id": "W5170126CA031",
+    "pages": [
+      {
+        "url": "https://api.usaspending.gov/api/v2/transactions/",
+        "method": "POST",
+        "body": {
+          "award_id": 357463698,
+          "limit": 100,
+          "page": 1,
+          "sort": "action_date",
+          "order": "desc"
+        },
+        "status": 200,
+        "retrieved_utc": "2026-10-24T16:43:47.586989+00:00",
+        "sha256": "7567523542dd093e9f73e2d6edc7028daa8252ece9944e6281931d61d3210ed4",
+        "bytes": 883,
+        "file": "W5170126CA031_transactions_page1.json"
+      }
+    ],
+    "live_count": 2,
+    "live_net_cents": 199373542,
+    "live_latest_action": "2026-06-15",
+    "archive": {
+      "count": 2,
+      "net_cents": 199373542,
+      "latest_action": "2026-06-15"
+    },
+    "live_archive_net_match": true,
+    "live_archive_count_match": true
+  },
+  {
+    "award_id": "W15QKN20C0025",
+    "pages": [
+      {
+        "url": "https://api.usaspending.gov/api/v2/transactions/",
+        "method": "POST",
+        "body": {
+          "award_id": 348860614,
+          "limit": 100,
+          "page": 1,
+          "sort": "action_date",
+          "order": "desc"
+        },
+        "status": 200,
+        "retrieved_utc": "2026-10-24T16:43:47.587737+00:00",
+        "sha256": "dd82f6f32e8a633cfe698a1ab452f885ed55d4c46c7b78414a8c657a0635aff8",
+        "bytes": 2326,
+        "file": "W15QKN20C0025_transactions_page1.json"
+      }
+    ],
+    "live_count": 5,
+    "live_net_cents": 149999967,
+    "live_latest_action": "2021-12-07",
+    "archive": {
+      "count": 5,
+      "net_cents": 149999967,
+      "latest_action": "2021-12-07"
+    },
+    "live_archive_net_match": true,
+    "live_archive_count_match": true
+  },
+  {
+    "award_id": "N6833522F0373",
+    "pages": [
+      {
+        "url": "https://api.usaspending.gov/api/v2/transactions/",
+        "method": "POST",
+        "body": {
+          "award_id": 311099460,
+          "limit": 100,
+          "page": 1,
+          "sort": "action_date",
+          "order": "desc"
+        },
+        "status": 200,
+        "retrieved_utc": "2026-10-24T16:43:47.589209+00:00",
+        "sha256": "3f70c64c1c58d35f15b77998d6609ab80b3c24243b5098918deaa014db69aa69",
+        "bytes": 2730,
+        "file": "N6833522F0373_transactions_page1.json"
+      }
+    ],
+    "live_count": 7,
+    "live_net_cents": 448755000,
+    "live_latest_action": "2025-06-24",
+    "archive": {
+      "count": 7,
+      "net_cents": 448755000,
+      "latest_action": "2025-06-24"
+    },
+    "live_archive_net_match": true,
+    "live_archive_count_match": true
+  },
+  {
+    "award_id": "FA238525CB026",
+    "pages": [
+      {
+        "url": "https://api.usaspending.gov/api/v2/transactions/",
+        "method": "POST",
+        "body": {
+          "award_id": 353036083,
+          "limit": 100,
+          "page": 1,
+          "sort": "action_date",
+          "order": "desc"
+        },
+        "status": 200,
+        "retrieved_utc": "2026-10-24T16:43:47.591277+00:00",
+        "sha256": "2a4f788dc1f3fe85d5a43f5f6453352affaf047f06309e7f38e8483a35fc4cb6",
+        "bytes": 952,
+        "file": "FA238525CB026_transactions_page1.json"
+      }
+    ],
+    "live_count": 2,
+    "live_net_cents": 179945190,
+    "live_latest_action": "2025-11-17",
+    "archive": {
+      "count": 2,
+      "net_cents": 179945190,
+      "latest_action": "2025-11-17"
+    },
+    "live_archive_net_match": true,
+    "live_archive_count_match": true
+  },
+  {
+    "award_id": "FA865124CB014",
+    "pages": [
+      {
+        "url": "https://api.usaspending.gov/api/v2/transactions/",
+        "method": "POST",
+        "body": {
+          "award_id": 298579243,
+          "limit": 100,
+          "page": 1,
+          "sort": "action_date",
+          "order": "desc"
+        },
+        "status": 200,
+        "retrieved_utc": "2026-10-24T16:43:47.591797+00:00",
+        "sha256": "20e373488bfab1b6b97027cdeb37a4684f416024292753b5bfda303a0517f8fb",
+        "bytes": 1382,
+        "file": "FA865124CB014_transactions_page1.json"
+      }
+    ],
+    "live_count": 3,
+    "live_net_cents": 175995100,
+    "live_latest_action": "2025-04-16",
+    "archive": {
+      "count": 3,
+      "net_cents": 175995100,
+      "latest_action": "2025-04-16"
+    },
+    "live_archive_net_match": true,
+    "live_archive_count_match": true
+  }
+]

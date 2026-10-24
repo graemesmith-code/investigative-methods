@@ -1,0 +1,479 @@
+{
+  "piid": "HR001124C0353",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR001124C0353%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 9,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22HR001124C0353%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2024-02-07 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "854768.00",
+      "baseAndExercisedOptionsValue": "3903276.00",
+      "baseAndAllOptionsValue": "9856856.00",
+      "totalObligatedAmount": "2438421.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "descriptionOfContractRequirement": "ARTIFICIAL INTELLIGENCE REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": null,
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2024-04-10 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "1583653.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "2438421.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "ARTIFICIAL INTELLIGENCE REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00002",
+      "signedDate": "2024-05-30 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "2438421.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00003",
+      "signedDate": "2024-06-26 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "2438421.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "ARTIFICIAL INTELLIGENCE REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00004",
+      "signedDate": "2024-10-16 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "2992032.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "DARPA RESEARCH PROGRAM",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00005",
+      "signedDate": "2024-12-10 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "300000.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "3903276.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00006",
+      "signedDate": "2024-12-20 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "253611.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "3903276.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00007",
+      "signedDate": "2025-01-23 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-08-06 00:00:00",
+      "ultimateCompletionDate": "2028-02-06 00:00:00",
+      "obligatedAmount": "911244.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "3903276.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR001124C0353",
+      "agencyID": "9700",
+      "modNumber": "P00008",
+      "signedDate": "2025-06-16 00:00:00",
+      "effectiveDate": "2024-02-07 00:00:00",
+      "currentCompletionDate": "2025-03-27 00:00:00",
+      "ultimateCompletionDate": "2025-03-27 00:00:00",
+      "obligatedAmount": "-493588.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "3409688.00",
+      "totalBaseAndExercisedOptionsValue": "3903276.00",
+      "totalBaseAndAllOptionsValue": "9856856.00",
+      "vendorName": "BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "TO DEOBLIGATE FUNDS ON CLIN 0001",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "A",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "U",
+      "contractActionType": "D",
+      "solicitationID": "HR001123S0009",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    }
+  ]
+}

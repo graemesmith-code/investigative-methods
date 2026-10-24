@@ -1,0 +1,156 @@
+[
+  {
+    "filename": "apfit_fy2022_projects.jsonl.gz",
+    "rows": 10,
+    "bytes": 3870,
+    "sha256": "33d777c2c24e22d11fb80e34f2629479981aebe44f26bc1fd51237cc336f33df",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "apfit_pages.jsonl.gz",
+    "rows": 11,
+    "bytes": 7856,
+    "sha256": "c9eb061a2875db406e4bedf004c293a0975b3253584eacf2c43027dc7f45527f",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "army_budget_pages.jsonl.gz",
+    "rows": 0,
+    "bytes": 49,
+    "sha256": "045c1b5fce797b1c0a5d82bdc6dcec73858d5710d238190d41eb0a3e3479794b",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "commons_pages.jsonl.gz",
+    "rows": 26,
+    "bytes": 37142,
+    "sha256": "22172f748a65c3c7d09c4d6fe02aee2dedf0e2601dd3694515555eaba949d7c4",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "commons_projects.jsonl.gz",
+    "rows": 57,
+    "bytes": 41922,
+    "sha256": "b5bf9fab17455250a1a95a4513141a6fb84086749c2ad9608e334ac00898d6ce",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "darpa_budget_pages.jsonl.gz",
+    "rows": 252,
+    "bytes": 212582,
+    "sha256": "e6e56c6c05695994c08c3263290a79fdfa0dd75f8270580fe6cdfb41aba5d231",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "darpa_pb2025_programs.jsonl.gz",
+    "rows": 256,
+    "bytes": 127309,
+    "sha256": "617eeeab868762d1cb61b3e692c69acb19c8d1a298da70ab3412f5c5f701903e",
+    "substantive_f2_screen": true
+  },
+  {
+    "filename": "doe_ldrd_pages.jsonl.gz",
+    "rows": 167,
+    "bytes": 136198,
+    "sha256": "8cfae4aab2e3d32891b909a62af9ed5f9fa0971d32fc021dc2a974e7d770cc4e",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "doe_ldrd_table1_fy2019_2025.jsonl.gz",
+    "rows": 123,
+    "bytes": 11638,
+    "sha256": "9b4e9060c7227aa1b088558bbef048b8b74fb0d074f4bf55cd580294d1cd8a33",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "federal_funds_source_rows.jsonl.gz",
+    "rows": 8355,
+    "bytes": 196158,
+    "sha256": "d44d924e13fcbf7a5d42f72bfae41014a8f69df810d33cddd497fb7adb8a529b",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "ffrdc_source.jsonl.gz",
+    "rows": 862,
+    "bytes": 11961,
+    "sha256": "004124da3ef5930435a22c4d641e5f2c4c7ffa011de8756eb1be49124c7dc843",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "financial_actions.jsonl.gz",
+    "rows": 712186,
+    "bytes": 49335636,
+    "sha256": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5",
+    "substantive_f2_screen": true
+  },
+  {
+    "filename": "govinfo_budget_pages.jsonl.gz",
+    "rows": 114,
+    "bytes": 214404,
+    "sha256": "09a1decce0d2263060f7f033357c7f91855a540515eb9013e648437325f75495",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "grants.jsonl.gz",
+    "rows": 3283,
+    "bytes": 3419966,
+    "sha256": "6c5e6a1f10a70f19f6f23e12cf2f2532b89fe7f5d487ab90d2b9f25ece91be88",
+    "substantive_f2_screen": true
+  },
+  {
+    "filename": "grants_selected_source.jsonl.gz",
+    "rows": 3283,
+    "bytes": 3305250,
+    "sha256": "999a1843414f38c2c5949992d073ad98494ab6067928cf0842bc98d225cc2c0c",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "navy_budget_pages.jsonl.gz",
+    "rows": 0,
+    "bytes": 49,
+    "sha256": "1c1ab20207e9f7186fc1d4279da3bd9a53069f16158600f7b41183225aa90788",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "omb_security_fy2019_2026.jsonl.gz",
+    "rows": 38600,
+    "bytes": 2249306,
+    "sha256": "173693efcd53c73c049f2d18d8c2d40f53f5518a92aa2c4cdf02071e0b54cec6",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "sandia_ldrd_pages.jsonl.gz",
+    "rows": 131,
+    "bytes": 115021,
+    "sha256": "82c71d7354a13c246319219ec0dd7649326bc05f8382d2f9a667a8732a20c9f3",
+    "substantive_f2_screen": false
+  },
+  {
+    "filename": "sbir.jsonl.gz",
+    "rows": 18814,
+    "bytes": 13023245,
+    "sha256": "4dd9d3eb9bc560ce544e7ed3107c73511c00104902681cee749257e94b33dbd4",
+    "substantive_f2_screen": true
+  },
+  {
+    "filename": "sbir_current.jsonl.gz",
+    "rows": 25770,
+    "bytes": 19597598,
+    "sha256": "523734ebbb86f656ed64c96bc821baf370a9cb2294ac114f46f46ba0ea798940",
+    "substantive_f2_screen": true
+  },
+  {
+    "filename": "usaspending_dod_research_grants.jsonl.gz",
+    "rows": 88273,
+    "bytes": 16100190,
+    "sha256": "7f046eb480f076cd84ff79a9eb426a22442099c187ffc6c42c12eac170ff8a89",
+    "substantive_f2_screen": true
+  },
+  {
+    "filename": "usaspending_dod_research_grants_subawards.jsonl.gz",
+    "rows": 14143,
+    "bytes": 5855097,
+    "sha256": "d27995c5b8bb309c5824d256e5bf76e0f9d64443e20a1cb049a4408d9fbfacf7",
+    "substantive_f2_screen": false
+  }
+]

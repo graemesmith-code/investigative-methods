@@ -1,0 +1,197 @@
+{
+  "checked_date_utc": "2026-10-24",
+  "scope": "Bounded identity reconciliation of three exact PIIDs; public primary sources only, no capability discovery.",
+  "method": "Exact-PIID FPDS Public Atom feed, all returned pages; USAspending contract-group exact award search followed by GET details using returned generated IDs. Obligation totals are published-record totals, not a guarantee that all recent actions have been released.",
+  "may_9_conflicting_announcement_url": "https://www.war.gov/News/Contracts/Contract/Article/4180309/contracts-for-may-9-2025/",
+  "announcement_access": "Direct web open returned HTTP 403; official-domain search returned the full relevant official announcement text.",
+  "awards": [
+    {
+      "piid": "N0001425C1110",
+      "recipient": "MOEBIUS SOLUTIONS INC",
+      "recipient_uei": "W14HEX5YCJU3",
+      "contract_type": "DEFINITIVE CONTRACT",
+      "pricing_type": "COST PLUS FIXED FEE",
+      "source_urls": [
+        "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22N0001425C1110%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+        "https://www.fpds.gov/ezsearch/FEEDS/ATOM?s=FPDS&FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22N0001425C1110%22&start=10",
+        "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001425C1110_9700_-NONE-_-NONE-/",
+        "https://www.usaspending.gov/award/CONT_AWD_N0001425C1110_9700_-NONE-_-NONE-/"
+      ],
+      "date_signed": "2025-03-31",
+      "description": "THE VITL PROJECT OPTIMIZES LOGISTICS OPERATIONS IN CONTESTED MARITIME ENVIRONMENTS USING SUPPLY CHAIN ALGORITHMS AND PREDICTIVE ANALYTICS. SPAST AUTOMATES SUBMARINE SCHEDULING ADJUSTMENTS.",
+      "research_field": null,
+      "office": "N00014",
+      "visible_transaction_count": 13,
+      "latest_visible_action_date": "2026-06-30",
+      "visible_transaction_obligation_sum_usd": "19945391.56",
+      "usas_total_obligation_usd": "19945391.56",
+      "latest_fpds_total_obligation_field_usd": "21359003.56",
+      "usas_base_and_all_options_usd": "44170112.0",
+      "current_completion_date": "2026-12-22",
+      "actions": [
+        {
+          "modification": "0",
+          "signed_date": "2025-03-31",
+          "obligation_usd": "3311678.44"
+        },
+        {
+          "modification": "P00002",
+          "signed_date": "2025-05-22",
+          "obligation_usd": "0.00"
+        },
+        {
+          "modification": "P00003",
+          "signed_date": "2025-07-25",
+          "obligation_usd": "3147242.12"
+        },
+        {
+          "modification": "P00004",
+          "signed_date": "2025-09-08",
+          "obligation_usd": "358408.00"
+        },
+        {
+          "modification": "P00005",
+          "signed_date": "2025-09-18",
+          "obligation_usd": "723573.00"
+        },
+        {
+          "modification": "P00006",
+          "signed_date": "2025-12-18",
+          "obligation_usd": "2666862.00"
+        },
+        {
+          "modification": "P00007",
+          "signed_date": "2026-01-09",
+          "obligation_usd": "472483.00"
+        },
+        {
+          "modification": "P00008",
+          "signed_date": "2026-02-12",
+          "obligation_usd": "725000.00"
+        },
+        {
+          "modification": "P00009",
+          "signed_date": "2026-03-25",
+          "obligation_usd": "1872055.00"
+        },
+        {
+          "modification": "P00010",
+          "signed_date": "2026-04-21",
+          "obligation_usd": "4315595.00"
+        },
+        {
+          "modification": "P00011",
+          "signed_date": "2026-06-10",
+          "obligation_usd": "1852495.00"
+        },
+        {
+          "modification": "P00012",
+          "signed_date": "2026-06-17",
+          "obligation_usd": "0.00"
+        },
+        {
+          "modification": "P00013",
+          "signed_date": "2026-06-30",
+          "obligation_usd": "500000.00"
+        }
+      ],
+      "finding": "Actual recipient is Moebius, not Pacific Defense. USAspending total agrees with the 13 visible FPDS action deltas; latest FPDS cumulative field does not reconcile and is retained rather than silently substituted.",
+      "cross_source_discrepancy": "May 9, 2025 official announcement assigns this PIID to a $9,099,984 Pacific Defense iCMOSS2 award. That announcement conflicts with FPDS/USAspending identity, dates, description and amount. Correct identifier for the May 9 iCMOSS2 award remains unresolved."
+    },
+    {
+      "piid": "N0001425C1115",
+      "recipient": "PACIFIC DEFENSE STRATEGIES, INC.",
+      "recipient_uei": "JBFPTBDHRMZ7",
+      "contract_type": "DEFINITIVE CONTRACT",
+      "pricing_type": "COST PLUS FIXED FEE",
+      "source_urls": [
+        "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22N0001425C1115%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+        "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001425C1115_9700_-NONE-_-NONE-/",
+        "https://www.usaspending.gov/award/CONT_AWD_N0001425C1115_9700_-NONE-_-NONE-/"
+      ],
+      "date_signed": "2025-06-02",
+      "description": "THE DOD IS CURRENTLY DEVELOPING AN OPEN STANDARD HARDWARE/SOFTWARE PLATFORM (C5ISR/EW MODULAR OPEN SUITE OF STANDARDS (CMOSS)) FOR CONVERGED EW, COMMUNICATIONS, SIGINT, POSITION, NAVIGATION AND TIMING (PNT)",
+      "research_field": null,
+      "office": "N00014",
+      "visible_transaction_count": 3,
+      "latest_visible_action_date": "2026-07-14",
+      "visible_transaction_obligation_sum_usd": "18208513.00",
+      "usas_total_obligation_usd": "18208513.0",
+      "latest_fpds_total_obligation_field_usd": "18208513.00",
+      "usas_base_and_all_options_usd": "18369996.0",
+      "current_completion_date": "2026-12-02",
+      "actions": [
+        {
+          "modification": "0",
+          "signed_date": "2025-06-02",
+          "obligation_usd": "15842502.00"
+        },
+        {
+          "modification": "P00001",
+          "signed_date": "2026-01-08",
+          "obligation_usd": "366011.00"
+        },
+        {
+          "modification": "P00002",
+          "signed_date": "2026-07-14",
+          "obligation_usd": "2000000.00"
+        }
+      ],
+      "finding": "Pacific Defense identity and $18,208,513 obligations agree across USAspending, FPDS transaction sum and latest aggregate. This is the separately announced June 2, 2025 Sanctuary CMOSS contract, not a verified correction of the May 9 iCMOSS2 identifier.",
+      "announcement_url": "https://www.war.gov/News/Contracts/Contract/Article/4203613/contracts-for-jun-2-2025/",
+      "announced_initial_obligation_usd": "15842502.00",
+      "announced_contract_value_usd": "18369996.00"
+    },
+    {
+      "piid": "N0002425C6260",
+      "recipient": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+      "recipient_uei": "MU3CM1145E44",
+      "contract_type": "DEFINITIVE CONTRACT",
+      "pricing_type": "COST PLUS INCENTIVE FEE",
+      "source_urls": [
+        "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22N0002425C6260%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+        "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002425C6260_9700_-NONE-_-NONE-/",
+        "https://www.usaspending.gov/award/CONT_AWD_N0002425C6260_9700_-NONE-_-NONE-/"
+      ],
+      "date_signed": "2025-08-19",
+      "description": "MOBILE ENGINEERING SUPPORT",
+      "research_field": {
+        "code": "ST3",
+        "description": "SMALL TECHNOLOGY TRANSFER RESEARCH PROGRAM PHASE III"
+      },
+      "office": "N00024",
+      "visible_transaction_count": 4,
+      "latest_visible_action_date": "2026-06-25",
+      "visible_transaction_obligation_sum_usd": "5760219.00",
+      "usas_total_obligation_usd": "5760219.0",
+      "latest_fpds_total_obligation_field_usd": "5760217.29",
+      "usas_base_and_all_options_usd": "91196895.0",
+      "current_completion_date": "2030-08-18",
+      "actions": [
+        {
+          "modification": "0",
+          "signed_date": "2025-08-19",
+          "obligation_usd": "1208021.00"
+        },
+        {
+          "modification": "P00001",
+          "signed_date": "2025-11-20",
+          "obligation_usd": "791694.00"
+        },
+        {
+          "modification": "P00002",
+          "signed_date": "2026-04-22",
+          "obligation_usd": "3704025.00"
+        },
+        {
+          "modification": "P00003",
+          "signed_date": "2026-06-25",
+          "obligation_usd": "56479.00"
+        }
+      ],
+      "finding": "Actual recipient is General Dynamics Mission Systems, not Seasats. USAspending total agrees with four visible action deltas. Latest FPDS cumulative obligation field is $1.71 lower; discrepancy retained. Do not assign Seasats APFIT or Phase III amounts to this identifier.",
+      "phase_caveat": "FPDS codes this GDMS award ST3, described as SMALL TECHNOLOGY TRANSFER RESEARCH PROGRAM PHASE III. That does not establish any Seasats/Lightfish relationship."
+    }
+  ],
+  "unresolved": "Correct PIID of the May 9, 2025 Pacific Defense iCMOSS2 award was not established; N0001425C1115 is a separate June 2 Sanctuary CMOSS award."
+}

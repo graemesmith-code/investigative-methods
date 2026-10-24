@@ -1,0 +1,11 @@
+{
+  "row_count": 18741,
+  "chars": 4416585,
+  "awards": 7374,
+  "high_scoring_nonexact_awards": 92,
+  "patterns": {
+    "ai": "\\b(?:AI|ML|neural|reinforcement|learning|intelligent|artificial intelligence|perception|computer vision)\\b",
+    "tactical": "\\b(?:autonom\\w*|robot\\w*|swarm\\w*|munition\\w*|unmanned|uncrewed|electronic warfare|electronic attack|target\\w*|seeker\\w*|guidance|navigat\\w*|combat\\w*|loitering|breach\\w*|jam\\w*)\\b",
+    "transition": "\\b(?:PHASE III|PHASE 3|STRATFI|TACFI|APFIT|RDER|OPERAT\\w*|FIELD\\w*|PROTOTYPE\\w*|INTEGRAT\\w*|PRODUCTION|DEMONSTRAT\\w*)\\b"
+  }
+}

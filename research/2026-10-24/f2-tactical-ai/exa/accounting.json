@@ -1,0 +1,19 @@
+{
+  "F2_requests": 104,
+  "F2_cost_usd": "0.728",
+  "prior_requests": 248,
+  "prior_cost_usd": "1.736",
+  "cumulative_requests": 352,
+  "cumulative_cost_usd": "2.464",
+  "uncertain_exposure": 0,
+  "failed_requests": 0,
+  "bytes": 29412,
+  "sha256": "905af9ad514b734f298c6a12d48b145104457d597d092214528817ce5ca0c020",
+  "query_ids": [
+    "249",
+    "352"
+  ],
+  "first_request_utc": "2026-10-24T16:24:20.573307+00:00",
+  "last_request_utc": "2026-10-24T16:42:57.253426+00:00",
+  "verification": "Transferred complete ledger decoded and SHA-256 verified locally; all 104 statuses success; $0.007 provider cost per row; no article bodies published"
+}

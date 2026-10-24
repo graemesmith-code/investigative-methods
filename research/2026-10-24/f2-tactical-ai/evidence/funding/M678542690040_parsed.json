@@ -1,0 +1,69 @@
+{
+  "piid": "M678542690040",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22M678542690040%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 2,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22M678542690040%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "M678542690040",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2026-06-26 00:00:00",
+      "effectiveDate": "2026-06-26 00:00:00",
+      "currentCompletionDate": "2028-03-25 00:00:00",
+      "ultimateCompletionDate": "2028-03-25 00:00:00",
+      "obligatedAmount": "17444750.05",
+      "baseAndExercisedOptionsValue": "17444750.05",
+      "baseAndAllOptionsValue": "19744499.00",
+      "totalObligatedAmount": "24499918.09",
+      "totalBaseAndExercisedOptionsValue": "61689167.14",
+      "totalBaseAndAllOptionsValue": "72073625.10",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PRODUCTION",
+      "descriptionOfContractRequirement": "THE PURPOSE OF THIS OTHER TRANSACTION AUTHORITY (OTA) IS TO PRODUCE AND DELIVER THE COMPLETE MILITARY-UNMANNED GROUND VEHICLES (M-UGVS), AND ASSOCIATED SPARES AND SUPPORT ACTIVITIES.",
+      "contractingOfficeAgencyID": "1700",
+      "contractingOfficeID": "M67854",
+      "fundingRequestingAgencyID": "1700",
+      "fundingRequestingOfficeID": "M95450",
+      "reason": null,
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    },
+    {
+      "PIID": "M678542690040",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2026-07-02 00:00:00",
+      "effectiveDate": "2026-06-26 00:00:00",
+      "currentCompletionDate": "2028-03-25 00:00:00",
+      "ultimateCompletionDate": "2028-03-25 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "19744499.00",
+      "baseAndAllOptionsValue": "19744499.00",
+      "totalObligatedAmount": "24499918.09",
+      "totalBaseAndExercisedOptionsValue": "61689167.14",
+      "totalBaseAndAllOptionsValue": "72073625.10",
+      "vendorName": "OVERLAND AI INC",
+      "typeOfAgreement": "PRODUCTION",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "THE PURPOSE OF THIS MODIFICATION IS TO CORRECT THE LINE OF ACCOUNTING TO ALL FUNDED LINE ITEM NUMBERS.",
+      "contractingOfficeAgencyID": "1700",
+      "contractingOfficeID": "M67854",
+      "fundingRequestingAgencyID": "1700",
+      "fundingRequestingOfficeID": "M95450",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      }
+    }
+  ]
+}

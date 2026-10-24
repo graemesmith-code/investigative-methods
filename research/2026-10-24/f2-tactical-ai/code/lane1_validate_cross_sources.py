@@ -1,0 +1,5 @@
+import sqlite3,json
+from pathlib import Path
+B=Path(__import__('os').environ.get('F2_ROOT', str(Path(__file__).resolve().parents[1])));C=sqlite3.connect(B/'data/financial_actions.sqlite')
+qs={'financial_description_award_key_mismatches':'SELECT COUNT(*) FROM descriptive_rows d JOIN source_rows r USING(transaction_key) WHERE d.award_key<>r.award_key','financial_description_obligation_cents_mismatches':"SELECT COUNT(*) FROM descriptive_rows d JOIN source_rows r USING(transaction_key) WHERE CAST(ROUND(CAST(JSON_EXTRACT(d.money_json,'$.federal_action_obligation') AS REAL)*100) AS INTEGER)<>r.obligation_cents",'description_missing_action_obligation':"SELECT COUNT(*) FROM descriptive_rows WHERE JSON_EXTRACT(money_json,'$.federal_action_obligation') IS NULL"}
+a={k:C.execute(q).fetchone()[0] for k,q in qs.items()};a['note']='Every original descriptive row compared against corresponding financial key; source observations may repeat, but money aggregation always remains deduplicated financial obligation.';(B/'lane1/cross_source_validation.json').write_text(json.dumps(a,indent=2));print(a)

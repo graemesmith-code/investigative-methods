@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "positive_recent_candidate_awards": 27175,
+    "ai_autonomy_plus_weapon_contested_awards": 884,
+    "positive_recent_ai_autonomy_plus_weapon_contested_awards": 384,
+    "positive_recent_ai_autonomy_transition_keyword_awards": 189,
+    "positive_recent_ai_autonomy_explicit_phase_iii_awards": 36,
+    "positive_recent_tactical_combo_first_observed_recipient_awards": 65,
+    "keyword_awards_outside_named_vendor_list": 18471,
+    "positive_recent_tactical_combo_outside_named_vendor_list": 339
+  },
+  "unique_recipient_ueis": 18094,
+  "first_observed_2024_2026_recipient_ueis": 3963,
+  "nonacademic_named_vendor_excluded_tactical_candidates": 277,
+  "darpa_pre2024_to_service_recent_recipient_flags": 700,
+  "emergence_caveat": "First observed in this preselected archive, not company founding or first government award. Annual values are calendar years; 2026 ends Sept 30 so year-on-year rates are partial-year comparisons.",
+  "agency_caveat": "Only agency/subagency codes in recovered source slices; office-level research-to-operational transitions require live API/primary evidence. Generic service agency presence is not an operational-customer claim."
+}

@@ -1,0 +1,6 @@
+{
+  "financial_description_award_key_mismatches": 0,
+  "financial_description_obligation_cents_mismatches": 0,
+  "description_missing_action_obligation": 0,
+  "note": "Every original descriptive row compared against corresponding financial key; source observations may repeat, but money aggregation always remains deduplicated financial obligation."
+}

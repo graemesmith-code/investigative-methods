@@ -1,0 +1,78 @@
+{
+  "tactical_register": {
+    "file": "audit/lane1-tactical-combination-register.json",
+    "sha256": "82c3f9c90a8529daf7dc83dfb1e6cec563f6b02b4237b015770c7a009c84cd40",
+    "rows": 384
+  },
+  "original_predicate_code": {
+    "file": "code/lane1_summarize_screen.py",
+    "sha256": "26e3bbbfb852379c95b8ced076163f5671c3ccc2fef384e04fd69836681e4fcc"
+  },
+  "original_screen_code": {
+    "file": "code/lane1_screen_financial.py",
+    "sha256": "83d4c377fba4087d08b624bf9678ab8615deaf9f9b7e3332cffb5e669260fadf"
+  },
+  "recovery_export_code": {
+    "file": "recover_lane1_subsets.py",
+    "sha256": "b2764b3cafb72f72beae040ac6373e7ab7afec24ddc07ddd38b4f9f5d3784328"
+  },
+  "original_counts": {
+    "full_candidate_awards": 89838,
+    "positive_recent_candidate_awards": 27175,
+    "positive_recent_tactical_awards": 384,
+    "first_observed_recipient_tactical_awards": 65,
+    "positive_recent_ai_or_autonomy_explicit_phase_iii_awards": 36
+  },
+  "phase_iii_regex": "phase\\s*(?:iii|3)\\b",
+  "phase_iii_flags": "IGNORECASE",
+  "phase_iii_predicate": "recent_net_cents > 0 AND regex in join(evidence_descriptions) AND keyword categories intersect {ai, autonomy}; no tactical requirement",
+  "first_observed_predicate": "Within 384: ANY listed entity_key has MIN(action_date) >= 2024-01-01 over the FULL financial source_rows",
+  "surviving_phase_iii_overlap": 6,
+  "missing_phase_iii_rows_until_full_register": 0,
+  "phase_iii_complete_status": "complete",
+  "first_observed_complete_status": "complete",
+  "limitations": [
+    "Cases are award keys, not unique programmes or necessarily unique recipients.",
+    "First observed means in the preselected FY2019-FY2026 archive, not company founding or first government award.",
+    "Calendar 2024-2026 positive net obligations include negative modifications; 2026 source ends September 30.",
+    "Phase III text can come from older actions; positive recent dollars do not prove the Phase III action itself was recent.",
+    "AI/autonomy is keyword-category evidence, not validated learned AI. Phase III matching uses at most six original stored evidence descriptions per award.",
+    "No new research or programme validation is performed."
+  ],
+  "recipient_date_source": {
+    "file": "data/normalized/financial_actions.jsonl.gz",
+    "sha256": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5",
+    "rows": 712186,
+    "entities": 18094,
+    "reused_local_recipient_map_sha256": "97fab184ecafdfd5a9c37601853521add6f36da680d3a49b73c9461fa5f3f5b6"
+  },
+  "first_observed_recovered_awards": 65,
+  "first_observed_distinct_qualifying_entities": 60,
+  "full_candidate_source": {
+    "file": "lane1/candidate_register.jsonl",
+    "file_sha256": "3d9da480674082d8c82c74e72a54be8d72767d8835a84cb25a41c0fec050a43e",
+    "uncompressed_sha256": "3d9da480674082d8c82c74e72a54be8d72767d8835a84cb25a41c0fec050a43e",
+    "matches_original_omitted_hash": true,
+    "rows": 89838
+  },
+  "surviving_tactical_row_comparison_mismatches": [],
+  "phase_iii_recovered_awards": 36,
+  "phase_iii_recovered_non_tactical_awards": 30,
+  "outputs": [
+    {
+      "file": "audit/lane1-tactical-candidates-384.csv",
+      "bytes": 508667,
+      "sha256": "cfe921e6d629c71e1a916802f7d2395c4c6de8d453426293eba081bf202186b0"
+    },
+    {
+      "file": "audit/lane1-first-observed-recipients-65.csv",
+      "bytes": 74305,
+      "sha256": "23c5e591ed4c0697da9a9393004f9cbc4b7baf08f28ca86da345db2b430d5de7"
+    },
+    {
+      "file": "audit/lane1-explicit-phase-iii-36.csv",
+      "bytes": 79143,
+      "sha256": "d4a47841bf6d128c0569b90565f1af8cc9f0fe656229c6c215d5b06732d5f794"
+    }
+  ]
+}

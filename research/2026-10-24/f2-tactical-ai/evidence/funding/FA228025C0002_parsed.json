@@ -1,0 +1,271 @@
+{
+  "piid": "FA228025C0002",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA228025C0002%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 5,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22FA228025C0002%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "FA228025C0002",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2024-12-13 00:00:00",
+      "effectiveDate": "2024-12-13 00:00:00",
+      "currentCompletionDate": "2026-06-13 00:00:00",
+      "ultimateCompletionDate": "2026-12-13 00:00:00",
+      "obligatedAmount": "12434000.00",
+      "baseAndExercisedOptionsValue": "12434000.00",
+      "baseAndAllOptionsValue": "15000000.00",
+      "totalObligatedAmount": "12434000.00",
+      "totalBaseAndExercisedOptionsValue": "12434000.00",
+      "totalBaseAndAllOptionsValue": "15000000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "descriptionOfContractRequirement": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT SMALL BUSINESS INNOVATION RESEARCH PHASE II STRATEGIC FUNDING INCREASE",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FBEQ",
+      "extentCompeted": "D",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "research": "SR2",
+      "reason": null,
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FBEQ AFRL RGF"
+        }
+      }
+    },
+    {
+      "PIID": "FA228025C0002",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2025-04-18 00:00:00",
+      "effectiveDate": "2024-12-13 00:00:00",
+      "currentCompletionDate": "2025-03-14 00:00:00",
+      "ultimateCompletionDate": "2026-12-13 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "12434000.00",
+      "totalBaseAndExercisedOptionsValue": "12434000.00",
+      "totalBaseAndAllOptionsValue": "15000000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT, AUTONOMOUS COLLABORATIVE PLATFORM (ACP) PLATFORMS AND MISSIONS, AND AUTONOMY DEVELOPMENT, PROTOTYPING AND EXPERIMENTATION SPRINTS.",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FBEQ",
+      "extentCompeted": "D",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "research": "SR2",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FBEQ AFRL RGF"
+        }
+      }
+    },
+    {
+      "PIID": "FA228025C0002",
+      "agencyID": "9700",
+      "modNumber": "P00002",
+      "signedDate": "2025-08-26 00:00:00",
+      "effectiveDate": "2024-12-13 00:00:00",
+      "currentCompletionDate": "2026-06-13 00:00:00",
+      "ultimateCompletionDate": "2026-12-13 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "12434000.00",
+      "totalBaseAndExercisedOptionsValue": "12434000.00",
+      "totalBaseAndAllOptionsValue": "15000000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "reasonForModification": "B",
+      "descriptionOfContractRequirement": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT SMALL BUSINESS INNOVATION RESEARCH PHASE II STRATEGIC FUNDING INCREASE",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FBEQ",
+      "extentCompeted": "D",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "research": "SR2",
+      "reason": {
+        "description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FBEQ AFRL RGF"
+        }
+      }
+    },
+    {
+      "PIID": "FA228025C0002",
+      "agencyID": "9700",
+      "modNumber": "P00003",
+      "signedDate": "2026-01-12 00:00:00",
+      "effectiveDate": "2024-12-13 00:00:00",
+      "currentCompletionDate": "2026-06-13 00:00:00",
+      "ultimateCompletionDate": "2026-12-13 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "12434000.00",
+      "totalBaseAndExercisedOptionsValue": "12434000.00",
+      "totalBaseAndAllOptionsValue": "15000000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT, AUTONOMOUS COLLABORATIVE PLATFORM (ACP) PLATFORMS AND MISSIONS, AND AUTONOMY DEVELOPMENT, PROTOTYPING AND EXPERIMENTATION SPRINTS.",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FBEQ",
+      "extentCompeted": "D",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "research": "SR2",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FBEQ AFRL RGF"
+        }
+      }
+    },
+    {
+      "PIID": "FA228025C0002",
+      "agencyID": "9700",
+      "modNumber": "P00004",
+      "signedDate": "2026-05-19 00:00:00",
+      "effectiveDate": "2024-12-13 00:00:00",
+      "currentCompletionDate": "2026-05-18 00:00:00",
+      "ultimateCompletionDate": "2026-05-18 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "12434000.00",
+      "totalBaseAndExercisedOptionsValue": "12434000.00",
+      "totalBaseAndAllOptionsValue": "15000000.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT, AUTONOMOUS COLLABORATIVE PLATFORM (ACP) PLATFORMS AND MISSIONS, AND AUTONOMY DEVELOPMENT, PROTOTYPING AND EXPERIMENTATION SPRINTS.",
+      "contractingOfficeAgencyID": "5700",
+      "contractingOfficeID": "FA2280",
+      "fundingRequestingAgencyID": "5700",
+      "fundingRequestingOfficeID": "F4FBEQ",
+      "extentCompeted": "D",
+      "solicitationProcedures": "NP",
+      "typeOfContractPricing": "J",
+      "contractActionType": "D",
+      "research": "SR2",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "DEFINITIVE CONTRACT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "FA2280  AFRL/RGKA",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEPT OF THE AIR FORCE",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "F4FBEQ AFRL RGF"
+        }
+      }
+    }
+  ]
+}

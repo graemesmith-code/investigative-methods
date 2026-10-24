@@ -1,0 +1,136 @@
+{
+  "files": {
+    "usaspending_darpa.jsonl.gz": {
+      "rows": 12057,
+      "bytes": 2027528,
+      "sha256": "04de57e65cdb259d7632bcb6d3b4a48be168ebcf5fb0d20ea56044e3a75e6251",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_capabilities.jsonl.gz": {
+      "rows": 305768,
+      "bytes": 53470222,
+      "sha256": "a79d60513813f4fd60a76292b504d10e3795c3243b43973ce5b8fa50dd5fd5fb",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_capabilities_fy2019.jsonl.gz": {
+      "rows": 24383,
+      "bytes": 4711709,
+      "sha256": "ac7a50965ae34212d5dc08c43cd208477fc386bc95137b41024c8bfbbb7119fb",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_capabilities_fy2026.jsonl.gz": {
+      "rows": 35822,
+      "bytes": 8433745,
+      "sha256": "3e857b64369a5cc1bcab63637197ca05ae4dfff277e3f3ed434b6e5553cb19a9",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_rd_contracts.jsonl.gz": {
+      "rows": 342900,
+      "bytes": 61398755,
+      "sha256": "638a90c8071e05c72d90b60b6136fe56bd3aea72072fe8361004716e8eff6eae",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_rd_fy2019.jsonl.gz": {
+      "rows": 44337,
+      "bytes": 8774985,
+      "sha256": "62762ace1c460b774f534ac96ed5cd6d92e9f4f5fe0d6ec87feaba513af56cd4",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_rd_fy2026.jsonl.gz": {
+      "rows": 33089,
+      "bytes": 8708365,
+      "sha256": "a92f90baf6ef4ac6bffc8e52dc958b6651134e1456e02e05a6ecd74642c2c94d",
+      "full_gzip_crc_read": "passed"
+    },
+    "usaspending_dod_research_grants.jsonl.gz": {
+      "rows": 88273,
+      "bytes": 16100190,
+      "sha256": "7f046eb480f076cd84ff79a9eb426a22442099c187ffc6c42c12eac170ff8a89",
+      "full_gzip_crc_read": "passed"
+    }
+  },
+  "field_presence": {
+    "document_id": 886629,
+    "source": 886629,
+    "source_record_id": 886629,
+    "source_url": 886629,
+    "raw_locator": 886629,
+    "award_key": 886629,
+    "transaction_key": 886629,
+    "entity_key": 886629,
+    "entity_name": 886629,
+    "title": 886629,
+    "text": 886629,
+    "action_date": 886629,
+    "fiscal_year": 886629,
+    "capability_tags": 886629,
+    "eligibility": 886629,
+    "money_json": 886629,
+    "evidence_excerpt": 886629,
+    "retrieved_at": 886629,
+    "identifiers_json": 886629,
+    "record_sha256": 886629,
+    "source_snapshot_sha256": 886629
+  },
+  "field_nonempty": {
+    "document_id": 886629,
+    "source": 886629,
+    "source_record_id": 886629,
+    "source_url": 886629,
+    "raw_locator": 886629,
+    "award_key": 886629,
+    "transaction_key": 886629,
+    "entity_key": 886629,
+    "entity_name": 886628,
+    "title": 886045,
+    "text": 886629,
+    "action_date": 886629,
+    "fiscal_year": 886629,
+    "eligibility": 886629,
+    "money_json": 886629,
+    "evidence_excerpt": 886629,
+    "retrieved_at": 886629,
+    "identifiers_json": 886629,
+    "record_sha256": 886629,
+    "source_snapshot_sha256": 886629,
+    "capability_tags": 278872
+  },
+  "identifier_nonempty": {
+    "contract_transaction_unique_key": 798356,
+    "contract_award_unique_key": 798356,
+    "award_id_piid": 798356,
+    "recipient_uei": 886629,
+    "awarding_agency_code": 886629,
+    "awarding_sub_agency_code": 886629,
+    "funding_agency_code": 883398,
+    "funding_sub_agency_code": 883398,
+    "product_or_service_code": 798356,
+    "naics_code": 798106,
+    "recipient_duns": 224945,
+    "solicitation_identifier": 277686,
+    "parent_award_agency_id": 516166,
+    "parent_award_id_piid": 516166,
+    "assistance_transaction_unique_key": 88273,
+    "assistance_award_unique_key": 88273,
+    "award_id_fain": 88273,
+    "cfda_number": 88273,
+    "award_id_uri": 2738
+  },
+  "counts": {
+    "descriptive_physical_rows": 886629,
+    "descriptive_unique_transaction_keys": 712186,
+    "descriptive_duplicate_rows": 174443,
+    "financial_transactions_matched": 712186,
+    "financial_transactions_unmatched": 0,
+    "descriptive_transactions_outside_financial": 0,
+    "nonempty_description_transactions": 712186,
+    "nonempty_psc_transactions": 623913,
+    "nonempty_naics_transactions": 623738,
+    "nonempty_agency_transactions": 712186,
+    "explicit_identifier_validated_transactions": 712186,
+    "transaction_award_key_conflicts": 0,
+    "transaction_explicit_award_id_conflicts": 0
+  },
+  "elapsed_seconds": 108.7,
+  "joins": "Exact transaction_key. All descriptions/title/evidence retained and concatenated uniquely per transaction, not joined on name. Explicit award_id_piid/fain validated by single consistent source identifier; all monetary aggregations still from financial action obligations, not money_json totals/ceilings."
+}

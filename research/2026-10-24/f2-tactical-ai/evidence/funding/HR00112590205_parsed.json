@@ -1,0 +1,113 @@
+{
+  "piid": "HR00112590205",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590205%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 2,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22HR00112590205%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "HR00112590205",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2025-07-22 00:00:00",
+      "effectiveDate": "2025-07-22 00:00:00",
+      "currentCompletionDate": "2025-08-21 00:00:00",
+      "ultimateCompletionDate": "2027-05-21 00:00:00",
+      "obligatedAmount": "1000000.00",
+      "baseAndExercisedOptionsValue": "1000000.00",
+      "baseAndAllOptionsValue": "2500000.00",
+      "totalObligatedAmount": "1000000.00",
+      "totalBaseAndExercisedOptionsValue": "1000000.00",
+      "totalBaseAndAllOptionsValue": "2500000.00",
+      "vendorName": "SCOUT AI INC.",
+      "typeOfAgreement": "PROTOTYPE",
+      "descriptionOfContractRequirement": "ROBOTIC AUTONOMY IN COMPLEX ENVIRONMENTS WITH RESILIENCY(RACER)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "O",
+      "reason": null,
+      "actiontype": {
+        "description": "OTHER TRANSACTION IDV"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR00112590205",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2026-03-24 00:00:00",
+      "effectiveDate": "2025-07-22 00:00:00",
+      "currentCompletionDate": "2027-05-21 00:00:00",
+      "ultimateCompletionDate": "2027-05-21 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "1000000.00",
+      "totalBaseAndExercisedOptionsValue": "1000000.00",
+      "totalBaseAndAllOptionsValue": "2500000.00",
+      "vendorName": "SCOUT AI INC.",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "ROBOTIC AUTONOMY IN COMPLEX ENVIRONMENTS WITH RESILIENCY",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "O",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION IDV"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    }
+  ]
+}

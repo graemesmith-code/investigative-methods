@@ -1,0 +1,2298 @@
+[
+  {
+    "piid": "FA238525CB026",
+    "generated_award_id": "CONT_AWD_FA238525CB026_9700_-NONE-_-NONE-",
+    "recipient": "OPTO-KNOWLEDGE SYSTEMS INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1799451.9,
+    "current_value_usd": 1799451.9,
+    "potential_value_usd": 1799451.9,
+    "signed": "2025-08-29",
+    "performance": {
+      "start_date": "2025-08-29",
+      "end_date": "2026-11-23",
+      "last_modified_date": "2026-01-20",
+      "potential_end_date": "2026-11-23 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA2385 USAF AFMC AFRL PZL AFRL RSKD"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "MOBILE TARGET TRACKING (MTT)",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA238525CB026_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:34.360735+00:00",
+    "local_response_bytes": 6421,
+    "local_response_sha256": "5d2340f995ef6fb31371936228b5d05a5490682f3284190a450af62fa9b51d0d",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6421,
+    "primary_response_sha256": "5d2340f995ef6fb31371936228b5d05a5490682f3284190a450af62fa9b51d0d"
+  },
+  {
+    "piid": "FA462524C0011",
+    "generated_award_id": "CONT_AWD_FA462524C0011_9700_-NONE-_-NONE-",
+    "recipient": "RMD SYSTEMS LLC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1759461.55,
+    "current_value_usd": 1759461.55,
+    "potential_value_usd": 1759461.55,
+    "signed": "2024-07-10",
+    "performance": {
+      "start_date": "2024-08-01",
+      "end_date": "2026-07-31",
+      "last_modified_date": "2025-11-25",
+      "potential_end_date": "2026-07-31 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA4625  509 CONS CC"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "DEMONSTRATE THE ABILITY FOR A ROBOTIC SWARM PLATFORM TO AUTONOMOUSLY ACCOMPLISH AIRFIELD REPAIR CURRENTLY PERFORMED BY PERSONNEL. THIS INCLUDES ASSESSMENT, UXO IDENTIFICATION, REMOVAL, SPALL AND CRATER REPAIR, PAINT STRIPING, AND AIRFIELD LIGHTING.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA462524C0011_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:05.451210+00:00",
+    "local_response_bytes": 6643,
+    "local_response_sha256": "8b023e0fe8693b05fdb45813f376cafa7d8a3f52d5bd274ab570f91c2ff3076a",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6643,
+    "primary_response_sha256": "8b023e0fe8693b05fdb45813f376cafa7d8a3f52d5bd274ab570f91c2ff3076a"
+  },
+  {
+    "piid": "FA864924P0980",
+    "generated_award_id": "CONT_AWD_FA864924P0980_9700_-NONE-_-NONE-",
+    "recipient": "QYLUR INTELLIGENT SYSTEMS INC",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1249629.0,
+    "current_value_usd": 1249629.0,
+    "potential_value_usd": 1249629.0,
+    "signed": "2024-09-17",
+    "performance": {
+      "start_date": "2024-09-17",
+      "end_date": "2026-06-16",
+      "last_modified_date": "2026-05-18",
+      "potential_end_date": "2026-06-16 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "TOPIC: AFX246-DPCSO1 - SBIR DIRECT TO PHASE II PROPOSAL NO. F2D-12928 SBIR D2P2 - TASCS: TACTICAL AI SPECTRUM CLASSIFIER SYSTEM FOR AGILE SPECTRUM SUPERIORITY",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864924P0980_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:34.323141+00:00",
+    "local_response_bytes": 6532,
+    "local_response_sha256": "ac348d19797ccafccb439eee1631a249c8fd46f946adb237e8be6e478526c13e",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6532,
+    "primary_response_sha256": "ac348d19797ccafccb439eee1631a249c8fd46f946adb237e8be6e478526c13e"
+  },
+  {
+    "piid": "FA864925P0437",
+    "generated_award_id": "CONT_AWD_FA864925P0437_9700_-NONE-_-NONE-",
+    "recipient": "KEF ROBOTICS INC",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1249947.0,
+    "current_value_usd": 1249947.0,
+    "potential_value_usd": 1249947.0,
+    "signed": "2025-08-27",
+    "performance": {
+      "start_date": "2025-08-29",
+      "end_date": "2027-09-06",
+      "last_modified_date": "2026-07-14",
+      "potential_end_date": "2027-09-06 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "VISUAL NAVIGATION ADVANCES FOR LOW-ALTITUDE, SUBSONIC FLIGHT USING WEAPON OPEN SYSTEM ARCHITECTURE DESIGN PRINCIPLES",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0437_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:34.398730+00:00",
+    "local_response_bytes": 6434,
+    "local_response_sha256": "7aa6537eb4f9763d74b9deab02f97969ad8f35868eef63aeddb4f7db49af7690",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6434,
+    "primary_response_sha256": "7aa6537eb4f9763d74b9deab02f97969ad8f35868eef63aeddb4f7db49af7690"
+  },
+  {
+    "piid": "FA865124CB014",
+    "generated_award_id": "CONT_AWD_FA865124CB014_9700_-NONE-_-NONE-",
+    "recipient": "OPTO-KNOWLEDGE SYSTEMS INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1759951.0,
+    "current_value_usd": 1759951.0,
+    "potential_value_usd": 1759951.0,
+    "signed": "2024-03-12",
+    "performance": {
+      "start_date": "2024-03-12",
+      "end_date": "2026-06-16",
+      "last_modified_date": "2025-04-16",
+      "potential_end_date": "2026-06-16 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "AUTOMATIC TARGET RECOGNITION (ATR) SEEKER FOR MULTI-TARGET GROUPING, DISCRIMINATION & NEUTRALIZATION (ARMGDN) INTERCEPTOR I",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124CB014_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:05.447997+00:00",
+    "local_response_bytes": 6444,
+    "local_response_sha256": "83c5f5a9ddfa7a17b6591c3c68e9c910edc00c68b6c4667d967449e7620a4d33",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6444,
+    "primary_response_sha256": "83c5f5a9ddfa7a17b6591c3c68e9c910edc00c68b6c4667d967449e7620a4d33"
+  },
+  {
+    "piid": "FA865124FB014",
+    "generated_award_id": "CONT_AWD_FA865124FB014_9700_FA865121D0062_9700",
+    "recipient": "DYNETICS, INC.",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 1932900.0,
+    "current_value_usd": 1956634.0,
+    "potential_value_usd": 1956634.0,
+    "signed": "2024-04-12",
+    "performance": {
+      "start_date": "2024-04-12",
+      "end_date": "2028-04-10",
+      "last_modified_date": "2026-03-19",
+      "potential_end_date": "2028-04-10 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F1TBTS AFRL RW"
+    },
+    "description": "ARTIFICIAL INTELLIGENCE, DEEP LEARNING, AND MACHINE LEARNING FOR MUNITIONS AUTONOMOUS TARGET ACQUISITION",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124FB014_9700_FA865121D0062_9700/",
+    "retrieved_utc": "2026-10-24T16:35:05.446844+00:00",
+    "local_response_bytes": 6848,
+    "local_response_sha256": "64df4aea8a107dfbcc70f2a7dabb035481538287a650aad7f59da937f25d091e",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6848,
+    "primary_response_sha256": "64df4aea8a107dfbcc70f2a7dabb035481538287a650aad7f59da937f25d091e"
+  },
+  {
+    "piid": "FA865925CB002",
+    "generated_award_id": "CONT_AWD_FA865925CB002_9700_-NONE-_-NONE-",
+    "recipient": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1999633.0,
+    "current_value_usd": 1999633.0,
+    "potential_value_usd": 1999633.0,
+    "signed": "2025-06-10",
+    "performance": {
+      "start_date": "2025-06-01",
+      "end_date": "2026-05-31",
+      "last_modified_date": "2025-06-10",
+      "potential_end_date": "2026-05-31 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8659  AFLCMC EBI"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F1TBTA AFRL RW RWTA HANGAR 421"
+    },
+    "description": "SBIR PHASE III FOR IMPROVING BLUE AI SOFTWARE FOR NETWORKED COLLABORATIVE AUTONOMOUS (NCA) WEAPONS BY DEVELOPING A NEXT GENERATION COLOSSEUM.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865925CB002_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:05.444987+00:00",
+    "local_response_bytes": 6377,
+    "local_response_sha256": "454b95a97c62590da74b65ec123e247c3a7e9811ab04e37b0cdf6299729379c4",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6377,
+    "primary_response_sha256": "454b95a97c62590da74b65ec123e247c3a7e9811ab04e37b0cdf6299729379c4"
+  },
+  {
+    "piid": "N0001422C1033",
+    "generated_award_id": "CONT_AWD_N0001422C1033_9700_-NONE-_-NONE-",
+    "recipient": "PACMAR TECHNOLOGIES LLC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 33489605.73,
+    "current_value_usd": 46435390.0,
+    "potential_value_usd": 54435390.0,
+    "signed": "2022-05-04",
+    "performance": {
+      "start_date": "2022-05-04",
+      "end_date": "2027-11-30",
+      "last_modified_date": "2026-05-22",
+      "potential_end_date": "2027-11-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "funding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "description": "TECHNOLOGIES TO SUSTAIN EXPEDITIONARY ADVANCED BASE OPERATIONS (EABO) IN AUSTERE AND REMOTE ENVIRONMENTS ARE CRITICAL GAPS IN U.S. MARINE CORPS EXPEDITIONARY LOGISTICS. AUTONOMOUS/UNMANNED SUPPORT AND RESUPPLY CAPABILITIES ARE A KEY FOCUS AREA FOR DE",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001422C1033_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:10.439230+00:00",
+    "local_response_bytes": 6835,
+    "local_response_sha256": "08b202bf13ed3c789541ed37c5c75c0cf7b270aef47b27aaea490bac2237733e",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6835,
+    "primary_response_sha256": "08b202bf13ed3c789541ed37c5c75c0cf7b270aef47b27aaea490bac2237733e"
+  },
+  {
+    "piid": "N0001424C1114",
+    "generated_award_id": "CONT_AWD_N0001424C1114_9700_-NONE-_-NONE-",
+    "recipient": "PACIFIC DEFENSE STRATEGIES, INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 18434554.0,
+    "current_value_usd": 18434554.0,
+    "potential_value_usd": 18434554.0,
+    "signed": "2024-02-23",
+    "performance": {
+      "start_date": "2024-02-23",
+      "end_date": "2026-02-28",
+      "last_modified_date": "2024-10-03",
+      "potential_end_date": "2026-02-28 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "funding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "description": "COMMON SENSOR PLATFORM FOR STRATEGIC AND DISTRIBUTED AUTONOMOUS CYBER ELECTRONIC WARFARE",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001424C1114_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:10.420083+00:00",
+    "local_response_bytes": 6523,
+    "local_response_sha256": "970485b4fd4f4fd823250b0efd9265b8739d7eda35fc8a158199ffbf1ce1086d",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6523,
+    "primary_response_sha256": "970485b4fd4f4fd823250b0efd9265b8739d7eda35fc8a158199ffbf1ce1086d"
+  },
+  {
+    "piid": "N0001424C2411",
+    "generated_award_id": "CONT_AWD_N0001424C2411_9700_-NONE-_-NONE-",
+    "recipient": "PLIANT ENERGY SYSTEMS INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 5144167.59,
+    "current_value_usd": 5215869.0,
+    "potential_value_usd": 8010521.0,
+    "signed": "2024-04-25",
+    "performance": {
+      "start_date": "2024-04-25",
+      "end_date": "2026-11-06",
+      "last_modified_date": "2026-05-11",
+      "potential_end_date": "2026-11-06 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "funding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "description": "STEALTHY, AUTONOMOUS, PROPELLER-LESS, AGILE (SAPA) VEHICLE FOR MINE COUNTERMEASURES",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001424C2411_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:10.438799+00:00",
+    "local_response_bytes": 6387,
+    "local_response_sha256": "97b8ae053401a01be6e7ced9e37dadd837cf88f7cc1b1596c73133c75062674d",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6387,
+    "primary_response_sha256": "97b8ae053401a01be6e7ced9e37dadd837cf88f7cc1b1596c73133c75062674d"
+  },
+  {
+    "piid": "N6833522F0373",
+    "generated_award_id": "CONT_AWD_N6833522F0373_9700_N6833521G0106_9700",
+    "recipient": "OPTO-KNOWLEDGE SYSTEMS INC",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 4487550.0,
+    "current_value_usd": 4599975.98,
+    "potential_value_usd": 6349975.98,
+    "signed": "2022-09-16",
+    "performance": {
+      "start_date": "2022-09-13",
+      "end_date": "2025-08-30",
+      "last_modified_date": "2025-06-24",
+      "potential_end_date": "2025-08-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+    },
+    "funding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+    },
+    "description": "SBIR PHASE III R&D",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833522F0373_9700_N6833521G0106_9700/",
+    "retrieved_utc": "2026-10-24T16:41:34.462772+00:00",
+    "local_response_bytes": 6916,
+    "local_response_sha256": "eb8206579732e04c055ea9c0c8a851ee317d8e22b124cbac7bce35775401a3bf",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6916,
+    "primary_response_sha256": "eb8206579732e04c055ea9c0c8a851ee317d8e22b124cbac7bce35775401a3bf"
+  },
+  {
+    "piid": "W15QKN20C0025",
+    "generated_award_id": "CONT_AWD_W15QKN20C0025_9700_-NONE-_-NONE-",
+    "recipient": "OPTO-KNOWLEDGE SYSTEMS INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1499999.67,
+    "current_value_usd": 1499999.67,
+    "potential_value_usd": 1499999.67,
+    "signed": "2020-06-02",
+    "performance": {
+      "start_date": "2020-06-02",
+      "end_date": "2022-05-23",
+      "last_modified_date": "2023-12-29",
+      "potential_end_date": "2022-05-23 12:05:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-RI-PICATINNY"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-RI-PICATINNY"
+    },
+    "description": "THIS IS A PHASE II SBIR, TITLED: \"AUTOMATIC TARGET ACQUISITION&AIM-POINT SELECTION FOR SMALL ARMS\".",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W15QKN20C0025_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:34.426350+00:00",
+    "local_response_bytes": 6430,
+    "local_response_sha256": "c6e51bc3768428def330ddcf4246d6873406a1398e0d4aa5f900c15a521e1b46",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6430,
+    "primary_response_sha256": "c6e51bc3768428def330ddcf4246d6873406a1398e0d4aa5f900c15a521e1b46"
+  },
+  {
+    "piid": "W5170125CA129",
+    "generated_award_id": "CONT_AWD_W5170125CA129_9700_-NONE-_-NONE-",
+    "recipient": "DISTRIBUTED SPECTRUM INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1963208.78,
+    "current_value_usd": 1963208.78,
+    "potential_value_usd": 1963208.78,
+    "signed": "2025-04-04",
+    "performance": {
+      "start_date": "2025-04-07",
+      "end_date": "2026-10-07",
+      "last_modified_date": "2025-04-09",
+      "potential_end_date": "2026-10-07 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "description": "RF VISION PLATFORM THAT WILL PROVIDE COMPREHENSIVE SITUATIONAL AWARENESS AND ELECTRONIC WARFARE CAPABILITIES USING A NETWORK OF SENSORS TO MONITOR THE RF ENVIRONMENT, AUTONOMOUSLY CHARACTERIZE SIGNALS, AND REPORT IN AN EASILY UNDERSTANDABLE FORMAT.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA129_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:28.582250+00:00",
+    "local_response_bytes": 6627,
+    "local_response_sha256": "c7e76e46b440b16d8749b8b8bb6f9ca94590fd30236b6b76f88c8cd905e692ba",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6627,
+    "primary_response_sha256": "c7e76e46b440b16d8749b8b8bb6f9ca94590fd30236b6b76f88c8cd905e692ba"
+  },
+  {
+    "piid": "W5170125CA242",
+    "generated_award_id": "CONT_AWD_W5170125CA242_9700_-NONE-_-NONE-",
+    "recipient": "DEEPNIGHT INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1999911.25,
+    "current_value_usd": 1999911.25,
+    "potential_value_usd": 1999911.25,
+    "signed": "2025-08-07",
+    "performance": {
+      "start_date": "2025-08-18",
+      "end_date": "2027-08-18",
+      "last_modified_date": "2026-05-19",
+      "potential_end_date": "2027-08-18 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "description": "DEEP NIGHT VISION MACHINE LEARNING ALGORITHM FOR AUTONOMOUS DRONE SWARM NAVIGATION AND SENSING TO ADDRESS A DEMONSTRATED NEED FOR ADVANCED, AUTONOMOUS UAS NAVIGATI0ON AND SENSING CAPABILITIES IN VERY LOW-LIGHT ENVIRONMENTS.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA242_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:05.448855+00:00",
+    "local_response_bytes": 6637,
+    "local_response_sha256": "87ed8ccb422a27c6757266c2a7087c2023df6986e59e218c6449dcfd5c4c787f",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6637,
+    "primary_response_sha256": "87ed8ccb422a27c6757266c2a7087c2023df6986e59e218c6449dcfd5c4c787f"
+  },
+  {
+    "piid": "W5170125FA002",
+    "generated_award_id": "CONT_AWD_W5170125FA002_9700_W5170125DA002_9700",
+    "recipient": "NEAR EARTH AUTONOMY, INC",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 999839.02,
+    "current_value_usd": 999839.02,
+    "potential_value_usd": 999839.02,
+    "signed": "2025-04-15",
+    "performance": {
+      "start_date": "2025-04-16",
+      "end_date": "2025-10-15",
+      "last_modified_date": "2026-03-30",
+      "potential_end_date": "2025-10-15 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "description": "THIS IS A RESEARCH, DEVELOPMENT, TEST AND EVALUATION PHASE II CATALYST CONTRACT AWARDED TO: NEAR EARTH AUTONOMY FOR PROPOSAL A2-10443, ROTORCRAFT UNCREWED CONVERSION KIT FOR CONTESTED LOGISTICS AND SUSTAINMENT (RUCK) DATED 23 OCTOBER 2024.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125FA002_9700_W5170125DA002_9700/",
+    "retrieved_utc": "2026-10-24T16:41:28.578641+00:00",
+    "local_response_bytes": 7056,
+    "local_response_sha256": "98a42d598340c31b1152ee9b8d20d117bed80d15d1c1fc8e6bf3179b6d9e990c",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 7056,
+    "primary_response_sha256": "98a42d598340c31b1152ee9b8d20d117bed80d15d1c1fc8e6bf3179b6d9e990c"
+  },
+  {
+    "piid": "W5170126CA031",
+    "generated_award_id": "CONT_AWD_W5170126CA031_9700_-NONE-_-NONE-",
+    "recipient": "ALLEN CONTROL SYSTEMS, INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1993735.42,
+    "current_value_usd": 1993735.42,
+    "potential_value_usd": 1993735.42,
+    "signed": "2026-01-26",
+    "performance": {
+      "start_date": "2026-01-30",
+      "end_date": "2027-07-30",
+      "last_modified_date": "2026-06-15",
+      "potential_end_date": "2027-07-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "description": "A254-P030 - BULLFROG AUTONOMOUS WEAPON STATION",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170126CA031_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:28.578098+00:00",
+    "local_response_bytes": 6403,
+    "local_response_sha256": "8de725567ad681b3e8e237f5e3d51b9aef81bddba7fca62ebc675b83812dcd46",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6403,
+    "primary_response_sha256": "8de725567ad681b3e8e237f5e3d51b9aef81bddba7fca62ebc675b83812dcd46"
+  },
+  {
+    "piid": "W56KGU24C0023",
+    "generated_award_id": "CONT_AWD_W56KGU24C0023_9700_-NONE-_-NONE-",
+    "recipient": "SYSTEMS & TECHNOLOGY RESEARCH LLC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 2391033.0,
+    "current_value_usd": 2534044.0,
+    "potential_value_usd": 2546330.0,
+    "signed": "2024-05-14",
+    "performance": {
+      "start_date": "2024-05-14",
+      "end_date": "2027-01-09",
+      "last_modified_date": "2026-08-27",
+      "potential_end_date": "2027-01-09 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-APG"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W4G8 CCDC C5ISR CTR-FT BELVOIR"
+    },
+    "description": "CPFF BAA AWARD FOR COLLABORATIVE ARTIFICIAL INTELLIGENCE TASK EXECUTION ENGINE FOR DISTRIBUTED ELECTRONIC WARFARE (CAITEE-DEW)",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W56KGU24C0023_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:35:05.452289+00:00",
+    "local_response_bytes": 6549,
+    "local_response_sha256": "b78cf585591f72b22660ae57edd93911f69208919dec96c5a7bed6d893468a22",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6549,
+    "primary_response_sha256": "b78cf585591f72b22660ae57edd93911f69208919dec96c5a7bed6d893468a22"
+  },
+  {
+    "piid": "W58RGZ26F0223",
+    "generated_award_id": "CONT_AWD_W58RGZ26F0223_9700_W58RGZ26G0020_9700",
+    "recipient": "THE SURVICE ENGINEERING COMPANY LLC",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 13155389.06,
+    "current_value_usd": 13155389.06,
+    "potential_value_usd": 13155389.06,
+    "signed": "2026-03-19",
+    "performance": {
+      "start_date": "2026-03-19",
+      "end_date": "2026-12-17",
+      "last_modified_date": "2026-06-04",
+      "potential_end_date": "2026-12-17 12:12:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-RSA"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6DQ 01 PEO AVN"
+    },
+    "description": "ACQUISITION OF JOINT TACTICAL AUTONOMOUS AREIAL RESUPPLY VEHICLE",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W58RGZ26F0223_9700_W58RGZ26G0020_9700/",
+    "retrieved_utc": "2026-10-24T16:35:10.475822+00:00",
+    "local_response_bytes": 6390,
+    "local_response_sha256": "7d0eb8c17f7fb3605099ffb0ad68fec3feffab1e93514d662da26b189f769288",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6390,
+    "primary_response_sha256": "7d0eb8c17f7fb3605099ffb0ad68fec3feffab1e93514d662da26b189f769288"
+  },
+  {
+    "piid": "W911NF2520006",
+    "generated_award_id": "ASST_NON_W911NF2520006_097",
+    "recipient": "INNERVYCS SA",
+    "instrument": "COOPERATIVE AGREEMENT (B)",
+    "pricing": null,
+    "obligation_usd": 154461.0,
+    "current_value_usd": null,
+    "potential_value_usd": null,
+    "signed": "2024-10-08",
+    "performance": {
+      "start_date": "2024-10-02",
+      "end_date": "2026-04-08",
+      "last_modified_date": "2026-02-13"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-APG DURHAM"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W262 CCDC ARL"
+    },
+    "description": "NEW COOPERATIVE AGREEMENT: MRZR PHASE 2 MULTI-MODAL DEEP NEURAL NETWORK ARCHITECTURE TO ENABLE COLD WEATHER OFF-ROAD AUTONOMOUS NAVIGATION",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/ASST_NON_W911NF2520006_097/",
+    "retrieved_utc": "2026-10-24T16:41:28.581147+00:00",
+    "local_response_bytes": 4410,
+    "local_response_sha256": "62acae987b95e429b8c67e49fd505b6b10839edc1eaee0942c59c8ac7d666ae4",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 4410,
+    "primary_response_sha256": "62acae987b95e429b8c67e49fd505b6b10839edc1eaee0942c59c8ac7d666ae4"
+  },
+  {
+    "piid": "W911NF25CA031",
+    "generated_award_id": "CONT_AWD_W911NF25CA031_9700_-NONE-_-NONE-",
+    "recipient": "ALLEN CONTROL SYSTEMS, INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1551553.53,
+    "current_value_usd": 1551553.53,
+    "potential_value_usd": 1551553.53,
+    "signed": "2025-09-25",
+    "performance": {
+      "start_date": "2025-10-01",
+      "end_date": "2026-11-30",
+      "last_modified_date": "2025-09-25",
+      "potential_end_date": "2026-11-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-APG DURHAM"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W0CU USA FUTURES CMD"
+    },
+    "description": "BULLFROG AI POWERED CUAS REMOTE WEAPON STATION FEASIBILITY STUDY",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911NF25CA031_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:28.577071+00:00",
+    "local_response_bytes": 6405,
+    "local_response_sha256": "d11d6b46e075e5ca86f460f7d8f9875fcc36a6e4eee521ac2a8b87a4f328b161",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6405,
+    "primary_response_sha256": "d11d6b46e075e5ca86f460f7d8f9875fcc36a6e4eee521ac2a8b87a4f328b161"
+  },
+  {
+    "piid": "W9128Z26CA011",
+    "generated_award_id": "CONT_AWD_W9128Z26CA011_9700_-NONE-_-NONE-",
+    "recipient": "ARMAMENTS RESEARCH COMPANY INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 499880.0,
+    "current_value_usd": 499880.0,
+    "potential_value_usd": 499880.0,
+    "signed": "2026-03-31",
+    "performance": {
+      "start_date": "2026-03-27",
+      "end_date": "2027-04-30",
+      "last_modified_date": "2026-04-20",
+      "potential_end_date": "2027-04-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC-APG CONTR CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "0025 AR HQ     DIV HQ AND HQ B"
+    },
+    "description": "AWARD A ONE YEAR, TASK ORDER TO ARMAMENTS RESEARCH COMPANY, INC. (ARC) THROUGH THE SBIR PHASE III PROGRAM. ARC WILL PROVIDE AN AI-ENABLED WEAPON SENSOR (AEWS) CAPABILITY, IN SUPPORT OF THE 25TH INFANTRY DIVISION AND THE 101ST AIRBORNE DIVISION.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W9128Z26CA011_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:41:28.579581+00:00",
+    "local_response_bytes": 6555,
+    "local_response_sha256": "63426691e08bbd19095ffcfd15fcdbbb653c396b3a2ab866b6ec312722af7a15",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment",
+    "primary_response_bytes": 6555,
+    "primary_response_sha256": "63426691e08bbd19095ffcfd15fcdbbb653c396b3a2ab866b6ec312722af7a15"
+  },
+  {
+    "piid": "FA228024P0001",
+    "generated_award_id": "CONT_AWD_FA228024P0001_9700_-NONE-_-NONE-",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 3450000.0,
+    "current_value_usd": 3450000.0,
+    "potential_value_usd": 3450000.0,
+    "signed": "2023-11-08",
+    "performance": {
+      "start_date": "2023-11-06",
+      "end_date": "2027-02-18",
+      "last_modified_date": "2026-07-29",
+      "potential_end_date": "2027-02-18 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA2280  AFRL/RGKA"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBBP AFRL RYZ"
+    },
+    "description": "CONTROL SYSTEMS FOR COORDINATED OPERATIONS.",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA228024P0001_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:38.616060+00:00",
+    "local_response_bytes": 8596,
+    "local_response_sha256": "f2f5b4d6ee39855b7996752c524d50f096f2ad4029ee90a8cde9cdd8de4b8b20",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA228025C0002",
+    "generated_award_id": "CONT_AWD_FA228025C0002_9700_-NONE-_-NONE-",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 12434000.0,
+    "current_value_usd": 12434000.0,
+    "potential_value_usd": 15000000.0,
+    "signed": "2024-12-13",
+    "performance": {
+      "start_date": "2024-12-13",
+      "end_date": "2026-05-18",
+      "last_modified_date": "2026-05-19",
+      "potential_end_date": "2026-05-18 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA2280  AFRL/RGKA"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "CONTINUED ITERATIVE DEVELOPMENT AND IMPROVEMENT OF MODULAR AUTONOMY KIT SMALL BUSINESS INNOVATION RESEARCH PHASE II STRATEGIC FUNDING INCREASE",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA228025C0002_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:35.928088+00:00",
+    "local_response_bytes": 8592,
+    "local_response_sha256": "4f645b995b31319ccac1ea1544180308ebb43aa37a2214fd1e7a84315c61a25c",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA228025C0010",
+    "generated_award_id": "CONT_AWD_FA228025C0010_9700_-NONE-_-NONE-",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 4725000.0,
+    "current_value_usd": 4725000.0,
+    "potential_value_usd": 4725000.0,
+    "signed": "2025-09-26",
+    "performance": {
+      "start_date": "2025-09-30",
+      "end_date": "2026-10-15",
+      "last_modified_date": "2026-03-06",
+      "potential_end_date": "2026-10-15 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA2280  AFRL/RGKA"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FTBS AFLCMC WF AFSAC"
+    },
+    "description": "EPISYS UNMANNED AERIAL VEHICLE KITS SMALL BUSINESS INNOVATION RESEARCH PHASE III",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA228025C0010_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:36.043129+00:00",
+    "local_response_bytes": 8514,
+    "local_response_sha256": "bd071fc95cf9eb6d28d6098af55170b061b87fe64050ff36116b77428992fc9a",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA864924P1112",
+    "generated_award_id": "CONT_AWD_FA864924P1112_9700_-NONE-_-NONE-",
+    "recipient": "RHOMAN AEROSPACE CORPORATION",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1799600.0,
+    "current_value_usd": 1799600.0,
+    "potential_value_usd": 1799600.0,
+    "signed": "2024-08-28",
+    "performance": {
+      "start_date": "2024-08-30",
+      "end_date": "2026-07-28",
+      "last_modified_date": "2026-02-12",
+      "potential_end_date": "2026-07-28 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "MARITIME GLOBAL POSITIONING SYSTEM-DENIED UNMANNED AERIAL VEHICLE AUTONOMY AND ALT-POSITIONING-NAVIGATION-TIMING, NO-EMIT, ALL SOURCE POSITION AND NAVIGATION AND MOD PAYLOAD COMPLIANT SOLUTION",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864924P1112_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:44.372141+00:00",
+    "local_response_bytes": 8686,
+    "local_response_sha256": "2fe0cc9b6373f31263cddf19e2f71637b834ffc2ff6b08fbbab77aedcac000e2",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA864925P0087",
+    "generated_award_id": "CONT_AWD_FA864925P0087_9700_-NONE-_-NONE-",
+    "recipient": "GAMBIT DEFENSE, INC.",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 74566.0,
+    "current_value_usd": 74566.0,
+    "potential_value_usd": 74566.0,
+    "signed": "2025-01-17",
+    "performance": {
+      "start_date": "2025-01-17",
+      "end_date": "2025-04-17",
+      "last_modified_date": "2025-07-03",
+      "potential_end_date": "2025-04-17 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "NEURON: MESH NETWORK FOR TACTICAL EDGE EMBODIED ARTIFICIAL INTELLIGENCE",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0087_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:38.371854+00:00",
+    "local_response_bytes": 8534,
+    "local_response_sha256": "74be839a923a8ca56cd6a1286d942c26e99b2c4c8894dda9640cb61d8099c656",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA864925P0190",
+    "generated_award_id": "CONT_AWD_FA864925P0190_9700_-NONE-_-NONE-",
+    "recipient": "GAMBIT DEFENSE, INC.",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 109341.0,
+    "current_value_usd": 109341.0,
+    "potential_value_usd": 109341.0,
+    "signed": "2025-01-15",
+    "performance": {
+      "start_date": "2025-01-15",
+      "end_date": "2025-04-15",
+      "last_modified_date": "2025-06-24",
+      "potential_end_date": "2025-04-15 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "CORTEX: ARTIFICIAL INTELLIGENCE (AI)/MACHINE LEARNING (ML) FOR TACTICAL EDGE EMBODIED AI",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0190_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:38.323325+00:00",
+    "local_response_bytes": 8551,
+    "local_response_sha256": "9403fd9614c509e3bde19e1ecbe1f59b17db2dcc8b45d0238dd79a1a9fe23fbe",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA864925P0453",
+    "generated_award_id": "CONT_AWD_FA864925P0453_9700_-NONE-_-NONE-",
+    "recipient": "GAMBIT DEFENSE, INC.",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1511684.51,
+    "current_value_usd": 1511684.51,
+    "potential_value_usd": 1511684.51,
+    "signed": "2025-08-26",
+    "performance": {
+      "start_date": "2025-08-26",
+      "end_date": "2027-04-29",
+      "last_modified_date": "2026-06-17",
+      "potential_end_date": "2027-04-29 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA2385 USAF AFMC AFRL PZL AFRL RSKD"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "SPECTRUM SUPREMACY UTILIZING A MESH NETWORK: NEURON",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0453_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:38.455493+00:00",
+    "local_response_bytes": 8468,
+    "local_response_sha256": "0425e0bb1c2a67c7b9de95e1f4e2fd0652ff5e6fe5a5cf802cb52257fdb34507",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA864925P0493",
+    "generated_award_id": "CONT_AWD_FA864925P0493_9700_-NONE-_-NONE-",
+    "recipient": "GAMBIT DEFENSE, INC.",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1788872.0,
+    "current_value_usd": 1788872.0,
+    "potential_value_usd": 1788872.0,
+    "signed": "2025-08-25",
+    "performance": {
+      "start_date": "2025-08-25",
+      "end_date": "2027-06-01",
+      "last_modified_date": "2026-06-12",
+      "potential_end_date": "2027-06-01 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "DEDICATED COUNTER UNMANNED AERIAL SYSTEMS OPPOSING FORCES UTILIZING ARTIFICIAL INTELLIGENCE/MACHINE LEARNING: CORTEX",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0493_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:38.406390+00:00",
+    "local_response_bytes": 8529,
+    "local_response_sha256": "2529fc7543ddb3b497de5275c454e2572a4d79e946cac06c5d6bbd94443ce7ac",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA864926P0005",
+    "generated_award_id": "CONT_AWD_FA864926P0005_9700_-NONE-_-NONE-",
+    "recipient": "RHOMAN AEROSPACE CORPORATION",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1799617.0,
+    "current_value_usd": 1799617.0,
+    "potential_value_usd": 1799617.0,
+    "signed": "2026-02-27",
+    "performance": {
+      "start_date": "2026-02-27",
+      "end_date": "2027-11-29",
+      "last_modified_date": "2026-07-16",
+      "potential_end_date": "2027-11-29 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "GLOBAL POSITIONING SYSTEM-DENIED UNMANNED AERIAL VEHICLE NAVIGATION IN LAND AND MARITIME ENVIRONMENTS: MODULAR, NO-EMIT, MULTI-SPECTRAL ALTERNATIVE-POSITIONING, NAVIGATION AND TIMING, AIR FORCE INSTITUTE TECHNOLOGY, RHOMAN AERO",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864926P0005_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:47.947026+00:00",
+    "local_response_bytes": 8721,
+    "local_response_sha256": "0ffc5a07f7e32063fc472bee95ce33064af66222d40f0c949eaac9e978ae14b7",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA865123CB002",
+    "generated_award_id": "CONT_AWD_FA865123CB002_9700_-NONE-_-NONE-",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1592988.0,
+    "current_value_usd": 1592988.0,
+    "potential_value_usd": 1592988.0,
+    "signed": "2023-09-25",
+    "performance": {
+      "start_date": "2023-10-01",
+      "end_date": "2025-10-01",
+      "last_modified_date": "2025-06-03",
+      "potential_end_date": "2025-10-01 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F1TBTA AFRL RW RWTA HANGAR 421"
+    },
+    "description": "DEEP MODEL-BASED REINFORCEMENT LEARNING FOR COLLABORATIVE AUTONOMOUS WEAPONS",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865123CB002_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:38:48.869749+00:00",
+    "local_response_bytes": 8723,
+    "local_response_sha256": "a60ee9a3881a44779f9460620e4398a3539002439a7d752328aa7536774bf3b1",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA865124CB024",
+    "generated_award_id": "CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-",
+    "recipient": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 2839551.44,
+    "current_value_usd": 2839551.44,
+    "potential_value_usd": 2839551.44,
+    "signed": "2024-07-31",
+    "performance": {
+      "start_date": "2024-07-31",
+      "end_date": "2027-09-30",
+      "last_modified_date": "2026-07-21",
+      "potential_end_date": "2027-09-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "TACTICAL AUTONOMOUS LOOK OPTIMIZATION NETWORK (TALON)",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:38:42.437047+00:00",
+    "local_response_bytes": 8581,
+    "local_response_sha256": "c7189e002d62943b2786dcf1c9645114ff16519cb8f58507dccffed43c200bde",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA865124FB022",
+    "generated_award_id": "CONT_AWD_FA865124FB022_9700_FA865124DB007_9700",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 192293.0,
+    "current_value_usd": 192293.0,
+    "potential_value_usd": 192293.0,
+    "signed": "2024-05-21",
+    "performance": {
+      "start_date": "2024-05-21",
+      "end_date": "2024-12-16",
+      "last_modified_date": "2024-11-14",
+      "potential_end_date": "2024-12-16 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F1TB1A AFRL RW RWIA"
+    },
+    "description": "INTEROPERABILITY STUDY",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124FB022_9700_FA865124DB007_9700/",
+    "retrieved_utc": "2026-10-24T16:31:36.098247+00:00",
+    "local_response_bytes": 9132,
+    "local_response_sha256": "5ba04602187d1d556bf0442a6f7eb470dc85b2720ea65db67d92b4f4dcd1bb63",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA865124FB071",
+    "generated_award_id": "CONT_AWD_FA865124FB071_9700_FA865124DB007_9700",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "COST PLUS FIXED FEE",
+    "obligation_usd": 910531.0,
+    "current_value_usd": 910531.0,
+    "potential_value_usd": 910531.0,
+    "signed": "2024-09-11",
+    "performance": {
+      "start_date": "2024-09-11",
+      "end_date": "2025-05-16",
+      "last_modified_date": "2025-02-10",
+      "potential_end_date": "2025-05-16 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F1TBAU AFRL RW DWS"
+    },
+    "description": "AFRL/RW GOVERNMENT REFERENCE ARCHITECTURE (GRA) STUDY",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124FB071_9700_FA865124DB007_9700/",
+    "retrieved_utc": "2026-10-24T16:31:36.016736+00:00",
+    "local_response_bytes": 9162,
+    "local_response_sha256": "3cb44ba5d742cb11eef9f9e52b0d5d5c8affcb87e83cc2a7165d72d16cce9d7e",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA865125FB052",
+    "generated_award_id": "CONT_AWD_FA865125FB052_9700_FA865124DB007_9700",
+    "recipient": "EPISYS SCIENCE INC",
+    "instrument": "DELIVERY ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 667470.0,
+    "current_value_usd": 667470.0,
+    "potential_value_usd": 1996050.0,
+    "signed": "2025-04-30",
+    "performance": {
+      "start_date": "2025-04-30",
+      "end_date": "2025-11-30",
+      "last_modified_date": "2025-07-30",
+      "potential_end_date": "2026-04-30 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8651 AFRL RAZ"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F1TBAU AFRL RW DWS"
+    },
+    "description": "GOVERNMENT REFERENCE ARCHITECTURE DEVELOPMENT -MODEL-BASED SYSTEMS ENGINEERING",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865125FB052_9700_FA865124DB007_9700/",
+    "retrieved_utc": "2026-10-24T16:31:36.163732+00:00",
+    "local_response_bytes": 9169,
+    "local_response_sha256": "54c980c115fe8a08ad1f7f4590d522416fcafc367b007e4a6c116759b162f4d6",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "FA865621C0116",
+    "generated_award_id": "CONT_AWD_FA865621C0116_9700_-NONE-_-NONE-",
+    "recipient": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 949960.0,
+    "current_value_usd": 949960.0,
+    "potential_value_usd": 949960.0,
+    "signed": "2021-04-29",
+    "performance": {
+      "start_date": "2021-04-29",
+      "end_date": "2021-04-29",
+      "last_modified_date": "2025-04-22",
+      "potential_end_date": "2022-01-10 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "FA8656 AFLCMC EBX"
+    },
+    "funding_agency": {
+      "id": 1196,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Air Force",
+        "code": "5700",
+        "abbreviation": "USAF"
+      },
+      "office_agency_name": "F4FBEQ AFRL RGF"
+    },
+    "description": "SIBR PHASE II - EVENT HORIZON PROCESSING",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865621C0116_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:38:45.928506+00:00",
+    "local_response_bytes": 8718,
+    "local_response_sha256": "9c84a4995fc01d89703b9dbd5ac689876b0bdde6e85548f02b29cc7a73397c17",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "N0001424C1333",
+    "generated_award_id": "CONT_AWD_N0001424C1333_9700_-NONE-_-NONE-",
+    "recipient": "VIVUM COMPUTING, INC",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 920802.0,
+    "current_value_usd": 920802.0,
+    "potential_value_usd": 1826487.84,
+    "signed": "2024-08-27",
+    "performance": {
+      "start_date": "2024-08-27",
+      "end_date": "2026-08-31",
+      "last_modified_date": "2024-11-20",
+      "potential_end_date": "2028-08-31 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "funding_agency": {
+      "id": 1174,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Navy",
+        "code": "1700",
+        "abbreviation": "USN"
+      },
+      "office_agency_name": "OFFICE OF NAVAL RESEARCH"
+    },
+    "description": "DYNAMIC NEURAL UMVS - ENHANCED AUTONOMY FOR THE U.S. NAVY",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0001424C1333_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:47.920384+00:00",
+    "local_response_bytes": 8619,
+    "local_response_sha256": "fdb43c8a88558b6f083430db4301b8d54d438d7c61d86f79bf70b3aa06a17f88",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "W5170125CA138",
+    "generated_award_id": "CONT_AWD_W5170125CA138_9700_-NONE-_-NONE-",
+    "recipient": "PRIMORDIAL LABS INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1898591.05,
+    "current_value_usd": 1898591.05,
+    "potential_value_usd": 1898591.05,
+    "signed": "2025-04-23",
+    "performance": {
+      "start_date": "2025-04-28",
+      "end_date": "2026-07-27",
+      "last_modified_date": "2026-03-24",
+      "potential_end_date": "2026-07-27 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "description": "PRIMORDIAL LABS, INC, SBIR PH II, A234-P017",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA138_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:44.312299+00:00",
+    "local_response_bytes": 8624,
+    "local_response_sha256": "b91ad96efce2b20e16fbe9d8a92fa2732e70e8eb58a04f26c7ec41d2449fd359",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "W5170126CA118",
+    "generated_award_id": "CONT_AWD_W5170126CA118_9700_-NONE-_-NONE-",
+    "recipient": "PRIMORDIAL LABS INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 1899925.03,
+    "current_value_usd": 1899925.03,
+    "potential_value_usd": 1899925.03,
+    "signed": "2026-03-31",
+    "performance": {
+      "start_date": "2026-04-15",
+      "end_date": "2027-04-15",
+      "last_modified_date": "2026-06-15",
+      "potential_end_date": "2027-04-15 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W27P USA ACQ SPT CTR"
+    },
+    "description": "A244-P001 - VOICE COMMAND AUTONOMY FOR ARMY HUMAN-MACHINE INTEGRATED FORMATIONS",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170126CA118_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:46.316910+00:00",
+    "local_response_bytes": 8514,
+    "local_response_sha256": "b6d3f395dbf4951df535776aa6381ff899dde7bfc938803e044473236ef2422b",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "W911W626CA001",
+    "generated_award_id": "CONT_AWD_W911W626CA001_9700_-NONE-_-NONE-",
+    "recipient": "PRIMORDIAL LABS INC.",
+    "instrument": "DEFINITIVE CONTRACT",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 985548.76,
+    "current_value_usd": 985548.76,
+    "potential_value_usd": 985548.76,
+    "signed": "2026-03-27",
+    "performance": {
+      "start_date": "2026-04-01",
+      "end_date": "2027-03-31",
+      "last_modified_date": "2026-03-27",
+      "potential_end_date": "2027-03-31 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK AATD CONTR OFF"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W1DF CCDC AV MISSILE CENTER"
+    },
+    "description": "NATURALISTIC VOICE COMMAND WITH MANNED-UNMANNED TEAMING CAPABILITY",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911W626CA001_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:44.515730+00:00",
+    "local_response_bytes": 8349,
+    "local_response_sha256": "4817abae93f8e5ae64fc05ae71285e18b579d5f00cb73dedee8c323290100a0b",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  },
+  {
+    "piid": "W912CG26PA010",
+    "generated_award_id": "CONT_AWD_W912CG26PA010_9700_-NONE-_-NONE-",
+    "recipient": "PRIMORDIAL LABS INC.",
+    "instrument": "PURCHASE ORDER",
+    "pricing": "FIRM FIXED PRICE",
+    "obligation_usd": 266000.0,
+    "current_value_usd": 266000.0,
+    "potential_value_usd": 266000.0,
+    "signed": "2026-06-22",
+    "performance": {
+      "start_date": "2026-06-22",
+      "end_date": "2027-06-21",
+      "last_modified_date": "2026-06-22",
+      "potential_end_date": "2027-06-21 00:00:00"
+    },
+    "awarding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W6QK ACC CCDC STTC"
+    },
+    "funding_agency": {
+      "id": 1188,
+      "has_agency_page": true,
+      "toptier_agency": {
+        "name": "Department of Defense",
+        "code": "097",
+        "abbreviation": "DOD",
+        "slug": "department-of-defense"
+      },
+      "subtier_agency": {
+        "name": "Department of the Army",
+        "code": "2100",
+        "abbreviation": "USA"
+      },
+      "office_agency_name": "W1D1 NATICK SOLDIER CENTER"
+    },
+    "description": "ANURA SOLDIER ENHANCEMENT PROGRAM - RESEARCH AND DEVELOPMENT",
+    "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W912CG26PA010_9700_-NONE-_-NONE-/",
+    "retrieved_utc": "2026-10-24T16:31:44.462131+00:00",
+    "local_response_bytes": 8439,
+    "local_response_sha256": "acd30eafc8bc0ef8573855d1ed0dd5cec1825c76893cb40f8b7e3b8c06d92ab1",
+    "evidence_type": "Official USAspending award details; funding does not prove deployment"
+  }
+]

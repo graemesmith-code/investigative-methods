@@ -1,0 +1,419 @@
+{
+  "piid": "HR0011269E025",
+  "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR0011269E025%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "count": 8,
+  "links": [
+    {
+      "rel": "alternate",
+      "type": "text/html",
+      "href": "https://www.fpds.gov/ezsearch/search.do?s=FPDS&indexName=awardfull&templateName=1.5.3&q=PIID%3A%22HR0011269E025%22&start=0"
+    }
+  ],
+  "rows": [
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "0",
+      "signedDate": "2025-10-06 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "1434409.00",
+      "baseAndExercisedOptionsValue": "14354513.00",
+      "baseAndAllOptionsValue": "14354513.00",
+      "totalObligatedAmount": "1434409.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": null,
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00001",
+      "signedDate": "2025-12-11 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4270644.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00002",
+      "signedDate": "2026-01-16 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "1428874.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4270644.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00003",
+      "signedDate": "2026-01-23 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "1407361.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "4270644.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00004",
+      "signedDate": "2026-04-13 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "5678005.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00005",
+      "signedDate": "2026-06-09 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "0.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "7085366.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "M",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "OTHER ADMINISTRATIVE ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00006",
+      "signedDate": "2026-07-13 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "1407361.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "7085366.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    },
+    {
+      "PIID": "HR0011269E025",
+      "agencyID": "9700",
+      "modNumber": "P00007",
+      "signedDate": "2026-07-21 00:00:00",
+      "effectiveDate": "2025-10-06 00:00:00",
+      "currentCompletionDate": "2028-04-05 00:00:00",
+      "ultimateCompletionDate": "2028-04-05 00:00:00",
+      "obligatedAmount": "1407361.00",
+      "baseAndExercisedOptionsValue": "0.00",
+      "baseAndAllOptionsValue": "0.00",
+      "totalObligatedAmount": "7085366.00",
+      "totalBaseAndExercisedOptionsValue": "14354513.00",
+      "totalBaseAndAllOptionsValue": "14354513.00",
+      "vendorName": "EPISYS SCIENCE INC",
+      "typeOfAgreement": "PROTOTYPE",
+      "reasonForModification": "C",
+      "descriptionOfContractRequirement": "AI REINFORCEMENTS (AIR)",
+      "contractingOfficeAgencyID": "97AE",
+      "contractingOfficeID": "HR0011",
+      "fundingRequestingAgencyID": "97AE",
+      "fundingRequestingOfficeID": "HR0011",
+      "extentCompeted": "H",
+      "solicitationProcedures": "BAA",
+      "contractActionType": "R",
+      "reason": {
+        "description": "FUNDING ONLY ACTION"
+      },
+      "actiontype": {
+        "description": "OTHER TRANSACTION AGREEMENT"
+      },
+      "office_labels": {
+        "contractingOfficeAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "contractingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY",
+          "country": "USA"
+        },
+        "fundingRequestingAgencyID": {
+          "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY  (DARPA)",
+          "departmentID": "9700",
+          "departmentName": "DEPT OF DEFENSE"
+        },
+        "fundingRequestingOfficeID": {
+          "name": "DEF ADVANCED RESEARCH PROJECTS AGCY"
+        }
+      }
+    }
+  ]
+}
