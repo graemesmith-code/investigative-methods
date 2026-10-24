@@ -1,0 +1,53 @@
+[
+  {
+    "query": "\"Gauging Ethical\" in:readme",
+    "source_url": "https://api.github.com/search/repositories?q=%22Gauging+Ethical%22+in%3Areadme&per_page=100",
+    "observed_utc": "2026-10-24T21:35:51.722568+00:00",
+    "response_sha256": "bf49c216225c96ffa7b2b4be5772414e68f0dd07608acad2a20a9796b98c77fb",
+    "total_count": 1,
+    "incomplete_results": false,
+    "items": [
+      {
+        "name": "Amir-Mann/LifePrioritizationSurvey",
+        "url": "https://github.com/Amir-Mann/LifePrioritizationSurvey",
+        "description": null
+      }
+    ]
+  },
+  {
+    "query": "\"Responsible Ethical Standards\" in:readme",
+    "source_url": "https://api.github.com/search/repositories?q=%22Responsible+Ethical+Standards%22+in%3Areadme&per_page=100",
+    "observed_utc": "2026-10-24T21:35:54.897692+00:00",
+    "response_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "total_count": 0,
+    "incomplete_results": false,
+    "items": []
+  },
+  {
+    "query": "\"FA865125CB006\" in:readme",
+    "source_url": "https://api.github.com/search/repositories?q=%22FA865125CB006%22+in%3Areadme&per_page=100",
+    "observed_utc": "2026-10-24T21:35:57.899032+00:00",
+    "response_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "total_count": 0,
+    "incomplete_results": false,
+    "items": []
+  },
+  {
+    "query": "\"FA865125CB007\" in:readme",
+    "source_url": "https://api.github.com/search/repositories?q=%22FA865125CB007%22+in%3Areadme&per_page=100",
+    "observed_utc": "2026-10-24T21:36:02.316227+00:00",
+    "response_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "total_count": 0,
+    "incomplete_results": false,
+    "items": []
+  },
+  {
+    "query": "\"FA865125CB004\" in:readme",
+    "source_url": "https://api.github.com/search/repositories?q=%22FA865125CB004%22+in%3Areadme&per_page=100",
+    "observed_utc": "2026-10-24T21:36:05.179552+00:00",
+    "response_sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f",
+    "total_count": 0,
+    "incomplete_results": false,
+    "items": []
+  }
+]

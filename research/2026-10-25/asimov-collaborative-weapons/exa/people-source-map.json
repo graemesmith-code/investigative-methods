@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Timothy J. Klausutis",
+    "verified_role": "DARPA programme manager; official bio says joined in August 2022; September 2026 Ohio State agenda lists a Strategic Technology Office manager",
+    "role_source_date": "2026-09-29",
+    "source_url": "https://imr.osu.edu/events/mist-workshop",
+    "question": "Phase II selection, programme completion, acceptance, transition and promised public outputs.",
+    "limitation": "No verified departure; completion banner is not evidence he left."
+  },
+  {
+    "name": "Arslan Basharat",
+    "verified_role": "Kitware REBAR principal investigator",
+    "role_source_date": "2025-05-21",
+    "source_url": "https://www.duality.ai/news/duality-kitware-asimov",
+    "question": "REBAR acceptance, simulation limitations and release plans.",
+    "limitation": "Vendor identification, not an independent assessment."
+  },
+  {
+    "name": "Jonathan Diller",
+    "verified_role": "First author of REBAR paper",
+    "role_source_date": "2026-05-18",
+    "source_url": "https://arxiv.org/abs/2605.18423",
+    "question": "Evaluation design and remaining physical-validation gaps.",
+    "limitation": "Do not substitute first author for contract PI."
+  },
+  {
+    "name": "Peggy Wu",
+    "verified_role": "RTX MAGNET author; interviewed about ASIMOV in The New Republic",
+    "role_source_date": "2026-07-05",
+    "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-30836-8_46",
+    "question": "CALVIN/MAGNET relationship and hazard-centric evaluation outputs.",
+    "limitation": "Only chapter abstract/acknowledgment inspected; exact subaward linkage verified in the companion primary-source audit."
+  },
+  {
+    "name": "Mary Nerayo; Ugur Kuter; Christopher Miller; Helen Wauck; Timothy Wang",
+    "verified_role": "MAGNET authors; VTNSI/SIFT/RTX affiliations on publisher page",
+    "role_source_date": "2026-07-05",
+    "source_url": "https://link.springer.com/chapter/10.1007/978-3-032-30836-8_46",
+    "question": "Implementation, benchmarks and public-release limits.",
+    "limitation": "Authorship does not establish each person’s contract management role."
+  },
+  {
+    "name": "Devesh Upadhyay",
+    "verified_role": "Saab RESPECT principal investigator/technical director",
+    "role_source_date": "2025-01-06",
+    "source_url": "https://www.saab.com/markets/united-states/us-newsroom/stories/2025/darpa",
+    "question": "RESPECT outputs, acceptance and relation to MIT work.",
+    "limitation": "No exact CB007 link established for SEED-SET paper by this audit."
+  },
+  {
+    "name": "Chuchu Fan; Nicholas Roy",
+    "verified_role": "MIT collaborators named in the Saab release",
+    "role_source_date": "2025-01-06",
+    "source_url": "https://www.saab.com/markets/united-states/us-newsroom/stories/2025/darpa",
+    "question": "Formal evaluation, values specification and physical testing limits.",
+    "limitation": "No inference of current programme role beyond dated source."
+  },
+  {
+    "name": "Deane-Peter Baker",
+    "verified_role": "UNSW ASIMOV principal investigator",
+    "role_source_date": "2025-01-24",
+    "source_url": "https://www.unsw.edu.au/news/2025/01/unsw-awarded-contract-to-develop-framework-for-measuring-ethical",
+    "question": "Adversarial ethical scenarios, completion and outputs.",
+    "limitation": "University account; not independent validation."
+  },
+  {
+    "name": "Pete Torrione",
+    "verified_role": "CoVar CTO in the GEARS release",
+    "role_source_date": "2025-05-19",
+    "source_url": "https://www.duality.ai/news/duality-covar-asimov",
+    "question": "GEARS release, tests and Phase II decisions.",
+    "limitation": "Role dated to release; no departure evidence."
+  },
+  {
+    "name": "Ronald C. Arkin; Alan R. Wagner; Leete Skinner; Mark Hoffman",
+    "verified_role": "Authors affiliated with Georgia Tech, Penn State and Lockheed Martin ATL in the exact-CB018-acknowledging paper",
+    "role_source_date": "2025-08",
+    "source_url": "https://sites.cc.gatech.edu/ai/robot-lab/online-publications/CASEWorkshopFinal.pdf",
+    "question": "Ethical-readiness architecture and validation/adoption.",
+    "limitation": "Exact CB018 acknowledgement and official CV conference dates verified; not evidence of operational weapons or final benchmark adoption."
+  },
+  {
+    "name": "Fabrizio Santini",
+    "verified_role": "TALON principal investigator named by SBIR.gov",
+    "role_source_date": null,
+    "source_url": "https://www.sbir.gov/awards/208992",
+    "question": "What reached RAPTOR/Colosseum and what remains simulation.",
+    "limitation": "Other professional roles would not establish departure from SSCI.",
+    "date_note": "The award record names the PI. The 31 July 2024 contract signature is not treated as a publication date for the profile."
+  },
+  {
+    "name": "Chris Gentile",
+    "verified_role": "Mach VP of Test and Autonomy; company biography lists prior EpiSci role",
+    "role_source_date": null,
+    "source_url": "https://machindustries.com/leadership",
+    "question": "Golden Horde/Colosseum history, transition and test-to-fielding constraints.",
+    "limitation": "Role transition verified, exact departure date/cause not established; LinkedIn index dates conflict with relative page dates."
+  },
+  {
+    "name": "Brian Zarchin",
+    "verified_role": "Merlin tactical autonomy business lead; interview calls him GM for Tactical Aviation",
+    "role_source_date": "2026-09-24",
+    "source_url": "https://merlinlabs.com/news/autonomy-in-service-of-the-warfighter/",
+    "question": "Current transition and test-to-service perspective.",
+    "limitation": "Company interview has forward-looking statements; does not prove delivery on specific award."
+  },
+  {
+    "name": "Michael C. Horowitz",
+    "verified_role": "Former Pentagon emerging-capabilities/autonomous-weapons policymaker; departure reported on 9 August 2024",
+    "role_source_date": "2024-08-09",
+    "source_url": "https://defensescoop.com/2024/08/09/pentagon-michael-horowitz-autonomous-weapons-policymaker-departs/",
+    "question": "3000.09 review process, benchmarks versus authorization.",
+    "limitation": "Dated 2024 policy departure, not a recent ASIMOV team departure; no cause inferred."
+  },
+  {
+    "name": "Lauren Kahn",
+    "verified_role": "CSET senior research analyst in a CFR coauthored analysis",
+    "role_source_date": "2026-10-14",
+    "source_url": "https://www.cfr.org/articles/the-autonomous-weapons-debate-still-has-a-definition-problem",
+    "question": "Counterarguments about definitions, autonomy and current models.",
+    "limitation": "Independent contextual analyst, not established project insider."
+  },
+  {
+    "name": "Joseph Chapa",
+    "verified_role": "Air Force Chief Responsible AI Ethics Officer, 2022–2024, according to his public professional CV.",
+    "role_source_date": null,
+    "source_url": "https://www.josephchapa.com/cv",
+    "question": "Practical assurance and operator accountability.",
+    "limitation": "No verified ASIMOV role or recent departure from these projects."
+  },
+  {
+    "name": "Peter Asaro; Rebecca Crootof; Jeremy Davis",
+    "verified_role": "Ethics/legal sources interviewed in The New Republic",
+    "role_source_date": "2025-01-02",
+    "source_url": "https://newrepublic.com/article/189236/inside-plan-teach-robots-laws-war",
+    "question": "Whether measurable benchmarks can capture contextual legal/moral judgments.",
+    "limitation": "Davis applied; not explicitly unsuccessful. Anonymous rejected-team philosopher is different. Asaro did not apply."
+  }
+]

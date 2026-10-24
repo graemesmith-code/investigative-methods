@@ -1,0 +1,54 @@
+{
+  "received_archive_bytes": 43051,
+  "received_archive_sha256": "cf02664f2a8d0421ca220a366f3fb21ccac352dbafe1d1a45a53ab77c5001213",
+  "original_file_manifest": {
+    "angle-coverage-matrix.csv": {
+      "bytes": 9155,
+      "sha256": "fe690b7004e1d4fa0392cbb333970d22034cd88d2991160aefef87437c61aa46"
+    },
+    "briefing.md": {
+      "bytes": 7712,
+      "sha256": "95fa900339729cb05eab51d552d532176f67f467928961f5c93d66290a780cb1"
+    },
+    "known-unknown-inference.csv": {
+      "bytes": 2129,
+      "sha256": "bab8aeab259f098b975ef8c29c80fa3a041f379c44f82319e20038c268b6d1d5"
+    },
+    "methodology-accounting.json": {
+      "bytes": 5998,
+      "sha256": "b6cab22af2b138b14540b521a6545fce20258fe723dc3ba664810a24ccc6723c"
+    },
+    "people-source-map.json": {
+      "bytes": 6536,
+      "sha256": "5ac8998f34dd9047fa82f297d06ebf508281a613030f42451d4d9164a3b3bb24"
+    },
+    "primary-corrections.json": {
+      "bytes": 3002,
+      "sha256": "28022534a2248eef3c95f797bf218e100565e29253b918e443db216ed7220ba2"
+    },
+    "query-cost-log.csv": {
+      "bytes": 46485,
+      "sha256": "6e91f377ea0931dfe6eff61b5a74f5662425add18d46eaf9aaf02205c8afcd47"
+    },
+    "ranked-reading-pack.json": {
+      "bytes": 38766,
+      "sha256": "8ec784f2b4fee00db90e3d8f7390517f52072a426d5eb5f1ea17bfe9dd05e09f"
+    },
+    "relevant-source-index.json": {
+      "bytes": 9113,
+      "sha256": "00fdf4d5691d394cc8ac8f05da241631baa96a53e463628f7abb03bbe4956a72"
+    }
+  },
+  "exact_unchanged_query_ledger_sha256": "6e91f377ea0931dfe6eff61b5a74f5662425add18d46eaf9aaf02205c8afcd47",
+  "editorial_changes": [
+    "Added normal spacing and readable JSON/Markdown formatting; exact search queries and ledger bytes were not changed.",
+    "Repaired references to filenames included in this package and removed obsolete workflow wording.",
+    "Changed the CB005 label from a categorical exclusion to an unverified identifier.",
+    "Separated Saab’s 25 February modification date from its 31 March recorded performance end.",
+    "Did not use an unverified date as the publication date for Santini’s PI record.",
+    "Flagged descriptive headline labels, index/version dates and partial-access provenance; did not invent missing authors.",
+    "Retained actual search cost and exposure.",
+    "Rendered the 60-source pack in Markdown and generated query-family counts from the unchanged ledger."
+  ],
+  "meaning": "The original archive and its file hashes identify the received source export. The package-level final manifest identifies the edited public derivatives. No full source articles or original all-results index are included."
+}

@@ -1,0 +1,234 @@
+query_id,candidate_id,query,request_utc,status,requested_result_count,provider_reported_cost_usd,accounted_exposure_usd,provider_response_sha256
+1,asimov-program,DARPA ASIMOV Autonomy Standards Ideals Military Operational Values program complete completion cancellation,2026-10-24T21:23:56.535623+00:00,success,10,0.007,0.007,ab34f572c492368fb39663d4a8f29dff375ce13291ef5c1936b71a064c7d8022
+2,asimov-program,DARPA ASIMOV program planned phases duration 2024 2025 2026 benchmark ethics,2026-10-24T21:23:58.215675+00:00,success,10,0.007,0.007,1f7c9d7afff2734fd2535860ed9fac4667e8b1c418e1bcc450e29111d988b4fc
+3,asimov-program,DARPA ASIMOV program final results benchmarks evaluation transition,2026-10-24T21:23:59.248696+00:00,success,10,0.007,0.007,4f06dd940f01b7f1cfc3dfb1091aeb02aac0dcb7825260d95bbd923a04dec66b
+4,asimov-program,DARPA ASIMOV completed cancelled terminated 2026 reporting,2026-10-24T21:24:00.413761+00:00,success,10,0.007,0.007,a0f61dfee09987513029ccddaa0ac639b943bf3c80f0eea1668543f874f62d45
+5,asimov-1,"""FA865125CB001""",2026-10-24T21:24:02.022388+00:00,success,10,0.007,0.007,d6d77ae4940605f1ed3246cea3874917911d1272bd14ba778b41839551e4dc97
+6,asimov-2,"""FA865125CB002""",2026-10-24T21:24:03.129659+00:00,success,10,0.007,0.007,a11c48f72397a2e8fc69d8485a19845d21a208ca0cb969f382d3cdb3045078dd
+7,asimov-3,"""FA865125CB003""",2026-10-24T21:24:04.448238+00:00,success,10,0.007,0.007,99959cfd3cba4acfae239079e9e4b71219bd58cd58c86b9ab124b34efe5ca254
+8,asimov-4,"""FA865125CB004""",2026-10-24T21:24:05.640639+00:00,success,10,0.007,0.007,94f2b32e585d07b905d96c852435b6b53d549ee4088d5bb559717f267b2018d2
+9,asimov-5,"""FA865125CB005""",2026-10-24T21:24:06.809847+00:00,success,10,0.007,0.007,a7e07bceb3ec78ccd90c55a6ebdb40c307be92ef7a8edf087365ac3d57a54690
+10,asimov-6,"""FA865125CB006""",2026-10-24T21:24:07.622915+00:00,success,10,0.007,0.007,048181882d722f53cbb6efbfcdbd08b07447b7d734bf4d32617ac2b2bd0a078c
+11,asimov-7,"""FA865125CB007""",2026-10-24T21:24:08.660937+00:00,success,10,0.007,0.007,03e979272542d3656889ba3a34687460427987458b828a81142ceff5f46c7a40
+12,asimov-aliases,DARPA ASIMOV performers Kitware STR CoVar Saab UNSW 2024 2025,2026-10-24T21:24:09.738222+00:00,success,10,0.007,0.007,ac18e25851741bed27a92895acabac746ce082afa76419928084b8828bb03fc6
+13,asimov-timeline,"""ASIMOV"" ""DARPA"" ""2025"" ""2026"" completion",2026-10-24T21:24:11.451976+00:00,success,10,0.007,0.007,69dd2dd5383536f6289ab602c7de538a059318fd3a636c7062eaf53560e264fb
+14,asimov-press,"""DARPA"" ""ASIMOV"" ethics benchmark military values reporting",2026-10-24T21:24:13.033452+00:00,success,10,0.007,0.007,53574e7285e73b81420a6ef982f2a21753f470cb487a390c8174c49b54c3a0b0
+15,cohort-FA865124CB024,"""FA865124CB024""",2026-10-24T21:25:10.813507+00:00,success,10,0.007,0.007,cf8a4fb292a813dd49f663339f9a8f8a81dcc571e13672e736b45fb049909a42
+16,cohort-FA865123CB002,"""FA865123CB002""",2026-10-24T21:25:12.236188+00:00,success,10,0.007,0.007,08570a741b6ef7ee3ea172a4b809c366ff9577e1df3fabacbdc2c75bc4f288c0
+17,cohort-FA865124FB014,"""FA865124FB014""",2026-10-24T21:25:13.309434+00:00,success,10,0.007,0.007,7e5574b9d61603016e3b4c7e0fccb29079e5cf6724eb6db48739389354fa135d
+18,cohort-FA865125CB043,"""FA865125CB043""",2026-10-24T21:25:15.186199+00:00,success,10,0.007,0.007,a64baf50bd20b9aae53495edb0c3ebbc0119dfd4674a0cfca33915978794df8b
+19,cohort-FA865125FB046,"""FA865125FB046""",2026-10-24T21:25:16.357696+00:00,success,10,0.007,0.007,48ee07eb0088413c515fe1e054a96035a74cb2f51410a30473f741b869afbf65
+20,cohort-FA865124FB043,"""FA865124FB043""",2026-10-24T21:25:17.780476+00:00,success,10,0.007,0.007,057ee717ac68f31cddd6d31f604f746cd50270db0de5808f5491ba1d74ed6b6e
+21,cohort-FA865124CB014,"""FA865124CB014""",2026-10-24T21:25:18.995550+00:00,success,10,0.007,0.007,c257c506757fd6fa21703f695284cf092745af041597a98ebf41438173ba9052
+22,cohort-FA865125FB053,"""FA865125FB053""",2026-10-24T21:25:19.970361+00:00,success,10,0.007,0.007,04af89640f8d1cf41018faaa389cf5773aace355b74a31644ae6fbaa4e8a50c1
+23,cohort-FA865124CB019,"""FA865124CB019""",2026-10-24T21:25:21.063921+00:00,success,10,0.007,0.007,0f1b8ac58932b65c3af10d31701f33c284212fe1ea9835264364babf9e474440
+24,cohort-FA865126CB007,"""FA865126CB007""",2026-10-24T21:25:22.076157+00:00,success,10,0.007,0.007,785893289a2332ea556e4541459240b54ceb0128809b137df9ce3bec8ae40140
+25,cohort-FA865124FB054,"""FA865124FB054""",2026-10-24T21:25:23.027542+00:00,success,10,0.007,0.007,543b68dd92b195e91d0b871d19dcfe5a053b88800ece190b0c4b85ba6eb21a4f
+26,cohort-FA865124CB023,"""FA865124CB023""",2026-10-24T21:25:24.190938+00:00,success,10,0.007,0.007,053d8993dacfd8e0ad917061322b20c87bdbddd7683a263a81357cad514246e7
+27,cohort-FA865125FB040,"""FA865125FB040""",2026-10-24T21:25:24.860136+00:00,success,10,0.007,0.007,64d13755400e4d979a6c3363bca138ba1061bf2b50c4d85b8565462c31709e2f
+28,cohort-FA865124FB006,"""FA865124FB006""",2026-10-24T21:25:25.850910+00:00,success,10,0.007,0.007,9f535b04d3a9cfbc4e19291d5b976ceb78be1cccc5aa506a5206f23cc24461b4
+29,cohort-FA86512310001,"""FA86512310001""",2026-10-24T21:25:27.493208+00:00,success,10,0.007,0.007,e951f8e9f0188e2149eab607c3c4309d4f5ba5e6ac81571086c363f45ddcb0a4
+30,cohort-FA865126FB014,"""FA865126FB014""",2026-10-24T21:25:28.224148+00:00,success,10,0.007,0.007,ff57e7d056d27c9206cf2763b62e62400be06a3ee44ba08e0e4ffc258a7c4ce9
+31,cohort-FA865122F2118,"""FA865122F2118""",2026-10-24T21:25:29.595898+00:00,success,10,0.007,0.007,813132f5cbaf8218ab408c055b02c9f26bea32d7a073a5fda2ed297c778c3c21
+32,cohort-FA865123FA038,"""FA865123FA038""",2026-10-24T21:25:30.977225+00:00,success,10,0.007,0.007,f1e8f89853e28c04079f2f3e22fd62f9d2af64c043a5564658ae2acb79067fa2
+33,cohort-FA865123FB005,"""FA865123FB005""",2026-10-24T21:25:32.157719+00:00,success,10,0.007,0.007,40a3c9429648f01fb527a043e9761fb9116cf042838af434d1609b8846a110e2
+34,cohort-FA86512310013,"""FA86512310013""",2026-10-24T21:25:33.272772+00:00,success,10,0.007,0.007,270a7c86e0be6b02350be9dc57e94317fb799eb1916f4e95e4dc8e4a06386961
+35,cohort-FA865119F1016,"""FA865119F1016""",2026-10-24T21:25:34.144665+00:00,success,10,0.007,0.007,3a252758b4762b44d545215b90db88e863dbce022b738c97aef9e44d0918740f
+36,cohort-FA865126CB001,"""FA865126CB001""",2026-10-24T21:25:35.392721+00:00,success,10,0.007,0.007,bdc8a3853233e609988c8d837b001bbca2ad5c3bde7cb66cbf3bc209fb9eeab3
+37,asimov-kitware,Kitware ASIMOV ethical autonomy benchmarks results,2026-10-24T21:25:36.997555+00:00,success,10,0.007,0.007,dacdaa584b9c3fb23c93c981dbd61066b9a9c6d74619fe5f012f15123ee0b84d
+38,asimov-kitware,Kitware ASIMOV ethical autonomy benchmarks results publications results benchmark 2025 2026,2026-10-24T21:25:38.626592+00:00,success,10,0.007,0.007,5f3f09317ae5cfeeaa6c3114e42257de6b7672b588c1cae5cbaebaa9d6887c41
+39,asimov-rtx,RTX Technology Research Center ASIMOV ethics benchmark,2026-10-24T21:25:40.959538+00:00,success,10,0.007,0.007,d2acbe1931b120091ad660a4157ce2cf251c00b694aaccfd96a3f4b4137c18dc
+40,asimov-rtx,RTX Technology Research Center ASIMOV ethics benchmark publications results benchmark 2025 2026,2026-10-24T21:25:42.168791+00:00,success,10,0.007,0.007,aad22a62f31dd4eec78a24d8d7022fc75b48bb84b58eff7cd26a085a0a5add8e
+41,asimov-str,"""Systems Technology Research"" ""ASIMOV""",2026-10-24T21:25:44.351863+00:00,success,10,0.007,0.007,884d75b4f8c9fe8204a1c710e84a09f6835e5b0df435ad87b20281f485a8dd61
+42,asimov-str,"""Systems Technology Research"" ""ASIMOV"" publications results benchmark 2025 2026",2026-10-24T21:25:45.421544+00:00,success,10,0.007,0.007,c0055aa66042ef0b20776c5858e23668a505c835e1cd30a53fa6c40c23d1a4c1
+43,asimov-covar,"""CoVar"" ""ASIMOV""",2026-10-24T21:25:48.003743+00:00,success,10,0.007,0.007,6a56d382682fb7b8907e5829bc205e9883cef0079c87a496df9d5444f0ac48d2
+44,asimov-covar,"""CoVar"" ""ASIMOV"" publications results benchmark 2025 2026",2026-10-24T21:25:49.582745+00:00,success,10,0.007,0.007,d9c462fb069ccf48c5add04a1286cd2e570b2b760dea4a86563584baad1639b9
+45,asimov-lockheed,"""Lockheed Martin"" ""ASIMOV""",2026-10-24T21:25:52.744119+00:00,success,10,0.007,0.007,7729082e4becba0e95107134f533843840b5749fe85182c50de12d73766ebbc8
+46,asimov-lockheed,"""Lockheed Martin"" ""ASIMOV"" publications results benchmark 2025 2026",2026-10-24T21:25:53.979187+00:00,success,10,0.007,0.007,b1b9583da87c83bb86854300ff6a413cbd54354067139ec0419641a16783bf61
+47,asimov-unsw,"""UNSW"" ""ASIMOV""",2026-10-24T21:25:57.309226+00:00,success,10,0.007,0.007,d626c1b504e656a430564771992bab51e48d5e765be284ac272604dc488117b4
+48,asimov-unsw,"""UNSW"" ""ASIMOV"" publications results benchmark 2025 2026",2026-10-24T21:25:58.158360+00:00,success,10,0.007,0.007,f2e95cd2899c13d74763d12ca021122ccf4acef7defc780a92d9c0ca0380e850
+49,asimov-saab,"""Saab"" ""RESPECT"" ""ASIMOV""",2026-10-24T21:25:59.907679+00:00,success,10,0.007,0.007,e3a7c445736a83210e0bd4bab47b01217ae5f798c9ac670422ce0b8f65ee1b46
+50,asimov-saab,"""Saab"" ""RESPECT"" ""ASIMOV"" publications results benchmark 2025 2026",2026-10-24T21:26:01.788887+00:00,success,10,0.007,0.007,bc87238ffd49667b2cf396aef13d9a7c420abd3393ecff921fbe462651ebc0be
+51,asimov-5,"""FA8651-25-C-B005"" ""Lockheed""",2026-10-24T21:26:05.145930+00:00,success,10,0.007,0.007,ed1c79729abccfb01bf53f2282bdbd0c17ec0fba89ca33ea5dff2799c1171f7d
+52,asimov-5,"""FA865125CB005"" ""ASIMOV""",2026-10-24T21:26:07.601897+00:00,success,10,0.007,0.007,20424fb58c49294712bb5c6577c299066d430df3c38f09ce1d63e30c55dd2de4
+53,apl-supersonic,"""Supersonic Weapon"" ""Network"" ""Collaborative"" ""APL""",2026-10-24T21:26:08.745611+00:00,success,10,0.007,0.007,1bc18ee3f073e400c5e23c0ebca1b89f80e73cd16b7047d2533c446791d9f500
+54,apl-gnn,"""Network Collaborative Autonomous Weapon Guidance"" ""Graph Neural""",2026-10-24T21:26:09.786979+00:00,success,10,0.007,0.007,3b61c819386d16613bfa41fb3fc6109edf34e8fe3d89b828f1a816429f8e40d0
+55,gtri-supersonic,"""Collaborative Autonomy for Supersonic Munitions""",2026-10-24T21:26:11.232647+00:00,success,10,0.007,0.007,541193adec31a608fe370d90021a80376cf47281ceb4910ce0e6a4be5afbf238
+56,aurora-reach,"""Aurora"" ""REACH"" ""weapon""",2026-10-24T21:26:12.052350+00:00,success,10,0.007,0.007,3f4c0dde0c4fb9444010bb5edbf512b33d37666f9bc178e96307ebb85f81248a
+57,episci-model,"""Deep Model-Based Reinforcement Learning"" ""Collaborative"" weapons",2026-10-24T21:26:13.685525+00:00,success,10,0.007,0.007,bf97df94b82e37a02a388bd7c7d5176d740921d96fe63f76a18e97db7cccedc9
+58,talon,"""Scientific Systems"" ""Tactical Autonomous Look Optimization""",2026-10-24T21:26:14.760162+00:00,success,10,0.007,0.007,ca61c4fbf0ee77f124d5dd57bfcecc3cd3f145f6e815746b7ef1258a5431fddc
+59,chasm,"""Collaborative Heterogeneous Autonomous Swarming Munitions""",2026-10-24T21:26:15.776091+00:00,success,10,0.007,0.007,b4df9b48eebbdd920c635325f5894396f55927b340374e2996f26c9b18bf707e
+60,screem,"""Swarming Collaborative Reconnaissance Electronic Effects Munitions""",2026-10-24T21:26:16.879859+00:00,success,10,0.007,0.007,b89064b0f5444658f56e403a3c7a65a4f4bdc032d6166ca95ef12d384298921a
+61,seabrook,"""Seabrook"" ""Collaborative Learning"" ""weapons""",2026-10-24T21:26:18.626931+00:00,success,10,0.007,0.007,fe125f9f96ca9debd852749552def75bb3b3bf3c735b16e2583284b09edab001
+62,dynetics,"""Dynetics"" ""munitions"" ""deep learning""",2026-10-24T21:26:20.292463+00:00,success,10,0.007,0.007,d8674e40402170c3657a23dfb1d9bd6eac0bafee35a983d2841555ccec97d183
+63,saic,"""SAIC"" ""Munitions Autonomous Target Acquisition""",2026-10-24T21:26:21.546707+00:00,success,10,0.007,0.007,310e953da6de865ce4b739dfe808b370758b3ce20855aeffb57efe98782fe0d4
+64,engility,"""QUADTEAM"" ""Engility""",2026-10-24T21:26:22.708734+00:00,success,10,0.007,0.007,348a854d7eeef667e96a6c004f03c9b4f90c44d0eeac56fde7f10e7b4a96d018
+65,apl-control,"""APL"" ""Adaptive and Intelligent Control Experiment""",2026-10-24T21:26:23.898458+00:00,success,10,0.007,0.007,37d548608ce36afa2d5540255b9c64a687bc1667385cafe9da53d3fca3d30c3b
+66,uf-remote,"""University of Florida"" ""Remote Autonomy Experimental""",2026-10-24T21:26:24.901204+00:00,success,10,0.007,0.007,3e69390c0448b3c461d04cef6a34be94188a6ae96eb204aaf02bfcd1ff4ec196
+67,asimov-018,"""FA865125CB018""",2026-10-24T21:26:31.249749+00:00,success,10,0.007,0.007,e0d5e6bd57f140e9f44b72c2bba493673db91383be2e94a60b2177b4c54b6948
+68,asimov-rebar,"""REBAR"" ""ASIMOV""",2026-10-24T21:26:32.686447+00:00,success,10,0.007,0.007,6496130e7ea0dd0e37ebd94b8ec461c4ce5af31cefc64438670e779ae677aedd
+69,asimov-rebar,"""REBAR"" ethical autonomy benchmark May 18 2026",2026-10-24T21:26:38.933391+00:00,success,10,0.007,0.007,55834b79cc36dfbc0f6d030a0ab318651e473a14edbdb620cdcf34a790d6dbf7
+70,asimov-results,DARPA ASIMOV results benchmark RESPECT REBAR 2026,2026-10-24T21:26:40.018562+00:00,success,10,0.007,0.007,a78d674b8971c381f2930c8fcba69362847fd50de1ef21702a6fb923a510ac77
+71,asimov-transition,"""ASIMOV"" ""2026"" ""benchmark"" ""paper""",2026-10-24T21:26:41.225392+00:00,success,10,0.007,0.007,1a0c9bb5e1c114b01d23d90990f565b45f083fcbf3ed08327db857469f21138e
+72,asimov-major,site:nytimes.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:26:42.963411+00:00,success,10,0.007,0.007,5e94152a65f4820afa127b4d159b6fc05f9167b1951d0aae028067984dbc7172
+73,weapons-major,site:nytimes.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:26:44.032573+00:00,success,10,0.007,0.007,42d5a9def6c55d9345c1628515fb8070af316865086d30b06fc7d98361f44731
+74,asimov-major,site:washingtonpost.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:26:44.787689+00:00,success,10,0.007,0.007,cff34f7f55d104a0ffb7acdf73c8ebd710a5c9cf7ffe1eb17c77a5e9df626d14
+75,weapons-major,site:washingtonpost.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:26:46.050806+00:00,success,10,0.007,0.007,a9cd1b8dad33d1ca76542bfa469a5149b422c20fcc29a320a0f22ba105bf7bbc
+76,asimov-major,site:reuters.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:26:47.803314+00:00,success,10,0.007,0.007,6fe58815e9b99d37fdd11682bb9891407f377cdc46edc38a96cd07c6e7e5bd41
+77,weapons-major,site:reuters.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:26:49.048927+00:00,success,10,0.007,0.007,30074ca062f79e1c75941ff607463454c55f10fc9769e0c970b3c5226fc00816
+78,asimov-major,site:apnews.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:26:50.628062+00:00,success,10,0.007,0.007,45268feecc41e1b66d12424ba99f58bf059b7b85c64af5aceda26ef51747712e
+79,weapons-major,site:apnews.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:26:51.791465+00:00,success,10,0.007,0.007,8cccc14dd9b473661e4b84317dc946acbc6f06e6945c7a42e5a5c4c1be9b2635
+80,asimov-major,site:bbc.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:26:53.773710+00:00,success,10,0.007,0.007,985f420ef3ce272ed66aec1b4cb7e5a258618c3c4c93fd7a3927cdce735d186c
+81,weapons-major,site:bbc.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:26:56.394784+00:00,success,10,0.007,0.007,395439acca005d02fb4e8952bc5dcfb0f0fd1cff8f953a2e292b4810ce8cae76
+82,asimov-major,site:theguardian.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:26:57.102800+00:00,success,10,0.007,0.007,28d8145e7dc0f4c882d1cc9ca47c4e01ee299f20bb7c6a7233d137a7d83d6a05
+83,weapons-major,site:theguardian.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:26:58.543437+00:00,success,10,0.007,0.007,880c9fec5e10dac4f73f4a88957bab71cd8129bbe564cb48ed4f51ca7c919309
+84,asimov-major,site:wired.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:27:00.755587+00:00,success,10,0.007,0.007,4626612dbf2ade80555e671618fa2e658d6539c83694ff18a8ffefe4bca20747
+85,weapons-major,site:wired.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:27:02.424604+00:00,success,10,0.007,0.007,f40019ba1a456dc746bee3fcdb517140a3fe7af786dfd343c8d8b4f5232d04ef
+86,asimov-major,site:bloomberg.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:27:03.793171+00:00,success,10,0.007,0.007,0d5d9358bdc9de006a960dd84e073053bf9850aa9459c91b8fa7dd2e6431bc90
+87,weapons-major,site:bloomberg.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:27:04.608306+00:00,success,10,0.007,0.007,4de33482273a9047a3c2f3ad491c2df203778e4a2e95e43a32f7944888b16454
+88,asimov-major,site:wsj.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:27:05.456573+00:00,success,10,0.007,0.007,cf622df05e3e20c793096d2eb52ea0e97362cc712841048f6a623c395a8a09c2
+89,weapons-major,site:wsj.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:27:06.874887+00:00,success,10,0.007,0.007,4b224ce40646016d76711ce74724c3cadcd036c1b77bc8debaf6ae0322121cf3
+90,asimov-major,site:ft.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:27:10.164164+00:00,success,10,0.007,0.007,5af2db04be0621fb991ac96186bdf1c619c4740d1b9aa41ee9f5f711dc12c347
+91,weapons-major,site:ft.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:27:11.801782+00:00,success,10,0.007,0.007,0ee6fdd6e8cd83cb602f2894936bc9a7c9794b8d6f646b6616f79de7c3fd7f0a
+92,asimov-major,site:economist.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:27:13.035073+00:00,success,10,0.007,0.007,b28c14cd64f018b0c6926de4bd1294c90c348faffb0ae22613376a5f2baf388e
+93,weapons-major,site:economist.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:27:14.260769+00:00,success,10,0.007,0.007,b14241dd3dd34c3df24d4b05a396d19d1b5572a8dd9f780b9e18224ace97057a
+94,asimov-major,site:technologyreview.com DARPA ASIMOV autonomous weapons ethics benchmarks,2026-10-24T21:27:15.338140+00:00,success,10,0.007,0.007,830f3ea9593d8bdd025524e9ceb29c4c41bb044cb65e1fb209e6ca48d2d26451
+95,weapons-major,site:technologyreview.com collaborative missiles Golden Horde autonomous weapons swarms,2026-10-24T21:27:16.720119+00:00,success,10,0.007,0.007,4729eece8c43526030551ae62ca5922e82e951d4a92f793c21c3fa215d9c1e8f
+96,asimov-schedules,"""ASIMOV"" ""Phase II"" DARPA",2026-10-24T21:27:18.364128+00:00,success,10,0.007,0.007,0a404ce09b419be1a45aff87735c60c948075c34c787ae3a09fd0c36b993e0b8
+97,asimov-downselect,"""ASIMOV"" ""down-selection""",2026-10-24T21:27:19.443957+00:00,success,10,0.007,0.007,b69af07155354516406fa268bc5e19032d78b19a16baa967e8d8cdec0b0e0abb
+98,asimov-complete,"""ASIMOV"" ""program"" ""complete"" DARPA ethics",2026-10-24T21:27:20.860682+00:00,success,10,0.007,0.007,ed632b4d97cfbaf1477e8ba8174cdd0c631c0f75455d19d1e386620cde2c75de
+99,asimov-cancel,"""ASIMOV"" DARPA cancelled shutdown terminated",2026-10-24T21:27:23.309952+00:00,success,10,0.007,0.007,c46c71323e0e50241dc36b3c562f348e01c6989b98de28ab4ff2a71d99cdd456
+100,asimov-benchmarks,"""ASIMOV"" DARPA benchmark dataset github",2026-10-24T21:27:25.062723+00:00,success,10,0.007,0.007,0376b96b74b767624d166d4ffc4fa5b6b7ac32f88e4ec0b9f127de4ee69a884e
+101,asimov-papers,"""ASIMOV"" ""DARPA"" paper arxiv 2025 2026",2026-10-24T21:27:28.500049+00:00,success,10,0.007,0.007,c36bd8c396ac5ad0b53872157446c5054b115258deaa26803c723fd174a4e736
+102,asimov-handoff,"""ASIMOV"" ""DARPA"" transition handoff results",2026-10-24T21:27:29.494381+00:00,success,10,0.007,0.007,100295beb575d7c9eef39e3c6a82a664023f97350d53ef1f76606d6c3f4c47fa
+103,asimov-elsi,DARPA ASIMOV ethical legal societal implications ELSI panel members,2026-10-24T21:27:30.364804+00:00,success,10,0.007,0.007,926fb5918264b2e701e6e3cec8fb750a84d7e219fa2fecf04c019784f89d419a
+104,golden-horde,Golden Horde collaborative small diameter bombs tests 2020 2021 2022 lessons,2026-10-24T21:27:31.455817+00:00,success,10,0.007,0.007,c11329d9671baa098648435dad07d9446b907c96310251e47e87169a642f114a
+105,grey-wolf,Grey Wolf Golden Horde network collaborative autonomy missiles history,2026-10-24T21:27:33.407554+00:00,success,10,0.007,0.007,4470f5cb747b597218a9e1778eeebdf400429a0fe163e4834d159e20928943de
+106,colosseum,Colosseum Operation Protovision Golden Horde APL results 2022 2025,2026-10-24T21:27:34.590321+00:00,success,10,0.007,0.007,4f97a7588525fdf6d220355c443884b7961fdfee11d9f6bacbee94fb56cdaaae
+107,code,DARPA CODE collaborative operations denied environment weapons transition Raytheon,2026-10-24T21:27:36.029060+00:00,success,10,0.007,0.007,fcbcd4ace32c6cd16ea4f74149ab30449c49a71b7ad79c39c95dca8ee772b3ac
+108,sosite,DARPA SoSITE distributed battle management weapons autonomy history,2026-10-24T21:27:37.037180+00:00,success,10,0.007,0.007,b17be29e0b1f0afa9ffa6988fa2a2c98144167c9c1a3e6bea6e408f19abbd079
+109,amass,DARPA AMASS autonomous multi domain adaptive swarms swarms Reuters,2026-10-24T21:27:38.448017+00:00,success,10,0.007,0.007,005944c48773c76c6b50bb3a8bf9753d099a1421e48102918a4fdf88dc54d3fb
+110,etv,Enterprise Test Vehicle Rusty Dagger Barracuda collaborative autonomy Scientific Systems,2026-10-24T21:27:43.234121+00:00,success,10,0.007,0.007,ede336aca25561e01c2366db69e08e5577153850f51a897b1cef6f3605e892eb
+111,nca-history,networked collaborative autonomous weapons in flight target assignment history Air Force,2026-10-24T21:27:44.235040+00:00,success,10,0.007,0.007,305c171bff965c34bb76703c21635c3ab1e774cb66fa36a187438c6e436134b4
+112,pack-hunting,pack hunting missiles talking to each other Golden Horde prior reporting,2026-10-24T21:27:45.544251+00:00,success,10,0.007,0.007,e07f5be24272499fa8ce6d3c98502b0cff6a50a70a00b11346806911d7bbeaad
+113,nca-claims,autonomous collaborative weapons Golden Horde failures limitations testing human approval,2026-10-24T21:27:47.065150+00:00,success,10,0.007,0.007,b0773cbba9d2404fef026650a47091fcd762380708b118e15e983b727fbffee8
+114,specialist-defensenews.com,site:defensenews.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:48.620072+00:00,success,10,0.007,0.007,6043e7ea339451385a2adf5431e401a48fdbbca96aa051f1fe0c2c4c0fffcf8c
+115,specialist-defensescoop.com,site:defensescoop.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:49.369635+00:00,success,10,0.007,0.007,29e0c8a55c9a7df7d7cb5e7940b91888091707973be90fbaf36aa384d4f56efa
+116,specialist-breakingdefense.com,site:breakingdefense.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:50.579349+00:00,success,10,0.007,0.007,941bf9b44974dcad49f7024e6f45e7246fe06a6922926b96459b7dd813bde837
+117,specialist-defenseone.com,site:defenseone.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:51.687627+00:00,success,10,0.007,0.007,788f255e27da6af90f908f81a753ec6253d6a2fc78f3658dbdf77aa26db487d7
+118,specialist-twz.com,site:twz.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:52.959318+00:00,success,10,0.007,0.007,f5076cd6eaa729be89844a72a1e299b3449dbcb1930503e094dce463128fd5e0
+119,specialist-aviationweek.com,site:aviationweek.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:54.660795+00:00,success,10,0.007,0.007,c2fce4cfd3c336acbf9382f68d81033ba667701bab55febc56e79fa54aeaff92
+120,specialist-janes.com,site:janes.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:56.686939+00:00,success,10,0.007,0.007,ca62de9146406a183890fd3f4cd3f688a4e1c36b04a2864e9ad820ed1de848c9
+121,specialist-c4isrnet.com,site:c4isrnet.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:27:58.782396+00:00,success,10,0.007,0.007,e4019cf5089441c13e43a3fc88ee9190616e602252ff94cb653bfb76e4c5ab87
+122,specialist-thewarzone.com,site:thewarzone.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:28:00.486429+00:00,success,10,0.007,0.007,093be36018c49e256529127fa98300e97cb080693ef229f37fd800706c6b5110
+123,specialist-militaryaerospace.com,site:militaryaerospace.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:28:03.148483+00:00,success,10,0.007,0.007,fa634d81437283a1afee013f6ba80f126bb3a9cbc51d4879e3e2e829dc24e748
+124,specialist-spectrum.ieee.org,site:spectrum.ieee.org DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:28:06.046183+00:00,success,10,0.007,0.007,beca6511b5a39eba6204c27399ea442985481376b7da4a05db5afd496ac52e53
+125,specialist-newscientist.com,site:newscientist.com DARPA ASIMOV Golden Horde collaborative autonomous weapons ethics,2026-10-24T21:28:06.920478+00:00,success,10,0.007,0.007,9778a4bcdd808a5fdd1f3ffbf99a5dd6a816f5251ab3fe949f71b0231a64f6e1
+126,replicator,Pentagon Replicator autonomous weapons ethics testing human control 2023 2024 2025 2026 reporting,2026-10-24T21:28:10.638183+00:00,success,10,0.007,0.007,1874d35442cf99cac1e66966fce383edac919300a8d4de954093fa06dc282821
+127,cca,collaborative combat aircraft autonomy assurance testing human control independent reporting,2026-10-24T21:28:12.022516+00:00,success,10,0.007,0.007,810e196e3dc612f06ed2b46bc9e6020d4d44fc0d71897db32287349cd6634f18
+128,jadc2,JADC2 kill chain AI autonomy targeting Pentagon testing independent reporting,2026-10-24T21:28:13.282182+00:00,success,10,0.007,0.007,c197eaaf8169b1dca4b022b32a8a09e0c3115f7f975617735966df20f8d6546e
+129,assurance,Pentagon autonomous weapons DoD directive 3000.09 testing validation human judgment 2023 2025,2026-10-24T21:28:14.617404+00:00,success,10,0.007,0.007,aef532429d5db1e3878758835eacb93fd3b8f15dfa61774708745a26a3db188d
+130,critics,autonomous weapons ethical benchmarks ASIMOV criticism human control,2026-10-24T21:28:16.043164+00:00,success,10,0.007,0.007,74d5f2a5784646a0d5f69a71e2ddd94e71e9162a166d0476cddce50d6b4677a8
+131,critical-reporting,Pentagon AI targeting kill chain Reuters New York Times Washington Post ethics,2026-10-24T21:28:17.396586+00:00,success,10,0.007,0.007,2cc9b0c167b328cc8104c12fffa798237e18626063fff08332f44bb9957aa692
+132,policy-gap,ASIMOV completion responsible AI Pentagon Hegseth 2025 2026,2026-10-24T21:28:20.074542+00:00,success,10,0.007,0.007,0e840a301f88220cbd6c91aef67a125425f32f397bdfd877a1cdb36c2c16ee96
+133,gov-location,ASIMOV DARPA Eglin AFRL RAZ contracting performance location,2026-10-24T21:28:21.301898+00:00,success,10,0.007,0.007,728807ae76f16ec0daa53d939f43d9fa4c122169aae6a7ee7cea7cb16142eff1
+134,people-klausutis,T J Klausutis DARPA ASIMOV program manager biography departure,2026-10-24T21:28:22.906954+00:00,success,10,0.007,0.007,55e51435d05490850019e344ee8bff5650660f643dc6c4366a61dbcb8026042e
+135,people-timothy,Timothy Klausutis DARPA retired left 2025 2026,2026-10-24T21:28:24.306085+00:00,success,10,0.007,0.007,52e933c4376c9b872217991c60576b1305f75e620deed78c180f19474db4f4e7
+136,people-golden,Golden Horde Colosseum AFRL program manager Chris Ristich Steven Stockbridge,2026-10-24T21:28:25.633543+00:00,success,10,0.007,0.007,6bd96924c6be349985a5e88d3ff3f8b9bb47ed89bba0632963f0f602d8158216
+137,people-apl,Johns Hopkins APL network collaborative autonomous weapons graph neural networks researchers,2026-10-24T21:28:26.640171+00:00,success,10,0.007,0.007,729ae7a0f0ce4a21b83e48363f01ff0b574de80f63ede03dec868944452039fb
+138,people-gtri,Georgia Tech collaborative supersonic munitions CHASM researchers,2026-10-24T21:28:27.883378+00:00,success,10,0.007,0.007,966f177ba4aac3ecfcdd1ed3c257373bcd6e8680ee7c9f46bfe57c1bb7bfe520
+139,people-ethics,DARPA ASIMOV UNSW Toby Walsh Hussein Abbass ethics researchers,2026-10-24T21:28:29.172681+00:00,success,10,0.007,0.007,00631d1bf33e540b3205aab9d2333b8b23419c5ea1442064f49b84aff7e0f324
+140,people-independent,Paul Scharre Michael Horowitz autonomous weapons human control 2025 2026 role,2026-10-24T21:28:30.567333+00:00,success,10,0.007,0.007,9d515a5055adc7eea9bfc4c82b25c111ec82f37ecbada560e686049f270bdf63
+141,people-sources,Ingvild Bode Lauren Kahn autonomous weapons military AI 2026 role,2026-10-24T21:28:31.845916+00:00,success,10,0.007,0.007,598eb790928f472b8af0e2d7f1be4b1be7e2a34f68d909006f5493b91ea0d94a
+142,aurora-reach,Aurora Flight Sciences REACH reachability weapon target assignment collaborative autonomy,2026-10-24T21:28:58.320944+00:00,success,10,0.007,0.007,0e7db245b1dcb4f514ae3727337f8c25241b15f10fcdc9c7a1f1fdf559fe87b1
+143,apl-supersonic,Johns Hopkins APL supersonic network collaborative autonomous munitions program 2024 2025 2026 reporting,2026-10-24T21:28:59.835668+00:00,success,10,0.007,0.007,b451ed787ee9a99b15c8a10a27b025fa0591e03219aaefab5dc62227d0c704ac
+144,apl-gnn,Johns Hopkins APL graph neural networks collaborative weapon guidance award 2025,2026-10-24T21:29:03.597731+00:00,success,10,0.007,0.007,fe889637482afc17d07cbb45374194ca09398dbebd46f8324a9056497b90d8b8
+145,gtri-supersonic,Georgia Tech Research Institute supersonic munitions collaborative autonomy 2025 2026,2026-10-24T21:29:06.166100+00:00,success,10,0.007,0.007,7c7d35168ac7978cd0149dfcef48259da04c981b1f0eaff398333669f484442d
+146,gtri-chasm,GTRI CHASM SCREEM collaborative heterogeneous autonomous swarming munitions,2026-10-24T21:29:07.401648+00:00,success,10,0.007,0.007,aff501e1b3f69a38218bf872ab28b30363dbd01523022dd5d60cd7e7f05ff959
+147,talon-news,Scientific Systems TALON next best look sensing Fabrizio Santini 2025 2026 news,2026-10-24T21:29:08.761365+00:00,success,10,0.007,0.007,b4aae0c74da75af5dd79a511d28f4deaf20be0fe5a1a4946c6344ecb3bee5c62
+148,episci-weapons,EpiSci Episys Science collaborative autonomous weapons model based reinforcement learning Golden Horde Colosseum,2026-10-24T21:29:10.646990+00:00,success,10,0.007,0.007,b6a8ad84b78dec62aa1a5d6f7a2d587cfa0e3bfd891a61c077b3a4b5eae71e7c
+149,seabrook-weapons,Seabrook Solutions collaborative learning autonomous weapons Air Force 2025 2026,2026-10-24T21:29:13.977806+00:00,success,10,0.007,0.007,c6f2da17695dc7c2094f0aa8f66c8e0cc6b68b2257dfc1dfdefcf9d6721448d3
+150,asimov-rebar-news,REBAR Kitware Diller Basharat May 2026 ethical benchmark reporting,2026-10-24T21:29:15.123743+00:00,success,10,0.007,0.007,b9aa02845d85f5c979c2408d1c824c3d0d8d8f1f32f09b6650a55aef5e7e1d34
+151,asimov-respect-results,Saab MIT RESPECT ASIMOV ethical benchmarking results paper 2026,2026-10-24T21:29:15.925957+00:00,success,10,0.007,0.007,6698144aaec0f35907dc9d33e84a86ad19e439a97ee6538f60052a64c7149ad9
+152,asimov-covar-results,CoVar Autonomy Rules ASIMOV ethical benchmarking code results,2026-10-24T21:29:17.139379+00:00,success,10,0.007,0.007,ee190d3e3e5a5c983b2b69701e7a7a5cc1306e3a3c96965b4b42645ef40d3f06
+153,asimov-unsw-results,Adversarial Generative Ethics Autonomous Weapon Systems UNSW ASU results paper 2026,2026-10-24T21:29:18.319333+00:00,success,10,0.007,0.007,2f7e4a281503df6f9c03830fd0be33b28e656859a2a072ef4779286f9e17021d
+154,asimov-str-results,STR ASIMOV lethal intelligent autonomy ethical benchmarks results Aechelon,2026-10-24T21:29:19.536554+00:00,success,10,0.007,0.007,6580897f4d512238da562f230e4f7c6092da6e49d66cf2872dadd8d97792c409
+155,asimov-lockheed-results,Lockheed ASIMOV Arkin Wagner Skinner Hoffman ethical readiness paper,2026-10-24T21:29:20.824174+00:00,success,10,0.007,0.007,d2ec01a7da26fac0cb6669e5466f0c854ebcd54709f969d1a591a96ed8f3a7dd
+156,asimov-open-code,Kitware REBAR Reference Ethical Benchmark Autonomy Readiness github code dataset release,2026-10-24T21:29:22.090590+00:00,success,10,0.007,0.007,6edc5a9af9f715c37434d044896f49bf61405739c38d9e737726dbf7828d3b9e
+157,people-gentile,Chris Gentile EpiSci Merlin Mach Industries 2025 2026 tactical autonomy leadership transition,2026-10-24T21:29:23.139248+00:00,success,10,0.007,0.007,2ebfe4df5d06d889fa4582f559690e23fc03fe193e920ed71121266857362846
+158,people-klausutis-current,Timothy Klausutis Ohio State September 2026 DARPA program manager ASIMOV,2026-10-24T21:29:24.402733+00:00,success,10,0.007,0.007,cdc2766438d59fb775e70273cf91b3cfc16c7c4fe7faa5d05dd087777883c478
+159,golden-horde-outcomes,Golden Horde Colosseum EpiSci competition results 2021 2022 2023 2025,2026-10-24T21:29:25.480332+00:00,success,10,0.007,0.007,394c833cfe59e1bdb359e1dbadec69e808c39358a3e900ea81cc600275d20001
+160,major-exact-asimov,"""ASIMOV"" ""DARPA"" ""completion"" reporting",2026-10-24T21:29:26.763737+00:00,success,10,0.007,0.007,bd1596f4c7b935c329471cfb0b4f9969f2cdd3f4d9f743d6e9f7daab5a1767d4
+161,major-exact-asimov,"""ASIMOV"" ""DARPA"" ""REBAR"" ""news""",2026-10-24T21:29:27.984467+00:00,success,10,0.007,0.007,ec7f05099bbc17f3e28942e09f9ce741cfa797e86f06ffb4fff5cc60395c772d
+162,asimov-magnet,RTX MAGNET ethical autonomy ASIMOV benchmarks 2026,2026-10-24T21:30:32.986256+00:00,success,10,0.007,0.007,e27a2d39e629c2f6c35de796d46b6c055a89065d4c9eb2bd375bfb72256ba838
+163,asimov-magnet,"""10.1007/978-3-032-30836-8_46""",2026-10-24T21:30:34.276322+00:00,success,10,0.007,0.007,7e64ecae3b9505ff0425127fa75e9860e8c6b73a5dc67eddb49b767765fd9601
+164,asimov-magnet,"""MAGNET"" ""FA865125CB002""",2026-10-24T21:30:35.509040+00:00,success,10,0.007,0.007,aa2ab03b13aa036e2c3c2516340cfae08db44452da3f6fd6a5625f6c12da4ba2
+165,asimov-gears,CoVar GEARS ASIMOV Autonomy Rules ethical benchmark results,2026-10-24T21:30:36.687781+00:00,success,10,0.007,0.007,2b7c0e3119ba963b8ed4051ac240700445935d4635bde501d8fc1b0c224f6e66
+166,asimov-gears,"""GEARS"" ""ASIMOV"" ethics benchmarks paper",2026-10-24T21:30:37.874868+00:00,success,10,0.007,0.007,f513b34118108039ecd1a7be8404082b9e358196ce205bba42b51a57327609a1
+167,asimov-architecture,Lockheed Architecture Ethical Framework ASIMOV outputs 2026,2026-10-24T21:30:39.293876+00:00,success,10,0.007,0.007,95cd79f7fdb91208eacc5e1dfb557aad74973c0cef5ada7102030ebb9716f240
+168,asimov-seed,"""SEED-SET"" ""ASIMOV""",2026-10-24T21:30:41.061635+00:00,success,10,0.007,0.007,5eb48eeac49652fb214194b1fbed848d3893ff6e81691cf84ccdbd8fde3c8394
+169,asimov-seed-news,"""SEED-SET"" ethics April 2026 independent reporting",2026-10-24T21:30:42.328373+00:00,success,10,0.007,0.007,9e69d330e0ceb8ea5089487d26c15d1a6a60fc23375fbe867605b5261e6492f0
+170,asimov-output-news,"""REBAR"" ""ethical"" ""benchmark"" -site:arxiv.org -site:ar5iv.labs.arxiv.org",2026-10-24T21:30:43.743395+00:00,success,10,0.007,0.007,ec6895d3cf5d2a631c72fa105b0db4eff05694b18e2ff4389ee4dafbd5dd0e37
+171,asimov-magnet-news,"""MAGNET"" ""RTX"" ""ethics"" -site:springer.com",2026-10-24T21:30:44.877741+00:00,success,10,0.007,0.007,7c89a92202fcbee739bb6a003cc386e54fd4dfb45f92465cb4591269a54aa10f
+172,asimov-lockheed-title,"""Architecture Ethical Framework"" Lockheed",2026-10-24T21:30:46.280976+00:00,success,10,0.007,0.007,4a8067c0022502ed8ac6bc64c0aa2bcc9c77fd62dcde25c544fc3c0893bf3d27
+173,asimov-phase2-aliases,ASIMOV REBAR MAGNET GEARS RESPECT phase two completion transition,2026-10-24T21:30:47.236169+00:00,success,10,0.007,0.007,069a5e2cb4ff7d590b3da6b1813546158d9cdcf01e9007a43d894cc44efde919
+174,weapons-transition,Scientific Systems TALON Colosseum RAPTOR network weapons 2026 contract,2026-10-24T21:30:48.419255+00:00,success,10,0.007,0.007,afaa366396ba4f006f05114baa6fb8204d0c9d6d77fb71ee491c1c68b2600192
+175,gtri-context,"""CHASM"" ""SCREEM"" ""GTRI""",2026-10-24T21:30:49.672244+00:00,success,10,0.007,0.007,ab55e56b5c4eabf3bd897fd79e3c5f186f5170c03cb14a6a5a72d7939a3c5e40
+176,policy-nspm11,"""NSPM-11"" ""3000.09"" update",2026-10-24T21:33:11.477380+00:00,success,10,0.007,0.007,75289b083609e2174cd1d5dbcabcfb17e59aea83854f5f6f6823297618098a08
+177,policy-issuance,"""Directive 3000.09"" ""2026"" ""September""",2026-10-24T21:33:13.014405+00:00,success,10,0.007,0.007,3da0259139fd3d89f2cfeb8ff0b4f4d5bc935e73ee7fa31bfa77f7f9081e989d
+178,policy-reporting,"""NSPM-11"" autonomous weapons June 2026 reporting",2026-10-24T21:33:14.281367+00:00,success,10,0.007,0.007,a55ef6e7d71ff7a50220188dfb425722a40e88e2d5b93efd55b48dc11fce7be5
+179,policy-issuance,Pentagon updated autonomous weapons directive 3000.09 September October 2026 issued,2026-10-24T21:33:15.646336+00:00,success,10,0.007,0.007,2b7b234421b461feaede0d6015742e646f95b55645fdfeee7b29ef63aa03121c
+180,policy-reuters,site:reuters.com autonomous weapons NSPM 11 June 2026,2026-10-24T21:33:16.711613+00:00,success,10,0.007,0.007,315c7785bb5bb19f702b5d73b0b83fe22ffe4279ba0bbe004c81d29516a04d84
+181,policy-bloomberg,site:bloomberg.com Pentagon autonomous weapons targeting principles June 2026 human monitoring,2026-10-24T21:33:18.177309+00:00,success,10,0.007,0.007,c10fdae2e5b9b7aad8d7789d96a8067d22ef551a1440ee28cda95bf6d54bb3d2
+182,policy-specialist,site:defenseone.com 2026 autonomous weapons directive update,2026-10-24T21:33:19.532611+00:00,success,10,0.007,0.007,d25a232a7a1c53de9b244d6e3730626b38ea49b5ce4f676fd7c03cc760aaf2fe
+183,policy-directive,"""DoDD 3000.09"" ""2026"" issued revised",2026-10-24T21:33:21.438978+00:00,success,10,0.007,0.007,908546cc6397af7ed067e1d8aeed2fee9c8bd1ec7ba4422f5c62a8e68988cf13
+184,major-reuters-gh,"site:reuters.com ""Golden Horde"" weapons",2026-10-24T21:35:17.179428+00:00,success,10,0.007,0.007,9f8ebbffeb0883bb9c4fb834a97eb71cad0bd56c2493232ef406f1e6e24f85f8
+185,major-nyt-gh,"site:nytimes.com ""Golden Horde"" weapons",2026-10-24T21:35:18.231688+00:00,success,10,0.007,0.007,faadd7496fd4f8a2b196b6a0fc2ea802ce16b4f785711ef318d3055e3d0fdbf9
+186,major-wsj,site:wsj.com missiles swarms artificial intelligence Pentagon,2026-10-24T21:35:19.278426+00:00,success,10,0.007,0.007,2c2b6f337dff535af6ea1adccb3b4506c11a82601df9e550dc5609982dcb28be
+187,major-ft,site:ft.com autonomous weapons swarms human control,2026-10-24T21:35:20.642404+00:00,success,10,0.007,0.007,b884d70df29eebd664e77997cc375458bc45b1df5056722116669630a8a2126d
+188,major-bloomberg,site:bloomberg.com Golden Horde collaborative weapons,2026-10-24T21:35:22.021116+00:00,success,10,0.007,0.007,afaeabb51c26a8f895fe342075287b188d9bc3307eb44f73032c9d92a3c61bd0
+189,major-mitreview,site:technologyreview.com ASIMOV DARPA ethical benchmarks,2026-10-24T21:35:25.377886+00:00,success,10,0.007,0.007,1b57009961e248b0142a791459a0120ec546ae6552a2d19f7b840a291db590e7
+190,major-nyt-current,site:nytimes.com autonomous weapons military ethics 2026,2026-10-24T21:35:26.265676+00:00,success,10,0.007,0.007,86bf580c0d9c029318a253f7292f341a66ba9851752ffb7c5670ccf1840be304
+191,major-reuters-policy,site:reuters.com Pentagon autonomous weapons policy 2026 human oversight,2026-10-24T21:35:27.722762+00:00,success,10,0.007,0.007,4118bf02ac9488b2163cdde2aef6f2a9436323183c11f6d0f4b1035e42aa19de
+192,major-guardian-asimov,"site:theguardian.com ""ASIMOV"" ""DARPA""",2026-10-24T21:35:33.177464+00:00,success,10,0.007,0.007,dbee3250db052c7436ed30ad7374e25103409ef68bc5cf0db893577572c2640e
+193,major-wired-nca,"site:wired.com ""Golden Horde""",2026-10-24T21:35:34.379375+00:00,success,10,0.007,0.007,91f8300f5b1f0db804b4c0b7aa5351566ee95bdcf56117cdabf4bf98544a129c
+194,major-tnr,"site:newrepublic.com ""ASIMOV"" ""DARPA""",2026-10-24T21:35:35.446328+00:00,success,10,0.007,0.007,0d839876144ee8a1aa91fc43d5b7ebcbc48261a705d9f059cf3800fa9c1dbdba
+195,major-economist,site:economist.com autonomous weapons swarms human control,2026-10-24T21:35:37.027369+00:00,success,10,0.007,0.007,b58550d70e9941fd9ff97fbd4999c5cc3e10cc9d4e68d4da3126b426a48153f3
+196,apl-supersonic-alias,"""FA8651-24-F-B043""",2026-10-24T21:35:39.401804+00:00,success,10,0.007,0.007,d796270d88e162b522f7474dc7f3c98d477ec4c0279726a872b3aa555448fa46
+197,apl-gnn-alias,"""FA8651-25-F-B046""",2026-10-24T21:35:40.765925+00:00,success,10,0.007,0.007,1dae38c4f44deadb20155fd22ff62ab62de57ac673854258115c71540ddaf358
+198,gtri-supersonic-alias,"""FA8651-25-F-B053""",2026-10-24T21:35:41.808259+00:00,success,10,0.007,0.007,f769541d7468a19951fd694428a70a06296bfe8a0e9d62079adc8916c290c62f
+199,aurora-reach-alias,"""FA8651-24-F-B054""",2026-10-24T21:35:43.498682+00:00,success,10,0.007,0.007,9178edf302b7dd4577d46c02520cb5a9af43f0d632993c40e3140e6beeda07cd
+200,episci-model-alias,"""FA8651-23-C-B002""",2026-10-24T21:35:44.671802+00:00,success,10,0.007,0.007,5b984e270a3316b2b020cf06ae74c4e90eb9ae0b9e7d703bb0487519c05be66a
+201,talon-alias,"""FA8651-24-C-B024"" news",2026-10-24T21:35:45.745661+00:00,success,10,0.007,0.007,832918474d66ea5422115f7c553c84780b9d0ee646bfcb1c9c36b849fb77f57b
+202,apl-semantic,Johns Hopkins Applied Physics Laboratory graph neural network supersonic weapon collaboration testing,2026-10-24T21:35:46.918552+00:00,success,10,0.007,0.007,63bf67746c1c940fc443b4708cea4a097d9cb9aa79b7829f780403cb23e061dd
+203,gtri-semantic,GTRI autonomous supersonic missiles collaborative autonomy research news,2026-10-24T21:35:48.602236+00:00,success,10,0.007,0.007,f99659cd09d9027463efc49f6554ababbf2e6d1cf2c0caba4f31ded097592208
+204,aurora-semantic,Aurora Flight Sciences networked collaborative autonomous weapon reachability assignment research,2026-10-24T21:35:50.002502+00:00,success,10,0.007,0.007,7ba0a94a11b0c33b4b8457d215f3da77e74cff10c0a2d299c1dbb419c2d72b2f
+205,gtri-chasm-title,"""CHASM"" ""munitions""",2026-10-24T21:35:52.257832+00:00,success,10,0.007,0.007,3e1ad60532efd71db09b9e8f23b5729cf61ab530c90c3cb36d16cd5ed73b8b9a
+206,gtri-screem-title,"""SCREEM"" ""munitions""",2026-10-24T21:35:53.449839+00:00,success,10,0.007,0.007,e069048d1ee8e1c2f8a71ae2e9967270d7b91ae0f2091d4d4d0eaa8c223ac5b9
+207,talon-semantic,"""TALON"" ""Scientific Systems"" autonomous sensing next best look",2026-10-24T21:35:55.244398+00:00,success,10,0.007,0.007,d454a1cb7a149cabf2628a8270b6a25a28762bfe5a51cbec366a53354e702ac5
+208,episci-independent,EpiSci Golden Horde collaborative weapons reinforcement learning DIU prior reporting,2026-10-24T21:35:56.207670+00:00,success,10,0.007,0.007,52053f013344603bcb0a9490094e45c55912b99fa284dd5e351157a26cef4949
+209,people-gentile-transition,Chris Gentile departure EpiSci Merlin Mach 2026 role,2026-10-24T21:35:57.210502+00:00,success,10,0.007,0.007,9ced52497801c1d0293fcfce792768664e3961563f760222d97e5cbd3cc2df23
+210,people-chapa,Joe Chapa responsible AI Air Force current role departure 2025 2026,2026-10-24T21:35:58.414163+00:00,success,10,0.007,0.007,baae02589054d0adbb6a4b39e1fc7790698c98e9e93cb77cddc7b3f50276d7fe
+211,people-klausutis-departure,"""Timothy Klausutis"" ""left"" DARPA",2026-10-24T21:35:59.466501+00:00,success,10,0.007,0.007,b278e5e4def36c7c045c4388c26f27aa234a37934ba338bcf4553b644adb5dab
+212,people-basharat,Arslan Basharat REBAR ASIMOV ethical autonomy team,2026-10-24T21:36:00.485030+00:00,success,10,0.007,0.007,ff65bb0740c1bbd6b09054a3753f3a02481c281d7895da0e347c41567e07ac68
+213,asimov-end-followup,ASIMOV completed Klausutis DARPA benchmark cancellation 2026,2026-10-24T21:36:01.525070+00:00,success,10,0.007,0.007,b615631d24ce0ffd3bdb3536edb68e7eee9ad96555cba683bc3acb66ac37ac21
+214,asimov-results-press,DARPA ASIMOV ethical benchmark results REBAR MAGNET media reporting,2026-10-24T21:36:02.500431+00:00,success,10,0.007,0.007,72a35a2eda210da93ee1435f9307b04893932ec8bc9e56b4075c75c4418d1783
+215,gears-title,"""Gauging Ethical Autonomous Reliable Systems""",2026-10-24T21:36:03.652907+00:00,success,10,0.007,0.007,df3f84bbf3c96715bb58b3c130026d8815fff007742a4a4a110fd537c0442b1c
+216,magnet-title,"""What Could Possibly Go Wrong"" ""Hazard-Centric"" AI evaluation news",2026-10-24T21:36:07.682962+00:00,success,10,0.007,0.007,d80a9737fa5be71949de323b2550b802b778b09d90b67f667d3e91d4ca211e4b
+217,respect-latest,"""RESPECT"" ""Saab"" ethics results 2026",2026-10-24T21:36:08.646855+00:00,success,10,0.007,0.007,ea6544d6d988f9273ce509c00835b0fd83110b1cece14ad524f9e4b0fbbc3b44
+218,calvin-exact,"""Criteria for AI with Legally Informed Values and Nonmaleficence""",2026-10-24T21:39:04.645252+00:00,success,10,0.007,0.007,ecb44cb65edf845e37b58e849d4e3efd25934ff33870d0ba7680d22bf63a9675
+219,calvin-alias,CALVIN RTX SIFT Virginia Tech ASIMOV MAGNET ethical autonomy,2026-10-24T21:39:05.534219+00:00,success,10,0.007,0.007,af9d6611416681b79fe15eac381820c9dc99eea669937d4855179a0fc47169ee
+220,calvin-reporting,"""CALVIN"" ""ASIMOV"" reporting DARPA",2026-10-24T21:39:06.752935+00:00,success,10,0.007,0.007,da0bd93353dfd2cdce5f41ec16fc55b94a3db54586da3ec1ac088cea0b6b884d
+221,policy-issued,"""3000.09"" ""2026"" ""issued"" September October",2026-10-24T21:39:09.631214+00:00,success,10,0.007,0.007,ab71f3559d9b3ca2e689b4d0a3b3f06df7a0f3f6c488a1516874f9c07ec0e906
+222,policy-september,"""UPDATE ON IMPLEMENTATION"" ""2026 NATIONAL DEFENSE STRATEGY"" autonomy",2026-10-24T21:39:11.626748+00:00,success,10,0.007,0.007,e3c452ba38ef0f23fbfc575151488d707067800d6653ab359e6c167ee10ae437
+223,people-horowitz,Michael Horowitz departure Pentagon August 2024 autonomous weapons,2026-10-24T21:39:13.081291+00:00,success,10,0.007,0.007,183ae3bdc0e65c8451447af73900a8f7896a96498803ef229e62df3e6e3857ad
+224,people-merlin,"""Brian Zarchin"" ""September 24, 2026"" Merlin",2026-10-24T21:39:14.201208+00:00,success,10,0.007,0.007,b775e2d0f31766e156af141ff46ca9f5c6bf5485deaf7edcdcab0eede0e262d6
+225,magnet-reporting,"""MAGNET"" ""Peggy Wu"" DARPA ASIMOV",2026-10-24T21:39:14.928714+00:00,success,10,0.007,0.007,a550fd0e346f550cc0a67619ef66d3cfcd98922f59fd90232f32a94e9d6dadbb
+226,arkin-current-title,"""Towards Reliably Ethical Autonomous Weapon Systems""",2026-10-24T21:43:17.112711+00:00,success,10,0.007,0.007,661ee58cb8c0526ced97c27d661d4d6fa34ea2dbe8d0a2c6f714dc6be01f754c
+227,arkin-ethical-difficulty,"""Quantifying Ethical Difficulty"" ""Arkin""",2026-10-24T21:43:18.308052+00:00,success,10,0.007,0.007,e2c3021c1dfdbd7e450681a786795c8bc2aae3c85c076c8dd0b18521737600e7
+228,arkin-history-nyt,"site:nytimes.com ""Ronald Arkin"" robot ethics",2026-10-24T21:43:19.361273+00:00,success,10,0.007,0.007,b4a9e9962f2dd103599ad0c45bc08f909cd48045d5e69ee2462319053f5a47cb
+229,arkin-history-wp,"site:washingtonpost.com ""Ronald Arkin"" autonomous weapons",2026-10-24T21:43:20.452973+00:00,success,10,0.007,0.007,94ead65444c57a7cb8268e0794d7318c2fe7f91f0457cf84e048ecdb2150ac6d
+230,arkin-history-guardian,"site:theguardian.com ""Ronald Arkin"" ethical governor",2026-10-24T21:43:21.507269+00:00,success,10,0.007,0.007,7629288a83a8f0d431ed9e4ae9c4c2a302fd5a7640d5323a085c4325db073379
+231,arkin-history-reuters,"site:reuters.com ""Ronald Arkin"" robots",2026-10-24T21:43:22.621976+00:00,success,10,0.007,0.007,215dfda99d75e7cbc8c27a16690b96e90c8e81a978e1caf26a46a24ec0fd3fe5
+232,arkin-current-context,"""Ronald Arkin"" ""ASIMOV""",2026-10-24T21:43:23.530116+00:00,success,10,0.007,0.007,5a1a953b87d3b6275b0ca515743d30487714483abf5a491ece5b0076ff1fab7f
+233,arkin-cv,Ronald Arkin CV 2026 Quantifying Ethical Difficulty CASE workshop August 2025,2026-10-24T21:43:24.690938+00:00,success,10,0.007,0.007,f16e187d59da007ba77600b61478ee40b6df481d4ca5b0067a764cdc799aa946

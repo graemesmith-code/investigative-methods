@@ -1,0 +1,39 @@
+{
+  "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+  "request_method": "POST",
+  "request_json": {
+    "award_id": 298579330,
+    "page": 1,
+    "limit": 100,
+    "sort": "subaward_number",
+    "order": "desc"
+  },
+  "retrieved_at_utc": "2026-10-24T21:41:13.027224+00:00",
+  "prime_contract": "FA865125CB002",
+  "page_metadata": {
+    "page": 1,
+    "next": null,
+    "previous": null,
+    "hasNext": false,
+    "hasPrevious": false
+  },
+  "results": [
+    {
+      "id": 2401939,
+      "subaward_number": "2611241",
+      "description": "CRITERIA FOR AI WITH LEGALLY INFORMED VALUES AND NONMALEFICENCE (CALVIN)",
+      "action_date": "2024-12-05",
+      "amount": 17850.0,
+      "recipient_name": "VIRGINIA POLYTECHNIC INSTITUTE & STATE UNIVERSITY"
+    },
+    {
+      "id": 2404009,
+      "subaward_number": "2611239",
+      "description": "CRITERIA FOR AI WITH LEGALLY INFORMED VALUES AND NONMALEFICENCE (CALVIN)",
+      "action_date": "2024-10-29",
+      "amount": 60000.0,
+      "recipient_name": "SMART INFORMATION FLOW TECHNOLOGIES LLC"
+    }
+  ],
+  "interpretation": "CALVIN is an official reported RTX subaward title. Its relationship to the MAGNET publication beyond the common prime contract is not established."
+}

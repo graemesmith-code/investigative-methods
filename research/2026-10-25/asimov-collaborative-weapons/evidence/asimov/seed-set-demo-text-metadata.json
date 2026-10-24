@@ -1,0 +1,40 @@
+[
+  {
+    "source_url": "https://mit-realm.github.io/seed-set-website/",
+    "observed_utc": "2026-10-24T21:39:17.134751+00:00",
+    "status": 200,
+    "response_sha256": "b1fe24e06f47ece2a060422057ad12781e77462a6683445bc2ec26707534ba23",
+    "links": [
+      "#top",
+      "#abstract",
+      "#results",
+      "#code",
+      "#bibtex",
+      "#team",
+      "https://openreview.net/pdf?id=lfsjVdi72l",
+      "#code",
+      "https://aeroastro.mit.edu/realm/team/anjali-parashar/",
+      "https://scholar.google.com/citations?user=XMr6ploAAAAJ&hl=en&oi=ao",
+      "#",
+      "https://openreview.net/pdf/0c4bbc4ecee323522e632879cc6fa741268a8c13.pdf",
+      "https://github.com/MIT-REALM/contextual_failure"
+    ],
+    "access_observation": "Public project webpage; code section says: To be released soon! Some page text and footer links refer to a different CoRL 2025 project."
+  },
+  {
+    "source_url": "https://anjaliparashar.github.io/seed-site/demo_lite.html",
+    "observed_utc": "2026-10-24T21:39:20.924682+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "links": []
+  },
+  {
+    "source_url": "https://raw.githubusercontent.com/MIT-REALM/seed-set-website/53dc895317ec4aa6872e6509b20560fcfe0d0632/demo_lite.html",
+    "observed_utc": "2026-10-24T21:39:23.495780+00:00",
+    "status": 200,
+    "response_sha256": "784fcba2a0e49026eae5e257243748f4ecf3e7a35ce7fe6c1014e5020550653a",
+    "links": [
+      "https://arxiv.org/abs/2603.01630"
+    ],
+    "access_observation": "Publicly readable website demo asset at a pinned commit. Text describes a power-grid ethical-testing walkthrough with illustrative analytical surrogate models rather than a full training run. No scripts executed, controls activated, simulation run, or code file saved."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "asimov_awards": 7,
+  "asimov_actions": 43,
+  "asimov_obligations_usd": "20495054.0",
+  "asimov_all_options_usd": "39475202.0",
+  "fa8651_awards": 22,
+  "fa8651_contracts_with_actions": 20,
+  "fa8651_actions": 124,
+  "named_cases": 6,
+  "date_field_matches_not_active_work_count": [
+    "FA865124CB024",
+    "FA865124FB014",
+    "FA865125FB053",
+    "FA865126CB007",
+    "FA865126FB014",
+    "FA865123FA038"
+  ],
+  "overlapping_award_ids": [
+    "FA865125CB007"
+  ],
+  "unique_combined_awards": 28,
+  "limitations": "Validates published derivative tables, not delivery, legal closure, completeness of all programme vehicles, or live API state."
+}

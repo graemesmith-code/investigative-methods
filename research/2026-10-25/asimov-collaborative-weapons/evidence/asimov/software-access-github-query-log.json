@@ -1,0 +1,389 @@
+{
+  "checked_at_utc": "2026-10-24T21:41:00Z",
+  "purpose": "Bounded public software and data discovery, no code execution or cloning",
+  "queries": [
+    {
+      "source": "GitHub connector code search",
+      "query": "\"Reference Ethical Benchmark\"",
+      "returned_hits": 15,
+      "returned_urls": [
+        "https://github.com/advanced-cs/arXiv_daily/blob/c285c577bd09345121c7c15c07f9c54f39a4ebad/daily_papers/20260519_Tue/robotics.md",
+        "https://github.com/flyingbitac/daily-arXiv/blob/95f1c18e45cbb0552e1afc573962f8f63bd58752/data/2026-05-19.md",
+        "https://github.com/brianbaldock/aigregator/blob/68f8babe379a4ea27e4006d7dba8d47b6680a702/digests/2026-05-19.md",
+        "https://github.com/ArXCompass/ArXCompass.github.io/blob/c96541a4a5ef84a10efb0139b7e360af76fd968c/papers/embodied_ai/2026_05/papers_1.md",
+        "https://github.com/minwoo0611/icra2026-schedule/blob/2db75496db67b0dc6a08ac30aa2a6c28f070fade/build_icra2026_explorer.py",
+        "https://github.com/brianbaldock/aigregator/blob/68f8babe379a4ea27e4006d7dba8d47b6680a702/docs/digests/2026-05-19.html",
+        "https://github.com/DouwMarx/eval-voi/blob/ea2e9789688b80846a90d8ef1f9c8ab8cc0c57f2/research/refs.bib",
+        "https://github.com/JonD07/jond07.github.io/blob/7124ccaab3a43f66d9998d3609009c92833cbecd/_page_1.html",
+        "https://github.com/JonD07/jond07.github.io/blob/7124ccaab3a43f66d9998d3609009c92833cbecd/research.html",
+        "https://github.com/walterreade/arxiv_benchmark_papers/blob/8189f89819fe1909b4b5184b68073993b3222ede/json/2_paper_metadata/2605.18423.json",
+        "https://github.com/ehijano/rss_fetch/blob/edf959a6d2bd1027a8d28f61c804c8cf2d6ed8c4/rss_data/cs.CY/2026-05-18_cs.CY.xml",
+        "https://github.com/ehijano/rss_fetch/blob/edf959a6d2bd1027a8d28f61c804c8cf2d6ed8c4/rss_data/cs.RO/2026-05-18_cs.RO.xml",
+        "https://github.com/flyingbitac/daily-arXiv/blob/95f1c18e45cbb0552e1afc573962f8f63bd58752/data/2026-05-19.jsonl",
+        "https://github.com/flyingbitac/daily-arXiv/blob/95f1c18e45cbb0552e1afc573962f8f63bd58752/data/2026-05-19_AI_enhanced_Chinese.jsonl",
+        "https://github.com/DouwMarx/eval-voi/blob/ea2e9789688b80846a90d8ef1f9c8ab8cc0c57f2/research/literature/topic-llm-robot-safety-benchmarks.json"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"Mission Analysis Generalizable\"",
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"FA865125CB002\"",
+      "returned_hits": 6,
+      "returned_urls": [
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB002_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB002.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/CONTRACT_BREADCRUMBS.md",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_prime_awards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_reported_subawards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/retrieval_manifest.json"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"CALVIN\" \"nonmaleficence\"",
+      "returned_hits": 20,
+      "returned_urls": [
+        "https://github.com/PredictiveAsi/Random/blob/69f63ff2827a7b7b36d0e538d6e6e2d2d3f87420/deepseek_calvin_20250630_be12bf.txt",
+        "https://github.com/PredictiveAsi/Random/blob/69f63ff2827a7b7b36d0e538d6e6e2d2d3f87420/deepseek_python_20250630_15df03 (1).py",
+        "https://github.com/ddmcdonald/sparser/blob/bd784c216aa1f8984c7ed40e3ede87dc139dcff8/Sparser/code/s/tools/ns-stuff/unknown-words-covid-2020-05-12-0512-pdf-5901-6000.lisp",
+        "https://github.com/ddmcdonald/sparser/blob/bd784c216aa1f8984c7ed40e3ede87dc139dcff8/Sparser/code/s/tools/ns-stuff/unknown-words-covid-2020-04-03-0403-com-pmc-4501-4600.lisp",
+        "https://github.com/PredictiveAsi/Random/blob/69f63ff2827a7b7b36d0e538d6e6e2d2d3f87420/deepseek_html_20250630_aba890.html",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Zoology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Mycology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Nutrition.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Organisms.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Physiology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Microbiology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Neuroscience.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Paleontology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Soil_biology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Biology_stubs.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Systems_biology.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Biology_theories.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Biology_websites.txt",
+        "https://github.com/mlbileschi/Perl-Quiz/blob/2b4f3bad52f5f43c63ba1b0ad1652617c5e097e3/categories/Biology_stripped/Molecular_biology.txt",
+        "https://github.com/JuliCai/MiniscuLM/blob/49ff4a5d816fe6981b822d44a3514f952094b51e/ScratchLists/input.txt"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"Autonomy Standards and Ideals\"",
+      "returned_hits": 25,
+      "returned_urls": [
+        "https://github.com/mollendorff-ai/daneel/blob/60967e15e899b32a8e8ed67d5c91e4c46fe916ad/research/neuromorphic_landscape_2025.md",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus/doc_806.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus/doc_850.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus/doc_236.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus/doc_886.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus_grouped/large/doc_236.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus_grouped/large/doc_850.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus_grouped/large/doc_806.txt",
+        "https://github.com/Phiadz/Plagiarism-Detection/blob/3d5e34607f3a0d7651f6bc05cdd112fc0d6c6010/data/corpus_grouped/large/doc_886.txt",
+        "https://github.com/dev4210/search/blob/8dc20d1a1b4afcadc0e992a75e89bb5e82877272/articles/Ethics of artificial intelligence.txt",
+        "https://github.com/Jananis04/Debatebot-RAG/blob/26adffab63e8b16ae14f00bd02bbbd814ed85916/main/corpus/Ethics_of_artificial_intelligence.txt",
+        "https://github.com/dev4210/search/blob/8dc20d1a1b4afcadc0e992a75e89bb5e82877272/clean_articles/Ethics of artificial intelligence.txt",
+        "https://github.com/usamaahmedsh/synthetic-data-langchain-rag/blob/68687dbad64059c43cd4b7fb9950595a28d0974b/data/raw/deep_learning/pages/Ethics_of_artificial_intelligence.txt",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB006_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB002_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB003_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB004_transactions.json",
+        "https://github.com/Tianming-Y/KnowledgeEngineering-homework1/blob/13282b8692e751fb183f1b4b803085fcec1e93ba/data/processed/Ethics of artificial intelligence.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_prime_awards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB001_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB018_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB002.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-24/f2-tactical-ai/audit/lane2-high-scoring-nonexact-followons-92.csv",
+        "https://github.com/FKIRSTE/acl2025-mimic-to-get-fame/blob/b02c239c6c364198613a5a206764bda32cf355e6/fame_dataset/English/Brainstorming_Session_Contemporary_Issues_English_Ethics_of_Artificial_Intelligence.csv",
+        "https://github.com/vkinnnnn/northeastern-faculty-outreach/blob/03e660d828a1a8fcef891e1bcae32366f51a39d4/research/snapshots/r176_A_mcfadden.txt"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"ASIMOV\" \"DARPA\"",
+      "returned_hits": 30,
+      "returned_urls": [
+        "https://github.com/taniki/comp.soc-of-philosophy/blob/15ae0616600ce49a0d6580e35cf20a2be762c0f3/datasets/sentences/Isaac_Asimov.txt",
+        "https://github.com/taniki/comp.soc-of-philosophy/blob/15ae0616600ce49a0d6580e35cf20a2be762c0f3/datasets/pages/Isaac_Asimov.html",
+        "https://github.com/fractalego/bot_journal/blob/4610c9de48a80fd553abbbf0951ba1c76220d9e5/data/sample_texts/isaac_asimov.txt",
+        "https://github.com/jeffreywpli/convex_case/blob/06c6b4c37649b8e3b2a0e01f2effc999578a5d05/data/wiki3029/wiki3029/Isaac_Asimov.txt",
+        "https://github.com/DARPA-ASKE/info-and-links/blob/2fc7a0762c53c9fb9bfc8940520d749899300291/README.md",
+        "https://github.com/tanjiti/sec_profile/blob/89367ea0334aedae4611e9ac88021a29e289ca0e/README_2023.md",
+        "https://github.com/hermitdave/FrequencyWords/blob/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/si/si_full.txt",
+        "https://github.com/kirito-0512/data/blob/433692870f44bcac3c97d2dc93a2d6b3dc852ab8/dump/IsaacAsimov.txt",
+        "https://github.com/hacktoolspack/hack-tools/blob/f2f00f75c5714295bd1157b8756f7bf2047bcc5d/sensitivebuster/dir.1337",
+        "https://github.com/bedwards/hex-index/blob/c1a5a6ee3ffa8fc0e85da1d81460819af5382553/library/rewritten/asimov/scent-in-silico.html",
+        "https://github.com/vmayoral/robot_hacking_manual/blob/04aa346d661377b3c26096a2f39a713afbf1f3f9/bibliography.bib",
+        "https://github.com/kanzure/diyhpluswiki/blob/7ac3fff89baa5804ad51eca6122e26897f258e59/polymerase/notes.mdwn",
+        "https://github.com/chauvinSimon/My_Bibliography_for_Research_on_Autonomous_Driving/blob/1dd25eab2b58980ec9dcc6979097a9e6ac1377e1/sections/5_rule_based_decision_making.md",
+        "https://github.com/andre-fuchs/kerning-pairs/blob/b7a0e29ed81a8edee7b4b6cb1935ebf7d29ca611/text/de/grouped-457.txt",
+        "https://github.com/aimacode/aima-glossary/blob/481170d3651188d99874f1aca675dafb6622b96b/sentences.txt",
+        "https://github.com/kormyen/memex/blob/fb86d3c14e062b6dc95077997dc6ada76536072b/content/data.ndtl",
+        "https://github.com/shownotesArchive/shownot.es/blob/23b33238da5a9ab1aa926d57dda198d15cbf2182/archive/piratenpad/cr184.txt",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-de.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-bn.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-ko.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-tr.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-zh.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-vi.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-pt.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-fr.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-ja.md",
+        "https://github.com/hackernoon/learn/blob/5062448a0cd622cef7a66ed11111f669abc5f52c/v_2026/hackernoon/hackernoon-hi.md",
+        "https://github.com/ppwwyyxx/SoPaper/blob/2b50495d376887f46609d9dfbb6a08673434a2e6/sopaper/xpengine/wordlists/Caps.txt",
+        "https://github.com/bedwards/hex-index/blob/c1a5a6ee3ffa8fc0e85da1d81460819af5382553/library/asimov/scent-in-silico.md",
+        "https://github.com/TTXS123OK/CVPapers/blob/c0d9f9b70616551060df579cb88518e0dab2d385/cs.CV/2026/06/20260602.md"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"FA8651-25-C-B001\"",
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"FA8651-25-C-B002\"",
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"FA8651-25-C-B003\"",
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"FA8651-25-C-B018\"",
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": "\"REBAR\" \"ethical\"",
+      "returned_hits": 30,
+      "returned_urls": [
+        "https://github.com/mhxion/awesome-discord-communities/blob/1d973a9d4f59325ef11c48d0b2dde887cf688808/README.md",
+        "https://github.com/hyperpolymath/safe-brute-force/blob/67e8fd9156022e5ade6976dfa88558a659d45294/CLAUDE.md",
+        "https://github.com/llSourcell/How_to_make_a_language_translator/blob/74842b38e59b310160b7c65e9d8eb06d64b63c98/data/vocab30000.en",
+        "https://github.com/hyperpolymath/safe-brute-force/blob/67e8fd9156022e5ade6976dfa88558a659d45294/RSR_COMPLIANCE.adoc",
+        "https://github.com/xiaobaiha/github-trending-history/blob/23458ebb19c66f90fe6753296a47244909880b80/Daily/2019-11-17.md",
+        "https://github.com/hyperpolymath/safe-brute-force/blob/67e8fd9156022e5ade6976dfa88558a659d45294/PROJECT_SUMMARY.adoc",
+        "https://github.com/lambdaclass/lambdaclass_hacking_learning_path/blob/3468a00d3283f6bcb3405544f0520e2f41d33455/README.md",
+        "https://github.com/maciejszewczyk/linkedin-skills/blob/f23cc27e53f0fd8654a433238eba6a827b79b3f6/linkedin_skills.txt",
+        "https://github.com/brianbaldock/aigregator/blob/68f8babe379a4ea27e4006d7dba8d47b6680a702/digests/2026-05-19.md",
+        "https://github.com/flyingbitac/daily-arXiv/blob/95f1c18e45cbb0552e1afc573962f8f63bd58752/data/2026-05-19.md",
+        "https://github.com/hyperpolymath/safe-brute-force/blob/67e8fd9156022e5ade6976dfa88558a659d45294/EXPLAINME.adoc",
+        "https://github.com/cirosantilli/expired-domain-names-by-day-2021/blob/521e797405c1ae7edd154046714c771b83107768/10/16/9005",
+        "https://github.com/zhiephie/github-trending/blob/6a03c4a523bea29db6d921a6dc52affee4ced9a0/2018-01/2018-01-09.md",
+        "https://github.com/zhiephie/github-trending/blob/6a03c4a523bea29db6d921a6dc52affee4ced9a0/2018-01/2018-01-07.md",
+        "https://github.com/marktananykin/Rebar-Detection/blob/8de1ebc2b7aa9c86073f0a0b940a9e84941ba1ea/DATA_COLLECTION.md",
+        "https://github.com/tanjiti/sec_profile/blob/89367ea0334aedae4611e9ac88021a29e289ca0e/README_2018.md",
+        "https://github.com/zhiephie/github-trending/blob/6a03c4a523bea29db6d921a6dc52affee4ced9a0/2018-01/2018-01-15.md",
+        "https://github.com/sailfish009/paper/blob/f387ce7de3f262fc10a3092837ac53e43e155def/2023.04.28.txt",
+        "https://github.com/cirosantilli/expired-domain-names-by-day-2021/blob/521e797405c1ae7edd154046714c771b83107768/02/17/55",
+        "https://github.com/tech234a/annotation-urls/blob/5c0300471b87c6a5f3dd8883484f8155b5ff33d7/UQ_urls.txt",
+        "https://github.com/sailfish009/paper/blob/f387ce7de3f262fc10a3092837ac53e43e155def/2026.02.20.txt",
+        "https://github.com/AdeboyeML/Film_Script_Analysis/blob/2146e75740e5735b7c7a0c4c0365f319528a707a/imsdbfilmscripts/TMNT.txt",
+        "https://github.com/zhiephie/github-trending/blob/6a03c4a523bea29db6d921a6dc52affee4ced9a0/2018-06/2018-06-04.md",
+        "https://github.com/zhiephie/github-trending/blob/6a03c4a523bea29db6d921a6dc52affee4ced9a0/2018-06/2018-06-05.md",
+        "https://github.com/sailfish009/paper/blob/f387ce7de3f262fc10a3092837ac53e43e155def/2025.11.19.txt",
+        "https://github.com/sethmblack/paks-skills/blob/a97079093e4f129351c6321df005dd656bb48374/ai-weiwei/SKILL.md",
+        "https://github.com/pannous/hieros/blob/1cfe6bdcbcbd0d044c959d94861a7a4d61ecda45/dicts/kurdish.txt",
+        "https://github.com/JoeKarlsson/bechdel-test/blob/b3923a20e9c0ab460f22dc136d0464b2fa4f2ced/scripts/tmnt.txt",
+        "https://github.com/PedroUria/NLP-Movie_Scripts/blob/5d83c8525dc8770575dd00f3736b23fbae86696c/scripts/TMNT_script.txt",
+        "https://github.com/llimllib/personal_code/blob/5bbf3abf81c3735bc292ea44c543f458e4a76070/python/bee/words3.txt"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "REBAR",
+        "org": "Kitware"
+      },
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "ASIMOV",
+        "org": "Kitware"
+      },
+      "returned_hits": 7,
+      "returned_urls": [
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/VersionLimit3-stderr.txt",
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/VersionLimit4-stderr.txt",
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/MissingVersion2-stderr.txt",
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/MissingVersion1-stderr.txt",
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/ExactVersion.cmake",
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/VersionLimit2.cmake",
+        "https://github.com/Kitware/CMake/blob/a42e96a28c50f5884a85f1239caa552a48f98387/Tests/RunCMake/find_package-CPS/cps/sample/1.1.0/sample.cps"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "Prose2JSON"
+      },
+      "returned_hits": 4,
+      "returned_urls": [
+        "https://github.com/s0cks/prose2json/blob/54d523178452b68d4f8f21bcf0f595b40333ab03/README.md",
+        "https://github.com/s0cks/prose2json/blob/54d523178452b68d4f8f21bcf0f595b40333ab03/main.go",
+        "https://github.com/s0cks/prose2json/blob/54d523178452b68d4f8f21bcf0f595b40333ab03/cmd/root.go",
+        "https://github.com/s0cks/prose2json/blob/54d523178452b68d4f8f21bcf0f595b40333ab03/go.mod"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "REBAR-Orchestrator"
+      },
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "CALVIN",
+        "org": "SIFT"
+      },
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "MAGNET",
+        "org": "SIFT"
+      },
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "ASIMOV",
+        "org": "Lockheed-Martin"
+      },
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "ASIMOV",
+        "org": "str-llc"
+      },
+      "returned_hits": 0,
+      "returned_urls": [],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "FA865125CB001"
+      },
+      "returned_hits": 7,
+      "returned_urls": [
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB001_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB001.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/CONTRACT_BREADCRUMBS.md",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_prime_awards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_reported_subawards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/retrieval_manifest.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-24/f2-tactical-ai/audit/lane2-high-scoring-nonexact-followons-92.csv"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "FA865125CB003"
+      },
+      "returned_hits": 8,
+      "returned_urls": [
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB003_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB003.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/IHL_TARGETING_FUNDING.md",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/CONTRACT_BREADCRUMBS.md",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_prime_awards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_reported_subawards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/retrieval_manifest.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-24/f2-tactical-ai/audit/lane2-high-scoring-nonexact-followons-92.csv"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "FA865125CB018"
+      },
+      "returned_hits": 8,
+      "returned_urls": [
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB018_transactions.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/FA865125CB018.json",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/IHL_TARGETING_FUNDING.md",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/CONTRACT_BREADCRUMBS.md",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_prime_awards.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/ihl_reported_subawards.csv",
+        "https://github.com/noahdw957/Recon/blob/94c474305fd5810799042b266bbd873765193179/random_10pct_sample_B_zero.csv",
+        "https://github.com/graemesmith-code/investigative-methods/blob/e931fcbc6dc52c00b0565e853637a64fa95773b3/research/2026-10-16/future-warfare-investments/track-2-ihl/evidence/retrieval_manifest.json"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    },
+    {
+      "source": "GitHub connector code search",
+      "query": {
+        "query": "Reference Ethical Benchmark"
+      },
+      "returned_hits": 20,
+      "returned_urls": [
+        "https://github.com/beamandrew/medical-data/blob/a205fbb5664e4d35a456b0ef9c5fb2f99ff02611/README.md",
+        "https://github.com/tmgthb/Autonomous-Agents/blob/ab1074adabe136eb252563388f4f288ddbb0aee1/README.md",
+        "https://github.com/ivan-bilan/The-NLP-Pandect/blob/87385919cab9ed7ab3b5e7e695c883fbb1cb12fd/README.md",
+        "https://github.com/swyxio/ai-notes/blob/d116f04c06253abdcfc5ca0a8318421eae6c97b4/TEXT.md",
+        "https://github.com/jannisborn/paperscraper/blob/4fae7f69a6b71cc2d4e188b28d26aa07a2901d07/paper.md",
+        "https://github.com/InternLM/InternLM/blob/68fdc71330059255fd647abf28219ad11e8e4865/README.md",
+        "https://github.com/CSHaitao/Awesome-LegalAI-Resources/blob/97fec0da0cf00695abad31002520bdb3b6cddb7c/README.md",
+        "https://github.com/AGI-Edgerunners/LLM-Agents-Papers/blob/aa40b1276fd08ae95fa936d8a1dfb97db59188c1/README.md",
+        "https://github.com/LetterLiGo/SafeGen_CCS2024/blob/20f627b9818e06740addb944cfee56c19dadbf58/README.md",
+        "https://github.com/china-testing/python-api-tesing/blob/0b72e9f1776eced1ded90f67474f5f8d68511915/books.md",
+        "https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents/blob/ab0c0118e81775bc9a364ad4bbbfd3856063af93/README.md",
+        "https://github.com/hzysvilla/Academic_Smart_Contract_Papers/blob/aede99b97104f2f1dd447922d9b54902a89c81d9/TLDR.md",
+        "https://github.com/neelguha/legal-ml-datasets/blob/4eef18277b667561178f6ace830c014df7ad9f69/README.md",
+        "https://github.com/kevinamiri/Instructgpt-prompts/blob/d23290fb44c7505ff2a079f65b7f8319a904affd/draft.md",
+        "https://github.com/webxos/phalanx/blob/9b24f0a54c4b858c9a73e11dd2c2d2dcb0b53ec7/GUIDE.md",
+        "https://github.com/AlayaLab/Hive/blob/f41b507d6be616ba864a5cd538b071338b6bd90d/README.md",
+        "https://github.com/enjector/microgpt-c/blob/80f5ebaba4ad1c732d9c4824eebce8695f81ff4c/book/1.md",
+        "https://github.com/gopala-kr/summary/blob/eb401b3b4fdbb4275773c3293d85e002221e3700/22.md",
+        "https://github.com/cedrickchee/chatgpt-universe/blob/de9f905cccc1f71e7ebbe7ae09635ceacce4ba5e/README.md",
+        "https://github.com/ahkarami/Great-Deep-Learning-Tutorials/blob/c712a6b61a4b59344613ba2040009bc81f7f3a0b/NLP.md"
+      ],
+      "caveat": "Default-branch indexed search; capped at requested topn (20 or 30), not exhaustive."
+    }
+  ]
+}

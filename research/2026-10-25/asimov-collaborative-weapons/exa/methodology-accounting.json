@@ -1,0 +1,67 @@
+{
+  "accounting": {
+    "successful_searches": 233,
+    "pending_requests": 0,
+    "uncertain_requests": 0,
+    "provider_reported_cost_usd": 1.631,
+    "accounted_exposure_usd": 1.631,
+    "total_returned_hits": 2075,
+    "deduplicated_exa_urls": 1381,
+    "source_index_total_including_non_exa_seeds": 1385,
+    "curated_relevance_triaged_sources": 60,
+    "curated_sources_found_in_exa": 56,
+    "full_accessible_main_texts_inspected": 29,
+    "papers_with_relevant_sections_inspected": 3,
+    "partial_or_unavailable_in_bibliography": 20,
+    "other_review_statuses": {
+      "Relevant sections inspected": 1,
+      "Relevant programme structure and phase sections inspected": 1,
+      "Title/authors/abstract and relevant context reviewed": 1,
+      "Relevant policy sections inspected": 1,
+      "Relevant analytical sections inspected": 1,
+      "Relevant analytical text inspected": 1,
+      "Relevant professional-role sections inspected": 1,
+      "Relevant role/conference/publication sections inspected": 1
+    },
+    "first_request_utc": "2026-10-24T21:23:56.535623+00:00",
+    "latest_request_utc": "2026-10-24T21:43:24.690938+00:00",
+    "audit_updated_utc": "2026-10-24T21:44:28.490612+00:00",
+    "deduplication": "Canonical URL: strip www, fragment, trailing slash, UTM; remove version parameter only from AFRL PDF. Does not merge different URL representations of same paper.",
+    "limits": "Returned hits are not fully reviewed articles. Review categories distinguish complete accessible main text, relevant paper sections, focused review, partial text, preview and unavailable sources. Article bodies and prior-task ledgers are excluded."
+  },
+  "evidence_cutoff_utc": "2026-10-24T21:45:33.292594+00:00",
+  "evidence_cutoff_rome": "2026-10-24T23:45:33.292594+02:00",
+  "baseline_commit": "e931fcbc6dc52c00b0565e853637a64fa95773b3",
+  "query_method": "233 sequential Exa POST /search requests, auto type, ten requested results, text maxCharacters 14000. Returned text was sometimes a truncated preview. Provider-reported cost was US$0.007 per request. The unchanged ledger records query, UTC timestamp, status, requested result count, actual cost, exposure and canonical provider-response SHA-256. No uncertain outcomes.",
+  "coverage_matrix": "Exact IDs, hyphenated variants, official and technical titles, performer/old-company aliases, ASIMOV outputs, major-outlet and specialist-domain searches, predecessor programmes, policy and public professional records. Broad terms did not establish direct technical lineage.",
+  "review_denominators": "2,075 returned hits; 1,381 canonical Exa URLs; 60 curated source records, 56 found in Exa and four supplied as other verified seeds. Twenty-nine full accessible main texts, three papers inspected in relevant sections, twenty partial/unavailable sources and eight other focused reviews. These are source records, not sixty independent news articles. The unreviewed all-results index is not in this package.",
+  "deduplication": "Canonical URL: strip www, fragment, trailing slash, UTM; remove version parameter only from AFRL PDF. Does not merge different URL representations of same paper.",
+  "independence": "Official disclosures, papers, university/vendor publicity, contract digests, independent interviews/reporting and expert analysis are classified separately. Syndication is not new independent confirmation. Coverage depth is not popularity; trade reporting is not a veto.",
+  "article_access": "Relevant accessible text was inspected before substantive article-level conclusions. Preview, paywall and error states are labelled. No access restrictions were bypassed. Publication, event and index dates are distinct; an Inside Defense story dated 21 May was incorrectly indexed as 24 October on a linked summary.",
+  "response_hash_definition": "SHA256 of canonical sorted compact JSON of provider response; raw_record_sha256 hashes locally serialized request/response record, not original network bytes. No secrets in exported ledger.",
+  "stopping_rationale": "Exact identifiers, hyphenated variants, titles, performer aliases, programme outputs, major-outlet domains, specialist domains, predecessors, contrary funding trends, policy and people were covered. Later focused queries predominantly returned already known public sources, procurement mirrors, name collisions or unrelated patents. Remaining gaps principally require records, answers or access to unavailable full text, rather than filler searches. The Arkin exact-title and historical lane was added after the linked paper was verified.",
+  "exclusions": "No private contact information, full article bodies, credentials, private conversation context, unreviewed all-results index or earlier-task ledgers are included.",
+  "blockers": [
+    {
+      "action": "Read relevant full articles and chapters",
+      "target": "Paywalled sources individually labelled in the reading pack",
+      "result": "Only public previews or subscription gates were available; full texts remain unassessed."
+    },
+    {
+      "action": "Read September 2026 Pentagon implementation report",
+      "target": "https://media.defense.gov/2026/Sep/28/2004007869/-1/-1/1/UPDATE-ON-IMPLEMENTATION-OF-THE-2026-NATIONAL-DEFENSE-STRATEGY-AS-SUBMITTED-TO-THE-SENATE-ARMED-SERVICES-COMMITTEE.PDF",
+      "result": "Direct retrieval returned HTTP 403. Contents were not used to establish policy issuance."
+    },
+    {
+      "action": "Read CRS primer",
+      "target": "https://www.congress.gov/crs_external_products/IF/HTML/IF11150.web.html",
+      "result": "The retrieval route was restricted. Current contents were not assessed."
+    },
+    {
+      "action": "Read historical New York Times articles",
+      "target": "Guilty Robots (2009) and Death by Robot (2015), linked in the reading pack",
+      "result": "Direct retrieval failed. Only recorded previews were available; no full-article conclusions were drawn."
+    }
+  ],
+  "transfer_note": "The exact compact query ledger is unchanged. It retains all 233 requested queries, UTC times, statuses, cost/exposure and provider-response hashes. A redundant local raw-record hash was omitted by the source exporter. The source index has 60 curated identities and query-ID linkage. Canonical response hashes are not hashes of original network bytes."
+}

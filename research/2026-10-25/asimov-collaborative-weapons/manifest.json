@@ -1,0 +1,273 @@
+{
+  "report_title": "ASIMOV and the collaborative-weapons pipeline",
+  "edition": "2026-10-25",
+  "evidence_cutoff_utc": "2026-10-24T21:49:00+00:00",
+  "evidence_cutoff_europe_rome": "2026-10-24T23:49:00+02:00",
+  "prepared_utc": "2026-10-24T22:07:08.078586+00:00",
+  "baseline_commit": "e931fcbc6dc52c00b0565e853637a64fa95773b3",
+  "publication_path": "research/2026-10-25/asimov-collaborative-weapons/",
+  "content_file_count": 51,
+  "content_bytes": 582532,
+  "exa_queries": 233,
+  "exa_provider_reported_cost_usd": "1.631",
+  "exa_uncertain_exposure_usd": "0.000",
+  "exa_received_archive_sha256": "cf02664f2a8d0421ca220a366f3fb21ccac352dbafe1d1a45a53ab77c5001213",
+  "files": [
+    {
+      "path": "READING_PACK.md",
+      "bytes": 40348,
+      "sha256": "db05a2205092e730da15702776d3e0d96696a6c9ff7228690441b314dc7940eb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4573,
+      "sha256": "3d005af4ad92787a89829dbf381a434de87273edac4a4880550640821e2369c2"
+    },
+    {
+      "path": "code/README.md",
+      "bytes": 3106,
+      "sha256": "2c31575f19e148a90e19b1be3ae81cd533663ebe263ae347e6869b7810ae28a1"
+    },
+    {
+      "path": "code/validate_evidence.py",
+      "bytes": 4625,
+      "sha256": "f9331330ec8cb7259a252066bef3392b150240abc5d54d797155c4b606229a89"
+    },
+    {
+      "path": "context/explainer.md",
+      "bytes": 7597,
+      "sha256": "487a1ec4dfc7d4d258b68a6a893a54fcef25e6c68771e805a9513467a237e9d7"
+    },
+    {
+      "path": "context/people-and-interview-questions.md",
+      "bytes": 11413,
+      "sha256": "382e29ec4b67d220074e7b0c06dfeecf740b50829c9b6689821c3ea119792193"
+    },
+    {
+      "path": "context/source-map.md",
+      "bytes": 9380,
+      "sha256": "3dca2f90b40453abf3e6f16fc5959970d1d62d3601ddd5f7217182c32e0cc13e"
+    },
+    {
+      "path": "evidence/asimov/README.md",
+      "bytes": 2584,
+      "sha256": "ba34c68df4065efee24f6c967bd1ec772c24bbba435256010a37eaf9a3ed2f39"
+    },
+    {
+      "path": "evidence/asimov/archive-capture-index.json",
+      "bytes": 1197,
+      "sha256": "f852569cd17ff4c2d376e46cbfab34c9e5bbc53dac181ebdbad5e4551afb43c8"
+    },
+    {
+      "path": "evidence/asimov/archive-evidence.json",
+      "bytes": 2808,
+      "sha256": "4870967fe252746c68d48f3eb729a621d3dcccb35c62b9fb356b7e8a9da14375"
+    },
+    {
+      "path": "evidence/asimov/contract-register.csv",
+      "bytes": 2991,
+      "sha256": "8127a9b522d55168ea81b67728cd05430deee1004614ae014af42f1f02b86ccc"
+    },
+    {
+      "path": "evidence/asimov/contract-register.json",
+      "bytes": 6449,
+      "sha256": "90db7c1ee79a51b49dbdb96088b40282bd277b927fb3f8d92a969aa379416530"
+    },
+    {
+      "path": "evidence/asimov/fetch_archive.py",
+      "bytes": 1129,
+      "sha256": "2df8c356b820d586d3b44a4d6b7c88b74e1912c094c72d90f8349ed4d318a9d0"
+    },
+    {
+      "path": "evidence/asimov/fetch_primary.py",
+      "bytes": 2586,
+      "sha256": "56dc088d321cbfd44890481aa489c395b7b477724b8b691291d7c761e9ae252c"
+    },
+    {
+      "path": "evidence/asimov/fpds-actions.csv",
+      "bytes": 15077,
+      "sha256": "c6735cf0465c763df975802e3ef5d632569f754211f593228f5a36640412a4cf"
+    },
+    {
+      "path": "evidence/asimov/fpds-actions.json",
+      "bytes": 35465,
+      "sha256": "311cebf820919646212103e7c5abf7e2ddd95db912e901405be8aa051cff3d81"
+    },
+    {
+      "path": "evidence/asimov/fpds-summary.json",
+      "bytes": 2647,
+      "sha256": "e581ba721f7d0ae850833ba1f8dbdae878a215b84f0a8d50af28e5f928044d27"
+    },
+    {
+      "path": "evidence/asimov/mit-realm-repository-metadata.json",
+      "bytes": 1124,
+      "sha256": "c7dce61780536fd3cafffef68568db63e86fc51a3078eb039c686c3cbe8f6c80"
+    },
+    {
+      "path": "evidence/asimov/parse_actions.py",
+      "bytes": 3172,
+      "sha256": "b03c0c490a9b8d7a2efa63129d210b563da24f99ec3e1cfc4f71660432d17826"
+    },
+    {
+      "path": "evidence/asimov/people-outputs.md",
+      "bytes": 24309,
+      "sha256": "e683fd2b81a8a9405a7a1fc9b8e263f7d3176f115ef2e10501bb587c93951c4a"
+    },
+    {
+      "path": "evidence/asimov/primary-findings.md",
+      "bytes": 19266,
+      "sha256": "1d97fd7880e64e8dd0b601dcd0560de2fd32ac7f5c5804c9b89927dc10be3584"
+    },
+    {
+      "path": "evidence/asimov/primary-source-index.json",
+      "bytes": 6604,
+      "sha256": "c443a8711e89e2320f0e65231b8929d74e1e31baf8699dfaddbc7352c939bfe2"
+    },
+    {
+      "path": "evidence/asimov/rtx-calvin-subawards.json",
+      "bytes": 1240,
+      "sha256": "669b1b10037238186d9a50d18ef507eec2b7f1988c34772eba4b39e83db12b59"
+    },
+    {
+      "path": "evidence/asimov/seed-set-access-metadata.json",
+      "bytes": 1785,
+      "sha256": "43dd7258626509c12b2052ac80f42cdd966364abbb51afa57af7037291db4cec"
+    },
+    {
+      "path": "evidence/asimov/seed-set-demo-text-metadata.json",
+      "bytes": 1756,
+      "sha256": "d922bcc3b1b8f86debf7338be1702c25f3cb70df4478b6e4339826849135ce89"
+    },
+    {
+      "path": "evidence/asimov/software-access-github-query-log.json",
+      "bytes": 32569,
+      "sha256": "4dd5d69581a82ab91e68e7414c1383fb72d6b2299e330d84506241ff5fb51685"
+    },
+    {
+      "path": "evidence/asimov/software-access-review.md",
+      "bytes": 9641,
+      "sha256": "5243124e0ff930e1ac3a883ff70fe81d7a5b43981128181a77367cf64d78dc5f"
+    },
+    {
+      "path": "evidence/asimov/software-access-source-hashes.json",
+      "bytes": 1473,
+      "sha256": "e9340f14537f8067d7a756f6c3680891b350188e8ca3e2d64d298423d9682b68"
+    },
+    {
+      "path": "evidence/asimov/software-access-supplement-unsw-saab-covar.md",
+      "bytes": 10399,
+      "sha256": "53489897144e29bc0c23f869394c5e73c77c47751674dd75b9ebf19542d9d9fb"
+    },
+    {
+      "path": "evidence/asimov/software-query-metadata.json",
+      "bytes": 2124,
+      "sha256": "e133ee74bdb8e253a41ae2696198639cc6d616d2cfc41f1755f7b2e611528a21"
+    },
+    {
+      "path": "evidence/asimov/source-file-hashes.json",
+      "bytes": 6219,
+      "sha256": "e3c61e3eeaf0e50456d1cc8d36668ead2fae9f5d36399f35f226dc1dcf56df88"
+    },
+    {
+      "path": "evidence/eglin/README.md",
+      "bytes": 4316,
+      "sha256": "706a748a2eade53546fee9e8aa77663946bf89feffd1943653c43e6e9709d302"
+    },
+    {
+      "path": "evidence/eglin/fa8651-cohort-audit.csv",
+      "bytes": 25778,
+      "sha256": "f9fe55db6c75b8eeba8e5bc6ec7560e08900413cc8d799546797e05eefc3a795"
+    },
+    {
+      "path": "evidence/eglin/fa8651-contract-actions.csv",
+      "bytes": 32629,
+      "sha256": "00349a0bfc7e523462f6587e09f99dcfbcb28d05717c67af78552f6efeae8762"
+    },
+    {
+      "path": "evidence/eglin/people-and-source-map.md",
+      "bytes": 11310,
+      "sha256": "823a7a09e3ccdc51bb43340d4276c8897a2f2921b7696c1dcf4dce636376b7ee"
+    },
+    {
+      "path": "evidence/eglin/portfolio-findings.md",
+      "bytes": 19824,
+      "sha256": "bdcd69aa23c6fd709c0c2417cd67dbf5af61e42191bf5e0ffe63b089a12e244b"
+    },
+    {
+      "path": "evidence/eglin/source-index.md",
+      "bytes": 15669,
+      "sha256": "e0de3765faacc7a4b764278dffc36beaa36d4f879acea2879c0efbdce296c304"
+    },
+    {
+      "path": "evidence/eglin/timeline.md",
+      "bytes": 9985,
+      "sha256": "dd05f61b56ddf4b55f38753eb3355ea37f7b12d46530716c38ada686be5a23c3"
+    },
+    {
+      "path": "evidence-validation.json",
+      "bytes": 673,
+      "sha256": "70f0399e908804e619049bb08712dea1520acec3629bacbb7d8ae2e3221b5d73"
+    },
+    {
+      "path": "exa/angle-coverage-matrix.csv",
+      "bytes": 9392,
+      "sha256": "ead11ecef4662f74bb92ad63956e5b83a99a9c2d6266148f48f608b8483edf34"
+    },
+    {
+      "path": "exa/briefing.md",
+      "bytes": 7792,
+      "sha256": "e1b18c70922513af67938498901ea61cc1d809097a89f1b2e18b5053e2697457"
+    },
+    {
+      "path": "exa/known-unknown-inference.csv",
+      "bytes": 2743,
+      "sha256": "e519e639f5082d2d31c319593c972e23475050f62110dd56527297c2a4315739"
+    },
+    {
+      "path": "exa/methodology-accounting.json",
+      "bytes": 6317,
+      "sha256": "484b40be84137d6481f25740de49bce8ecf40a514943785c4863830cf09559b5"
+    },
+    {
+      "path": "exa/people-source-map.json",
+      "bytes": 7576,
+      "sha256": "022e6a3a53d4d07f2815b4503c825521d9cb45d37590160d455ae412916f76b3"
+    },
+    {
+      "path": "exa/primary-corrections.json",
+      "bytes": 3255,
+      "sha256": "81c574a648c4f70cff013f760344ccde114c7817718a776f65335d1abfffc585"
+    },
+    {
+      "path": "exa/query-cost-log.csv",
+      "bytes": 46485,
+      "sha256": "6e91f377ea0931dfe6eff61b5a74f5662425add18d46eaf9aaf02205c8afcd47"
+    },
+    {
+      "path": "exa/query-family-counts.csv",
+      "bytes": 421,
+      "sha256": "5c86116b52236b1a3829449726aa9efde34dbbd0a1e6cd8d759603777dedb8b9"
+    },
+    {
+      "path": "exa/ranked-reading-pack.json",
+      "bytes": 45071,
+      "sha256": "903c6a152d22e2590da8e97ad1ef196588e22bbe0127079d11866aea7186ca60"
+    },
+    {
+      "path": "exa/relevant-source-index.json",
+      "bytes": 12818,
+      "sha256": "401ca9b67ebc93517666a2cf31ef0789c164dc4e693e9e080f0fa180fdb0e19e"
+    },
+    {
+      "path": "exa/transfer-and-editorial-audit.json",
+      "bytes": 2628,
+      "sha256": "d9307df1611aab17ba3e837a210610c8f0d690e8c80cc0189c68e0cf4edff847"
+    },
+    {
+      "path": "report.md",
+      "bytes": 42194,
+      "sha256": "ffdf70773f8f57a35baefff70f08f9db6107c31caffa770e26e3d35aede43a77"
+    }
+  ],
+  "hash_scope": "Content files are listed here. SHA256SUMS also hashes this manifest; neither file attempts to hash itself recursively."
+}

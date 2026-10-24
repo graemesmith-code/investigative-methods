@@ -1,0 +1,94 @@
+{
+  "provenance": "Verified in the companion primary-source audit; exact sources are provided in the ASIMOV and Eglin evidence directories.",
+  "asimov_ids": [
+    "FA865125CB001",
+    "FA865125CB002",
+    "FA865125CB003",
+    "FA865125CB004",
+    "FA865125CB006",
+    "FA865125CB007",
+    "FA865125CB018"
+  ],
+  "reconciled_visible_actions": 43,
+  "reconciled_obligations_usd": 20495054,
+  "banner_observation_window": [
+    "2026-02-16 absent",
+    "2026-06-17 present",
+    "2026-07-06 present"
+  ],
+  "qualification": "Page-status change window, not shutdown decision date; no option-exercise or termination codes found in visible records",
+  "talon_end_live": "2027-09-30",
+  "asimov_mapping": [
+    {
+      "award_id": "FA865125CB001",
+      "performer": "Kitware",
+      "aliases": "REBAR"
+    },
+    {
+      "award_id": "FA865125CB002",
+      "performer": "RTX Technology Research Center",
+      "aliases": "MAGNET; CALVIN subaward alias"
+    },
+    {
+      "award_id": "FA865125CB003",
+      "performer": "Systems & Technology Research (STR)",
+      "aliases": "Lethal Intelligent Autonomy"
+    },
+    {
+      "award_id": "FA865125CB004",
+      "performer": "CoVar",
+      "aliases": "Autonomy Rules; GEARS"
+    },
+    {
+      "award_id": "FA865125CB006",
+      "performer": "University of New South Wales",
+      "aliases": "Adversarial Generative Ethics for Autonomous Weapon Systems"
+    },
+    {
+      "award_id": "FA865125CB007",
+      "performer": "Saab",
+      "aliases": "RESPECT"
+    },
+    {
+      "award_id": "FA865125CB018",
+      "performer": "Lockheed Martin",
+      "aliases": "Architecture Ethical Framework"
+    }
+  ],
+  "planned_structure": "Original BAA dated 25 January 2024: twelve-month Phase I base plus twelve-month Phase II option, with possible end-of-Phase-I down-selection.",
+  "lane1_fa8651_rows": 22,
+  "lane1_contracts": 20,
+  "lane1_grants": 2,
+  "date_fields_beyond_2026_10_24": [
+    "FA865124CB024",
+    "FA865124FB014",
+    "FA865125FB053",
+    "FA865126CB007",
+    "FA865126FB014",
+    "FA865123FA038"
+  ],
+  "saab_current_recorded_end": "2026-03-31",
+  "current_period_qualification": "Recorded date fields are not proof of active performance.",
+  "episci_correction": {
+    "award": "FA865123CB002",
+    "modification": "P00006",
+    "date": "2025-06-03",
+    "value_reduction_usd": 806991,
+    "revised_current_potential_usd": 1592988,
+    "previous_recorded_end": "2026-10-01",
+    "revised_recorded_end": "2025-10-01",
+    "qualification": "Within-scope agreement, not a termination code; not proof of failure."
+  },
+  "talon_correction": {
+    "award": "FA865124CB024",
+    "revised_end": "2027-09-30",
+    "obligation_potential_usd": 2839551.44,
+    "added_usd": 1039756,
+    "place_of_performance": "Woburn, Massachusetts",
+    "qualification": "Extension/funding not proof of progress; older SBIR end is stale."
+  },
+  "unverified_contiguous_identifier": "FA865125CB005 was searched as part of an initial consecutive-ID hypothesis. It was not established as one of the seven ASIMOV awards; this is not proof that no such identifier exists.",
+  "saab_latest_zero_dollar_modification_signed": "2026-02-25",
+  "saab_recorded_end_after_modification": "2026-03-31",
+  "contract_actions_reconciled": 124
+}
