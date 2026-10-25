@@ -1,0 +1,21 @@
+{
+  "schema": "F5-drive-manifest-v1",
+  "folder_url": "https://drive.google.com/drive/folders/1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
+  "scope": "Every F5 uploaded object, including checkpoints; grouped snapshots have complete member inventories inside their bundles. Null row count means non-tabular. Hashes cover exact bytes, not displayed previews.",
+  "objects": [
+    {
+      "filename": "F5_CHECKPOINT.txt",
+      "drive_file_id": "1LPGfCxWKeW77RMI3Srmf809bwbgSMQdB",
+      "drive_view_url": "https://drive.google.com/file/d/1LPGfCxWKeW77RMI3Srmf809bwbgSMQdB/view?usp=drivesdk",
+      "bytes": 118,
+      "row_count": null,
+      "sha256": "18d84d2c31eb6081478808b5c01d596dc26da8f62d401639f28d6798c69c961b",
+      "readback_sha256": "18d84d2c31eb6081478808b5c01d596dc26da8f62d401639f28d6798c69c961b",
+      "readback_bytes": 118,
+      "owner_email": "smithg@gmail.com",
+      "anyone_reader": true,
+      "verification": "Native upload, metadata ownership/sharing readback, native raw fetch exact byte equality",
+      "verified_utc": "2026-10-25T21:20:00Z"
+    }
+  ]
+}
