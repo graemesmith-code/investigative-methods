@@ -1,0 +1,45 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865124CB015_P00002_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2026-01-28",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00002",
+      "description": "SBIR PH II - REAL-TIME SENSOR FUSION ATA IN GOLDEN HORDE COLOSSEUM",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865124CB015_P00001_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2025-04-16",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00001",
+      "description": "SBIR PH II - REAL-TIME SENSOR FUSION ATA IN GOLDEN HORDE COLOSSEUM",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA865124CB015_0_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2024-03-18",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "REAL-TIME SENSOR FUSION ATA IN GOLDEN HORDE COLOSSEUM",
+      "federal_action_obligation": 1760000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}
