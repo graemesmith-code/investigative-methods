@@ -1,0 +1,17 @@
+{
+  "status": "awaiting_human_labels",
+  "n_records": 100,
+  "performance_metrics": null,
+  "completed": [
+    "input validation",
+    "rules scoring",
+    "blinded full packet",
+    "30-record starter with 10 bottom-quintile records"
+  ],
+  "pending": [
+    "independent editorial labels",
+    "ranking evaluation",
+    "observed article placement and record/article links",
+    "verified novelty and release evidence"
+  ]
+}

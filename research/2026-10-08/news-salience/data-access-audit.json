@@ -1,0 +1,154 @@
+{
+  "checked_date": "2026-10-08",
+  "scope": "Step 1: verify public data/model access and stated reuse terms; no training/inference",
+  "repo_trees": {
+    "newspaper-pages-tree.json": {
+      "sha": "a1e283002840d587b80113d11a8417914306dc2c",
+      "truncated": false,
+      "entries": 318
+    },
+    "homepage-tree.json": {
+      "sha": "9e810787b92d24ca5fa3f22f1a16a23f1a5266dc",
+      "truncated": false,
+      "entries": 40
+    },
+    "public-tree.json": {
+      "sha": "ecaa2474ea3aa3cc09ebd4c2a97c1e346a2ee05b",
+      "truncated": false,
+      "entries": 550
+    }
+  },
+  "archive_sample": [
+    {
+      "url": "https://archive.org/download/guardian-2026/guardian-2026-01-01T01%3A11%3A02.011154%2B00%3A00.accessibility.json",
+      "file": "sample-accessibility.json",
+      "status": 200,
+      "bytes": 103677,
+      "sha256": "a7af66ecb5664516e2064fb1d733204a3ebfb875c88cfbf9ff64b02a759199ac",
+      "archive_filename": "guardian-2026-01-01T01:11:02.011154+00:00.accessibility.json",
+      "expected_md5": "4c5beb48a69b8ec9ae4563a5cda768da",
+      "md5_matches": true
+    },
+    {
+      "url": "https://archive.org/download/guardian-2026/guardian-2026-01-01T01%3A11%3A02.011154%2B00%3A00.hyperlinks.json",
+      "file": "sample-hyperlinks.json",
+      "status": 200,
+      "bytes": 91988,
+      "sha256": "f644a184d9d9cc9e46b629417cca73f5e47d44cbdb97dc14ffc5a0e292263bab",
+      "archive_filename": "guardian-2026-01-01T01:11:02.011154+00:00.hyperlinks.json",
+      "expected_md5": "5b72e7e9b216698ea77893cf13d30c70",
+      "md5_matches": true
+    },
+    {
+      "url": "https://archive.org/download/guardian-2026/guardian-2026-01-01T01%3A11%3A02.011154%2B00%3A00.jpg",
+      "file": "sample-homepage.jpg",
+      "status": 200,
+      "bytes": 282781,
+      "sha256": "54602d6b6e305f44da626e92ff98c6f199c9869c8ba87ee5fecb02d60e7ce3a3",
+      "archive_filename": "guardian-2026-01-01T01:11:02.011154+00:00.jpg",
+      "expected_md5": "951161c728a33c9dcd66aa3b04560a9d",
+      "md5_matches": true
+    }
+  ],
+  "observations": {
+    "archive_item_index_rows": 5816,
+    "hyperlinks": 418,
+    "coordinate_complete_hyperlinks": 418,
+    "raw_sample_has_placement_labels": false,
+    "no_license_fields_in_collection_or_sample_item": true
+  },
+  "files": {
+    "requests.json": {
+      "bytes": 1495,
+      "sha256": "1467fac840d81878692289ab510f6d9288dae074e0ed94019f9edb0d1af1324d"
+    },
+    "newspaper-pages-releases.json": {
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "items.csv": {
+      "bytes": 1157969,
+      "sha256": "5d4738e8adb3d376ac9f7cf7c1e3cb731969a4e218dfbc3ffc845b3cbac5e143"
+    },
+    "sites.csv": {
+      "bytes": 102495,
+      "sha256": "d90fd40b8069c90f5ccd77d9dee61a114a0b2f1c6cb1db5aeb1521ff9490cccb"
+    },
+    "archive-collection.json": {
+      "bytes": 2600,
+      "sha256": "417d64acbc1f0b41daec4278cc7926a5c4e23947f6fdd872a98e327edc3c6c54"
+    },
+    "archive-extracts.json": {
+      "bytes": 6792,
+      "sha256": "6fda254549f1ace04c6eeb66dd951034e5fd5bc9cf28a83e8068cf83553b5d97"
+    },
+    "sample-metadata.json": {
+      "bytes": 1837003,
+      "sha256": "2b98147cb2bec7898ff1fb95799859eacf2898da2501d88e118e8065d8d765a4"
+    },
+    "hf-all-models.json": {
+      "bytes": 1987,
+      "sha256": "636cbc6494cab30086b76f2bcafabbe18a3bd99124555f9fc4515f039dff0596"
+    },
+    "hf-models.json": {
+      "bytes": 13429,
+      "sha256": "05dfd1fe424c540e7904d7a43206d02254ee315ccea5631958279d1cdb873add"
+    },
+    "hf-datasets.json": {
+      "bytes": 982,
+      "sha256": "496698884c7cd88b64d22b025622d4107eaf1e266d5e6be48c827facda827940"
+    },
+    "palewire-license.json": {
+      "bytes": 49388,
+      "sha256": "4f1acbb10d697801312460321b6ce255363dff24589cb58d23633e21396e1b96"
+    }
+  },
+  "hf-models.json": [
+    "alex2awesome/source-exploration__quote-attribution__gpt-neo-1.3",
+    "alex2awesome/source-exploration__quote-attribution__gpt-neo-2.7",
+    "alex2awesome/source-exploration__quote-detection__sentence-roberta-large",
+    "alex2awesome/source-exploration__quote-detection__sentence-roberta-base",
+    "alex2awesome/quote-attribution-qa__big-bird-base",
+    "alex2awesome/quote-detection__roberta-base-sentence",
+    "alex2awesome/all-models",
+    "alex2awesome/quote-detection__roberta-base__background-excluded",
+    "alex2awesome/quote-detection-roberta-base-transformer",
+    "alex2awesome/quote-attribution__qa-model__coref-resolved",
+    "alex2awesome/quote-attribution__qa-model",
+    "alex2awesome/pegasus-x-large",
+    "alex2awesome/bart-large-cnn",
+    "alex2awesome/meetings_summaries__t5-large",
+    "alex2awesome/meetings_summaries__t5-base",
+    "alex2awesome/city_council_gpt3_silver_standard_summaries__t5-large",
+    "alex2awesome/long-t5-local-base",
+    "alex2awesome/city_council_gpt3_silver_standard_summaries__long_t5_local_base",
+    "alex2awesome/city_council_gpt3_silver_standard_summaries__long_t5_tglobal_base",
+    "alex2awesome/newsdiscourse-model",
+    "alex2awesome/newsdiscourse-model-large",
+    "alex2awesome/quote-type-sentence-model",
+    "alex2awesome/source-type-model",
+    "alex2awesome/source-affiliation-model",
+    "alex2awesome/source-role-model",
+    "alex2awesome/quote-detection__roberta-base-sentence-v2",
+    "alex2awesome/quote-attribution__qa-model-v2",
+    "alex2awesome/quote-attribution__qa-model-v3",
+    "alex2awesome/quote-detection__roberta-base-sentence-v3",
+    "alex2awesome/argumentation-prediction",
+    "alex2awesome/stance-detection-t5",
+    "alex2awesome/source-affiliation-model__basic",
+    "alex2awesome/discourse-prediction__basic",
+    "alex2awesome/stance-detection-classification-model",
+    "alex2awesome/quote-type-prediction__basic"
+  ],
+  "hf-datasets.json": [
+    "alex2awesome/city-council-gpt3-silver-standard-summaries",
+    "alex2awesome/docket-bench"
+  ],
+  "archiver_code_license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+  }
+}
