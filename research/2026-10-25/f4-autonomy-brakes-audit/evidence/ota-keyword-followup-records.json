@@ -408,5 +408,9 @@
     }
   ],
   "selection": "Exact SRI/SIFT identities discovered by deontic/program keyword search; not an open-ended OTA census.",
-  "paid_calls": 0
+  "paid_calls": 0,
+  "raw_cache_public_at_initial_snapshot": false,
+  "raw_cache_public": true,
+  "public_formal_response_manifest": "evidence/ota-primary-responses/response-manifest.json",
+  "public_body_scope": "Six formal exact-target government XML responses only; unrelated/private caches and original probe timestamp gaps are not represented as published or complete."
 }

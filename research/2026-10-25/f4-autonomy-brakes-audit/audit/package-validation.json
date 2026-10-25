@@ -1,5 +1,5 @@
 {
-  "validated_utc": "2026-10-25T15:49:37.884281+00:00",
+  "validated_utc": "2026-10-25T16:00:05.752924+00:00",
   "scope": "Local data, arithmetic, links and literal secret scan; no network or paid calls",
   "checks": {
     "required_files": {
@@ -83,6 +83,11 @@
         },
         {
           "path": "audit/parallel-register-reconciliation.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/r3-04-corrections.json",
           "kind": "JSON",
           "top_level_type": "dict"
         },
@@ -928,6 +933,11 @@
           "top_level_type": "dict"
         },
         {
+          "path": "evidence/ota-primary-responses/response-manifest.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "evidence/ota-resolution-review.json",
           "kind": "JSON",
           "top_level_type": "dict"
@@ -950,7 +960,7 @@
           "top_level_type": "list"
         }
       ],
-      "files_parsed": 182,
+      "files_parsed": 184,
       "CSV_field_limit": 9223372036854775807,
       "row_unit": "parsed records, not physical text lines"
     },
@@ -980,7 +990,7 @@
     },
     "relative_Markdown_links": {
       "status": "passed",
-      "relative_links_checked": 56,
+      "relative_links_checked": 57,
       "pending_generated_container_links": [
         {
           "source": "README.md",
@@ -991,7 +1001,7 @@
     },
     "public_file_sizes": {
       "status": "passed",
-      "public_files_checked": 249,
+      "public_files_checked": 259,
       "limit_bytes_strictly_less_than": 104857600,
       "excluded_local_Library_plain_text_delivery": "F4-COMPLETE-RESEARCH-PACKAGE.txt",
       "gzip_transport_is_checked": true
@@ -999,7 +1009,7 @@
     "environment_secret_literal_scan": {
       "status": "passed",
       "credential_like_environment_literal_count": 4,
-      "file_or_expanded_streams_scanned": 248,
+      "file_or_expanded_streams_scanned": 258,
       "matches": 0,
       "no_secret_values_logged": true,
       "limit": "Exact configured literals only; not a proof against every unknown secret"
@@ -1009,10 +1019,10 @@
   "remaining_release_gates": [
     {
       "gate": "parent_independent_register_union",
-      "status": "pending_independent_stage1_snapshot_and_root_freeze",
+      "status": "pending_independent_stage1_publication_approval",
       "action": "Run code/reconcile_parallel_registers.py against final root CSV and authenticated/published independent-stage1 CSV/gzip snapshot",
       "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
-      "reason": "Independent Stage1 transport is not yet materialized in this executor. Available root/live/OTA membership and selected acquisition-history comparisons are complete; independent comparison remains pending, not denied."
+      "reason": "Parent reports independent Stage1 publication is blocked on a pending GitHub create-blob approval, attached 15:29 and explained 15:43 on 2026-10-25. The independent transport has not been published/materialized here. This is a pending approval outcome, not a denied action or a source absence finding. No alternative publication route or repeated mutation was attempted by this worker."
     },
     {
       "gate": "delivery_container_and_remote_hash_verification",

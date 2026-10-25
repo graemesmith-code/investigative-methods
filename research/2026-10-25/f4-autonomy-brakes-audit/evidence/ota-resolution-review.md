@@ -50,7 +50,7 @@ The initial four-ID pass left SRI's identifier unresolved; the targeted keyword 
 - `evidence/ota-verified-actions.csv`: all 24 action rows, no financial filtering.
 - `audit/ota-retrieval-log.json`: all 12 formal requests, eight failures, and four exploratory probe receipts.
 
-Raw XML bodies remain private. Each exact public primary feed is linked in its JSON/actions. This review closes the **identity/parser** gaps; two initial financial discrepancies, task-level scope and operational effects remained open at that snapshot; see the additional SRI/SIFT identities and their discrepancies below.
+Six formal exact-target public FPDS XML bodies are now published unchanged in [ota-primary-responses](ota-primary-responses/response-manifest.json), with original request URLs, retrieval timestamps, byte counts and SHA256 hashes. Run `python3 code/publish_ota_evidence.py --verify-only` from the package root to independently reparse all36 actions and compare identities, amounts, dates, aggregate fields and full descriptions with the authored JSON. Earlier probe HTTP-start timestamps remain unavailable and are not invented. Each exact public primary feed is also linked in its JSON/actions. This review closes the **identity/parser** gaps; two initial financial discrepancies, task-level scope and operational effects remained open at that snapshot; see the additional SRI/SIFT identities and their discrepancies below.
 
 
 ## Targeted keyword follow-up: SRI and SIFT identities resolved

@@ -814,5 +814,8 @@
     }
   ],
   "accounting": "These four primary OT IDV records are a supplemental view. Deduplicate by agency+PIID+modification+transaction; do not add parent totals to child spending or sum unreconciled aggregates. The two IDs previously unresolved by a FAR-only parser are now identified.",
-  "raw_cache_public": false
+  "raw_cache_public": true,
+  "raw_cache_public_at_initial_snapshot": false,
+  "public_formal_response_manifest": "evidence/ota-primary-responses/response-manifest.json",
+  "public_body_scope": "Six formal exact-target government XML responses only; unrelated/private caches and original probe timestamp gaps are not represented as published or complete."
 }
