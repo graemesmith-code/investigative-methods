@@ -1,0 +1,154 @@
+{
+  "id": 266750577,
+  "generated_unique_award_id": "ASST_NON_FA86552417047_097",
+  "fain": "FA86552417047",
+  "uri": null,
+  "category": "grant",
+  "type": "04",
+  "type_description": "PROJECT GRANT (B)",
+  "description": "COGNITIVE ARCHITECTURE FOR SOCIAL PERCEPTION AND ENGAGEMENT IN ROBOTS FOR ETHICAL AND TRANSPARENT COLLABORATION (CASPER++)",
+  "subaward_count": 0,
+  "total_subaward_amount": null,
+  "total_subsidy_cost": 0.0,
+  "total_loan_value": 0.0,
+  "total_obligation": 618340.0,
+  "date_signed": "2024-09-10",
+  "base_and_all_options": null,
+  "base_exercised_options": null,
+  "non_federal_funding": 0.0,
+  "total_funding": 618340.0,
+  "total_account_outlay": 0,
+  "total_account_obligation": 0,
+  "account_outlays_by_defc": [],
+  "account_obligations_by_defc": [],
+  "record_type": 2,
+  "cfda_info": [
+    {
+      "applicant_eligibility": "Private/public educational institutions; other private/public nonprofit organizations which are operated primarily for scientific, educational, or similar purposes in the public interest, and commercial concerns.",
+      "beneficiary_eligibility": "Private/public educational institutions; other private/public nonprofit organizations which are operated primarily for scientific, educational, or similar purposes in the public interest, and commercial concerns.",
+      "cfda_federal_agency": "DEPT OF THE AIR FORCE, DEPT OF DEFENSE",
+      "cfda_number": "12.800",
+      "cfda_objectives": "To maintain technological superiority in the scientific areas relevant to Air Force needs; to prevent technological surprise to our nation and create it for our adversaries; to maintain a strong research infrastructure composed of Air Force laboratories, industry, and universities; and to complement the national research effort.",
+      "cfda_obligations": "(Grant) FY 24$874,454,904.00; FY 25$652,065,758.00; FY 26 est $700,000,000.00; - ",
+      "cfda_popular_name": "",
+      "cfda_title": "Air Force Defense Research Sciences Program",
+      "cfda_website": "http://www.af.mil",
+      "federal_action_obligation_amount": 618340.0,
+      "non_federal_funding_amount": 0.0,
+      "sam_website": "https://sam.gov/fal/3f6b1878d5924db6a859aab35e0cbc5e/view",
+      "total_funding_amount": 618340.0
+    }
+  ],
+  "transaction_obligated_amount": null,
+  "funding_agency": {
+    "id": 1196,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Air Force",
+      "code": "5700",
+      "abbreviation": "USAF"
+    },
+    "office_agency_name": "F4LT03 DET 1 AFOSR EOARD"
+  },
+  "awarding_agency": {
+    "id": 1196,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Air Force",
+      "code": "5700",
+      "abbreviation": "USAF"
+    },
+    "office_agency_name": "FA8655  EOARD AFOSR IOE"
+  },
+  "period_of_performance": {
+    "start_date": "2024-09-15",
+    "end_date": "2029-09-14",
+    "last_modified_date": "2026-09-18"
+  },
+  "recipient": {
+    "recipient_hash": "4236f681-67f7-050a-790b-6bf193bbdad3-R",
+    "recipient_name": "THE UNIVERSITY OF MANCHESTER",
+    "recipient_uei": "DER5FUHVV136",
+    "recipient_unique_id": null,
+    "parent_recipient_hash": null,
+    "parent_recipient_name": null,
+    "parent_recipient_uei": null,
+    "parent_recipient_unique_id": null,
+    "business_categories": [],
+    "location": {
+      "location_country_code": "GBR",
+      "country_name": "UNITED KINGDOM",
+      "state_code": null,
+      "state_name": null,
+      "city_name": "MANCHESTER",
+      "county_code": null,
+      "county_name": null,
+      "address_line1": "OXFORD ROAD",
+      "address_line2": null,
+      "address_line3": null,
+      "congressional_code": null,
+      "zip4": null,
+      "zip5": null,
+      "foreign_postal_code": "M13 9PL",
+      "foreign_province": null
+    }
+  },
+  "executive_details": {
+    "officers": [
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      }
+    ]
+  },
+  "place_of_performance": {
+    "location_country_code": "GBR",
+    "country_name": "UNITED KINGDOM",
+    "county_code": null,
+    "county_name": null,
+    "city_name": null,
+    "state_code": null,
+    "state_name": null,
+    "congressional_code": null,
+    "zip4": null,
+    "zip5": null,
+    "address_line1": null,
+    "address_line2": null,
+    "address_line3": null,
+    "foreign_province": "UNITED KINGDOM",
+    "foreign_postal_code": null
+  },
+  "total_outlay": null,
+  "funding_opportunity": {
+    "number": "FA955023S0001",
+    "goals": "TO FOSTER REVOLUTIONARY SCIENTIFIC BREAKTHROUGHS ENABLING THE AIR FORCE, SPACE FORCE AND U.S. INDUSTRY TO PRODUCE WORLD-CLASS, MILITARILY SIGNIFICANT, AND COMMERCIALLY VALUABLE PRODUCTS."
+  }
+}

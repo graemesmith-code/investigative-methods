@@ -1,0 +1,150 @@
+[
+  {
+    "utc": "2026-10-25T14:48:22.656551+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "ethical"
+        ],
+        "award_type_codes": [
+          "02",
+          "03",
+          "04",
+          "05"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "c6053378ac96aea7d9ce832ff37e5da906cb19a35b61f8146bf9735be311b4be"
+  },
+  {
+    "utc": "2026-10-25T14:48:22.699105+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "deontic"
+        ],
+        "award_type_codes": [
+          "02",
+          "03",
+          "04",
+          "05"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "fc757405485bafe627208795a5010df673f1db91aef27d86e0699fc9879b142a"
+  },
+  {
+    "utc": "2026-10-25T14:48:22.791058+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "moral"
+        ],
+        "award_type_codes": [
+          "02",
+          "03",
+          "04",
+          "05"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "1fc0be8fe7fd166fa2c90eb124543f5014fb4205931b21b6dd3739cc37b718d2"
+  },
+  {
+    "utc": "2026-10-25T14:48:25.842486+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "civilian harm"
+        ],
+        "award_type_codes": [
+          "02",
+          "03",
+          "04",
+          "05"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "fc757405485bafe627208795a5010df673f1db91aef27d86e0699fc9879b142a"
+  }
+]

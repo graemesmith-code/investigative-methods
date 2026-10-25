@@ -1,0 +1,45 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "CONT_TX_9700_-NONE-_FA864925P0010_P00002_-NONE-_0",
+      "type": "B",
+      "type_description": "PURCHASE ORDER",
+      "action_date": "2025-11-20",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00002",
+      "description": "ARTIFICIAL INTELLIGENCE (AI) ENHANCED BATTLE DAMAGE ASSESSMENT AND BALLISTIC PREDICTION FOR MEDIUM RANGE UNMANNED AERIAL SYSTEM (UAS)",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA864925P0010_P00001_-NONE-_0",
+      "type": "B",
+      "type_description": "PURCHASE ORDER",
+      "action_date": "2025-03-17",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00001",
+      "description": "ARTIFICIAL INTELLIGENCE (AI) ENHANCED BATTLE DAMAGE ASSESSMENT AND BALLISTIC PREDICTION FOR MEDIUM RANGE UNMANNED AERIAL SYSTEM (UAS)",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_FA864925P0010_0_-NONE-_0",
+      "type": "B",
+      "type_description": "PURCHASE ORDER",
+      "action_date": "2024-12-16",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "ARTIFICIAL INTELLIGENCE (AI) ENHANCED BATTLE DAMAGE ASSESSMENT AND BALLISTIC PREDICTION FOR MEDIUM RANGE UNMANNED AERIAL SYSTEM (UAS)",
+      "federal_action_obligation": 1249987.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}

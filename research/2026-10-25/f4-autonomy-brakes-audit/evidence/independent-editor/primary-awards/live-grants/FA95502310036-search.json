@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 266760283,
+      "Award ID": "FA95502310036",
+      "Recipient Name": "GEORGE MASON UNIVERSITY",
+      "Award Amount": 399412.0,
+      "Start Date": "2022-11-25",
+      "End Date": "2025-11-24",
+      "Description": "DEVELOPING A QUALIFICATION SYSTEM FOR ROBOT MORAL AGENCY",
+      "generated_internal_id": "ASST_NON_FA95502310036_097"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

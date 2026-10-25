@@ -1,0 +1,45 @@
+{
+  "spending_level": "awards",
+  "limit": 100,
+  "results": [
+    {
+      "internal_id": 310035166,
+      "Award ID": "N0018923F3044",
+      "Recipient Name": "CSA GLOBAL LLC",
+      "Award Amount": 1876127.96,
+      "Description": "THE JOINT STAFF (JS), J7 DIRECTORATE, JOINT TARGETING SCHOOL (JTS) CURRICULUM DEVELOPMENT AND TRAINING SUPPORT FOR THE COLLATERAL DAMAGE ESTIMATION (CDE) TRAINING PROGRAM.",
+      "generated_internal_id": "CONT_AWD_N0018923F3044_9700_N0017819D7312_9700",
+      "Start Date": "2023-09-29",
+      "End Date": "2026-09-24"
+    },
+    {
+      "internal_id": 309486558,
+      "Award ID": "N0001421C2025",
+      "Recipient Name": "ENERGETIC MATERIALS & PRODUCTS, INC.",
+      "Award Amount": 2370447.0,
+      "Description": "LOW OBSERVABLE NO COLLATERAL DAMAGE NEUTRALIZATION OF UNDERWATER MINES AND WATERBORNE IED",
+      "generated_internal_id": "CONT_AWD_N0001421C2025_9700_-NONE-_-NONE-",
+      "Start Date": "2021-09-09",
+      "End Date": "2025-02-07"
+    },
+    {
+      "internal_id": 306544364,
+      "Award ID": "HDTRA120C0009",
+      "Recipient Name": "PROTECTION ENGINEERING CONSULTANTS LLC",
+      "Award Amount": 2992868.1,
+      "Description": "RIF - WEAPONEERING FOR LOW COLLATERAL DAMAGE",
+      "generated_internal_id": "CONT_AWD_HDTRA120C0009_9700_-NONE-_-NONE-",
+      "Start Date": "2020-04-30",
+      "End Date": "2022-07-29"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

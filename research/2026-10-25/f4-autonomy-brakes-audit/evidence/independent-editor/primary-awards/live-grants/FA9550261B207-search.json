@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 361901792,
+      "Award ID": "FA9550261B207",
+      "Recipient Name": "UNIVERSITY OF TEXAS AT AUSTIN",
+      "Award Amount": 2999976.0,
+      "Start Date": "2026-09-01",
+      "End Date": "2031-08-31",
+      "Description": "(FY26-MURI) HUMANS AND AUTONOMOUS MACHINES LEARNING TO EFFECTIVELY TEAM (HAMLET) - DESIGN AND TEV&V FOR ADAPTIVE ETHICAL REASONING",
+      "generated_internal_id": "ASST_NON_FA9550261B207_097"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

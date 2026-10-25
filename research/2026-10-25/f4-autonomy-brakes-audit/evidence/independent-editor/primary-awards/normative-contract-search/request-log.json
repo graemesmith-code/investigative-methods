@@ -1,0 +1,303 @@
+[
+  {
+    "utc": "2026-10-25T14:49:28.558042+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "rules of engagement"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "3e220c99242123268f16fa129d56a260f900fca94c98f3f9b16f25a4a4fbb31e"
+  },
+  {
+    "utc": "2026-10-25T14:49:28.704234+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "noncombatant"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "cece69bf99c31e8f118400d90522f74ffda3c863600f2fd78b79125641eb2d37"
+  },
+  {
+    "utc": "2026-10-25T14:49:28.804410+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "ethical"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "b6d19bd189f56f366e6800821f9c418af1be2eea949c7b55f25712893101377b"
+  },
+  {
+    "utc": "2026-10-25T14:49:30.963930+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "civilian harm"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "8bc6fcf3d8515fd1d9eb48752ab16df1d21200fab0b18174ce16c1032a55dae1"
+  },
+  {
+    "utc": "2026-10-25T14:49:30.981579+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "non-combatant"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "0a51d4096319d82d1cff7c446b81b9544874b91bcd2384153decdae9487088ae"
+  },
+  {
+    "utc": "2026-10-25T14:49:31.027553+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "ethical"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 2
+    },
+    "sha256": "aa030d80fcd6f2a02eb90074a6a651e71beae688848c2b5fe92bc8af68a80b4c"
+  },
+  {
+    "utc": "2026-10-25T14:49:41.391454+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "body": {
+      "filters": {
+        "keywords": [
+          "collateral damage"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "agencies": [
+          {
+            "type": "awarding",
+            "tier": "toptier",
+            "name": "Department of Defense"
+          }
+        ],
+        "time_period": [
+          {
+            "start_date": "2019-01-01",
+            "end_date": "2026-10-25"
+          }
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Description",
+        "generated_internal_id",
+        "Start Date",
+        "End Date"
+      ],
+      "limit": 100,
+      "page": 1
+    },
+    "sha256": "f0bdd1d969f1d5ee1bdac97878beba669581edb7661795b2403bb000ea498f50"
+  }
+]

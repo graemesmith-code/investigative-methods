@@ -1,0 +1,58 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "CONT_TX_9700_-NONE-_N6833521C0549_P00003_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2023-11-15",
+      "action_type": "A",
+      "action_type_description": "ADDITIONAL WORK (NEW AGREEMENT, JUSTIFICATION REQUIRED)",
+      "modification_number": "P00003",
+      "description": "RESEARCH AND DEVELOPMENT EXPANSION",
+      "federal_action_obligation": 499948.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_N6833521C0549_P00002_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2022-08-24",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00002",
+      "description": "FULLY FUND CLIN 0001",
+      "federal_action_obligation": 299231.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_N6833521C0549_P00001_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2022-05-24",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00001",
+      "description": "RESEARCH AND DEVELOPMENT",
+      "federal_action_obligation": 300000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_N6833521C0549_0_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2021-06-10",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "RESEARCH AND DEVELOPMENT",
+      "federal_action_obligation": 400000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}

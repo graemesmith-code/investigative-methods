@@ -1,0 +1,65 @@
+{
+  "spending_level": "awards",
+  "limit": 100,
+  "results": [
+    {
+      "internal_id": 349345148,
+      "Award ID": "W911S219P1398",
+      "Recipient Name": "RULES OF ENGAGEMENT TACTICAL LLC",
+      "Award Amount": 7107.54,
+      "Description": "MAXXDRI3.0 VESTS",
+      "generated_internal_id": "CONT_AWD_W911S219P1398_9700_-NONE-_-NONE-",
+      "Start Date": "2019-06-19",
+      "End Date": "2019-07-22"
+    },
+    {
+      "internal_id": 348948654,
+      "Award ID": "W31P4Q19F0394",
+      "Recipient Name": "TXAL,INC",
+      "Award Amount": 12570.0,
+      "Description": "ITEMS ARE NEEDED TO SUSTAIN CRITICAL OPERATIONAL FUNCTIONS OF BOTH THE INSTITUTIONAL MISSION SIMULATOR (IMS) AND THE PORTABLE INSTITUTIONAL MISSION SIMULATOR (PIMS) SYSTEM (UAS) UNMANNED AIRCRAFT SYSTEM (UAS) SYSTEM. WITHOUT THESE ITEMS, THE IMS AND PIMS WILL NOT OPERATE IN ANY CAPACITY, THUS RENDERING ALL OTHER PURCHASES AND SUPPORT SERVICES TO DATE FUTILE WITH NO PURPOSE.  FAILURE TO PURCHASE CRITICAL IT SUPPORT ITEMS WILL DECREASE THE EFFECTIVENESS OF THE TRAINING FOR THE UAS CREWS IN THE FIELDS OF CREW COORDINATION, RULES OF ENGAGEMENT, RECONNAISSANCE, SENSOR OPERATIONS, AND THREAT IDENTIFICATION WHILE FLYING IN  A SIMULATED ENVIRONMENT THAT ACCURATELY REPRESENTS THE UNITS FUTURE AREA OF OPERATIONS.  THE WILL DRAMATICALLY REDUCE THE OPERATIONAL READINESS OF ARMY UAS FORCES.",
+      "generated_internal_id": "CONT_AWD_W31P4Q19F0394_9700_W31P4Q18A0084_9700",
+      "Start Date": "2019-05-29",
+      "End Date": "2019-06-19"
+    },
+    {
+      "internal_id": 348948605,
+      "Award ID": "W31P4Q19F0339",
+      "Recipient Name": "KUOG CORP",
+      "Award Amount": 35190.0,
+      "Description": "THE THE U.S. ARMY COMBAT CAPABILITIES DEVELOPMENT COMMAND AVIATION&MISSILE CENTER'S JOINT SYSTEM INTEGRATION LAB REQUIRES MATERIAL TO INCREASE THE EFFECTIVENESS OF THE TRAINING FOR THE UAS CREWS IN THE FIELDS OF CREW COORDINATION, RULES OF ENGAGEMENT, RECONNAISSANCE, SENSOR OPERATIONS, AND THREAT IDENTIFICATION WHILE FLYING IN  A SIMULATED ENVIRONMENT.",
+      "generated_internal_id": "CONT_AWD_W31P4Q19F0339_9700_W31P4Q18A0082_9700",
+      "Start Date": "2019-05-06",
+      "End Date": "2019-08-04"
+    },
+    {
+      "internal_id": 309486247,
+      "Award ID": "N0001420C2004",
+      "Recipient Name": "STEPHENSON TECHNOLOGIES CORPORATION",
+      "Award Amount": 1332272.0,
+      "Description": "RULES OF ENGAGEMENT, COMMANDER INTENT, AND TRANSFER OF AUTHORITY LANGUAGE (RECITAL)",
+      "generated_internal_id": "CONT_AWD_N0001420C2004_9700_-NONE-_-NONE-",
+      "Start Date": "2019-10-03",
+      "End Date": "2024-03-31"
+    },
+    {
+      "internal_id": 276132352,
+      "Award ID": "0563",
+      "Recipient Name": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "Award Amount": 497095.16,
+      "Description": "IGF::OT::IGF    DOD SPECTRUM SHARING RULES OF ENGAGEMENT",
+      "generated_internal_id": "CONT_AWD_0563_9700_N0002413D6400_9700",
+      "Start Date": "2015-07-31",
+      "End Date": "2016-09-30"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

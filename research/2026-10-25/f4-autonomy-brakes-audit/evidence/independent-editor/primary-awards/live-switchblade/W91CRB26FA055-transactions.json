@@ -1,0 +1,45 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "CONT_TX_9700_9700_W91CRB26FA055_P00002_W91CRB24D0011_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2026-07-17",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00002",
+      "description": "LOW ALTITUDE STALKING AND STRIKE ORDNANCE",
+      "federal_action_obligation": 197996.7,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_9700_W91CRB26FA055_P00001_W91CRB24D0011_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2026-06-05",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00001",
+      "description": "LOW ALTITUDE STALKING AND STRIKE ORDNANCE",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_9700_W91CRB26FA055_0_W91CRB24D0011_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2025-12-29",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "LOW ALTITUDE STALKING AND STRIKE ORDNANCE SCD IS A",
+      "federal_action_obligation": 254534516.07,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}

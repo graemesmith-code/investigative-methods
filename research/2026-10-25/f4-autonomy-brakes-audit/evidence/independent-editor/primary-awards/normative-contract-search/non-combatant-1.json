@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 100,
+  "results": [
+    {
+      "internal_id": 309752602,
+      "Award ID": "N0016418F3015",
+      "Recipient Name": "SAYRES AND ASSOCIATES LLC",
+      "Award Amount": 111453227.99,
+      "Description": "NON-PERSONAL SERVICES TO OBTAIN PROFESSIONAL AND ENGINEERING SERVICES TO SUPPORT THE STRATEGIC AND THEATER SEALIFT SHIPS PROGRAM OFFICE (PMS 385) IN EXECUTING ITS RESPONSIBILITY TO SATISFY CURRENT AND FUTURE NAVY NEEDS FOR EXPEDITIONARY FAST TRANSPORT (EPF) AND EXPEDITIONARY SEA BASE (ESB) OR SIMILAR NON-COMBATANT CLASS SHIPS, RESEARCH&DEVELOPMENT (R&D) FOR MARITIME PREPOSITIONING FORCE (MPF), SEALIFT, AND NAVAL OPERATIONAL LOGISTICS (OPLOG) TECHNOLOGIES.",
+      "generated_internal_id": "CONT_AWD_N0016418F3015_9700_N0017814D7912_9700",
+      "Start Date": "2018-09-26",
+      "End Date": "2025-09-25"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

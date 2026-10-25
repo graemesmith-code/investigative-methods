@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 297881542,
+      "Award ID": "FA248722FA002",
+      "Recipient Name": "BOOZ ALLEN HAMILTON INC",
+      "Award Amount": 48989772.86,
+      "Start Date": "2022-06-30",
+      "End Date": "2028-03-14",
+      "Description": "TEST & EVALUATION TECHNOLOGIES FOR RANGES, ARMAMENTS AND SPECTRUM (TETRAS) - AUTONOMOUS AND AUTOMATED WEAPON SYSTEM DESIGN (A2WSD)",
+      "generated_internal_id": "CONT_AWD_FA248722FA002_9700_FA248718D4700_9700"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

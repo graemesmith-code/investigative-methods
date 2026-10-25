@@ -1,0 +1,52 @@
+[
+  {
+    "time_utc": "2026-10-25T14:49:38.524368+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "W911NF261A113"
+        ],
+        "award_type_codes": [
+          "02",
+          "03",
+          "04",
+          "05"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "daf22c6f638c91446f7ad1abd0804e9703e1d324e7c708df48acfb8d3519c48b"
+  },
+  {
+    "time_utc": "2026-10-25T14:49:42.485672+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/ASST_NON_W911NF261A113_097/",
+    "method": "GET",
+    "request": null,
+    "sha256": "10f7247120f856d778eb3b31b1b2f8de17f9e5be78a91b49f0cacbc7389e24ef"
+  },
+  {
+    "time_utc": "2026-10-25T14:49:46.273278+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 356734007,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "e0d838c0933933c3ea07211f2b3e9bde5deafd527bc9c3a3464817ebcce19269"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "CONT_TX_9700_9700_HR001125F0028_P00003_HR001122D0001_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2026-04-20",
+      "action_type": "B",
+      "action_type_description": "SUPPLEMENTAL AGREEMENT FOR WORK WITHIN SCOPE",
+      "modification_number": "P00003",
+      "description": "JHU/APL UARC SUPPORT SERVICES IAW THE STATEMENT OF WORK (ATTACHMENT 1).",
+      "federal_action_obligation": 870687.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_9700_HR001125F0028_P00002_HR001122D0001_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2025-11-03",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00002",
+      "description": "JHU/APL UARC SUPPORT SERVICES IAW THE STATEMENT OF WORK (ATTACHMENT 1).",
+      "federal_action_obligation": 250000.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_9700_HR001125F0028_P00001_HR001122D0001_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2025-04-14",
+      "action_type": "C",
+      "action_type_description": "FUNDING ONLY ACTION",
+      "modification_number": "P00001",
+      "description": "HUMAN-AI COMMUNICATION FOR DEONTIC REASONING DEVOPS (CODORD)",
+      "federal_action_obligation": 1029336.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_9700_HR001125F0028_0_HR001122D0001_0",
+      "type": "C",
+      "type_description": "DELIVERY ORDER",
+      "action_date": "2025-03-03",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "HUMAN-AI COMMUNICATION FOR DEONTIC REASONING DEVOPS (CODORD)",
+      "federal_action_obligation": 331818.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}

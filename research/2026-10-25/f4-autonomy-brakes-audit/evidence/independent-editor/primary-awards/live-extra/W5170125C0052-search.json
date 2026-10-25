@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 348983877,
+      "Award ID": "W5170125C0052",
+      "Recipient Name": "PERCEPTRONICS SOLUTIONS, INC",
+      "Award Amount": 1899998.92,
+      "Start Date": "2024-10-30",
+      "End Date": "2026-10-29",
+      "Description": "SBIR PHASE II SEQUENTIAL TOPIC AF211-CSO1, PHASE I OPEN CALL FOR INNOVATIVE DEFENSE-RELATED DUAL-PURPOSE TECHNOLOGIES/SOLUTIONS WITH A CLEAR AF STAKEHOLDER NEED.",
+      "generated_internal_id": "CONT_AWD_W5170125C0052_9700_-NONE-_-NONE-"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "ASST_TX_5700_FA95502310036_-NONE-_12.800_P00001",
+      "type": "04",
+      "type_description": "PROJECT GRANT (B)",
+      "action_date": "2024-02-12",
+      "action_type": "EX",
+      "action_type_description": "Other Action, Non-Financial",
+      "modification_number": "P00001",
+      "description": "DEVELOPING A QUALIFICATION SYSTEM FOR ROBOT MORAL AGENCY.",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0,
+      "cfda_number": "12.800"
+    },
+    {
+      "id": "ASST_TX_5700_FA95502310036_-NONE-_12.800_0",
+      "type": "04",
+      "type_description": "PROJECT GRANT (B)",
+      "action_date": "2022-11-23",
+      "action_type": "A1",
+      "action_type_description": "New Award",
+      "modification_number": "0",
+      "description": "DEVELOPING A QUALIFICATION SYSTEM FOR ROBOT MORAL AGENCY",
+      "federal_action_obligation": 399412.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0,
+      "cfda_number": "12.800"
+    }
+  ]
+}

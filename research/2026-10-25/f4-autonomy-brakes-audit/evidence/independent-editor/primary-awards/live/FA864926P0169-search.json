@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 362606172,
+      "Award ID": "FA864926P0169",
+      "Recipient Name": "RESILIENX, INC.",
+      "Award Amount": 74973.0,
+      "Start Date": "2026-06-30",
+      "End Date": "2026-09-30",
+      "Description": "EXPLAINABLE ARTIFICIAL INTELLIGENCE AGENTS FOR REAL-TIME MODEL HEALTH MONITORING IN UNMANNED AIRCRAFT SYSTEM ECOSYSTEMS",
+      "generated_internal_id": "CONT_AWD_FA864926P0169_9700_-NONE-_-NONE-"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "complete_paginated": true,
+  "pages": 1,
+  "results": [
+    {
+      "id": "CONT_TX_9700_-NONE-_W5170125C0052_P00001_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2025-04-28",
+      "action_type": "M",
+      "action_type_description": "OTHER ADMINISTRATIVE ACTION",
+      "modification_number": "P00001",
+      "description": "PERCEPTRONICS SOLUTIONS SBIR PH II",
+      "federal_action_obligation": 0.0,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    },
+    {
+      "id": "CONT_TX_9700_-NONE-_W5170125C0052_0_-NONE-_0",
+      "type": "D",
+      "type_description": "DEFINITIVE CONTRACT",
+      "action_date": "2024-10-23",
+      "action_type": null,
+      "action_type_description": null,
+      "modification_number": "0",
+      "description": "SBIR PHASE II SEQUENTIAL TOPIC AF211-CSO1, PHASE I OPEN CALL FOR INNOVATIVE DEFENSE-RELATED DUAL-PURPOSE TECHNOLOGIES/SOLUTIONS WITH A CLEAR AF STAKEHOLDER NEED.",
+      "federal_action_obligation": 1899998.92,
+      "face_value_loan_guarantee": 0.0,
+      "original_loan_subsidy_cost": 0.0
+    }
+  ]
+}

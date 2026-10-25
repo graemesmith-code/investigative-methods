@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 266750577,
+      "Award ID": "FA86552417047",
+      "Recipient Name": "THE UNIVERSITY OF MANCHESTER",
+      "Award Amount": 618340.0,
+      "Start Date": "2024-09-15",
+      "End Date": "2029-09-14",
+      "Description": "COGNITIVE ARCHITECTURE FOR SOCIAL PERCEPTION AND ENGAGEMENT IN ROBOTS FOR ETHICAL AND TRANSPARENT COLLABORATION (CASPER++)",
+      "generated_internal_id": "ASST_NON_FA86552417047_097"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 350358926,
+      "Award ID": "W91CRB25F0094",
+      "Recipient Name": "AEROVIRONMENT, INC",
+      "Award Amount": 218024507.64,
+      "Start Date": "2025-01-18",
+      "End Date": "2027-04-30",
+      "Description": "LOITERED MUNITIONS, SWITCHBLADE 300 AND 600 ALL UP ROUNDS",
+      "generated_internal_id": "CONT_AWD_W91CRB25F0094_9700_W91CRB24D0011_9700"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

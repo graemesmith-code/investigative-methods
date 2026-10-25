@@ -1,0 +1,164 @@
+{
+  "id": 356734007,
+  "generated_unique_award_id": "ASST_NON_W911NF261A113_097",
+  "fain": "W911NF261A113",
+  "uri": null,
+  "category": "grant",
+  "type": "02",
+  "type_description": "BLOCK GRANT (A)",
+  "description": "A COMPUTATIONAL FRAMEWORK FOR EXPLAINABLE, NORMATIVE, AND JUSTIFIED AGENCY",
+  "subaward_count": 0,
+  "total_subaward_amount": null,
+  "total_subsidy_cost": 0.0,
+  "total_loan_value": 0.0,
+  "total_obligation": 129902.0,
+  "date_signed": "2026-03-27",
+  "base_and_all_options": null,
+  "base_exercised_options": null,
+  "non_federal_funding": 0.0,
+  "total_funding": 129902.0,
+  "total_account_outlay": 0.0,
+  "total_account_obligation": 129902.0,
+  "account_outlays_by_defc": [
+    {
+      "code": "Q",
+      "amount": 0.0
+    }
+  ],
+  "account_obligations_by_defc": [
+    {
+      "code": "Q",
+      "amount": 129902.0
+    }
+  ],
+  "record_type": 2,
+  "cfda_info": [
+    {
+      "applicant_eligibility": "Eligible applicants under this BAA include institutions of higher education, nonprofit organizations, state and local governments, foreign organizations, foreign public entities, and for-profit organizations (i.e. large and small businesses).  Awards will not be made to individuals.",
+      "beneficiary_eligibility": "Beneficiary eligibility is the same as applicant eligibility.\nInvestigators and resulting awardees.",
+      "cfda_federal_agency": "DEPT OF THE ARMY, DEPT OF DEFENSE",
+      "cfda_number": "12.431",
+      "cfda_objectives": "To support basic research, and enhance fundamental knowledge in the chemical, life, physical, engineering, materials, mechanical, computing, information, network, mathematical, earth, and social sciences, related to long-term national security needs. The insights gained from this research hold significant promise for advancing Army programs and operations.",
+      "cfda_obligations": "(Grant) FY 24$265,672,394.00; FY 25$279,239,876.00; FY 26 est $300,000,000.00; - (Cooperative Agreement) FY 24$498,385,134.00; FY 25$471,542,849.00; FY 26 est $500,000,000.00; - ",
+      "cfda_popular_name": "",
+      "cfda_title": "Basic Scientific Research",
+      "cfda_website": "https://arl.devcom.army.mil/opportunities/arl-baa/",
+      "federal_action_obligation_amount": 129902.0,
+      "non_federal_funding_amount": 0.0,
+      "sam_website": "https://sam.gov/fal/3ea7047bfcd34d2d93047c968b067ef9/view",
+      "total_funding_amount": 129902.0
+    }
+  ],
+  "transaction_obligated_amount": 129902.0,
+  "funding_agency": {
+    "id": 1188,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Army",
+      "code": "2100",
+      "abbreviation": "USA"
+    },
+    "office_agency_name": "W262 PROP BK ACCT DURHAM"
+  },
+  "awarding_agency": {
+    "id": 1188,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Army",
+      "code": "2100",
+      "abbreviation": "USA"
+    },
+    "office_agency_name": "W6QK ACC-APG DURHAM"
+  },
+  "period_of_performance": {
+    "start_date": "2026-04-01",
+    "end_date": "2029-03-31",
+    "last_modified_date": "2026-04-01"
+  },
+  "recipient": {
+    "recipient_hash": "f7c481d7-071a-ead9-3bda-e4e7d1e903a7-C",
+    "recipient_name": "GEORGIA TECH RESEARCH CORP",
+    "recipient_uei": "EMW9FC8J3HN4",
+    "recipient_unique_id": null,
+    "parent_recipient_hash": "e217c87a-99f1-be53-56f1-b478d5dd179b-P",
+    "parent_recipient_name": "UNIVERSITY SYSTEM OF GEORGIA",
+    "parent_recipient_uei": "D7C9V83N2MR5",
+    "parent_recipient_unique_id": null,
+    "business_categories": [],
+    "location": {
+      "location_country_code": "USA",
+      "country_name": "UNITED STATES",
+      "state_code": "GA",
+      "state_name": "GEORGIA",
+      "city_name": "ATLANTA",
+      "county_code": "121",
+      "county_name": "FULTON",
+      "address_line1": "926 DALNEY ST NW",
+      "address_line2": null,
+      "address_line3": null,
+      "congressional_code": "05",
+      "zip4": "6395",
+      "zip5": "30318",
+      "foreign_postal_code": null,
+      "foreign_province": null
+    }
+  },
+  "executive_details": {
+    "officers": [
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      }
+    ]
+  },
+  "place_of_performance": {
+    "location_country_code": "USA",
+    "country_name": "UNITED STATES",
+    "county_code": "121",
+    "county_name": "FULTON",
+    "city_name": "ATLANTA",
+    "state_code": "GA",
+    "state_name": "GEORGIA",
+    "congressional_code": "05",
+    "zip4": "6395",
+    "zip5": "30318",
+    "address_line1": null,
+    "address_line2": null,
+    "address_line3": null,
+    "foreign_province": null,
+    "foreign_postal_code": null
+  },
+  "total_outlay": null,
+  "funding_opportunity": {
+    "number": "W911NF23S0001",
+    "goals": "TO FUND CUTTING-EDGE SCIENCE AND TECHNOLOGY THAT DRIVES FUTURE ARMY OPERATIONAL CAPABILITIES AND TECHNOLOGICAL SUPERIORITY."
+  }
+}

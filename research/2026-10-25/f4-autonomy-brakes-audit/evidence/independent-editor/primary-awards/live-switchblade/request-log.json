@@ -1,0 +1,152 @@
+[
+  {
+    "time_utc": "2026-10-25T14:44:38.729858+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "W91CRB25F0094"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "543ed9e93380b3e5c89575bbbbb77822e7e81d913023f4a6329436483d3cf933"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:38.991836+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "W91CRB26FA177"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "e7de0fefb2898a3e1c1248752fb4df57712d2f3b5bd5cf1e3d192ff629a8ee8e"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:39.028096+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "W91CRB26FA055"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "55a060021e1a6455c5c794c091de99f996a9b95f43ef02c24ea247260b61a78c"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:41.970303+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W91CRB25F0094_9700_W91CRB24D0011_9700/",
+    "method": "GET",
+    "request": null,
+    "sha256": "4cb8aeba261cc14b4fc50931751a24a9d99b0ebf550a7a0513353d1c9a2875db"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:42.051116+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W91CRB26FA055_9700_W91CRB24D0011_9700/",
+    "method": "GET",
+    "request": null,
+    "sha256": "fd8056bccae70714896be2ddc134611c82dda8507cb8ac457a8ed8a4e1f51152"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:42.119142+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W91CRB26FA177_9700_W91CRB24D0011_9700/",
+    "method": "GET",
+    "request": null,
+    "sha256": "c179635c64c7b0c3693dfa6c5979aa8531c00014125e3d0b5cb01282730c0bf0"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:45.284583+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 356707887,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "bb9d90f65f86184f265ad89583edea855b532d2738d7dd9819b9c3c4f0ab35c4"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:45.348823+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 360926352,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "1fa23d8cf5cbca5e8c3f3fd8604cb003e5732b63921994d7441ed66435a8c59c"
+  },
+  {
+    "time_utc": "2026-10-25T14:44:45.380526+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 350358926,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "87839f46ed53582dc583ac06bbe3d8633f467a95e22fa1b56900bf026c7d3188"
+  }
+]

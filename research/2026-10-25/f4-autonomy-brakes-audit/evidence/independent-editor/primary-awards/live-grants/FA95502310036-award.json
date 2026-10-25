@@ -1,0 +1,154 @@
+{
+  "id": 266760283,
+  "generated_unique_award_id": "ASST_NON_FA95502310036_097",
+  "fain": "FA95502310036",
+  "uri": null,
+  "category": "grant",
+  "type": "04",
+  "type_description": "PROJECT GRANT (B)",
+  "description": "DEVELOPING A QUALIFICATION SYSTEM FOR ROBOT MORAL AGENCY",
+  "subaward_count": 2,
+  "total_subaward_amount": 392507.0,
+  "total_subsidy_cost": 0.0,
+  "total_loan_value": 0.0,
+  "total_obligation": 399412.0,
+  "date_signed": "2022-11-23",
+  "base_and_all_options": null,
+  "base_exercised_options": null,
+  "non_federal_funding": 0.0,
+  "total_funding": 399412.0,
+  "total_account_outlay": 0,
+  "total_account_obligation": 0,
+  "account_outlays_by_defc": [],
+  "account_obligations_by_defc": [],
+  "record_type": 2,
+  "cfda_info": [
+    {
+      "applicant_eligibility": "Private/public educational institutions; other private/public nonprofit organizations which are operated primarily for scientific, educational, or similar purposes in the public interest, and commercial concerns.",
+      "beneficiary_eligibility": "Private/public educational institutions; other private/public nonprofit organizations which are operated primarily for scientific, educational, or similar purposes in the public interest, and commercial concerns.",
+      "cfda_federal_agency": "DEPT OF THE AIR FORCE, DEPT OF DEFENSE",
+      "cfda_number": "12.800",
+      "cfda_objectives": "To maintain technological superiority in the scientific areas relevant to Air Force needs; to prevent technological surprise to our nation and create it for our adversaries; to maintain a strong research infrastructure composed of Air Force laboratories, industry, and universities; and to complement the national research effort.",
+      "cfda_obligations": "(Grant) FY 24$874,454,904.00; FY 25$652,065,758.00; FY 26 est $700,000,000.00; - ",
+      "cfda_popular_name": "",
+      "cfda_title": "Air Force Defense Research Sciences Program",
+      "cfda_website": "http://www.af.mil",
+      "federal_action_obligation_amount": 399412.0,
+      "non_federal_funding_amount": 0.0,
+      "sam_website": "https://sam.gov/fal/3f6b1878d5924db6a859aab35e0cbc5e/view",
+      "total_funding_amount": 399412.0
+    }
+  ],
+  "transaction_obligated_amount": null,
+  "funding_agency": {
+    "id": 1196,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Air Force",
+      "code": "5700",
+      "abbreviation": "USAF"
+    },
+    "office_agency_name": "F4FGA0 AFRL AFOSR"
+  },
+  "awarding_agency": {
+    "id": 1196,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Air Force",
+      "code": "5700",
+      "abbreviation": "USAF"
+    },
+    "office_agency_name": "FA9550  AFRL AFOSR"
+  },
+  "period_of_performance": {
+    "start_date": "2022-11-25",
+    "end_date": "2025-11-24",
+    "last_modified_date": "2024-02-29"
+  },
+  "recipient": {
+    "recipient_hash": "959a5b47-d407-9807-55f0-ee776cca4bce-C",
+    "recipient_name": "GEORGE MASON UNIVERSITY",
+    "recipient_uei": "EADLFP7Z72E5",
+    "recipient_unique_id": null,
+    "parent_recipient_hash": "f13b5ab6-710b-0bf5-e9dc-b78f3e3b1940-P",
+    "parent_recipient_name": "THE GEORGE MASON UNIVERSITY INSTRUCTIONAL FOUNDATION, INC.",
+    "parent_recipient_uei": "H4NRWLFCDF43",
+    "parent_recipient_unique_id": null,
+    "business_categories": [],
+    "location": {
+      "location_country_code": "USA",
+      "country_name": "UNITED STATES",
+      "state_code": "VA",
+      "state_name": "VIRGINIA",
+      "city_name": "FAIRFAX",
+      "county_code": "059",
+      "county_name": "FAIRFAX",
+      "address_line1": "4400 UNIVERSITY DR",
+      "address_line2": null,
+      "address_line3": null,
+      "congressional_code": "11",
+      "zip4": "4422",
+      "zip5": "22030",
+      "foreign_postal_code": null,
+      "foreign_province": null
+    }
+  },
+  "executive_details": {
+    "officers": [
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      }
+    ]
+  },
+  "place_of_performance": {
+    "location_country_code": "USA",
+    "country_name": "UNITED STATES",
+    "county_code": null,
+    "county_name": null,
+    "city_name": null,
+    "state_code": null,
+    "state_name": "MULTI-STATE",
+    "congressional_code": "90",
+    "zip4": null,
+    "zip5": null,
+    "address_line1": null,
+    "address_line2": null,
+    "address_line3": null,
+    "foreign_province": null,
+    "foreign_postal_code": null
+  },
+  "total_outlay": null,
+  "funding_opportunity": {
+    "number": "FA955021S0001",
+    "goals": "TO FOSTER REVOLUTIONARY SCIENTIFIC BREAKTHROUGHS ENABLING THE AIR FORCE, SPACE FORCE AND U.S. INDUSTRY TO PRODUCE WORLD-CLASS, MILITARILY SIGNIFICANT, AND COMMERCIALLY VALUABLE PRODUCTS."
+  }
+}

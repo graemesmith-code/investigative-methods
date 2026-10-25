@@ -1,0 +1,462 @@
+[
+  {
+    "time_utc": "2026-10-25T14:32:35.960248+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "FA864926P0093"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "1773c13ef6943968350b336a10a9fa039e251a7cba611b9e075acf83422c8498"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:36.119623+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "FA864922P1015"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "54d1a999d046302136a64b1a4a53d8cce161a787639ff513284ef0c2ab2824c5"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:36.237826+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "N6833521C0549"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "1f0e4e7a9ad738451fbf1d07c358f3065beb6bdb15991d2360f6396af5ea8ef0"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:38.396830+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833521C0549_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "de903ab60662042472afcc2537f866ea4227d5c673058eb0e3aab50956cd3e04"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:38.438285+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864926P0093_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "baf1a0f99de5ab186a8f6d4a93facd001f599877f80cedf5590dd64797542684"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:38.503603+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "ca315e7f598eadf7a0caa92f1dbf64ed44eb62a15c12ab22ef5356fe2c2987ed"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:40.615411+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 298564223,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "8f8609eac61a4388fd76e59f5731480ce4626044065bf606bb9ac3e0011a24a7"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:40.657228+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 362606163,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "c7ed0ad5af70fd0737077d97d68515643d26b35cb9218cc75f6117c820f9b8e0"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:40.675495+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 311097238,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "8279e05c18a38fda4d78e3e0d4484c19e684f42959510a170ba834f1c6ad061f"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:42.814944+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "HR00112490431"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "4541bad5c1e19f669aebe673e33107ea6bd826fe38d0c2494438498e3d303483"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:42.842065+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "N6833521C0510"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "9213fc6ccb35e2a6dfee98b3b59b5e247bf80d4829f5ab8805fb74f3963153ab"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:42.850604+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "FA248722FA002"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "0079f654ece52d24680bb9909bdffe66144ba61a2521080b4be9aa787d9aa1f5"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:45.031380+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA248722FA002_9700_FA248718D4700_9700/",
+    "method": "GET",
+    "request": null,
+    "sha256": "049504377c3e22c2dcd2fbe677db1ca2b909a449acd03b462c2648188a569d69"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:45.077835+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833521C0510_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "39749683a02e805bcfe99d93493bd006c7ca157a6990449bf1444f2a3285e017"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:45.107324+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "FA87502321015"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "4541bad5c1e19f669aebe673e33107ea6bd826fe38d0c2494438498e3d303483"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:47.426523+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 311097201,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "d540476e5a72d92551e2143346d6e07fb50db38374958bf6228fc3e5e0febcc3"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:47.467332+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "FA864926P0169"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "9857f0ad04bd4d985689b13caff7b4bc2fda1120d421e75bc177376860f7560b"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:47.683304+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 297881542,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "e81c4cea4dd96fda48e4e795acdbca738e4ffe17d98d2bee64865e51a64766c5"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:49.822039+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "FA945326CX013"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "527fa35d66bf39a724f0026718de79c36b26ac5a1fbbd5b653496714b9f92f43"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:49.839206+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864926P0169_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "82f48c20b5b6e432cd442b1ffe4da8025a9c6c2d7374554ea66a2ddb84945263"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:49.865455+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "W5170124C0174"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "53bb8a610ff93e91165a462d37c5d680a745a93c74739a8921d8c738e5fac990"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:52.241663+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 362606172,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "61179d740c3c99fd144c8cccabbb1e540b2402bcc6c15fde04500ff1dffcbd5e"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:52.268728+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0174_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "38497720186628eb7a748a7b27cdf23ac931f67f5177048e373b39d9250f0e40"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:52.307129+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA945326CX013_9700_-NONE-_-NONE-/",
+    "method": "GET",
+    "request": null,
+    "sha256": "0f756219904df22de781e0ae5081a2253131ef441290058f2b41041201576311"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:55.803438+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 348983735,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "3294d1a50e0d14f2854594ef2d7f8a8d90d11f089442ae9699cf4bc758ad99f9"
+  },
+  {
+    "time_utc": "2026-10-25T14:32:55.813172+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 360254991,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "d086d05c7d4819a733b2f3502927c3359077dc16d90680e55521a14e7f151348"
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "id": 361901792,
+  "generated_unique_award_id": "ASST_NON_FA9550261B207_097",
+  "fain": "FA9550261B207",
+  "uri": null,
+  "category": "grant",
+  "type": "04",
+  "type_description": "PROJECT GRANT (B)",
+  "description": "(FY26-MURI) HUMANS AND AUTONOMOUS MACHINES LEARNING TO EFFECTIVELY TEAM (HAMLET) - DESIGN AND TEV&V FOR ADAPTIVE ETHICAL REASONING",
+  "subaward_count": 0,
+  "total_subaward_amount": null,
+  "total_subsidy_cost": 0.0,
+  "total_loan_value": 0.0,
+  "total_obligation": 2999976.0,
+  "date_signed": "2026-08-20",
+  "base_and_all_options": null,
+  "base_exercised_options": null,
+  "non_federal_funding": 0.0,
+  "total_funding": 2999976.0,
+  "total_account_outlay": 0,
+  "total_account_obligation": 0,
+  "account_outlays_by_defc": [],
+  "account_obligations_by_defc": [],
+  "record_type": 2,
+  "cfda_info": [
+    {
+      "applicant_eligibility": "Private/public educational institutions; other private/public nonprofit organizations which are operated primarily for scientific, educational, or similar purposes in the public interest, and commercial concerns.",
+      "beneficiary_eligibility": "Private/public educational institutions; other private/public nonprofit organizations which are operated primarily for scientific, educational, or similar purposes in the public interest, and commercial concerns.",
+      "cfda_federal_agency": "DEPT OF THE AIR FORCE, DEPT OF DEFENSE",
+      "cfda_number": "12.800",
+      "cfda_objectives": "To maintain technological superiority in the scientific areas relevant to Air Force needs; to prevent technological surprise to our nation and create it for our adversaries; to maintain a strong research infrastructure composed of Air Force laboratories, industry, and universities; and to complement the national research effort.",
+      "cfda_obligations": "(Grant) FY 24$874,454,904.00; FY 25$652,065,758.00; FY 26 est $700,000,000.00; - ",
+      "cfda_popular_name": "",
+      "cfda_title": "Air Force Defense Research Sciences Program",
+      "cfda_website": "http://www.af.mil",
+      "federal_action_obligation_amount": 2999976.0,
+      "non_federal_funding_amount": 0.0,
+      "sam_website": "https://sam.gov/fal/3f6b1878d5924db6a859aab35e0cbc5e/view",
+      "total_funding_amount": 2999976.0
+    }
+  ],
+  "transaction_obligated_amount": null,
+  "funding_agency": {
+    "id": 1196,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Air Force",
+      "code": "5700",
+      "abbreviation": "USAF"
+    },
+    "office_agency_name": "F4FGA0 AFRL AFOSR"
+  },
+  "awarding_agency": {
+    "id": 1196,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Air Force",
+      "code": "5700",
+      "abbreviation": "USAF"
+    },
+    "office_agency_name": "FA9550  AFRL AFOSR"
+  },
+  "period_of_performance": {
+    "start_date": "2026-09-01",
+    "end_date": "2031-08-31",
+    "last_modified_date": "2026-09-01"
+  },
+  "recipient": {
+    "recipient_hash": "395e4a2c-bac8-c9f0-4271-75643a4de192-C",
+    "recipient_name": "UNIVERSITY OF TEXAS AT AUSTIN",
+    "recipient_uei": "V6AFQPN18437",
+    "recipient_unique_id": null,
+    "parent_recipient_hash": "6267945c-d64b-3d8c-5b9b-3a49533e2b4e-P",
+    "parent_recipient_name": "UNIVERSITY OF TEXAS SYSTEM",
+    "parent_recipient_uei": "X5NKD2NFF2V3",
+    "parent_recipient_unique_id": null,
+    "business_categories": [],
+    "location": {
+      "location_country_code": "USA",
+      "country_name": "UNITED STATES",
+      "state_code": "TX",
+      "state_name": "TEXAS",
+      "city_name": "AUSTIN",
+      "county_code": "453",
+      "county_name": "TRAVIS",
+      "address_line1": "110 INNER CAMPUS DR",
+      "address_line2": null,
+      "address_line3": null,
+      "congressional_code": "25",
+      "zip4": "1139",
+      "zip5": "78712",
+      "foreign_postal_code": null,
+      "foreign_province": null
+    }
+  },
+  "executive_details": {
+    "officers": [
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      }
+    ]
+  },
+  "place_of_performance": {
+    "location_country_code": "USA",
+    "country_name": "UNITED STATES",
+    "county_code": "453",
+    "county_name": "TRAVIS",
+    "city_name": "AUSTIN",
+    "state_code": "TX",
+    "state_name": "TEXAS",
+    "congressional_code": "37",
+    "zip4": "1827",
+    "zip5": "78712",
+    "address_line1": null,
+    "address_line2": null,
+    "address_line3": null,
+    "foreign_province": null,
+    "foreign_postal_code": null
+  },
+  "total_outlay": null,
+  "funding_opportunity": {
+    "number": "NOFOAFRLAFOSR20250002",
+    "goals": "TO PRODUCE SIGNIFICANT SCIENTIFIC BREAKTHROUGHS WITH FAR REACHING CONSEQUENCES TO THE FIELDS OF SCIENCE, ECONOMIC GROWTH, AND REVOLUTIONARY NEW MILITARY TECHNOLOGIES."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": 271820761,
+  "generated_unique_award_id": "ASST_NON_W911NF2510079_097",
+  "fain": "W911NF2510079",
+  "uri": null,
+  "category": "grant",
+  "type": "04",
+  "type_description": "PROJECT GRANT (B)",
+  "description": "ANTHROPOMORPHIC LANGUAGE EFFECTS ON HUMAN JUDGMENTS OF AI MORAL VIOLATIONS",
+  "subaward_count": 0,
+  "total_subaward_amount": null,
+  "total_subsidy_cost": 0.0,
+  "total_loan_value": 0.0,
+  "total_obligation": 457080.0,
+  "date_signed": "2025-03-11",
+  "base_and_all_options": null,
+  "base_exercised_options": null,
+  "non_federal_funding": 0.0,
+  "total_funding": 457080.0,
+  "total_account_outlay": 33939.99,
+  "total_account_obligation": 140202.0,
+  "account_outlays_by_defc": [
+    {
+      "code": "Q",
+      "amount": 33939.99
+    }
+  ],
+  "account_obligations_by_defc": [
+    {
+      "code": "Q",
+      "amount": 140202.0
+    }
+  ],
+  "record_type": 2,
+  "cfda_info": [
+    {
+      "applicant_eligibility": "Eligible applicants under this BAA include institutions of higher education, nonprofit organizations, state and local governments, foreign organizations, foreign public entities, and for-profit organizations (i.e. large and small businesses).  Awards will not be made to individuals.",
+      "beneficiary_eligibility": "Beneficiary eligibility is the same as applicant eligibility.\nInvestigators and resulting awardees.",
+      "cfda_federal_agency": "DEPT OF THE ARMY, DEPT OF DEFENSE",
+      "cfda_number": "12.431",
+      "cfda_objectives": "To support basic research, and enhance fundamental knowledge in the chemical, life, physical, engineering, materials, mechanical, computing, information, network, mathematical, earth, and social sciences, related to long-term national security needs. The insights gained from this research hold significant promise for advancing Army programs and operations.",
+      "cfda_obligations": "(Grant) FY 24$265,672,394.00; FY 25$279,239,876.00; FY 26 est $300,000,000.00; - (Cooperative Agreement) FY 24$498,385,134.00; FY 25$471,542,849.00; FY 26 est $500,000,000.00; - ",
+      "cfda_popular_name": "",
+      "cfda_title": "Basic Scientific Research",
+      "cfda_website": "https://arl.devcom.army.mil/opportunities/arl-baa/",
+      "federal_action_obligation_amount": 457080.0,
+      "non_federal_funding_amount": 0.0,
+      "sam_website": "https://sam.gov/fal/3ea7047bfcd34d2d93047c968b067ef9/view",
+      "total_funding_amount": 457080.0
+    }
+  ],
+  "transaction_obligated_amount": 140202.0,
+  "funding_agency": {
+    "id": 1188,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Army",
+      "code": "2100",
+      "abbreviation": "USA"
+    },
+    "office_agency_name": "W262 PROP BK ACCT DURHAM"
+  },
+  "awarding_agency": {
+    "id": 1188,
+    "has_agency_page": true,
+    "toptier_agency": {
+      "name": "Department of Defense",
+      "code": "097",
+      "abbreviation": "DOD",
+      "slug": "department-of-defense"
+    },
+    "subtier_agency": {
+      "name": "Department of the Army",
+      "code": "2100",
+      "abbreviation": "USA"
+    },
+    "office_agency_name": "W6QK ACC-APG DURHAM"
+  },
+  "period_of_performance": {
+    "start_date": "2025-04-01",
+    "end_date": "2029-03-31",
+    "last_modified_date": "2026-02-13"
+  },
+  "recipient": {
+    "recipient_hash": "4a8f3e5e-ebc2-25c9-68fb-d8e77ee476f4-R",
+    "recipient_name": "SYRACUSE UNIVERSITY",
+    "recipient_uei": "C4BXLBC11LC6",
+    "recipient_unique_id": null,
+    "parent_recipient_hash": null,
+    "parent_recipient_name": "SYRACUSE UNIVERSITY",
+    "parent_recipient_uei": null,
+    "parent_recipient_unique_id": null,
+    "business_categories": [],
+    "location": {
+      "location_country_code": "USA",
+      "country_name": "UNITED STATES",
+      "state_code": "NY",
+      "state_name": "NEW YORK",
+      "city_name": "SYRACUSE",
+      "county_code": "067",
+      "county_name": "ONONDAGA",
+      "address_line1": "900 S CROUSE AVE",
+      "address_line2": null,
+      "address_line3": null,
+      "congressional_code": "22",
+      "zip4": null,
+      "zip5": "13244",
+      "foreign_postal_code": null,
+      "foreign_province": null
+    }
+  },
+  "executive_details": {
+    "officers": [
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      },
+      {
+        "name": null,
+        "amount": null
+      }
+    ]
+  },
+  "place_of_performance": {
+    "location_country_code": "USA",
+    "country_name": "UNITED STATES",
+    "county_code": "067",
+    "county_name": "ONONDAGA",
+    "city_name": "SYRACUSE",
+    "state_code": "NY",
+    "state_name": "NEW YORK",
+    "congressional_code": "22",
+    "zip4": "1270",
+    "zip5": "13244",
+    "address_line1": null,
+    "address_line2": null,
+    "address_line3": null,
+    "foreign_province": null,
+    "foreign_postal_code": null
+  },
+  "total_outlay": 33939.99,
+  "funding_opportunity": {
+    "number": "W911NF23S0001",
+    "goals": "TO SUPPORT BASIC RESEARCH, AND ENHANCE FUNDAMENTAL KNOWLEDGE IN THE CHEMICAL, LIFE, PHYSICAL, ENGINEERING, MATERIALS, MECHANICAL, COMPUTING, INFORMATION, NETWORK, MATHEMATICAL, EARTH, AND SOCIAL SCIENCES, RELATED TO LONG-TERM NATIONAL SECURITY NEEDS. THE GOAL OF RESEARCH PROPOSALS THROUGH THIS BAA IS TO PURSUE HIGH-RISK, HIGH-PAYOFF IDEAS IN BASIC SCIENCE."
+  }
+}

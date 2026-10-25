@@ -1,0 +1,25 @@
+{
+  "spending_level": "awards",
+  "limit": 10,
+  "results": [
+    {
+      "internal_id": 356734007,
+      "Award ID": "W911NF261A113",
+      "Recipient Name": "GEORGIA TECH RESEARCH CORP",
+      "Award Amount": 129902.0,
+      "Start Date": "2026-04-01",
+      "End Date": "2029-03-31",
+      "Description": "A COMPUTATIONAL FRAMEWORK FOR EXPLAINABLE, NORMATIVE, AND JUSTIFIED AGENCY",
+      "generated_internal_id": "ASST_NON_W911NF261A113_097"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

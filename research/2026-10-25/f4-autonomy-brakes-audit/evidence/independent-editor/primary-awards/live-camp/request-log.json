@@ -1,0 +1,52 @@
+[
+  {
+    "time_utc": "2026-10-25T14:54:49.038150+00:00",
+    "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+    "method": "POST",
+    "request": {
+      "filters": {
+        "keywords": [
+          "W31P4Q26F0015"
+        ],
+        "award_type_codes": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "fields": [
+        "Award ID",
+        "Recipient Name",
+        "Award Amount",
+        "Start Date",
+        "End Date",
+        "Description",
+        "generated_internal_id"
+      ],
+      "limit": 10,
+      "page": 1
+    },
+    "sha256": "719186143852086af95796e1e69a3c293de77483150ce96df9639d11ae8a60de"
+  },
+  {
+    "time_utc": "2026-10-25T14:54:52.819120+00:00",
+    "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W31P4Q26F0015_9700_W31P4Q22D0025_9700/",
+    "method": "GET",
+    "request": null,
+    "sha256": "a29fb34ed7c5e594ac6b2f9fa80b2d07c37bfdddf80ad0000839aa84aed102a0"
+  },
+  {
+    "time_utc": "2026-10-25T14:54:55.939167+00:00",
+    "url": "https://api.usaspending.gov/api/v2/transactions/",
+    "method": "POST",
+    "request": {
+      "award_id": 361849993,
+      "page": 1,
+      "limit": 100,
+      "sort": "action_date",
+      "order": "desc"
+    },
+    "sha256": "1759f090aa6ec38e47053de74a544dc99dbf5bbb1355a5adb59aa16880be4f1b"
+  }
+]

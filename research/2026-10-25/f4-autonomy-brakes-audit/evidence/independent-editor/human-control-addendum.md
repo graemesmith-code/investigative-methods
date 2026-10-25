@@ -1,0 +1,21 @@
+## B boundary check: funded weapon systems can contain real human-control brakes
+
+Do not require a separately named safeguard research program before acknowledging a technical human-veto component. Conversely, do not count a munition's entire procurement value as safeguard expenditure.
+
+**Switchblade** is a concrete B-bearing system. Official Fort Hood public-affairs story dated September25 2025 (posted September26; live-fire September15) describes operator target selection and the ability to wave off a strike mid-flight. https://www.dvidshub.net/news/549283/1st-cavalry-division-conducts-first-switchblade-600-live-fire-fort-hood . The 2025 Switchblade600 Block2 datasheet retains wave-off/recommit capability: https://www.avinc.com/images/uploads/product_docs/2025_Switchblade-600b2_Datasheet_250923_v13.pdf . Army acquisition reporting explicitly connects abort to reducing collateral damage/civilian casualties: https://asc.army.mil/armyalt/Summer2023/html/29.html . These establish an intended human-control mechanism, not independently measured reliability, guaranteed control under communication denial, or a veto on an unlawful human authorization. They also do not establish which configurable mode/version is used in every deployment.
+
+Live primary USAspending verified three child orders under **W91CRB24D0011**; all current record periods overlap cutoff. These are **system acquisition dollars with B features, not allocable B-safeguard R&D**:
+
+| Order | Signed | Performance | Obligations | Latest action | Complete transaction count |
+|---|---|---|---:|---|---:|
+| W91CRB25F0094 | 2025-01-17 | 2025-01-18–2027-04-30 | $218,024,507.64 | 2026-06-25 | 15 |
+| W91CRB26FA055 | 2025-12-29 | 2026-01-02–2027-06-01 | $254,732,512.77 | 2026-07-17 | 3 |
+| W91CRB26FA177 | 2026-04-29 | 2026-05-01–2027-02-28 | $28,082,019.40 | 2026-04-29 | 1 |
+
+API URLs: https://api.usaspending.gov/api/v2/awards/CONT_AWD_W91CRB25F0094_9700_W91CRB24D0011_9700/ ; https://api.usaspending.gov/api/v2/awards/CONT_AWD_W91CRB26FA055_9700_W91CRB24D0011_9700/ ; https://api.usaspending.gov/api/v2/awards/CONT_AWD_W91CRB26FA177_9700_W91CRB24D0011_9700/ . First award description explicitly names Switchblade300/600; others name LASSO. Specific product configuration/interlocks not itemized publicly in these descriptions. Base/exercised for W91CRB25F0094 is $220,119,135.12, not its obligation amount. No omnibus 'safety spending' sum is justified.
+
+Parent official award August27 2024 was **$990m ceiling**, not obligated total; funding determined per order and then-estimated end August26 2029: https://www.defense.gov/News/Contracts/Contract/Article/3886803/ . Vendor February26 2026 press release announces **$186m** order for next-generation Switchblade, but it has **not been matched** to an exact order by this editor and must not be silently equated to the $254.7m order: https://www.avinc.com/2026/02/26/av-receives-186-million-u-s-army-delivery-order-for-next-generation-switchblade-systems/ . Do not add announced value, parent ceiling and child obligations.
+
+**Hunter WOLF/CROWS**: official Army August21 2026 report describes an HDT Robotics/BLADE CRADA and April2026 demonstration with the 101st Airborne. It discusses adding autonomous features while retaining positive human control of lethal decisions. https://www.army.mil/article/294796/armaments_center_partners_with_industry_to_explore_concepts_for_integrating_lethal_payloads_to_unmanned_ground_vehicles . B-relevant human-interface development; no award ID/allocable federal dollars verified, no proof of a legally valid decision guarantee.
+
+**DIU SWAP-USV Sprint2** public solicitation **PROJ00721**, responses due November30 2026, specifies human-in-the-loop safety interlocks, remote arming/dearming and abort. https://www.diu.mil/work-with-us/submit-solution/PROJ00721 . At most a B requirement candidate, **not an awarded or delivered system**. Page publication date not established from the primary page; tertiary October19 reference suggests pre-cutoff presence, but do not elevate to independently verified dated publication. Use to challenge a blanket claim that acceleration solicitations abandon human-control requirements, not to tally current funding.
