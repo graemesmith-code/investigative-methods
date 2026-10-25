@@ -1,6 +1,8 @@
 # US munitions safety boards, ML assurance and actual review friction
 
-**Evidence cut-off:** 25 October 2026. **Status:** three editorial rounds completed; bounded findings and contextual-case disposition, not a finding that any unnamed program passed or evaded review. Author: safety-boards workstream. Public-source governance analysis only. No outreach, restricted access, operational weapon design, or external publication undertaken.
+**Evidence cut-off:** 25 October 2026. **Status:** three editorial rounds completed; bounded findings and contextual-case disposition, not a finding that any unnamed program passed or evaded review. Author: safety-boards workstream. Public-source governance analysis only. No outreach, restricted access or operational weapon-design work was undertaken.
+
+**Independent editorial acceptance:** 25 October 2026, 23:05 UTC; bounded claims and source accounting, not a safety or legal-compliance certificate. [Review scope](https://drive.google.com/file/d/1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO/view?usp=drivesdk).
 
 ## Findings and scope
 
@@ -94,7 +96,7 @@ A 2009 Naval Postgraduate School report and Joey Rivera’s December 2010 disser
 
 ### C05 — Navy N231-030: AI helping prepare safety evidence, not an AI trigger interlock
 
-The official Navy SBIR topic sought model-based engineering tools to organize and connect advanced-munition safety artifacts across FISTRP, SSSTRP and WSESRB. Official award pages identify INSPIRD and Penta Research Phase I projects. These are concrete safety-workflow investments, including AI-assisted extraction/search of technical information. Neither the topic nor the award pages demonstrate a fielded runtime restraint on weapon firing. A 2024 Phase II award to Penta is also confirmed by an official SBIR record, and the actual Penta page of the Navy STP guide describes AIM-SAFE as being developed, with planned prototype deliveries and intended missile-program transition targets. Its milestone chart lists planned prototype deliveries, not demonstrated completion; its contract-end line and later milestone dates are not a reliable current contract-status record. A transition target is not proof of deployment or acceptance. Full contract lifecycle funding remains for the coordinator to verify. [S24–S26, S35–S36]
+The official Navy SBIR topic sought model-based engineering tools to organize and connect advanced-munition safety artifacts across FISTRP, SSSTRP and WSESRB. Official award pages identify INSPIRD and Penta Research Phase I projects. These are concrete safety-workflow investments, including AI-assisted extraction/search of technical information. Neither the topic nor the award pages demonstrate a fielded runtime restraint on weapon firing. A 2024 Phase II award to Penta is also confirmed by an official SBIR record, and the actual Penta page of the Navy STP guide describes AIM-SAFE as being developed, with planned prototype deliveries and intended missile-program transition targets. Its milestone chart lists planned prototype deliveries, not demonstrated completion; its contract-end line and later milestone dates are not a reliable current contract-status record. A transition target is not proof of deployment or acceptance. Completed lifecycle funding checks are reported separately in [financial methods](../FINANCIAL_METHODS_AND_FINDINGS.md); this technical-source account does not allocate whole-award value to safeguards. [S24–S26, S35–S36]
 
 ## 5. Contractor and procurement handoff
 

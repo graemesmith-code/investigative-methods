@@ -1,6 +1,6 @@
 # Where the brakes bite: permissions, assurance dependencies and changing software
 
-**F5 integrated review candidate.** The frozen five-domain source bundle is integrated; the parent’s independent global release review remains open. This is not a final-completion claim.
+**Editorial review accepted: 25 October 2026, 23:05 UTC.** The [independent acceptance and audit records](https://drive.google.com/file/d/1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO/view?usp=drivesdk) cover the bounded claims and artifacts in commit `b2824b4`; this final publication adds status and pointer updates. Acceptance is not certification of weapon safety, legal compliance or effectiveness.
 
 **Evidence cutoff: 25 October 2026.** New work anchored to immutable F4 commit `fa55e8d3d7c69bfc1051279185c7c88df8e92cb6`.
 
@@ -143,4 +143,4 @@ Start with the decision and consequence: who was allowed to do what, for which u
 
 The five merged dossiers retain both reporting lanes and their documented challenges. The complete independent source/editor bundle is on Drive; its 37 non-memo payloads stay out of Git. Promoted records distinguish actual access and evidentiary scope; retrieval provenance is separate from journalistic novelty. The 75-source reading pack ranks reporting value, not 75 independent proofs of effectiveness. Financial and patent counts use their own denominators.
 
-This is an **integrated review candidate**, not final release clearance. The parent’s independent editor is reviewing the actual draft, data and publication receipts. Local tests and byte checks are labelled as such; no hosted CI success is claimed. No email or automation was created here. The parent owns the single 06:00 Europe/Rome (05:00 UTC), 26 October briefing.
+The independent review accepted the bounded reporting and source accounting on 25 October 2026 at 23:05 UTC. Its [authored acceptance and audit records](https://drive.google.com/file/d/1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO/view?usp=drivesdk) preserve issue-by-issue responses, historical review states and limits. The reviewer did not independently read every body behind all 308 URLs or rerun the original archive scans. Local tests and byte checks are labelled as such; no hosted CI success is claimed.

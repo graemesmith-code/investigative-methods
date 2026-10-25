@@ -2,6 +2,8 @@
 
 Research memo prepared for F5 on 25 October 2026. Integrated from two reporting streams revised through three independent editor rounds and subsequent source-specific addenda. Public primary sources only unless expressly marked discovery lead. This is an evidence map for reporting, not a finding that all autonomy is unsafe or that published governance necessarily works.
 
+**Independent editorial acceptance:** 25 October 2026, 23:05 UTC; bounded claims and source accounting, not a safety or legal-compliance certificate. [Review scope](https://drive.google.com/file/d/1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO/view?usp=drivesdk).
+
 ## Finding and limits
 
 The strongest named operational-permission friction case located is Shield AI's July 2026 evidence to Parliament: UK approval ambiguity, an informal risk-holder workaround, and burdensome update approvals. It is a named supplier's allegation, not an independently verified rejection. A maritime trade body's March 2026 submission reports months of delays and a six-figure rework bill, but conceals the affected members. Neither establishes a refusal to disclose model weights. Separately, October 2026 CARRION procurement notices explicitly cite the cost and schedule risk of recreating assurance evidence when justifying continued supplier dependence.
@@ -270,7 +272,7 @@ Sources: [HyFliTE announcement](https://www.gov.uk/government/news/development-o
 
 ## Candidate identifiers for procurement hydration
 
-These are leads, not all verified awards. No US spending total should be promoted until the coordinator hydrates complete USAspending and FPDS records without date filters.
+These are leads, not all verified awards. US financial figures require complete unfiltered award histories; the completed instrument-level results are in [financial methods](../FINANCIAL_METHODS_AND_FINDINGS.md).
 
 | Candidate | Identifier | Status and missing evidence |
 | --- | --- | --- |
@@ -301,7 +303,7 @@ These are leads, not all verified awards. No US spending total should be promote
 
 No public named case was located in this pass showing a US autonomy vendor denied UK, Australian or Canadian certification specifically because it refused to disclose weights/training data. That is a bounded negative search result, not proof none exists. Legal-review research is being handled by the separate F5 legal workstream; assurance, Article 36 review, airworthiness, maritime registration and exercise safety should remain separate evidence categories.
 
-This checkpoint contains authored paraphrases and links, not redistributed full texts. No paid search, outreach, account changes, purchases or external publication was performed. The parent coordinator owns publication and all spending-record hydration.
+This memo contains authored paraphrases and links, not redistributed full texts. Instrument-level hydration and financial limitations are recorded separately in [financial methods](../FINANCIAL_METHODS_AND_FINDINGS.md).
 
 
 ## Ranked primary bibliography

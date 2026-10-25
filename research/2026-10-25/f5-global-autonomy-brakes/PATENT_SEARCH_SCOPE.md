@@ -6,7 +6,7 @@ Targeted official-source work subsequently retrieved Kongsberg, BAE and Anduril 
 
 ## Initial second-lane search and limits
 
-Cutoff: 25 October 2026. This file distinguishes search coverage from validated findings. The parent is the sole paid Exa spender. Exa queries 23–40 and 75–92 were issued by the parent; the reporter read their saved results, then checked promoted documents using free public retrieval. Query result counts measure returned results, not a count of a company's patents or a complete patent universe. Broad relevance search can return a different owner, an old publication, a civilian use, or a patent with no restraint claim.
+Cutoff: 25 October 2026. This file distinguishes search coverage from validated findings. Paid discovery was centrally budgeted. Exa queries 23–40 and 75–92 supplied saved leads; promoted documents were then checked using free public retrieval. Query result counts measure returned results, not a count of a company's patents or a complete patent universe. Broad relevance search can return a different owner, an old publication, a civilian use, or a patent with no restraint claim.
 
 The CSV `patent-assignee-search-coverage.csv` records the exact queries, result counts and adjudication notes. It covers nineteen names when Boeing and Aurora are listed separately; the original directive groups them together. Raytheon/RTX are treated as an assignee group, not presumed legal identity of every subsidiary.
 

@@ -1,6 +1,6 @@
-# Provisional morning handoff — independent global review pending
+# Executive briefing — reviewed findings, 25 October 2026
 
-Do not treat this as final clearance. No email was sent here. The parent owns the scheduled 06:00 Europe/Rome (05:00 UTC), 26 October 2026 briefing.
+Independent editorial/source-accounting review passed on 25 October 2026 at 23:05 UTC for commit `b2824b47764deb9385afdcce84aa2c97aa623414` and its twelve enumerated Drive objects. All six integrated editorial objections were resolved within the stated review scope. This publication adds the verified audit bundle and status/presentation edits; it makes no material factual or monetary change. [Acceptance and audit records](https://drive.google.com/file/d/1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO/view?usp=drivesdk). This is not a weapons-safety, legal-compliance, patent-status or effectiveness certificate.
 
 Report: https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-25/f5-global-autonomy-brakes/report.md
 
@@ -12,8 +12,6 @@ The financial set remains 108 identities: 107 FAR two-view reconciliations plus 
 
 Patents reconcile 28 input rows into 23 publications/ 19 reporting clusters, not deployed-brake counts. Official USPTO correction resolves Anduril’s specific wording ambiguity without current status/implementation proof. The source master is 380 observations / 308 URLs, with actual access states for 75 ranked sources and unknown body depth explicitly demoted for 104 unpromoted URLs.
 
-Twelve Drive objects have current native readbacks; the independent 42-payload source bundle is preserved with all 37 non-memo payloads Drive-only. Four local regressions and financial reparsing passed. No hosted CI claim.
+Thirteen Drive objects have current native readbacks; the independent 42-payload source bundle is preserved with all 37 non-memo payloads Drive-only. Four local regressions and financial reparsing passed. No hosted CI claim.
 
-Exa remains 118 requests, $0.826 new provider-reported cost, $6.561 conservative cumulative / $20, headroom $13.439. No uncertain requests or cache hits. Final integrated issue closure and artifact checks remain pending.
-
-The [additional targeted integrated editorial review](https://drive.google.com/file/d/1_P3NjG-nz7QFkSY5NKnQ_FeSL_JuNx-V/view?usp=drivesdk) found no unresolved high/medium semantic objection within its stated scope and independently conserved source/patent inventories. Its exact 10,431-byte artifact was natively read back (SHA256 `bfab626e06d881e92257808471e05d829d928122ca660a61697d3c956172ebdc`). It is separate from the parent’s still-pending final release review.
+Exa remains 118 requests, $0.826 new provider-reported cost, $6.561 conservative cumulative / $20, headroom $13.439. No uncertain requests or cache hits. The independent integrated review passed within its stated scope; final publication checks cover the status-only update and added audit pointer.

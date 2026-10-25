@@ -58,7 +58,7 @@ Two early exploratory USAspending generated-key probes used unverified parent gu
 
 ## Delivery boundaries
 
-Heavy CSV/JSON/XML and request journals are staged for Drive. Scripts and authored methods are suitable for lightweight GitHub delivery. No source archive, credential, signed URL, copied restricted standard or private correspondence belongs in the public dataset. No source was contacted. No email, automation, purchase or permission change was performed by this workstream.
+Heavy CSV/JSON/XML and request journals are indexed on Drive. Scripts and authored methods are suitable for lightweight GitHub delivery. No source archive, credential, signed URL, copied restricted standard or private correspondence belongs in the public dataset. No source was contacted. No purchase or permission change was performed.
 
 ## Targeted board-support and digital-safety followups
 
@@ -76,6 +76,6 @@ The archived financial index contains zero BCI actions under the exact key, one 
 
 Schedules differ between portals. INSPIRD's SBIR page ends 26 December 2023, while the live award's current PoP ends 11 December 2023 and potential end is 10 June 2024. Penta Phase II's SBIR schedule ends 19 August 2025; the current award record ends 19 August 2027. These are explicitly unreconciled schedule presentations, not forced to match and not proof of operational activity. Financial action sums still reconcile.
 
-The supplied [Navy FY26 Q2 forecast](https://www.navsea.navy.mil/Portals/103/Documents/NSWC_Dahlgren/Small_Business/NSWCDD_LRAE_FY26_Q2.pdf) returned HTTP 403 to this worker. No access workaround was attempted. The exact award's weapon-system safety scope is independently verified in FPDS/USAspending; a more specific B70/board association requires the parent's separately verified forecast read. This read limitation does not block the financial reconciliation.
+The supplied [Navy FY26 Q2 forecast](https://www.navsea.navy.mil/Portals/103/Documents/NSWC_Dahlgren/Small_Business/NSWCDD_LRAE_FY26_Q2.pdf) returned HTTP 403 to this worker. No access workaround was attempted. The exact award's weapon-system safety scope is independently verified in FPDS/USAspending; a more specific B70/board association requires separate forecast-body verification. This read limitation does not block the financial reconciliation.
 
 Full SBIR abstracts and public contact details are not republished. The public audit retains citations, exact identities, hashes and authored summaries. Full page bodies are excluded from the Drive payload because permission to rehost contractor-authored abstracts was not established; the financial API bodies remain public-source data. This is an explicit copyright boundary, not a missing upload claim.

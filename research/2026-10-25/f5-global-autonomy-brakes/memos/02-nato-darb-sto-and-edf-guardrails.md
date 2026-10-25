@@ -1,6 +1,6 @@
 # NATO and EU autonomy guardrails: promises, funding gates and evidence of implementation
 
-**F5 / workstream 2 — research cut-off: 25 October 2026. Integrated revision from two reporting streams after three independent editorial rounds and subsequent source-specific addenda; submitted for global editorial review.**
+**F5 / workstream 2 — research cut-off: 25 October 2026. Integrated revision from two reporting streams after three independent editorial rounds and subsequent source-specific addenda; accepted within the independent global editorial review scope on 25 October 2026, 23:05 UTC.**
 
 ## 1. Finding and limits
 

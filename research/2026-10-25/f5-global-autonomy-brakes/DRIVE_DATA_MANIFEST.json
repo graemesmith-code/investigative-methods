@@ -273,6 +273,28 @@
       "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
       "verified_utc": "2026-10-25T22:52:30.863922+00:00",
       "verification": "Completed native upload; owner, inherited sharing and parent metadata checked; full native raw-byte equality. Targeted independent editorial review, not parent release acceptance."
+    },
+    {
+      "filename": "F5-independent-final-audit-b282-2026-10-25T2305Z.zip",
+      "drive_file_id": "1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO",
+      "drive_view_url": "https://drive.google.com/file/d/1VPy6SfRsk5_ubM_U674VZKkPTY-09bEO/view?usp=drivesdk",
+      "bytes": 26068,
+      "row_count": null,
+      "sha256": "f5fba2fc24629cbfc982a30d2888b6617a2892ccec640c4753752ea0997629e8",
+      "readback_sha256": "f5fba2fc24629cbfc982a30d2888b6617a2892ccec640c4753752ea0997629e8",
+      "readback_bytes": 26068,
+      "owner_email": "smithg@gmail.com",
+      "anyone_reader": true,
+      "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
+      "verified_utc": "2026-10-25T23:08:48.931214+00:00",
+      "bundle_members": 12,
+      "payload_members": 11,
+      "member_manifest": "EDITOR_AUDIT_TRANSFER_WHITELIST.json",
+      "member_manifest_sha256": "34f65a54cd676c60e8538720f974dc3e34f3ab83bb7a8ab99d3d986130e50efe",
+      "verification": "Native upload and owner/parent/inherited sharing metadata; full exact-byte native readback and all eleven whitelisted payload hashes verified. All authored audit payloads remain Drive-only.",
+      "library_file_id": "libfile_7da646492374819193cb2a680d4e048d",
+      "library_backing_file_id": "file_00000000c27881fda13923fbcf041f90",
+      "reviewed_commit": "b2824b47764deb9385afdcce84aa2c97aa623414"
     }
   ]
 }

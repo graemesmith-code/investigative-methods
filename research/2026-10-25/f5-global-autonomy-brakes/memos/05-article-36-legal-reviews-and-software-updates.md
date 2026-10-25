@@ -1,7 +1,7 @@
 # F5 / 05 — Legal weapons reviews and continuous software change
 ## The rule is not “review once”; investigate who classifies the change
 
-**Research cutoff:** 25 October 2026. **Status:** integrated from both reporting lanes after their documented editor rounds; pending final global editorial review; not a legal opinion or finding of misconduct. **Authoring lane:** legal weapons review, distinct from safety, airworthiness, cybersecurity authorization, acquisition approval and ethical assurance. All source access was public/free; no outreach, records request, payment or external publication was made. Companion files contain the comparison and interview plan.
+**Research cutoff:** 25 October 2026. **Status:** integrated from both reporting lanes after their documented editor rounds; accepted within the independent global editorial review scope on 25 October 2026, 23:05 UTC; not a legal opinion or finding of misconduct. **Authoring lane:** legal weapons review, distinct from safety, airworthiness, cybersecurity authorization, acquisition approval and ethical assurance. All source access was public/free; no outreach, records request or payment was made. Companion files contain the comparison and interview plan.
 
 ### Editorial bottom line
 
@@ -188,7 +188,7 @@ A lawyer's role is not interchangeable with the person accepting operational ris
 
 The [DoDD 2311.01 Law of War Program, 2 July 2020](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/231101p.pdf), paragraph 2.6(e), independently assigns components responsibility for review of intended acquisition, procurement or modification. The January 2023 autonomy directive repeats that legal-review duty in paragraph 2.9(c). These are additional rule-text anchors, not evidence that an individual release was reviewed.
 
-NSPM-11 section 3(f) expressly rescinds and replaces NSM-25 and associated guidance. Earlier NSM-25 arrangements must not be carried into a description of current policy without qualification. The parent team's separately verified [GAO-27-107837, 14 October 2026](https://www.gao.gov/products/gao-27-107837), records acceleration policy and Responsible AI implementation challenges. Organizational capacity is relevant context, but does not prove a weapons-law review was skipped.
+NSPM-11 section 3(f) expressly rescinds and replaces NSM-25 and associated guidance. Earlier NSM-25 arrangements must not be carried into a description of current policy without qualification. The separately reviewed [GAO-27-107837, 14 October 2026](https://www.gao.gov/products/gao-27-107837), records acceleration policy and Responsible AI implementation challenges. Organizational capacity is relevant context, but does not prove a weapons-law review was skipped.
 
 The [Canadian government's 2024 voluntary IHL implementation report](https://cdn.redcross.ca/cnchl/2024-canada-voluntary-report-on-the-domestic-implementation-of-ihl-final.pdf), page 30, describes OJAG opinions on new or modified capabilities and early acquisition referrals; its [2024 UN submission](https://docs-library.unoda.org/General_Assembly_First_Committee_-Seventy-Ninth_session_(2024)/78-241-Canada-EN.pdf) also describes national review and continuing IHL compliance. These are government process accounts, not independent compliance audits. They do not resolve the current directive-text gap described above.
 
