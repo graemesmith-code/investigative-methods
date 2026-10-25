@@ -76,6 +76,12 @@ for i,(piid,r) in enumerate(zip(expected_piids,review),1):
  primary,secondary,flag,scope,disp,mechanism,limit=r
  assert d['piid']==piid
  rows.append(dict(zip(fields,[i,piid,d['title'],primary,secondary,flag,scope,disp,mechanism,limit,'f4-live-technical-matches.json',srcsha,d['source_file'],d['source_row'],d['row_sha256'],d['input_snapshot_sha256'],d['source_url'],'Complete supplied archive SBIR abstract; not full SOW, independent test report, deployment evidence or current financial status'])))
+primary_sbir_urls={'FA864924P0465':'208942','FA239124CB020':'209955','W5170124C0035':'209584','W5170125C0052':'215327','N6833525C0110':'218158','N0002425CS104':'218265','FA865124CB024':'208992','FA864925P0010':'216104'}
+fields += ['archive_source_url','primary_technical_source_url']
+for row in rows:
+ row['archive_source_url']=row['source_url']
+ row['primary_technical_source_url']='https://www.sbir.gov/awards/'+primary_sbir_urls[row['piid']] if row['piid'] in primary_sbir_urls else ''
+ if row['primary_technical_source_url']:row['source_url']=row['primary_technical_source_url']
 with (out/'live-technical-scope-review.csv').open('w',encoding='utf-8',newline='') as f:
  w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
 counts=collections.Counter(r['primary_category'] for r in rows)

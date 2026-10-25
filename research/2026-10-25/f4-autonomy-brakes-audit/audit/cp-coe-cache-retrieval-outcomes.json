@@ -1,0 +1,40 @@
+[
+  {
+    "sequence": 223,
+    "url": "https://policy.war.gov/Portals/11/Documents/CHMR/TAB%20B%20-%20DoW%202025%20CP%20CoE%20Annual%20Report%206.15.26-508.pdf?ver=tEr0PWd4eLNHXneLp3UNUA%3D%3D",
+    "statuses": [
+      {
+        "id": "https://policy.war.gov/Portals/11/Documents/CHMR/TAB%20B%20-%20DoW%202025%20CP%20CoE%20Annual%20Report%206.15.26-508.pdf?ver=tEr0PWd4eLNHXneLp3UNUA%3D%3D",
+        "status": "error",
+        "error": {
+          "httpStatusCode": 404,
+          "tag": "CONTENT_NOT_CACHED"
+        }
+      }
+    ],
+    "returned_results": 0,
+    "text_characters": [],
+    "response_sha256": "24c3875fd8ad6c5d26c920ba7238c929e0559bfdb806ffa9a93ee359c9dc830d",
+    "provider_reported_estimated_usd": "0",
+    "scope": "cache-only; no host access-gate workaround; source body private; full-document completeness not presumed"
+  },
+  {
+    "sequence": 224,
+    "url": "https://policy.war.gov/Offices/Civilian-Harm-Mitigation-and-Response/-16/",
+    "statuses": [
+      {
+        "id": "https://policy.war.gov/Offices/Civilian-Harm-Mitigation-and-Response/-16/",
+        "status": "error",
+        "error": {
+          "httpStatusCode": 404,
+          "tag": "CONTENT_NOT_CACHED"
+        }
+      }
+    ],
+    "returned_results": 0,
+    "text_characters": [],
+    "response_sha256": "ccf084479f5ffd3ea869a23bcea0d4d579a9ad4047195462481985ac2cc7d5df",
+    "provider_reported_estimated_usd": "0",
+    "scope": "cache-only; no host access-gate workaround; source body private; full-document completeness not presumed"
+  }
+]

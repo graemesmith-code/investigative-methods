@@ -1,0 +1,362 @@
+{
+  "status": "machine_flags_require_editor_scope_review",
+  "count": 13,
+  "warning": "New preliminary A memberships from auxiliary fields are not verified normative safeguards; full descriptions available in mainregister; fundinggoals may describe entire fundingprogram, not individual award.",
+  "rows": [
+    {
+      "award_key": "ASST_NON_N000142012163_097",
+      "award_ids": [
+        "N000142012163"
+      ],
+      "entity_names": [
+        "MASSACHUSETTS EYE AND EAR INFIRMARY",
+        "OHIO STATE UNIVERSITY, THE",
+        "RUTGERS, THE STATE UNIVERSITY OF NEW JERSEY",
+        "TEXAS A&M ENGINEERING EXPERIMENT STATION",
+        "THE JOHNS HOPKINS UNIVERSITY",
+        "THE REGENTS OF THE UNIVERSITY OF COLORADO",
+        "THE RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+        "UNIVERSITY OF ARIZONA",
+        "UNIVERSITY OF DAYTON",
+        "UNIVERSITY OF TENNESSEE"
+      ],
+      "A_terms": [
+        "RESPECT"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "60076520"
+      ],
+      "matching_fields": [
+        "subaward_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 224408600
+    },
+    {
+      "award_key": "ASST_NON_N000142312842_097",
+      "award_ids": [
+        "N000142312842"
+      ],
+      "entity_names": [
+        "CASE WESTERN RESERVE UNIVERSITY",
+        "CLEVELAND STATE UNIVERSITY",
+        "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "UNIVERSITY OF PORTLAND"
+      ],
+      "A_terms": [
+        "ETHIC*",
+        "MORAL*"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "(NO IDC) - EMBODIED ROBOTICS FOR REMOTE OPERATIONS"
+      ],
+      "matching_fields": [
+        "subaward_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 0,
+      "editor_scope_followup": "Base descriptions identify embodied robotics for remote operations; ethics/moral terms occur in subaward text. Autonomous-weapons/LOAC applicability remains unproven."
+    },
+    {
+      "award_key": "ASST_NON_W911NF2020083_097",
+      "award_ids": [
+        "W911NF2020083"
+      ],
+      "entity_names": [
+        "DCS CORPORATION",
+        "THE REGENTS OF THE UNIVERSITY OF COLORADO"
+      ],
+      "A_terms": [
+        "RESPECT"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "1560225"
+      ],
+      "matching_fields": [
+        "subaward_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": -5962
+    },
+    {
+      "award_key": "ASST_NON_W911NF2420225_097",
+      "award_ids": [
+        "W911NF2420225"
+      ],
+      "entity_names": [
+        "FLORIDA STATE UNIVERSITY"
+      ],
+      "A_terms": [
+        "MORAL*"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "DEVELOPING MORAL CHARACTER DECISION TASKS"
+      ],
+      "matching_fields": [
+        "prime_award_base_transaction_description",
+        "transaction_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 3732300,
+      "editor_scope_followup": "The individual description concerns developing moral-character decision tasks. The weapons/autonomy domain context appears in broad USMA funding-opportunity goals. This does not establish an AI/autonomous-weapons safeguard."
+    },
+    {
+      "award_key": "CONT_AWD_0005_9700_W56HZV09D0148_9700",
+      "award_ids": [
+        "0005"
+      ],
+      "entity_names": [
+        "DCS CORPORATION"
+      ],
+      "A_terms": [
+        "MAGNET"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "DE-OBLIGATION OF EXCESS FUNDS."
+      ],
+      "matching_fields": [
+        "prime_award_base_transaction_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": null
+    },
+    {
+      "award_key": "CONT_AWD_FA248722FA020_9700_FA248718D4300_9700",
+      "award_ids": [
+        "FA248722FA020"
+      ],
+      "entity_names": [
+        "AIRWAYS FREIGHT CORPORATION",
+        "AMPERSAND SOLUTIONS GROUP INC",
+        "AVION SOLUTIONS, INC.",
+        "CINTEL INC",
+        "COCHISE TECH AND DEVELOPMENT, LLC",
+        "CONSTANT TECHNOLOGIES INC",
+        "DRONE NERDS INC",
+        "ENVIRONMENTAL SYSTEMS RESEARCH INSTITUTE, INC.",
+        "ETS-LINDGREN INC",
+        "FUTURE TECHNOLOGIES INNOVATIONS LLC",
+        "GLOBAL BUSINESS SOLUTIONS, LLC.",
+        "INTUITIVE RESEARCH AND TECHNOLOGY CORPORATION",
+        "KIWI HIFI LLC",
+        "NOBLIS, INC.",
+        "PARSONS GOVERNMENT SERVICES INC.",
+        "PENTA RESEARCH INC",
+        "PHASED N RESEARCH, LLC",
+        "SIMPSON CONSULTING INC",
+        "SOUTHWEST MOBILE STORAGE INC",
+        "TROSSEN ROBOTICS LLC",
+        "YULISTA TACTICAL SERVICES LLC"
+      ],
+      "A_terms": [
+        "ETHIC*"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "2400000209"
+      ],
+      "matching_fields": [
+        "prime_award_base_transaction_description",
+        "subaward_description",
+        "transaction_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 2936031359
+    },
+    {
+      "award_key": "CONT_AWD_FA251825F0009_9700_47QRAD20D3145_4732",
+      "award_ids": [
+        "FA251825F0009"
+      ],
+      "entity_names": [
+        "FEDITC, LLC",
+        "ITI SOLUTIONS, INC.",
+        "SMS DATA PRODUCTS GROUP INC",
+        "TYTO GOVERNMENT SOLUTIONS INC"
+      ],
+      "A_terms": [
+        "MORAL*"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "D6 DCO FEDITC SUBK"
+      ],
+      "matching_fields": [
+        "subawardee_highly_compensated_officer_5_name"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": null
+    },
+    {
+      "award_key": "CONT_AWD_FA807522F0010_9700_FA807518D0014_9700",
+      "award_ids": [
+        "FA807522F0010"
+      ],
+      "entity_names": [
+        "A&H SECURITY ENTERPRISES, LLC",
+        "AMENTUM SERVICES, INC.",
+        "BATTELLE MEMORIAL INSTITUTE",
+        "BLACK RIVER SYSTEMS COMPANY, INC.",
+        "BLACKWIRE TECHNOLOGIES LLC",
+        "BLUEHALO LABS, LLC",
+        "CACI, INC. - FEDERAL",
+        "D-FEND SOLUTIONS AD INC",
+        "DRONESEC INC.",
+        "DRONESHIELD LLC",
+        "HAIVISION MCS LLC",
+        "ICR, INC.",
+        "INTEGRATION TECHNOLOGIES GROUP, INC.",
+        "NALICA INC",
+        "OCEAN POWER TECHNOLOGIES, INC.",
+        "OKLAHOMA STATE UNIVERSITY",
+        "PERSISTENT SYSTEMS LLC",
+        "RED SIX SOLUTIONS, LLC",
+        "ROBIN RADAR SYSTEMS B.V.",
+        "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "SILENT SENTINEL INC",
+        "SILENTIUM DEFENCE PTY LTD",
+        "SILVUS TECHNOLOGIES, INC.",
+        "SYZYGY INTEGRATION LLC",
+        "TELEDYNE FLIR DEFENSE, INC."
+      ],
+      "A_terms": [
+        "MORAL*"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "110000"
+      ],
+      "matching_fields": [
+        "subawardee_address_line_1"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 12533994300
+    },
+    {
+      "award_key": "CONT_AWD_FA945117F0013_9700_FA945117D0017_9700",
+      "award_ids": [
+        "FA945117F0013"
+      ],
+      "entity_names": [
+        "SIMVENTIONS INC",
+        "VERUS RESEARCH, LLC"
+      ],
+      "A_terms": [
+        "COLLATERAL DAMAGE"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "1067-00100"
+      ],
+      "matching_fields": [
+        "transaction_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 5000000,
+      "editor_scope_followup": "Raw transaction text expressly describes infrastructure effects testing for collateral damage assessments and payload verification; adjacent actions identify HPEM/THOR counter-UAS transition. Retain harm-effects A/C lead; no demonstrated LOAC governor or engagement constraint."
+    },
+    {
+      "award_key": "CONT_AWD_HQ085926FE342_9700_HQ085926DE269_9700",
+      "award_ids": [
+        "HQ085926FE342"
+      ],
+      "entity_names": [
+        "SMS DATA PRODUCTS GROUP INC"
+      ],
+      "A_terms": [
+        "MORAL*"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER."
+      ],
+      "matching_fields": [
+        "highly_compensated_officer_5_name",
+        "prime_award_base_transaction_description",
+        "transaction_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 50000
+    },
+    {
+      "award_key": "CONT_AWD_SPE7L126V6325_9700_-NONE-_-NONE-",
+      "award_ids": [
+        "SPE7L126V6325"
+      ],
+      "entity_names": [
+        "CYBER GO LLC"
+      ],
+      "A_terms": [
+        "GEARS"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "8511961141!PULLEY,GROOVE"
+      ],
+      "matching_fields": [
+        "product_or_service_code_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": 100000
+    },
+    {
+      "award_key": "CONT_AWD_W15QKN19F0859_9700_W15P7T17D0113_9700",
+      "award_ids": [
+        "W15QKN19F0859"
+      ],
+      "entity_names": [
+        "DHPC TECHNOLOGIES, INC.",
+        "GHOST ROBOTICS CORPORATION",
+        "IDEAL INNOVATIONS INCORPORATED",
+        "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "SOLARI CREATIVE INC",
+        "UNIVERSITY OF OKLAHOMA",
+        "WISENGINEERING LLC"
+      ],
+      "A_terms": [
+        "RESPECT"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "$50,000 OF INCREMENTAL FUNDING ON THE EXERCISED OPTION 1 CLIN 0004."
+      ],
+      "matching_fields": [
+        "subaward_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": null
+    },
+    {
+      "award_key": "CONT_AWD_W909MY16C0010_9700_-NONE-_-NONE-",
+      "award_ids": [
+        "W909MY16C0010"
+      ],
+      "entity_names": [
+        "ACUMEN SCIENTIFIC",
+        "AMETEK AEGIS INC.",
+        "BOB LEWIS MACHINE COMPANY, INC.",
+        "BRANDSTROM INSTRUMENTS, INC.",
+        "CARDIC MACHINE PRODUCTS, INC.",
+        "CICOIL, LLC",
+        "ELECTRO RENT CORPORATION",
+        "ENVIRONMENT ASSOCIATES INC",
+        "JX NIPPON MINING & METALS USA, INC.",
+        "MISSION SYSTEMS DAVENPORT INC.",
+        "OPTI-FORMS, INC.",
+        "PACIFIC AEROSPACE & ELECTRONICS, LLC",
+        "RAYTHEON COMPANY",
+        "SEMICONDUCTOR COMPONENTS INDUSTRIES, LLC",
+        "STELLAR INDUSTRIES CORP",
+        "SUPERIOR JIG INC",
+        "TECOMET INC.",
+        "WALLENDER & ASSOCIATES",
+        "WC MACHINE & TOOL INC"
+      ],
+      "A_terms": [
+        "MAGNET"
+      ],
+      "preview_only_full_descriptions_in_main_register": [
+        "4201830737"
+      ],
+      "matching_fields": [
+        "subaward_description"
+      ],
+      "funding_goals_scope_warning": false,
+      "obligation_cents_fy2024_2026_acquired_corpus_not_safeguard_attribution": -1668871
+    }
+  ],
+  "financial_action_corpus_scope_limitation": "Money is net obligations within the acquired action corpus/window, not complete award funding. Acquisition filters can omit older positive, negative or zero actions; these nets are not guaranteed lower bounds. Internal joins, hashes and conservation do not prove source-history completeness. Keep live complete-history sums separate."
+}

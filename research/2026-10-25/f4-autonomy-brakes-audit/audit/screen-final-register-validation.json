@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "candidate_source_award_or_document_keys": 5501,
+  "unique_keys": 5501,
+  "performer_trace_keys": 2599,
+  "financial_source_window": {
+    "first_action_date": "2018-10-01",
+    "latest_action_date": "2026-09-30",
+    "actions_after_2026_09_30": 0,
+    "source_fiscal_year_rows": {
+      "2019": 75241,
+      "2020": 78834,
+      "2021": 84562,
+      "2022": 97104,
+      "2023": 95720,
+      "2024": 96789,
+      "2025": 107925,
+      "2026": 76011
+    },
+    "limitation": "Archive creation/retrieval date does not extend action coverage. October2026 continuations require live checks. FY2019 begins2018-10-01; FY2024 includesOct-Dec2023."
+  },
+  "money_conservation": {
+    "obligation_cents_fy2019_2026": {
+      "direct_canonical_sum": 5723531485348,
+      "published_sum": 5723531485348,
+      "passed": true
+    },
+    "obligation_cents_fy2024_2026": {
+      "direct_canonical_sum": 2572678009836,
+      "published_sum": 2572678009836,
+      "passed": true
+    },
+    "obligation_cents_cy2024_2026": {
+      "direct_canonical_sum": 2276537032281,
+      "published_sum": 2276537032281,
+      "passed": true
+    }
+  },
+  "JSON_CSV_full_description_equality": true,
+  "all_published_description_hashes_verified": true,
+  "no_start_dates_labeled_as_end_dates": true,
+  "max_candidate_CSV_field_chars": 1732177,
+  "max_performer_CSV_field_chars": 2515300,
+  "files_bytes": {
+    "evidence/brakes-candidate-register.json": 102378238,
+    "evidence/brakes-candidate-register.csv": 84465834,
+    "evidence/asimov-performer-continuation-check.csv": 47027154,
+    "evidence/auxiliary-candidates.jsonl": 48716850
+  },
+  "all_files_under_GitHub_100MiB_limit": true,
+  "primary_category_counts_PRELIMINARY_not_verified_programs": {
+    "A": 535,
+    "C": 1684,
+    "B": 140,
+    "D": 3142
+  },
+  "finished_utc": "2026-10-25T15:41:53.999835+00:00",
+  "financial_action_corpus_scope_limitation": "Money conservation validates net obligations within the acquired action corpus/window only. Acquisition filters can omit older positive, negative and zero actions; complete award funding and history completeness are not established. Live history figures remain separate."
+}

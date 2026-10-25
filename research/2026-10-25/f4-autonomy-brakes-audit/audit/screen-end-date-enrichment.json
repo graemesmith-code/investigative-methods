@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "counts": {
+    "candidate_records_without_raw_end_dates": 1771,
+    "candidate_awards_with_raw_end_dates": 3730
+  },
+  "join": "Complete exact award key only, never PIID/name matching",
+  "money_changed": false,
+  "limitation": "All date observations retained; latest source action is not proof of active technical work, option exercise or legal restraint. Same-date conflicting fields remain visible in source observations.",
+  "retrieved_utc": "2026-10-25T15:40:56.115687+00:00"
+}

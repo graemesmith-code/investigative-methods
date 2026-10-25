@@ -38,3 +38,22 @@ Excluded rows remain in the register for auditability: SP470124P0068, HDTRA124P0
 Abstracts often describe proposals and future demonstrations. The CSV deliberately labels mechanisms as proposed where appropriate and attributes earlier success claims to the abstract. It is not a full statement-of-work review, an independent replication, an assessment of current award performance, or proof a capability has been fielded. This review adds no contract, program-count or category-dollar total. Source-row money and options were not used to infer safeguard budgets.
 
 All 58 supplied keys were checked for one-to-one coverage and uniqueness in the CSV, and dispositions sum to 58. The input remained private; only short authored paraphrases, source locators and hashes appear here. No paid calls, credentials or outreach were used.
+
+## Final primary-source crosswalk and ANSR scope check
+
+Eight known specific SBIR award links were added in `technical_primary_url`, while retaining the original generic archive URL in both `source_url` and `archive_source_url`. URL provenance is explicit in `technical_url_basis`. The Arete link [218265](https://www.sbir.gov/awards/218265) was checked against **N0002425CS104**, not incorrectly assigned to its older Phase I. Pages [208942](https://www.sbir.gov/awards/208942) and [209955](https://www.sbir.gov/awards/209955) support the nLoop flight-safety and Black Box Simplex/reachability mechanisms described above. [EpochGeo 209584](https://www.sbir.gov/awards/209584) failed web-open but subsequent direct HTTP retrieval succeeded; the recorded scope finding remains based on the hashed archived abstract.
+
+The [CMU SymAnt thesis](https://www.ri.cmu.edu/app/uploads/2025/06/Symant.pdf), dated 25 October 2025 on its cover, explicitly acknowledges ANSR grant **FA8750-23-2-1015**, plus ARL grants W911QX24F0049 and W911NF2320007, on printed page ix / PDF page 9. Its technical abstract evaluates prediction of human actions from short videos, including kitchen datasets; this is a concrete neuro-symbolic research output, not demonstrated LOAC testing. The URL’s `/2025/06/` upload path does not replace the document’s stated date. No award dollars were inferred or added.
+
+The UCSC projects page `https://hybrid.soe.ucsc.edu/projects` timed out through web-open, then returned HTTP503 on direct retrieval. This reviewer could not verify its exact FA95501910169 funding linkage or scope from the page; main-audit indexed evidence remains separately identified.
+
+Direct retrieval receipts, 25 October 2026:
+
+| Source | HTTP | Bytes | SHA-256 |
+|---|---:|---:|---|
+| CMU SymAnt PDF | 200 | 1552078 | 5cab42b3262158145caf3daf1a3b8eaaf8627f6a60f9f73b9b757a8980559f99 |
+| SBIR 208942 | 200 | 37097 | 21b6ccfd8f6859bee11534817f6ea9052ed5962ecbc2f9c1d3d5806e1377057d |
+| SBIR 209955 | 200 | 38414 | 93270056c8ff357ce29ace6d4a900696d053d272c22d6c47186bd5e50aa240eb |
+| SBIR 209584 | 200 | 36251 | 80c7cb73f249644260fc16e6a5f5f28817507438dc415cbe04f4c991775f321a |
+| SBIR 218265 | 200 | 35688 | 8ea69f6929a9952edcd162ef16dd67393b0828fd262db5bbf3bda42bac3a6e92 |
+| UCSC projects page | 503 | — | Failed; no source-body hash claimed |

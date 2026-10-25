@@ -1,0 +1,45 @@
+{
+  "status": "completed_recoveries",
+  "events": [
+    {
+      "action": "Initial library archive materialization",
+      "outcome": "HTTP401 before bytes materialized; later parent-supported native transfer and current helper succeeded; all3archive hashes independently verified in canonical sweep",
+      "remaining_blocker": false
+    },
+    {
+      "action": "Canonical initial setup",
+      "outcome": "Early extraction run superseded before substantive ingestion after real schema exposed text_page_excerpt and nested raw fields; final full sweep used expanded field parsing",
+      "remaining_blocker": false
+    },
+    {
+      "action": "Serial auxiliary execution",
+      "outcome": "Incomplete slow serial run superseded by three fresh, disjoint local archive partitions; all final partitions fully completed and conserved in merged accounting; no API calls or paid spending",
+      "remaining_blocker": false
+    },
+    {
+      "action": "First research-context auxiliary partition: financial_actions.parquet row277",
+      "exact_error": "TypeError: Object of type date is not JSON serializable",
+      "reason": "Arrow date32/Decimal128 differed from JSONL date/decimal strings",
+      "resolution": "Lossless ISO-date/exact-decimal string conversion; full research-context partition rerun from scratch. All712186financial parquet rows subsequently semantically equal to JSONL. Original incomplete result excluded from final merge.",
+      "remaining_blocker": false
+    },
+    {
+      "action": "Fresh editor terms",
+      "resolution": "Initial canonical lexicon missed CODORD/deontic aliases. Full stored-description follow-up found10source observations of one additional complete awardkey; initial and refreshed editor audits retained.",
+      "remaining_blocker": false
+    },
+    {
+      "action": "Raw institutional office aliases",
+      "resolution": "Full raw office follow-up expanded TRMC MGMT, CDAO ampersand, operational test office and Army CMD aliases; source appearances and distinct awardkeys separated; no added money.",
+      "remaining_blocker": false
+    },
+    {
+      "action": "First full performer-trace end-date enrichment",
+      "exact_error": "_csv.Error: field larger than field limit (131072)",
+      "resolution": "Raised CSV parser field-size limit to sys.maxsize and reran full enrichment; final JSON/CSV description equality and oversized-field parsing verified, without truncation.",
+      "remaining_blocker": false
+    }
+  ],
+  "recorded_utc": "2026-10-25T15:28:33.116049+00:00",
+  "financial_action_corpus_scope_limitation": "Money is net obligations within the acquired action corpus/window, not complete award funding. Acquisition filters can omit older positive, negative or zero actions; these nets are not guaranteed lower bounds. Internal joins, hashes and conservation do not prove source-history completeness. Keep live complete-history sums separate."
+}

@@ -1,0 +1,2205 @@
+{
+  "started_utc": "2026-10-25T14:35:37.951183+00:00",
+  "status": "completed",
+  "archives": [
+    {
+      "filename": "FWI-20261016-normalized-research-context.tar.gz",
+      "bytes": 337205379,
+      "sha256": "b9ad7acc6061f21792c4d26efc57940e4506702e22c490046d69f5e5b292a8eb",
+      "expected_sha256": "b9ad7acc6061f21792c4d26efc57940e4506702e22c490046d69f5e5b292a8eb",
+      "verified": true
+    },
+    {
+      "filename": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "bytes": 298124789,
+      "sha256": "63809f0fbf8fc5427341e637054cfe2012f6f7f5c28379af9178f735a6762317",
+      "expected_sha256": "63809f0fbf8fc5427341e637054cfe2012f6f7f5c28379af9178f735a6762317",
+      "verified": true
+    },
+    {
+      "filename": "FWI-20261016-normalized-capabilities.tar.gz",
+      "bytes": 193288531,
+      "sha256": "a06375165baf25a4532ee6bef8c3cb47aba05ebb6c03cc55db8253487953b96e",
+      "expected_sha256": "a06375165baf25a4532ee6bef8c3cb47aba05ebb6c03cc55db8253487953b96e",
+      "verified": true
+    }
+  ],
+  "archive_members": [
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/DOE_FY2019_LDRD_1.ocr.json",
+      "bytes": 50254,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/DOE_FY2021_LDRD_1.ocr.json",
+      "bytes": 57813,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/PB2025_budget_authority_source.parquet",
+      "bytes": 703877,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/PB2025_outlays_source.parquet",
+      "bytes": 900353,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/PB2027_budget_authority_source.parquet",
+      "bytes": 731605,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/PB2027_outlays_source.parquet",
+      "bytes": 930735,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/apfit_fy2022_projects.jsonl.gz",
+      "bytes": 3870,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/apfit_fy2022_projects.parquet",
+      "bytes": 28474,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/apfit_index.txt",
+      "bytes": 10007,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/apfit_pages.jsonl.gz",
+      "bytes": 7856,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/apfit_pages.parquet",
+      "bytes": 25837,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/apfit_tables.json",
+      "bytes": 3,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/army_budget_pages.jsonl.gz",
+      "bytes": 49,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/commons_pages.jsonl.gz",
+      "bytes": 37142,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/commons_pages.parquet",
+      "bytes": 65593,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/commons_projects.jsonl.gz",
+      "bytes": 41922,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/commons_projects.parquet",
+      "bytes": 85817,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/darpa_budget_pages.jsonl.gz",
+      "bytes": 212582,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/darpa_budget_pages.parquet",
+      "bytes": 215942,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/darpa_pb2025_programs.jsonl.gz",
+      "bytes": 127309,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/darpa_pb2025_programs.parquet",
+      "bytes": 206164,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/doe_ldrd_pages.jsonl.gz",
+      "bytes": 136198,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/doe_ldrd_pages.parquet",
+      "bytes": 91909,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/doe_ldrd_table1_fy2019_2025.jsonl.gz",
+      "bytes": 11638,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/doe_ldrd_table1_fy2019_2025.parquet",
+      "bytes": 31041,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/federal_funds_source_rows.jsonl.gz",
+      "bytes": 196158,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/federal_funds_source_rows.parquet",
+      "bytes": 271018,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/ffrdc_expenditures.parquet",
+      "bytes": 33193,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/ffrdc_source.jsonl.gz",
+      "bytes": 11961,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/ffrdc_source.parquet",
+      "bytes": 20939,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/financial_actions.jsonl.gz",
+      "bytes": 49335636,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/financial_actions.parquet",
+      "bytes": 41529606,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/govinfo_budget_pages.jsonl.gz",
+      "bytes": 214404,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/govinfo_budget_pages.parquet",
+      "bytes": 235075,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/grants.jsonl.gz",
+      "bytes": 3419966,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/grants.parquet",
+      "bytes": 3621765,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/grants_selected_source.jsonl.gz",
+      "bytes": 3305250,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/grants_selected_source.parquet",
+      "bytes": 5018743,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/navy_budget_pages.jsonl.gz",
+      "bytes": 49,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/omb_security_fy2019_2026.jsonl.gz",
+      "bytes": 2249306,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/omb_security_fy2019_2026.parquet",
+      "bytes": 3343484,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/psc_Category_Managers.parquet",
+      "bytes": 6169,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/psc_PSC_for_042025.parquet",
+      "bytes": 307662,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sandia_ldrd_pages.jsonl.gz",
+      "bytes": 115021,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sandia_ldrd_pages.parquet",
+      "bytes": 165678,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sbir.jsonl.gz",
+      "bytes": 13023245,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sbir.parquet",
+      "bytes": 16019658,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sbir_current.jsonl.gz",
+      "bytes": 19597598,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sbir_current.parquet",
+      "bytes": 23584766,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sbir_current_exact_deduplicated.parquet",
+      "bytes": 23591881,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/sbir_usaspending_candidate_links.parquet",
+      "bytes": 156349,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_dod_research_grants.jsonl.gz",
+      "bytes": 16100190,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_dod_research_grants.parquet",
+      "bytes": 14918088,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_dod_research_grants_subawards.jsonl.gz",
+      "bytes": 5855097,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_dod_research_grants_subawards.parquet",
+      "bytes": 5520895,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_dod_research_grants_subawards_source.parquet",
+      "bytes": 3873127,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_dod_research_grants_transactions_source.parquet",
+      "bytes": 8447294,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-research-context.tar.gz",
+      "name": "normalized/usaspending_unique_transaction_index.parquet",
+      "bytes": 105671303,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_darpa.jsonl.gz",
+      "bytes": 2027528,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_darpa.parquet",
+      "bytes": 1799133,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_darpa_subawards.jsonl.gz",
+      "bytes": 1026670,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_darpa_subawards.parquet",
+      "bytes": 973929,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_darpa_subawards_source.parquet",
+      "bytes": 708289,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_darpa_transactions_source.parquet",
+      "bytes": 1459702,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_contracts.jsonl.gz",
+      "bytes": 61398755,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_contracts.parquet",
+      "bytes": 56403571,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_contracts_subawards.jsonl.gz",
+      "bytes": 33034975,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_contracts_subawards.parquet",
+      "bytes": 27166097,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_contracts_subawards_source.parquet",
+      "bytes": 18461623,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_contracts_transactions_source.parquet",
+      "bytes": 41598359,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2019.jsonl.gz",
+      "bytes": 8774985,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2019.parquet",
+      "bytes": 8219908,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2019_subawards.jsonl.gz",
+      "bytes": 4797158,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2019_subawards.parquet",
+      "bytes": 4005070,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2019_subawards_source.parquet",
+      "bytes": 2945214,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2019_transactions_source.parquet",
+      "bytes": 7072611,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2026.jsonl.gz",
+      "bytes": 8708365,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2026.parquet",
+      "bytes": 8240051,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2026_subawards.jsonl.gz",
+      "bytes": 772412,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2026_subawards.parquet",
+      "bytes": 831265,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2026_subawards_source.parquet",
+      "bytes": 607021,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "name": "normalized/usaspending_dod_rd_fy2026_transactions_source.parquet",
+      "bytes": 7275227,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities.jsonl.gz",
+      "bytes": 53470222,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities.parquet",
+      "bytes": 49899822,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2019.jsonl.gz",
+      "bytes": 4711709,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2019.parquet",
+      "bytes": 4609228,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2019_subawards.jsonl.gz",
+      "bytes": 2555224,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "bytes": 1652501,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2019_subawards_source.parquet",
+      "bytes": 1121561,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2019_transactions_source.parquet",
+      "bytes": 3970143,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2026.jsonl.gz",
+      "bytes": 8433745,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2026.parquet",
+      "bytes": 8134536,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2026_subawards.jsonl.gz",
+      "bytes": 173972,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "bytes": 205130,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2026_subawards_source.parquet",
+      "bytes": 244398,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_fy2026_transactions_source.parquet",
+      "bytes": 6554358,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_subawards.jsonl.gz",
+      "bytes": 9146423,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_subawards.parquet",
+      "bytes": 6789261,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_subawards_source.parquet",
+      "bytes": 4854731,
+      "kind": "file"
+    },
+    {
+      "archive": "FWI-20261016-normalized-capabilities.tar.gz",
+      "name": "normalized/usaspending_dod_capabilities_transactions_source.parquet",
+      "bytes": 34702381,
+      "kind": "file"
+    }
+  ],
+  "files": [
+    {
+      "name": "usaspending_dod_capabilities.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities.jsonl.gz",
+      "bytes": 53470222,
+      "sha256": "a79d60513813f4fd60a76292b504d10e3795c3243b43973ce5b8fa50dd5fd5fb",
+      "physical_rows": 305768,
+      "parsed_rows": 305768,
+      "selected_rows": 867,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_capabilities.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities.parquet",
+      "bytes": 49899822,
+      "sha256": "f4c7baff9fff6de6f608377713c721a9c2c8fea7990d8608d6da7ad4d4692754",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2019.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2019.jsonl.gz",
+      "bytes": 4711709,
+      "sha256": "ac7a50965ae34212d5dc08c43cd208477fc386bc95137b41024c8bfbbb7119fb",
+      "physical_rows": 24383,
+      "parsed_rows": 24383,
+      "selected_rows": 86,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2019.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2019.parquet",
+      "bytes": 4609228,
+      "sha256": "864c003207f368630ccbf22180e287c4e179d701a8d14f1921e98ba72f67f8dd",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2019_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2019_subawards.jsonl.gz",
+      "bytes": 2555224,
+      "sha256": "b7af817d6d89970a6a062a7b4483aab6e8f4860ac8935f1526f560d43732f9f4",
+      "physical_rows": 8773,
+      "parsed_rows": 8773,
+      "selected_rows": 1494,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2019_subawards.parquet",
+      "bytes": 1652501,
+      "sha256": "a2f191687eb519bd01270c1a18ffba8992357cca08e7988bbbc91ef34324cfad",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2019_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2019_subawards_source.parquet",
+      "bytes": 1121561,
+      "sha256": "65f0344d42aeff414597b7a920ba9d75242501c70d65d4c8124b7a3c46e97fd4",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2019_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2019_transactions_source.parquet",
+      "bytes": 3970143,
+      "sha256": "648e27d8b4fa841441e83cc3db881d1b181689d4765113d8f83db83173048b4a",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2026.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2026.jsonl.gz",
+      "bytes": 8433745,
+      "sha256": "3e857b64369a5cc1bcab63637197ca05ae4dfff277e3f3ed434b6e5553cb19a9",
+      "physical_rows": 35822,
+      "parsed_rows": 35822,
+      "selected_rows": 137,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2026.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2026.parquet",
+      "bytes": 8134536,
+      "sha256": "ff6e6fe9e0814a8d082bb32804f108ec00cd4916f15b24ddfa2c20dd3c5bbb5e",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2026_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2026_subawards.jsonl.gz",
+      "bytes": 173972,
+      "sha256": "b4873b1d855a66a631242920ce2dd2d5c36e4993215329c11c1f367b79c52cfd",
+      "physical_rows": 551,
+      "parsed_rows": 551,
+      "selected_rows": 4,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2026_subawards.parquet",
+      "bytes": 205130,
+      "sha256": "c674181195d7e808c53d482715ccdd4be3989ea537f4c7da293ac75a49b43e70",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2026_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2026_subawards_source.parquet",
+      "bytes": 244398,
+      "sha256": "9a188818de75fa467b40b2e45b9bd6416d9eeacb89daaeb90b86ffc68f048a76",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_fy2026_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_fy2026_transactions_source.parquet",
+      "bytes": 6554358,
+      "sha256": "c62e0f4ac484626120202771b63fabc6565be7e9289eaea19e35056ec5fe0830",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_subawards.jsonl.gz",
+      "bytes": 9146423,
+      "sha256": "67dab41e6f2ade8299cee8cd23f929f76763de0d81339f29dc3f68e26f106f46",
+      "physical_rows": 31308,
+      "parsed_rows": 31308,
+      "selected_rows": 3845,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_capabilities_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_subawards.parquet",
+      "bytes": 6789261,
+      "sha256": "efcdb4beb6fa74d8c321dd28411aec6c6df4e38f8f1bc68f74dc27a942a2c97b",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_subawards_source.parquet",
+      "bytes": 4854731,
+      "sha256": "65780e41dec9a4d423b7bd4f5e2e5e7ffccbc6f84e39f1f917ade86683189977",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_capabilities_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-capabilities/normalized/usaspending_dod_capabilities_transactions_source.parquet",
+      "bytes": 34702381,
+      "sha256": "8f120e79c15ac1992a3c26bcb33331426ee7975ab9a0daa380a0edda346f7837",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_darpa.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_darpa.jsonl.gz",
+      "bytes": 2027528,
+      "sha256": "04de57e65cdb259d7632bcb6d3b4a48be168ebcf5fb0d20ea56044e3a75e6251",
+      "physical_rows": 12057,
+      "parsed_rows": 12057,
+      "selected_rows": 156,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_darpa.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_darpa.parquet",
+      "bytes": 1799133,
+      "sha256": "8f2f0ce0c78e0ccd4d34f713e069d7566519b1232674de94d5230a838682855a",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_darpa_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_darpa_subawards.jsonl.gz",
+      "bytes": 1026670,
+      "sha256": "760d9757d2b26c9f9d2d561e6eab3625162c3378ae5ba9257d78fef02adb1cff",
+      "physical_rows": 4869,
+      "parsed_rows": 4869,
+      "selected_rows": 22,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_darpa_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_darpa_subawards.parquet",
+      "bytes": 973929,
+      "sha256": "56d0ca82d4b552db44eee0d8dea450c5c7e79aa9870c800ebf164ad39b6603bc",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_darpa_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_darpa_subawards_source.parquet",
+      "bytes": 708289,
+      "sha256": "54023046b474a2a0b2acce75f398734848511b0c004c458916d27bc56748f0b5",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_darpa_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_darpa_transactions_source.parquet",
+      "bytes": 1459702,
+      "sha256": "b559b894cb3e4c1a5552d8ed43862b0240edcab4bf31d36dfbc8114893c06567",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_contracts.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts.jsonl.gz",
+      "bytes": 61398755,
+      "sha256": "638a90c8071e05c72d90b60b6136fe56bd3aea72072fe8361004716e8eff6eae",
+      "physical_rows": 342900,
+      "parsed_rows": 342900,
+      "selected_rows": 7195,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_rd_contracts.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts.parquet",
+      "bytes": 56403571,
+      "sha256": "bfc6f2f6e8354a9272369b4df4cfaf5e1d5307799e53fc9d728aa1be678564c9",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_contracts_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts_subawards.jsonl.gz",
+      "bytes": 33034975,
+      "sha256": "04210e586c3882756da379d61fea234a5a3eea8c64585c33621aa98a00e50c67",
+      "physical_rows": 131534,
+      "parsed_rows": 131534,
+      "selected_rows": 823,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_rd_contracts_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts_subawards.parquet",
+      "bytes": 27166097,
+      "sha256": "bb8071ebe48c2ffeb9c3091b8065f88981d51665d1815281fdf3beea2b6375e5",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_contracts_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts_subawards_source.parquet",
+      "bytes": 18461623,
+      "sha256": "62ebda85cf8e458b4189bfd190dcd811291526137bc7b965184b0eb47b7ad937",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_contracts_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts_transactions_source.parquet",
+      "bytes": 41598359,
+      "sha256": "24ad4be2c1949a184e8a52f482251ba978834db41c77d6ac643e5b8a4c84e9d8",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2019.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2019.jsonl.gz",
+      "bytes": 8774985,
+      "sha256": "62762ace1c460b774f534ac96ed5cd6d92e9f4f5fe0d6ec87feaba513af56cd4",
+      "physical_rows": 44337,
+      "parsed_rows": 44337,
+      "selected_rows": 205,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2019.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2019.parquet",
+      "bytes": 8219908,
+      "sha256": "e888e2d96e48a9cb6f2f7ae105c08204f72de69423aaefd67a9ce229f128cab8",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2019_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2019_subawards.jsonl.gz",
+      "bytes": 4797158,
+      "sha256": "5851085c65bd5cd8b29d3967e0d2216b6a484d13c29ad33256132480ae2a1ff5",
+      "physical_rows": 19937,
+      "parsed_rows": 19937,
+      "selected_rows": 290,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2019_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2019_subawards.parquet",
+      "bytes": 4005070,
+      "sha256": "1a64cf7e0947985e5cc3a3a32f7e6e4fd84c1d46aebd301ef04d47f61f3f441d",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2019_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2019_subawards_source.parquet",
+      "bytes": 2945214,
+      "sha256": "ca1eebecd2bb08b94e5a8b2c66e681567f1ba32a58baca0dc8e83c0d878c3011",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2019_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2019_transactions_source.parquet",
+      "bytes": 7072611,
+      "sha256": "221cc66c426ba3959a4dd01463633ec5165ab957bceb0e8ccf579cd5ee658654",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2026.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2026.jsonl.gz",
+      "bytes": 8708365,
+      "sha256": "a92f90baf6ef4ac6bffc8e52dc958b6651134e1456e02e05a6ecd74642c2c94d",
+      "physical_rows": 33089,
+      "parsed_rows": 33089,
+      "selected_rows": 5375,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2026.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2026.parquet",
+      "bytes": 8240051,
+      "sha256": "3802bacb2c574b92caa314f42cf7c456b1ce9fa24515776317c55430bfb23856",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2026_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2026_subawards.jsonl.gz",
+      "bytes": 772412,
+      "sha256": "edfb351aaee9d34fe1fb4c1a0ef62ce920bbdb903ea3b082d58f4fc5f85a63c8",
+      "physical_rows": 3090,
+      "parsed_rows": 3090,
+      "selected_rows": 7,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2026_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2026_subawards.parquet",
+      "bytes": 831265,
+      "sha256": "087f0f83bd267a6e433e97a5bbc17db2dfe1956838550f71c10cc536613e7108",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2026_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2026_subawards_source.parquet",
+      "bytes": 607021,
+      "sha256": "7f7e38919af4737de05aa10917adb408c21383cf36aef8170f7919a7008685fe",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_rd_fy2026_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_fy2026_transactions_source.parquet",
+      "bytes": 7275227,
+      "sha256": "d4494cc40e0da1273b3ed3d7e097ca634d508418ff66b0eec5b210c9d04fb18d",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "DOE_FY2019_LDRD_1.ocr.json",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/DOE_FY2019_LDRD_1.ocr.json",
+      "bytes": 50254,
+      "sha256": "67aaf95ff51d331afc6e5705f09b245f1c649082a65333adfea0f0412a091c9f",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "DOE_FY2021_LDRD_1.ocr.json",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/DOE_FY2021_LDRD_1.ocr.json",
+      "bytes": 57813,
+      "sha256": "60389be82109e2f7bdc14f5e7cf0048116d58259360491f6467704d09e15d77c",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "PB2025_budget_authority_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/PB2025_budget_authority_source.parquet",
+      "bytes": 703877,
+      "sha256": "1fe2436d20ad16eb52a1ea496b8a7e9794929f33de096a21e5cf6162bd7721e9",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "PB2025_outlays_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/PB2025_outlays_source.parquet",
+      "bytes": 900353,
+      "sha256": "2834be06b03bb4358f6c99e039d42dbd4305c15a13b8c640879c22452711d950",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "PB2027_budget_authority_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/PB2027_budget_authority_source.parquet",
+      "bytes": 731605,
+      "sha256": "872087bcf24fddbbdf52582989de63d98615fae1722801771e746a5014a84c48",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "PB2027_outlays_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/PB2027_outlays_source.parquet",
+      "bytes": 930735,
+      "sha256": "86a3cbc0eec0d6377740009f3f8242cbb2b5a66363fcd828637978de0080863f",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "apfit_fy2022_projects.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/apfit_fy2022_projects.jsonl.gz",
+      "bytes": 3870,
+      "sha256": "33d777c2c24e22d11fb80e34f2629479981aebe44f26bc1fd51237cc336f33df",
+      "physical_rows": 10,
+      "parsed_rows": 10,
+      "selected_rows": 1,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "apfit_fy2022_projects.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/apfit_fy2022_projects.parquet",
+      "bytes": 28474,
+      "sha256": "913ab898739cb8bfa5e1b38a8a9462048b7bdfd49c7f06b92eed2277fe22f84a",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "apfit_index.txt",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/apfit_index.txt",
+      "bytes": 10007,
+      "sha256": "5e96726907ad7fbafcbddab6c0746a08124064a52d1c7d7bb8fc07a2bc96abcc",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "apfit_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/apfit_pages.jsonl.gz",
+      "bytes": 7856,
+      "sha256": "c9eb061a2875db406e4bedf004c293a0975b3253584eacf2c43027dc7f45527f",
+      "physical_rows": 11,
+      "parsed_rows": 11,
+      "selected_rows": 1,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "apfit_pages.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/apfit_pages.parquet",
+      "bytes": 25837,
+      "sha256": "f0c5609eef8e2800ed3bed69d85947775602895d5bf0dacdc170bfa6382b801a",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "apfit_tables.json",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/apfit_tables.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "army_budget_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/army_budget_pages.jsonl.gz",
+      "bytes": 49,
+      "sha256": "045c1b5fce797b1c0a5d82bdc6dcec73858d5710d238190d41eb0a3e3479794b",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "commons_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/commons_pages.jsonl.gz",
+      "bytes": 37142,
+      "sha256": "22172f748a65c3c7d09c4d6fe02aee2dedf0e2601dd3694515555eaba949d7c4",
+      "physical_rows": 26,
+      "parsed_rows": 26,
+      "selected_rows": 2,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "commons_pages.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/commons_pages.parquet",
+      "bytes": 65593,
+      "sha256": "1d86c5d9a9678fa2c96720c451c1f242ea3c27d8abef3535aef171bc8d7a6c49",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "commons_projects.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/commons_projects.jsonl.gz",
+      "bytes": 41922,
+      "sha256": "b5bf9fab17455250a1a95a4513141a6fb84086749c2ad9608e334ac00898d6ce",
+      "physical_rows": 57,
+      "parsed_rows": 57,
+      "selected_rows": 2,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "commons_projects.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/commons_projects.parquet",
+      "bytes": 85817,
+      "sha256": "757dbb9cba77101d15bc1d2ba93a475736cc134e981834023db5fd914fa9fc0a",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "darpa_budget_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/darpa_budget_pages.jsonl.gz",
+      "bytes": 212582,
+      "sha256": "e6e56c6c05695994c08c3263290a79fdfa0dd75f8270580fe6cdfb41aba5d231",
+      "physical_rows": 252,
+      "parsed_rows": 252,
+      "selected_rows": 29,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "darpa_budget_pages.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/darpa_budget_pages.parquet",
+      "bytes": 215942,
+      "sha256": "ea59a55da7b81e5d4213b010e03b6eaabffea957c738820d461fd7bcc787d75a",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "darpa_pb2025_programs.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/darpa_pb2025_programs.jsonl.gz",
+      "bytes": 127309,
+      "sha256": "617eeeab868762d1cb61b3e692c69acb19c8d1a298da70ab3412f5c5f701903e",
+      "physical_rows": 256,
+      "parsed_rows": 256,
+      "selected_rows": 15,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "darpa_pb2025_programs.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/darpa_pb2025_programs.parquet",
+      "bytes": 206164,
+      "sha256": "b6b9e63a727bd9d346222484ab44e9f9c2620565406b44c4aaa62e000d37d2a9",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "doe_ldrd_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/doe_ldrd_pages.jsonl.gz",
+      "bytes": 136198,
+      "sha256": "8cfae4aab2e3d32891b909a62af9ed5f9fa0971d32fc021dc2a974e7d770cc4e",
+      "physical_rows": 167,
+      "parsed_rows": 167,
+      "selected_rows": 16,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "doe_ldrd_pages.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/doe_ldrd_pages.parquet",
+      "bytes": 91909,
+      "sha256": "1c0de0b89501ad5624ed57e0f85a981a78641555b7cdb4419cb5770533474d26",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "doe_ldrd_table1_fy2019_2025.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/doe_ldrd_table1_fy2019_2025.jsonl.gz",
+      "bytes": 11638,
+      "sha256": "9b4e9060c7227aa1b088558bbef048b8b74fb0d074f4bf55cd580294d1cd8a33",
+      "physical_rows": 123,
+      "parsed_rows": 123,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "doe_ldrd_table1_fy2019_2025.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/doe_ldrd_table1_fy2019_2025.parquet",
+      "bytes": 31041,
+      "sha256": "f79665f9d1340b800f899c313c77c889e0683a6d67323ceecdbaf9ab4894261b",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "federal_funds_source_rows.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/federal_funds_source_rows.jsonl.gz",
+      "bytes": 196158,
+      "sha256": "d44d924e13fcbf7a5d42f72bfae41014a8f69df810d33cddd497fb7adb8a529b",
+      "physical_rows": 8355,
+      "parsed_rows": 8355,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "federal_funds_source_rows.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/federal_funds_source_rows.parquet",
+      "bytes": 271018,
+      "sha256": "92fd80f949b1a5e5c7021cf2e869ff14ad4ef0a1aab2ce19fe58b2ae9ed0eae0",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "ffrdc_expenditures.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/ffrdc_expenditures.parquet",
+      "bytes": 33193,
+      "sha256": "50706d002efe9ac84480b73321754e26058c757038732135a2a227eec7e8feca",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "ffrdc_source.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/ffrdc_source.jsonl.gz",
+      "bytes": 11961,
+      "sha256": "004124da3ef5930435a22c4d641e5f2c4c7ffa011de8756eb1be49124c7dc843",
+      "physical_rows": 862,
+      "parsed_rows": 862,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "ffrdc_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/ffrdc_source.parquet",
+      "bytes": 20939,
+      "sha256": "c607b1fbdeffc85e9b1cd1942c693007a1b3d7ceb460447b635fe02d0aef12b5",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "financial_actions.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/financial_actions.jsonl.gz",
+      "bytes": 49335636,
+      "sha256": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5",
+      "physical_rows": 712186,
+      "parsed_rows": 712186,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "financial_actions"
+    },
+    {
+      "name": "financial_actions.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/financial_actions.parquet",
+      "bytes": 41529606,
+      "sha256": "ce88ef51175e883d4dfc9e71c533b72e00d9fb18f2347f62a343cd4dc008fc76",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "govinfo_budget_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/govinfo_budget_pages.jsonl.gz",
+      "bytes": 214404,
+      "sha256": "09a1decce0d2263060f7f033357c7f91855a540515eb9013e648437325f75495",
+      "physical_rows": 114,
+      "parsed_rows": 114,
+      "selected_rows": 4,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "govinfo_budget_pages.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/govinfo_budget_pages.parquet",
+      "bytes": 235075,
+      "sha256": "584bc7d8d7108268eb3cfe8f95418e859ec0d3784234744cef3dcf28d83dbd4e",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "grants.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/grants.jsonl.gz",
+      "bytes": 3419966,
+      "sha256": "6c5e6a1f10a70f19f6f23e12cf2f2532b89fe7f5d487ab90d2b9f25ece91be88",
+      "physical_rows": 3283,
+      "parsed_rows": 3283,
+      "selected_rows": 204,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "grants.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/grants.parquet",
+      "bytes": 3621765,
+      "sha256": "b824c74d8acfa4926704db8160fa8947ace836261c0a609bdbb17077a3fea5fe",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "grants_selected_source.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/grants_selected_source.jsonl.gz",
+      "bytes": 3305250,
+      "sha256": "999a1843414f38c2c5949992d073ad98494ab6067928cf0842bc98d225cc2c0c",
+      "physical_rows": 3283,
+      "parsed_rows": 3283,
+      "selected_rows": 208,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "grants_selected_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/grants_selected_source.parquet",
+      "bytes": 5018743,
+      "sha256": "4114536f5be443cd2e26c7b1c6e582e45564ad945b7240cadace89e525f6d9f0",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "navy_budget_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/navy_budget_pages.jsonl.gz",
+      "bytes": 49,
+      "sha256": "1c1ab20207e9f7186fc1d4279da3bd9a53069f16158600f7b41183225aa90788",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "omb_security_fy2019_2026.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/omb_security_fy2019_2026.jsonl.gz",
+      "bytes": 2249306,
+      "sha256": "173693efcd53c73c049f2d18d8c2d40f53f5518a92aa2c4cdf02071e0b54cec6",
+      "physical_rows": 38600,
+      "parsed_rows": 38600,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "omb_security_fy2019_2026.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/omb_security_fy2019_2026.parquet",
+      "bytes": 3343484,
+      "sha256": "136026519e0e0e111c3394d141e40c26063c926f2d79da1e2f333602879f28b0",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "psc_Category_Managers.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/psc_Category_Managers.parquet",
+      "bytes": 6169,
+      "sha256": "49a94019b01924e3451bc463bf75175ab4a4cf3bda6048f11d4a354670c7e751",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "psc_PSC_for_042025.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/psc_PSC_for_042025.parquet",
+      "bytes": 307662,
+      "sha256": "ed544e6344045a7ce3e7fb745c79b790f3e80549b519be7e47b2237a37f32aa5",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "sandia_ldrd_pages.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sandia_ldrd_pages.jsonl.gz",
+      "bytes": 115021,
+      "sha256": "82c71d7354a13c246319219ec0dd7649326bc05f8382d2f9a667a8732a20c9f3",
+      "physical_rows": 131,
+      "parsed_rows": 131,
+      "selected_rows": 5,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "sandia_ldrd_pages.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sandia_ldrd_pages.parquet",
+      "bytes": 165678,
+      "sha256": "f7e6fe5f06e8b1dade0439daccef9a33d6ba66ed06b58a32c85f71993ee66538",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "sbir.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sbir.jsonl.gz",
+      "bytes": 13023245,
+      "sha256": "4dd9d3eb9bc560ce544e7ed3107c73511c00104902681cee749257e94b33dbd4",
+      "physical_rows": 18814,
+      "parsed_rows": 18814,
+      "selected_rows": 778,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "sbir.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sbir.parquet",
+      "bytes": 16019658,
+      "sha256": "3189b9d5c05c4399f363f35d9e4f1e6e1cfcf570cf36f2ff8adc9085847617ba",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "sbir_current.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sbir_current.jsonl.gz",
+      "bytes": 19597598,
+      "sha256": "523734ebbb86f656ed64c96bc821baf370a9cb2294ac114f46f46ba0ea798940",
+      "physical_rows": 25770,
+      "parsed_rows": 25770,
+      "selected_rows": 1323,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "sbir_current.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sbir_current.parquet",
+      "bytes": 23584766,
+      "sha256": "b6eb5978dd44dc08a14c1dbd49569bbe605e7318074e9addcd37b2b80146baf1",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "sbir_current_exact_deduplicated.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sbir_current_exact_deduplicated.parquet",
+      "bytes": 23591881,
+      "sha256": "93feb723e86c33de09e42b367baa8b9d97756481c48263d49daa437ed810837c",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "sbir_usaspending_candidate_links.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/sbir_usaspending_candidate_links.parquet",
+      "bytes": 156349,
+      "sha256": "cea6bb0ffce50da5dd16b8bfdc3747ca58970b6b91e305c31048de7581355bef",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_research_grants.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_dod_research_grants.jsonl.gz",
+      "bytes": 16100190,
+      "sha256": "7f046eb480f076cd84ff79a9eb426a22442099c187ffc6c42c12eac170ff8a89",
+      "physical_rows": 88273,
+      "parsed_rows": 88273,
+      "selected_rows": 472,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_research_grants.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_dod_research_grants.parquet",
+      "bytes": 14918088,
+      "sha256": "36b67e5bf9f728a2162729e7853bf91dae1c0f875c2aee09363b6ed46655c10f",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_research_grants_subawards.jsonl.gz",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_dod_research_grants_subawards.jsonl.gz",
+      "bytes": 5855097,
+      "sha256": "d27995c5b8bb309c5824d256e5bf76e0f9d64443e20a1cb049a4408d9fbfacf7",
+      "physical_rows": 14143,
+      "parsed_rows": 14143,
+      "selected_rows": 327,
+      "errors": [],
+      "status": "full_stream_crc_read_passed",
+      "role": "descriptive_or_context"
+    },
+    {
+      "name": "usaspending_dod_research_grants_subawards.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_dod_research_grants_subawards.parquet",
+      "bytes": 5520895,
+      "sha256": "4cabe7b5b5eb0a5fcf85deddfb87f8cd3626f6619ead8ba51ca2448da3e4f868",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_research_grants_subawards_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_dod_research_grants_subawards_source.parquet",
+      "bytes": 3873127,
+      "sha256": "1625278ff117d664213023c5396a999bc1e1ac0022cc29c88dd9da4a53ecc649",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_dod_research_grants_transactions_source.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_dod_research_grants_transactions_source.parquet",
+      "bytes": 8447294,
+      "sha256": "ae05867150a7e64a26becc8fe2875a023ff9f5f2449a90bf6b92637126b433d3",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    },
+    {
+      "name": "usaspending_unique_transaction_index.parquet",
+      "path": "/workspace/scratch/f4-data-complete/extracted/FWI-20261016-normalized-research-context/normalized/usaspending_unique_transaction_index.parquet",
+      "bytes": 105671303,
+      "sha256": "6213ba7762fea82db443182372de772e08c201ac91c32d78821d67cff100b81f",
+      "physical_rows": 0,
+      "parsed_rows": 0,
+      "selected_rows": 0,
+      "errors": [],
+      "status": "non_jsonl_inventory_only"
+    }
+  ],
+  "failures": [],
+  "lexicon": {
+    "A": [
+      "ETHIC*",
+      "MORAL*",
+      "LAW OF WAR",
+      "LAWS OF WAR",
+      "LOAC",
+      "IHL",
+      "RULES OF ENGAGEMENT",
+      "ROE",
+      "PROPORTIONALITY",
+      "DISTINCTION",
+      "NON-COMBATANT",
+      "NONCOMBATANT",
+      "BYSTANDER",
+      "CIVILIAN HARM",
+      "COLLATERAL DAMAGE",
+      "UNINTENDED ENGAGEMENT",
+      "NONMALEFICENCE",
+      "DE-ESCALATION",
+      "CALVIN",
+      "ASIMOV",
+      "RESPECT",
+      "REBAR",
+      "GEARS",
+      "MAGNET",
+      "CETLAWS",
+      "TEELAWS",
+      "RAIDER"
+    ],
+    "B": [
+      "FAIL-SAFE",
+      "FAILSAFE",
+      "ABORT",
+      "HUMAN CONTROL",
+      "HUMAN JUDGMENT",
+      "HUMAN JUDGEMENT",
+      "HUMAN-IN-THE-LOOP",
+      "HUMAN-ON-THE-LOOP",
+      "POSITIVE HUMAN",
+      "HUMAN AUTHORIZATION",
+      "HUMAN AUTHORISATION",
+      "TARGET AUTHORIZATION",
+      "BOUNDED AUTONOMY",
+      "BOUNDED ENGAGEMENT",
+      "ENGAGEMENT ENVELOPE",
+      "REACHABILITY ENVELOPE",
+      "VETO",
+      "SELF-DESTRUCT",
+      "QUASISTATICS"
+    ],
+    "C": [
+      "RUN-TIME ASSURANCE",
+      "RUNTIME ASSURANCE",
+      "RTA",
+      "ASSURED AUTONOMY",
+      "TRUSTED AUTONOMY",
+      "TRUST-AWARE",
+      "SAFE AUTONOMY",
+      "SAFETY CRITICAL",
+      "FORMAL VERIFICATION",
+      "FORMAL METHODS",
+      "GUARDRAIL*",
+      "TEVV",
+      "TEST AND EVALUATION",
+      "V&V",
+      "IV&V",
+      "CERTIFICATION",
+      "EXPLAINABLE AI",
+      "XAI",
+      "CALIBRAT*",
+      "UNCERTAINTY QUANTIFICATION",
+      "RED TEAM*",
+      "SIMPLEX",
+      "SAFE REINFORCEMENT",
+      "ADVERSARIAL ROBUSTNESS",
+      "DATA POISONING",
+      "SENSOR FUSION CONFIDENCE",
+      "TALON",
+      "ANSR",
+      "TIAMAT",
+      "GARD",
+      "COMPETENCE-AWARE",
+      "COMPETENCY-AWARE",
+      "TRUSTWORTHY AI",
+      "TRUSTED AI",
+      "LINCHPIN",
+      "DCIST",
+      "STRONG"
+    ],
+    "D": [
+      "RESPONSIBLE AI",
+      "RAI",
+      "ELSI",
+      "3000.09",
+      "SHIELD",
+      "SHIELDS",
+      "CDAO",
+      "CHIEF DIGITAL AND AI",
+      "CHIEF DIGITAL AND ARTIFICIAL INTELLIGENCE",
+      "DOT&E",
+      "DIRECTOR OPERATIONAL TEST",
+      "TEST RESOURCE MANAGEMENT CENTER",
+      "TRMC",
+      "TETRAS",
+      "JATIC",
+      "CHMR",
+      "CIVILIAN PROTECTION CENTER",
+      "SENIOR OFFICIAL REVIEW",
+      "NSPM-11"
+    ]
+  },
+  "domain_lexicon": [
+    "ARTIFICIAL INTELLIGENCE",
+    "AI",
+    "AI/ML",
+    "MACHINE LEARNING",
+    "NEURAL",
+    "AUTONOM*",
+    "ROBOT*",
+    "TARGET*",
+    "WEAPON*",
+    "MUNITION*",
+    "UNMANNED",
+    "UNCREWED",
+    "UAV",
+    "UAS",
+    "USV",
+    "UUV",
+    "UGV",
+    "SWARM*",
+    "LETHAL*",
+    "HUMAN MACHINE",
+    "DECISION SUPPORT",
+    "KILL CHAIN"
+  ],
+  "institutional_anchors": [
+    "CDAO",
+    "CHIEF DIGITAL AND AI",
+    "CHIEF DIGITAL AND ARTIFICIAL INTELLIGENCE",
+    "DOT&E",
+    "DIRECTOR OPERATIONAL TEST",
+    "TRMC",
+    "TEST RESOURCE MANAGEMENT CENTER",
+    "TETRAS",
+    "JATIC",
+    "ASIMOV",
+    "CALVIN",
+    "CETLAWS",
+    "TEELAWS",
+    "ANSR",
+    "TIAMAT",
+    "ASSURED AUTONOMY",
+    "GUARANTEEING AI ROBUSTNESS",
+    "COMPETENCE-AWARE MACHINE LEARNING",
+    "COMPETENCY-AWARE MACHINE LEARNING",
+    "LINCHPIN",
+    "DCIST",
+    "AFRL SAFE AUTONOMY",
+    "SHIELD",
+    "SHIELDS"
+  ],
+  "limitations": [
+    "Machine hits are broad leads, not evidence of implemented safeguards.",
+    "Primary A>B>C>D precedence is accounting only; all overlapping memberships retained.",
+    "All obligation sums use exact-key, transaction-deduplicated financial_actions rows, preserving negative amounts. Ceilings and SBIR headline values are never added.",
+    "Missing amounts and missing end dates remain null/explicitly missing, not zero or assumed inactive.",
+    "FY windows use source fiscal_year. CY window uses action_date through 2026-10-25. Snapshot coverage does not extend automatically to cutoff.",
+    "Performer-recipient matching is not proof of ASIMOV continuation; PSC/NAICS and scope review remain necessary.",
+    "Input source universe is bounded; screening does not establish worldwide or classified-program absence."
+  ],
+  "expected_file_coverage": {
+    "apfit_fy2022_projects.jsonl.gz": {
+      "expected_rows": 10,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        10
+      ],
+      "matches_expected": true
+    },
+    "apfit_pages.jsonl.gz": {
+      "expected_rows": 11,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        11
+      ],
+      "matches_expected": true
+    },
+    "army_budget_pages.jsonl.gz": {
+      "expected_rows": 0,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        0
+      ],
+      "matches_expected": true
+    },
+    "commons_pages.jsonl.gz": {
+      "expected_rows": 26,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        26
+      ],
+      "matches_expected": true
+    },
+    "commons_projects.jsonl.gz": {
+      "expected_rows": 57,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        57
+      ],
+      "matches_expected": true
+    },
+    "darpa_budget_pages.jsonl.gz": {
+      "expected_rows": 252,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        252
+      ],
+      "matches_expected": true
+    },
+    "darpa_pb2025_programs.jsonl.gz": {
+      "expected_rows": 256,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        256
+      ],
+      "matches_expected": true
+    },
+    "doe_ldrd_pages.jsonl.gz": {
+      "expected_rows": 167,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        167
+      ],
+      "matches_expected": true
+    },
+    "doe_ldrd_table1_fy2019_2025.jsonl.gz": {
+      "expected_rows": 123,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        123
+      ],
+      "matches_expected": true
+    },
+    "federal_funds_source_rows.jsonl.gz": {
+      "expected_rows": 8355,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        8355
+      ],
+      "matches_expected": true
+    },
+    "ffrdc_source.jsonl.gz": {
+      "expected_rows": 862,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        862
+      ],
+      "matches_expected": true
+    },
+    "financial_actions.jsonl.gz": {
+      "expected_rows": 712186,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        712186
+      ],
+      "matches_expected": true
+    },
+    "govinfo_budget_pages.jsonl.gz": {
+      "expected_rows": 114,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        114
+      ],
+      "matches_expected": true
+    },
+    "grants.jsonl.gz": {
+      "expected_rows": 3283,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        3283
+      ],
+      "matches_expected": true
+    },
+    "grants_selected_source.jsonl.gz": {
+      "expected_rows": 3283,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        3283
+      ],
+      "matches_expected": true
+    },
+    "navy_budget_pages.jsonl.gz": {
+      "expected_rows": 0,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        0
+      ],
+      "matches_expected": true
+    },
+    "omb_security_fy2019_2026.jsonl.gz": {
+      "expected_rows": 38600,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        38600
+      ],
+      "matches_expected": true
+    },
+    "sandia_ldrd_pages.jsonl.gz": {
+      "expected_rows": 131,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        131
+      ],
+      "matches_expected": true
+    },
+    "sbir.jsonl.gz": {
+      "expected_rows": 18814,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        18814
+      ],
+      "matches_expected": true
+    },
+    "sbir_current.jsonl.gz": {
+      "expected_rows": 25770,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        25770
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_research_grants.jsonl.gz": {
+      "expected_rows": 88273,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        88273
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_research_grants_subawards.jsonl.gz": {
+      "expected_rows": 14143,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        14143
+      ],
+      "matches_expected": true
+    },
+    "usaspending_darpa.jsonl.gz": {
+      "expected_rows": 12057,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        12057
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_capabilities.jsonl.gz": {
+      "expected_rows": 305768,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        305768
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_capabilities_fy2019.jsonl.gz": {
+      "expected_rows": 24383,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        24383
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_capabilities_fy2026.jsonl.gz": {
+      "expected_rows": 35822,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        35822
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_rd_contracts.jsonl.gz": {
+      "expected_rows": 342900,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        342900
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_rd_fy2019.jsonl.gz": {
+      "expected_rows": 44337,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        44337
+      ],
+      "matches_expected": true
+    },
+    "usaspending_dod_rd_fy2026.jsonl.gz": {
+      "expected_rows": 33089,
+      "appearances": 1,
+      "observed_unique_content_row_counts": [
+        33089
+      ],
+      "matches_expected": true
+    }
+  },
+  "missing_or_mismatched_expected_files": [],
+  "counts": {
+    "financial_unique_transactions": 712186,
+    "financial_unique_awards": 217493,
+    "descriptive_context_physical_observations": 1200948,
+    "financial_transactions_missing_description": 0,
+    "description_transaction_key_award_conflicts": 0,
+    "financial_description_award_key_mismatches": 0,
+    "machine_screened_candidate_awards_and_documents": 5052,
+    "performer_trace_awards": 2598
+  },
+  "primary_category_counts": {
+    "A": 521,
+    "C": 1527,
+    "B": 138,
+    "D": 2866
+  },
+  "all_category_membership_counts_overlap_do_not_sum": {
+    "A": 521,
+    "B": 141,
+    "C": 1646,
+    "D": 2969
+  },
+  "candidate_primary_category_obligation_cents_fy2024_2026_NOT_safeguard_spending": {
+    "A": 12722436308,
+    "B": 9577127249,
+    "C": 253289357014,
+    "D": 1753107397737
+  },
+  "finished_utc": "2026-10-25T15:14:59.767631+00:00",
+  "elapsed_seconds": 2361.82,
+  "financial_action_corpus_scope_limitation": "Money is net obligations within the acquired action corpus/window, not complete award funding. Acquisition filters can omit older positive, negative or zero actions; these nets are not guaranteed lower bounds. Internal joins, hashes and conservation do not prove source-history completeness. Keep live complete-history sums separate."
+}

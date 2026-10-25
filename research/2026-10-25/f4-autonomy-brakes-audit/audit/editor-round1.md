@@ -1,0 +1,37 @@
+# Independent editor round 1 — initial inventory challenged
+
+Date: 25 October 2026. Role: skeptical editor. Reviewed the initial technical-program review, methodology-accounting.json, Exa reservation implementation, and inherited seven-award ASIMOV register. This round predates completed F4 archive screening and live reconciliation. The following are reporting tasks, not resolved findings.
+
+## Initial verdict under review
+
+The initial inventory properly rejects a universal disappearance claim, but it can still overstate what the counterexamples establish. A webpage, a requirement, a published tool, a funded training project, an executable mission constraint and a deployed engagement safeguard answer different questions. The final report must give separate answers.
+
+## Fresh challenges and required tests
+
+1. **Separate counterexample strength from money/currentness.** TEELAWS is stronger than generic RAI because the Army describes a LOAC-related scoring model in use during 2026. The official SBIR abstract nevertheless says it does not make engagement decisions. CAMP has a September 2026 demonstration of executable constraints, but its precise contract, authority boundary, override behavior and legal acceptance criteria remain unresolved. Neither automatically disproves the narrow proposition about an active acquisition program with onboard legal enforcement. Required test: a case matrix with dated activity, funding evidence, operational scope, and what exact version of the hypothesis each case defeats.
+
+2. **CaTE is an output counterexample, not automatically a current program.** The initial technical table omits CaTE from its fifteen rows despite its obvious normative relevance. Its project page says the pilot concluded in spring 2025. Required test: distinguish the 2025 reference architecture and reusable TEVV outputs from evidence of a separately funded October 2026 implementation or follow-on. Do not use a 2026 retrieval date as a program date.
+
+3. **Program-of-record denominator is incoherent unless defined.** ASIMOV itself is DARPA research. A proposition that excludes other research projects by requiring a program of record can exclude its own baseline. Required test: define research project, funded award, acquisition program of record, implemented safeguard, and operational deployment before counting; provide different counts rather than one denominator.
+
+4. **The four letters cannot be mutually exclusive scientific bins.** TIAMAT's ROE semantics, RTA enforcing a no-fire boundary, sensor uncertainty preventing unlawful engagement, and the autonomous-systems guidebook's ethics/ROE methods are overlap cases. Required test: retain one primary financial category and secondary functional tags; identify which test/constraint makes an A/B tag evidenced rather than inferred. Human-machine teaming or competence communication alone is not a guaranteed veto or positive target authorization.
+
+5. **The inherited ASIMOV options arithmetic is not a cancellation record.** Saab's current/potential date became March 2026 while potential all-options value remained higher; RTX has no options gap. Across the inherited snapshots, a $18,980,148 gap between options-inclusive and exercised values is not proof that every dollar was a Phase II option or that no option was exercised. Required test: live FPDS option-exercise modification reasons and descriptions, original BAA option structure, date changes, and exact historical/current distinction. Report an unexercised-value gap separately from proof of a procurement decision or its reason.
+
+6. **A full performer trace needs negative-search coverage, not seven PIID refreshes.** ASIMOV continuation could appear as new awards, consortium/subaward work, amended existing vehicles, or reusable unfunded outputs. Required test: recipient identity/UEI aliases, date-window and PSC/NAICS strategy, prime and subaward pages, every pagination limit/failure, and a count of screened versus manually verified cases. A failure to find an award under a program name cannot establish no continuation.
+
+7. **TETRAS dollars must not become an ethics budget.** The full parent award key matters. The initial review's $48.99M is a provisional snapshot. Required test: reconcile action obligations, current exercised value and ceiling; identify actual SOW tasks; avoid assigning the entire order to A or even narrowly to AI when the workshare is unknown. The same rule applies to broad FFRDC, JATIC and consortium vehicles.
+
+8. **Archive denominators are appearances, transactions and awards, not interchangeable.** Missing original bytes presently prevents full Stage 1. Required test after access: verify three archive hashes; enumerate every member and row; track overlapping assistance/descriptive slices; exact transaction-key joins; duplicate conflicts; missing descriptions; fiscal-year versus calendar windows; full-award-key aggregation; negative modifications. Until then call the sweep blocked, never complete or exhaustive.
+
+9. **Policy silence is not legal noncompliance.** The NSPM-11 120-day obligation is submission for review with publication where appropriate, unlike the 90-day directive-update issuance language. Required test: give each obligation's actor, verb, object, recipient, classification/publication qualifier, computed deadline and documentary status. A public-search negative cannot prove classified delivery did not occur. Current ESDB/WHS copies, change numbers and document dates need direct verification before claiming a missed 3000.09 update.
+
+10. **The Exa budget guard has an edge-case accounting defect.** It reserves $0.007 and stops its current process if response cost exceeds that amount, but its budget_debit remains $0.007 and the exception overwrites the stop status to uncertain_no_retry. A new process can resume without a persistent stop latch. Required test: include the larger actual cost in budget exposure, persist a global stop state, reject new calls after any cost overrun, and distinguish response-reported spend from conservative exposure. No new paid request is authorized by this editorial observation; root remains sole spender. Pricing/date and account-invoice limitations should remain visible.
+
+11. **Discovery is not inspection.** A large number of Exa results cannot establish a broad census if their bodies, abstracts and award histories were not read. Required test: mark each URL discovered-only versus inspected, primary versus secondary, and retrieval failure. Preserve source hashes without publishing full third-party bodies or signed transfer URLs. Do not count searches as verified programs.
+
+12. **“No normative brakes” and “not universally enforced” are different conclusions.** Showing normative methods, training, constraints and institutional oversight defeats the broad absolute claim; it does not prove every autonomous weapon has enforceable LOAC behavior. Required test: lead with the strongest defensible conclusion and keep the unresolved enforcement/deployment question explicit. No category-level dollar total is justified by keyword matches alone.
+
+## Reporting required before round 2
+
+Reporter should return the case matrix, live action reconciliation, archive coverage status, corrected policy-obligation table, and an accounting test or explanation. Unavailable records remain unresolved rather than becoming zero. Round 2 must challenge the actual new evidence and corrections, not repeat this list as a ceremonial completion log.

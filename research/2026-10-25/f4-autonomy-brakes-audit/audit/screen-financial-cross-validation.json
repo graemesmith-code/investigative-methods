@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "counts": {
+    "transaction_observations_checked": 886629,
+    "exact_transaction_matches": 886629,
+    "nontransaction_context_or_subaward_rows_not_added_to_prime_money": 214205,
+    "canonical_financial_actions": 712186,
+    "canonical_financial_missing_amounts": 0,
+    "description_transactions_outside_financial": 0,
+    "description_missing_action_obligation": 0,
+    "action_obligation_conflicts": 0,
+    "award_key_conflicts": 0,
+    "action_date_conflicts": 0,
+    "fiscal_year_conflicts": 0
+  },
+  "conflicts": [],
+  "files": [
+    {
+      "file": "usaspending_dod_capabilities.jsonl.gz",
+      "sha256": "a79d60513813f4fd60a76292b504d10e3795c3243b43973ce5b8fa50dd5fd5fb",
+      "physical_rows": 305768,
+      "transaction_rows_checked": 305768
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2019.jsonl.gz",
+      "sha256": "ac7a50965ae34212d5dc08c43cd208477fc386bc95137b41024c8bfbbb7119fb",
+      "physical_rows": 24383,
+      "transaction_rows_checked": 24383
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2019_subawards.jsonl.gz",
+      "sha256": "b7af817d6d89970a6a062a7b4483aab6e8f4860ac8935f1526f560d43732f9f4",
+      "physical_rows": 8773,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2026.jsonl.gz",
+      "sha256": "3e857b64369a5cc1bcab63637197ca05ae4dfff277e3f3ed434b6e5553cb19a9",
+      "physical_rows": 35822,
+      "transaction_rows_checked": 35822
+    },
+    {
+      "file": "usaspending_dod_capabilities_fy2026_subawards.jsonl.gz",
+      "sha256": "b4873b1d855a66a631242920ce2dd2d5c36e4993215329c11c1f367b79c52cfd",
+      "physical_rows": 551,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_dod_capabilities_subawards.jsonl.gz",
+      "sha256": "67dab41e6f2ade8299cee8cd23f929f76763de0d81339f29dc3f68e26f106f46",
+      "physical_rows": 31308,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_darpa.jsonl.gz",
+      "sha256": "04de57e65cdb259d7632bcb6d3b4a48be168ebcf5fb0d20ea56044e3a75e6251",
+      "physical_rows": 12057,
+      "transaction_rows_checked": 12057
+    },
+    {
+      "file": "usaspending_darpa_subawards.jsonl.gz",
+      "sha256": "760d9757d2b26c9f9d2d561e6eab3625162c3378ae5ba9257d78fef02adb1cff",
+      "physical_rows": 4869,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_dod_rd_contracts.jsonl.gz",
+      "sha256": "638a90c8071e05c72d90b60b6136fe56bd3aea72072fe8361004716e8eff6eae",
+      "physical_rows": 342900,
+      "transaction_rows_checked": 342900
+    },
+    {
+      "file": "usaspending_dod_rd_contracts_subawards.jsonl.gz",
+      "sha256": "04210e586c3882756da379d61fea234a5a3eea8c64585c33621aa98a00e50c67",
+      "physical_rows": 131534,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_dod_rd_fy2019.jsonl.gz",
+      "sha256": "62762ace1c460b774f534ac96ed5cd6d92e9f4f5fe0d6ec87feaba513af56cd4",
+      "physical_rows": 44337,
+      "transaction_rows_checked": 44337
+    },
+    {
+      "file": "usaspending_dod_rd_fy2019_subawards.jsonl.gz",
+      "sha256": "5851085c65bd5cd8b29d3967e0d2216b6a484d13c29ad33256132480ae2a1ff5",
+      "physical_rows": 19937,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_dod_rd_fy2026.jsonl.gz",
+      "sha256": "a92f90baf6ef4ac6bffc8e52dc958b6651134e1456e02e05a6ecd74642c2c94d",
+      "physical_rows": 33089,
+      "transaction_rows_checked": 33089
+    },
+    {
+      "file": "usaspending_dod_rd_fy2026_subawards.jsonl.gz",
+      "sha256": "edfb351aaee9d34fe1fb4c1a0ef62ce920bbdb903ea3b082d58f4fc5f85a63c8",
+      "physical_rows": 3090,
+      "transaction_rows_checked": 0
+    },
+    {
+      "file": "usaspending_dod_research_grants.jsonl.gz",
+      "sha256": "7f046eb480f076cd84ff79a9eb426a22442099c187ffc6c42c12eac170ff8a89",
+      "physical_rows": 88273,
+      "transaction_rows_checked": 88273
+    },
+    {
+      "file": "usaspending_dod_research_grants_subawards.jsonl.gz",
+      "sha256": "d27995c5b8bb309c5824d256e5bf76e0f9d64443e20a1cb049a4408d9fbfacf7",
+      "physical_rows": 14143,
+      "transaction_rows_checked": 0
+    }
+  ],
+  "scope": "Every USAspending canonical descriptive JSONL row, exact transaction/award keys, action obligations, action dates and fiscal years; duplicate source observations are comparisons only, never additional money",
+  "finished_utc": "2026-10-25T15:18:29.911008+00:00",
+  "financial_action_corpus_scope_limitation": "Money is net obligations within the acquired action corpus/window, not complete award funding. Acquisition filters can omit older positive, negative or zero actions; these nets are not guaranteed lower bounds. Internal joins, hashes and conservation do not prove source-history completeness. Keep live complete-history sums separate."
+}

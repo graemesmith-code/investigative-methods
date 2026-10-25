@@ -1,0 +1,57 @@
+[
+  {
+    "source_id": "fpds-public-notice",
+    "url": "https://www.fpds.gov/common/html/public_welcome_text.html",
+    "retrieved_utc": "2026-10-25T14:35:30.425602+00:00",
+    "status": 200,
+    "bytes": 42627,
+    "sha256": "c995a769ad1121e860df29ea640b24472f5d97c99f10686ed9ef62012e3618f2"
+  },
+  {
+    "source_id": "sam-opportunities-public",
+    "url": "https://sam.gov/api/prod/opps/v3/opportunities?limit=10&offset=0&q=autonomy%20assurance",
+    "retrieved_utc": "2026-10-25T14:35:30.602067+00:00",
+    "status": "failed",
+    "error": "<HTTPError 404: 'Not Found'>"
+  },
+  {
+    "source_id": "dtic-search",
+    "url": "https://discover.dtic.mil/results/?q=autonomy%20assurance",
+    "retrieved_utc": "2026-10-25T14:35:30.760060+00:00",
+    "status": 200,
+    "bytes": 390659,
+    "sha256": "e3e9df94b85b0abfdf4b11b0428b4bb46bc12e5af88964f9f1b2e65e0fb20f2d",
+    "content_status": "HTTP200 semantic failure: DTIC Public Search is offline; no searchable result list retrieved",
+    "inspection": "HTML stripped/read; private source cache retained"
+  },
+  {
+    "source_id": "tevv-athlon",
+    "url": "https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems",
+    "retrieved_utc": "2026-10-25T14:35:31.448895+00:00",
+    "status": "failed",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "source_id": "iarpa-trojai",
+    "url": "https://www.iarpa.gov/research-programs/trojai",
+    "retrieved_utc": "2026-10-25T14:35:31.536490+00:00",
+    "status": 200,
+    "bytes": 57571,
+    "sha256": "cb97dfeec7452e046527970927880f7c889f899a281bf1a47feea9fb9e835571"
+  },
+  {
+    "source_id": "cna-harm",
+    "url": "https://www.cna.org/analyses/2022/02/leveraging-ai-to-mitigate-civilian-harm",
+    "retrieved_utc": "2026-10-25T14:35:31.691601+00:00",
+    "status": 200,
+    "bytes": 65038,
+    "sha256": "94b9b3377876566070527db00dc846fc87325626abe28d7b3f8d1e199a33ca00"
+  },
+  {
+    "source_id": "lincoln-toolbox",
+    "url": "https://www.ll.mit.edu/r-d/projects/responsible-ai-toolbox",
+    "retrieved_utc": "2026-10-25T14:35:32.165692+00:00",
+    "status": "failed",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  }
+]

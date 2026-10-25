@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "executed_utc": "2026-10-25T14:53:02.078553+00:00",
+  "script_sha256_at_test": "9d56e0069377d8910b9a3e156f6eb480716477bc219367e2473d045f8f78886f",
+  "scope": "Synthetic mechanics only; does not certify actual archive findings",
+  "checks": [
+    {
+      "case": "Duplicate financial rows, duplicate descriptions and negative modification",
+      "expected": "Three physical financial rows deduplicate to two actions; $100-$20=8000 integer cents; all three description observations retained",
+      "result": "passed"
+    },
+    {
+      "case": "A/B/C overlap, token boundaries and institutional anchors",
+      "expected": "Ethical human control runtime assurance retains A/B/C; robot training rails aeroshell is not a hit; CDAO independently qualifies",
+      "result": "passed"
+    },
+    {
+      "case": "Fresh editor aliases",
+      "expected": "CODORD, DONATELLO, deontic, SHIELD and Competency-Aware independently qualify",
+      "result": "passed"
+    },
+    {
+      "case": "Cross-source validator rejects absent descriptive money",
+      "expected": "Three synthetic descriptive rows lacking money_json produce three explicit missing/action-obligation conflicts",
+      "result": "passed"
+    },
+    {
+      "case": "Cross-source validator reconciles complete descriptive money",
+      "expected": "Three observations match two canonical transactions with no conflicts",
+      "result": "passed"
+    },
+    {
+      "case": "Exact-key date enrichment preserves money and recipient roles",
+      "expected": "2027-01-01 source end date retained; obligation remains8000cents",
+      "result": "passed"
+    },
+    {
+      "case": "Exact-key auxiliary/institution integration and goal-field scope warning",
+      "expected": "One candidate remains one candidate with A/B/C/D overlap; canonical8000cents unchanged; rawgoal-level warning and source refs retained; startdate not treated as enddate",
+      "result": "passed"
+    },
+    {
+      "case": "Expanded institutional aliases and oversized real CSV fields",
+      "expected": "All4office forms qualify; all5501candidateCSV descriptions equalJSON, all2599performer rows parse without truncation, and all3moneywindow totals equal canonicalSQL sums",
+      "result": "passed"
+    }
+  ],
+  "final_smoke_test_utc": "2026-10-25T15:43:09.461898+00:00",
+  "final_smoke_test_script_sha256": "e179c4afc621280e048bef323045d19416f142aa48f64303fbc4db763f90690a",
+  "actual_final_register_validation": "audit/screen-final-register-validation.json",
+  "final_actual_full_register_verification": "audit/screen-final-register-validation.json",
+  "source_history_scope": "Validated internal corpus conservation, not complete award histories or funding; missing historical actions documented by parent live comparator."
+}

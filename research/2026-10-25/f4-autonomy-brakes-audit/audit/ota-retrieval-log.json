@@ -1,0 +1,131 @@
+{
+  "requests": [
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112490431%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:22.537611+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112490431%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98973,
+      "sha256": "4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590088%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:22.848855+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590088%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99838,
+      "sha256": "281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590097%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:22.986999+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590097%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98832,
+      "sha256": "26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590089%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:23.279654+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590089%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99103,
+      "sha256": "5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_IDV_HR00112490431_9700/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:23.447380+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HR00112490431_97AE_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:23.856257+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_IDV_HR00112590088_9700/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:24.012138+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HR00112590088_97AE_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:24.350266+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_IDV_HR00112590097_9700/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:24.491149+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HR00112590097_97AE_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:24.621370+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_IDV_HR00112590089_9700/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:24.771667+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HR00112590089_97AE_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:24.895121+00:00",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    }
+  ],
+  "request_count": 12,
+  "failure_count": 8,
+  "initial_probe_note": "Four initial read-only FPDS probes identified the schema; exact HTTP-start timestamps were not separately saved. File modification timestamps are not substituted for request times. The 12 formal verification requests have durable start/finish events. Eight USAspending generated-ID-form probes returned HTTP404, not absence evidence.",
+  "paid_calls": 0,
+  "initial_probe_count": 4,
+  "initial_probes": [
+    {
+      "piid": "HR00112490431",
+      "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112490431%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98973,
+      "sha256": "4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f",
+      "local_file_mtime_utc_not_http_start": "2026-10-25T15:23:07.008393+00:00"
+    },
+    {
+      "piid": "HR00112590088",
+      "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590088%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99838,
+      "sha256": "281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a",
+      "local_file_mtime_utc_not_http_start": "2026-10-25T15:23:07.573122+00:00"
+    },
+    {
+      "piid": "HR00112590097",
+      "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590097%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98832,
+      "sha256": "26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9",
+      "local_file_mtime_utc_not_http_start": "2026-10-25T15:23:07.870842+00:00"
+    },
+    {
+      "piid": "HR00112590089",
+      "source_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590089%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99103,
+      "sha256": "5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79",
+      "local_file_mtime_utc_not_http_start": "2026-10-25T15:23:08.123764+00:00"
+    }
+  ]
+}

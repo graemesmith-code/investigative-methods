@@ -1,0 +1,175 @@
+{
+  "status": "completed",
+  "terms": [
+    "CODORD",
+    "DONATELLO",
+    "DEONTIC",
+    "ETHICAL CONSTRUCTS",
+    "ARMOR2025",
+    "ARMOR 2025"
+  ],
+  "scope": "Every full description stored from every parsed canonical JSONL observation; broad new aliases applied as independent anchors. Earlier hits preserved.",
+  "total_stored_description_observations": 1200948,
+  "matching_observations": [
+    {
+      "observation_id": 417083,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 417084,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 417622,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 418345,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 667212,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 667213,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 728118,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 746367,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 964267,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    },
+    {
+      "observation_id": 981357,
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "piid": "HR001125F0028",
+      "entity": "THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC",
+      "new_editor_term_matches": [
+        "CODORD",
+        "DEONTIC"
+      ],
+      "previously_selected": false,
+      "primary_category_preliminary": "A"
+    }
+  ],
+  "performer_alias_entity_updates": [
+    {
+      "entity": "ASU RESEARCH ENTERPRISE",
+      "performers": [
+        "ASU"
+      ]
+    }
+  ],
+  "revised_counts": {
+    "counts": {
+      "financial_unique_transactions": 712186,
+      "financial_unique_awards": 217493,
+      "descriptive_context_physical_observations": 1200948,
+      "financial_transactions_missing_description": 0,
+      "description_transaction_key_award_conflicts": 0,
+      "financial_description_award_key_mismatches": 0,
+      "machine_screened_candidate_awards_and_documents": 5165,
+      "performer_trace_awards": 2599
+    },
+    "primary_category_counts": {
+      "A": 522,
+      "C": 1527,
+      "B": 138,
+      "D": 2978
+    },
+    "all_category_membership_counts_overlap_do_not_sum": {
+      "A": 522,
+      "B": 141,
+      "C": 1646,
+      "D": 3085
+    },
+    "candidate_primary_category_obligation_cents_fy2024_2026_NOT_safeguard_spending": {
+      "A": 12970620408,
+      "B": 9577127249,
+      "C": 253289357014,
+      "D": 1940602275575
+    }
+  },
+  "editor_gap": "Initial requested lexicon did not contain CODORD/DONATELLO/deontic aliases. Fresh editor challenge prompted this additional full-description pass; do not misrepresent as part of initial lexicon.",
+  "finished_utc": "2026-10-25T15:18:20.250800+00:00"
+}

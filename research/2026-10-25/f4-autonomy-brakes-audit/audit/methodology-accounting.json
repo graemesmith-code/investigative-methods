@@ -1,0 +1,63 @@
+{
+  "prior_cumulative_usd": "4.095",
+  "maximum_new_usd": "10.905",
+  "maximum_cumulative_usd": "15.000",
+  "sole_spender": "F4 root worker",
+  "pricing_verified": "2026-10-25",
+  "pricing_source": "https://exa.ai/docs/admin/pricing",
+  "selected_endpoint": "/search",
+  "selected_type": "auto",
+  "numResults": 10,
+  "contents_requested": false,
+  "rate_usd": "0.007",
+  "reservation_policy": "Serialized lock, durable reservation before network, uncertain errors retained at full rate, no automatic retry; actual response reported cost separately recorded; invoice not independently accessible",
+  "other_paid_apis_authorized": false,
+  "archive_transfer": {
+    "status": "recovered_all_three_materialized",
+    "action": "current Library library_download.py with complete search result selection 000002003",
+    "error": "library download request failed: hosted apps tools/list request failed with HTTP status 401",
+    "recovery": "Native authenticated Library prepare_materialize authorized by parent, complete transfers passed unchanged to current library_file_transfer.py materialize; metadata persisted; no credentials changed",
+    "local_directory": "/workspace/scratch/f4-inputs"
+  },
+  "new_requests": 236,
+  "new_reserved_or_debited_usd": "1.640",
+  "cumulative_reserved_or_debited_usd": "5.735",
+  "response_cost_check": {
+    "all_network_requests_responded": true,
+    "provider_reported_estimated_new_usd": "1.638",
+    "unique_reported_costs": [
+      "0",
+      "0.007"
+    ],
+    "invoice_independently_verified": false,
+    "conservative_margin_retained": "0.002 for two cache-only content misses even though provider estimates0"
+  },
+  "budget_code_editor_fix": "Persistent global stop latch and larger actual reported debit retained if rate unexpectedly exceeds reservation; STOP not overwritten by exception handler",
+  "workspace_instructions": {
+    "AGENTS_md_found": false,
+    "repo_agents_skills_found": false,
+    "scope_checked": "/workspace and investigative-methods; no relevant local skills present"
+  },
+  "prior_ledger_references": [
+    {
+      "repository_path": "investigative-methods/research/2026-10-25/asimov-collaborative-weapons/exa/query-cost-log.csv",
+      "sha256": "6e91f377ea0931dfe6eff61b5a74f5662425add18d46eaf9aaf02205c8afcd47",
+      "rows": 233
+    },
+    {
+      "repository_path": "investigative-methods/research/2026-10-24/f2-tactical-ai/exa/query-cost-log.csv",
+      "sha256": "905af9ad514b734f298c6a12d48b145104457d597d092214528817ce5ca0c020",
+      "rows": 104
+    }
+  ],
+  "new_search_requests": 234,
+  "cached_text_requests": 2,
+  "provider_reported_cost_field": "Provider-reported estimated request cost, not an independently checked invoice",
+  "additional_pricing_verification": {
+    "endpoint": "/contents",
+    "one_url_text_only_usd": "0.001",
+    "source": "https://exa.ai/docs/admin/pricing",
+    "cache_only_parameter": "maxAgeHours=-1",
+    "no_summaries_or_agent_calls": true
+  }
+}

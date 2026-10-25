@@ -1,0 +1,13 @@
+{
+  "original_standard_API_candidates": 107,
+  "standard_API_details": 105,
+  "OT_schema_records": 6,
+  "prior_unresolved_identities_now_resolved": 2,
+  "additional_OT_identities": 4,
+  "combined_unique_instrument_identities": 111,
+  "OT_visible_actions": 36,
+  "OT_exact_aggregate_reconciliations": 2,
+  "OT_unresolved_money_discrepancies": 4,
+  "OT_money_not_added_to_selected_case_totals": true,
+  "scope": "Instrument identities, not program count. Primary feeds resolve earlier schema omissions; each money presentation and unresolved discrepancy remains separate."
+}

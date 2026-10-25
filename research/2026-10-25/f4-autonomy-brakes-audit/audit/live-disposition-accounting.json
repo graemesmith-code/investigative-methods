@@ -1,7 +1,7 @@
 {
   "live_candidate_rows_accounted": 107,
   "classification_counts": {
-    "A;D": 9,
+    "A;D": 8,
     "C;D": 2,
     "A;B": 2,
     "B;A;C": 3,
@@ -9,6 +9,7 @@
     "C-described;": 28,
     "C-described;B-potential-bounds": 1,
     "C-described;B-geofence-contribution": 1,
+    "A-adjacent;D": 2,
     "C-described;B-supervision-contribution": 1,
     "C_candidate;B_possible": 15,
     "scope_unresolved": 6,
@@ -25,7 +26,6 @@
     "C-described;A-benefit-claim-only": 1,
     "A-adjacent;B;C": 1,
     "A-adjacent;C": 5,
-    "A-adjacent;D": 1,
     "A-adjacent;B": 1
   },
   "note": "Every live candidate is represented, including unresolved targets and generic/false-positive leads. A financial reconciliation is not substantive proof of a safeguard. Selected-case totals are an explicit sample, not the complete live or archive universe."

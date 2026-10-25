@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "input_files_inventoried": 100,
+  "canonical_JSONL_files_fully_read": 36,
+  "auxiliary_parquet_JSON_TXT_files_fully_accounted": 64,
+  "missing_files": [],
+  "unknown_files": [],
+  "cross_format_hash_conflicts": [],
+  "canonical_auxiliary_file_overlap": [],
+  "canonical_physical_rows": 1913134,
+  "auxiliary_rows_including_mirror_representations": 3782556,
+  "total_source_representation_rows_NOT_distinct_awards": 5695690,
+  "semantic_mirror_rows_not_counted_as_new_financial_actions": 1909851,
+  "auxiliary_status_counts": {
+    "semantic_row_equivalent_to_screened_JSONL": 33,
+    "all_parquet_rows_independently_screened": 26,
+    "all_JSON_records_or_OCR_pages_screened": 3,
+    "all_text_lines_screened": 1,
+    "mismatching_parquet_rows_independently_screened": 1
+  },
+  "canonical_expected_missing_or_mismatched_files": [],
+  "archive_hashes_verified": [
+    {
+      "filename": "FWI-20261016-normalized-research-context.tar.gz",
+      "sha256": "b9ad7acc6061f21792c4d26efc57940e4506702e22c490046d69f5e5b292a8eb",
+      "verified": true
+    },
+    {
+      "filename": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "sha256": "63809f0fbf8fc5427341e637054cfe2012f6f7f5c28379af9178f735a6762317",
+      "verified": true
+    },
+    {
+      "filename": "FWI-20261016-normalized-capabilities.tar.gz",
+      "sha256": "a06375165baf25a4532ee6bef8c3cb47aba05ebb6c03cc55db8253487953b96e",
+      "verified": true
+    }
+  ],
+  "financial_action_corpus_scope_limitation": "Money is net obligations within the acquired action corpus/window, not complete award funding. Acquisition filters can omit older positive, negative or zero actions; these nets are not guaranteed lower bounds. Internal joins, hashes and conservation do not prove source-history completeness. Keep live complete-history sums separate."
+}

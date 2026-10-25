@@ -1,0 +1,170 @@
+[
+  {
+    "source_id": "nspm11",
+    "url": "https://www.govinfo.gov/content/pkg/DCPD-202600387/html/DCPD-202600387.htm",
+    "retrieved_utc": "2026-10-25T14:28:35.277970+00:00",
+    "status": 200,
+    "final_url": "https://www.govinfo.gov/content/pkg/DCPD-202600387/html/DCPD-202600387.htm",
+    "content_type": "text/html",
+    "bytes": 29721,
+    "sha256": "1f7afee2f2f41adadeab190e438fb686133f6e4c87934583e4175eb45a54d7b3"
+  },
+  {
+    "source_id": "directive300009",
+    "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/300009p.pdf",
+    "retrieved_utc": "2026-10-25T14:28:35.278585+00:00",
+    "status": "retrieval_failed",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "gao2026",
+    "url": "https://www.gao.gov/products/gao-27-107837",
+    "retrieved_utc": "2026-10-25T14:28:35.279054+00:00",
+    "status": 200,
+    "final_url": "https://www.gao.gov/products/gao-27-107837",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 93535,
+    "sha256": "edae6a144962bf3659318a628658c0717ef7e2511e4b98ea8ad535967947ec45"
+  },
+  {
+    "source_id": "teelaws-sbir",
+    "url": "https://www.sbir.gov/awards/215327",
+    "retrieved_utc": "2026-10-25T14:28:35.279537+00:00",
+    "status": 200,
+    "final_url": "https://www.sbir.gov/awards/215327",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 36948,
+    "sha256": "ff55756d26a476dff761ea8311d337f5f02bb7640b14f5a7d6bdc6a846c0ab9d"
+  },
+  {
+    "source_id": "teelaws-army",
+    "url": "https://www.army.mil/article/291926/cadets_work_with_software_using_lethal_autonomous_weapons_systems_that_analyzes_tactical_decisions_provides_ethical_score",
+    "retrieved_utc": "2026-10-25T14:28:35.279865+00:00",
+    "status": 200,
+    "final_url": "https://www.army.mil/article/291926/cadets_work_with_software_using_lethal_autonomous_weapons_systems_that_analyzes_tactical_decisions_provides_ethical_score",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 48647,
+    "sha256": "87881cb4ce03ef5683f411b56c454aba0c672a71399a147a7dfa629033855c53"
+  },
+  {
+    "source_id": "camp-navy",
+    "url": "https://www.navy.mil/Press-Office/News-Stories/display-news/Article/4608456/navy-demonstrates-collaborative-autonomy-mission-planning-for-future-combat-air/",
+    "retrieved_utc": "2026-10-25T14:28:35.280599+00:00",
+    "status": "retrieval_failed",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "camp-vendor",
+    "url": "https://www.ga-asi.com/ga-asi-selected-by-us-navy-pma-281-for-collaborative-autonomy-mission-planning-and-debrief-project",
+    "retrieved_utc": "2026-10-25T14:28:35.411805+00:00",
+    "status": 200,
+    "final_url": "https://www.ga-asi.com/ga-asi-selected-by-us-navy-pma-281-for-collaborative-autonomy-mission-planning-and-debrief-project",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 27932,
+    "sha256": "12b4bc4e12192fba3975113997f001c9ebb1db7e6e3e1309f30d57256558fc2d"
+  },
+  {
+    "source_id": "cate-architecture",
+    "url": "https://www.sei.cmu.edu/library/reference-architecture-for-assuring-ethical-conduct-in-laws/",
+    "retrieved_utc": "2026-10-25T14:28:35.655144+00:00",
+    "status": 200,
+    "final_url": "https://www.sei.cmu.edu/library/reference-architecture-for-assuring-ethical-conduct-in-laws/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 122889,
+    "sha256": "8589d031b799d2839653d1e5b3c47460d8e43a76b8562973905638b536ef24b8"
+  },
+  {
+    "source_id": "cate-status",
+    "url": "https://www.sei.cmu.edu/projects/cate-increasing-warfighter-trust-autonomous-systems-accelerate-adoption-cutting-edge-capabilities/",
+    "retrieved_utc": "2026-10-25T14:28:35.666134+00:00",
+    "status": 200,
+    "final_url": "https://www.sei.cmu.edu/projects/cate-increasing-warfighter-trust-autonomous-systems-accelerate-adoption-cutting-edge-capabilities/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 128649,
+    "sha256": "711b4cc348b40afaaf97f935ed62cc515dc053dc5b9e58a4ef35b7ba541837ad"
+  },
+  {
+    "source_id": "raider-topic",
+    "url": "https://navysbir.us/n19_3/N193-141.htm",
+    "retrieved_utc": "2026-10-25T14:28:35.696337+00:00",
+    "status": 200,
+    "final_url": "https://navysbir.us/n19_3/N193-141.htm",
+    "content_type": "text/html",
+    "bytes": 18908,
+    "sha256": "dd863ef2c8b8b7fe3e3654712778746f1dcfb66a34ec31d80c535e5ef5871198"
+  },
+  {
+    "source_id": "asimov-status",
+    "url": "https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values",
+    "retrieved_utc": "2026-10-25T14:28:35.915334+00:00",
+    "status": 200,
+    "final_url": "https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values",
+    "content_type": "text/html",
+    "bytes": 39641,
+    "sha256": "c763692d52e5c37fc8e9daea651ff80ca226ff1e0f1f843cbc2699c8a49e6aea"
+  },
+  {
+    "source_id": "ansr",
+    "url": "https://www.darpa.mil/research/programs/assured-neuro-symbolic-learning-and-reasoning",
+    "retrieved_utc": "2026-10-25T14:28:36.086188+00:00",
+    "status": 200,
+    "final_url": "https://www.darpa.mil/research/programs/assured-neuro-symbolic-learning-and-reasoning",
+    "content_type": "text/html",
+    "bytes": 40449,
+    "sha256": "0782c41482c585ddc221bebd313fb680020c012b50be81ae727e48f7c9a57410"
+  },
+  {
+    "source_id": "tiamat",
+    "url": "https://www.darpa.mil/research/programs/theory-of-mind-for-ai-teams",
+    "retrieved_utc": "2026-10-25T14:28:36.092628+00:00",
+    "status": "retrieval_failed",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "source_id": "gard",
+    "url": "https://www.darpa.mil/research/programs/guaranteeing-ai-robustness-against-deception",
+    "retrieved_utc": "2026-10-25T14:28:36.234287+00:00",
+    "status": 200,
+    "final_url": "https://www.darpa.mil/research/programs/guaranteeing-ai-robustness-against-deception",
+    "content_type": "text/html",
+    "bytes": 39716,
+    "sha256": "fdc84fb0ecc3ce101eb30f8649982686b914f8a8e361832c37f707c76da63728"
+  },
+  {
+    "source_id": "assured-autonomy",
+    "url": "https://www.darpa.mil/research/programs/assured-autonomy",
+    "retrieved_utc": "2026-10-25T14:28:36.284059+00:00",
+    "status": 200,
+    "final_url": "https://www.darpa.mil/research/programs/assured-autonomy",
+    "content_type": "text/html",
+    "bytes": 41966,
+    "sha256": "a7a3088ebf5edee092531337b791774a5132f3e1be1744c0058a5e1424e6371c"
+  },
+  {
+    "source_id": "caml",
+    "url": "https://www.darpa.mil/research/programs/competence-aware-machine-learning",
+    "retrieved_utc": "2026-10-25T14:28:36.355217+00:00",
+    "status": "retrieval_failed",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "source_id": "exa-pricing",
+    "url": "https://exa.ai/docs/admin/pricing",
+    "retrieved_utc": "2026-10-25T14:28:36.506822+00:00",
+    "status": 200,
+    "final_url": "https://exa.ai/docs/admin/pricing",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 645994,
+    "sha256": "52ff62bfaf2f72bec1279776ed302b879ba0a18e772696141abcf731f1437026"
+  },
+  {
+    "source_id": "exa-search-docs",
+    "url": "https://exa.ai/docs/reference/search",
+    "retrieved_utc": "2026-10-25T14:28:36.593634+00:00",
+    "status": 200,
+    "final_url": "https://exa.ai/docs/reference/search",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1205765,
+    "sha256": "3d0a21adc7fd8265744c81346b635a8617e78248a36fd9a612d08da4573541a1"
+  }
+]

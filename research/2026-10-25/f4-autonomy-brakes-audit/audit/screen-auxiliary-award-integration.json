@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "counts": {
+    "auxiliary_candidate_observations_read": 40336,
+    "award_key_observations_imported": 24187,
+    "performer_only_observations_retained_in_auxiliary_trace": 15931,
+    "context_only_observations_without_award_key_remain_auxiliary": 218,
+    "distinct_auxiliary_award_keys": 4764,
+    "already_present_candidate_award_keys": 4591,
+    "additional_award_keys_from_auxiliary_fields": 173,
+    "exact_canonical_financial_award_keys": 3400
+  },
+  "revised_register_counts": {
+    "counts": {
+      "financial_unique_transactions": 712186,
+      "financial_unique_awards": 217493,
+      "descriptive_context_physical_observations": 1200948,
+      "financial_transactions_missing_description": 0,
+      "description_transaction_key_award_conflicts": 0,
+      "financial_description_award_key_mismatches": 0,
+      "machine_screened_candidate_awards_and_documents": 5501,
+      "performer_trace_awards": 2599
+    },
+    "primary_category_counts": {
+      "A": 535,
+      "C": 1684,
+      "B": 140,
+      "D": 3142
+    },
+    "all_category_membership_counts_overlap_do_not_sum": {
+      "A": 535,
+      "B": 143,
+      "C": 1805,
+      "D": 3271
+    },
+    "candidate_primary_category_obligation_cents_fy2024_2026_NOT_safeguard_spending": {
+      "A": 28672262134,
+      "B": 9569177344,
+      "C": 422779265523,
+      "D": 2111657304835
+    }
+  },
+  "money_rule": "No auxiliary amounts imported; totals still exact-key canonical financial_actions only, one candidate per exact source awardkey",
+  "scope": "All auxiliary safeguard matches having actual award keys unified into main register; context-only and performer-only leads remain fully available in auxiliary-candidates.jsonl",
+  "finished_utc": "2026-10-25T15:39:43.423584+00:00",
+  "financial_action_corpus_scope_limitation": "All values are net obligations within acquired action corpus/window, not complete award funding; missing older positive/negative/zero actions are possible. Live complete histories remain separate."
+}

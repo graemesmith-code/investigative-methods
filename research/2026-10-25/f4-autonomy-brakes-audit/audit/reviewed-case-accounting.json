@@ -1,13 +1,13 @@
 {
-  "scope": "Selected human-reviewed named awards only; not comprehensive program counts or allocable total safeguards budgets. Historical/cumulative obligations, not remaining balances or annual expenditure. Secondary tags never add dollars. D and unmatched frameworks unknown, not zero. TETRAS excluded as mixed purpose. ALL normative-autonomy-adjacent awards, including HAMLET, are excluded symmetrically from weapons-linked A subtotals; retained in separate view. Record window overlap is not direct verification of ongoing work.",
+  "scope": "Selected human-reviewed named awards only; not comprehensive program counts or allocable total safeguards budgets. Historical/cumulative obligations, not remaining balances or annual expenditure. Secondary tags never add dollars. D and unmatched frameworks unknown, not zero. TETRAS excluded as mixed purpose. ALL normative-autonomy/civilian-context-adjacent awards, including HAMLET and EpochGeo, are excluded symmetrically from weapons-linked A subtotals; retained in separate view. CODORD support is military-norms enabling, not a demonstrated weapons benchmark; stricter explicit weapon-normative subset shown separately. Record window overlap is not direct verification of ongoing work.",
   "totals": {
     "A": {
-      "awards_in_selected_case_set": 12,
-      "net_obligations_usd": "27373536.76",
-      "fy2019_2026_obligations_usd": "27373536.76",
-      "fy2024_2026_obligations_usd": "26573538.76",
-      "record_window_overlap_awards": 3,
-      "record_window_overlap_net_obligations_usd": "6078484.76"
+      "awards_in_selected_case_set": 11,
+      "net_obligations_usd": "25676891.92",
+      "fy2019_2026_obligations_usd": "25676891.92",
+      "fy2024_2026_obligations_usd": "24876893.92",
+      "record_window_overlap_awards": 2,
+      "record_window_overlap_net_obligations_usd": "4381839.92"
     },
     "B": {
       "awards_in_selected_case_set": 3,
@@ -34,11 +34,17 @@
       "record_window_overlap_net_obligations_usd": null
     }
   },
+  "explicit_weapon_normative_scope_subset": {
+    "award_count": 10,
+    "net_obligations_usd": "23195050.92",
+    "record_overlap_count": 1,
+    "record_overlap_net_obligations_usd": "1899998.92"
+  },
   "adjacent_view_not_added_to_weapons_totals": {
-    "award_count": 8,
-    "net_obligations_usd": "5974441.73",
-    "record_overlap_count": 4,
-    "record_overlap_net_obligations_usd": "4205298.0"
+    "award_count": 9,
+    "net_obligations_usd": "7671086.57",
+    "record_overlap_count": 5,
+    "record_overlap_net_obligations_usd": "5901942.84"
   },
   "missing_named_piids": []
 }

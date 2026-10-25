@@ -1,0 +1,14 @@
+{
+  "status": "pending_independent_stage1_snapshot_and_root_freeze",
+  "recorded_utc": "2026-10-25T15:31:01.465716+00:00",
+  "action_pending": "Run code/reconcile_parallel_registers.py against final root CSV and authenticated/published independent-stage1 CSV/gzip snapshot",
+  "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
+  "reason": "Independent-stage1 files have not been materialized in this executor; root main register still undergoing supplementary integration. This is pending input, not a denied action or an absence result.",
+  "completed": [
+    "Comparator implemented; exact-key membership and integer-cent window comparison only",
+    "Synthetic gzip/exact-overlap/dollars-to-cents/null-versus-zero tests passed",
+    "No source register modified; no monetary totals combined"
+  ],
+  "code": "code/reconcile_parallel_registers.py",
+  "no_paid_calls": true
+}
