@@ -255,6 +255,11 @@ def validate():
             out['remaining_release_gates'].append({'gate': 'parent_independent_register_union',
                 'status': state['status'], 'action': state.get('action_pending'),
                 'target': state.get('target'), 'reason': state.get('reason')})
+        elif 'unavailable' in str(state.get('status', '')):
+            out['unavailable_original_comparisons'] = [{
+                'status': state['status'], 'target': state.get('target'),
+                'reason': state.get('reason'),
+                'effect': 'Unavailable original parallel comparison is disclosed; it does not invalidate the complete authoritative consumer scan or impose a pending approval gate.'}]
     out['remaining_release_gates'].append({'gate': 'delivery_container_and_remote_hash_verification',
         'status': 'owned_by_root_after_build', 'note': 'This validator intentionally performs no bundle, manifest or remote hash validation.'})
     out['status'] = 'failed' if out['failures'] else 'passed_local_checks_with_explicit_release_gates'

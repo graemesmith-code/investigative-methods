@@ -1,6 +1,6 @@
 # Reporter response to independent Round 3 follow-up
 
-Research cutoff: 25 October 2026. This records executed changes; final archive integration and delivery remain open.
+Research cutoff: 25 October 2026. This records executed changes. Available-source integration is complete; the original parallel package is unavailable. Any delivered versioned recovery supplement will receive its own comparison before freeze. Final container, publication and delivery checks remain open.
 
 ## R3-04 — precise policy and relationship wording: resolved
 
@@ -16,6 +16,10 @@ Six already-retrieved public-government FPDS XML bodies are published unchanged 
 
 Only the six formal exact-target response bodies are included. Unrelated caches and unavailable initial-probe HTTP-start timestamps are not represented as published or complete.
 
-## R3-05 — final parallel archive union and delivery: pending
+## R3-05 — parallel original unavailable; authoritative consumer scan retained
 
-The independent Stage1 transport remains blocked on the parent’s pending GitHub create-blob approval for `evidence/independent-stage1/`. No repeated mutation, alternate publication route or duplicate Library attempt has been made. The final union, final manifests/download artifact and final publication verification remain open. Consumer-side local validation and the current review-branch remote hashes have passed; they are separate from the unfinished final release gates.
+The earlier approval resolved without retry, but the independent producer runtime lost the original Stage1 bodies/scripts before committed transfer. One uncommitted4MiB blob and135-file expected metadata do not constitute the original package. No original independent union is claimed. The metadata was materialized through the supported Library flow and retained in public-safe form with its source hash.
+
+The consumer’s three input archives, original77KB screening script and full100-file output remain intact and match frozen hashes. Its5,501-key register plus the verified live/OT source union is authoritative for this package. The available-source5,585-key index, all financial reconciliations and known positive cases remain complete for those sources. Any fresh independent rebuild is optional supplemental evidence, separately versioned; historical expected counts are not forced.
+
+This closes the unavailable-original dependency transparently, rather than presenting an unperformed comparison as a pass. Final container and remote-file checks are release actions performed separately. See `audit/RECOVERY_STATUS.md` and the retained inventory.

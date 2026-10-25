@@ -32,7 +32,7 @@ TEELAWS shows original2024 positive funding plus April2026 Army use, not invente
 
 The main report rejects the broad inference that ASIMOV completion established disappearance of meaningful safeguards. It does **not** claim a technically adjudicated global census, universal absence, classified absence or a fully effective surviving system. A research benchmark, training tool, prototype and fielded governor have different maturity; the comparator bar does not require more maturity than ASIMOV itself achieved.
 
-All live scope/identifier gaps remain in the public dispositions, including TIAMAT and USC CODORD OTA. `live-technical-scope-review.csv` gives substantive mechanisms beyond the selected money examples. Remaining generic descriptions stay unresolved rather than being rejected as non-safeguards. Program families, awards, tools, input rows and searches are not interchangeable counts.
+The R2 standard-route snapshot retained TIAMAT and USC CODORD identifier gaps; subsequent primary OtherTransactionIDV recovery resolved both and added four further instruments. Their original statuses remain in the snapshot provenance; the combined inventory contains the current dispositions. `live-technical-scope-review.csv` gives substantive mechanisms beyond the selected money examples. Remaining generic descriptions stay unresolved rather than being rejected as non-safeguards. Program families, awards, tools, input rows and searches are not interchangeable counts.
 
 ## R2-06 — Accepted; requested-source status matrix added
 
@@ -40,11 +40,11 @@ All live scope/identifier gaps remain in the public dispositions, including TIAM
 
 The initial free unscoped request-ledger loss remains explicitly unresolved as provenance; no timestamps/request count are invented. Exact scoped histories remain verified. DoD's contract/subcontract release delay is not automatically applied to grants already visible in August/September2026.
 
-## R2-07 — Accepted; final integration gate still pending
+## R2-07 — Accepted; available-source union complete, unavailable original disclosed
 
 Canonical financial action keys remain the sole source of archive obligation sums. Parallel independent archive runs examine the **same corpus**, so neither their row counts nor candidate counts can be added. Auxiliary descriptions/goals/office evidence add provenance and preliminary tags, not second copies of money. Source-specific SBIR keys and possible aliases remain distinguishable from proven complete financial award identities.
 
-The final archive/auxiliary intersection/union counts and independent-stage1 reconciliation will be added after both outputs freeze. Until then this issue is **pending**, not falsely marked resolved. The main report and loop log cannot receive final sign-off before that integration and the artifact checks complete.
+The final consumer/auxiliary screen is frozen at 5,501 keys. Its exact-key available-source union with105 standard live records and6 OT identities contains5,585 source/instrument keys. The original independent Stage1 comparison became unavailable after producer file loss before committed transfer; historical reported expectations are not presented as observed union results. Supported Library recovery preserved expected-file metadata, not the original bodies. The complete consumer100-file scan remains authoritative. A fresh independent rebuild may be compared as a separately versioned supplement on actual hashes/counts; no old result is forced. See `audit/RECOVERY_STATUS.md` and the final R3 response. Final container/remote/delivery checks remain separate release actions.
 
 ## Subsequent final follow-up
 
