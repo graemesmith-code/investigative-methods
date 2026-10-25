@@ -101,13 +101,32 @@ def run(args):
    for k in sorted(root.keys()|ind.keys()):
     a,b=root.get(k,{}),ind.get(k,{})
     wr.writerow(dict(zip(fields,[k,keykind(k),'both' if a and b else 'root_only' if a else 'independent_only',a.get('source_data_row',''),b.get('source_data_row',''),a.get('category_raw',''),b.get('category_raw','')])))
+ # Optional complete logical membership index adds the already audited standard
+ # live/OTA source identities. It remains a source/instrument-key union, never a
+ # unique-program count, a PIID-only merge or a monetary aggregation.
+ if args.available_membership and status!='inputs_changed_retry_required':
+  avbefore=sha(args.available_membership)
+  with args.available_membership.open(newline='',encoding='utf-8') as f:available={r['exact_award_or_source_identity']:r for r in csv.DictReader(f)}
+  avafter=sha(args.available_membership)
+  combined=sorted(set(root)|set(ind)|set(available));patterns={}
+  args.combined_membership.parent.mkdir(parents=True,exist_ok=True)
+  fields=['exact_award_or_source_identity','canonical_archive_screen','independent_stage1_screen','standard_live_record','FPDS_other_transaction_record','root_source_data_row','independent_source_data_row','root_category_raw','independent_category_raw','money_combination_permitted','scope_note']
+  with args.combined_membership.open('w',newline='',encoding='utf-8') as f:
+   wr=csv.DictWriter(f,fieldnames=fields);wr.writeheader()
+   for k in combined:
+    av=available.get(k,{});members={x.strip() for x in av.get('membership','').split(';') if x.strip()};flags=[k in root,k in ind,'standard_live_record' in members,'FPDS_other_transaction_record' in members]
+    pattern=';'.join(label for label,yes in zip(fields[1:5],flags) if yes);patterns[pattern]=patterns.get(pattern,0)+1
+    wr.writerow(dict(zip(fields,[k,*flags,root.get(k,{}).get('source_data_row',''),ind.get(k,{}).get('source_data_row',''),root.get(k,{}).get('category_raw',''),ind.get(k,{}).get('category_raw',''),False,'Exact source/instrument-key membership, not distinct awards/programs; no financial sum or fuzzy cross-schema merge'])))
+  out['combined_available_membership']={'available_input':str(args.available_membership),'available_sha256':avbefore,'available_sha256_after_read':avafter,'available_stable_during_read':avbefore==avafter,'union_exact_source_or_instrument_keys':len(combined),'source_membership_patterns':patterns,'independent_keys_not_in_available_view':len(set(ind)-set(available)),'available_keys_not_in_either_archive_screen':len(set(available)-set(root)-set(ind)),'output':str(args.combined_membership),'scope':'Available view includes exact standard live and OTA identities; all populations overlap and cannot be summed as unique awards or money.'}
+  if avbefore!=avafter:out['status']='inputs_changed_retry_required';status=out['status']
+  args.audit.write_text(json.dumps(out,indent=2)+'\n')
  print(json.dumps({'status':status,'membership':out['membership'],'money_comparisons':{w:{k:v for k,v in a.items() if k not in ('null_zero_keys','both_nonnull_differences')}|{'both_nonnull_difference_count':len(a['both_nonnull_differences'])} for w,a in comparisons.items()},'audit':str(args.audit),'membership_index':str(args.membership)},indent=2))
  if status=='inputs_changed_retry_required':return 3
  if ra['blank_key_rows'] or ia['blank_key_rows'] or ra['monetary_parse_errors'] or ia['monetary_parse_errors'] or any(not r['money_equal'] for r in ra['duplicate_key_observations']+ia['duplicate_key_observations']):return 2
  return 0
 
 if __name__=='__main__':
- a=argparse.ArgumentParser();a.add_argument('--root',type=pathlib.Path,default=P/'evidence/brakes-candidate-register.csv');a.add_argument('--independent',type=pathlib.Path,required=True);a.add_argument('--audit',type=pathlib.Path,default=P/'audit/parallel-register-reconciliation.json');a.add_argument('--membership',type=pathlib.Path,default=P/'evidence/parallel-key-membership.csv')
+ a=argparse.ArgumentParser();a.add_argument('--root',type=pathlib.Path,default=P/'evidence/brakes-candidate-register.csv');a.add_argument('--independent',type=pathlib.Path,required=True);a.add_argument('--audit',type=pathlib.Path,default=P/'audit/parallel-register-reconciliation.json');a.add_argument('--membership',type=pathlib.Path,default=P/'evidence/parallel-key-membership.csv');a.add_argument('--available-membership',type=pathlib.Path);a.add_argument('--combined-membership',type=pathlib.Path,default=P/'evidence/combined-key-membership.csv')
  for side in ('root','independent'):
   a.add_argument('--'+side+'-key-column');a.add_argument('--'+side+'-money-unit',choices=('cents','dollars'));a.add_argument('--'+side+'-expected-sha256')
   for window in WINDOWS:a.add_argument('--'+side+'-'+window.replace('_','-')+'-column',dest=side+'_'+window+'_column')

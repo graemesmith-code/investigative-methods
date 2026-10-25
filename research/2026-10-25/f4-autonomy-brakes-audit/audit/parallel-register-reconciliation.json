@@ -1,18 +1,31 @@
 {
-  "status": "pending_independent_stage1_snapshot_and_root_freeze",
-  "recorded_utc": "2026-10-25T15:31:01.465716+00:00",
+  "status": "pending_independent_stage1_publication_approval",
+  "recorded_utc": "2026-10-25T15:54:06.040087+00:00",
   "action_pending": "Run code/reconcile_parallel_registers.py against final root CSV and authenticated/published independent-stage1 CSV/gzip snapshot",
   "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
-  "reason": "Independent Stage1 transport is not yet materialized in this executor. Available root/live/OTA membership and selected acquisition-history comparisons are complete; independent comparison remains pending, not denied.",
+  "reason": "Parent reports independent Stage1 publication is blocked on a pending GitHub create-blob approval, attached 15:29 and explained 15:43 on 2026-10-25. The independent transport has not been published/materialized here. This is a pending approval outcome, not a denied action or a source absence finding. No alternative publication route or repeated mutation was attempted by this worker.",
   "completed": [
     "Comparator implemented; exact-key membership and integer-cent window comparison only",
     "Synthetic gzip/exact-overlap/dollars-to-cents/null-versus-zero tests passed",
-    "No source register modified; no monetary totals combined"
+    "No source register modified; no monetary totals combined",
+    "Available 5501 archive-key +105 standard-live +6 OTA identity comparison: exact union5585 source/instrument keys, no distinct-award claim",
+    "Three selected acquisition-history comparisons completed:79 shared actions match,65 additional live actions not in acquired ledger; historical omissions not attributed solely to latest-quarter reporting lag",
+    "Optional final combined source-membership output implemented and synthetic-tested"
   ],
   "code": "code/reconcile_parallel_registers.py",
   "no_paid_calls": true,
   "completed_available_membership": "audit/available-register-membership.json",
   "membership_guide": "audit/REGISTER_MEMBERSHIP_GUIDE.md",
   "acquisition_history_evidence": "audit/acquisition-history-coverage.json",
-  "available_sources_status": "5501 archive keys,105 standard live records,6 OTA primary identities; exact union5585 source/instrument keys, not unique award/program count"
+  "available_sources_status": "5501 archive keys,105 standard live records,6 OTA primary identities; exact union5585 source/instrument keys, not unique award/program count",
+  "dependency": {
+    "reported_by": "parent coordinating investigator",
+    "action": "GitHub create-blob for independent Stage1 publication",
+    "target": "research/2026-10-25/f4-autonomy-brakes-audit/evidence/independent-stage1/",
+    "outcome": "pending approval",
+    "approval_attached_time_as_reported": "2026-10-25 15:29",
+    "explanation_time_as_reported": "2026-10-25 15:43",
+    "time_source": "Parent report; original approval event is not independently inspected by this worker",
+    "next_step": "Await parent confirmation of approval/publication and supported local materialization; then run final exact-key comparison and combined root/independent/live/OTA membership."
+  }
 }
