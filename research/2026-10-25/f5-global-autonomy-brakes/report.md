@@ -1,5 +1,7 @@
 # The brakes exist. The public evidence of their operation is fragmented.
 
+**DURABLE CHECKPOINT: additional native source bundle and parent-independent global review pending. This is not the final overnight audit.**
+
 **F5 investigation | Evidence cutoff: 25 October 2026 | New work anchored to immutable F4 commit `fa55e8d3d7c69bfc1051279185c7c88df8e92cb6`.**
 
 The US and its allies have built an overlapping architecture for restraining autonomous systems: legal weapons reviews, engineering safety boards, software assurance, human authorisation, operational limits, and safeguards that monitor or interrupt unsafe behaviour. Public records support the existence and scope of these mechanisms. They support some trials and specific procurement activity. This source set did not yield a complete chain from a particular trained model, through its approved mission limits, to an independently tested safeguard on a fielded weapon.

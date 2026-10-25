@@ -1,10 +1,12 @@
 # F5: Global architecture of autonomy brakes
 
-Completed public-source investigation, evidence cutoff 25 October 2026. This is new F5 reporting and live retrieval, anchored to immutable F4 commit `fa55e8d3d7c69bfc1051279185c7c88df8e92cb6`.
+**DURABLE CHECKPOINT — expanded overnight integration and the parent’s independent global review remain pending.** Evidence cutoff: 25 October 2026. This is new F5 reporting and live retrieval, anchored to immutable F4 commit `fa55e8d3d7c69bfc1051279185c7c88df8e92cb6`.
 
 Start with [report.md](report.md), then the ranked [75-source reading pack](READING_PACK.md). The five [thematic dossiers](memos/) cover Five Eyes/AUKUS, NATO/EDF, US safety boards, patents, and legal review/software updates. Read [financial methods and findings](FINANCIAL_METHODS_AND_FINDINGS.md) for exact award identities, schedule discrepancies and full-lifecycle corrections; [patent search scope](PATENT_SEARCH_SCOPE.md) documents database and negative-result limits.
 
 The key finding is an overlapping assurance architecture with documented friction and incomplete public visibility of configuration-specific implementation. F5 does not prove a global absence of controls, universal effectiveness, named JSP936 failures or named unlawful bypasses.
+
+The parent has recovered additional primary evidence after this checkpoint. Do not treat the checkpoint’s completion wording or briefing notes as the final overnight audit. See [independent-editor handoff](EDITOR_HANDOFF.md) for the actual inventory and review questions.
 
 ## Data and verification
 

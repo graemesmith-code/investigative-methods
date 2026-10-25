@@ -1,6 +1,6 @@
-# F5 morning briefing handoff
+# F5 checkpoint briefing notes — final integration pending
 
-Prepared notes for the parent-owned briefing; no email was sent here.
+Checkpoint notes only. The parent’s frozen five-domain bundle and independent global review must be integrated before final briefing. No email was sent here.
 
 Report: https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-25/f5-global-autonomy-brakes/report.md
 
