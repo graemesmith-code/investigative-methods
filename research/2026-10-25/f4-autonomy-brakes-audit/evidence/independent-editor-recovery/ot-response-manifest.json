@@ -1,0 +1,78 @@
+{
+  "source": "Exact already-retrieved public FPDS government XML, unchanged bytes",
+  "bodies": [
+    {
+      "piid": "HR00112490431",
+      "public_path": "evidence/ota-primary-responses/4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f.xml",
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112490431%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:22.537611+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112490431%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98973,
+      "sha256": "4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f"
+    },
+    {
+      "piid": "HR00112590088",
+      "public_path": "evidence/ota-primary-responses/281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a.xml",
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590088%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:22.848855+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590088%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99838,
+      "sha256": "281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a"
+    },
+    {
+      "piid": "HR00112590097",
+      "public_path": "evidence/ota-primary-responses/26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9.xml",
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590097%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:22.986999+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590097%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98832,
+      "sha256": "26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9"
+    },
+    {
+      "piid": "HR00112590089",
+      "public_path": "evidence/ota-primary-responses/5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79.xml",
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590089%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:25:23.279654+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590089%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99103,
+      "sha256": "5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79"
+    },
+    {
+      "piid": "HR00112590099",
+      "public_path": "evidence/ota-primary-responses/a1785400fd6e301bce3d1255cdecd77142c776b90f8bed12bf99b6713d3b7982.xml",
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590099%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:31:11.115632+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590099%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 98889,
+      "sha256": "a1785400fd6e301bce3d1255cdecd77142c776b90f8bed12bf99b6713d3b7982"
+    },
+    {
+      "piid": "HR00112590098",
+      "public_path": "evidence/ota-primary-responses/a4c6c9be6ab54f2ea969b5bfae7ba65cd311efa7c8af7aa883bc81953ab6d5b3.xml",
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590098%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T15:31:11.346638+00:00",
+      "status": 200,
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22HR00112590098%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "bytes": 99475,
+      "sha256": "a4c6c9be6ab54f2ea969b5bfae7ba65cd311efa7c8af7aa883bc81953ab6d5b3"
+    }
+  ],
+  "body_count": 6,
+  "unique_instruments": 6,
+  "verified_unique_actions": 36,
+  "validation": "Every compound action identity, obligation, signed/current/potential date, aggregate field and full description reparsed and exactly compared with authored JSON; sums/counts match. Financial aggregate discrepancies remain unresolved.",
+  "paid_calls": 0,
+  "network_requests": 0,
+  "initial_probe_timing_limit": "Only formal retrieval bodies and their recorded receipts are exported. Original probe HTTP-start times were not separately saved; no timestamps invented."
+}

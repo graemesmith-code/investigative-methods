@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-25T16:00:05.664855+00:00",
+  "issue": "Independent R3-04 precise statutory milestone and expert relationship corrections",
+  "statute": {
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm",
+    "private_body_sha256": "5656a3db271313ad9c040afe148e750feb7811fa68190026be3193c23d5273ed",
+    "inspection": "Full previously retrieved primary HTML; section1533(b),(d). January2027 milestone designates Department organizations as functional leads, not appointment of leadership."
+  },
+  "expert": {
+    "url": "https://law.richmond.edu/faculty/rcrootof/",
+    "access_depth": "Official university search-index text retrieved2026-10-25; direct page returned privacy-consent screen, so no freshly inspected direct profile body claimed.",
+    "finding": "Biography uses present tense for IDA consulting and describes DARPA ELSI emeritus status; work-history separately lists2018\u20132024. Report discloses the relationship without claiming inspection of current engagement terms."
+  },
+  "public_OT_evidence": {
+    "manifest": "evidence/ota-primary-responses/response-manifest.json",
+    "source_bodies": 6,
+    "actions_reparsed": 36,
+    "new_network_or_paid_requests_for_export": 0
+  },
+  "Stage1_dependency": "Parent GitHub create-blob approval still pending; no repeat or alternate route attempted."
+}

@@ -1,0 +1,442 @@
+{
+  "source_financial_gzip_sha256": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5",
+  "source_financial_records_scanned": 712186,
+  "retained_FPDS_export_sha256": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+  "acquired_selected_rows": 79,
+  "retained_FPDS_selected_alltime_rows": 177,
+  "same_window": "2018-10-01 through 2026-09-30 inclusive",
+  "shared_action_errors": [],
+  "awards": [
+    {
+      "award_key": "CONT_AWD_FD01_9700_N0017814D7932_9700",
+      "acquired_rows": 70,
+      "live_export_FY_rows": 72,
+      "acquired_obligations_usd": "9674146.79",
+      "live_export_obligations_usd": "9724146.79",
+      "live_minus_acquired_usd": "50000.00",
+      "missing_actions": 2,
+      "source_acquisition_streams": [
+        "usaspending_dod_capabilities",
+        "usaspending_dod_capabilities_fy2019"
+      ]
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "acquired_rows": 6,
+      "live_export_FY_rows": 19,
+      "acquired_obligations_usd": "5092898.52",
+      "live_export_obligations_usd": "24423706.49",
+      "live_minus_acquired_usd": "19330807.97",
+      "missing_actions": 13,
+      "source_acquisition_streams": [
+        "usaspending_dod_capabilities",
+        "usaspending_dod_capabilities_fy2026"
+      ]
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "acquired_rows": 3,
+      "live_export_FY_rows": 53,
+      "acquired_obligations_usd": "2217125.03",
+      "live_export_obligations_usd": "27836455.94",
+      "live_minus_acquired_usd": "25619330.91",
+      "missing_actions": 50,
+      "source_acquisition_streams": [
+        "usaspending_dod_capabilities"
+      ]
+    }
+  ],
+  "missing_action_rows": [
+    {
+      "award_key": "CONT_AWD_FD01_9700_N0017814D7932_9700",
+      "transaction_key": "9700_9700_FD01_63_N0017814D7932_4",
+      "signed_date": "2024-02-28",
+      "obligation_usd": "50000.00"
+    },
+    {
+      "award_key": "CONT_AWD_FD01_9700_N0017814D7932_9700",
+      "transaction_key": "9700_9700_FD01_32_N0017814D7932_4",
+      "signed_date": "2020-08-05",
+      "obligation_usd": "0.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00013_N0017819D7763_0",
+      "signed_date": "2025-07-25",
+      "obligation_usd": "135525.38"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00015_N0017819D7763_0",
+      "signed_date": "2025-09-19",
+      "obligation_usd": "122048.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00004_N0017819D7763_0",
+      "signed_date": "2023-08-18",
+      "obligation_usd": "706978.78"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00010_N0017819D7763_0",
+      "signed_date": "2025-01-29",
+      "obligation_usd": "831298.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00007_N0017819D7763_0",
+      "signed_date": "2024-04-12",
+      "obligation_usd": "1200000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00005_N0017819D7763_0",
+      "signed_date": "2023-09-25",
+      "obligation_usd": "2808632.67"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00001_N0017819D7763_0",
+      "signed_date": "2022-09-23",
+      "obligation_usd": "1572139.21"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00002_N0017819D7763_0",
+      "signed_date": "2023-03-31",
+      "obligation_usd": "781695.91"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00011_N0017819D7763_0",
+      "signed_date": "2025-03-14",
+      "obligation_usd": "500000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00008_N0017819D7763_0",
+      "signed_date": "2024-07-02",
+      "obligation_usd": "1625170.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00009_N0017819D7763_0",
+      "signed_date": "2024-09-17",
+      "obligation_usd": "3129981.36"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00014_N0017819D7763_0",
+      "signed_date": "2025-09-12",
+      "obligation_usd": "4671341.28"
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "transaction_key": "9700_9700_N0016422F3007_P00003_N0017819D7763_0",
+      "signed_date": "2023-06-22",
+      "obligation_usd": "1245997.38"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00050_N0017819D7484_0",
+      "signed_date": "2026-06-11",
+      "obligation_usd": "0.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00049_N0017819D7484_0",
+      "signed_date": "2026-06-02",
+      "obligation_usd": "478672.68"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00009_N0017819D7484_0",
+      "signed_date": "2024-01-26",
+      "obligation_usd": "618300.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00034_N0017819D7484_0",
+      "signed_date": "2025-08-26",
+      "obligation_usd": "50000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00012_N0017819D7484_0",
+      "signed_date": "2024-03-14",
+      "obligation_usd": "466500.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00023_N0017819D7484_0",
+      "signed_date": "2025-01-15",
+      "obligation_usd": "360000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00033_N0017819D7484_0",
+      "signed_date": "2025-07-01",
+      "obligation_usd": "161260.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00002_N0017819D7484_0",
+      "signed_date": "2023-06-07",
+      "obligation_usd": "600000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00005_N0017819D7484_0",
+      "signed_date": "2023-09-22",
+      "obligation_usd": "177988.97"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00014_N0017819D7484_0",
+      "signed_date": "2024-05-30",
+      "obligation_usd": "2665807.52"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00040_N0017819D7484_0",
+      "signed_date": "2026-02-05",
+      "obligation_usd": "46000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00007_N0017819D7484_0",
+      "signed_date": "2023-11-20",
+      "obligation_usd": "637286.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00029_N0017819D7484_0",
+      "signed_date": "2025-04-11",
+      "obligation_usd": "225392.88"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00039_N0017819D7484_0",
+      "signed_date": "2026-01-15",
+      "obligation_usd": "1900534.64"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00017_N0017819D7484_0",
+      "signed_date": "2024-09-04",
+      "obligation_usd": "190000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00011_N0017819D7484_0",
+      "signed_date": "2024-02-26",
+      "obligation_usd": "200000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00015_N0017819D7484_0",
+      "signed_date": "2024-06-17",
+      "obligation_usd": "546401.78"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00036_N0017819D7484_0",
+      "signed_date": "2025-10-20",
+      "obligation_usd": "166399.31"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00042_N0017819D7484_0",
+      "signed_date": "2026-03-03",
+      "obligation_usd": "521874.25"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00044_N0017819D7484_0",
+      "signed_date": "2026-03-18",
+      "obligation_usd": "-22289.43"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00043_N0017819D7484_0",
+      "signed_date": "2026-03-10",
+      "obligation_usd": "220493.50"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00026_N0017819D7484_0",
+      "signed_date": "2025-03-24",
+      "obligation_usd": "354000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00038_N0017819D7484_0",
+      "signed_date": "2025-12-11",
+      "obligation_usd": "409309.40"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00052_N0017819D7484_0",
+      "signed_date": "2026-07-16",
+      "obligation_usd": "225000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00001_N0017819D7484_0",
+      "signed_date": "2023-05-31",
+      "obligation_usd": "1568270.90"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00024_N0017819D7484_0",
+      "signed_date": "2025-03-04",
+      "obligation_usd": "272316.08"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00025_N0017819D7484_0",
+      "signed_date": "2025-03-19",
+      "obligation_usd": "132000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00045_N0017819D7484_0",
+      "signed_date": "2026-04-01",
+      "obligation_usd": "73450.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00046_N0017819D7484_0",
+      "signed_date": "2026-04-08",
+      "obligation_usd": "391000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00037_N0017819D7484_0",
+      "signed_date": "2025-10-30",
+      "obligation_usd": "97000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00006_N0017819D7484_0",
+      "signed_date": "2023-10-24",
+      "obligation_usd": "290000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00022_N0017819D7484_0",
+      "signed_date": "2025-01-07",
+      "obligation_usd": "240608.44"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00028_N0017819D7484_0",
+      "signed_date": "2025-04-09",
+      "obligation_usd": "414869.50"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00030_N0017819D7484_0",
+      "signed_date": "2025-05-07",
+      "obligation_usd": "1689473.40"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00041_N0017819D7484_0",
+      "signed_date": "2026-02-18",
+      "obligation_usd": "0.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00047_N0017819D7484_0",
+      "signed_date": "2026-04-29",
+      "obligation_usd": "210500.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00048_N0017819D7484_0",
+      "signed_date": "2026-05-29",
+      "obligation_usd": "4089890.30"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00051_N0017819D7484_0",
+      "signed_date": "2026-06-17",
+      "obligation_usd": "343511.64"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00013_N0017819D7484_0",
+      "signed_date": "2024-04-16",
+      "obligation_usd": "816000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00018_N0017819D7484_0",
+      "signed_date": "2024-09-25",
+      "obligation_usd": "272032.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00035_N0017819D7484_0",
+      "signed_date": "2025-09-10",
+      "obligation_usd": "605000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00020_N0017819D7484_0",
+      "signed_date": "2024-11-14",
+      "obligation_usd": "556860.61"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00021_N0017819D7484_0",
+      "signed_date": "2024-12-23",
+      "obligation_usd": "15559.47"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00019_N0017819D7484_0",
+      "signed_date": "2024-10-21",
+      "obligation_usd": "526746.59"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00027_N0017819D7484_0",
+      "signed_date": "2025-04-03",
+      "obligation_usd": "275092.96"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00010_N0017819D7484_0",
+      "signed_date": "2024-02-15",
+      "obligation_usd": "-22738.24"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00003_N0017819D7484_0",
+      "signed_date": "2023-07-12",
+      "obligation_usd": "600000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00004_N0017819D7484_0",
+      "signed_date": "2023-09-07",
+      "obligation_usd": "600000.00"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00008_N0017819D7484_0",
+      "signed_date": "2023-12-22",
+      "obligation_usd": "302393.36"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "transaction_key": "9700_9700_N0042123F3004_P00016_N0017819D7484_0",
+      "signed_date": "2024-07-24",
+      "obligation_usd": "60562.40"
+    }
+  ],
+  "caveat": "Acquisition-filtered transaction history is not complete award funding. Per-action API matching cause remains unproved; missing deobligations can mean acquired sums are not lower bounds. No change to selected safeguard totals follows from these three nonselected examples."
+}

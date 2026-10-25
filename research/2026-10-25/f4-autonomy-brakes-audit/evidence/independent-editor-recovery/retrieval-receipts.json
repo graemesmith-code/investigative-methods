@@ -1,0 +1,170 @@
+[
+  {
+    "path": "report.md",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/report.md",
+    "bytes": 42196,
+    "sha256": "ce0baf0886c6b84bd11db1b9c4c932f78cdf318bdbd15d43cc63665476cd0d7f",
+    "retrieved_utc": "2026-10-25T18:57:40.259257+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/live-award-register.json",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/live-award-register.json",
+    "bytes": 2992410,
+    "sha256": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
+    "retrieved_utc": "2026-10-25T18:57:40.261507+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/fpds-verified-actions.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/fpds-verified-actions.csv",
+    "bytes": 470083,
+    "sha256": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+    "retrieved_utc": "2026-10-25T18:57:40.263212+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/combined-live-inventory.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/combined-live-inventory.csv",
+    "bytes": 158625,
+    "sha256": "f8d6403fdaa87ae090804aef775f027a3bfef47a3f854e8bd8491a42cc68fa09",
+    "retrieved_utc": "2026-10-25T18:57:40.265460+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/reviewed-cases.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/reviewed-cases.csv",
+    "bytes": 60537,
+    "sha256": "6664595b3cda4aa104d7a4530a5b95c514a3d55c5c1f94d61c753848dcb0d1e2",
+    "retrieved_utc": "2026-10-25T18:57:45.316339+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/live-technical-scope-review.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/live-technical-scope-review.csv",
+    "bytes": 48533,
+    "sha256": "2e84429702cd04b6ff516c02cfc68d0c4f2d72746bb714436fb953b682f38bb3",
+    "retrieved_utc": "2026-10-25T18:57:45.335404+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/ota-resolution-review.json",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-resolution-review.json",
+    "bytes": 44640,
+    "sha256": "078cdaaba03471b45595781ebf5cd4bdda81b4e7857eb2a0aafce167a6a2d2bc",
+    "retrieved_utc": "2026-10-25T18:57:45.502690+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/ota-keyword-followup-records.json",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-keyword-followup-records.json",
+    "bytes": 22667,
+    "sha256": "43c3ecf6db752c9a9279dd445f5ccb7c702be10cc0fd31c4efdb951a61b93a70",
+    "retrieved_utc": "2026-10-25T18:57:45.656648+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/ota-verified-actions.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-verified-actions.csv",
+    "bytes": 15534,
+    "sha256": "20b399f35c02f28ff3bb8a44ac9099eb7ae7d5998504b32928a616ad1cae37ff",
+    "retrieved_utc": "2026-10-25T18:57:47.971682+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/ota-keyword-followup-actions.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-keyword-followup-actions.csv",
+    "bytes": 8162,
+    "sha256": "8f5491ad30c9632491129c8ce2ce5065693686fb630aafb7b0f72eaee780c538",
+    "retrieved_utc": "2026-10-25T18:57:48.007824+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "audit/exa-query-cost-log.csv",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/audit/exa-query-cost-log.csv",
+    "bytes": 47659,
+    "sha256": "122f9a7a6d733acef606455fd1cbe5c0d9460f8eb5325c06aafd72b55e1935a1",
+    "retrieved_utc": "2026-10-25T18:57:48.049718+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "audit/exa-discovery-accounting.json",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/audit/exa-discovery-accounting.json",
+    "bytes": 368,
+    "sha256": "a50fcd31d82ce584854ee2266718bbc3743b46736f8c65890777dd75eaec7306",
+    "retrieved_utc": "2026-10-25T18:57:48.052781+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "audit/reviewed-case-accounting.json",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/audit/reviewed-case-accounting.json",
+    "bytes": 2363,
+    "sha256": "59c8c88acfe081f319bc0c8908839a0e13112d404b1c8e46b00561b73305d465",
+    "retrieved_utc": "2026-10-25T18:57:50.223081+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "audit/r3-04-corrections.json",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/audit/r3-04-corrections.json",
+    "bytes": 1367,
+    "sha256": "32615262bd3eeabe3f9fc702333aaa52e0b40caa0a59a21d3919c46bdee04abd",
+    "retrieved_utc": "2026-10-25T18:57:50.256353+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "code/exa_serial.py",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/code/exa_serial.py",
+    "bytes": 4865,
+    "sha256": "4e531a186f9b8e45785883868d01b434dbc6aee165c7c86ba0f46837ef5da27e",
+    "retrieved_utc": "2026-10-25T18:57:50.267788+00:00",
+    "expected_raw_xml_hash_matches": null
+  },
+  {
+    "path": "evidence/ota-primary-responses/4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f.xml",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-primary-responses/4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f.xml",
+    "bytes": 98973,
+    "sha256": "4bd46b825aab8ffc860a07a5286bd4b9f20e06461b48c07d2f33bc9dcad95a5f",
+    "retrieved_utc": "2026-10-25T18:57:50.271383+00:00",
+    "expected_raw_xml_hash_matches": true
+  },
+  {
+    "path": "evidence/ota-primary-responses/281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a.xml",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-primary-responses/281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a.xml",
+    "bytes": 99838,
+    "sha256": "281e693ce50d8cab91fff0537444d7962ba7a98286f11b049d2ea22ddb0b3f1a",
+    "retrieved_utc": "2026-10-25T18:57:52.405494+00:00",
+    "expected_raw_xml_hash_matches": true
+  },
+  {
+    "path": "evidence/ota-primary-responses/26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9.xml",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-primary-responses/26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9.xml",
+    "bytes": 98832,
+    "sha256": "26f74a980b1fbfed239dcfded2f7bfd2474518eebeb8bcb34216d55679e122f9",
+    "retrieved_utc": "2026-10-25T18:57:52.407594+00:00",
+    "expected_raw_xml_hash_matches": true
+  },
+  {
+    "path": "evidence/ota-primary-responses/5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79.xml",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-primary-responses/5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79.xml",
+    "bytes": 99103,
+    "sha256": "5a75c7efb2c9182d54019f7407157db4bc4077ea260c5d1491a82a245e95cb79",
+    "retrieved_utc": "2026-10-25T18:57:52.443258+00:00",
+    "expected_raw_xml_hash_matches": true
+  },
+  {
+    "path": "evidence/ota-primary-responses/a1785400fd6e301bce3d1255cdecd77142c776b90f8bed12bf99b6713d3b7982.xml",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-primary-responses/a1785400fd6e301bce3d1255cdecd77142c776b90f8bed12bf99b6713d3b7982.xml",
+    "bytes": 98889,
+    "sha256": "a1785400fd6e301bce3d1255cdecd77142c776b90f8bed12bf99b6713d3b7982",
+    "retrieved_utc": "2026-10-25T18:57:52.507660+00:00",
+    "expected_raw_xml_hash_matches": true
+  },
+  {
+    "path": "evidence/ota-primary-responses/a4c6c9be6ab54f2ea969b5bfae7ba65cd311efa7c8af7aa883bc81953ab6d5b3.xml",
+    "url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/evidence/ota-primary-responses/a4c6c9be6ab54f2ea969b5bfae7ba65cd311efa7c8af7aa883bc81953ab6d5b3.xml",
+    "bytes": 99475,
+    "sha256": "a4c6c9be6ab54f2ea969b5bfae7ba65cd311efa7c8af7aa883bc81953ab6d5b3",
+    "retrieved_utc": "2026-10-25T18:57:54.848369+00:00",
+    "expected_raw_xml_hash_matches": true
+  }
+]
