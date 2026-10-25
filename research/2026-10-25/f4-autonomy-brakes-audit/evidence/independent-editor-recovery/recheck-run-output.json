@@ -1,0 +1,184 @@
+{
+  "status": "new independent recheck of pinned public a0ed4b2 sources; not byte-identical recovery of lost review artifacts",
+  "issues": [],
+  "standard_actions": {
+    "rows": 683,
+    "unique_full_identities": 683,
+    "award_groups": 86,
+    "comparison_count": 688,
+    "all_comparisons_pass": true,
+    "standard_live_keys": 105,
+    "combined_live_rows": 111,
+    "note": "Independent arithmetic against published exports; not fresh agency retrieval of all 86 award histories."
+  },
+  "OT_primary_reparse": {
+    "xml_bodies": 6,
+    "actions": 36,
+    "fields_compared": 612,
+    "all_fields_pass": true,
+    "four_unresolved_aggregate_discrepancies": 4,
+    "instruments": [
+      {
+        "piid": "HR00112490431",
+        "actions": 6,
+        "visible_action_sum_usd": "1444520.00",
+        "feed_aggregate_usd": "1444520.00",
+        "aggregate_minus_actions_usd": "0.00",
+        "current_end": "2026-04-30 00:00:00",
+        "potential_end": "2027-10-30 00:00:00",
+        "latest_action": "2026-02-26 00:00:00",
+        "last_positive_action": "2025-11-04 00:00:00"
+      },
+      {
+        "piid": "HR00112590088",
+        "actions": 6,
+        "visible_action_sum_usd": "1653574.00",
+        "feed_aggregate_usd": "1998788.00",
+        "aggregate_minus_actions_usd": "345214.00",
+        "current_end": "2026-05-09 00:00:00",
+        "potential_end": "2027-02-10 00:00:00",
+        "latest_action": "2026-03-27 00:00:00",
+        "last_positive_action": "2026-03-27 00:00:00"
+      },
+      {
+        "piid": "HR00112590089",
+        "actions": 6,
+        "visible_action_sum_usd": "1500553.00",
+        "feed_aggregate_usd": "1500553.00",
+        "aggregate_minus_actions_usd": "0.00",
+        "current_end": "2027-05-31 00:00:00",
+        "potential_end": "2027-05-31 00:00:00",
+        "latest_action": "2026-03-25 00:00:00",
+        "last_positive_action": "2026-03-25 00:00:00"
+      },
+      {
+        "piid": "HR00112590097",
+        "actions": 6,
+        "visible_action_sum_usd": "1449955.00",
+        "feed_aggregate_usd": "1336460.00",
+        "aggregate_minus_actions_usd": "-113495.00",
+        "current_end": "2027-04-05 00:00:00",
+        "potential_end": "2027-04-05 00:00:00",
+        "latest_action": "2026-03-27 00:00:00",
+        "last_positive_action": "2026-03-27 00:00:00"
+      },
+      {
+        "piid": "HR00112590098",
+        "actions": 6,
+        "visible_action_sum_usd": "1537850.00",
+        "feed_aggregate_usd": "1999705.00",
+        "aggregate_minus_actions_usd": "461855.00",
+        "current_end": "2027-04-05 00:00:00",
+        "potential_end": "2027-04-05 00:00:00",
+        "latest_action": "2026-03-25 00:00:00",
+        "last_positive_action": "2026-03-25 00:00:00"
+      },
+      {
+        "piid": "HR00112590099",
+        "actions": 6,
+        "visible_action_sum_usd": "1500019.00",
+        "feed_aggregate_usd": "1999992.00",
+        "aggregate_minus_actions_usd": "499973.00",
+        "current_end": "2027-04-05 00:00:00",
+        "potential_end": "2027-04-05 00:00:00",
+        "latest_action": "2026-03-25 00:00:00",
+        "last_positive_action": "2026-03-25 00:00:00"
+      }
+    ]
+  },
+  "selected_case_totals": {
+    "A": {
+      "count": 11,
+      "cumulative_usd": "25676891.92"
+    },
+    "B": {
+      "count": 3,
+      "cumulative_usd": "4487272.0"
+    },
+    "C": {
+      "count": 7,
+      "cumulative_usd": "7989900.02"
+    }
+  },
+  "adjacent_case_total": {
+    "count": 9,
+    "cumulative_usd": "7671086.57"
+  },
+  "formerly_blank_technical_url_rows": [
+    {
+      "piid": "FA95501910169",
+      "technical_source_urls": "https://hybrid.soe.ucsc.edu/projects",
+      "technical_review_depth": "primary finance and description; inherited technical title where present"
+    },
+    {
+      "piid": "FA87502321015",
+      "technical_source_urls": "https://www.ri.cmu.edu/app/uploads/2025/06/Symant.pdf",
+      "technical_review_depth": "primary finance and description; inherited technical title where present"
+    }
+  ],
+  "cost_ledger": {
+    "rows": 236,
+    "endpoints": {
+      "/search": 234,
+      "/contents": 2
+    },
+    "new_reserved_debit_usd": "1.640",
+    "provider_reported_estimate_usd": "1.638",
+    "cumulative_exposure_usd": "5.735",
+    "statuses": {
+      "response": 236
+    },
+    "invoice_total": "unknown"
+  },
+  "offline_runner_tests": [
+    {
+      "test": "normal",
+      "passed": true,
+      "fake_HTTP_calls": 1,
+      "real_network_calls": 0
+    },
+    {
+      "test": "cache_zero",
+      "passed": true,
+      "fake_HTTP_calls": 1,
+      "real_network_calls": 0
+    },
+    {
+      "test": "over_reservation",
+      "passed": true,
+      "fake_HTTP_calls": 1,
+      "real_network_calls": 0
+    },
+    {
+      "test": "timeout",
+      "passed": true,
+      "fake_HTTP_calls": 1,
+      "real_network_calls": 0
+    },
+    {
+      "test": "ceiling",
+      "passed": true,
+      "fake_HTTP_calls": 0,
+      "real_network_calls": 0
+    }
+  ],
+  "scope_tiers": {
+    "explicit_weapons_or_military_norms_function": 14,
+    "mixed_purpose_vehicle": 1,
+    "technical_assurance_component": 7,
+    "adjudicated_core_C": 20,
+    "normative_autonomy_adjacent_weapons_application_unverified": 9,
+    "unadjudicated_or_excluded": 26,
+    "adjudicated_adjacent_C": 20,
+    "adjudicated_out_of_scope": 8,
+    "technical_assurance_with_ROE_semantic_goal; normative validation not established": 1,
+    "military_rule_reasoning_enabling; weapons benchmark not established": 5
+  },
+  "small_fix_presence": {
+    "functional_lead_january_2027": true,
+    "framework_june_2027": true,
+    "current_IDA_disclosure": true,
+    "CP_CoE_filename_not_date": true,
+    "Bode_accessed_at_cutoff": true
+  }
+}

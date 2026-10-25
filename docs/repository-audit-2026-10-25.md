@@ -95,3 +95,97 @@ Avoid a wholesale directory move now. Links and citations in earlier research ma
 - Reference GitHub policies: [large files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) and [repository structure and operational limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits).
 
 **Audit status:** Evidence reviewed; cleanup plan proposed; no existing dataset, branch or research record deleted, moved, or rewritten.
+
+
+---
+
+## Storage architecture decision note — 25 October 2026
+
+### Recommendation: keep the four jobs distinct, but start with only two services
+
+**Phase 1 (simple, now):** Continue to use public GitHub for publishable methods, the Rabbit catalog, code, reports, plain-English case indexes, and small verification samples. Keep unfinished or sensitive reporter notes in a **separate private workspace** (a local Obsidian vault or private GitHub repository, not this public repository). Use private Google Drive folders for working copies of source documents, evidence bundles and moderate-sized datasets. Maintain an independent offline or separately backed-up copy of irreplaceable originals. **Do not yet move or delete existing Git files.**
+
+**Phase 2 (when bulk data exceeds roughly 50–100 GB, or many automated jobs produce large archives):** Use a private Backblaze B2 bucket for large machine-readable datasets and verified evidence snapshots. Keep Drive for normal document access and GitHub for methods and manifests. Backblaze is an object store: files are identified by stable object keys and can be uploaded or downloaded by a script, but it is not a document editor or convenient full-text notebook. Optionally use Cloudflare R2 instead when public distribution/download volume is the decisive factor.
+
+**Phase 3 (publication):** Continue publishing readable material through GitHub, optionally with GitHub Pages as the website. Deposit *final, cleared-for-publication* data releases in Zenodo for a stable archival citation, or distribute large public downloads from R2. Do not deposit confidential sources, unreviewed third-party material, or restricted records in public repositories.
+
+**Principle:** One investigation, one canonical metadata manifest, multiple fit-for-purpose storage locations. An agent or reporter starts with the investigation README in GitHub; the README points to the authoritative source objects, their verification hashes, caveats and availability, without copying all the raw data into Git.
+
+### Service comparison: published rates checked 25 October 2026
+
+| Service | Role | Representative price | Main limitation |
+| --- | --- | --- | --- |
+| Google Drive / Google One | Casefiles and source documents, initial small-to-moderate bulk | 15 GB free shared with Gmail and Photos; Italian offers: 100 GB around €1.99/month, 200 GB around €2.99/month; 2 TB offers around €9.99/month depending on plan | Sync is not independent backup; less convenient for automated millions-of-record pipelines and reproducible immutable archival evidence |
+| Backblaze B2 | Private large data lake and independent archive | First 10 GB free; approximately US$6.95/TB/month thereafter; free downloads to 3× average monthly stored data | More technical; file contents are not automatically indexed like a notebook; extra charges may apply to large download volume |
+| Cloudflare R2 Standard | Public dataset distribution or bulk access | 10 GB storage free per month, then US$0.015/GB-month; request charges beyond allowances; no internet egress fee | Technical setup and careful public/private bucket access management |
+| Zenodo | Citable finished public releases | Free; 50 GB default quota per record | Not for continuously changing live corpora or undisclosed sensitive source material |
+| Obsidian (local) | Private reporting notebook | Application free; optional Sync Standard from US$4/month billed annually (1 GB sync storage, 5 MB per-file maximum) | Note-taking and linking, not a bulk data archive |
+| GitHub | Publication, code, small datasets, machine-readable manifests | Free tier currently adequate for published method and documents | Regular Git file warning >50 MiB, hard block >100 MiB; GitHub suggests repositories ideally <1 GB |
+
+Official sources or provider references: [Google One Italy](https://one.google.com/intl/it_it/about/), [Google One Italian App Store offers](https://apps.apple.com/it/app/google-one/id1451784328), [Google Drive sync behaviour](https://support.google.com/drive/answer/13401938?hl=en), [Google Drive deleted-file recovery](https://support.google.com/drive/answer/1716222?hl=en), [Backblaze B2 prices](https://help.backblaze.com/hc/en-us/articles/217667478-Understanding-B2-Pricing-Structure), [Backblaze Object Lock](https://help.backblaze.com/hc/en-us/articles/360052973274-Object-Lock-FAQs), [Cloudflare R2 prices](https://developers.cloudflare.com/r2/pricing/), [Zenodo quota](https://help.zenodo.org/docs/deposit/manage-quota/), [Obsidian Sync plans](https://obsidian.md/help/sync/plans), [GitHub large-file guidance](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github). Prices and availability vary by date, location and account; verify before purchase.
+
+### Why Google Drive alone is not enough
+
+- Drive for desktop can **stream** files (mostly cloud-only) or **mirror** them (full Mac copy), but changes and accidental deletions propagate. Google Drive trash generally retains deleted files for 30 days; older non-Google file versions can expire after 30 days or 100 newer revisions unless preserved. This is **synchronization**, not independent archival backup.
+- Drive is good for ordinary papers and PDFs, easy Mac Finder access, and connected document assistants. Bulk data should be retrieved by automated scripts when it grows beyond modest files or record counts. An AI connector does **not** turn a 100-GB data corpus into automatically understood, searchable research.
+- A Drive folder accessible to the owner is not automatically safe for anonymous sources. If source confidentiality matters, encrypt content *before* cloud upload, restrict access, separate the encryption key, and consider whether transmitting it to any AI service is appropriate. Do not commit the decrypted plaintext, credentials or source identities to public GitHub.
+- Google Drive's broad convenience does not provide the same retention controls as dedicated object stores. Backblaze B2 supports optional immutable Object Lock, but it must be configured deliberately (and retention mistakes can be difficult to undo).
+
+### Proposed directories and ownership
+
+```text
+PRIVATE NOTEBOOK (Mac / Obsidian / optional private GitHub)
+  /ideas /active /parked /contacts-private
+
+GOOGLE DRIVE (private; access controlled)
+  /Investigations/00-inbox/                    Unprocessed transfers; short-lived
+  /Investigations/10-active/<case-id>/          Working copies and correspondence
+  /Investigations/20-original-evidence/<case-id>/  Read-only by convention; originals plus acquisition records
+  /Investigations/30-processed/<case-id>/       Smaller interim data and reviewed outputs
+  /Investigations/90-closed/<case-id>/          Final archived case packets
+
+BACKBLAZE B2 (later; private bucket by default)
+  /<case-id>/sources/                           Raw large datasets, snapshot identifiers
+  /<case-id>/derived/                           Regenerable large outputs
+  /<case-id>/manifests/                         Byte counts and cryptographic checksums
+
+GITHUB (existing public investigative-methods repo)
+  /research/<YYYY-MM-DD>/<case-id>/README.md    Reporter-readable result, status and reporting next steps
+  /research/<YYYY-MM-DD>/<case-id>/DATA-MANIFEST.md  Where data lives and how to verify/restore
+  /research/<YYYY-MM-DD>/<case-id>/code/        Reproduction scripts
+  /docs/                                        Reusable governance and procedure
+  /catalogs/                                    Rabbit entries
+```
+
+Use stable case identifiers and distinct *public/private* markers in manifests. For any private object, GitHub should contain a neutral description and cryptographic checksum, **not** the confidential object's access URL or identifiable source details.
+
+### Minimum metadata for every externally stored file
+
+- Investigation ID and data role: `original-source`, `derived-output`, `reporter-note`, `publication`.
+- Safe public description; specific source and rights/terms in the appropriate private register.
+- Original acquisition timestamp, source URL if safe, reported coverage dates, file byte length, SHA-256 digest.
+- Canonical storage provider and object path, private/public classification, external backup location where safe to disclose.
+- Script/command or manual instructions to retrieve and verify; derivation script version and input hashes for derived files.
+- Retention decision and review date, full-publication permission status, and restore-test result.
+
+Do **not** make GitHub a universal index of source identities. For a sensitive investigation, the manifest in GitHub must not expose identities, unpublished allegations or private archive access parameters.
+
+### Reversible pilot and acceptance checks
+
+1. **Pilot one public, low-risk archived project**, e.g. a small dated procurement archive, not confidential or leaked material.
+2. Copy originals, a small machine output and manifest into a new private Drive folder. Check file counts and SHA-256 checksums; download a representative sample and compare bytes.
+3. Write its case's public README and safe manifest, with distinct labels for original source, derived outputs and editorial verdict. Confirm a fresh user/agent can navigate it without seeing secret links.
+4. For a **second pilot**, upload a 1–5 GB replaceable public bulk archive to B2, with correct billing limits, private bucket settings, versioning and a scripted restore. Confirm read-back and hash before further migration.
+5. Only after two successful restore exercises, plan staged removal of verified, regenerable current-branch data, with explicit decision on historic Git objects. Nothing here authorizes deletion, force pushes or an automatic repository history rewrite.
+
+### Immediate priority for the already audited repository
+
+A. Preserve and test a canonical backup of the F4 `brakes-candidate-register.json` (97.64 MiB), companion CSV, ancillary candidate outputs, and recovery manifests. Resolve the documented **missing F4 complete-package link** before changing references.
+
+B. Record original source/derived-output status for Alberta's 441.47 MiB case and its multipart compressed files; verify whole-file reconstruction from parts before migration.
+
+C. Treat the Pentagon contract archive's HTML and JSON pairs as source/evidence plus structured extraction, not assumed duplicate waste. Create a complete inventory before relocating 2,494 historical source-and-parse records.
+
+D. Keep the Rabbit catalog, short experiments, code, investigative findings and publication-ready reports in GitHub. Their size is negligible compared with raw machine data.
+
+**Decision status:** Architecture proposed; vendor accounts, Drive folders, B2 buckets, backup automation, and migrations have **not** been set up. No existing file moved or deleted.
