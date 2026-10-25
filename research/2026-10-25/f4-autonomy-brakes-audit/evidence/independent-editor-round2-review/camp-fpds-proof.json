@@ -1,0 +1,22 @@
+{
+  "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22W31P4Q26F0015%22%20REF_IDV_PIID%3A%22W31P4Q22D0025%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+  "method": "GET",
+  "http_status": 200,
+  "bytes": 41583,
+  "sha256": "82477d2735c14911c38843628642e5dc9b1255414e988c198ea765a1120aa414",
+  "observed_task_clock_utc": "2026-10-25T15:06:59Z",
+  "timestamp_note": "Tool completion observation, not an exact HTTP-send timestamp",
+  "matches_reporter_response_hash": true,
+  "actions": [
+    {
+      "date": "2026-01-28",
+      "obligation": 1988634,
+      "description": "TASK ORDER TO SUPPORT JSIL NAVY COLLABORATIVE AUTONOMY MISSION PLANNING AND DEBRIEF"
+    },
+    {
+      "date": "2026-04-28",
+      "obligation": 0,
+      "description": "JSIL UNITED STATES MARINE CORPS (USMC) SERVICE LEVEL TRAINING EXERCISES (SLTE) PHASE 5A"
+    }
+  ]
+}

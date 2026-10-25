@@ -1,0 +1,72 @@
+{
+  "commit": "9cdcb8e363e138067db42cc6a87383ec336f8dea",
+  "reviewed_count": 22,
+  "disposition_count": 107,
+  "retrieved_record_count": 105,
+  "retrieved_categories": {
+    "contract": 86,
+    "assistance": 18,
+    "idv": 1
+  },
+  "duplicate_record_keys": {},
+  "reviewed_vs_register_money_deltas": [],
+  "selected_totals_recomputed": {
+    "A": {
+      "count": 13,
+      "sum": "31019162.92",
+      "fy24_26": "30269162.92",
+      "active_count": 5,
+      "active_sum": "9774108.92"
+    },
+    "B": {
+      "count": 3,
+      "sum": "4487272.0",
+      "fy24_26": "2488582.00",
+      "active_count": 1,
+      "active_sum": "1988634.0"
+    },
+    "C": {
+      "count": 5,
+      "sum": "5597607.02",
+      "fy24_26": "5597607.02",
+      "active_count": 2,
+      "active_sum": "3547892.43"
+    }
+  },
+  "disposition_categories": {
+    "A;D": 8,
+    "C;D": 2,
+    "A;B": 1,
+    "B;A;C": 3,
+    "C;": 4,
+    "C_candidate;B_possible": 55,
+    "A_candidate;C_possible": 2,
+    "scope_unresolved": 7,
+    "false_positive_or_broad_support": 11,
+    "A;C": 2,
+    "unallocated_parent_vehicle": 1,
+    "unresolved": 2,
+    "A;B;C": 2,
+    "normative_autonomy_adjacent": 7
+  },
+  "source_hashes": {
+    "retrieval-manifest.json": "76e10740c2d9968f1d81668bd4c8b602ef81bb3b30160f88d1bf705890fea0c3",
+    "tree.json": "0380d695446d1c054d86ee2cd98b7b2be684b833221b0f30ed83dc2d57b132fe",
+    "audit/live-retrieval-log.json": "901e385bd936917b52222da883d4f26fa9c090536d87f8f19d199efff8ba3638",
+    "audit/reviewed-case-accounting.json": "02e2d235a518c6bdaee44700793a592076f20e6dd8cc3c6b6ea6e4bb84f07169",
+    "audit/PROVISIONAL_REVIEW_SNAPSHOT.md": "1d6b06d9920d6a4b550a5e67d4af077a6f0796c693b783e789061c181e9238c6",
+    "evidence/reviewed-cases.json": "efe58220c2ddc718fa43f45a440ed72faaa557d4268bd1f7dafe44becdb62221",
+    "evidence/live-award-register.json": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
+    "evidence/live-candidate-disposition.csv": "37ab7f68e10d4c35a82130d3136e02ca7aff07c338bc5f7210f0c116b4e42e5d",
+    "evidence/reviewed-cases.csv": "9912061afd9813e825a04f872fd8f97efdf320d8aceab0482bd3683506728dc5"
+  },
+  "retained_logged_requests": 381,
+  "http_status_counts": {
+    "200": 356,
+    "404": 7,
+    "422": 18
+  },
+  "retained_unique_observations": 381,
+  "sam_direct_request_count": 0,
+  "sbir_direct_request_count": 0
+}
