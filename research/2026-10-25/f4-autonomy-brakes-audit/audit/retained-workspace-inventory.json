@@ -1,0 +1,118 @@
+{
+  "status": "Retained consumer-executor original input archives, screening code/output and live caches verified present",
+  "observed_utc": "2026-10-25T18:58:07.069896+00:00",
+  "archives": [
+    {
+      "name": "FWI-20261016-normalized-research-context.tar.gz",
+      "bytes": 337205379,
+      "sha256": "b9ad7acc6061f21792c4d26efc57940e4506702e22c490046d69f5e5b292a8eb",
+      "expected_sha256": "b9ad7acc6061f21792c4d26efc57940e4506702e22c490046d69f5e5b292a8eb",
+      "exact_hash_matches_expected": true
+    },
+    {
+      "name": "FWI-20261016-normalized-rd-contracts.tar.gz",
+      "bytes": 298124789,
+      "sha256": "63809f0fbf8fc5427341e637054cfe2012f6f7f5c28379af9178f735a6762317",
+      "expected_sha256": "63809f0fbf8fc5427341e637054cfe2012f6f7f5c28379af9178f735a6762317",
+      "exact_hash_matches_expected": true
+    },
+    {
+      "name": "FWI-20261016-normalized-capabilities.tar.gz",
+      "bytes": 193288531,
+      "sha256": "a06375165baf25a4532ee6bef8c3cb47aba05ebb6c03cc55db8253487953b96e",
+      "expected_sha256": "a06375165baf25a4532ee6bef8c3cb47aba05ebb6c03cc55db8253487953b96e",
+      "exact_hash_matches_expected": true
+    }
+  ],
+  "critical_public_deliverables": [
+    {
+      "name": "screen_archives.py",
+      "bytes": 77614,
+      "sha256": "e179c4afc621280e048bef323045d19416f142aa48f64303fbc4db763f90690a",
+      "package_path": "code/screen_archives.py"
+    },
+    {
+      "name": "brakes-candidate-register.csv",
+      "bytes": 84465834,
+      "sha256": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
+      "package_path": "evidence/brakes-candidate-register.csv"
+    },
+    {
+      "name": "brakes-candidate-register.json",
+      "bytes": 102378238,
+      "sha256": "d51c0f279bf94659a65d6fd00ff2880a74d0afd2096a320842135b9a7dc84f35",
+      "package_path": "evidence/brakes-candidate-register.json"
+    },
+    {
+      "name": "asimov-performer-continuation-check.csv",
+      "bytes": 47027154,
+      "sha256": "ba3e01dd44cdc3b1479abce1d9034770dac96585abec53b834eff6c6a96b81c4",
+      "package_path": "evidence/asimov-performer-continuation-check.csv"
+    },
+    {
+      "name": "live-award-register.json",
+      "bytes": 2992410,
+      "sha256": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
+      "package_path": "evidence/live-award-register.json"
+    },
+    {
+      "name": "fpds-verified-actions.csv",
+      "bytes": 470083,
+      "sha256": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+      "package_path": "evidence/fpds-verified-actions.csv"
+    },
+    {
+      "name": "exa-query-cost-log.csv",
+      "bytes": 47659,
+      "sha256": "122f9a7a6d733acef606455fd1cbe5c0d9460f8eb5325c06aafd72b55e1935a1",
+      "package_path": "audit/exa-query-cost-log.csv"
+    }
+  ],
+  "private_availability": [
+    {
+      "private_directory_label": "f4-data-complete",
+      "exists": true,
+      "file_count": 103,
+      "bytes": 2707256115,
+      "publication": "Private bytes not exported; this is an availability inventory only"
+    },
+    {
+      "private_directory_label": "f4-private",
+      "exists": true,
+      "file_count": 239,
+      "bytes": 1142478,
+      "publication": "Private bytes not exported; this is an availability inventory only"
+    },
+    {
+      "private_directory_label": "f4-ota",
+      "exists": true,
+      "file_count": 12,
+      "bytes": 1004772,
+      "publication": "Private bytes not exported; this is an availability inventory only"
+    },
+    {
+      "private_directory_label": "f4-ota-keywords",
+      "exists": true,
+      "file_count": 14,
+      "bytes": 943174,
+      "publication": "Private bytes not exported; this is an availability inventory only"
+    }
+  ],
+  "trial_concatenation": [
+    {
+      "name": "f4-preview.txt",
+      "bytes": 293533612,
+      "sha256": "7d5f39d64b535413bb4ade6a5161cdfdaf80e1d25288f0638ba74badd2a024ce"
+    },
+    {
+      "name": "f4-preview.txt.gz",
+      "bytes": 29605926,
+      "sha256": "85306981d7ad1f6bb0ddaa07efe176a03dc6e93f0e9358d6be466afa22d60cf2"
+    }
+  ],
+  "trial_warning": "These are earlier consumer-only trial bytes, not final integrated delivery. Their hashes do not imply equivalence to the missing independent Stage1 package.",
+  "independent_stage1_transport_materialized": false,
+  "independent_package_recovery_boundary": "No full original independent13267-key register or114-filepackage was supplied to this executor. Parent narrative expectations are retained in task history, not represented as recoverable original files. The independently authored consumer5501-key register and its original script remain available and public.",
+  "no_paid_calls": true,
+  "no_publication_of_raw_third_party_caches_or_input_archives": true
+}

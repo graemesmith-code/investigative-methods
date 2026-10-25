@@ -9,7 +9,7 @@ though each were a disjoint population of distinct safeguards or programs.
 | `evidence/live-award-register.json` | Exact standard public award records and disclosed contract/assistance histories | Technical acceptance, actual performance, or all recent/nonpublic activity |
 | `evidence/ota-resolution-review.json` and `ota-keyword-followup-records.json` | Separately parsed public FPDS OtherTransactionIDV prototype identities and actions | A zero-obligation FAR parent vehicle, or automatically reconciled money where aggregate/action gaps remain |
 | `evidence/available-register-membership.csv` | Compact exact-key source/instrument membership across the available archive, standard live and OTA records | Distinct real-world award/program count or any combined financial total |
-| `evidence/parallel-key-membership.csv` | Exact-key comparison with the independent Stage1 screen, once that source is materialized and compared | A second independent financial population or permission to merge by recipient/short PIID |
+| `audit/parallel-register-reconciliation.json` | Records the unavailable original independent-screen comparison and conditional versioned recovery | An observed independent union, a second financial population, or permission to merge by recipient/short PIID |
 
 ## Available-source membership
 
@@ -27,10 +27,9 @@ formerly unresolved standard target searches that have separately verified OTA
 identities remain explained in the audit. Their absence from a contract parser
 was not program-absence evidence.
 
-The independent Stage1 source is still pending in this executor at this note's
-creation. Its exact snapshot comparison is recorded separately in
-`audit/parallel-register-reconciliation.json`. Neither its candidates nor its
-input rows may be added to this view as new disjoint federal activity.
+The original independent Stage1 comparison is **unavailable because the producer runtime lost its original output bodies and scripts before verified publication**, as reported by the parent at18:55. The earlier GitHub approval resolved successfully; approval is no longer the blocking dependency. `audit/independent-stage1-retained-metadata.json` preserves metadata for135 expected files, not their original contents. `audit/parallel-register-reconciliation.json` records this loss and the metadata hash.
+
+The consumer's complete scan remains authoritative: all three hash-verified archives, its original screening script and outputs remain intact. The **5,585-key available-source index is complete for its stated inputs**. Historical parent-reported expectations of13,267 independent keys and a17,858-key combined union were never independently observed here and must not be reported as actual counts. If a verified recovery version arrives, compare its actual membership, financial-match flags and hashes under a distinct version; do not force those expectations or treat the same supplied corpus as new disjoint activity.
 
 ## Complete acquired inputs are not complete acquisition histories
 

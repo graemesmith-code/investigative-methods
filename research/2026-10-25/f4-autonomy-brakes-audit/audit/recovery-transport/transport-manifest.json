@@ -1,0 +1,94 @@
+{
+  "format_version": 1,
+  "purpose": "Duplicate lossless transport encodings of four existing public registers; not additional observations, awards or funding",
+  "max_part_bytes": 4194304,
+  "files": [
+    {
+      "original_path": "evidence/brakes-candidate-register.csv",
+      "original_bytes": 84465834,
+      "original_sha256": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
+      "compressed_bytes": 10477965,
+      "compressed_sha256": "10d9a6ea0f348bba84ae769c0ea4f5be11cda14e5de3453277e6e86319e03ae8",
+      "encoding": "Concatenate listed parts in order, then gzip-decompress once; complete original UTF-8 bytes",
+      "parts": [
+        {
+          "path": "audit/recovery-transport/brakes-candidate-register.csv.gz.part-0000",
+          "bytes": 4194304,
+          "sha256": "1bc9b0f77d8fe98634fbf48f741774a70bcaccd8252fcc6cd15efe772fb0be23"
+        },
+        {
+          "path": "audit/recovery-transport/brakes-candidate-register.csv.gz.part-0001",
+          "bytes": 4194304,
+          "sha256": "259bf7b1fdb090046a742a8ad506b306002c5e57d0e30c22071d49a5110f7b54"
+        },
+        {
+          "path": "audit/recovery-transport/brakes-candidate-register.csv.gz.part-0002",
+          "bytes": 2089357,
+          "sha256": "8fee8cc3c47e7fc2f4d104c9b2487836e0e7b601535d4be050a9477a26664888"
+        }
+      ]
+    },
+    {
+      "original_path": "evidence/brakes-candidate-register.json",
+      "original_bytes": 102378238,
+      "original_sha256": "d51c0f279bf94659a65d6fd00ff2880a74d0afd2096a320842135b9a7dc84f35",
+      "compressed_bytes": 10906898,
+      "compressed_sha256": "50924145832673e0ef6b084a15e9f05308a498132696306a7471023d885e880a",
+      "encoding": "Concatenate listed parts in order, then gzip-decompress once; complete original UTF-8 bytes",
+      "parts": [
+        {
+          "path": "audit/recovery-transport/brakes-candidate-register.json.gz.part-0000",
+          "bytes": 4194304,
+          "sha256": "ad1dc4913c50ba830070a8829f5c5353ee5c5458529febabc6810d123c9c4a82"
+        },
+        {
+          "path": "audit/recovery-transport/brakes-candidate-register.json.gz.part-0001",
+          "bytes": 4194304,
+          "sha256": "168f9e7a3315255b58dbacf2f0be08ab1493a314f1f4fcaf69f278c3ee031afb"
+        },
+        {
+          "path": "audit/recovery-transport/brakes-candidate-register.json.gz.part-0002",
+          "bytes": 2518290,
+          "sha256": "5081fc013d57acc9702df4782206d4dae3327cb79a5c0a43b04e70e997ce97b1"
+        }
+      ]
+    },
+    {
+      "original_path": "evidence/asimov-performer-continuation-check.csv",
+      "original_bytes": 47027154,
+      "original_sha256": "ba3e01dd44cdc3b1479abce1d9034770dac96585abec53b834eff6c6a96b81c4",
+      "compressed_bytes": 5219490,
+      "compressed_sha256": "0d1aae254480aed8d79236f3a29b71bf042325f49d155c7739f185ac1239b6bb",
+      "encoding": "Concatenate listed parts in order, then gzip-decompress once; complete original UTF-8 bytes",
+      "parts": [
+        {
+          "path": "audit/recovery-transport/asimov-performer-continuation-check.csv.gz.part-0000",
+          "bytes": 4194304,
+          "sha256": "c7f4762f73510604c71c5df665865f95f27c89e1054fae5164d2de95cb21c3e8"
+        },
+        {
+          "path": "audit/recovery-transport/asimov-performer-continuation-check.csv.gz.part-0001",
+          "bytes": 1025186,
+          "sha256": "1e1b1645895d27d6dc77cd55a8fcbe86090a0cf2ece7bb02ae46afc5418749f9"
+        }
+      ]
+    },
+    {
+      "original_path": "evidence/auxiliary-candidates.jsonl",
+      "original_bytes": 48716850,
+      "original_sha256": "ae9fbb8d6ad8873be2514e36d9ac3f552245241c32f09ca8dc406e1e4f765db4",
+      "compressed_bytes": 1464506,
+      "compressed_sha256": "8ea4e176521ab604987e62d5b494b4bf93dcb4f8de58d8611e547503d05def55",
+      "encoding": "Concatenate listed parts in order, then gzip-decompress once; complete original UTF-8 bytes",
+      "parts": [
+        {
+          "path": "audit/recovery-transport/auxiliary-candidates.jsonl.gz.part-0000",
+          "bytes": 1464506,
+          "sha256": "8ea4e176521ab604987e62d5b494b4bf93dcb4f8de58d8611e547503d05def55"
+        }
+      ]
+    }
+  ],
+  "reproduce": "python3 code/recovery_transport.py restore --destination /absolute/output-parent; verifies every part, combined gzip and recovered original before installation",
+  "source_scope": "Only the four named public authored research registers; no raw third-party article caches, private notes or input archives"
+}

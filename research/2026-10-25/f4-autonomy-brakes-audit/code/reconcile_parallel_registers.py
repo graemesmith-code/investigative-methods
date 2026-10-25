@@ -59,6 +59,7 @@ def read_register(path,side,args):
   supplied=getattr(args,side+'_money_unit')
   units[window]=supplied or ('cents' if col and 'cent' in col.lower() else 'dollars' if col and any(x in col.lower() for x in ('usd','dollar')) else None)
   if col and units[window] is None:raise ValueError(f'Unclear unit for {side} {col}; specify --{side}-money-unit')
+ financialcol=choose(headers,getattr(args,side+'_financial_match_column',None),['financial_match','financial_transaction_count'],'exact financial ledger match',True)
  rows={};dups=[];errors=[];blankkeys=[];n=0
  for n,r in enumerate(reader,1):
   key=(r.get(keycol) or '').strip()
@@ -67,11 +68,15 @@ def read_register(path,side,args):
   for window,col in moneycols.items():
    try:values[window]=money(r.get(col),units[window]) if col else None
    except (ValueError,InvalidOperation) as e:values[window]=None;errors.append({'row':n,'key':key,'column':col,'error':str(e)})
-  slim={'source_data_row':n,'category_raw':r.get(categorycol,'') if categorycol else '',**values}
+  flagraw=str(r.get(financialcol,'')).strip().lower() if financialcol else ''
+  if financialcol=='financial_transaction_count':financialmatch=int(flagraw or '0')>0
+  elif financialcol:financialmatch=flagraw in ('true','1','yes','matched','financial_match')
+  else:financialmatch=None
+  slim={'financial_match':financialmatch,'financial_match_raw':flagraw,'source_data_row':n,'category_raw':r.get(categorycol,'') if categorycol else '',**values}
   if key in rows:dups.append({'key':key,'first_row':rows[key]['source_data_row'],'duplicate_row':n,'money_equal':all(rows[key][w]==slim[w] for w in WINDOWS)})
   else:rows[key]=slim
  text.close();raw.close();after=sha(path)
- return rows,{'path':str(path),'sha256':before,'sha256_after_read':after,'stable_during_read':before==after,'physical_data_rows':n,'unique_exact_keys':len(rows),'blank_key_rows':blankkeys,'duplicate_key_observations':dups,'monetary_parse_errors':errors,'key_column':keycol,'category_column':categorycol,'money_columns':moneycols,'money_units':units,'fieldnames':headers,'key_kind_counts':{k:sum(keykind(x)==k for x in rows) for k in sorted({keykind(x) for x in rows})}}
+ return rows,{'path':str(path),'sha256':before,'sha256_after_read':after,'stable_during_read':before==after,'physical_data_rows':n,'unique_exact_keys':len(rows),'blank_key_rows':blankkeys,'duplicate_key_observations':dups,'monetary_parse_errors':errors,'financial_match_column':financialcol,'actual_ledger_match_count':sum(v['financial_match'] is True for v in rows.values()),'financial_match_unknown_count':sum(v['financial_match'] is None for v in rows.values()),'financial_prefix_count_not_ledger_count':sum(keykind(k) in ('complete_procurement_award_key','complete_assistance_award_key') for k in rows),'key_column':keycol,'category_column':categorycol,'money_columns':moneycols,'money_units':units,'fieldnames':headers,'key_kind_counts':{k:sum(keykind(x)==k for x in rows) for k in sorted({keykind(x) for x in rows})}}
 
 def run(args):
  root,ra=read_register(args.root,'root',args);ind,ia=read_register(args.independent,'independent',args)
@@ -82,6 +87,7 @@ def run(args):
  for w in WINDOWS:
   valid=[];different=[];missing=[];nullzero=[]
   for k in common:
+   if root[k]['financial_match'] is False or ind[k]['financial_match'] is False:continue
    if keykind(k) not in ('complete_procurement_award_key','complete_assistance_award_key'):continue
    a,b=root[k][w],ind[k][w]
    if a is None or b is None:
@@ -89,18 +95,18 @@ def run(args):
     else:missing.append(k)
    elif a==b:valid.append(k)
    else:different.append({'award_key':k,'root_cents':a,'independent_cents':b,'difference_cents':a-b,'root_source_data_row':root[k]['source_data_row'],'independent_source_data_row':ind[k]['source_data_row']})
-  comparisons[w]={'both_nonnull_equal':len(valid),'both_nonnull_differences':different,'one_or_both_values_missing':len(missing),'null_versus_explicit_zero_representation_pairs':len(nullzero),'null_zero_keys':nullzero,'no_zero_imputation':'Blank/missing is preserved; null-vs-zero pairs are not silently classified as financial errors or silently filled.'}
+  comparisons[w]={'both_nonnull_equal':len(valid),'both_nonnull_differences':different,'one_or_both_values_missing':len(missing),'null_versus_explicit_zero_representation_pairs':len(nullzero),'null_zero_keys':nullzero,'no_zero_imputation':'Blank/missing is preserved. In a confirmed ledger-matched award, a blank window sum may signify no actions in that window, whereas an unmatched award is not known to have zero funding. Null-vs-zero pairs are listed explicitly, not silently imputed or classified as financial errors.'}
  status='compared_stable_snapshots' if ra['stable_during_read'] and ia['stable_during_read'] else 'inputs_changed_retry_required'
- out={'generated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':status,'scope':'Independent lexical passes over overlapping/same supplied corpus. Exact-key union is a discovery index, NOT distinct verified programs and NOT a sum of money or independent source populations. No source register was modified.','root':ra,'independent':ia,'membership':{'intersection_exact_keys':len(common),'root_only_exact_keys':len(onlyroot),'independent_only_exact_keys':len(onlyind),'union_exact_keys':len(root.keys()|ind.keys()),'complete_financial_keys_intersection':sum(keykind(k) in ('complete_procurement_award_key','complete_assistance_award_key') for k in common),'root_only_by_kind':{kind:sum(keykind(k)==kind for k in onlyroot) for kind in sorted(set(map(keykind,onlyroot)))},'independent_only_by_kind':{kind:sum(keykind(k)==kind for k in onlyind) for kind in sorted(set(map(keykind,onlyind))) }},'comparable_integer_cent_windows':comparisons,'interpretation':['Source-specific SBIR/document keys may refer to the same real award and are not merged by PIID alone.','Different automatic categories or lexical memberships require review; neither establishes actual safeguard scope.','A parent-only hit should remain available as an independent-screen provenance edge/lead, not create a second financial action.','No combined safeguards-dollar total is produced. Financial actions must be aggregated once by complete canonical transaction identity.']}
+ out={'generated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'status':status,'scope':'Independent lexical passes over overlapping/same supplied corpus. Exact-key union is a discovery index, NOT distinct verified programs and NOT a sum of money or independent source populations. No source register was modified.','root':ra,'independent':ia,'membership':{'intersection_exact_keys':len(common),'root_only_exact_keys':len(onlyroot),'independent_only_exact_keys':len(onlyind),'union_exact_keys':len(root.keys()|ind.keys()),'actual_both_ledger_matched_intersection':sum(root[k]['financial_match'] is True and ind[k]['financial_match'] is True for k in common),'financial_prefix_keys_intersection_not_ledger_count':sum(keykind(k) in ('complete_procurement_award_key','complete_assistance_award_key') for k in common),'root_only_by_kind':{kind:sum(keykind(k)==kind for k in onlyroot) for kind in sorted(set(map(keykind,onlyroot)))},'independent_only_by_kind':{kind:sum(keykind(k)==kind for k in onlyind) for kind in sorted(set(map(keykind,onlyind))) }},'comparable_integer_cent_windows':comparisons,'interpretation':['Source-specific SBIR/document keys may refer to the same real award and are not merged by PIID alone.','Different automatic categories or lexical memberships require review; neither establishes actual safeguard scope.','A parent-only hit should remain available as an independent-screen provenance edge/lead, not create a second financial action.','No combined safeguards-dollar total is produced. Financial actions must be aggregated once by complete canonical transaction identity.']}
  args.audit.parent.mkdir(parents=True,exist_ok=True);args.audit.write_text(json.dumps(out,indent=2)+'\n')
  if status!='inputs_changed_retry_required':
   args.membership.parent.mkdir(parents=True,exist_ok=True)
-  fields=['award_or_source_key','key_kind','membership','root_source_data_row','independent_source_data_row','root_category_raw','independent_category_raw']
+  fields=['award_or_source_key','key_kind','membership','root_source_data_row','independent_source_data_row','root_category_raw','independent_category_raw','root_financial_ledger_match','independent_financial_ledger_match']
   with args.membership.open('w',newline='',encoding='utf-8') as f:
    wr=csv.DictWriter(f,fieldnames=fields);wr.writeheader()
    for k in sorted(root.keys()|ind.keys()):
     a,b=root.get(k,{}),ind.get(k,{})
-    wr.writerow(dict(zip(fields,[k,keykind(k),'both' if a and b else 'root_only' if a else 'independent_only',a.get('source_data_row',''),b.get('source_data_row',''),a.get('category_raw',''),b.get('category_raw','')])))
+    wr.writerow(dict(zip(fields,[k,keykind(k),'both' if a and b else 'root_only' if a else 'independent_only',a.get('source_data_row',''),b.get('source_data_row',''),a.get('category_raw',''),b.get('category_raw',''),a.get('financial_match',''),b.get('financial_match','')])))
  # Optional complete logical membership index adds the already audited standard
  # live/OTA source identities. It remains a source/instrument-key union, never a
  # unique-program count, a PIID-only merge or a monetary aggregation.
@@ -128,6 +134,6 @@ def run(args):
 if __name__=='__main__':
  a=argparse.ArgumentParser();a.add_argument('--root',type=pathlib.Path,default=P/'evidence/brakes-candidate-register.csv');a.add_argument('--independent',type=pathlib.Path,required=True);a.add_argument('--audit',type=pathlib.Path,default=P/'audit/parallel-register-reconciliation.json');a.add_argument('--membership',type=pathlib.Path,default=P/'evidence/parallel-key-membership.csv');a.add_argument('--available-membership',type=pathlib.Path);a.add_argument('--combined-membership',type=pathlib.Path,default=P/'evidence/combined-key-membership.csv')
  for side in ('root','independent'):
-  a.add_argument('--'+side+'-key-column');a.add_argument('--'+side+'-money-unit',choices=('cents','dollars'));a.add_argument('--'+side+'-expected-sha256')
+  a.add_argument('--'+side+'-financial-match-column');a.add_argument('--'+side+'-key-column');a.add_argument('--'+side+'-money-unit',choices=('cents','dollars'));a.add_argument('--'+side+'-expected-sha256')
   for window in WINDOWS:a.add_argument('--'+side+'-'+window.replace('_','-')+'-column',dest=side+'_'+window+'_column')
  sys.exit(run(a.parse_args()))

@@ -1,9 +1,9 @@
 {
-  "status": "pending_independent_stage1_publication_approval",
-  "recorded_utc": "2026-10-25T15:54:06.040087+00:00",
+  "status": "original_independent_stage1_comparison_unavailable_producer_file_loss",
+  "recorded_utc": "2026-10-25T19:02:05.530829+00:00",
   "action_pending": "Run code/reconcile_parallel_registers.py against final root CSV and authenticated/published independent-stage1 CSV/gzip snapshot",
   "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
-  "reason": "Parent reports independent Stage1 publication is blocked on a pending GitHub create-blob approval, attached 15:29 and explained 15:43 on 2026-10-25. The independent transport has not been published/materialized here. This is a pending approval outcome, not a denied action or a source absence finding. No alternative publication route or repeated mutation was attempted by this worker.",
+  "reason": "Parent reports the independent producer runtime was lost at18:55; original Stage1 file bodies and scripts were not retained there. Earlier GitHub approval had resolved on resume but only an uncommitted4MiB blob was uploaded. The original independent core has not been materialized here; no original exact-key or monetary comparison can be claimed. The authoritative consumer scan and its available-source membership remain complete. This is producer file loss, not a pending approval gate.",
   "completed": [
     "Comparator implemented; exact-key membership and integer-cent window comparison only",
     "Synthetic gzip/exact-overlap/dollars-to-cents/null-versus-zero tests passed",
@@ -19,13 +19,31 @@
   "acquisition_history_evidence": "audit/acquisition-history-coverage.json",
   "available_sources_status": "5501 archive keys,105 standard live records,6 OTA primary identities; exact union5585 source/instrument keys, not unique award/program count",
   "dependency": {
-    "reported_by": "parent coordinating investigator",
-    "action": "GitHub create-blob for independent Stage1 publication",
-    "target": "research/2026-10-25/f4-autonomy-brakes-audit/evidence/independent-stage1/",
-    "outcome": "pending approval",
-    "approval_attached_time_as_reported": "2026-10-25 15:29",
-    "explanation_time_as_reported": "2026-10-25 15:43",
-    "time_source": "Parent report; original approval event is not independently inspected by this worker",
-    "next_step": "Await parent confirmation of approval/publication and supported local materialization; then run final exact-key comparison and combined root/independent/live/OTA membership."
+    "action": "Read original independently produced Stage1 core and exact supporting provenance for comparison",
+    "target": "evidence/independent-stage1/ original frozen outputs",
+    "outcome": "unavailable: original producer file bodies/scripts lost before verified publication",
+    "approval_status": "Earlier approval resolved; not a current blocker",
+    "completed_available_sources": "Authoritative consumer retains all three hash-verified input archives, original screening script and full consumer outputs. Available-source exact membership is complete:5585 source/instrument keys.",
+    "conditional_recovery": "If parent supplies a verified versioned recovery commit and materialized canonical path, compare its actual keys, ledger flags and hashes as a new version. Do not force original expected counts or merge financial identities mechanically."
+  },
+  "expected_checks_not_observed_here": {
+    "root_keys": 5501,
+    "independent_keys": 13267,
+    "intersection": 936,
+    "two_register_union": 17832,
+    "combined_source_instrument_union": 17858,
+    "actual_root_financial_matches": 3663,
+    "actual_independent_financial_matches": 8526,
+    "expected_common_nonempty_money_cells_equal": 1934,
+    "expected_null_versus_zero_fields": 799,
+    "expected_null_versus_zero_keys": 408,
+    "source": "Parent-provided frozen expectations; not independently observed against pending parent files",
+    "status": "historical parent-reported expectations for lost original version; unverified here; not an actual union or recovery target"
+  },
+  "retained_metadata": {
+    "path": "audit/independent-stage1-retained-metadata.json",
+    "bytes": 38745,
+    "sha256": "ea5b5badb8c2e2b0f9b75f0256030905243fec10cd6adfa065f9af6f2ca0c71c",
+    "scope": "Retained file metadata only; not original file bodies, executable scripts, or proof of actual original register contents."
   }
 }
