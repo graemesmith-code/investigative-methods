@@ -4,6 +4,15 @@ Public records can offer more leads than a journalist has time to read. This not
 
 The most complete trial ranked 1,234 Canadian access-to-information request summaries, checked ten shortlisted topics and obtained one seven-page release. It identified two specific files worth reading next, **not a verified scoop**. Estimated model usage and reported search costs totalled **about 18 US cents, excluding setup and reporting time**. The useful result was a clearer next reporting step, including knowing when to stop.
 
+## Start here — current investigations and repository health
+
+- **[Autonomy safeguards / F4 audit (25 October 2026)](research/2026-10-25/f4-autonomy-brakes-audit/README.md):** The claim that safeguards simply vanished is not supported; follow the reviewed cases and unresolved institutional questions before using machine-screened results.
+- **[Alberta seismic/fracturing screen (6 October 2026)](research/2026-10-06/alberta-seismic-injection/README.md):** Two candidate earthquake groups overlap reported well-operation date windows; no violation, causation or actual pumping at event time was established.
+- **[Pentagon contract-history archive (16 October 2026)](research/2026-10-16/future-warfare-investments/README.md):** Historical source archive and parsed contract notices. Coverage is incomplete, and announcement counts are not spending totals.
+- **[Repository audit (25 October 2026)](docs/repository-audit-2026-10-25.md):** Storage risks, repeated snapshots, an unresolved F4 package link, and a reversible cleanup plan. Large records are preserved for now; do not remove them without verified backups.
+
+Other projects, reusable experiments and Rabbit sources are indexed below. The [next-steps register](docs/next-steps.md) contains earlier outstanding actions; it is not a complete account of current research.
+
 ## Choose a recipe for your beat
 
 - **Find the next document to read.** The [Canadian ATI experiment](experiments/07-canadian-ati.md) turns short request summaries into choices: obtain a named file, sharpen a question, or recognize that the story is already covered. Try it when an index is much larger than your reading time.
