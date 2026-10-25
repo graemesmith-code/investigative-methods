@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Build authored evidence observations and a deliberately ranked 75-source guide.
+"""Historical checkpoint assembler. Final integration uses assemble_reviewed_register.py.
+
+Build authored evidence observations and a deliberately ranked 75-source guide.
 
 Input registers contain source-specific analysis/access limits, never confidential
 notes. Output CSV belongs on Drive. Ranking is editorial relevance, not a measured

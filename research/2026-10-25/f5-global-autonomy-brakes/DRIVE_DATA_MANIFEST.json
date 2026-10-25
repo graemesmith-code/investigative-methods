@@ -68,15 +68,15 @@
       "filename": "global-brakes-master-register.csv",
       "drive_file_id": "11xROkIY82kJaBPCDJuvsA8IBk540SYIf",
       "drive_view_url": "https://drive.google.com/file/d/11xROkIY82kJaBPCDJuvsA8IBk540SYIf/view?usp=drivesdk",
-      "bytes": 99282,
-      "row_count": 145,
-      "sha256": "424394a6103aa9d2a6a0bc1bbc32e9cae567962309a6e06753a019c0fa8d3e46",
-      "readback_sha256": "424394a6103aa9d2a6a0bc1bbc32e9cae567962309a6e06753a019c0fa8d3e46",
-      "readback_bytes": 99282,
+      "bytes": 615522,
+      "row_count": 308,
+      "sha256": "1439d2a2e9abf33f22dbd2b93a177932e27f6e64952d8b24e88958a46e1dbc12",
+      "readback_sha256": "1439d2a2e9abf33f22dbd2b93a177932e27f6e64952d8b24e88958a46e1dbc12",
+      "readback_bytes": 615522,
       "owner_email": "smithg@gmail.com",
       "anyone_reader": true,
       "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
-      "verified_utc": "2026-10-25T21:48:03.937980+00:00",
+      "verified_utc": "2026-10-25T22:40:25.158190+00:00",
       "verification": "Completed native upload; ownership, inherited sharing and parent metadata; native complete raw-byte fetch and exact equality",
       "superseded_verified_versions": [
         {
@@ -85,24 +85,41 @@
           "sha256": "486f10f19a2f9866af95c6c4da40651ded726f6e4d486304601b3ccb172d275b",
           "readback_sha256": "486f10f19a2f9866af95c6c4da40651ded726f6e4d486304601b3ccb172d275b",
           "verified_utc": "2026-10-25T21:38:13.643719+00:00"
+        },
+        {
+          "bytes": 99282,
+          "row_count": 145,
+          "sha256": "424394a6103aa9d2a6a0bc1bbc32e9cae567962309a6e06753a019c0fa8d3e46",
+          "readback_sha256": "424394a6103aa9d2a6a0bc1bbc32e9cae567962309a6e06753a019c0fa8d3e46",
+          "verified_utc": "2026-10-25T21:48:03.937980+00:00"
         }
       ],
-      "history_note": "Earlier exact-byte readbacks before native in-place update. Current Drive view returns current hash; historical hashes are not claimed as current view bytes."
+      "history_note": "Previous verified source/register checkpoint bytes retained as hash history; current view returns integrated review candidate bytes."
     },
     {
       "filename": "patent-safeguards-register.csv",
       "drive_file_id": "1mDPI-0PYS8ScfQJh3nSGt_TH6Umb6AAr",
       "drive_view_url": "https://drive.google.com/file/d/1mDPI-0PYS8ScfQJh3nSGt_TH6Umb6AAr/view?usp=drivesdk",
-      "bytes": 13742,
-      "row_count": 16,
-      "sha256": "1c69c2ea3fdccd3e1e3459a47343a1872047ef5fa67583c521fc17fa6bfc7354",
-      "readback_sha256": "1c69c2ea3fdccd3e1e3459a47343a1872047ef5fa67583c521fc17fa6bfc7354",
-      "readback_bytes": 13742,
+      "bytes": 32122,
+      "row_count": 23,
+      "sha256": "8ed260c59523d7a490012cecbb5a3efddb74a1d571a9839d3dd90bf47fc077f7",
+      "readback_sha256": "8ed260c59523d7a490012cecbb5a3efddb74a1d571a9839d3dd90bf47fc077f7",
+      "readback_bytes": 32122,
       "owner_email": "smithg@gmail.com",
       "anyone_reader": true,
       "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
-      "verified_utc": "2026-10-25T21:38:20.609790+00:00",
-      "verification": "Completed native upload; ownership, inherited sharing and parent metadata; native complete raw-byte fetch and exact equality"
+      "verified_utc": "2026-10-25T22:40:35.187042+00:00",
+      "verification": "Completed native upload; ownership, inherited sharing and parent metadata; native complete raw-byte fetch and exact equality",
+      "superseded_verified_versions": [
+        {
+          "bytes": 13742,
+          "row_count": 16,
+          "sha256": "1c69c2ea3fdccd3e1e3459a47343a1872047ef5fa67583c521fc17fa6bfc7354",
+          "readback_sha256": "1c69c2ea3fdccd3e1e3459a47343a1872047ef5fa67583c521fc17fa6bfc7354",
+          "verified_utc": "2026-10-25T21:38:20.609790+00:00"
+        }
+      ],
+      "history_note": "Previous verified source/register checkpoint bytes retained as hash history; current view returns integrated review candidate bytes."
     },
     {
       "filename": "EDITOR_REPORTER_LOOP_LOG.md",
@@ -167,18 +184,18 @@
       "filename": "public-source-registers-and-audits.zip",
       "drive_file_id": "1QfywlNlvrDs2ElHhWCXqHIj7bFBE6Qge",
       "drive_view_url": "https://drive.google.com/file/d/1QfywlNlvrDs2ElHhWCXqHIj7bFBE6Qge/view?usp=drivesdk",
-      "bytes": 33568,
+      "bytes": 119004,
       "row_count": null,
-      "sha256": "73ac2d8fa77c604c1cb617d9c3dead9a8326275a004986aaf33f02e65c65671c",
-      "readback_sha256": "73ac2d8fa77c604c1cb617d9c3dead9a8326275a004986aaf33f02e65c65671c",
-      "readback_bytes": 33568,
+      "sha256": "1e298948ce5a1aae0a4af3d2a9deadbffae4477bd27a16c98ff5b969d64001aa",
+      "readback_sha256": "1e298948ce5a1aae0a4af3d2a9deadbffae4477bd27a16c98ff5b969d64001aa",
+      "readback_bytes": 119004,
       "owner_email": "smithg@gmail.com",
       "anyone_reader": true,
       "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
-      "verified_utc": "2026-10-25T21:49:33.054639+00:00",
-      "bundle_members": 14,
+      "verified_utc": "2026-10-25T22:40:44.573406+00:00",
+      "bundle_members": 27,
       "member_manifest": "MEMBER_MANIFEST.json",
-      "member_manifest_sha256": "e77e025a33c2485ca6525407d6b28191b3e3bfdf2044aba83f5f1a2bca1f47b6",
+      "member_manifest_sha256": "64ab0716dad75145e57463d376851ba1d1534d87e6c0d0bc777b20f24d770bd8",
       "verification": "Native metadata and full raw-byte equality; every payload member hash checked; narrower public package excludes rejected composite editor/private content",
       "row_count_note": "Non-tabular archive; exact per-payload counts in member manifest",
       "superseded_verified_versions": [
@@ -188,9 +205,59 @@
           "sha256": "5df4d5d6e928f38248ff05c23cbcde9b3d5c640b68563e271dab0ca5b00466b4",
           "readback_sha256": "5df4d5d6e928f38248ff05c23cbcde9b3d5c640b68563e271dab0ca5b00466b4",
           "verified_utc": "2026-10-25T21:41:01.592504+00:00"
+        },
+        {
+          "bytes": 33568,
+          "row_count": null,
+          "sha256": "73ac2d8fa77c604c1cb617d9c3dead9a8326275a004986aaf33f02e65c65671c",
+          "readback_sha256": "73ac2d8fa77c604c1cb617d9c3dead9a8326275a004986aaf33f02e65c65671c",
+          "verified_utc": "2026-10-25T21:49:33.054639+00:00"
         }
       ],
-      "history_note": "Earlier verified hashes retained; current view returns latest exact bytes."
+      "history_note": "Previous verified source/register checkpoint bytes retained as hash history; current view returns integrated review candidate bytes."
+    },
+    {
+      "filename": "F5-reviewed-source-dossiers-editor-2026-10-25T2203Z.zip",
+      "drive_file_id": "1MY0xm6oPe17r1UdhZP7wmCQ-tCOlI_cL",
+      "drive_view_url": "https://drive.google.com/file/d/1MY0xm6oPe17r1UdhZP7wmCQ-tCOlI_cL/view?usp=drivesdk",
+      "bytes": 209698,
+      "row_count": null,
+      "sha256": "0446fd509697a44fc28fbb9dcab979e754c50c448da9995561ef874af454ea7a",
+      "readback_sha256": "0446fd509697a44fc28fbb9dcab979e754c50c448da9995561ef874af454ea7a",
+      "readback_bytes": 209698,
+      "owner_email": "smithg@gmail.com",
+      "anyone_reader": true,
+      "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
+      "verified_utc": "2026-10-25T22:14:51.394212+00:00",
+      "bundle_members": 45,
+      "payload_file_count": 42,
+      "member_manifest": "TRANSFER_MANIFEST.json",
+      "member_manifest_sha256": "a8c6a171d878cfdcd6a33a725f8d0df896e1123382925f0edfd7de7cfa928e19",
+      "control_files": [
+        {
+          "path": "TRANSFER_MANIFEST.json",
+          "bytes": 17981,
+          "sha256": "a8c6a171d878cfdcd6a33a725f8d0df896e1123382925f0edfd7de7cfa928e19",
+          "row_count": null
+        },
+        {
+          "path": "TRANSFER_README.md",
+          "bytes": 2225,
+          "sha256": "cfbb88f589427a70fdd2386326ce04c449b039cc962c4085e89c0bd119936e41",
+          "row_count": null
+        },
+        {
+          "path": "SHA256SUMS.txt",
+          "bytes": 4873,
+          "sha256": "64ac2762dbc60d068a760c1ec4d51ced034a74e49c92b03fa98d3e13b34787fb",
+          "row_count": null
+        }
+      ],
+      "source_library_file_id": "libfile_5f08a4b123a48191a88c09ce8130672e",
+      "source_library_backing_file_id": "file_000000008a888230a92f8f3787220005",
+      "source_library_version": 0,
+      "verification": "Pinned native Library materialization;42 whitelisted authored payloads+3controls verified; native Drive ownership/sharing/parent metadata and exact full byte readback; no raw PDF/text/images/operational annexes in bundle",
+      "row_count_note": "Non-tabular authored bundle;37 non-memo payloads remain Drive-only; five memos are merged into Git narratives. TRANSFER_MANIFEST accounts for42 payloads; control_files accounts for all3additional members."
     }
   ]
 }

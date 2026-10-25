@@ -1,4 +1,10 @@
-# Patent search coverage and limits
+# Patent search coverage and merged denominator
+
+The initial second-lane pass below is a historical input. It has been reconciled with the independently reviewed native register: **28 input rows, five exact-publication overlaps →23 distinct publications; six cluster overlaps →19 reporting clusters**. All input identities/status dispositions are preserved in the Drive provenance package. These clusters are reporting groups, not legal-equivalence or deployment findings.
+
+Targeted official-source work subsequently retrieved Kongsberg, BAE and Anduril grant PDFs from USPTO’s public image endpoint and visually checked selected covers/claims. Anduril’s appended14October2025 Certificate of Correction resolves the specific earlier wording ambiguity. This changes document-access/claim verification, not current legal-status or ownership-chain verification. All current-status limits remain row-specific; a failed PDF request is not a status-register attempt. Source snapshot hashes and selected rendered-page comparisons are retained on Drive; whole-PDF byte variation was not assigned an unverified cause.
+
+## Initial second-lane search and limits
 
 Cutoff: 25 October 2026. This file distinguishes search coverage from validated findings. The parent is the sole paid Exa spender. Exa queries23–40 and75–92 were issued by the parent; the reporter read their saved results, then checked promoted documents using free public retrieval. Query result counts measure returned results, not a count of a company's patents or a complete patent universe. Broad relevance search can return a different owner, an old publication, a civilian use, or a patent with no restraint claim.
 
@@ -17,7 +23,7 @@ The classifications of retained documents were read on their publication pages; 
 - EPO/Espacenet: official register, Espacenet and publication-server routes were attempted for BAE's EP family. Those exact-document accesses failed in this environment. EP4025861A1's public reproduced text/metadata and family link were verified through Google Patents. Its status is not represented as independently certified by the EPO.
 - WIPO/PCT: WO2025019462A1, WO2024074456A1 and WO2023167712A2 were checked through Google Patents' public reproductions. Direct PatentScope access for WO2025019462 returned 403. No circumvention or authenticated account was used. A WO international publication is not a worldwide patent grant.
 
-`patent-safeguards-register.csv` has 16 publication records representing 13 families/comparators. Three family-member rows are expressly marked not to count as independent inventions. The thirteen representatives include one explicitly civilian delivery comparator and general aerospace/vehicle assurance. Do not publish 16 as 16 military weapon brakes, or 13 as 13 deployed safeguards. Patent-source verification hashes identify retrieved rendered documents, not official status certificates or immutable patent-office files.
+The initial second-lane `patent-safeguards-register.csv` had 16 publication records representing 13 families/comparators; the current combined register is 23 publications / 19 reporting clusters. Three family-member rows are expressly marked not to count as independent inventions. The thirteen representatives include one explicitly civilian delivery comparator and general aerospace/vehicle assurance. Do not publish 16 as 16 military weapon brakes, or 13 as 13 deployed safeguards. Patent-source verification hashes identify retrieved rendered documents, not official status certificates or immutable patent-office files.
 
 ## Negative finding discipline
 

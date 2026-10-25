@@ -1,19 +1,17 @@
-# F5 checkpoint briefing notes — final integration pending
+# Provisional morning handoff — independent global review pending
 
-Checkpoint notes only. The parent’s frozen five-domain bundle and independent global review must be integrated before final briefing. No email was sent here.
+Do not treat this as final clearance. No email was sent here. The parent owns the scheduled 06:00 Europe/Rome (05:00 UTC), 26 October 2026 briefing.
 
 Report: https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-25/f5-global-autonomy-brakes/report.md
 
 Data: https://drive.google.com/drive/folders/1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS
 
-The public record reveals real technical and legal brakes, with a fragmented configuration-specific evidence chain. Three supported angles: current US supervised-ML guidance addresses highest-criticality assurance limits; CARRION's proposed direct award documents assurance-related supplier dependency, alongside Shield AI's UK approval testimony and bounded ENAC flight permission; legal review already has change triggers, illustrated by a restrictive Dutch opinion invoked again in 2026. None proves a named unlawful bypass or universal safeguard effectiveness.
+Two strong leads are the newly disclosed Dutch conditions-to-permission chain and CARRION’s assurance-related supplier-continuity rationale. DIANA’s financial-substantiation audit, accepted-test response and prospective 2027 controls provide a related accountability lead, not a failed-weapon-brake scoop. New ML guidance expands 2024 work; named US test/personnel restrictions are bounded cases, not AI-specific failure findings.
 
-NATO standards do different jobs: STANAG 4406 concerns messaging, 4586 interoperability, and 4187 fuzing safety. AOP-52 is reference guidance. DIANA's financial-substantiation audit findings coexist with unqualified opinions and accepted test reports. EDF requirements and indicative allocations do not equal certified weapon outcomes; SecureAI is a distinct civilian cybersecurity call. Patent disclosures—16 publications / 13 representative families—do not prove implementation or certification.
+The financial set remains108 identities: 107 FAR two-view reconciliations plus one FPDS-only OT, 1,192 USAspending/ 1,195 FPDS actions, 113 negative and389 zero-dollar FPDSactions,412sourcehashes independently checked. DCS N0042123F3004 expands 3→53 actions, net $27,836,455.94; Herren N0016422F3007 expands 6→19, net $24,423,706.49. Whole-award obligations are not safeguards spending or outlays. Anduril’s USAspending mapping remains unverified.
 
-The new lifecycle sweep verified 712,186 archive keys and hydrated 102 screen candidates plus five targeted FAR follow-ups. Final 108 identities comprise 107 two-view FAR reconciliations and one FPDS-only OT. Counts: 1,192 USAspending actions, 1,195 FPDS actions and 113 negative FPDS actions; 412 source hashes independently validated. DCS N0042123F3004 expands from three to 53 actions, net $27,836,455.94; Herren N0016422F3007 expands from six to 19, net $24,423,706.49. These are whole-award obligations, not safeguards spending or outlays. Anduril HR0011269E126's USAspending mapping remains unverified.
+Patents reconcile28 input rows into23publications/ 19 reporting clusters, not deployed-brake counts. Official USPTO correction resolves Anduril’s specific wording ambiguity without current status/implementation proof. The source master is380 observations/308URLs, with actual access states for 75 ranked sources and unknown body depth explicitly demoted for104 unpromoted URLs.
 
-118 Exa requests reported $0.826 in new cost. Conservative cumulative exposure is $6.561 against $20, with $13.439 headroom. No uncertain requests or cache hits; provider costs are not audited invoices.
+Eleven Drive objects have current native readbacks; the independent 42-payload source bundle is preserved with all 37 non-memo payloads Drive-only. Four local regressions and financial reparsing passed. No hosted CI claim.
 
-Ten Drive objects have complete native readback, ownership and sharing verification. Every Git file is at most 100,000 bytes, with no raw dumps or PDFs. Three actual adversarial rounds and 75 ranked sources are delivered. Four local regression tests and independent raw-body accounting passed; no hosted CI claim is made.
-
-Use the final immutable commit supplied in the completion response. The briefing deadline is 06:00 Europe/Rome (CET), 05:00 UTC, Monday 26 October 2026.
+Exa remains 118 requests, $0.826 new provider-reported cost, $6.561 conservative cumulative/$20,headroom $13.439. No uncertain requests or cache hits. Final integrated issue closure and artifact checks remain pending.

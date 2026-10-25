@@ -26,3 +26,7 @@ The independent editor can materialize the actual inventory and raw archive thro
 - Test the CARRION assurance-dependency interpretation, safety-board condition cases, current ML guide authority/scope, patent status/implementation limits, and whether any top-three hook outruns evidence.
 
 The task’s own three actual reporter/editor rounds remain in the Drive log; they do not substitute for the parent’s additional independent global review. Sole-spender Exa ledger at checkpoint: 118 requests, $0.826 new provider-reported cost, $6.561 conservative cumulative exposure, $13.439 remaining headroom. No further paid call is made by any reporter or reviewer.
+
+## Revised integrated candidate
+
+The native Library bundle was materialized and its 209,698 bytes / SHA256 `0446fd509697a44fc28fbb9dcab979e754c50c448da9995561ef874af454ea7a` verified. It is now [on Drive](https://drive.google.com/file/d/1MY0xm6oPe17r1UdhZP7wmCQ-tCOlI_cL/view?usp=drivesdk), with all 42 payloads and 3 controls checked. The five memos and report now integrate both lanes. The new source master is 308 URLs / 380 observations with explicit access for all 75 ranked sources; patent reconciliation is 23 publications / 19 reporting clusters from 28 input rows. Current hashes are in the latest manifest; previous source/register byte versions remain recorded. Financial inventory and raw-source archive listed above remain unchanged. Global release review remains pending.
