@@ -1,13 +1,13 @@
 {
-  "scope": "Selected human-reviewed named awards only; not comprehensive program counts or allocable total safeguards budgets. Historical/cumulative obligations, not remaining balances or annual expenditure. Secondary tags never add dollars. D and unmatched frameworks unknown, not zero. TETRAS excluded as mixed purpose. Record window overlap is not direct verification of ongoing work.",
+  "scope": "Selected human-reviewed named awards only; not comprehensive program counts or allocable total safeguards budgets. Historical/cumulative obligations, not remaining balances or annual expenditure. Secondary tags never add dollars. D and unmatched frameworks unknown, not zero. TETRAS excluded as mixed purpose. ALL normative-autonomy-adjacent awards, including HAMLET, are excluded symmetrically from weapons-linked A subtotals; retained in separate view. Record window overlap is not direct verification of ongoing work.",
   "totals": {
     "A": {
-      "awards_in_selected_case_set": 13,
-      "net_obligations_usd": "31019162.92",
-      "fy2019_2026_obligations_usd": "31019162.92",
-      "fy2024_2026_obligations_usd": "30269162.92",
-      "record_window_overlap_awards": 5,
-      "record_window_overlap_net_obligations_usd": "9774108.92"
+      "awards_in_selected_case_set": 12,
+      "net_obligations_usd": "27373536.76",
+      "fy2019_2026_obligations_usd": "27373536.76",
+      "fy2024_2026_obligations_usd": "26573538.76",
+      "record_window_overlap_awards": 3,
+      "record_window_overlap_net_obligations_usd": "6078484.76"
     },
     "B": {
       "awards_in_selected_case_set": 3,
@@ -18,12 +18,12 @@
       "record_window_overlap_net_obligations_usd": "1988634.0"
     },
     "C": {
-      "awards_in_selected_case_set": 5,
-      "net_obligations_usd": "5597607.02",
-      "fy2019_2026_obligations_usd": "5597607.02",
-      "fy2024_2026_obligations_usd": "5597607.02",
-      "record_window_overlap_awards": 2,
-      "record_window_overlap_net_obligations_usd": "3547892.43"
+      "awards_in_selected_case_set": 7,
+      "net_obligations_usd": "7989900.02",
+      "fy2019_2026_obligations_usd": "7989900.02",
+      "fy2024_2026_obligations_usd": "7989900.02",
+      "record_window_overlap_awards": 4,
+      "record_window_overlap_net_obligations_usd": "5940185.43"
     },
     "D": {
       "awards_in_selected_case_set": 0,
@@ -33,6 +33,12 @@
       "record_window_overlap_awards": 0,
       "record_window_overlap_net_obligations_usd": null
     }
+  },
+  "adjacent_view_not_added_to_weapons_totals": {
+    "award_count": 8,
+    "net_obligations_usd": "5974441.73",
+    "record_overlap_count": 4,
+    "record_overlap_net_obligations_usd": "4205298.0"
   },
   "missing_named_piids": []
 }
