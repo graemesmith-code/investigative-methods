@@ -1,0 +1,69 @@
+{
+  "purpose": "Frozen durable checkpoint of exact original script bytes reconstructed only from visible conversation tool calls",
+  "file_count": 9,
+  "files": [
+    {
+      "path": "code/build_performer_continuation_universe.py",
+      "bytes": 16556,
+      "sha256": "cb855df62e336dc4b01e5df143cbdf2eb06e1e3f940f703dd427a1a74813e3c3",
+      "expected_sha256": "cb855df62e336dc4b01e5df143cbdf2eb06e1e3f940f703dd427a1a74813e3c3",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/compress_date_enrichment.py",
+      "bytes": 933,
+      "sha256": "b4b9f2c54f420f45f7d3cd2aee5c468cee643c5e5793708f711c22fba4a2a838",
+      "expected_sha256": "b4b9f2c54f420f45f7d3cd2aee5c468cee643c5e5793708f711c22fba4a2a838",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/enrich_source_dates.py",
+      "bytes": 9096,
+      "sha256": "b54904d1588aa26736865cab128d4d3cd6da3410258596fe860836ec315c5945",
+      "expected_sha256": "b54904d1588aa26736865cab128d4d3cd6da3410258596fe860836ec315c5945",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/extract_additional_source_narratives.py",
+      "bytes": 3987,
+      "sha256": "bd1a1d43d275bfffc34589290047423d016b337c6559ad6d1c52237de70ec6f4",
+      "expected_sha256": "bd1a1d43d275bfffc34589290047423d016b337c6559ad6d1c52237de70ec6f4",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/lexicon_additional_narratives_snapshot.py",
+      "bytes": 8914,
+      "sha256": "d37619bbd8542f00383d019bbcac179da5825244686dfc6eaabe42f89308742f",
+      "expected_sha256": "d37619bbd8542f00383d019bbcac179da5825244686dfc6eaabe42f89308742f",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/normalize_extra_narratives.py",
+      "bytes": 2015,
+      "sha256": "cbfe42d1a9590380321e01bbfa726f6ffc2880e14d9d3f70ca33132b6c344609",
+      "expected_sha256": "cbfe42d1a9590380321e01bbfa726f6ffc2880e14d9d3f70ca33132b6c344609",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/validate_date_enrichment.py",
+      "bytes": 5032,
+      "sha256": "f544ab063bfd8d65abb9b3b1c4c5fe3a8d67bc12f7e61bf913c32e01b1b93a49",
+      "expected_sha256": "f544ab063bfd8d65abb9b3b1c4c5fe3a8d67bc12f7e61bf913c32e01b1b93a49",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/validate_description_completeness.py",
+      "bytes": 4564,
+      "sha256": "09c53d00eb9cb2b03128e442e9215326779783220503676a0014d86e0c55d6b5",
+      "expected_sha256": "09c53d00eb9cb2b03128e442e9215326779783220503676a0014d86e0c55d6b5",
+      "exact_prior_manifest_match": true
+    },
+    {
+      "path": "code/validate_performer_universe.py",
+      "bytes": 5087,
+      "sha256": "49847589b70fcec40b55113081f649bf915cf6bab2b08245d04de006fedc65d6",
+      "expected_sha256": "49847589b70fcec40b55113081f649bf915cf6bab2b08245d04de006fedc65d6",
+      "exact_prior_manifest_match": true
+    }
+  ]
+}
