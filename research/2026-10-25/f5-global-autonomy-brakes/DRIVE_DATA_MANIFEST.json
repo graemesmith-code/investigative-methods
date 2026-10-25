@@ -258,6 +258,21 @@
       "source_library_version": 0,
       "verification": "Pinned native Library materialization;42 whitelisted authored payloads+3controls verified; native Drive ownership/sharing/parent metadata and exact full byte readback; no raw PDF/text/images/operational annexes in bundle",
       "row_count_note": "Non-tabular authored bundle;37 non-memo payloads remain Drive-only; five memos are merged into Git narratives. TRANSFER_MANIFEST accounts for42 payloads; control_files accounts for all3additional members."
+    },
+    {
+      "filename": "GLOBAL_CANDIDATE_REVIEW.md",
+      "drive_file_id": "1_P3NjG-nz7QFkSY5NKnQ_FeSL_JuNx-V",
+      "drive_view_url": "https://drive.google.com/file/d/1_P3NjG-nz7QFkSY5NKnQ_FeSL_JuNx-V/view?usp=drivesdk",
+      "bytes": 10431,
+      "row_count": null,
+      "sha256": "bfab626e06d881e92257808471e05d829d928122ca660a61697d3c956172ebdc",
+      "readback_sha256": "bfab626e06d881e92257808471e05d829d928122ca660a61697d3c956172ebdc",
+      "readback_bytes": 10431,
+      "owner_email": "smithg@gmail.com",
+      "anyone_reader": true,
+      "parent_folder_id": "1JjNctZzLVUzuu0K469FS0cutxsZ4K1sS",
+      "verified_utc": "2026-10-25T22:52:30.863922+00:00",
+      "verification": "Completed native upload; owner, inherited sharing and parent metadata checked; full native raw-byte equality. Targeted independent editorial review, not parent release acceptance."
     }
   ]
 }

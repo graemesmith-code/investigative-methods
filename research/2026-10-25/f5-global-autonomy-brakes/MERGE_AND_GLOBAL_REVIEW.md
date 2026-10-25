@@ -27,3 +27,7 @@ DIANA’s unqualified opinions concerned resubmitted/corrected statements. Missi
 ## Financial and release state
 
 The parent’s independent editor reports no discrepancies in the actual 107 FAR plus one native OT inventory, including action IDs/dates/amounts, old bases, zero/negative actions, full pagination and the checkpoint Exa ledger/readbacks. That financial verification does not close integrated release review. Current revised source/patent/support objects received new native readback and retained previous verified hashes. No final-completion claim should precede the parent’s issue-by-issue independent closure and final artifact checks.
+
+## Additional actual-candidate review response
+
+[The targeted integrated editor review](https://drive.google.com/file/d/1_P3NjG-nz7QFkSY5NKnQ_FeSL_JuNx-V/view?usp=drivesdk) inspected the actual draft and independently checked the 308-URL/380-observation and 23-publication/19-cluster inventories. G-01’s malformed guide URL was corrected before candidate c846846. G-02’s optional alternate official statutory route was added without changing the notification rule or implying that a waiver occurred. No unresolved high/medium semantic objection was identified within that stated scope; the reviewer expressly reserves the parent’s separate release acceptance. The frozen review remains Drive-only and its specific working-copy hashes are historical review evidence, not a claim that subsequent access/typography corrections had already been reviewed.
