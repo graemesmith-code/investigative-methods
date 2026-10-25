@@ -1,12 +1,12 @@
 # Independent editor round 3 — assembled-report verification
 
-Status: **in progress; final artifact/publication checks pending**. Date: 25 October 2026.
+Status: **substantive editorial review and consumer-local QA completed; separate parent integration and publication gates remain pending**. Date: 25 October 2026.
 
-This third round reviews the assembled report against the newly expanded source and award record. It is not a repetition of round 1. Later amendments and final verification results must be recorded below before treating the round as complete.
+This third round reviews the assembled report against the newly expanded source and award record. It is not a repetition of round 1. Intermediate snapshots below are retained as a record of challenges and corrections; the final consumer-local disposition at the end supersedes their counts.
 
 ## New reporter evidence reviewed
 
-The live snapshot now contains 98 candidate identifiers: 96 retrieved full award records, comprising 85 FPDS-applicable contracts and 11 assistance records; two identifiers remain unresolved. All 85 contract sums reconcile with the award API. The FPDS CSV contains 681 parsed action records and 681 unique compound action keys. Its 720 physical text lines include quoted multi-line descriptions and are not a transaction denominator. The performer search has 42 scopes, 46 pages, 749 distinct returned award keys and no incomplete pagination flag. Those are bounded search results, not 749 continuations.
+At the start of this round, the **historical intermediate snapshot** contained 98 candidate identifiers: 96 retrieved full award records, comprising 85 FPDS-applicable contracts and 11 assistance records; two identifiers remained unresolved. All 85 contract sums reconciled with the award API. The FPDS CSV contained 681 parsed action records and 681 unique compound action keys. Its 720 physical text lines included quoted multi-line descriptions and were not a transaction denominator. The performer search had 42 scopes, 46 pages, 749 distinct returned award keys and no incomplete pagination flag. Those were bounded search results, not 749 continuations. Later additions and schema corrections are reported below and in the combined instrument inventory.
 
 The assembled report leads with a defensible refusal of the universal disappearance claim. It distinguishes research from programs of record, separates contract obligations from ceilings, excludes broad TETRAS/SEI vehicles from allocable category totals, states the DoD reporting delay, and preserves the different NSPM verbs. It also retains inaccessible CP CoE material as a consequential open lead.
 
@@ -30,7 +30,7 @@ The assembled report leads with a defensible refusal of the universal disappeara
 
 ## Final verification and disposition
 
-Pending reporter follow-up and stable final snapshot.
+Consumer-local substantive review completed after the corrections and tests below. Parent independent-register integration, final regenerated containers and remote publication verification are separate remaining gates; this is not an assertion that publication or delivery has already happened.
 
 ### Independent offline accounting test
 
@@ -45,3 +45,26 @@ In the first follow-up snapshot, the reporter rebuilt the selected-case register
 The later selected-case snapshot separates norm-oriented grants with unresolved weapons applications, including HAMLET, from the weapons/military-norm-associated category sum. It also adds the located CAMP-associated order, while preserving the order's original Navy CAMP description, later zero-dollar JSIL/USMC-description change and unknown safeguard-feature allocation. This is associated whole-award money, not the price of a particular restraint.
 
 The editor independently parsed the 29 reviewed-case records, confirmed unique full award keys, compared every amount against its live award detail, and recomputed category/FY totals with Decimal. All passed. The resulting included totals are A: 12 awards / $28,019,186.92 (four record-overlapping / $6,774,132.92); B: three awards / $4,487,272.00 (one record-overlapping / $1,988,634.00); C: five awards / $5,597,607.02. The remaining reviewed records are explicit exclusions from those sums. At this live snapshot there are 107 candidate identifiers / 105 detail records. The editor also independently summed every FPDS action by full award key from the CSV: all 86 contract totals equal their corresponding award API obligations. These are correctness checks on bounded records, not proof of discovery completeness or allocable safeguards expenditure.
+
+## Final consumer-local disposition
+
+**The substantive/local checks pass, with the following explicit scope and release limits.** The frozen main register has **5,501 source award/document keys**, not 5,501 verified safeguards programs; the performer register has **2,599 unique source keys**. All three archive hashes match the expected inputs. Coverage accounts for all 100 input files: 36 canonical JSONL files and 64 auxiliary parquet/JSON/text files. There are 1,913,134 canonical row appearances and 3,782,556 auxiliary representation rows, totaling 5,695,690 appearances; 1,909,851 semantic mirror rows are explicitly non-additive. These are representation counts, not unique awards. File coverage reports no missing/unknown inputs or cross-format hash conflicts. The 712,186 canonical financial actions cover October 1, 2018–September 30, 2026 (FY2019–FY2026); archive timestamps do not extend that action window.
+
+The editor independently loaded the final JSON and streamed the CSV with a sufficiently large field limit. All 5,501 exact key sets, full description strings and three integer-cent financial windows agree. All 2,599 performer keys are unique. A fresh independent SQL grouping of the private canonical financial table matches all 3,663 exact-financial candidate keys; the 1,838 remaining candidate keys retain null money rather than invented zero. The independent query preserves null when a window has no observed actions. These checks validate conservation within the acquired corpus, **not complete lifetime award funding or a guaranteed lower bound**; omitted historical negative actions could change an award total.
+
+The final reviewed-case register has 31 records. EpochGeo and HAMLET are now both in the separate adjacent/context view. Maritime recognition has C primary/A secondary, preserving its distinction-enabling relevance without treating vessel classification as legal target determination. The independently recomputed included amounts are:
+
+| Primary financial view | Awards | Associated whole-award cumulative obligations | FY2024–2026 | Record overlap at cutoff |
+|---|---:|---:|---:|---|
+| A / military-norms enabling | 11 | $25,676,891.92 | $24,876,893.92 | 2; $4,381,839.92 |
+| B | 3 | $4,487,272.00 | $2,488,582.00 | 1; $1,988,634.00 |
+| C | 7 | $7,989,900.02 | $7,989,900.02 | 4; $5,940,185.43 |
+| Adjacent/context, excluded from those sums | 9 | $7,671,086.57 | Separate view | 5; $5,901,942.84 |
+
+The stricter explicit weapon-normative subset is 10 awards / $23,195,050.92, with one record-overlapping award / $1,899,998.92 (TEELAWS). CODORD support remains military-norms enabling without a verified weapons benchmark. The remaining reviewed record is the mixed-purpose TETRAS order, excluded from additive category totals. These figures are associated award obligations, not isolated safeguard-feature spending, current available balances or demonstrated deployed legality. Secondary categories add no money.
+
+The combined live inventory resolves six OT identities and records 36 OT actions, yielding 111 distinct instrument identities after deduplicating the earlier two schema-unresolved identifiers. Four OT action/aggregate discrepancies remain explicit and are not added to the selected case sums. They must not be described as six exact financial reconciliations. Contract and assistance verification routes remain distinct.
+
+The editor supplied reusable `code/validate_package.py`, which writes `audit/package-validation.json`. Consumer-local checks cover required files; all public JSON/JSONL/CSV parsing with large CSV fields; main CSV/JSON full-string and money equality; selected, overlap, strict and adjacent financial arithmetic; relative Markdown links outside code/quoted source material; every intended public file below GitHub's 100 MiB limit; configured secret literal scanning without printing values, including expanded gzip streams; and serialized Exa ledger arithmetic. No paid calls were made by these checks. The uncompressed complete text is a local/Library delivery; its public gzip transport is subject to the size check. The packaging script now places the master report and reader guides before the long inventory/technical annexes.
+
+**Remaining release gates, with exact status:** parent independent-register reconciliation targets `evidence/brakes-candidate-register.csv` versus `evidence/independent-stage1/`; its last inspected status is pending because the independent snapshot had not yet been materialized in this executor. This is a pending input/integration action, not a denial or an absence result. Root must regenerate the validator, manifest, sums and complete text after that integration and then verify the remote commit/files and actual Library/download delivery. This editor has not independently verified those future publication/delivery actions. Documented substantive unknowns—task allocations, classified or delayed actions, unverified tests/implementation and remaining policy receipts—remain reporting limits, not zeroes or universal negative findings.

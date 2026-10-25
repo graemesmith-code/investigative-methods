@@ -131,7 +131,8 @@ def validate():
         for row in rows:
             if Decimal(row['net_obligations_usd']) != Decimal(index[row['award_key']]['total_obligation_usd']):
                 raise ValueError('case does not match live amount')
-        totals = loaded['audit/reviewed-case-accounting.json']['totals']
+        accounting = loaded['audit/reviewed-case-accounting.json']
+        totals = accounting['totals']
         for cat in 'ABCD':
             subset = [r for r in rows if r['primary_category'] == cat and r['counted_in_named_case_total']]
             expected = totals[cat]
@@ -145,10 +146,44 @@ def validate():
             actual = decimal_sum(overlap, 'net_obligations_usd')
             target = expected['record_window_overlap_net_obligations_usd']
             if actual != (Decimal(target) if target is not None else None): raise ValueError('overlap sum mismatch')
+        views = {
+            'explicit_weapon_normative_scope_subset': [r for r in rows if r.get('weapon_specific_normative_scope_explicit')],
+            'adjacent_view_not_added_to_weapons_totals': [r for r in rows if r.get('scope_tier') == 'normative_autonomy_adjacent_weapons_application_unverified'],
+        }
+        for label, subset in views.items():
+            target = accounting[label]
+            if len(subset) != target['award_count']: raise ValueError('scope-view count mismatch')
+            if sum((Decimal(r['net_obligations_usd']) for r in subset), Decimal(0)) != Decimal(target['net_obligations_usd']):
+                raise ValueError('scope-view sum mismatch')
+            overlap = [r for r in subset if r['record_window_overlaps_cutoff']]
+            if len(overlap) != target['record_overlap_count']: raise ValueError('scope-view overlap count mismatch')
+            if sum((Decimal(r['net_obligations_usd']) for r in overlap), Decimal(0)) != Decimal(target['record_overlap_net_obligations_usd']):
+                raise ValueError('scope-view overlap sum mismatch')
         return {'reviewed_unique_awards': len(rows), 'all_selected_amounts_match_live': True,
                 'all_category_and_record_overlap_totals_recomputed': True,
+                'strict_normative_and_adjacent_views_recomputed': True,
                 'financial_meaning': 'Whole associated awards; allocable safeguard-feature spending remains unknown'}
     check('selected_case_arithmetic', arithmetic)
+    def budget():
+        with (P/'audit/exa-query-cost-log.csv').open(encoding='utf-8', newline='') as inp:
+            rows = list(csv.DictReader(inp))
+        prior = Decimal('4.095'); total = Decimal(0)
+        for sequence, row in enumerate(rows, 1):
+            if int(row['sequence']) != sequence: raise ValueError('budget sequence gap')
+            debit = Decimal(row['budget_debit_usd'])
+            if debit <= 0: raise ValueError('unreserved paid request')
+            if row.get('response_reported_usd') and Decimal(row['response_reported_usd']) > debit:
+                raise ValueError('reported cost exceeds debit')
+            total += debit
+            if Decimal(row['new_cumulative_usd']) != total: raise ValueError('new-spend cumulative mismatch')
+            if Decimal(row['all_cumulative_usd']) != prior + total: raise ValueError('all-spend cumulative mismatch')
+        if total > Decimal('10.905') or prior + total > Decimal('15.000'):
+            raise ValueError('authorized budget exceeded')
+        return {'ledger_requests': len(rows), 'new_reserved_or_debited_usd': str(total),
+                'prior_stipulated_usd': str(prior), 'all_reserved_or_debited_usd': str(prior + total),
+                'uncertain_or_unreturned_requests': sum(r['status'] != 'response' for r in rows),
+                'invoice_independently_verified': False}
+    check('serialized_budget_ledger_arithmetic', budget)
     def links():
         checked = 0; pending = []; missing = []
         for f in paths:

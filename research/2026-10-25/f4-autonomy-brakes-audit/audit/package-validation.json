@@ -1,5 +1,5 @@
 {
-  "validated_utc": "2026-10-25T15:48:31.431686+00:00",
+  "validated_utc": "2026-10-25T15:49:37.884281+00:00",
   "scope": "Local data, arithmetic, links and literal secret scan; no network or paid calls",
   "checks": {
     "required_files": {
@@ -966,7 +966,17 @@
       "reviewed_unique_awards": 31,
       "all_selected_amounts_match_live": true,
       "all_category_and_record_overlap_totals_recomputed": true,
+      "strict_normative_and_adjacent_views_recomputed": true,
       "financial_meaning": "Whole associated awards; allocable safeguard-feature spending remains unknown"
+    },
+    "serialized_budget_ledger_arithmetic": {
+      "status": "passed",
+      "ledger_requests": 236,
+      "new_reserved_or_debited_usd": "1.640",
+      "prior_stipulated_usd": "4.095",
+      "all_reserved_or_debited_usd": "5.735",
+      "uncertain_or_unreturned_requests": 0,
+      "invoice_independently_verified": false
     },
     "relative_Markdown_links": {
       "status": "passed",
@@ -981,7 +991,7 @@
     },
     "public_file_sizes": {
       "status": "passed",
-      "public_files_checked": 250,
+      "public_files_checked": 249,
       "limit_bytes_strictly_less_than": 104857600,
       "excluded_local_Library_plain_text_delivery": "F4-COMPLETE-RESEARCH-PACKAGE.txt",
       "gzip_transport_is_checked": true
@@ -989,7 +999,7 @@
     "environment_secret_literal_scan": {
       "status": "passed",
       "credential_like_environment_literal_count": 4,
-      "file_or_expanded_streams_scanned": 249,
+      "file_or_expanded_streams_scanned": 248,
       "matches": 0,
       "no_secret_values_logged": true,
       "limit": "Exact configured literals only; not a proof against every unknown secret"
@@ -1002,7 +1012,7 @@
       "status": "pending_independent_stage1_snapshot_and_root_freeze",
       "action": "Run code/reconcile_parallel_registers.py against final root CSV and authenticated/published independent-stage1 CSV/gzip snapshot",
       "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
-      "reason": "Independent-stage1 files have not been materialized in this executor; root main register still undergoing supplementary integration. This is pending input, not a denied action or an absence result."
+      "reason": "Independent Stage1 transport is not yet materialized in this executor. Available root/live/OTA membership and selected acquisition-history comparisons are complete; independent comparison remains pending, not denied."
     },
     {
       "gate": "delivery_container_and_remote_hash_verification",
