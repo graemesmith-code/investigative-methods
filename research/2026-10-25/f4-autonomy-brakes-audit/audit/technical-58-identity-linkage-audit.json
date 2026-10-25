@@ -1,0 +1,3939 @@
+{
+  "reviewed_records": 58,
+  "sbir_physical_rows_scanned": 25770,
+  "financial_physical_rows_scanned": 712186,
+  "source_rows_and_record_hashes_validated": 58,
+  "archive_status_counts": {
+    "source_explicit_uei_matches_archive_financial_recipient_set": 57,
+    "explicit_uei_conflict_with_all_archive_financial_recipient_ueis": 1
+  },
+  "cached_live_status_counts": {
+    "source_explicit_uei_matches_cached_live_recipient_uei": 57,
+    "source_explicit_uei_conflicts_with_cached_live_recipient_uei": 1
+  },
+  "input_hashes": {
+    "sbir_current.jsonl.gz": "523734ebbb86f656ed64c96bc821baf370a9cb2294ac114f46f46ba0ea798940",
+    "financial_actions.jsonl.gz": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5",
+    "f4-live-technical-matches.json": "b32a46afacd985161328794350f398450a7f318351662213e0bd17cf16e3a9b1",
+    "live-award-register.json": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481"
+  },
+  "money_mutations": 0,
+  "classification_mutations": 0,
+  "rows": [
+    {
+      "piid": "N0002425CS278",
+      "source_sbir": {
+        "row": 622,
+        "uei": "KJKXBTLUAMA5",
+        "entity_key": "KJKXBTLUAMA5",
+        "duns": "164558376",
+        "name": "MOSAIC ATM, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N00024-25-C-S278",
+        "record_sha256": "a3ed15cc956ec39008d684cef350606d3deb24211c800b26881e41320e9e4899",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "594687f05d4a405e242ebb3ce69ac72b86f456b68bb09b029acb666d3ef09658",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=1761"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N0002425CS278_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "KJKXBTLUAMA5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "MOSAIC ATM, INC."
+          ],
+          "source_rows": [
+            535049
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N0002425CS278_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N0002425CS278_9700_-NONE-_-NONE-",
+          "cached_piid": "N0002425CS278",
+          "recipient_uei": "KJKXBTLUAMA5",
+          "recipient_name": "MOSAIC ATM, INC.",
+          "parent_recipient_uei": "KJKXBTLUAMA5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVSEA HQ"
+          },
+          "response_sha256": "cc965a84896f99a47e90cfb1773e6b4cf7ac639bdb4617edfd7496e2c2bee539",
+          "retrieved_utc": "2026-10-25T14:30:45.512166+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002425CS278_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N0002425CS104",
+      "source_sbir": {
+        "row": 747,
+        "uei": "DMKEXJ8NQ4C5",
+        "entity_key": "DMKEXJ8NQ4C5",
+        "duns": "082191198",
+        "name": "ARETE ASSOCIATES",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N00024-25-C-S104",
+        "record_sha256": "1786965c906889161341539ff2cc3ed8f09fee05e88ddd2fec4964dbdd9bb768",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "5c833aad183b807c6c1f2cefe942c6e7fa79078c974016cf8328118fc051a779",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=1952"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N0002425CS104_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DMKEXJ8NQ4C5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "ARETE ASSOCIATES"
+          ],
+          "source_rows": [
+            533725,
+            605373,
+            622793
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N0002425CS104_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N0002425CS104_9700_-NONE-_-NONE-",
+          "cached_piid": "N0002425CS104",
+          "recipient_uei": "DMKEXJ8NQ4C5",
+          "recipient_name": "ARETE ASSOCIATES",
+          "parent_recipient_uei": "DMKEXJ8NQ4C5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVSEA HQ"
+          },
+          "response_sha256": "cb7aa041f0eb69d933676facfa20baa3f44f03258fd0b7846094dae2c0749ae4",
+          "retrieved_utc": "2026-10-25T14:36:20.832329+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002425CS104_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170125CA166",
+      "source_sbir": {
+        "row": 1144,
+        "uei": "CXMPDDLFBCH3",
+        "entity_key": "CXMPDDLFBCH3",
+        "duns": "078602532",
+        "name": "Alphacore, Inc.",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-25-C-A166",
+        "record_sha256": "0f33d3dc36d3e33d69057a9dc5ce0e878556b134b3717f6f24e48d7b7b296e5c",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "8d5b4d3b9a3d4a48fc91780386055989129a55d6b11f845f77dd7d1278f9e459",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=2685"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170125CA166_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "CXMPDDLFBCH3"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "ALPHACORE INC"
+          ],
+          "source_rows": [
+            386285
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170125CA166_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170125CA166_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170125CA166",
+          "recipient_uei": "CXMPDDLFBCH3",
+          "recipient_name": "ALPHACORE INC",
+          "parent_recipient_uei": "RTMFPEZ4EBF6",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "6a35922748e0d6a5ffee25166191b7d5fe3ae481b12bf7358f09e02cef6e39fd",
+          "retrieved_utc": "2026-10-25T14:30:43.486279+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA166_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170125CA122",
+      "source_sbir": {
+        "row": 2055,
+        "uei": "C4Y5CNN55L37",
+        "entity_key": "C4Y5CNN55L37",
+        "duns": "080921977",
+        "name": "INTELLISENSE SYSTEMS INC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-25-C-A122",
+        "record_sha256": "720e082cd876cf470c71660c87c58f987f57d371bb0384dd8f0d6403f7f71694",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "6129fe51c089b002cbf3a8295711880f57a5e67e2772dd1fcb2ff083e1c7ebe4",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=3983"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170125CA122_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "C4Y5CNN55L37"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "INTELLISENSE SYSTEMS INC"
+          ],
+          "source_rows": [
+            386241,
+            615298
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170125CA122_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170125CA122_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170125CA122",
+          "recipient_uei": "C4Y5CNN55L37",
+          "recipient_name": "INTELLISENSE SYSTEMS INC",
+          "parent_recipient_uei": "LXY5G6NTKJV5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "7bf07faa2028217bb510fd11b0c504eaacc78bcfb229f4ee2198725d06cf2281",
+          "retrieved_utc": "2026-10-25T14:30:43.561343+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA122_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170125CA119",
+      "source_sbir": {
+        "row": 2077,
+        "uei": "MUJGFTMRJZJ8",
+        "entity_key": "MUJGFTMRJZJ8",
+        "duns": "078391304",
+        "name": "NEAR EARTH AUTONOMY, INC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-25-C-A119",
+        "record_sha256": "f280a088696c01cea32fc8add151997d72113e4812a5982705687afd6fc954e7",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "4c3b168dcb4fda5e5bcf08218cf054e362533309a51f450f26e658229a718062",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=4031"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170125CA119_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "MUJGFTMRJZJ8"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "NEAR EARTH AUTONOMY, INC"
+          ],
+          "source_rows": [
+            386238
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170125CA119_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170125CA119_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170125CA119",
+          "recipient_uei": "MUJGFTMRJZJ8",
+          "recipient_name": "NEAR EARTH AUTONOMY, INC",
+          "parent_recipient_uei": "MUJGFTMRJZJ8",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "421c3a1aa667cf2f625d6f5b85bef4719ca7e94adcb1c8eb217249470575ef56",
+          "retrieved_utc": "2026-10-25T14:30:43.571378+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA119_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833525C0110",
+      "source_sbir": {
+        "row": 2371,
+        "uei": "JE6AK2EVH218",
+        "entity_key": "JE6AK2EVH218",
+        "duns": "611827812",
+        "name": "RDRTEC INCORPORATED",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-25-C-0110",
+        "record_sha256": "30b14bbbb22fd0bc469801b0c2dc7c40c495887744249f1088ec15ed30fba587",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "9fa5bca94a96ac43cebcca5dcfcc5cec109ec6156ca794e7fea71cf2385ab590",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=4443"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833525C0110_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "JE6AK2EVH218"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "RDRTEC, INC."
+          ],
+          "source_rows": [
+            379270
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833525C0110_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833525C0110_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833525C0110",
+          "recipient_uei": "JE6AK2EVH218",
+          "recipient_name": "RDRTEC, LLC",
+          "parent_recipient_uei": "JE6AK2EVH218",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "641f16344503d14c640dcd16664fd20739a09a9b06fadd88f7a979cd5fb360e2",
+          "retrieved_utc": "2026-10-25T14:30:44.327389+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833525C0110_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA864925P0010",
+      "source_sbir": {
+        "row": 2798,
+        "uei": "Q5LDAEQA8DA8",
+        "entity_key": "Q5LDAEQA8DA8",
+        "duns": "117521951",
+        "name": "LATENTAI INC.",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8649-25-P-0010",
+        "record_sha256": "c514425983097f20329ddc7be60107979eaf04ab2fc16baae1a2b741c800e975",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "490a4690bc7d447a02a68fd99edb47e60bbbf2ce760c75a72a1a1812509dc509",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=4981"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA864925P0010_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "Q5LDAEQA8DA8"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "LATENTAI INC."
+          ],
+          "source_rows": [
+            296647,
+            296648,
+            593597
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA864925P0010_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA864925P0010_9700_-NONE-_-NONE-",
+          "cached_piid": "FA864925P0010",
+          "recipient_uei": "Q5LDAEQA8DA8",
+          "recipient_name": "LATENTAI INC.",
+          "parent_recipient_uei": "Q5LDAEQA8DA8",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+          },
+          "response_sha256": "207680262c9051dccb213f2f6f2e21d68e2aa55a80fd9e2183a7656a8c269348",
+          "retrieved_utc": "2026-10-25T14:42:20.951604+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0010_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA945125PX001",
+      "source_sbir": {
+        "row": 2842,
+        "uei": "M1LHUN6EB5H6",
+        "entity_key": "M1LHUN6EB5H6",
+        "duns": "097607852",
+        "name": "MAYACHITRA, INC.",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA9451-25-P-X001",
+        "record_sha256": "5e574237f536919f7b1486c13848aebeb243ace59d276f69f58c9c363b13757e",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "332f7731a4897a7c93779e7ebb74179ecb48c7d5f37339a33b39e82bc19ac144",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5039"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA945125PX001_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "M1LHUN6EB5H6"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "MAYACHITRA, INC."
+          ],
+          "source_rows": [
+            324405
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA945125PX001_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA945125PX001_9700_-NONE-_-NONE-",
+          "cached_piid": "FA945125PX001",
+          "recipient_uei": "M1LHUN6EB5H6",
+          "recipient_name": "MAYACHITRA, INC.",
+          "parent_recipient_uei": "M1LHUN6EB5H6",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA9451  AFRL RFZ"
+          },
+          "response_sha256": "0f0d739defd4749e43745bdf73d5ba7283fad093064e9ea4c15ff1638296abeb",
+          "retrieved_utc": "2026-10-25T14:30:46.364873+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA945125PX001_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA945325CX026",
+      "source_sbir": {
+        "row": 2861,
+        "uei": "S6L7F1Z9BYM4",
+        "entity_key": "S6L7F1Z9BYM4",
+        "duns": "081318218",
+        "name": "RHEA SPACE ACTIVITY, INC.",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA9453-25-C-X026",
+        "record_sha256": "6fd5162b42d917843b6e00f5c03179637db644e7f6294c8c483211b4702b8795",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "ac210c0e9fc40e44615237c902c9efae1119125ca15634f894bc94ac6102e081",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5059"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA945325CX026_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "S6L7F1Z9BYM4"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "RHEA SPACE ACTIVITY, INC."
+          ],
+          "source_rows": [
+            327606,
+            327607
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA945325CX026_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA945325CX026_9700_-NONE-_-NONE-",
+          "cached_piid": "FA945325CX026",
+          "recipient_uei": "S6L7F1Z9BYM4",
+          "recipient_name": "RHEA SPACE ACTIVITY, INC.",
+          "parent_recipient_uei": "S6L7F1Z9BYM4",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA9453  AFRL RJZ"
+          },
+          "response_sha256": "95762bd9e2ba1e30e3af5a17ea492d7f4298d0d2dd45249dd5d3f7054d01ca5c",
+          "retrieved_utc": "2026-10-25T14:30:46.165292+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA945325CX026_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170125C0031",
+      "source_sbir": {
+        "row": 2864,
+        "uei": "NL6YKVNN2G46",
+        "entity_key": "NL6YKVNN2G46",
+        "duns": "966276920",
+        "name": "COVAR, LLC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-25-C-0031",
+        "record_sha256": "a3e97d2fbf264f08fb57950d2bc42ea7ebe140f657c1b3d1ae6de367ef223c9c",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "7439344577e86bcfabaaafc675c86547ae8583bd6c4453f1d1d1949a29a35bcd",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5062"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170125C0031_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "NL6YKVNN2G46"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "COVAR, LLC"
+          ],
+          "source_rows": [
+            385987,
+            385988
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170125C0031_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170125C0031_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170125C0031",
+          "recipient_uei": "NL6YKVNN2G46",
+          "recipient_name": "COVAR, LLC",
+          "parent_recipient_uei": "FCHXJJQDLN99",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "8695a7dd1b10ff228cecdb9db042c0e9dd66801c6a0719c7d1dbfc3ea8143dd6",
+          "retrieved_utc": "2026-10-25T14:30:43.668421+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125C0031_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833525C0069",
+      "source_sbir": {
+        "row": 3093,
+        "uei": "C8FUKQKC9JB4",
+        "entity_key": "C8FUKQKC9JB4",
+        "duns": "120839477",
+        "name": "BARRON ASSOCIATES, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-25-C-0069",
+        "record_sha256": "7232b5f5b0ab27fd50f00921401527c1a76e664a15551e7da21cdbf4be2ab177",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "127bccc9ef601856b5cf478cdad0693b5120db8584292e2dc949561478d5d048",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5320"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833525C0069_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "C8FUKQKC9JB4"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "BARRON ASSOCIATES, INC."
+          ],
+          "source_rows": [
+            379220,
+            379221
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833525C0069_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833525C0069_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833525C0069",
+          "recipient_uei": "C8FUKQKC9JB4",
+          "recipient_name": "BARRON ASSOCIATES, INC.",
+          "parent_recipient_uei": "C8FUKQKC9JB4",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "604ad55a293f9249d80a1c4dd510e164b54644e5659a33cbe284e31dedc6c475",
+          "retrieved_utc": "2026-10-25T14:30:42.927818+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833525C0069_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170125C0052",
+      "source_sbir": {
+        "row": 3146,
+        "uei": "MKQPJJKHDG89",
+        "entity_key": "MKQPJJKHDG89",
+        "duns": "124668711",
+        "name": "PERCEPTRONICS SOLUTIONS, INC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-25-C-0052",
+        "record_sha256": "1b45cc028b6e4d1688b014d3778279962c91ffbfd9a380b15bb2f12b75d65587",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "fc7c26b54dd87ea74b503bcd021eea68a83be4d6e9ccfe367cdf1d470a1178da",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5385"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170125C0052_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "MKQPJJKHDG89"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "PERCEPTRONICS SOLUTIONS, INC"
+          ],
+          "source_rows": [
+            386021,
+            386022
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170125C0052_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170125C0052_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170125C0052",
+          "recipient_uei": "MKQPJJKHDG89",
+          "recipient_name": "PERCEPTRONICS SOLUTIONS, INC",
+          "parent_recipient_uei": "MKQPJJKHDG89",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "537dc43d46b68e9c536e67bd963105117f301bd9cb6d6b2602f232ea52fad70e",
+          "retrieved_utc": "2026-10-25T14:30:42.186301+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125C0052_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "HY023325PE005",
+      "source_sbir": {
+        "row": 3177,
+        "uei": "TFK5RPLVZ248",
+        "entity_key": "TFK5RPLVZ248",
+        "duns": "116785054",
+        "name": "AUTONODYNE LLC",
+        "agency": "Department of Defense",
+        "branch": "Strategic Capabilities Office",
+        "contract": "HY023325PE005",
+        "record_sha256": "18c9036f5c7f53e249514b75dc3fb2a5ac5985032c7ca8e974c65e384852aab4",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "0f95bcae5dc35bdf68f679a097c0dcdd5fea11df458b282bd6483f4606955442",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5424"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_HY023325PE005_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "TFK5RPLVZ248"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "AUTONODYNE LLC"
+          ],
+          "source_rows": [
+            345656
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_HY023325PE005_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_HY023325PE005_9700_-NONE-_-NONE-",
+          "cached_piid": "HY023325PE005",
+          "recipient_uei": "TFK5RPLVZ248",
+          "recipient_name": "AUTONODYNE LLC",
+          "parent_recipient_uei": "TFK5RPLVZ248",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1215,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Immediate Office of the Secretary of Defense",
+              "code": "97AD",
+              "abbreviation": "SECDEF"
+            },
+            "office_agency_name": "DIRECTOR SCO"
+          },
+          "response_sha256": "c7cfa8a1786c08841bf5bf6da097a3f3f91f5b451fb1fb8a26888d92c5a182e2",
+          "retrieved_utc": "2026-10-25T14:30:45.842433+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HY023325PE005_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N0002424CT205",
+      "source_sbir": {
+        "row": 3237,
+        "uei": "HT19FEFNVXC5",
+        "entity_key": "HT19FEFNVXC5",
+        "duns": "103477993",
+        "name": "SMART INFORMATION FLOW TECHNOLOGIES LLC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N00024-24-C-T205",
+        "record_sha256": "04ef944df31df2a22b5038985c409d902664bb710d95984b98d6fd3b24f7480d",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "39c8f50a231a7394e5582642076d299566807c2110a074e7fd301e7b1978f024",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=5520"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N0002424CT205_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "HT19FEFNVXC5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "SMART INFORMATION FLOW TECHNOLOGIES LLC"
+          ],
+          "source_rows": [
+            356585,
+            356586,
+            356587,
+            356588,
+            356589,
+            606464
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N0002424CT205_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N0002424CT205_9700_-NONE-_-NONE-",
+          "cached_piid": "N0002424CT205",
+          "recipient_uei": "HT19FEFNVXC5",
+          "recipient_name": "SMART INFORMATION FLOW TECHNOLOGIES LLC",
+          "parent_recipient_uei": "HT19FEFNVXC5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVSEA HQ"
+          },
+          "response_sha256": "e9af806f43ee99a5353b143654ac2afbeb577730d7b944f8734542c9a5e4360d",
+          "retrieved_utc": "2026-10-25T14:30:45.622160+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002424CT205_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "SP470124P0068",
+      "source_sbir": {
+        "row": 3480,
+        "uei": "VFBVNNPZLKL5",
+        "entity_key": "VFBVNNPZLKL5",
+        "duns": "117115385",
+        "name": "Rapid Global Business Solutions Inc (RGBSI) Aerospace & Defense",
+        "agency": "Department of Defense",
+        "branch": "Defense Logistics Agency",
+        "contract": "SP4701-24-P-0068",
+        "record_sha256": "d42fced8a922eee4e5c905ef82b1601df13dfa819b6c9dfec9763a08910bf4e7",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "23904c11e58ae794e168bfd7255d0938fc384e300ebb103d4006e24352fe625d",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=6127"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DVB6AGJG7WZ7"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "RAPID GLOBAL BUSINESS SOLUTIONS, INC"
+          ],
+          "source_rows": [
+            382196
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-",
+          "cached_piid": "SP470124P0068",
+          "recipient_uei": "DVB6AGJG7WZ7",
+          "recipient_name": "RAPID GLOBAL BUSINESS SOLUTIONS, INC",
+          "parent_recipient_uei": "DVB6AGJG7WZ7",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1219,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Defense Logistics Agency",
+              "code": "97AS",
+              "abbreviation": "DLA"
+            },
+            "office_agency_name": "DCSO PHILADELPHIA"
+          },
+          "response_sha256": "909089e6ea1f49e240b710aad0b0573f45ae68f9f2dac0e293a9431d2f6da480",
+          "retrieved_utc": "2026-10-25T14:30:44.044173+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "explicit_uei_conflict_with_all_archive_financial_recipient_ueis",
+      "cached_live_identity_status": "source_explicit_uei_conflicts_with_cached_live_recipient_uei",
+      "scope_association_limit": "linkage unresolved or limited; do not transfer SBIR scope to financial award without resolving identity"
+    },
+    {
+      "piid": "W5170124C0174",
+      "source_sbir": {
+        "row": 3626,
+        "uei": "Q5LDAEQA8DA8",
+        "entity_key": "Q5LDAEQA8DA8",
+        "duns": "117521951",
+        "name": "LATENTAI INC.",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-24-C-0174",
+        "record_sha256": "062fb244a26ca5283025fa650d7fb4d2de120e1b0d0286b64c34e6d9dec4494b",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "2beadc05d1b91d49c48fc8f7caf9d4dfcd42dfd5120215c6012a9fe4122f5e89",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=6403"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170124C0174_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "Q5LDAEQA8DA8"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "LATENTAI INC."
+          ],
+          "source_rows": [
+            385794,
+            385795,
+            385796,
+            385797
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170124C0174_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170124C0174_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170124C0174",
+          "recipient_uei": "Q5LDAEQA8DA8",
+          "recipient_name": "LATENTAI INC.",
+          "parent_recipient_uei": "Q5LDAEQA8DA8",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "38497720186628eb7a748a7b27cdf23ac931f67f5177048e373b39d9250f0e40",
+          "retrieved_utc": "2026-10-25T14:30:42.458675+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0174_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N0002424CS166",
+      "source_sbir": {
+        "row": 3818,
+        "uei": "TXQSGD76CNC4",
+        "entity_key": "TXQSGD76CNC4",
+        "duns": "101577661",
+        "name": "PENTA RESEARCH INC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N00024-24-C-S166",
+        "record_sha256": "3dc1ece19f5e0cd0639506ddf63614619973c761aa3ed64c050cf7339a5d0844",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "d13682bf2974e2164444f996321d065f6d5ee0f72a905b8c410be2b8b22b8858",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=6871"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N0002424CS166_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "TXQSGD76CNC4"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "PENTA RESEARCH INC"
+          ],
+          "source_rows": [
+            356446,
+            356447,
+            602204,
+            613138
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N0002424CS166_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N0002424CS166_9700_-NONE-_-NONE-",
+          "cached_piid": "N0002424CS166",
+          "recipient_uei": "TXQSGD76CNC4",
+          "recipient_name": "PENTA RESEARCH INC",
+          "parent_recipient_uei": "Z4MQRYD5MQL7",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVSEA HQ"
+          },
+          "response_sha256": "775fd9a2f104649c8d861f09e1fcfaf5c129bf407596bd81d78d3ee6985e1a3d",
+          "retrieved_utc": "2026-10-25T14:30:45.714040+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N0002424CS166_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA865124CB024",
+      "source_sbir": {
+        "row": 4118,
+        "uei": "C12TQVKF5413",
+        "entity_key": "C12TQVKF5413",
+        "duns": "859244204",
+        "name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8651-24-C-B024",
+        "record_sha256": "57e82ce70420022e0189cf5c231bfa3ae3f621eb024c1538704dfb75a0fc530b",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "c9d95018577b704bb03b966dbd9bb88d36dfe9ae800c455a425088059b886748",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=7598"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "C12TQVKF5413"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "SCIENTIFIC SYSTEMS COMPANY, INC."
+          ],
+          "source_rows": [
+            307148,
+            307149,
+            307150,
+            608039
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-",
+          "cached_piid": "FA865124CB024",
+          "recipient_uei": "C12TQVKF5413",
+          "recipient_name": "SCIENTIFIC SYSTEMS COMPANY, INC.",
+          "parent_recipient_uei": "C12TQVKF5413",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8651 AFRL RAZ"
+          },
+          "response_sha256": "52bc5769921c23eb4866ce0972a5cfdf0a6eacac5704d543889181afe17363a1",
+          "retrieved_utc": "2026-10-25T14:35:17.035144+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833524C0442",
+      "source_sbir": {
+        "row": 4442,
+        "uei": "YUTGV449NPA3",
+        "entity_key": "YUTGV449NPA3",
+        "duns": "",
+        "name": "Method Security, Inc",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-24-C-0442",
+        "record_sha256": "78059802d1b428f3e54ee80a96779e8e268e3d4789b289421029309aa762dd18",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "9da3a988db3cebab0a0ae2a87316b293efab0d6aa8e0b6164ee0a08382361d44",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=8256"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833524C0442_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "YUTGV449NPA3"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "METHOD SECURITY, INC"
+          ],
+          "source_rows": [
+            379011
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833524C0442_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833524C0442_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833524C0442",
+          "recipient_uei": "YUTGV449NPA3",
+          "recipient_name": "METHOD SECURITY, INC",
+          "parent_recipient_uei": "YUTGV449NPA3",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "a9f3e0f131a0c848943f6f3b4cec8bbcf286c58b204eb092b7a6365bfaf40580",
+          "retrieved_utc": "2026-10-25T14:30:44.347436+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833524C0442_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA864924P0465",
+      "source_sbir": {
+        "row": 4452,
+        "uei": "HTS8PL9HG6Y1",
+        "entity_key": "HTS8PL9HG6Y1",
+        "duns": "079236872",
+        "name": "EDGE CASE RESEARCH INC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8649-24-P-0465",
+        "record_sha256": "34b916e27fd6ef289f5c27b6d6528135256c7f90b944e97ecf1f7f4f947b844e",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "ab3475df26572c7de16d362c168c5a154017e5acfc77d9b399b66a70f4e73b53",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=8277"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA864924P0465_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "HTS8PL9HG6Y1"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "EDGE CASE RESEARCH INC"
+          ],
+          "source_rows": [
+            295639,
+            295640,
+            599376
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA864924P0465_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA864924P0465_9700_-NONE-_-NONE-",
+          "cached_piid": "FA864924P0465",
+          "recipient_uei": "HTS8PL9HG6Y1",
+          "recipient_name": "EDGE CASE RESEARCH INC",
+          "parent_recipient_uei": "HTS8PL9HG6Y1",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+          },
+          "response_sha256": "724602d87c4cf5458599491dc56f0bd06822fe970e41ef09cb5bd870dcc385c2",
+          "retrieved_utc": "2026-10-25T14:30:42.662779+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864924P0465_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "HDTRA124P0013",
+      "source_sbir": {
+        "row": 4718,
+        "uei": "N8CQNLSSAZY4",
+        "entity_key": "N8CQNLSSAZY4",
+        "duns": "047627732",
+        "name": "SPECTRAL SCIENCES, INC",
+        "agency": "Department of Defense",
+        "branch": "Defense Threat Reduction Agency",
+        "contract": "HDTRA124P0013",
+        "record_sha256": "5217ad574c7d809f3036e9ec3c523b1966e4bae25c83c953ad59b55c40d1e3f7",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "b3f6a50cdf39355dded27c69d53b1a93eb07f78ad0bca5250a56dab77ed820f3",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=8759"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_HDTRA124P0013_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "N8CQNLSSAZY4"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "SPECTRAL SCIENCES, INC"
+          ],
+          "source_rows": [
+            331125,
+            331126,
+            331127
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_HDTRA124P0013_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_HDTRA124P0013_9700_-NONE-_-NONE-",
+          "cached_piid": "HDTRA124P0013",
+          "recipient_uei": "N8CQNLSSAZY4",
+          "recipient_name": "SPECTRAL SCIENCES, INC",
+          "parent_recipient_uei": "N8CQNLSSAZY4",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1208,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Defense Threat Reduction Agency",
+              "code": "9761",
+              "abbreviation": "DTRA"
+            },
+            "office_agency_name": "DEFENSE THREAT REDUCTION AGENCY"
+          },
+          "response_sha256": "3b242672ffb3ba1eefda6a46f65cc6cceaab3dec3073ff51127bbf1b0e4902f1",
+          "retrieved_utc": "2026-10-25T14:30:45.991658+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HDTRA124P0013_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833524C0261",
+      "source_sbir": {
+        "row": 4818,
+        "uei": "DD1BYN8SN355",
+        "entity_key": "DD1BYN8SN355",
+        "duns": "115243701",
+        "name": "CHARLES RIVER ANALYTICS, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-24-C-0261",
+        "record_sha256": "08ffbfc89abb29ee2aa2cd778ed33130d43b635a7f20d837e5bd8e2580028f0b",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "3fc24799f9926f2571853cc22fd95a677b3987ecefb759ccce84e0a68692c0e5",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=8936"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833524C0261_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DD1BYN8SN355"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "CHARLES RIVER ANALYTICS, INC."
+          ],
+          "source_rows": [
+            378760,
+            378761
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833524C0261_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833524C0261_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833524C0261",
+          "recipient_uei": "DD1BYN8SN355",
+          "recipient_name": "CHARLES RIVER ANALYTICS, INC.",
+          "parent_recipient_uei": "DD1BYN8SN355",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "ba3fe69f092f6497a8d67254d580256a9a857da9977e26ba0cf8ce96d9e740ea",
+          "retrieved_utc": "2026-10-25T14:30:44.379835+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833524C0261_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "HQ086024C7606",
+      "source_sbir": {
+        "row": 5511,
+        "uei": "PK1CB3L39XX8",
+        "entity_key": "PK1CB3L39XX8",
+        "duns": "054672662",
+        "name": "TOYON RESEARCH CORPORATION",
+        "agency": "Department of Defense",
+        "branch": "Missile Defense Agency",
+        "contract": "HQ0860-24-C-7606",
+        "record_sha256": "9a01701da91c7184a168eef40419c8a994f82a2fb9b4d5ac3fae40a2ee692d5b",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "c0b20c116c44410cd3905ce2569a6490857d238ca0b3b03592eab23f9c5b725a",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=9847"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_HQ086024C7606_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "PK1CB3L39XX8"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "TOYON RESEARCH CORPORATION"
+          ],
+          "source_rows": [
+            336931,
+            336932,
+            336933
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_HQ086024C7606_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_HQ086024C7606_9700_-NONE-_-NONE-",
+          "cached_piid": "HQ086024C7606",
+          "recipient_uei": "PK1CB3L39XX8",
+          "recipient_name": "TOYON RESEARCH CORPORATION",
+          "parent_recipient_uei": "PK1CB3L39XX8",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1234,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Missile Defense Agency",
+              "code": "97JC",
+              "abbreviation": "MDA"
+            },
+            "office_agency_name": "MISSILE DEFENSE AGENCY (MDA)"
+          },
+          "response_sha256": "af94f6da74702a35152369b328b29e15fa734a90d71e5ba30181680aef450901",
+          "retrieved_utc": "2026-10-25T14:30:45.884937+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_HQ086024C7606_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170124C0134",
+      "source_sbir": {
+        "row": 5672,
+        "uei": "SY9CU9KDZDH9",
+        "entity_key": "SY9CU9KDZDH9",
+        "duns": "118433629",
+        "name": "YRIKKA, INC.",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-24-C-0134",
+        "record_sha256": "956b73baeb679e6a2f389c6e6a52efffc72b92eabf3eba00315cb58de06f70fb",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "c87bc35c4927970b138f16495e6717b719f26c952e097f9d4dfaefcbc41973b0",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=10105"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170124C0134_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "SY9CU9KDZDH9"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "YRIKKA, INC."
+          ],
+          "source_rows": [
+            385713
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170124C0134_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170124C0134_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170124C0134",
+          "recipient_uei": "SY9CU9KDZDH9",
+          "recipient_name": "YRIKKA, INC.",
+          "parent_recipient_uei": "SY9CU9KDZDH9",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "bf67a99a040eac66f58b9a81388e3edcd32a48804ddfd0993b391da0ee3dca8b",
+          "retrieved_utc": "2026-10-25T14:30:43.672155+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0134_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170124C0063",
+      "source_sbir": {
+        "row": 5830,
+        "uei": "PZPHRDAUMF19",
+        "entity_key": "PZPHRDAUMF19",
+        "duns": "832532142",
+        "name": "SUNRAY SCIENTIFIC INC.",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-24-C-0063",
+        "record_sha256": "7630684a922918f88de51c0ed365819aca4d602e8d720a015c2743960bc392f4",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "8114df68d0325bc57645d92b63ff3c7cc95a4f82fdce025991db0ff7c0192983",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=10355"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170124C0063_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "PZPHRDAUMF19"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "SUNRAY SCIENTIFIC INC."
+          ],
+          "source_rows": [
+            385605,
+            385606
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170124C0063_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170124C0063_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170124C0063",
+          "recipient_uei": "PZPHRDAUMF19",
+          "recipient_name": "SUNRAY SCIENTIFIC INC.",
+          "parent_recipient_uei": "PZPHRDAUMF19",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "47c06cbfd07316906b659959a876e9b6dd21a732e958e1f7f1c844a7ab87ef70",
+          "retrieved_utc": "2026-10-25T14:30:43.850039+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0063_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170124C0049",
+      "source_sbir": {
+        "row": 5947,
+        "uei": "C4Y5CNN55L37",
+        "entity_key": "C4Y5CNN55L37",
+        "duns": "080921977",
+        "name": "INTELLISENSE SYSTEMS INC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-24-C-0049",
+        "record_sha256": "055e02da1cf49409f2ff35401b1e2827451ec220f63f908cc2f1dcf6a1443fd1",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "d8a45ac8f9633c5388e35bfffc0000924daff7849c701e5b4a579bec65855ac0",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=10556"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170124C0049_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "C4Y5CNN55L37"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "INTELLISENSE SYSTEMS INC"
+          ],
+          "source_rows": [
+            385590
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170124C0049_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170124C0049_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170124C0049",
+          "recipient_uei": "C4Y5CNN55L37",
+          "recipient_name": "INTELLISENSE SYSTEMS INC",
+          "parent_recipient_uei": "LXY5G6NTKJV5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "d3ea7a61d29191b16bf168988984bd784a3771f3bb766fb8564c939e4ba898b5",
+          "retrieved_utc": "2026-10-25T14:30:43.847606+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0049_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170124C0035",
+      "source_sbir": {
+        "row": 6121,
+        "uei": "GEL4H469N7L5",
+        "entity_key": "GEL4H469N7L5",
+        "duns": "116837742",
+        "name": "EPOCHGEO LLC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-24-C-0035",
+        "record_sha256": "aac185050a85ba159fc08a46d5d011e5bb11d406ed80c686b27ce5b44b231876",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "4f45ac865fa8aa30b847272d72abb64fe6fa941d1a492ef2ecad7d5d79222232",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=10784"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170124C0035_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "GEL4H469N7L5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "EPOCHGEO LLC"
+          ],
+          "source_rows": [
+            385568,
+            385569,
+            385570,
+            620581
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170124C0035_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170124C0035_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170124C0035",
+          "recipient_uei": "GEL4H469N7L5",
+          "recipient_name": "EPOCHGEO LLC",
+          "parent_recipient_uei": "GEL4H469N7L5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "63548aa3bf09e8ada39e9b8551e9c57badc592289fdf173109bd06a3e2bd6c9d",
+          "retrieved_utc": "2026-10-25T14:30:42.923655+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0035_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA239124CB023",
+      "source_sbir": {
+        "row": 6137,
+        "uei": "MAVXNREBNY27",
+        "entity_key": "MAVXNREBNY27",
+        "duns": "079262484",
+        "name": "RATIONAL CYPHY INC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA2391-24-C-B023",
+        "record_sha256": "ccc08006c1773e4eefba776c2be1861785918bd533c0ff8646dee07b48367ef8",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "7dce4aad7611696d9f7157f8ffa5d8ba4239cd4c0dfa1f2fe6af76b3146d8905",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=10815"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA239124CB023_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "MAVXNREBNY27"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "RATIONAL CYPHY INC"
+          ],
+          "source_rows": [
+            286617,
+            286618,
+            286619
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA239124CB023_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA239124CB023_9700_-NONE-_-NONE-",
+          "cached_piid": "FA239124CB023",
+          "recipient_uei": "MAVXNREBNY27",
+          "recipient_name": "RATIONAL CYPHY INC",
+          "parent_recipient_uei": "MAVXNREBNY27",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA2391 USAF AFMC AFRL PZL AFRL RQKP"
+          },
+          "response_sha256": "150bd173561b895e86023c062be34d7875fa85edabfe863ccacb5a00ab7329dd",
+          "retrieved_utc": "2026-10-25T14:30:43.028110+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA239124CB023_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA239124CB020",
+      "source_sbir": {
+        "row": 6139,
+        "uei": "FVR9QLGE9TJ1",
+        "entity_key": "FVR9QLGE9TJ1",
+        "duns": "600851948",
+        "name": "MEDINA, ENRIQUE A",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA2391-24-C-B020",
+        "record_sha256": "f77e0a4fba94d9fe003df1e2d05b15eaa5f2e021c66445871d06c5b54018df3a",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "78ce2e0fa99ba3f6aaf21ec15921fdbe5e0290809dad0b464f1b19d115bdfa95",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=10817"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA239124CB020_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "FVR9QLGE9TJ1"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "MEDINA, ENRIQUE A"
+          ],
+          "source_rows": [
+            286612,
+            286613,
+            596457
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA239124CB020_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA239124CB020_9700_-NONE-_-NONE-",
+          "cached_piid": "FA239124CB020",
+          "recipient_uei": "FVR9QLGE9TJ1",
+          "recipient_name": "MEDINA, ENRIQUE A",
+          "parent_recipient_uei": "FVR9QLGE9TJ1",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA2391 USAF AFMC AFRL PZL AFRL RQKP"
+          },
+          "response_sha256": "aa0e374803d63745bbc882cf24b6e38b57b3f58ceb387c36b966a71030e686ba",
+          "retrieved_utc": "2026-10-25T14:30:43.092598+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA239124CB020_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W5170124C0007",
+      "source_sbir": {
+        "row": 6765,
+        "uei": "K82GMYAGGU66",
+        "entity_key": "K82GMYAGGU66",
+        "duns": "081071435",
+        "name": "PROTONEX LLC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W51701-24-C-0007",
+        "record_sha256": "383da93a0e5493011a4c59338c8be35acb72fd0978635a2ff9a4c9b928e79663",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "d37d7f9dbd507ddb6b6d1df07eea81f03d52a0e6981b6a42610bb871f61e218c",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=11579"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W5170124C0007_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "K82GMYAGGU66"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "PROTONEX LLC"
+          ],
+          "source_rows": [
+            385509,
+            385510
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W5170124C0007_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W5170124C0007_9700_-NONE-_-NONE-",
+          "cached_piid": "W5170124C0007",
+          "recipient_uei": "K82GMYAGGU66",
+          "recipient_name": "PROTONEX LLC",
+          "parent_recipient_uei": "K82GMYAGGU66",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W27P USA ACQ SPT CTR"
+          },
+          "response_sha256": "5e02db82254e12ae3fddf84e27b6426a8b9cee8a563b4c05d85b606e811fec55",
+          "retrieved_utc": "2026-10-25T14:30:43.886070+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170124C0007_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833524C0075",
+      "source_sbir": {
+        "row": 6817,
+        "uei": "JE6AK2EVH218",
+        "entity_key": "JE6AK2EVH218",
+        "duns": "611827812",
+        "name": "RDRTEC INCORPORATED",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-24-C-0075",
+        "record_sha256": "fa2c29f91078e8b5a6ed64bfb2c3e624efab74fab73a20b5822da538580b5c2f",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "1d6a7e2f1be0688e586a7736c817b3f3217a1b68e9693a150ca329c1ee55519a",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=11644"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833524C0075_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "JE6AK2EVH218"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "RDRTEC, INC."
+          ],
+          "source_rows": [
+            378443,
+            378444
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833524C0075_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833524C0075_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833524C0075",
+          "recipient_uei": "JE6AK2EVH218",
+          "recipient_name": "RDRTEC, LLC",
+          "parent_recipient_uei": "JE6AK2EVH218",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "812fe63e0d519c6fec598c24991cd917b1f8c675113eafaabe8eb8cc3cc61842",
+          "retrieved_utc": "2026-10-25T14:30:44.539048+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833524C0075_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833524C0074",
+      "source_sbir": {
+        "row": 6819,
+        "uei": "DMKEXJ8NQ4C5",
+        "entity_key": "DMKEXJ8NQ4C5",
+        "duns": "082191198",
+        "name": "ARETE ASSOCIATES",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-24-C-0074",
+        "record_sha256": "2a392d485edc14ff5c59402a6f34eb4a5c06eaa5999854b3bc928ba47b2a0287",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "dd43378a22126ae4110573c7d4d2eafa1066a39d60855b59844c996afaf007b1",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=11646"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833524C0074_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DMKEXJ8NQ4C5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "ARETE ASSOCIATES"
+          ],
+          "source_rows": [
+            378442
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833524C0074_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833524C0074_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833524C0074",
+          "recipient_uei": "DMKEXJ8NQ4C5",
+          "recipient_name": "ARETE ASSOCIATES",
+          "parent_recipient_uei": "DMKEXJ8NQ4C5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "fa646acabc762317fb1910fe8f483f5427954ca31e71c7ec7e0be9c44862b7a3",
+          "retrieved_utc": "2026-10-25T14:30:44.625901+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833524C0074_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833524C0076",
+      "source_sbir": {
+        "row": 6824,
+        "uei": "PK1CB3L39XX8",
+        "entity_key": "PK1CB3L39XX8",
+        "duns": "054672662",
+        "name": "TOYON RESEARCH CORPORATION",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-24-C-0076",
+        "record_sha256": "7c8732d9d518fe286d02c0601fc9f1b18026b5b2237649db50a61b24d0348064",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "913e73777ea7f1a2504d2c60309e05e25ec6677e71e9934192a2a2bce798f7c1",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=11651"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833524C0076_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "PK1CB3L39XX8"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "TOYON RESEARCH CORPORATION"
+          ],
+          "source_rows": [
+            378445
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833524C0076_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833524C0076_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833524C0076",
+          "recipient_uei": "PK1CB3L39XX8",
+          "recipient_name": "TOYON RESEARCH CORPORATION",
+          "parent_recipient_uei": "PK1CB3L39XX8",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "5cef542b8d6e52460c783a2bdefb24938f33868c627960ce6b2fefdcc3a35d46",
+          "retrieved_utc": "2026-10-25T14:30:44.529136+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833524C0076_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833524C0087",
+      "source_sbir": {
+        "row": 6825,
+        "uei": "C8FUKQKC9JB4",
+        "entity_key": "C8FUKQKC9JB4",
+        "duns": "120839477",
+        "name": "BARRON ASSOCIATES, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-24-C-0087",
+        "record_sha256": "53a9518b4cc3547e1c631ab74d68ca4d0b24fe3fced3427dd29338b547eda75c",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "eff88c1bfe888b5607f110f3f1579d39c794c9e3ce173ec0e8822b4b6e048b48",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=11652"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833524C0087_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "C8FUKQKC9JB4"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "BARRON ASSOCIATES, INC."
+          ],
+          "source_rows": [
+            378465
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833524C0087_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833524C0087_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833524C0087",
+          "recipient_uei": "C8FUKQKC9JB4",
+          "recipient_name": "BARRON ASSOCIATES, INC.",
+          "parent_recipient_uei": "C8FUKQKC9JB4",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "f86c9285a6c224a770fd4ce09e9418eebf0e5e4cb1a6d4449d8d8a6256f8f453",
+          "retrieved_utc": "2026-10-25T14:30:44.528128+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833524C0087_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "SP470123C0057",
+      "source_sbir": {
+        "row": 7439,
+        "uei": "RL82G2HTX9E3",
+        "entity_key": "RL82G2HTX9E3",
+        "duns": "091174495",
+        "name": "James L. Gallagher, Inc.",
+        "agency": "Department of Defense",
+        "branch": "Defense Logistics Agency",
+        "contract": "SP4701-23-C-0057",
+        "record_sha256": "b7182a61cf0ea62ba9a19885368a0c5bf975bc1314659a8520518496c13254c8",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "1eae522a96d1f07131b045aa07579381677bebbfcc8969fb37015be1ba04cd64",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=13099"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_SP470123C0057_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "RL82G2HTX9E3"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "JAMES L. GALLAGHER, INC"
+          ],
+          "source_rows": [
+            381821,
+            381822
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_SP470123C0057_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_SP470123C0057_9700_-NONE-_-NONE-",
+          "cached_piid": "SP470123C0057",
+          "recipient_uei": "RL82G2HTX9E3",
+          "recipient_name": "JAMES L. GALLAGHER, INC",
+          "parent_recipient_uei": "RL82G2HTX9E3",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1219,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Defense Logistics Agency",
+              "code": "97AS",
+              "abbreviation": "DLA"
+            },
+            "office_agency_name": "DCSO PHILADELPHIA"
+          },
+          "response_sha256": "2ea4ba0273ab1cd9a6f2ec84f52a5adb736a6650df5045df125fcf3a0f615c9c",
+          "retrieved_utc": "2026-10-25T14:30:44.047155+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SP470123C0057_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833523C0636",
+      "source_sbir": {
+        "row": 7718,
+        "uei": "HT19FEFNVXC5",
+        "entity_key": "HT19FEFNVXC5",
+        "duns": "103477993",
+        "name": "SMART INFORMATION FLOW TECHNOLOGIES LLC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-23-C-0636",
+        "record_sha256": "5f247a7accd49bc63fba4d4d917da9994d62fc4d7a70491663b0b374e42fa4f3",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "558e9ab00514dcfb406d55614580e3ac2db8a67bc3e666ae61e344c8c877c4c2",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=13866"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833523C0636_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "HT19FEFNVXC5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "SMART INFORMATION FLOW TECHNOLOGIES LLC"
+          ],
+          "source_rows": [
+            378146,
+            378147
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833523C0636_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833523C0636_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833523C0636",
+          "recipient_uei": "HT19FEFNVXC5",
+          "recipient_name": "SMART INFORMATION FLOW TECHNOLOGIES LLC",
+          "parent_recipient_uei": "HT19FEFNVXC5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "4da4132938d81d270a981fa0f5327e2a11efe32963a385e6465f9afe69639cce",
+          "retrieved_utc": "2026-10-25T14:30:44.797372+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833523C0636_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833523C0503",
+      "source_sbir": {
+        "row": 7872,
+        "uei": "G5LEM9BGPMX6",
+        "entity_key": "G5LEM9BGPMX6",
+        "duns": "080284096",
+        "name": "OPTOXENSE, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-23-C-0503",
+        "record_sha256": "5bc63edaf2b7423ad77e8223ada3773ad1fac10baf52eda8044f166840eb1511",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "aa45913f811ec92d612a2763a3299324c31518eefeda174a8dec57b5dd5e5a71",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=14141"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833523C0503_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "G5LEM9BGPMX6"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "OPTOXENSE, INC."
+          ],
+          "source_rows": [
+            377937
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833523C0503_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833523C0503_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833523C0503",
+          "recipient_uei": "G5LEM9BGPMX6",
+          "recipient_name": "OPTOXENSE, INC.",
+          "parent_recipient_uei": "G5LEM9BGPMX6",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "64a6b45056cdcdbd55dfba7741a51f71cf6dbb4c15c2164e936f7145cdbaf364",
+          "retrieved_utc": "2026-10-25T14:30:44.823545+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833523C0503_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833523C0505",
+      "source_sbir": {
+        "row": 7941,
+        "uei": "DD1BYN8SN355",
+        "entity_key": "DD1BYN8SN355",
+        "duns": "115243701",
+        "name": "CHARLES RIVER ANALYTICS, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-23-C-0505",
+        "record_sha256": "d428e4f80d1409559dbe9a82336e15e17369123c1497c82660282ea37f0279ab",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "7afe4c6d268ff03e51bb081db33588c297cdd78193050f2491733465dd7255d6",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=14225"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833523C0505_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DD1BYN8SN355"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "CHARLES RIVER ANALYTICS, INC."
+          ],
+          "source_rows": [
+            377941,
+            377942
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833523C0505_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833523C0505_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833523C0505",
+          "recipient_uei": "DD1BYN8SN355",
+          "recipient_name": "CHARLES RIVER ANALYTICS, INC.",
+          "parent_recipient_uei": "DD1BYN8SN355",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "bfa49c5ef8088609763b982a12fd0c7275f28f2c7a8d34a8ead832a5ae32a795",
+          "retrieved_utc": "2026-10-25T14:30:44.793002+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833523C0505_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833523C0430",
+      "source_sbir": {
+        "row": 8244,
+        "uei": "D859W8HNHD86",
+        "entity_key": "D859W8HNHD86",
+        "duns": "054205491",
+        "name": "INSPIRD INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-23-C-0430",
+        "record_sha256": "a947b09cb254be4322d4732729e6c02cf0260d1b5d38003cba78a868f1629b44",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "c54ef7f003e4d0f5bbbb17c19d68f8d16d776380be29bb80f6d16e6beea0ad8f",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=14879"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833523C0430_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "D859W8HNHD86"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "INSPIRD INC."
+          ],
+          "source_rows": [
+            377833
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833523C0430_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833523C0430_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833523C0430",
+          "recipient_uei": "D859W8HNHD86",
+          "recipient_name": "INSPIRD INC.",
+          "parent_recipient_uei": "D859W8HNHD86",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "3249c23f6eb9cd3b571d288b14abeb49379f47e0f97de2be2efc2c5125fdcc68",
+          "retrieved_utc": "2026-10-25T14:30:44.858972+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833523C0430_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W15QKN22P0057",
+      "source_sbir": {
+        "row": 10484,
+        "uei": "E7MNGQ56KYB7",
+        "entity_key": "E7MNGQ56KYB7",
+        "duns": "128005423",
+        "name": "OPTIMIZATION TECHNOLOGIES, INC.",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W15QKN-22-P-0057",
+        "record_sha256": "f7f13557bd3928704a3c5fc1c3c12fd510c56c5512af3259f5b1ce91ae5109c2",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "f30d9b6ac54c86dd82366f6f6c0451edd302ad1072929d3423faad54d29ddbdb",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=18225"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W15QKN22P0057_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "E7MNGQ56KYB7"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "OPTIMIZATION TECHNOLOGIES, INC."
+          ],
+          "source_rows": [
+            383425
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W15QKN22P0057_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W15QKN22P0057_9700_-NONE-_-NONE-",
+          "cached_piid": "W15QKN22P0057",
+          "recipient_uei": "E7MNGQ56KYB7",
+          "recipient_name": "OPTIMIZATION TECHNOLOGIES, INC.",
+          "parent_recipient_uei": "E7MNGQ56KYB7",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W6QK ACC-RI-PICATINNY"
+          },
+          "response_sha256": "bf68dcd762b068147c82aa295dc5f08c8670cdaa64a293d2e28cff5d02347b81",
+          "retrieved_utc": "2026-10-25T14:30:42.776512+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W15QKN22P0057_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA865022P2333",
+      "source_sbir": {
+        "row": 11036,
+        "uei": "W1FNNRWR1X47",
+        "entity_key": "W1FNNRWR1X47",
+        "duns": "016028886",
+        "name": "CALHOUN ANALYTICS, LLC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8650-22-P-2333",
+        "record_sha256": "81f657f7e4fc6ae0a3528754169be232c350fd6b8d7c9303f3aeb37f51a6b1fa",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "94016b34da12f040f8b025ed64b50363980a6a34c8ba166f79890b625adaad5e",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=19464"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA865022P2333_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "W1FNNRWR1X47"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "CALHOUN ANALYTICS, LLC"
+          ],
+          "source_rows": [
+            305512
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA865022P2333_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA865022P2333_9700_-NONE-_-NONE-",
+          "cached_piid": "FA865022P2333",
+          "recipient_uei": "W1FNNRWR1X47",
+          "recipient_name": "CALHOUN ANALYTICS, LLC",
+          "parent_recipient_uei": "W1FNNRWR1X47",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8650  USAF AFMC AFRL PZL AFRL/PZL"
+          },
+          "response_sha256": "92a9087c427f63697410f1495ec026f0223cba9457ca341152a95b7fd0ce6398",
+          "retrieved_utc": "2026-10-25T14:30:42.654015+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA865022P2333_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "SP470122P0039",
+      "source_sbir": {
+        "row": 11812,
+        "uei": "J319DALQR234",
+        "entity_key": "J319DALQR234",
+        "duns": "808350573",
+        "name": "GDCA",
+        "agency": "Department of Defense",
+        "branch": "Defense Logistics Agency",
+        "contract": "SP4701-22-P-0039",
+        "record_sha256": "ece71bb182275eb8d86ef24aa1af2a8ab901d61ada590275da781bde6667caab",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "29fecbd0a3acc495c6747193c39647a4c06541f1514504ffe4a8b035c2d3cce8",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=20981"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_SP470122P0039_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "J319DALQR234"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "GDCA, INC."
+          ],
+          "source_rows": [
+            381580,
+            381581,
+            381582
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_SP470122P0039_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_SP470122P0039_9700_-NONE-_-NONE-",
+          "cached_piid": "SP470122P0039",
+          "recipient_uei": "J319DALQR234",
+          "recipient_name": "GDCA, INC.",
+          "parent_recipient_uei": "J319DALQR234",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1219,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Defense Logistics Agency",
+              "code": "97AS",
+              "abbreviation": "DLA"
+            },
+            "office_agency_name": "DCSO PHILADELPHIA"
+          },
+          "response_sha256": "2919af14ef35a2b25b5bbf78c82362664cf906e718a8add3f58ea277795b2205",
+          "retrieved_utc": "2026-10-25T14:30:44.155390+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SP470122P0039_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "SP470122P0038",
+      "source_sbir": {
+        "row": 11822,
+        "uei": "J319DALQR234",
+        "entity_key": "J319DALQR234",
+        "duns": "808350573",
+        "name": "GDCA",
+        "agency": "Department of Defense",
+        "branch": "Defense Logistics Agency",
+        "contract": "SP4701-22-P-0038",
+        "record_sha256": "ea4c5e05231884951ec2e7ae1f6915c187ab9cf1dcdf60d8109712660fb8b093",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "50e720d65e95b8c9db77d13eda9376df9be9f35079caed179157ef36223b3767",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=21004"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_SP470122P0038_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "J319DALQR234"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "GDCA, INC."
+          ],
+          "source_rows": [
+            381577,
+            381578,
+            381579
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_SP470122P0038_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_SP470122P0038_9700_-NONE-_-NONE-",
+          "cached_piid": "SP470122P0038",
+          "recipient_uei": "J319DALQR234",
+          "recipient_name": "GDCA, INC.",
+          "parent_recipient_uei": "J319DALQR234",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1219,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Defense Logistics Agency",
+              "code": "97AS",
+              "abbreviation": "DLA"
+            },
+            "office_agency_name": "DCSO PHILADELPHIA"
+          },
+          "response_sha256": "e52dd72228ba1900fdf04454a0e2a62fc7a5afd958e5cb4d2815b7fa636aad8f",
+          "retrieved_utc": "2026-10-25T14:30:44.165265+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_SP470122P0038_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA864922P1015",
+      "source_sbir": {
+        "row": 12328,
+        "uei": "MKQPJJKHDG89",
+        "entity_key": "MKQPJJKHDG89",
+        "duns": "124668711",
+        "name": "PERCEPTRONICS SOLUTIONS, INC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8649-22-P-1015",
+        "record_sha256": "3ce550cc4666cd5b27a9c1c18e0e6a4eb2480b4579590750c1f7a6f798d21a40",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "41d7670463a67d1810800ffa026527a0605824a91e12ac1e372349ddc4dccaf5",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=21950"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "MKQPJJKHDG89"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "PERCEPTRONICS SOLUTIONS, INC"
+          ],
+          "source_rows": [
+            284263,
+            284264
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-",
+          "cached_piid": "FA864922P1015",
+          "recipient_uei": "MKQPJJKHDG89",
+          "recipient_name": "PERCEPTRONICS SOLUTIONS, INC",
+          "parent_recipient_uei": "MKQPJJKHDG89",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+          },
+          "response_sha256": "ca315e7f598eadf7a0caa92f1dbf64ed44eb62a15c12ab22ef5356fe2c2987ed",
+          "retrieved_utc": "2026-10-25T14:30:42.322863+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA864922P0787",
+      "source_sbir": {
+        "row": 12729,
+        "uei": "K137KN9JEEE5",
+        "entity_key": "K137KN9JEEE5",
+        "duns": "078871005",
+        "name": "NODEIN LLC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8649-22-P-0787",
+        "record_sha256": "38ea64559da60b02aae4c7d9bdaa19bdeb4737fdbd1777cc1a3ae0850dfef069",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "fe5559c9ffd842a393d20a30c8eb122e682d5313ddda564ddd279737e9a0b330",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=22748"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA864922P0787_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "K137KN9JEEE5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "NODEIN LLC"
+          ],
+          "source_rows": [
+            283757,
+            283758,
+            283759
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA864922P0787_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA864922P0787_9700_-NONE-_-NONE-",
+          "cached_piid": "FA864922P0787",
+          "recipient_uei": "K137KN9JEEE5",
+          "recipient_name": "NODEIN LLC",
+          "parent_recipient_uei": "K137KN9JEEE5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+          },
+          "response_sha256": "ae67077515220549a90592f3d9985180f452d1a7651dfab6d9b4db9f1bb733d3",
+          "retrieved_utc": "2026-10-25T14:30:42.798888+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864922P0787_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6893622C0001",
+      "source_sbir": {
+        "row": 13233,
+        "uei": "KMHMG27SJVX7",
+        "entity_key": "KMHMG27SJVX7",
+        "duns": "182097444",
+        "name": "THE NAVSYS CORPORATION",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68936-22-C-0001",
+        "record_sha256": "3ed4da60259687b36cbfad26f430cc738ae50e8ffcf399a711320c0840ca1dd3",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "e57bc20162253ca6a3222a8eeab706fd12953156a8b70e987526704b5af028cb",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=23602"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6893622C0001_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "KMHMG27SJVX7"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "THE NAVSYS CORPORATION"
+          ],
+          "source_rows": [
+            380194,
+            380195,
+            380196
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6893622C0001_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6893622C0001_9700_-NONE-_-NONE-",
+          "cached_piid": "N6893622C0001",
+          "recipient_uei": "KMHMG27SJVX7",
+          "recipient_name": "THE NAVSYS CORPORATION",
+          "parent_recipient_uei": "KMHMG27SJVX7",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAL AIR WARFARE CENTER"
+          },
+          "response_sha256": "7b9e1eb129e28207276b439085d17b1784d7e344fb89b6ced1f6b58941bb7905",
+          "retrieved_utc": "2026-10-25T14:30:44.326301+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6893622C0001_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833521C0849",
+      "source_sbir": {
+        "row": 14137,
+        "uei": "SJHFCDGKJJC5",
+        "entity_key": "SJHFCDGKJJC5",
+        "duns": "627132913",
+        "name": "LUNA INNOVATIONS INCORPORATED",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-21-C-0849",
+        "record_sha256": "9b3b0743747c65840f19083999c26e9f0eacaa887f0c861c3192a6e487f96766",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "abd748fce70bb606949da5e5dd1d8dde905f97a12eae11cd4eb5cad6bbbefb31",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=24797"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833521C0849_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "SJHFCDGKJJC5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "LUNA INNOVATIONS INCORPORATED"
+          ],
+          "source_rows": [
+            374871,
+            374872,
+            374873
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833521C0849_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833521C0849_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833521C0849",
+          "recipient_uei": "SJHFCDGKJJC5",
+          "recipient_name": "LUNA INNOVATIONS INCORPORATED",
+          "parent_recipient_uei": "SJHFCDGKJJC5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "59ff7d9a3b516d36b7c13e8061d427767ef075f5787a9794af47dc37147a9c25",
+          "retrieved_utc": "2026-10-25T14:30:45.022299+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833521C0849_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833521C0321",
+      "source_sbir": {
+        "row": 15152,
+        "uei": "DD1BYN8SN355",
+        "entity_key": "DD1BYN8SN355",
+        "duns": "115243701",
+        "name": "CHARLES RIVER ANALYTICS, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-21-C-0321",
+        "record_sha256": "087b06665ac88e0abf23d617d0670226f42dcc317cec54a616bcf5d5486799ab",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "98484812c5f1ee5f7fb5ed101ab98e78307d88e74e04a314acf163bd54e10f63",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=27148"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833521C0321_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DD1BYN8SN355"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "CHARLES RIVER ANALYTICS, INC."
+          ],
+          "source_rows": [
+            373814,
+            373815,
+            373816,
+            373817
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833521C0321_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833521C0321_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833521C0321",
+          "recipient_uei": "DD1BYN8SN355",
+          "recipient_name": "CHARLES RIVER ANALYTICS, INC.",
+          "parent_recipient_uei": "DD1BYN8SN355",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "30e66cc0ed648075a8b4823a71ebee4b247f5498d7f7075cb2ac24742b806466",
+          "retrieved_utc": "2026-10-25T14:30:45.004106+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833521C0321_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833521C0549",
+      "source_sbir": {
+        "row": 15218,
+        "uei": "CL4BHHYGE729",
+        "entity_key": "CL4BHHYGE729",
+        "duns": "080579201",
+        "name": "WEATHER GAGE TECHNOLOGIES LLC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-21-C-0549",
+        "record_sha256": "74e32572c351c3e495fc24718e687303767ea87d8bebd29c830c2f2723b34dca",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "04b6a576015eee2931a52c37771bec9866e9504adf73a60de8294f461f9d4203",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=27281"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833521C0549_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "CL4BHHYGE729"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "WEATHER GAGE TECHNOLOGIES LLC"
+          ],
+          "source_rows": [
+            374358,
+            374359,
+            374360,
+            374361
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833521C0549_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833521C0549_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833521C0549",
+          "recipient_uei": "CL4BHHYGE729",
+          "recipient_name": "WEATHER GAGE TECHNOLOGIES LLC",
+          "parent_recipient_uei": "TBRRFF411WK7",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "de903ab60662042472afcc2537f866ea4227d5c673058eb0e3aab50956cd3e04",
+          "retrieved_utc": "2026-10-25T14:30:42.372123+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833521C0549_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833521C0510",
+      "source_sbir": {
+        "row": 15329,
+        "uei": "L9Q4Y83HTUM3",
+        "entity_key": "L9Q4Y83HTUM3",
+        "duns": "009485124",
+        "name": "SOAR TECHNOLOGY, LLC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-21-C-0510",
+        "record_sha256": "dde902a67f094a37092b283fbd8e7bad2dd77e2a4e0823c0a594332cf46681a9",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "9c2889724d33480bd2a2a62ff36cd840a2910e4e47882b0b928d9cf8531e347d",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=27483"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833521C0510_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "L9Q4Y83HTUM3"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "ACCELINT AI, LLC"
+          ],
+          "source_rows": [
+            374297,
+            374298,
+            374299,
+            374300,
+            374301,
+            374302
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833521C0510_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833521C0510_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833521C0510",
+          "recipient_uei": "L9Q4Y83HTUM3",
+          "recipient_name": "ACCELINT AI, LLC",
+          "parent_recipient_uei": "L9Q4Y83HTUM3",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "39749683a02e805bcfe99d93493bd006c7ca157a6990449bf1444f2a3285e017",
+          "retrieved_utc": "2026-10-25T14:30:42.413116+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833521C0510_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA864921P1296",
+      "source_sbir": {
+        "row": 15799,
+        "uei": "MKQPJJKHDG89",
+        "entity_key": "MKQPJJKHDG89",
+        "duns": "124668711",
+        "name": "PERCEPTRONICS SOLUTIONS, INC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8649-21-P-1296",
+        "record_sha256": "d0f591b1bde3caeafde560e37db497fe2df49e52a67f8333a1e35ebaea3b2773",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "c3239ac6e6097f9b62d005c47f6af047863c47b85dea07b4e08586de52a221ce",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=28627"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA864921P1296_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "MKQPJJKHDG89"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "PERCEPTRONICS SOLUTIONS, INC"
+          ],
+          "source_rows": [
+            282160
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA864921P1296_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA864921P1296_9700_-NONE-_-NONE-",
+          "cached_piid": "FA864921P1296",
+          "recipient_uei": "MKQPJJKHDG89",
+          "recipient_name": "PERCEPTRONICS SOLUTIONS, INC",
+          "parent_recipient_uei": "MKQPJJKHDG89",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+          },
+          "response_sha256": "89632b1b87b8e8646c2c40ce73f0e88fe619a0c99ba6ba52489a448ccd1518fc",
+          "retrieved_utc": "2026-10-25T14:30:42.802332+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864921P1296_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA864921P0108",
+      "source_sbir": {
+        "row": 16998,
+        "uei": "K137KN9JEEE5",
+        "entity_key": "K137KN9JEEE5",
+        "duns": "078871005",
+        "name": "NODEIN LLC",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA8649-21-P-0108",
+        "record_sha256": "c429be76af5508a88f4031c4ac9471e7d5902573063fdd79c5faf221f1fcae39",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "878d0fa2d1594e31b5c446701ff4540f9d45fa01660341bc9c41b5352ba5c37f",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=30338"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA864921P0108_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "K137KN9JEEE5"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "NODEIN LLC"
+          ],
+          "source_rows": [
+            293490
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA864921P0108_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA864921P0108_9700_-NONE-_-NONE-",
+          "cached_piid": "FA864921P0108",
+          "recipient_uei": "K137KN9JEEE5",
+          "recipient_name": "NODEIN LLC",
+          "parent_recipient_uei": "K137KN9JEEE5",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA8649 USAF SBIR STTR CNTRCTNG AFRL"
+          },
+          "response_sha256": "48aafe0d230852bc47a5bb804048e79f0e2ecf3b47af18d2e000d907dfa60749",
+          "retrieved_utc": "2026-10-25T14:30:42.925600+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864921P0108_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833520C0794",
+      "source_sbir": {
+        "row": 18341,
+        "uei": "QC48DJN27WZ3",
+        "entity_key": "QC48DJN27WZ3",
+        "duns": "828934914",
+        "name": "OBJECTSECURITY LLC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-20-C-0794",
+        "record_sha256": "517841bacb35aa23b460405d58c99daaa4ec10597539598f27e0490436aca0d9",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "6957e3a0c9a01eb6857ac7125e42ad33d6888558a9a4d9e50b0cf22dd84564f0",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=33291"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833520C0794_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "QC48DJN27WZ3"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "OBJECTSECURITY LLC"
+          ],
+          "source_rows": [
+            372218
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833520C0794_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833520C0794_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833520C0794",
+          "recipient_uei": "QC48DJN27WZ3",
+          "recipient_name": "OBJECTSECURITY LLC",
+          "parent_recipient_uei": "QC48DJN27WZ3",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "ecfbb0816ef7c0729906520cd2ab6b8cc9be13cf48ce24b2b0a6be408e60b369",
+          "retrieved_utc": "2026-10-25T14:30:45.031161+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833520C0794_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833520C0330",
+      "source_sbir": {
+        "row": 19818,
+        "uei": "MUJGFTMRJZJ8",
+        "entity_key": "MUJGFTMRJZJ8",
+        "duns": "078391304",
+        "name": "NEAR EARTH AUTONOMY, INC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-20-C-0330",
+        "record_sha256": "da65ae1d9d00ac2d8291ca42231ab5ca2ca18fcbb3f3513c60593350022216f8",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "79b13047b9f1d330b3e5bffabe82bfcc90d1b484ddececbfc62c474a8a3704e8",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=35941"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833520C0330_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "MUJGFTMRJZJ8"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "NEAR EARTH AUTONOMY, INC"
+          ],
+          "source_rows": [
+            371385,
+            371386,
+            371387,
+            371388
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833520C0330_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833520C0330_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833520C0330",
+          "recipient_uei": "MUJGFTMRJZJ8",
+          "recipient_name": "NEAR EARTH AUTONOMY, INC",
+          "parent_recipient_uei": "MUJGFTMRJZJ8",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "0b2f5c80c574346b11be979b33dce9193e44901f60d986b8e04281a19acb31e7",
+          "retrieved_utc": "2026-10-25T14:30:45.160714+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833520C0330_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "W31P4Q20C0021",
+      "source_sbir": {
+        "row": 20638,
+        "uei": "YUNJQSCD2Z99",
+        "entity_key": "YUNJQSCD2Z99",
+        "duns": "131640919",
+        "name": "SI2 TECHNOLOGIES, INC",
+        "agency": "Department of Defense",
+        "branch": "Army",
+        "contract": "W31P4Q-20-C-0021",
+        "record_sha256": "c8f140ca23e27d8ca16c38d6e60814192d15c04023a2e0c95f614d02fe46ab88",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "1a182ef7907fca7a7f75626bba9d8e7af02bd0f380139b12f31b951c0d877d00",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=36943"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_W31P4Q20C0021_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "YUNJQSCD2Z99"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "SI2 TECHNOLOGIES, INC"
+          ],
+          "source_rows": [
+            384391
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_W31P4Q20C0021_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_W31P4Q20C0021_9700_-NONE-_-NONE-",
+          "cached_piid": "W31P4Q20C0021",
+          "recipient_uei": "YUNJQSCD2Z99",
+          "recipient_name": "SI2 TECHNOLOGIES, INC",
+          "parent_recipient_uei": "YUNJQSCD2Z99",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1188,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Army",
+              "code": "2100",
+              "abbreviation": "USA"
+            },
+            "office_agency_name": "W6QK ACC-RSA"
+          },
+          "response_sha256": "9aadde2a53a8b116816747a0d4cbc126d63b5583cea6b87dde508289b03a6084",
+          "retrieved_utc": "2026-10-25T14:30:43.901967+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W31P4Q20C0021_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833520F0171",
+      "source_sbir": {
+        "row": 21530,
+        "uei": "L1WZRB6JKWJ4",
+        "entity_key": "L1WZRB6JKWJ4",
+        "duns": "610401655",
+        "name": "PacMar Technologies LLC",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-20-F-0171",
+        "record_sha256": "5caf8da4592d3b8689f6c221ecbc8c3f5746cf0c39ef58b12421c1444699b01c",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "f9284b4ee91ecae60cd5d4e9049a7755a9ce914ba31c2b0110733bbe77026114",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=38045"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833520F0171_9700_N6833520G1040_9700": {
+          "uei_shaped_entity_keys": [
+            "L1WZRB6JKWJ4"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "PACMAR TECHNOLOGIES LLC"
+          ],
+          "source_rows": [
+            518413
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833520F0171_9700_N6833520G1040_9700",
+          "cached_award_key": "CONT_AWD_N6833520F0171_9700_N6833520G1040_9700",
+          "cached_piid": "N6833520F0171",
+          "recipient_uei": "L1WZRB6JKWJ4",
+          "recipient_name": "PACMAR TECHNOLOGIES LLC",
+          "parent_recipient_uei": "ZSBKEWY8GN41",
+          "parent_award": {
+            "agency_id": 1173,
+            "agency_name": "Department of Defense",
+            "agency_slug": "department-of-defense",
+            "sub_agency_id": "9700",
+            "sub_agency_name": "Department of Defense",
+            "award_id": 351421901,
+            "generated_unique_award_id": "CONT_IDV_N6833520G1040_9700",
+            "idv_type_description": "BOA",
+            "multiple_or_single_aw_desc": "SINGLE AWARD",
+            "piid": "N6833520G1040",
+            "type_of_idc_description": null
+          },
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "0ae0633e436c898b958e092e98a0916ba2a95a65ebb12aa2f119b96afed27f46",
+          "retrieved_utc": "2026-10-25T14:30:45.026806+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833520F0171_9700_N6833520G1040_9700/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "N6833519C0585",
+      "source_sbir": {
+        "row": 22143,
+        "uei": "U35VSLMQRME6",
+        "entity_key": "U35VSLMQRME6",
+        "duns": "965758541",
+        "name": "FUSE INTEGRATION, INC.",
+        "agency": "Department of Defense",
+        "branch": "Navy",
+        "contract": "N68335-19-C-0585",
+        "record_sha256": "7245117490e46d9bf11d079babd54a55a642fd865630ea73cdf2c1223ee8963e",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "834f13386a288ed7898a6dc3a08b61571ae7c24a9f34872835f4d76c8934b408",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=39195"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_N6833519C0585_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "U35VSLMQRME6"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "FUSE INTEGRATION, INC."
+          ],
+          "source_rows": [
+            369905,
+            369906,
+            369907,
+            369908,
+            369909,
+            369910,
+            369911,
+            562765
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_N6833519C0585_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_N6833519C0585_9700_-NONE-_-NONE-",
+          "cached_piid": "N6833519C0585",
+          "recipient_uei": "U35VSLMQRME6",
+          "recipient_name": "FUSE INTEGRATION, INC.",
+          "parent_recipient_uei": "U35VSLMQRME6",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1174,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Navy",
+              "code": "1700",
+              "abbreviation": "USN"
+            },
+            "office_agency_name": "NAVAIR WARFARE CTR AIRCRAFT DIV"
+          },
+          "response_sha256": "472f3b9750d12a2d5df5f000d244548795baab943344a45cc523f784d6a2dba5",
+          "retrieved_utc": "2026-10-25T14:30:45.201776+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6833519C0585_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    },
+    {
+      "piid": "FA930219P1008",
+      "source_sbir": {
+        "row": 24147,
+        "uei": "DD1BYN8SN355",
+        "entity_key": "DD1BYN8SN355",
+        "duns": "115243701",
+        "name": "CHARLES RIVER ANALYTICS, INC.",
+        "agency": "Department of Defense",
+        "branch": "Air Force",
+        "contract": "FA9302-19-P-1008",
+        "record_sha256": "f21d5b872ed6f92ae99c678e768e2a1113878fb49ef071203968d15177194560",
+        "snapshot_sha256": "05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe",
+        "normalized_line_sha256_without_terminator": "6a81af98032deafdb51b77c3d4a516ebd8cff7bb0658f315720890a8782e0f9e",
+        "raw_locator": "award_data.csv:award_data.csv:data_row=43116"
+      },
+      "archive_financial_awards": {
+        "CONT_AWD_FA930219P1008_9700_-NONE-_-NONE-": {
+          "uei_shaped_entity_keys": [
+            "DD1BYN8SN355"
+          ],
+          "nine_digit_duns_entity_keys": [],
+          "other_entity_keys": [],
+          "legal_names": [
+            "CHARLES RIVER ANALYTICS, INC."
+          ],
+          "source_rows": [
+            553180
+          ]
+        }
+      },
+      "cached_live": [
+        {
+          "status": "cache_hash_verified",
+          "record_award_key": "CONT_AWD_FA930219P1008_9700_-NONE-_-NONE-",
+          "cached_award_key": "CONT_AWD_FA930219P1008_9700_-NONE-_-NONE-",
+          "cached_piid": "FA930219P1008",
+          "recipient_uei": "DD1BYN8SN355",
+          "recipient_name": "CHARLES RIVER ANALYTICS, INC.",
+          "parent_recipient_uei": "DD1BYN8SN355",
+          "parent_award": null,
+          "awarding_agency": {
+            "id": 1196,
+            "has_agency_page": true,
+            "toptier_agency": {
+              "name": "Department of Defense",
+              "code": "097",
+              "abbreviation": "DOD",
+              "slug": "department-of-defense"
+            },
+            "subtier_agency": {
+              "name": "Department of the Air Force",
+              "code": "5700",
+              "abbreviation": "USAF"
+            },
+            "office_agency_name": "FA9302  AFTC PZZ"
+          },
+          "response_sha256": "022e21ef5673a10e3fccc0d9b2aabd4f96b2fead854c20b1d0f18f55a8644114",
+          "retrieved_utc": "2026-10-25T14:30:46.570314+00:00",
+          "source_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA930219P1008_9700_-NONE-_-NONE-/"
+        }
+      ],
+      "archive_identity_status": "source_explicit_uei_matches_archive_financial_recipient_set",
+      "cached_live_identity_status": "source_explicit_uei_matches_cached_live_recipient_uei",
+      "scope_association_limit": "content linkage supported by explicit UEI; not independent verification of full SOW/deployment"
+    }
+  ]
+}

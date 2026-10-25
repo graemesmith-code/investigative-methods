@@ -1,5 +1,5 @@
 {
-  "validated_utc": "2026-10-25T19:06:44.596004+00:00",
+  "validated_utc": "2026-10-25T19:46:00.678917+00:00",
   "scope": "Local data, arithmetic, links and literal secret scan; no network or paid calls",
   "checks": {
     "required_files": {
@@ -112,6 +112,11 @@
           "top_level_type": "dict"
         },
         {
+          "path": "audit/sbir-entity-linkage-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "audit/screen-accounting.json",
           "kind": "JSON",
           "top_level_type": "dict"
@@ -192,6 +197,17 @@
           "top_level_type": "list"
         },
         {
+          "path": "audit/technical-58-identity-linkage-audit.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 58,
+          "columns": 25
+        },
+        {
+          "path": "audit/technical-58-identity-linkage-audit.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "evidence/acquisition-history-missing-actions.csv",
           "kind": "CSV_or_TSV",
           "rows": 65,
@@ -235,7 +251,7 @@
           "path": "evidence/combined-live-inventory.csv",
           "kind": "CSV_or_TSV",
           "rows": 111,
-          "columns": 45
+          "columns": 49
         },
         {
           "path": "evidence/fpds-verified-actions.csv",
@@ -928,13 +944,13 @@
           "path": "evidence/live-candidate-disposition.csv",
           "kind": "CSV_or_TSV",
           "rows": 107,
-          "columns": 37
+          "columns": 41
         },
         {
           "path": "evidence/live-technical-scope-review.csv",
           "kind": "CSV_or_TSV",
           "rows": 58,
-          "columns": 21
+          "columns": 27
         },
         {
           "path": "evidence/ota-keyword-followup-actions.csv",
@@ -973,9 +989,20 @@
           "path": "evidence/reviewed-cases.json",
           "kind": "JSON",
           "top_level_type": "list"
+        },
+        {
+          "path": "evidence/sbir-entity-linkage-conflicts.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 281,
+          "columns": 24
+        },
+        {
+          "path": "evidence/sbir-entity-linkage-conflicts.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
         }
       ],
-      "files_parsed": 187,
+      "files_parsed": 192,
       "CSV_field_limit": 9223372036854775807,
       "row_unit": "parsed records, not physical text lines"
     },
@@ -994,6 +1021,16 @@
       "strict_normative_and_adjacent_views_recomputed": true,
       "financial_meaning": "Whole associated awards; allocable safeguard-feature spending remains unknown"
     },
+    "SBIR_entity_linkage_guards": {
+      "status": "passed",
+      "all_SBIR_source_appearances": 44584,
+      "quarantined_source_appearances": 281,
+      "technical_associations_supported_by_source_archive_live_prime_UEI": 57,
+      "selected_case_entity_conflict_intersection": 0,
+      "financial_scope_exclusion_for_SP470124P0068": "own primary description, external SBIR identity unresolved",
+      "source_record_and_normalized_line_hash_domains_separate": true,
+      "financial_amounts_not_mutated": true
+    },
     "serialized_budget_ledger_arithmetic": {
       "status": "passed",
       "ledger_requests": 236,
@@ -1005,7 +1042,7 @@
     },
     "relative_Markdown_links": {
       "status": "passed",
-      "relative_links_checked": 61,
+      "relative_links_checked": 75,
       "pending_generated_container_links": [
         {
           "source": "README.md",
@@ -1016,7 +1053,7 @@
     },
     "public_file_sizes": {
       "status": "passed",
-      "public_files_checked": 275,
+      "public_files_checked": 283,
       "limit_bytes_strictly_less_than": 104857600,
       "excluded_local_Library_plain_text_delivery": "F4-COMPLETE-RESEARCH-PACKAGE.txt",
       "gzip_transport_is_checked": true
@@ -1024,7 +1061,7 @@
     "environment_secret_literal_scan": {
       "status": "passed",
       "credential_like_environment_literal_count": 4,
-      "file_or_expanded_streams_scanned": 274,
+      "file_or_expanded_streams_scanned": 282,
       "matches": 0,
       "no_secret_values_logged": true,
       "limit": "Exact configured literals only; not a proof against every unknown secret"

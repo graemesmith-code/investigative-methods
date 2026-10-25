@@ -4,6 +4,8 @@
 
 The source is the investigator-provided `f4-live-technical-matches.json`, SHA-256 `b32a46afacd985161328794350f398450a7f318351662213e0bd17cf16e3a9b1`. All entries point to `sbir_current.jsonl.gz`, snapshot SHA-256 `05af2f39171d08aa7ab4a071549e663e159f41d2092f7bda8428cd68b22b3cfe`. The CSV preserves each provided physical-row locator, row hash and URL. Those supplied row hashes are retained as provenance, not claimed as recomputed against original archive bytes by this reviewer. The public source URL in this input is the general SBIR awards page; no unverified specific deep links were fabricated.
 
+**Final entity QA:** [The 58-row identity audit](../audit/technical-58-identity-linkage-audit.md) confirms 57 source UEIs against complete archived financial recipient sets and cached live prime-recipient UEIs. SP470124P0068 has an explicit UEI conflict; its technical disposition applies only to the SBIR lead and must not classify the financial award. The CSV retains that conflict separately.
+
 ## Results and counting boundaries
 
 | Primary disposition | Records | Interpretation |
@@ -57,3 +59,7 @@ Direct retrieval receipts, 25 October 2026:
 | SBIR 209584 | 200 | 36251 | 80c7cb73f249644260fc16e6a5f5f28817507438dc415cbe04f4c991775f321a |
 | SBIR 218265 | 200 | 35688 | 8ea69f6929a9952edcd162ef16dd67393b0828fd262db5bbf3bda42bac3a6e92 |
 | UCSC projects page | 503 | — | Failed; no source-body hash claimed |
+
+## Entity-attribution update
+
+The58 rows review SBIR source content. A separate full-history recipient check supports57 associations by source/archive/cached-live prime UEI; SP470124P0068 has a conflicting source UEI and is retained as an unlinked SBIR lead. Its financial award is excluded from selected safeguards cases on its own primary material-obsolescence description, not by importing the conflicting SBIR abstract. Source-content hashes alone do not establish recipient identity. See [the identity audit](../audit/technical-58-identity-linkage-audit.md) and [281 quarantined source appearances](sbir-entity-linkage-conflicts.csv). Technical source-category counts remain descriptions of those source abstracts, not58 independently confirmed financial scope transfers.

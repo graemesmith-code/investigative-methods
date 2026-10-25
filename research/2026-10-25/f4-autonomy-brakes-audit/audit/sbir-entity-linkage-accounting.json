@@ -1,0 +1,41 @@
+{
+  "source_files": [
+    {
+      "file": "sbir.jsonl.gz",
+      "bytes": 13023245,
+      "sha256": "4dd9d3eb9bc560ce544e7ed3107c73511c00104902681cee749257e94b33dbd4",
+      "physical_rows": 18814,
+      "status_counts": {
+        "explicit_source_UEI_missing_or_invalid_DUNS_not_substituted": 18814
+      }
+    },
+    {
+      "file": "sbir_current.jsonl.gz",
+      "bytes": 19597598,
+      "sha256": "523734ebbb86f656ed64c96bc821baf370a9cb2294ac114f46f46ba0ea798940",
+      "physical_rows": 25770,
+      "status_counts": {
+        "source_UEI_matches_financial_recipient_history_not_SOW_validation": 22380,
+        "no_comparison_financial_PIID_not_zero_funding": 2985,
+        "explicit_UEI_conflict_quarantined": 281,
+        "explicit_source_UEI_missing_or_invalid_DUNS_not_substituted": 124
+      }
+    }
+  ],
+  "financial_physical_rows": 712186,
+  "financial_file_sha256": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5",
+  "conflicting_source_appearances": 281,
+  "conflicting_PIID_comparison_identifiers_not_award_count": 280,
+  "technical58_intersection": [
+    "SP470124P0068"
+  ],
+  "combined111_intersection": [
+    "SP470124P0068"
+  ],
+  "selected31_intersection": [],
+  "all_source_rows_accounted": true,
+  "financial_mutations": 0,
+  "UEI_validation": "Require the source field itself to be12 uppercase alphanumeric characters after whitespace trimming; do not uppercase mixed-case/nonstandard identifiers into UEIs. This is format gating, not registry validation. DUNS remains a separate namespace.",
+  "inference_limit": "UEI conflict is a quarantined attribution question, not proof of wrongdoing or zero funding. Legacy DUNS is not compared as UEI. Source hash domains remain distinct.",
+  "code": "code/audit_sbir_entity_links.py"
+}

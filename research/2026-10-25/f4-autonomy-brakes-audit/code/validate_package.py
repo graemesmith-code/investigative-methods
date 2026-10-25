@@ -164,6 +164,26 @@ def validate():
                 'strict_normative_and_adjacent_views_recomputed': True,
                 'financial_meaning': 'Whole associated awards; allocable safeguard-feature spending remains unknown'}
     check('selected_case_arithmetic', arithmetic)
+    def entity_linkage():
+        audit=json.loads((P/'audit/sbir-entity-linkage-accounting.json').read_text())
+        conflicts=json.loads((P/'evidence/sbir-entity-linkage-conflicts.json').read_text())['source_appearances']
+        assert len(conflicts)==audit['conflicting_source_appearances']
+        assert audit['all_source_rows_accounted'] and audit['financial_mutations']==0
+        assert sum(x['physical_rows'] for x in audit['source_files'])==44584
+        selected=json.loads((P/'evidence/reviewed-cases.json').read_text())
+        assert not ({r['piid'] for r in selected}&{r['piid_normalized_for_comparison_only'] for r in conflicts})
+        focused=json.loads((P/'audit/technical-58-identity-linkage-audit.json').read_text())
+        assert len(focused['rows'])==58
+        supported=[r for r in focused['rows'] if r['archive_identity_status'].startswith('source_explicit_uei_matches') and r['cached_live_identity_status'].startswith('source_explicit_uei_matches')]
+        assert len(supported)==57
+        rows=list(csv.DictReader((P/'evidence/combined-live-inventory.csv').open()))
+        sp=next(r for r in rows if r['piid']=='SP470124P0068')
+        assert 'primary_award_description' in sp['classification'] and 'entity_link_unresolved' in sp['classification']
+        assert 'obsolescen' in sp['primary_award_description'].lower()
+        assert 'quarantined' in sp['financial_scope_basis'].lower()
+        assert not sp['described_technical_mechanism']
+        return {'all_SBIR_source_appearances':44584,'quarantined_source_appearances':len(conflicts),'technical_associations_supported_by_source_archive_live_prime_UEI':len(supported),'selected_case_entity_conflict_intersection':0,'financial_scope_exclusion_for_SP470124P0068':'own primary description, external SBIR identity unresolved','source_record_and_normalized_line_hash_domains_separate':True,'financial_amounts_not_mutated':True}
+    check('SBIR_entity_linkage_guards', entity_linkage)
     def budget():
         with (P/'audit/exa-query-cost-log.csv').open(encoding='utf-8', newline='') as inp:
             rows = list(csv.DictReader(inp))

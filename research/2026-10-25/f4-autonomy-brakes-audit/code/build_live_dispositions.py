@@ -18,6 +18,11 @@ if __name__=='__main__':
    key=r['award_key'];piid=r['piid'];scope=titles.get(piid) or r.get('description','');review=selected.get(key);text=(scope+' '+r.get('description','')).lower();sr=scopes.get(piid,{})
    if not key:category='unresolved';disposition='Exact award detail unresolved; not absence evidence';depth='resolution attempts only'
    elif review:category=('A-adjacent' if review.get('scope_tier')=='normative_autonomy_adjacent_weapons_application_unverified' else review['primary_category'])+';'+review['secondary_categories'];disposition=review['limitation'];depth='human-reviewed case; technical access limits stated in report/evidence notes'
+   elif piid=='SP470124P0068':
+    scope=r.get('description','');supported='obsolescen' in scope.lower()
+    category='excluded_on_primary_award_description;SBIR_entity_link_unresolved' if supported else 'technical_scope_unresolved_due_to_entity_conflict'
+    disposition=('The financial award own primary description identifies material-obsolescence forecasting; exclusion from selected safeguard totals rests on that description independently, not the SBIR abstract. ' if supported else 'Own primary description is insufficient to decide technical scope. ')+ 'SBIR row3480 is a separate lead: UEI VFBVNNPZLKL5 conflicts with archive/live prime UEI DVB6AGJG7WZ7. No technical content or money is transferred across this unresolved entity link; similar names and PIID do not prove lineage.'
+    depth='Primary financial description inspected independently; SBIR source-content hash is valid but its recipient association is quarantined'
    elif sr.get('primary_category')=='C':category='C-described;'+sr.get('secondary_categories','');disposition=sr['disposition']+'; '+sr['limits'];depth='Complete archived SBIR technical abstract adjudicated; proposed mechanism is not achieved validation/deployment'
    elif sr.get('primary_category')=='Excluded':category='excluded_after_technical_abstract_review';disposition=sr['disposition']+'; '+sr['limits'];depth='Complete archived SBIR abstract inspected; outside defined safeguards scope'
    elif piid in false:category='false_positive_or_broad_support';disposition='Described material/electronics/general-support scope does not establish autonomy safeguards; excluded from safeguards totals';depth='primary award description plus inherited SBIR title, where present'
@@ -29,13 +34,17 @@ if __name__=='__main__':
    tier=review.get('scope_tier','unadjudicated_or_excluded') if review else 'unadjudicated_or_excluded'
    if not review and sr.get('primary_category')=='C':tier='adjudicated_core_C' if sr.get('disposition','').startswith('Core technical assurance') else 'adjudicated_adjacent_C'
    if not review and sr.get('primary_category')=='Excluded':tier='adjudicated_out_of_scope'
+   if piid=='SP470124P0068':tier='excluded_on_own_primary_scope_with_unresolved_external_entity_link' if 'obsolescen' in r.get('description','').lower() else 'unresolved_entity_attribution'
    urls=review.get('technical_source_urls','') if review else ''
    if not urls and sr:urls=sr.get('source_url','')
    if piid=='FA87502321015':urls='https://www.ri.cmu.edu/app/uploads/2025/06/Symant.pdf'
    if piid=='FA95501910169':urls='https://hybrid.soe.ucsc.edu/projects'
+   if piid=='SP470124P0068':urls=r.get('source_url','')
    records.append({'piid':piid,'award_key':key,'recipient':r.get('recipient'),'technical_title_or_description':scope,'primary_award_description':r.get('description'),'classification':category,'scope_tier':tier,'disposition':disposition,'technical_review_depth':depth,'technical_source_urls':urls,'scope_discrepancy':review.get('scope_discrepancy','') if review else '','in_selected_case_register':bool(review),'in_selected_case_money_sum':bool(review and review['counted_in_named_case_total']),'net_obligations_usd':r.get('total_obligation_usd'),'source_url':r.get('source_url'),'financial_verification':'FPDS/API exact reconciliation' if r.get('fpds_applicable') else ('USAspending assistance actions exact reconciliation' if r.get('usaspending_transaction_reconciliation',{}).get('reconciled') else 'parent or unresolved; not an action reconciliation')})
    records[-1].update(temporal(r,actions) if key else {k:'' for k in temporal({'piid':piid,'award_key':''},actions)})
    records[-1].update(technical_source_file=sr.get('source_file',''),technical_source_row=sr.get('source_row',''),technical_source_row_sha256=sr.get('source_row_sha256',''),described_technical_mechanism=sr.get('specific_tested_or_proposed_mechanism',''),normative_or_roe_content_in_reviewed_abstract=sr.get('normative_or_roe_content','not reviewed'),technical_scope_limit=sr.get('limits','No complete technical abstract adjudicated in this crosswalk'))
+   records[-1].update(SBIR_identity_linkage_status=sr.get('identity_linkage_status','not_applicable_or_not_checked_in_58_source_audit'),SBIR_identity_audit=sr.get('identity_linkage_audit',''),financial_scope_basis='Own primary financial award description; external SBIR lead quarantined' if piid=='SP470124P0068' else depth,quarantined_SBIR_source_url=sr.get('source_url','') if piid=='SP470124P0068' else '')
+   if piid=='SP470124P0068':records[-1].update(described_technical_mechanism='',normative_or_roe_content_in_reviewed_abstract='Separate unlinked SBIR lead; not attributed to financial instrument',technical_scope_limit='Source UEI conflict unresolved; primary financial obsolescence description independently supports exclusion. See audit/technical-58-identity-linkage-audit.csv and evidence/sbir-entity-linkage-conflicts.csv.')
  with (P/'evidence/live-candidate-disposition.csv').open('w',newline='') as f:
   w=csv.DictWriter(f,fieldnames=list(records[0]));w.writeheader();w.writerows(records)
  counts={}

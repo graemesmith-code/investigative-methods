@@ -77,11 +77,24 @@ for i,(piid,r) in enumerate(zip(expected_piids,review),1):
  assert d['piid']==piid
  rows.append(dict(zip(fields,[i,piid,d['title'],primary,secondary,flag,scope,disp,mechanism,limit,'f4-live-technical-matches.json',srcsha,d['source_file'],d['source_row'],d['row_sha256'],d['input_snapshot_sha256'],d['source_url'],'Complete supplied archive SBIR abstract; not full SOW, independent test report, deployment evidence or current financial status'])))
 primary_sbir_urls={'FA864924P0465':'208942','FA239124CB020':'209955','W5170124C0035':'209584','W5170125C0052':'215327','N6833525C0110':'218158','N0002425CS104':'218265','FA865124CB024':'208992','FA864925P0010':'216104'}
-fields += ['archive_source_url','primary_technical_source_url']
+fields += ['archive_source_url','technical_primary_url','technical_url_basis','identity_linkage_status','identity_linkage_audit','source_explicit_UEI','financial_recipient_UEIs','normalized_source_line_sha256_without_terminator','source_row_hash_domain']
+identity_file=out.parent/'audit/technical-58-identity-linkage-audit.csv'
+identity={r['piid']:r for r in csv.DictReader(identity_file.open())} if identity_file.exists() else {}
 for row in rows:
  row['archive_source_url']=row['source_url']
- row['primary_technical_source_url']='https://www.sbir.gov/awards/'+primary_sbir_urls[row['piid']] if row['piid'] in primary_sbir_urls else ''
- if row['primary_technical_source_url']:row['source_url']=row['primary_technical_source_url']
+ row['technical_primary_url']='https://www.sbir.gov/awards/'+primary_sbir_urls[row['piid']] if row['piid'] in primary_sbir_urls else ''
+ row['technical_url_basis']='Specific primary SBIR award endpoint; exact access depth/receipts documented in live-technical-scope-review.md' if row['technical_primary_url'] else ''
+ if row['technical_primary_url']:row['source_url']=row['technical_primary_url']
+ ident=identity.get(row['piid'],{})
+ conflict='conflict' in ident.get('archive_identity_status','') or 'conflict' in ident.get('cached_live_identity_status','')
+ matched=ident.get('archive_identity_status','').startswith('source_explicit_uei_matches') and ident.get('cached_live_identity_status','').startswith('source_explicit_uei_matches')
+ row['identity_linkage_status']='explicit_UEI_conflict_separate_SBIR_lead_no_financial_scope_transfer' if conflict else ('explicit_source_UEI_matches_archive_and_cached_live_prime_recipient' if matched else 'entity_link_not_established_content_hash_insufficient')
+ row['identity_linkage_audit']='../audit/technical-58-identity-linkage-audit.csv' if ident else ''
+ row['source_explicit_UEI']=ident.get('sbir_explicit_uei','')
+ row['financial_recipient_UEIs']=ident.get('financial_all_recipient_ueis','')
+ row['normalized_source_line_sha256_without_terminator']=ident.get('normalized_source_line_sha256_without_terminator','')
+ row['source_row_hash_domain']='source_row_sha256 is the stored original source-record hash, not the normalized JSONL-line hash; the two domains are retained separately'
+ if conflict:row['limits']+=' Identity attribution unresolved: source UEI differs from all archive/live prime recipient UEIs. Scope judgment applies only to this SBIR lead. The financial instrument own primary description independently identifies material-obsolescence research; no recipient lineage is assumed.'
 with (out/'live-technical-scope-review.csv').open('w',encoding='utf-8',newline='') as f:
  w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
 counts=collections.Counter(r['primary_category'] for r in rows)
