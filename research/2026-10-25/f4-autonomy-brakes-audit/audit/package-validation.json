@@ -1,5 +1,5 @@
 {
-  "validated_utc": "2026-10-25T19:46:00.678917+00:00",
+  "validated_utc": "2026-10-25T20:49:29.899695+00:00",
   "scope": "Local data, arithmetic, links and literal secret scan; no network or paid calls",
   "checks": {
     "required_files": {
@@ -7,6 +7,7 @@
       "required_present": 26,
       "delivery_and_hash_containers_deferred_to_root_build": [
         "F4-COMPLETE-RESEARCH-PACKAGE.txt",
+        "F4-COMPLETE-RESEARCH-PACKAGE.txt.delivery.json",
         "F4-COMPLETE-RESEARCH-PACKAGE.txt.gz",
         "SHA256SUMS",
         "manifest.json"
@@ -57,6 +58,16 @@
           "columns": 14
         },
         {
+          "path": "audit/final-ordinary-actions-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/final-priority-live-retrievals.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "audit/independent-stage1-retained-metadata.json",
           "kind": "JSON",
           "top_level_type": "dict"
@@ -92,7 +103,23 @@
           "top_level_type": "dict"
         },
         {
+          "path": "audit/publication-baseline.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "audit/r3-04-corrections.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/recovered-301-ab-scan-receipt.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 301,
+          "columns": 11
+        },
+        {
+          "path": "audit/recovery-content-safety-scan.json",
           "kind": "JSON",
           "top_level_type": "dict"
         },
@@ -208,6 +235,11 @@
           "top_level_type": "dict"
         },
         {
+          "path": "code/text-delivery/assembly-helper-manifest.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "evidence/acquisition-history-missing-actions.csv",
           "kind": "CSV_or_TSV",
           "rows": 65,
@@ -248,15 +280,32 @@
           "columns": 26
         },
         {
+          "path": "evidence/combined-key-membership.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 27276,
+          "columns": 11
+        },
+        {
           "path": "evidence/combined-live-inventory.csv",
           "kind": "CSV_or_TSV",
           "rows": 111,
           "columns": 49
         },
         {
+          "path": "evidence/final-priority-live-followup.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 6,
+          "columns": 17
+        },
+        {
+          "path": "evidence/final-priority-live-followup.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
           "path": "evidence/fpds-verified-actions.csv",
           "kind": "CSV_or_TSV",
-          "rows": 683,
+          "rows": 695,
           "columns": 26
         },
         {
@@ -920,6 +969,166 @@
           "top_level_type": "list"
         },
         {
+          "path": "evidence/independent-editor-history-recovery/acquired-three-award-actions.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-history-recovery/acquisition-history-coverage.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-history-recovery/acquisition-history-missing-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 65,
+          "columns": 14
+        },
+        {
+          "path": "evidence/independent-editor-history-recovery/new-history-reconciliation.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-history-recovery/primary-response-recovery.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-history-recovery/recovered-xml-reparse.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-history-recovery/retained-177-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 177,
+          "columns": 26
+        },
+        {
+          "path": "evidence/independent-editor-identity-review/conflict-identifiers-only.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-identity-review/identity-conflict-intersections.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-live-overlay-recovery/combined-live-inventory.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 111,
+          "columns": 45
+        },
+        {
+          "path": "evidence/independent-editor-live-overlay-recovery/live-award-register.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-live-overlay-recovery/live-financial-seed-overlay.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-live-overlay-recovery/source-receipts.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/ot-response-manifest.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/post-loss-independent-recheck.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/recheck-run-output.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/retrieval-receipts.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/audit/exa-discovery-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/audit/exa-query-cost-log.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 236,
+          "columns": 14
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/audit/r3-04-corrections.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/audit/reviewed-case-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/combined-live-inventory.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 111,
+          "columns": 45
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/fpds-verified-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 683,
+          "columns": 26
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/live-award-register.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/live-technical-scope-review.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 58,
+          "columns": 21
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/ota-keyword-followup-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 12,
+          "columns": 26
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/ota-keyword-followup-records.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/ota-resolution-review.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/ota-verified-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 24,
+          "columns": 26
+        },
+        {
+          "path": "evidence/independent-editor-recovery/sources/evidence/reviewed-cases.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 31,
+          "columns": 53
+        },
+        {
           "path": "evidence/independent-editor-round2-review/camp-fpds-proof.json",
           "kind": "JSON",
           "top_level_type": "dict"
@@ -934,6 +1143,83 @@
           "kind": "CSV_or_TSV",
           "rows": 7,
           "columns": 6
+        },
+        {
+          "path": "evidence/independent-editor-source-recovery-check/sbir-crosswalk-recheck.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-union-replay/consumer-source-receipt.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-union-replay/new-recovery-exclusive-keys.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-union-replay/new-recovery-null-differences.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-union-replay/new-recovery-union-review.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-union-replay/recovery-same-source-different-key-edges.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-union-replay/recovery-source-projection-check.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-stage1-recovered-code-checkpoint/RECOVERY_MANIFEST.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/ab-high-priority-review.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 301,
+          "columns": 56
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/brakes-candidate-register.csv.gz",
+          "kind": "CSV_or_TSV",
+          "rows": 22603,
+          "columns": 56
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/brakes-candidate-register.json.gz",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/canonical-manifest.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/publication-representation-map.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/storage-map.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-stage1-recovery-v1/text-archive-config.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
         },
         {
           "path": "evidence/live-award-register.json",
@@ -980,6 +1266,12 @@
           "columns": 26
         },
         {
+          "path": "evidence/parallel-key-membership.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 27276,
+          "columns": 9
+        },
+        {
           "path": "evidence/reviewed-cases.csv",
           "kind": "CSV_or_TSV",
           "rows": 31,
@@ -1002,7 +1294,7 @@
           "top_level_type": "dict"
         }
       ],
-      "files_parsed": 192,
+      "files_parsed": 247,
       "CSV_field_limit": 9223372036854775807,
       "row_unit": "parsed records, not physical text lines"
     },
@@ -1042,18 +1334,21 @@
     },
     "relative_Markdown_links": {
       "status": "passed",
-      "relative_links_checked": 75,
-      "pending_generated_container_links": [
+      "relative_links_checked": 141,
+      "pending_generated_container_links": [],
+      "pinned_historical_context_exceptions_not_local_link_successes": [
         {
-          "source": "README.md",
-          "target": "F4-COMPLETE-RESEARCH-PACKAGE.txt.gz"
+          "path": "evidence/independent-editor-recovery/sources/report.md",
+          "sha256": "ce0baf0886c6b84bd11db1b9c4c932f78cdf318bdbd15d43cc63665476cd0d7f",
+          "original_context_url": "https://raw.githubusercontent.com/graemesmith-code/investigative-methods/a0ed4b2c24083287120c1bb8523652f959ffd1b6/research/2026-10-25/f4-autonomy-brakes-audit/report.md",
+          "reason": "Unmodified historical source snapshot; relative destinations belong to its pinned original repository context, not this relocated sources subtree. They are excluded, not claimed to work locally."
         }
       ],
-      "scope": "All authored Markdown except fenced/inline code and quoted external source text; absolute/remote references excluded"
+      "scope": "All current authored Markdown except fenced/inline code and quoted external source text; absolute/remote references excluded. Explicit hash-verified pinned snapshots retain original link context and are disclosed separately."
     },
     "public_file_sizes": {
       "status": "passed",
-      "public_files_checked": 283,
+      "public_files_checked": 420,
       "limit_bytes_strictly_less_than": 104857600,
       "excluded_local_Library_plain_text_delivery": "F4-COMPLETE-RESEARCH-PACKAGE.txt",
       "gzip_transport_is_checked": true
@@ -1061,7 +1356,7 @@
     "environment_secret_literal_scan": {
       "status": "passed",
       "credential_like_environment_literal_count": 4,
-      "file_or_expanded_streams_scanned": 282,
+      "file_or_expanded_streams_scanned": 421,
       "matches": 0,
       "no_secret_values_logged": true,
       "limit": "Exact configured literals only; not a proof against every unknown secret"
@@ -1073,14 +1368,6 @@
       "gate": "delivery_container_and_remote_hash_verification",
       "status": "owned_by_root_after_build",
       "note": "This validator intentionally performs no bundle, manifest or remote hash validation."
-    }
-  ],
-  "unavailable_original_comparisons": [
-    {
-      "status": "original_independent_stage1_comparison_unavailable_producer_file_loss",
-      "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
-      "reason": "Parent reports the independent producer runtime was lost at18:55; original Stage1 file bodies and scripts were not retained there. Earlier GitHub approval had resolved on resume but only an uncommitted4MiB blob was uploaded. The original independent core has not been materialized here; no original exact-key or monetary comparison can be claimed. The authoritative consumer scan and its available-source membership remain complete. This is producer file loss, not a pending approval gate.",
-      "effect": "Unavailable original parallel comparison is disclosed; it does not invalidate the complete authoritative consumer scan or impose a pending approval gate."
     }
   ],
   "status": "passed_local_checks_with_explicit_release_gates",

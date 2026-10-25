@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-10-25T16:00:25.405980+00:00",
+  "generated_utc": "2026-10-25T20:46:09.663601+00:00",
   "status": "available_sources_compared; independent_stage1_pending",
   "input_sha256": {
     "evidence/brakes-candidate-register.csv": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
     "evidence/live-award-register.json": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
-    "evidence/fpds-verified-actions.csv": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+    "evidence/fpds-verified-actions.csv": "23d9566120e177f5d8ac3b6e1c30564d4477fd4c4ba0f4ba5ed583d94eecb9a0",
     "evidence/ota-resolution-review.json": "078cdaaba03471b45595781ebf5cd4bdda81b4e7857eb2a0aafce167a6a2d2bc",
     "evidence/ota-keyword-followup-records.json": "43c3ecf6db752c9a9279dd445f5ccb7c702be10cc0fd31c4efdb951a61b93a70"
   },
@@ -34,7 +34,7 @@
   "input_sha256_after_read": {
     "evidence/brakes-candidate-register.csv": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
     "evidence/live-award-register.json": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
-    "evidence/fpds-verified-actions.csv": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+    "evidence/fpds-verified-actions.csv": "23d9566120e177f5d8ac3b6e1c30564d4477fd4c4ba0f4ba5ed583d94eecb9a0",
     "evidence/ota-resolution-review.json": "078cdaaba03471b45595781ebf5cd4bdda81b4e7857eb2a0aafce167a6a2d2bc",
     "evidence/ota-keyword-followup-records.json": "43c3ecf6db752c9a9279dd445f5ccb7c702be10cc0fd31c4efdb951a61b93a70"
   },

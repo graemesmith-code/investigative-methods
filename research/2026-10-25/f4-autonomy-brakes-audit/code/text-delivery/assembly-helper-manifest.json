@@ -1,0 +1,46 @@
+{
+  "schema": "f4-text-delivery-helper-checkpoint-v2",
+  "scope": "Current archive-aware assembly and verification code; supports all 141 archive members plus actual public fast-access aliases; source/result projections explicitly audited. No source caches or credentials. All authored prose is ordered before data. Version 1 is a prior direct-file binding checkpoint.",
+  "files": [
+    {
+      "path": "assemble_text_v2.py",
+      "bytes": 12327,
+      "sha256": "a3e9fd37e534822e0214be5f8eef47747683beafe37bb53df2d1fa5b812dafd2"
+    },
+    {
+      "path": "stage_verified_snapshot.py",
+      "bytes": 2761,
+      "sha256": "c8b4576e5a87bd89e71eb0c5daeddb754611ea4124a8a54042230e0780999bc4"
+    },
+    {
+      "path": "extract_compendium_sections.py",
+      "bytes": 2244,
+      "sha256": "c57cc18c38c1cff14ac4a8c635eb0af89f584d78e6b1c4343eb7d78fd58ea144"
+    },
+    {
+      "path": "compact_json_losslessly.py",
+      "bytes": 2519,
+      "sha256": "fcf6715e8a0067b4f870630e8217d59649f27f3eccc88bbcb56c98c3ddf1e998"
+    },
+    {
+      "path": "check_snapshot_requirements.py",
+      "bytes": 3037,
+      "sha256": "b458ad8a9e2a365b83440bb567c73017cbc742075e5f2aa510d82744f954efcc"
+    },
+    {
+      "path": "verify_transport_aliases.py",
+      "bytes": 2444,
+      "sha256": "e40aa2a99bdf978cc9ff71ce75fbb26c880f4910d98e1cf366d189cc8a9ab162"
+    },
+    {
+      "path": "build_integrated_rules.py",
+      "bytes": 12489,
+      "sha256": "ea02e62d020c0f249fb9781522a540a8a9d580c2012c226d28a2864abb58c98e"
+    },
+    {
+      "path": "build_archive_integrated_rules.py",
+      "bytes": 16943,
+      "sha256": "b368c4c487413c266a5a402c9cddc3e4649a5fdb75fbe59a9da236366b999369"
+    }
+  ]
+}

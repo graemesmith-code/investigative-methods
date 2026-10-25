@@ -82,5 +82,56 @@
     "new_recovery_version": "Must use actual version/code/source hashes/counts; original expectations not forced",
     "effect_on_consumer_inputs_or_complete_scan": "None demonstrated; retained originals and authoritative outputs match frozen hashes"
   },
-  "final_library_delivery_owner": "Parent thread, after immutable final GitHub commit; no duplicate upload attempted by consumer"
+  "final_library_delivery_owner": "Parent thread, after immutable final GitHub commit; no duplicate upload attempted by consumer",
+  "recovery_v1": {
+    "registered_keys": 22603,
+    "financial_awards_in_acquired_ledger": 8051,
+    "subaward_records_no_parent_money": 7964,
+    "logical_canonical_files": 141,
+    "stored_canonical_bytes": 375285567,
+    "archive_bytes": 212754687,
+    "archive_sha256": "2fda8de2231b5bed45041a7846a89b11fce50a7c82671b6b176eeb2630d2094c",
+    "canonical_manifest_sha256": "7d49fa1ba294a5a9c3f578230c5fe348d17b92f6fecf56fb514d1272e50830de",
+    "storage_map": "evidence/independent-stage1-recovery-v1/storage-map.json",
+    "not_identical_to_lost_original": true
+  },
+  "final_source_union": {
+    "keys_not_distinct_awards_or_programs": 27276,
+    "consumer": 5501,
+    "recovery_v1": 22603,
+    "intersection": 828,
+    "initial111_live_already_included": true,
+    "additional6_followup_already_included": true,
+    "equal_nonempty_money_cells": 1621,
+    "money_differences": 0,
+    "blank_vs_zero_fields": 827,
+    "blank_zero_keys": 421,
+    "no_dollars_summed_across_passes": true
+  },
+  "final_free_priority_followup": {
+    "fixed_awards": 6,
+    "free_requests": 18,
+    "failures": 0,
+    "FPDS_actions": 12,
+    "USAspending_transactions": 12,
+    "new_source_union_keys": 0,
+    "new_paid_calls": 0,
+    "latest2026_priority3_modifications_added_usd": "0",
+    "whole_award_amounts_not_added_to_fixed_core_case_totals": true
+  },
+  "final_ordinary_FPDS_compilation": {
+    "contracts": 92,
+    "unique_actions": 695,
+    "initial_actions": 683,
+    "supplemental_actions": 12,
+    "audit": "audit/final-ordinary-actions-accounting.json"
+  },
+  "text_delivery_code_checkpoint": {
+    "version": 2,
+    "ZIP_bytes": 22667,
+    "ZIP_sha256": "7ec1e133e580ad1aece2e417036ee90671f99e2d3cb9b10eaea8f2f5a4700436",
+    "scripts": 8,
+    "manifest_verified": true,
+    "path": "code/text-delivery/assembly-helper-manifest.json"
+  }
 }

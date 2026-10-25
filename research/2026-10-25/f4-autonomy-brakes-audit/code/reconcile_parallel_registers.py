@@ -50,7 +50,7 @@ def read_register(path,side,args):
  before=sha(path);raw=path.open('rb');payload=gzip.GzipFile(fileobj=raw) if path.suffix=='.gz' else raw
  text=io.TextIOWrapper(payload,encoding='utf-8',newline='');reader=csv.DictReader(text);headers=reader.fieldnames or []
  keycol=choose(headers,getattr(args,side+'_key_column'),['award_key','register_key','candidate_key','key'],'key')
- categorycol=choose(headers,None,['all_categories_preliminary','automated_categories','categories','category_tags','category_preliminary','primary_category_preliminary'],'category',True)
+ categorycol=choose(headers,None,['all_categories_preliminary','preliminary_categories','automated_categories','categories','category_tags','category_preliminary','primary_category_preliminary'],'category',True)
  moneycols={};units={}
  for window in WINDOWS:
   explicit=getattr(args,side+'_'+window+'_column')

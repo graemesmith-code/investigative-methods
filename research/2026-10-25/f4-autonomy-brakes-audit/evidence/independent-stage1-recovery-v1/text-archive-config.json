@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "2fda8de2231b5bed45041a7846a89b11fce50a7c82671b6b176eeb2630d2094c",
+  "archive_bytes": 212754687,
+  "parts": [
+    {
+      "path": "evidence/independent-stage1-recovery-v1/package.tar.gz.part-0000",
+      "bytes": 94371840,
+      "sha256": "52ff5f78fe82ea39d7b71aa990431ab27a56dff608df83a645397c7200bd8223"
+    },
+    {
+      "path": "evidence/independent-stage1-recovery-v1/package.tar.gz.part-0001",
+      "bytes": 94371840,
+      "sha256": "6c953d1c90dc35eb62fb34e8190975a8a95ac9dd7f91394ccc5fe2263450ec19"
+    },
+    {
+      "path": "evidence/independent-stage1-recovery-v1/package.tar.gz.part-0002",
+      "bytes": 24011007,
+      "sha256": "ef353b24be668409fb12f9c0cb3836b547c7d445959ff40f1b0337f0744b6ae3"
+    }
+  ]
+}

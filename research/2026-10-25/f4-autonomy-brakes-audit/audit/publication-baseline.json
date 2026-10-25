@@ -1,0 +1,7 @@
+{
+  "captured_remote_main": "4afcea86ea68da4e08ab42975f97a31b6ca16a9d",
+  "scope": "research/2026-10-25/f4-autonomy-brakes-audit/",
+  "rule": "Preserve all concurrent root audit/docs changes. Verify publication delta against this captured remote head; never force-update a stale ref.",
+  "remote_verification": "code/verify_remote_publication.py requires --base and verifies every scoped remote blob SHA256, not merely a local commit.",
+  "CI": "No CI run or CI pass claimed; validations recorded are local/reproducible data, archive, identity, link and hash checks."
+}

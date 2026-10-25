@@ -1,0 +1,9 @@
+{
+  "canonical_files": 141,
+  "file_or_expanded_gzip_streams_scanned": 166,
+  "configured_credential_like_literal_count": 4,
+  "matches": 0,
+  "values_not_logged": true,
+  "limit": "Exact configured credential-like environment literals, including gzip-expanded content; not a claim to detect every unknown secret. Source archive member bytes remain unchanged.",
+  "archive_sha256": "2fda8de2231b5bed45041a7846a89b11fce50a7c82671b6b176eeb2630d2094c"
+}

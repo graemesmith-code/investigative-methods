@@ -1,0 +1,200 @@
+{
+  "scope": "Separate six-lead fixed followup; core request logs and award register unchanged. All requests durably logged before and after network execution.",
+  "requests": [
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22N6426725C7123%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:44.214243+00:00",
+      "http_status": 200,
+      "bytes": 40793,
+      "sha256": "fe3cbe9220f6781883cbae9da13714bbd35d0a3ca00773c5f0b71312a9e56c0a",
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22N6426725C7123%22&s=FPDSNG.COM&indexName=awardfull&start=0"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6426725C7123_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:44.518350+00:00",
+      "http_status": 200,
+      "bytes": 6465,
+      "sha256": "978bab82e06aa48f221e94c23081f6b5540e7d61f00dd0276d3cae72ad98a5dc",
+      "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_N6426725C7123_9700_-NONE-_-NONE-/"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "method": "POST",
+      "retrieved_utc": "2026-10-25T20:27:44.939473+00:00",
+      "request_body": {
+        "award_id": "CONT_AWD_N6426725C7123_9700_-NONE-_-NONE-",
+        "page": 1,
+        "limit": 100
+      },
+      "http_status": 200,
+      "bytes": 830,
+      "sha256": "74436e5546d27c0e7b345494886803a3336827653874264c65595d83481f0e71",
+      "final_url": "https://api.usaspending.gov/api/v2/transactions/"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22W5170125CA287%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:45.100011+00:00",
+      "http_status": 200,
+      "bytes": 40567,
+      "sha256": "40b1635cd9a2e1f6ed3b78dd3902207f938987ddc5ebd030546436c63866b8f4",
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22W5170125CA287%22&s=FPDSNG.COM&indexName=awardfull&start=0"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA287_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:45.214694+00:00",
+      "http_status": 200,
+      "bytes": 6339,
+      "sha256": "dfde2cad2615c7747550d88761a9faac93e243d5508bf6c896a1e4d2c8039139",
+      "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W5170125CA287_9700_-NONE-_-NONE-/"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "method": "POST",
+      "retrieved_utc": "2026-10-25T20:27:45.708397+00:00",
+      "request_body": {
+        "award_id": "CONT_AWD_W5170125CA287_9700_-NONE-_-NONE-",
+        "page": 1,
+        "limit": 100
+      },
+      "http_status": 200,
+      "bytes": 844,
+      "sha256": "33169e1f10deb63ba397c6231973fc7b39a9098c0e1701034866651f780fe2de",
+      "final_url": "https://api.usaspending.gov/api/v2/transactions/"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA864925P0470%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:45.868716+00:00",
+      "http_status": 200,
+      "bytes": 79098,
+      "sha256": "72d1226eff4163c42a7ed05141526f0968fd154523bc9c6a2e4c7a6aceba45a4",
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA864925P0470%22&s=FPDSNG.COM&indexName=awardfull&start=0"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0470_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:46.151665+00:00",
+      "http_status": 200,
+      "bytes": 6452,
+      "sha256": "a9a1f51f62029eb1035541c729402bf5610b25b38490162dd64075fde4ba0340",
+      "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864925P0470_9700_-NONE-_-NONE-/"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "method": "POST",
+      "retrieved_utc": "2026-10-25T20:27:46.391947+00:00",
+      "request_body": {
+        "award_id": "CONT_AWD_FA864925P0470_9700_-NONE-_-NONE-",
+        "page": 1,
+        "limit": 100
+      },
+      "http_status": 200,
+      "bytes": 2014,
+      "sha256": "c2a3fca07af75e9cbac9a5d4fc851189315f0d22f1242e229afb83fb1c2930ed",
+      "final_url": "https://api.usaspending.gov/api/v2/transactions/"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA864924P0435%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:46.551847+00:00",
+      "http_status": 200,
+      "bytes": 39706,
+      "sha256": "5428825356f97bd28a08c2ed7adad524ed68c3e3b2589211fcd2457bc5f73d46",
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA864924P0435%22&s=FPDSNG.COM&indexName=awardfull&start=0"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864924P0435_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:46.737403+00:00",
+      "http_status": 200,
+      "bytes": 6474,
+      "sha256": "9cc0d710a5e2ae7f8aa808359fdf7e7f05920be8cb0608856e131776650894c3",
+      "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864924P0435_9700_-NONE-_-NONE-/"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "method": "POST",
+      "retrieved_utc": "2026-10-25T20:27:46.950897+00:00",
+      "request_body": {
+        "award_id": "CONT_AWD_FA864924P0435_9700_-NONE-_-NONE-",
+        "page": 1,
+        "limit": 100
+      },
+      "http_status": 200,
+      "bytes": 1029,
+      "sha256": "90db55188dd3345b0b01ef3e9a404cd22333f3905448c36bcdee290a587e6b61",
+      "final_url": "https://api.usaspending.gov/api/v2/transactions/"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA864923P0469%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:47.107206+00:00",
+      "http_status": 200,
+      "bytes": 20030,
+      "sha256": "9d8d83a39bfaf9ce383aca18d34f7097ef8261af3259f5718efddabb6bd814bc",
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22FA864923P0469%22&s=FPDSNG.COM&indexName=awardfull&start=0"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864923P0469_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:47.171159+00:00",
+      "http_status": 200,
+      "bytes": 6385,
+      "sha256": "26822553d540e61008cbf45c41ad971b0420f369373778a4e03b182667c07aa0",
+      "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_FA864923P0469_9700_-NONE-_-NONE-/"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "method": "POST",
+      "retrieved_utc": "2026-10-25T20:27:47.411255+00:00",
+      "request_body": {
+        "award_id": "CONT_AWD_FA864923P0469_9700_-NONE-_-NONE-",
+        "page": 1,
+        "limit": 100
+      },
+      "http_status": 200,
+      "bytes": 466,
+      "sha256": "24654befdeccbd38e588a336c8c103f00c98f302ea20d98746f34a98a3535a43",
+      "final_url": "https://api.usaspending.gov/api/v2/transactions/"
+    },
+    {
+      "url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22W911NF24P0033%22&s=FPDSNG.COM&indexName=awardfull&start=0",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:47.541255+00:00",
+      "http_status": 200,
+      "bytes": 20052,
+      "sha256": "5237aca441939232582a465b4eb2e5c7d684532146307b5f164ef93c1ef3830f",
+      "final_url": "https://www.fpds.gov/ezsearch/FEEDS/ATOM?FEEDNAME=PUBLIC&VERSION=1.5.3&q=PIID%3A%22W911NF24P0033%22&s=FPDSNG.COM&indexName=awardfull&start=0"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911NF24P0033_9700_-NONE-_-NONE-/",
+      "method": "GET",
+      "retrieved_utc": "2026-10-25T20:27:47.657807+00:00",
+      "http_status": 200,
+      "bytes": 6619,
+      "sha256": "3ecae07d457a7cbca19347f04985eebf5d6cff3818c45421ab07554ee4e89045",
+      "final_url": "https://api.usaspending.gov/api/v2/awards/CONT_AWD_W911NF24P0033_9700_-NONE-_-NONE-/"
+    },
+    {
+      "url": "https://api.usaspending.gov/api/v2/transactions/",
+      "method": "POST",
+      "retrieved_utc": "2026-10-25T20:27:47.911098+00:00",
+      "request_body": {
+        "award_id": "CONT_AWD_W911NF24P0033_9700_-NONE-_-NONE-",
+        "page": 1,
+        "limit": 100
+      },
+      "http_status": 200,
+      "bytes": 509,
+      "sha256": "23961a4af7087f6a0d93a693b4a89f3be94ffbe92432931afdb194af6345c643",
+      "final_url": "https://api.usaspending.gov/api/v2/transactions/"
+    }
+  ],
+  "request_count": 18,
+  "failed_request_count": 0,
+  "source_body_cache_public": false
+}

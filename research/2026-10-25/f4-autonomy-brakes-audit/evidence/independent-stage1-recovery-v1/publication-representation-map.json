@@ -1,0 +1,169 @@
+{
+  "lossless_compressed_logical_files": [
+    {
+      "logical_path": "evidence/award-date-fields.jsonl",
+      "logical_bytes": 694674927,
+      "logical_sha256": "4b8c317c33172c1b56ec52a6c2db60e37756e248f075a786ddd5876473611e31",
+      "published_path": "evidence/award-date-fields.jsonl.gz",
+      "published_sha256": "482d92ca3e717851256911076a8a71c644bfa108425d324c4ab55a148a6e2e5f",
+      "representation": "lossless gzip; exact original data bytes verified"
+    },
+    {
+      "logical_path": "evidence/brakes-candidate-register.json",
+      "logical_bytes": 127610577,
+      "logical_sha256": "9fe80c480cba30f58498322deb249ab6d0a8cf2b2ddd3becbe027b3fb96919d6",
+      "published_path": "evidence/brakes-candidate-register.json.gz",
+      "published_bytes": 10625083,
+      "published_sha256": "9d68a95ca167ef005364732257a8444e862afb7f52663fa8afa291494a36b42d",
+      "representation": "lossless deterministic gzip; exact original bytes reconstructable"
+    },
+    {
+      "logical_path": "evidence/source-additional-narratives.jsonl",
+      "logical_bytes": 37115798,
+      "logical_sha256": "62c2aa09314822fb5a705ae458773539a8e39500620a48ccd925bb27fd2d66d3",
+      "published_path": "evidence/source-additional-narratives.jsonl.gz",
+      "published_bytes": 2566099,
+      "published_sha256": "6c46e06160ed569c1c4dd694068dd4084dae699c45834d38ee7121606b23536f",
+      "representation": "lossless deterministic gzip; exact original bytes reconstructable"
+    },
+    {
+      "logical_path": "evidence/asimov-performer-continuation-local-2025-2026.csv",
+      "logical_bytes": 36220079,
+      "logical_sha256": "c9ee845b371d2794b0583a5e6104d683e0226d144ddcbdeacb124ac85d26dfce",
+      "published_path": "evidence/asimov-performer-continuation-local-2025-2026.csv.gz",
+      "published_bytes": 1784361,
+      "published_sha256": "8a1ad50c994ffb5e2ffff2185a1bee5e3584ad03d6e84dd43f8edcc9042df502",
+      "representation": "lossless deterministic gzip; exact original bytes reconstructable"
+    },
+    {
+      "logical_path": "evidence/asimov-performer-continuation-local-2025-2026.json",
+      "logical_bytes": 44744377,
+      "logical_sha256": "46d96f2b23872671af8b1749df055c7509924f8f036bcc1ccb71767d52b721e8",
+      "published_path": "evidence/asimov-performer-continuation-local-2025-2026.json.gz",
+      "published_bytes": 2097214,
+      "published_sha256": "b7752f433fc8915c16ff2a9c0eda075e411ed9e0d1a2953fa6eb110bd10c3a98",
+      "representation": "lossless deterministic gzip; exact original bytes reconstructable"
+    }
+  ],
+  "sharded_logical_JSONL_tables": [
+    {
+      "logical_source_gzip_path": "audit/excluded-observations.jsonl.gz",
+      "source_gzip_sha256": "91a6ea76a8a81ab7079dafacc9255b7a693e977974d5b299cb60680c0b2e23ad",
+      "source_gzip_bytes": 107685938,
+      "logical_uncompressed_sha256": "636ab405902c418120d9e30df42515a9f6b1af912194ccd32244d95ed56339d7",
+      "logical_rows": 2268135,
+      "shards_in_concatenation_order": [
+        {
+          "path": "audit/excluded-observations.part-0000.jsonl.gz",
+          "rows": 200000,
+          "bytes": 9357957,
+          "sha256": "a5623bc94cb17c1dfead7fb259cad6e75182fe62213db0c247de50dc9a3ab17c",
+          "uncompressed_sha256": "8833890c2e99e6911b3c2b9a4042b97a32958992598eb3d5ce7871d87d7cf118"
+        },
+        {
+          "path": "audit/excluded-observations.part-0001.jsonl.gz",
+          "rows": 200000,
+          "bytes": 10618251,
+          "sha256": "07cfbdf78e2aaf60e5e132e86d923429c13ab4996be50c0aaf2b040f7a6a7a19",
+          "uncompressed_sha256": "a3d575cad63d794d9dfb1086c2f3c064799dcabf7aeb27e946e24b34f038efb7"
+        },
+        {
+          "path": "audit/excluded-observations.part-0002.jsonl.gz",
+          "rows": 200000,
+          "bytes": 9347838,
+          "sha256": "b0136631c0d1ac6f1a756539cf4e17ef6adeca797422f5af8039216b5d4f53df",
+          "uncompressed_sha256": "009b26e8ea2e759350d612c50bbb15a53e3f5876837c13440c7e43d96d37c1c5"
+        },
+        {
+          "path": "audit/excluded-observations.part-0003.jsonl.gz",
+          "rows": 200000,
+          "bytes": 10342906,
+          "sha256": "5a61bd66d1484b90374cef3c53fa8f083f515207208b8d53c61fd2751285dcc7",
+          "uncompressed_sha256": "1f15283cf071b623553da25271ec2ff9f6e346beea96222327388c8fa5787f68"
+        },
+        {
+          "path": "audit/excluded-observations.part-0004.jsonl.gz",
+          "rows": 200000,
+          "bytes": 11774895,
+          "sha256": "0cbad08d1e637b4dcf5815f9b8db4be88ca20e604391cf843fd36da9eac36622",
+          "uncompressed_sha256": "541ee5a0407f099a3d9d95a5f101c706d4b9a396b9fd37d974b78ba2a3abb81d"
+        },
+        {
+          "path": "audit/excluded-observations.part-0005.jsonl.gz",
+          "rows": 200000,
+          "bytes": 10580826,
+          "sha256": "f3fdb6294e5df713835f0b816309f2a3e6c369cacf56ec3269145f0923b0f94c",
+          "uncompressed_sha256": "1170627677fc6c0899c06766d4a122d2570c27388b7498ac3aab5067d14eb937"
+        },
+        {
+          "path": "audit/excluded-observations.part-0006.jsonl.gz",
+          "rows": 200000,
+          "bytes": 8811928,
+          "sha256": "4785786b72ca310ea4f9555f509baf2ed41ff747e96ac1ebdd75f62adcc43c1c",
+          "uncompressed_sha256": "5d9fef9e4a40ba556acebc9b7f859dbbeda5feecd09dfc7a7d0f8e5a2252dd3f"
+        },
+        {
+          "path": "audit/excluded-observations.part-0007.jsonl.gz",
+          "rows": 200000,
+          "bytes": 9124549,
+          "sha256": "f74c5e0e4efa9bc86ad9a9f32ddd34e64bc43153ec71f3be6992b8479b8f1be1",
+          "uncompressed_sha256": "86926d7e5b1b29a812ed1e5f457a018d91d2d8ed1e332e4a77b14fc6de219d99"
+        },
+        {
+          "path": "audit/excluded-observations.part-0008.jsonl.gz",
+          "rows": 200000,
+          "bytes": 6038540,
+          "sha256": "48a21212a339c94d3c28f4078cf1b5be43db23b871d1d3fa761852576d5d5d5b",
+          "uncompressed_sha256": "90d085f69c7187bd1e57a334a9335e416e651afd509ed40191edb2584afe360f"
+        },
+        {
+          "path": "audit/excluded-observations.part-0009.jsonl.gz",
+          "rows": 200000,
+          "bytes": 9500588,
+          "sha256": "84e16663d49e200b54a014d6a03af318a5bc97b58136ad9abc811658e15a51e6",
+          "uncompressed_sha256": "a2c100cb472cda045e77397d1651cf203ba9d5bed942b58c8a9197f81073ea82"
+        },
+        {
+          "path": "audit/excluded-observations.part-0010.jsonl.gz",
+          "rows": 200000,
+          "bytes": 8938946,
+          "sha256": "ac200d5e5b73a8f4efc92dd9330e2813ce0ac3e7b8a6c80da545e8d45f4b166a",
+          "uncompressed_sha256": "e2c847ce7f1ec8be62c4e2f68e662dc19a9065d70c62c98ca7547c5ff05fcf8c"
+        },
+        {
+          "path": "audit/excluded-observations.part-0011.jsonl.gz",
+          "rows": 68135,
+          "bytes": 3252796,
+          "sha256": "29010475e39b3a04a9d6189d3b34f8733cc11dace0f047f330595991c0996a9d",
+          "uncompressed_sha256": "8e03625c6a59320ce36058ec3fd42db0b1301d15223b053dde25a2a9bb4a2119"
+        }
+      ],
+      "reconstruction": "Decompress each shard and concatenate bytes in listed order. JSONL content is exact; gzip container byte identity is not claimed for recompression."
+    }
+  ],
+  "nonresearch_or_superseded_exclusions": [
+    {
+      "path": "audit/recovery-code-checkpoint.json",
+      "sha256": "8975d7c0d1f3136fe817a0580096ffafdc3f6b33e0b7d0a659e42cee1ae161f0",
+      "bytes": 3008,
+      "reason": "Superseded mutable interim checkpoint list."
+    },
+    {
+      "path": "audit/sbir-identity-quarantine-pending.json",
+      "sha256": "a66645fb6dab8094c26eefcb546e3214b87fde2adc17d50382b8c261f4c7e336",
+      "bytes": 1268,
+      "reason": "Transient install state; completed quarantine audit is canonical."
+    },
+    {
+      "path": "audit/user-authorized-directive.txt",
+      "sha256": "76820bd96fbfd56c5001e52295a42888a8487cfefda3f21488b6a5659f4c646b",
+      "bytes": 15186,
+      "reason": "Private authorization transcript, not a research result."
+    }
+  ],
+  "omitted_workspaces": [
+    "input/ original100members: hashes and roles in extraction/source audits; original archives remain intact in authorized Library",
+    "vendor/ runtime dependency, version and install log retained",
+    "work/ reproducible SQLite caches, abandoned partial run, before-identity-review derivative backups; no final research result omitted"
+  ]
+}

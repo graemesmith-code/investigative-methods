@@ -8,7 +8,7 @@ Uncompressed complete text is a local/Library delivery, deliberately excluded
 from the GitHub per-file limit; the public gzip transport remains subject to it.
 """
 from __future__ import annotations
-import argparse, collections, csv, datetime, gzip, json, os, pathlib, re, sys
+import argparse, collections, csv, datetime, gzip, hashlib, json, os, pathlib, re, sys
 from decimal import Decimal
 from urllib.parse import unquote, urlsplit
 
@@ -33,7 +33,15 @@ REQUIRED = [
     'code/build_reviewed_cases.py', 'code/package_artifacts.py',
     'code/validate_package.py',
 ]
-DEFERRED = {'manifest.json', 'SHA256SUMS', BUNDLE, BUNDLE + '.gz'}
+DEFERRED = {'manifest.json', 'SHA256SUMS', BUNDLE, BUNDLE + '.gz', BUNDLE + '.delivery.json'}
+PINNED_MARKDOWN_CONTEXTS = {
+    'evidence/independent-editor-recovery/sources/report.md': {
+        'sha256': 'ce0baf0886c6b84bd11db1b9c4c932f78cdf318bdbd15d43cc63665476cd0d7f',
+        'receipt_file': 'evidence/independent-editor-recovery/retrieval-receipts.json',
+        'receipt_path': 'report.md',
+        'reason': 'Unmodified historical source snapshot; relative destinations belong to its pinned original repository context, not this relocated sources subtree. They are excluded, not claimed to work locally.',
+    },
+}
 
 def files():
     return sorted(f for f in P.rglob('*') if f.is_file()
@@ -205,9 +213,22 @@ def validate():
                 'invoice_independently_verified': False}
     check('serialized_budget_ledger_arithmetic', budget)
     def links():
-        checked = 0; pending = []; missing = []
+        checked = 0; pending = []; missing = []; pinned_context_exceptions = []
         for f in paths:
             if f.suffix != '.md': continue
+            rel = f.relative_to(P).as_posix()
+            if rel in PINNED_MARKDOWN_CONTEXTS:
+                rule = PINNED_MARKDOWN_CONTEXTS[rel]
+                digest = hashlib.sha256(f.read_bytes()).hexdigest()
+                receipts = json.loads((P/rule['receipt_file']).read_text(encoding='utf-8'))
+                receipt = next(r for r in receipts if r['path'] == rule['receipt_path'])
+                if digest != rule['sha256'] or digest != receipt['sha256']:
+                    raise ValueError('pinned Markdown source changed')
+                if not re.search(r'/[0-9a-f]{40}/', receipt['url']):
+                    raise ValueError('source exception lacks immutable original context')
+                pinned_context_exceptions.append({'path': rel, 'sha256': digest,
+                    'original_context_url': receipt['url'], 'reason': rule['reason']})
+                continue
             source = f.read_text(encoding='utf-8')
             source = re.sub(r'(?ms)^\s*(```|~~~).*?^\s*\1\s*$', '', source)
             source = '\n'.join(line for line in source.splitlines() if not line.lstrip().startswith('>'))
@@ -228,7 +249,8 @@ def validate():
             out['relative_link_failures'] = missing
             raise ValueError('missing relative Markdown destinations')
         return {'relative_links_checked': checked, 'pending_generated_container_links': pending,
-                'scope': 'All authored Markdown except fenced/inline code and quoted external source text; absolute/remote references excluded'}
+                'pinned_historical_context_exceptions_not_local_link_successes': pinned_context_exceptions,
+                'scope': 'All current authored Markdown except fenced/inline code and quoted external source text; absolute/remote references excluded. Explicit hash-verified pinned snapshots retain original link context and are disclosed separately.'}
     check('relative_Markdown_links', links)
     def sizes():
         oversized = [{'path': f.relative_to(P).as_posix(), 'bytes': f.stat().st_size}

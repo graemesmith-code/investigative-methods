@@ -1,0 +1,221 @@
+{
+  "scope": "Same original SBIR source appearance under different key projections. Edges are not automatic financial identity merges.",
+  "provenance_rows_scanned": 133958,
+  "source_provenance_sha256": "2a3974b5d78d9ced2d41638b9fca53724c49c4e523bd1b5a2e27b534c0b6b21d",
+  "matched_consumer_source_references": 1276,
+  "different_key_provenance_edges": 1271,
+  "consumer_keys_in_different_projections": 1237,
+  "recovery_keys_in_different_projections": 1269,
+  "physical_row_disagreements": [],
+  "conflict_provenance_still_attributed_to_financial_key": [],
+  "conflict_source_rows_represented_under_other_keys": 69,
+  "quarantine_provenance_keys": {
+    "5321": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-11394|FA8649-24-P-0460|2024:UEI=GN61VFALH437"
+    ],
+    "2883": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-14103|FA2541-25-C-B005|2025:UEI=GMX7SEX5HER9"
+    ],
+    "1117": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-14670|FA2541-25-C-B079|2025:UEI=GMX7SEX5HER9"
+    ],
+    "1636": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-16429|FA8649-25-P-0236|2025:UEI=080969063000"
+    ],
+    "1412": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-16718|FA8649-25-P-0273|2025:UEI=JLPZBTKLZFN5"
+    ],
+    "492": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-18372|FA8649-25-P-0499|2025:UEI=PCUUU8P2UXD9"
+    ],
+    "231": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II \u2013 Direct to Phase II|F2D-18441|FA8649-25-P-0418|2025:UEI=QRHNXW714MQ5"
+    ],
+    "25462": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|F093-090-1093|FA8650-20-C-9305|2019:UEI=P7SFAJZ6M9J6"
+    ],
+    "24130": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|F172-008-0267|FA8100-19-C-0005|2019:UEI=HS4NAMYGYJ98"
+    ],
+    "15527": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|F191-065-0904|FA8750-21-C-0251|2021:UEI=D9E4D9MJLJE3"
+    ],
+    "19647": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|F2-7445|FA8650-20-C-9209|2020:UEI=N1AJHHKCXAV1"
+    ],
+    "23301": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|F2-9810|FA8650-19-C-1884|2019:UEI=YNEBKYE8ZZN7"
+    ],
+    "19465": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|FX192-SO1-0090|FA8649-20-C-0111|2020:UEI=FXMHMLZ7UBV7"
+    ],
+    "7656": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|FX192-SO1-0390|FA8802-23-C-0002|2023:UEI=WFDFME7YP6J5"
+    ],
+    "9818": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|FX201-CSO1-0217|FA8650-23-C-9200|2023:UEI=NSGLCKLKJXP3"
+    ],
+    "19860": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|N043-235-0425a|FA8684-20-C-1019|2020:UEI=C8WGBJUYCF31"
+    ],
+    "21387": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|N181-027-0239|FA8649-20-P-0413|2020:UEI=YNEBKYE8ZZN7"
+    ],
+    "19632": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase II|N2-6643|FA9101-20-C-0013|2020:UEI=C4Y5CNN55L37"
+    ],
+    "22676": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|F192-001-1466|FA8649-19-P-A308|2019:UEI=D334BE381BM1"
+    ],
+    "22931": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|F192-001-1472|FA8649-19-P-A202|2019:UEI=D334BE381BM1"
+    ],
+    "20911": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|F192-059-1720|FA8051-20-P-0003|2020:UEI=P8GUZF8C7GV1"
+    ],
+    "21072": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|FX192-SO1-0496|FA8649-20-P-0034|2020:UEI=XZELFEW18668"
+    ],
+    "15907": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|FX211-CSO1-0559|FA8649-21-P-1286|2021:UEI=PEDBN4T6HH49"
+    ],
+    "13559": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|FX212-CSO1-0695|FA8649-22-P-0366|2022:UEI=XK8NHKKVB4D1"
+    ],
+    "10193": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|FX224-OCSO1-0101|FA8649-23-P-0136|2023:UEI=EFNBHKRFJ593"
+    ],
+    "6536": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|FX235-CSO1-0973|FA8649-24-P-0395|2024:UEI=CXJKVKT2CJA5"
+    ],
+    "2641": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|SBIR|Phase I|FX247-PCSO1-1115|FA8649-25-P-0223|2025:UEI=QRHNXW714MQS"
+    ],
+    "12748": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase II|FX20C-TCSO1-0251|FA8649-22-P-0742|2022:UEI=G5LEM9BGPMX6"
+    ],
+    "3962": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase II|FX23E-TPCSO1-0351|FA8649-24-P-1102|2024:UEI=LXJEMZ4B6MLS"
+    ],
+    "19032": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase I|F20A-T003-0001|FA8750-20-P-1700|2020:UEI=W5BTMLDNALW6"
+    ],
+    "8429": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase I|F22D-T003-0042|FA9451-23-P-A034|2023:UEI=SS2WYSDHKTM7"
+    ],
+    "20291": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase I|FX20A-TCSO1-0110|FA8649-20-P-0590|2020:UEI=XZELFEW18668"
+    ],
+    "17340": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase I|FX20D-TCSO1-0436|FA8649-21-P-0238|2021:UEI=XZELFEW18668"
+    ],
+    "10292": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase I|FX22D-OTCSO1-0184|FA8649-23-P-0365|2023:UEI=MC3VAHL2JYC4"
+    ],
+    "6368": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Air Force|STTR|Phase I|FX23D-TCSO1-0294|FA8649-24-P-0396|2024:UEI=CXJKVKT2CJA5"
+    ],
+    "10805": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Army|SBIR|Phase I|A224-011-0274|W911NF-22-P-0057|2022:UEI=L47CB2LW3JC8"
+    ],
+    "16415": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Advanced Research Projects Agency|SBIR|Phase II \u2013 Direct to Phase II|D2D-0114|HR001121C0116|2021:UEI=GMX7SEX5HER9"
+    ],
+    "7091": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Advanced Research Projects Agency|SBIR|Phase II \u2013 Direct to Phase II|D2D-0502|HR001123C0152|2023:UEI=Q2D7YV7BT1M8"
+    ],
+    "4326": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Advanced Research Projects Agency|SBIR|Phase II \u2013 Direct to Phase II|D2D-0557|HR001124C0331|2024:UEI=DKJ4UWXEE324"
+    ],
+    "6184": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Advanced Research Projects Agency|SBIR|Phase II \u2013 Direct to Phase II|D2D-0595|HR001124C0316|2024:UEI=GMX7SEX5HER9"
+    ],
+    "681": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Advanced Research Projects Agency|SBIR|Phase II \u2013 Direct to Phase II|D2D-0888|W912CG25CA016|2025:UEI=Q2D7YV7BT1M8"
+    ],
+    "13906": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Advanced Research Projects Agency|SBIR|Phase II|D2-2599|W31P4Q-22-C-0007|2022:UEI=KMHMG227SJVX"
+    ],
+    "12086": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Health Agency|SBIR|Phase I|H221-002-0035|W81XWH22P0069|2022:UEI=HXN2YG6K6MA8"
+    ],
+    "3203": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Health Agency|SBIR|Phase I|H242-003-0053|HT9425-25-P-0002|2025:UEI=SR99RW5VEBK9"
+    ],
+    "2222": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Health Agency|SBIR|Phase I|H242-003-0066|HT9425-25-P-0036|2025:UEI=LDHRNENJ5CB7"
+    ],
+    "3480": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Defense Logistics Agency|SBIR|Phase I|L242-005-0130|SP4701-24-P-0068|2024:UEI=VFBVNNPZLKL5"
+    ],
+    "25212": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Missile Defense Agency|SBIR|Phase II|B2-2505|HQ0147-19-C-7107|2019:UEI=KBL5EABGEQB3"
+    ],
+    "4050": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Missile Defense Agency|SBIR|Phase I|B241-003-0421|HQ0860-24-C-7043|2024:UEI=NPE3P92BTX74"
+    ],
+    "9210": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase II|N204-A02-0392a|N68335-23-C-0249|2023:UEI=ZMNQHML3G4N6"
+    ],
+    "1813": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase II|N231-019-0019|N00024-25-C-S060|2025:UEI=L94HLRR36MB5"
+    ],
+    "21937": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N192-064-0762|N68335-20-C-0049|2020:UEI=HJYVVLBEPAE4"
+    ],
+    "19223": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N201-015-1115|N68335-20-C-0594|2020:UEI=DSXRN7GV2M91"
+    ],
+    "19190": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N201-041-1008|N68335-20-C-0629|2020:UEI=T8LCH4Y5FMQ7"
+    ],
+    "18193": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N204-A02-0392|N68335-20-C-0721|2020:UEI=ZMNQHML3G4N6"
+    ],
+    "14134": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N212-109-0226|N68335-21-C-0868|2021:UEI=M6JVSYRQRYM9"
+    ],
+    "14179": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N212-110-0730|N68335-21-C-0772|2021:UEI=GMX7SEX5HER9"
+    ],
+    "11331": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N221-036-1153|N68335-22-C-0507|2022:UEI=FLKAMJTNTDY1"
+    ],
+    "9869": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N222-124-0064|N68335-23-C-0136|2023:UEI=GMX7SEX5HER9"
+    ],
+    "6822": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N232-085-0895|N68335-23-C-0084|2024:UEI=N1AGNSBANJF7"
+    ],
+    "2930": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|SBIR|Phase I|N242-073-0366|N68335-25-C-0104|2025:UEI=779K27944668"
+    ],
+    "1203": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Navy|STTR|Phase I|N25A-T023-0450|N68335-25-C-0331|2025:UEI=DODQHLGVFUGJ"
+    ],
+    "370": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Office for Chemical and Biological Defense|SBIR|Phase II|C2-0704|W911-QY-25-CA-025|2025:UEI=CRMFHVMCD5V6"
+    ],
+    "10860": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Office for Chemical and Biological Defense|SBIR|Phase II|C2S-0008|HDTRA1-22-C-0009|2022:UEI=WLBNS3QBLL85"
+    ],
+    "10643": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Space Development Agency|STTR|Phase II|SDA2-0013|HQ0850-22-C-0022|2022:UEI=GMX7SEX5HER9"
+    ],
+    "14355": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Space Development Agency|STTR|Phase I|SDA21D-06-0008|HQ0850-21-C-0016|2021:UEI=GMX7SEX5HER9"
+    ],
+    "4054": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Strategic Capabilities Office|SBIR|Phase I|O234-P002-0076|HY023324PE001|2024:UEI=F4YCRLU8AGN7"
+    ],
+    "3269": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Strategic Capabilities Office|SBIR|Phase I|O234-P002-0133|HQ003424P0143|2024:UEI=MCBYUPMRJRM3"
+    ],
+    "3564": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Strategic Capabilities Office|SBIR|Phase I|O234-P002-0294|HQ003424P0139|2024:UEI=XN6MUPYJVM68"
+    ],
+    "3606": [
+      "SBIR_UNRESOLVED_UEI:Department of Defense|Strategic Capabilities Office|SBIR|Phase I|O234-P002-0414|HY023324PE004|2024:UEI=NFT8U57QWUL5"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "core_ordinary_actions_before_supplement": 683,
+  "supplement_ordinary_actions": 12,
+  "compiled_unique_ordinary_actions": 695,
+  "compiled_full_award_keys": 92,
+  "added_this_run": 12,
+  "pre_run_csv_sha256": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+  "compiled_csv_sha256": "23d9566120e177f5d8ac3b6e1c30564d4477fd4c4ba0f4ba5ed583d94eecb9a0",
+  "rule": "Full award/agency/parent/modification/transaction identity; no money sum, no OT or parent/subaward double-counting",
+  "source": "evidence/final-priority-live-followup.json"
+}

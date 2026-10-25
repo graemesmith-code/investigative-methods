@@ -1,0 +1,899 @@
+{
+  "scope": "Independent comparison of actual new recovery register, not forced to lost earlier grain/counts. Exact source/instrument keys, not unique awards or funded safeguards.",
+  "inputs": [
+    {
+      "path": "/workspace/shared/f4-editor-union-replay/consumer-brakes-candidate-register.csv",
+      "bytes": 84465834,
+      "sha256": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e"
+    },
+    {
+      "path": "/workspace/shared/f4-stage1-recovery/evidence/brakes-candidate-register.csv",
+      "bytes": 75092372,
+      "sha256": "4b33298674e457c15098cdf518f0d2c05796ddb3fba3bf3dcd11b31494940cad"
+    },
+    {
+      "path": "/workspace/shared/f4-editor-live-overlay-recovery/combined-live-inventory.csv",
+      "bytes": 158625,
+      "sha256": "f8d6403fdaa87ae090804aef775f027a3bfef47a3f854e8bd8491a42cc68fa09"
+    }
+  ],
+  "counts": {
+    "consumer": 5501,
+    "new_recovery": 22603,
+    "exact_intersection": 828,
+    "consumer_only": 4673,
+    "recovery_only": 21775,
+    "two_register_union": 27276,
+    "live": 111,
+    "live_missing_from_recovery": 0,
+    "live_missing_from_both": 0,
+    "all_three_union": 27276
+  },
+  "money": {
+    "paired_nonempty_cells": 1621,
+    "amount_discrepancies": [],
+    "both_blank_cells": 36,
+    "null_representation_cells": 827,
+    "null_representation_keys": 421,
+    "null_representation_types": {
+      "BLANK vs 0.00": 827
+    }
+  },
+  "integrity_issues": [],
+  "financial_matched_rows": {
+    "consumer": 3663,
+    "recovery": 8051,
+    "intersection": 816,
+    "union": 10898,
+    "shared_keys_with_disagreeing_financial_match_flags": 0
+  },
+  "subaward_grain": {
+    "rows": 7964,
+    "with_financial_match": 0,
+    "with_any_financial_window_amount": 0,
+    "parent_linked_rows": 7964
+  },
+  "inclusion_basis_combination_counts": {
+    "[\"machine_lexical\"]": 22491,
+    "[\"machine_lexical\",\"independent_live_known_seed\"]": 87,
+    "[\"independent_live_known_seed\"]": 24,
+    "[\"live_seed_related_identity_conflict_review\"]": 1
+  },
+  "SP470124P0068_financial_row": {
+    "award_key": "CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-",
+    "classification_status": "machine_preliminary_not_verified_program_count",
+    "preliminary_categories": "[]",
+    "record_kinds": "[\"financial_award\"]",
+    "inclusion_basis": "[\"independent_live_known_seed\"]",
+    "join_methods": "[\"exact_source_award_key\"]",
+    "screen_reasons": "[]",
+    "priority_review_reason": "live_seed_separate_human_review",
+    "financial_match": "True",
+    "financial_attribution": "acquired_transaction_sum_only; acquisition_filtered_history_may_be_incomplete; not_allocated_to_safeguard_work; subawards_not_added",
+    "obligations_fy2019_2026_usd": "99767.00",
+    "obligations_fy2024_2026_usd": "99767.00",
+    "obligations_cy2019_2026_usd": "99767.00",
+    "obligations_cy2024_2026_usd": "99767.00",
+    "unique_financial_transactions": "1",
+    "negative_obligation_transactions": "0",
+    "missing_financial_amount_transactions": "0",
+    "first_financial_action_date": "2024-09-09",
+    "last_financial_action_date": "2024-09-09",
+    "financial_entity_names": "[\"RAPID GLOBAL BUSINESS SOLUTIONS, INC\"]",
+    "entity_names": "[\"RAPID GLOBAL BUSINESS SOLUTIONS, INC\"]",
+    "description_count": "1",
+    "descriptions": "[\"SMALL BUSINESS INNOVATIVE RESEARCH PHASE I - L242-005-130 PREDICTING FUTURE DOD MATERIAL OBSOLESCENCE UNDER UNCERTAINTY\"]",
+    "term_hits": "{}",
+    "ambiguous_program_names": "[]",
+    "specific_normative_terms": "[]",
+    "parent_award_keys_not_financially_attributed": "[]",
+    "screened_only_via_subaward": "False",
+    "period_of_performance_current_end_date": "2025-09-09",
+    "period_of_performance_potential_end_date": "2025-09-09",
+    "period_of_performance_start_date": "2024-09-10",
+    "current_total_value_of_award_snapshot_not_summed": "99767.00",
+    "potential_total_value_of_award_snapshot_not_summed": "99767.00",
+    "date_selection_method": "max action_date, then max last_modified_date; conflicting tied field -> null; no forward-fill",
+    "date_or_money_selection_conflicts": "{}",
+    "date_latest_source_action": "2024-09-09",
+    "source_files": "[\"input/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts.jsonl.gz\",\"input/FWI-20261016-normalized-rd-contracts/normalized/usaspending_dod_rd_contracts_transactions_source.parquet\"]",
+    "source_urls": "[\"https://api.usaspending.gov/api/v2/awards/CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-/\",\"https://www.usaspending.gov/award/CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-/\"]",
+    "source_observation_count": "2",
+    "source_record_id_count": "1",
+    "machine_hit_observations": "0",
+    "live_seed_classification_separate": "excluded_after_technical_abstract_review",
+    "live_seed_scope_tier_separate": "adjudicated_out_of_scope",
+    "live_seed_disposition_separate": "Outside autonomy-brakes scope; Weapon-system availability and business risk forecasting; no autonomous-system safeguard mechanism described.",
+    "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-09-09\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"99767.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-09-09 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+    "provenance_sidecar": "candidate-provenance.jsonl.gz",
+    "date_history_sidecar": "award-date-fields.jsonl.gz",
+    "recorded_current_end_on_or_after_2026_10_25": "False",
+    "potential_conflicted_financial_instruments_not_attributed": "[]",
+    "quarantined_related_sbir_candidate_keys": "[\"SBIR_UNRESOLVED_UEI:Department of Defense|Defense Logistics Agency|SBIR|Phase I|L242-005-0130|SP4701-24-P-0068|2024:UEI=VFBVNNPZLKL5\"]",
+    "live_seed_technical_title_unlinked_due_to_identity_conflict": "Predicting Future DoD Material Obsolescence Under Uncertainty: AI-enabled Identification and Modeling of Risk-based Factors Derived from U.S. Industry -specific Business Verticals",
+    "live_seed_provenance_path": "audit/live-financial-seed-overlay.json",
+    "live_seed_source_commit": "a0ed4b2c24083287120c1bb8523652f959ffd1b6",
+    "recorded_potential_end_on_or_after_2026_10_25": "False",
+    "categories_supported_only_by_funding_opportunity_goals_not_specific_award_scope": "[]",
+    "screened_only_via_opportunity_goals": "False"
+  },
+  "live_seed_rows": [
+    {
+      "award_key": "ASST_NON_FA86552417047_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2029-09-14\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"618340.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Ethical/transparent social-robot collaboration; weapons-specific scope unresolved"
+    },
+    {
+      "award_key": "ASST_NON_FA87502321015_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-08-01\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2659995.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_FA95501910169_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-03-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"8189255.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_FA95502010130_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-07-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"446745.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Historical normative agency; successor relationship and weapons task scope unresolved"
+    },
+    {
+      "award_key": "ASST_NON_FA95502010342_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-09-17\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"870257.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Human-autonomy trust and ethics; weapons-specific technical restraint not established"
+    },
+    {
+      "award_key": "ASST_NON_FA95502310036_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-11-24\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"399412.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Qualification of robot moral agency; weapons scope unresolved; record period ended"
+    },
+    {
+      "award_key": "ASST_NON_FA95502410043_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-01-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"190678.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_FA95502410054_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-03-17\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"222502.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_FA9550261B207_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2031-08-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2999976.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Grant title and MURI topic establish ethics/autonomy research; exact award SOW and delivered weapons-specific validation not established"
+    },
+    {
+      "award_key": "ASST_NON_N000142612260_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2029-05-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"250000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_N629092212005_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-12-16\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"52729.73\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Autonomous-agent normative cooperation; specific weapons-law application unverified"
+    },
+    {
+      "award_key": "ASST_NON_W911NF2120152_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-03-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1305711.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_W911NF2320005_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-11-30\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"600000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Generic contract description or weak lexical lead; financial existence verified, safeguard function not adjudicated"
+    },
+    {
+      "award_key": "ASST_NON_W911NF2420024_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-05-15\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"528827.37\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "ASST_NON_W911NF2420185_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-05-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1038940.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Generic contract description or weak lexical lead; financial existence verified, safeguard function not adjudicated"
+    },
+    {
+      "award_key": "ASST_NON_W911NF2510079_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2029-03-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"457080.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Human moral judgments/social-science research; not established technical weapons restraint"
+    },
+    {
+      "award_key": "ASST_NON_W911NF261A113_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2029-03-31\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"129902.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Computational normative agency; exact weapons/LOAC task scope and PI not verified"
+    },
+    {
+      "award_key": "ASST_NON_W911NF262A210_097",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2029-10-08\",\"financial_verification\":\"USAspending assistance actions exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"700000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_FA239124CB020_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-10-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"999974.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Dynamic operating boundaries address trajectory safety; no bounded lethal engagement envelope established."
+    },
+    {
+      "award_key": "CONT_AWD_FA239124CB023_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-04-20\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"984964.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-04-20 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Temporal/liveness constraints are generic; no engagement or normative restriction specified."
+    },
+    {
+      "award_key": "CONT_AWD_FA248722FA002_9700_FA248718D4700_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2028-03-14\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"48989772.86\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2028-03-14 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Whole-order obligations not allocable to safeguards or ethics; excluded from additive case totals"
+    },
+    {
+      "award_key": "CONT_AWD_FA864921P0108_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2021-07-22\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"149898.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2021-07-22 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Supervision analysis does not establish positive human attack authority; aviation certification is the stated target."
+    },
+    {
+      "award_key": "CONT_AWD_FA864921P1296_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2021-07-14\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"49998.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2021-07-14 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Ethical behavior of lethal robots and trust calibration; historical Phase I, not current deployment"
+    },
+    {
+      "award_key": "CONT_AWD_FA864922P0787_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-12-04\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"749792.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-12-04 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; The tests are proposed in the abstract, not certified results; geofence is physical-flight safety, not an identified legal engagement rule."
+    },
+    {
+      "award_key": "CONT_AWD_FA864922P1015_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-12-11\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"750000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-12-11 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Historical ethical decision-support lineage; expired record is not current implementation"
+    },
+    {
+      "award_key": "CONT_AWD_FA864924P0465_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-04-13\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1249903.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-04-13 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; title corrected; Full abstract concerns safety of flight; title alone cannot establish normative ethics testing."
+    },
+    {
+      "award_key": "CONT_AWD_FA864925P0010_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-09-16\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1249987.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-09-16 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C candidate with harm-benefit claim; Collateral reduction is a claimed benefit; no normative scoring, constraint or civilian-harm test specified."
+    },
+    {
+      "award_key": "CONT_AWD_FA864926P0093_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-09-28\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"74771.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-09-28 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Secure provisioning does not demonstrate positive authorization of a particular target"
+    },
+    {
+      "award_key": "CONT_AWD_FA864926P0169_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-09-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"74973.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-09-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Record-expired at cutoff; not an ethical governor"
+    },
+    {
+      "award_key": "CONT_AWD_FA865022P2333_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-05-22\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"149268.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-05-22 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Flight-ready integration and generalization are future objectives; no normative or engagement properties stated."
+    },
+    {
+      "award_key": "CONT_AWD_FA865124CB024_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-09-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2839551.44\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-09-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Uncertainty and sensor coordination can support lawful operation; not a legal test by themselves"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB001_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-10-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"3961000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB002_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-11-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"999956.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-11-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB003_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-10-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"3136423.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB004_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-10-27\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"3498700.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-08-14 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB006_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-10-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2729992.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB007_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-03-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2979931.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-03-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA865125CB018_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-10-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"3189052.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Normative benchmark; DARPA marks complete; no fielded legal governor established"
+    },
+    {
+      "award_key": "CONT_AWD_FA930219P1008_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2020-01-17\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"149989.27\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2020-01-17 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside autonomous-weapons-brakes scope; ESA/Sikes Act compliance concerns protected wildlife, not LOAC/ROE or lethal autonomous weapons."
+    },
+    {
+      "award_key": "CONT_AWD_FA945117F0013_9700_FA945117D0017_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-01-09\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"9558301.06\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-01-09 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Generic contract description or weak lexical lead; financial existence verified, safeguard function not adjudicated"
+    },
+    {
+      "award_key": "CONT_AWD_FA945125PX001_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-09-09\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"179865.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-09-09 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Policy citation does not establish ethical or LOAC testing; described metrics concern model behavior."
+    },
+    {
+      "award_key": "CONT_AWD_FA945319C0005_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-04-02\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"4804415.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-04-02 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_FA945322CA114_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-07-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2598913.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-07-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_FA945323CA025_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2028-01-03\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"14459457.49\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2028-01-03 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Generic contract description or weak lexical lead; financial existence verified, safeguard function not adjudicated"
+    },
+    {
+      "award_key": "CONT_AWD_FA945325CX026_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-07-04\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"179974.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-07-04 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Formal safety specifications are not identified as normative/ROE constraints; guarantees are research objectives."
+    },
+    {
+      "award_key": "CONT_AWD_FA945326CX013_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2031-07-16\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"708340.99\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2031-07-16 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Detection/tracking/classification performance; no reviewed explicit normative acceptance test"
+    },
+    {
+      "award_key": "CONT_AWD_FD01_9700_N0017814D7932_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-09-08\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"12455401.23\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-09-08 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Described material/electronics/general-support scope does not establish autonomy safeguards; excluded from safeguards totals"
+    },
+    {
+      "award_key": "CONT_AWD_HDTRA124P0013_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-01-12\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"172463.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-01-12 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside AI/autonomy-brakes scope; UAS is a measurement carrier; no autonomous decision-assurance or weapons-control mechanism described."
+    },
+    {
+      "award_key": "CONT_AWD_HQ086024C7606_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-04-02\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1497287.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-04-02 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent explainability/training; Tactics/explainability are not ethical rules or a guaranteed authorization boundary."
+    },
+    {
+      "award_key": "CONT_AWD_HR001125F0028_9700_HR001122D0001_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-04-16\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2481841.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-04-16 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Explicit ROE/legal ambition; exact task SOW not inspected; public civilian-domain benchmarks are not weapons LOAC validation or fielded enforcement"
+    },
+    {
+      "award_key": "CONT_AWD_HY023325PE005_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-02-15\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"149830.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-02-15 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Capability candidate; safeguards underspecified; Trusted AI label and human interface do not specify positive authorization, veto or normative tests."
+    },
+    {
+      "award_key": "CONT_AWD_N0002424CS166_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-08-19\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1177083.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-08-19 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Safety standard compliance is not automatically laws-of-war compliance; base and unawarded option objectives differ."
+    },
+    {
+      "award_key": "CONT_AWD_N0002424CT205_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-09-25\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1755143.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-09-25 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent cybersecurity assurance; Cyber attack-surface reduction; autonomous cyber tooling is not necessarily autonomous-weapons assurance."
+    },
+    {
+      "award_key": "CONT_AWD_N0002425CS104_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2028-08-18\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1393577.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2028-08-18 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Multi-sensor vessel classification; A-enabling contribution retained, not comprehensive LOAC enforcement"
+    },
+    {
+      "award_key": "CONT_AWD_N0002425CS278_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-08-18\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"139850.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-08-18 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent information assurance; Secure retrieval for undersea decision support; no lethal-authority or normative acceptance test described."
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-07-05\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"24423706.49\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-07-05 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Described material/electronics/general-support scope does not establish autonomy safeguards; excluded from safeguards totals"
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-05-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"27836455.94\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2028-11-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_N6600122C0074_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-09-25\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"11361041.02\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-09-25 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Generic contract description or weak lexical lead; financial existence verified, safeguard function not adjudicated"
+    },
+    {
+      "award_key": "CONT_AWD_N6600126C0027_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2031-04-27\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"13108125.4\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2031-04-27 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_N6660425F3001_9700_N0017819D8623_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-12-17\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"41938216.39\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2029-12-17 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Described material/electronics/general-support scope does not establish autonomy safeguards; excluded from safeguards totals"
+    },
+    {
+      "award_key": "CONT_AWD_N6660425F3014_9700_N0017819D8623_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-09-20\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"8373353.76\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2030-09-20 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Described material/electronics/general-support scope does not establish autonomy safeguards; excluded from safeguards totals"
+    },
+    {
+      "award_key": "CONT_AWD_N6833519C0585_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2021-06-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"993996.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2021-06-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent communications resilience; Communications capability accelerates operations; no specific AI assurance or human lethal-control mechanism described."
+    },
+    {
+      "award_key": "CONT_AWD_N6833520C0330_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2022-03-28\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1699065.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2022-03-28 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent navigation/landing safety; Remote command latency motivates autonomy; it does not establish legal engagement controls."
+    },
+    {
+      "award_key": "CONT_AWD_N6833520C0794_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2021-01-13\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"140000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2021-07-12 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Cyber-physical sensor integrity can support autonomy but no specific weapon/legal safeguard is described."
+    },
+    {
+      "award_key": "CONT_AWD_N6833520F0171_9700_N6833520G1040_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2020-04-20\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"143121.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2020-04-20 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Certification aspiration does not identify normative properties or achieved field certification."
+    },
+    {
+      "award_key": "CONT_AWD_N6833521C0321_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-06-15\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2999974.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-06-15 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent explainability/human teaming; Commander understanding can aid control; no explicit veto, target authorization or ROE evaluation specified."
+    },
+    {
+      "award_key": "CONT_AWD_N6833521C0510_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-08-19\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"999459.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-08-19 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "ROE-constrained autonomy topic; historical award; implementation/currentness limits"
+    },
+    {
+      "award_key": "CONT_AWD_N6833521C0549_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-11-18\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1499179.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-11-18 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Historical research tied to ROE requirements; no current operational proof"
+    },
+    {
+      "award_key": "CONT_AWD_N6833521C0849_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2022-03-22\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"139996.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2022-09-18 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent aviation diagnostics; Aircraft health monitoring, not assurance of autonomous targeting or an ethical governor."
+    },
+    {
+      "award_key": "CONT_AWD_N6833523C0430_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-12-11\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"146468.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-06-10 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Safety administration/certification is real governance; no ethical or ROE test specified."
+    },
+    {
+      "award_key": "CONT_AWD_N6833523C0503_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-01-16\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"139974.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-07-16 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Links prior NNV use in Assured Autonomy; not evidence this award tests LOAC or continues ASIMOV."
+    },
+    {
+      "award_key": "CONT_AWD_N6833523C0505_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-07-16\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"239971.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-07-16 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Phase I precursor to TOOL-VAN; generic safety/mission properties do not establish legal tests."
+    },
+    {
+      "award_key": "CONT_AWD_N6833523C0636_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-11-04\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"238840.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-11-04 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent cybersecurity assurance; Same project description as later award; separate award identity does not make two independent programs."
+    },
+    {
+      "award_key": "CONT_AWD_N6833524C0074_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-04-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"146441.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-10-28 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent ATR classification; Do not transfer explicit noncombatant requirements from another performer abstract; normative function remains unestablished here."
+    },
+    {
+      "award_key": "CONT_AWD_N6833524C0075_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-01-12\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"236341.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-01-12 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Distinction-related classification candidate; Prior radar performance is claimed; commercial-vessel separation is not complete legal distinction or attack approval."
+    },
+    {
+      "award_key": "CONT_AWD_N6833524C0076_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-04-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"140000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-10-28 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Distinction-related classification candidate; Task overlaps distinction; no legal status reasoning, engagement restriction or normative evaluation protocol specified."
+    },
+    {
+      "award_key": "CONT_AWD_N6833524C0087_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-05-06\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"146427.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-11-04 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent navigation/landing safety; Non-cooperative target means landing platform here, not an adversarial combatant classification."
+    },
+    {
+      "award_key": "CONT_AWD_N6833524C0261_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-05-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"999955.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2028-05-31 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Generic specifications could support many properties; abstract does not identify normative/ROE specifications."
+    },
+    {
+      "award_key": "CONT_AWD_N6833524C0442_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-01-15\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"139545.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-01-15 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Cyber-scope constraint candidate; ROE language is explicit but cyber-scoped; no kinetic-weapon LOAC testing or human lethal veto established."
+    },
+    {
+      "award_key": "CONT_AWD_N6833525C0069_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-12-16\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"246450.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-12-16 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Engineering state/sensor assurance; reducing mission abort is not an abort safeguard."
+    },
+    {
+      "award_key": "CONT_AWD_N6833525C0110_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-02-11\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"998716.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2028-02-11 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Combatant/noncombatant vessel classification; A-enabling contribution retained, not contextual legal target determination"
+    },
+    {
+      "award_key": "CONT_AWD_N6893622C0001_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-09-18\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1600000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-09-18 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent navigation resilience; Resilient navigation/network support does not establish normative targeting or abort controls."
+    },
+    {
+      "award_key": "CONT_AWD_SP470122P0038_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-09-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"74999.64\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-09-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside AI/autonomy-brakes scope; A separate supply-chain award, not an autonomous-weapons safety program."
+    },
+    {
+      "award_key": "CONT_AWD_SP470122P0039_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-09-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"74999.64\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-09-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside AI/autonomy-brakes scope; Supply-chain assurance; no AI or autonomy decision safeguard described."
+    },
+    {
+      "award_key": "CONT_AWD_SP470123C0057_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-09-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"750000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-09-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside AI/autonomy-brakes scope; Hypersonic materials and automated fabrication are not autonomous-weapon safeguards."
+    },
+    {
+      "award_key": "CONT_AWD_SP470124P0068_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-09-09\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"99767.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-09-09 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside autonomy-brakes scope; Weapon-system availability and business risk forecasting; no autonomous-system safeguard mechanism described."
+    },
+    {
+      "award_key": "CONT_AWD_W15QKN22P0057_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2023-03-31\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"173000.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2023-03-31 12:03:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Explicit bounded behavior makes this more than generic AI QA, but no legal boundary or operational lock demonstrated."
+    },
+    {
+      "award_key": "CONT_AWD_W31P4Q20C0021_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2021-01-08\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"111287.33\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2021-01-08 12:01:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside AI/autonomy-brakes scope; Automated manufacturing and hardware testing are not autonomous decision assurance."
+    },
+    {
+      "award_key": "CONT_AWD_W31P4Q26F0015_9700_W31P4Q22D0025_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-01-29\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1988634.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-01-29 12:01:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Whole mission-planning order, not normative-feature-only allocation; blocking effectiveness and combat deployment not established"
+    },
+    {
+      "award_key": "CONT_AWD_W5170124C0007_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-06-04\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"249993.75\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-06-04 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent navigation resilience; Jamming/spoofing resistance is asserted; universal inability to fail is not verified by this review."
+    },
+    {
+      "award_key": "CONT_AWD_W5170124C0035_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-01-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1696644.84\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-01-30 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Explicit civilian-infrastructure collateral-harm context; AI/autonomous-weapon integration and achieved harm reduction not established"
+    },
+    {
+      "award_key": "CONT_AWD_W5170124C0049_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-08-19\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"199982.45\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-08-19 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Control of software execution differs from attack authorization; no normative policy specified."
+    },
+    {
+      "award_key": "CONT_AWD_W5170124C0063_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2024-09-27\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"249841.17\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2024-09-27 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Outside AI/autonomy-brakes scope; Robust sensor hardware and targeting applications do not establish assurance of autonomous decisions."
+    },
+    {
+      "award_key": "CONT_AWD_W5170124C0134_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-09-18\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1899936.27\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-09-18 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Vulnerability testing supports robustness; no civilian-harm, ROE or ethical acceptance tests described."
+    },
+    {
+      "award_key": "CONT_AWD_W5170124C0174_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-01-07\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1899970.59\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-01-07 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Record-expired award; does not prove entire Linchpin program ended"
+    },
+    {
+      "award_key": "CONT_AWD_W5170125C0031_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-06-13\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1999605.08\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-06-13 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent ATR explainability; Recognition capability and data generalization, with no ethical-validation or attack-authorization test described."
+    },
+    {
+      "award_key": "CONT_AWD_W5170125C0052_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-10-29\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1899998.92\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-29 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "LOAC-linked scoring and instruction; expressly does not make engagement decisions"
+    },
+    {
+      "award_key": "CONT_AWD_W5170125CA119_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-10-07\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1599948.06\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-07 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent navigation/landing safety; Aviation reliability; no engagement authority or normative test described."
+    },
+    {
+      "award_key": "CONT_AWD_W5170125CA122_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-04-01\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"1899990.57\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2027-04-01 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Core technical assurance candidate; Monitor/policy enforcement refers to secure execution; no ethical or weapons-ROE policy specified."
+    },
+    {
+      "award_key": "CONT_AWD_W5170125CA166_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-01-21\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"249933.49\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-01-21 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "C-adjacent RF calibration; Validates transmitter fidelity; not an autonomous decision or lethal-control safeguard in this abstract."
+    },
+    {
+      "award_key": "CONT_AWD_W5170125FA002_9700_W5170125DA002_9700",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2025-10-15\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"999839.02\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2025-10-15 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_W5170126CA153_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-10-12\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"249999.74\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-10-12 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_W56HZV19C0053_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-01-30\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"31126406.22\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-01-30 12:01:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Technical-assurance lead; no explicit weapons-law acceptance test established from reviewed description; no whole-award safeguards attribution"
+    },
+    {
+      "award_key": "CONT_AWD_W900KK24C0020_9700_-NONE-_-NONE-",
+      "financial_match": "True",
+      "inclusion_basis": "[\"machine_lexical\",\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-06-15\",\"financial_verification\":\"FPDS/API exact reconciliation\",\"funding_instrument_schema\":\"standard_contract_or_assistance\",\"net_obligations_usd\":\"2495273.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"2026-06-15 00:00:00\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Generic contract description or weak lexical lead; financial existence verified, safeguard function not adjudicated"
+    },
+    {
+      "award_key": "CONT_IDV_FA870225DB003_9700",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2030-06-30\",\"financial_verification\":\"parent or unresolved; not an action reconciliation\",\"funding_instrument_schema\":\"standard_FAR_IDV\",\"net_obligations_usd\":\"0.0\",\"ot_aggregate_minus_actions_usd\":null,\"ot_feed_aggregate_obligations_usd\":null,\"potential_end\":\"\",\"visible_ot_action_obligations_usd\":null}",
+      "live_seed_disposition_separate": "Parent vehicle is not a specific safeguard task or absence-of-funding test; parent value excluded"
+    },
+    {
+      "award_key": "FPDS_OTHER_TRANSACTION_IDV:9700:HR00112490431",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-04-30\",\"financial_verification\":\"FPDS visible actions sum exactly to feed aggregate; no USAspending match\",\"funding_instrument_schema\":\"FPDS OtherTransactionIDV funded prototype, not a FAR parent-IDV ceiling\",\"net_obligations_usd\":\"1444520.00\",\"ot_aggregate_minus_actions_usd\":\"0.00\",\"ot_feed_aggregate_obligations_usd\":\"1444520.00\",\"potential_end\":\"2027-10-30\",\"visible_ot_action_obligations_usd\":\"1444520.00\"}",
+      "live_seed_disposition_separate": "Resolved via primary OtherTransactionIDV schema; public normative/assurance research, not fielded legal governor"
+    },
+    {
+      "award_key": "FPDS_OTHER_TRANSACTION_IDV:9700:HR00112590088",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2026-05-09\",\"financial_verification\":\"UNRESOLVED: visible action sum differs from feed aggregate; excluded from reconciled totals\",\"funding_instrument_schema\":\"FPDS OtherTransactionIDV funded prototype, not a FAR parent-IDV ceiling\",\"net_obligations_usd\":null,\"ot_aggregate_minus_actions_usd\":\"345214.00\",\"ot_feed_aggregate_obligations_usd\":\"1998788.00\",\"potential_end\":\"2027-02-10\",\"visible_ot_action_obligations_usd\":\"1653574.00\"}",
+      "live_seed_disposition_separate": "Resolved via primary OtherTransactionIDV schema; public normative/assurance research, not fielded legal governor"
+    },
+    {
+      "award_key": "FPDS_OTHER_TRANSACTION_IDV:9700:HR00112590089",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-05-31\",\"financial_verification\":\"FPDS visible actions sum exactly to feed aggregate; no USAspending match\",\"funding_instrument_schema\":\"FPDS OtherTransactionIDV funded prototype, not a FAR parent-IDV ceiling\",\"net_obligations_usd\":\"1500553.00\",\"ot_aggregate_minus_actions_usd\":\"0.00\",\"ot_feed_aggregate_obligations_usd\":\"1500553.00\",\"potential_end\":\"2027-05-31\",\"visible_ot_action_obligations_usd\":\"1500553.00\"}",
+      "live_seed_disposition_separate": "Resolved via primary OtherTransactionIDV schema; public normative/assurance research, not fielded legal governor"
+    },
+    {
+      "award_key": "FPDS_OTHER_TRANSACTION_IDV:9700:HR00112590097",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-04-05\",\"financial_verification\":\"UNRESOLVED: visible action sum differs from feed aggregate; excluded from reconciled totals\",\"funding_instrument_schema\":\"FPDS OtherTransactionIDV funded prototype, not a FAR parent-IDV ceiling\",\"net_obligations_usd\":null,\"ot_aggregate_minus_actions_usd\":\"-113495.00\",\"ot_feed_aggregate_obligations_usd\":\"1336460.00\",\"potential_end\":\"2027-04-05\",\"visible_ot_action_obligations_usd\":\"1449955.00\"}",
+      "live_seed_disposition_separate": "Resolved via primary OtherTransactionIDV schema; public normative/assurance research, not fielded legal governor"
+    },
+    {
+      "award_key": "FPDS_OTHER_TRANSACTION_IDV:9700:HR00112590098",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-04-05\",\"financial_verification\":\"UNRESOLVED: visible action sum differs from feed aggregate; excluded from reconciled totals\",\"funding_instrument_schema\":\"FPDS OtherTransactionIDV funded prototype, not a FAR parent-IDV ceiling\",\"net_obligations_usd\":null,\"ot_aggregate_minus_actions_usd\":\"461855.00\",\"ot_feed_aggregate_obligations_usd\":\"1999705.00\",\"potential_end\":\"2027-04-05\",\"visible_ot_action_obligations_usd\":\"1537850.00\"}",
+      "live_seed_disposition_separate": "Resolved via primary OtherTransactionIDV schema; public normative/assurance research, not fielded legal governor"
+    },
+    {
+      "award_key": "FPDS_OTHER_TRANSACTION_IDV:9700:HR00112590099",
+      "financial_match": "False",
+      "inclusion_basis": "[\"independent_live_known_seed\"]",
+      "live_financial_values_not_combined_with_archive": "{\"current_end\":\"2027-04-05\",\"financial_verification\":\"UNRESOLVED: visible action sum differs from feed aggregate; excluded from reconciled totals\",\"funding_instrument_schema\":\"FPDS OtherTransactionIDV funded prototype, not a FAR parent-IDV ceiling\",\"net_obligations_usd\":null,\"ot_aggregate_minus_actions_usd\":\"499973.00\",\"ot_feed_aggregate_obligations_usd\":\"1999992.00\",\"potential_end\":\"2027-04-05\",\"visible_ot_action_obligations_usd\":\"1500019.00\"}",
+      "live_seed_disposition_separate": "Resolved via primary OtherTransactionIDV schema; public normative/assurance research, not fielded legal governor"
+    }
+  ]
+}
