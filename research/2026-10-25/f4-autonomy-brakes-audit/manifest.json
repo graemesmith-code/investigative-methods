@@ -1,0 +1,1492 @@
+{
+  "format_version": 1,
+  "research_cutoff": "2026-10-25",
+  "generated_utc": "2026-10-25T15:47:30.099652+00:00",
+  "scope": "All authored deliverables, registers, audit records and scripts in this directory; private raw third-party caches and transferred input archives excluded intentionally.",
+  "inventory": [
+    {
+      "path": "READING_PACK.md",
+      "bytes": 12690,
+      "sha256": "f32c263e8982e3754110c5612e0d2f3d074222e7db39e26b0754f3cb2e505647",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5149,
+      "sha256": "2969301d600e4e2c75e281daf0353a1870e0b37f4a09a11a898d8195de8af8a2",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/EDITOR_REPORTER_LOOP_LOG.md",
+      "bytes": 7125,
+      "sha256": "fdda70ac7702dbe92d9cf932443576622e100c9c596f3ab3274f85187bb329f3",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/PROVISIONAL_REVIEW_SNAPSHOT.md",
+      "bytes": 1945,
+      "sha256": "1d6b06d9920d6a4b550a5e67d4af077a6f0796c693b783e789061c181e9238c6",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/REPORTER_RESPONSE_R2.md",
+      "bytes": 8802,
+      "sha256": "c84b499ea0ab8bf666d50d5cfd1c756fed2f7137893b8434bfe03919e353ff46",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/REQUESTED_SOURCE_STATUS.md",
+      "bytes": 5583,
+      "sha256": "595a233ed11bdc4f13157e4a3d5f7a47615d17db610090b0b4ccd55c84f9f060",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/acquisition-history-coverage.json",
+      "bytes": 3600,
+      "sha256": "a051b50b134cbf6fbef3838e289ce23052df0e485793c42b40be5df10b0d265f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/additional-source-retrievals.json",
+      "bytes": 2171,
+      "sha256": "75d75980945ca90674ecf998153d1dde64d507993fcce371f5ebd161e9b2150e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/auxiliary-A-scope-dispositions.md",
+      "bytes": 8807,
+      "sha256": "7923ee36eec4088ec66650864be380bca15a2f06857eddec2df5d3a6f9afbb00",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/available-register-membership.json",
+      "bytes": 2575,
+      "sha256": "c78b434cc9c090955baa7b198b251a1fb80f73ef18b9a06a748295ef76825423",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/combined-live-inventory-accounting.json",
+      "bytes": 573,
+      "sha256": "e41cc3d515e3dacc2af59be53b0a2f9f62ea0ceee20881470ce19c5d4f4be483",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/cp-coe-cache-retrieval-outcomes.json",
+      "bytes": 1535,
+      "sha256": "c1a2f7a13545cb0517fd283609a043c866562269ca6d1a11952d891c22285035",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/editor-round1.md",
+      "bytes": 7516,
+      "sha256": "07ec4ff235cf4c3043923b60e1d58f4de4c5c7e38d5a9d43061c21e30e02a35a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/editor-round2.md",
+      "bytes": 8200,
+      "sha256": "a25c29c3c6ace9011a9a75435223c22b80d8e3de5b183855c4127712f297c1be",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/editor-round3.md",
+      "bytes": 8967,
+      "sha256": "6e7a6eb9c660f59adf6f0505b8c3d0d2a3cc8b6588ebed6a1c568c0606c962b3",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/exa-discovery-accounting.json",
+      "bytes": 368,
+      "sha256": "a50fcd31d82ce584854ee2266718bbc3743b46736f8c65890777dd75eaec7306",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/exa-discovery-register.json",
+      "bytes": 1042568,
+      "sha256": "e2ef4b12471b3f5cb04184e51e318c53836db24996b9c35fa4716696eac0848e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/exa-query-cost-log.csv",
+      "bytes": 47659,
+      "sha256": "122f9a7a6d733acef606455fd1cbe5c0d9460f8eb5325c06aafd72b55e1935a1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/live-disposition-accounting.json",
+      "bytes": 1095,
+      "sha256": "3c3e2b9a8bf690ad65ee44fc85a8786b211d28fb52ad7b68adee188895086dc7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/live-retrieval-log.json",
+      "bytes": 795321,
+      "sha256": "901e385bd936917b52222da883d4f26fa9c090536d87f8f19d199efff8ba3638",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/methodology-accounting.json",
+      "bytes": 2960,
+      "sha256": "fc1087212707a24e6f21d695e60f5c8c969f3a6e7aa95712dda07c352fd0b7f6",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/ota-keyword-followups.json",
+      "bytes": 93705,
+      "sha256": "6dd5e69dbdb152d238116ce8ceedd5ee4b640f6d8be053271aa26b5c3016cf25",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/ota-retrieval-log.json",
+      "bytes": 6330,
+      "sha256": "30ba0574ec4f9c9b4f231ce978bfd59f5cca394b7f05fd746a370b83d29f642b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/parallel-register-reconciliation.json",
+      "bytes": 911,
+      "sha256": "25f7f9097723135d320c557bf6e90fba62a420fd8ef4ba18895384f62cdf72b9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/reviewed-case-accounting.json",
+      "bytes": 2363,
+      "sha256": "59c8c88acfe081f319bc0c8908839a0e13112d404b1c8e46b00561b73305d465",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-accounting.json",
+      "bytes": 79253,
+      "sha256": "ecbbd0ec03e9e2f5538e41307bdc0abe2ece36ead267a157470923a466232eee",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-auxiliary-accounting.json",
+      "bytes": 201699,
+      "sha256": "081f1b5c73654ab9ab555cefc337976dcd193028bf62c511d2fd1905cfbeec12",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-auxiliary-award-integration.json",
+      "bytes": 2023,
+      "sha256": "8015bc4bb57a2756fcc3e4534f5f83b3e661114a220d67d1bc633a9d3e152722",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-auxiliary-run-lexicon.json",
+      "bytes": 3903,
+      "sha256": "d7d23f2878ca6993714d1cd0c6d03b1743d95903a39b1c6c5046fc5912cae6aa",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-code-validation.json",
+      "bytes": 2788,
+      "sha256": "b0a97490305d564f36513377f6b9881fc3b6c7b2550d6b72075ba48f14d4e407",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-complete-input-coverage.json",
+      "bytes": 1836,
+      "sha256": "bfddc9395804be6f2327faae33ef5e2c79abe678d0688b348aec971e9a133e23",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-editor-supplement-initial.json",
+      "bytes": 5523,
+      "sha256": "ed95e6f6ec9aaf83510a8bdef37bd3f7ef7bf099de0843fdbc4e5d8f383fa231",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-editor-supplement.json",
+      "bytes": 5411,
+      "sha256": "52167c9a9334e2f52159ab84805c2b5e97a86ac9db749103d6df0d9fee098a37",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-end-date-enrichment.json",
+      "bytes": 513,
+      "sha256": "8a7ad3eb9afb12aa3b208d00564875d5c91aa01acf0ff7d89014445791bb8f6b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-execution-notes.json",
+      "bytes": 2917,
+      "sha256": "d6c99ee68772539857463777ab4e524f1accd52233a4b23f8d84fc408724c6c1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-final-register-validation.json",
+      "bytes": 2189,
+      "sha256": "3e784413daa892faa320384e297b3af8d0fae129573e15f4dfa1b3349bed0dc1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-financial-cross-validation.json",
+      "bytes": 4828,
+      "sha256": "1920293e20874529c433c5069aa8ed0748870f7cf12eed53aa7ca1c8d21af8d7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-institution-supplement-raw-office-snapshot.json",
+      "bytes": 833831,
+      "sha256": "8db03c639653e6e0f1ab3ccf5adebd6b02fb378d98107316a6c96e9495e7c57f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-institution-supplement.json",
+      "bytes": 833984,
+      "sha256": "202ec3a7e6ffec7948dbf420acf274097e0eb92f8ccb3e12f218fe075341671f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/screen-new-category-A-auxiliary-review.json",
+      "bytes": 12064,
+      "sha256": "51af6fafdbf44ba717243a7e74c3a8e5170f41ecb77afa7455a7ef7f10b7b648",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "audit/source-retrieval-register.json",
+      "bytes": 7469,
+      "sha256": "3208db424dc0875f2f91c714c70ad376c140e4876b656ce38accbb32100f54ca",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/SCREENING.md",
+      "bytes": 12175,
+      "sha256": "67d122377da5ca59e6e6483972108e8028829f4d1d1c15cdf6cf74e2229139cc",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/build_discovery_register.py",
+      "bytes": 2323,
+      "sha256": "a4cc321a55a662961edf7a84bc63da009ad3ca0014b520f611a7abdbdfc7dbe2",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/build_live_dispositions.py",
+      "bytes": 6935,
+      "sha256": "8eff7ea518b3008c656d94bdec45546f280511514f4c08b8c6ae552d01de1ec0",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/build_reviewed_cases.py",
+      "bytes": 14483,
+      "sha256": "8de40e61814fcd7f7b4a2cd0715b89100017326e771b1770470f73c1b678e5a1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/build_scope_review.py",
+      "bytes": 20373,
+      "sha256": "9725340357c0a9d8a5d53f54e515ee0b9205f1ecb2826687e71c052897fa8de3",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/evidence_views.py",
+      "bytes": 3483,
+      "sha256": "919f6383cf505ade9c4dff4b2514361950c57e83d7011b9a0693a68d3169f3e9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/exa_serial.py",
+      "bytes": 4865,
+      "sha256": "4e531a186f9b8e45785883868d01b434dbc6aee165c7c86ba0f46837ef5da27e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/extract_live_technical.py",
+      "bytes": 1559,
+      "sha256": "af02ffb1a9f6deffa1657578801a9698ae78c9519e60dd8e311951db6a90e798",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/fetch_sources.py",
+      "bytes": 2943,
+      "sha256": "99f5e36b69f9c9bda29609c48ae315aa0b59914f7e9cee54c60685c00ab5645c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/integrate_ota_inventory.py",
+      "bytes": 4871,
+      "sha256": "199c50be518205b2fdc93bd5c3653589ed2f317a48810014aabe61d61014c6da",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/live_verify.py",
+      "bytes": 27078,
+      "sha256": "ba51287399cd68b05d3e382a7494159bfa7097c2aca37aa211c2ce6569756b86",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/package_artifacts.py",
+      "bytes": 6535,
+      "sha256": "03e3e6168a71639e7f611369e31ca51bc35bb636ad8a64d265450594ba9214a6",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/reconcile_available_registers.py",
+      "bytes": 10230,
+      "sha256": "1ff7bf77a3d5dcbef356ca081012a8b2fb0655255387d5fa9d98f27d573b2877",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/reconcile_parallel_registers.py",
+      "bytes": 9595,
+      "sha256": "9f0450c70cac3611789456f218d13897c021960fbe2092a31c98beef888e57cf",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/screen_archives.py",
+      "bytes": 77614,
+      "sha256": "e179c4afc621280e048bef323045d19416f142aa48f64303fbc4db763f90690a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/verify_codord_extra.py",
+      "bytes": 1150,
+      "sha256": "8298a18c7923e14902e77280a9522c0078d8b549dc6ed2611c0ba574ddece150",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/verify_ota_keywords.py",
+      "bytes": 5431,
+      "sha256": "b5254ef9a78745fd1394512d2ab7f3321098d63758e8ac022f8192ed2c412ff1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "code/verify_ota_sources.py",
+      "bytes": 9124,
+      "sha256": "c36eefe6bbd144331a7a601c5cbb23a12e9c700f7c0d9246ac9e02ecfee265d4",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/acquisition-history-missing-actions.csv",
+      "bytes": 32399,
+      "sha256": "8286c0c1c01a551d24257191b3edef2497dc608ff2dfd8540322f68dd28f328e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/additional-counterexamples.md",
+      "bytes": 7929,
+      "sha256": "a14aa6cb18f4d9a0f861109ebe9db61c153393e2cc35df7a69e8973a1c607914",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/asimov-performer-continuation-check.csv",
+      "bytes": 47027154,
+      "sha256": "ba3e01dd44cdc3b1479abce1d9034770dac96585abec53b834eff6c6a96b81c4",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/auxiliary-candidates.jsonl",
+      "bytes": 48716850,
+      "sha256": "ae9fbb8d6ad8873be2514e36d9ac3f552245241c32f09ca8dc406e1e4f765db4",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/available-register-membership.csv",
+      "bytes": 1470893,
+      "sha256": "e73906d17ddc2f45154c93a3019c6d2282ca1af99754c1ca4a5c9eb7d3cc5bd5",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/brakes-candidate-register.csv",
+      "bytes": 84465834,
+      "sha256": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/brakes-candidate-register.json",
+      "bytes": 102378238,
+      "sha256": "d51c0f279bf94659a65d6fd00ff2880a74d0afd2096a320842135b9a7dc84f35",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/camp-scope-actions.csv",
+      "bytes": 1762,
+      "sha256": "cf610efb8df8fe544a2e043ac5f7394aa067b19e0c35fe7eb9498877c089bebf",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/codord-review.md",
+      "bytes": 9065,
+      "sha256": "caf3fc912705503e2e2b1e08f01ca68006a576d0d1b77250fd806fa11e3a2c72",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/combined-live-inventory.csv",
+      "bytes": 158625,
+      "sha256": "f8d6403fdaa87ae090804aef775f027a3bfef47a3f854e8bd8491a42cc68fa09",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/fpds-verified-actions.csv",
+      "bytes": 470083,
+      "sha256": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/README.md",
+      "bytes": 1552,
+      "sha256": "6342e69127903599eb25b0d4ae4df4c8f891e4f97282508cfb0f0a2791f6721c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/SHA256SUMS",
+      "bytes": 15521,
+      "sha256": "ce60699bafc88543738fac7d7b0a3a253892f0d82e8bb9fd174f197156564e90",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/codord-addendum.md",
+      "bytes": 5347,
+      "sha256": "949b8b017687352977da07dddf1d6628c36bfd50aa0b1521b1077284999e5d76",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/editor-verified-candidates.csv",
+      "bytes": 14830,
+      "sha256": "bb73e151c4910d43df580bc028ce6592a40dac27104aaab24f1d2ee330fde04b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/editor-verified-candidates.json",
+      "bytes": 24817,
+      "sha256": "aee27e11781be5c2143bccbe80075de500b0a8dc3e11f071d219c1d38662dfd4",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/hamlet-addendum.md",
+      "bytes": 4383,
+      "sha256": "2f29754596cc4d2d21a376920c25ab90496d17a65affe688ff99e58083261f10",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/human-control-addendum.md",
+      "bytes": 4229,
+      "sha256": "d96462cdee602c78094030eb5c706d58e96c520b8d8334a5897497642c0cfc29",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/grant-search/civilian harm-search.json",
+      "bytes": 538,
+      "sha256": "44ebe3022cf41519d1c71cf1f1f111ee5a0310a4e6256347ee1c8615d9149c69",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/grant-search/deontic-search.json",
+      "bytes": 538,
+      "sha256": "44ebe3022cf41519d1c71cf1f1f111ee5a0310a4e6256347ee1c8615d9149c69",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/grant-search/ethical-search.json",
+      "bytes": 6463,
+      "sha256": "8687d9d2045d51eb8a889b0ce3ddec150617cffebed3ee5666cd6e5256ebfece",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/grant-search/moral-search.json",
+      "bytes": 14281,
+      "sha256": "7ed6e2ca160909584aab412ba797eb7369ec76c38a7e39b452a95e9b871bca4f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/grant-search/request-log.json",
+      "bytes": 3338,
+      "sha256": "a6e00d0423a333014de6baafe26deccfba0129c664752de1d804bf8ad8848703",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA248722FA002-award.json",
+      "bytes": 8521,
+      "sha256": "f8d68859cb716f0e9e786fa9e9f79c8184b7aac7275b372f6f9ea47d6387b6ae",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA248722FA002-search.json",
+      "bytes": 1006,
+      "sha256": "b5f85aef9cd79aaf7caf48e51d123415bc825b4d3632c44534ad1a5e5f2b655d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA248722FA002-transactions.json",
+      "bytes": 20722,
+      "sha256": "3987db43ef6d70355e27f044d45f15e8c2f7ddd3cfc195b8d1ff0342c8029814",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864922P1015-award.json",
+      "bytes": 7887,
+      "sha256": "42ea9fb59ffea9cb9e6ae7e51f1f7bc34b4d33d722887ed120666225987fa3c1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864922P1015-search.json",
+      "bytes": 941,
+      "sha256": "39bedd06fded34156af99d22895d5a7f8d1c625ddf856aa9d46335a8877192e9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864922P1015-transactions.json",
+      "bytes": 1089,
+      "sha256": "583a7b03fd1f72c616a83d399741580c1d9b816d719029731d987fec8ba22317",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864926P0093-award.json",
+      "bytes": 7852,
+      "sha256": "ef16a7d5d8dea24f155683b8b87b17c87ab8fd8867f0fc423b97b8187da89da9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864926P0093-search.json",
+      "bytes": 962,
+      "sha256": "461ae8e4956e93f36828720dd5bbcf67953236fc08de1f8765f0004e06981eb1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864926P0093-transactions.json",
+      "bytes": 586,
+      "sha256": "affe6cad08a6748d32e039ca74535b4b4eb0774400ad147a330155d1ee2f2fc6",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864926P0169-award.json",
+      "bytes": 7853,
+      "sha256": "291b4bc813d14196ec3e89f994f9697c0b773e7db7ec9a0351a8550a54cf5713",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864926P0169-search.json",
+      "bytes": 978,
+      "sha256": "83db932a94d2c6e69603a329bf1d4cb8664c1c0f68124aee8e39c70c3f8db9ae",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA864926P0169-transactions.json",
+      "bytes": 604,
+      "sha256": "3c672746f6e1d62ab41047468fec24651de75e072d73863e9ce509df02bef9dd",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA87502321015-search.json",
+      "bytes": 537,
+      "sha256": "1fb96896e3f3ae8665a63478773b617d9289b96a3763b50f2b50de6ac76f75c8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA945326CX013-award.json",
+      "bytes": 7837,
+      "sha256": "c8a0b7329b75c5f7b9b11e44716ab80af8542a05a6f42aa8e4127e939b670f13",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA945326CX013-search.json",
+      "bytes": 984,
+      "sha256": "877cb109f4675925332d07d1d309d4f75fbc8108da5e5edda62534dc3a27443a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/FA945326CX013-transactions.json",
+      "bytes": 1768,
+      "sha256": "aadc4d7b9e32d03e1d290bd2107217244cd16296cb91357c4677690b2e8be3d1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/HR00112490431-search.json",
+      "bytes": 537,
+      "sha256": "1fb96896e3f3ae8665a63478773b617d9289b96a3763b50f2b50de6ac76f75c8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/N6833521C0510-award.json",
+      "bytes": 8005,
+      "sha256": "4b33ccdd733f9293403d44f1b8fc74e91e441972b3da5db40994786b90f04055",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/N6833521C0510-search.json",
+      "bytes": 885,
+      "sha256": "9874e8377fb4c4eecaa14c8986315251f6e7f551bd1536adb48ace1dcfb2a131",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/N6833521C0510-transactions.json",
+      "bytes": 2913,
+      "sha256": "47711e2a74b5626491032bad0ab039003f6490c12f768c2156d666c2582a49da",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/N6833521C0549-award.json",
+      "bytes": 8004,
+      "sha256": "84602993de8390bb34fd6e0702905d30804fd7627cd1b508a3e9170d02598d0e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/N6833521C0549-search.json",
+      "bytes": 899,
+      "sha256": "a726674ebea2cf5a5fcbc5234bc674111a7e44a4089ebc06350059ba5590d6e8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/N6833521C0549-transactions.json",
+      "bytes": 1985,
+      "sha256": "7f896d3096430d326cfac4d30f4442f3559f52566d9d92912545d1094fd80e86",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/W5170124C0174-award.json",
+      "bytes": 8009,
+      "sha256": "7cc3e9ea675c37782a2bf99bed992926c142e69b685e5286ac90c5b96e2198b8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/W5170124C0174-search.json",
+      "bytes": 916,
+      "sha256": "7877f61eb422348a7753602d9b6eebb59ca75d377e0ef91f4ead6bc3279b9d3f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/W5170124C0174-transactions.json",
+      "bytes": 2159,
+      "sha256": "1349eeb82ec1ad5fb8e4fbd47aabbf18b75521e9b02de9df63d581247842189e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/request-log.json",
+      "bytes": 11995,
+      "sha256": "f759c9b9fe1e53299b6b612a3be9f4f3dc3abaf7012e11ee9b1e42dc73819997",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/verified-summary.csv",
+      "bytes": 3137,
+      "sha256": "0cacce0316a48f2a190a5c718165e30b03cf285e701acb55de96d8c2cd08aa4e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live/verified-summary.json",
+      "bytes": 5272,
+      "sha256": "1d37ba6d60612817ef4d42f73ca6d03485d8a58049bedde2d0d0edde0afc104a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-camp/W31P4Q26F0015-award.json",
+      "bytes": 8472,
+      "sha256": "b3796963f776a13526a2ccfd4bcb535843877e951ec6da565f38a1eea68f982c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-camp/W31P4Q26F0015-search.json",
+      "bytes": 976,
+      "sha256": "d07b74d1926798dd5656be58c6f79674ae10f18e86d371757f33811fa51a1f2d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-camp/W31P4Q26F0015-transactions.json",
+      "bytes": 1136,
+      "sha256": "ecb204b6052d2332aa0944909591a2f844622174b5eb73c2b40bb1fcd576ffe1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-camp/request-log.json",
+      "bytes": 1336,
+      "sha256": "e56b0ce7292a29d4bbe119070bbe9d801c3e30dd779327fdedd83565ba636c9b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-camp/verified-summary.csv",
+      "bytes": 522,
+      "sha256": "c7b656a4481b281ef7b0a4a5e56a5df88066135869301f3b1623f46792f2cab0",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-camp/verified-summary.json",
+      "bytes": 668,
+      "sha256": "137f2cd0d2c8759b95b8b53265d57c34a77111c76801677ef2ede3bcf72f6c59",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-cate/FA864924P0520-award.json",
+      "bytes": 7861,
+      "sha256": "62cee09e382811778a6b8f7b213a62fdc81804a9eaaec9b9d92024d97de5c42a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-cate/FA864924P0520-search.json",
+      "bytes": 959,
+      "sha256": "34fe19a4b641b86d679d462771f96d9ee8a63e6da092176d1dbf0be335fbb60d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-cate/FA864924P0520-transactions.json",
+      "bytes": 1113,
+      "sha256": "3109d829cbb0a2843ac26b4e56507f258f02fdf2491a50bbd828857b278d0825",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-cate/request-log.json",
+      "bytes": 1331,
+      "sha256": "1acef3b4d1d448d4f1bf9c46f9518ab1a7dc00183100762e419c5443eecd3b41",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-cate/verified-summary.csv",
+      "bytes": 498,
+      "sha256": "c1ce1d40f744ecfd6863943a41ad7d82f0d898e167932747b6e5706111d6f377",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-cate/verified-summary.json",
+      "bytes": 646,
+      "sha256": "d28019095decf4b2cf631e1a2171f4317f285ab24ccbf5a7d40456e3f0148e4d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/CODORD-broad-search.json",
+      "bytes": 905,
+      "sha256": "6454dfc0eddaae54643c0d7cf4cf794239a062bca47faf7c1862b62de85c6029",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/Ethical-Constructs-broad-search.json",
+      "bytes": 538,
+      "sha256": "44ebe3022cf41519d1c71cf1f1f111ee5a0310a4e6256347ee1c8615d9149c69",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/HR00112590089-broad-search.json",
+      "bytes": 538,
+      "sha256": "44ebe3022cf41519d1c71cf1f1f111ee5a0310a4e6256347ee1c8615d9149c69",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/HR00112590089-search.json",
+      "bytes": 537,
+      "sha256": "1fb96896e3f3ae8665a63478773b617d9289b96a3763b50f2b50de6ac76f75c8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/HR001125F0028-award.json",
+      "bytes": 8735,
+      "sha256": "e85b6a30ad3b3845f56372ba94db186017955f638a2ef5c46e8f2d53a48b8b01",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/HR001125F0028-search.json",
+      "bytes": 970,
+      "sha256": "fd536be14535202596f6252101323ff356cc90d9cbc28069956658df153792ef",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/HR001125F0028-transactions.json",
+      "bytes": 2135,
+      "sha256": "39aac487ee65ac2a08d434bcf25c490c9fa243771b5297a5a15ad15663c7b9ac",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/request-log.json",
+      "bytes": 2014,
+      "sha256": "b3f36a8e08446599f92df84b177320a5d787b8f845953f7607204c109b361959",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/verified-summary.csv",
+      "bytes": 607,
+      "sha256": "0e3946ca5f86c70cf350cbf1153c1250791e56c1203cfbda80eda58e4923a20f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-codord/verified-summary.json",
+      "bytes": 772,
+      "sha256": "c69fc616d33724f2d7b6e4986127ed07e57e14fc520647eb0dcf8316bfb8d694",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/FA864925P0010-award.json",
+      "bytes": 7931,
+      "sha256": "680581362c1ec8e9971c6151815cf1316166c272b940b94e04cd556d47d8a625",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/FA864925P0010-search.json",
+      "bytes": 992,
+      "sha256": "04c26e6908249a546990924422e47fa0605fd6a68579e750567117d45bf5c0a9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/FA864925P0010-transactions.json",
+      "bytes": 1820,
+      "sha256": "fe1cb5bba175abf11198bedcb2aa8ea2a2d40532d3ba4cb7b167dfd15e585f92",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/N0002425CS104-award.json",
+      "bytes": 7744,
+      "sha256": "11b8408442609119d4332c72d20417844b08c4789e7f88e53729cd0fd7411759",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/N0002425CS104-search.json",
+      "bytes": 900,
+      "sha256": "6876aee80ea443155713a1ecf42f9ffdd1188f43e3d01a23220009fe791ed1f9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/N0002425CS104-transactions.json",
+      "bytes": 1462,
+      "sha256": "d61b01644dff363c2f3ad1a46ea290e493b33a9b88bef3575160ca32a9f2fed9",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/N6833525C0110-award.json",
+      "bytes": 7856,
+      "sha256": "6791c96e36b2fab17d74bf690396ae25ff4c048ee87ab47ccba5b5704f60d745",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/N6833525C0110-search.json",
+      "bytes": 869,
+      "sha256": "bde2946fbd990a727bb0f8031d03c4d215f844083cc41c7b9be656dbb24042e8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/N6833525C0110-transactions.json",
+      "bytes": 503,
+      "sha256": "11c1d053bac4457aeac9029a095b264b975609a9cf23326fd5b4cf4ae10d8ed1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/W5170125C0052-award.json",
+      "bytes": 8087,
+      "sha256": "752d763584482c7f31ea730bc1c691f94a00c8a034804f09a1dd119734b89217",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/W5170125C0052-search.json",
+      "bytes": 1036,
+      "sha256": "2ce83ddb2758570821e6613ae6b0746f58f4bdb4a81cba1c97ad2b5bbae11d42",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/W5170125C0052-transactions.json",
+      "bytes": 1143,
+      "sha256": "94f03c56ffb1021352d7102485bfe557d590f2d8f8f46ac7299ece4c9578a515",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/request-log.json",
+      "bytes": 5318,
+      "sha256": "32b92105e19db05f8e86f22658e6634935cc5016fa6a67c35dbe57a244cb9212",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/verified-summary.csv",
+      "bytes": 1554,
+      "sha256": "a51796394b201c24ccb6837e387bbac723ecbe4fc60fdf021651bfe2f4191015",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-extra/verified-summary.json",
+      "bytes": 2539,
+      "sha256": "aa3301fc17c03e9c30c73807d21920fe31801e751bfce7e8cb7af15e1e2926a4",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-georgia/W911NF261A113-award.json",
+      "bytes": 5402,
+      "sha256": "eb00f49bfcbdace9a8edcd91822139fb85afe87e13cdf162fcbcbba59536f78f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-georgia/W911NF261A113-search.json",
+      "bytes": 930,
+      "sha256": "568eb080c06ce0fed2031aa25cfc0f11484306df7809a77af33549a65cb93e93",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-georgia/W911NF261A113-transactions.json",
+      "bytes": 598,
+      "sha256": "6b3c6b009a403cdf6adb147600956938796ab31db2e7db0e0a50f75e2a60d174",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-georgia/request-log.json",
+      "bytes": 1320,
+      "sha256": "c314c94f27ada94c03424de9c3e94d2e1c6999e67adae697721d2b0df63f0ebf",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-georgia/verified-summary.csv",
+      "bytes": 418,
+      "sha256": "beb6c6d34e7c944f77082ea35bd01cc3f8a43f6ffeac6456579fe2d5de14087a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-georgia/verified-summary.json",
+      "bytes": 574,
+      "sha256": "02f8fb7a8f8db55f28d160c75170d36455ab1070413c07fe4d068cace252e9cd",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA86552417047-award.json",
+      "bytes": 5223,
+      "sha256": "4a2c1f220b6e78545817a1c63c6898f09062a3d4ae2cd87ec8916b63cecf4bfb",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA86552417047-search.json",
+      "bytes": 980,
+      "sha256": "f5503f5e7b34094120068e8fe257c2d9fac922c2e9fa94224df79559237f24b6",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA86552417047-transactions.json",
+      "bytes": 1840,
+      "sha256": "326ff7d6e9e645f9ee7a34aa9a76f71e8811cacec4f6cf8b0819f7904a9e4b60",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA95502010342-award.json",
+      "bytes": 5432,
+      "sha256": "f7cb639f430613fbde8fb02c6e4758bbe78db1f257624c59886ff4e85b4b4ec5",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA95502010342-search.json",
+      "bytes": 931,
+      "sha256": "7cd82eb53e519c66b5dbe3a1781d3fd462044150fb6338f8e1d7301d9e244e4a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA95502010342-transactions.json",
+      "bytes": 3971,
+      "sha256": "376969df42015f7e24ccbda17a30e2ad20d289d1703512ab823f5207b4ee80d6",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA95502310036-award.json",
+      "bytes": 5257,
+      "sha256": "63e0371fcf70468911fed74cfad1b30c5fa34bb88e647d2301c5856cea0f438d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA95502310036-search.json",
+      "bytes": 909,
+      "sha256": "44d61bfeefd5519c5209aadbaca3b14a06d75cd9868fd980a90c2d8909941697",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA95502310036-transactions.json",
+      "bytes": 1123,
+      "sha256": "36660085ad7f716fb645b618941dbebe340ab9347c24aeb29b9149d3f3ba5ff7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA9550261B207-award.json",
+      "bytes": 5297,
+      "sha256": "23b3ed4b35e6d6fc26f035cda50febcc8bf447972c2800a577e71b23e533cb3a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA9550261B207-search.json",
+      "bytes": 990,
+      "sha256": "c8ee68f4feaafe6376f833c743837574f7abe2ea696061dc8bd9c8c9fec1d7dc",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/FA9550261B207-transactions.json",
+      "bytes": 657,
+      "sha256": "914eb7309d6ba649f230aa3548cd32ef6e2fd651da640c59cc83a28e22136fa3",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/W911NF2510079-award.json",
+      "bytes": 5597,
+      "sha256": "230034e57ba5869d1834e841ccb210ffb15f23b81fc4d2e38465fdaac3097563",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/W911NF2510079-search.json",
+      "bytes": 923,
+      "sha256": "757a627bd86463b8f560571e106c0c9ec063d2d1a6045e353f21f7559999223b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/W911NF2510079-transactions.json",
+      "bytes": 2445,
+      "sha256": "2822fe94b63a60ac04c400b9b0b4999a1708035e409462a8ab399baaad9d336a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/request-log.json",
+      "bytes": 6592,
+      "sha256": "ea9299c0d7a5b37c407c6f9d3cb96d420c48d3848793e1d319c3905ee9e2147f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/verified-summary.csv",
+      "bytes": 1624,
+      "sha256": "7c2b2b7fab404aff866d769c716822c8538db9c21f9ff6b1a5572b790670aa5c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-grants/verified-summary.json",
+      "bytes": 2946,
+      "sha256": "780573b7fa60ed5ca0aa41e2435d5993d2835f6695d23202f4f08cbc629a40b7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB25F0094-award.json",
+      "bytes": 7997,
+      "sha256": "cdfc1fbe991693bc7ab2bc9b64243e05464be2cfbea281b9b79892509e4ef103",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB25F0094-search.json",
+      "bytes": 929,
+      "sha256": "722018f8de8265f985dbb8421548893555e4379c109b19461a17b44407841e31",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB25F0094-transactions.json",
+      "bytes": 7782,
+      "sha256": "81415392dbbc7fdda71cd1e2dd0067fd660db8b83ad0dfb3fd72c578364e219a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA055-award.json",
+      "bytes": 7863,
+      "sha256": "ba727a75a19c0ad198eea6547d8c0095d550630e1845b1ac45bc6a6bf0dbc0fb",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA055-search.json",
+      "bytes": 922,
+      "sha256": "a137be5a9183e1b8528be4227acfe1257c3d41c9c3b76e252c9ae000569a3a96",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA055-transactions.json",
+      "bytes": 1551,
+      "sha256": "dfc79236570fcde4895adce115e47b5d9e5b2fcbe3fcb93e3453eb071e7906c7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA177-award.json",
+      "bytes": 7900,
+      "sha256": "c4bfef5977b811c83ec422ba1f478f523177b0ba341d567fed44b36b4cef1740",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA177-search.json",
+      "bytes": 960,
+      "sha256": "944d300a12059f85ce9e4cf53422965254359de64dc8f1d8086330958afa7ad5",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA177-transactions.json",
+      "bytes": 583,
+      "sha256": "6def80a0b0f05181469b0cf2726f7144ebdec44fcfe8bbb49a8a30e3f53693da",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/request-log.json",
+      "bytes": 4004,
+      "sha256": "cd7e4d3cffd30376382d12f858389c8fb8b2771c816682cb3b79d2f9c77b8617",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/verified-summary.csv",
+      "bytes": 1215,
+      "sha256": "173d78939d94bf856dd0bc8a7b01c49607007c1d7e57521b108a8348d5688d7b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/live-switchblade/verified-summary.json",
+      "bytes": 1917,
+      "sha256": "7dec5a41f2ba193d2113fbf64348c4fd351ec98d5f7870b2ab12eaa5c2d0f478",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/civilian-harm-1.json",
+      "bytes": 1761,
+      "sha256": "cd53d3b3f699d8d6b9ac2bd6e9b2d82b6d5132f94afd81433fb6f9dc47200e72",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/collateral-damage-1.json",
+      "bytes": 1859,
+      "sha256": "b9ac0dd20eab16b121e214234d1541648dc4082e3c8a18cb1ecdc1915233a65c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/ethical-1.json",
+      "bytes": 40436,
+      "sha256": "40a0eb86503551cd379d4206955f8d4d62412796ca4142a63e3c2725ccafd444",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/ethical-2.json",
+      "bytes": 30704,
+      "sha256": "816ce18410716f3f3f9274c259213c46d15f6ba728b9dfc9b7de5ca72d764a32",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/non-combatant-1.json",
+      "bytes": 1339,
+      "sha256": "a64b9253736ce846746fcc1981b7f1042da5331a13628371304c88fcb9bf9c4b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/noncombatant-1.json",
+      "bytes": 1040,
+      "sha256": "0d605ba73047cbb0a8fb09540932dd7e6d5264a5844d8d94a4c1581a991cd2e7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/request-log.json",
+      "bytes": 6803,
+      "sha256": "ca1b1f2f857c8788291277cc7d054225b330b7ed1abb2accc1ffe8ba43202f92",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/rules-of-engagement-1.json",
+      "bytes": 3506,
+      "sha256": "bcc26d326411f37e85002e8cbf9577dc0e7729685c307f43ccb925e8d3373d9e",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/primary-awards/normative-contract-search/summary.json",
+      "bytes": 1516,
+      "sha256": "017d692de3e49fe324febf5114a2d21fc68f344846fb692277a74c2b144995e5",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/round1-counterexample-memo.md",
+      "bytes": 46408,
+      "sha256": "3cd29493f02e6f9f247db882e149bbf653a8667e335c08d764a475bb4f99df1d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/round2-provisional-review.md",
+      "bytes": 6550,
+      "sha256": "59cd55eb5fd168ef157be431643f03daee7961d6528b7af2fb272a08f92b64a2",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/search_dod_grants.py",
+      "bytes": 1348,
+      "sha256": "eceecf9a17d0db9774442484d6da65d3f9279ef06354df939c1feadb1456a500",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/search_dod_normative_contracts.py",
+      "bytes": 1765,
+      "sha256": "2669efffe4b538d0cdf2df7bc67df7927bb78b749031b6505761f791be549499",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_camp.py",
+      "bytes": 2863,
+      "sha256": "8f673cedd60f5f234d5622302f19ab8711f52b91a9a0b50a22bbb9b0c1b0c2d8",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_cate.py",
+      "bytes": 2863,
+      "sha256": "73a175f631e63f91ad697411a9c7c83a4815bb138a5710b81d914fbbc02b3f10",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_codord.py",
+      "bytes": 2881,
+      "sha256": "2daa33f6b30b5237651975db616bd8a5cb1d0a65d71a97d55a41925ca5a46773",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_extra_awards.py",
+      "bytes": 2912,
+      "sha256": "695c1fa17c16f47babaf630235656d344974c76d29c89d40cb94cf0be0deb7f5",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_georgia.py",
+      "bytes": 2870,
+      "sha256": "c58a1f8e177e737455fa104bf3fc5ee56c45864a56366bfc480f92a834079d3b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_grants.py",
+      "bytes": 2933,
+      "sha256": "3623e652eee3638d6aa4d87c6700c049f890b928bb09c145000b2743ba1f171f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_primary_awards.py",
+      "bytes": 3002,
+      "sha256": "2be01fa74e850aa44fa8803770633214a48234705d1b151a255889377e6ef73c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor/verify_switchblade.py",
+      "bytes": 2902,
+      "sha256": "dc9aa11d0cd83885126eb73134cc1473287b9e7099e79ffc8a7605b4984f48c7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/SHA256SUMS",
+      "bytes": 1709,
+      "sha256": "105b1d3bc2de7d8c358b97353a7a7aaa839b5c306560698e5769e3fa59d5cdb7",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/additional-boundary-cases.md",
+      "bytes": 6016,
+      "sha256": "e20928b7a0095cdff44801b6f4fa9afdf85aa2485199db91487926c9917b40ae",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865121C0035-award.json",
+      "bytes": 7726,
+      "sha256": "02536d68f3621a068c0eddfd646a60bab9849e50045d01420534569a401df51f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865121C0035-search.json",
+      "bytes": 954,
+      "sha256": "311865e6e20cfaa01b3b3168b25aacef0bb0f4d4607797a892977b70511ee8ee",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865121C0035-transactions.json",
+      "bytes": 4308,
+      "sha256": "dcc4217ee0e9250445443f6ee9b3104215531cf6827c1e8578fa84bb9432daa4",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB015-award.json",
+      "bytes": 7959,
+      "sha256": "fbed48be043324a3eb43df70fba0b089748b909cc3dc6936aa1cab1d8742947c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB015-search.json",
+      "bytes": 925,
+      "sha256": "678c3709232fa608a1f4d5c3a4295ff335df857a2aaf77f61e82d0f9aa6b9451",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB015-transactions.json",
+      "bytes": 1621,
+      "sha256": "135f6c69608535ea24b0e62bb4c5ddf8551e518719afdf592c91d89060b49ba5",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB016-award.json",
+      "bytes": 7871,
+      "sha256": "c4b073dfe06d776af436136bfb486f6f43aa9f0feefec76f0a01cb49584ffcd2",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB016-search.json",
+      "bytes": 924,
+      "sha256": "2212803372316bb367f9a14f81e7e7db95a3854e8908a068e193dde559762bc0",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB016-transactions.json",
+      "bytes": 1604,
+      "sha256": "8a8d9e1229a597aeeb1c0ecf820be5d43bb3ebad9a0ea9ea1928eca81b0f1bf2",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/request-log.json",
+      "bytes": 3989,
+      "sha256": "a7ba398944f9f6b10dd3bbbdc16cdcda3241d6b7fc3e2896931228311e5f5e2d",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/verified-summary.csv",
+      "bytes": 1154,
+      "sha256": "ab960079db2dc9e9bcc19917af477d213d96ff5284a2f237b3f67a9508fba9cc",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/verified-summary.json",
+      "bytes": 1860,
+      "sha256": "48c0d89b7499536fd2276cdf4e8c1b5cace1334d64145e6012f2017427d80654",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-boundary-cases/verify_golden_horde.py",
+      "bytes": 2903,
+      "sha256": "e07ce9756278bacb808be0d4a48ffd9b6fbcec29d3e4bb0285829993e4ab391f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/README.md",
+      "bytes": 358,
+      "sha256": "d2e9573c47fd0cd552792e928a6cd4338f8ef9b3b5cb33848b050ae168e7ae81",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/SHA256SUMS",
+      "bytes": 617,
+      "sha256": "4e37f232bae64c13e8fa1dcf7d9e7c4c1c86084bd308642af9b946d2f528b41b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/audit_reporter_round2.py",
+      "bytes": 2769,
+      "sha256": "63382f2405657cf603eed51c16e0223a734c09c579fcccba43b6f0317a141295",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/camp-fpds-proof.json",
+      "bytes": 882,
+      "sha256": "4f9c21b73533890a16743b806d63cc9bc9ba4473efcb98ecdf78e57d162acc70",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/camp-independent-fpds.xml",
+      "bytes": 41583,
+      "sha256": "82477d2735c14911c38843628642e5dc9b1255414e988c198ea765a1120aa414",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/independent-audit.json",
+      "bytes": 2352,
+      "sha256": "52f8daa96f6fd0e4811ccc8a2d8841ef8cef15e5e0ba9edb0d912b0f4173fffa",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/issue-register.csv",
+      "bytes": 1347,
+      "sha256": "835118f327a3a6dac347ae3f514fc5df9d92c565375ef78e25f742de84ec1a9b",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-editor-round2-review/round2-review.md",
+      "bytes": 12556,
+      "sha256": "48a92eb1396ce7aa6535de8dce873ada81ba98165c6f61615464eaf237922b7a",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-policy/POLICY_ADDENDUM_1442.md",
+      "bytes": 5068,
+      "sha256": "f388ad288cff0a84e4d262a9233e3b28070bb4eb0e26dfbe143ea56bf6b90b59",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-policy/POLICY_SOURCE_AUDIT.md",
+      "bytes": 22892,
+      "sha256": "df391ea8ae9797d32cad26804f43fed2ad3aa662f9c8ecbd7593312d16c14c80",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/independent-policy/SHA256SUMS",
+      "bytes": 179,
+      "sha256": "745dd445f2d3ee5c1737d0a6cbd0ae85b9bc52ad13f6c4a5c1e58c76d202b333",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/live-award-register.json",
+      "bytes": 2992410,
+      "sha256": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/live-candidate-disposition.csv",
+      "bytes": 148252,
+      "sha256": "d8d99f47c19b2584b6152a836b3ad745eff9c2c9c91aff400f92fc00f6852e30",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/live-technical-scope-review.csv",
+      "bytes": 48533,
+      "sha256": "2e84429702cd04b6ff516c02cfc68d0c4f2d72746bb714436fb953b682f38bb3",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/live-technical-scope-review.md",
+      "bytes": 9746,
+      "sha256": "ed833d382aedfbbcff0f29aa1df07cf4c88ef3dc73a6f13a32d685504c11e4de",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/ota-keyword-followup-actions.csv",
+      "bytes": 8162,
+      "sha256": "8f5491ad30c9632491129c8ce2ce5065693686fb630aafb7b0f72eaee780c538",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/ota-keyword-followup-records.json",
+      "bytes": 22310,
+      "sha256": "e169970071c84406d6e86fb8f12137119a0becc068f1476494dfe36df2fb907c",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/ota-resolution-review.json",
+      "bytes": 44312,
+      "sha256": "d456452df2004d74da82f9e51d410d7b065f30d87002b67c96bae95925f3bbc1",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/ota-resolution-review.md",
+      "bytes": 9417,
+      "sha256": "576941123844df0b8e746ad24a6fc40cfd9a41362917da84bc7f55f838f85b04",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/ota-verified-actions.csv",
+      "bytes": 15534,
+      "sha256": "20b399f35c02f28ff3bb8a44ac9099eb7ae7d5998504b32928a616ad1cae37ff",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/other-agency-review.md",
+      "bytes": 11908,
+      "sha256": "9dffde8e52ce0fd352b81779476b3214d7a0ba95dd93dfb0e4506f2df786db64",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/policy-timeline-review.md",
+      "bytes": 22232,
+      "sha256": "a5fc5933dd07f5f6dfcaa6df72189902940c6de540c9ecd3287a3458da152d77",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/reviewed-cases.csv",
+      "bytes": 60537,
+      "sha256": "6664595b3cda4aa104d7a4530a5b95c514a3d55c5c1f94d61c753848dcb0d1e2",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/reviewed-cases.json",
+      "bytes": 111456,
+      "sha256": "137ca40a5797889dccc5e195e7a66b6bf1dce6e282fe1f9775e5551ff173576f",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "evidence/technical-program-review.md",
+      "bytes": 22282,
+      "sha256": "08fae2af2d81ca0225290aa1087c4f0c562ae2aa95faf7f564192288ec55d8be",
+      "text_bundle_representation": "UTF-8 original bytes"
+    },
+    {
+      "path": "report.md",
+      "bytes": 40398,
+      "sha256": "6f9aab8a5371bd097f38f4ac3ccc94f375fe8fc33041c3f63be38f1f7bef0846",
+      "text_bundle_representation": "UTF-8 original bytes"
+    }
+  ],
+  "recursive_container_exclusions": {
+    "manifest.json": "Does not inventory itself or SHA256SUMS or delivery containers",
+    "SHA256SUMS": "Hashes all other authored files including manifest; excludes itself and delivery containers to avoid recursion",
+    "F4-COMPLETE-RESEARCH-PACKAGE.txt": "Contains complete inventory and every other public package member, including manifest and SHA256SUMS; cannot contain itself or its gzip transport copy",
+    "F4-COMPLETE-RESEARCH-PACKAGE.txt.gz": "Exact deterministic gzip transport of the complete UTF-8 bundle; excluded from its own payload to avoid recursion; transport/plain hashes printed separately at delivery"
+  },
+  "authored_file_count_excluding_containers": 246,
+  "authored_bytes_excluding_containers": 293335529
+}

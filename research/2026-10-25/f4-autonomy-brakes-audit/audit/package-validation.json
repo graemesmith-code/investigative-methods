@@ -1,0 +1,1015 @@
+{
+  "validated_utc": "2026-10-25T15:48:31.431686+00:00",
+  "scope": "Local data, arithmetic, links and literal secret scan; no network or paid calls",
+  "checks": {
+    "required_files": {
+      "status": "passed",
+      "required_present": 26,
+      "delivery_and_hash_containers_deferred_to_root_build": [
+        "F4-COMPLETE-RESEARCH-PACKAGE.txt",
+        "F4-COMPLETE-RESEARCH-PACKAGE.txt.gz",
+        "SHA256SUMS",
+        "manifest.json"
+      ]
+    },
+    "all_JSON_JSONL_CSV_parsing": {
+      "status": "passed",
+      "files": [
+        {
+          "path": "audit/acquisition-history-coverage.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/additional-source-retrievals.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "audit/available-register-membership.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/combined-live-inventory-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/cp-coe-cache-retrieval-outcomes.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "audit/exa-discovery-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/exa-discovery-register.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "audit/exa-query-cost-log.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 236,
+          "columns": 14
+        },
+        {
+          "path": "audit/live-disposition-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/live-retrieval-log.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/methodology-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/ota-keyword-followups.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/ota-retrieval-log.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/parallel-register-reconciliation.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/reviewed-case-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-auxiliary-accounting.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-auxiliary-award-integration.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-auxiliary-run-lexicon.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-code-validation.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-complete-input-coverage.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-editor-supplement-initial.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-editor-supplement.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-end-date-enrichment.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-execution-notes.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-final-register-validation.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-financial-cross-validation.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-institution-supplement-raw-office-snapshot.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-institution-supplement.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/screen-new-category-A-auxiliary-review.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "audit/source-retrieval-register.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/acquisition-history-missing-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 65,
+          "columns": 14
+        },
+        {
+          "path": "evidence/asimov-performer-continuation-check.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 2599,
+          "columns": 25
+        },
+        {
+          "path": "evidence/auxiliary-candidates.jsonl",
+          "kind": "JSONL",
+          "rows": 40336
+        },
+        {
+          "path": "evidence/available-register-membership.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 5585,
+          "columns": 14
+        },
+        {
+          "path": "evidence/brakes-candidate-register.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 5501,
+          "columns": 36
+        },
+        {
+          "path": "evidence/brakes-candidate-register.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/camp-scope-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 2,
+          "columns": 26
+        },
+        {
+          "path": "evidence/combined-live-inventory.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 111,
+          "columns": 45
+        },
+        {
+          "path": "evidence/fpds-verified-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 683,
+          "columns": 26
+        },
+        {
+          "path": "evidence/independent-editor/editor-verified-candidates.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 24,
+          "columns": 20
+        },
+        {
+          "path": "evidence/independent-editor/editor-verified-candidates.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/grant-search/civilian harm-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/grant-search/deontic-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/grant-search/ethical-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/grant-search/moral-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/grant-search/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA248722FA002-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA248722FA002-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA248722FA002-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864922P1015-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864922P1015-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864922P1015-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864926P0093-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864926P0093-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864926P0093-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864926P0169-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864926P0169-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA864926P0169-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA87502321015-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA945326CX013-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA945326CX013-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/FA945326CX013-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/HR00112490431-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/N6833521C0510-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/N6833521C0510-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/N6833521C0510-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/N6833521C0549-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/N6833521C0549-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/N6833521C0549-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/W5170124C0174-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/W5170124C0174-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/W5170124C0174-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 10,
+          "columns": 16
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-camp/W31P4Q26F0015-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-camp/W31P4Q26F0015-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-camp/W31P4Q26F0015-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-camp/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-camp/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 1,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-camp/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-cate/FA864924P0520-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-cate/FA864924P0520-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-cate/FA864924P0520-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-cate/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-cate/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 1,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-cate/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/CODORD-broad-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/Ethical-Constructs-broad-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/HR00112590089-broad-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/HR00112590089-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/HR001125F0028-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/HR001125F0028-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/HR001125F0028-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 2,
+          "columns": 16
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-codord/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/FA864925P0010-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/FA864925P0010-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/FA864925P0010-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/N0002425CS104-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/N0002425CS104-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/N0002425CS104-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/N6833525C0110-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/N6833525C0110-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/N6833525C0110-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/W5170125C0052-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/W5170125C0052-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/W5170125C0052-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 4,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-extra/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-georgia/W911NF261A113-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-georgia/W911NF261A113-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-georgia/W911NF261A113-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-georgia/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-georgia/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 1,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-georgia/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA86552417047-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA86552417047-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA86552417047-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA95502010342-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA95502010342-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA95502010342-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA95502310036-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA95502310036-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA95502310036-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA9550261B207-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA9550261B207-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/FA9550261B207-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/W911NF2510079-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/W911NF2510079-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/W911NF2510079-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 5,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-grants/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB25F0094-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB25F0094-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB25F0094-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA055-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA055-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA055-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA177-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA177-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/W91CRB26FA177-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 3,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/live-switchblade/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/civilian-harm-1.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/collateral-damage-1.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/ethical-1.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/ethical-2.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/non-combatant-1.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/noncombatant-1.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/rules-of-engagement-1.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor/primary-awards/normative-contract-search/summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865121C0035-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865121C0035-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865121C0035-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB015-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB015-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB015-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB016-award.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB016-search.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/FA865124CB016-transactions.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/request-log.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/verified-summary.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 3,
+          "columns": 15
+        },
+        {
+          "path": "evidence/independent-editor-boundary-cases/primary-awards/live-golden-horde/verified-summary.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        },
+        {
+          "path": "evidence/independent-editor-round2-review/camp-fpds-proof.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-round2-review/independent-audit.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/independent-editor-round2-review/issue-register.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 7,
+          "columns": 6
+        },
+        {
+          "path": "evidence/live-award-register.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/live-candidate-disposition.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 107,
+          "columns": 37
+        },
+        {
+          "path": "evidence/live-technical-scope-review.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 58,
+          "columns": 21
+        },
+        {
+          "path": "evidence/ota-keyword-followup-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 12,
+          "columns": 26
+        },
+        {
+          "path": "evidence/ota-keyword-followup-records.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/ota-resolution-review.json",
+          "kind": "JSON",
+          "top_level_type": "dict"
+        },
+        {
+          "path": "evidence/ota-verified-actions.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 24,
+          "columns": 26
+        },
+        {
+          "path": "evidence/reviewed-cases.csv",
+          "kind": "CSV_or_TSV",
+          "rows": 31,
+          "columns": 53
+        },
+        {
+          "path": "evidence/reviewed-cases.json",
+          "kind": "JSON",
+          "top_level_type": "list"
+        }
+      ],
+      "files_parsed": 182,
+      "CSV_field_limit": 9223372036854775807,
+      "row_unit": "parsed records, not physical text lines"
+    },
+    "main_CSV_JSON_exact_agreement": {
+      "status": "passed",
+      "exact_keys": 5501,
+      "all_full_description_strings_equal": true,
+      "all_integer_cent_windows_equal": true,
+      "null_not_coerced_to_zero": true
+    },
+    "selected_case_arithmetic": {
+      "status": "passed",
+      "reviewed_unique_awards": 31,
+      "all_selected_amounts_match_live": true,
+      "all_category_and_record_overlap_totals_recomputed": true,
+      "financial_meaning": "Whole associated awards; allocable safeguard-feature spending remains unknown"
+    },
+    "relative_Markdown_links": {
+      "status": "passed",
+      "relative_links_checked": 56,
+      "pending_generated_container_links": [
+        {
+          "source": "README.md",
+          "target": "F4-COMPLETE-RESEARCH-PACKAGE.txt.gz"
+        }
+      ],
+      "scope": "All authored Markdown except fenced/inline code and quoted external source text; absolute/remote references excluded"
+    },
+    "public_file_sizes": {
+      "status": "passed",
+      "public_files_checked": 250,
+      "limit_bytes_strictly_less_than": 104857600,
+      "excluded_local_Library_plain_text_delivery": "F4-COMPLETE-RESEARCH-PACKAGE.txt",
+      "gzip_transport_is_checked": true
+    },
+    "environment_secret_literal_scan": {
+      "status": "passed",
+      "credential_like_environment_literal_count": 4,
+      "file_or_expanded_streams_scanned": 249,
+      "matches": 0,
+      "no_secret_values_logged": true,
+      "limit": "Exact configured literals only; not a proof against every unknown secret"
+    }
+  },
+  "failures": [],
+  "remaining_release_gates": [
+    {
+      "gate": "parent_independent_register_union",
+      "status": "pending_independent_stage1_snapshot_and_root_freeze",
+      "action": "Run code/reconcile_parallel_registers.py against final root CSV and authenticated/published independent-stage1 CSV/gzip snapshot",
+      "target": "evidence/brakes-candidate-register.csv and evidence/independent-stage1/",
+      "reason": "Independent-stage1 files have not been materialized in this executor; root main register still undergoing supplementary integration. This is pending input, not a denied action or an absence result."
+    },
+    {
+      "gate": "delivery_container_and_remote_hash_verification",
+      "status": "owned_by_root_after_build",
+      "note": "This validator intentionally performs no bundle, manifest or remote hash validation."
+    }
+  ],
+  "status": "passed_local_checks_with_explicit_release_gates",
+  "paid_requests_made": 0
+}

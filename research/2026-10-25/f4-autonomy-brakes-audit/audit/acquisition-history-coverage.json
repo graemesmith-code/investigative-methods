@@ -1,0 +1,67 @@
+{
+  "generated_utc": "2026-10-25T15:47:20.781896+00:00",
+  "status": "verified_selected_examples",
+  "fiscal_window": "FY2019-FY2026: 2018-10-01 through 2026-09-30",
+  "source_hashes": {
+    "canonical_financial_compressed_inputs": {
+      "financial_actions.jsonl.gz": "366c6294aa7d703e37affcab94ad835876943e1d6d6a5565867d5a14728e19e5"
+    },
+    "fpds_action_register_sha256": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+    "archive_screen_register_sha256": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e"
+  },
+  "cases": [
+    {
+      "award_key": "CONT_AWD_FD01_9700_N0017814D7932_9700",
+      "piid": "FD01",
+      "archive_actions": 70,
+      "live_actions_in_same_fiscal_window": 72,
+      "shared_exact_transaction_keys": 70,
+      "shared_date_or_cent_conflicts": [],
+      "missing_from_acquired_archive_actions": 2,
+      "archive_net_obligations_cents": 967414679,
+      "live_net_obligations_same_window_cents": 972414679,
+      "live_minus_archive_cents": 5000000,
+      "live_minus_archive_usd": "50000.00",
+      "sum_missing_action_cents": 5000000,
+      "first_missing_action": "2020-08-05",
+      "last_missing_action": "2024-02-28",
+      "finding": "Shared acquired actions agree exactly; missing historical actions demonstrate incomplete acquisition-history coverage, not merely the newest-quarter public-release delay."
+    },
+    {
+      "award_key": "CONT_AWD_N0016422F3007_9700_N0017819D7763_9700",
+      "piid": "N0016422F3007",
+      "archive_actions": 6,
+      "live_actions_in_same_fiscal_window": 19,
+      "shared_exact_transaction_keys": 6,
+      "shared_date_or_cent_conflicts": [],
+      "missing_from_acquired_archive_actions": 13,
+      "archive_net_obligations_cents": 509289852,
+      "live_net_obligations_same_window_cents": 2442370649,
+      "live_minus_archive_cents": 1933080797,
+      "live_minus_archive_usd": "19330807.97",
+      "sum_missing_action_cents": 1933080797,
+      "first_missing_action": "2022-09-23",
+      "last_missing_action": "2025-09-19",
+      "finding": "Shared acquired actions agree exactly; missing historical actions demonstrate incomplete acquisition-history coverage, not merely the newest-quarter public-release delay."
+    },
+    {
+      "award_key": "CONT_AWD_N0042123F3004_9700_N0017819D7484_9700",
+      "piid": "N0042123F3004",
+      "archive_actions": 3,
+      "live_actions_in_same_fiscal_window": 53,
+      "shared_exact_transaction_keys": 3,
+      "shared_date_or_cent_conflicts": [],
+      "missing_from_acquired_archive_actions": 50,
+      "archive_net_obligations_cents": 221712503,
+      "live_net_obligations_same_window_cents": 2783645594,
+      "live_minus_archive_cents": 2561933091,
+      "live_minus_archive_usd": "25619330.91",
+      "sum_missing_action_cents": 2561933091,
+      "first_missing_action": "2023-05-31",
+      "last_missing_action": "2026-07-16",
+      "finding": "Shared acquired actions agree exactly; missing historical actions demonstrate incomplete acquisition-history coverage, not merely the newest-quarter public-release delay."
+    }
+  ],
+  "scope_limit": "These are three selected positive counterexamples to full acquisition-history coverage. They do not estimate all missing actions in the corpus and do not imply any missing action is safeguard-specific spending. No original ledger is patched, no source-internal monetary error is alleged, and no raw provenance is invented. Exact source acquisition/filtering cause is not independently established.",
+  "missing_action_register": "evidence/acquisition-history-missing-actions.csv"
+}

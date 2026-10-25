@@ -1,0 +1,42 @@
+{
+  "generated_utc": "2026-10-25T15:47:20.781896+00:00",
+  "status": "available_sources_compared; independent_stage1_pending",
+  "input_sha256": {
+    "evidence/brakes-candidate-register.csv": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
+    "evidence/live-award-register.json": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
+    "evidence/fpds-verified-actions.csv": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+    "evidence/ota-resolution-review.json": "d456452df2004d74da82f9e51d410d7b065f30d87002b67c96bae95925f3bbc1",
+    "evidence/ota-keyword-followup-records.json": "e169970071c84406d6e86fb8f12137119a0becc068f1476494dfe36df2fb907c"
+  },
+  "exact_membership_counts": {
+    "archive_screen_keys": 5501,
+    "standard_live_records": 105,
+    "other_transaction_primary_identities": 6,
+    "archive_standard_intersection": 27,
+    "archive_ota_intersection": 0,
+    "standard_ota_intersection": 0,
+    "standard_live_only_relative_to_archive": 78,
+    "OTA_only_relative_to_archive": 6,
+    "union_exact_source_or_instrument_keys": 5585
+  },
+  "standard_live_candidates": 107,
+  "standard_live_targets_without_standard_record": [
+    "HR00112490431",
+    "HR00112590089"
+  ],
+  "previously_unresolved_piids_with_separately_verified_OTA_identity": [
+    "HR00112490431",
+    "HR00112590089"
+  ],
+  "cross_schema_warning": "PIID matches above explain resolution of named target searches, but complete OTA primary identities remain distinct schema-specific keys; no blind financial merge is performed.",
+  "interpretation": "This is an exact-key logical membership index, not a count of verified programs, not a new full-description register, and not a monetary sum. The original archive register is not modified. Independent-stage1 is not yet materialized and must not be added as disjoint population.",
+  "membership_csv": "evidence/available-register-membership.csv",
+  "input_sha256_after_read": {
+    "evidence/brakes-candidate-register.csv": "65fab3fd33eacb78bacc2c78d500e90840d7bfc73adce7475fee0b3cd71fca1e",
+    "evidence/live-award-register.json": "ce38c01a18fcb96df5c220f9a163a787200a857a24c18f0e14a0512ec726c481",
+    "evidence/fpds-verified-actions.csv": "d29ce3ffeaeb76e1bef151405501a495ed97747d5caa00b50e850c50b92425c0",
+    "evidence/ota-resolution-review.json": "d456452df2004d74da82f9e51d410d7b065f30d87002b67c96bae95925f3bbc1",
+    "evidence/ota-keyword-followup-records.json": "e169970071c84406d6e86fb8f12137119a0becc068f1476494dfe36df2fb907c"
+  },
+  "inputs_stable_during_read": true
+}
