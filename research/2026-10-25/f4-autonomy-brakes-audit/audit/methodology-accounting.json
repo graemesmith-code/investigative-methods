@@ -59,5 +59,28 @@
     "source": "https://exa.ai/docs/admin/pricing",
     "cache_only_parameter": "maxAgeHours=-1",
     "no_summaries_or_agent_calls": true
-  }
+  },
+  "authoritative_deterministic_scan": {
+    "consumer_inner_files": 100,
+    "canonical_JSONL_streams": 36,
+    "auxiliary_files": 64,
+    "candidate_source_award_document_keys": 5501,
+    "exact_financial_ledger_matches": 3663,
+    "performer_trace_keys": 2599,
+    "full_input_source_integrity": "All3 original archives and original screening script freshly rehashed; match frozen expectations",
+    "proof": "audit/retained-workspace-inventory.json",
+    "financial_meaning": "Net obligations within acquired action corpus/window; potentially incomplete award histories, not allocated safeguards spending"
+  },
+  "available_source_union": {
+    "source_instrument_keys": 5585,
+    "not_distinct_awards_or_programs": true,
+    "proof": "audit/available-register-membership.json"
+  },
+  "independent_original_loss": {
+    "status": "Original separately produced Stage1 package unavailable before committed consumer transfer; expected metadata recovered, not bodies",
+    "proof": "audit/RECOVERY_STATUS.md",
+    "new_recovery_version": "Must use actual version/code/source hashes/counts; original expectations not forced",
+    "effect_on_consumer_inputs_or_complete_scan": "None demonstrated; retained originals and authoritative outputs match frozen hashes"
+  },
+  "final_library_delivery_owner": "Parent thread, after immutable final GitHub commit; no duplicate upload attempted by consumer"
 }

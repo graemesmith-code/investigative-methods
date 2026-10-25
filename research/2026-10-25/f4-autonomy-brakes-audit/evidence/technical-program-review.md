@@ -1,5 +1,8 @@
 # Technical safeguards review
 
+**Final financial update:** This specialist note preserves its discovery-stage questions. Subsequent [live reconciliations](live-award-register.json), [reviewed cases](reviewed-cases.csv) and [prototype source-body review](ota-resolution-review.md) supply the final funding/identity status; an earlier “requires verification” statement below is not the current release status. Four OT aggregate discrepancies and exact task allocations remain explicitly unresolved.
+
+
 Reviewed 25 October 2026 using public primary documents and project repositories. No Exa or other paid API was used for this review. This is a targeted program review, not a census or a completed funding reconciliation. A program webpage being online is not evidence of continuing appropriations, active contract performance, operational deployment, or a program of record. Table categories describe evidenced functions; secondary tags identify overlap without creating additional dollars.
 
 ## Findings that change the proposed story

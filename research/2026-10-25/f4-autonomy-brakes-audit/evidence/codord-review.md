@@ -1,5 +1,8 @@
 # CODORD: a material normative-assurance research counterexample
 
+**Final financial update:** This specialist note preserves its discovery-stage questions. Subsequent [live reconciliations](live-award-register.json), [reviewed cases](reviewed-cases.csv) and [prototype source-body review](ota-resolution-review.md) supply the final funding/identity status; an earlier “requires verification” statement below is not the current release status. Four OT aggregate discrepancies and exact task allocations remain explicitly unresolved.
+
+
 Reviewed 25 October 2026. No paid API calls or source outreach. This note separates inspected primary evidence from award identifiers supplied for live reconciliation.
 
 CODORD must be included in any attempt to disprove the hypothesis. Its stated research purpose expressly connects automated compliance reasoning with laws, ethics and dynamic rules of engagement for autonomous systems. Classify it **A-enabling research primary**, with B/C secondary potential, rather than dismiss it as generic reliability. The evidence does not establish an operational autonomous-weapons LOAC validator, a program of record, an ASIMOV replacement, or an onboard legal governor.
