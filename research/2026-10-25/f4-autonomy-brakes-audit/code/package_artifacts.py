@@ -47,7 +47,7 @@ def build(reuse_manifest=False,output=None):
     out.write(b'\n\nCOMPLETE INVENTORY\n')
     for member in members:
      content=member.read_bytes();out.write(f'{member.relative_to(P).as_posix()}\t{len(content)} bytes\tSHA256 {digest(content)}\n'.encode())
-    out.write(b'\nTECHNICAL ANNEXES — COMPLETE ORIGINAL FILES\n')
+    out.write('\nTECHNICAL ANNEXES — COMPLETE ORIGINAL FILES\n'.encode('utf-8'))
    b=f.read_bytes();body,encoding=representation(f);out.write(f'\n\n===== BEGIN FILE: {f.relative_to(P).as_posix()} | {len(b)} bytes | SHA256 {digest(b)} | {encoding} =====\n'.encode());embedded.append((f,out.tell(),len(body),encoding));out.write(body);out.write(f'\n===== END FILE: {f.relative_to(P).as_posix()} =====\n'.encode())
   out.write(f'\nEND OF COMPLETE PACKAGE. {len(members)} files included in full.\n'.encode())
  # Validate exact bytes of every embedded member, not merely a trailing marker.
