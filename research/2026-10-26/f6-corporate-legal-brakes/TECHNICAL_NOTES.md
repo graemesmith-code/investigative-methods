@@ -1,6 +1,6 @@
 # F6 technical integration notes
 
-This is an integrated review candidate. Native source-domain clearance is distinct from final acceptance of these outputs.
+Independent integrated review accepted the research at commit 8507b4b0c10d635425f981364b23769dfca99452 and all 28 reviewed Drive objects. See INDEPENDENT_RELEASE_ACCEPTANCE.md. This final publication update changes status/metadata only. Native source-domain clearance and integrated acceptance remain separate recorded stages.
 
 ## Identity and conservation
 

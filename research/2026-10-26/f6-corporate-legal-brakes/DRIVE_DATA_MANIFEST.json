@@ -1,12 +1,12 @@
 {
-  "schema": "F6-drive-manifest-v2",
-  "status": "corrected integrated review candidate; independent release acceptance pending",
+  "schema": "F6-drive-manifest-v3",
+  "status": "final accepted release; status/metadata-only delta from independently accepted research",
   "folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
   "folder_url": "https://drive.google.com/drive/folders/1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
-  "scope": "All preserved F6 uploaded objects plus current corrected integrated candidate. Every object read back in full; no permissions changed. Complete native inventory stays inside verified Drive archive, not this compact manifest.",
+  "scope": "All 34 preserved F6 objects: 28 independently accepted research/checkpoint objects and 6 final acceptance/status/metadata objects. The Drive manifest inventories the other 33; this Git manifest also verifies the Drive manifest itself. No source/register/audit object was modified.",
   "current_objects": {
-    "guide": "1D50zMRhmAAaKc68tIgmRcdClt1jq2Zve",
-    "full_report": "1w4TVt-9J21k5O8sDJaVGO7nYcxkKjp5e",
+    "guide": "1IN8ZLnA05ezPs-EcU1kUJ1pCtNNn4jvd",
+    "full_report": "1YF6Uox2YOwjGElz8IRkja6GWd0wlKHcT",
     "claim_to_evidence_index": "104deTXewc9TH240OiHZjLmAxzUNSPyib",
     "occurrences": "1PU-aXrghe5aUWWuXCyTsjQHsny8BLDBm",
     "claims": "19ZaMV_Ra-LDvSu8_GJuEuBqDLGe8UsuO",
@@ -18,7 +18,13 @@
     "native_frozen_archive": "1ObksycEGgdYfad5tqYAYjyEooRO-wZUf",
     "correction_archive": "14weBUh0ZiPK37PZvWDTK2hS6L2sqlY1V",
     "correction_memo": "1vHgA8JKoPrHTy4zQfD93QOsn0tK4fxkU",
-    "correction_clause_comparison": "1wgY3KP5BkvgGwqS3MV7j2l4OkkIlmGUJ"
+    "correction_clause_comparison": "1wgY3KP5BkvgGwqS3MV7j2l4OkkIlmGUJ",
+    "reviewed_report_snapshot": "1w4TVt-9J21k5O8sDJaVGO7nYcxkKjp5e",
+    "reviewed_guide_snapshot": "1D50zMRhmAAaKc68tIgmRcdClt1jq2Zve",
+    "acceptance_bundle": "1PQOdm2zcs0f9ikPOat3gxl6dGY3TJs7j",
+    "acceptance_memo": "1GTuif4UsBp5--HVLQd2PDW7RKxB0SkdK",
+    "acceptance_readback": "1q62hvooIKZ5MgGGCBT11r7XXp2zkG09K",
+    "final_publication_manifest": "1uEpoOj_snzYOZQfQLkecOnExYrQLPqae"
   },
   "objects": [
     {
@@ -32,7 +38,6 @@
       "members": 31,
       "payload_members_verified": 30,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verification": "Completed native upload; metadata parent/owner/inherited permissions checked; full native raw fetch exact byte equality; every 30 payload member hash checked.",
@@ -50,7 +55,6 @@
       "row_count": 41,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
       "verification": "Native upload; metadata parent/owner/inherited permissions; exact complete raw-byte equality.",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T08:56:21.541875+00:00",
@@ -67,7 +71,6 @@
       "row_count": 41,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
       "verification": "Native upload; metadata parent/owner/inherited permissions; exact complete raw-byte equality.",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T08:56:21.711057+00:00",
@@ -84,7 +87,6 @@
       "row_count": 1,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
       "verification": "Native upload; metadata parent/owner/inherited permissions; exact complete raw-byte equality.",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T08:56:21.997901+00:00",
@@ -101,7 +103,6 @@
       "row_count": 1,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
       "verification": "Native upload; metadata parent/owner/inherited permissions; exact complete raw-byte equality.",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T08:56:22.174706+00:00",
@@ -118,7 +119,6 @@
       "row_count": null,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
       "verification": "Native upload; metadata parent/owner/inherited permissions; exact complete raw-byte equality.",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T08:56:22.334909+00:00",
@@ -134,7 +134,6 @@
       "readback_sha256": "ee0e32d9ea893d232c6bbdece97057ff8891311750b4ad673609ace131bbee69",
       "row_count": 8,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T09:02:46.645688+00:00",
@@ -151,7 +150,6 @@
       "readback_sha256": "95110016798d1cf4468d9b3d6b43dc7b35de50f6040cd37778d7625fa47bf7fa",
       "row_count": null,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T09:02:46.826710+00:00",
@@ -170,7 +168,6 @@
       "readback_sha256": "0ac3838fdf004b38acb5c52d9850355af5651fc75972993422c4b7f9feb793d2",
       "row_count": null,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
-      "owner_email": "smithg@gmail.com",
       "anyone_reader_observed": true,
       "sharing_changed": false,
       "verified_utc": "2026-10-26T09:02:46.961479+00:00",
@@ -180,7 +177,7 @@
     {
       "filename": "F6-reviewed-native-dossiers-2026-10-26.zip",
       "drive_file_id": "1ObksycEGgdYfad5tqYAYjyEooRO-wZUf",
-      "drive_view_url": "https://drive.google.com/file/d/1ObksycEGgdYfad5tqYAYjyEooRO-wZUf/view?usp=drivesdk",
+      "drive_view_url": "https://drive.google.com/file/d/1ObksycEGgdYfad5tqYAYjyEooRO-wZUf/view",
       "bytes": 1788824,
       "sha256": "f9fb60b07eeeffadf3ef197ac7f686e2666cf482dbec42b515710a86f6a6d725",
       "readback_bytes": 1788824,
@@ -192,10 +189,11 @@
       "payload_and_original_control_files": 121,
       "payload_bytes_excluding_transfer_controls": 26071407,
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
-      "verification": "Native metadata and full-byte equality; all manifest payload/control hashes rechecked; prior intake independently checked everySHA256SUMS member.",
+      "verification": "Native metadata and complete raw-byte equality.",
       "sharing_changed": false,
-      "verified_utc": "2026-10-26T09:17:58.585003+00:00",
-      "publication_role": "native_frozen_archive"
+      "verified_utc": "2026-10-26T10:36:43.514404+00:00",
+      "publication_role": "native_frozen_archive",
+      "members": 125
     },
     {
       "filename": "F6-FULL-INTEGRATED-REPORT-REVIEW-CANDIDATE.txt",
@@ -373,7 +371,7 @@
     {
       "filename": "F6-post-freeze-Skydio-correction-2026-10-26.zip",
       "drive_file_id": "14weBUh0ZiPK37PZvWDTK2hS6L2sqlY1V",
-      "drive_view_url": "https://drive.google.com/file/d/14weBUh0ZiPK37PZvWDTK2hS6L2sqlY1V/view?usp=drivesdk",
+      "drive_view_url": "https://drive.google.com/file/d/14weBUh0ZiPK37PZvWDTK2hS6L2sqlY1V/view",
       "bytes": 5417,
       "sha256": "63890d4b9a1a632361d0242312430f7c2cb187e6c13165ef47ee04d1dcec37f4",
       "readback_bytes": 5417,
@@ -381,7 +379,7 @@
       "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
       "sharing_changed": false,
       "verification": "Native metadata and complete raw-byte equality.",
-      "verified_utc": "2026-10-26T10:06:29.626707+00:00",
+      "verified_utc": "2026-10-26T10:36:43.642408+00:00",
       "members": 3,
       "whitelisted_payload_hashes_verified": 2,
       "publication_role": "correction_archive"
@@ -426,7 +424,7 @@
       "sharing_changed": false,
       "verification": "Native metadata and complete raw-byte equality.",
       "verified_utc": "2026-10-26T10:06:30.141375+00:00",
-      "publication_role": "full_report"
+      "publication_role": "independently accepted research snapshot; exact body retained in final wrapper"
     },
     {
       "filename": "F6-CLAIM-TO-EVIDENCE-INDEX-CORRECTED-REVIEW-CANDIDATE.csv",
@@ -471,11 +469,116 @@
       "sharing_changed": false,
       "verification": "Native metadata and complete raw-byte equality.",
       "verified_utc": "2026-10-26T10:09:05.942467+00:00",
+      "publication_role": "guide",
+      "superseded_by": "1IN8ZLnA05ezPs-EcU1kUJ1pCtNNn4jvd"
+    },
+    {
+      "filename": "F6-integrated-acceptance-2026-10-26.zip",
+      "drive_file_id": "1PQOdm2zcs0f9ikPOat3gxl6dGY3TJs7j",
+      "drive_view_url": "https://drive.google.com/file/d/1PQOdm2zcs0f9ikPOat3gxl6dGY3TJs7j/view?usp=drivesdk",
+      "bytes": 12101,
+      "sha256": "d943ed5a6aebbc765a7db6a622f4c3f7d8114acf475c75b814fb4835cd7988d7",
+      "readback_bytes": 12101,
+      "readback_sha256": "d943ed5a6aebbc765a7db6a622f4c3f7d8114acf475c75b814fb4835cd7988d7",
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "sharing_changed": false,
+      "verification": "Native metadata and complete raw-byte equality.",
+      "verified_utc": "2026-10-26T10:36:42.768481+00:00",
+      "members": 3,
+      "publication_role": "acceptance_bundle"
+    },
+    {
+      "filename": "INTEGRATED_RELEASE_ACCEPTANCE.md",
+      "drive_file_id": "1GTuif4UsBp5--HVLQd2PDW7RKxB0SkdK",
+      "drive_view_url": "https://drive.google.com/file/d/1GTuif4UsBp5--HVLQd2PDW7RKxB0SkdK/view?usp=drivesdk",
+      "bytes": 6956,
+      "sha256": "57391c48599917e9fe30abcbd6536a8038a9ea9bab7106862fe841969e9ff015",
+      "readback_bytes": 6956,
+      "readback_sha256": "57391c48599917e9fe30abcbd6536a8038a9ea9bab7106862fe841969e9ff015",
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "sharing_changed": false,
+      "verification": "Native metadata and complete raw-byte equality.",
+      "verified_utc": "2026-10-26T10:36:42.972237+00:00",
+      "publication_role": "acceptance_memo"
+    },
+    {
+      "filename": "INTEGRATED_ACCEPTANCE_READBACK.json",
+      "drive_file_id": "1q62hvooIKZ5MgGGCBT11r7XXp2zkG09K",
+      "drive_view_url": "https://drive.google.com/file/d/1q62hvooIKZ5MgGGCBT11r7XXp2zkG09K/view?usp=drivesdk",
+      "bytes": 22087,
+      "sha256": "9de29e14ca69df1f81dceb5d90ceecddb102a291cdc56ca6fa6701bce0f5ae39",
+      "readback_bytes": 22087,
+      "readback_sha256": "9de29e14ca69df1f81dceb5d90ceecddb102a291cdc56ca6fa6701bce0f5ae39",
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "sharing_changed": false,
+      "verification": "Native metadata and complete raw-byte equality.",
+      "verified_utc": "2026-10-26T10:36:43.234609+00:00",
+      "publication_role": "acceptance_readback"
+    },
+    {
+      "filename": "F6-FULL-INTEGRATED-REPORT-FINAL-ACCEPTED.txt",
+      "drive_file_id": "1YF6Uox2YOwjGElz8IRkja6GWd0wlKHcT",
+      "drive_view_url": "https://drive.google.com/file/d/1YF6Uox2YOwjGElz8IRkja6GWd0wlKHcT/view?usp=drivesdk",
+      "bytes": 129418,
+      "sha256": "fc3ded9c09b31cb3af4981da264044077d01217e8d727488c978d4967520647a",
+      "readback_bytes": 129418,
+      "readback_sha256": "fc3ded9c09b31cb3af4981da264044077d01217e8d727488c978d4967520647a",
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "sharing_changed": false,
+      "verification": "Native metadata and complete raw-byte equality.",
+      "verified_utc": "2026-10-26T10:37:52.889799+00:00",
+      "publication_role": "full_report"
+    },
+    {
+      "filename": "00-START-HERE-F6-FINAL-ACCEPTED.txt",
+      "drive_file_id": "1IN8ZLnA05ezPs-EcU1kUJ1pCtNNn4jvd",
+      "drive_view_url": "https://drive.google.com/file/d/1IN8ZLnA05ezPs-EcU1kUJ1pCtNNn4jvd/view?usp=drivesdk",
+      "bytes": 9171,
+      "sha256": "ecacf3a0d8375e9b56a92c518f5e16c45be23fc2bdfde1fa00e5c04c6251c167",
+      "readback_bytes": 9171,
+      "readback_sha256": "ecacf3a0d8375e9b56a92c518f5e16c45be23fc2bdfde1fa00e5c04c6251c167",
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "sharing_changed": false,
+      "verification": "Native metadata and complete raw-byte equality.",
+      "verified_utc": "2026-10-26T10:37:53.192768+00:00",
       "publication_role": "guide"
+    },
+    {
+      "filename": "F6-FINAL-PUBLICATION-MANIFEST.json",
+      "drive_file_id": "1uEpoOj_snzYOZQfQLkecOnExYrQLPqae",
+      "drive_view_url": "https://drive.google.com/file/d/1uEpoOj_snzYOZQfQLkecOnExYrQLPqae/view?usp=drivesdk",
+      "bytes": 30996,
+      "sha256": "d9e0d4da8125fd32361742d68a35303f3eb70004813c570d82461e2e0cf45981",
+      "readback_bytes": 30996,
+      "readback_sha256": "d9e0d4da8125fd32361742d68a35303f3eb70004813c570d82461e2e0cf45981",
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "sharing_changed": false,
+      "verification": "Native metadata and complete raw-byte equality.",
+      "verified_utc": "2026-10-26T10:38:47.050634+00:00",
+      "publication_role": "final_publication_manifest"
     }
   ],
-  "reading_guide_url": "https://drive.google.com/file/d/1D50zMRhmAAaKc68tIgmRcdClt1jq2Zve/view?usp=drivesdk",
+  "reading_guide_url": "https://drive.google.com/file/d/1IN8ZLnA05ezPs-EcU1kUJ1pCtNNn4jvd/view?usp=drivesdk",
   "claim_to_evidence_index_url": "https://drive.google.com/file/d/104deTXewc9TH240OiHZjLmAxzUNSPyib/view?usp=drivesdk",
   "source_copy_policy": "Authored whitelisted records only; private raw source bodies are not rehosted.",
-  "independent_release_acceptance": "pending"
+  "independent_release_acceptance": {
+    "decision": "accepted",
+    "reviewed_commit": "8507b4b0c10d635425f981364b23769dfca99452",
+    "reviewed_drive_objects": 28,
+    "acceptance_bundle_sha256": "d943ed5a6aebbc765a7db6a622f4c3f7d8114acf475c75b814fb4835cd7988d7",
+    "acceptance_memo_drive_id": "1GTuif4UsBp5--HVLQd2PDW7RKxB0SkdK",
+    "scope": "Independent documentary/editorial and delivery review; stated research gaps remain."
+  },
+  "owner_verification": "Owner verified; address retained only in private verification evidence.",
+  "final_report_wrapper": {
+    "bytes": 699,
+    "reviewed_body_bytes": 128719,
+    "reviewed_body_sha256": "71c6beaced4c46351d928e521545d8d3c0b733c0e1bc0ddc0b61e6fa226465cd",
+    "research_body_changed": false
+  },
+  "metadata_cleanups": [
+    "Denominator-neutral implemented-control caution in final guide",
+    "Owner email fields omitted; owner-verification evidence retained privately"
+  ],
+  "final_git_pointer": "Exact containing Git commit is pinned in final handoff and current Library summary; no self-referential commit field."
 }

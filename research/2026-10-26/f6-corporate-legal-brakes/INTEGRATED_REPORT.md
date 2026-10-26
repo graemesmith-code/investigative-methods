@@ -1,6 +1,6 @@
 # Corporate brakes exist, but the agreement decides their reach
 
-**Integrated review candidate, 26 October 2026. Independent release acceptance pending.** Full versions and audit records belong on [Drive](https://drive.google.com/drive/folders/1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q); detailed technical notes, small authored dossiers, code and compact manifests remain on GitHub.
+**Final accepted release, 26 October 2026. [Independent acceptance](INDEPENDENT_RELEASE_ACCEPTANCE.md) covers the research at commit 8507b4b0c10d635425f981364b23769dfca99452. This update changes publication status only.** Full versions and audit records belong on [Drive](https://drive.google.com/drive/folders/1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q); detailed technical notes, small authored dossiers, code and compact manifests remain on GitHub.
 
 ## Verdict
 
@@ -103,7 +103,7 @@ Raw manuals, whole confidential-marked exhibits, extracted third-party full text
 
 **F6 costs:** zero paid calls/charges/reserves/uncertain requests across all four domains and coordinator. The verified F5 ledger supports opening exposure $6.561. At most$13.439 remains under the cumulative$20 ceiling if no intervening usage occurred. Current account/intervening usage was not checked because no paid request was made; paid search remains disabled pending reconciliation. No current fixed-query-price or top-up-as-spend assumption is used. The separate F456 budget is not part of this ledger.
 
-This candidate awaits independent review of the actual merged report, registers, commit and Drive objects. Publication alone does not close that gate.
+The independent integrated review accepted the exact research commit and all 28 reviewed Drive objects. The later status/metadata update adds the acceptance records and agreed publication cleanups without changing the research findings or frozen source/correction records.
 
 
 Post-freeze qualification: the [independent Skydio correction](POST_FREEZE_SKYDIO_CORRECTION.md), ED-PF001, governs the frozen licence memo/version-table and earlier ED-006 shorthand. January–3 February 2026 retains a general government-action exception in §1.3 despite no local exception in the §6.3 weapons clause. The automated flag is document-wide; no withdrawal/restoration of overall government permission is established. All eight clause bodies/hashes were independently checked; governing military applicability remains unresolved.

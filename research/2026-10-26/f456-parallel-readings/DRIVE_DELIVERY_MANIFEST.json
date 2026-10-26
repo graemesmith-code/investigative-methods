@@ -1,0 +1,66 @@
+{
+  "schema": "f456-parallel-readings-delivery-v1",
+  "verification_date_utc": "2026-10-26",
+  "intended_github_directory": "research/2026-10-26/f456-parallel-readings/",
+  "technical_notes": {
+    "filename": "TECHNICAL_NOTES.md",
+    "bytes": 12373,
+    "sha256": "6ae59b44ef175f74973c1c690b5215d4af573f75beb78e0739c8e9f5d3f2c71c"
+  },
+  "drive_folder": {
+    "id": "19SNnoFLsqrCih8LJUm4tg2pF2gz5nboh",
+    "url": "https://drive.google.com/drive/folders/19SNnoFLsqrCih8LJUm4tg2pF2gz5nboh",
+    "parent_id": "1y-4-bH9UNUp9-swAu6E7BEBr8hFoRsZ4",
+    "permission_change_performed": false,
+    "observed_visibility": "Existing anyone-with-link reader; anonymous access not independently tested"
+  },
+  "files": [
+    {
+      "filename": "F456-scan.txt",
+      "bytes": 21383,
+      "sha256": "4c41a6fc571e9d505895ed3219b6e6ae6fbf6739076e4837a60e23a0775aab26",
+      "drive_id": "1dyMKss-qHEZpg6xzbiWlTEAlqVV6r8lN",
+      "url": "https://drive.google.com/file/d/1dyMKss-qHEZpg6xzbiWlTEAlqVV6r8lN/view?usp=drivesdk",
+      "verification": "Authenticated Drive raw download matched the local final bytes byte-for-byte and by SHA256 on 2026-10-26; parent, owner, MIME and size also verified.",
+      "unchanged": true
+    },
+    {
+      "filename": "F456-jane.txt",
+      "bytes": 13025,
+      "sha256": "36ddd9e1acb36263d7e4afcfd5fe7273d9f582820be4dbda6e89becdeba941d9",
+      "drive_id": "1LU-DIufLnHMXXHB_hLU49CMK-npoh9R8",
+      "url": "https://drive.google.com/file/d/1LU-DIufLnHMXXHB_hLU49CMK-npoh9R8/view?usp=drivesdk",
+      "verification": "Authenticated Drive raw download matched the local final bytes byte-for-byte and by SHA256 on 2026-10-26; parent, owner, MIME and size also verified.",
+      "unchanged": true
+    },
+    {
+      "filename": "F456-jody.txt",
+      "bytes": 12382,
+      "sha256": "7f9aac08f2165c7c33cc12f4cecc3e49d8cff0f70dcf8472b57a67612ac7b5e7",
+      "drive_id": "1Hv_YfMCr0MF6C9_AILTX9vJjo2zQwRJ7",
+      "url": "https://drive.google.com/file/d/1Hv_YfMCr0MF6C9_AILTX9vJjo2zQwRJ7/view?usp=drivesdk",
+      "verification": "Authenticated Drive raw download matched the local final bytes byte-for-byte and by SHA256 on 2026-10-26; parent, owner, MIME and size also verified.",
+      "unchanged": true
+    },
+    {
+      "filename": "F456-public-audit-2026-10-26.zip",
+      "bytes": 53141,
+      "sha256": "be3ba07c43e6bffbf9cc18a980506b93ab3c717cf482affe3ce1357dd2e49260",
+      "drive_id": "1Z2v45vvFwE16SA-v-9BQ7p-qnvCdTAaH",
+      "url": "https://drive.google.com/file/d/1Z2v45vvFwE16SA-v-9BQ7p-qnvCdTAaH/view?usp=drivesdk",
+      "verification": "Authenticated Drive raw download compared byte-for-byte with local file, SHA256 matched; metadata confirms expected parent, owner, MIME and size.",
+      "unchanged": true
+    },
+    {
+      "filename": "READING_GUIDE.md",
+      "bytes": 4206,
+      "sha256": "0428f39c31f5e5c577ffdf873059a1b8d45ac6b56e7eb8d125ce1d35b48ba00f",
+      "drive_id": "1A7MMsqHZNzGQrJ7SRrprpO5w_77Itr1v",
+      "url": "https://drive.google.com/file/d/1A7MMsqHZNzGQrJ7SRrprpO5w_77Itr1v/view?usp=drivesdk",
+      "verification": "Authenticated Drive raw download compared byte-for-byte with local file, SHA256 matched; metadata confirms expected parent, owner, MIME and size.",
+      "unchanged": true
+    }
+  ],
+  "rights_and_cleanup_qa": "Independent read-only scoped review passed; nine scan audits, two complete cleaned reading inventories, three documentation payloads, two integrity controls; no raw news/source bodies, screenshots, secrets or private signed downloads.",
+  "publication_boundary": "No GitHub write performed by archive worker; coordinating parent owns repository publication."
+}

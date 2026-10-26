@@ -1,10 +1,10 @@
 # F6: corporate legal brakes
 
-**Corrected integrated review candidate, 26 October 2026. Final independent release acceptance is pending.**
+**Final accepted release, 26 October 2026. [Independent acceptance](INDEPENDENT_RELEASE_ACCEPTANCE.md) covers the exact research candidate and its 28 Drive objects. This commit adds status/metadata only.**
 
 The evidence establishes historical contractual restrictions, investor consequences and corporate legal/governance processes, with important government exceptions and deployment gaps. No reviewed record proves that a named General Counsel stopped a particular autonomous operational release. No exclusive scoop is claimed.
 
-[Start with the Drive reading guide](https://drive.google.com/file/d/1D50zMRhmAAaKc68tIgmRcdClt1jq2Zve/view?usp=drivesdk), then the [full corrected report](https://drive.google.com/file/d/1w4TVt-9J21k5O8sDJaVGO7nYcxkKjp5e/view?usp=drivesdk) and [claim-to-evidence index](https://drive.google.com/file/d/104deTXewc9TH240OiHZjLmAxzUNSPyib/view?usp=drivesdk). The full report includes all four unabridged native memos, the actual source-editor log and the later Skydio correction before those frozen appendices. Full evidence and audits remain in the verified [work/journalism F6 folder](https://drive.google.com/drive/folders/1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q). Sharing has not changed.
+[Start with the Drive reading guide](https://drive.google.com/file/d/1IN8ZLnA05ezPs-EcU1kUJ1pCtNNn4jvd/view?usp=drivesdk), then the [full corrected report](https://drive.google.com/file/d/1YF6Uox2YOwjGElz8IRkja6GWd0wlKHcT/view?usp=drivesdk) and [claim-to-evidence index](https://drive.google.com/file/d/104deTXewc9TH240OiHZjLmAxzUNSPyib/view?usp=drivesdk). The full report includes all four unabridged native memos, the actual source-editor log and the later Skydio correction before those frozen appendices. Full evidence and audits remain in the verified [work/journalism F6 folder](https://drive.google.com/drive/folders/1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q). Sharing has not changed.
 
 The [Skydio correction](POST_FREEZE_SKYDIO_CORRECTION.md) governs earlier ED-006 shorthand and the document-wide version-table flag. January's general government exception remains although the weapons passage lacks a local one. Clause-local text varies; withdrawal/restoration of overall government permission is not established. The original native bundle remains unchanged.
 
@@ -36,4 +36,4 @@ Every Git file is below 100,000 bytes. Full third-party bodies, confidential-mar
 
 F6 new paid calls, costs, reserves and uncertain exposure are zero. Documented inherited exposure is US$6.561; conditional headroom is US$13.439 under the cumulative US$20 cap. Exa access is unverified, so paid search remains disabled. Twelve bounded free novelty queries are retained for reuse by the separately budgeted F456 scan. No purchases, outreach, forms, account creation, licence acceptance, email, automation, migration or permission changes occurred.
 
-Three actual independent editorial rounds cleared the four native domains. The merged report, registers and exact publication objects still require the parent's independent release check.
+Three actual independent editorial rounds cleared the four native domains. The subsequent independent integrated release review accepted the exact research commit and 28 Drive objects. The final report adds only a status wrapper around the accepted report bytes; frozen source/correction archives, registers and research findings remain unchanged. [Final Drive publication manifest](https://drive.google.com/file/d/1uEpoOj_snzYOZQfQLkecOnExYrQLPqae/view?usp=drivesdk). Current public manifests omit owner email fields while retaining verification evidence privately.
