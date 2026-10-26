@@ -1,10 +1,8 @@
 {
-  "schema_version": 1,
   "project": "F456-range",
   "evidence_cutoff": "2026-10-26",
   "archival_verification_date": "2026-10-26",
   "github_target": "research/2026-10-26/f456-range/",
-  "publication_status": "Prepared locally; drafting/storage agent has made no GitHub write.",
   "drive_folder": {
     "id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
     "url": "https://drive.google.com/drive/folders/1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
@@ -22,58 +20,6 @@
     "permission_changes_performed": false,
     "note": "No claim that the destination is private; permissions were read, not altered."
   },
-  "files": [
-    {
-      "name": "F456-range-story-and-annex.txt",
-      "drive_id": "1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ",
-      "drive_url": "https://drive.google.com/file/d/1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ/view?usp=drivesdk",
-      "bytes": 50817,
-      "sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
-      "download_sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
-      "download_byte_identical": true,
-      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
-      "owner_matches_authenticated_user": true,
-      "owner_verification": "Default Drive metadata returned owner permission matching the authenticated profile.",
-      "mime_type": "text/plain"
-    },
-    {
-      "name": "F456-range-authored-research-bundle.zip",
-      "drive_id": "1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD",
-      "drive_url": "https://drive.google.com/file/d/1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD/view?usp=drivesdk",
-      "bytes": 54103,
-      "sha256": "f96b3b3debb85325a0e9f9121fc90a13d55b2cefba78d7f31370d86865798069",
-      "download_sha256": "f96b3b3debb85325a0e9f9121fc90a13d55b2cefba78d7f31370d86865798069",
-      "download_byte_identical": true,
-      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
-      "owner_matches_authenticated_user": true,
-      "owner_verification": "Default Drive metadata returned owner permission matching the authenticated profile.",
-      "mime_type": "application/zip"
-    },
-    {
-      "name": "independent-review.txt",
-      "drive_id": "14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N",
-      "drive_url": "https://drive.google.com/file/d/14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N/view?usp=drivesdk",
-      "bytes": 8332,
-      "sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915",
-      "download_sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915",
-      "download_byte_identical": true,
-      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
-      "owner_matches_authenticated_user": true,
-      "owner_verification": "Default Drive metadata returned owner permission matching the authenticated profile.",
-      "mime_type": "text/plain"
-    }
-  ],
-  "technical_notes": {
-    "path": "TECHNICAL_NOTES.md",
-    "bytes": 55271,
-    "sha256": "f318253af235a0cfa82c8c3f950cf3d8ee6d1663261fa404bf6be4072a12cfb5"
-  },
-  "review": {
-    "result": "PASS",
-    "report_bytes_preserved": true,
-    "report_sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
-    "independent_review_sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915"
-  },
   "fresh_exa": {
     "calls": 9,
     "all_http_200": true,
@@ -87,7 +33,120 @@
     "separate_from": "F6 and earlier archive-scan ledgers",
     "new_paid_calls_during_storage": 0
   },
-  "source_and_safety_boundary": "Authored text, audit metadata and code only; no raw source PDFs, extracts, CUI originals, scraped API bodies, credentials or operational weapon instructions.",
-  "verification": "All three Drive originals downloaded and byte-compared; SHA-256 and sizes matched. Metadata verified owner and parent. Downloaded ZIP passed integrity test. Account identifiers beyond Drive resource IDs are intentionally excluded.",
-  "self_hash_note": "This manifest does not contain its own hash; publisher may record its SHA-256 externally."
+  "source_and_safety_boundary": "Authored narrative, revision notes and audit metadata only; no raw PDFs, extracted bodies, CUI originals, scraped API bodies, credentials, people-directory data or operational weapon instructions.",
+  "self_hash_note": "This manifest does not contain its own hash; publisher may record its SHA-256 externally.",
+  "schema_version": 2,
+  "editorial_revision": 1,
+  "archival_verification_time_utc_approx": "2026-10-26T11:43:00Z",
+  "publication_status": "Revision prepared for parent-controlled publisher; drafting/storage agent has made no GitHub write.",
+  "current_reader_file_id": "1JKk7qhgExu9NRAI3-jPa88VfR1MgCMwS",
+  "current_reader_url": "https://drive.google.com/file/d/1JKk7qhgExu9NRAI3-jPa88VfR1MgCMwS/view?usp=drivesdk",
+  "current_story_words": 805,
+  "unchanged_annex": {
+    "bytes": 41589,
+    "sha256": "5c28c8c32e252e4da85f7bd8002c5ce32765fa87715c56df17f217059b642f68",
+    "comparison": "Byte-identical from the annex heading onward in both reports and standalone annex.",
+    "original_story_cross_references": "Preserved historical audit wording; not every original narrative quotation is reproduced in the rewrite."
+  },
+  "editorial_review": {
+    "result": "PASS",
+    "source_file": "editorial-check.txt",
+    "source_file_sha256": "c319c54f93767b4f411b0544569e39a20d4cfbbefb99d00fd9bdf993c1e3c4bc",
+    "scope": "Journalistic coherence and factual overreach against supplied record; not fresh legal/source research.",
+    "included_in_drive_file_id": "1IupGXEXpM9g6U_lr5XFc0uudHSwv-ZxA"
+  },
+  "files": [
+    {
+      "role": "current_reader_report",
+      "name": "F456-range-CURRENT-rewritten-story-and-annex.txt",
+      "drive_id": "1JKk7qhgExu9NRAI3-jPa88VfR1MgCMwS",
+      "drive_url": "https://drive.google.com/file/d/1JKk7qhgExu9NRAI3-jPa88VfR1MgCMwS/view?usp=drivesdk",
+      "bytes": 47059,
+      "sha256": "89c8c2d0b2b5873c3e504dfe89d3a8da596d957e2221d703b8aa98491eabbec9",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "anyone_link_reader": true,
+      "current_narrative": true
+    },
+    {
+      "role": "editorial_revision_note",
+      "name": "F456-range-editorial-revision-note.txt",
+      "drive_id": "1IupGXEXpM9g6U_lr5XFc0uudHSwv-ZxA",
+      "drive_url": "https://drive.google.com/file/d/1IupGXEXpM9g6U_lr5XFc0uudHSwv-ZxA/view?usp=drivesdk",
+      "bytes": 3657,
+      "sha256": "0b0c0e45e6ffc785eb546a45859e97454ec5522788dee756697bd41273d6d9c7",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "anyone_link_reader": true,
+      "current_narrative": false
+    },
+    {
+      "role": "current_reading_guide",
+      "name": "00-READ-ME-current-version.txt",
+      "drive_id": "1QX4u8SPg2_Y8R4-tVC9FELKdmVRXM3V5",
+      "drive_url": "https://drive.google.com/file/d/1QX4u8SPg2_Y8R4-tVC9FELKdmVRXM3V5/view?usp=drivesdk",
+      "bytes": 1358,
+      "sha256": "fd86ef74e0da486a33cfc7136273a217a2bdbdee3465ebdb8ed0d24fcdbc923e",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "anyone_link_reader": true,
+      "current_narrative": false
+    },
+    {
+      "role": "historical_original_report",
+      "name": "F456-range-ORIGINAL-story-and-annex-superseded.txt",
+      "drive_id": "1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ",
+      "drive_url": "https://drive.google.com/file/d/1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ/view?usp=drivesdk",
+      "bytes": 50817,
+      "sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "anyone_link_reader": true,
+      "current_narrative": false
+    },
+    {
+      "role": "historical_research_bundle",
+      "name": "F456-range-authored-research-bundle.zip",
+      "drive_id": "1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD",
+      "drive_url": "https://drive.google.com/file/d/1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD/view?usp=drivesdk",
+      "bytes": 54103,
+      "sha256": "f96b3b3debb85325a0e9f9121fc90a13d55b2cefba78d7f31370d86865798069",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "anyone_link_reader": true,
+      "current_narrative": false
+    },
+    {
+      "role": "historical_independent_review",
+      "name": "independent-review.txt",
+      "drive_id": "14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N",
+      "drive_url": "https://drive.google.com/file/d/14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N/view?usp=drivesdk",
+      "bytes": 8332,
+      "sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "anyone_link_reader": true,
+      "current_narrative": false
+    }
+  ],
+  "history_preserved": {
+    "original_report_id": "1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ",
+    "original_report_bytes_unchanged": true,
+    "original_report_title_only_renamed": true,
+    "original_bundle_bytes_unchanged": true,
+    "original_review_bytes_unchanged": true
+  },
+  "new_research_or_paid_calls_for_revision": 0,
+  "verification": "All six current/historical files downloaded and byte-compared. Every SHA-256 and byte count matched. Parent, owner and existing link-reader state verified. Original report title changed only; no frozen original bytes or permissions changed.",
+  "technical_notes": {
+    "path": "TECHNICAL_NOTES.md",
+    "bytes": 56568,
+    "sha256": "5343c0db607d26b50fbb9aec511e7c3f8d2c100b4b1c43968b6ff972f2559b66"
+  }
 }

@@ -1,33 +1,48 @@
-# F456-range: technical notes and source audit
+# F456-range: technical notes and versioned source audit
 
-Evidence cutoff: 26 October 2026. Archival verification: 26 October 2026, approximately 10:54 UTC.
+Evidence cutoff: 26 October 2026. Current narrative: editorial revision 1, delivered 26 October 2026. Versioned Drive archive verified approximately 11:43 UTC.
 
-## Scope and result
+## Read the current narrative
 
-This is the technical record for an original service-member-facing story about the personnel-specific NASAMS release restriction at Trident Elding and the developmental Mjölnir/SkyRaider clearance at Camp Lejeune. It tests, rather than assumes, that personal career or legal concerns motivated reviewers. The available public record does not establish that motive. Ordinary authority/evidence requirements and staged testing remain stronger supported alternatives; this is not a finding that every rule was followed.
+- [F456-range-CURRENT-rewritten-story-and-annex.txt](https://drive.google.com/file/d/1JKk7qhgExu9NRAI3-jPa88VfR1MgCMwS/view?usp=drivesdk) — 47,059 bytes; SHA-256 `89c8c2d0b2b5873c3e504dfe89d3a8da596d957e2221d703b8aa98491eabbec9`.
+- [00-READ-ME-current-version.txt](https://drive.google.com/file/d/1QX4u8SPg2_Y8R4-tVC9FELKdmVRXM3V5/view?usp=drivesdk) — 1,358 bytes; SHA-256 `fd86ef74e0da486a33cfc7136273a217a2bdbdee3465ebdb8ed0d24fcdbc923e`.
+- [F456-range-editorial-revision-note.txt](https://drive.google.com/file/d/1IupGXEXpM9g6U_lr5XFc0uudHSwv-ZxA/view?usp=drivesdk) — 3,657 bytes; SHA-256 `0b0c0e45e6ffc785eb546a45859e97454ec5522788dee756697bd41273d6d9c7`.
 
-The full reviewed story and annex remain unchanged at 50,817 bytes, SHA-256 `9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47`. Independent review passed after citation-location corrections. Neither the author nor reviewer located a signed NNMSB refusal, the event IFC, risk-acceptance record, accident investigation or direct motive evidence. No injury, cause, AI involvement, negligence or illegality is inferred.
+The current story is an 805-word editorial rewrite with an event-led opening, clearer narrative order and less repeated qualification. It is followed by the exact original technical/source annex. The revision adds no research, interview, paid call or material source finding. Final editorial readback passed; that check assessed journalistic coherence and factual overreach against the supplied record, not a fresh legal or source investigation.
 
-## Full versions and integrity
+The combined current file is **47,059 bytes**, SHA-256 `89c8c2d0b2b5873c3e504dfe89d3a8da596d957e2221d703b8aa98491eabbec9`.
 
-- [F456-range Drive folder](https://drive.google.com/drive/folders/1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY)
-- [F456-range-story-and-annex.txt](https://drive.google.com/file/d/1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ/view?usp=drivesdk) — 50,817 bytes; SHA-256 `9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47`.
+## Unchanged research and preservation controls
+
+The annex from the heading "F456 range technical and source annex" onward matches byte-for-byte in both reports and the standalone annex: **41,589 bytes**, SHA-256 `5c28c8c32e252e4da85f7bd8002c5ce32765fa87715c56df17f217059b642f68`.
+
+The retained annex is the original research audit. Its references to original-story quotation placement or wording refer to the historical narrative, not necessarily the editorial rewrite. It has not been silently edited to claim a new research pass.
+
+The source record still does not establish that career or personal-liability fears caused the two safety decisions. The actual NNMSB disposition, Lejeune IFC, residual-risk acceptance and later investigation or corrective-action record remain missing from the retrieved public evidence. No injury, engineering cause, AI involvement, negligence or illegality is inferred.
+
+## Historical files retained unchanged
+
+- [F456-range-ORIGINAL-story-and-annex-superseded.txt](https://drive.google.com/file/d/1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ/view?usp=drivesdk) — 50,817 bytes; SHA-256 `9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47`.
 - [F456-range-authored-research-bundle.zip](https://drive.google.com/file/d/1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD/view?usp=drivesdk) — 54,103 bytes; SHA-256 `f96b3b3debb85325a0e9f9121fc90a13d55b2cefba78d7f31370d86865798069`.
 - [independent-review.txt](https://drive.google.com/file/d/14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N/view?usp=drivesdk) — 8,332 bytes; SHA-256 `459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915`.
 
-Each uploaded file was fetched from Drive as original raw bytes, materialized through the returned authenticated file reference, and compared byte-for-byte with its reviewed local counterpart. Owner permission matched the authenticated Drive profile; parent IDs matched the new F456-range folder, whose parent is the verified journalism folder under work. The destination already had anyone-with-link reader access. No sharing or permission changes were made. This note intentionally omits account email and transfer tokens.
+The original report's Drive title alone was marked ORIGINAL/superseded. Its file ID, contents and access were preserved. The original bundle contains the earlier narrative and research audits; it is not the current reader version. The independent factual review remains a review of that original package. The current editorial PASS is included in the separate revision note.
 
-The authored ZIP excludes downloaded original PDFs, extracted third-party bodies, raw scraped API text, credentials and duplicate draft prose. The independent review is separately linked rather than retroactively inserted into the reviewed ZIP. The ZIP's imported Exa manifest refers to its original five-payload handoff, including a report intentionally omitted from the authored bundle; the delivery manifest explains that distinction.
+All six current/historical Drive files were downloaded as original bytes and compared with their local counterparts. Every byte count and SHA-256 matched. Metadata verified the expected parent folder and ownership by the authenticated user. The destination's existing anyone-with-link reader state was preserved; no sharing or permission changes were made.
 
-## Search cost and scope
+Folder: [work/journalism/F456-range](https://drive.google.com/drive/folders/1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY).
 
-There were nine fresh Exa API searches, all HTTP 200, with 63 result entries including duplicates. Provider-reported charges total **US$0.063**. Conservative **total** exposure was **US$0.450**, containing those charges plus US$0.387 precautionary headroom; it was not an additional US$0.450 charge. The separate F456-range cap was US$1.00, distinct from F6 and the earlier archive scan. No request remains outstanding or uncertain, no retry was made, and storage work made no further paid calls. Provider response metadata is not a final invoice.
+The archive excludes raw source PDFs, third-party extracted bodies, CUI originals, raw scraped API text, credentials and people-directory data. The original imported Exa manifest refers to its original five-payload handoff, including a report intentionally omitted from the authored bundle; the bundle's delivery manifest explains this.
 
-The case-author native log contains 58 queries; the governance lane contains 74 reconstructed substantive queries. Independent-review queries are separate and not included in those counts. These are activity counts, not search-completeness claims. Exact query/cost/source/evidence audits are in the Drive ZIP. Query reconstructions below are authored logs, not raw provider responses.
+## Search cost and scope: unchanged
 
-## Preservation and publication boundary
+Nine fresh Exa API searches, all HTTP 200, returned 63 entries including duplicates. Provider-reported charges remain **US$0.063**. Conservative **total** exposure remains **US$0.450**, containing those charges plus US$0.387 precautionary headroom; it is not an additional charge. The dedicated F456-range cap was US$1.00, separate from F6 and the earlier archive scan. No request is outstanding or uncertain, no retry was made, and editorial/storage work made no new paid call. Provider response metadata is not a final invoice.
 
-The research annex below preserves the research-time account of actions, access failures and unperformed outreach. Drive archival storage was completed afterward as described above. No agency questions or records requests were sent. No GitHub write has been performed by the drafting/storage agent; these two files are prepared for the parent-controlled authorized publisher at `research/2026-10-26/f456-range/`.
+The original case-author native log contains 58 queries; the governance lane contains 74 reconstructed substantive queries. Independent-review queries are separate. These are activity counts, not completeness claims. The full query/cost/source/evidence audits remain in the original Drive bundle and the query reconstruction below.
+
+## Publication boundary
+
+The full research annex and query reconstruction below are preserved from the original technical notes. No agency questions or records requests were sent. This revision of `TECHNICAL_NOTES.md` and `DRIVE_DELIVERY_MANIFEST.json` is prepared for the parent-controlled publisher at `research/2026-10-26/f456-range/`. The drafting/storage agent has not written to GitHub.
 
 ---
 
