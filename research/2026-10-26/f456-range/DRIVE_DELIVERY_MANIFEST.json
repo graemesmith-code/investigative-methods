@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "project": "F456-range",
+  "evidence_cutoff": "2026-10-26",
+  "archival_verification_date": "2026-10-26",
+  "github_target": "research/2026-10-26/f456-range/",
+  "publication_status": "Prepared locally; drafting/storage agent has made no GitHub write.",
+  "drive_folder": {
+    "id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+    "url": "https://drive.google.com/drive/folders/1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+    "name": "F456-range",
+    "parent_id": "1y-4-bH9UNUp9-swAu6E7BEBr8hFoRsZ4",
+    "parent_name": "journalism",
+    "grandparent_id": "1cg60WP0FtwRFgrfGDPvB0pFKA02Y6t8C",
+    "grandparent_name": "work",
+    "owner_matches_authenticated_user": true,
+    "parent_verified": true
+  },
+  "sharing": {
+    "preexisting_destination": "anyone-with-link reader",
+    "new_items": "same visible reader state as parent",
+    "permission_changes_performed": false,
+    "note": "No claim that the destination is private; permissions were read, not altered."
+  },
+  "files": [
+    {
+      "name": "F456-range-story-and-annex.txt",
+      "drive_id": "1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ",
+      "drive_url": "https://drive.google.com/file/d/1J7vIQ78vzoKTwkSe5_u8YjtzDBHvFmxQ/view?usp=drivesdk",
+      "bytes": 50817,
+      "sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
+      "download_sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "owner_verification": "Default Drive metadata returned owner permission matching the authenticated profile.",
+      "mime_type": "text/plain"
+    },
+    {
+      "name": "F456-range-authored-research-bundle.zip",
+      "drive_id": "1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD",
+      "drive_url": "https://drive.google.com/file/d/1_IO9rz9RMPGslET7vcqHC_5zG5obyzJD/view?usp=drivesdk",
+      "bytes": 54103,
+      "sha256": "f96b3b3debb85325a0e9f9121fc90a13d55b2cefba78d7f31370d86865798069",
+      "download_sha256": "f96b3b3debb85325a0e9f9121fc90a13d55b2cefba78d7f31370d86865798069",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "owner_verification": "Default Drive metadata returned owner permission matching the authenticated profile.",
+      "mime_type": "application/zip"
+    },
+    {
+      "name": "independent-review.txt",
+      "drive_id": "14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N",
+      "drive_url": "https://drive.google.com/file/d/14e0wzawvuoHFBKNyuSi7aeHWzWocx-0N/view?usp=drivesdk",
+      "bytes": 8332,
+      "sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915",
+      "download_sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915",
+      "download_byte_identical": true,
+      "parent_id": "1JW1vqPa3uAyPCCQ1BzVZeTGW4SPNSQyY",
+      "owner_matches_authenticated_user": true,
+      "owner_verification": "Default Drive metadata returned owner permission matching the authenticated profile.",
+      "mime_type": "text/plain"
+    }
+  ],
+  "technical_notes": {
+    "path": "TECHNICAL_NOTES.md",
+    "bytes": 55271,
+    "sha256": "f318253af235a0cfa82c8c3f950cf3d8ee6d1663261fa404bf6be4072a12cfb5"
+  },
+  "review": {
+    "result": "PASS",
+    "report_bytes_preserved": true,
+    "report_sha256": "9841f21d164ddfb9f246ed256239fd35b57a8e3bb73bcfb5ade5bd3ca56b8b47",
+    "independent_review_sha256": "459886c10eb7aa5b8338d4224c05e45c0541166afaf3b08045a988ef9bcbf915"
+  },
+  "fresh_exa": {
+    "calls": 9,
+    "all_http_200": true,
+    "result_entries_including_duplicates": 63,
+    "provider_reported_usd": "0.063",
+    "conservative_total_exposure_usd": "0.450",
+    "included_precautionary_headroom_usd": "0.387",
+    "cap_usd": "1.00",
+    "outstanding_or_uncertain_requests": 0,
+    "retries": 0,
+    "separate_from": "F6 and earlier archive-scan ledgers",
+    "new_paid_calls_during_storage": 0
+  },
+  "source_and_safety_boundary": "Authored text, audit metadata and code only; no raw source PDFs, extracts, CUI originals, scraped API bodies, credentials or operational weapon instructions.",
+  "verification": "All three Drive originals downloaded and byte-compared; SHA-256 and sizes matched. Metadata verified owner and parent. Downloaded ZIP passed integrity test. Account identifiers beyond Drive resource IDs are intentionally excluded.",
+  "self_hash_note": "This manifest does not contain its own hash; publisher may record its SHA-256 externally."
+}
