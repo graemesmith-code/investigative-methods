@@ -1,0 +1,26 @@
+{
+  "schema": "F6-drive-manifest-v1",
+  "status": "checkpoint01; research incomplete; not independent release acceptance",
+  "folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+  "folder_url": "https://drive.google.com/drive/folders/1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+  "scope": "Every F6 uploaded object at checkpoint01. Bundle member manifest enumerates30authored payloads;31members total including the manifest. No full third-party source is rehosted.",
+  "objects": [
+    {
+      "drive_file_id": "1BDYFfjJq-sJDmg3gjqR97zTGwaidvr2g",
+      "drive_view_url": "https://drive.google.com/file/d/1BDYFfjJq-sJDmg3gjqR97zTGwaidvr2g/view?usp=drivesdk",
+      "filename": "F6-checkpoint-01-authored-registers.zip",
+      "bytes": 48492,
+      "sha256": "941dfb4022b4414613ea3da67be4d61c0c4bae418c10fe9ad4f05637155c7067",
+      "readback_bytes": 48492,
+      "readback_sha256": "941dfb4022b4414613ea3da67be4d61c0c4bae418c10fe9ad4f05637155c7067",
+      "members": 31,
+      "payload_members_verified": 30,
+      "parent_folder_id": "1LAErE1EpubQKKdLW7aU0A0B44ey_Nd2q",
+      "owner_email": "smithg@gmail.com",
+      "anyone_reader_observed": true,
+      "sharing_changed": false,
+      "verification": "Completed native upload; metadata parent/owner/inherited permissions checked; full native raw fetch exact byte equality; every 30 payload member hash checked.",
+      "verified_utc": "2026-10-26T08:39:36.637599+00:00"
+    }
+  ]
+}
