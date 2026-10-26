@@ -1,25 +1,21 @@
-# Reading pack — checkpoint 02
+# F6 reading pack — integrated candidate
 
-**No native F6 source-team dossier has completed intake. The coordinator has independently run one primary-compilation screening pilot.** This list distinguishes prior authored baselines and assigned primary-source seeds. It is not a list of newly read or verified legal sources.
+Ranked by reporting value, not agreement with the hypothesis. Original source/version/rights and access fields remain in the Drive source and claim registers. Final independent release acceptance is pending.
 
-1. Approved directive: Library `libfile_4221e6987bb88191a5e071ac6e8436cf`, current version 1, filename `F6-corporate-legal-brakes-APPROVED-v2.txt`. Exact bytes verified; provenance and approved copy are in the F6 Drive package.
-2. [Immutable F4 baseline](https://github.com/graemesmith-code/investigative-methods/tree/fa55e8d3d7c69bfc1051279185c7c88df8e92cb6/research/2026-10-25/f4-autonomy-brakes-audit).
-3. [Immutable F5 report and five dossiers](https://github.com/graemesmith-code/investigative-methods/tree/9d0165f4fb56f8e16518c87b15f5b4c98b6614a1/research/2026-10-25/f5-global-autonomy-brakes).
-4. [F5 financial methods](https://github.com/graemesmith-code/investigative-methods/blob/9d0165f4fb56f8e16518c87b15f5b4c98b6614a1/research/2026-10-25/f5-global-autonomy-brakes/FINANCIAL_METHODS_AND_FINDINGS.md). Reuse whole-lifecycle discipline; do not rehydrate unchanged awards.
-5. [F5 detailed object manifest](https://github.com/graemesmith-code/investigative-methods/blob/9d0165f4fb56f8e16518c87b15f5b4c98b6614a1/research/2026-10-25/f5-global-autonomy-brakes/DRIVE_DATA_MANIFEST.json). Existing F5 data remains unchanged.
-6. [F5 Exa ledger](https://drive.google.com/file/d/1_ZSiF_GEw1i59U9w-bE8B5WlaX9pV8xB/view). Byte hash verified against the immutable manifest; does not by itself verify intervening account usage.
+1. [Signed historical Anthropic–Palantir addenda, App 391–407/PDF99–115](https://storage.courtlistener.com/recap/gov.uscourts.cadc.42923/gov.uscourts.cadc.42923.01208843409.4.pdf). D-C01. Read permissions, restrictions, hierarchy and remedies together; current successor unresolved. Full appendix excluded from rehosting.
+2. [June Ramasamy declaration](https://storage.courtlistener.com/recap/gov.uscourts.cand.465515/gov.uscourts.cand.465515.166.4.pdf). D-C02. Sworn provider account of deployment enforceability; not a judicial technical finding.
+3. [Northrop Ridgeback PA_3051](https://cdn.northropgrumman.com/-/media/Supplier-Documents/Program-Addenda/PA_3051.pdf?rev=6a5e52e0ffe4456c93a9370bba1170f2). LC13. x52.227-008(a)(13)/(b)(9), pages 15–17; program-specific continued use/remedies.
+4. [Skydio Texas DIR-CPO-5863](https://dir.texas.gov/contracts/dir-cpo-5863). LC05. Actual framework, sections 10–11; accepted product/licence still needed.
+5. [Current AIP legal centre](https://palantir.pactsafe.io/aip-legal-3791.html). LC06–07. Effective 5 October 2026; historical 22-version map and model/host rows matter.
+6. [Skydio enterprise terms](https://www.skydio.com/legal/terms-and-conditions-enterprise), [software EULA](https://www.skydio.com/legal/eula). LC02–04,23. Government exceptions, distinct remedy triggers and vendor feature assertion; clause-local wording varies; the whole-document phrase flag does not establish withdrawal/restoration of overall government permission.
+7. [Saab annual report 2025](https://www.saab.com/globalassets/corporate/investor-relations/annual-report/2026/saab-ar25-eng.pdf). CAP01. Pages 31,60,70,124–126,131; collective remit and conflicting trigger retained.
+8. [Storebrand Q3 2024 review](https://www.storebrandam.com/globalassets/storebrand-asset-management/documents/sustainability/quarterly-sustainable-investment-reviews/sustainable-investment-review-q3-2024.pdf). CAP03–04. Actual investor decision/reason, not adjudicated vendor liability or proven causation.
+9. [Operative GPFG interim instrument](https://lovdata.no/forskrift/2025-11-07-2231). CAP05. Norwegian controls; amendment and consultation stages separately recorded.
+10. [Darkstar policy](https://darkstar.ee/). CAP22. Explicit public investment commitment; no retrieved LP incorporation or named refusal.
+11. [RTX consent](https://www.sec.gov/Archives/edgar/data/101829/000010182924000031/a2024-08x30exhibit991.htm). LRE13–14. Exact legal support/monitoring duties; export governance, not targeting veto.
+12. [Menocal](https://www.supremecourt.gov/opinions/25pdf/24-758_2dp3.pdf). LRE04.2026 merits-defence correction; read separately from Boyle.
+13. [PL119-60](https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm). LRE09–10. Scoped sections 801/876, decision versus approval and narrow loss/delegation categories.
+14. [DSCA20-31](https://samm.dsca.mil/policy-memoranda/dsca-20-31). LRE19. Historical explicit IHL template; current individual incorporation remains unresolved.
+15. [NDIA22 July 2024](https://www.ndia.org/-/media/sites/ndia/policy/documents/ndia-comments-on-dib-adoption-of-ai-for-defense-applications-2024-11195.pdf). D-C04. Page 12 direct humanitarian-law wording alongside licence-removal/risk-allocation requests; advocacy not adoption.
 
-## Assigned seeds — no applicability finding yet
-
-| Seed | Next verification |
-|---|---|
-| [Anduril developer licence](https://developer.anduril.com/license) | Exact version, scope and incorporated terms; distinguish SDK from delivered weapon software |
-| [Skydio enterprise terms](https://www.skydio.com/legal/terms-and-conditions-enterprise) | Government exception and suspension/remedy limits; executed public procurement chain |
-| [Palantir legal centre](https://www.palantir.com/legal/) | Current and prior AIP versions and dates; do not call the older seed PDF current |
-| [Saab annual report 2025](https://www.saab.com/globalassets/corporate/investor-relations/annual-report/2026/saab-ar25-eng.pdf) | Responsible-sales triggers, legal role/remit and any actual conditioned/refused decision |
-
-The final reading pack will rank reviewed documents by reporting value and include access depth, version, decisive locator and the exact claim supported. A source's public availability will not substitute for contract applicability or independently observed effectiveness.
-
-## Coordinator pilot
-
-[Appendix vol.4, D.C. Circuit case 26-1049, document 2169955, filed 22 April 2026](https://storage.courtlistener.com/recap/gov.uscourts.cadc.42923/gov.uscourts.cadc.42923.01208843409.4.pdf): full PDF fetched and hashed; text pass over130pages; signature and restriction pages visually checked. Source-byte SHA256 `cd7fe0be20477e7754c4171dc0e7b8ac83464526ac9e0205e9b2750be26af04a`. Full semantic/image coverage and successor applicability unresolved. Full appendix excluded from publication.
+The full Drive report appends all four dossiers and the actual independent editorial log. The complete native archive preserves every whitelisted authored record. Individual principal registers and the claim index are linked by the reading guide and compact Drive manifest.

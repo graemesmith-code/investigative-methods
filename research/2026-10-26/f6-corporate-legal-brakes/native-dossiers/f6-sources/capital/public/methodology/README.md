@@ -1,0 +1,3 @@
+# Code snapshot
+
+These are the original worker-root scripts. To reproduce, place them at a working capital-root containing `documents-input.json`, `private/` and `public/`; fetch public sources with `retrieve.py`, then run screen.py, build_registers.py, finalize.py. The last final editorial adjustments (company-described wording and provisional/final category summary) are recorded in editor-decisions.json. Source text copies are not redistributed. Exact script hashes identify this run; historical live pages may subsequently change. The lexicon is v1.1 final amended build, not a preregistered fixed lexicon.
