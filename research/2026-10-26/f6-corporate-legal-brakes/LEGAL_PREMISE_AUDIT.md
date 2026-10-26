@@ -1,6 +1,6 @@
 # Initial premise audit — not a legal opinion
 
-Checkpoint 01, 26 October 2026. Current-source review is assigned to the native teams; their reviewed Library transfers have not yet been received. The initial prompt is a set of leads, not established facts. No qualified lawyer review is claimed.
+Checkpoint 02, 26 October 2026. Current-source review is assigned to the native teams; their reviewed Library transfers have not yet been received. The initial prompt is a set of leads, not established facts. No qualified lawyer review is claimed.
 
 | Consequential premise | Operative authority/document needed | Jurisdiction/date | Current disposition |
 |---|---|---|---|

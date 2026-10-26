@@ -11,7 +11,7 @@ import json
 import re
 from pathlib import Path
 
-VERSION = 'f6-screen-0.4'
+VERSION = 'f6-screen-0.6'
 CLASSES = ['explicit_ihl_reference', 'substantive_concept_unlabelled',
            'plausible_indirect_connection', 'generic_no_established_ihl_link',
            'rejected_false_positive']
@@ -72,6 +72,14 @@ def run(input_path, output, reviews_path=None):
     lexbytes = json.dumps(lexicon, ensure_ascii=False, sort_keys=True).encode()
     (output/'lexicon.json').write_bytes(lexbytes+b'\n')
     reviews = load_jsonl(reviews_path) if reviews_path else []
+    source_ids={s['document_id'] for s in sources}
+    for review in reviews:
+        if review['document_id'] not in source_ids:
+            raise ValueError('Review references an unknown document')
+        if review.get('kind') not in ['adjudication','semantic_addition','full_document_semantic_review']:
+            raise ValueError('Unknown review kind')
+        if not review.get('reviewer'):
+            raise ValueError('Review must identify its reviewer')
     occurrences, coverage, failures, candidates, links = [], [], [], [], []
     for source in sources:
         doc = source['document_id']
@@ -92,7 +100,8 @@ def run(input_path, output, reviews_path=None):
         except (OSError, UnicodeError, KeyError) as e:
             failures.append({'document_id':doc,'status':'text_unavailable',
                              'error_type':type(e).__name__})
-            coverage.append({'document_id':doc,'processed':False,'no_reference_claim_allowed':False})
+            coverage.append({'document_id':doc,'processed':False,'no_reference_claim_allowed':False,
+                             'final_disposition':source.get('final_disposition')})
             continue
         text_hash = digest(text.encode())
         source_reviews = [r for r in reviews if r['document_id']==doc]
@@ -146,6 +155,8 @@ def run(input_path, output, reviews_path=None):
         # Semantic additions retain all unmatched passages; no keyword co-occurrence.
         for review in source_reviews:
             if review.get('kind') == 'semantic_addition':
+                if review.get('classification') not in CLASSES:
+                    raise ValueError('Unknown semantic classification')
                 a,b = review['char_start'],review['char_end']
                 if not (0<=a<b<=len(text)): raise ValueError('Invalid semantic span')
                 hit_id = 'semantic-'+digest(f'{doc}:{a}:{b}'.encode())[:20]
@@ -179,6 +190,11 @@ def run(input_path, output, reviews_path=None):
                            rationale=review['rationale'],
                            negation_exception_status=review['negation_exception_status'])
         occurrences.extend(doc_hits)
+        for hit in doc_hits:
+            hit['lexical_detection']=hit.get('screen_class') is not None
+            hit['actual_control_status']='not_inferred_from_reference_occurrence'
+            hit['control_id']=None
+            hit['unique_control_countable']=False
         expected = source.get('expected_pages')
         missing = source.get('missing_sections',[])
         images = source.get('image_text_status','unknown')
@@ -196,6 +212,7 @@ def run(input_path, output, reviews_path=None):
            'semantic_additions':sum(h.get('screen_class') is None for h in doc_hits),
            'reviewed_occurrences':sum(h['review_status']=='reviewed' for h in doc_hits),
            'no_reference_claim_allowed':complete and not doc_hits,
+           'final_disposition':source.get('final_disposition'),
            'status':'fully_processed' if complete else 'partial_or_review_pending'})
         if not extraction_complete:
             failures.append({'document_id':doc,'status':'coverage_incomplete',
@@ -210,7 +227,14 @@ def run(input_path, output, reviews_path=None):
               'control_categories':[],'evidence_level':None,'decision_maker':None,
               'trigger':None,'exceptions_override':'unresolved','consequence':None,
               'novelty':'not_assessed','contrary_evidence':[],'remaining_gap':'context_and_applicability_review',
-              'promotion_status':'not_promoted','short_evidence':h['short_original_extract']})
+              'promotion_status':'not_promoted','short_evidence':None,
+              'evidence_form':'linked_occurrence','evidence_occurrence_ids':[h['occurrence_id']],
+              'origin':'lexical_hit' if h.get('screen_class') else 'semantic_addition',
+              'lexical_signal_ids':h.get('signal_ids',[]),
+              'reviewed_reference_class':h.get('reviewed_class'),
+              'reference_review_status':h['review_status'],
+              'actual_control_status':'requires_separate_normalized_control_review',
+              'control_id':None,'unique_control_countable':False})
     source_public = [{k:v for k,v in s.items() if k not in ['text_path','source_path','segments'] } for s in sources]
     for name, rows in [('sources',source_public),('occurrences',occurrences),('candidates',candidates),
                        ('coverage',coverage),('access_failures',failures),('incorporation_links',links)]:

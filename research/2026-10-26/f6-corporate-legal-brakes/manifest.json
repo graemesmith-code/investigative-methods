@@ -1,5 +1,5 @@
 {
-  "status": "checkpoint-01 intake and methods; research incomplete",
+  "status": "checkpoint02; intake, methods and OCR audit; research incomplete",
   "cutoff": "2026-10-26",
   "baseline_f4": "fa55e8d3d7c69bfc1051279185c7c88df8e92cb6",
   "baseline_f5": "9d0165f4fb56f8e16518c87b15f5b4c98b6614a1",
@@ -22,5 +22,12 @@
   "provisional_occurrence_classifications": 41,
   "coverage_failures": 1,
   "fully_processed_documents": 0,
-  "regression_tests_passed": 7
+  "regression_tests_passed": 8,
+  "screen_code_version": "f6-screen-0.6",
+  "ocr_pages_processed": 130,
+  "ocr_variant_machine_spans": 35,
+  "new_ocr_page_signal_pairs": 0,
+  "drive_uploaded_objects": 9,
+  "individually_accessible_principal_registers": 4,
+  "novelty_free_queries": 8
 }

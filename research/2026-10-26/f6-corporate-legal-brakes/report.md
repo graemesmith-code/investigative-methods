@@ -1,6 +1,6 @@
 # Who can require what? F6 integration checkpoint
 
-**Checkpoint 01 — intake and methods only. Evidence cutoff: 26 October 2026. Research findings and independent release approval pending.**
+**Checkpoint 02 — intake, methods and OCR cross-check; research incomplete. Evidence cutoff: 26 October 2026. Research findings and independent release approval pending.**
 
 ## Current verdict
 
@@ -50,7 +50,7 @@ No outreach, email, forms or records requests have been sent.
 
 The pipeline searches direct legal language, substantive concepts, plausible indirect language and generic legal/ethical clauses without weapon/autonomy co-occurrence. It retains every detected occurrence, including repeated text and ambiguous acronyms; reviewers can add semantic misses and reject false positives. Public rows use short aggregate quotations or paraphrase and source/text offsets. Whole third-party text stays in private working storage unless redistribution is cleared. See [methods](SCREENING_METHODS.md).
 
-One primary compilation was byte-verified and machine-screened across 130 extracted pages. It yields 36 physical machine-hit spans and five semantic additions from an 11-page declared non-hit sample: 41 retained occurrences with provisional human classifications. Two are rejected false positives; none is promoted. The whole-document semantic pass and OCR/image completeness are pending, producing one explicit coverage failure. The seven regression tests establish bounded software behaviors only. No overall recall estimate or negative-source finding is claimed. The initial coordinator critique is recorded as partial work, not fabricated as three editorial rounds.
+One primary compilation was byte-verified and machine-screened across 130 extracted pages. It yields 36 physical machine-hit spans and five semantic additions from an 11-page declared non-hit sample: 41 retained occurrences with provisional human classifications. Two are rejected false positives; none is promoted. The whole-document semantic pass and OCR/image completeness are pending, producing one explicit coverage failure. The eight regression tests establish bounded software behaviors only. No overall recall estimate or negative-source finding is claimed. The initial coordinator critique is recorded as partial work, not fabricated as three editorial rounds.
 
 The exact F5 cost file (118 rows, 23,868 bytes) matches the final baseline manifest hash. Its exposure debits total $0.826 over the inherited $5.735, producing the documented $6.561 opening. F6 made **zero paid calls, zero new reservations and zero uncertain paid requests**. At most $13.439 remains under the cumulative $20 ceiling if no intervening usage occurred. Current account access and intervening usage have not been verified; paid search is disabled until they are reconciled and a specific gap justifies it. Historical F5 prices are not a current pricing assumption.
 
@@ -63,3 +63,9 @@ The [publicly filed D.C. Circuit appendix, PDF pages 99–115/App.391–407](htt
 ## Outstanding release gates
 
 All four reviewed source-team transfers, exact entity/product/contract dispositions across twelve lanes, full-text occurrence and coverage accounting, targeted contradiction/gap follow-up, the three recorded editorial rounds, and independent acceptance remain pending. This checkpoint is a reproducible start, not final research completion.
+
+## Extraction and prior-coverage checkpoint
+
+A raster OCR cross-check completed all 130 pages, finding 35 machine spans and no new page/signal pairs. One generic liability term missed by OCR is preserved from the original pass. Both variants and the discrepancy remain auditable.
+
+The [reading guide](https://drive.google.com/file/d/1Hqui7OgSYem6nocwWKlWWX7vG5ca83HW/view?usp=drivesdk) links the individually accessible principal registers and the [claim-to-evidence index](https://drive.google.com/file/d/1Qja-aEYTaTqZ6xiAlF5CZXfrk60DYZXL/view?usp=drivesdk). Eight free searches began the bounded novelty check. [Reuters already reported the Storebrand exclusion on 25 October 2024](https://www.streetinsider.com/Reuters/Thiels%2BPalantir%2Bdumped%2Bby%2BNorwegian%2Binvestor%2Bover%2Bwork%2Bfor%2BIsrael/23881404.html). No exclusivity or first-to-report claim is made. Exact contract/version/exception comparisons will be assessed against the frozen native dossiers before ranking leads.

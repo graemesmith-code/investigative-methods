@@ -77,4 +77,13 @@ class ScreeningTests(unittest.TestCase):
         self.assertEqual(result['occurrences'],2)
         self.assertTrue(any(h['screen_class']=='explicit_ihl_reference' for h in hits))
 
+    def test_orphan_review_fails_and_quote_is_not_duplicated(self):
+        source={'document_id':'D9','segments':[{'page':1,'text':'applicable law'}],
+                'public_quote_word_budget':20}
+        _,out=self.screen([source])
+        self.assertEqual(load_jsonl(out/'occurrences.jsonl')[0]['short_original_extract'],'applicable law')
+        self.assertIsNone(load_jsonl(out/'candidates.jsonl')[0]['short_evidence'])
+        with self.assertRaises(ValueError):
+            self.screen([source],[{'document_id':'wrong','kind':'semantic_addition','reviewer':'test'}])
+
 if __name__=='__main__': unittest.main()

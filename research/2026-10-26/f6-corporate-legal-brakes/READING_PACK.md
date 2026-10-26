@@ -1,4 +1,4 @@
-# Reading pack — checkpoint 01
+# Reading pack — checkpoint 02
 
 **No native F6 source-team dossier has completed intake. The coordinator has independently run one primary-compilation screening pilot.** This list distinguishes prior authored baselines and assigned primary-source seeds. It is not a list of newly read or verified legal sources.
 

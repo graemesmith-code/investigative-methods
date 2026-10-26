@@ -1,6 +1,6 @@
 # F6 occurrence screening and intake contract
 
-Version `f6-screen-0.4`. Full output belongs on Drive. Whole source snapshots stay in private consumer working storage pending rights review.
+Version `f6-screen-0.6`. Full output belongs on Drive. Whole source snapshots stay in private consumer working storage pending rights review.
 
 ## What is screened
 
@@ -43,3 +43,9 @@ Do not include private data, confidential-source material, raw operational annex
 ## Release checks
 
 The mechanical validator checks file sizes, supported lightweight Git payloads, source/occurrence/candidate foreign keys and basic promoted-record fields. `--final` also requires an external acceptance artifact; it cannot generate one. These checks do not certify legal accuracy, source completeness, novelty, rights clearance or independent review. The manifest must distinguish source bytes checked locally, Drive metadata checked, and exact Drive bytes read back.
+
+## Independent extraction cross-check
+
+The pilot also completed local raster OCR of all 130 pages. A second machine pass produced 35 physical spans and no new page/signal pairs compared with the original 36 machine spans. OCR missed a liability-disclaimer term on PDF page 85; the original occurrence is retained. The master remains 41 occurrences including five semantic additions. These variants are one source compilation, not two sources or additive controls. Per-page hashes and differences are on Drive. Selected visual checks and complete raster OCR do not certify complete semantic recall. `ocr_crosscheck.py` provides the portable local workflow; `compare_extractions.py` checks same-source byte identity and detection-count differences.
+
+Candidate quotation is linked to the occurrence record rather than copied into a second table. Orphan review records and unknown review kinds fail rather than disappearing silently. `control_id` remains null and `unique_control_countable` false until a separate normalized control review establishes scope and version relationships.
