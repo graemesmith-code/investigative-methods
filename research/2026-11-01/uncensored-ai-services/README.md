@@ -86,3 +86,39 @@ All sources accessed 1 November 2026. Sources are public; claims remain attribut
 | S18 | [Anthropic September 2026 threat report](https://www.anthropic.com/threat-intelligence-report-september-2026) | Provider-reported abuse and reseller infrastructure; not attribution to reviewed services. |
 | S19 | [Hughes, Collier and Thomas: Stand-Alone Complex or Vibercrime?](https://arxiv.org/abs/2603.29545) | Empirical research preprint, revised August 2026; counterweight to sweeping adoption claims. |
 | S20 | [Venice About](https://venice.ai/about) | Starting point and current company claims; user counts not independently verified. |
+
+## Follow-up: what experts have actually discussed
+
+**Reviewed 1 November 2026.** Public scrutiny of the distribution model is substantially more developed than assessments of individual commercial services.
+
+**Venice specifically.** Policy Horizons Canada's 2025 foresight report names Venice as an example of AI offered with few safeguards, within a wider discussion of small models and oversight. This is government foresight, not a service audit or necessarily government policy. [S21] Certo Software published hands-on Venice demonstrations in May 2025, reporting phishing and malicious-code generation. Its promotional article does not establish comparative attack success; general expert quotations within it should not be mistaken for Venice-specific assessments by those quoted. [S22]
+
+**NanoGPT specifically.** Targeted public searches did not locate a comparable service-specific assessment by a recognised AI-safety or nonproliferation institution. This is a bounded search finding, not evidence that no evaluation or private discussion exists. Results about Andrej Karpathy's nanoGPT code are unrelated to the commercial nano-gpt.com service. References to AI-safety meetings in the city of Venice are likewise unrelated to the company.
+
+**The biosecurity argument.** RAND's September 2026 study found that reducing refusals could improve models' assistance on its biological-misuse evaluations, without reliable enhancement of underlying capability. It recommends testing modified models and safeguards at third-party inference platforms. Neither Venice nor NanoGPT is named in the report's searchable text. These are model/task evaluations, not demonstrations of completed biological attacks. [S23]
+
+**An explicit counterterrorism disagreement.** In May 2026, Andrew Glazzard, David McIlhatton and Paul Martin argued that efficiency gains were clearer than a fundamental transformation of terrorist capability. [S24] Adam Hadley's July response argues that cheap, accessible models with removed safeguards fit terrorists' established technology preferences. He calls for safety responsibilities to extend to hosting and inference providers. His assessment is an argument about the wider ecosystem, not an audit of these services. [S25]
+
+**Distribution as a policy target.** An October 2026 Belfer Center paper led by Stephen Casper recommends proactive moderation of dangerous modified variants, alongside independent studies of what users can accomplish with AI assistance. It treats distribution platforms as a remaining intervention point. The paper is a scenario-based analysis, not evidence that its imagined event occurred. [S26]
+
+**The counterweight.** Sayash Kapoor, Rishi Bommasani, Arvind Narayanan and colleagues' 2024 framework asks what additional risk open models create relative to existing alternatives. It also recognises openness's benefits. Its historical assessment of limited evidence should not be presented as a current verdict on 2026 models. [S27]
+
+The reporting question is whether commercial distribution makes dangerous assistance sufficiently easier, cheaper or more reliable to alter outcomes, and whether proportionate interventions reduce that assistance rather than merely shifting it elsewhere. No source above establishes use of these services by ISKP.
+
+### Supplemental source catalogue and method
+
+All URLs accessed 1 November 2026. Company-specific exact-name/domain searches were combined with targeted searches of safety, biosecurity and counterterrorism institutions. The search is not exhaustive. No interviews, purchases or harmful-output tests were conducted. Search-result snippets were treated as discovery evidence unless they reproduced the relevant primary publication. Full technical evaluations, policies and claims require separate assessment.
+
+| ID | Primary source | Date and evidentiary role |
+|---|---|---|
+| S21 | [Policy Horizons Canada, Foresight on AI: Policy considerations](https://horizons.service.canada.ca/en/2025/02/10/ai-policy-consideration/index.shtml) | 2025; Insight 6 explicitly names Venice. |
+| S22 | [Certo Software, Unleashed AI](https://www.certosoftware.com/insights/unleashed-ai-hackers-embrace-unrestricted-chatbot-venice-ai/) | 20 May 2025; vendor-led demonstration, authored by Sophia Taylor. |
+| S23 | [RAND, Open-Weight AI Models May Increase Biological Misuse Risks](https://www.rand.org/pubs/research_reports/RRA5112-1.html) | 14 September 2026; Sunishchal Dev, Casey O. Barkan and colleagues; technical study. |
+| S24 | [Glazzard, McIlhatton and Martin, Will Generative AI Fundamentally Change Terrorist Threats?](https://ctc.westpoint.edu/?p=58094) | May 2026; counterterrorism analysis, CTC Sentinel. |
+| S25 | [Hadley, Guardrails Under Test](https://ctc.westpoint.edu/feature-commentary-guardrails-under-test-terrorist-misuse-of-ai-models-and-the-open-weight-abliteration-problem/) | July 2026; benchmark commentary and policy argument. |
+| S26 | [Casper and colleagues, A Pre-mortem on the First Major AI-Enabled Terrorism Event](https://www.belfercenter.org/research-analysis/pre-mortem-first-major-ai-enabled-terrorism-event-and-choices-could-enable-it) | 15 October 2026; scenario analysis and governance recommendations. |
+| S27 | [Kapoor and colleagues, On the Societal Impact of Open Foundation Models](https://arxiv.org/abs/2403.07918) | February 2024; marginal-risk framework and openness benefits. |
+
+**Measurement caution.** Hadley's July article describes a pilot comparison with web search, whereas the October CT-AI website's FAQ explicitly says its current benchmark is not a measure of uplift over web search. These are not interchangeable measurements; this note does not combine their figures.
+
+**Supplemental archive.** Retrieval extracts, this expanded README and a hash manifest are preserved as `2026-11-01-expert-discussion-supplement.zip` in the same Drive investigation folder named above. The archive contains search/open outputs rather than complete original websites. It preserves discovery results, including rejected and irrelevant hits, for auditability; those hits are not endorsed sources. No private project details are included in this public note.
