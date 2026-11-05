@@ -1,0 +1,14 @@
+# Keep source records and generated findings outside this public method archive.
+__pycache__/
+*.pyc
+raw/
+private/
+outputs/
+*.pdf
+*.docx
+*.png
+*.jpg
+*.mseed
+*.body
+*.csv
+*.ndjson
