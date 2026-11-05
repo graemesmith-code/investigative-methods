@@ -1,0 +1,11 @@
+# Source records and generated outputs belong outside this public archive.
+private/
+outputs/
+aer-reports/
+*.pdf
+*.png
+*.json
+*.txt
+!requirements.txt
+__pycache__/
+*.pyc
