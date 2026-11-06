@@ -1,5 +1,7 @@
 # Private PDF survey interpolation method
 
+**6 November 2026 correction:** This original parser reproduces summary fields without checking whether top exceeds bottom or reconciling conflicting source fields. Do not treat unreviewed outputs as validated geometry. See the [source-supported reconciliation and impact audit](../../../2026-11-06/cygnet-discrepancy-reconciliation/README.md). The original code and historical outputs remain preserved.
+
 This script requires PyMuPDF and a private manifest mapping a well label to its drilling PDF basename, service PDF basename and expected number of planned intervals. It contains no source filenames or operational findings. Keep the manifest, source PDFs and every generated output outside this public repository.
 
 ```sh

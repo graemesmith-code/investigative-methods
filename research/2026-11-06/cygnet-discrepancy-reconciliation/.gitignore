@@ -1,0 +1,9 @@
+# Publish only an explicit methods/findings allowlist. Sources and full derivatives stay private.
+__pycache__/
+*.pyc
+*.pdf
+*.png
+*.docx
+*.csv
+private/
+outputs/
