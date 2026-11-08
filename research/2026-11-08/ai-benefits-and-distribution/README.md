@@ -2,6 +2,14 @@
 
 8 November 2026. Conceptual research note developed from Graeme Smith's sketch.
 
+## Revised illustration: a benefit that could reduce a harm
+
+![A pencil-sketched living ball on the Good side reaches across to remove a ball from Bad](ai-journalism-accountability-pencil.webp)
+
+Panel A keeps the simple Good-versus-Bad scales. In Panel B, a ball on the Good side comes alive, with eyes and a long arm reaching across to pluck a ball from Bad. It represents AI-powered journalism: a benefit that could strengthen accountability and, in part, offset inequality-related harms. This is a proposed relationship, not an established outcome or a measured effect.
+
+[Illustration prompts](journalism-illustration-prompt.txt). The final version uses greyscale graphite shading and hand-lettered text. The [earlier colour version](ai-journalism-accountability.webp) and the original diagram are also retained.
+
 ## The point
 
 AI's benefits and harms are partly produced by decisions about what to build, who controls it, who can use it and who bears its costs. They can occur simultaneously, and their distribution can change over time. A successful treatment and an unfair health system can coexist.
@@ -86,9 +94,9 @@ Examines how algorithmic systems structure social relationships and exercise pow
 - Publication form is identified above because a viewpoint, editorial, preprint and theoretical article are not interchangeable with an empirical impact evaluation.
 - None of the selected readings establishes that AI-designed bespoke medicines currently divert a measured amount of resources from global primary care. That remains a separate reporting proposition.
 
-### Figure construction
+### Original vector figure: construction
 
-The figure was newly drawn as editable Scalable Vector Graphics (SVG), using exact text and vector shapes, from the user's conceptual sketch. The uploaded photograph was not altered or included in the repository. No image-generation model was used. The SVG has a 1200 × 1540 coordinate space, a title and a descriptive text alternative. The PNG was rendered at 3000 × 3850 pixels with Sharp and visually inspected. No numerical data are encoded; circle counts and the level scales are illustrative.
+The figure was newly drawn as editable Scalable Vector Graphics (SVG), using exact text and vector shapes, from the user's conceptual sketch. The uploaded photograph was not altered or included in the repository. No image-generation model was used for the original vector figure. The SVG has a 1200 × 1540 coordinate space, a title and a descriptive text alternative. The PNG was rendered at 3000 × 3850 pixels with Sharp and visually inspected. No numerical data are encoded; circle counts and the level scales are illustrative.
 
 To reproduce the PNG with Node.js and the Sharp package installed:
 
@@ -100,3 +108,8 @@ sharp('ai-outcomes-diagram.svg', { density: 180 })
 ```
 
 The diagram is an original synthesis of the sketch and the selected arguments. It is not reproduced from an academic figure, and the listed authors should not be understood as endorsing it.
+
+### Revised cartoon: construction and backup
+
+The revised cartoon was made with the built-in image-generation tool, then restyled with the same tool at the user's request as a greyscale pencil sketch with hand-lettered text. Both generated 1107 × 1421 PNGs are retained in the conversation. The same-dimension [final WebP backup](ai-journalism-accountability-pencil.webp) and [earlier colour backup](ai-journalism-accountability.webp) were encoded at quality 95. No design edits were made during conversion: these are encoding changes, not exact byte-for-byte copies of the original PNGs. The [illustration prompts](journalism-illustration-prompt.txt) record both the composition and style instructions.
+
