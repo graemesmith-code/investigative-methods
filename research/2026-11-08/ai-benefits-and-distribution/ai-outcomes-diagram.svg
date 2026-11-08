@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1540" viewBox="0 0 1200 1540" role="img" aria-labelledby="title desc">
+  <title id="title">AI: weighing outcomes and shaping outcomes</title>
+  <desc id="desc">Panel A shows a simplified balance between new cancer treatments and rising inequality. Panel B shows how decisions about funding, design, ownership and access shape medical AI. Possible outcomes include broadly shared benefits, and benefits concentrated among a few with possible wider costs. Both can happen at once. Profits, evidence, policy and public pressure feed back into the next round of decisions. These are illustrative possibilities, not predictions.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#696d6a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: 'DejaVu Sans', Arial, sans-serif; fill: #252b28; }
+      .small { font-size: 20px; fill: #626965; }
+      .label { font-size: 23px; }
+      .body { font-size: 25px; }
+      .section { font-size: 34px; font-weight: 600; }
+      .heading { font-size: 28px; font-weight: 600; }
+      .line { fill: none; stroke: #696d6a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .teal { fill: #1f6c61; }
+      .rust { fill: #994d36; }
+    </style>
+  </defs>
+  <rect width="1200" height="1540" fill="#faf8f3"/>
+  <text x="64" y="56" font-size="19" letter-spacing="2.5" fill="#626965">TWO WAYS TO THINK ABOUT AI</text>
+  <text x="64" y="119" font-size="45" font-weight="600">Who benefits depends on the choices</text>
+
+  <circle cx="85" cy="190" r="22" fill="#e8e5de"/>
+  <text x="85" y="199" text-anchor="middle" font-size="25" font-weight="600">A</text>
+  <text x="125" y="201" class="section">Weighing the good against the bad</text>
+  <text x="125" y="241" class="body">Do the benefits outweigh the harms?</text>
+
+  <text x="312" y="306" text-anchor="middle" class="heading teal">Benefits</text>
+  <text x="312" y="342" text-anchor="middle" class="body">New cancer treatments</text>
+  <text x="888" y="306" text-anchor="middle" class="heading rust">Harms</text>
+  <text x="888" y="342" text-anchor="middle" class="body">Rising inequality</text>
+  <path d="M 312 370 L 888 370 M 600 370 L 600 469 M 600 429 L 557 486 L 643 486 Z" class="line"/>
+  <path d="M 312 370 L 234 434 M 312 370 L 390 434 M 234 434 Q 312 489 390 434 Z" fill="#e3eeea" stroke="#1f6c61" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 888 370 L 810 434 M 888 370 L 966 434 M 810 434 Q 888 489 966 434 Z" fill="#f4e6df" stroke="#994d36" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="284" cy="430" r="10" fill="#1f6c61"/>
+  <circle cx="311" cy="430" r="10" fill="#1f6c61"/>
+  <circle cx="338" cy="430" r="10" fill="#1f6c61"/>
+  <circle cx="311" cy="406" r="10" fill="#1f6c61"/>
+  <circle cx="861" cy="430" r="10" fill="#994d36"/>
+  <circle cx="888" cy="430" r="10" fill="#994d36"/>
+  <circle cx="915" cy="430" r="10" fill="#994d36"/>
+  <circle cx="888" cy="406" r="10" fill="#994d36"/>
+  <text x="600" y="522" text-anchor="middle" class="small">A simplified public framing: benefits and harms treated as separate piles</text>
+  <path d="M 64 558 H 1136" stroke="#d5d8d1" stroke-width="1.5"/>
+
+  <circle cx="85" cy="609" r="22" fill="#e8e5de"/>
+  <text x="85" y="618" text-anchor="middle" font-size="25" font-weight="600">B</text>
+  <text x="125" y="620" class="section">Choices shape the outcomes</text>
+  <text x="125" y="660" class="body">Who benefits? Who bears the costs? Who decides?</text>
+
+  <rect x="138" y="705" width="894" height="126" rx="12" fill="#eae8e1"/>
+  <text x="585" y="738" text-anchor="middle" class="small">Companies · governments · clinicians · patients and the public</text>
+  <text x="585" y="780" text-anchor="middle" font-size="31" font-weight="600">Funding · design · ownership · access</text>
+  <text x="585" y="812" text-anchor="middle" class="small">These decisions shape what gets built, and for whom</text>
+
+  <path d="M 585 839 V 878" class="line" marker-end="url(#arrow)"/>
+  <rect x="300" y="890" width="570" height="96" rx="12" fill="#eae8e1"/>
+  <text x="585" y="928" text-anchor="middle" font-size="31" font-weight="600">Medical AI</text>
+  <text x="585" y="964" text-anchor="middle" class="label">Advice · diagnosis · treatments</text>
+
+  <path d="M 585 994 V 1022 M 320 1022 H 850 M 320 1022 V 1060 M 850 1022 V 1060" class="line"/>
+  <path d="M 320 1045 V 1062" class="line" marker-end="url(#arrow)"/>
+  <path d="M 850 1045 V 1062" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="82" y="1076" width="476" height="242" rx="12" fill="#e3eeea"/>
+  <rect x="612" y="1076" width="476" height="242" rx="12" fill="#f4e6df"/>
+  <text x="108" y="1116" class="heading teal">Broadly shared benefits</text>
+  <text x="108" y="1160" class="body">
+    <tspan x="108">Reliable, affordable primary-care</tspan>
+    <tspan x="108" dy="35">advice in many languages</tspan>
+  </text>
+  <text x="108" y="1251" class="label">
+    <tspan x="108">Connected to effective care</tspan>
+  </text>
+  <text x="638" y="1116" class="heading rust">Benefits for a few</text>
+  <text x="638" y="1160" class="body">
+    <tspan x="638">Bespoke treatments mainly</tspan>
+    <tspan x="638" dy="35">for wealthy patients</tspan>
+  </text>
+  <text x="638" y="1240" class="label" font-weight="600">Possible wider cost</text>
+  <text x="638" y="1274" class="label"><tspan x="638">Resources diverted from</tspan><tspan x="638" dy="30">greater needs</tspan></text>
+
+  <text x="585" y="1360" text-anchor="middle" font-size="26" font-weight="600">Both can happen at once. The pattern can change.</text>
+  <text x="585" y="1411" text-anchor="middle" class="label">Profits, evidence, policy and public pressure</text>
+  <text x="585" y="1442" text-anchor="middle" class="label">shape the next round of decisions</text>
+  <path d="M 585 1456 V 1474 H 1131 V 768 H 1044" class="line" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+  <text x="64" y="1520" font-size="18" fill="#626965">Illustrative possibilities, not predictions. Unequal benefit is not, by itself, proof of harm.</text>
+</svg>
