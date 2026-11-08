@@ -4,11 +4,11 @@
 
 ## Revised illustration: a benefit that could reduce a harm
 
-![A pencil-sketched living ball on the Good side reaches across to remove a ball from Bad](ai-journalism-accountability-pencil.webp)
+![A 4:3 landscape pencil sketch of a living ball on the Good side reaching across to remove a ball from Bad](ai-journalism-accountability-pencil-4x3.webp)
 
 Panel A keeps the simple Good-versus-Bad scales. In Panel B, a ball on the Good side comes alive, with eyes and a long arm reaching across to pluck a ball from Bad. It represents AI-powered journalism: a benefit that could strengthen accountability and, in part, offset inequality-related harms. This is a proposed relationship, not an established outcome or a measured effect.
 
-[Illustration prompts](journalism-illustration-prompt.txt). The final version uses greyscale graphite shading and hand-lettered text. The [earlier colour version](ai-journalism-accountability.webp) and the original diagram are also retained.
+[Illustration prompts](journalism-illustration-prompt.txt). The current version uses a 4:3 landscape layout, greyscale graphite shading and hand-lettered text. The [earlier portrait pencil version](ai-journalism-accountability-pencil.webp), [earlier colour version](ai-journalism-accountability.webp) and original diagram are also retained.
 
 ## The point
 
@@ -111,5 +111,10 @@ The diagram is an original synthesis of the sketch and the selected arguments. I
 
 ### Revised cartoon: construction and backup
 
-The revised cartoon was made with the built-in image-generation tool, then restyled with the same tool at the user's request as a greyscale pencil sketch with hand-lettered text. Both generated 1107 × 1421 PNGs are retained in the conversation. The same-dimension [final WebP backup](ai-journalism-accountability-pencil.webp) and [earlier colour backup](ai-journalism-accountability.webp) were encoded at quality 95. No design edits were made during conversion: these are encoding changes, not exact byte-for-byte copies of the original PNGs. The [illustration prompts](journalism-illustration-prompt.txt) record both the composition and style instructions.
+The revised cartoon was made with the built-in image-generation tool, then restyled with the same tool at the user's request as a greyscale pencil sketch with hand-lettered text. Both earlier portrait PNGs—the colour version and the first pencil version—were generated at 1107 × 1421 and are retained in the conversation. Their same-dimension [portrait pencil WebP backup](ai-journalism-accountability-pencil.webp) and [colour backup](ai-journalism-accountability.webp) were encoded at quality 95. No design edits were made during conversion: these are encoding changes, not exact byte-for-byte copies of the original PNGs. The [illustration prompts](journalism-illustration-prompt.txt) record both the composition and style instructions.
 
+A subsequent revision presents the same pencil cartoon in 4:3 landscape format. Its [WebP backup](ai-journalism-accountability-pencil-4x3.webp) is the primary figure above; the earlier images remain available.
+
+### 4:3 landscape revision
+
+The final landscape image is 1448 × 1086 pixels, exactly 4:3. It was reframed with the built-in image-generation tool, preserving the two stacked panels, pencil style and hand-lettered labels. The repository image is a quality-95 WebP conversion at those same dimensions. The [aspect-ratio revision prompt](journalism-illustration-4x3-prompt.txt) records this final edit.
