@@ -1,0 +1,257 @@
+{
+  "catalog_addition": "RAB-PATENTS-20261109",
+  "reviewed_at": "2026-11-09",
+  "scope": "12 access-route entries; dated supplement preserving original Rabbit SYS/AP records and historical totals.",
+  "status": "Documentation review only. No bulk collection, account creation, credential generation, purchase, outreach or authenticated API test.",
+  "entries": [
+    {
+      "id": "RAB-PATENTS-20261109-01",
+      "name": "ODP raw patent full text",
+      "provider": "USPTO",
+      "original_rabbit_systems": [
+        "SYS-0772"
+      ],
+      "route_type": "bulk_files",
+      "coverage": "Patent grant and published-application full text; APPXML covers published non-provisional utility/plant applications from March 2001. Images are separate products.",
+      "access_and_authentication": "USPTO.gov registration required for ODP from 18 June 2026. Programmatic ODP access uses an API key; official launch guidance described ID.me-linked registration. Current account flow was not exercised.",
+      "cost_and_reuse": "Public data; no purchase made. Official APPXML catalog marks its data public domain. Recheck chosen product and download terms.",
+      "bulk_and_limits": "Use dated bulk product files rather than scrape search pages. Applications publish weekly on Thursdays. Current per-key/download quotas and latest actual files unverified.",
+      "cautions": "Preserve XML/SGML/APS version by file and do not assume one parser handles every historical year. Published applications, granted patents and images have different coverage.",
+      "sources": [
+        "https://data.uspto.gov/bulkdata/datasets/ptgrxml",
+        "https://data.uspto.gov/bulkdata/datasets/appxml",
+        "https://catalog.data.gov/dataset/patent-application-full-text-2001-present",
+        "https://www.uspto.gov/subscription-center/2026/uspto-open-data-portal-require-registration-access-beginning-june-18-2026",
+        "https://content.govdelivery.com/accounts/USPTO/bulletins/3cc68ff"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official APPXML metadata and access notices reviewed. ODP product pages returned no readable content through the web tool; files, quota and credential flow not tested."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-02",
+      "name": "PatentsView research and long-text tables",
+      "provider": "USPTO",
+      "original_rabbit_systems": [
+        "SYS-0252"
+      ],
+      "route_type": "bulk_research_tables",
+      "coverage": "Disambiguated grants and pre-grant publications, inventor/organization links, government-interest fields and separate long-text products. USPTO page reports data through 31 December 2025.",
+      "access_and_authentication": "ODP registration applies. Use current ODP products and dictionaries. March 2026 notice paused legacy search/APIs; resumption not verified.",
+      "cost_and_reuse": "Open research resource; not the official legal record. No purchase or authenticated download.",
+      "bulk_and_limits": "Product IDs: pvgpatdis, pvpgpubdis, pvgpattxt, pvpgpubtxt, pvannual, pvsorted. Release cadence and numeric quotas unverified.",
+      "cautions": "Disambiguation is modelled. Keep release-specific IDs, original names and match confidence; check assignments separately.",
+      "sources": [
+        "https://www.uspto.gov/ip-policy/economic-research/patentsview",
+        "https://content.govdelivery.com/accounts/USPTO/bulletins/40e8c67",
+        "https://www.uspto.gov/subscription-center/2026/uspto-open-data-portal-require-registration-access-beginning-june-18-2026",
+        "https://data.uspto.gov/bulkdata/datasets/pvgpatdis",
+        "https://data.uspto.gov/bulkdata/datasets/pvpgpubdis",
+        "https://data.uspto.gov/bulkdata/datasets/pvgpattxt",
+        "https://data.uspto.gov/bulkdata/datasets/pvpgpubtxt",
+        "https://data.uspto.gov/bulkdata/datasets/pvannual",
+        "https://data.uspto.gov/bulkdata/datasets/pvsorted"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "USPTO page and linked product destinations reviewed. ODP pages exposed no readable data listing; no file or API test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-03",
+      "name": "Artificial Intelligence Patent Dataset 2023",
+      "provider": "USPTO",
+      "original_rabbit_systems": [],
+      "route_type": "bulk_research_labels",
+      "coverage": "AI classification of 15.4 million US patent documents published during 1976–2023; includes patents and pre-grant publications.",
+      "access_and_authentication": "Use official release links/ODP; page warns download links now return temporary signed URLs.",
+      "cost_and_reuse": "Public research release; cite the methodology paper. No file retrieved.",
+      "bulk_and_limits": "Historical dataset, not a current feed. Use corrected 8 January 2025 release for predict93 variables.",
+      "cautions": "Model labels identify AI, not weapons. Validate against known examples and original claims; disclose false positives, missed cases and the 2023 cutoff.",
+      "sources": [
+        "https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-04",
+      "name": "DOCDB worldwide bibliographic bulk",
+      "provider": "EPO",
+      "original_rabbit_systems": [
+        "SYS-0253"
+      ],
+      "route_type": "bulk_xml",
+      "coverage": "Bibliographic data, abstracts, citations and simple patent families from more than 100 countries; no full text or images.",
+      "access_and_authentication": "BDDS download/order route; access and applicable license must be checked before collection. No account provisioned.",
+      "cost_and_reuse": "Listed free; EPO database license applies. See shared EPO license warning in README.",
+      "bulk_and_limits": "XML ST36; about 200 GB zipped backfile, twice yearly. Process backfile then exchange files, normally Tuesday/Thursday; frontfile about 3 GB zipped.",
+      "cautions": "Coverage differs by office and period. Family grouping is essential to avoid counting each publication as an invention.",
+      "sources": [
+        "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/docdb",
+        "https://www.epo.org/en/service-support/ordering/patent-information-products",
+        "https://www.epo.org/en/service-support/ordering/raw-data-terms-and-conditions",
+        "https://publication-bdds.apps.epo.org/raw-data/products"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-05",
+      "name": "INPADOC worldwide legal events",
+      "provider": "EPO",
+      "original_rabbit_systems": [
+        "SYS-0253"
+      ],
+      "route_type": "bulk_xml",
+      "coverage": "Events from more than 50 patent authorities, including national gazettes/registers, EPO and WIPO.",
+      "access_and_authentication": "BDDS; license conditions apply. Authentication/download not exercised.",
+      "cost_and_reuse": "Listed free; shared EPO license conditions apply.",
+      "bulk_and_limits": "XML ST36; twice-yearly backfile about 20 GB; weekly frontfile about 700 MB, usually Tuesday.",
+      "cautions": "Event coverage and national reporting vary. Recheck material ownership or in-force claims against the relevant official register.",
+      "sources": [
+        "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/inpadoc",
+        "https://www.epo.org/en/service-support/ordering/patent-information-products",
+        "https://www.epo.org/en/service-support/ordering/raw-data-terms-and-conditions"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-06",
+      "name": "EP full-text bulk",
+      "provider": "EPO",
+      "original_rabbit_systems": [
+        "SYS-0253"
+      ],
+      "route_type": "bulk_xml_pdf",
+      "coverage": "EP-A publications from 1978 and EP-B from 1980, including descriptions, claims and drawings.",
+      "access_and_authentication": "BDDS download route; no sign-in or download performed.",
+      "cost_and_reuse": "Listed free; shared EPO license conditions apply.",
+      "bulk_and_limits": "XML ST36 and PDF/A. Weekly Wednesday files about 4 GB zipped; full backfile about 3.53 TB zipped.",
+      "cautions": "Euro-PCT applications published by WIPO in an EPO official language are not republished in full by EPO; only minimal EP information may be present. Join to WO/PCT text where needed.",
+      "sources": [
+        "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/data",
+        "https://www.epo.org/en/service-support/ordering/patent-information-products",
+        "https://www.epo.org/en/service-support/ordering/raw-data-terms-and-conditions"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-07",
+      "name": "EP bibliographic data (EBD)",
+      "provider": "EPO",
+      "original_rabbit_systems": [
+        "SYS-0253"
+      ],
+      "route_type": "bulk_change_files",
+      "coverage": "New EP applications/patents and recent changes: applicants, titles, filing/priority dates and classifications.",
+      "access_and_authentication": "BDDS or Single Access Portal; collection not tested.",
+      "cost_and_reuse": "Listed free; shared EPO license conditions apply.",
+      "bulk_and_limits": "Current-year XML ST36 frontfiles, weekly Wednesday, about 20 MB zipped. No same-format backfile.",
+      "cautions": "Files are not cumulative histories. European Patent Register backfile matches only partly; do not silently treat a join as complete.",
+      "sources": [
+        "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/ebd",
+        "https://www.epo.org/en/service-support/ordering/patent-information-products",
+        "https://www.epo.org/en/service-support/ordering/raw-data-terms-and-conditions"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-08",
+      "name": "European Patent Register bulk",
+      "provider": "EPO",
+      "original_rabbit_systems": [
+        "SYS-0253"
+      ],
+      "route_type": "bulk_snapshot",
+      "coverage": "Public EP procedural records from 1978, with history and legal/representative information in a dated snapshot.",
+      "access_and_authentication": "BDDS download route; collection not tested.",
+      "cost_and_reuse": "Listed free; shared EPO license conditions apply.",
+      "bulk_and_limits": "XML ST36, about 8 GB zipped, available twice yearly. No same-format frontfile.",
+      "cautions": "Excludes All documents and Federated Register sections. Can only partly be matched to EBD change files.",
+      "sources": [
+        "https://www.epo.org/en/searching-for-patents/data/bulk-data-sets/register-data",
+        "https://www.epo.org/en/service-support/ordering/patent-information-products",
+        "https://www.epo.org/en/service-support/ordering/raw-data-terms-and-conditions"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-09",
+      "name": "PATSTAT / Technology Intelligence Platform",
+      "provider": "EPO",
+      "original_rabbit_systems": [],
+      "route_type": "hosted_analysis_and_conditional_bulk",
+      "coverage": "Worldwide bibliographic, legal and EP procedural data for statistical analysis; release-specific relational datasets.",
+      "access_and_authentication": "TIP provides free access. Price page says independent bulk access is available on request after case examination. No access request made.",
+      "cost_and_reuse": "TIP listed free. Legacy PATSTAT Online remains subscription-based, with annual price EUR 755 on current list; distinct from free TIP.",
+      "bulk_and_limits": "Use SQL/structured analysis after checking current release and export conditions. Bulk approval and export limits unverified.",
+      "cautions": "Not a universal full-text corpus. Do not assume free TIP consultation equals permission to download or redistribute the entire database.",
+      "sources": [
+        "https://www.epo.org/en/about-us/observatory-patents-and-technology/observatory-tools/patstat",
+        "https://www.epo.org/en/service-support/ordering/patent-information-products"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-10",
+      "name": "Open Patent Services (OPS)",
+      "provider": "EPO",
+      "original_rabbit_systems": [
+        "SYS-0253"
+      ],
+      "route_type": "api",
+      "coverage": "REST/XML access to bibliographic, family, legal-event, full-text and image sources, with collection-dependent coverage.",
+      "access_and_authentication": "Registration, application credentials and OAuth required. No credentials created.",
+      "cost_and_reuse": "Free up to 4 GB per calendar week; EUR 2,800 annual subscription above that threshold. Terms/fair-use conditions apply.",
+      "bulk_and_limits": "Fair-use charter states approximately 1 Mbit/s maximum traffic; operational limits can vary. For very large sets use bulk products. Current endpoint-specific throttle headers not tested.",
+      "cautions": "Espacenet and register graphical interfaces are for human use, not bulk scraping. A paid subscription is not unlimited collection.",
+      "sources": [
+        "https://www.epo.org/en/searching-for-patents/data/web-services/ops",
+        "https://www.epo.org/en/service-support/ordering/fair-use"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-11",
+      "name": "Google Patents Public Datasets",
+      "provider": "Google / contributing data providers",
+      "original_rabbit_systems": [],
+      "route_type": "hosted_sql",
+      "coverage": "Compatible BigQuery patent tables for SQL search, joins and export. Underlying providers and tables differ in coverage.",
+      "access_and_authentication": "Google Cloud/BigQuery project and appropriate permissions required; account and queries not used here.",
+      "cost_and_reuse": "Public tables can still incur compute, storage and transfer costs. On-demand pricing includes first 1 TiB of query processing per month free; recheck region/account pricing.",
+      "bulk_and_limits": "Dry-run first, cap bytes billed, select needed columns and export only a bounded result. No numeric live quota tested.",
+      "cautions": "Example repository archived 18 April 2026; that does not establish dataset staleness. Verify table metadata, latest publication date and missing fields before use. Code license does not cover every dataset.",
+      "sources": [
+        "https://github.com/google/patents-public-data",
+        "https://cloud.google.com/bigquery/pricing"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Publisher repository and current compute pricing reviewed. No live BigQuery table query or freshness check."
+    },
+    {
+      "id": "RAB-PATENTS-20261109-12",
+      "name": "Licensed PCT raw data and web service",
+      "provider": "WIPO",
+      "original_rabbit_systems": [
+        "SYS-0766"
+      ],
+      "route_type": "licensed_bulk_and_api",
+      "coverage": "Published PCT international applications. Bibliographic snapshots, OCR/XML text backfiles, updates and conditional SOAP document access are separate products.",
+      "access_and_authentication": "Order/subscription and appropriate license required. No request submitted.",
+      "cost_and_reuse": "Examples: bibliographic XML snapshot CHF 1,600 per copy; full-access webservice CHF 2,000/calendar year. Other text/backfile licenses cost more; nonprofit discount listed as 50%, eligibility unverified.",
+      "bulk_and_limits": "Use licensed product delivery, not PATENTSCOPE harvesting. PATENTSCOPE logged-in exports cap at 10,000 results; bulk download and robots are prohibited.",
+      "cautions": "PCT is not all national patent data. Derivative and non-derivative rights differ; obtain terms for intended retention, analysis and publication before acquiring.",
+      "sources": [
+        "https://www.wipo.int/en/web/patentscope/data/index",
+        "https://www.wipo.int/en/web/patentscope/faqs_patentscope"
+      ],
+      "reviewed_at": "2026-11-09",
+      "verification": "Official documentation reviewed; no authenticated request, dataset download or payload test."
+    }
+  ]
+}
