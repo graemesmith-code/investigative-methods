@@ -33,6 +33,7 @@ The transfer archive was decoded and checked outside the repository. Only the se
 
 The originals include partial, unverified and discovery-only sources. We did not retest their endpoints or update their prices, quotas, terms or coverage claims. Targeted credential and privacy checks found placeholders rather than live credentials or private contact details; the files describe record systems, not the underlying personal datasets. The provenance retains the limits of that review.
 
-No separate human byline or compilation-wide license was found. Recovery does not confer rights in third-party records or extend a code license to them. The repository remains private, with its access and licensing unchanged.
+No separate human byline or compilation-wide license was found. Recovery does not confer rights in third-party records or extend a code license to them. The repository is public as of this 9 November 2026 review, consistent with the catalog guide. Public access does not change rights or licensing in the preserved source materials.
 
 [Catalog guide](../../catalogs/README.md) · [Technical annexes](../../annexes/README.md) · [Home](../../README.md)
+

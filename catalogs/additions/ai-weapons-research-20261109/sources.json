@@ -1,0 +1,566 @@
+{
+  "catalog_addition": "RAB-AIWEAPONS-20261109",
+  "reviewed_at": "2026-11-09",
+  "scope": "26 dated source/route reviews: 24 named source/collection reviews (including unavailable DTIC), plus two existing-source maintenance/correction entries. These are not new global SYS counts or 26 verified APIs.",
+  "status": "Documentation and public-page review. No new full dataset ingestion, authenticated API test, account/key creation, purchase, or provider outreach.",
+  "prior_registers": [
+    "https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-16/future-warfare-investments/track-1-data-universe/SOURCE_REGISTER.csv",
+    "https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-16/future-warfare-investments/track-1-data-universe/BULK_ACCESS_REGISTER.csv",
+    "https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-16/future-warfare-investments/track-1-data-universe/README.md"
+  ],
+  "verification_policy": "Today's documentation/access findings are separate from historical 2026-10-16 payload checks. Search-index evidence and failed direct fetches are explicitly labeled.",
+  "entries": [
+    {
+      "id": "RAB-AIWEAPONS-20261109-01",
+      "name": "SBA SBIR/STTR award bulk files",
+      "change_type": "new_explicit_source_review",
+      "source_class": "bulk_files_advertised",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R01"
+      ],
+      "official_urls": [
+        "https://www.sbir.gov/awards",
+        "https://www.sbir.gov/data-resources",
+        "https://www.sbir.gov/api",
+        "https://data.www.sbir.gov/mod_awarddatapublic/award_data.csv",
+        "https://data.www.sbir.gov/mod_awarddatapublic_no_abstract/award_data_no_abstract.csv"
+      ],
+      "access_and_limits": "Public monthly CSV: advertised 290 MB with abstracts or 65 MB without. Search export <=10,000 rows. API documentation still displays maintenance notice; do not substitute an assumed live API. No login requested for listed bulk links.",
+      "unit_and_join_keys": "Award; firm/UEI or historical DUNS, contract, agency, phase, topic and solicitation/year. Preserve research institution and abstract.",
+      "interpretation_cautions": "Proposed research is not demonstrated capability. Deduplicate overlapping USAspending awards before any totals; award amounts are not lifecycle investment.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Awards/download links and API notice reviewed today. Web tool rejected CSV content type; no bulk payload retrieved or validated.",
+      "historical_verification": "October FW-R01 also listed bulk files and API maintenance, without a full download."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-02",
+      "name": "DoD DSIP and service SBIR/STTR topic archives",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-X25",
+        "FW-R01"
+      ],
+      "official_urls": [
+        "https://www.dodsbirsttr.mil/topics-app/",
+        "https://afwerx.com/get-funded/"
+      ],
+      "access_and_limits": "Search interface and service solicitation/topic HTML/PDF archives. No uniform bulk API verified. DSIP direct page returned 403 today; AFWERX page exposes current DSIP solicitation links.",
+      "unit_and_join_keys": "Research topic before award; agency, topic code, solicitation/version, dates, phase and later contract.",
+      "interpretation_cautions": "A topic is a requested problem, not a selected performer or result. Keep amendments and eligibility restrictions; do not bypass access controls.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Direct DSIP fetch failed; current official AFWERX links read. Retain historical document-route evidence without claiming live DSIP payload success.",
+      "historical_verification": "October FW-X25 inspected official DSIP/Navy document routes, not a bulk endpoint."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-03",
+      "name": "DVIDS official news and media",
+      "change_type": "new_explicit_source_review",
+      "source_class": "keyed_api_documented",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [],
+      "official_urls": [
+        "https://api.dvidshub.net/docs",
+        "https://api.dvidshub.net/docs/search_api",
+        "https://api.dvidshub.net/docs/asset_api",
+        "https://api.dvidshub.net/docs/tos"
+      ],
+      "access_and_limits": "DVIDS-issued API key. JSON/RSS search and JSON asset detail. Maximum 50 results/page; beyond page*max_results=1,000 the last valid page repeats. Partition legitimate searches by dates/unit, detect repeats, obey quotas. No numeric request-rate entitlement verified.",
+      "unit_and_join_keys": "Asset ID, unit, service, project, event/capture date, publication date and update timestamp; retrieve full asset descriptions/captions separately.",
+      "interpretation_cautions": "Official public-affairs reporting is not independent test certification. API terms require attribution and reasonable cache updates/removal for changed/withdrawn assets. Review retention obligations before collection.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Search, asset, introduction and terms read today. Documentation examples are not our authenticated tests; no key created or API call made.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-04",
+      "name": "DOE OSTI research-output metadata",
+      "change_type": "new_explicit_source_review",
+      "source_class": "api_and_harvest_documented",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R06",
+        "FW-X22"
+      ],
+      "official_urls": [
+        "https://www.osti.gov/api/v1/docs",
+        "https://www.osti.gov/faqs",
+        "https://www.osti.gov/api/v1/records"
+      ],
+      "access_and_limits": "Public REST metadata in XML/JSON/BibTeX; FAQ describes corpus access and OAI-PMH, with MARC21 limited to records having available resources. No current numeric quota verified. Exact working OAI endpoint unverified; do not promise a tested harvester.",
+      "unit_and_join_keys": "OSTI ID, DOI, report/contract number, sponsor and research organization; publication/report metadata with resource links.",
+      "interpretation_cautions": "Metadata is not full-text permission or project spending. FFRDC/M&O umbrella acknowledgments cannot allocate the whole contract to every output.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Direct docs/FAQ opens returned 502 today; indexed official documentation read. No fresh operational claim.",
+      "historical_verification": "October one-record XML response verified (3,274 bytes); no full metadata archive. An old OAI route returned HTML."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-05",
+      "name": "NASA NTRS citation API and bulk metadata",
+      "change_type": "new_explicit_source_review",
+      "source_class": "api_and_bulk_documented",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R14",
+        "FW-X23"
+      ],
+      "official_urls": [
+        "https://sti.nasa.gov/docs/20221122_OpenAPI_Documentation.pdf",
+        "https://ntrs.nasa.gov/api/openapi/",
+        "https://sti.nasa.gov/harvesting-data-from-ntrs/",
+        "https://sti.nasa.gov/docs/ntrs-public-metadata.json.gz",
+        "https://ntrs.nasa.gov/api/citations/search",
+        "https://ntrs.nasa.gov/api/citations/redistributions"
+      ],
+      "access_and_limits": "Public API: documented 500 requests/15 minutes, 100 records/page, 10,000/query. Separate advertised gzip bulk link; landing describes year-named NDJSON, but archive layout not inspected. Public API needs no authentication.",
+      "unit_and_join_keys": "NTRS citation ID, fundingNumbers, report number, DOI, organization, publication and acquisition dates, rights fields.",
+      "interpretation_cautions": "NASA requires redistribution checks at least weekly, removal of unavailable redistributed records/documents and resynchronization. Prefer citation links. Acquisition can date migration; civilian research needs separate military-mission evidence.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Official 2022 API PDF and current harvesting page read today. No new payload test or bulk download.",
+      "historical_verification": "October 19,252-byte public JSON sample included fundingNumbers and document-rights fields; this is not current corpus validation."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-06",
+      "name": "Federal Audit Clearinghouse public audit data",
+      "change_type": "new_explicit_source_review",
+      "source_class": "bulk_files_and_keyed_api_documented",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-X04"
+      ],
+      "official_urls": [
+        "https://www.fac.gov/data/download/current/",
+        "https://www.fac.gov/data/download/historic/",
+        "https://www.fac.gov/data/download/current-dictionary/",
+        "https://app.fac.gov/dissemination/public-data/gsa/full/passthrough.csv",
+        "https://www.fac.gov/api/",
+        "https://www.fac.gov/api/getting-started/",
+        "https://www.fac.gov/api/results-management/"
+      ],
+      "access_and_limits": "Keyless CSV full tables and audit-year/submission-federal-year partitions, 2016 onward; legacy separately. API at api.fac.gov needs Data.gov X-Api-Key; docs cap 20,000 results/request, with pagination. Published demo-key allowance is 30/IP/hour and 50/day; no key obtained.",
+      "unit_and_join_keys": "report_id plus award_reference; auditee UEI, audit year, ALN and award identification. passthrough names upstream entities; PDFs separate.",
+      "interpretation_cautions": "Audit thresholds, lag and nonfederal-entity scope matter. Not a complete downstream supplier graph; audited expenditure is not procurement obligation.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current download links, dictionary and API docs checked today. No new CSV/API payload.",
+      "historical_verification": "October only 4,096 sample bytes read from advertised 561,420,282-byte passthrough CSV; not a full download. Use stable URL, not expiring redirect."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-07",
+      "name": "NCSES FFRDC R&D public-use files",
+      "change_type": "new_explicit_source_review",
+      "source_class": "bulk_files_advertised",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-X01"
+      ],
+      "official_urls": [
+        "https://ncses.nsf.gov/explore-data/microdata/ffrdc-research-development",
+        "https://ncses.nsf.gov/819/assets/0/files/ffrdc_r_and_d_2025.zip"
+      ],
+      "access_and_limits": "Public annual ZIP, FY1979–2025; before 2001 academically administered FFRDCs only. FY2025 advertised 29 KB. No key indicated or numeric download ceiling verified. Latest page and exact link checked, not downloaded.",
+      "unit_and_join_keys": "Institution ID/name, agency, fiscal year and survey question; institutional R&D expenditures.",
+      "interpretation_cautions": "Not project awards or a complete AI/military census. Preserve survey universe and avoid double-counting overlapping finance sources.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current public-use page and exact ZIP link reviewed today; FY2025 was already in October register.",
+      "historical_verification": "October entire FY2025 ZIP inspected: 29,809 bytes, CSV/SAS, 862 CSV rows. Landing description differs in format; preserve observed archive evidence."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-08",
+      "name": "NCSES Higher Education R&D (HERD) public-use files",
+      "change_type": "new_explicit_source_review",
+      "source_class": "bulk_files_advertised",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-X02"
+      ],
+      "official_urls": [
+        "https://ncses.nsf.gov/explore-data/microdata/higher-education-research-development",
+        "https://ncses.nsf.gov/821/assets/0/files/higher_education_r_and_d_2024.zip",
+        "https://ncses.nsf.gov/821/assets/0/files/higher_education_r_and_d_2024_short.zip"
+      ],
+      "access_and_limits": "Annual public CSV/SAS ZIPs; latest listed FY2024, main 7.1 MB and short-form 153 KB advertised. Keep short-form population separate (2012 onward); summary-table ZIP is different. No key indicated; download cap unverified.",
+      "unit_and_join_keys": "Institution ID/name, fiscal year, agency/funding source and research field; institutional expenditures.",
+      "interpretation_cautions": "Aggregates do not identify every individual award or classified project. Institutional research is not automatically security-related.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current page and exact main/short-form links checked today; no payload download.",
+      "historical_verification": "October link/documentation check only, not payload-verified."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-09",
+      "name": "NCSES Federal Funds for R&D tables",
+      "change_type": "new_explicit_source_review",
+      "source_class": "bulk_files_advertised",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-B17",
+        "FW-X20"
+      ],
+      "official_urls": [
+        "https://ncses.nsf.gov/surveys/federal-funds-research-development/2024-2025/",
+        "https://ncses.nsf.gov/pubs/nsf26316/assets/data-tables/nsf26316-data-tables-tables-excels.zip"
+      ],
+      "access_and_limits": "Public volume-74 all-Excel ZIP, advertised 1.1 MB; all formats 9.1 MB. No key indicated; no numeric download ceiling verified. Main data tables differ from technical tables.",
+      "unit_and_join_keys": "Agency, performer, country, character of work, fiscal year and table; FY2024 actuals versus FY2025 estimates.",
+      "interpretation_cautions": "Survey obligations, not a project ledger. Performer country is not deployment location; avoid adding to overlapping contracts and institutional totals.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current official release and exact ZIP link read today; no new payload.",
+      "historical_verification": "October complete 1,167,352-byte ZIP, 99 XLSX tables plus index; tables 55/56 covered foreign R&D and R&D plant."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-10",
+      "name": "NCSES Federal S&E Support to institutions",
+      "change_type": "new_explicit_source_review",
+      "source_class": "bulk_files_advertised",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-X03"
+      ],
+      "official_urls": [
+        "https://ncses.nsf.gov/surveys/federal-support-survey/2024",
+        "https://ncses.nsf.gov/pubs/nsf26320/assets/data-tables/nsf26320-data-tables-tables-excels.zip"
+      ],
+      "access_and_limits": "Public annual tables; FY2024 all-Excel ZIP advertised 1.1 MB, all formats 7.8 MB. No key indicated; no numeric download ceiling verified.",
+      "unit_and_join_keys": "Institution, federal agency, fiscal year, support category and table; obligations to universities, colleges and nonprofits.",
+      "interpretation_cautions": "Institutional survey totals are not independently additive awards. Category changes and overlapping survey universes require reconciliation.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current official publication and exact ZIP link read today; no payload.",
+      "historical_verification": "October publication/download-link check only, not ZIP payload verification."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-11",
+      "name": "DARPA current/completed programs and opportunities",
+      "change_type": "new_explicit_source_review",
+      "source_class": "public_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R02"
+      ],
+      "official_urls": [
+        "https://www.darpa.mil/research/programs"
+      ],
+      "access_and_limits": "Public HTML program directory, linked BAAs/PDFs, opportunities RSS. Search both current and completed programs. No comprehensive public award-ledger API verified.",
+      "unit_and_join_keys": "Program/acronym, office, phase, BAA/solicitation number, performer and report/contract identifiers where disclosed.",
+      "interpretation_cautions": "Program intent, selection, completion and transition are distinct. A surviving page or changed timestamp does not establish current funding or deployment.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Official program directory and filter guidance read today; no full linked-document crawl.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-12",
+      "name": "IARPA programs, BAAs and performer disclosures",
+      "change_type": "new_explicit_source_review",
+      "source_class": "public_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R03"
+      ],
+      "official_urls": [
+        "https://www.iarpa.gov/research-programs"
+      ],
+      "access_and_limits": "Public program HTML plus linked BAAs, amendments and performer pages. No verified complete bulk performer-award export or uniform funding field.",
+      "unit_and_join_keys": "Program acronym, BAA number, named institution, evaluator/performer role, research-report contract number.",
+      "interpretation_cautions": "Published participation and papers do not reveal classified transitions or operational adoption. Preserve the role and stage of each named organization.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Official program directory read today; historical sample details remain dated October evidence.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-13",
+      "name": "Defense RDT&E/procurement justification books and project narratives",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-B01",
+        "FW-B02",
+        "FW-B03"
+      ],
+      "official_urls": [
+        "https://comptroller.war.gov/Budget-Materials/FY2027BudgetJustification/",
+        "https://www.asafm.army.mil/Budget-Materials/",
+        "https://www.secnav.navy.mil/fmc/fmb/Pages/archive.aspx",
+        "https://www.darpa.mil/sites/default/files/attachment/2024-11/u-rdte-mjb-darpa-pb-2025-06-mar-2024-final.pdf"
+      ],
+      "access_and_limits": "Annual service/defense-wide PDF books, including R-2/R-2A project narratives and procurement exhibits. XML can be embedded in some products; not verified for these files. Current Comptroller index returned 403; no clean universal bulk API claimed.",
+      "unit_and_join_keys": "Budget vintage, appropriation, component, fiscal year, program element, project/subeffort, page and exhibit.",
+      "interpretation_cautions": "Requested/enacted/current estimates are different. Do not label an entire program element AI from one subproject or assume a universal PE-to-PIID join.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current index fetch failed today. Service and sample links retained from October inventory, not freshly downloaded.",
+      "historical_verification": "October retrieved a 252-page DARPA FY2025 sample; FY2027 books were indexed-only or inaccessible."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-14",
+      "name": "DD 1414 reprogramming baseline",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-B04"
+      ],
+      "official_urls": [
+        "https://comptroller.war.gov/BudgetExecution/DD1414_Base_for_Reprogramming_Actions/"
+      ],
+      "access_and_limits": "Annual PDF baseline and revisions; no API verified. Direct index returned 403 today.",
+      "unit_and_join_keys": "Appropriation, fiscal year/availability period, component, program element or line item and baseline vintage.",
+      "interpretation_cautions": "Enacted/reconciled baseline is not actual obligations or payments; preserve congressional adjustments and version.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Access failure reproduced today; October indexed evidence retained.",
+      "historical_verification": "October FY2026 PDF/index were indexed-only after direct 403."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-15",
+      "name": "DD 1415 reprogramming and transfer actions",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-B05"
+      ],
+      "official_urls": [
+        "https://comptroller.war.gov/Budget-Execution/ReprogrammingFY2026/"
+      ],
+      "access_and_limits": "Fiscal-year HTML indexes and PDF actions, including scans; no uniform API verified. Current index returned 403 today.",
+      "unit_and_join_keys": "Action number, request/approval/implementation status, signature date, appropriation, PE/line and source/destination.",
+      "interpretation_cautions": "A request is not an approval. Reallocation is not a new contract award; classified detail can be redacted.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Access failure reproduced today; no action PDF newly retrieved.",
+      "historical_verification": "October index was indexed-only; direct retrieval blocked."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-16",
+      "name": "DD 1416 quarterly Report of Programs",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-B06"
+      ],
+      "official_urls": [
+        "https://comptroller.war.gov/Budget-Execution/1416QrtlyRptsfy2026/"
+      ],
+      "access_and_limits": "Quarterly component/appropriation Excel reports listed in historical index. Current index returned 403; no current workbook or API verified.",
+      "unit_and_join_keys": "As-of date, appropriation cohort/availability years, component, PE/line, fiscal program year.",
+      "interpretation_cautions": "Program allocation is not automatically obligation or outlay. Multiple availability cohorts may coexist; a two-year filename need not be a forecast.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current index fetch failed today.",
+      "historical_verification": "October index/download links read, but workbook bytes not parsed; do not relabel as payload-verified."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-17",
+      "name": "GAO weapon-system and thematic oversight reports",
+      "change_type": "new_explicit_source_review",
+      "source_class": "public_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-B18"
+      ],
+      "official_urls": [
+        "https://www.gao.gov/products/gao-26-108457",
+        "https://www.gao.gov/assets/gao-26-108457.pdf",
+        "https://files.gao.gov/reports/GAO-25-107546/index.html"
+      ],
+      "access_and_limits": "Free report landing pages and linked PDF/HTML. Annual selected-system assessments plus thematic work such as OT performer reporting. No complete program-panel API established here.",
+      "unit_and_join_keys": "Report number, publication/release date, assessed program, underlying observation date, page/table and agency.",
+      "interpretation_cautions": "Selected programs, not a spending census. Lifecycle cost cannot be added to annual appropriations; findings have source dates and scope.",
+      "reviewed_at": "2026-11-09",
+      "verification": "2026 assessment landing page read today; no whole PDF re-analysis or new extraction.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-18",
+      "name": "DOT&E annual operational-test reports",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R12"
+      ],
+      "official_urls": [
+        "https://www.dote.osd.mil/annualreport",
+        "https://www.dote.osd.mil/Portals/97/pub/reports/FY2025/Other/2025Annual-Report.pdf"
+      ],
+      "access_and_limits": "Annual HTML/PDF and system sections. FY2025 report found in official search index. Direct archive returned 403; no clean bulk/API verified.",
+      "unit_and_join_keys": "Report FY, system/acronym, contractor, test date and page; keep test type and findings.",
+      "interpretation_cautions": "Public selected-system assessments exclude restricted detail. A successful test is not sustained fielding or an annual spending amount.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Official PDF indexed today; direct archive failed. No new report payload retrieved.",
+      "historical_verification": "October FY2025 PDF indexed; direct fetch 403."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-19",
+      "name": "DIU solutions, solicitations and transition reports",
+      "change_type": "new_explicit_source_review",
+      "source_class": "public_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-C08"
+      ],
+      "official_urls": [
+        "https://www.diu.mil/solutions/portfolio/catalog",
+        "https://www.diu.mil/work-with-us/open-solicitations",
+        "https://www.diu.mil/fy22-year-in-review",
+        "https://www.diu.mil/2024-annual-report-files/index.html"
+      ],
+      "access_and_limits": "Public HTML project-company catalog and linked reports. No public bulk/API verified. Success memos may need separate access. Generic /annual-report returned 404; use verified specific report hubs.",
+      "unit_and_join_keys": "Catalog entry ID, project, company, portfolio and completion year; contract IDs only where individually disclosed.",
+      "interpretation_cautions": "A successful/transitioned prototype available for purchase is not universal adoption. Separate obligated prototype dollars from production ceilings; title inside a report outranks its URL year.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current catalog read today. Specific historical report hubs are October-verified, not newly downloaded.",
+      "historical_verification": "October found 2017–2026 catalog years and FY2023 content under a URL labeled 2024-annual-report-files."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-20",
+      "name": "AFWERX/SpaceWERX STRATFI, TACFI and transition disclosures",
+      "change_type": "new_explicit_source_review",
+      "source_class": "public_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-C09"
+      ],
+      "official_urls": [
+        "https://afwerx.com/get-funded/",
+        "https://spacewerx.us/accelerate/stratfi-tacfi/",
+        "https://spacewerx.us/ventures/portfolio/",
+        "https://spacewerx.us/wp-content/uploads/2024_AFWERXSPACEWERX_AnnualReport_Cleared_AFRL-2025-2954.pdf"
+      ],
+      "access_and_limits": "Free company/cohort showcases, program descriptions and annual-report PDF. No comprehensive award API verified. SpaceWERX portfolio page still says coming soon.",
+      "unit_and_join_keys": "Company, program/cohort year, STRATFI/TACFI category, underlying SBIR contract if supplied and announcement date.",
+      "interpretation_cautions": "Selections, awards, government match, private capital and transitions differ. A matched headline total is not wholly federal spending.",
+      "reviewed_at": "2026-11-09",
+      "verification": "AFWERX funding, SpaceWERX showcase and unavailable portfolio read today. Historical PDF not newly downloaded.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-21",
+      "name": "ATI/NSTXL consortium project and performer disclosures",
+      "change_type": "new_explicit_source_review",
+      "source_class": "first_party_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-C10"
+      ],
+      "official_urls": [
+        "https://www.ati.org/rd-project-awards/",
+        "https://nstxl.org/rapidly-delivering-next-generation-space-prototypes/",
+        "https://nstxl.org/2022-year-in-review/",
+        "https://sossecinc.com/sossec-consortium/"
+      ],
+      "access_and_limits": "First-party manager pages, not government ledgers. ATI advertises rolling last-12-month table: program, award date, member, ceiling. NSTXL permits free opportunity discovery but submissions require membership. No complete bulk award API verified.",
+      "unit_and_join_keys": "Manager/consortium, project if disclosed, performer, award date and parent OT/contract where supplied; names alone are weak joins.",
+      "interpretation_cautions": "Ceilings are not obligations; manager receipts are not all its own research. Membership is not an award. Detailed/member-only/export-controlled files remain outside public access.",
+      "reviewed_at": "2026-11-09",
+      "verification": "ATI table and NSTXL access statement read today. SOSSEC and 2022 review retained as October inventory references, not fresh tests.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-22",
+      "name": "APFIT selected projects and implementation reports",
+      "change_type": "new_explicit_source_review",
+      "source_class": "public_document_collection",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "OS-03"
+      ],
+      "official_urls": [
+        "https://ac.cto.mil/apfit/",
+        "https://calvert.house.gov/sites/evo-subsites/calvert.house.gov/files/evo-media-document/20230321-apfit-biannual-report.pdf"
+      ],
+      "access_and_limits": "Public program HTML, cohort announcements and selected implementation PDFs. No comprehensive current PIID-linked export or full report archive verified.",
+      "unit_and_join_keys": "Project, company, sponsoring organization, selection cohort/FY, announced amount and subsequent award identifier.",
+      "interpretation_cautions": "Selection, funding on contract, production, follow-on commitments and delivery are distinct. Record as-of dates; do not treat promotional totals as transaction data.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Current program landing read today; historical implementation PDF not re-downloaded.",
+      "historical_verification": "October retrieved the March 2023 603,542-byte implementation PDF and a July 2026 selection release."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-23",
+      "name": "Microelectronics Commons project disclosures",
+      "change_type": "new_explicit_source_review",
+      "source_class": "document_collection_access_failed",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "OS-02"
+      ],
+      "official_urls": [
+        "https://www.cto.mil/ct/microelectronics/commons/",
+        "https://www.cto.mil/wp-content/uploads/2025/04/Quantum-Technology-Q-Projects.pdf",
+        "https://www.cto.mil/wp-content/uploads/2025/04/Electromagnetic-Warfare.pdf",
+        "https://www.cto.mil/wp-content/uploads/2025/04/Secure-Edge-1.pdf",
+        "https://microelectronicscommons.org/"
+      ],
+      "access_and_limits": "Official project-by-technology-area PDFs and hub/program disclosures. Current government landing returned 404 although official indexed content remains; operator site is a separate first-party source. No bulk API verified.",
+      "unit_and_join_keys": "Project/acronym, hub, performer, technology area, announcement/FY and disclosed funding.",
+      "interpretation_cautions": "Project funding is not transaction obligation. Projects may repeat across sheets/years; October EW sheet repeated EPIC-BEAMS with differing amounts. Targets are not achieved performance.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Government landing failed today; operator and government pages located in search. Historical project PDFs not re-downloaded.",
+      "historical_verification": "October official HTML and quantum/EW/secure-edge PDFs retrieved; quantum sample independent HTTP 200."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-24",
+      "name": "DTIC public reports, publications and grant abstracts",
+      "change_type": "new_explicit_source_review",
+      "source_class": "publisher_reports_unavailable",
+      "original_rabbit_systems": [],
+      "previous_register_ids": [
+        "FW-R05"
+      ],
+      "official_urls": [
+        "https://discover.dtic.mil/products-services/"
+      ],
+      "access_and_limits": "Official page says public S&T reports, Public Access Search and Grant Awards are offline. Catalog as unavailable/discovery-only. Controlled DTIC/Horizons/R&E access requires eligible credentials and is not a public substitute.",
+      "unit_and_join_keys": "If an individual public report is available: DTIC accession, report/contract number, author institution and date.",
+      "interpretation_cautions": "Do not infer absence of research from unavailable search. Old indexed links require individual validation; no public bulk route is promised.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Publisher offline notices rechecked today. No controlled access attempted.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-25",
+      "name": "SAM and USAspending: complete-history maintenance",
+      "change_type": "existing_source_maintenance",
+      "source_class": "existing_source_workflow",
+      "original_rabbit_systems": [
+        "SYS-0055",
+        "SYS-0054",
+        "SYS-0934"
+      ],
+      "previous_register_ids": [
+        "FW-C01",
+        "FW-C04",
+        "FW-C06"
+      ],
+      "official_urls": [
+        "https://open.gsa.gov/api/contract-awards/",
+        "https://open.gsa.gov/api/get-opportunities-public-api/",
+        "https://api.usaspending.gov/docs/endpoints"
+      ],
+      "access_and_limits": "SAM awards: account/key, 100/page, first 400,000 search rows, 1,000,000 extract rows. Opportunities: key, 1,000/page, one-year windows; latest active version only, history via Data Services. Account-specific quotas apply; no authenticated test.",
+      "unit_and_join_keys": "Award composite key/agency/PIID/parent IDV/modification; notice ID/solicitation and version. Retain zero/negative-dollar actions, current/potential end dates and action/posted/modified dates.",
+      "interpretation_cautions": "Already SYS-0055 and USAspending SYS-0054/0934, not missing. FPDS/SAM and USAspending overlap. Options, ceilings and obligations differ; public DoD award disclosure has a 90-day lag.",
+      "reviewed_at": "2026-11-09",
+      "verification": "September Rabbit2 revision inspected; current GSA API specifications read today. USAspending linked as existing route, not re-probed.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    },
+    {
+      "id": "RAB-AIWEAPONS-20261109-26",
+      "name": "Crossref annual public release versus monthly paid snapshots",
+      "change_type": "existing_source_access_correction",
+      "source_class": "existing_source_access_correction",
+      "original_rabbit_systems": [
+        "SYS-0250"
+      ],
+      "previous_register_ids": [],
+      "official_urls": [
+        "https://www.crossref.org/documentation/retrieve-metadata/bulk-downloads/"
+      ],
+      "access_and_limits": "Free annual full public metadata release; monthly JSON/XML snapshots require paid Metadata Plus and a token. Optional AWS distribution is requester-pays. Public REST API is separate; no purchase, credential or dataset test.",
+      "unit_and_join_keys": "DOI, funder identifier, award number where deposited, update/index date and release vintage.",
+      "interpretation_cautions": "Corrects SYS-0250/AP-0251 pairing of monthly snapshots with zero price. Metadata/funding completeness varies; DOI metadata does not prove expenditure or an accepted deliverable.",
+      "reviewed_at": "2026-11-09",
+      "verification": "Official bulk-access documentation read today. Correction supersedes conflicting access-price description, without rewriting original.",
+      "historical_verification": "See linked October registers; no prior payload test is implied."
+    }
+  ]
+}

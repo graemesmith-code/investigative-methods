@@ -32,6 +32,7 @@ New source reviews are linked here separately from the preserved exports. Their 
 | [RAB-MEDIA-20261020-01 — WorldStateMedia and conflict narratives](additions/worldstatemedia.md) | Seven research designs for conflict-permission narratives, off ramps and technology claims, with temporal validation safeguards | Paper and public documentation reviewed 20 October 2026; no gated corpus access, classification or predictive test |
 | [RAB-JOBS-20261109 — Job-posting APIs and bulk feeds](additions/job-postings-20261109/README.md) | 15 access-route reviews across 13 providers; historical archives, employer feeds, licensed data and a reproducible defense/AI hiring search design | Primary documentation and terms reviewed 9 November 2026; no bulk collection; API payloads not verified |
 | [RAB-PATENTS-20261109 — Patent bulk data](additions/patents-20261109/README.md) | 12 access-route reviews covering USPTO, EPO, Google BigQuery and WIPO; existing patent-source crosswalk and a proposed mass-search method | Official documentation reviewed 9 November 2026; no bulk collection or authenticated payload tests |
+| [RAB-AIWEAPONS-20261109 — AI-weapons research sources](additions/ai-weapons-research-20261109/README.md) | 26 source/route reviews connecting research intentions, outputs, institutional funding, tests and transition; existing-source corrections included | Official documentation/public pages reviewed 9 November 2026; historical payload checks separated; DTIC unavailable and failed direct access labeled |
 
 ## Try one source
 
@@ -55,3 +56,4 @@ Earlier **158 → 263 → 345** catalog counts belong to a separately verified w
 Treat prices, quotas and access descriptions as dated claims to check before a new run. A catalog entry is not a guarantee of permission to collect or republish a source. No compilation-wide license or byline was found in the recovered set; do not infer that a code license covers the catalog or the underlying records. This repository is public as of 14 October 2026. Public repository access does not grant rights in the underlying datasets or establish a compilation-wide license.
 
 [Home](../README.md) · [Experiment index](../experiments/README.md) · [Technical annexes](../annexes/README.md)
+
