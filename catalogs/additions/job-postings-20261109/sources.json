@@ -1,0 +1,356 @@
+{
+  "catalog_addition": "RAB-JOBS-20261109",
+  "reviewed_at": "2026-11-09",
+  "scope": "15 access-route entries across 13 providers. Dated supplement; does not renumber or alter recovered Rabbit originals.",
+  "status": "Documentation review and proposed workflow; no bulk collection, ongoing monitor, purchase, signup or outreach.",
+  "entries": [
+    {
+      "provider": "Greenhouse",
+      "name": "Public Job Board API",
+      "route_type": "employer_board",
+      "access_status": "public_documented",
+      "authentication": "GET; no authentication for public reads.",
+      "coverage": "All published posts for a known board; JSON includes full descriptions with content=true. No cross-employer directory or historical archive documented.",
+      "bulk_or_pagination": "One full board response; check meta.total. Do not invent pagination parameters.",
+      "identifiers_dates": "Posting id; internal_job_id; requisition_id when present; updated_at.",
+      "cost_terms": "No API charge stated for public GET. No numeric read quota verified. Review employer terms and content reuse before a repeated collection.",
+      "priority": "public_board_pilot",
+      "sources": [
+        "https://docs.greenhouse.io/job-board"
+      ],
+      "verification": "One Anduril job endpoint could not be retrieved through the web tool; documentation verified, payload not verified.",
+      "cautions": "Retain posting and internal job IDs separately. Null internal_job_id may be a prospect post. updated_at is not initial publication. Public API access does not grant blanket republication rights.",
+      "id": "RAB-JOBS-20261109-01",
+      "endpoints": [
+        "https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs?content=true"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Lever",
+      "name": "Public Postings API",
+      "route_type": "employer_board",
+      "access_status": "public_documented",
+      "authentication": "GET; public posting read route. EU base: https://api.eu.lever.co/v0/postings/.",
+      "coverage": "Published jobs for a known employer; descriptions, requirements lists, locations, departments and hosted URLs. No global full-text search or historical archive.",
+      "bulk_or_pagination": "Use skip and limit until exhausted; search descriptions locally.",
+      "identifiers_dates": "id; hostedUrl; categories; descriptionPlain; lists; additionalPlain.",
+      "cost_terms": "No API charge or numeric GET quota verified. Review applicable employer/vendor terms before repeated collection.",
+      "priority": "public_board_pilot",
+      "sources": [
+        "https://github.com/lever/postings-api/blob/master/README.md"
+      ],
+      "verification": "A Palantir limit=1 request could not be retrieved through the web tool; documentation verified, payload not verified.",
+      "cautions": "Do not apply application-submission POST limits to GET reads. Preserve separate text fields; do not invent a posting date when absent.",
+      "id": "RAB-JOBS-20261109-02",
+      "endpoints": [
+        "https://api.lever.co/v0/postings/{site}?mode=json&skip={offset}&limit={page_size}"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Ashby",
+      "name": "Public Job Postings API",
+      "route_type": "employer_board",
+      "access_status": "public_documented",
+      "authentication": "Public GET example requires no credential.",
+      "coverage": "Currently published postings for one known board, with descriptions, team, locations, employment type and optional compensation.",
+      "bulk_or_pagination": "All published postings in jobs array; no pagination documented on this page.",
+      "identifiers_dates": "jobUrl; publishedAt; descriptionPlain; workplaceType; isListed.",
+      "cost_terms": "No price or numeric quota verified for this public endpoint. Review employer terms and storage/reuse rights.",
+      "priority": "public_board_pilot",
+      "sources": [
+        "https://developers.ashbyhq.com/docs/public-job-posting-api"
+      ],
+      "verification": "Documentation reviewed; no payload test.",
+      "cautions": "Exclude isListed=false from general indexing: it denotes direct-link-only postings. publishedAt means last publication. isRemote also covers hybrid; use workplaceType.",
+      "id": "RAB-JOBS-20261109-03",
+      "endpoints": [
+        "https://api.ashbyhq.com/posting-api/job-board/{JOB_BOARD_NAME}?includeCompensation=true"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Ashby",
+      "name": "Dedicated Partner Job Feed",
+      "route_type": "partner_feed",
+      "access_status": "partner_agreement",
+      "authentication": "Partner onboarding and employer opt-in required; no request submitted.",
+      "coverage": "Participating customers' published jobs in flat JSON or XML; includes organization IDs, posting IDs, descriptions, publishedAt and updatedAt.",
+      "bulk_or_pagination": "Provider says refreshed hourly. Retrieve contracted feed and deduplicate by organizationId plus id.",
+      "identifiers_dates": "id; organizationId; organizationName; updatedAt; publishedAt.",
+      "cost_terms": "Price, quota, retention and journalism/republication rights require agreement; not an open all-Ashby dump.",
+      "priority": "licensing_option",
+      "sources": [
+        "https://developers.ashbyhq.com/docs/dedicated-partner-job-feeds"
+      ],
+      "verification": "Documentation reviewed; no partnership or feed access.",
+      "cautions": "Employer opt-in creates coverage gaps; same data is offered in JSON and XML. Do not count the two formats as independent sources.",
+      "id": "RAB-JOBS-20261109-04",
+      "endpoints": [
+        "Provider-provisioned dedicated feed; no public universal URL."
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "SmartRecruiters",
+      "name": "Public Posting API",
+      "route_type": "employer_board",
+      "access_status": "public_documented_scope_check",
+      "authentication": "Public GET example in docs; restrict to public postings. Never use internal_postings_read or employer credentials for this catalog workflow.",
+      "coverage": "Active company postings; q and location/department filters; list may omit description fields.",
+      "bulk_or_pagination": "Page limit/offset against totalFound; follow each item's ref for full object.",
+      "identifiers_dates": "id; uuid; company.identifier; releasedDate; jobAdId.",
+      "cost_terms": "No price/numeric read quota verified. Check public-only response and employer terms before pilot.",
+      "priority": "public_board_pilot_after_scope_check",
+      "sources": [
+        "https://developers.smartrecruiters.com/docs/endpoints",
+        "https://developers.smartrecruiters.com/docs/posting-api"
+      ],
+      "verification": "Documentation reviewed; no payload test.",
+      "cautions": "Current overview also describes credentials exposing internal postings. Do not confuse that privileged capability with the public feed or request access to it.",
+      "id": "RAB-JOBS-20261109-05",
+      "endpoints": [
+        "https://api.smartrecruiters.com/v1/companies/{companyIdentifier}/postings?limit={page_size}&offset={offset}"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "USAJOBS",
+      "name": "Historic JOA and Announcement Text APIs",
+      "route_type": "government_archive",
+      "access_status": "public_bulk",
+      "authentication": "Both GET endpoints explicitly require no authentication.",
+      "coverage": "US federal current and past announcements: compact metadata plus a separate long-text bulk route. Does not cover most contractor hiring.",
+      "bulk_or_pagination": "Filter date windows and agency/department/series; follow paging.next/continuationToken until exhausted. Join the two outputs by usajobsControlNumber.",
+      "identifiers_dates": "usajobsControlNumber; announcementNumber; positionOpenDate; positionCloseDate; hiringAgencyCode.",
+      "cost_terms": "Public endpoints; no charge stated. Review USAJOBS public-data terms and preserve collection conditions.",
+      "priority": "open_archive_first",
+      "sources": [
+        "https://developer.usajobs.gov/api-reference/get-api-historicjoa",
+        "https://developer.usajobs.gov/api-reference/get-api-announcementtext",
+        "https://developer.usajobs.gov/guides/terms-of-service"
+      ],
+      "verification": "Official documentation reviewed; no payload test or bulk download.",
+      "cautions": "Do not apply Search API's 10,000-row ceiling to HistoricJoa without evidence. Closing date is not a confirmed hire date. Verify historical completeness and later revisions before a backtest.",
+      "id": "RAB-JOBS-20261109-06",
+      "endpoints": [
+        "https://data.usajobs.gov/api/historicjoa",
+        "https://data.usajobs.gov/api/historicjoa/announcementtext"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "USAJOBS",
+      "name": "Current Search API",
+      "route_type": "government_search",
+      "access_status": "registered_key",
+      "authentication": "Registered API key required; no registration or key created.",
+      "coverage": "Search currently open federal announcements using keywords and structured filters; complements historical bulk endpoints.",
+      "bulk_or_pagination": "Explicit ResultsPerPage up to 500; Page pagination; documented ceiling 10,000 rows per query.",
+      "identifiers_dates": "PositionID; PositionURI; organization; opening/closing dates; matching object identifiers.",
+      "cost_terms": "No price stated; quotas/terms apply. Query ceiling is a result limit, not an exhaustive universe.",
+      "priority": "key_required_optional",
+      "sources": [
+        "https://developer.usajobs.gov/api-reference/get-api-search",
+        "https://developer.usajobs.gov/guides/rate-limiting",
+        "https://developer.usajobs.gov/guides/authentication"
+      ],
+      "verification": "Documentation reviewed; no authenticated test.",
+      "cautions": "Use date/agency partitions and record completeness if approaching ceiling. Prefer historical bulk for large archival extracts.",
+      "id": "RAB-JOBS-20261109-07",
+      "endpoints": [
+        "https://data.usajobs.gov/api/Search"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Arbetsformedlingen",
+      "name": "Swedish Platsbanken historical files and JobStream",
+      "route_type": "government_archive_stream",
+      "access_status": "public_bulk",
+      "authentication": "Public historical downloads; JobStream explicitly needs no API key or registration.",
+      "coverage": "Swedish Platsbanken bulk history from 2006; annual/quarterly JSONL archives. JobStream supports current ads and publication, update and removal changes.",
+      "bulk_or_pagination": "Start with the required historical files or current snapshot, then consume JobStream changes. Select production endpoints from linked current API docs.",
+      "identifiers_dates": "Preserve ad identifier, employer, location, publication/update/removal times and original language.",
+      "cost_terms": "Official dataset and service list CC0. Privacy obligations remain; omit contact-person data from public research outputs.",
+      "priority": "open_archive_first",
+      "sources": [
+        "https://data.arbetsformedlingen.se/dataset/job-ads/",
+        "https://data.arbetsformedlingen.se/annonser/historiska/",
+        "https://data.arbetsformedlingen.se/dataservice/jobstream/"
+      ],
+      "verification": "Official metadata and file index checked; archives not downloaded; stream not executed.",
+      "cautions": "Historical search API begins in 2016 and requires unpublished ads; it is not equivalent to bulk files from 2006. Platsbanken is not a census of Swedish hiring. Do not combine patched/original copies as extra ads.",
+      "id": "RAB-JOBS-20261109-08",
+      "endpoints": [
+        "https://data.arbetsformedlingen.se/annonser/historiska/",
+        "https://data.arbetsformedlingen.se/dataservice/jobstream/"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "ClearanceJobs",
+      "name": "Cleared-sector job board",
+      "route_type": "restricted_board",
+      "access_status": "permission_required",
+      "authentication": "No public read API or bulk export located in this bounded documentation search.",
+      "coverage": "Highly relevant specialist discovery source for clearance-required hiring. Automated mass collection is not cleared.",
+      "bulk_or_pagination": "No authorized export pagination established; do not build a scraper.",
+      "identifiers_dates": "Any future licensed export should retain job ID, employer, source URL, description and dates.",
+      "cost_terms": "Terms section 8.2(aa) restrict automated retrieval/indexing/data mining; 8.2(j) restrict tools; 8.2(k) addresses AI use; 2.1 restricts republication.",
+      "priority": "do_not_collect_without_permission",
+      "sources": [
+        "https://about.clearancejobs.com/terms-of-service",
+        "https://about.clearancejobs.com/employers/products/recruitment-solution/jobs"
+      ],
+      "verification": "Terms and employer product documentation reviewed; no data collected.",
+      "cautions": "Employer job-upload/syndication products do not establish permission to download the whole board. Obtain written terms for research, full text, history and derived analysis before mass collection.",
+      "id": "RAB-JOBS-20261109-09",
+      "endpoints": [
+        "https://www.clearancejobs.com/"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "ClearedJobs.net",
+      "name": "Cleared-sector job board",
+      "route_type": "restricted_board",
+      "access_status": "permission_required",
+      "authentication": "No public read API or bulk export located in this bounded documentation search.",
+      "coverage": "Specialist cleared-employment discovery; useful potential licensed coverage alongside employer feeds.",
+      "bulk_or_pagination": "No authorized bulk route established.",
+      "identifiers_dates": "Request stable ad IDs, source links, employer, description, dates and change records if licensing becomes available.",
+      "cost_terms": "Site Terms prohibit aggregating/copying/duplicating materials; general download permission is personal noncommercial single-copy use.",
+      "priority": "do_not_collect_without_permission",
+      "sources": [
+        "https://clearedjobs.net/site-terms",
+        "https://clearedjobs.net/how-to-get-the-most-out-of-clearedjobs-net"
+      ],
+      "verification": "Official terms and search guidance reviewed; no data collected.",
+      "cautions": "Search and alert features are not bulk-data permission. Avoid applicant/profile data; use a negotiated employer-ad feed only if authorized.",
+      "id": "RAB-JOBS-20261109-10",
+      "endpoints": [
+        "https://clearedjobs.net/"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Adzuna",
+      "name": "Job Search API",
+      "route_type": "aggregator_search",
+      "access_status": "registered_key_and_licensing",
+      "authentication": "app_id and app_key required; no signup completed.",
+      "coverage": "Country-specific search by terms and filters. Description response is a snippet, so important defense/AI language may be missing.",
+      "bulk_or_pagination": "Page path plus results_per_page. Current limits are account-specific; do not assume historical fixed quotas.",
+      "identifiers_dates": "id; created; company.display_name; title; redirect_url; salary_is_predicted.",
+      "cost_terms": "Free key is evaluation access. Ongoing organizational research needs written consent/licensing beyond the 14-day evaluation; attribution required.",
+      "priority": "licensed_discovery_option",
+      "sources": [
+        "https://developer.adzuna.com/overview",
+        "https://developer.adzuna.com/docs/search",
+        "https://developer.adzuna.com/docs/terms_of_service"
+      ],
+      "verification": "Official API and current terms reviewed; no authenticated test.",
+      "cautions": "Historical salary endpoints do not establish historical full-ad access. Keep predicted salary distinct from employer-stated pay.",
+      "id": "RAB-JOBS-20261109-11",
+      "endpoints": [
+        "https://api.adzuna.com/v1/api/jobs/{country}/search/{page}"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "LinkUp",
+      "name": "Custom feeds and historical RAW data",
+      "route_type": "licensed_bulk",
+      "access_status": "commercial_contract",
+      "authentication": "Commercial arrangement required; no quote or account requested.",
+      "coverage": "Employer-site postings. Custom feeds supply full-text active job descriptions; historical RAW offering is separate and should be scoped explicitly.",
+      "bulk_or_pagination": "Daily full and differential CSV/XML/JSON feeds; confirm historical delivery and change semantics in contract.",
+      "identifiers_dates": "Request stable posting/company IDs, original URLs, first/last-seen and content-change dates.",
+      "cost_terms": "No public fixed research price or redistribution license verified. Contract must cover full text, historical versions, quoted evidence and derived publication.",
+      "priority": "licensed_bulk_shortlist",
+      "sources": [
+        "https://www.linkup.com/products/custom-feeds",
+        "https://www.linkup.com/data"
+      ],
+      "verification": "Official product documentation reviewed; no sample purchased or downloaded.",
+      "cautions": "Provider coverage claims are not measured completeness for defense contractors. Obtain employer/date coverage sample before purchase.",
+      "id": "RAB-JOBS-20261109-12",
+      "endpoints": [
+        "Provider-delivered feeds via agreed channel, including FTP or AWS S3."
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Lightcast",
+      "name": "Global Job Postings API",
+      "route_type": "licensed_search",
+      "access_status": "commercial_credentials",
+      "authentication": "OAuth bearer token with postings:global scope; no credentials requested.",
+      "coverage": "Individual postings and filtering by company, skills, geography and time; response can include body and source URL.",
+      "bulk_or_pagination": "POST query with filter/fields and licensed pagination; default documented 5 requests/second. Confirm accessible result ceiling before export.",
+      "identifiers_dates": "id; posted; expired; body; company_name; title_raw; url.",
+      "cost_terms": "Commercial entitlement required; no fixed price or publication rights verified.",
+      "priority": "licensed_bulk_shortlist",
+      "sources": [
+        "https://docs.lightcast.io/lightcast-api/reference/overview-global-job-postings",
+        "https://docs.lightcast.io/lightcast-api/reference/global_postings_post_postings"
+      ],
+      "verification": "Official documentation reviewed; no payload test.",
+      "cautions": "URL is available only for active postings in this endpoint. Confirm historical source provenance and full-text rights. Company API is a separate raw employer-source dataset, not equivalent to deduplicated Global.",
+      "id": "RAB-JOBS-20261109-13",
+      "endpoints": [
+        "https://api.lightcast.io/global-postings/postings"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "Coresignal",
+      "name": "Jobs API and Bulk Collect",
+      "route_type": "licensed_bulk",
+      "access_status": "commercial_api_key",
+      "authentication": "API key and suitable credits/plan required; no account created.",
+      "coverage": "Structured current/historical job-data product; bulk process returns prepared JSON.gz files after a query request.",
+      "bulk_or_pagination": "Check request files/status, then download approved files; documented file maximum 10,000 JSON records and 30-day download window. Confirm query limits for chosen product.",
+      "identifiers_dates": "Request provider ID, employer, original source URL, description and first/last/update dates.",
+      "cost_terms": "Credit/contract based; price and rights for intended research not verified.",
+      "priority": "licensed_bulk_shortlist",
+      "sources": [
+        "https://coresignal.com/solutions/jobs-data-api/",
+        "https://docs.coresignal.com/api-introduction/requests/bulk-collect/get-requests"
+      ],
+      "verification": "Official product/bulk documentation reviewed; no request submitted.",
+      "cautions": "Do not conflate a record snapshot with a complete change history or use employee-profile products. Check source provenance, coverage and redistribution rights before licensing.",
+      "id": "RAB-JOBS-20261109-14",
+      "endpoints": [
+        "https://api.coresignal.com/cdapi/v2/data_requests/{data_request_id}/files",
+        "https://api.coresignal.com/cdapi/v2/data_requests/{data_request_id}/files/{file_name}"
+      ],
+      "reviewed_at": "2026-11-09"
+    },
+    {
+      "provider": "NLx Research Hub",
+      "name": "Research microdata API or secure files",
+      "route_type": "governed_research",
+      "access_status": "new_requests_paused",
+      "authentication": "Application approval, data-use agreement and named authorized users required.",
+      "coverage": "Daily/historical US job microdata with descriptions. Potential research source, not open public export.",
+      "bulk_or_pagination": "API or secure-server files by agreement; current new-request processing paused during transition to a 2027 model.",
+      "identifiers_dates": "Request job/source/employer IDs, original description, dates and provenance.",
+      "cost_terms": "Published policy limits current authorized uses, disallows third-party raw sharing and identifiable postings in published outputs; contract scope matters.",
+      "priority": "defer_access_pause",
+      "sources": [
+        "https://nlxresearchhub.org/",
+        "https://nlxresearchhub.org/data-access"
+      ],
+      "verification": "Official access notice reviewed 2026-11-09; no request submitted.",
+      "cautions": "Existing users and pending requests are unaffected by pause. Recheck in 2027; source-identifying journalism may conflict with current aggregation/confidentiality terms.",
+      "id": "RAB-JOBS-20261109-15",
+      "endpoints": [
+        "Access route supplied to approved users under data agreement."
+      ],
+      "reviewed_at": "2026-11-09"
+    }
+  ]
+}
