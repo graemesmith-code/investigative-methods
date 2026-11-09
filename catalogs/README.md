@@ -31,7 +31,6 @@ New source reviews are linked here separately from the preserved exports. Their 
 | [RAB-LIDAR-20261014-02 — Global historical lidar guide](additions/global-lidar-20261014/README.md) | Ranked repeat-survey sources, product/reuse distinctions, regional inventory and small reproducible metadata/header checks | Primary terms and selected overlapping footprints checked 14 October 2026; no completed change analysis |
 | [RAB-MEDIA-20261020-01 — WorldStateMedia and conflict narratives](additions/worldstatemedia.md) | Seven research designs for conflict-permission narratives, off ramps and technology claims, with temporal validation safeguards | Paper and public documentation reviewed 20 October 2026; no gated corpus access, classification or predictive test |
 | [RAB-JOBS-20261109 — Job-posting APIs and bulk feeds](additions/job-postings-20261109/README.md) | 15 access-route reviews across 13 providers; historical archives, employer feeds, licensed data and a reproducible defense/AI hiring search design | Primary documentation and terms reviewed 9 November 2026; no bulk collection; API payloads not verified |
-
 | [RAB-PATENTS-20261109 — Patent bulk data](additions/patents-20261109/README.md) | 12 access-route reviews covering USPTO, EPO, Google BigQuery and WIPO; existing patent-source crosswalk and a proposed mass-search method | Official documentation reviewed 9 November 2026; no bulk collection or authenticated payload tests |
 
 ## Try one source
