@@ -10,6 +10,7 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 - **[Alberta seismic/fracturing screen (6 October 2026)](research/2026-10-06/alberta-seismic-injection/README.md):** Two candidate earthquake groups overlap reported well-operation date windows; no violation, causation or actual pumping at event time was established.
 - **[Pentagon contract-history archive (16 October 2026)](research/2026-10-16/future-warfare-investments/README.md):** Historical source archive and parsed contract notices. Coverage is incomplete, and announcement counts are not spending totals.
 - **[Repository audit (25 October 2026)](docs/repository-audit-2026-10-25.md):** Storage risks, repeated snapshots, an unresolved F4 package link, and a reversible cleanup plan. Large records are preserved for now; do not remove them without verified backups.
+- **[Drex document-processing assessment (12 November 2026)](research/2026-11-12/drex-document-processing.md):** Vendor claims about checking OCR against page images suggest a possible selective-review workflow; no independent comparison or product test has been run.
 
 Other projects, reusable experiments and Rabbit sources are indexed below. The [next-steps register](docs/next-steps.md) contains earlier outstanding actions; it is not a complete account of current research.
 
@@ -38,5 +39,4 @@ The emerging [DATA1 + RULE + DATA2 method](docs/rule-based-source-comparisons.md
 
 [Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026; Tuscany company-records review added 22 October 2026.
-
+Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026; Tuscany company-records review added 22 October 2026; Drex document-processing assessment added 12 November 2026.
