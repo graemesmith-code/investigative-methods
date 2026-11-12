@@ -1,0 +1,36 @@
+{
+  "seed": 20261008,
+  "baseline_version": "rules-v1",
+  "n": 100,
+  "records_sha256": "ac9366eaea1ae9981a2efee39fb9c4c3865b9b274b6865b8d3d86b25c9f04572",
+  "department_counts": {
+    "dnd-mdn": 64,
+    "dfatd-maecd": 36
+  },
+  "source_sha256": {
+    "calibration-ranked.json": "e61538f7edf1e12b589bf16269e934b12c2a4609b3285cc530008e677b10d3f2",
+    "calibration-ids.json": "4d080430b0cc22da2b8abdac96211ed13094c7ad770830f33dd9561f0aaa4881",
+    "ranking-prompt.json": "e52974556d6e24b01170d12cdec73dfd5e326615f277c52e8900c22445b0f84d"
+  },
+  "rules": {
+    "harm_rights": {
+      "weight": 2,
+      "pattern": "\\b(death|deaths|killed|fatal|mental health|involuntar\\w*|torture|human rights|mort\\w*|deces|sante mentale|droits de la personne)\\b"
+    },
+    "accountability": {
+      "weight": 2,
+      "pattern": "\\b(non.compliance|compliance order|investigat\\w*|audit\\w*|fraud\\w*|misconduct|corrupt\\w*|enquet\\w*|non.conform\\w*)\\b"
+    },
+    "money_decisions": {
+      "weight": 1,
+      "pattern": "\\b(contract\\w*|procure\\w*|cost\\w*|expenditure\\w*|funding|contrat\\w*|cout\\w*|depense\\w*|financement)\\b"
+    },
+    "specific_identifier": {
+      "weight": 1,
+      "pattern": "\\b(?:[a-z]{2}\\d{4}-\\d+|\\d{4}-\\d{2}-\\d{2})\\b"
+    }
+  },
+  "tie_break": "source _id lexicographic ascending",
+  "model_scores": "saved Jev scores; no new calls; see original ranking-prompt.json",
+  "human_labels": "none generated; blank templates only"
+}
