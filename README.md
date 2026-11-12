@@ -12,6 +12,8 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 - **[Repository audit (25 October 2026)](docs/repository-audit-2026-10-25.md):** Storage risks, repeated snapshots, an unresolved F4 package link, and a reversible cleanup plan. Large records are preserved for now; do not remove them without verified backups.
 - **[Drex document-processing assessment (12 November 2026)](research/2026-11-12/drex-document-processing.md):** Vendor claims about checking OCR against page images suggest a possible selective-review workflow; no independent comparison or product test has been run.
 
+- **[Lawful access to sensitive records (12 November 2026)](research/2026-11-12/legal-access-sensitive-records.md):** Source-checked lessons on auditing refusals, tracing document holders and choosing access routes; distinguishes established mechanisms from untested regulatory-defect claims.
+
 Other projects, reusable experiments and Rabbit sources are indexed below. The [next-steps register](docs/next-steps.md) contains earlier outstanding actions; it is not a complete account of current research.
 
 ## Choose a recipe for your beat
@@ -39,4 +41,4 @@ The emerging [DATA1 + RULE + DATA2 method](docs/rule-based-source-comparisons.md
 
 [Technical annexes](annexes/README.md) preserve the detailed reports, prompts, code and evidence for anyone who wants to check or adapt the work.
 
-Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026; Tuscany company-records review added 22 October 2026; Drex document-processing assessment added 12 November 2026.
+Notebook updated 1 October 2026; NAI follow-up and FARA/federal-awards pilot added 14 October 2026; institutional-activity pilot added 15 October 2026; Tuscany company-records review added 22 October 2026; Drex document-processing assessment and lawful-access methods note added 12 November 2026.
