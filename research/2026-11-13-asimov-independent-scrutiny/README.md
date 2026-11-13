@@ -1,0 +1,57 @@
+# Who can independently check ASIMOV safeguards?
+## Public-document audit, 13 November 2026
+
+### Answer
+There are several potential checks, but they are independent in different senses. ASIMOV planned government testing separate from the developers, contracted ethical advice, and public experiments with released benchmarks. Separately, military testing offices, inspectors general, GAO and Congress have oversight powers. **None of that establishes that an independent body publicly certified a particular ASIMOV-tested weapon as safe or ethical.** In the sources reviewed, the missing link is the completed assessment: who tested what, with which access and criteria, what failed, what changed, and who accepted the residual risk.
+
+The strongest finding is an **asymmetry in planned access**: outsiders were invited to examine the measuring tools, while particular autonomy algorithms' ethical/technical performance in specified scenarios and experimental results were designated for controlled distribution. That makes the question about accountability justified. It does not establish concealment, failed safeguards, or an absence of scrutiny inside government.
+
+### What ASIMOV actually promised
+The original solicitation (HR001124S0011, pp7–9,12–14) describes three distinct arrangements:
+
+* **Government independent verification and validation (IV&V):** DARPA, government testing/simulation specialists and military Services would supply scenarios and assess performers' benchmarks. This is independence from the developer, not from the Pentagon. Benchmark coverage, repeatability and compactness are not certificates that a weapon is ethical.
+* **Ethical, legal and societal implications (ELSI):** a separately solicited contractor group would advise and interpret ethical judgments. DARPA's December 2024 announcement says an advisory group was providing guidance, evidence beyond a proposal. No inspected source establishes its full membership, dissent, decisions or binding authority. The solicitation explicitly did not create a DoD-supported advisory committee.
+* **Technical Community Panel (TCP):** a public-information community would experiment with released benchmark tools, with at least twice-yearly releases contemplated. This was a route for outside criticism, not an entitlement to every military test result.
+
+The BAA required enough internal algorithm access for government testing, including partial access where appropriate. It did not grant equivalent access to the public. A solicitation's planned scope must not be substituted for the final awarded contracts or completed deliverables. [BAA](https://research-authority.tau.ac.il/sites/resauth.tau.ac.il/files/DARPA_ASIMOV_HR001124S0011.pdf); [DARPA implementation announcement](https://www.darpa.mil/news/2024/asimov-approaches).
+
+### What the restriction slide does and does not show
+Slide17 of DARPA's public Proposers Day presentation marks the ethical and technical performance of specific algorithms in specific scenarios, plus simulation/field experimental results, as Controlled Technical Information with Distribution C. This is a prospective handling scheme, not a final test report or evidence that a FOIA request was denied. The slide itself is public.
+
+Controlled **unclassified** information is not classified information. Distribution C is a government-and-authorized-contractor channel, not unrestricted contractor access. The table says FOIA Exemption3 *may* apply. The binding CUI regulation says a CUI marking does not itself determine FOIA disclosure. The agency must identify an applicable exemption; 10 USC130 provides a possible statutory ground for qualifying technical data, not a blanket exemption for everything inconvenient. Segregable nonexempt portions and appeals remain important. [Original slide deck](https://www.darpa.mil/sites/default/files/attachment/2024-12/program-asimov-presentation.pptx); [32 CFR2002.44](https://www.govinfo.gov/content/pkg/CFR-2025-title32-vol6/pdf/CFR-2025-title32-vol6-sec2002-44.pdf); [10 USC130](https://uscode.house.gov/us/usc/t10/s130/).
+
+### Who could check beyond the program?
+**Operational testers.** DOT&E has statutory access to records and test data and a reporting line outside the acquisition chain. It can challenge military performance claims for systems within its remit. It is still inside the executive branch, not a public ethics regulator. We found no evidence in this audit that it performed an ASIMOV-specific assessment. Its jurisdiction cannot be presumed for every exploratory DARPA project. [10 USC139](https://uscode.house.gov/us/usc/t10/s139/).
+
+**Congress.** This is more than a theoretical route. The FY2025 defense law requires annual lists of lethal autonomous systems approved, waived, under review or not approved through 2029. The FY2026 law requires written notification to the congressional defense committees within30 days of any waiver under the autonomy-in-weapons directive, including rationale, system/technology and anticipated duration; the notice is unclassified but can contain a classified annex. Those are enacted reporting duties, not proof that ASIMOV triggered them, that reports were delivered, or that the public can obtain them. [FY2025 law §1066](https://www.govinfo.gov/content/pkg/PLAW-118publ159/html/PLAW-118publ159.htm); [10 USC130g, waiver provision](https://uscode.house.gov/us/usc/t10/s130g-1/).
+
+**GAO and inspectors general.** GAO can obtain agency records for its oversight work, and the DoD inspector general has substantial access and audit/investigation powers, subject to statutory qualifications. These are credible institutional routes, but neither authority nor a broad AI audit proves an audit of ASIMOV's actual ethical scores. [31 USC716](https://uscode.house.gov/us/usc/t31/s716/); [5 USC406](https://uscode.house.gov/us/usc/t5/s406/); [5 USC408](https://uscode.house.gov/us/usc/t5/s408/).
+
+**Legal reviewers.** A weapons-law review asks whether a weapon and its expected uses comply with law. That is not interchangeable with evaluating restraint where lethal action is lawful, nor with operational testing. The ICRC's review guide (section2.5.2, p27) describes state discretion over access, encourages transparency, and recognizes national-security exemptions. Do not imply there is a standing international inspector entitled to all US weapon assessments. [ICRC guide](https://www.icrc.org/sites/default/files/external/doc/en/assets/files/other/icrc_002_0902.pdf).
+
+**Outside scientists, journalists and civil society.** They can critique public definitions, scenarios, papers and released code; reproduce what is sufficiently specified; compare promises with delivered releases; request records; and challenge refusals. Those activities can expose weaknesses in a benchmark. They cannot establish the performance of an undisclosed operational system merely by rerunning a public simulation. REBAR publicly reports a weakness involving nearby civilian bystanders, important counterevidence to any claim that negative results are categorically hidden. It is nevertheless author-reported simulation research, not independent government acceptance of a deployed weapon. No software experiment was rerun during this audit. [REBAR](https://arxiv.org/html/2605.18423v1).
+
+### Institutions on paper versus capacity in practice
+Recent official audits make this distinction consequential. GAO's October2026 responsible-AI audit documents a hiatus in the relevant council and substantial staffing vacancies, with recommendations still open. Its selected ten-component survey was explicitly nongeneralizable and did not cover DARPA/ASIMOV. Its June2026 DOT&E report documents staffing, workspace and data-access disruptions. These establish wider implementation weaknesses, not that ASIMOV escaped review or that any particular weapon is unsafe. [GAO-27-107837](https://www.gao.gov/products/gao-27-107837); [GAO-26-108859](https://www.gao.gov/products/gao-26-108859).
+
+Reports that DOT&E removed publicly available annual reports raise a further transparency issue, but direct current-site access was blocked during parts of this audit. An HTTP403 is not evidence of deliberate removal. We have not used that browsing failure to establish an ASIMOV finding. The supplemental oversight audit identifies the relevant congressional challenge and its evidentiary limits.
+
+### What remains unproved
+DARPA's current page labels ASIMOV complete. This bounded search did not locate a complete public chain from a named weapon, through completed independent safeguard testing and acceptance, to deployment. Nor did it establish that every promised public benchmark release occurred. Missing public records do not prove missing internal work. The previous named-weapon hypothesis must remain separate from algorithm ancestry, vendor announcements and scenario demonstrations. [DARPA program page](https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values).
+
+### The next reporting test
+Ask for a concrete accountability chain, not simply assurances that ethics mattered:
+1. Final awarded scope and modifications: which planned checks survived?
+2. Completed government IV&V reports, evaluator organizations, acceptance decisions and corrective actions.
+3. ELSI membership, conflict-management arrangements, recommendations and how DARPA responded, where records exist.
+4. TCP release index and version history, with any independent reproductions and responses to criticism.
+5. One worked, releasable example connecting a benchmark to a specific system or class of weapons; disclose method, failure modes and corrective changes even if sensitive details need redaction.
+6. Which independent oversight bodies actually received the underlying results, and which body could insist on a retest or stop deployment?
+
+These are proposed record questions. No requests were submitted, no one contacted, and no claim is made that every listed record exists.
+
+### Publication-safe formulation
+“DARPA designed ASIMOV to include government testing, ethical advice and a route for outside experiments using public benchmarks. But its public guidance drew a line around the ethical and technical performance of particular autonomy algorithms in specified scenarios and their test results. Public documents therefore show mechanisms for scrutiny, without establishing who outside the program checked its completed results or how those findings affected an operational weapon.”
+
+### Method and limits
+Three parallel document audits examined program design/implementation, statutory oversight/current audits, and public access/reproducibility. The synthesis checked their strongest findings against retrieved originals. Original PDFs, PPTX and HTML are preserved separately from text extracts; manifests record URLs, retrieval metadata and SHA256 hashes, including failed fetches. BAA content was retrieved from a university mirror and is labeled as such. We distinguished required, planned, reported and demonstrated actions; government and external independence; authority and actual exercise; and restriction markings and legal withholding. Search limits and negative results are not treated as proof of absence. No private correspondence or credentials are included in this public repository record. Supplemental audit reports contain detailed page references and search strings.
