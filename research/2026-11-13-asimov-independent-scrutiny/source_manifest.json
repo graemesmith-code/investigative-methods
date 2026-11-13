@@ -1,0 +1,268 @@
+[
+  {
+    "audit": "internal",
+    "file": "asimov_baa.pdf",
+    "bytes": 794778,
+    "sha256": "972ea3c44549295d02ad8f6ec0aa95a5daa6b61c61238a48d9bab23e2422f121",
+    "source_url": "https://research-authority.tau.ac.il/sites/resauth.tau.ac.il/files/DARPA_ASIMOV_HR001124S0011.pdf",
+    "retrieved_date": "2026-11-13",
+    "kind": "original"
+  },
+  {
+    "audit": "internal",
+    "file": "asimov_baa.txt",
+    "bytes": 54998,
+    "sha256": "ac1013521324fc222ddb2345321513c6f7e40636b1c2190e5a81a414549b956a",
+    "source_url": null,
+    "retrieved_date": "2026-11-13",
+    "kind": "derived"
+  },
+  {
+    "audit": "internal",
+    "file": "darpa_2024_awards.html",
+    "bytes": 41865,
+    "sha256": "d3e720c0787986a57ddfb8559d2ad115ca1b6df75f891ab8c3f4f42513aff3b6",
+    "source_url": "https://www.darpa.mil/news/2024/asimov-approaches",
+    "retrieved_date": "2026-11-13",
+    "kind": "original"
+  },
+  {
+    "audit": "internal",
+    "file": "darpa_2024_awards.txt",
+    "bytes": 8124,
+    "sha256": "275f1d13935974a905ef11118b9b5279ce544cc37d1ddb674c9de545f929484a",
+    "source_url": null,
+    "retrieved_date": "2026-11-13",
+    "kind": "derived"
+  },
+  {
+    "audit": "internal",
+    "file": "darpa_current_program.html",
+    "bytes": 39647,
+    "sha256": "d43f870b4ff78ee4a409f4e3a650ebe9ddc426a0def9fd395b4c37e20d6a9de3",
+    "source_url": "https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values",
+    "retrieved_date": "2026-11-13",
+    "kind": "original"
+  },
+  {
+    "audit": "internal",
+    "file": "darpa_current_program.txt",
+    "bytes": 4808,
+    "sha256": "37e21b737028df75fb08e4c5b98ed3a16b8950640b889dc146ebdcac7c0e38db",
+    "source_url": null,
+    "retrieved_date": "2026-11-13",
+    "kind": "derived"
+  },
+  {
+    "audit": "internal",
+    "file": "proposers_day.pptx",
+    "bytes": 7207063,
+    "sha256": "1e1d3d1f462d562d3357c558379ef91843589298850637bea79aca7f60886671",
+    "source_url": "https://www.darpa.mil/sites/default/files/attachment/2024-12/program-asimov-presentation.pptx",
+    "retrieved_date": "2026-11-13",
+    "kind": "original"
+  },
+  {
+    "audit": "internal",
+    "file": "proposers_day.txt",
+    "bytes": 16495,
+    "sha256": "cdf9bf80c6bbd82e431aea38368703f744ff4573ffce67dcd17324eca5b5266c",
+    "source_url": null,
+    "retrieved_date": "2026-11-13",
+    "kind": "derived"
+  },
+  {
+    "audit": "internal",
+    "file": "report.txt",
+    "bytes": 8613,
+    "sha256": "f5da78dd453f2863e2b3336465731828769f3ff83c617cc83de1182ec01deb94",
+    "source_url": null,
+    "retrieved_date": "2026-11-13",
+    "kind": "derived"
+  },
+  {
+    "audit": "external",
+    "file": "10usc130g.html",
+    "bytes": 8618,
+    "sha256": "846d6a1bc192f926a36dc896ac91f98f5dc2c8dc0e02e6594952ced5802464c0",
+    "url": "https://uscode.house.gov/us/usc/119-120/t10/s130g-1/",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "10usc139.html",
+    "bytes": 51397,
+    "sha256": "0bb7065fa9a500ea2d666d8ec8ff1fc68cd2784bf122d92d060b6eabbe302589",
+    "url": "https://uscode.house.gov/us/usc/119-120/t10/s139/",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "31usc716.html",
+    "bytes": 18217,
+    "sha256": "2446b2793655a584a802ae3d4cf3df6bc818344a2c91d8c79031427a287845a8",
+    "url": "https://uscode.house.gov/us/usc/119-120/t31/s716/",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "5usc406.html",
+    "bytes": 39680,
+    "sha256": "b49d80c217f7fbe763ef92576169f00e6fcc73525fc6c3d247b73f2424d954a1",
+    "url": "https://uscode.house.gov/us/usc/119-120/t5/s406/",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "5usc408.html",
+    "bytes": 24850,
+    "sha256": "96296f17045c072a301a944f6511c583226f06ae8c43adab40b671cb56561c15",
+    "url": "https://uscode.house.gov/us/usc/119-120/t5/s408/",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "failed-dodd-download.html",
+    "bytes": 522,
+    "sha256": "8efa5664868e071cd2eaa98e763894b8a6826b49ad95c4ef931ac34f10c99be9",
+    "url": null,
+    "status": "failed HTTP403, not evidence"
+  },
+  {
+    "audit": "external",
+    "file": "gao-26-107009.html",
+    "bytes": 303036,
+    "sha256": "290bb6bf67a964ef16218f095232b030e61edf3fe11930e4f06a86c5f6dc6a7a",
+    "url": "https://files.gao.gov/reports/GAO-26-107009/index.html",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "gao-26-108859.pdf",
+    "bytes": 9031315,
+    "sha256": "145a98937323614093b0c1ab0e80c2a290c64ae9d8591d1f33a889cd50a86911",
+    "url": "https://www.gao.gov/assets/gao-26-108859.pdf",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "gao-26-108859.txt",
+    "bytes": 10881,
+    "sha256": "559746308e1054a14e42b2255c61d0bf35a1c303b0e69d7f9ce64048a89c235c",
+    "url": null,
+    "status": "derived research artifact"
+  },
+  {
+    "audit": "external",
+    "file": "gao-27-107837.pdf",
+    "bytes": 7969297,
+    "sha256": "62071eb25e9d17c379e79b4b382e4919c20971d4880fdbe9ffe6fe55b9768304",
+    "url": "https://www.gao.gov/assets/900/891168.pdf",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "gao-27-107837.txt",
+    "bytes": 80502,
+    "sha256": "127276d30e63e5a05c2c742c630113fc9718b5de2de7b4c3fb33d02e30791fcf",
+    "url": null,
+    "status": "derived research artifact"
+  },
+  {
+    "audit": "external",
+    "file": "gao27.html",
+    "bytes": 93545,
+    "sha256": "f6be6c07c74e3794e09bb2f4ae405c6dd99a4416fd49071c26b67f7bb27ed0c6",
+    "url": "https://www.gao.gov/products/gao-27-107837",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "pl118-159.html",
+    "bytes": 2981120,
+    "sha256": "0a24dd8fe96c704051ccb9cf37586242bbc530e6e8088c7f7e8864a5da5572bd",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ159/html/PLAW-118publ159.htm",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "pl119-60.html",
+    "bytes": 4609410,
+    "sha256": "5656a3db271313ad9c040afe148e750feb7811fa68190026be3193c23d5273ed",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm",
+    "status": "original downloaded"
+  },
+  {
+    "audit": "external",
+    "file": "report.md",
+    "bytes": 8477,
+    "sha256": "c487620355e4c7298028859929000add0b6e9614fe0a9b13ccef32f985d0ba07",
+    "url": null,
+    "status": "derived research artifact"
+  },
+  {
+    "audit": "public",
+    "file": "asimov-proposers.pptx",
+    "url": "https://www.darpa.mil/sites/default/files/attachment/2024-12/program-asimov-presentation.pptx",
+    "status": 200,
+    "sha256": "1e1d3d1f462d562d3357c558379ef91843589298850637bea79aca7f60886671",
+    "accessed": "2026-11-13T06:20:17.345559+00:00"
+  },
+  {
+    "audit": "public",
+    "file": "32cfr2002-44.pdf",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title32-vol6/pdf/CFR-2025-title32-vol6-sec2002-44.pdf",
+    "status": 200,
+    "sha256": "ed02b00133fea50faf7931d2243985bbfa264d2a0df9b481baa4f357f5e57b5b",
+    "accessed": "2026-11-13T06:20:20.245545+00:00"
+  },
+  {
+    "audit": "public",
+    "file": "10usc130.html",
+    "url": "https://uscode.house.gov/us/usc/t10/s130/",
+    "status": 200,
+    "sha256": "af603174d035323dfc86604ab2ae3d06d2236041672f1f65770e6f699c421a20",
+    "accessed": "2026-11-13T06:20:22.319963+00:00"
+  },
+  {
+    "audit": "public",
+    "file": "distribution-statements.html",
+    "url": "https://www.dodcui.mil/Distribution-Statements/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "audit": "public",
+    "file": "distribution-training.html",
+    "url": "https://www.dodcui.mil/Training/Distribution-Statements/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "audit": "public",
+    "file": "rebar.html",
+    "url": "https://arxiv.org/html/2605.18423v1",
+    "sha256": "0f42261b06287fe580c6e496d0ebc1f28ee0562bc74c9523ef4129bf70c1b6a0",
+    "accessed": "2026-11-13T06:22:21.652702+00:00"
+  },
+  {
+    "audit": "public",
+    "file": "darpa-foia.html",
+    "url": "https://www.darpa.mil/policies/foia",
+    "sha256": "86f223dcbd4689ba3b0f634b518aedc8c4932504aa23d9a010fea7410c47612f",
+    "accessed": "2026-11-13T06:22:24.080949+00:00"
+  },
+  {
+    "audit": "public",
+    "file": "foia-statute.html",
+    "url": "https://www.archives.gov/about/laws/foia.html",
+    "sha256": "d8fda48c1b6adf1a6edb827d3f5baac14dbe09565620df3a5f579bbbc121cb04",
+    "accessed": "2026-11-13T06:22:27.279960+00:00"
+  },
+  {
+    "audit": "synthesis",
+    "file": "icrc-review-guide.pdf",
+    "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/other/icrc_002_0902.pdf",
+    "retrieved_date": "2026-11-13",
+    "sha256": "545d40d8ddb57eb998f474604d7e7262f23a7d4f613d0affa140a29827cdef5a",
+    "locator": "section 2.5.2, printed page 27"
+  }
+]
