@@ -1,0 +1,45 @@
+ASIMOV independent checking: internal oversight evidence audit
+Retrieved 2026-11-13. Investigator scope: original ASIMOV solicitation and official DARPA public statements, not broader statutory oversight.
+
+BOTTOM LINE
+DARPA designed ASIMOV to have testing separate from the benchmark developers, outside ethical input, and public-community experimentation. Those are real counterevidence to an assertion that nobody could check it. But the clearest planned independent evaluator was DARPA and other government military testing organizations. That is independence from the contractor, not institutional independence from the military. The sources inspected do not establish which planned evaluation events occurred, who attended, what scores resulted, or what DARPA accepted. Public benchmark access and public access to a particular military algorithm's test results are different things.
+
+1. GOVERNMENT IV&V: WHO, WHAT AND LIMIT
+Source: DARPA BAA HR001124S0011, PDF pp7–8, Program Structure; pp9,12–14 technical approach/deliverables.
+The team was to comprise DARPA, government developmental/operational testing and modeling/simulation community members, and military Services. Its duties included supplying scenarios, coordinating/collecting data and independently assessing the performers' benchmark References against program metrics. It would lead Coverage and Repeatability evaluations in Phase I and Compactness in Phase II. It could also exercise the test chain on militarily relevant scenarios using government-owned or otherwise accessible algorithms.
+Inference: separating assessor from developer gives a plausible check against contractor self-grading, but the solicitation does not establish an outsider's right to inspect or publish results, a public certification body, or a deployment veto. It does not name the actual government evaluator roster.
+These metrics evaluate the benchmark/testing scheme, not a universal certificate that a weapon is ethical. Coverage concerns which cases the benchmark can assess; Repeatability concerns sensitivity to scenario conditions; Compactness concerns ability to characterize sufficient testing efficiently. Do not translate into a battlefield approval.
+
+2. ETHICAL, LEGAL AND SOCIETAL IMPLICATIONS (ELSI)
+Source: BAA PDF p8.
+A separately solicited contractor-led ELSI group was envisaged. It would contribute human ethical judgment when defining conditions, assessing synthetic scenes, advising benchmark development, interpreting operational values, and reviewing ethical algorithm performance at each test iteration. The BAA expressly says DARPA did not intend to establish a DoD-supported advisory committee under this BAA. The group should not be described as a statutory independent ethics board, FACA committee, or regulator with binding decisions.
+Evidence of implementation beyond proposal: DARPA's 19 December 2024 award announcement says the program was being guided by an advisory group of diverse stakeholders considering ELSI. This supports existence/activity in general, but gives no membership roster, minutes, dissent, recommendations or resulting changes. Generic DARPA ELSI affiliations or visiting scholars do not independently prove ASIMOV panel membership.
+
+3. PUBLIC TECHNICAL COMMUNITY PANEL (TCP)
+Source: BAA p8, p12 and p14.
+TCP was intended as an open-source technical community working from public program information. The solicitation calls for interim benchmark Reference releases for independent analysis/experimentation/testing no less than twice a year, both in Phase I and Phase II; it also anticipated invitations to at least one program event annually. A large fraction of Government IV&V was expected also to participate in TCP. This is a public testing route on what is released, not unrestricted access to every military test dataset or result.
+DARPA's December 2024 announcement says tools were intended eventually to be open to the world for testing and use, and invited a public community of interest. It does not certify that all tools were released or all planned TCP releases happened.
+
+4. ACCESS TO ALGORITHMS
+Source: BAA p9.
+Phase I algorithms were to be open source or otherwise white box; Phase II could use open-source, performer, or government algorithms but needed sufficient white/grey-box access for government IV&V to assess the benchmark. White box means access to internal workings; grey box means partial access. The statement specifies government access, not identical public access. Existing algorithms would be used: ASIMOV did not fund development of operational autonomous systems or algorithms.
+
+5. THE RESTRICTED-RESULTS SLIDE IS REAL AND SPECIFIC
+Official DARPA Proposers Day presentation, slide17, ASIMOV Security. The presentation is itself public-release Distribution A. It highlights examples from an ASIMOV Controlled Unclassified Information guide (not the complete guide): live target-collection data; realistic military modeling/simulation approaches and results for electro-optical/infrared, laser and radar domains; specific algorithms' ethical and technical performance in specific scenarios; and experimental results from simulation and field experiments. The table marks these Controlled Technical Information, Distribution C, and says FOIA Exemption3 may apply. It cites DoDI5230.24 and, for most rows, DFARS252.204.7012.
+Strong supported distinction: the publicly available architecture and benchmark can be independently studied while sensitive application results are controlled. This is NOT evidence that every ASIMOV output is classified, that a particular report was withheld under FOIA, or that the program failed. An actual withholding decision needs its actual legal basis. Parent's broader legal audit should explain Distribution C and Exemption3 rather than treating a slide as conclusive law.
+
+6. WHAT DOCUMENTS WOULD ANSWER WHETHER THE CHECKS HAPPENED?
+BAA Table4 (p13): monthly technical/financial status, quarterly presentations, ELSI/TCP presentation materials as appropriate, conceptual design by month6, system requirements, Coverage/Repeatability evaluation material and Phase I final report by month11. Table5 (p14) sets Phase II deliverables including Compactness evaluation, updated test-port information, Phase II final report by month11. Phase II was an option and down-selection/scope changes permitted (p9).
+Best record targets: actual contracts and modifications establishing final scope; actual Government IV&V event plans and completed reports; ELSI roster, conflict disclosures if kept, agendas, recommendations and disposition; TCP release index/version history; acceptance records; final reports and release/redaction reviews. These are records to seek, not proof they all exist or are publicly obtainable. A solicitation describes intended procurement, not necessarily each awarded contract's final obligations.
+
+7. CURRENT PUBLIC STATUS AND SEARCH LIMIT
+Current DARPA page says program complete and no longer maintained, while retaining aspirational program description. Its linked resources include Proposers Day slides. I did not locate final government evaluation scores, acceptance documentation or ELSI minutes in this bounded search. That is not evidence of absence or misconduct. Broad public-web searches also surface unrelated namesake ASIMOV projects; exclude them.
+
+SOURCE URLS
+BAA (DARPA original document hosted by university research authority; official SAM attachment not separately retrieved): https://research-authority.tau.ac.il/sites/resauth.tau.ac.il/files/DARPA_ASIMOV_HR001124S0011.pdf
+Slides: https://www.darpa.mil/sites/default/files/attachment/2024-12/program-asimov-presentation.pptx
+DARPA Dec19 2024 announcement: https://www.darpa.mil/news/2024/asimov-approaches
+Current DARPA page: https://www.darpa.mil/research/programs/autonomy-standards-and-ideals-with-military-operational-values
+
+METHODS
+Downloaded originals with curl; extracted PDF via pdftotext -layout and verified PDF page locations using pypdf; extracted PPTX text and tables using python-pptx; extracted HTML visible text using Python html.parser. No OCR, model interpretation of images or substantive transformation of originals. Hashed originals and extracts in manifest.json. Search strings included DARPA ASIMOV independent verification validation ELSI; ASIMOV IV&V results; ASIMOV ELSI group members; ASIMOV Technical Community Panel results; ASIMOV ELSI Crootof; ASIMOV ELSI Roff. Searched public web only. No external outreach, forms, accounts or purchase. Not an exhaustive repository/paper search; parent coordinates complementary tracks.
