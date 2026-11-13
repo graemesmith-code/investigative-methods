@@ -1,0 +1,53 @@
+ASIMOV: independent public scrutiny and restricted results
+Research date: 13 November 2026
+
+BOTTOM LINE
+The strongest supportable distinction is between independent scrutiny of an evaluation method and independent access to its application-specific results. Outsiders can inspect published methods and criticize their assumptions. The public ASIMOV security briefing, however, explicitly envisaged restricted circulation for precisely the performance results that would help a third party check a particular autonomy application. That is evidence of a planned access boundary, not evidence that nobody outside a developer checked anything, that a real weapon failed, or that results were classified. No examined source identifies the actual outside recipients of restricted ASIMOV results.
+
+1. THE EXACT RESTRICTION
+Primary original: DARPA ASIMOV Proposers Day slides, slide 17, “ASIMOV Security”.
+https://www.darpa.mil/sites/default/files/attachment/2024-12/program-asimov-presentation.pptx
+Saved original: asimov-proposers.pptx; all slide text: slides-extracted.txt.
+
+Slide17 labels five information types as Defense/CTI/DISTRO C: live target collection; realistic military sensor modeling/simulation approaches and results; ethical performance of Approach algorithms applied to specific Instances; technical performance of the same; experimental modeling/simulation and field results. Every row says FOIA Exemption3 MAY be applicable. It calls the table highlights from the program's CUI guide and directs readers to the full guide. The publicly released slide itself is Distribution A. Do not confuse a public slide describing restrictions with a leaked restricted record. “Approach” and “Instance” are program terms, not necessarily a named operational weapon.
+
+2. WHAT DISTRO C DOES AND DOES NOT MEAN
+DoDI5230.24 (10 Jan2023), §4.2(c), p16, and Table1:
+https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodi/523024p.pdf
+C permits distribution to US government agencies and their contractors; other requests go to the controlling DoD office. It is broader than DoD-only but not general-public release. Being a journalist, academic or civil-society researcher is not in itself that specified access status. It does not establish that every eligible contractor actually received the results or conducted an audit. Access and institutional independence are different variables. This is not blanket access for everyone employed by a contractor: relevant authorization, purpose, safeguards and any export eligibility still apply. No REBAR experiment was rerun in this inquiry.
+
+Direct document fetch was denied HTTP403; checked official search-index excerpts for Table1 and §4.2, not a complete saved copy. Independent official corroboration:
+https://quicksearch.dla.mil/qshelp.aspx
+DLA explains that distribution and classification markings are separate.
+
+NARA's CUI definition confirms that controlled unclassified information is not classified under the national-security classification order or Atomic Energy Act:
+https://www.archives.gov/cui/about
+NARA CTI registry describes military/space technical information subject to controls, marking B–F, excluding lawfully unrestricted public information:
+https://www.archives.gov/cui/registry/category-detail/controlled-technical-info.html
+Thus call slide17's boundary restricted/controlled-unclassified, not classified, secret, or proof of concealment.
+
+3. THERE IS A CONTESTABLE RECORDS-ACCESS ROUTE
+32 CFR2002.44(a)–(b), saved original 32cfr2002-44.pdf:
+https://www.govinfo.gov/content/pkg/CFR-2025-title32-vol6/pdf/CFR-2025-title32-vol6-sec2002-44.pdf
+CUI designation does not decide disclosure. For FOIA, the record's content and applicable statutory exemptions govern regardless of its label. A release to one requester need not equal unrestricted public release. This is decisive counterevidence to a claim that DISTRO C automatically blocks all outside access forever.
+
+10 USC130(a)–(c), saved 10usc130.html:
+https://uscode.house.gov/us/usc/t10/s130/
+This permits withholding military/space technical data in DoD possession/control when lawful export requires specified authorization, subject to statutory qualifications. It covers broad forms of technical data, including qualifying software/documentation. It is a possible legal basis, not a conclusion that every ethics score satisfies the statute. Slide17's 'may' requires a record-specific legal inquiry.
+
+DARPA FOIA page directs requests to OSD's Office of Freedom of Information, not DARPA directly:
+https://www.darpa.mil/policies/foia
+The FOIA statute provides release of reasonably segregable nonexempt material, administrative appeals (at least90 days to appeal), judicial review and mediation avenues. Relevant sections: 5USC552(a)(4)(B), (a)(6)(A)(i)(III), (a)(8), final paragraph of (b), (h)(3).
+https://www.archives.gov/about/laws/foia.html
+Request existing records; FOIA is not a requirement to run new tests or generate an explanation. Exemptions/classified material/proprietary details may constrain releases. Do not promise a release outcome or turnaround.
+
+4. A PUBLISHED RESULT IS IMPORTANT COUNTEREVIDENCE
+REBAR v1 (18 May2026), §§IV–VI, is explicitly approved for unrestricted public release:
+https://arxiv.org/html/2605.18423v1
+It describes simulation of a quadrotor target-search/report agent, logs designed for audit, and a weakness around nearby civilian bystanders. It acknowledges limits including hardware kill-switch reliability and physical adversarial resilience. This is public disclosure of an unfavorable experimental result, undermining a sweeping claim that DARPA hides all negative findings. However, this author-reported simulated agent experiment does not demonstrate an independent audit of a fielded weapon. The HTML includes no located code/data-availability statement or implementation repository link. That bounded observation is NOT proof none exists elsewhere. Its GitHub 'Report Issue' interface is arXiv publishing infrastructure, not a REBAR code-release link. Publication allows methodological scrutiny; full reproduction still needs precise implementations, versions, settings, scenarios, inputs, logs and permissions.
+
+5. MOST DISCRIMINATING NEXT RECORDS, NOT REQUESTED IN THIS TASK
+Ask for identities and contractual independence of evaluators; final test plans and report indexes; acceptance/verification records; released summaries and aggregated findings; manifests of test inputs/logs and software versions; ELSI recommendations and disposition; which actual applications were evaluated; and record-specific public-release determinations. Ask separately for segregable non-sensitive conclusions rather than insisting on target signatures or operational vulnerability data. Such documents could distinguish (a) planned independent evaluation, (b) completed independent evaluation, (c) access by an eligible audience, and (d) public accountability. None is interchangeable.
+
+METHOD / LIMITS
+Searched official DARPA ASIMOV program, original proposer deck, security terms, official DoD distribution rules, NARA CUI law, US Code130, FOIA statute and DARPA processing route; inspected REBAR HTML including code/available text searches. Downloaded accessible original bytes and recorded SHA256 in manifest.json. Extracted PPTX text with Python standard-library zipfile/XML (no OCR). Did not use private correspondence or submit external requests. Did not claim a complete search of every potential code repository or restricted record. DoD web403 means inaccessible in this pass, not absent. Sources are legal rules and research documents, not independent certification that any weapon is safe.
