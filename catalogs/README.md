@@ -33,6 +33,7 @@ New source reviews are linked here separately from the preserved exports. Their 
 | [RAB-JOBS-20261109 — Job-posting APIs and bulk feeds](additions/job-postings-20261109/README.md) | 15 access-route reviews across 13 providers; historical archives, employer feeds, licensed data and a reproducible defense/AI hiring search design | Primary documentation and terms reviewed 9 November 2026; no bulk collection; API payloads not verified |
 | [RAB-PATENTS-20261109 — Patent bulk data](additions/patents-20261109/README.md) | 12 access-route reviews covering USPTO, EPO, Google BigQuery and WIPO; existing patent-source crosswalk and a proposed mass-search method | Official documentation reviewed 9 November 2026; no bulk collection or authenticated payload tests |
 | [RAB-AIWEAPONS-20261109 — AI-weapons research sources](additions/ai-weapons-research-20261109/README.md) | 26 source/route reviews connecting research intentions, outputs, institutional funding, tests and transition; existing-source corrections included | Official documentation/public pages reviewed 9 November 2026; historical payload checks separated; DTIC unavailable and failed direct access labeled |
+| [RAB-WARLOGS-20261114 — WikiLeaks war diaries](additions/wikileaks-war-diaries-20261114.md) | Public Afghan and Iraqi military reports; distinguishes published records, original leak and full war coverage | Official index and sample narrative retrieved 14 November 2026; bulk download and access to withheld material not verified |
 
 ## Try one source
 
