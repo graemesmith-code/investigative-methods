@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-14",
+  "checks": [
+    {
+      "check": "Historical counts exactly match requested catalog",
+      "passed": true
+    },
+    {
+      "check": "Original mappings retained",
+      "passed": true
+    },
+    {
+      "check": "No duplicated identifiers",
+      "passed": true
+    },
+    {
+      "check": "Access-method parent links are bidirectional",
+      "passed": true
+    },
+    {
+      "check": "Every mapping has a source system",
+      "passed": true
+    },
+    {
+      "check": "All details are complete",
+      "passed": true
+    },
+    {
+      "check": "Source line links point to original headings",
+      "passed": true
+    },
+    {
+      "check": "Full original text remains available",
+      "passed": true
+    },
+    {
+      "check": "Source SHA256 fingerprints match",
+      "passed": true
+    },
+    {
+      "check": "Supplements retain their original IDs and relationships",
+      "passed": true
+    },
+    {
+      "check": "Supplement counts",
+      "passed": true
+    },
+    {
+      "check": "No historical record implicitly enabled",
+      "passed": true
+    }
+  ],
+  "browserChecks": [
+    "Search USAspending returns SYS-0054 and SYS-0934",
+    "SYS-0054 displays all 26 AP links",
+    "Unverified AP enablement rejected by server",
+    "Review saved and survived browser reload",
+    "Candidate saved with explicit historical-system relationship",
+    "Dated note saved and appears in decision history",
+    "Job-posting topic and ClearanceJobs search filters combine",
+    "Filtered CSV download completed",
+    "Complete JSON export downloaded",
+    "Coverage tables render by topic and jurisdiction",
+    "Treasury ecosystem displays 2 systems and 27 access methods"
+  ],
+  "limitations": [
+    "No source endpoints retested",
+    "Production data starts empty; preview test records are local only",
+    "Direct loopback HTTP integration suite unavailable in managed preview; reviewed flows tested in browser instead"
+  ],
+  "production": {
+    "deployment": "succeeded",
+    "publishedOn": "2026-11-14",
+    "signInGateObserved": true,
+    "signedInBrowserTest": false,
+    "databaseTables": [
+      "candidates",
+      "review_events",
+      "reviews"
+    ]
+  }
+}
