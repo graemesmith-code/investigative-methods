@@ -6,6 +6,10 @@ The Rabbit collection is a map of public-record systems for journalists. Use it 
 
 All six originals and the distinct Rabbit2 revision are available below, preserved byte-for-byte. [File history and provenance](../references/rabbit/README.md) explain the dates, identical copies and integrity checks. These are searchable text files with structured headings; open or download a volume and search for a place, source name or `SYS` identifier.
 
+## Browse and review in the Rabbit Site
+
+The [private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) provides search, filters, original source-to-access relationships, a candidate review queue, saved verification notes, coverage views and CSV/JSON exports. It contains the historical catalog and 53 dated supplemental review entries. Nothing is automatically enabled or collected. The catalog is a 14 November 2026 snapshot; reviews save online, while GitHub synchronization and source refreshes are not automatic. [Workflow, import audit and reproducible importer](rabbit-site/README.md).
+
 ## Choose a volume
 
 These are starting points, not strict subject boundaries. A beat may cross several volumes. The `SYS` numbers identify catalog records, not rankings of quality or usefulness.
