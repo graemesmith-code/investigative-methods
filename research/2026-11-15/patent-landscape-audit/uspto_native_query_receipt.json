@@ -1,19 +1,127 @@
 {
- "retrieved":"2026-11-15",
- "source":"https://ppubs.uspto.gov/pubwebapp/",
- "app_version":"4.4.0",
- "settings":{"databases":["US-PGPUB","USPAT","USOCR"],"Plurals":true,"British Equivalents":true,"family_filter":true,"export_cap":500},
- "date_basis":"publication date, inclusive; 20211115 to 20261115",
- "method":"Fill Enter query text, click submit Search, await displayed counts, click Export. Export is native family-representative metadata, not every publication or claims. Partition by dates to keep family count below500.",
- "queries":[
- {"file":"uspto_F41A1708_20211115_20261115.csv","query":"F41A17/08.CPC. AND @PD>=20211115 AND @PD<=20261115","publications":105,"export_rows":57},
- {"files":"uspto_broad_2021.csv through uspto_broad_2026.csv","query_template":"(F41A$ OR F41G$ OR F41H$ OR F42B$ OR F42C$).CPC. AND (inhibit$ OR interlock$ OR abort$ OR override$ OR safeguard$ OR geofenc$) AND @PD>=START AND @PD<=END","unpartitioned_publications":2756,"unpartitioned_families":1369,"shards":[{"start":20211115,"end":20211231,"pubs":97,"rows":85},{"start":20220101,"end":20221231,"pubs":553,"rows":408},{"start":20230101,"end":20231231,"pubs":546,"rows":420},{"start":20240101,"end":20241231,"pubs":558,"rows":425},{"start":20250101,"end":20251231,"pubs":534,"rows":430},{"start":20260101,"end":20261115,"pubs":468,"rows":404}]},
- {"file":"uspto_control_complement.csv","query":"(F41H7/005 OR G05D1$).CPC. AND (weapon$ OR missile$ OR munition$) AND (inhibit$ OR interlock$ OR abort$ OR override$ OR safeguard$ OR geofenc$) AND @PD>=20211115 AND @PD<=20261115","publications":270,"export_rows":151},
- {"file":"uspto_protection_language.csv","query":"(F41G$ OR F42B$ OR F41H7/005).CPC. AND (\"human control\" OR \"human authorization\" OR \"human approval\" OR \"no fire\" OR \"friendly fire\" OR collateral OR \"rules of engagement\" OR \"protected zone\") AND @PD>=20211115 AND @PD<=20261115","publications":360,"export_rows":175},
- {"files":["uspto_software_2021_2023.csv","uspto_software_2024_2026.csv"],"query_template":"(G06N$ OR G06F11$).CPC. AND (weapon$ OR missile$ OR munition$) AND (safety OR interlock$ OR authoriz$ OR abort$) AND @PD>=START AND @PD<=END","unpartitioned_publications":1483,"unpartitioned_families":637,"shards":[{"start":20211115,"end":20231231,"pubs":620,"rows":322},{"start":20240101,"end":20261115,"pubs":863,"rows":458}]}
- ],
- "aggregate":{"complete_csv_files":11,"export_rows":3335,"distinct_document_ids":3173,"distinct_native_family_ids":2228},
- "excluded":"uspto_broad_weapon_constraints_20211115_20261115_partial.csv;500row capped export superseded by annual shards; derived screening CSVs also not raw exports",
- "limitations":"Search-defined metadata pool, not relevance-screened corpus or exhaustive patents. Classification and lexical omissions possible. Native Family ID not independently verified international simple family. Different annual representatives duplicate families across shards. No bulk claims exported. Non-US national coverage not established.",
- "other_access":{"espacenet":"https://worldwide.espacenet.com/ remains Performing security verification / Just a moment in cloud browser; no bypass attempted","epo_bdds":"https://publication-bdds.apps.epo.org/raw-data/products/public/product/32 lists EP full-text files. Latest EPRTBJV2026000046001001.zip7.7GB11Nov2026. Actual322B README confirmed Download item produces visible Download failed. Please try again. No successful EPO file retrieval.","product20":"EPO product20 is samples, not full corpus","local_computer":"The-Hundredth-Meridian.local OFFLINE; cloud CONNECTED"}
+  "retrieved": "2026-11-15",
+  "source": "https://ppubs.uspto.gov/pubwebapp/",
+  "app_version": "4.4.0",
+  "settings": {
+    "databases": [
+      "US-PGPUB",
+      "USPAT",
+      "USOCR"
+    ],
+    "Plurals": true,
+    "British Equivalents": true,
+    "family_filter": true,
+    "export_cap": 500
+  },
+  "date_basis": "publication date, inclusive; 20211115 to 20261115",
+  "method": "Fill Enter query text, click submit Search, await displayed counts, click Export. Export is native family-representative metadata, not every publication or claims. Partition by dates to keep family count below500.",
+  "queries": [
+    {
+      "file": "uspto_F41A1708_20211115_20261115.csv",
+      "query": "F41A17/08.CPC. AND @PD>=20211115 AND @PD<=20261115",
+      "publications": 105,
+      "export_rows": 57
+    },
+    {
+      "files": "uspto_broad_2021.csv through uspto_broad_2026.csv",
+      "query_template": "(F41A$ OR F41G$ OR F41H$ OR F42B$ OR F42C$).CPC. AND (inhibit$ OR interlock$ OR abort$ OR override$ OR safeguard$ OR geofenc$) AND @PD>=START AND @PD<=END",
+      "unpartitioned_publications": 2756,
+      "unpartitioned_families": 1369,
+      "shards": [
+        {
+          "start": 20211115,
+          "end": 20211231,
+          "pubs": 97,
+          "rows": 85
+        },
+        {
+          "start": 20220101,
+          "end": 20221231,
+          "pubs": 553,
+          "rows": 408
+        },
+        {
+          "start": 20230101,
+          "end": 20231231,
+          "pubs": 546,
+          "rows": 420
+        },
+        {
+          "start": 20240101,
+          "end": 20241231,
+          "pubs": 558,
+          "rows": 425
+        },
+        {
+          "start": 20250101,
+          "end": 20251231,
+          "pubs": 534,
+          "rows": 430
+        },
+        {
+          "start": 20260101,
+          "end": 20261115,
+          "pubs": 468,
+          "rows": 404
+        }
+      ]
+    },
+    {
+      "file": "uspto_control_complement.csv",
+      "query": "(F41H7/005 OR G05D1$).CPC. AND (weapon$ OR missile$ OR munition$) AND (inhibit$ OR interlock$ OR abort$ OR override$ OR safeguard$ OR geofenc$) AND @PD>=20211115 AND @PD<=20261115",
+      "publications": 270,
+      "export_rows": 151
+    },
+    {
+      "file": "uspto_protection_language.csv",
+      "query": "(F41G$ OR F42B$ OR F41H7/005).CPC. AND (\"human control\" OR \"human authorization\" OR \"human approval\" OR \"no fire\" OR \"friendly fire\" OR collateral OR \"rules of engagement\" OR \"protected zone\") AND @PD>=20211115 AND @PD<=20261115",
+      "publications": 360,
+      "export_rows": 175
+    },
+    {
+      "files": [
+        "uspto_software_2021_2023.csv",
+        "uspto_software_2024_2026.csv"
+      ],
+      "query_template": "(G06N$ OR G06F11$).CPC. AND (weapon$ OR missile$ OR munition$) AND (safety OR interlock$ OR authoriz$ OR abort$) AND @PD>=START AND @PD<=END",
+      "unpartitioned_publications": 1483,
+      "unpartitioned_families": 637,
+      "shards": [
+        {
+          "start": 20211115,
+          "end": 20231231,
+          "pubs": 620,
+          "rows": 322
+        },
+        {
+          "start": 20240101,
+          "end": 20261115,
+          "pubs": 863,
+          "rows": 458
+        }
+      ]
+    }
+  ],
+  "aggregate": {
+    "complete_csv_files": 11,
+    "export_rows": 3335,
+    "distinct_document_ids": 3173,
+    "distinct_native_family_ids": 2228
+  },
+  "excluded": "uspto_broad_weapon_constraints_20211115_20261115_partial.csv;500row capped export superseded by annual shards; derived screening CSVs also not raw exports",
+  "limitations": "Search-defined metadata pool, not relevance-screened corpus or exhaustive patents. Classification and lexical omissions possible. Native Family ID not independently verified international simple family. Different annual representatives duplicate families across shards. No bulk claims exported. Non-US national coverage not established.",
+  "other_access": {
+    "espacenet": "https://worldwide.espacenet.com/ remains Performing security verification / Just a moment in cloud browser; no bypass attempted",
+    "epo_bdds": "https://publication-bdds.apps.epo.org/raw-data/products/public/product/32 lists EP full-text files. Latest EPRTBJV2026000046001001.zip7.7GB11Nov2026. Actual322B README confirmed Download item produces visible Download failed. Please try again. No successful EPO file retrieval.",
+    "product20": "EPO product20 is samples, not full corpus",
+    "local_computer": "The-Hundredth-Meridian.local OFFLINE; cloud CONNECTED",
+    "canada": {
+      "landing": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/canadian-intellectual-property-statistics/ip-horizons-download-intellectual-property-data",
+      "researcher_page": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/canadian-intellectual-property-statistics/patent-data-bibliographic-and-full-text-csv-and-txt",
+      "freshness": "Caption extracted2024-10-11; files May2024. Service interruption notice no Jan\u2013Mar2025 refresh. Landing says ST.36 discontinued2026-08-19; new XML ST.96.",
+      "test_file": "https://opic-cipo.ca/cipo/client_downloads/Patent_CSV_2024_05_22/PT_claim_txt_format_1_to_50000_2024-05-27.zip",
+      "advertised_size": "1136KB",
+      "result": "Clicked link after Filter items. No download event15s. Tab becomes chrome-error://chromewebdata/. Browser URL policy denies observing error protocol; no bypass. No successful CA download."
+    }
+  }
 }
