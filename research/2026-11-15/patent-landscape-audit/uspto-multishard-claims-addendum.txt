@@ -1,0 +1,70 @@
+15 November2026 — broader native-export audit and eight additional claim inspections
+
+FINAL UNION UPDATE
+After the seven-export checkpoint below, four more complete exports arrived: initial F41A17/08(57), protection-language(175), and two software-lane exports(322+458). Final eleven-export union:3335 rows,3173 unique publication IDs,2228 native Family IDs,162 duplicate publication rows. Final automated routing counts:37 priority,411 secondary,2725 weak/unreviewed. The script and CSV/JSON now use these final totals. The earlier seven-export numbers below are retained solely as a checkpoint, not final totals. All fifteen selectively inspected publication IDs are now explicitly marked in the queue. The unfinished broad partial export is excluded.
+
+EXPORT ACCOUNTING AND METHODS
+Six annual broad query exports contain2172 rows. Adding151 complement rows produces2323 rows,2288 distinct normalized publication IDs,1485 distinct USPTO-export Family IDs.35 duplicate publication rows are retained in provenance but deduplicated in output. Each annual export was family-filtered within that year:2172 is NOT every underlying publication. Exporting agent reports2756 underlying broad-query results and1369 broad-query families. Complement reports270 underlying results/151families. First57-family F41A17/08 export is separate from these counts.
+
+Broad query: (F41A$ OR F41G$ OR F41H$ OR F42B$ OR F42C$).CPC. AND (inhibit$ OR interlock$ OR abort$ OR override$ OR safeguard$ OR geofenc$), with annual @PD bounds covering2021-11-15 through2026-11-15.
+Complement: (F41H7/005 OR G05D1$).CPC. AND (weapon$ OR missile$ OR munition$) AND same constraint terms/date bounds.
+
+triage_uspto_multishard.py normalizes document IDs (removing spaces), groups native family IDs without merging titles, preserves source filenames and hashes, then applies explicit title/CPC rules to route review.30 priority-title records,302 secondary,1956 weak-title-signal/unreviewed. THIS IS AUTOMATED ROUTING, NOT COMPLETE RELEVANCE SCREENING. No abstracts exist in exports. Rules have obvious false positives such as semiautomatic firearms and can miss safeguards buried under generic titles. All rows remain; none are declared substantively excluded. These counts are not counts of genuine guardrail inventions. Spreadsheet output makes flags and scores inspectable.
+
+CLAIMS INSPECTION
+Eight additional selected records were opened on Google Patents, and the claim passages cited below were inspected. Selection diversified high-ranked titles with low-ranked but promising military-control cases; not the eight largest scores mechanically. This is selective clause reading, not complete claim/prosecution legal analysis. Google status and ownership labels are not official verification. No operational use, performance, ASIMOV link or procurement is established for any entry.
+
+1. US12253603B2 — Mitsubishi Heavy Industries — Threat coping system
+Grant2025-03-18; reported priority2019-07-12.
+https://patents.google.com/patent/US12253603B2/en
+Claim1 expressly creates a protected area for moving non-targets including commercial aircraft or satellites, and prohibits attacking a drone/UAV target when effects reach that area. Dependent6–8 consider weapon characteristics/effects. This is direct claimed protection, not merely an optional description. It does not establish autonomous ethical reasoning or successful deployment. US20220163670A1 is the earlier application from initial57 export; grant is not another invention.
+
+2. US12066263B2 — Bilbrey/Sitrick, Google now lists Advanced Weapons Systems Inc.
+Grant2024-08-20; priority2020-06-10.
+https://patents.google.com/patent/US12066263B2/en
+Independent1 recognizes human/non-human targets, selects one and controls firing. Dependent2 specifically prevents firing at humans; dependent3 adds neural-network selection. Independent1 does NOT mandate the human-protection feature, and claims9–10 permit differing damage levels. Meaningful narrow safeguard claim, not evidence every configuration protects humans. US20210389070A1 in initial57 export is its earlier application, not a separate discovery.
+
+3. US11262165B2 — Bilbrey/Sitrick drone weapon subsystem
+Grant2022-03-01; priority2020-06-10.
+https://patents.google.com/patent/US11262165B2/en
+Independent1 coordinates a carried weapon and drone firing; dependent11 disables fire at a designated set of human targets. Method claim21 disallows human target selection, whereas claim20 disallows non-human selection. Claims3–6 allow chosen damage levels, including lethal ones. These are alternative narrower configurations, not a universal human veto. It would be misleading to summarize only the protective variant. US20210389095A1 is its earlier application.
+
+4. US12467704B2 — John Hafen — Smart-gun AI
+Grant2025-11-11; reported priority2016-02-11.
+https://patents.google.com/patent/US12467704B2/en
+Claim1 uses AI estimates of gun/user state to change safety configuration automatically, making the gun unable to fire; it also requires an LLM-based spoken interaction. Independent5 covers conversation generation; dependent6 adds inhibition there. Concrete AI safety proposal but not demonstrated military-system safeguard, validation or adoption. A recent grant does not mean a wholly2025-origin invention. US20240183632A1 and US20260043628A1 require family/version distinction.
+
+5. US20260085911A1 — Caleb Crye — autonomous launch control
+Published2026-03-26; reported priority2024-09-20.
+https://patents.google.com/patent/US20260085911A1/en
+Claim1 receives user target designation and supplies a real-time authorization signal before autonomous launch. Claim16 describes sequential interface selections culminating in authorization. Dependent12 determines airspace-deconfliction status but does not expressly say a conflicting status blocks launch. Relevant control architecture; do not inflate it into proven collision prevention or general ethical safeguards. Application, not verified grant.
+
+6. US20240377833A1 — Textron — safety standoff limiter
+Published2024-11-14; reported priority2023-05-12.
+https://patents.google.com/patent/US20240377833A1/en
+Independent1 compares remotely controlled vehicle speed with a maximum and triggers emergency stop above a threshold. This is a concrete vehicle-motion safety function. Its title and weapons-related full-text match do not establish an engagement governor. Keep as adjacent platform safety; do not count as demonstrated civilian-protection firing constraint.
+
+7. US20240345586A1 — Greensea — sparse datalink supervision
+Published2024-10-17; reported priority2022-11-23.
+https://patents.google.com/patent/US20240345586A1/en
+Independent1 combines remote supervisory command with locally maintained awareness to execute a vehicle task; claims7–9 add an autonomy model/behavior tree. These passages establish supervisory operation over limited communications, not a mandatory human firing veto or loss-of-link disarm. Keep as adjacent supervisory architecture, not confirmed weapon safeguard.
+
+8. US11913738B2 — Rade Tecnologias — weapon authorization management
+Grant2024-02-27; reported priority2019-01-21.
+https://patents.google.com/patent/US11913738B2/en
+Independent1 identifies an authorized firearm user using body-coupled signals and enables its safety system accordingly. This is operator access control, not human approval of individual autonomous engagements or target legality. Downgrade title-based high priority to adjacent unauthorized-user protection. The title alone overpromises relevance to our question.
+
+Overall: two especially direct protection leads are Mitsubishi's protected-moving-object restriction and Bilbrey/Sitrick's dependent human-target inhibition. Several apparent positives instead concern user authentication, mobility safety or supervisory communications. The broader export therefore improves both recall and rejection discipline, without proving corpus completeness.
+
+
+TWO SOFTWARE-LANE SPOT CHECKS (after eight above; total ten additional, fifteen including initial addendum)
+
+9. US11420655B2 — HRL Laboratories — safety/efficacy override
+Grant2022-08-23; reported priority2019-09-26.
+https://patents.google.com/patent/US11420655B2/en
+Independent1 estimates autonomous competence using simulated prospective experiences and generates an alert below a minimum; dependent4 initiates human handover. Dependent5 can instead transfer control away from a human to assistance. A competence-based safeguard architecture, not necessarily human supremacy or weapon-specific legal reasoning. Its earlier application publication April2021 falls outside the main window; this grant falls inside.
+
+10. US12321773B1 — Parry Labs — safety-critical container architecture
+Grant2025-06-03; priority2023-12-22.
+https://patents.google.com/patent/US12321773B1/en
+Independent1 isolates software in virtual environments/static memory partitions and includes machine-learning network-resource management. Those claims concern computing isolation/reliability, not choosing lawful targets, fire inhibition or a human engagement veto. Retain as adjacent assurance architecture, not a confirmed weapon guardrail.
