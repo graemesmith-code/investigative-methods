@@ -2,9 +2,9 @@
 
 **Published 14 November 2026; visual redesign published 15 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
 
-The Site opens as an early draft: “A rough map of new possibilities.” It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as models improve, journalists may work very differently six months from now. This is a reason to keep the map revisable, not a prediction proved by the catalog.
+The Site opens as an early draft: “A rough map of new possibilities.” It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as artificial intelligence improves, journalism may look different in six months. This is a reason to keep the map revisable, not a prediction proved by the catalog.
 
-The owner's rabbit drawings provide the logo and illustrations. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
+The owner's rabbit drawings provide the logo and illustrations. The catch drawing now blends into the page background. Decorative cursive captions and italic emphasis have been removed; the introduction, chart notes and catch explanation use shorter, plainer sentences. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
 
 The preserved catalog remains usable without code: 1,555 historical source systems, 2,516 access methods and 1,739 coverage mappings. It also opens a separate queue of 53 dated review entries: 15 job-posting routes, 12 patent entries and 26 military-technology entries. These supplements are not counted as additional unique historical source systems.
 
@@ -82,7 +82,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `8f030b20b5c52d09b770992c27f3ce4527e0a3d4`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `da9aa628a8efc2935a038b400419b80c766ef7e1`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -103,5 +103,7 @@ The 15 November redesign checks also observed chart-to-record navigation, preser
 A subsequent copy-and-layout revision on 15 November removed prescriptive onboarding and reduced the page's visible controls and prose. Browser checks observed all four views, the company chart opening 167 records, Italy search returning 14 records, optional notes opening and closing, and no page-level horizontal overflow at 340 CSS pixels. The access grouping patterns, catalog data, review backend and permissions were unchanged. Type checking and the production build passed before publication; historical data and persistence tests were not repeated for this presentation-only revision.
 
 A further illustration revision on 15 November moved the catch drawing out of collapsed notes, removed the duplicated subject sketch, and explained the distinction between a shared identifier and a testable rule. Desktop preview checks confirmed that the catch image loads once outside the notes, the original subject sketch is absent from the page, and notes still open and close. Type checking and the production build passed. This presentation-only change did not alter the catalog, review database or access permissions.
+
+A plain-language pass on 15 November shortened the introduction, connection explanation and chart notes, removed decorative captions and italic emphasis, and blended the catch illustration into the page background. The original drawing files were retained unchanged. Desktop browser inspection found no italic text in the home overview and no horizontal page overflow; the screenshot confirmed both drawings share the page background. Type checking and the production build passed. Data and review functions were unchanged.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
