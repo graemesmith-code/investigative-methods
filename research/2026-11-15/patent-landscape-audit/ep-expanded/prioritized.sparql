@@ -1,0 +1,14 @@
+PREFIX patent: <http://data.epo.org/linked-data/def/patent/>
+SELECT ?pub ?p ?o WHERE {
+VALUES ?pub {
+<http://data.epo.org/linked-data/data/publication/EP/4599207/A1/->
+<http://data.epo.org/linked-data/data/publication/EP/3915421/A1/->
+<http://data.epo.org/linked-data/data/publication/EP/3942242/A1/->
+<http://data.epo.org/linked-data/data/publication/EP/4025861/A1/->
+<http://data.epo.org/linked-data/data/publication/EP/3745077/B1/->
+<http://data.epo.org/linked-data/data/publication/EP/3726178/B1/->
+<http://data.epo.org/linked-data/data/publication/EP/3882560/B1/->
+<http://data.epo.org/linked-data/data/publication/EP/3882561/B1/->
+}
+?pub ?p ?o.
+}
