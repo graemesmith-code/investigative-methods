@@ -2,7 +2,7 @@
 
 **Published 14 November 2026; visual redesign published 15 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
 
-The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as artificial intelligence improves, journalism may look different in six months. This is a reason to keep the map revisable, not a prediction proved by the catalog.
+The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as artificial intelligence improves, journalism may look different in six months. It continues: “Still, here’s what looks freshly possible right now.” This is a reason to keep the map revisable, not a prediction proved by the catalog.
 
 The owner's rabbit drawings provide the logo and illustrations. The catch drawing now blends into the page background. Decorative cursive captions and italic emphasis have been removed; the introduction, chart notes and catch explanation use shorter, plainer sentences. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
 
@@ -53,6 +53,25 @@ Enabled routes remain separate from the candidate queue. Parked and rejected can
 - Full JSON exports retain original record text, source/access links, coverage mappings, provenance and current review state. Spreadsheet exports are available for simpler use.
 - Publication succeeded and the live sign-in gate was checked. Functional tests ran in the development preview; a signed-in production browser test was not completed because the test browser had no ChatGPT session. Preview test data was not published.
 
+## Agent access
+
+Rabbit now offers a read-only Model Context Protocol (MCP) connection. An assistant can search sources, retrieve original evidence and source-to-access-method relationships, count coverage categories, and read the caller's review queue and decisions. The ordinary website remains the main way in for people; technical help sits behind a small **For agents** footer link.
+
+The connection follows the Site's existing access permissions. It does not make Rabbit public, change a review, enable a collector or fetch a publisher's data. Saved notes and user-added candidates remain scoped to the signed-in caller. Install or connect the generated Rabbit plugin before using it from an assistant.
+
+The practical benefit is that a reporter can ask for relevant sources in ordinary language and still get the evidence needed to check the answer. A polished response is not a verified source: the tools carry dates, original identifiers and uncertainty with the records.
+
+- `rabbit_catalog_info`: counts, snapshot date, definitions, provenance and export links.
+- `rabbit_search_catalog`: paginated search with country, organization, topic, family, access-type and historical-verification filters.
+- `rabbit_get_record`: original catalog fields, parent/child links, mappings and optional pages of exact original text.
+- `rabbit_facets`: recorded labels and counts, including sparse catalog categories.
+- `rabbit_review_queue`: caller-specific candidates and reviewed routes, with enabled routes separate.
+- `rabbit_review_state`: caller-specific current decisions and dated history.
+
+Search results describe the immutable snapshot, not the latest review decisions. Agents must use the review tools when current enablement matters. Shared fields are possible matches, not proof of an entity match or a rule linking two datasets.
+
+A server-rendered `/agents` page, `/llms.txt`, `/data/agent-index.json` and `/data/agent-schema.json` document the connection and existing JSON exports. They require no JavaScript to read. Site access still applies.
+
 ## Technical annex
 
 ### Sources and reproducibility
@@ -82,7 +101,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `7c659502318bf6187e082cabb7c10e611a7d82c3`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `de4e27de1d080240ab5feab1455f7d866c755f3a`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -107,5 +126,21 @@ A further illustration revision on 15 November moved the catch drawing out of co
 A plain-language pass on 15 November shortened the introduction, connection explanation and chart notes, removed decorative captions and italic emphasis, and blended the catch illustration into the page background. The original drawing files were retained unchanged. Desktop browser inspection found no italic text in the home overview and no horizontal page overflow; the screenshot confirmed both drawings share the page background. Type checking and the production build passed. Data and review functions were unchanged.
 
 A subsequent ordering revision on 15 November kept the draft disclaimer only in the masthead and placed both explanatory illustrations before the catalog views. The ten largest subjects now have visible one-line explanations, rather than requiring a click to learn what a category means. Browser checks confirmed one visible occurrence of “draft,” the new section order, all ten captions, and Company records opening 167 sources. Desktop and 340 CSS-pixel layouts had no page-level horizontal overflow; the narrow layout and keyboard focus were visually checked using browser zoom. This was not a physical-phone test. Type checking and the production build passed. Source records and review behavior were unchanged.
+
+### Agent implementation and validation — 15 November 2026
+
+The new `/mcp` route provides read-only JSON-RPC tools. It supports protocol version 2026-07-28 and legacy initialization for 2025-11-25, 2025-06-18 and 2025-03-26. Modern requests validate protocol, method and tool-name headers against request metadata. Requests are capped at 16 KiB; record pages default to 20 with a maximum of 50. Original-text pages are bounded and expose continuation offsets, measured in JavaScript UTF-16 positions.
+
+Sites supplies the authenticated caller identity. Data tool calls without identity are rejected. Review, candidate and history queries bind that identity in every database read; callers cannot choose another user through tool arguments. Tools are declared read-only and expose no SQL, write operation, source fetch or background collector. Original source text and review notes are treated as untrusted evidence.
+
+The production build generates the agent index and field schema from current source definitions and verifies all 1,555 original texts against the retained per-source exports. The dedicated original-text bundle is loaded only when requested. Source IDs, mapping IDs, access-method parents and provenance are retained.
+
+Twenty-one automated checks passed, covering all original-text equality, complete paginated source traversal, combined filters, family counts, parent/child relationships, candidate-versus-enabled decisions, caller isolation, authentication rejection, protocol errors, body limits and safe database-failure responses. Type checking and the production build passed. Browser inspection confirmed that the agent page renders and its plain-text guide is served. The command-line HTTP preview check could not reach the managed preview endpoint from its execution environment; that integration check was not counted as passed.
+
+Protocol references: [MCP tools](https://modelcontextprotocol.io/specification/2026-07-28/server/tools), [Streamable HTTP transport](https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http) and [versioning](https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning).
+
+The same publication retains the requested introductory sentence and bold emphasis on “here” and “there” in the catch explanation.
+
+Publication succeeded as Site version 8, with MCP enabled and a provisioned Rabbit plugin. The plugin service reported that it was already installed. Its new tools were not exposed in the active conversation, so an authenticated end-to-end agent query remains unverified. The live `/agents` page retained the expected sign-in gate. No sharing permissions changed.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
