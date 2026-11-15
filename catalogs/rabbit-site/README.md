@@ -19,11 +19,17 @@ The catalog is a map to potential evidence. A long list of old access links is u
 - **By access:** routes for website search, file downloads, data services and update feeds. These groups match words in the imported labels; they overlap and are not new access tests.
 - **By certainty:** the distribution of historical checking, kept separate from current decisions to enable a route.
 
-The main illustration suggests a close look at one collection, connections across many, some combination, or uses not yet imagined. The numbered question-first walkthrough has been removed. Counting methods, the catch illustration and the original subject sketch sit in optional notes, reducing the amount a newcomer encounters at once. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
+The main illustration suggests a close look at one collection, connections across many, some combination, or uses not yet imagined. The numbered question-first walkthrough has been removed. Counting methods remain optional. The “What’s the catch?” drawing is visible in the main page beside a short explanation of a testable connection. The repeated subject-circle sketch has been removed from the page because the interactive circles already serve that purpose. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
 
 The design lesson is simple: an interface can quietly impose a method. Rabbit should give people room to discover questions through the records and emerging tools, rather than require them to arrive with a settled question.
 
 The design is deliberately handmade and free in intent. The Site is still owner-only at this stage: the redesign did not change sharing permissions. Individual listed sources may have their own fees or access conditions.
+
+## What makes a connection worth testing
+
+A shared person, company, place or time can provide a reliable trail between datasets. The reporting purpose comes from a separate relationship: a law, regulation or physical constraint that lets us ask, “If A is true here, what must—or must not—be true there?” This is one possible use of the catalog, not a required investigative sequence.
+
+A matched name alone does not establish the same entity; an apparent mismatch does not establish wrongdoing. Check the identity, time and place, and whether the rule actually applies. Then an inconsistency may be a reporting lead worth pursuing. The aim is a useful test of the records, not a connection made for its own sake.
 
 ## The job-posting review queue
 
@@ -76,7 +82,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `0d0b7ac6455492515d1e233903a80f986976f500`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `8f030b20b5c52d09b770992c27f3ce4527e0a3d4`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -95,5 +101,7 @@ Type checking and the production build passed. Browser tests observed search, co
 The 15 November redesign checks also observed chart-to-record navigation, preservation of a chart selection after reload, homepage search, 26 linked routes for USAspending, collapsed technical fields and filtered spreadsheet export. The home page was checked at desktop width and a 340 CSS-pixel width using browser zoom, with no page-level horizontal overflow. This was a responsive-layout check, not a physical-phone test. Deployment succeeded; the live sign-in gate was observed. Signed-in production browsing remains untested in the test browser.
 
 A subsequent copy-and-layout revision on 15 November removed prescriptive onboarding and reduced the page's visible controls and prose. Browser checks observed all four views, the company chart opening 167 records, Italy search returning 14 records, optional notes opening and closing, and no page-level horizontal overflow at 340 CSS pixels. The access grouping patterns, catalog data, review backend and permissions were unchanged. Type checking and the production build passed before publication; historical data and persistence tests were not repeated for this presentation-only revision.
+
+A further illustration revision on 15 November moved the catch drawing out of collapsed notes, removed the duplicated subject sketch, and explained the distinction between a shared identifier and a testable rule. Desktop preview checks confirmed that the catch image loads once outside the notes, the original subject sketch is absent from the page, and notes still open and close. Type checking and the production build passed. This presentation-only change did not alter the catalog, review database or access permissions.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
