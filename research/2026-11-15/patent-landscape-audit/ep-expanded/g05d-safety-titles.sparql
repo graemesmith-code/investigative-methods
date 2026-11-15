@@ -1,0 +1,11 @@
+PREFIX patent: <http://data.epo.org/linked-data/def/patent/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?app ?pub ?date ?title ?code WHERE {
+ ?app ?cp ?code; patent:publication ?pub.
+ VALUES ?cp { patent:classificationCPCInventive patent:classificationCPCAdditional }
+ FILTER(STRSTARTS(STR(?code),"http://data.epo.org/linked-data/def/cpc/G05D1-"))
+ ?pub patent:publicationDate ?date; patent:titleOfInvention ?title.
+ FILTER(lang(?title)="en")
+ FILTER(?date >= "2021-11-15"^^xsd:date && ?date <= "2026-11-15"^^xsd:date)
+ FILTER(regex(str(?title),"safe|inhibit|restrict|authoriz|authoris|collateral|weapon|military|abort|interlock|human|ethic","i"))
+} ORDER BY ?date ?pub LIMIT 1000
