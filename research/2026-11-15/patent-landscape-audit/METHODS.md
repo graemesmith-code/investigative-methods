@@ -55,3 +55,9 @@ https://www.epo.org/en/searching-for-patents/technical/publication-server
 
 ## Storage and preservation
 Methods and small authored audit notes belong in GitHub; full patent texts, raw search responses and original PDFs belong in Drive. New Drive folder inherits the existing journalism-folder reader sharing; no permissions were changed. Only public source evidence is stored there. Hash manifest records exact retained bytes. A partial archive is not a comprehensive evidence corpus.
+
+## Retrieval receipts and current access tests
+Evidence manifest with SHA-256 and source URLs: https://drive.google.com/file/d/1tMNbePd61vw-uqKRpZi0tbAviu8KA-Mt/view
+Four official USPTO PDFs archived: US11861511B2, US11733697B2, US11946710B1, US11473880B2. EP3608622B1 archived from the Google patent-image mirror of the EPO grant. The US12540785B2 download failed with HTTP/2 INTERNAL_ERROR and no incomplete PDF was uploaded.
+
+Native-access tests recorded OPS 403 fair-use response, PatentsView 503 upstream error and timeouts for legacy/Google XHR/ODP routes. These are observations in this environment, not proof of a global outage, no matching patents or an exhausted corpus. Logs are archived unchanged. The fallback log's US11946710B2 URL is a wrong kind-code probe; the correct anchor is US11946710B1, whose official PDF was subsequently obtained. Test logs are evidence of access attempts, not coverage.
