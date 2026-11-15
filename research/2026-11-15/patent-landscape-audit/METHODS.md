@@ -163,3 +163,14 @@ Original: https://drive.google.com/file/d/1gBt2JbI3xzx8LE2W00L6SvkKU9grcr2f/view
 Summary: https://drive.google.com/file/d/1q6yQKCmJGVLenzcTYkTwGfFzXFPlziMo/view
 Inspection outputs (field counts, inventory, lexical hits, manifest text, provenance and script): https://drive.google.com/file/d/1AqilJxnD3E6t5AjKGrX-z48_GdTxJ4_n/view
 inspect_cipo.py is committed alongside these methods. User-supplied original bytes preserved, existing sharing unchanged. The remaining Canadian backfile/update coverage and full-text availability still require verification.
+
+## CIPO schema-specimen caveat and secondary route test
+The official CA-ST96-BFT-3099007-20240612.xml sample downloaded successfully (61,588bytes; SHA25623888c3191abfe8a284c553f453116011e1ac7bde3e0cb2c0e9aee9d05a2b4b4), but its Description and Claims tags contain **"Disclosure From FileNet" and "Claims From FileNet" placeholders**, not substantive claim text. Abstracts also include placeholders. Archive this as a schema specimen only, NOT successful acquisition of usable full text or safeguards evidence. Original: https://drive.google.com/file/d/1YzzWAPy1i0BH6Ku1ivTrEnuf5Va9IskO/view . Source: https://ised-isde.canada.ca/site/canadian-intellectual-property-office/sites/default/files/documents/CA-ST96-BFT-3099007-20240612.xml .
+
+No BFT/FTX distinction was established. Official landing describes bibliographic and full-text content; latest parts01/02 both carry BFT filenames. Their sizes and part numbers do not establish which contains usable claims. The uploaded no-claims part02 cannot establish the content of unacquired parts.
+
+A smaller listed16.39MB weekly part was tested: https://opic-cipo.ca/cipo/client_downloads/Patents_ST96_Weekly_Collection/CA-ST96-WEEKLY-BFT-UPDATE-FROM-20260809-TO-20260815-ON-20260817-02.zip . Direct retrieval returned503; web retrieval inaccessible. Its contents and claims availability remain unverified; no claim-heavy weekly ZIP has yet been verified here. The single user-supplied part and schema specimen do not close Canadian five-year/full-text coverage.
+
+Secondary inspection report: https://drive.google.com/file/d/1Tf8KzbSKcZQgtQna_q6a-3vp-PdyVmlK/view
+Access-test receipt: https://drive.google.com/file/d/1EMAJIvOJCktQJ3eBZ9bQs-acpjBhuszw/view
+User-upload full inspection report: https://drive.google.com/file/d/137anvQKdEpLvelOX2wHMJ3Bug9eUh8UI/view
