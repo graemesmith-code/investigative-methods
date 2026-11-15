@@ -109,3 +109,6 @@ Exact native query receipt: https://drive.google.com/file/d/1QsIINFHxFza0OLPwCNs
 Native export hash manifest: https://drive.google.com/file/d/1muAjaC-VZFl7L0zWq6_2UfipXi5zVIWd/view
 
 The defensible conclusion is that the earlier seed search was incomplete and the US candidate universe is now materially broader and auditable. These records do not yet establish a plausibly complete multinational safeguard-patent universe, actual safeguard effectiveness, ASIMOV adoption, or deployment.
+
+## Final foreign-access checks
+CIPO's available researcher snapshot was dated2024, not a fresh2026 universe. A1.136MB sample link produced a browser error; no Canadian dataset was retrieved. The ST.36 feed ceased19August2026 and later XML uses ST.96, which matters for ingestion. This failed attempt does not establish that CIPO is generally unavailable. EPO product32 small README download failed; Espacenet presented Cloudflare. These are environment-specific access results, not zero relevant foreign patents. See final query receipt for actual attempts. Foreign corpus coverage remains open.
