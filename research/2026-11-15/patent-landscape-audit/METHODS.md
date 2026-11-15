@@ -97,3 +97,15 @@ Five selectively read claim sets: US20230056472A1 (Raytheon dependent-claim non-
 US12540785B2 retry completed and validated; its original USPTO PDF is now archived, superseding the initial failure note. US20230056472A1 official PDF also archived. US11385007B2 twice returned truncated official PDF downloads; those partials were not uploaded.
 
 EPO public documentation HTML and hashes archived separately in epo_access_evidence_20261115.zip. These are coverage documentation, NOT patent corpus exports. EP bulk data omit full text for Euro-PCT applications already published by WIPO in an EPO official language, carrying minimal cross-references instead; supplement with WIPO records. National full-text product covers specified offices (France, Spain, Switzerland, UK), not all Europe. No account creation/order or paid access occurred. Foreign patent completeness remains unestablished.
+
+## Final triage and routing-validation receipt
+The 3,173-distinct-document union was routed by a reproducible metadata heuristic into37 priority,411 secondary and2,725 weak/unreviewed records. These are queue labels, not substantive judgments that all corresponding patents are relevant or irrelevant. triage_uspto_multishard.py, the metadata queue, native-family grouping and screen manifest preserve the implementation and counts. The full union has NOT been read.
+
+A separate validation pass manually reviewed97 metadata records: all37 priority plus fixed-seed (20261115) samples of30 secondary and30 weak/unreviewed. validate_uspto_routing.py and the separate validation CSV/JSON/report preserve selection and judgments without overwriting the earlier queue. Six further selective claim readings brought the native-corpus claim-read total to21 (5 initial+10 multishard+6 validation). This sample is not grounds for a recall/completeness percentage. Metadata false positives and under-ranked leads remain possible; final native-family/citation reconciliation with F5 is unfinished.
+
+Validation report: https://drive.google.com/file/d/1ofolI4M4hM6s2228yIJ6eDPiy31W7G-_/view
+Full 3,173-document routing queue: https://drive.google.com/file/d/14X0wD-WNsJ6KzbG2psbXqFFB9FoEM0vK/view
+Exact native query receipt: https://drive.google.com/file/d/1QsIINFHxFza0OLPwCNsmH5Z8qOyrIAWy/view
+Native export hash manifest: https://drive.google.com/file/d/1muAjaC-VZFl7L0zWq6_2UfipXi5zVIWd/view
+
+The defensible conclusion is that the earlier seed search was incomplete and the US candidate universe is now materially broader and auditable. These records do not yet establish a plausibly complete multinational safeguard-patent universe, actual safeguard effectiveness, ASIMOV adoption, or deployment.
