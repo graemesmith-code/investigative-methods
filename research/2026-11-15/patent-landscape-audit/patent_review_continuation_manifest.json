@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-15",
+  "scope": "all 48 metadata-only entries in prior 77-row checkpoint attempted",
+  "new_selected_claim_inspections": 42,
+  "new_unresolved_text_failures": 6,
+  "prior_direct_selected_claim_inspections": 10,
+  "prior_reported_not_repeated": 15,
+  "prior_unresolved_failures": 4,
+  "overall_direct_or_prior_reported": 67,
+  "overall_unresolved_fetches": 10,
+  "not_claimed": "Full prosecution review, complete full-claim reading for every document, family counts, field deployment, performance, ASIMOV linkage",
+  "status_counts": {
+    "prior claim inspection reported; not repeated": 15,
+    "text retrieval failed": 4,
+    "selected claims inspected": 4,
+    "selected claims inspected in continuation": 42,
+    "text retrieval failed; retry failed": 6,
+    "claims inspected": 3,
+    "selected claim inspected": 2,
+    "claims and selected description inspected": 1
+  },
+  "files": {
+    "patent_priority_secondary_review_77_v2.csv": "87ebf9d9d1891d368f05500c9585e75fd3a7b50ca3ea9f68d1790bdd394a9c65",
+    "patent_review_continuation_notes.json": "739644b254b8207fb0db8e8628cb05a793b48bb41d50d90b6ebac93de1838054",
+    "patent_review_continuation_source_returns.json": "1b1c6927869379a025a83d311859739c6e59423c32df7a7aaa7b9084d65d5683",
+    "patent_review_continuation_retry_returns.json": "268ab20b1a06cf647883aa3552ae0fb57ef13569b5cc23cb2042db620c53f90a"
+  }
+}
