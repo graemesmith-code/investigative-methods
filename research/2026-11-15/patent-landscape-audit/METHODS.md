@@ -136,3 +136,18 @@ Reproducible status builder: build_priority_review.py. Report: https://drive.goo
 77-row status CSV: https://drive.google.com/file/d/1lYJhZZQ9KP1_ofoPKUV90nHphZsU5LV9/view
 Claim notes: https://drive.google.com/file/d/1VXruqdSzIymtCJyNoP-nMl1mttMWJoEf/view
 This is a partial inspection checkpoint, not corpus completion. The remaining48 texts,4 failed opens, family reconciliation and foreign lanes remain unresolved.
+
+## v2 continuation: all77 attempted, selected-claim review still limited
+The subsequent continuation attempted all48 previously metadata-only rows:42 received selected-claim inspection and6 failed after retries. The77-row v2 ledger therefore records52 direct selected-claim inspections by the checkpoint reviewer,15 previously reported inspections and10 unresolved fetches. No row is now simply unattempted metadata. This is NOT77 complete full-text/claim/prosecution reviews, nor67 distinct inventions or families. Later claims remain uninspected in some entries; old overlap counts must not be summed as unique reviews. v1 checkpoint remains unchanged.
+
+The continuation distinguishes protective dependent configurations from permissive alternatives and portfolio duplication. Related Bilbrey/Sitrick publications can claim no-shoot inhibition without every broader independent claim carrying it; alternatives may permit identified human targets. Application and grant claim numbers/features differ. Nothing here establishes tested effectiveness, actual use, ASIMOV connection or international-law compliance.
+
+v2 CSV: https://drive.google.com/file/d/1IgV6yIWFFjduBZvhLSnKR7cF8G0pksWH/view
+Report: https://drive.google.com/file/d/1kEOpK9qUQOSBoDYLHjXc19MAEkqIbRD5/view
+Notes: https://drive.google.com/file/d/1Y2kmj_cNsakJKqZRABIDjb78YRSWvBXP/view
+Source-tool returns: https://drive.google.com/file/d/14wtnLEUhtKbYKdrXi6WJIVG2oWX3ubQi/view
+Retry returns: https://drive.google.com/file/d/1zGJg_KaS82sGwEY-pK1OJiK9glN01tCv/view
+Manifest: https://drive.google.com/file/d/1EIvQvkuqUbp3OK5BXeZDq66lpZtPvjnU/view
+The returns preserve retrieved primary-text excerpts, not entire original patent documents. apply_patent_review_continuation.py reproduces the ledger update. Original native exports and earlier checkpoints are unchanged.
+
+A later native export-field test confirmed CSV output remains metadata-only; the USPTO viewer exposes full text one document at a time but no bulk claims export was established. uspto_export_field_test.csv is archived as an interface test, not an additional corpus shard. This limits scalable claim-level review; it does not imply that full-text records are unavailable.
