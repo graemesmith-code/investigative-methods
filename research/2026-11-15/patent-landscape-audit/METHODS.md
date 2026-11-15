@@ -61,3 +61,17 @@ Evidence manifest with SHA-256 and source URLs: https://drive.google.com/file/d/
 Four official USPTO PDFs archived: US11861511B2, US11733697B2, US11946710B1, US11473880B2. EP3608622B1 archived from the Google patent-image mirror of the EPO grant. The US12540785B2 download failed with HTTP/2 INTERNAL_ERROR and no incomplete PDF was uploaded.
 
 Native-access tests recorded OPS 403 fair-use response, PatentsView 503 upstream error and timeouts for legacy/Google XHR/ODP routes. These are observations in this environment, not proof of a global outage, no matching patents or an exhausted corpus. Logs are archived unchanged. The fallback log's US11946710B2 URL is a wrong kind-code probe; the correct anchor is US11946710B1, whose official PDF was subsequently obtained. Test logs are evidence of access attempts, not coverage.
+
+## Allied discovery query receipt
+Exact query strings supplied by the allied-search researcher (all web-index discovery):
+- site:patents.google.com/patent/EP autonomous weapon "safety"
+- site:patents.google.com/patent/CA weapon "human" autonomous
+- site:patents.google.com/patent/GB "weapon" "safety" "BAE" 2023
+- site:patents.google.com/patent/CA "weapon" "safety-critical"
+- site:patents.google.com/patent/EP "weapon" "ethical"
+- site:patents.google.com/patent/FR arme autonome "sécurité" Thales
+- site:patents.google.com/patent/DE Waffensystem Autonomie Sicherheit Rheinmetall
+- site:patents.google.com/patent/GB "autonomous" "inhibit" weapon
+- site:patents.google.com/patent/CA "autonomous" "engagement" weapon
+
+Later access clarification: the public USPTO browser interface loaded successfully despite the API/command-line failures above. A structured-query feasibility test is being checked separately. Opening the interface is not evidence of a completed native corpus search.
