@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "checks": [
     {
       "check": "Historical counts exactly match requested catalog",
@@ -48,9 +48,21 @@
     {
       "check": "No historical record implicitly enabled",
       "passed": true
+    },
+    {
+      "check": "Detailed subject families use the final separator, preserving subnational jurisdictions",
+      "passed": true
+    },
+    {
+      "check": "Interactive circles match the supplied subject sketch",
+      "passed": true
+    },
+    {
+      "check": "Every source appears in at least one subject family",
+      "passed": true
     }
   ],
-  "browserChecks": [
+  "browserChecksPreviouslyObserved20261114": [
     "Search USAspending returns SYS-0054 and SYS-0934",
     "SYS-0054 displays all 26 AP links",
     "Unverified AP enablement rejected by server",
@@ -68,15 +80,29 @@
     "Production data starts empty; preview test records are local only",
     "Direct loopback HTTP integration suite unavailable in managed preview; reviewed flows tested in browser instead"
   ],
+  "browserChecks20261115": [
+    "Company circle opens 167 records; selection survives reload",
+    "Place search Italy opens 14 systems",
+    "Download lens opens 1235 access methods",
+    "No-status verification lens opens 369 systems",
+    "Homepage USAspending search returns 2 systems",
+    "SYS-0054 drawer lists 26 linked access methods",
+    "Detailed imported fields collapsed by default",
+    "Filtered CSV export completed",
+    "340 CSS-pixel home layout has no page-level horizontal overflow",
+    "Mobile company-subject control opens 167 records"
+  ],
+  "responsiveCheckMethod": "Browser zoom to 340 CSS pixels; not a physical-phone test",
   "production": {
     "deployment": "succeeded",
-    "publishedOn": "2026-11-14",
+    "publishedOn": "2026-11-15",
     "signInGateObserved": true,
     "signedInBrowserTest": false,
     "databaseTables": [
       "candidates",
       "review_events",
       "reviews"
-    ]
+    ],
+    "sourceCommit": "f43fe771014fa972d1273a8cdb80067cac2f9084"
   }
 }
