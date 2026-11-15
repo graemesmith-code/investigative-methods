@@ -1,0 +1,7 @@
+PREFIX patent: <http://data.epo.org/linked-data/def/patent/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?app ?pub ?date ?title WHERE {
+ ?app patent:classificationCPCInventive <http://data.epo.org/linked-data/def/cpc/F41H7-005>; patent:publication ?pub.
+ ?pub patent:publicationDate ?date; patent:titleOfInvention ?title. FILTER(lang(?title)="en")
+ FILTER(?date >= "2021-11-15"^^xsd:date && ?date <= "2026-11-15"^^xsd:date)
+} ORDER BY ?date LIMIT 500
