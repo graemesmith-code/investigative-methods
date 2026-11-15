@@ -126,3 +126,13 @@ Results: https://drive.google.com/file/d/1ENtKRvkk5csTU2lAgRs6jEv43KLdkt70/view
 Raw public landing/link evidence: https://drive.google.com/file/d/1Fn_BKG6xoGlBSxYTByDkLN5TL6wAVhRY/view
 Hash manifest: https://drive.google.com/file/d/1pcgnxSecWWY8hkb_cFyOVC5-qpPhLu-o/view
 No private information, external contact, paid access, account creation or sharing changes involved. Canadian safeguards coverage remains incomplete.
+
+## Additional 77-row priority/secondary checkpoint
+A subsequent deterministic review checkpoint includes all37 priority rows plus the first40 secondary rows in existing queue order, not a random sample. It records10 new selected-claim inspections,15 prior inspections reported elsewhere,4 failed exact-text fetches and48 metadata-only pending rows. Do NOT call77 patents claim-reviewed,25 distinct families, or this a complete reading of those77 texts. It does not supersede the earlier validation sample or justify adding overlapping counts as unique reviews.
+
+The authored checkpoint retains exact publication URLs, claim numbers, failed access and remaining work. Examples include a human-detection firing-lock claim in US11898812B2; same-title US12553679B2 instead addresses direction-based control. US11231252B2 has human-exclusion language in independent claim14, but other claim configurations differ. US20230037964A1 contains mixed/permissive and protective language, requiring clarification rather than selecting only reassuring passages. No effectiveness, military adoption, ASIMOV connection or legal compliance follows. More mechanical/training/radar false positives remain in the broad search.
+
+Reproducible status builder: build_priority_review.py. Report: https://drive.google.com/file/d/1gZhFGi9dmk71RmLK8jjeMIHjNj_tIRrw/view
+77-row status CSV: https://drive.google.com/file/d/1lYJhZZQ9KP1_ofoPKUV90nHphZsU5LV9/view
+Claim notes: https://drive.google.com/file/d/1VXruqdSzIymtCJyNoP-nMl1mttMWJoEf/view
+This is a partial inspection checkpoint, not corpus completion. The remaining48 texts,4 failed opens, family reconciliation and foreign lanes remain unresolved.
