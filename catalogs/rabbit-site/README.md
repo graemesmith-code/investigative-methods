@@ -1,16 +1,29 @@
-# Rabbit: a browsable source catalog and review workspace
+# Rabbit: a handmade field guide to public records
 
-**Published 14 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
+**Published 14 November 2026; visual redesign published 15 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
 
-The Site makes the preserved Rabbit catalog usable without code: 1,555 historical source systems, 2,516 access methods and 1,739 coverage mappings. It also opens a separate queue of 53 dated review entries: 15 job-posting routes, 12 patent entries and 26 military-technology entries. These supplements are not counted as additional unique historical source systems.
+The Site now opens with a visual field guide for a first-year journalism student, freelancer or small newsroom. Four views explain the collection before the visitor reaches its technical listings. The owner's rabbit drawings provide the logo and sketchbook illustrations.
+
+The preserved catalog remains usable without code: 1,555 historical source systems, 2,516 access methods and 1,739 coverage mappings. It also opens a separate queue of 53 dated review entries: 15 job-posting routes, 12 patent entries and 26 military-technology entries. These supplements are not counted as additional unique historical source systems.
 
 Search and filter by topic, country or jurisdiction, organization, access type and verification. Open a source to follow its original access-method relationships and evidence. Save candidates, review decisions and dated notes; browse coverage gaps and publisher ecosystems; export filtered spreadsheets or the complete catalog and review history.
 
 The catalog is a map to potential evidence. A long list of old access links is useful only if the reporter can see what each link promises, what was actually checked and what still fails.
 
+## Four ways to get your bearings
+
+- **By subject:** interactive counted circles for the ten largest detailed record families, with all 36 observed families available. Clicking Company records opens exactly 167 source systems; Public contracts & spending opens 180. A source may belong to several families.
+- **By place:** source counts by the original jurisdiction labels, including provinces and global collections. There are 241 distinct labels, not 241 countries. Search for Italy, for example, to open its 14 systems.
+- **By access:** routes for website search, file downloads, data services and update feeds. These groups match words in the imported labels; they overlap and are not new access tests.
+- **By certainty:** the distribution of historical checking, kept separate from current decisions to enable a route.
+
+The illustrated introduction shows how to start with a question, open a source, then look for a second source that could help answer it. The catch illustration explains why matching names or listed links are not proof. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
+
+The design is deliberately handmade and free in intent. The Site is still owner-only at this stage: the redesign did not change sharing permissions. Individual listed sources may have their own fees or access conditions.
+
 ## Start with the job-posting queue
 
-Open **Review queue**, choose **Job postings**, and inspect an entry. Documentation claims, costs, access restrictions and unresolved checks remain visible. ClearanceJobs remains a permission-dependent candidate; building this interface did not perform collection, obtain permission or establish a working bulk route.
+Open **The notebook → Review queue**, choose **Job postings**, and inspect an entry. Documentation claims, costs, access restrictions and unresolved checks remain visible. ClearanceJobs remains a permission-dependent candidate; building this interface did not perform collection, obtain permission or establish a working bulk route.
 
 New candidates keep separate identifiers. Link them to an existing source system only when that relationship is established. Record a decision in **Review & notes**. The Site saves it online and retains the prior decision.
 
@@ -59,12 +72,22 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `960f6db4814e7388fb8e7dbb9f23b6dd4c36349b`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `f43fe771014fa972d1273a8cdb80067cac2f9084`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+
+### Mapping correction and visual calculations
+
+Coverage headings contain em dashes between identifiers, jurisdictions and record families. Some jurisdictions also contain an em dash, such as Canada — Ontario. The importer now uses the final separator to identify the family; the previous parser could mistake a province name for part of a topic. MAP-00327 is the regression fixture. Original bytes, identifiers, mapping totals and provenance remain unchanged.
+
+The subject view counts distinct system identifiers per detailed mapping family: 36 families and 1,735 distinct system/family memberships from 1,739 mapping records. All 1,555 systems have at least one family. Circle area represents count, with a small hand-drawn contour; placement and the original sketch's intersections do not encode measured overlap. Small screens use a counted list.
+
+Access group matching uses search/web portal/browse (1,133 methods), bulk/download (1,235), API/web service (1,409), and feed/stream (73). Historical verification counts remain partial 609, carried forward 479, not recorded 369, discovery only 98. Country and province labels are not silently combined.
 
 ### Validation
 
-Twelve data checks passed: requested counts, unique IDs, bidirectional SYS–AP links, mapping parents, complete detail exports, exact original heading locations, retained original text, SHA256 fingerprints, supplemental IDs and relationships, supplement totals, and no automatic enablement.
+Fifteen data checks passed, including the corrected jurisdiction parser, all ten sketch counts and complete subject membership. The original checks cover: requested counts, unique IDs, bidirectional SYS–AP links, mapping parents, complete detail exports, exact original heading locations, retained original text, SHA256 fingerprints, supplemental IDs and relationships, supplement totals, and no automatic enablement.
 
 Type checking and the production build passed. Browser tests observed search, combined filters, SYS-to-AP navigation, rejected unverified enablement, review persistence after reload, candidate creation, dated notes, filtered CSV download, full JSON download, coverage tables and publisher-to-source-to-method navigation.
+
+The 15 November redesign checks also observed chart-to-record navigation, preservation of a chart selection after reload, homepage search, 26 linked routes for USAspending, collapsed technical fields and filtered spreadsheet export. The home page was checked at desktop width and a 340 CSS-pixel width using browser zoom, with no page-level horizontal overflow. This was a responsive-layout check, not a physical-phone test. Deployment succeeded; the live sign-in gate was observed. Signed-in production browsing remains untested in the test browser.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
