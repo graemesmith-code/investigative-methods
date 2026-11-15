@@ -36,7 +36,7 @@ for filename in ['Rabbit2(1).txt','Rabbit3.txt','Rabbit4.txt','Rabbit5.txt','Rab
    ap={'id':aid,'systemId':ident,'name':aname,'organization':system['organization'],'country':val(f,'Normalized jurisdiction') or system['country'],'topic':val(f,'Normalized record family') or system['topic'],'access':sorted(set(x.strip() for x in val(f,'Access-point type').split(';') if x.strip())),'url':val(f,'Representative access URL'),'documentation':val(f,'Documentation URL'),'layer':val(f,'Layer'),'verification': ' / '.join(v.split('\n')[0].split(' / ')[-1] for v in relevant) or 'NOT_RECORDED','systemVerification':system['verification'],'verifiedAt':val(vf,'Verification date'),'provenance':provenance(path,line+raw[:raw.find(a.group(0))].count('\n')),'cost':val(f,'Cost or eligibility'),'joinFields':val(f,'Useful join fields'),'weakness':val(f,'Main weakness'),'summary':val(f,'Investigative relevance or methodology')}
    aps.append(ap);system['apIds'].append(aid); fullaps.append({**ap,'fields':f,'verificationFields':vf,'verificationText':'\n\n'.join(relevant),'raw':ar})
   maps=[]
-  for m in re.finditer(r'^- \*\*(MAP-\d+) — (.*?) — (.*?):\*\* (.*)$',raw,re.M):
+  for m in re.finditer(r'^- \*\*(MAP-\d+) — (.*) — (.*?):\*\* (.*)$',raw,re.M):
    mid,country,topic,body=m.groups(); mf={'id':mid,'systemId':ident,'country':country,'topic':topic,'detail':body,'provenance':provenance(path,line+raw[:m.start()].count('\n'))};maps.append(mf);mappings.append(mf)
   detail={**system,'fields':top,'accessPoints':fullaps,'mappings':maps,'verificationText':ver,'raw':raw}
   write(OUT/'records'/f'{ident}.json',detail);details.append(detail);systems.append(system)
