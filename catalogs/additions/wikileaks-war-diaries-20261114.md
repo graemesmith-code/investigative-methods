@@ -77,3 +77,19 @@ The public archive, the original leak, and all military records of the wars are 
 ### Catalog placement
 
 This dated review is separate from preserved Rabbit originals and their historical totals. Repository search surfaced the existing WikiLeaks Public Library of US Diplomacy entry, SYS-0050; that is a different collection and does not establish war-diary access. No claim of an exhaustive catalog deduplication is made.
+
+## Follow-up: does OCCRP Aleph hold the withheld Afghan reports?
+
+Checked 15 November 2026. **Unconfirmed. This review did not establish whether OCCRP holds any Afghan War Diary collection, or whether its restricted holdings include the approximately 15,000 reports withheld from the original public release.** Absence from public search results is not evidence of absence from Aleph.
+
+[OCCRP's Aleph landing page](https://aleph.occrp.org/) describes broader access to leaked evidence for accredited journalists. Its [frequently asked questions](https://aleph.occrp.org/pages/faq) say staff can work with journalists and media organizations on bulk exports of specific datasets. Neither retrieved description identifies an Afghan collection or certifies its completeness.
+
+### Useful next step
+
+Ask OCCRP's Aleph team to confirm whether its Afghan War Diary holdings include the original withheld reports, the number of distinct report identifiers, the source/version of the collection, its redaction status, and journalist access/export options. A collection labeled “full” or “91,000 documents” would be a lead, not sufficient proof of completeness.
+
+### Verification limits
+
+Two public search engines were queried for combinations of Aleph, OCCRP, Afghan War Diary, war logs and withheld material. No collection-level record establishing the requested holdings was found. Direct web retrieval of the landing/FAQ pages yielded no readable lines, while search-indexed official text supplied the general access policies. An attempted public collection query at https://aleph.occrp.org/api/2/collections?q=Afghan was inaccessible through the retrieval tool. No authenticated Aleph collection was inspected; no staff member was contacted.
+
+Plain judgment: Aleph is a sensible place to ask, but its large archive is not evidence that it has these particular missing records. Get a direct answer about the version they hold before building a project around it.
