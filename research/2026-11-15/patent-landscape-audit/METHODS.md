@@ -174,3 +174,11 @@ A smaller listed16.39MB weekly part was tested: https://opic-cipo.ca/cipo/client
 Secondary inspection report: https://drive.google.com/file/d/1Tf8KzbSKcZQgtQna_q6a-3vp-PdyVmlK/view
 Access-test receipt: https://drive.google.com/file/d/1EMAJIvOJCktQJ3eBZ9bQs-acpjBhuszw/view
 User-upload full inspection report: https://drive.google.com/file/d/137anvQKdEpLvelOX2wHMJ3Bug9eUh8UI/view
+
+
+## Correction: USPTO loading/export limits and family expansion (15 November 2026)
+The archived native query receipt's `settings.export_cap: 500` is incorrect as a platform limit. Preserve that original receipt as an execution record; this note supersedes its limit interpretation. The earlier phrase “keep every export below 500” describes the partitioning chosen, not USPTO's maximum export size.
+
+Independently checked official source: https://www.uspto.gov/patents/search/patent-public-search/faqs (Search results, accessed 15 November 2026). USPTO describes 500-document loading batches: scrolling to the bottom loads another batch. CSV export permits up to 10,000 documents; the results buffer holds up to 20,000. Family documents must be expanded with the + control to appear in the export. Date partitioning remains a valid way to avoid exporting only an initially loaded batch, but was not necessary because of a 500-document export ceiling.
+
+Local reinspection of all 11 retained CSVs found exactly one row per native Family ID within each file: 57; broad annual shards 85/408/420/425/430/404; control 151; protection 175; software shards 322/458. The recorded procedure says family filtering remained enabled and describes representative exports, not systematic + expansion. These files therefore do not constitute expanded family-document inventories. We cannot reconstruct every UI click from CSVs alone. Repeated Family IDs across different shards do not demonstrate within-result expansion. Existing totals remain unchanged: 3,335 rows, 3,173 distinct Document IDs and 2,228 native Family IDs. No raw CSV or earlier receipt was overwritten.
