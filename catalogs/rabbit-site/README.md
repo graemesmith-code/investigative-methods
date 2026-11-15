@@ -1,8 +1,10 @@
-# Rabbit: a handmade field guide to public records
+# Rabbit: a provisional map of possibilities
 
 **Published 14 November 2026; visual redesign published 15 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
 
-The Site now opens with a visual field guide for a first-year journalism student, freelancer or small newsroom. Four views explain the collection before the visitor reaches its technical listings. The owner's rabbit drawings provide the logo and sketchbook illustrations.
+The Site opens as an early draft: “A rough map of new possibilities.” It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as models improve, journalists may work very differently six months from now. This is a reason to keep the map revisable, not a prediction proved by the catalog.
+
+The owner's rabbit drawings provide the logo and illustrations. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
 
 The preserved catalog remains usable without code: 1,555 historical source systems, 2,516 access methods and 1,739 coverage mappings. It also opens a separate queue of 53 dated review entries: 15 job-posting routes, 12 patent entries and 26 military-technology entries. These supplements are not counted as additional unique historical source systems.
 
@@ -17,11 +19,13 @@ The catalog is a map to potential evidence. A long list of old access links is u
 - **By access:** routes for website search, file downloads, data services and update feeds. These groups match words in the imported labels; they overlap and are not new access tests.
 - **By certainty:** the distribution of historical checking, kept separate from current decisions to enable a route.
 
-The illustrated introduction shows how to start with a question, open a source, then look for a second source that could help answer it. The catch illustration explains why matching names or listed links are not proof. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
+The main illustration suggests a close look at one collection, connections across many, some combination, or uses not yet imagined. The numbered question-first walkthrough has been removed. Counting methods, the catch illustration and the original subject sketch sit in optional notes, reducing the amount a newcomer encounters at once. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
+
+The design lesson is simple: an interface can quietly impose a method. Rabbit should give people room to discover questions through the records and emerging tools, rather than require them to arrive with a settled question.
 
 The design is deliberately handmade and free in intent. The Site is still owner-only at this stage: the redesign did not change sharing permissions. Individual listed sources may have their own fees or access conditions.
 
-## Start with the job-posting queue
+## The job-posting review queue
 
 Open **The notebook → Review queue**, choose **Job postings**, and inspect an entry. Documentation claims, costs, access restrictions and unresolved checks remain visible. ClearanceJobs remains a permission-dependent candidate; building this interface did not perform collection, obtain permission or establish a working bulk route.
 
@@ -72,7 +76,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `f43fe771014fa972d1273a8cdb80067cac2f9084`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `0d0b7ac6455492515d1e233903a80f986976f500`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -89,5 +93,7 @@ Fifteen data checks passed, including the corrected jurisdiction parser, all ten
 Type checking and the production build passed. Browser tests observed search, combined filters, SYS-to-AP navigation, rejected unverified enablement, review persistence after reload, candidate creation, dated notes, filtered CSV download, full JSON download, coverage tables and publisher-to-source-to-method navigation.
 
 The 15 November redesign checks also observed chart-to-record navigation, preservation of a chart selection after reload, homepage search, 26 linked routes for USAspending, collapsed technical fields and filtered spreadsheet export. The home page was checked at desktop width and a 340 CSS-pixel width using browser zoom, with no page-level horizontal overflow. This was a responsive-layout check, not a physical-phone test. Deployment succeeded; the live sign-in gate was observed. Signed-in production browsing remains untested in the test browser.
+
+A subsequent copy-and-layout revision on 15 November removed prescriptive onboarding and reduced the page's visible controls and prose. Browser checks observed all four views, the company chart opening 167 records, Italy search returning 14 records, optional notes opening and closing, and no page-level horizontal overflow at 340 CSS pixels. The access grouping patterns, catalog data, review backend and permissions were unchanged. Type checking and the production build passed before publication; historical data and persistence tests were not repeated for this presentation-only revision.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
