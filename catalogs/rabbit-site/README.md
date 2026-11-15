@@ -2,7 +2,7 @@
 
 **Published 14 November 2026; visual redesign published 15 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
 
-The Site opens as an early draft: “A rough map of new possibilities.” It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as artificial intelligence improves, journalism may look different in six months. This is a reason to keep the map revisable, not a prediction proved by the catalog.
+The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as artificial intelligence improves, journalism may look different in six months. This is a reason to keep the map revisable, not a prediction proved by the catalog.
 
 The owner's rabbit drawings provide the logo and illustrations. The catch drawing now blends into the page background. Decorative cursive captions and italic emphasis have been removed; the introduction, chart notes and catch explanation use shorter, plainer sentences. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
 
@@ -14,12 +14,12 @@ The catalog is a map to potential evidence. A long list of old access links is u
 
 ## Four ways to get your bearings
 
-- **By subject:** interactive counted circles for the ten largest detailed record families, with all 36 observed families available. Clicking Company records opens exactly 167 source systems; Public contracts & spending opens 180. A source may belong to several families.
+- **By subject:** interactive counted circles for the ten largest detailed record families, each with a visible one-line explanation. Names and explanations sit below the circles on larger screens and beside them on phones. All 36 observed families remain available. Clicking Company records opens exactly 167 source systems; Public contracts & spending opens 180. A source may belong to several families.
 - **By place:** source counts by the original jurisdiction labels, including provinces and global collections. There are 241 distinct labels, not 241 countries. Search for Italy, for example, to open its 14 systems.
 - **By access:** routes for website search, file downloads, data services and update feeds. These groups match words in the imported labels; they overlap and are not new access tests.
 - **By certainty:** the distribution of historical checking, kept separate from current decisions to enable a route.
 
-The main illustration suggests a close look at one collection, connections across many, some combination, or uses not yet imagined. The numbered question-first walkthrough has been removed. Counting methods remain optional. The “What’s the catch?” drawing is visible in the main page beside a short explanation of a testable connection. The repeated subject-circle sketch has been removed from the page because the interactive circles already serve that purpose. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
+The illustrations and their short explanations come before the source totals and subject circles. They suggest a close look at one collection, connections across many, some combination, or uses not yet imagined. The numbered question-first walkthrough has been removed. Counting methods remain optional. The “What’s the catch?” drawing is visible in the main page beside a short explanation of a testable connection. The repeated subject-circle sketch has been removed from the page because the interactive circles already serve that purpose. The notebook retains search, filters, coverage gaps, publisher ecosystems, review work and exports. Detailed imported fields are collapsed by default; provenance is still one tab away.
 
 The design lesson is simple: an interface can quietly impose a method. Rabbit should give people room to discover questions through the records and emerging tools, rather than require them to arrive with a settled question.
 
@@ -82,13 +82,13 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `da9aa628a8efc2935a038b400419b80c766ef7e1`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `7c659502318bf6187e082cabb7c10e611a7d82c3`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
 Coverage headings contain em dashes between identifiers, jurisdictions and record families. Some jurisdictions also contain an em dash, such as Canada — Ontario. The importer now uses the final separator to identify the family; the previous parser could mistake a province name for part of a topic. MAP-00327 is the regression fixture. Original bytes, identifiers, mapping totals and provenance remain unchanged.
 
-The subject view counts distinct system identifiers per detailed mapping family: 36 families and 1,735 distinct system/family memberships from 1,739 mapping records. All 1,555 systems have at least one family. Circle area represents count, with a small hand-drawn contour; placement and the original sketch's intersections do not encode measured overlap. Small screens use a counted list.
+The subject view counts distinct system identifiers per detailed mapping family: 36 families and 1,735 distinct system/family memberships from 1,739 mapping records. All 1,555 systems have at least one family. Circle area represents source count, with a small hand-drawn contour. It does not represent the number of records or bytes available within those sources. Circles sit in a grid with names and descriptions below; their positions do not measure overlap. On small screens, each row pairs a counted circle with its name and explanation. Each entire entry is a native keyboard-accessible button that opens the corresponding source list.
 
 Access group matching uses search/web portal/browse (1,133 methods), bulk/download (1,235), API/web service (1,409), and feed/stream (73). Historical verification counts remain partial 609, carried forward 479, not recorded 369, discovery only 98. Country and province labels are not silently combined.
 
@@ -105,5 +105,7 @@ A subsequent copy-and-layout revision on 15 November removed prescriptive onboar
 A further illustration revision on 15 November moved the catch drawing out of collapsed notes, removed the duplicated subject sketch, and explained the distinction between a shared identifier and a testable rule. Desktop preview checks confirmed that the catch image loads once outside the notes, the original subject sketch is absent from the page, and notes still open and close. Type checking and the production build passed. This presentation-only change did not alter the catalog, review database or access permissions.
 
 A plain-language pass on 15 November shortened the introduction, connection explanation and chart notes, removed decorative captions and italic emphasis, and blended the catch illustration into the page background. The original drawing files were retained unchanged. Desktop browser inspection found no italic text in the home overview and no horizontal page overflow; the screenshot confirmed both drawings share the page background. Type checking and the production build passed. Data and review functions were unchanged.
+
+A subsequent ordering revision on 15 November kept the draft disclaimer only in the masthead and placed both explanatory illustrations before the catalog views. The ten largest subjects now have visible one-line explanations, rather than requiring a click to learn what a category means. Browser checks confirmed one visible occurrence of “draft,” the new section order, all ten captions, and Company records opening 167 sources. Desktop and 340 CSS-pixel layouts had no page-level horizontal overflow; the narrow layout and keyboard focus were visually checked using browser zoom. This was not a physical-phone test. Type checking and the production build passed. Source records and review behavior were unchanged.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
