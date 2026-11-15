@@ -112,3 +112,17 @@ The defensible conclusion is that the earlier seed search was incomplete and the
 
 ## Final foreign-access checks
 CIPO's available researcher snapshot was dated2024, not a fresh2026 universe. A1.136MB sample link produced a browser error; no Canadian dataset was retrieved. The ST.36 feed ceased19August2026 and later XML uses ST.96, which matters for ingestion. This failed attempt does not establish that CIPO is generally unavailable. EPO product32 small README download failed; Espacenet presented Cloudflare. These are environment-specific access results, not zero relevant foreign patents. See final query receipt for actual attempts. Foreign corpus coverage remains open.
+
+## CIPO current ST.96 route follow-up (supersedes sample assumptions above)
+The official landing https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/patent-data-st96-xml was retrieved HTTP200 (214,381bytes). Its395 XML/ZIP links comprise112 weekly,281 historical and2 resource links. No authentication, subscription, licence acceptance or account prompt was encountered. This demonstrates a current public route, not successful corpus acquisition.
+
+Exact1.24MB current weekly ZIP, production2November2026: https://opic-cipo.ca/cipo/client_downloads/Patents_ST96_Weekly_Collection/CA-ST96-WEEKLY-BFT-UPDATE-FROM-20261025-TO-20261031-ON-20261102-02.zip . Web retrieval timed out and standard-library GET returned HTTP503. Alternate historical host (range0–1023) also returned503: https://iphorizonspi.opic-cipo.ca/CIPO/client_downloads/Patents_ST96_Historical_XML_Collection_2025_V2/CA-ST96-GLOBAL-BFT-2840001-2850000-ON-20251126.zip . No weekly or historical full-text corpus was acquired. These are environment-specific failures, not proof of universal service failure.
+
+Latest listed week was1–7November2026, production9November2026 (two listed volumes410.65MB and93.23MB). The landing warns of technical challenges, missing/error data and reissues; even successful download requires reconciliation.
+
+A successful7,629,655-byte public resource CA_AF_20240129.zip is an **authority file, not ST.96 patent full text**. It contains publication identifiers and dates through31December2023 (2,551,490 records plus header), no titles/abstracts/claims/assignees. Its 2024 date does not mean the current Canadian full-text route stops in2024. Archived explicitly as CIPO_authority_identifiers_20240129_NOT_FULL_TEXT.zip; useful only for historical identifier audit. SHA256 ce629a583dae9c4032ab31ff0f00292e6144276bf9f7c157e6c07e7ffaf1abad. The separate XML index link timed out; no claim about its contents.
+
+Results: https://drive.google.com/file/d/1ENtKRvkk5csTU2lAgRs6jEv43KLdkt70/view
+Raw public landing/link evidence: https://drive.google.com/file/d/1Fn_BKG6xoGlBSxYTByDkLN5TL6wAVhRY/view
+Hash manifest: https://drive.google.com/file/d/1pcgnxSecWWY8hkb_cFyOVC5-qpPhLu-o/view
+No private information, external contact, paid access, account creation or sharing changes involved. Canadian safeguards coverage remains incomplete.
