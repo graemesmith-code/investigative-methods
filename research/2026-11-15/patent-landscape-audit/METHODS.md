@@ -151,3 +151,15 @@ Manifest: https://drive.google.com/file/d/1EIvQvkuqUbp3OK5BXeZDq66lpZtPvjnU/view
 The returns preserve retrieved primary-text excerpts, not entire original patent documents. apply_patent_review_continuation.py reproduces the ledger update. Original native exports and earlier checkpoints are unchanged.
 
 A later native export-field test confirmed CSV output remains metadata-only; the USPTO viewer exposes full text one document at a time but no bulk claims export was established. uspto_export_field_test.csv is archived as an interface test, not an additional corpus shard. This limits scalable claim-level review; it does not imply that full-text records are unavailable.
+
+## User-supplied CIPO weekly part02: actual contents inspected
+After automatic retrieval failures, the user supplied CA-ST96-WEEKLY-BFT-UPDATE-FROM-20261025-TO-20261031-ON-20261102-02.zip. Original1,264,629bytes, SHA25625e93ddd498d374f8a5ef74f8f0fcc36f74b03ef88d52bdc3aacbc4b6a916514. This supersedes the earlier statement that this particular part had not been acquired.
+
+ZIP inspection found327 members:325 XML patent records, all A1, and2 text manifests.325 distinct publications;321 contain abstracts; none contains Description or Claims elements, consistent with DESC-N/CLMS-N in the manifest for these325. Publication dates span7November2024–22October2026, so the update-week dates are NOT publication-date filters. ZIP CRC check passed.
+
+The included whole-week manifest reports15,605 records, but only325 XML records in this part were directly acquired/inspected. Some other manifest rows advertise DESC-en/CLMS-en; absence of full text in part02 must NOT be generalized to all CIPO ST.96 data. This is a useful parser/schema test, not Canada's five-year safeguards corpus.44 broad English lexical hits are triage only, predominantly medical inhibitor false positives; no weapon-term hits do not establish no relevant patents in Canada. No claim-level safeguard evaluation can be made from this part alone.
+
+Original: https://drive.google.com/file/d/1gBt2JbI3xzx8LE2W00L6SvkKU9grcr2f/view
+Summary: https://drive.google.com/file/d/1q6yQKCmJGVLenzcTYkTwGfFzXFPlziMo/view
+Inspection outputs (field counts, inventory, lexical hits, manifest text, provenance and script): https://drive.google.com/file/d/1AqilJxnD3E6t5AjKGrX-z48_GdTxJ4_n/view
+inspect_cipo.py is committed alongside these methods. User-supplied original bytes preserved, existing sharing unchanged. The remaining Canadian backfile/update coverage and full-text availability still require verification.
