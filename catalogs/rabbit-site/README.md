@@ -16,7 +16,7 @@ The catalog is a map to potential evidence. A long list of old access links is u
 
 The home page now invites source suggestions and links to a sourced change log. People use a short form; agents use `rabbit_submit_proposal`, the authenticated submission endpoint, or a JSON proposal imported into the form. New sources, additional access methods and correction notes stay pending until the curator reviews them. Accepted changes appear in current catalog search, exports and agent reads. Acceptance does not enable a route.
 
-The growth chart counts distinct catalog systems: **1,555 already existed in the August export**. September added review notes, October preserved the archive, and November imported it. Separate supplements and earlier workbook totals must not be mistaken for deduplicated growth. New human-approved systems extend the count from their actual approval dates; correction notes and extra methods do not.
+Three small cards now show the latest source activity, each with its recorded date and time. They currently show European patent data, US patent search and Canadian patent records. These are labelled as suggestions while awaiting human review; accepted entries show their approval time. Clicking a card opens its exact change or expanded review entry. The line graph and its explanatory fine print have been removed. The section is titled “A collection that we improve together,” and “Free, for curious journalists” has been removed.
 
 Five [patent-source handoffs](../additions/patent-source-handoffs-20261116.json) are pending: one proposed EPO linked-data source and four updates to existing USPTO, CIPO, DPMA and INPI records. No real proposal was approved during implementation.
 
@@ -119,7 +119,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `98ee54a5ae93527a5b8f38bc9f18393f4f4b0d5e`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `3cda0def18914f681d8f68650eb03222c3387ed1`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -168,3 +168,7 @@ Future imports must preserve stable identifiers and the separate review database
 Removed the second rabbit logo beside “A rough map of new possibilities.” The masthead logo remains. The introduction now uses a single column, with its existing text-width limits. Source inspection confirmed that the only page image using the logo is in the masthead; favicon references remain. The production build passed. No catalog records, review behavior, agent tools or permissions changed. This narrow presentation edit was checked in source and build output, not through a new browser session.
 
 The living-catalog publication succeeded on 16 November 2026. The refreshed native agent catalog-info call returned the live-layer metadata and 1,555 systems; no test record was published. Newly registered submission tools were not exposed to this running conversation, so a direct production submission through those tools remains untested. The complete form-to-approval flow was tested in the local preview; Claude and Gemini connections remain untested.
+
+### Latest source cards — 16 November 2026
+
+The growth graph was replaced by three timestamped source cards. Displayed times preserve actual submission or approval dates and include the Europe/Rome time-zone abbreviation. The cards use the existing caller-visible proposal list and accepted change log; no data or review permissions changed. Browser checks confirmed all three patent cards, their real timestamps, both graph removals, the requested text deletions, and a card opening its exact pending proposal with details expanded. Desktop layout had no horizontal overflow. Type checking and the production build passed. No proposal was approved during this change.
