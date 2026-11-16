@@ -6,7 +6,7 @@ The home page shows three recent source updates with the actual date and time. T
 
 Historical archive milestones remain in the change log and data exports. The preserved August corpus already contains 1,555 systems. These records have not been changed to illustrative monthly counts.
 
-Five research handoffs are included for human review: EPO Linked Open EP Data as a proposed new service; USPTO export limits; the scope of a CIPO weekly XML part; DPMA official-status checks; and separate INPI national/European records. The last two derive from the recovered 16 November briefing and explicitly flag its missing original acquisition archive. Existing systems stay linked; none is automatically counted as new or enabled.
+Five research handoffs were initially queued and have now been explicitly approved by Graeme Smith on 16 November 2026: EPO Linked Open EP Data as a proposed new service; USPTO export limits; the scope of a CIPO weekly XML part; DPMA official-status checks; and separate INPI national/European records. The last two derive from the recovered 16 November briefing and explicitly flag its missing original acquisition archive. Existing systems stay linked. The release adds one new system; four entries are corrections. No route is automatically enabled.
 
 An assistant can submit evidence quickly. The human still has to decide whether it is useful, distinct and accurately described. Otherwise automation would make a bigger catalog without making a better one.
 
@@ -37,7 +37,7 @@ Twenty-four workflow and screening checks use actual SQLite with the production 
 
 Desktop browser QA submitted a synthetic local proposal, observed it pending without increasing counts, approved it in the local curator form, observed the change log and count increase to 1,556, and opened the new source drawer with one linked access method. Synthetic test rows were removed from the local preview and are never included in publication. The clean desktop homepage had no horizontal overflow and showed 1,555 again. A physical-phone or effective narrow-viewport test was not completed in this session.
 
-The existing native MCP connection was successfully called before this update. Post-publication evidence is recorded in the repository workflow note. No real candidate is approved by the agent during development.
+The existing native MCP connection was successfully called before this update. Post-publication evidence is recorded in the repository workflow note. No real candidate was approved during the initial workflow implementation. The subsequent patent release records the owner’s explicit approval.
 
 Automatic-check browser QA: the local review page displayed the five pending handoffs, the German register proposal showed “Hold for more evidence” with its missing-archive reason, the evidence-check limit was visible, and the human decision began unselected with saving disabled. No proposal was approved. Desktop screenshot: `docs/review-check-preview.jpg`.
 
@@ -51,4 +51,16 @@ The linked task **Email Rabbit review recommendations** is enabled for Mondays a
 
 Browser inspection confirmed three patent cards, real submission timestamps displayed as 16 Nov 2026, 08:51 CET, the new heading, removal of the growth graph on both the home and changes pages, and removal of the free-for-journalists line. Clicking the European patent card opened its exact pending proposal with the details expanded. Desktop inspection found no horizontal overflow. No source or proposal was approved or changed. The existing responsive layout stacks the cards below 640 pixels; no physical-phone check was performed. Type checking passed.
 
+## Owner-approved patent release — 16 November 2026
+
+Graeme explicitly approved all five pending patent entries in ChatGPT. They are now a recorded catalog release: one European Patent Office linked-data source, plus notes on existing US, Canadian, German and French sources. The current corpus contains 1,556 systems and 2,517 access methods. All five entries are accepted, and the latest cards show Source added or Source updated with the recorded approval time. German and French notes retain their missing-evidence limits. This approval does not claim fresh endpoint verification or enable collection.
+
+The release is stored as `data/approved-releases/patents-20261116.json`, with the owner approval basis, source and access-method identifiers, evidence links, original proposal provenance and append-only correction patches. It is published through the owner-authorized source workflow, because the test browser had no signed-in owner session. No identity headers were forged, no general approval tool was added, and no approval was triggered by an agent read. The current API combines these immutable published events with database events keyed by proposal ID; a matching database event takes precedence to prevent duplicate counting. Ordinary submitted changes still require curator approval. Later corrections preserve baseline fields and append to existing histories.
+
+Eleven new isolated-database checks passed for release counts, acceptance states, no read-side mutations, provenance and relationships, preserved limitations, repeat-approval rejection, event deduplication, future submission approval, immutable release objects and later correction history. The existing 24 workflow checks and 21 agent checks passed, as did type checking. Browser checks confirmed accepted cards, updated totals, the published change entry and an empty pending queue. No synthetic test data is included in the release.
+
 The source-card update was published successfully from Site source commit `3cda0def18914f681d8f68650eb03222c3387ed1`. The contribution and weekly-review workflows remain unchanged.
+
+## Live verification of approved release
+
+Publication succeeded from Site source commit `ad1f40dce73836a13f840d5bd22e2d4eafedd484`. The authenticated live agent connection returned 1,556 source systems, 2,517 access methods, five accepted changes and accepted status for all five patent proposal IDs. The new `SYS-ADD-SEED-20261116-epo-linked` record was retrieved with its evidence, owner-approval record and child access-method ID. No patent proposal remained pending. The original baseline still contains 1,555 historical systems; no historical source was overwritten.
