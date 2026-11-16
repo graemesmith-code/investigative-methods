@@ -1,0 +1,42 @@
+STAGE 2 GAP 1: RIGBY, UNCERTAIN LINKS, RSIC AND PYRAMID
+Research date: 16 November 2026. Public unauthenticated sources only.
+
+BOTTOM LINE
+This pass materially narrows two gaps. There is a strong candidate for the unnamed Rigby uncertain-link patent, and the UK has published a detailed reference architecture that explicitly separates permission to act, safety interlocks, and store-release scheduling. Neither discovery establishes that a particular operational weapon implements the patent or a particular configuration of those components.
+
+1. PATENT IDENTIFICATION
+US9156552B2, Apparatus for use on unmanned vehicles, names Isobel Louise Freeman and Keith Antony Rigby, assigned to BAE Systems. Priority GB1110820.6, 24 June 2011; PCT/GB2012/051416; WO2012/175953; US application publication US20140222249A1; grant 13 October 2015.
+Primary PDF: https://patentimages.storage.googleapis.com/e6/af/64/531ec203e9aa2e/US9156552.pdf
+
+The description discusses the problem of uncertain communications between unmanned aircraft and their controllers. Claim 1 requires validation of a remote activation instruction by checking whether its age is below a predetermined threshold; claim 2 addresses preventing or opposing invalid activation; claim 12 expressly makes the payload a weapon. Claim 16 covers the apparatus and claim 21 a validation-code comparison. These are claim summaries, not statements of field performance.
+
+This is a much closer match to the 2025 RAeS Rigby biography's uncertain-link functionality than US11422549B2. The present search did not find a source expressly saying that the biography refers to US9156552B2. Treat identification as a strongly supported candidate, not a completed attribution. Rigby is not an inventor of US11422549B2. Do not substitute either patent for the other.
+A claim about fresh authorised commands is not proof of ethical target discrimination, law-of-war compliance, or a universal requirement to abort when a link fails.
+
+2. OFFICIAL PYRAMID STANDARD: THE ARCHITECTURE IS PUBLIC IN MUCH MORE DETAIL THAN A BIOGRAPHY
+UK MOD publication page: https://www.gov.uk/government/publications/pyramid
+Retrieved complete 2025 technical standard V1.0, 1513 pages, and guidance V1.0, 571 pages.
+Standard PDF:
+https://assets.publishing.service.gov.uk/media/67dbe7ec0f38d929e57ee310/20250224-PYRAMID_Technical_Standard_V1-O.pdf
+
+Exact anchors:
+- Section 5.4.2.3 Authorisation, printed/PDF p117: policy identifies necessary approval and authorisers; the component requests it and monitors continuing validity. Weapon release and entry into restricted zones are examples.
+- Section 5.4.2.29 Interlocks, p612: checks defined conditions and enables/disables functions. A store-release example combines the master armaments safety switch, aircraft state, bay-door state, authorisation, release envelope and requested release power.
+- Section 5.4.2.58 Stores Release, pp1179–1181: selects stores and schedules release; checks continuing feasibility. Its exclusions are important: this component does not itself control release equipment, transmit mission data/cryptography, validate mass and balance, or prepare the store/verify targeting data.
+
+This is genuine documentary evidence of conceptual separation of authorisation, interlocks and scheduling, not merely the journalist guessing how a system might work. But a reference component definition is not an equipment bill, deployed hardware safety circuit, source-code audit, safety case or acceptance-test result. The standard does not, in the passages reviewed, tie those functions to Rigby's patent or one named deployed weapon. Nor does it establish a single generic degraded-link autonomy policy. No inference of implementation or absence should be made.
+
+3. RSIC AND NATO LINK REMAINS PARTIAL
+General Dynamics UK's public stores-management page, readable through the web retrieval service, describes RSIC and a Safe Weapon Control Protocol for uncrewed aircraft. The direct raw-file fetch returned HTTP 403 and no wrapper was archived. This company's statement is corroborating evidence for the existence of the work, not a specification proving patent incorporation.
+https://generaldynamics.uk.com/businesses/mission-systems/air/airborne-mission-management/stores-management/
+No public full Logical Stores Integration Framework specification was recovered in this bounded pass. The 2025 RAeS biography remains a person-level account of RSIC/PRA/NATO continuity, not independent evidence of operational installation.
+
+QUESTIONS FOR BAE/MOD
+1. Does the uncertain-link functionality in Rigby's 2025 biography refer to US9156552B2/WO2012/175953, another patent, or a family of patents? Identify precise claims and the relevant implementation, if releasable.
+2. Which RSIC or Safe Weapon Control Protocol documents specify how time-limited authorisation behaves under interrupted or delayed communications?
+3. Which actual procurement or platform safety cases instantiate PRA Authorisation (5.4.2.3), Interlocks (5.4.2.29) and Stores Release (5.4.2.58)? Can the releasable compliance mapping, test criteria and acceptance record be supplied?
+4. Is the NATO Logical Stores Integration Framework published or adopted, and under what standard identifier/version? Do not treat 'forthcoming' in a biography as adoption.
+
+METHOD / LIMITATIONS
+English inventor/name/technology searches plus a German inventor/Waffen query; public Google Patents discovery and original patent PDF; direct retrieval and text extraction of both complete official MOD PDFs. Query strings and combined returned-result counts are logged; those counts are NOT database totals. Search did not constitute an exhaustive USPTO/Espacenet inventor census. A follow-up batch returned irrelevant results, retained honestly in the query record. No direct security-challenged source was retried or bypassed. No account, outreach, request or expenditure.
+Byte-identical raw files, hashes and verified Drive byte sizes are in manifest.json/SHA256SUMS.txt. Local text extractions are derivatives, not primary evidence. No claim is made that all 1513 pages received line-by-line review: targeted searches located and read relevant component definitions.
