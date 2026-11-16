@@ -1,0 +1,306 @@
+{
+  "release_id": "rabbit-patents-20261116",
+  "recorded_at": "2026-11-16T10:13:45.433Z",
+  "approval": {
+    "approved_by": "Graeme Smith",
+    "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+    "recorded_at": "2026-11-16T10:13:45.433Z",
+    "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+  },
+  "baseline_sources": 1555,
+  "resulting_sources": 1556,
+  "resulting_access_methods": 2517,
+  "events": [
+    {
+      "id": "RELEASE-PROP-SEED-20261116-inpi-status",
+      "proposal_id": "PROP-SEED-20261116-inpi-status",
+      "source_key": null,
+      "created_at": "2026-11-16T10:13:45.433Z",
+      "payload": {
+        "kind": "correction",
+        "title": "INPI — separate national and European status records",
+        "proposal_id": "PROP-SEED-20261116-inpi-status",
+        "evidence_url": "https://data.inpi.fr/brevets/EP3812690",
+        "note": "Approved as an evidence-limited note on the existing French patent portal. National and European records require separate checks. The original acquisition archive remains missing; current legal effect is not certified by this catalog approval.",
+        "submitted_at": "2026-11-16T07:51:28.015Z",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Graeme Smith",
+          "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+          "recorded_at": "2026-11-16T10:13:45.433Z",
+          "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+        },
+        "release_id": "rabbit-patents-20261116",
+        "target_id": "SYS-0783",
+        "patch": {
+          "live": true,
+          "currentNote": "The recovered 16 November briefing identifies separate INPI pages for FR3102239 and EP3812690. Compare national status, European effects and dated events separately; do not infer identical claims or current legal effect across family members. Existing Rabbit source. Original full acquisition log/evidence archive not recovered; reacquire before treating the reported status as independently verified.",
+          "currentEvidence": "https://data.inpi.fr/brevets/EP3812690",
+          "correctionHistory": [
+            {
+              "proposal_id": "PROP-SEED-20261116-inpi-status",
+              "note": "The recovered 16 November briefing identifies separate INPI pages for FR3102239 and EP3812690. Compare national status, European effects and dated events separately; do not infer identical claims or current legal effect across family members. Existing Rabbit source. Original full acquisition log/evidence archive not recovered; reacquire before treating the reported status as independently verified.",
+              "url": "https://data.inpi.fr/brevets/FR3102239",
+              "evidence": "https://data.inpi.fr/brevets/EP3812690",
+              "at": "2026-11-16T10:13:45.433Z"
+            }
+          ],
+          "approval": {
+            "approved_by": "Graeme Smith",
+            "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+            "recorded_at": "2026-11-16T10:13:45.433Z",
+            "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+          }
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-SEED-20261116-dpma-status",
+      "proposal_id": "PROP-SEED-20261116-dpma-status",
+      "source_key": null,
+      "created_at": "2026-11-16T10:13:45.433Z",
+      "payload": {
+        "kind": "correction",
+        "title": "DPMAregister — official status and event checks",
+        "proposal_id": "PROP-SEED-20261116-dpma-status",
+        "evidence_url": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+        "note": "Approved as an evidence-limited note on the existing German patent register. The recovered research reports an official status check, but its original acquisition archive remains missing. Reacquire the evidence before relying on the reported status.",
+        "submitted_at": "2026-11-16T07:51:28.015Z",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Graeme Smith",
+          "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+          "recorded_at": "2026-11-16T10:13:45.433Z",
+          "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+        },
+        "release_id": "rabbit-patents-20261116",
+        "target_id": "SYS-0784",
+        "patch": {
+          "live": true,
+          "currentNote": "The recovered 16 November procurement briefing reports a useful official register check of a German priority application, distinct from aggregator status. This is an existing Rabbit source, not an extra source. The original full acquisition log and evidence archive were not recovered; reacquire the register evidence before treating the reported status as verified in Rabbit.",
+          "currentEvidence": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+          "correctionHistory": [
+            {
+              "proposal_id": "PROP-SEED-20261116-dpma-status",
+              "note": "The recovered 16 November procurement briefing reports a useful official register check of a German priority application, distinct from aggregator status. This is an existing Rabbit source, not an extra source. The original full acquisition log and evidence archive were not recovered; reacquire the register evidence before treating the reported status as verified in Rabbit.",
+              "url": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+              "evidence": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+              "at": "2026-11-16T10:13:45.433Z"
+            }
+          ],
+          "approval": {
+            "approved_by": "Graeme Smith",
+            "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+            "recorded_at": "2026-11-16T10:13:45.433Z",
+            "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+          }
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-SEED-20261116-cipo-scope",
+      "proposal_id": "PROP-SEED-20261116-cipo-scope",
+      "source_key": null,
+      "created_at": "2026-11-16T10:13:45.433Z",
+      "payload": {
+        "kind": "correction",
+        "title": "CIPO — weekly XML is not necessarily full text",
+        "proposal_id": "PROP-SEED-20261116-cipo-scope",
+        "evidence_url": "https://github.com/graemesmith-code/investigative-methods/tree/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit",
+        "note": "Approved as a scope note on the existing Canadian patent source. The examined weekly part contained abstracts and metadata, not claims or descriptions. This does not establish the content of every Canadian bulk product.",
+        "submitted_at": "2026-11-16T07:51:28.015Z",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Graeme Smith",
+          "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+          "recorded_at": "2026-11-16T10:13:45.433Z",
+          "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+        },
+        "release_id": "rabbit-patents-20261116",
+        "target_id": "SYS-0776",
+        "patch": {
+          "live": true,
+          "currentNote": "The supplied weekly update part contained 325 A1 XML records, 321 abstracts and no claims or descriptions. It is one part of a weekly update, not a Canadian corpus or publication-date cohort. Keep abstract/metadata access distinct from full-text access. Further Canadian bulk-claims access remains unresolved.",
+          "currentEvidence": "https://github.com/graemesmith-code/investigative-methods/tree/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit",
+          "correctionHistory": [
+            {
+              "proposal_id": "PROP-SEED-20261116-cipo-scope",
+              "note": "The supplied weekly update part contained 325 A1 XML records, 321 abstracts and no claims or descriptions. It is one part of a weekly update, not a Canadian corpus or publication-date cohort. Keep abstract/metadata access distinct from full-text access. Further Canadian bulk-claims access remains unresolved.",
+              "url": "https://www.canada.ca/en/services/business/ip/databases.html",
+              "evidence": "https://github.com/graemesmith-code/investigative-methods/tree/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit",
+              "at": "2026-11-16T10:13:45.433Z"
+            }
+          ],
+          "approval": {
+            "approved_by": "Graeme Smith",
+            "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+            "recorded_at": "2026-11-16T10:13:45.433Z",
+            "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+          }
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-SEED-20261116-uspto-export",
+      "proposal_id": "PROP-SEED-20261116-uspto-export",
+      "source_key": null,
+      "created_at": "2026-11-16T10:13:45.433Z",
+      "payload": {
+        "kind": "correction",
+        "title": "USPTO Patent Public Search — export limits",
+        "proposal_id": "PROP-SEED-20261116-uspto-export",
+        "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+        "note": "Approved as a correction to the existing US patent-search entry: the reported 500 rows are an auto-loaded batch, not the export ceiling. Retain the dated audit and its evidence links.",
+        "submitted_at": "2026-11-16T07:51:28.015Z",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Graeme Smith",
+          "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+          "recorded_at": "2026-11-16T10:13:45.433Z",
+          "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+        },
+        "release_id": "rabbit-patents-20261116",
+        "target_id": "SYS-0772",
+        "patch": {
+          "live": true,
+          "currentNote": "The 15 November audit corrected the earlier interpretation of 500 rows: this is an auto-loaded batch, not a hard export ceiling. The recorded official guidance allows up to 10,000 exported documents and a 20,000-result buffer. Family members must be expanded and counts reconciled. This is a dated correction to the existing source.",
+          "currentEvidence": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+          "correctionHistory": [
+            {
+              "proposal_id": "PROP-SEED-20261116-uspto-export",
+              "note": "The 15 November audit corrected the earlier interpretation of 500 rows: this is an auto-loaded batch, not a hard export ceiling. The recorded official guidance allows up to 10,000 exported documents and a 20,000-result buffer. Family members must be expanded and counts reconciled. This is a dated correction to the existing source.",
+              "url": "https://www.uspto.gov/patents/search/patent-public-search",
+              "evidence": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+              "at": "2026-11-16T10:13:45.433Z"
+            }
+          ],
+          "approval": {
+            "approved_by": "Graeme Smith",
+            "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+            "recorded_at": "2026-11-16T10:13:45.433Z",
+            "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+          }
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-SEED-20261116-epo-linked",
+      "proposal_id": "PROP-SEED-20261116-epo-linked",
+      "source_key": "source:https://data.epo.org/linked-data",
+      "created_at": "2026-11-16T10:13:45.433Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "EPO Linked Open EP Data",
+        "proposal_id": "PROP-SEED-20261116-epo-linked",
+        "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+        "note": "Approved for inclusion as a separate European Patent Office linked-data discovery service. Bibliographic and family coverage is distinct from Open Patent Services. Full-text coverage varies; no worldwide full-text or automatic collection claim is made.",
+        "submitted_at": "2026-11-16T07:51:28.015Z",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Graeme Smith",
+          "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+          "recorded_at": "2026-11-16T10:13:45.433Z",
+          "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+        },
+        "release_id": "rabbit-patents-20261116",
+        "source": {
+          "name": "EPO Linked Open EP Data",
+          "url": "https://data.epo.org/linked-data/",
+          "organization": "European Patent Office",
+          "country": "Europe",
+          "topic": "Technology, infrastructure & intellectual property",
+          "access": [
+            "API / linked data"
+          ],
+          "summary": "The 15 November research logged successful bibliographic queries and one official claims-bearing XML representation. EP bibliographic, family and classification coverage; not worldwide full text. Some linked representations contain only metadata. Listed as a separate discovery service from Open Patent Services; use bulk products for heavy collection.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+            "path": "Owner-approved patent release rabbit-patents-20261116",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-SEED-20261116-epo-linked",
+          "addedAt": "2026-11-16T10:13:45.433Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "EPO Linked Open EP Data",
+              "url": "https://data.epo.org/linked-data/",
+              "organization": "European Patent Office",
+              "country": "Europe",
+              "topic": "Technology, infrastructure & intellectual property",
+              "access": "API / linked data",
+              "note": "The 15 November research logged successful bibliographic queries and one official claims-bearing XML representation. EP bibliographic, family and classification coverage; not worldwide full text. Some linked representations contain only metadata. Review as a separate discovery service from Open Patent Services; use bulk products for heavy collection.",
+              "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+              "target_id": ""
+            }
+          },
+          "approval": {
+            "approved_by": "Graeme Smith",
+            "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+            "recorded_at": "2026-11-16T10:13:45.433Z",
+            "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+          },
+          "id": "SYS-ADD-SEED-20261116-epo-linked",
+          "apIds": [
+            "AP-ADD-SEED-20261116-epo-linked"
+          ],
+          "publisher": "European Patent Office"
+        },
+        "method": {
+          "name": "EPO Linked Open EP Data",
+          "url": "https://data.epo.org/linked-data/",
+          "organization": "European Patent Office",
+          "country": "Europe",
+          "topic": "Technology, infrastructure & intellectual property",
+          "access": [
+            "API / linked data"
+          ],
+          "summary": "The 15 November research logged successful bibliographic queries and one official claims-bearing XML representation. EP bibliographic, family and classification coverage; not worldwide full text. Some linked representations contain only metadata. Listed as a separate discovery service from Open Patent Services; use bulk products for heavy collection.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+            "path": "Owner-approved patent release rabbit-patents-20261116",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-SEED-20261116-epo-linked",
+          "addedAt": "2026-11-16T10:13:45.433Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "EPO Linked Open EP Data",
+              "url": "https://data.epo.org/linked-data/",
+              "organization": "European Patent Office",
+              "country": "Europe",
+              "topic": "Technology, infrastructure & intellectual property",
+              "access": "API / linked data",
+              "note": "The 15 November research logged successful bibliographic queries and one official claims-bearing XML representation. EP bibliographic, family and classification coverage; not worldwide full text. Some linked representations contain only metadata. Review as a separate discovery service from Open Patent Services; use bulk products for heavy collection.",
+              "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+              "target_id": ""
+            }
+          },
+          "approval": {
+            "approved_by": "Graeme Smith",
+            "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+            "recorded_at": "2026-11-16T10:13:45.433Z",
+            "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+          },
+          "id": "AP-ADD-SEED-20261116-epo-linked",
+          "systemId": "SYS-ADD-SEED-20261116-epo-linked",
+          "layer": "Owner-approved addition"
+        }
+      }
+    }
+  ]
+}
