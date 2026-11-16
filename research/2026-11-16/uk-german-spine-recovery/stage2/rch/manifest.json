@@ -1,0 +1,73 @@
+[
+  {
+    "file": "R01_des.html",
+    "source_url": "https://des.mod.uk/digital-sensor-shooter-upgrade/",
+    "utc": "2026-11-16T11:57:54.470892+00:00",
+    "status": 200,
+    "final_url": "https://des.mod.uk/digital-sensor-shooter-upgrade/",
+    "mime": "text/html; charset=utf-8",
+    "bytes": 57388,
+    "sha256": "965d2769a6e474bd10a490b3bdf95d94afbb7a59cc1a1a54d9843dae4eb4ae35",
+    "drive_id": "1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop",
+    "drive_size_verified": 57388
+  },
+  {
+    "file": "R02_cgi.pdf",
+    "source_url": "https://www.cgi.com/sites/default/files/files_uk/brochures/fact_sheet_fc_bisa_approved_new.pdf",
+    "utc": "2026-11-16T11:57:59.711909+00:00",
+    "status": 200,
+    "final_url": "https://www.cgi.com/sites/default/files/files_uk/brochures/fact_sheet_fc_bisa_approved_new.pdf",
+    "mime": "application/pdf",
+    "bytes": 292950,
+    "sha256": "5473852c328ed7a3e863a78642aff7c710f73d7811e7256a66fa77de33e7a40c",
+    "drive_id": "1aJfacmUH9msy72k4AuYqE27UhYB6-oi1",
+    "drive_size_verified": 292950
+  },
+  {
+    "file": "R03_knds_rch.pdf",
+    "source_url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf",
+    "utc": "2026-11-16T11:58:03.625179+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "R04_agm.html",
+    "source_url": "https://knds.com/en/products/systems/agm",
+    "utc": "2026-11-16T11:58:32.688978+00:00",
+    "status": 200,
+    "final_url": "https://knds.com/en/products/systems/agm",
+    "mime": "text/html; charset=utf-8",
+    "bytes": 413693,
+    "sha256": "7482838ec5887d9c39a0b94579f66937742d4b6b60fde3f703b57ff123dc5253",
+    "drive_id": "1fJlGrKzyA8PjtszAq0t736SMSmHGO1fp",
+    "drive_size_verified": 413693
+  },
+  {
+    "file": "R05_bundeswehr.html",
+    "source_url": "https://www.bundeswehr.de/de/organisation/heer/faehigkeiten/artillerie-heer",
+    "utc": "2026-11-16T11:58:37.654260+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "R06_contract.html",
+    "source_url": "https://www.find-tender.service.gov.uk/Notice/064929-2026",
+    "utc": "2026-11-16T11:58:59.592516+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "R07_wales.html",
+    "source_url": "https://www.gwerthwchigymru.llyw.cymru/search/show/search_view.aspx?ID=JUL635764&catID=",
+    "utc": "2026-11-16T11:59:04.401056+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "R08_rch.html",
+    "source_url": "https://knds.com/en/products/systems/rch-155",
+    "utc": "2026-11-16T12:00:07.858909+00:00",
+    "status": 200,
+    "bytes": 455198,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452",
+    "drive_id": "1SyncNht5LD5h2pejSUgBLZIyx6JLwZg4",
+    "drive_size_verified": 455198
+  }
+]
