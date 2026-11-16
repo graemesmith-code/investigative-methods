@@ -1,0 +1,250 @@
+PATENTED AI-WEAPON SAFEGUARDS AND UK/EUROPEAN PROCUREMENT
+Recovered human briefing and technical checking package
+Graeme Smith | 16 November 2026 | Research cut-off:15 November 2026
+
+PRESERVATION NOTICE
+The research below was completed in five parallel documentary workstreams and an independent standards check. Its detailed report, ledger and downloaded evidence were assembled locally. The final publication call hung overnight. On recovery the new folder was missing from the available cloud workspace. Final publication to GitHub and evidence upload to Drive were not completed. This document reconstructs substantive findings and source links from retained research reports and tool outputs. It is NOT the missing original full query log, machine ledger, raw archive or hash manifest. Those must be recovered or reacquired before claiming a fully reproducible audit.
+
+Verified initial methods commit:
+https://github.com/graemesmith-code/investigative-methods/commit/cf992050a531ba6e1e910992928030cbc8fc4c63
+New private Drive folder exists, but evidence upload was NOT confirmed:
+https://drive.google.com/drive/folders/1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O
+
+PART I. HUMAN-READABLE FINDINGS
+
+BOTTOM LINE
+We moved beyond matching company names: we found inventors connected with programmes, named subsystems under contract, official patent-register facts and concrete requirements for testing changing AI. But no reviewed public document establishes that any of the seven purchased configurations incorporates the particular patented restraint. That remains a gap, not evidence that safeguards are absent.
+
+The question for a newspaper reader is what restraints the buyer actually required, which configuration passed independent testing, who controls later changes, and what outsiders can inspect. A patent is not a promise to install its invention. Withdrawal does not mean abandoning technology. The strongest accountability material concerns procurement and verification, not allegations inferred from patent status.
+
+1. KNDS / RCH155
+The official DPMA register records the German priority application DE102020127430.0 withdrawn/waived on5 August2025, published11 September2025. The hypothesis that KNDS kept this German application alive while dropping the European route is contradicted. We do not know why, or whether the protected-area function remains in RCH155.
+
+RENK's official2024 AGM biography attributes RCH155 development to patent inventor Axel Scheibel's R&D leadership. This is a genuine personnel/programme bridge. A firsthand artillery-association account identifies second inventor Matthias Czok as KMW development project leader. Neither proves the patented restricted-area safeguard is installed.
+
+KNDS describes an onboard fire-control computer with integrated ballistics and a customer-specified link to an artillery command system. We did not establish the exact computer/software baseline or whether no-fire-area enforcement occurs onboard, externally or both. Do not transfer PzH2000 arrangements to RCH155.
+
+2. KONGSBERG
+Kongsberg's2018 article identifies inventor Lars Egil Bjørset as PROTECTOR MCT product manager. MCT is not RS4 and this predates the2022 application. The2023 Typhon contract announcement identifies CORTEX Integrated Combat Solution, remote weapon stations and Teledyne FLIR components. It establishes named contracted architecture, not the patented authorization switches or lost-link arrangement.
+
+The January2022 disengagement invention and October2022 authorization invention are distinct applications. Shared subject matter/inventor does not prove consolidation or continuation. Earlier US abandonment remains an aggregator report, not an official prosecution conclusion.
+
+3. NAVAL GROUP
+INPI officially marks EP3812690 revoked in France, while separate FR3102239 records grant and a September2026 annuity payment. This is not merely inconsistent Google labels. However, central European revocation grounds/appeal and identical surviving French claims remain unverified. Atlas Elektronik's reported opposition is a lead, not a proven explanation.
+
+A separate contracted autonomy subsystem exists: ADMP in DGA underwater-drone demonstrator work. Naval says it follows operator-defined objectives, behavioural rules and permitted freedom. This does not connect the torpedo patent to F21MK2. Keep drone demonstrator, torpedo and patent separate. Dutch sources identify COMMIT, Maritime Warfare Centre and Submarine Service as accountability routes; F21 contract signature was15 June2026, not its16 June announcement.
+
+4. DIEHL
+INPI records grant and March2026 French annuities for EP3882560/61. That does not mean all family rights are active everywhere. German priority withdrawal remained an aggregator lead.
+
+The patents address cooperative friendly-identification signals and stopping an attack, including a separate transmitter in the companion invention. This is not general civilian recognition. No reviewed contract maps them to purchased IRIS-T variants. The original German BlockII announcement describes development and preparation for series readiness, not delivered capability.
+
+5. RAYTHEON
+Patent inventors Peggy Wu and Kunal Srivastava coauthored the2022 paper A Tiered Approach for Ethical AI Evaluation Metrics, identifying Raytheon Missiles & Defense funding and Naval Postgraduate School collaborators. That is actual research provenance, not a weapon acceptance test or ACTS adoption.
+
+The official ACTS award notice gives contract707414450, concluded29 June2026, Raytheon Systems UK, £1,946,794,337.67 excluding VAT. Raytheon describes a Combat Laboratory digital-twin layer and ethical oversight of AI analysis. ACTS is collective training, not procurement of an autonomous weapon; ethical oversight is not automatically the patent's reasoning mechanism.
+
+The separate firing-cutout patent has different inventors. No current UK/European launcher contract was connected to it. Operator removal of a protected object from a map is an interface fact, not proof of wrongdoing.
+
+6. BAE
+MBDA's December2025 production-contract article explicitly names BAE among participating organisations. Earlier emphasis on MBDA/QinetiQ/Leonardo was not proof BAE left DragonFire. No public source maps BAE's collateral-risk patent to the accepted configuration.
+
+Inventor Keith Rigby's2025 Royal Aeronautical Society biography describes patented safe-control work over unreliable communications and leadership of Rapid Stores Integration Capability, subsequently adopted into Pyramid Reference Architecture. It does not name this patent or DragonFire. His2025 affiliation is a consultancy, not necessarily current BAE employment. A2022 programme lists his aircraft laser integration presentation, not its slides/results.
+
+7. 21STRATEGIES / HELSING
+Inventor Christian Brandlhuber coauthored Thinking Before Sinking (2025) with Heiko Borchert and ATLAS's Jeronimo Dzaack. Its Black Pearl is a fictitious simulation scenario, not a delivered ship. A Hofstetter ethics-engineering study illustrates testable requirements including authorization, uncertainty information and unfamiliar-data testing; that is not proof GhostPlay@SEA passed them.
+
+Sim2Live Bridge/JATOC are useful named follow-up targets but described in development/future language. Helsing DE102025101672A1 includes a dependent no-engagement option, not necessarily an ethical veto or mandatory human approval. Its description permits deployed training but prefers simulation. Examiner citation of21strategies proves neither adoption, licensing nor partnership.
+
+ASSURANCE AND TRANSPARENCY
+JSP936 requires measures bounding behaviour, assessment across modes/autonomy levels, testing after updates and continuing assurance. It does not prescribe one universal patented interlock. Risk-managed tailoring exists, so ask which requirements/exceptions were accepted. DefStan00-055 software assurance matters alongside00-056 wider safety.
+
+The UK's2024 response says material changes make renewed Article36 review appropriate. It does not say every learning update automatically invalidates approval. Germany's public K-9000/102 calls for independent-personnel validation, revalidation after retraining and conformity assessment for substantial changes; in-mission updates follow successful revalidation.
+
+In Bundestag21/9054,10 November2026, the government refuses the specifically requested discrimination-testing details, including classified disclosure, subject to information already given. It also says the requested sensor/image/data-rate requirements are not unclassified. This is a concrete transparency boundary, not proof all scrutiny is barred or tests absent. Separate government answers from the AfD questioners' allegations.
+
+PART II. DETAILED TECHNICAL CHECKING NOTES
+
+FLAG DEFINITIONS
+official_status_verified refers only to stated register fields/jurisdiction, not all family rights/enforceability.
+inventor_paper_found means actual relevant paper, not biography/programme.
+named_subsystem_linked, strictly normalized, requires explicit particular-patent to subsystem linkage.
+contract_safeguard_confirmed requires explicit restraint incorporation in a purchased configuration.
+False means not established, not absent.
+
+All seven strict named_subsystem_linked and contract_safeguard_confirmed flags remain false. Relevant papers: Raytheon and21strategies. Official status fields: KNDS German priority, specified Naval/Diehl French records. Other contemporary status labels remain unverified.
+
+KNDS FAMILY / CLAIMS
+EP4229352A1 / US20230392899A1; priority19 October2020. German DE102020127430.0 published DE102020127430A1 on21 April2022. Inventors Axel Scheibel/Matthias Czok, Kassel. Holder KNDS Deutschland GmbH & Co.KG, Munich; name-change28 June2024. DPMA: one examination notice28 June2021, zero replies listed; withdrawal/waiver5 August2025. Cited US20150075359A1, WO2018026405A2, US20140251123A1, US7440610B1, US4949089A. No acquired examination text links an objection to claims13–14. Citation list is not proof of rejection.
+
+US18/032,275: Google reports abandonment26 July2025 for failure to respond after January2025 non-final action. Official Patent Center403. Initial mistakenly entered18/186,201 URL supplies no evidence.
+Aggregator inventory: DE102020127430A1, WO2022083822A1, EP4229352A1, US20230392899A1, CA3193896A1, AU2021366077A1, KR20230106595A, IL301614A. International filing6 October2021; EP publication23 August2023/application21799175. Official linked data established bibliographic mapping, not current status. No GB/FR/NO member identified in that inventory; not exhaustive negative register search.
+Dependent13–14 restrict firing solutions in protected areas. Do not assign dependent limitations to all embodiments/products.
+
+KONGSBERG FAMILY / CLAIMS
+US11946710B1: Pål Longva Hellum; application17/958,945; priority/filing3 October2022; grant2 April2024. Same-application US20240110756A1 published4 April2024. PCT/EP2023/077243 filed2 October2023; WO2024074456A1 published11 April2024. EP4599207A1 published13 August2025/application23783809.9. Official metadata verified, current disposition not.
+Other aggregator members: CA3268069A1, AU2023355694A1/B2, KR20250122455A, JP2025535001A, IL319762A. DE602023022735T2 anomalous lead unreconciled; not verified grant/validation.
+US20230229794A1 is distinct17/577,068, priority17 January2022; Hellum/Bjørset. PCT/EP2023/050868 filed16 January2023; WO2023135296A1. Google abandonment24 November2025 unverified. No consolidation/continuation established.
+US11946710 separates activation, human authorization/arming and trigger functions; dependent14 hardware barrier. Installation in purchased RS4/Typhon unverified. Earlier patent covers disengagement/lost-link behaviour, different family.
+
+NAVAL FAMILY / CLAIMS
+FR1911740 priority21 October2019; Vincent Geiger; Naval Group. Family FR3102239A1/B1 and EP3812690A1/B1. INPI French grant29 October2021; eighth annuity9 September2026; next displayed due2 November2027. EP title revoked in France; grant1 November2023; last displayed annuity12 September2024. Scope of official verification limited to these fields.
+Official EPB1 XML was acquired. Dependent3 unwanted-attack rules;4 onboard guidance if carrier link breaks;5 carrier information priority (dependent on3);6 neural-network learning. Lost link is not simply abort.
+French national claims not acquired due CAPTCHA; identical claims3–5 unverified. EPO central decision/appeal not acquired. Atlas opposition effective1 August2024 is aggregator lead only.
+ADMP DGA28 December2023 framework/first24-month follow-on announced30 January2024; UCUV demonstrator/planning/safe navigation, not verified F21 implementation. Dutch contract15 June2026; deliveries with Orka boats starting2033 described in30 June interview.
+
+DIEHL FAMILY / CLAIMS
+Separate priorities DE102020001850.5 (EP3882560) and DE102020001852.1 (EP3882561),20 March2020. EP filed12 March2021; A1 published22 September2021; B1 grants31 August2022. Robert Weysser, Arno Hahma, Dieter Frieauff; Diehl Defence. INPI sixth annuities23 March2026; next due31 March2027. Israeli281523/281525 grant leads not officially examined. EP designations are not separate national grants.
+German January2025 release describes December2024 development/series-readiness with Germany/Sweden/Spain/Italy. February2026 purchases do not name patent mechanisms. Friend-ID abort does not establish civilian recognition or machine learning.
+
+RAYTHEON FAMILY / CLAIMS
+Ethical machine US20220351073A1 priority/filing3 May2021; Wu/Srivastava. PCT/US2022/023522 filed5 April2022, WO2022235366A1, EP4334843A1 published13 March2024. AU2022270031A1/KR20240000576A/JP7652496B2 aggregator leads not individually audited. EPO XML bibliographic-only. Pending labels not authoritative current disposition.
+Cutout US20230056472A1 priority/filing19 August2021; Julie A.Graham/Brian A.Gin/Emile M.Szlemko. PCT/US2022/040760 and EP filing18 August2022; WO2023023253A1 published23 February2023; EP4388269A1 published26 June2024. US abandoned/EP pending unverified. Dependent5/12/19 add launch withholding; scene-machine name is a patent descriptor, not verified sold component. Operator protected-object map removal does not prove misconduct. US10139196 same-inventor marksman architecture only a lead.
+2022 paper: Wu, Brett Israelsen, Srivastava, Hsin-Fu Wu, Robert Grabowski. Research funding/affiliations not ACTS adoption.
+ACTS707414450:29 June2026; £1,946,794,337.67 exVAT; two tenders; dispatched13/published14 August2026; Raytheon Systems UK. Fifteen-year collective-training delivery following development. No patented ethical-machine acceptance specification acquired.
+
+BAE FAMILY / CLAIMS
+US11473880B2: Nicholas Giacomo Robert Colosimo/Keith Antony Rigby; priority13 June2018; PCT13 June2019; US publication15 July2021; grant18 October2022. Collateral-risk condition dependent10. Aircraft example cannot silently become shipborne DragonFire.
+US11422549B2: Marc Damien Ridings/Jonathan Gareth Rea/Matthew Jordan Simpson/Grant Andrew Chapman; priority18 January2017; PCT11 January2018; US publication31 October2019; grant23 August2022. Claim1 allocates automation/mandated approval at decision points and addresses communications; not universal veto.
+US active/maintenance events aggregator-only; official403. Related UAV GB2558919A/EP3571559A1 withdrawn and WO2018134565A1 ceased unverified labels. Laser GB201809667D0 ceased/termination26 February2020 and EP3581875A1 ceased likewise do not establish invention abandoned when other routes continued. Full amendments unacquired.
+MBDA names BAE production participation. Dstl2024 trial approvals do not disclose patent/test connection. £708m FCAS2026 and ACP interface strategy are broad overlaps.
+Rigby2025 biography lists consultancy, patented safe control over unreliable links, Rapid Stores Integration Capability/Pyramid Reference Architecture; no patent number/DragonFire.2022 programme is presentation listing, not paper.
+
+21STRATEGIES / HELSING
+EP4293311A1 filed14 June2022/published20 December2023; Christian Brandlhuber/Yvonne Hofstetter/Scott John Muller;21strategies GmbH. Single-EP aggregator inventory not exhaustive family proof; designated states not national grants. Official EPO403.
+Brandlhuber/Borchert/Dzaack2025 naval study fictitious simulation. GhostPlay project1 September2021–31 December2026; lifelong-learning/ethics/transfer goals. ISO/IEC/IEEE24748-7000:2022 product claim not independently audited restraint. Sim2Live/JATOC future/development language.
+Bundestag21/5159 dated2 April2026; Q52 answer30 March. Broader digital-twin procurement/contacts answer partly classified VS-NUR FÜR DEN DIENSTGEBRAUCH, available to authorized parliamentarians. Does not prove GhostPlay safeguard results specifically classified.
+Helsing DE102025101672A1 priority/filing17 January2025/publication23 July2026; Felix Sittenauer/Keesiu Wong/Morgane Ayle/Thomas Brunner. PCT/EP2026/051080 filed16 January2026; WO2026154134A1 text inaccessible. DPMA401; pending aggregator-only. All15 German claims read. Claim3 no-engagement option;9–12 training;13–15 system/software forms. No explicit mandatory human approval established. Description permits deployed training but prefers simulation. Examiner-marked citation not adoption.
+
+EXACT ASSURANCE PROVISIONS
+JSP936 Part1 V1.1 November2024 intro3 distinguishes must/should;17–18 risk-managed tailoring;23 DefStan00-055 software/00-056 wider-system safety;75 behaviour bounds;125 allocation across all modes/autonomy;170–172 operating domain/safe out-of-domain behaviour and regression testing after training updates;175–181 builds/host changes/limits/monitoring/continued assurance.
+UK February2024 response23–26: layered controls including training/procedures, material changes warrant re-review, learned behaviour challenges. No universal automatic-invalidity rule.
+DefStan00-056 Part01Issue8 official attachment403; ASEMS503; full standards not read or proven incorporated.
+German K-9000/102 effective9 April2026:3.3.3.2 independent-personnel validation/retraining revalidation;3.3.4.1 in-mission updates after revalidation;3.3.4.2 conformity assessment first use/substantial changes, separate legal review;2.3 human control not identical interaction every use. Read public web extraction, original PDF failed; not a raw archived PDF.
+Bundestag21/9054 answers4,7/9,10: bounded classification/refusal, human authorization statement, not acceptance-test evidence or proof of no oversight.
+NATO2024 strategy lists governability and calls for standards/testing; not proof a patent restraint mandated in procurement.
+
+PART III. DIRECT SOURCES FOR RECHECKING
+
+S01 DPMA official German priority:
+https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300
+S02 KNDS US aggregator:
+https://patents.google.com/patent/US20230392899A1/en
+S03 RCH155 manufacturer:
+https://knds.com/de/produkte/systeme/rch-155
+S04 RENK2024 AGM biography PDFp10:
+https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557
+S05 Firsthand artillery association visit:
+https://www.freundeskreis-artillerietruppe.de/Neuigkeiten/
+S06 Bjørset/MCT:
+https://www.kongsberg.com/news/stories/2018/9/technology-award-mct/
+S07 Typhon architecture:
+https://www.kongsberg.com/news/news-archive/2023/international-fund-for-ukraine-orders-multiple-c-uas-air-defence-systems-from-kongsberg/
+S08 Attributed Kongsberg executive interview:
+https://www.nationaldefensemagazine.org/articles/2024/6/18/kongsbergs-counter-drone-secret-sauce-refined-in-ukraine
+S09 INPI Naval national:
+https://data.inpi.fr/brevets/FR3102239
+S10 INPI Naval EP inFrance:
+https://data.inpi.fr/brevets/EP3812690
+S11 Naval ADMP/DGA:
+https://www.naval-group.com/sites/default/files/2024-01/PR_20240130_Naval%20Group%20to%20produce%20an%20autonomous%20underwater%20drone%20demonstrator%20for%20the%20French%20Defence%20Procurement%20Agency.pdf
+S12 Dutch F21 selection:
+https://www.defensie.nl/actueel/nieuws/2026/03/03/nieuwe-onderzeeboten-direct-voorzien-van-geavanceerde-torpedo
+S13 Dutch signing announcement:
+https://www.defensie.nl/actueel/nieuws/2026/06/16/f21-torpedo-onderdeel-van-toekomstige-orka-klasse
+S14 Dutch procurement interview:
+https://www.defensie.nl/magazines/materieelgezien/2026/editie-5/f21-torpedo-een-feit
+S15–16 Diehl INPI:
+https://data.inpi.fr/brevets/EP3882560
+https://data.inpi.fr/brevets/EP3882561
+S17 Diehl original German BlockII:
+https://new.diehl.com/defence/de/presse-medien/news/vertrag-zur-weiterentwicklung-von-iris-t-block-ii-unterzeichnet
+S18 Diehl subsequent purchase:
+https://new.diehl.com/defence/en/press-media/news/contracts-for-iris-t-guided-missiles-signed-with-baainbw
+S19 Wu/Srivastava paper:
+https://savage.nps.edu/EthicalControl/documentation/papers/SSS-22_paper_117_TieredApproachEthicalAIEvaluationMetrics.pdf
+S20 ACTS official award:
+https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG648236&catID=
+S21 Raytheon ACTS:
+https://www.raytheon.co.uk/news/2026/07/16/omnia-training-secures-contract-to-transform-british-army-training
+S22 MoD ACTS:
+https://www.gov.uk/government/news/ai-battle-lab-to-prepare-british-army-for-modern-warfare
+S23 MBDA BAE participation:
+https://www.mbda-systems.com/uk-defence-minister-visits-mbda-dragonfire-laser-weapon-contract-announcement
+S24 Dstl trial:
+https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first
+S25 FCAS:
+https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology
+S26 ACP:
+https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf
+S27 Rigby2022:
+https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf
+S28 Rigby2025 PDFp24:
+https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf
+S29 Brandlhuber naval study:
+https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf
+S30 Official GhostPlay:
+https://dtecbw.de/home/forschung/hsu/projekt-ghostplay
+S31 Product claims:
+https://www.ghostplay.ai/product/
+S32 Sim2Live/JATOC:
+https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/
+S33 Bundestag21/5159:
+https://dserver.bundestag.de/btd/21/051/2105159.pdf
+S34 Helsing:
+https://patents.google.com/patent/DE102025101672A1/de
+S35 JSP936:
+https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+S36 UK2024 response:
+https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf
+S37 German policy (directPDF failed; web extraction read):
+https://www.bmvg.de/resource/blob/6143700/9954e2b6b993b17cd3d09ca31c506774/dl-ki-konzeption-data.pdf
+S38 Bundestag21/9054:
+https://dserver.bundestag.de/btd/21/090/2109054.pdf
+S39 NATO2024:
+https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2024/07/10/summary-of-natos-revised-artificial-intelligence-ai-strategy
+
+PART IV. UNSENT QUESTIONS
+No outreach was made.
+
+UK MoD/DE&S/Dstl: Which software version, modes, optional autonomy and lost-link states were assessed underJSP936? What tailoring applied? Which00-055/00-056 issues were contracted, and who independently accepted the safety case? What triggers renewed assurance/Article36 review? Are the patents implemented, equivalent controls used, or neither? What non-sensitive test summary can be released?
+
+BMVg/BAAINBw/OCCAR: How do human authorization and context-dependent interaction policies apply to purchased configurations? Who outside development validates changes? What scrutiny remains despite the specific disclosure refusal? Where are RCH155 protected-area constraints enforced and accepted?
+
+KNDS: Can Scheibel/Czok identify the accepted fire-control baseline, protected-area requirement and independent tests? Why were filings withdrawn, and what is officialUS disposition? No presumption technology abandoned.
+
+Kongsberg: Does any deliveredRS4/Typhon implement either invention? What human authorization scope is verified, by which test authority/version? Are earlier application continuations or surviving national rights present?
+
+Naval/DGA/COMMIT: What is finalEP decision/appeal and survivingFR claim difference? Which function is inF21MK2,ADMP or neither? What evidence constrains unwanted attacks after loss of communications? Who accepts Dutch baseline?
+
+Diehl/BAAINBw: Which ordered variants implement friendly-abort patents, if any? What independent qualification evidence exists? If different design, how does it address same risk? Separate readiness development from delivery.
+
+Raytheon/MoD: DoesACTS useWu/Srivastava work, or different ethical oversight? Which deliverable specifies evaluation and acceptance? Separately, which launcher uses cutout invention and how are operator map changes assured?
+
+BAE/Rigby: Which patents/architecture does2025 biography mean? Delivered system or earlier research? What exactDragonFire/FCAS role and safety requirement connects to these inventions, if any?
+
+21strategies/ATLAS: Which outputs advanced from simulation to physical test to acceptance? What independently tested constraints result from value-based engineering? Which changes/learning updates require reapproval?
+
+Helsing: Is no-engagement a tactical choice, safety restriction or both? Is described deployed training used in delivered equipment? What assurance governs updates? Citation alone is not adoption.
+
+PART V. METHODS, LIMITS AND CHECKER INSTRUCTIONS
+
+The original run used targeted multilingual queries, official registers/metadata, public procurement/company papers and parliamentary sources. It separated patent, inventor, demonstrator, award, delivery and accepted configuration; originals from rendered extracts; dependent from independent claims. An independent check refined the standards conclusions to includeJSP75 behaviour bounds,17–18 tailoring and00-055 software standards.
+
+Before interruption, the assembled package reported45 patent-family/lead records (not45 fully audited families),34 selected source rows,42 sourceURLs with archive/log association,132 query records including batches/repeats,211 files and a25,860,067-byte ZIP. These numbers describe a package previously assembled, not full records recoverable in thisTXT. Its original complete manifest and logs are missing; they are not fabricated here.
+
+Not every early query timestamp was captured exactly; missing/reconstructed intervals were labelled. Engines often did not expose exhaustive result totals. Null was not zero. Raw originals sometimes failed while rendered extracts were available. Full family/prosecution review, exact counterpart claim equivalence, independent acceptance tests, contract-tailored standards and complete transition histories remained incomplete even before the preservation failure.
+
+Access limits includedEPO403,USPTO403,HelsingDPMA401,INPI documentCAPTCHA,Find-a-Tender403 (separate public Welsh notice worked),DefStan403,ASEMS503,GermanPDF timeout/404,Google patent503,SPIE200 security wrapper. No bypass/accounts/payment/outreach.
+
+FOR INDEPENDENT CHECKING:
+1. Re-fetch exact sources and official registers; logUTC/status/MIME/bytes/SHA256. A200 security wrapper is not a document.
+2. Reconstruct exact members and dates. EP designations are not national grants; family claims may differ.
+3. Obtain decisions before assigning prosecution objections/motives. Withdrawal is not product abandonment.
+4. Require explicit patent/subsystem/configuration evidence. Biography and ethics marketing do not establish implementation.
+5. Distinguish supplier assurance from independent tests; award/delivery/acceptance; simulation/physical demonstration; each variant.
+6. Check must/should, tailoring, contractual incorporation and update review. No universal automatic-invalidity inference.
+7. Keep the German refusal limited to the requested information; do not infer absent tests or total oversight failure.
+8. Restore full logs and raw copies before claiming a complete reproducible audit. This is a recovered substantive package, not an intact original evidence ledger.
+
+END
