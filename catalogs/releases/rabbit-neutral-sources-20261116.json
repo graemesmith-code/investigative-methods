@@ -1,0 +1,2290 @@
+{
+  "release_id": "rabbit-neutral-sources-20261116",
+  "recorded_at": "2026-11-16T12:28:23.126Z",
+  "approval": {
+    "approved_by": "Catalog owner",
+    "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+    "recorded_at": "2026-11-16T12:28:23.126Z",
+    "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+  },
+  "baseline_sources": 1555,
+  "resulting_sources": 1573,
+  "resulting_access_methods": 2539,
+  "events": [
+    {
+      "id": "RELEASE-PROP-b08ee152-2037-4387-a727-afe0d929af29",
+      "proposal_id": "PROP-b08ee152-2037-4387-a727-afe0d929af29",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "FinePDFs — archived public-document discovery",
+        "proposal_id": "PROP-b08ee152-2037-4387-a727-afe0d929af29",
+        "evidence_url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+        "note": "A multilingual corpus of text extracted from public web PDFs, distributed as data files with source URLs and collection metadata. Useful for finding documents across sites and languages. Extracted text may contain errors; dates describe collection rather than publication. Consult the original publisher before relying on or republishing a document.",
+        "submitted_at": "2026-11-16T12:11:27.415Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "FinePDFs — archived public-document discovery",
+          "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+          "organization": "Hugging Face FineData team / Common Crawl-derived corpus",
+          "country": "Global",
+          "topic": "Politics, law & archives",
+          "access": [
+            "Bulk / download"
+          ],
+          "summary": "A multilingual corpus of text extracted from public web PDFs, distributed as data files with source URLs and collection metadata. Useful for finding documents across sites and languages. Extracted text may contain errors; dates describe collection rather than publication. Consult the original publisher before relying on or republishing a document.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-b08ee152-2037-4387-a727-afe0d929af29",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "FinePDFs — archived public-document discovery",
+              "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+              "organization": "Hugging Face FineData team / Common Crawl-derived corpus",
+              "country": "Global",
+              "topic": "Politics, law & archives",
+              "access": "Bulk / download",
+              "note": "A multilingual corpus of text extracted from public web PDFs, distributed as data files with source URLs and collection metadata. Useful for finding documents across sites and languages. Extracted text may contain errors; dates describe collection rather than publication. Consult the original publisher before relying on or republishing a document.",
+              "evidence_url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs"
+            }
+          },
+          "id": "SYS-ADD-b08ee152-2037-4387-a727-afe0d929af29",
+          "apIds": [
+            "AP-ADD-b08ee152-2037-4387-a727-afe0d929af29"
+          ],
+          "publisher": "Hugging Face FineData team / Common Crawl-derived corpus"
+        },
+        "method": {
+          "name": "FinePDFs — archived public-document discovery",
+          "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+          "organization": "Hugging Face FineData team / Common Crawl-derived corpus",
+          "country": "Global",
+          "topic": "Politics, law & archives",
+          "access": [
+            "Bulk / download"
+          ],
+          "summary": "A multilingual corpus of text extracted from public web PDFs, distributed as data files with source URLs and collection metadata. Useful for finding documents across sites and languages. Extracted text may contain errors; dates describe collection rather than publication. Consult the original publisher before relying on or republishing a document.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-b08ee152-2037-4387-a727-afe0d929af29",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "FinePDFs — archived public-document discovery",
+              "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+              "organization": "Hugging Face FineData team / Common Crawl-derived corpus",
+              "country": "Global",
+              "topic": "Politics, law & archives",
+              "access": "Bulk / download",
+              "note": "A multilingual corpus of text extracted from public web PDFs, distributed as data files with source URLs and collection metadata. Useful for finding documents across sites and languages. Extracted text may contain errors; dates describe collection rather than publication. Consult the original publisher before relying on or republishing a document.",
+              "evidence_url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs"
+            }
+          },
+          "id": "AP-ADD-b08ee152-2037-4387-a727-afe0d929af29",
+          "systemId": "SYS-ADD-b08ee152-2037-4387-a727-afe0d929af29",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-b08ee152-2037-4387-a727-afe0d929af29",
+            "systemId": "SYS-ADD-b08ee152-2037-4387-a727-afe0d929af29",
+            "country": "Global",
+            "topic": "Freedom-of-information releases & archives",
+            "detail": "FinePDFs — archived public-document discovery",
+            "provenance": {
+              "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+      "proposal_id": "PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "WMATA historical ridership data",
+        "proposal_id": "PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+        "evidence_url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+        "note": "Historical Washington Metro station-entry data with dates, stations and time periods. Downloads support comparisons over time. Publication delays and revisions apply. Entries measure passenger trips, not the number of people working in nearby buildings.",
+        "submitted_at": "2026-11-16T12:11:28.759Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "WMATA historical ridership data",
+          "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+          "organization": "Washington Metropolitan Area Transit Authority",
+          "country": "United States",
+          "topic": "Transport & infrastructure",
+          "access": [
+            "Search / web portal; CSV exports"
+          ],
+          "summary": "Historical Washington Metro station-entry data with dates, stations and time periods. Downloads support comparisons over time. Publication delays and revisions apply. Entries measure passenger trips, not the number of people working in nearby buildings.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "WMATA historical ridership data",
+              "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+              "organization": "Washington Metropolitan Area Transit Authority",
+              "country": "United States",
+              "topic": "Transport & infrastructure",
+              "access": "Search / web portal; CSV exports",
+              "note": "Historical Washington Metro station-entry data with dates, stations and time periods. Downloads support comparisons over time. Publication delays and revisions apply. Entries measure passenger trips, not the number of people working in nearby buildings.",
+              "evidence_url": "https://www.wmata.com/about/open-data-hub/ridership-data.html"
+            }
+          },
+          "id": "SYS-ADD-90643255-2c43-4124-b3b6-4188a06d62ae",
+          "apIds": [
+            "AP-ADD-90643255-2c43-4124-b3b6-4188a06d62ae"
+          ],
+          "publisher": "Washington Metropolitan Area Transit Authority"
+        },
+        "method": {
+          "name": "WMATA historical ridership data",
+          "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+          "organization": "Washington Metropolitan Area Transit Authority",
+          "country": "United States",
+          "topic": "Transport & infrastructure",
+          "access": [
+            "Search / web portal; CSV exports"
+          ],
+          "summary": "Historical Washington Metro station-entry data with dates, stations and time periods. Downloads support comparisons over time. Publication delays and revisions apply. Entries measure passenger trips, not the number of people working in nearby buildings.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "WMATA historical ridership data",
+              "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+              "organization": "Washington Metropolitan Area Transit Authority",
+              "country": "United States",
+              "topic": "Transport & infrastructure",
+              "access": "Search / web portal; CSV exports",
+              "note": "Historical Washington Metro station-entry data with dates, stations and time periods. Downloads support comparisons over time. Publication delays and revisions apply. Entries measure passenger trips, not the number of people working in nearby buildings.",
+              "evidence_url": "https://www.wmata.com/about/open-data-hub/ridership-data.html"
+            }
+          },
+          "id": "AP-ADD-90643255-2c43-4124-b3b6-4188a06d62ae",
+          "systemId": "SYS-ADD-90643255-2c43-4124-b3b6-4188a06d62ae",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-90643255-2c43-4124-b3b6-4188a06d62ae",
+            "systemId": "SYS-ADD-90643255-2c43-4124-b3b6-4188a06d62ae",
+            "country": "United States",
+            "topic": "Other public records & reference data",
+            "detail": "WMATA historical ridership data",
+            "provenance": {
+              "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+      "proposal_id": "PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "US defence daily contract announcements",
+        "proposal_id": "PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+        "evidence_url": "https://www.defense.gov/News/Contracts/",
+        "note": "Official daily announcements of selected US defence contracts, with recipients, descriptions and stated values. These are announcement summaries, not a complete transaction ledger. Contract ceilings, obligations and payments are different measures; website and archive access can vary.",
+        "submitted_at": "2026-11-16T12:11:30.082Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "US defence daily contract announcements",
+          "url": "https://www.defense.gov/News/Contracts/",
+          "organization": "US Department of Defense / current War.gov publisher",
+          "country": "United States",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "Website / RSS; archived pages"
+          ],
+          "summary": "Official daily announcements of selected US defence contracts, with recipients, descriptions and stated values. These are announcement summaries, not a complete transaction ledger. Contract ceilings, obligations and payments are different measures; website and archive access can vary.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.defense.gov/News/Contracts/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "US defence daily contract announcements",
+              "url": "https://www.defense.gov/News/Contracts/",
+              "organization": "US Department of Defense / current War.gov publisher",
+              "country": "United States",
+              "topic": "Procurement, spending & aid",
+              "access": "Website / RSS; archived pages",
+              "note": "Official daily announcements of selected US defence contracts, with recipients, descriptions and stated values. These are announcement summaries, not a complete transaction ledger. Contract ceilings, obligations and payments are different measures; website and archive access can vary.",
+              "evidence_url": "https://www.defense.gov/News/Contracts/"
+            }
+          },
+          "id": "SYS-ADD-15ca3549-477c-4f20-a354-a2de228ce43c",
+          "apIds": [
+            "AP-ADD-15ca3549-477c-4f20-a354-a2de228ce43c"
+          ],
+          "publisher": "US Department of Defense / current War.gov publisher"
+        },
+        "method": {
+          "name": "US defence daily contract announcements",
+          "url": "https://www.defense.gov/News/Contracts/",
+          "organization": "US Department of Defense / current War.gov publisher",
+          "country": "United States",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "Website / RSS; archived pages"
+          ],
+          "summary": "Official daily announcements of selected US defence contracts, with recipients, descriptions and stated values. These are announcement summaries, not a complete transaction ledger. Contract ceilings, obligations and payments are different measures; website and archive access can vary.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.defense.gov/News/Contracts/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "US defence daily contract announcements",
+              "url": "https://www.defense.gov/News/Contracts/",
+              "organization": "US Department of Defense / current War.gov publisher",
+              "country": "United States",
+              "topic": "Procurement, spending & aid",
+              "access": "Website / RSS; archived pages",
+              "note": "Official daily announcements of selected US defence contracts, with recipients, descriptions and stated values. These are announcement summaries, not a complete transaction ledger. Contract ceilings, obligations and payments are different measures; website and archive access can vary.",
+              "evidence_url": "https://www.defense.gov/News/Contracts/"
+            }
+          },
+          "id": "AP-ADD-15ca3549-477c-4f20-a354-a2de228ce43c",
+          "systemId": "SYS-ADD-15ca3549-477c-4f20-a354-a2de228ce43c",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-15ca3549-477c-4f20-a354-a2de228ce43c",
+            "systemId": "SYS-ADD-15ca3549-477c-4f20-a354-a2de228ce43c",
+            "country": "United States",
+            "topic": "Procurement, contracts & public spending",
+            "detail": "US defence daily contract announcements",
+            "provenance": {
+              "url": "https://www.defense.gov/News/Contracts/",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+      "proposal_id": "PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "OMB Public Budget Database and account tables",
+        "proposal_id": "PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+        "evidence_url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+        "note": "Federal budget account tables covering budget authority, outlays and receipts, with fiscal years and budget vintages. Downloadable spreadsheets support account-level comparisons. Proposed amounts, enacted authority and actual spending must be distinguished; the tables do not identify every recipient.",
+        "submitted_at": "2026-11-16T12:11:32.088Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "OMB Public Budget Database and account tables",
+          "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+          "organization": "US Office of Management and Budget",
+          "country": "United States",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "Bulk / download"
+          ],
+          "summary": "Federal budget account tables covering budget authority, outlays and receipts, with fiscal years and budget vintages. Downloadable spreadsheets support account-level comparisons. Proposed amounts, enacted authority and actual spending must be distinguished; the tables do not identify every recipient.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "OMB Public Budget Database and account tables",
+              "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+              "organization": "US Office of Management and Budget",
+              "country": "United States",
+              "topic": "Procurement, spending & aid",
+              "access": "Bulk / download",
+              "note": "Federal budget account tables covering budget authority, outlays and receipts, with fiscal years and budget vintages. Downloadable spreadsheets support account-level comparisons. Proposed amounts, enacted authority and actual spending must be distinguished; the tables do not identify every recipient.",
+              "evidence_url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/"
+            }
+          },
+          "id": "SYS-ADD-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+          "apIds": [
+            "AP-ADD-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7"
+          ],
+          "publisher": "US Office of Management and Budget"
+        },
+        "method": {
+          "name": "OMB Public Budget Database and account tables",
+          "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+          "organization": "US Office of Management and Budget",
+          "country": "United States",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "Bulk / download"
+          ],
+          "summary": "Federal budget account tables covering budget authority, outlays and receipts, with fiscal years and budget vintages. Downloadable spreadsheets support account-level comparisons. Proposed amounts, enacted authority and actual spending must be distinguished; the tables do not identify every recipient.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "OMB Public Budget Database and account tables",
+              "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+              "organization": "US Office of Management and Budget",
+              "country": "United States",
+              "topic": "Procurement, spending & aid",
+              "access": "Bulk / download",
+              "note": "Federal budget account tables covering budget authority, outlays and receipts, with fiscal years and budget vintages. Downloadable spreadsheets support account-level comparisons. Proposed amounts, enacted authority and actual spending must be distinguished; the tables do not identify every recipient.",
+              "evidence_url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/"
+            }
+          },
+          "id": "AP-ADD-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+          "systemId": "SYS-ADD-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+            "systemId": "SYS-ADD-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+            "country": "United States",
+            "topic": "Procurement, contracts & public spending",
+            "detail": "OMB Public Budget Database and account tables",
+            "provenance": {
+              "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+      "proposal_id": "PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Alberta Geological Survey earthquake catalogue",
+        "proposal_id": "PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+        "evidence_url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+        "note": "An Alberta earthquake-event catalogue with locations, event times and available magnitude information. The map service supports geographic queries. Magnitude types and missing fields vary; a missing magnitude is not evidence that an event was small. Event times do not establish when an operator received a warning.",
+        "submitted_at": "2026-11-16T12:11:34.279Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Alberta Geological Survey earthquake catalogue",
+          "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+          "organization": "Alberta Geological Survey / Alberta Energy Regulator",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "API / web service; downloads"
+          ],
+          "summary": "An Alberta earthquake-event catalogue with locations, event times and available magnitude information. The map service supports geographic queries. Magnitude types and missing fields vary; a missing magnitude is not evidence that an event was small. Event times do not establish when an operator received a warning.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Alberta Geological Survey earthquake catalogue",
+              "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+              "organization": "Alberta Geological Survey / Alberta Energy Regulator",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "API / web service; downloads",
+              "note": "An Alberta earthquake-event catalogue with locations, event times and available magnitude information. The map service supports geographic queries. Magnitude types and missing fields vary; a missing magnitude is not evidence that an event was small. Event times do not establish when an operator received a warning.",
+              "evidence_url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes"
+            }
+          },
+          "id": "SYS-ADD-37c95583-51d5-46af-9c7d-783fa4e5a510",
+          "apIds": [
+            "AP-ADD-37c95583-51d5-46af-9c7d-783fa4e5a510"
+          ],
+          "publisher": "Alberta Geological Survey / Alberta Energy Regulator"
+        },
+        "method": {
+          "name": "Alberta Geological Survey earthquake catalogue",
+          "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+          "organization": "Alberta Geological Survey / Alberta Energy Regulator",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "API / web service; downloads"
+          ],
+          "summary": "An Alberta earthquake-event catalogue with locations, event times and available magnitude information. The map service supports geographic queries. Magnitude types and missing fields vary; a missing magnitude is not evidence that an event was small. Event times do not establish when an operator received a warning.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Alberta Geological Survey earthquake catalogue",
+              "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+              "organization": "Alberta Geological Survey / Alberta Energy Regulator",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "API / web service; downloads",
+              "note": "An Alberta earthquake-event catalogue with locations, event times and available magnitude information. The map service supports geographic queries. Magnitude types and missing fields vary; a missing magnitude is not evidence that an event was small. Event times do not establish when an operator received a warning.",
+              "evidence_url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes"
+            }
+          },
+          "id": "AP-ADD-37c95583-51d5-46af-9c7d-783fa4e5a510",
+          "systemId": "SYS-ADD-37c95583-51d5-46af-9c7d-783fa4e5a510",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-37c95583-51d5-46af-9c7d-783fa4e5a510",
+            "systemId": "SYS-ADD-37c95583-51d5-46af-9c7d-783fa4e5a510",
+            "country": "Canada — Alberta",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "Alberta Geological Survey earthquake catalogue",
+            "provenance": {
+              "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+      "proposal_id": "PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Earthquakes Canada event catalogue",
+        "proposal_id": "PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+        "evidence_url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+        "note": "Canada’s searchable earthquake catalogue, with event times, locations and available magnitude details. Search and event-detail identifiers may use different formats. Preserve magnitude type and update dates. Event occurrence is separate from warning or notification time.",
+        "submitted_at": "2026-11-16T12:11:36.389Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Earthquakes Canada event catalogue",
+          "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+          "organization": "Natural Resources Canada",
+          "country": "Canada",
+          "topic": "Environment & natural resources",
+          "access": [
+            "API / web service; text and QuakeML"
+          ],
+          "summary": "Canada’s searchable earthquake catalogue, with event times, locations and available magnitude details. Search and event-detail identifiers may use different formats. Preserve magnitude type and update dates. Event occurrence is separate from warning or notification time.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Earthquakes Canada event catalogue",
+              "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+              "organization": "Natural Resources Canada",
+              "country": "Canada",
+              "topic": "Environment & natural resources",
+              "access": "API / web service; text and QuakeML",
+              "note": "Canada’s searchable earthquake catalogue, with event times, locations and available magnitude details. Search and event-detail identifiers may use different formats. Preserve magnitude type and update dates. Event occurrence is separate from warning or notification time.",
+              "evidence_url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php"
+            }
+          },
+          "id": "SYS-ADD-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+          "apIds": [
+            "AP-ADD-de5d9fd1-d2d8-4437-8d01-e01a1e36c510"
+          ],
+          "publisher": "Natural Resources Canada"
+        },
+        "method": {
+          "name": "Earthquakes Canada event catalogue",
+          "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+          "organization": "Natural Resources Canada",
+          "country": "Canada",
+          "topic": "Environment & natural resources",
+          "access": [
+            "API / web service; text and QuakeML"
+          ],
+          "summary": "Canada’s searchable earthquake catalogue, with event times, locations and available magnitude details. Search and event-detail identifiers may use different formats. Preserve magnitude type and update dates. Event occurrence is separate from warning or notification time.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Earthquakes Canada event catalogue",
+              "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+              "organization": "Natural Resources Canada",
+              "country": "Canada",
+              "topic": "Environment & natural resources",
+              "access": "API / web service; text and QuakeML",
+              "note": "Canada’s searchable earthquake catalogue, with event times, locations and available magnitude details. Search and event-detail identifiers may use different formats. Preserve magnitude type and update dates. Event occurrence is separate from warning or notification time.",
+              "evidence_url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php"
+            }
+          },
+          "id": "AP-ADD-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+          "systemId": "SYS-ADD-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+            "systemId": "SYS-ADD-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+            "country": "Canada",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "Earthquakes Canada event catalogue",
+            "provenance": {
+              "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+      "proposal_id": "PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Petrinex public infrastructure and monthly volumes",
+        "proposal_id": "PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+        "evidence_url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+        "note": "Public Alberta petroleum infrastructure records and monthly reported volumes, including facility and operating information. Dated files support comparisons across reporting periods. Monthly volumes are not the times of individual operations, and missing matches can reflect identifier or coverage differences.",
+        "submitted_at": "2026-11-16T12:11:38.090Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Petrinex public infrastructure and monthly volumes",
+          "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+          "organization": "Petrinex / participating Canadian energy regulators",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "Bulk / download; public file endpoints"
+          ],
+          "summary": "Public Alberta petroleum infrastructure records and monthly reported volumes, including facility and operating information. Dated files support comparisons across reporting periods. Monthly volumes are not the times of individual operations, and missing matches can reflect identifier or coverage differences.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Petrinex public infrastructure and monthly volumes",
+              "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+              "organization": "Petrinex / participating Canadian energy regulators",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "Bulk / download; public file endpoints",
+              "note": "Public Alberta petroleum infrastructure records and monthly reported volumes, including facility and operating information. Dated files support comparisons across reporting periods. Monthly volumes are not the times of individual operations, and missing matches can reflect identifier or coverage differences.",
+              "evidence_url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB"
+            }
+          },
+          "id": "SYS-ADD-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+          "apIds": [
+            "AP-ADD-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0"
+          ],
+          "publisher": "Petrinex / participating Canadian energy regulators"
+        },
+        "method": {
+          "name": "Petrinex public infrastructure and monthly volumes",
+          "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+          "organization": "Petrinex / participating Canadian energy regulators",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "Bulk / download; public file endpoints"
+          ],
+          "summary": "Public Alberta petroleum infrastructure records and monthly reported volumes, including facility and operating information. Dated files support comparisons across reporting periods. Monthly volumes are not the times of individual operations, and missing matches can reflect identifier or coverage differences.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Petrinex public infrastructure and monthly volumes",
+              "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+              "organization": "Petrinex / participating Canadian energy regulators",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "Bulk / download; public file endpoints",
+              "note": "Public Alberta petroleum infrastructure records and monthly reported volumes, including facility and operating information. Dated files support comparisons across reporting periods. Monthly volumes are not the times of individual operations, and missing matches can reflect identifier or coverage differences.",
+              "evidence_url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB"
+            }
+          },
+          "id": "AP-ADD-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+          "systemId": "SYS-ADD-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+            "systemId": "SYS-ADD-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+            "country": "Canada — Alberta",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "Petrinex public infrastructure and monthly volumes",
+            "provenance": {
+              "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+      "proposal_id": "PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "US Base Project — geocoded inventories and report archive",
+        "proposal_id": "PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+        "evidence_url": "https://usbaseproject.com/data/",
+        "note": "Published inventories and geocoded records of US military installations, with links to base-structure reports. Geographic precision, omissions and definitions vary between releases. Rows, coordinates, facilities and distinct bases are different units; inspect the relevant release before counting.",
+        "submitted_at": "2026-11-16T12:11:40.073Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "US Base Project — geocoded inventories and report archive",
+          "url": "https://usbaseproject.com/data/",
+          "organization": "US Base Project; underlying US government Base Structure Reports",
+          "country": "Global",
+          "topic": "Maps & environment",
+          "access": [
+            "Spreadsheets; document archive"
+          ],
+          "summary": "Published inventories and geocoded records of US military installations, with links to base-structure reports. Geographic precision, omissions and definitions vary between releases. Rows, coordinates, facilities and distinct bases are different units; inspect the relevant release before counting.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://usbaseproject.com/data/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "US Base Project — geocoded inventories and report archive",
+              "url": "https://usbaseproject.com/data/",
+              "organization": "US Base Project; underlying US government Base Structure Reports",
+              "country": "Global",
+              "topic": "Maps & environment",
+              "access": "Spreadsheets; document archive",
+              "note": "Published inventories and geocoded records of US military installations, with links to base-structure reports. Geographic precision, omissions and definitions vary between releases. Rows, coordinates, facilities and distinct bases are different units; inspect the relevant release before counting.",
+              "evidence_url": "https://usbaseproject.com/data/"
+            }
+          },
+          "id": "SYS-ADD-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+          "apIds": [
+            "AP-ADD-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d"
+          ],
+          "publisher": "US Base Project; underlying US government Base Structure Reports"
+        },
+        "method": {
+          "name": "US Base Project — geocoded inventories and report archive",
+          "url": "https://usbaseproject.com/data/",
+          "organization": "US Base Project; underlying US government Base Structure Reports",
+          "country": "Global",
+          "topic": "Maps & environment",
+          "access": [
+            "Spreadsheets; document archive"
+          ],
+          "summary": "Published inventories and geocoded records of US military installations, with links to base-structure reports. Geographic precision, omissions and definitions vary between releases. Rows, coordinates, facilities and distinct bases are different units; inspect the relevant release before counting.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://usbaseproject.com/data/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "US Base Project — geocoded inventories and report archive",
+              "url": "https://usbaseproject.com/data/",
+              "organization": "US Base Project; underlying US government Base Structure Reports",
+              "country": "Global",
+              "topic": "Maps & environment",
+              "access": "Spreadsheets; document archive",
+              "note": "Published inventories and geocoded records of US military installations, with links to base-structure reports. Geographic precision, omissions and definitions vary between releases. Rows, coordinates, facilities and distinct bases are different units; inspect the relevant release before counting.",
+              "evidence_url": "https://usbaseproject.com/data/"
+            }
+          },
+          "id": "AP-ADD-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+          "systemId": "SYS-ADD-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+            "systemId": "SYS-ADD-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+            "country": "Global",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "US Base Project — geocoded inventories and report archive",
+            "provenance": {
+              "url": "https://usbaseproject.com/data/",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+      "proposal_id": "PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "David Vine historical US overseas-base lists",
+        "proposal_id": "PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+        "evidence_url": "https://www.basenation.us/maps.html",
+        "note": "Historical lists and maps of US overseas military bases published by researcher David Vine. Downloadable editions support comparisons across time, with varying definitions and coordinate coverage. Several rows can share one location; editions are not automatically comparable.",
+        "submitted_at": "2026-11-16T12:11:42.457Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "David Vine historical US overseas-base lists",
+          "url": "https://www.basenation.us/maps.html",
+          "organization": "David Vine and collaborators",
+          "country": "Global",
+          "topic": "Maps & environment",
+          "access": [
+            "Bulk / download; XLSX"
+          ],
+          "summary": "Historical lists and maps of US overseas military bases published by researcher David Vine. Downloadable editions support comparisons across time, with varying definitions and coordinate coverage. Several rows can share one location; editions are not automatically comparable.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.basenation.us/maps.html",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "David Vine historical US overseas-base lists",
+              "url": "https://www.basenation.us/maps.html",
+              "organization": "David Vine and collaborators",
+              "country": "Global",
+              "topic": "Maps & environment",
+              "access": "Bulk / download; XLSX",
+              "note": "Historical lists and maps of US overseas military bases published by researcher David Vine. Downloadable editions support comparisons across time, with varying definitions and coordinate coverage. Several rows can share one location; editions are not automatically comparable.",
+              "evidence_url": "https://www.basenation.us/maps.html"
+            }
+          },
+          "id": "SYS-ADD-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+          "apIds": [
+            "AP-ADD-d34f8ccd-4f1b-414e-acec-54d39b2e01dd"
+          ],
+          "publisher": "David Vine and collaborators"
+        },
+        "method": {
+          "name": "David Vine historical US overseas-base lists",
+          "url": "https://www.basenation.us/maps.html",
+          "organization": "David Vine and collaborators",
+          "country": "Global",
+          "topic": "Maps & environment",
+          "access": [
+            "Bulk / download; XLSX"
+          ],
+          "summary": "Historical lists and maps of US overseas military bases published by researcher David Vine. Downloadable editions support comparisons across time, with varying definitions and coordinate coverage. Several rows can share one location; editions are not automatically comparable.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.basenation.us/maps.html",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "David Vine historical US overseas-base lists",
+              "url": "https://www.basenation.us/maps.html",
+              "organization": "David Vine and collaborators",
+              "country": "Global",
+              "topic": "Maps & environment",
+              "access": "Bulk / download; XLSX",
+              "note": "Historical lists and maps of US overseas military bases published by researcher David Vine. Downloadable editions support comparisons across time, with varying definitions and coordinate coverage. Several rows can share one location; editions are not automatically comparable.",
+              "evidence_url": "https://www.basenation.us/maps.html"
+            }
+          },
+          "id": "AP-ADD-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+          "systemId": "SYS-ADD-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+            "systemId": "SYS-ADD-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+            "country": "Global",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "David Vine historical US overseas-base lists",
+            "provenance": {
+              "url": "https://www.basenation.us/maps.html",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+      "proposal_id": "PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "National Transportation Atlas military-base boundaries",
+        "proposal_id": "PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+        "evidence_url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+        "note": "Military-installation boundaries published through the National Transportation Atlas Database map service. The layer supports spatial queries and identifies its source vintage. Published boundaries may omit facilities or use different definitions; confirm geographic coverage and completeness for the selected release.",
+        "submitted_at": "2026-11-16T12:11:45.545Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "National Transportation Atlas military-base boundaries",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+          "organization": "US Bureau of Transportation Statistics / Defense Installation Spatial Data Infrastructure",
+          "country": "United States; verify geographic coverage",
+          "topic": "Maps & environment",
+          "access": [
+            "API / web service; polygon downloads"
+          ],
+          "summary": "Military-installation boundaries published through the National Transportation Atlas Database map service. The layer supports spatial queries and identifies its source vintage. Published boundaries may omit facilities or use different definitions; confirm geographic coverage and completeness for the selected release.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "National Transportation Atlas military-base boundaries",
+              "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+              "organization": "US Bureau of Transportation Statistics / Defense Installation Spatial Data Infrastructure",
+              "country": "United States; verify geographic coverage",
+              "topic": "Maps & environment",
+              "access": "API / web service; polygon downloads",
+              "note": "Military-installation boundaries published through the National Transportation Atlas Database map service. The layer supports spatial queries and identifies its source vintage. Published boundaries may omit facilities or use different definitions; confirm geographic coverage and completeness for the selected release.",
+              "evidence_url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0"
+            }
+          },
+          "id": "SYS-ADD-5186de32-8ba6-4268-8548-78761c0bf435",
+          "apIds": [
+            "AP-ADD-5186de32-8ba6-4268-8548-78761c0bf435"
+          ],
+          "publisher": "US Bureau of Transportation Statistics / Defense Installation Spatial Data Infrastructure"
+        },
+        "method": {
+          "name": "National Transportation Atlas military-base boundaries",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+          "organization": "US Bureau of Transportation Statistics / Defense Installation Spatial Data Infrastructure",
+          "country": "United States; verify geographic coverage",
+          "topic": "Maps & environment",
+          "access": [
+            "API / web service; polygon downloads"
+          ],
+          "summary": "Military-installation boundaries published through the National Transportation Atlas Database map service. The layer supports spatial queries and identifies its source vintage. Published boundaries may omit facilities or use different definitions; confirm geographic coverage and completeness for the selected release.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "National Transportation Atlas military-base boundaries",
+              "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+              "organization": "US Bureau of Transportation Statistics / Defense Installation Spatial Data Infrastructure",
+              "country": "United States; verify geographic coverage",
+              "topic": "Maps & environment",
+              "access": "API / web service; polygon downloads",
+              "note": "Military-installation boundaries published through the National Transportation Atlas Database map service. The layer supports spatial queries and identifies its source vintage. Published boundaries may omit facilities or use different definitions; confirm geographic coverage and completeness for the selected release.",
+              "evidence_url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0"
+            }
+          },
+          "id": "AP-ADD-5186de32-8ba6-4268-8548-78761c0bf435",
+          "systemId": "SYS-ADD-5186de32-8ba6-4268-8548-78761c0bf435",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-5186de32-8ba6-4268-8548-78761c0bf435",
+            "systemId": "SYS-ADD-5186de32-8ba6-4268-8548-78761c0bf435",
+            "country": "United States; verify geographic coverage",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "National Transportation Atlas military-base boundaries",
+            "provenance": {
+              "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+      "proposal_id": "PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Netherlands AHN historical laser surveys",
+        "proposal_id": "PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+        "evidence_url": "https://www.ahn.nl/dataroom",
+        "note": "Successive Netherlands national laser surveys, including elevation products and point-cloud downloads. Editions can overlap geographically. Compare survey dates, coordinate systems, classifications and product specifications before interpreting height differences.",
+        "submitted_at": "2026-11-16T12:11:47.798Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Netherlands AHN historical laser surveys",
+          "url": "https://www.ahn.nl/dataroom",
+          "organization": "AHN / Het Waterschapshuis",
+          "country": "Netherlands",
+          "topic": "Maps & environment",
+          "access": [
+            "Bulk / download; point clouds and elevation rasters"
+          ],
+          "summary": "Successive Netherlands national laser surveys, including elevation products and point-cloud downloads. Editions can overlap geographically. Compare survey dates, coordinate systems, classifications and product specifications before interpreting height differences.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.ahn.nl/dataroom",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Netherlands AHN historical laser surveys",
+              "url": "https://www.ahn.nl/dataroom",
+              "organization": "AHN / Het Waterschapshuis",
+              "country": "Netherlands",
+              "topic": "Maps & environment",
+              "access": "Bulk / download; point clouds and elevation rasters",
+              "note": "Successive Netherlands national laser surveys, including elevation products and point-cloud downloads. Editions can overlap geographically. Compare survey dates, coordinate systems, classifications and product specifications before interpreting height differences.",
+              "evidence_url": "https://www.ahn.nl/dataroom"
+            }
+          },
+          "id": "SYS-ADD-9fee7931-3994-4370-a1ef-a3593275c985",
+          "apIds": [
+            "AP-ADD-9fee7931-3994-4370-a1ef-a3593275c985"
+          ],
+          "publisher": "AHN / Het Waterschapshuis"
+        },
+        "method": {
+          "name": "Netherlands AHN historical laser surveys",
+          "url": "https://www.ahn.nl/dataroom",
+          "organization": "AHN / Het Waterschapshuis",
+          "country": "Netherlands",
+          "topic": "Maps & environment",
+          "access": [
+            "Bulk / download; point clouds and elevation rasters"
+          ],
+          "summary": "Successive Netherlands national laser surveys, including elevation products and point-cloud downloads. Editions can overlap geographically. Compare survey dates, coordinate systems, classifications and product specifications before interpreting height differences.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.ahn.nl/dataroom",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Netherlands AHN historical laser surveys",
+              "url": "https://www.ahn.nl/dataroom",
+              "organization": "AHN / Het Waterschapshuis",
+              "country": "Netherlands",
+              "topic": "Maps & environment",
+              "access": "Bulk / download; point clouds and elevation rasters",
+              "note": "Successive Netherlands national laser surveys, including elevation products and point-cloud downloads. Editions can overlap geographically. Compare survey dates, coordinate systems, classifications and product specifications before interpreting height differences.",
+              "evidence_url": "https://www.ahn.nl/dataroom"
+            }
+          },
+          "id": "AP-ADD-9fee7931-3994-4370-a1ef-a3593275c985",
+          "systemId": "SYS-ADD-9fee7931-3994-4370-a1ef-a3593275c985",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-9fee7931-3994-4370-a1ef-a3593275c985",
+            "systemId": "SYS-ADD-9fee7931-3994-4370-a1ef-a3593275c985",
+            "country": "Netherlands",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "Netherlands AHN historical laser surveys",
+            "provenance": {
+              "url": "https://www.ahn.nl/dataroom",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+      "proposal_id": "PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "England Environment Agency dated laser-survey archive",
+        "proposal_id": "PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+        "evidence_url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+        "note": "Dated Environment Agency laser-survey point clouds for England. Survey records and download links allow comparisons between some repeat surveys. Coverage and dates vary by location. Use acquisition dates and compatible elevation references, not just the year of publication.",
+        "submitted_at": "2026-11-16T12:11:50.310Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "England Environment Agency dated laser-survey archive",
+          "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+          "organization": "Environment Agency",
+          "country": "United Kingdom — England",
+          "topic": "Maps & environment",
+          "access": [
+            "Survey index service; bulk LAZ and raster downloads"
+          ],
+          "summary": "Dated Environment Agency laser-survey point clouds for England. Survey records and download links allow comparisons between some repeat surveys. Coverage and dates vary by location. Use acquisition dates and compatible elevation references, not just the year of publication.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "England Environment Agency dated laser-survey archive",
+              "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+              "organization": "Environment Agency",
+              "country": "United Kingdom — England",
+              "topic": "Maps & environment",
+              "access": "Survey index service; bulk LAZ and raster downloads",
+              "note": "Dated Environment Agency laser-survey point clouds for England. Survey records and download links allow comparisons between some repeat surveys. Coverage and dates vary by location. Use acquisition dates and compatible elevation references, not just the year of publication.",
+              "evidence_url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud"
+            }
+          },
+          "id": "SYS-ADD-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+          "apIds": [
+            "AP-ADD-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f"
+          ],
+          "publisher": "Environment Agency"
+        },
+        "method": {
+          "name": "England Environment Agency dated laser-survey archive",
+          "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+          "organization": "Environment Agency",
+          "country": "United Kingdom — England",
+          "topic": "Maps & environment",
+          "access": [
+            "Survey index service; bulk LAZ and raster downloads"
+          ],
+          "summary": "Dated Environment Agency laser-survey point clouds for England. Survey records and download links allow comparisons between some repeat surveys. Coverage and dates vary by location. Use acquisition dates and compatible elevation references, not just the year of publication.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "England Environment Agency dated laser-survey archive",
+              "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+              "organization": "Environment Agency",
+              "country": "United Kingdom — England",
+              "topic": "Maps & environment",
+              "access": "Survey index service; bulk LAZ and raster downloads",
+              "note": "Dated Environment Agency laser-survey point clouds for England. Survey records and download links allow comparisons between some repeat surveys. Coverage and dates vary by location. Use acquisition dates and compatible elevation references, not just the year of publication.",
+              "evidence_url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud"
+            }
+          },
+          "id": "AP-ADD-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+          "systemId": "SYS-ADD-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+            "systemId": "SYS-ADD-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+            "country": "United Kingdom — England",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "England Environment Agency dated laser-survey archive",
+            "provenance": {
+              "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+      "proposal_id": "PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "swissSURFACE3D historical point clouds",
+        "proposal_id": "PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+        "evidence_url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+        "note": "Swiss national surface point clouds from laser surveys, with product information and dated coverage. Point-cloud tiles can describe buildings, vegetation and terrain. Survey cycles and available editions vary; check acquisition dates, elevation references and classifications before comparison.",
+        "submitted_at": "2026-11-16T12:11:52.725Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "swissSURFACE3D historical point clouds",
+          "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+          "organization": "Federal Office of Topography swisstopo",
+          "country": "Switzerland",
+          "topic": "Maps & environment",
+          "access": [
+            "STAC API; bulk LAS / COPC downloads"
+          ],
+          "summary": "Swiss national surface point clouds from laser surveys, with product information and dated coverage. Point-cloud tiles can describe buildings, vegetation and terrain. Survey cycles and available editions vary; check acquisition dates, elevation references and classifications before comparison.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "swissSURFACE3D historical point clouds",
+              "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+              "organization": "Federal Office of Topography swisstopo",
+              "country": "Switzerland",
+              "topic": "Maps & environment",
+              "access": "STAC API; bulk LAS / COPC downloads",
+              "note": "Swiss national surface point clouds from laser surveys, with product information and dated coverage. Point-cloud tiles can describe buildings, vegetation and terrain. Survey cycles and available editions vary; check acquisition dates, elevation references and classifications before comparison.",
+              "evidence_url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d"
+            }
+          },
+          "id": "SYS-ADD-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+          "apIds": [
+            "AP-ADD-0a82d91f-9764-4bb8-9e4c-cec17480950f"
+          ],
+          "publisher": "Federal Office of Topography swisstopo"
+        },
+        "method": {
+          "name": "swissSURFACE3D historical point clouds",
+          "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+          "organization": "Federal Office of Topography swisstopo",
+          "country": "Switzerland",
+          "topic": "Maps & environment",
+          "access": [
+            "STAC API; bulk LAS / COPC downloads"
+          ],
+          "summary": "Swiss national surface point clouds from laser surveys, with product information and dated coverage. Point-cloud tiles can describe buildings, vegetation and terrain. Survey cycles and available editions vary; check acquisition dates, elevation references and classifications before comparison.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "swissSURFACE3D historical point clouds",
+              "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+              "organization": "Federal Office of Topography swisstopo",
+              "country": "Switzerland",
+              "topic": "Maps & environment",
+              "access": "STAC API; bulk LAS / COPC downloads",
+              "note": "Swiss national surface point clouds from laser surveys, with product information and dated coverage. Point-cloud tiles can describe buildings, vegetation and terrain. Survey cycles and available editions vary; check acquisition dates, elevation references and classifications before comparison.",
+              "evidence_url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d"
+            }
+          },
+          "id": "AP-ADD-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+          "systemId": "SYS-ADD-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+            "systemId": "SYS-ADD-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+            "country": "Switzerland",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "swissSURFACE3D historical point clouds",
+            "provenance": {
+              "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+      "proposal_id": "PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Vancouver historical laser surveys",
+        "proposal_id": "PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+        "evidence_url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+        "note": "City of Vancouver laser-survey datasets from multiple years, including point-cloud files and coverage metadata. Tile names and boundaries may change between editions. Match footprints and survey specifications before comparing surfaces; publication year alone may not describe acquisition time.",
+        "submitted_at": "2026-11-16T12:11:55.826Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Vancouver historical laser surveys",
+          "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+          "organization": "City of Vancouver",
+          "country": "Canada — British Columbia",
+          "topic": "Maps & environment",
+          "access": [
+            "Catalog API; bulk LAS downloads"
+          ],
+          "summary": "City of Vancouver laser-survey datasets from multiple years, including point-cloud files and coverage metadata. Tile names and boundaries may change between editions. Match footprints and survey specifications before comparing surfaces; publication year alone may not describe acquisition time.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Vancouver historical laser surveys",
+              "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+              "organization": "City of Vancouver",
+              "country": "Canada — British Columbia",
+              "topic": "Maps & environment",
+              "access": "Catalog API; bulk LAS downloads",
+              "note": "City of Vancouver laser-survey datasets from multiple years, including point-cloud files and coverage metadata. Tile names and boundaries may change between editions. Match footprints and survey specifications before comparing surfaces; publication year alone may not describe acquisition time.",
+              "evidence_url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/"
+            }
+          },
+          "id": "SYS-ADD-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+          "apIds": [
+            "AP-ADD-4bc1a1be-24ed-4f01-8dcc-0668a4770af8"
+          ],
+          "publisher": "City of Vancouver"
+        },
+        "method": {
+          "name": "Vancouver historical laser surveys",
+          "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+          "organization": "City of Vancouver",
+          "country": "Canada — British Columbia",
+          "topic": "Maps & environment",
+          "access": [
+            "Catalog API; bulk LAS downloads"
+          ],
+          "summary": "City of Vancouver laser-survey datasets from multiple years, including point-cloud files and coverage metadata. Tile names and boundaries may change between editions. Match footprints and survey specifications before comparing surfaces; publication year alone may not describe acquisition time.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Vancouver historical laser surveys",
+              "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+              "organization": "City of Vancouver",
+              "country": "Canada — British Columbia",
+              "topic": "Maps & environment",
+              "access": "Catalog API; bulk LAS downloads",
+              "note": "City of Vancouver laser-survey datasets from multiple years, including point-cloud files and coverage metadata. Tile names and boundaries may change between editions. Match footprints and survey specifications before comparing surfaces; publication year alone may not describe acquisition time.",
+              "evidence_url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/"
+            }
+          },
+          "id": "AP-ADD-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+          "systemId": "SYS-ADD-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+            "systemId": "SYS-ADD-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+            "country": "Canada — British Columbia",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "Vancouver historical laser surveys",
+            "provenance": {
+              "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+      "proposal_id": "PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "LINZ historical elevation and point-cloud surveys",
+        "proposal_id": "PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+        "evidence_url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+        "note": "Land Information New Zealand elevation and point-cloud survey collections, with project coverage, dates and product metadata. Some areas have repeat surveys. Horizontal and vertical reference systems can differ, so harmonisation is required before interpreting height changes.",
+        "submitted_at": "2026-11-16T12:11:59.172Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "LINZ historical elevation and point-cloud surveys",
+          "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+          "organization": "Toitū Te Whenua Land Information New Zealand; survey-specific creators",
+          "country": "New Zealand",
+          "topic": "Maps & environment",
+          "access": [
+            "STAC / cloud raster access; point-cloud downloads"
+          ],
+          "summary": "Land Information New Zealand elevation and point-cloud survey collections, with project coverage, dates and product metadata. Some areas have repeat surveys. Horizontal and vertical reference systems can differ, so harmonisation is required before interpreting height changes.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "LINZ historical elevation and point-cloud surveys",
+              "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+              "organization": "Toitū Te Whenua Land Information New Zealand; survey-specific creators",
+              "country": "New Zealand",
+              "topic": "Maps & environment",
+              "access": "STAC / cloud raster access; point-cloud downloads",
+              "note": "Land Information New Zealand elevation and point-cloud survey collections, with project coverage, dates and product metadata. Some areas have repeat surveys. Horizontal and vertical reference systems can differ, so harmonisation is required before interpreting height changes.",
+              "evidence_url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data"
+            }
+          },
+          "id": "SYS-ADD-626dad46-7b8f-463a-9584-17a4bc1eec81",
+          "apIds": [
+            "AP-ADD-626dad46-7b8f-463a-9584-17a4bc1eec81"
+          ],
+          "publisher": "Toitū Te Whenua Land Information New Zealand; survey-specific creators"
+        },
+        "method": {
+          "name": "LINZ historical elevation and point-cloud surveys",
+          "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+          "organization": "Toitū Te Whenua Land Information New Zealand; survey-specific creators",
+          "country": "New Zealand",
+          "topic": "Maps & environment",
+          "access": [
+            "STAC / cloud raster access; point-cloud downloads"
+          ],
+          "summary": "Land Information New Zealand elevation and point-cloud survey collections, with project coverage, dates and product metadata. Some areas have repeat surveys. Horizontal and vertical reference systems can differ, so harmonisation is required before interpreting height changes.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "LINZ historical elevation and point-cloud surveys",
+              "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+              "organization": "Toitū Te Whenua Land Information New Zealand; survey-specific creators",
+              "country": "New Zealand",
+              "topic": "Maps & environment",
+              "access": "STAC / cloud raster access; point-cloud downloads",
+              "note": "Land Information New Zealand elevation and point-cloud survey collections, with project coverage, dates and product metadata. Some areas have repeat surveys. Horizontal and vertical reference systems can differ, so harmonisation is required before interpreting height changes.",
+              "evidence_url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data"
+            }
+          },
+          "id": "AP-ADD-626dad46-7b8f-463a-9584-17a4bc1eec81",
+          "systemId": "SYS-ADD-626dad46-7b8f-463a-9584-17a4bc1eec81",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-626dad46-7b8f-463a-9584-17a4bc1eec81",
+            "systemId": "SYS-ADD-626dad46-7b8f-463a-9584-17a4bc1eec81",
+            "country": "New Zealand",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "LINZ historical elevation and point-cloud surveys",
+            "provenance": {
+              "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+      "proposal_id": "PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Spain PNOA historical laser-survey coverage",
+        "proposal_id": "PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+        "evidence_url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+        "note": "Spain’s national aerial-observation programme publishes laser-survey point clouds and coverage information through successive survey cycles. Regional repeat coverage does not guarantee identical tiles or acquisition dates. Check the selected survey’s specifications and download terms.",
+        "submitted_at": "2026-11-16T12:12:01.937Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Spain PNOA historical laser-survey coverage",
+          "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+          "organization": "Instituto Geográfico Nacional / Centro Nacional de Información Geográfica",
+          "country": "Spain",
+          "topic": "Maps & environment",
+          "access": [
+            "Bulk / download; LAZ and elevation rasters"
+          ],
+          "summary": "Spain’s national aerial-observation programme publishes laser-survey point clouds and coverage information through successive survey cycles. Regional repeat coverage does not guarantee identical tiles or acquisition dates. Check the selected survey’s specifications and download terms.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Spain PNOA historical laser-survey coverage",
+              "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+              "organization": "Instituto Geográfico Nacional / Centro Nacional de Información Geográfica",
+              "country": "Spain",
+              "topic": "Maps & environment",
+              "access": "Bulk / download; LAZ and elevation rasters",
+              "note": "Spain’s national aerial-observation programme publishes laser-survey point clouds and coverage information through successive survey cycles. Regional repeat coverage does not guarantee identical tiles or acquisition dates. Check the selected survey’s specifications and download terms.",
+              "evidence_url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga"
+            }
+          },
+          "id": "SYS-ADD-a1409640-fd1b-4414-8711-a37b0eed738b",
+          "apIds": [
+            "AP-ADD-a1409640-fd1b-4414-8711-a37b0eed738b"
+          ],
+          "publisher": "Instituto Geográfico Nacional / Centro Nacional de Información Geográfica"
+        },
+        "method": {
+          "name": "Spain PNOA historical laser-survey coverage",
+          "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+          "organization": "Instituto Geográfico Nacional / Centro Nacional de Información Geográfica",
+          "country": "Spain",
+          "topic": "Maps & environment",
+          "access": [
+            "Bulk / download; LAZ and elevation rasters"
+          ],
+          "summary": "Spain’s national aerial-observation programme publishes laser-survey point clouds and coverage information through successive survey cycles. Regional repeat coverage does not guarantee identical tiles or acquisition dates. Check the selected survey’s specifications and download terms.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Spain PNOA historical laser-survey coverage",
+              "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+              "organization": "Instituto Geográfico Nacional / Centro Nacional de Información Geográfica",
+              "country": "Spain",
+              "topic": "Maps & environment",
+              "access": "Bulk / download; LAZ and elevation rasters",
+              "note": "Spain’s national aerial-observation programme publishes laser-survey point clouds and coverage information through successive survey cycles. Regional repeat coverage does not guarantee identical tiles or acquisition dates. Check the selected survey’s specifications and download terms.",
+              "evidence_url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga"
+            }
+          },
+          "id": "AP-ADD-a1409640-fd1b-4414-8711-a37b0eed738b",
+          "systemId": "SYS-ADD-a1409640-fd1b-4414-8711-a37b0eed738b",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-a1409640-fd1b-4414-8711-a37b0eed738b",
+            "systemId": "SYS-ADD-a1409640-fd1b-4414-8711-a37b0eed738b",
+            "country": "Spain",
+            "topic": "Geospatial, environmental & extractive context",
+            "detail": "Spain PNOA historical laser-survey coverage",
+            "provenance": {
+              "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+      "proposal_id": "PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_source",
+        "title": "Security Force Monitor US foreign military-training data",
+        "proposal_id": "PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+        "evidence_url": "https://trainingdata.securityforcemonitor.org/",
+        "note": "Security Force Monitor’s compiled US foreign military-training records, based on public government reporting. Data include countries, organisations, programmes and available dates. Some fields are missing and some rows are marked unverified. The published compilation’s latest substantive reporting period is 2020–21; later processing dates do not extend that coverage.",
+        "submitted_at": "2026-11-16T12:12:05.431Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 1,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "source": {
+          "name": "Security Force Monitor US foreign military-training data",
+          "url": "https://trainingdata.securityforcemonitor.org/",
+          "organization": "Security Force Monitor, Columbia Law School Human Rights Institute",
+          "country": "Global",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "API / web service; CSV and SQLite downloads"
+          ],
+          "summary": "Security Force Monitor’s compiled US foreign military-training records, based on public government reporting. Data include countries, organisations, programmes and available dates. Some fields are missing and some rows are marked unverified. The published compilation’s latest substantive reporting period is 2020–21; later processing dates do not extend that coverage.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://trainingdata.securityforcemonitor.org/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Security Force Monitor US foreign military-training data",
+              "url": "https://trainingdata.securityforcemonitor.org/",
+              "organization": "Security Force Monitor, Columbia Law School Human Rights Institute",
+              "country": "Global",
+              "topic": "Procurement, spending & aid",
+              "access": "API / web service; CSV and SQLite downloads",
+              "note": "Security Force Monitor’s compiled US foreign military-training records, based on public government reporting. Data include countries, organisations, programmes and available dates. Some fields are missing and some rows are marked unverified. The published compilation’s latest substantive reporting period is 2020–21; later processing dates do not extend that coverage.",
+              "evidence_url": "https://trainingdata.securityforcemonitor.org/"
+            }
+          },
+          "id": "SYS-ADD-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+          "apIds": [
+            "AP-ADD-2481c1fd-84e3-4c90-a52b-e0fcf09181af"
+          ],
+          "publisher": "Security Force Monitor, Columbia Law School Human Rights Institute"
+        },
+        "method": {
+          "name": "Security Force Monitor US foreign military-training data",
+          "url": "https://trainingdata.securityforcemonitor.org/",
+          "organization": "Security Force Monitor, Columbia Law School Human Rights Institute",
+          "country": "Global",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "API / web service; CSV and SQLite downloads"
+          ],
+          "summary": "Security Force Monitor’s compiled US foreign military-training records, based on public government reporting. Data include countries, organisations, programmes and available dates. Some fields are missing and some rows are marked unverified. The published compilation’s latest substantive reporting period is 2020–21; later processing dates do not extend that coverage.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://trainingdata.securityforcemonitor.org/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_source",
+              "name": "Security Force Monitor US foreign military-training data",
+              "url": "https://trainingdata.securityforcemonitor.org/",
+              "organization": "Security Force Monitor, Columbia Law School Human Rights Institute",
+              "country": "Global",
+              "topic": "Procurement, spending & aid",
+              "access": "API / web service; CSV and SQLite downloads",
+              "note": "Security Force Monitor’s compiled US foreign military-training records, based on public government reporting. Data include countries, organisations, programmes and available dates. Some fields are missing and some rows are marked unverified. The published compilation’s latest substantive reporting period is 2020–21; later processing dates do not extend that coverage.",
+              "evidence_url": "https://trainingdata.securityforcemonitor.org/"
+            }
+          },
+          "id": "AP-ADD-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+          "systemId": "SYS-ADD-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+          "layer": "Human-reviewed addition"
+        },
+        "mappings": [
+          {
+            "id": "MAP-SYS-ADD-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+            "systemId": "SYS-ADD-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+            "country": "Global",
+            "topic": "Other public records & reference data",
+            "detail": "Security Force Monitor US foreign military-training data",
+            "provenance": {
+              "url": "https://trainingdata.securityforcemonitor.org/",
+              "path": "Publisher documentation",
+              "line": 0,
+              "commit": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "RELEASE-PROP-338ead51-a235-408d-a1ce-6065fdfc61c4",
+      "proposal_id": "PROP-338ead51-a235-408d-a1ce-6065fdfc61c4",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_access",
+        "title": "AER hydraulic-fracture fluid and water-use downloads",
+        "proposal_id": "PROP-338ead51-a235-408d-a1ce-6065fdfc61c4",
+        "evidence_url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/hydraulic-fracture-fluid-data",
+        "note": "Downloadable Alberta hydraulic-fracture fluid disclosures and reported water-use information. Ingredient rows may repeat job-level fields, so row counts are not job counts and repeated water volumes must not be summed. Preserve well, licence and report identifiers when comparing records.",
+        "submitted_at": "2026-11-16T12:12:08.236Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "method": {
+          "name": "AER hydraulic-fracture fluid and water-use downloads",
+          "url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/hydraulic-fracture-fluid-data",
+          "organization": "Alberta Energy Regulator",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "Bulk / download"
+          ],
+          "summary": "Downloadable Alberta hydraulic-fracture fluid disclosures and reported water-use information. Ingredient rows may repeat job-level fields, so row counts are not job counts and repeated water volumes must not be summed. Preserve well, licence and report identifiers when comparing records.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/hydraulic-fracture-fluid-data",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-338ead51-a235-408d-a1ce-6065fdfc61c4",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_access",
+              "name": "AER hydraulic-fracture fluid and water-use downloads",
+              "url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/hydraulic-fracture-fluid-data",
+              "organization": "Alberta Energy Regulator",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "Bulk / download",
+              "note": "Downloadable Alberta hydraulic-fracture fluid disclosures and reported water-use information. Ingredient rows may repeat job-level fields, so row counts are not job counts and repeated water volumes must not be summed. Preserve well, licence and report identifiers when comparing records.",
+              "evidence_url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/hydraulic-fracture-fluid-data",
+              "target_id": "SYS-0315"
+            }
+          },
+          "id": "AP-ADD-338ead51-a235-408d-a1ce-6065fdfc61c4",
+          "systemId": "SYS-0315"
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+      "proposal_id": "PROP-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_access",
+        "title": "AER OneStop public application documents",
+        "proposal_id": "PROP-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+        "evidence_url": "https://www1.aer.ca/PubDocs/",
+        "note": "Public application documents and attachments from the Alberta Energy Regulator. Documents can describe proposed operations, approvals and amendments. Plans are not proof of actual operations; several attachments may belong to one application or event.",
+        "submitted_at": "2026-11-16T12:12:11.169Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "method": {
+          "name": "AER OneStop public application documents",
+          "url": "https://www1.aer.ca/PubDocs/",
+          "organization": "Alberta Energy Regulator",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "Public document search and attachments"
+          ],
+          "summary": "Public application documents and attachments from the Alberta Energy Regulator. Documents can describe proposed operations, approvals and amendments. Plans are not proof of actual operations; several attachments may belong to one application or event.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www1.aer.ca/PubDocs/",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_access",
+              "name": "AER OneStop public application documents",
+              "url": "https://www1.aer.ca/PubDocs/",
+              "organization": "Alberta Energy Regulator",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "Public document search and attachments",
+              "note": "Public application documents and attachments from the Alberta Energy Regulator. Documents can describe proposed operations, approvals and amendments. Plans are not proof of actual operations; several attachments may belong to one application or event.",
+              "evidence_url": "https://www1.aer.ca/PubDocs/",
+              "target_id": "SYS-0315"
+            }
+          },
+          "id": "AP-ADD-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+          "systemId": "SYS-0315"
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+      "proposal_id": "PROP-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_access",
+        "title": "AER ST1 historical well-licence lists and amendments",
+        "proposal_id": "PROP-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+        "evidence_url": "https://www.aer.ca/prd/data/well-lic/dwll2024.zip",
+        "note": "Historical Alberta well-licence lists and amendments published as dated files. This route points to the 2024 archive. Licence identifiers and amendment histories can help track changed well identifiers; an amended identifier does not necessarily represent a new well.",
+        "submitted_at": "2026-11-16T12:12:16.194Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "method": {
+          "name": "AER ST1 historical well-licence lists and amendments",
+          "url": "https://www.aer.ca/prd/data/well-lic/dwll2024.zip",
+          "organization": "Alberta Energy Regulator",
+          "country": "Canada — Alberta",
+          "topic": "Environment & natural resources",
+          "access": [
+            "Bulk / download; annual ZIP and daily text"
+          ],
+          "summary": "Historical Alberta well-licence lists and amendments published as dated files. This route points to the 2024 archive. Licence identifiers and amendment histories can help track changed well identifiers; an amended identifier does not necessarily represent a new well.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.aer.ca/prd/data/well-lic/dwll2024.zip",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_access",
+              "name": "AER ST1 historical well-licence lists and amendments",
+              "url": "https://www.aer.ca/prd/data/well-lic/dwll2024.zip",
+              "organization": "Alberta Energy Regulator",
+              "country": "Canada — Alberta",
+              "topic": "Environment & natural resources",
+              "access": "Bulk / download; annual ZIP and daily text",
+              "note": "Historical Alberta well-licence lists and amendments published as dated files. This route points to the 2024 archive. Licence identifiers and amendment histories can help track changed well identifiers; an amended identifier does not necessarily represent a new well.",
+              "evidence_url": "https://www.aer.ca/prd/data/well-lic/dwll2024.zip",
+              "target_id": "SYS-0315"
+            }
+          },
+          "id": "AP-ADD-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+          "systemId": "SYS-0315"
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+      "proposal_id": "PROP-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_access",
+        "title": "Grants.gov daily full opportunity extract",
+        "proposal_id": "PROP-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+        "evidence_url": "https://www.grants.gov/xml-extract",
+        "note": "Daily full XML extracts of Grants.gov funding-opportunity records. Opportunity identifiers and dates support matching across releases. Opportunities describe invitations or funding intent, not awards or payments. Retain snapshot dates and distinguish archived opportunities from currently open ones.",
+        "submitted_at": "2026-11-16T12:12:19.587Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "method": {
+          "name": "Grants.gov daily full opportunity extract",
+          "url": "https://www.grants.gov/xml-extract",
+          "organization": "US Department of Health and Human Services / Grants.gov",
+          "country": "United States",
+          "topic": "Procurement, spending & aid",
+          "access": [
+            "Bulk / download; daily XML ZIP"
+          ],
+          "summary": "Daily full XML extracts of Grants.gov funding-opportunity records. Opportunity identifiers and dates support matching across releases. Opportunities describe invitations or funding intent, not awards or payments. Retain snapshot dates and distinguish archived opportunities from currently open ones.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://www.grants.gov/xml-extract",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_access",
+              "name": "Grants.gov daily full opportunity extract",
+              "url": "https://www.grants.gov/xml-extract",
+              "organization": "US Department of Health and Human Services / Grants.gov",
+              "country": "United States",
+              "topic": "Procurement, spending & aid",
+              "access": "Bulk / download; daily XML ZIP",
+              "note": "Daily full XML extracts of Grants.gov funding-opportunity records. Opportunity identifiers and dates support matching across releases. Opportunities describe invitations or funding intent, not awards or payments. Retain snapshot dates and distinguish archived opportunities from currently open ones.",
+              "evidence_url": "https://www.grants.gov/xml-extract",
+              "target_id": "SYS-0068"
+            }
+          },
+          "id": "AP-ADD-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+          "systemId": "SYS-0068"
+        }
+      }
+    },
+    {
+      "id": "RELEASE-PROP-78f782ff-0900-4c0d-903a-433931618807",
+      "proposal_id": "PROP-78f782ff-0900-4c0d-903a-433931618807",
+      "created_at": "2026-11-16T12:28:23.126Z",
+      "payload": {
+        "kind": "new_access",
+        "title": "NIH ExPORTER annual project and linked-data files",
+        "proposal_id": "PROP-78f782ff-0900-4c0d-903a-433931618807",
+        "evidence_url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+        "note": "National Institutes of Health ExPORTER downloadable project files and linked research tables. Annual files support bulk analysis beyond the search interface. Use the product documentation to distinguish fiscal years, project identifiers and linked tables; download availability and contents should be checked for the selected file.",
+        "submitted_at": "2026-11-16T12:12:24.815Z",
+        "recorded_at": "2026-11-16T12:28:23.126Z",
+        "source_delta": 0,
+        "approval": {
+          "approved_by": "Catalog owner",
+          "basis": "Explicit approval to publish neutral source descriptions and access routes.",
+          "recorded_at": "2026-11-16T12:28:23.126Z",
+          "verification_scope": "Catalog inclusion only; no automatic collection or fresh payload verification."
+        },
+        "release_id": "rabbit-neutral-sources-20261116",
+        "method": {
+          "name": "NIH ExPORTER annual project and linked-data files",
+          "url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+          "organization": "US National Institutes of Health",
+          "country": "United States",
+          "topic": "Research & innovation",
+          "access": [
+            "Bulk / download; annual ZIP"
+          ],
+          "summary": "National Institutes of Health ExPORTER downloadable project files and linked research tables. Annual files support bulk analysis beyond the search interface. Use the product documentation to distinguish fiscal years, project identifiers and linked tables; download availability and contents should be checked for the selected file.",
+          "verification": "NOT_REVIEWED",
+          "verifiedAt": "",
+          "provenance": {
+            "url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+            "path": "Publisher documentation",
+            "line": 0,
+            "commit": ""
+          },
+          "contributionId": "PROP-78f782ff-0900-4c0d-903a-433931618807",
+          "addedAt": "2026-11-16T12:28:23.126Z",
+          "live": true,
+          "original": {
+            "proposal": {
+              "kind": "new_access",
+              "name": "NIH ExPORTER annual project and linked-data files",
+              "url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+              "organization": "US National Institutes of Health",
+              "country": "United States",
+              "topic": "Research & innovation",
+              "access": "Bulk / download; annual ZIP",
+              "note": "National Institutes of Health ExPORTER downloadable project files and linked research tables. Annual files support bulk analysis beyond the search interface. Use the product documentation to distinguish fiscal years, project identifiers and linked tables; download availability and contents should be checked for the selected file.",
+              "evidence_url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+              "target_id": "SYS-0246"
+            }
+          },
+          "id": "AP-ADD-78f782ff-0900-4c0d-903a-433931618807",
+          "systemId": "SYS-0246"
+        }
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "proposal_id": "PROP-58bcf4c4-463e-4786-b02d-e0a89c3a8167",
+      "status": "declined",
+      "note": "Research-use note retained in the personal research repository; excluded from the public source catalog at the owner’s request.",
+      "at": "2026-11-16T12:28:23.126Z"
+    },
+    {
+      "proposal_id": "PROP-0b009058-e972-487a-a040-4d0843612e8c",
+      "status": "declined",
+      "note": "Research-use note retained in the personal research repository; excluded from the public source catalog at the owner’s request.",
+      "at": "2026-11-16T12:28:23.126Z"
+    },
+    {
+      "proposal_id": "PROP-3c36c3d1-96b3-4e83-a3e3-1b028d12c457",
+      "status": "declined",
+      "note": "Research-use note retained in the personal research repository; excluded from the public source catalog at the owner’s request.",
+      "at": "2026-11-16T12:28:23.126Z"
+    }
+  ]
+}
