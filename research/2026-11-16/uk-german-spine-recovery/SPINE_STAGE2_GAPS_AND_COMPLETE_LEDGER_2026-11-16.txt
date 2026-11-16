@@ -1,0 +1,2080 @@
+SPINE STAGE 2: TECHNICAL ARCHITECTURE GAPS AND COMPLETE LEDGER
+Research date: 16 November 2026
+Public-source, bounded recovery and gap-filling run
+
+READ THIS FIRST
+We found more actual engineering than the earlier record showed. Britain publishes a detailed architecture separating authorization, interlocks and weapon-release scheduling. A Rigby patent provides a plausible match for safe control of unmanned weapons over unreliable links. RCH155 has an onboard ballistic computer, and existing British fire-control software does more than display warnings. These findings narrow the uncertainty; they do not connect a particular patented protection to a purchased weapon's verified configuration.
+
+The remaining accountability question is concrete: what did the customer require, who tested the delivered build, and what evidence can an independent reviewer or Parliament inspect? Public policy and patents cannot answer that alone. Neither missing public evidence nor a patent withdrawal proves that a safeguard was omitted.
+
+WHAT CHANGED
+1. Rigby/Pyramid: US9156552B2 tests remote-command age; it is a strong candidate, not explicitly confirmed as the patent meant in the biography. The complete official Pyramid standard and guidance were preserved. Specific components define authorization, interlocks and release scheduling. No deployed configuration or patent-to-Pyramid implementation was established.
+2. RCH155: manufacturer evidence distinguishes onboard ballistic computation from the external artillery command connection. CGI describes distributed fire-safety functions; DE&S describes a human safety-officer check. Calling this 'only a map warning' would overstate the gap. No reviewed acceptance record demonstrates the protected-area blocking mechanism in the British/German purchased build. ADLER must not be asserted to be the onboard computer.
+3. Boxer: public architecture and SafeNGVA work supply useful institutional leads, but no recovered current contractual GVA standard or acceptance record proves the precise independent inhibit in the UK RS4 build. A hardware safety barrier does not automatically mean dedicated wiring for every signal.
+4. DragonFire: QinetiQ's laser-source and safe-testing work is documented. BAE's precise production work package, and a link to its collateral-risk patent, remain unestablished. A refusal to disaggregate cost is not a refusal to release safety tests.
+5. Task1: original German claims13–17 now close the translation-numbering problem; the EPO XML is bibliographic only. INPI records were substantive, with a French revocation entry for Naval Group EP3812690 distinct from FR3102239. The NPS-hosted Wu/Srivastava paper has five Raytheon-affiliated authors; it is not an NPS-authored paper. The BMVg public directive was recovered from a clearly identified public mirror.
+6. Oversight: JSP936 paragraph99 requires annual organizational assurances, not a public statement per weapon; paragraph105 recommends independent assurance. Bundestag21/5159 Q52 permits authorized classified inspection;21/9054 Q10 withholds the specified test-method details even classified. These are different access decisions.
+
+OUTSTANDING
+RENK retry, GhostPlay ex-ante raw notice/TED XML and the ACTS raw award notice remain acquisition gaps. Full current normative/contracted GVA details, named-system independent acceptance evidence, exact BAE DragonFire role, and deployed patent implementations remain open. A search-index excerpt is not a preserved original; an ex-ante transparency notice is not an executed contract.
+
+PERSISTENCE / INTEGRITY
+Destination: https://drive.google.com/drive/folders/1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O
+Methods repository: https://github.com/graemesmith-code/investigative-methods/tree/main/research/2026-11-16/uk-german-spine-recovery
+Raw source files were acquired and uploaded incrementally by task; manifests and notes were checkpointed to GitHub. Existing sharing permissions were not changed. No outreach, FOI filing, accounts, payment or security-challenge bypass occurred. This report contains proposed questions only.
+Two direct HTML uploads changed byte size: QinetiQ49909 local versus49911 Drive; Royal Navy134512 local versus134513 Drive. They are NOT byte-verified originals. The correct unchanged originals are INSIDE unchanged_html_originals.zip, Drive1Oc3H-PRh_osqWcBwnSPyckcKCp7CxqEm,184633 bytes, SHA256530c5bc4e5bf42824204f414fff4fa3681b5bfb5e8d4025f52d386f7a2b622c7. The ZIP's remote size was verified. Its member hashes are the original source hashes in the ledger. Hashes generally describe locally acquired bytes; remote size/parent verification is not an independent remote SHA256 verification.
+Stage1 inventory is retained from its committed report; this run did not redownload every Stage1 Drive object. Historical verification should not be mistaken for fresh remote verification. Later Stage2 corrections take precedence over earlier wording.
+
+CONTENTS
+I. Detailed Task1 completion and Gaps1–4
+II. Proposed right-to-reply and parliamentary questions (unsent)
+III. Combined Stage1 + Stage2 source/checksum inventory
+IV. Methods and exact query logs (returned result counts are not corpus totals)
+
+
+I. DETAILED FINDINGS
+
+========================================================================
+STAGE 2 TASK 1 — CLIPPED RECORD RECOVERY
+16 November 2026. Public unauthenticated requests only. Exact logs and inventory accompany this report.
+
+1. Bundestag 21/5159 Q52 (printed pp29–30, PDF pages35–36): answer dated30March2026 to Donata Vogtschmidt. GhostPlay is referred to public dtec material. Further answer classified VS-NUR FÜR DEN DIENSTGEBRAUCH for security/company-protection reasons; footnote expressly says authorized persons can inspect it in parliamentary secretariat. NOT a denial of access to all MPs. Original: “Die Antwort ist im Parlamentssekretariat des Deutschen Bundestages hinterlegt und kann dort von Berechtigten eingesehen werden.” Translation: the answer is deposited at the parliamentary secretariat and authorized persons may inspect it there.
+
+2. BMVg K-9000/102 public edition recovered as full PDF via public Augen geradeaus mirror. Ministry URL returned404; mirrored bytes not claimed identical to currently hosted official bytes. Cover identifies PUBLIC VERSION, largely based on classified version. Effective9April2026. Public PDF54pages. Printed p14 says human control does not mean human interaction; not every weapons use necessarily requires human interaction, degree depends on operational context. Original: “Menschliche Kontrolle ist dabei nicht gleichzusetzen mit menschlicher Interaktion.” Translation: Human control is not to be equated with human interaction. This is doctrine, NOT evidence any named platform has an approved safeguard implementation.
+
+3. Original German DE102020127430A1 PDF recovered from Google Patent Images. This fixes original-language numbered claims: claim13 considers at least one exclusion parameter, especially a definable exclusion area; claim14 withholds the fire-control solution depending on that parameter, especially situation/time. Claim15 fire-control installation configured for preceding method; claim16 artillery system containing claim15 installation; claim17 damped weapon carrier reducing vibration. Claims13–17 on printed11/14. Claim14 original: “dass abhängig vom Sperrparameter, insbesondere situationsbedingt und/oder zeitbedingt, keine Feuerleitlösung ausgegeben wird.” Translation: depending on the exclusion parameter, in particular according to situation/time, no fire-control solution is output. This proves claimed functionality, NOT installation in RCH155. Official EPO XML recovered separately is bibliographic ONLY; PDF endpoint500. Do not claim its XML contains claims.
+
+4. INPI substantive HTML registers all recovered, not SPA placeholders. FR3102239 names Naval Group and inventor Vincent Geiger; grant29October2021; latest annuity9September2026. EP3812690 names same company/inventor; explicitly “STATUT EN FRANCE : Revoqué” (status in France: revoked); grant1November2023; last annuity12September2024. These territorial/status records must NOT be merged into blanket family validity. EP3882560 and EP3882561 each name Diehl Defence and inventors Robert Weyßer, Arno Hahma, Dieter Frieauff; each grant31August2022; latest annuity23March2026, next due31March2027. This does not establish the technology was adopted by a procurement program.
+
+5. Wu/Srivastava paper recovered directly from NPS. Correct title A Tiered Approach for Ethical AI Evaluation Metrics, AAAI Spring Symposium21–23March2022. Five authors: Peggy Wu, Brett Israelsen, Kunal Srivastava, Hsin Fu 'Sinker' Wu, Robert Grabowski; Raytheon affiliations. It is hosted at NPS, NOT an NPS-authored paper. Funded by Raytheon Missiles & Defense; acknowledges NPS Donald Brutzman and Curtis Blaise. Describes ongoing framework, maritime rescue trolley-style demonstration, outcomes/preferences/motivational consistency. No proof of weapon integration, operational deployment or ACTS use.
+
+6. Bounded outstanding raw records: RENK requested retry503; GhostPlay ex-ante mirror403; TED XML returned202 empty; ACTS direct403. No security wrapper or empty response retained as primary evidence. Search-index excerpt of ACTS official page supports award29June2026, published14Aug2026, reference707414450, Raytheon Systems UK, value£1,946,794,337.67 excluding VAT, two tenders. This is index-derived, NOT archived raw page. GhostPlay notice185823-2025 is voluntary ex-ante transparency, not proof of executed contract. No bypass attempted.
+
+METHOD
+Sequential urllib unauthenticated GETs with UTC timestamps/status/MIME/bytes; excluded failed responses and non-document wrappers; SHA256 exact unmodified bytes. pdftotext derivatives for local inspection. HTMLParser text extraction from INPI snapshots. Nine raw artifacts uploaded individually to exact requested Drive folder and metadata sizes and parent verified. Two early GitHub checkpoint commits preserve upload state before completion. Supplementary query log records exact searches; no numerical search totals invented.
+
+========================================================================
+STAGE 2 GAP 1: RIGBY, UNCERTAIN LINKS, RSIC AND PYRAMID
+Research date: 16 November 2026. Public unauthenticated sources only.
+
+BOTTOM LINE
+This pass materially narrows two gaps. There is a strong candidate for the unnamed Rigby uncertain-link patent, and the UK has published a detailed reference architecture that explicitly separates permission to act, safety interlocks, and store-release scheduling. Neither discovery establishes that a particular operational weapon implements the patent or a particular configuration of those components.
+
+1. PATENT IDENTIFICATION
+US9156552B2, Apparatus for use on unmanned vehicles, names Isobel Louise Freeman and Keith Antony Rigby, assigned to BAE Systems. Priority GB1110820.6, 24 June 2011; PCT/GB2012/051416; WO2012/175953; US application publication US20140222249A1; grant 13 October 2015.
+Primary PDF: https://patentimages.storage.googleapis.com/e6/af/64/531ec203e9aa2e/US9156552.pdf
+
+The description discusses the problem of uncertain communications between unmanned aircraft and their controllers. Claim 1 requires validation of a remote activation instruction by checking whether its age is below a predetermined threshold; claim 2 addresses preventing or opposing invalid activation; claim 12 expressly makes the payload a weapon. Claim 16 covers the apparatus and claim 21 a validation-code comparison. These are claim summaries, not statements of field performance.
+
+This is a much closer match to the 2025 RAeS Rigby biography's uncertain-link functionality than US11422549B2. The present search did not find a source expressly saying that the biography refers to US9156552B2. Treat identification as a strongly supported candidate, not a completed attribution. Rigby is not an inventor of US11422549B2. Do not substitute either patent for the other.
+A claim about fresh authorised commands is not proof of ethical target discrimination, law-of-war compliance, or a universal requirement to abort when a link fails.
+
+2. OFFICIAL PYRAMID STANDARD: THE ARCHITECTURE IS PUBLIC IN MUCH MORE DETAIL THAN A BIOGRAPHY
+UK MOD publication page: https://www.gov.uk/government/publications/pyramid
+Retrieved complete 2025 technical standard V1.0, 1513 pages, and guidance V1.0, 571 pages.
+Standard PDF:
+https://assets.publishing.service.gov.uk/media/67dbe7ec0f38d929e57ee310/20250224-PYRAMID_Technical_Standard_V1-O.pdf
+
+Exact anchors:
+- Section 5.4.2.3 Authorisation, printed/PDF p117: policy identifies necessary approval and authorisers; the component requests it and monitors continuing validity. Weapon release and entry into restricted zones are examples.
+- Section 5.4.2.29 Interlocks, p612: checks defined conditions and enables/disables functions. A store-release example combines the master armaments safety switch, aircraft state, bay-door state, authorisation, release envelope and requested release power.
+- Section 5.4.2.58 Stores Release, pp1179–1181: selects stores and schedules release; checks continuing feasibility. Its exclusions are important: this component does not itself control release equipment, transmit mission data/cryptography, validate mass and balance, or prepare the store/verify targeting data.
+
+This is genuine documentary evidence of conceptual separation of authorisation, interlocks and scheduling, not merely the journalist guessing how a system might work. But a reference component definition is not an equipment bill, deployed hardware safety circuit, source-code audit, safety case or acceptance-test result. The standard does not, in the passages reviewed, tie those functions to Rigby's patent or one named deployed weapon. Nor does it establish a single generic degraded-link autonomy policy. No inference of implementation or absence should be made.
+
+3. RSIC AND NATO LINK REMAINS PARTIAL
+General Dynamics UK's public stores-management page, readable through the web retrieval service, describes RSIC and a Safe Weapon Control Protocol for uncrewed aircraft. The direct raw-file fetch returned HTTP 403 and no wrapper was archived. This company's statement is corroborating evidence for the existence of the work, not a specification proving patent incorporation.
+https://generaldynamics.uk.com/businesses/mission-systems/air/airborne-mission-management/stores-management/
+No public full Logical Stores Integration Framework specification was recovered in this bounded pass. The 2025 RAeS biography remains a person-level account of RSIC/PRA/NATO continuity, not independent evidence of operational installation.
+
+QUESTIONS FOR BAE/MOD
+1. Does the uncertain-link functionality in Rigby's 2025 biography refer to US9156552B2/WO2012/175953, another patent, or a family of patents? Identify precise claims and the relevant implementation, if releasable.
+2. Which RSIC or Safe Weapon Control Protocol documents specify how time-limited authorisation behaves under interrupted or delayed communications?
+3. Which actual procurement or platform safety cases instantiate PRA Authorisation (5.4.2.3), Interlocks (5.4.2.29) and Stores Release (5.4.2.58)? Can the releasable compliance mapping, test criteria and acceptance record be supplied?
+4. Is the NATO Logical Stores Integration Framework published or adopted, and under what standard identifier/version? Do not treat 'forthcoming' in a biography as adoption.
+
+METHOD / LIMITATIONS
+English inventor/name/technology searches plus a German inventor/Waffen query; public Google Patents discovery and original patent PDF; direct retrieval and text extraction of both complete official MOD PDFs. Query strings and combined returned-result counts are logged; those counts are NOT database totals. Search did not constitute an exhaustive USPTO/Espacenet inventor census. A follow-up batch returned irrelevant results, retained honestly in the query record. No direct security-challenged source was retried or bypassed. No account, outreach, request or expenditure.
+Byte-identical raw files, hashes and verified Drive byte sizes are in manifest.json/SHA256SUMS.txt. Local text extractions are derivatives, not primary evidence. No claim is made that all 1513 pages received line-by-line review: targeted searches located and read relevant component definitions.
+
+========================================================================
+STAGE 2 GAP 2: RCH 155 / FC BISA / ASCA
+Public-source research, 16 November 2026
+
+BOTTOM LINE
+Public documents show both network-level fire-safety functions and an onboard RCH ballistic computer. They do not establish whether the UK or German RCH configuration installs the protected-area blocking mechanism described in US20230392899A1 claims 13–14. Nor do they justify saying safety exists only as warnings on a commander's map. The unclosed link is the location, authority, configuration and independent acceptance of protected-area enforcement in the procured system, not whether any safety arrangements exist.
+
+1. ACTUAL RCH ARCHITECTURE, NOT JUST ITS TRUCK-MOUNTED RELATIVE
+KNDS's current RCH155 page (R08, original HTML saved) explicitly describes an onboard fire-control computer integrating ballistic calculations and a radio-data connection to the customer's chosen artillery-control system. This establishes that onboard computation and external artillery command are separate parts of the advertised architecture. It does not identify the selected British interface, current software configuration or no-fire-area checking behaviour. Automated laying, loading, firing and marketing claims of autonomy are not evidence that a patented civilian-protection gate is installed. The archived AGM page (R04) independently provides the same high-level separation for the related module; it must not substitute for a UK integration specification.
+
+2. FC BISA IS MORE THAN A MAP DISPLAY
+CGI's original two-page FC BISA brochure (R02) distinguishes a handheld Fire Control Application, the distributed FC BISA application and an interface unit for external/coalition systems. Both applications use a NATO ballistic calculation kernel. The handheld's features include safety arcs and fire-support coordination measures; FC BISA advertises distributed fire-safety functionality. These are supplier descriptions, not a published independent safety test or evidence about the future RCH build. Nevertheless they are direct counterevidence to portraying the existing layer as merely a map which warns an operator. The brochure's older AS90/light-gun/mortar references limit any inference about RCH integration.
+
+3. ASCA AND A HUMAN SAFETY OFFICER
+DE&S's official digital sensor-to-shooter article (R01) describes FC BISA's NATO ASCA interoperability upgrade and a safety officer checking firing information. Its formulation is: "before any shots are fired, the information is checked and verified by a safety officer first". It covers historical FC BISA deployment and existing gun systems, not an RCH-specific acceptance test. ASCA supplies multinational information exchange; the article does not specify an onboard protected-area enforcement mechanism.
+
+4. PLANNED MFP LINK, WITH ACQUISITION LIMIT
+A government procurement search result for Welsh notice JUL635764 describes planned FC BISA upgrades requiring interoperability with Mobile Fires Platform. It points toward a genuine procurement integration relationship, rather than a speculative company-name overlap. However, direct fetch of this notice and Find a Tender 064929-2026 returned 403; no original bytes were preserved. Treat this as a search-extract lead, not a verified executed integration specification or completed acceptance. The derivative query log retains the result separately. Do not describe the integration as delivered on this evidence.
+
+5. DO NOT CALL ADLER THE RCH ONBOARD COMPUTER
+The German official Bundeswehr search extract describes ADLER as a network linking reconnaissance and effectors, passing target and other information digitally to weapon systems. Original German phrase: "Zieldaten und andere Informationen übermittelt und digital an die Waffensysteme übergeben". Translation: target data and other information are transmitted and handed digitally to the weapon systems. Direct original-page download returned 404; the search extract is derivative evidence only. No recovered primary source identifies IFAB or ADLER as the RCH onboard ballistic computer. Preserve this naming uncertainty rather than propagating the brief's parenthetical identification. A secondary search lead identifies IFAB as a historical predecessor; that is not relied on as an established finding here.
+
+BOUNDED GAPS / QUESTIONS FOR MOD, KNDS AND GERMAN BAAINBW
+Q1. Which configuration/version is contracted for the UK RCH Mobile Fires Platform, and which verified interface links FC BISA/ASCA information to its onboard fire-control computer? Can the functional allocation and independent acceptance summary be released without operational parameters?
+Q2. In that configuration, does a protected/no-fire-area check merely notify a commander, prevent a firing solution, or inhibit release onboard? Which public or releasable acceptance record establishes this? Please distinguish human review, higher-level software and onboard enforcement.
+Q3. Does the procured configuration implement the protected-area mechanism in US20230392899A1 claims 13–14, a different mechanism, or neither? Patent publication, common inventors and product-family marketing do not establish implementation.
+Q4. Who independently accepts those protections and maintains them across changes to the vehicle's position, data and software? Is a releasable assurance summary available? This asks for accountable validation, not classified interface specifications.
+Q5. For any features within JSP936's scope, how do the responsibilities described in §§91–105 apply to this procurement and how can outsiders verify the relevant assurance statement or independent review? Do not infer that every automated ballistic function is AI or that an AI policy necessarily applies to every fire-control component.
+
+METHOD / LIMITATIONS
+Twelve targeted English/German searches were run in three four-query batches. Exact strings/timestamps and returned search objects are in query_log.json. The search tool does not expose per-query or corpus-wide hit totals: these are null, not zero. Batch-level returned unique result counts are recorded separately. Official and manufacturer sources were opened; originals were fetched with unauthenticated HTTP GETs and hashed unmodified. Four original files were uploaded to the existing Stage1 Drive folder, and each remote size was independently read back and matched. A KNDS brochure and Bundeswehr page failed raw acquisition with 404; procurement endpoints returned403. Those bodies were not saved as evidence and no challenge was bypassed. Search extracts are separately labelled derivatives, not substitutes for original archives. This bounded pass cannot establish absence of a safeguard or establish that a published patent is deployed.
+
+========================================================================
+STAGE 2 GAP 3: BOXER / PROTECTOR RS4 / GVA / LOSA
+Research date: 16 November 2026. Public-source targeted pass; no outreach.
+
+BOTTOM LINE
+Public documents substantiate integration of remote weapon stations and shared electronic architecture into Boxer, but not the installed safety circuit or the use of US11946710B1 Claim 14 in a named delivered UK Boxer configuration. GVA compliance must not be treated as proof of that patented safeguard.
+
+NEW PRIMARY FINDINGS
+1. Rheinmetall/RBSL, 12 September 2023, describes UK Boxer prototypes/production vehicles with UK-supplied remote weapon stations, GVA components, situational-awareness and emergency-lighting systems. This is hardware-programme integration evidence, not a wiring diagram or a safety acceptance record.
+Source B02: https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/Presskit%20DSEI/2023-09-12%20Rheinmetall%20RBSL%20Boxer%20MIV%20update%20engl%20final.pdf
+
+2. UK MoD LOSA booklet (landing page published 21 September 2026, booklet copyright 2025), printed pp30–37: GVA integrates mission systems including remote weapon stations over a shared Ethernet network. It is an integration approach, not a prescriptive vehicle design. It lists supplier architecture-management plans, architecture cases, interface descriptions and deployed-system build sets as contract artefacts. Those are specific records to request for the Boxer baseline. Its Part2 overview includes hard control panels, but does not establish a dedicated weapon arming loop. Printed p34 has a low/high network cross-domain guard: that security separation must not be conflated with the weapon safety barrier.
+Source B03: https://assets.publishing.service.gov.uk/media/6a9673c63b22fb169dc18fb5/MOD10498_00319415_LOSA_A5_56pp_Booklet_1__1_.pdf
+Landing: https://www.gov.uk/government/publications/land-open-systems-architecture-losa
+
+3. Kongsberg 22 January 2022 release describes German JFSTsw Boxer prototype/reference systems combining RS4, Thales PAAG and NGVA; separately mentions German Boxer counter-UAS delivery. This is NOT the UK Boxer contract and NOT proof the UK configuration has the same cueing or safety design. Direct retrieval returned403; finding is supported by indexed publisher text, not preserved publisher HTML.
+https://www.kongsberg.com/news/news-archive/2022/protector-rs4-chosen-for-boxer-vehicle-with-new-mission-module/
+
+4. Important independent institutional lead: EDA announced SafeNGVA on31 January2023, describing a functional-safety extension and a EUR3.5m, 24-month first phase led by Germany with France, Rheinmetall, MBDA DE, Safran, Thales and Nexter. It said NGVA safety lacked implementable detail and proposed isolated safe subsystems with one-way gateways; later phases envisaged a weapon-system demonstrator. This dates a recognised standardisation problem, NOT a finding that Boxer lacked safeguards or that the problem remained unchanged in2026. A search for later work surfaced a participant's meeting report referring to SafeNGVA I results, but no examined public acceptance report establishing deployment. Direct EDA retrieval returned503; indexed original text supports this lead but original bytes were not acquired.
+https://eda.europa.eu/news-and-events/news/2023/01/31/new-eda-project-seeks-to-enhance-ngva-%28nato-generic-vehicle-architecture%29-safety
+
+PATENT COMPARISON
+US11946710B1 describes human authorisation of semi-autonomous engagement and safety-barrier/control channels. The correct comparison is whether a supplied weapon configuration has independently assured means of inhibiting operation, not whether a general GVA diagram contains a safety-looking symbol. Its patent disclosure is not a certification, procurement specification or proof of implementation.
+https://patents.google.com/patent/US11946710B1/en
+Read Claim14 directly alongside Claim5 before quoting the physical disconnect. Do not conflate hardware isolation with a claim that all signals use physically separate cabling: this patent also describes barrier signalling transported through networks.
+
+BOUNDED GAP
+No examined current public normative GVA text or named Boxer acceptance document establishes a mandatory dedicated hardware safety loop/physical arming switch separated from its mission bus. We retrieved the MOD introduction, not the full currently contracted normative standard. Absence from this search is NOT evidence no requirement or safety loop exists. Historical sources saying GVA Part8 was under development are not reliable evidence of the2026 position.
+
+PRECISION QUESTIONS (NOT SENT)
+UK MoD/DE&S and RBSL: For the delivered Boxer MIV baseline, which edition/parts of Def Stan23-009 are contractually applicable? Can you release the architecture case, interface descriptions and deployed-system build set, redacting sensitive particulars, to identify who certifies weapon-authorisation separation from mission/cueing software?
+Thales/Kongsberg: Is the UK Boxer RS4 configuration covered by US11946710B1 Claims5/14 or a different safeguard? Describe at a non-sensitive functional level the independent inhibit/arming control, who accepts its safety case, and whether counter-UAS upgrades change the authorisation boundary.
+EDA/BMVg: What were SafeNGVA I's accepted outputs, which normative editions adopted them, and which named vehicle/weapon configurations received them? Which results and independent evaluations are public?
+
+METHODS
+Fourteen targeted English/German search queries logged with UTC timestamps and returned-hit counts. Counts are tool-returned references, NOT total engine hits. Low-precision relaxed results retained transparently. Primary-source programme distinctions checked. PDFs saved unmodified, hashed, uploaded, metadata read back. No security bypass, no accounts, no outreach. Kongsberg403 and EDA503 logged; no error pages saved as primary files.
+
+PRESERVED INVENTORY
+B02_Rheinmetall_Boxer_UK.pdf | application/pdf |2502293 bytes| SHA256 ad8521e9e532e23899b623f261d2d09cf189ab4c6157fef4084d0406f0e9d0ca| Drive196aOWv2f-x1MKQiIaq3gxLaiiz9ji7zt
+B03_LOSA.pdf | application/pdf |18671148 bytes| SHA256 a7f706e059e30d6ee797e6b9f52f823c7019b225db3efd20775ae6609b3a5da7| Drive1LH5TPYPGB_6_MDszxEq6kBJEsqDQRDDv
+Both Drive parent and sizes verified by metadata readback. Parent1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O unchanged.
+
+
+========================================================================
+STAGE 2 GAP 4: DRAGONFIRE AND PUBLIC ASSURANCE
+Research date 16 November 2026. Public unauthenticated research only.
+
+BOTTOM LINE
+Primary records establish procurement, the intended Type 45 platform and several suppliers' roles. They do not establish that BAE's patented collateral-risk condition has been incorporated into DragonFire, nor identify a BAE CMS-1 deconfliction module as the relevant safety gate. No named-system ethical assurance statement or public Def Stan 00-055/00-056 safety case was located in this bounded search. This is not proof that one does not exist or that assurance was not performed.
+
+ESTABLISHED
+1. Royal Navy 20 November 2025 describes £316m MBDA work to develop DragonFire and install it in Type45 ships within two years, working with QinetiQ and Leonardo. This establishes platform/industrial context, not the internals of firing authorization.
+2. Commons answer 26254, 6 October 2026, specifies £316m EXCLUDING VAT for TWO units, within £490m directed-energy investment. Its refusal to disaggregate technology/program spending is justified on commercial/value-for-money grounds. Do not reframe this as a refusal to disclose safety tests.
+3. QinetiQ 6 January 2026 identifies its £67m MBDA subcontract: developing/producing DragonFire's laser source, plus safe testing. This positively establishes a specific role; BAE's role remains less well evidenced.
+4. Commons answer80542 (17 October2025) says externally acquired AI should receive the same standards/assurance as internally developed systems; it describes intent to leverage third-party assurance. It does not identify an independent auditor of DragonFire.
+5. Commons answer16183 (13 July2026) distinguishes real-time supervision from human control through operational parameters. It reiterates policy and RAISO oversight, not named-weapon audit results.
+
+JSP936 PRECISE READING (V1.1 Nov2024)
+§91 requires safe halting of development/deployment where unacceptable negative ethical risks arise, until managed. It does not specify a particular physical interlock.
+§92 requires lifecycle ethical risk management.
+§93 requires RAISO management of ethical/operational trade-offs.
+§95 requires evidence and appropriate communication, transparency within security constraints.
+§99 mandates annual TLB Executive Board statements to 2PUS supported by auditable evidence. These are ORGANIZATIONAL statements, not a requirement for each weapon to publish its own public statement.
+§101 requires appropriate assurance across accountable AI projects.
+§102 addresses accountability transfer and receiving RAISO acceptance of risk.
+§104 requires AI projects to identify their RAISO and medium/high-risk projects to inform that officer.
+§105 says there SHOULD be an Ethics Manager and Independent Ethics Assurance mechanism in large projects, significant-ethics-risk projects, or regular AI-producing teams. It does not say MUST, does not automatically require an external contractor, and does not mandate public release of a platform safety case.
+Applicability to an individual system requires establishing which functions count as AI and who has responsibility; laser automation alone does not answer this.
+
+SEARCH LIMITS
+Queries used primary-site restrictions and named combinations for DragonFire, RCH155, Boxer, ACP; focused queries on ethical assurance, safety cases and DefStan00-055/00-056 found no named-system documents. Initial queries mistakenly used 'site.' rather than 'site:'; these are logged, not silently corrected. Later correct-domain queries supersede them. Search results are returned references, not total indexed hits. A CMS-1 exact search included a false co-occurrence in a magazine issue: another product's CMS-1 sight must not be mistaken for BAE combat-management software. Generic job listings or general institutional safety-policy statements cannot establish a platform safety case.
+A secondary European Security & Defence DSEI2025 report quotes BAE presenters considering DragonFire integration on Type45; useful interview lead only, not primary contractual allocation or demonstrated safety design.
+FindTender notice029984-2025 PDF fetch returned HTTP403 on16Nov2026 at11:58:03UTC. No security response preserved as primary evidence.
+
+QUESTIONS
+For BAE/MBDA/MOD: identify BAE's contracted work package, relevant software/hardware configuration, and whether CMS-1 integration or deconfliction is part of it. Does any implementation embody US11473880B2 claim10, and if so which independently tested configuration? A supplier/patent overlap is not implementation evidence.
+For MOD: which TLB/RAISO covers each system's AI functions; what auditable evidence underlies its §99 statement; which §105 independent assurance mechanism applies; what non-sensitive findings and limitations can be released under §95? Identify the relevant versioned safety case and acceptance authority, not merely the applicable standard.
+
+PERSISTENCE AND BYTE INTEGRITY
+Six raw sources saved locally and uploaded; manifest_verified.json has exact URLs, local source bytes/hash and returned Drive metadata. Two direct HTML uploads CHANGED SIZE: QinetiQ local49909 vs Drive49911; RN local134512 vs Drive134513. Do not treat those direct Drive HTML copies as byte-verified originals. Recovery: unchanged local originals packaged in ZIP_STORED unchanged_html_originals.zip,184633 bytes,SHA256530c5bc4e5bf42824204f414fff4fa3681b5bfb5e8d4025f52d386f7a2b622c7,Drive1Oc3H-PRh_osqWcBwnSPyckcKCp7CxqEm; metadata verifies184633 bytes. Three Parliament HTML and JSP936 PDF sizes match exactly. Remote SHA256 not independently verified: hashes refer to acquired local bytes; ZIP remote size verified.
+
+
+II. PROPOSED QUESTIONS
+PRECISION RIGHT-TO-REPLY AND PARLIAMENTARY QUESTIONS
+UK-GERMAN SPINE: STAGE 2
+Research cut-off: 16 November 2026
+
+STATUS: DRAFTS ONLY. None sent; no records requests made. These are proposed questions, not findings of misconduct. A patent is evidence of a claimed invention, not proof that a customer received it. A missing public implementation record does not establish that safeguards are absent.
+
+The central question is: which safeguards are actually required in the purchased configuration, who tests them independently of the developer, and what evidence can Parliament or the public inspect? Ask for a document identifier, configuration/version and responsible authority wherever possible. A redacted test summary or requirements-to-test index may answer the accountability question without exposing operational vulnerabilities.
+
+SOURCE AND SCOPE CAUTIONS
+- JSP 936 Part 1 V1.1 (November 2024), paragraphs 91–105, describes UK AI ethics governance. Paragraph 99 requires annual TLB-level Statements of AI Ethical Assurance to 2PUS backed by auditable evidence. It does NOT explicitly require one published statement for each weapon. Paragraph 105 says qualifying projects SHOULD have an Ethics Manager and Independent Ethics Assurance mechanism; do not turn 'should' into 'must', or independence into a promise of public access or an external regulator. Its opening implementation note acknowledges supporting arrangements still being developed.
+- Bundestag 21/5159 (also written 21/05159), dated 2 April 2026, question 52: the 30 March answer links GhostPlay research publicly and classifies the remaining answer VS-NUR FÜR DEN DIENSTGEBRAUCH, with authorized inspection through the parliamentary secretariat. By contrast, Bundestag 21/9054, dated 10 November 2026, question 10 declines the requested test/simulation information even in classified form. That is a refusal of those particulars, not proof that all parliamentary or technical oversight has been excluded.
+- A no-fire map warning, a ballistic calculation that refuses a firing solution, a hardware arming loop, and a human authorization policy are different safeguards. Ask where each operates, not whether a system is generally 'ethical'.
+
+A. UK MOD: RIGHT-TO-REPLY / TECHNICAL ACCOUNTABILITY
+
+A1. Scope and ownership. For DragonFire, RCH 155/Mobile Fires Platform, Boxer/PROTECTOR RS4 and ACP, which functions, if any, are treated as AI within JSP 936? For each applicable function, identify the responsible TLB, RAISO and assurance/acceptance authority, and the relevant configuration baseline. If a component is not AI, which safety and weapons-review framework governs its automated firing or authorization controls instead? This avoids assuming that every automated subsystem falls under AI policy.
+
+A2. Evidence behind annual assurances. Under JSP 936 §99, which completed annual TLB Statements of AI Ethical Assurance cover the relevant projects, and what is the date and sign-off authority of the latest applicable statement? Can you provide a redacted statement or an index of the auditable evidence supporting the relevant functions? Please distinguish a statement already signed from planned assurance work. We are not assuming a separate statement exists for every weapon.
+
+A3. Independent checking. For projects meeting the criteria in §105, what Independent Ethics Assurance mechanism has been appointed, what is its relationship to the developer and procurement team, and which findings can it require the project to address? Please identify the mechanism and a completed review or test milestone, including any unresolved qualifications. If the §105 recommendation has not been adopted, what alternative and documented rationale apply? Independence alone does not establish authority to stop use.
+
+A4. Changes and stop-use thresholds. Under §§91–94 and 102, who decides that risk has become unacceptable, or that a changed software model, target-data feed, operational environment or communications mode needs reassessment? What acceptance/transfer record shows that the receiving operational authority understood and accepted the residual risk? Please provide a releasable example of an actual threshold, restriction or change decision, not a general statement that human control is retained.
+
+A5. Safety-case access. Are Def Stan  00-055/00-056 or other specified safety standards contractually applicable to these configurations? Which authority accepted the safety case, and can its date, scope, independent assessment body and principal operating limitations be disclosed? We have not established that either standard applies to every named system. Which assurance information could a parliamentary committee inspect securely if public release is not possible?
+
+B. KNDS AND UK/GERMAN ACQUISITION AUTHORITIES: RCH 155
+
+B1. The purchased safeguard. US20230392899A1 claim 13 adds a blocking parameter that can include a restricted area; dependent claim 14 withholds provision of a fire-control solution according to that parameter. Does an equivalent function exist in the UK or German ordered RCH 155 configuration? Please distinguish an upstream FC BISA/ASCA no-fire warning, an onboard fire-control computation gate, and a separate physical firing inhibit. Identify the baseline and acceptance authority rather than relying on the patent's existence. If the mechanism differs from the patent, please describe its safety function at an unclassified level.
+
+B2. Fire-on-the-move and changing data. Where are protected-area restrictions evaluated when the gun or target solution changes during movement? Which subsystem owns the restriction data and checks their validity, and what happens if updates are missing, stale or inconsistent? Can the operator override a blocked solution; if so, under what authorization and recorded process? Please provide a releasable test requirement or summary demonstrating the behaviour, including failure conditions. Do not disclose operational thresholds that are genuinely sensitive.
+
+B3. Acceptance and verification. Which organization tests end-to-end behaviour across the national C 2 interface, onboard computer and weapon? Did the contracted acceptance programme test that a valid upstream order cannot unintentionally bypass an onboard restriction? Can you identify the test event, outcome and residual limitation without supplying tactical data? How are national configurations and subsequent updates checked separately?
+
+B4. Patent status, separately. DPMA's DE102020127430.0 record contains the 5 August 2025 withdrawal/waiver category. Was that an administrative patent-portfolio decision, or did it reflect any change to the underlying technology? Please identify any relevant live foreign family protection and correct our account if necessary. We do not infer abandonment of the safeguard from withdrawal of the German application.
+
+C. BAE SYSTEMS / MBDA / UK MOD: DRAGONFIRE AND AIR-WEAPON AUTHORITY
+
+C1. Production responsibility. MBDA's December 2025 production announcement names BAE among participating companies. What exactly is BAE supplying for the production DragonFire configuration? Does that include Type 45 CMS-1 integration, engagement authorization, deconfliction or another safety function? Please distinguish current contracted scope, demonstration work and future plans. We have not established that BAE's patent is implemented simply because BAE participates.
+
+C1a. Testing independence. QinetiQ's 6 January 2026 announcement identifies its laser-source and safe-testing role. Which testing is supplier-led, which is customer acceptance, and which independently checks the safety argument? Please distinguish range safety during testing from assurance of operational engagement decisions. A supplier providing safe trials is not by itself evidence of an independent ethics assessment.
+
+C2. Directed-energy conditional firing. US11473880B2 dependent claim 10 adds a collateral-damage-risk condition to engaging-phase energy delivery. Does the production or tested DragonFire configuration use this claimed mechanism or a functional equivalent? What risk is it designed to address, who sets the permitted conditions, and which body independently checks compliance with the requirement? Please distinguish physical engagement-risk estimation from civilian recognition or a legal proportionality judgment; the claim does not establish the latter functions.
+
+C3. Uncertain links and distinct patents. We found Rigby/Freeman US9156552B2 (priority GB1110820.6,24 June 2011), whose claim 1 validates remote activation against a command-age threshold, claim 2 prevents or opposes invalid activation, and claim 12 identifies a weapon. Is this the invention referenced by Rigby's biography, or another filing? Pyramid V1.0 separately specifies Authorisation (§5.4.2.3), Interlocks (§5.4.2.29) and Stores Release (§5.4.2.58). Is the patented command-age mechanism incorporated in RSIC/Pyramid or the proposed NATO framework, or are these separate strands? Which contracted implementation, if any, uses it and which acceptance test verifies stale-command rejection? The architectural interlock example already lists physical and authorization conditions; we are not asking as though no public interlock specification exists. It still does not identify a delivered weapon implementation. Rigby is not an inventor of US11422549B2.
+
+C4. Allocated authority during disconnection. Separately, US11422549B2 claim 1 describes configuring automation and operator approvals by decision point and continuing UAV control without communications. Is that design used in an identified ACP/FCAS demonstrator or contracted system? If so, which decisions remain prohibited without fresh authorization, how is authorization scope/time validity bounded, and what acceptance test checks this after loss of communications? The claim is not evidence of automatic lost-link abort; please distinguish a safe cessation rule from deliberately permitted continued activity.
+
+D. KONGSBERG / THALES UK / UK MOD: BOXER, RS4 AND COUNTER-UAS
+
+D1. Hardware versus software. US11946710B1 claims 1/6 distinguish activation, authorization and triggering; claims 5/14 describe a switch connecting/disconnecting a hardware-barrier communication loop. Do the British Boxer RS4 or other specifically identified contracted configurations implement this or equivalent separate hardware authorization? Can a message on the vehicle mission bus alone arm or fire the weapon? Please provide an unclassified interface/safety requirement or acceptance reference showing which supplier owns each boundary. Compliance with GVA by itself would not demonstrate this particular interlock.
+
+D2. Loss of communications. US20230229794A1 claims 5/17 describe disabling the safety-critical device on communications loss and returning it to a default-safe state. Does that rule apply in each named RS4/PROTECTORCUAS configuration, and what behaviour is actually required on degraded rather than fully lost communications? Who verifies the behaviour through the vehicle/C2/weapon chain? Please identify any exceptions or customer-specific options at a releasable level. The publication is an application, not proof of a delivered implementation.
+
+D3. Meaning of a human fire decision. Your representative's 2024 description of CORTEX Typhon retains a human fire decision. What precisely does the person authorize: one target, one engagement, a bounded target set, or a period of operation? How is a changed or lost target invalidated, and which acceptance test checks that authorization is not inadvertently carried across targets? We seek a bounded functional description, not classified detection performance or an assertion that the operator alone guarantees legality.
+
+E. GERMAN BMVG / BAAINBW: ACCOUNTABILITY AND REASSESSMENT
+
+E1. Different disclosure routes. Bundestag 21/5159 Q 52 left part of the digital-twin/AI-simulation answer available to authorized readers as VS-NfD, whereas 21/9054 Q 10 withheld the requested testing/simulation information even in classified form. For the latter subject, which government body actually verifies the tests independently of the developer, and which parliamentary or other oversight body can inspect the assurance evidence, through what lawful procedure? Can you provide a non-operational summary of the process, reviewing institution and completed milestones that does not reveal protected capabilities?
+
+E2. Human control as a testable requirement. In 21/9054 Q 7/9 the government says a human authorizes engagement irrespective of how the target proposal originated. What unclassified acceptance requirement verifies that the person has adequate information and time to exercise this control, and which body signs off that requirement? How is a changed target status or failed link handled in the requirement? If the technical parameters must remain classified, can the existence, date and independent review of the requirement be confirmed?
+
+E3. Learning after approval. EP4293311A1 claims 8/10 concern post-training adaptation and development of control rules/tactics. Do any GhostPlay@SEA, JATOC or related transfer activities actually use such adaptation on a physical system, rather than only in simulation? If so, what changes are allowed without renewed safety/legal review, who owns that decision, and how is the approved operational boundary enforced? We do not assume that the patent is implemented, that a digital twin is a fielded weapon, or that research transfer proves deployment.
+
+E4. Clarify the human-control formulations. The public K-9000/102 edition, effective 9 April 2026, distinguishes human control from human interaction and says interaction is not necessarily required for every weapons use. The November answer in 21/9054 Q7/9 says a human authorizes engagement. How do these statements fit together: prior authorization of a bounded mission, approval of each target, or different system classes? What determines the approved scope and when it expires? This is a request to reconcile scope, not a claim that the documents necessarily contradict one another.
+
+F. SHORT PARLIAMENTARY QUESTION FORMULATIONS
+
+UK1. To ask the Secretary of State for Defence, for each of DragonFire, Mobile Fires Platform/RCH 155, Boxer/PROTECTOR RS4 and Autonomous Collaborative Platforms: which AI functions fall within JSP 936; which TLB/RAISO is responsible; and whether the latest annual Statement under paragraph 99 covers those functions, giving its date and the arrangements for parliamentary access to supporting assurance evidence.
+
+UK2. To ask the Secretary of State for Defence what Independent Ethics Assurance arrangements under JSP 936 paragraph 105 apply to those projects; how reviewer independence is assessed; and what unclassified information can be published about completed reviews, outstanding qualifications and the authority to require remedial action.
+
+UK3. To ask the Secretary of State for Defence what acceptance requirements distinguish C 2-level no-fire warnings from onboard inhibition of a firing solution in Mobile Fires Platform/RCH 155; and whether a releasable summary of the end-to-end acceptance testing will be published. This is about required behaviour, not disclosure of a complete weapons architecture.
+
+UK4. To ask the Secretary of State for Defence which organization is responsible for independently assessing production DragonFire's engagement-authorization and collateral-risk controls; and what assurance summary can be supplied without revealing operational performance.
+
+German1. Following 21/9054 Q 10, which institutions are authorized to inspect the relevant test and simulation evidence, and what non-sensitive account can the government provide of their independence, findings-handling powers and parliamentary reporting route? Please distinguish that arrangement from the classified-access procedure stated for 21/5159 Q 52.
+
+German2. Which authority accepts the German RCH 155 configuration's automated firing restrictions, what evidence establishes its separation or integration with higher-level command-system warnings, and what non-sensitive test summary can be provided?
+
+German3. For publicly funded GhostPlay/GhostPlay@SEA-related work, what has progressed from simulation to physical testing, and which review authority determines when adaptive behaviour or software changes require renewed approval? Please distinguish research deliverables, trials, contracted procurement and operational use.
+
+PRIMARY ANCHORS
+JSP 936 Part 1 V1.1: https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+Bundestag 21/5159 Q 52: https://dserver.bundestag.de/btd/21/051/2105159.pdf
+Bundestag 21/9054 Q 4,7/9,10: https://dserver.bundestag.de/btd/21/090/2109054.pdf
+KNDS US claims 13–14: https://patents.google.com/patent/US20230392899A1/en
+BAE directed energy claim 10: https://patents.google.com/patent/US11473880B2/en
+Rigby/Freeman stale-command claim 1/2/12: https://patents.google.com/patent/US9156552B2/en
+BAE authority allocation claim 1: https://patents.google.com/patent/US11422549B2/en
+Kongsberg hardware loop claims 5/14: https://patents.google.com/patent/US11946710B1/en
+Kongsberg lost-link claims 5/17: https://patents.google.com/patent/US20230229794A1/en
+21strategies adaptation claims 8/10: https://data.epo.org/linked-data/representation/publication/EP/4293311/NWA1.xml
+
+DRAFTING METHOD
+Read the recovered Stage 1 report from its GitHub source (blob SHA 0c 8e 37b 1cb 297de 012d 51e 0938511e 00f 695815b); checked JSP 936 primary text, Bundestag 21/5159 Q 52 and the original 21/9054 PDF. Used specific claim anchors from the recovered patent inventory; no fresh general patent sweep. Wrote conditional implementation questions rather than assuming the patent-to-product bridge. Incorporated the Stage 2 Rigby/Pyramid and DragonFire workers' primary-source findings, retaining their limits on bio identification and delivered implementation. Any further Stage 2 patent or architectural finding should be inserted in the consolidated report beside the appropriate question, without converting the remaining gap into an allegation. Questions remain unsent.
+
+III. MASTER SOURCE AND CHECKSUM INVENTORY
+
+STAGE1 INVENTORY (carried forward from committed report)
+PART II: CONSOLIDATED SOURCE INVENTORY FOR HUMAN AND AI CHECKING
+============================================================
+The source URL identifies provenance; the Drive link identifies the preserved copy. Hashes describe acquired original bytes, not a rendered page or extracted text. HTTP failure records and segment verification objects follow in full.
+
+
+FILE: S01_DPMA_register.html
+Source: https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300
+Retrieved/provenance: 2026-11-16T10:24:00Z (minute precision)
+Bytes: 55894
+MIME: text/html;charset=UTF-8
+SHA-256: 185efd61650ea6007d7baeffe12ab5a25b976861798b25716d16f14e586536c9
+Drive ID: 1_UfqoY9v7stc3dG_xO1QbAGVW9_jI0m4
+Preserved copy: https://drive.google.com/file/d/1_UfqoY9v7stc3dG_xO1QbAGVW9_jI0m4/view
+
+
+FILE: S02_EP4229352A1.html
+Source: https://patents.google.com/patent/EP4229352A1/en
+Retrieved/provenance: 2026-11-16T10:24:57.902739+00:00
+Bytes: 237959
+MIME: text/html
+SHA-256: 617b895441a84fc11fc3525351bc2400ad70142e73d8efeb1adacfba7ee8231a
+Drive ID: 1b4uOdQTZXYZKuy53IHIEzanbG-xJAr95
+Preserved copy: https://drive.google.com/file/d/1b4uOdQTZXYZKuy53IHIEzanbG-xJAr95/view
+
+
+FILE: S02_US20230392899A1.html
+Source: https://patents.google.com/patent/US20230392899A1/en
+Retrieved/provenance: 2026-11-16T10:24:57.903332+00:00
+Bytes: 247269
+MIME: text/html
+SHA-256: ea47e43c3e71ad1806b423a70618fe61d0eaa868cc5a41219a2037475a91f441
+Drive ID: 1b3Rqnjz-FRMnporCC3_4TBR0kinMsyYZ
+Preserved copy: https://drive.google.com/file/d/1b3Rqnjz-FRMnporCC3_4TBR0kinMsyYZ/view
+
+
+FILE: S03_RCH155_de.html
+Source: https://knds.com/de/produkte/systeme/rch-155
+Retrieved/provenance: 2026-11-16T10:24:57.903750+00:00
+Bytes: 456602
+MIME: text/html; charset=utf-8
+SHA-256: 2c2b9ac2ddded7e292f0fb42703671ed02b2e0598f602b8ce34637fd48edcfac
+Drive ID: 1i12eWeUXFxngWG1DIJltwcdhIbMKKjb0
+Preserved copy: https://drive.google.com/file/d/1i12eWeUXFxngWG1DIJltwcdhIbMKKjb0/view
+
+
+FILE: S05_Freundeskreis.html
+Source: https://www.freundeskreis-artillerietruppe.de/Neuigkeiten/
+Retrieved/provenance: 2026-11-16T10:24:57.905253+00:00
+Bytes: 354396
+MIME: text/html; charset=utf-8
+SHA-256: 22403c035ba304dab2f8528d95a8f60332ed7e35fced491949a4fcd3cbd60ce8
+Drive ID: 1AoJ6N2eKw1-OGqU4zwdAdmc1G8P9gPfC
+Preserved copy: https://drive.google.com/file/d/1AoJ6N2eKw1-OGqU4zwdAdmc1G8P9gPfC/view
+
+
+FILE: S05_UK_MoD.html
+Source: https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army
+Retrieved/provenance: 2026-11-16T10:24:57.907402+00:00
+Bytes: 78998
+MIME: text/html; charset=utf-8
+SHA-256: e3de15ba50e58c5cd3f5f38ad6adf5819b3b0791accdef8672a26265ede92483
+Drive ID: 13v0o2AaJdLi5FxoDFN6ZVLFClVrpdhgC
+Preserved copy: https://drive.google.com/file/d/13v0o2AaJdLi5FxoDFN6ZVLFClVrpdhgC/view
+
+
+FILE: S03_RCH155_en.html
+Source: https://knds.com/en/products/systems/rch-155
+Retrieved/provenance: 2026-11-16T10:26:54.027512+00:00
+Bytes: 455198
+MIME: text/html; charset=utf-8
+SHA-256: 6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452
+Drive ID: 1Xc6qqj--UsmOlbi9vD0Ktbbls_hsc29t
+Preserved copy: https://drive.google.com/file/d/1Xc6qqj--UsmOlbi9vD0Ktbbls_hsc29t/view
+
+
+FILE: S05_KNDS_German_order.html
+Source: https://knds.com/en/press-releases/germany-procures-rch-155-wheeled-howitzers-from-knds
+Retrieved/provenance: 2026-11-16T10:26:54.028179+00:00
+Bytes: 330162
+MIME: text/html; charset=utf-8
+SHA-256: cdaa7e4fd6f6767114a63c009ce5c40485a021bb95088db1f436857bd13fd4cd
+Drive ID: 1aIufK9Iz_96K6bHcDE72UJvPvTR34E3X
+Preserved copy: https://drive.google.com/file/d/1aIufK9Iz_96K6bHcDE72UJvPvTR34E3X/view
+
+
+FILE: S02_US20230392899A1.pdf
+Source: https://patentimages.storage.googleapis.com/da/03/ce/e5a07857d0d160/US20230392899A1.pdf
+Retrieved/provenance: 2026-11-16T10:26:54.029120+00:00
+Bytes: 900037
+MIME: application/pdf
+SHA-256: fe4251985369c223ece850187b692ff2e3ed988fe86fdf99590888601cf283a7
+Drive ID: 1nE8226A8ZsLk4AQuj6hFhf1kUg8xUyXZ
+Preserved copy: https://drive.google.com/file/d/1nE8226A8ZsLk4AQuj6hFhf1kUg8xUyXZ/view
+
+
+FILE: S24_Dstl_laser.html
+Source: https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first
+Retrieved/provenance: 2026-11-16T10:24:49.053989+00:00
+Bytes: 84977
+MIME: text/html
+SHA-256: 0581002e804ee3d1d2659cd786efe247f4c95657b9bd757df701870af0274f2d
+Drive ID: 1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q
+Preserved copy: https://drive.google.com/file/d/1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q/view
+
+
+FILE: S25_FCAS_708m.html
+Source: https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology
+Retrieved/provenance: 2026-11-16T10:24:51.968185+00:00
+Bytes: 71574
+MIME: text/html
+SHA-256: daca794d19cf71398d244ff9c0fc8c54b3b06830bcbc35920a79418329afdfe5
+Drive ID: 1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy
+Preserved copy: https://drive.google.com/file/d/1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy/view
+
+
+FILE: S26_RAF_ACP_strategy.pdf
+Source: https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf
+Retrieved/provenance: 2026-11-16T10:25:11.700577+00:00
+Bytes: 2076536
+MIME: application/pdf
+SHA-256: 5e4fda8b3293c09b95f2287ecedb57b63c876317c6abfa4b35bbd513cab0b5fb
+Drive ID: 1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79
+Preserved copy: https://drive.google.com/file/d/1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79/view
+
+
+FILE: S27_Rigby_2022.pdf
+Source: https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf
+Retrieved/provenance: 2026-11-16T10:25:18.234980+00:00
+Bytes: 281464
+MIME: application/pdf
+SHA-256: f48343810870c674b54fafb4bf160edd45acc7041db192defb4ab5fb51f1ef71
+Drive ID: 1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE
+Preserved copy: https://drive.google.com/file/d/1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE/view
+
+
+FILE: S28_Rigby_2025.pdf
+Source: https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf
+Retrieved/provenance: 2026-11-16T10:25:35.031852+00:00
+Bytes: 13378233
+MIME: application/pdf
+SHA-256: fc9967ef5cc87d924817d0a7242a3d53b09193651e419b394ecb18dd8b78a69b
+Drive ID: 15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT
+Preserved copy: https://drive.google.com/file/d/15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT/view
+
+
+FILE: BAE_US11473880B2.html
+Source: https://patents.google.com/patent/US11473880B2/en
+Retrieved/provenance: 2026-11-16T10:25:39.597853+00:00
+Bytes: 288231
+MIME: text/html
+SHA-256: 2dd68bc419bc5b3e0eafbf359c47e29acbacf2495a1b24a638b11ddf80523ebc
+Drive ID: 1r3rT9jlZDF6PmMEOlfWv3jxk7wPi-pfr
+Preserved copy: https://drive.google.com/file/d/1r3rT9jlZDF6PmMEOlfWv3jxk7wPi-pfr/view
+
+
+FILE: BAE_US11422549B2.html
+Source: https://patents.google.com/patent/US11422549B2/en
+Retrieved/provenance: 2026-11-16T10:26:01.443741+00:00
+Bytes: 302845
+MIME: text/html
+SHA-256: 86ddb5d46ca7c04242359d41fd81e679b17a9f53383ee68676e6fc6648deaa2b
+Drive ID: 1zNRW0jO8SONwAHnW4tZr6JJMsU2_54yb
+Preserved copy: https://drive.google.com/file/d/1zNRW0jO8SONwAHnW4tZr6JJMsU2_54yb/view
+
+
+FILE: BAE_US11473880B2.pdf
+Source: https://patentimages.storage.googleapis.com/6b/94/80/163c684e62313d/US11473880.pdf
+Retrieved/provenance: 2026-11-16T10:29:19.384021+00:00
+Bytes: 1431849
+MIME: application/pdf
+SHA-256: d2e58e6a38967da18d5d012e9c02ec1fd72392ec9d6f5822844895f5a1e609db
+Drive ID: 173_WlHJ9x0J0yV8rcS3341tsDXLrgACU
+Preserved copy: https://drive.google.com/file/d/173_WlHJ9x0J0yV8rcS3341tsDXLrgACU/view
+
+
+FILE: BAE_US11422549B2.pdf
+Source: https://patentimages.storage.googleapis.com/b5/af/60/f1d255ea83aeea/US11422549.pdf
+Retrieved/provenance: 2026-11-16T10:29:45.774451+00:00
+Bytes: 1680725
+MIME: application/pdf
+SHA-256: c859f3e4136115ca719e125b36b334024949f2b93302098439b8b24c29fa44f6
+Drive ID: 1pKYZSzCTu88rjLxjreeiX1MeTs4SYsO4
+Preserved copy: https://drive.google.com/file/d/1pKYZSzCTu88rjLxjreeiX1MeTs4SYsO4/view
+
+
+FILE: US11946710B1.html
+Source: https://patents.google.com/patent/US11946710B1/en
+Retrieved/provenance: 2026-11-16T10:25:04.281917+00:00
+Bytes: 237028
+MIME: text/html
+SHA-256: d08aaccbb6860543a7aa0ae3ac4c34564cda6f719b7f2fdff1e730ce85c7b3fa
+Drive ID: 1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T
+Preserved copy: https://drive.google.com/file/d/1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T/view
+
+
+FILE: US20230229794A1.html
+Source: https://patents.google.com/patent/US20230229794A1/en
+Retrieved/provenance: 2026-11-16T10:25:08.858550+00:00
+Bytes: 254027
+MIME: text/html
+SHA-256: 82437d5cdf92b266d6a281a2e8f30439a9bee73ddf333597ade635019ced704a
+Drive ID: 1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ
+Preserved copy: https://drive.google.com/file/d/1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ/view
+
+
+FILE: S06_Boxer11897.html
+Source: https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897
+Retrieved/provenance: 2026-11-16T10:25:12.030277+00:00
+Bytes: 27167
+MIME: text/html; charset=utf-8
+SHA-256: 808daf656853f9ea11281c964a373cdf5b2b0587aba5ae324da596e323ad3486
+Drive ID: 1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy
+Preserved copy: https://drive.google.com/file/d/1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy/view
+
+
+FILE: US11946710B1_PDF.pdf
+Source: https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf
+Retrieved/provenance: 2026-11-16T10:27:11.037771+00:00
+Bytes: 957451
+MIME: application/pdf
+SHA-256: b938ff5f92b3208f9e7a5dc4409d1d2ba7acf5b0de31804404300a77baf434c8
+Drive ID: 1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke
+Preserved copy: https://drive.google.com/file/d/1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke/view
+
+
+FILE: US20230229794A1_PDF.pdf
+Source: https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf
+Retrieved/provenance: 2026-11-16T10:27:14.495367+00:00
+Bytes: 1652668
+MIME: application/pdf
+SHA-256: bb5f485dfbe4f4b97127487c30b3972e89714567822f79abe12747ad7f49a4b0
+Drive ID: 1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U
+Preserved copy: https://drive.google.com/file/d/1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U/view
+
+
+FILE: NDIA_interview_reprint.pdf
+Source: https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf
+Retrieved/provenance: 2026-11-16T10:27:56.555942+00:00
+Bytes: 3342184
+MIME: application/pdf
+SHA-256: 8bc595acf6743cb6b2fbe2333e63bbe2b13239392273aef828ccaaeaacd8b807
+Drive ID: 1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO
+Preserved copy: https://drive.google.com/file/d/1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO/view
+
+
+FILE: Helsing_DE102025101672A1.html
+Source: https://patents.google.com/patent/DE102025101672A1/de
+Retrieved/provenance: 2026-11-16T10:25:51.681907+00:00
+Bytes: 129277
+MIME: text/html
+SHA-256: 56ffaadbf0fc788d9942cdabda11f985c8c5986884cb7313b42aa6dc8a0c497a
+Drive ID: 1plZszvpL1VXy8XFVguLcEXvH4q18rIJx
+Preserved copy: https://drive.google.com/file/d/1plZszvpL1VXy8XFVguLcEXvH4q18rIJx/view
+
+
+FILE: S29_ThinkingBeforeSinking.pdf
+Source: https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf
+Retrieved/provenance: 2026-11-16T10:25:51.682535+00:00
+Bytes: 1462454
+MIME: application/pdf
+SHA-256: 4a1dafee44297e85e3563087abf196a6ff70c952eadf0449d11534fe3eb9c6f1
+Drive ID: 1c0lDRoG86qauSqXqazGe5o7PCuTavX2D
+Preserved copy: https://drive.google.com/file/d/1c0lDRoG86qauSqXqazGe5o7PCuTavX2D/view
+
+
+FILE: S30_GhostPlay_dtec.html
+Source: https://dtecbw.de/home/forschung/hsu/projekt-ghostplay
+Retrieved/provenance: 2026-11-16T10:25:51.683009+00:00
+Bytes: 27576
+MIME: text/html;charset=utf-8
+SHA-256: 25d8a10a0389535ad495c622eb1faec899f4686cb9317217517088f6695f2e73
+Drive ID: 1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el
+Preserved copy: https://drive.google.com/file/d/1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el/view
+
+
+FILE: S32_Sim2Live_JATOC.html
+Source: https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/
+Retrieved/provenance: 2026-11-16T10:26:06.628738+00:00
+Bytes: 202455
+MIME: text/html; charset=UTF-8
+SHA-256: 2072e0242a70ba71a5ebf9e38620b98bc4259c23195806ceb04c57ba9386965d
+Drive ID: 1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo
+Preserved copy: https://drive.google.com/file/d/1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo/view
+
+
+FILE: S33_JSP936_Part1.pdf
+Source: https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+Retrieved/provenance: 2026-11-16T10:26:08.173723+00:00
+Bytes: 1563554
+MIME: application/pdf
+SHA-256: 8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af
+Drive ID: 11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x
+Preserved copy: https://drive.google.com/file/d/11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x/view
+
+
+FILE: UK_Lords_Response_2024.pdf
+Source: https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf
+Retrieved/provenance: 2026-11-16T10:26:14.149078+00:00
+Bytes: 1800508
+MIME: application/pdf
+SHA-256: acaaeaf898dc8a63f6eb49f8a0d4b255ccab6e88b929e4adc09151d0ac659e6f
+Drive ID: 1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG
+Preserved copy: https://drive.google.com/file/d/1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG/view
+
+
+FILE: DE_21_9054.pdf
+Source: https://dserver.bundestag.de/btd/21/090/2109054.pdf
+Retrieved/provenance: 2026-11-16T10:26:18.712915+00:00
+Bytes: 259778
+MIME: application/pdf
+SHA-256: 5cb24f6a986a0be0d085b98b4e8028eb46d9cb0412d5f2c8e9b73b9835ff39c7
+Drive ID: 1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz
+Preserved copy: https://drive.google.com/file/d/1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz/view
+
+
+FILE: EP4293311A1.xml
+Source: https://data.epo.org/linked-data/representation/publication/EP/4293311/NWA1.xml
+Retrieved/provenance: See full manifest for salvage provenance
+Bytes: 77813
+MIME: application/xml
+SHA-256: 577764d745dd13ca50ef1272398c4b0d661fe15b3bc08e8d6d2012d60c1f6ac8
+Drive ID: 1ta9ak1n8YvTB0RfrdlRLuGmI9AXyytba
+Preserved copy: https://drive.google.com/file/d/1ta9ak1n8YvTB0RfrdlRLuGmI9AXyytba/view
+
+
+============================================================
+
+STAGE2 INVENTORY
+
+SEGMENT stage2_records/manifest.json
+
+FILE: T1_Bundestag_2105159.pdf
+Source: https://dserver.bundestag.de/btd/21/051/2105159.pdf
+Retrieved UTC: 2026-11-16T11:56:07.132129+00:00
+MIME: application/pdf
+Original bytes: 1086459
+SHA-256: 6632c3a0f6cd21648f2feafc239c0a7fe07733a9e5cafd96d270833cebb7bcde
+Drive ID: 1PMjetkPT9Gt3VHKvOzJpTpiI_5faMAG2
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1PMjetkPT9Gt3VHKvOzJpTpiI_5faMAG2/view
+
+FILE: T1_BMVg_KI.pdf
+Source: https://www.bmvg.de/resource/blob/6143700/9954e2b6b993b17cd3d09ca31c506774/dl-ki-konzeption-data.pdf
+Retrieved UTC: 2026-11-16T11:56:14.369668+00:00
+Acquisition / preservation status: {"name": "T1_BMVg_KI.pdf", "url": "https://www.bmvg.de/resource/blob/6143700/9954e2b6b993b17cd3d09ca31c506774/dl-ki-konzeption-data.pdf", "timestamp": "2026-11-16T11:56:14.369668+00:00", "result": "failed", "error": "HTTP Error 404: Not Found", "status": 404}
+
+FILE: T1_Ghostplay_mirror.pdf
+Source: https://files.auftrag-select.com/file/auftrag-select-public/pdfs/6656021/bekanntmachung.pdf
+Retrieved UTC: 2026-11-16T11:56:18.721408+00:00
+Acquisition / preservation status: {"name": "T1_Ghostplay_mirror.pdf", "url": "https://files.auftrag-select.com/file/auftrag-select-public/pdfs/6656021/bekanntmachung.pdf", "timestamp": "2026-11-16T11:56:18.721408+00:00", "result": "failed", "error": "HTTP Error 403: Forbidden", "status": 403}
+
+FILE: T1_EP4229352A1.xml
+Source: https://data.epo.org/linked-data/representation/publication/EP/4229352/NWA1.xml
+Retrieved UTC: 2026-11-16T11:56:22.942934+00:00
+MIME: application/xml
+Original bytes: 4598
+SHA-256: 1c77bdf849c98a8fcd65e5738c28762a9d1827ce89485048908b3e93ec835a43
+Drive ID: 1ByQwFXpSzuuaY3AUOO2w5zValN7iUqVP
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1ByQwFXpSzuuaY3AUOO2w5zValN7iUqVP/view
+
+FILE: T1_RENK.pdf
+Source: https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557
+Retrieved UTC: 2026-11-16T11:56:46.434647+00:00
+Acquisition / preservation status: {"name": "T1_RENK.pdf", "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557", "timestamp": "2026-11-16T11:56:46.434647+00:00", "result": "failed", "error": "HTTP Error 503: Service Unavailable", "status": 503}
+
+FILE: T1_Wu2022.pdf
+Source: https://savage.nps.edu/EthicalControl/documentation/papers/SSS-22_paper_117_TieredApproachEthicalAIEvaluationMetrics.pdf
+Retrieved UTC: 2026-11-16T11:57:05.361893+00:00
+MIME: application/pdf
+Original bytes: 223159
+SHA-256: 0e6714992879f299496f45d61af6228fb6c0650e0fd349aed7213db00dfde927
+Drive ID: 1g-1_rBfchDaVl_t41dusbxPLPwbJg1l5
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1g-1_rBfchDaVl_t41dusbxPLPwbJg1l5/view
+
+FILE: T1_ACTS.html
+Source: https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG648236&catID=
+Retrieved UTC: 2026-11-16T11:57:10.360334+00:00
+Acquisition / preservation status: {"name": "T1_ACTS.html", "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG648236&catID=", "timestamp": "2026-11-16T11:57:10.360334+00:00", "result": "failed", "error": "HTTP Error 403: Forbidden", "status": 403}
+
+FILE: T1_INPI_FR3102239.html
+Source: https://data.inpi.fr/brevets/FR3102239
+Retrieved UTC: 2026-11-16T11:57:31.612628+00:00
+MIME: text/html; charset=UTF-8
+Original bytes: 132489
+SHA-256: a52fec4d01b9ac2301f95e5864fa34558619e38424f1792de19a9b3bbba89109
+Drive ID: 1McrsKom1FsMGtVhQOf-PP7N7vsCGQPgr
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1McrsKom1FsMGtVhQOf-PP7N7vsCGQPgr/view
+
+FILE: T1_INPI_EP3812690.html
+Source: https://data.inpi.fr/brevets/EP3812690
+Retrieved UTC: 2026-11-16T11:57:37.593649+00:00
+MIME: text/html; charset=UTF-8
+Original bytes: 130561
+SHA-256: 4e49697eeed685a376a5c054aaeec7ed65997bbf51a535a2fabcd4aad0c6a0ee
+Drive ID: 1mhag_cvqlRh74w3-Retxv5J__qA4phEW
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1mhag_cvqlRh74w3-Retxv5J__qA4phEW/view
+
+FILE: T1_INPI_EP3882560.html
+Source: https://data.inpi.fr/brevets/EP3882560
+Retrieved UTC: 2026-11-16T11:57:58.686308+00:00
+MIME: text/html; charset=UTF-8
+Original bytes: 139860
+SHA-256: 71934951ea911e88898d1f0c05f9308203f4f3b4e7cb754cd736e1506c33c107
+Drive ID: 1cjQLLdpZt7flDdHlG5Hd4cRccJLEFpIe
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1cjQLLdpZt7flDdHlG5Hd4cRccJLEFpIe/view
+
+FILE: T1_INPI_EP3882561.html
+Source: https://data.inpi.fr/brevets/EP3882561
+Retrieved UTC: 2026-11-16T11:58:05.089253+00:00
+MIME: text/html; charset=UTF-8
+Original bytes: 139017
+SHA-256: 69c4b8cdc39c663e375c53df425c17b04a5f112ddfedc8fe9e198dddbf73e6f2
+Drive ID: 1HIAaaxyELor6U6vPlDgHDjOe1p4o5pe5
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1HIAaaxyELor6U6vPlDgHDjOe1p4o5pe5/view
+
+FILE: T1_EP4229352A1.pdf
+Source: https://data.epo.org/publication-server/rest/v1.2/patents/EP4229352NWA1/document.pdf
+Retrieved UTC: 2026-11-16T12:00:57.716203+00:00
+Acquisition / preservation status: {"name": "T1_EP4229352A1.pdf", "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4229352NWA1/document.pdf", "timestamp": "2026-11-16T12:00:57.716203+00:00", "result": "failed", "error": "HTTP Error 500: Internal Server Error", "status": 500}
+
+FILE: T1_TED185823.xml
+Source: https://ted.europa.eu/en/notice/185823-2025/xml
+Retrieved UTC: 2026-11-16T12:01:22.270119+00:00
+Acquisition / preservation status: {"name": "T1_TED185823.xml", "url": "https://ted.europa.eu/en/notice/185823-2025/xml", "timestamp": "2026-11-16T12:01:22.270119+00:00", "status": 202, "mime": "text/html; charset=UTF-8", "final_url": "https://ted.europa.eu/en/notice/185823-2025/xml", "bytes": 0, "result": "not_expected_document_not_saved"}
+
+FILE: T1_BMVg_KI_mirror.pdf
+Source: https://augengeradeaus.net/wp-content/uploads/2026/08/K-9000-102-OeFFENTLICHE-Fassung.pdf
+Retrieved UTC: 2026-11-16T12:01:36.314118+00:00
+MIME: application/pdf
+Original bytes: 903675
+SHA-256: 237c6110bd30770f917c0d6d8e8e5bcfc79144a54fcc6b45099a819e3f81caee
+Drive ID: 1HPHcs8GoIJqUxQL542OU5uMej_tpEOGB
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1HPHcs8GoIJqUxQL542OU5uMej_tpEOGB/view
+
+FILE: T1_DE102020127430A1.pdf
+Source: https://patentimages.storage.googleapis.com/0a/2f/65/66da1e2d613dd2/DE102020127430A1.pdf
+Retrieved UTC: 2026-11-16T12:02:05.420916+00:00
+MIME: application/pdf
+Original bytes: 523894
+SHA-256: 2199c7d8ae82ddc8ef311b51bed791629430ffe6a5087d90baba1169c99bb599
+Drive ID: 1M2uDYhnGuIlJfHjvMzgAEhaGkoEcs7-4
+Drive size: size verified (see segment manifest)
+Preserved copy: https://drive.google.com/file/d/1M2uDYhnGuIlJfHjvMzgAEhaGkoEcs7-4/view
+
+SEGMENT stage2_rigby/manifest.json
+
+FILE: rigby_US9156552.pdf
+Source: https://patentimages.storage.googleapis.com/e6/af/64/531ec203e9aa2e/US9156552.pdf
+Retrieved UTC: 2026-11-16T11:57:29.707530+00:00
+MIME: application/pdf
+Original bytes: 1050707
+SHA-256: 1310771fa99943df7a6d6cec67193afe414806494ba1336b866547d3fdb3896b
+Drive ID: 1icCwE7K-tvmDT7a74JsvIplGuS22_LRQ
+Drive size: 1050707
+Preserved copy: https://drive.google.com/file/d/1icCwE7K-tvmDT7a74JsvIplGuS22_LRQ/view
+
+FILE: PYRAMID_Technical_Standard.pdf
+Source: https://assets.publishing.service.gov.uk/media/67dbe7ec0f38d929e57ee310/20250224-PYRAMID_Technical_Standard_V1-O.pdf
+Retrieved UTC: 2026-11-16T11:57:33.983813+00:00
+MIME: application/pdf
+Original bytes: 18711368
+SHA-256: 27285abe931814bfa33a049fc0f04381200a2b3ac44f9fca2e38d182d1a0fe95
+Drive ID: 1jYl8i1X8qsv6aLBenbs8y53OCVciZ30b
+Drive size: 18711368
+Preserved copy: https://drive.google.com/file/d/1jYl8i1X8qsv6aLBenbs8y53OCVciZ30b/view
+
+FILE: PYRAMID_Guidance.pdf
+Source: https://assets.publishing.service.gov.uk/media/67dbe7ea931ea30d1b7ee313/20250224-PYRAMID_Technical_Standard_Guidance_V1-O.pdf
+Retrieved UTC: 2026-11-16T11:57:40.225111+00:00
+MIME: application/pdf
+Original bytes: 8350176
+SHA-256: 9e2424e64d4231e278c62418f2eeba61f4c368223657ee963aaf16b4875ec359
+Drive ID: 15u4fgq0o4Hh2CT4y_CFPclja13F8ZqTn
+Drive size: 8350176
+Preserved copy: https://drive.google.com/file/d/15u4fgq0o4Hh2CT4y_CFPclja13F8ZqTn/view
+
+FILE: GD_stores.html
+Source: https://generaldynamics.uk.com/businesses/mission-systems/air/airborne-mission-management/stores-management/
+Retrieved UTC: 2026-11-16T11:57:46.441767+00:00
+Acquisition / preservation status: {"name": "GD_stores.html", "url": "https://generaldynamics.uk.com/businesses/mission-systems/air/airborne-mission-management/stores-management/", "timestamp": "2026-11-16T11:57:46.441767+00:00", "error": "HTTP Error 403: Forbidden"}
+
+FILE: PYRAMID_landing.html
+Source: https://www.gov.uk/government/publications/pyramid
+Retrieved UTC: 2026-11-16T11:58:01.809588+00:00
+MIME: text/html
+Original bytes: 87315
+SHA-256: 5e35ca5bec7416a340ef86da682f03b83a174f693a892eb51b994d144df97174
+Drive ID: 1Ey2tPoqWc8M84lIm4dUeByh4kZKa6Nvv
+Drive size: 87315
+Preserved copy: https://drive.google.com/file/d/1Ey2tPoqWc8M84lIm4dUeByh4kZKa6Nvv/view
+
+SEGMENT stage2_rch/manifest.json
+
+FILE: R01_des.html
+Source: https://des.mod.uk/digital-sensor-shooter-upgrade/
+Retrieved UTC: 2026-11-16T11:57:54.470892+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 57388
+SHA-256: 965d2769a6e474bd10a490b3bdf95d94afbb7a59cc1a1a54d9843dae4eb4ae35
+Drive ID: 1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop
+Drive size: 57388
+Preserved copy: https://drive.google.com/file/d/1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop/view
+
+FILE: R02_cgi.pdf
+Source: https://www.cgi.com/sites/default/files/files_uk/brochures/fact_sheet_fc_bisa_approved_new.pdf
+Retrieved UTC: 2026-11-16T11:57:59.711909+00:00
+MIME: application/pdf
+Original bytes: 292950
+SHA-256: 5473852c328ed7a3e863a78642aff7c710f73d7811e7256a66fa77de33e7a40c
+Drive ID: 1aJfacmUH9msy72k4AuYqE27UhYB6-oi1
+Drive size: 292950
+Preserved copy: https://drive.google.com/file/d/1aJfacmUH9msy72k4AuYqE27UhYB6-oi1/view
+
+FILE: R03_knds_rch.pdf
+Source: https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf
+Retrieved UTC: 2026-11-16T11:58:03.625179+00:00
+Acquisition / preservation status: {"file": "R03_knds_rch.pdf", "source_url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf", "utc": "2026-11-16T11:58:03.625179+00:00", "error": "HTTP Error 404: Not Found"}
+
+FILE: R04_agm.html
+Source: https://knds.com/en/products/systems/agm
+Retrieved UTC: 2026-11-16T11:58:32.688978+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 413693
+SHA-256: 7482838ec5887d9c39a0b94579f66937742d4b6b60fde3f703b57ff123dc5253
+Drive ID: 1fJlGrKzyA8PjtszAq0t736SMSmHGO1fp
+Drive size: 413693
+Preserved copy: https://drive.google.com/file/d/1fJlGrKzyA8PjtszAq0t736SMSmHGO1fp/view
+
+FILE: R05_bundeswehr.html
+Source: https://www.bundeswehr.de/de/organisation/heer/faehigkeiten/artillerie-heer
+Retrieved UTC: 2026-11-16T11:58:37.654260+00:00
+Acquisition / preservation status: {"file": "R05_bundeswehr.html", "source_url": "https://www.bundeswehr.de/de/organisation/heer/faehigkeiten/artillerie-heer", "utc": "2026-11-16T11:58:37.654260+00:00", "error": "HTTP Error 404: Not Found"}
+
+FILE: R06_contract.html
+Source: https://www.find-tender.service.gov.uk/Notice/064929-2026
+Retrieved UTC: 2026-11-16T11:58:59.592516+00:00
+Acquisition / preservation status: {"file": "R06_contract.html", "source_url": "https://www.find-tender.service.gov.uk/Notice/064929-2026", "utc": "2026-11-16T11:58:59.592516+00:00", "error": "HTTP Error 403: Forbidden"}
+
+FILE: R07_wales.html
+Source: https://www.gwerthwchigymru.llyw.cymru/search/show/search_view.aspx?ID=JUL635764&catID=
+Retrieved UTC: 2026-11-16T11:59:04.401056+00:00
+Acquisition / preservation status: {"file": "R07_wales.html", "source_url": "https://www.gwerthwchigymru.llyw.cymru/search/show/search_view.aspx?ID=JUL635764&catID=", "utc": "2026-11-16T11:59:04.401056+00:00", "error": "HTTP Error 403: Forbidden"}
+
+FILE: R08_rch.html
+Source: https://knds.com/en/products/systems/rch-155
+Retrieved UTC: 2026-11-16T12:00:07.858909+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 455198
+SHA-256: 6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452
+Drive ID: 1SyncNht5LD5h2pejSUgBLZIyx6JLwZg4
+Drive size: 455198
+Preserved copy: https://drive.google.com/file/d/1SyncNht5LD5h2pejSUgBLZIyx6JLwZg4/view
+
+SEGMENT stage2_boxer/acquisition.json
+
+FILE: B01_EDA_SafeNGVA.html
+Source: https://eda.europa.eu/news-and-events/news/2023/01/31/new-eda-project-seeks-to-enhance-ngva-%28nato-generic-vehicle-architecture%29-safety
+Retrieved UTC: 2026-11-16T11:58:16.052900+00:00
+Acquisition / preservation status: {"name": "B01_EDA_SafeNGVA.html", "url": "https://eda.europa.eu/news-and-events/news/2023/01/31/new-eda-project-seeks-to-enhance-ngva-%28nato-generic-vehicle-architecture%29-safety", "utc": "2026-11-16T11:58:16.052900+00:00", "error": "HTTP Error 503: Service Unavailable"}
+
+FILE: B02_Rheinmetall_Boxer_UK.pdf
+Source: https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/Presskit%20DSEI/2023-09-12%20Rheinmetall%20RBSL%20Boxer%20MIV%20update%20engl%20final.pdf
+Retrieved UTC: 2026-11-16T11:58:21.139371+00:00
+MIME: application/pdf
+Original bytes: 2502293
+SHA-256: ad8521e9e532e23899b623f261d2d09cf189ab4c6157fef4084d0406f0e9d0ca
+Drive ID: 196aOWv2f-x1MKQiIaq3gxLaiiz9ji7zt
+Drive size: 2502293
+Preserved copy: https://drive.google.com/file/d/196aOWv2f-x1MKQiIaq3gxLaiiz9ji7zt/view
+
+FILE: B03_LOSA.pdf
+Source: https://assets.publishing.service.gov.uk/media/6a9673c63b22fb169dc18fb5/MOD10498_00319415_LOSA_A5_56pp_Booklet_1__1_.pdf
+Retrieved UTC: 2026-11-16T11:58:25.824164+00:00
+MIME: application/pdf
+Original bytes: 18671148
+SHA-256: a7f706e059e30d6ee797e6b9f52f823c7019b225db3efd20775ae6609b3a5da7
+Drive ID: 1LH5TPYPGB_6_MDszxEq6kBJEsqDQRDDv
+Drive size: 18671148
+Preserved copy: https://drive.google.com/file/d/1LH5TPYPGB_6_MDszxEq6kBJEsqDQRDDv/view
+
+FILE: B04_Kongsberg_Boxer_NGVA.html
+Source: https://www.kongsberg.com/news/news-archive/2022/protector-rs4-chosen-for-boxer-vehicle-with-new-mission-module/
+Retrieved UTC: 2026-11-16T11:58:32.508750+00:00
+Acquisition / preservation status: {"name": "B04_Kongsberg_Boxer_NGVA.html", "url": "https://www.kongsberg.com/news/news-archive/2022/protector-rs4-chosen-for-boxer-vehicle-with-new-mission-module/", "utc": "2026-11-16T11:58:32.508750+00:00", "error": "HTTP Error 403: Forbidden"}
+
+SEGMENT stage2_dragonfire/manifest_verified.json
+
+FILE: contract.pdf
+Source: https://www.find-tender.service.gov.uk/Notice/029984-2025/PDF
+Retrieved UTC: 2026-11-16T11:58:03.084842+00:00
+Acquisition / preservation status: {"name": "contract.pdf", "url": "https://www.find-tender.service.gov.uk/Notice/029984-2025/PDF", "time_utc": "2026-11-16T11:58:03.084842+00:00", "error": "HTTP Error 403: Forbidden"}
+
+FILE: qinetiq.html
+Source: https://www.qinetiq.com/en/news/qinetiq-delivering-laser-weapons-to-royal-navy-platforms
+Retrieved UTC: 2026-11-16T11:58:03.085366+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 49909
+SHA-256: f0a6d81210f716acc3164cdd3bab6fa51180c5c886e9bf55669711b01f179e28
+Drive ID: 1CjSoSOoX42NUjf9X00s4QuZdQzovP6mx
+Drive size: 49911
+Preserved copy: https://drive.google.com/file/d/1CjSoSOoX42NUjf9X00s4QuZdQzovP6mx/view
+INTEGRITY WARNING: direct HTML upload size differs. Use original member in ZIP1Oc3H-PRh_osqWcBwnSPyckcKCp7CxqEm, not this direct HTML copy.
+
+FILE: RN.html
+Source: https://www.royalnavy.mod.uk/news/2025/november/20/20251120-dragonfire-trials
+Retrieved UTC: 2026-11-16T11:58:03.085883+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 134512
+SHA-256: f3645caf0638a1b3fe059bb53a457706d44290a6a26e116a017db178f51412bd
+Drive ID: 1nRnRDr-1vGdofDyVIWxdER8nWvyT-aA7
+Drive size: 134513
+Preserved copy: https://drive.google.com/file/d/1nRnRDr-1vGdofDyVIWxdER8nWvyT-aA7/view
+INTEGRITY WARNING: direct HTML upload size differs. Use original member in ZIP1Oc3H-PRh_osqWcBwnSPyckcKCp7CxqEm, not this direct HTML copy.
+
+FILE: cost-answer.html
+Source: https://questions-statements.parliament.uk/written-questions/detail/2026-09-01/26254/
+Retrieved UTC: 2026-11-16T11:58:03.086445+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 27233
+SHA-256: 557a4b57a2020db10a7c1aabb53c4a4998be758414b06aa5a4483917fafc4e47
+Drive ID: 1VMwRKoUCt9NwrhiKO-ipfENA41Zw8jk-
+Drive size: 27233
+Preserved copy: https://drive.google.com/file/d/1VMwRKoUCt9NwrhiKO-ipfENA41Zw8jk-/view
+
+FILE: assurance-answer.html
+Source: https://questions-statements.parliament.uk/written-questions/detail/2025-10-10/80542/
+Retrieved UTC: 2026-11-16T11:58:03.087202+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 26986
+SHA-256: 27ad824c82e29d1533dfed0e8c062cc4f57d0fd1eb084bc2fd84e106b8c3e053
+Drive ID: 1-dpPb0vWROJVvhYeYPqpxpWNBAzzZATo
+Drive size: 26986
+Preserved copy: https://drive.google.com/file/d/1-dpPb0vWROJVvhYeYPqpxpWNBAzzZATo/view
+
+FILE: human-control-answer.html
+Source: https://questions-statements.parliament.uk/written-questions/detail/2026-07-06/16183
+Retrieved UTC: 2026-11-16T11:58:03.088630+00:00
+MIME: text/html; charset=utf-8
+Original bytes: 27357
+SHA-256: 991b03614d47440c2b8e4a0da63fd0dfa54421ec5269d5e40341c20a1ad3319c
+Drive ID: 16BtwvjYLCtjW70eVrgU75hJvL75_BhtR
+Drive size: 27357
+Preserved copy: https://drive.google.com/file/d/16BtwvjYLCtjW70eVrgU75hJvL75_BhtR/view
+
+FILE: JSP936.pdf
+Source: https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+Retrieved UTC: 2026-11-16T11:58:03.089682+00:00
+MIME: application/pdf
+Original bytes: 1563554
+SHA-256: 8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af
+Drive ID: 1lDSFSfPuRCHpKVq-QVGiYESKsNEZwjQQ
+Drive size: 1563554
+Preserved copy: https://drive.google.com/file/d/1lDSFSfPuRCHpKVq-QVGiYESKsNEZwjQQ/view
+
+DERIVED PRESERVATION CONTAINER: unchanged_html_originals.zip
+Drive ID: 1Oc3H-PRh_osqWcBwnSPyckcKCp7CxqEm
+Bytes:184633
+MIME:application/zip
+SHA256:530c5bc4e5bf42824204f414fff4fa3681b5bfb5e8d4025f52d386f7a2b622c7
+Members: qinetiq.html and RN.html; unchanged source bytes with original source URLs/hashes above. Container is not itself an independently published primary document.
+
+IV. METHODS / EXACT QUERY LOGS
+Dates/times, exact search strings and exposed result counts follow. Missing totals remain unknown, not zero. Large search-response bodies are omitted here; original checkpoint query logs remain in GitHub. Source requests and failures are listed above.
+
+stage2_records/query_log.json
+[
+  {
+    "query": "\"K-9000/102\" \"pdf\"",
+    "time_utc": "2026-11-16T12:01Z",
+    "count": "not supplied",
+    "result": "located public mirror on Augen geradeaus via indexed reference"
+  },
+  {
+    "query": "\"KI-Konzeption\" \"bmvg\" pdf",
+    "time_utc": "2026-11-16T12:01Z",
+    "count": "not supplied",
+    "result": "same mirror and official provenance references"
+  },
+  {
+    "query": "direct source opens and observed PDF links",
+    "time_utc": "2026-11-16T11:56Z–12:03Z",
+    "count": "see HTTP fetch manifest",
+    "result": "nine raw documents/registers recovered; blocked requests logged"
+  }
+]
+
+stage2_rigby/query_log.json
+[
+  {
+    "queries": [
+      "\"Keith Antony Rigby\" patent",
+      "\"Keith Rigby\" \"Nicholas\" patent",
+      "\"Pyramid Reference Architecture\" weapons safety",
+      "\"Rapid Stores Integration Capability\" \"Logical\""
+    ],
+    "timestamp": "2026-11-16T11:55:52.325Z",
+    "returned_result_count": 42,
+    "count_scope": "Combined batch returned references, not total hits; tool does not expose per-query counts",
+    "raw_log": "q1.json"
+  },
+  {
+    "queries": [
+      "\"Keith\" \"Rigby\" patent \"communication\" weapon",
+      "\"Keith Antony Rigby\" \"control\" \"link\"",
+      "\"Rapid Stores Integration Capability\"",
+      "\"Logical Stores Integration Framework\""
+    ],
+    "timestamp": "2026-11-16T11:56:00.085Z",
+    "returned_result_count": 28,
+    "count_scope": "Combined batch returned references, not total hits; tool does not expose per-query counts",
+    "raw_log": "q2.json"
+  },
+  {
+    "queries": [
+      "\"Keith Antony Rigby\" \"Waffen\"",
+      "\"Keith Rigby\" \"US9156552\"",
+      "site:gov.uk \"Rapid Stores Integration\"",
+      "site:gov.uk \"PYRAMID\" \"safe weapon\""
+    ],
+    "timestamp": "2026-11-16T11:59:13.808Z",
+    "returned_result_count": 2,
+    "count_scope": "Combined batch returned references, not total hits; tool does not expose per-query counts",
+    "raw_log": "q3.json"
+  }
+]
+
+stage2_rch/query_log.json
+{
+  "queries": [
+    {
+      "query": "\"RCH 155\" \"FC BISA\"",
+      "timestamp": "2026-11-16T11:56:07.671Z",
+      "total_hit_count": null,
+      "count_note": "Search service does not expose corpus total; batch result refs recorded separately"
+    },
+    {
+      "query": "\"RCH 155\" \"ASCA\"",
+      "timestamp": "2026-11-16T11:56:07.671Z",
+      "total_hit_count": null,
+      "count_note": "Search service does not expose corpus total; batch result refs recorded separately"
+    },
+    {
+      "query": "\"RCH 155\" \"IFAB\" \"Adler\"",
+      "timestamp": "2026-11-16T11:56:07.671Z",
+      "total_hit_count": null,
+      "count_note": "Search service does not expose corpus total; batch result refs recorded separately"
+    },
+    {
+      "query": "\"RCH 155\" \"Sperr\" Feuerleitung",
+      "timestamp": "2026-11-16T11:56:07.671Z",
+      "total_hit_count": null,
+      "count_note": "Search service does not expose corpus total; batch result refs recorded separately"
+    },
+    {
+      "query": "site.gov.uk \"Fire Control Battlefield\"",
+      "timestamp": "2026-11-16T11:56:15.267Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "site.army.mod.uk \"FC BISA\"",
+      "timestamp": "2026-11-16T11:56:15.267Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "site.knds.com \"RCH\" \"fire control\"",
+      "timestamp": "2026-11-16T11:56:15.267Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "\"RCH 155\" \"ADLER\"",
+      "timestamp": "2026-11-16T11:56:15.267Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "site.bundeswehr.de ADLER ASCA Feuerleitung Sicherheit",
+      "timestamp": "2026-11-16T11:56:31.163Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "site.knds.com RCH \"no fire\"",
+      "timestamp": "2026-11-16T11:56:31.163Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "\"RCH 155\" \"Feuerverbots\"",
+      "timestamp": "2026-11-16T11:56:31.163Z",
+      "total_hit_count": null
+    },
+    {
+      "query": "\"FC BISA\" \"No Fire\"",
+      "timestamp": "2026-11-16T11:56:31.163Z",
+      "total_hit_count": null
+    }
+  ],
+  "note": "Per-query and corpus total counts not exposed by batched tool. Returned unique result counts are batch-level, not exhaustive hits.",
+  "batches": [
+    {
+      "batch": 1,
+      "returned_unique_result_count": 23,
+      "result": {
+        "isError": false
+      }
+    },
+    {
+      "batch": 2,
+      "returned_unique_result_count": 55,
+      "result": {
+        "isError": false
+      }
+    },
+    {
+      "batch": 3,
+      "returned_unique_result_count": 41,
+      "result": {
+        "isError": false
+      }
+    }
+  ]
+}
+
+stage2_dragonfire/query_log_final.json
+[
+  {
+    "timestamp": "2026-11-16T11:56:20.494Z",
+    "queries": [
+      "site.baesystems.com DragonFire production CMS-1 316 million 2025 2026",
+      "site.gov.uk DragonFire BAE 316 million contract 2025",
+      "site.questions-statements.parliament.uk \"DragonFire\" assurance"
+    ],
+    "returned_results": 49,
+    "count_note": "Batch union returned; per-query count not exposed. Not total index hits."
+  },
+  {
+    "timestamp": "2026-11-16T11:56:22.339Z",
+    "query": "\"DragonFire\" \"CMS-1\"",
+    "returned_refs": [
+      "turn1261search0",
+      "turn1261search1",
+      "turn1261search2",
+      "turn1261search3",
+      "turn1261search4",
+      "turn1261search5",
+      "turn1261search6",
+      "turn1261search7",
+      "turn1261search8",
+      "turn1261search9",
+      "turn1261search10",
+      "turn1261search11"
+    ],
+    "count_note": "Returned refs only; total index hits not exposed"
+  },
+  {
+    "timestamp": "2026-11-16T11:56:24.751Z",
+    "query": "\"DragonFire\" \"BAE Systems\" integration safety",
+    "returned_refs": [
+      "turn1263search0",
+      "turn1263search12",
+      "turn1263search1",
+      "turn1263search13",
+      "turn1263search14",
+      "turn1263search2",
+      "turn1263search3",
+      "turn1263search4",
+      "turn1263search15",
+      "turn1263search5",
+      "turn1263search16",
+      "turn1263search6",
+      "turn1263search7",
+      "turn1263search17",
+      "turn1263search8",
+      "turn1263search9",
+      "turn1263search10",
+      "turn1263search11",
+      "turn1263search18",
+      "turn1263news19",
+      "turn1263search20",
+      "turn1263news21",
+      "turn1263search22",
+      "turn1263news23",
+      "turn1263search24"
+    ],
+    "count_note": "Returned refs only; total index hits not exposed"
+  },
+  {
+    "timestamp": "2026-11-16T11:56:26.079Z",
+    "query": "site.questions-statements.parliament.uk \"AI ethical assurance\"",
+    "returned_refs": [
+      "turn1264search12",
+      "turn1264search0",
+      "turn1264search1",
+      "turn1264search2",
+      "turn1264search3",
+      "turn1264search4",
+      "turn1264search13",
+      "turn1264search5",
+      "turn1264search6",
+      "turn1264search7",
+      "turn1264search8",
+      "turn1264search14",
+      "turn1264search15",
+      "turn1264search9",
+      "turn1264search10",
+      "turn1264search11",
+      "turn1264search16",
+      "turn1264search17"
+    ],
+    "count_note": "Returned refs only; total index hits not exposed"
+  },
+  {
+    "timestamp": "2026-11-16T11:56:27.492Z",
+    "query": "site.gov.uk \"DragonFire\" \"00-055\"",
+    "returned_refs": [
+      "turn1265search0",
+      "turn1265search1",
+      "turn1265search2",
+      "turn1265search3",
+      "turn1265search4",
+      "turn1265search5",
+      "turn1265search6",
+      "turn1265search7",
+      "turn1265search8"
+    ],
+    "count_note": "Returned refs only; total index hits not exposed"
+  },
+  {
+    "timestamp": "2026-11-16T11:56:37.472Z",
+    "query": "site:questions-statements.parliament.uk \"JSP 936\"",
+    "returned_refs": [
+      "turn1274search0",
+      "turn1274search1",
+      "turn1274search2",
+      "turn1274search3",
+      "turn1274search4",
+      "turn1274search5"
+    ],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:39.179Z",
+    "query": "site:gov.uk \"AI ethical assurance statements\"",
+    "returned_refs": [
+      "turn1275search0"
+    ],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:40.511Z",
+    "query": "site:gov.uk \"DragonFire\" \"safety case\"",
+    "returned_refs": [
+      "turn1276search0"
+    ],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:42.219Z",
+    "query": "site:baesystems.com \"DragonFire\" \"integration\"",
+    "returned_refs": [],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:43.537Z",
+    "query": "site:gov.uk \"RCH\" \"ethical assurance\"",
+    "returned_refs": [],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:44.989Z",
+    "query": "site:questions-statements.parliament.uk \"independent ethics assurance\"",
+    "returned_refs": [],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:46.294Z",
+    "query": "\"DragonFire\" \"BAE\" \"CMS\"",
+    "returned_refs": [
+      "turn1280search0",
+      "turn1280search1",
+      "turn1280search12",
+      "turn1280search2",
+      "turn1280search3",
+      "turn1280search4",
+      "turn1280search5",
+      "turn1280search6",
+      "turn1280search7",
+      "turn1280search8",
+      "turn1280search9",
+      "turn1280search10",
+      "turn1280search11"
+    ],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T11:56:47.882Z",
+    "query": "\"DragonFire\" \"00-056\"",
+    "returned_refs": [
+      "turn1281search0",
+      "turn1281search1",
+      "turn1281search2",
+      "turn1281search3",
+      "turn1281search4",
+      "turn1281search5",
+      "turn1281search6",
+      "turn1281search7",
+      "turn1281search8",
+      "turn1281search9",
+      "turn1281search10",
+      "turn1281search11"
+    ],
+    "count_note": "Returned refs only, total index hits unavailable",
+    "result": {
+      "isError": false
+    }
+  },
+  {
+    "timestamp": "2026-11-16T12:00:36.030Z",
+    "query": "site:gov.uk (\"Boxer\" OR \"RCH 155\" OR \"Autonomous Collaborative\") \"ethical assurance\"",
+    "returned_refs": [],
+    "result": {
+      "isError": false
+    },
+    "count_note": "returned refs, not total index hits"
+  },
+  {
+    "timestamp": "2026-11-16T12:00:37.654Z",
+    "query": "site:questions-statements.parliament.uk (\"DragonFire\" OR \"Boxer\" OR \"RCH 155\" OR \"ACP\") (\"JSP 936\" OR \"safety case\")",
+    "returned_refs": [],
+    "result": {
+      "isError": false
+    },
+    "count_note": "returned refs, not total index hits"
+  },
+  {
+    "timestamp": "2026-11-16T12:00:39.441Z",
+    "query": "site:gov.uk (\"DragonFire\" OR \"Boxer\" OR \"RCH 155\" OR \"Autonomous Collaborative\") (\"00-055\" OR \"00-056\")",
+    "returned_refs": [],
+    "result": {
+      "isError": false
+    },
+    "count_note": "returned refs, not total index hits"
+  }
+]
+
+stage2_boxer/query_log.json
+[
+  {
+    "query": "site:gov.uk Boxer \"GVA\" \"safety\"",
+    "utc": "2026-11-16T11:56:10.094Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "site:thalesgroup.com Boxer \"PROTECTOR\" GVA",
+    "utc": "2026-11-16T11:56:11.410Z",
+    "returned_hit_count": 17,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Def Stan 23-009\" \"safety\" loop",
+    "utc": "2026-11-16T11:56:13.022Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Land Open Systems Architecture\" weapon safety",
+    "utc": "2026-11-16T11:56:14.075Z",
+    "returned_hit_count": 16,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "Boxer UK Thales Protector RS4 generic vehicle architecture",
+    "utc": "2026-11-16T11:56:29.751Z",
+    "returned_hit_count": 24,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Def Stan 23-09\" \"safety\" \"interlock\"",
+    "utc": "2026-11-16T11:56:31.302Z",
+    "returned_hit_count": 0,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"GVA\" \"Boxer\" Kongsberg",
+    "utc": "2026-11-16T11:56:32.597Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "Boxer GVA Sicherheitskreis Waffenstation",
+    "utc": "2026-11-16T11:56:34.891Z",
+    "returned_hit_count": 23,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "site:thalesgroup.com \"Boxer\" \"Kongsberg\"",
+    "utc": "2026-11-16T11:57:39.573Z",
+    "returned_hit_count": 0,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Generic Vehicle Architecture\" \"safety\" \"loop\"",
+    "utc": "2026-11-16T11:57:41.259Z",
+    "returned_hit_count": 13,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"23-009\" \"Part 8\" safety",
+    "utc": "2026-11-16T11:57:43.106Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"NGVA\" \"safety\" \"interlock\"",
+    "utc": "2026-11-16T11:57:44.479Z",
+    "returned_hit_count": 11,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "site:eda.europa.eu \"SafeNGVA\"",
+    "utc": "2026-11-16T11:57:50.359Z",
+    "returned_hit_count": 2,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"SafeNGVA\" 2025 2026 safety",
+    "utc": "2026-11-16T11:58:32.887Z",
+    "returned_hit_count": 14,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  }
+]
+
+ACQUISITION MANIFESTS (machine-readable corroboration of inventory and blockers)
+
+stage2_records/manifest.json
+[
+  {
+    "name": "T1_Bundestag_2105159.pdf",
+    "url": "https://dserver.bundestag.de/btd/21/051/2105159.pdf",
+    "timestamp": "2026-11-16T11:56:07.132129+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "final_url": "https://dserver.bundestag.de/btd/21/051/2105159.pdf",
+    "bytes": 1086459,
+    "result": "saved",
+    "sha256": "6632c3a0f6cd21648f2feafc239c0a7fe07733a9e5cafd96d270833cebb7bcde",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_Bundestag_2105159.pdf",
+    "drive_id": "1PMjetkPT9Gt3VHKvOzJpTpiI_5faMAG2",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_BMVg_KI.pdf",
+    "url": "https://www.bmvg.de/resource/blob/6143700/9954e2b6b993b17cd3d09ca31c506774/dl-ki-konzeption-data.pdf",
+    "timestamp": "2026-11-16T11:56:14.369668+00:00",
+    "result": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "status": 404
+  },
+  {
+    "name": "T1_Ghostplay_mirror.pdf",
+    "url": "https://files.auftrag-select.com/file/auftrag-select-public/pdfs/6656021/bekanntmachung.pdf",
+    "timestamp": "2026-11-16T11:56:18.721408+00:00",
+    "result": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  },
+  {
+    "name": "T1_EP4229352A1.xml",
+    "url": "https://data.epo.org/linked-data/representation/publication/EP/4229352/NWA1.xml",
+    "timestamp": "2026-11-16T11:56:22.942934+00:00",
+    "status": 200,
+    "mime": "application/xml",
+    "final_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4229352NWA1/document.xml",
+    "bytes": 4598,
+    "result": "saved",
+    "sha256": "1c77bdf849c98a8fcd65e5738c28762a9d1827ce89485048908b3e93ec835a43",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_EP4229352A1.xml",
+    "drive_id": "1ByQwFXpSzuuaY3AUOO2w5zValN7iUqVP",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_RENK.pdf",
+    "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557",
+    "timestamp": "2026-11-16T11:56:46.434647+00:00",
+    "result": "failed",
+    "error": "HTTP Error 503: Service Unavailable",
+    "status": 503
+  },
+  {
+    "name": "T1_Wu2022.pdf",
+    "url": "https://savage.nps.edu/EthicalControl/documentation/papers/SSS-22_paper_117_TieredApproachEthicalAIEvaluationMetrics.pdf",
+    "timestamp": "2026-11-16T11:57:05.361893+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "final_url": "https://savage.nps.edu/EthicalControl/documentation/papers/SSS-22_paper_117_TieredApproachEthicalAIEvaluationMetrics.pdf",
+    "bytes": 223159,
+    "result": "saved",
+    "sha256": "0e6714992879f299496f45d61af6228fb6c0650e0fd349aed7213db00dfde927",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_Wu2022.pdf",
+    "drive_id": "1g-1_rBfchDaVl_t41dusbxPLPwbJg1l5",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_ACTS.html",
+    "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG648236&catID=",
+    "timestamp": "2026-11-16T11:57:10.360334+00:00",
+    "result": "failed",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  },
+  {
+    "name": "T1_INPI_FR3102239.html",
+    "url": "https://data.inpi.fr/brevets/FR3102239",
+    "timestamp": "2026-11-16T11:57:31.612628+00:00",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "final_url": "https://data.inpi.fr/brevets/FR3102239",
+    "bytes": 132489,
+    "result": "saved",
+    "sha256": "a52fec4d01b9ac2301f95e5864fa34558619e38424f1792de19a9b3bbba89109",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_FR3102239.html",
+    "drive_id": "1McrsKom1FsMGtVhQOf-PP7N7vsCGQPgr",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_INPI_EP3812690.html",
+    "url": "https://data.inpi.fr/brevets/EP3812690",
+    "timestamp": "2026-11-16T11:57:37.593649+00:00",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "final_url": "https://data.inpi.fr/brevets/EP3812690",
+    "bytes": 130561,
+    "result": "saved",
+    "sha256": "4e49697eeed685a376a5c054aaeec7ed65997bbf51a535a2fabcd4aad0c6a0ee",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_EP3812690.html",
+    "drive_id": "1mhag_cvqlRh74w3-Retxv5J__qA4phEW",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_INPI_EP3882560.html",
+    "url": "https://data.inpi.fr/brevets/EP3882560",
+    "timestamp": "2026-11-16T11:57:58.686308+00:00",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "final_url": "https://data.inpi.fr/brevets/EP3882560",
+    "bytes": 139860,
+    "result": "saved",
+    "sha256": "71934951ea911e88898d1f0c05f9308203f4f3b4e7cb754cd736e1506c33c107",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_EP3882560.html",
+    "drive_id": "1cjQLLdpZt7flDdHlG5Hd4cRccJLEFpIe",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_INPI_EP3882561.html",
+    "url": "https://data.inpi.fr/brevets/EP3882561",
+    "timestamp": "2026-11-16T11:58:05.089253+00:00",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "final_url": "https://data.inpi.fr/brevets/EP3882561",
+    "bytes": 139017,
+    "result": "saved",
+    "sha256": "69c4b8cdc39c663e375c53df425c17b04a5f112ddfedc8fe9e198dddbf73e6f2",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_EP3882561.html",
+    "drive_id": "1HIAaaxyELor6U6vPlDgHDjOe1p4o5pe5",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_EP4229352A1.pdf",
+    "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4229352NWA1/document.pdf",
+    "timestamp": "2026-11-16T12:00:57.716203+00:00",
+    "result": "failed",
+    "error": "HTTP Error 500: Internal Server Error",
+    "status": 500
+  },
+  {
+    "name": "T1_TED185823.xml",
+    "url": "https://ted.europa.eu/en/notice/185823-2025/xml",
+    "timestamp": "2026-11-16T12:01:22.270119+00:00",
+    "status": 202,
+    "mime": "text/html; charset=UTF-8",
+    "final_url": "https://ted.europa.eu/en/notice/185823-2025/xml",
+    "bytes": 0,
+    "result": "not_expected_document_not_saved"
+  },
+  {
+    "name": "T1_BMVg_KI_mirror.pdf",
+    "url": "https://augengeradeaus.net/wp-content/uploads/2026/08/K-9000-102-OeFFENTLICHE-Fassung.pdf",
+    "timestamp": "2026-11-16T12:01:36.314118+00:00",
+    "provenance": "public mirror, not direct ministry download",
+    "status": 200,
+    "mime": "application/pdf",
+    "final_url": "https://augengeradeaus.net/wp-content/uploads/2026/08/K-9000-102-OeFFENTLICHE-Fassung.pdf",
+    "bytes": 903675,
+    "result": "saved",
+    "sha256": "237c6110bd30770f917c0d6d8e8e5bcfc79144a54fcc6b45099a819e3f81caee",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_BMVg_KI_mirror.pdf",
+    "drive_id": "1HPHcs8GoIJqUxQL542OU5uMej_tpEOGB",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  },
+  {
+    "name": "T1_DE102020127430A1.pdf",
+    "url": "https://patentimages.storage.googleapis.com/0a/2f/65/66da1e2d613dd2/DE102020127430A1.pdf",
+    "timestamp": "2026-11-16T12:02:05.420916+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 523894,
+    "result": "saved",
+    "sha256": "2199c7d8ae82ddc8ef311b51bed791629430ffe6a5087d90baba1169c99bb599",
+    "drive_id": "1M2uDYhnGuIlJfHjvMzgAEhaGkoEcs7-4",
+    "drive_size_verified": true,
+    "drive_parent": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+  }
+]
+
+stage2_rigby/manifest.json
+[
+  {
+    "name": "rigby_US9156552.pdf",
+    "url": "https://patentimages.storage.googleapis.com/e6/af/64/531ec203e9aa2e/US9156552.pdf",
+    "timestamp": "2026-11-16T11:57:29.707530+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1050707,
+    "sha256": "1310771fa99943df7a6d6cec67193afe414806494ba1336b866547d3fdb3896b",
+    "drive_id": "1icCwE7K-tvmDT7a74JsvIplGuS22_LRQ",
+    "verified_drive_bytes": 1050707
+  },
+  {
+    "name": "PYRAMID_Technical_Standard.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/67dbe7ec0f38d929e57ee310/20250224-PYRAMID_Technical_Standard_V1-O.pdf",
+    "timestamp": "2026-11-16T11:57:33.983813+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 18711368,
+    "sha256": "27285abe931814bfa33a049fc0f04381200a2b3ac44f9fca2e38d182d1a0fe95",
+    "drive_id": "1jYl8i1X8qsv6aLBenbs8y53OCVciZ30b",
+    "verified_drive_bytes": 18711368
+  },
+  {
+    "name": "PYRAMID_Guidance.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/67dbe7ea931ea30d1b7ee313/20250224-PYRAMID_Technical_Standard_Guidance_V1-O.pdf",
+    "timestamp": "2026-11-16T11:57:40.225111+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 8350176,
+    "sha256": "9e2424e64d4231e278c62418f2eeba61f4c368223657ee963aaf16b4875ec359",
+    "drive_id": "15u4fgq0o4Hh2CT4y_CFPclja13F8ZqTn",
+    "verified_drive_bytes": 8350176
+  },
+  {
+    "name": "GD_stores.html",
+    "url": "https://generaldynamics.uk.com/businesses/mission-systems/air/airborne-mission-management/stores-management/",
+    "timestamp": "2026-11-16T11:57:46.441767+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "PYRAMID_landing.html",
+    "url": "https://www.gov.uk/government/publications/pyramid",
+    "timestamp": "2026-11-16T11:58:01.809588+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "bytes": 87315,
+    "sha256": "5e35ca5bec7416a340ef86da682f03b83a174f693a892eb51b994d144df97174",
+    "drive_id": "1Ey2tPoqWc8M84lIm4dUeByh4kZKa6Nvv",
+    "verified_drive_bytes": 87315
+  }
+]
+
+stage2_rch/manifest.json
+[
+  {
+    "file": "R01_des.html",
+    "source_url": "https://des.mod.uk/digital-sensor-shooter-upgrade/",
+    "utc": "2026-11-16T11:57:54.470892+00:00",
+    "status": 200,
+    "final_url": "https://des.mod.uk/digital-sensor-shooter-upgrade/",
+    "mime": "text/html; charset=utf-8",
+    "bytes": 57388,
+    "sha256": "965d2769a6e474bd10a490b3bdf95d94afbb7a59cc1a1a54d9843dae4eb4ae35",
+    "drive_id": "1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop",
+    "drive_size_verified": 57388
+  },
+  {
+    "file": "R02_cgi.pdf",
+    "source_url": "https://www.cgi.com/sites/default/files/files_uk/brochures/fact_sheet_fc_bisa_approved_new.pdf",
+    "utc": "2026-11-16T11:57:59.711909+00:00",
+    "status": 200,
+    "final_url": "https://www.cgi.com/sites/default/files/files_uk/brochures/fact_sheet_fc_bisa_approved_new.pdf",
+    "mime": "application/pdf",
+    "bytes": 292950,
+    "sha256": "5473852c328ed7a3e863a78642aff7c710f73d7811e7256a66fa77de33e7a40c",
+    "drive_id": "1aJfacmUH9msy72k4AuYqE27UhYB6-oi1",
+    "drive_size_verified": 292950
+  },
+  {
+    "file": "R03_knds_rch.pdf",
+    "source_url": "https://www.knds.com/fileadmin/user_upload/content/Newsroom/PressAreas/2024_Eurosatory/RCH_155/KNDS_B_Ansicht_RCH155_EN.pdf",
+    "utc": "2026-11-16T11:58:03.625179+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "R04_agm.html",
+    "source_url": "https://knds.com/en/products/systems/agm",
+    "utc": "2026-11-16T11:58:32.688978+00:00",
+    "status": 200,
+    "final_url": "https://knds.com/en/products/systems/agm",
+    "mime": "text/html; charset=utf-8",
+    "bytes": 413693,
+    "sha256": "7482838ec5887d9c39a0b94579f66937742d4b6b60fde3f703b57ff123dc5253",
+    "drive_id": "1fJlGrKzyA8PjtszAq0t736SMSmHGO1fp",
+    "drive_size_verified": 413693
+  },
+  {
+    "file": "R05_bundeswehr.html",
+    "source_url": "https://www.bundeswehr.de/de/organisation/heer/faehigkeiten/artillerie-heer",
+    "utc": "2026-11-16T11:58:37.654260+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "R06_contract.html",
+    "source_url": "https://www.find-tender.service.gov.uk/Notice/064929-2026",
+    "utc": "2026-11-16T11:58:59.592516+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "R07_wales.html",
+    "source_url": "https://www.gwerthwchigymru.llyw.cymru/search/show/search_view.aspx?ID=JUL635764&catID=",
+    "utc": "2026-11-16T11:59:04.401056+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "R08_rch.html",
+    "source_url": "https://knds.com/en/products/systems/rch-155",
+    "utc": "2026-11-16T12:00:07.858909+00:00",
+    "status": 200,
+    "bytes": 455198,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452",
+    "drive_id": "1SyncNht5LD5h2pejSUgBLZIyx6JLwZg4",
+    "drive_size_verified": 455198
+  }
+]
+
+stage2_boxer/acquisition.json
+[
+  {
+    "name": "B01_EDA_SafeNGVA.html",
+    "url": "https://eda.europa.eu/news-and-events/news/2023/01/31/new-eda-project-seeks-to-enhance-ngva-%28nato-generic-vehicle-architecture%29-safety",
+    "utc": "2026-11-16T11:58:16.052900+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "B02_Rheinmetall_Boxer_UK.pdf",
+    "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/Presskit%20DSEI/2023-09-12%20Rheinmetall%20RBSL%20Boxer%20MIV%20update%20engl%20final.pdf",
+    "utc": "2026-11-16T11:58:21.139371+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 2502293,
+    "sha256": "ad8521e9e532e23899b623f261d2d09cf189ab4c6157fef4084d0406f0e9d0ca",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_boxer/raw/B02_Rheinmetall_Boxer_UK.pdf"
+  },
+  {
+    "name": "B03_LOSA.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/6a9673c63b22fb169dc18fb5/MOD10498_00319415_LOSA_A5_56pp_Booklet_1__1_.pdf",
+    "utc": "2026-11-16T11:58:25.824164+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 18671148,
+    "sha256": "a7f706e059e30d6ee797e6b9f52f823c7019b225db3efd20775ae6609b3a5da7",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_boxer/raw/B03_LOSA.pdf"
+  },
+  {
+    "name": "B04_Kongsberg_Boxer_NGVA.html",
+    "url": "https://www.kongsberg.com/news/news-archive/2022/protector-rs4-chosen-for-boxer-vehicle-with-new-mission-module/",
+    "utc": "2026-11-16T11:58:32.508750+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
+
+stage2_dragonfire/manifest_verified.json
+[
+  {
+    "name": "contract.pdf",
+    "url": "https://www.find-tender.service.gov.uk/Notice/029984-2025/PDF",
+    "time_utc": "2026-11-16T11:58:03.084842+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "qinetiq.html",
+    "url": "https://www.qinetiq.com/en/news/qinetiq-delivering-laser-weapons-to-royal-navy-platforms",
+    "time_utc": "2026-11-16T11:58:03.085366+00:00",
+    "status": 200,
+    "mime": "text/html; charset=utf-8",
+    "bytes": 49909,
+    "sha256": "f0a6d81210f716acc3164cdd3bab6fa51180c5c886e9bf55669711b01f179e28",
+    "drive_id": "1CjSoSOoX42NUjf9X00s4QuZdQzovP6mx",
+    "verification": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1CjSoSOoX42NUjf9X00s4QuZdQzovP6mx",
+        "title": "stage2-dragonfire-qinetiq.html",
+        "mime_type": null,
+        "size": "49911",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "RN.html",
+    "url": "https://www.royalnavy.mod.uk/news/2025/november/20/20251120-dragonfire-trials",
+    "time_utc": "2026-11-16T11:58:03.085883+00:00",
+    "status": 200,
+    "mime": "text/html; charset=utf-8",
+    "bytes": 134512,
+    "sha256": "f3645caf0638a1b3fe059bb53a457706d44290a6a26e116a017db178f51412bd",
+    "drive_id": "1nRnRDr-1vGdofDyVIWxdER8nWvyT-aA7",
+    "verification": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1nRnRDr-1vGdofDyVIWxdER8nWvyT-aA7",
+        "title": "stage2-dragonfire-RN.html",
+        "mime_type": null,
+        "size": "134513",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "cost-answer.html",
+    "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-09-01/26254/",
+    "time_utc": "2026-11-16T11:58:03.086445+00:00",
+    "status": 200,
+    "mime": "text/html; charset=utf-8",
+    "bytes": 27233,
+    "sha256": "557a4b57a2020db10a7c1aabb53c4a4998be758414b06aa5a4483917fafc4e47",
+    "drive_id": "1VMwRKoUCt9NwrhiKO-ipfENA41Zw8jk-",
+    "verification": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1VMwRKoUCt9NwrhiKO-ipfENA41Zw8jk-",
+        "title": "stage2-dragonfire-cost-answer.html",
+        "mime_type": null,
+        "size": "27233",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "assurance-answer.html",
+    "url": "https://questions-statements.parliament.uk/written-questions/detail/2025-10-10/80542/",
+    "time_utc": "2026-11-16T11:58:03.087202+00:00",
+    "status": 200,
+    "mime": "text/html; charset=utf-8",
+    "bytes": 26986,
+    "sha256": "27ad824c82e29d1533dfed0e8c062cc4f57d0fd1eb084bc2fd84e106b8c3e053",
+    "drive_id": "1-dpPb0vWROJVvhYeYPqpxpWNBAzzZATo",
+    "verification": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1-dpPb0vWROJVvhYeYPqpxpWNBAzzZATo",
+        "title": "stage2-dragonfire-assurance-answer.html",
+        "mime_type": null,
+        "size": "26986",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "human-control-answer.html",
+    "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-07-06/16183",
+    "time_utc": "2026-11-16T11:58:03.088630+00:00",
+    "status": 200,
+    "mime": "text/html; charset=utf-8",
+    "bytes": 27357,
+    "sha256": "991b03614d47440c2b8e4a0da63fd0dfa54421ec5269d5e40341c20a1ad3319c",
+    "drive_id": "16BtwvjYLCtjW70eVrgU75hJvL75_BhtR",
+    "verification": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "16BtwvjYLCtjW70eVrgU75hJvL75_BhtR",
+        "title": "stage2-dragonfire-human-control-answer.html",
+        "mime_type": null,
+        "size": "27357",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  },
+  {
+    "name": "JSP936.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf",
+    "time_utc": "2026-11-16T11:58:03.089682+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1563554,
+    "sha256": "8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af",
+    "drive_id": "1lDSFSfPuRCHpKVq-QVGiYESKsNEZwjQQ",
+    "verification": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1lDSFSfPuRCHpKVq-QVGiYESKsNEZwjQQ",
+        "title": "stage2-dragonfire-JSP936.pdf",
+        "mime_type": null,
+        "size": "1563554",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "isError": false
+    }
+  }
+]
+
+
+END. No proposed outreach executed.
