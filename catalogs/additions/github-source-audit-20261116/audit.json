@@ -1126,5 +1126,47 @@
       "reason": "The Cygnet repository explicitly preserves methodology rather than source PDFs. This audit does not disclose supplied records or convert them into a public download source.",
       "source": "research/2026-11-05/cygnet-aer-report-review/README.md"
     }
-  ]
+  ],
+  "publication_resolution": {
+    "resolved_at": "2026-11-16T12:41:38.902Z",
+    "accepted_neutral_source_proposals": [
+      "PROP-b08ee152-2037-4387-a727-afe0d929af29",
+      "PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+      "PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+      "PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+      "PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+      "PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+      "PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+      "PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+      "PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+      "PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+      "PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+      "PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+      "PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+      "PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+      "PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+      "PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+      "PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+      "PROP-338ead51-a235-408d-a1ce-6065fdfc61c4",
+      "PROP-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+      "PROP-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+      "PROP-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+      "PROP-78f782ff-0900-4c0d-903a-433931618807"
+    ],
+    "excluded_personal_usage_proposals": [
+      "PROP-58bcf4c4-463e-4786-b02d-e0a89c3a8167",
+      "PROP-0b009058-e972-487a-a040-4d0843612e8c",
+      "PROP-3c36c3d1-96b3-4e83-a3e3-1b028d12c457"
+    ],
+    "current_counts": {
+      "source_records": 1573,
+      "access_methods": 2539,
+      "coverage_mappings": 1757,
+      "imported_candidates": 53
+    },
+    "source_commit": "5e1d31fdc1e127edf16ccf5aefed5588d2636e2a",
+    "version": 18,
+    "rule": "Public descriptions cover reusable source contents/access/limitations; personal investigative findings stay in this repository. Evidence backup and its full inventory are in the owner's unshared Google Drive. Private Drive identifiers are not published.",
+    "release_path": "catalogs/releases/rabbit-neutral-sources-20261116.json"
+  }
 }
