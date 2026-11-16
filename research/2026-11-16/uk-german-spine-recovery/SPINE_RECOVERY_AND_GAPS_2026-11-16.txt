@@ -1,0 +1,2043 @@
+UK-GERMAN HARDWARE SPINE AND REGULATORY WALL
+TARGETED RECOVERY AND GAP-FILLING REPORT
+16 November 2026
+
+READ THIS FIRST
+This is a partial Stage 1 recovery of the visible project brief, not completion of an imagined multi-stage assignment. The received brief cuts off after "UK Feb 2024 response to House of Lords AI in Weapon Systems report (". It names S35–S39 but does not supply the remainder of those instructions. No missing stages or unspecified source identities have been invented. The February 2024 response was located and recovered; the narrow German parliamentary disclosure issue was also checked within the requested regulatory frame.
+
+The original 25.8 MB overnight archive and full original ledger were not recovered from the accessible local workspace. This report combines newly acquired evidence with one surviving older original EPO XML. It does not relabel a reconstruction as the lost archive.
+
+BOTTOM LINE FOR GRAEME
+We can now point to concrete claimed safeguards, relevant engineers, real procurement programmes, and real assurance rules. We still cannot join those layers into proof that a particular purchased weapon contains and successfully uses a particular patented safeguard. The most defensible story question is who can test that connection, with what evidence and authority, when public descriptions stop short of configuration-level proof.
+
+THE MOST IMPORTANT FINDINGS AND CORRECTIONS
+1. KNDS: the official German register records withdrawal/waiver on 5 August 2025. The German priority application cannot be described as still alive on this evidence. Withdrawal does not tell us whether the technology was abandoned or installed. The US publication has 17 claims: the restricted-area parameter and withholding of a fire-control solution appear in claims 13–14. A hospital is a descriptive example. These claims are not public proof of the UK/German RCH155 configuration.
+2. BAE: the directed-energy patent's collateral-risk control condition is real but sits in dependent claim 10. It is not necessarily present in everything covered by the broader independent claim. The separate unmanned-aircraft patent permits assigned authority to continue without communications; it is NOT an automatic lost-link shutdown claim. Keith Rigby is a co-inventor on the directed-energy patent, not US11422549B2. His biography cannot identify an unnamed patent by implication.
+3. Kongsberg: two separate patent records describe operator-confirmation/hardware-barrier controls and default-safe disengagement on communications loss. A company interview describes human fire decisions in CORTEX Typhon. These are meaningful controls and company assertions, but not independent tests proving a particular customer's delivered build includes those exact patent architectures.
+4. 21strategies and Helsing: the retrieved claims describe learning, tactical adaptation and target selection; Helsing claim 3 includes an option to engage no target. None of that alone establishes a mandatory humanitarian-law filter. GhostPlay's stated Ethics by Design work is counterevidence to a claim that ethics was ignored. Sim2Live/JATOC development intentions are not delivered weapon capability.
+5. Regulation: UK JSP936 contains lifecycle ethical-risk and assurance obligations. Its independent-ethics-assurance recommendation is not a guarantee of public inspection. Germany's November parliamentary answer gives a narrow, documented refusal to disclose specified discrimination-test information, including in classified form. This is not proof that tests, safeguards or oversight do not exist.
+
+WHAT THIS RUN DOES NOT ESTABLISH
+No patent-to-delivered-configuration bridge, live law-of-war performance result, safeguard failure, legal violation, concealed defect, or absence of government oversight is established. Patent claims, biographies, procurement announcements, reference architectures, command-software statements and onboard hardware interlocks remain separate evidence classes. Scope-limited gaps are not findings of absence.
+
+PERSISTENCE
+Evidence folder: https://drive.google.com/drive/folders/1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O
+GitHub target: https://github.com/graemesmith-code/investigative-methods/tree/main/research/2026-11-16/uk-german-spine-recovery
+Raw bytes were saved in small batches during the work rather than held for one final publication. Individual file IDs and size-verification records are preserved below. All narrative interpretation is a derivative; the linked source originals remain separate. Existing sharing was not changed.
+
+Preserved source representations: 32 files, totaling 34,706,889 bytes. This counts representations, not unique documents: HTML and PDF versions of a patent count separately. All 32 local byte counts and SHA-256 values were independently rechecked against the manifests during consolidation. Drive byte-size verification is recorded by the segment workers; this consolidation did not re-download every Drive file for a second hash comparison.
+
+MAIN ARCHIVE GAPS
+- RENK biography PDF and MBDA production article: text readable through indexed/reader routes, but original bytes not acquired.
+- Several Kongsberg company releases: HTTP403; indexed primary text distinguishes their claims from saved originals.
+- National Defense article: direct security wrapper excluded; legitimate publisher-hosted ebook reprint preserved instead.
+- GhostPlay product page: HTTP403. TED185823-2025: HTTP202/zero bytes, so no usable official notice preserved.
+- German-language EP4229352A1 original claim transcript was not recovered; do not quote late claim numbering from the machine-translated HTML as authoritative.
+
+Public unauthenticated sources only. No emails, FOI requests, purchases, account creation or security-challenge bypass. Some text-only indexed observations therefore have weaker byte-preservation status than the saved originals.
+
+============================================================
+PART I: COMPLETE SEGMENT FINDINGS
+============================================================
+
+
+A. KNDS AND RCH155
+==================
+
+KNDS / RCH 155: TARGETED RECOVERY
+Cut-off 16 November 2026. Primary-file recovery, not a fresh general patent sweep.
+
+ESTABLISHED
+1. Official DPMA record DE102020127430.0 shows an examination notice dated 28 June 2021, and a withdrawal/waiver entry dated 5 August 2025. The administrative entry reads "Die Anmeldung wurde zurückgenommen/auf das Schutzrecht wurde verzichtet" (the application was withdrawn/the industrial property right was waived). This is the register's combined category, not proof of why the applicant stopped. The present German application cannot be described as kept alive on this evidence. A patent filing and a grant must be distinguished. Do not infer technical abandonment or removal of a safeguard from a product.
+2. US20230392899A1 contains 17 claims, not 14. Claims 1-12 concern fire-control calculation and its parameters. Claim 13 adds a blocking parameter, including a definable restricted area; dependent claim 14 withholds a fire-control solution depending on that parameter. Claims 15-17 cover the control system and weapon-system implementation. The description explicitly gives a hospital among possible restricted areas. EP4229352A1 carries corresponding material; its Google machine-translated HTML merges some late claim numbering, so the original German claim text (not recovered in this batch) and US publication should be checked for exact quotation, not silently treating the translation as an authoritative numbered claim transcript.
+3. KNDS product material says RCH155 combines automated firepower with a protected mobile Boxer vehicle and autonomy in navigation and fire control. Product terminology about automation does not establish autonomous target selection or the particular hospital-exclusion implementation claimed in the patent.
+4. KNDS 19 December 2025 order release establishes 84 German RCH155 systems, roughly EUR1.2 billion including supporting equipment/services, under a framework for 500. That is procurement evidence, not a patent-to-delivered-configuration bridge.
+5. UK MoD's 13 May 2026 release establishes 72 RCH155 systems in a GBP1 billion investment. No exact patent number is tied to a procured fire-control software configuration in this release.
+6. Freundeskreis Artillerietruppe's first-hand account of the 9 May 2023 Kassel visit names Matthias Czok as development project manager in a visit covering RCH155, PzH2000 and MLRS. German source phrase: "Projektleiter Entwicklung, Herr Matthias Czok". Translation: development project manager, Mr Matthias Czok. It does not say which patent was implemented or certify the safety behavior of RCH155. Do not overread it as an exclusive RCH155 role.
+7. RENK AGM2024 PDF page 10 identifies Axel Scheibel as KNDS CTO and connects his development leadership with RCH155, among other products. This was freshly readable through the web search PDF reader. Direct byte retrieval returned HTTP503 twice; no raw RENK PDF was preserved in this batch. Consequently it is a verified readable source with a raw-archive gap, not a recovered primary file. URL in manifest failures.
+
+BOUNDED GAPS
+- No public proof in this recovered set that EP4229352A1 / US20230392899A1 claims13-14 are implemented in the UK or German purchased RCH155 configurations.
+- No assessment of effectiveness, override settings, protected-area data provenance, update latency, hospital-list completeness, independent safety test results, or deployed software version follows from the patent.
+- German withdrawal motive unknown. No official EPO or USPTO legal-status decision was acquired in this segment; do not use Google status labels as legal conclusions.
+- Engineer/program biography connects people, not software build contents.
+
+METHOD
+Inspected current workspace, /tmp and named surviving procurement folders for relevant prior files. No original overnight KNDS raw archive found in that bounded inspection. Fetched source bytes with ordinary unauthenticated HTTPS requests, retained the original response bytes without rewriting, calculated SHA256 locally, uploaded each small batch immediately to specified Drive folder, and verified IDs, byte sizes and parent folder via Drive metadata. GitHub manifests checkpointed after each batch. HTML plain-text working extracts are derivatives and are not presented as raw documents. No logins, outreach, FOI requests, payment, challenge bypass or sharing changes.
+
+Source URLs, byte sizes, MIME types, timestamps, Drive IDs and hashes: see manifest_stage1a.json, manifest_stage1b.json, manifest_stage1c.json, SHA256SUMS.txt. RENK and German-language Google patent failed fetches are not primary files. The first DPMA timestamp was retained only at minute precision and is labelled accordingly, not given fabricated second-level precision.
+
+
+
+B. BAE, DRAGONFIRE AND UK COMBAT AIR
+====================================
+
+BAE / DRAGONFIRE / UK COMBAT AIR: TARGETED RECOVERY
+Research date 16 November 2026. Bounded to the eight requested source groups.
+
+BOTTOM LINE
+The public record now supplies a stronger company-and-person connection to real UK hardware programmes, but not the final technical bridge: nothing in this recovered packet establishes that either BAE patent's safeguard is implemented in the purchased DragonFire configuration or an operational FCAS/ACP. This is a specific unclosed evidentiary gap, not evidence of absence.
+
+1. DIRECTED ENERGY PATENT
+US11473880B2 (Directed energy weapon), original granted patent PDF recovered, issued 18 October 2022. Applicant/assignee BAE Systems plc; inventors Nicholas Giacomo Robert Colosimo and Keith Antony Rigby. Claim 10, PDF page 15, depends on Claim 1: it adds determining collateral-damage risk by determining possible target-engagement efficiency and makes engaging-phase energy delivery conditional upon that risk. The original claims contain a concrete control condition, not merely an aspiration to act ethically. However Claim 10 is a dependent claim; it should not be used to imply every device within independent Claim 1 necessarily includes this narrower condition. Nor is it proof of legal proportionality assessment, civilian recognition, or hospital exclusion. It concerns physical directed-energy engagement assessment and control. The hardware procurement bridge remains unproven.
+
+2. UNMANNED AERIAL SYSTEMS PATENT
+US11422549B2, original granted PDF recovered, issued 23 August 2022. Applicant/assignee BAE Systems plc. Claim 1, PDF page 14, covers a configuration apparatus with user inputs at decision points, specifying extent of automation and mandated operator approval, allocation and pre-mission upload of automation levels, and mission control even without communications. At least one of two tasks must be unrelated to navigation.
+This is NOT an automatic lost-link shutdown claim. It expressly permits continued UAV control without communications according to assigned levels. It is a patent for assigning authority at decision points, not proof that a named current weapon automatically withholds lethal force when communications fail. The descriptive discussion lists loss/degradation of communications as one circumstance in which variable automation may be appropriate. Do not equate that with universally conservative fail-safe behavior.
+Important correction: Keith Rigby is NOT named as inventor on this patent. Its inventors are Marc Damien Ridings, Jonathan Gareth Rea, Matthew Jordan Simpson and Grant Andrew Chapman. Rigby's bio's mention of patented safe weapon control over uncertain links cannot by itself identify this particular patent.
+
+3. RIGBY BRIDGE
+S27, Royal Aeronautical Society programme, 17 November 2022: lists Keith Rigby, Principal Technologist Weapon Integration, BAE Systems, speaking about aircraft integration of laser weapons. This links the named co-inventor of the directed-energy patent to relevant integration expertise; it does not identify DragonFire or adoption of Claim 10.
+S28, Royal Aeronautical Society FCAS25 speaker library, PDF page 24: his biography describes leading UK industry development of Rapid Stores Integration Capability, says it is adopted in the Pyramid Reference Architecture and forms the basis of a forthcoming NATO Logical Stores Integration Framework standard. It separately describes leading weapons integration on uncrewed systems, procedures and patented functionality for safe weapons control over links of uncertain availability/timeliness/quality, and consultancy on laser-weapon integration in air and maritime domains.
+These are three distinct statements: architecture pedigree; patented control expertise; laser integration expertise. The biography does not give patent numbers, a named DragonFire configuration, a delivery acceptance test, or a safety-case reference. Do not compress these into one implementation claim.
+
+4. REAL PROGRAMMES
+S24, Dstl/MOD release published 19 January 2024, updated 21 March 2024: DragonFire achieved the UK's first high-power laser firing against aerial targets at the Hebrides range. The release identifies Dstl, MBDA, Leonardo and QinetiQ; it describes line-of-sight operation, relevant-range tests, and a ministerial statement about lower collateral damage. That rhetoric is not evidence of the BAE patent's particular conditional control mechanism.
+S23, MBDA article dated 15 December 2025: indexed primary text describes a £316m contract, announced on 20 November, to deliver DragonFire to the Royal Navy from 2027. It explicitly includes BAE Systems among more than 100 UK organisations working in production. This is a real corporate production bridge, but MBDA does not identify BAE's component or patent. Raw HTTP acquisition failed 403 on 16 November 2026 at 10:24:45 UTC. No challenge page saved; readable indexed primary text was separately inspected through search. Therefore this item is NOT counted as a preserved primary original.
+S25, MOD 22 July 2026 release: £708m FCAS development extension with BAE Systems, including AI, software and other technologies, with Team Tempest partners Leonardo UK, MBDA UK and Rolls-Royce. Funds national infrastructure and technology contributing to GCAP and wider FCAS; not a procurement specification for the patented safeguards.
+S26, RAF Autonomous Collaborative Platform Strategy: frames delivery of safe ACP capability and human-machine cooperation with legal/ethical considerations, operational test and evaluation, and assurance chains. It is strategic direction, not an acceptance test or safety certification of either patent's implementation. Neither general strategic assurance language nor a common contractor closes the patent-to-purchased-function gap.
+
+PERSISTENCE AND METHOD
+Used public unauthenticated HTTP requests. Stored original PDF/HTML bytes unmodified. Parsed derivative text for examination, not as original evidence. SHA256SUMS.txt records hash, byte count, MIME, original URL, Drive ID and verified Drive byte count. All nine acquired originals were uploaded and metadata sizes verified individually before final synthesis. Five nonpatent documents + two patent HTML pages + two original patent PDFs = nine originals. MBDA remains raw-archive gap; no 401/403/CAPTCHA bypass, contact, payment, account creation or permission changes.
+Local limited salvage search found prior patent-procurement cross-reference TXT but no original overnight BAE archive. No recovered working file was misrepresented as the lost overnight original.
+
+BOUNDED NEXT EVIDENCE GAPS (NOT EXECUTED)
+A. DragonFire configuration/safety-case documentation that cites the particular patent, algorithm or control condition, or identifies BAE's supplied component and its acceptance test.
+B. Exact patent identity underlying Rigby's uncertain-link statement and evidence distinguishing it from US11422549B2.
+C. FCAS/ACP or Pyramid integration test/configuration reference for per-decision authorization, not general architecture adoption.
+D. Authoritative original MBDA article bytes; indexed text supports the production connection but raw preservation failed.
+
+No narrative claim here treats a patent grant as an operational certification or an inventor biography as a bill of materials.
+
+
+
+C. KONGSBERG, BOXER AND COUNTER-UAS
+===================================
+
+KONGSBERG / BOXER / COUNTER-UAS - TARGETED RECOVERY, 16 NOVEMBER 2026
+
+BOTTOM LINE
+A real human-authorization safeguard exists in Kongsberg's published patent claims. A separate patent publication describes default-safe shutdown on communications loss. The same supplier is supplying remote weapon stations into British Boxer and several European counter-drone/armoured-vehicle programmes. There is also a direct company interview saying CORTEX Typhon retains a human fire decision. None of the bounded records reviewed proves that a named customer received the exact patented architecture, or that its configuration passed independent safety acceptance tests.
+
+This is stronger than merely a shared company name: one inventor is independently identified as MCT product manager and counter-drone deployment is described in a first-hand company interview. Those are person/product and human-control assertions respectively, not a patent-to-purchased-configuration bridge.
+
+1. PATENT EVIDENCE: HUMAN AUTHORIZATION (US11946710B1)
+Source: https://patents.google.com/patent/US11946710B1/en
+Native patent PDF and page HTML preserved. Inventor: Pål Longva Hellum. This granted-publication identifier is not a fresh certification of current enforceability.
+Claims 1 and 6 distinguish activation, authorization/arming and trigger information. Claim 1 requires operator confirmation before triggering and requires the relevant signals together; claim 6 additionally makes continued target consistency part of the method. Claims 5 and 14 concern an operator-side switch that connects/disconnects the hardware-barrier communication loop. Do not substitute these hardware controls with a generic command software warning: they are different proof categories.
+This is not itself a civilian-classification algorithm or an international-humanitarian-law judgment. An authorized human can still make a mistaken or unlawful decision. The patent establishes a claimed control architecture, not its operational effectiveness.
+
+2. PATENT EVIDENCE: LOST-COMMUNICATION DEFAULT SAFE (US20230229794A1)
+Source: https://patents.google.com/patent/US20230229794A1/en
+Native publication PDF and HTML preserved. Inventors: Pal Longva Hellum and Lars Egil Bjorset. This A1 is a published application, not proof that all claims were granted or remain operative.
+Claims 1 and 13 describe hardware safety barriers at the near and remote control interfaces and disengagement control. Claim 10 identifies weapon-related circuitry among the safety-critical applications. Claims 5 and 17 specify disabling the safety-critical device on lost communication, returning it to a default-safe state. This is a stronger and narrower proposition than 'the system has safety software.' It does not identify a delivered RS4, Boxer or Typhon configuration by name.
+
+3. PERSON-TO-PRODUCT LINK (S07)
+https://www.kongsberg.com/news/stories/2018/9/technology-award-mct/
+Kongsberg's September 2018 Technology Award account names Lars Egil Bjørset as Product Manager of the Medium Caliber Turret. His name corresponds to Lars Egil Bjorset on the 2023 application. This is a documented inventor/product-domain bridge, not evidence the 2018 product implemented later patent claims. Direct retrieval returned HTTP403 at 2026-11-16T10:25:28.888024+00:00. The text was readable through the public search index; no unmodified raw source copy was acquired or fabricated.
+
+4. UK BOXER (S06 AND PROCUREMENT)
+https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897
+Raw official Parliament HTML preserved. Correction to shorthand in the brief: question tabled 22 June; answer dated 25 June 2026; it reports the position AS OF 23 June: 100 of 623 contracted Boxer vehicles delivered. Vehicle totals do not certify RS4 quantities, configurations or safety tests.
+https://www.kongsberg.com/news/news-archive/20202/kongsberg-wins-remote-weapon-stations-contract-of-1-030-mnok-with-the-the-british-miv-program/
+The earlier cross-reference reports the 2020 Thales UK/RS4 contract, but its raw source is blocked HTTP403 in this run. This run does not turn the earlier account into a recovered primary copy. In any event, the procurement predates the later human-authorization patent. That chronology permits later upgrades but proves none.
+
+5. CORTEX TYPHON / UK-LED IFU (S08)
+https://www.kongsberg.com/news/news-archive/2023/international-fund-for-ukraine-orders-multiple-c-uas-air-defence-systems-from-kongsberg/
+The indexed 14 August 2023 company announcement describes a GBP56m IFU contract for several CORTEX Typhon systems, Kongsberg RWS and CORTEX ICS, alongside Teledyne FLIR and donated Norwegian vehicles/weapons. Direct byte retrieval 403; not raw archived.
+https://www.nationaldefensemagazine.org/articles/2024/6/18/kongsbergs-counter-drone-secret-sauce-refined-in-ukraine
+Direct original article returned a 212-byte Incapsula wrapper. Excluded. A legitimate publisher-hosted ebook reprint was acquired instead: https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf , printed page 17.
+Stew Magnuson's interview with John Carlsson (company US business development) reports June 18 2024 delivery two to three months earlier, subsequent software refinement and automated drone tracking with a human fire decision. This is primary evidence of what a company representative said, not an independent engineering test. The article does not identify either patent or disclose the hardware safety chain. It distinguishes software integration from the person's decision to fire.
+
+6. EUROPEAN PROGRAMME ANNOUNCEMENTS
+Kongsberg SAN announcement, 30 January 2026: https://www.kongsberg.com/news/news-archive/2026/kongsberg-wins-nok-16-billion-contract-to-deliver-counter-uas-solutions-in-poland/
+Indexed company text says 18 counter-UAS batteries, NOK16bn Kongsberg share, PGZ partnership and APS command/control integration; PROTECTOR MCT30/RWS are named. This establishes planned system/integrator relationships, not the patented safeguard or acceptance evidence. Direct 403; Euronext public announcement mirror returned HTTP202 zero bytes. Neither was archived as primary evidence.
+CAVS, 6 February 2026: https://www.kongsberg.com/news/news-archive/2026/germany-and-sweden-order-kongsberg-remote-weapon-stations-for-cavs-6x6-programme/
+Indexed company text says several hundred RS4 stations, about EUR140m, Patria contract supporting Germany/Sweden. Counter-UAS is a possible upgrade, not demonstrated baseline delivery. Company raw 403, Euronext mirror HTTP202 zero bytes, Patria's own related announcement 403; no primary byte archive for these.
+Netherlands, 29 September 2026: https://www.kongsberg.com/news/news-archive/2026/kongsberg-signs-contract-with-oshkosh-defense-europe-to-deliver-counter-drone-capabilities-to-the-netherlands/
+Indexed company text explicitly identifies RS4 equipped with PROTECTOR CUAS, integrated on Oshkosh JLTVs for Netherlands. This distinguishes actual contract scope from CAVS's possible upgrade. Direct 403; raw source gap remains.
+
+7. BOUNDED GAPS / NEXT DOCUMENTS THAT WOULD CHANGE THE ANSWER
+No reviewed document ties a specific patent claim to a delivered build, contract configuration or qualification record. Needed evidence: named configuration baseline, safety requirements allocated among vehicle integrator/weapon supplier/C2 supplier, acceptance test that demonstrates lost-link and authorization behaviour, and the authority allowed to approve a change. Public procurement totals, an inventor biography and company claims cannot substitute for those records. No absence or wrongdoing inference follows from the gaps.
+No fresh broad patent search, outreach, accounts, purchase, FOI request or security challenge bypass performed. Kongsberg.com returned 403 for each listed endpoint; no retries or alternate disguises attempted. Public indexed text was used for narrow findings, explicitly not represented as original response bytes. Independent publisher and stock-exchange mirrors were attempted transparently; failures logged.
+
+PERSISTENCE
+Six raw files preserved in designated Drive folder and byte-size checked: two patent HTML pages, two native patent PDFs, Parliament HTML, and publisher ebook PDF. SHA256SUMS.txt and FINAL_MANIFEST.json identify exact bytes, MIME, timestamps, URLs and Drive IDs. Raw sources unmodified. Derived reading text separate. Original security wrapper and empty responses segregated as non-evidence and not uploaded.
+
+
+
+D. 21STRATEGIES, HELSING AND REGULATORY RECORDS
+===============================================
+
+UK-GERMAN SPINE RECOVERY: 21STRATEGIES, HELSING AND REGULATORY RECORDS
+Research date: 16 November 2026. Bounded segment, not comprehensive legal opinion.
+
+BOTTOM LINE
+The strongest accountability finding here is not that safeguards are absent. UK policy sets lifecycle assurance obligations; the German government says humanitarian law and human engagement authorization apply. But the recovered public records do not expose the technical evidence that would let an outsider check those assurances for a named weapon. Germany's 10 November answer provides a particularly concrete, narrowly defined disclosure refusal. Meanwhile, public descriptions connect simulated AI tactics to intended physical platforms, but do not prove a patented safety feature has been installed on any specific weapon.
+
+21STRATEGIES: PATENT AND PROGRAM ARE DIFFERENT LAYERS
+EP4293311A1, official EPO XML salvaged from the prior selected-claims package. The XML is 77,813 bytes and independently rehashed; this is not recovery of the missing overnight archive. Claim 1 describes parallel sensor, information and effector-management agents using a common effect-evaluation measure. Claim 8 permits a separate meta-learning stage to adapt after initial training during operation. Claim 10 describes adapting control rules and developing tactics during operation, including reactions to unfamiliar enemy or emitter behaviour. These are capabilities, not proof of an enforceable civilian-protection interlock. A useful accountability question is how an approved system's learning after training is bounded and when it triggers renewed assurance.
+Source: https://data.epo.org/linked-data/representation/publication/EP/4293311/NWA1.xml
+
+The official dtec.bw GhostPlay page describes simulated high-tempo tactical decisions for suppression of enemy air defence and defending air-defence units, with transfer into training simulators. It explicitly includes lifelong learning and an Ethics by Design approach examining ethical/legal constraints alongside performance. That is meaningful counterevidence to any claim that the project simply ignores ethics. It is still a project description, not a public test certificate or evidence that these constraints operate aboard a deployed weapon. The page lists 1 September 2021–31 December 2026.
+German excerpt: "Ethics by Design"; English: ethics built into design.
+https://dtecbw.de/home/forschung/hsu/projekt-ghostplay
+
+The May 2025 Thinking Before Sinking study by Borchert, Brandlhuber and Dzaack evaluates simulated maritime scenarios, including defending against speedboat swarms and coordinating defensive engagement decisions. The simulation results are not physical-deployment evidence. Keep these performance findings separate from independently measured law-of-war compliance.
+https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf
+
+21strategies' 21 October 2025 company post describes GhostPlay@SEA and a planned Sim2Live bridge transferring trained tactics to real maritime platforms. It says the JATOC companion computer is being developed for physical systems. The future-tense language matters: this establishes stated development direction, not delivered onboard capability, acceptance testing or a named installed platform.
+https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/
+
+TED 185823-2025: official landing request returned HTTP202 with zero bytes; no usable official notice recovered. A search-discovered third-party reproduction identifies a voluntary ex-ante transparency notice for HSU GhostPlay@SEA, published 24 March 2025, naming ATLAS ELEKTRONIK. This is a discovery lead only, not a recovered primary contract or proof of fulfilled delivery. Do not turn an intended direct award into a verified executed contract.
+Official target: https://ted.europa.eu/en/notice/-/detail/185823-2025
+Discovery-only mirror: https://files.auftrag-select.com/file/auftrag-select-public/pdfs/6656021/bekanntmachung.pdf
+
+HELSING: ALL 15 CLAIMS CHECKED
+DE102025101672A1, filed 17 January 2025, published 23 July 2026; public German patent text retrieved from Google Patents. Claim 3 includes a no-engagement option. It does not by itself establish a humanitarian-law filter or mandatory human veto. The claimed protected assets are objects the system is defending; do not silently equate them with civilians or specially protected persons. No named product implementation was established in this bounded pass.
+https://patents.google.com/patent/DE102025101672A1/de
+Functional claim map, paraphrased from German:
+1. Context/target representations and scoring select a target and transmit that selection to an effector.
+2. Priority selection from scores, including highest score.
+3. Non-operation representation instructs engagement of no target.
+4. Recurrent neural-network context, including LSTM.
+5. Situation representation using target and effector information.
+6. Mean embedding of representations.
+7. Properties of protected assets in the input representation.
+8. Self-attention/transformer backbone using sensor information.
+9. Training agent using observations and reward updates.
+10. Stochastic target selection.
+11. Reinforcement-learning agent with output heads.
+12. Method using a trained instance.
+13. System implementing the method.
+14. Executable computer-program product.
+15. Trained learning module.
+Original excerpt: "kein Ziel zu bekämpfen". Translation: "engage no target".
+This map describes the claims, not grant status, commercial installation, test success, or absence of other safeguards elsewhere.
+
+UK: REAL ASSURANCE REQUIREMENTS, NOT PUBLIC VERIFICATION OF A PARTICULAR SYSTEM
+JSP936 Part1 V1.1 (November 2024), especially §§91–105, sets lifecycle ethical-risk management. Unacceptable negative ethical risk calls for halting development/deployment or removing an out-of-bounds operational system until review. §99 requires annual executive-board AI ethical-assurance statements supported by auditable evidence. Accountability must be transferred into operational use. §105 recommends independent ethics assurance for larger/significant-risk or repeated-use systems; it uses SHOULD, not MUST, and does not establish independence from government or public access. The publication presents an evolving assurance framework and allows organizations to plan routes toward compliance. The record therefore rebuts an assertion of no policy, but supplies no project-specific compliance proof. Ask for the named assurance statement, risk owner, operating bounds and evidence underlying acceptance.
+https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+
+The February 2024 government response to the Lords AI-in-weapons report describes governance before, during and after use and says Article36 review is not simply a one-off release hurdle. Material changes can require review; adaptive systems pose challenges. The response discusses exploring supplier transparency into models, data and training, not a guaranteed public right to inspect them. Distinguish committee recommendations from the government's actual replies.
+https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf
+
+GERMANY: A SPECIFIC PARLIAMENTARY DISCLOSURE LIMIT
+Bundestag printed paper 21/9054, government answer dated 10 November 2026. Q1/3/8 invoke existing humanitarian law, including stopping attacks against surrendering or incapacitated persons. Q7/9 say a human authorizes engagement regardless of how a target proposal originates. Q4 asks for unclassified minimum sensor/image/data-rate requirements to detect a target's changed status: the answer says none of the requirements within that question are unclassified. Q10 asks about tests/simulations/evaluation distinguishing combatants, surrendering people, wounded people and civilians under varied conditions; government declines to disclose the requested information even classified, citing military capability, operational secrecy and state welfare. This is a precise public-verification gap, NOT proof no tests exist, no oversight exists or all parliamentary access is blocked. The questioners' preamble is not an admission by government. Q11 centres human decision-making for aborting and traceability.
+German Q10 excerpt: "auch nicht in eingestufter Form". Translation: "not even in classified form".
+https://dserver.bundestag.de/btd/21/090/2109054.pdf
+
+RECOVERY LIMITS AND METHOD
+This pass recovered and persisted originals as separate files, then checked Drive IDs, sizes and destination parents. It did not alter sharing permissions. Source pages/PDFs/XML are unmodified; extracted text and this narrative are derivatives. SHA256SUMS.txt and FINAL_MANIFEST.json give original byte hashes, MIME, source URLs, timestamps and verified Drive IDs. The GhostPlay product homepage returned403 and was not bypassed or saved as evidence. The TED landing returned202/zero bytes; its empty local response is excluded from the evidence inventory. The visible user brief ends after the UK Lords response item; unspecified S35–S39 have not been invented or declared complete. No broad patent sweep, outreach, request submission or paid access occurred. No explicit patent-to-installed-weapon bridge or live humanitarian-protection performance test was established here.
+
+
+
+============================================================
+PART II: CONSOLIDATED SOURCE INVENTORY FOR HUMAN AND AI CHECKING
+============================================================
+The source URL identifies provenance; the Drive link identifies the preserved copy. Hashes describe acquired original bytes, not a rendered page or extracted text. HTTP failure records and segment verification objects follow in full.
+
+
+FILE: S01_DPMA_register.html
+Source: https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300
+Retrieved/provenance: 2026-11-16T10:24:00Z (minute precision)
+Bytes: 55894
+MIME: text/html;charset=UTF-8
+SHA-256: 185efd61650ea6007d7baeffe12ab5a25b976861798b25716d16f14e586536c9
+Drive ID: 1_UfqoY9v7stc3dG_xO1QbAGVW9_jI0m4
+Preserved copy: https://drive.google.com/file/d/1_UfqoY9v7stc3dG_xO1QbAGVW9_jI0m4/view
+
+
+FILE: S02_EP4229352A1.html
+Source: https://patents.google.com/patent/EP4229352A1/en
+Retrieved/provenance: 2026-11-16T10:24:57.902739+00:00
+Bytes: 237959
+MIME: text/html
+SHA-256: 617b895441a84fc11fc3525351bc2400ad70142e73d8efeb1adacfba7ee8231a
+Drive ID: 1b4uOdQTZXYZKuy53IHIEzanbG-xJAr95
+Preserved copy: https://drive.google.com/file/d/1b4uOdQTZXYZKuy53IHIEzanbG-xJAr95/view
+
+
+FILE: S02_US20230392899A1.html
+Source: https://patents.google.com/patent/US20230392899A1/en
+Retrieved/provenance: 2026-11-16T10:24:57.903332+00:00
+Bytes: 247269
+MIME: text/html
+SHA-256: ea47e43c3e71ad1806b423a70618fe61d0eaa868cc5a41219a2037475a91f441
+Drive ID: 1b3Rqnjz-FRMnporCC3_4TBR0kinMsyYZ
+Preserved copy: https://drive.google.com/file/d/1b3Rqnjz-FRMnporCC3_4TBR0kinMsyYZ/view
+
+
+FILE: S03_RCH155_de.html
+Source: https://knds.com/de/produkte/systeme/rch-155
+Retrieved/provenance: 2026-11-16T10:24:57.903750+00:00
+Bytes: 456602
+MIME: text/html; charset=utf-8
+SHA-256: 2c2b9ac2ddded7e292f0fb42703671ed02b2e0598f602b8ce34637fd48edcfac
+Drive ID: 1i12eWeUXFxngWG1DIJltwcdhIbMKKjb0
+Preserved copy: https://drive.google.com/file/d/1i12eWeUXFxngWG1DIJltwcdhIbMKKjb0/view
+
+
+FILE: S05_Freundeskreis.html
+Source: https://www.freundeskreis-artillerietruppe.de/Neuigkeiten/
+Retrieved/provenance: 2026-11-16T10:24:57.905253+00:00
+Bytes: 354396
+MIME: text/html; charset=utf-8
+SHA-256: 22403c035ba304dab2f8528d95a8f60332ed7e35fced491949a4fcd3cbd60ce8
+Drive ID: 1AoJ6N2eKw1-OGqU4zwdAdmc1G8P9gPfC
+Preserved copy: https://drive.google.com/file/d/1AoJ6N2eKw1-OGqU4zwdAdmc1G8P9gPfC/view
+
+
+FILE: S05_UK_MoD.html
+Source: https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army
+Retrieved/provenance: 2026-11-16T10:24:57.907402+00:00
+Bytes: 78998
+MIME: text/html; charset=utf-8
+SHA-256: e3de15ba50e58c5cd3f5f38ad6adf5819b3b0791accdef8672a26265ede92483
+Drive ID: 13v0o2AaJdLi5FxoDFN6ZVLFClVrpdhgC
+Preserved copy: https://drive.google.com/file/d/13v0o2AaJdLi5FxoDFN6ZVLFClVrpdhgC/view
+
+
+FILE: S03_RCH155_en.html
+Source: https://knds.com/en/products/systems/rch-155
+Retrieved/provenance: 2026-11-16T10:26:54.027512+00:00
+Bytes: 455198
+MIME: text/html; charset=utf-8
+SHA-256: 6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452
+Drive ID: 1Xc6qqj--UsmOlbi9vD0Ktbbls_hsc29t
+Preserved copy: https://drive.google.com/file/d/1Xc6qqj--UsmOlbi9vD0Ktbbls_hsc29t/view
+
+
+FILE: S05_KNDS_German_order.html
+Source: https://knds.com/en/press-releases/germany-procures-rch-155-wheeled-howitzers-from-knds
+Retrieved/provenance: 2026-11-16T10:26:54.028179+00:00
+Bytes: 330162
+MIME: text/html; charset=utf-8
+SHA-256: cdaa7e4fd6f6767114a63c009ce5c40485a021bb95088db1f436857bd13fd4cd
+Drive ID: 1aIufK9Iz_96K6bHcDE72UJvPvTR34E3X
+Preserved copy: https://drive.google.com/file/d/1aIufK9Iz_96K6bHcDE72UJvPvTR34E3X/view
+
+
+FILE: S02_US20230392899A1.pdf
+Source: https://patentimages.storage.googleapis.com/da/03/ce/e5a07857d0d160/US20230392899A1.pdf
+Retrieved/provenance: 2026-11-16T10:26:54.029120+00:00
+Bytes: 900037
+MIME: application/pdf
+SHA-256: fe4251985369c223ece850187b692ff2e3ed988fe86fdf99590888601cf283a7
+Drive ID: 1nE8226A8ZsLk4AQuj6hFhf1kUg8xUyXZ
+Preserved copy: https://drive.google.com/file/d/1nE8226A8ZsLk4AQuj6hFhf1kUg8xUyXZ/view
+
+
+FILE: S24_Dstl_laser.html
+Source: https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first
+Retrieved/provenance: 2026-11-16T10:24:49.053989+00:00
+Bytes: 84977
+MIME: text/html
+SHA-256: 0581002e804ee3d1d2659cd786efe247f4c95657b9bd757df701870af0274f2d
+Drive ID: 1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q
+Preserved copy: https://drive.google.com/file/d/1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q/view
+
+
+FILE: S25_FCAS_708m.html
+Source: https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology
+Retrieved/provenance: 2026-11-16T10:24:51.968185+00:00
+Bytes: 71574
+MIME: text/html
+SHA-256: daca794d19cf71398d244ff9c0fc8c54b3b06830bcbc35920a79418329afdfe5
+Drive ID: 1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy
+Preserved copy: https://drive.google.com/file/d/1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy/view
+
+
+FILE: S26_RAF_ACP_strategy.pdf
+Source: https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf
+Retrieved/provenance: 2026-11-16T10:25:11.700577+00:00
+Bytes: 2076536
+MIME: application/pdf
+SHA-256: 5e4fda8b3293c09b95f2287ecedb57b63c876317c6abfa4b35bbd513cab0b5fb
+Drive ID: 1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79
+Preserved copy: https://drive.google.com/file/d/1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79/view
+
+
+FILE: S27_Rigby_2022.pdf
+Source: https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf
+Retrieved/provenance: 2026-11-16T10:25:18.234980+00:00
+Bytes: 281464
+MIME: application/pdf
+SHA-256: f48343810870c674b54fafb4bf160edd45acc7041db192defb4ab5fb51f1ef71
+Drive ID: 1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE
+Preserved copy: https://drive.google.com/file/d/1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE/view
+
+
+FILE: S28_Rigby_2025.pdf
+Source: https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf
+Retrieved/provenance: 2026-11-16T10:25:35.031852+00:00
+Bytes: 13378233
+MIME: application/pdf
+SHA-256: fc9967ef5cc87d924817d0a7242a3d53b09193651e419b394ecb18dd8b78a69b
+Drive ID: 15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT
+Preserved copy: https://drive.google.com/file/d/15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT/view
+
+
+FILE: BAE_US11473880B2.html
+Source: https://patents.google.com/patent/US11473880B2/en
+Retrieved/provenance: 2026-11-16T10:25:39.597853+00:00
+Bytes: 288231
+MIME: text/html
+SHA-256: 2dd68bc419bc5b3e0eafbf359c47e29acbacf2495a1b24a638b11ddf80523ebc
+Drive ID: 1r3rT9jlZDF6PmMEOlfWv3jxk7wPi-pfr
+Preserved copy: https://drive.google.com/file/d/1r3rT9jlZDF6PmMEOlfWv3jxk7wPi-pfr/view
+
+
+FILE: BAE_US11422549B2.html
+Source: https://patents.google.com/patent/US11422549B2/en
+Retrieved/provenance: 2026-11-16T10:26:01.443741+00:00
+Bytes: 302845
+MIME: text/html
+SHA-256: 86ddb5d46ca7c04242359d41fd81e679b17a9f53383ee68676e6fc6648deaa2b
+Drive ID: 1zNRW0jO8SONwAHnW4tZr6JJMsU2_54yb
+Preserved copy: https://drive.google.com/file/d/1zNRW0jO8SONwAHnW4tZr6JJMsU2_54yb/view
+
+
+FILE: BAE_US11473880B2.pdf
+Source: https://patentimages.storage.googleapis.com/6b/94/80/163c684e62313d/US11473880.pdf
+Retrieved/provenance: 2026-11-16T10:29:19.384021+00:00
+Bytes: 1431849
+MIME: application/pdf
+SHA-256: d2e58e6a38967da18d5d012e9c02ec1fd72392ec9d6f5822844895f5a1e609db
+Drive ID: 173_WlHJ9x0J0yV8rcS3341tsDXLrgACU
+Preserved copy: https://drive.google.com/file/d/173_WlHJ9x0J0yV8rcS3341tsDXLrgACU/view
+
+
+FILE: BAE_US11422549B2.pdf
+Source: https://patentimages.storage.googleapis.com/b5/af/60/f1d255ea83aeea/US11422549.pdf
+Retrieved/provenance: 2026-11-16T10:29:45.774451+00:00
+Bytes: 1680725
+MIME: application/pdf
+SHA-256: c859f3e4136115ca719e125b36b334024949f2b93302098439b8b24c29fa44f6
+Drive ID: 1pKYZSzCTu88rjLxjreeiX1MeTs4SYsO4
+Preserved copy: https://drive.google.com/file/d/1pKYZSzCTu88rjLxjreeiX1MeTs4SYsO4/view
+
+
+FILE: US11946710B1.html
+Source: https://patents.google.com/patent/US11946710B1/en
+Retrieved/provenance: 2026-11-16T10:25:04.281917+00:00
+Bytes: 237028
+MIME: text/html
+SHA-256: d08aaccbb6860543a7aa0ae3ac4c34564cda6f719b7f2fdff1e730ce85c7b3fa
+Drive ID: 1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T
+Preserved copy: https://drive.google.com/file/d/1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T/view
+
+
+FILE: US20230229794A1.html
+Source: https://patents.google.com/patent/US20230229794A1/en
+Retrieved/provenance: 2026-11-16T10:25:08.858550+00:00
+Bytes: 254027
+MIME: text/html
+SHA-256: 82437d5cdf92b266d6a281a2e8f30439a9bee73ddf333597ade635019ced704a
+Drive ID: 1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ
+Preserved copy: https://drive.google.com/file/d/1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ/view
+
+
+FILE: S06_Boxer11897.html
+Source: https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897
+Retrieved/provenance: 2026-11-16T10:25:12.030277+00:00
+Bytes: 27167
+MIME: text/html; charset=utf-8
+SHA-256: 808daf656853f9ea11281c964a373cdf5b2b0587aba5ae324da596e323ad3486
+Drive ID: 1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy
+Preserved copy: https://drive.google.com/file/d/1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy/view
+
+
+FILE: US11946710B1_PDF.pdf
+Source: https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf
+Retrieved/provenance: 2026-11-16T10:27:11.037771+00:00
+Bytes: 957451
+MIME: application/pdf
+SHA-256: b938ff5f92b3208f9e7a5dc4409d1d2ba7acf5b0de31804404300a77baf434c8
+Drive ID: 1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke
+Preserved copy: https://drive.google.com/file/d/1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke/view
+
+
+FILE: US20230229794A1_PDF.pdf
+Source: https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf
+Retrieved/provenance: 2026-11-16T10:27:14.495367+00:00
+Bytes: 1652668
+MIME: application/pdf
+SHA-256: bb5f485dfbe4f4b97127487c30b3972e89714567822f79abe12747ad7f49a4b0
+Drive ID: 1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U
+Preserved copy: https://drive.google.com/file/d/1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U/view
+
+
+FILE: NDIA_interview_reprint.pdf
+Source: https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf
+Retrieved/provenance: 2026-11-16T10:27:56.555942+00:00
+Bytes: 3342184
+MIME: application/pdf
+SHA-256: 8bc595acf6743cb6b2fbe2333e63bbe2b13239392273aef828ccaaeaacd8b807
+Drive ID: 1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO
+Preserved copy: https://drive.google.com/file/d/1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO/view
+
+
+FILE: Helsing_DE102025101672A1.html
+Source: https://patents.google.com/patent/DE102025101672A1/de
+Retrieved/provenance: 2026-11-16T10:25:51.681907+00:00
+Bytes: 129277
+MIME: text/html
+SHA-256: 56ffaadbf0fc788d9942cdabda11f985c8c5986884cb7313b42aa6dc8a0c497a
+Drive ID: 1plZszvpL1VXy8XFVguLcEXvH4q18rIJx
+Preserved copy: https://drive.google.com/file/d/1plZszvpL1VXy8XFVguLcEXvH4q18rIJx/view
+
+
+FILE: S29_ThinkingBeforeSinking.pdf
+Source: https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf
+Retrieved/provenance: 2026-11-16T10:25:51.682535+00:00
+Bytes: 1462454
+MIME: application/pdf
+SHA-256: 4a1dafee44297e85e3563087abf196a6ff70c952eadf0449d11534fe3eb9c6f1
+Drive ID: 1c0lDRoG86qauSqXqazGe5o7PCuTavX2D
+Preserved copy: https://drive.google.com/file/d/1c0lDRoG86qauSqXqazGe5o7PCuTavX2D/view
+
+
+FILE: S30_GhostPlay_dtec.html
+Source: https://dtecbw.de/home/forschung/hsu/projekt-ghostplay
+Retrieved/provenance: 2026-11-16T10:25:51.683009+00:00
+Bytes: 27576
+MIME: text/html;charset=utf-8
+SHA-256: 25d8a10a0389535ad495c622eb1faec899f4686cb9317217517088f6695f2e73
+Drive ID: 1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el
+Preserved copy: https://drive.google.com/file/d/1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el/view
+
+
+FILE: S32_Sim2Live_JATOC.html
+Source: https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/
+Retrieved/provenance: 2026-11-16T10:26:06.628738+00:00
+Bytes: 202455
+MIME: text/html; charset=UTF-8
+SHA-256: 2072e0242a70ba71a5ebf9e38620b98bc4259c23195806ceb04c57ba9386965d
+Drive ID: 1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo
+Preserved copy: https://drive.google.com/file/d/1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo/view
+
+
+FILE: S33_JSP936_Part1.pdf
+Source: https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+Retrieved/provenance: 2026-11-16T10:26:08.173723+00:00
+Bytes: 1563554
+MIME: application/pdf
+SHA-256: 8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af
+Drive ID: 11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x
+Preserved copy: https://drive.google.com/file/d/11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x/view
+
+
+FILE: UK_Lords_Response_2024.pdf
+Source: https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf
+Retrieved/provenance: 2026-11-16T10:26:14.149078+00:00
+Bytes: 1800508
+MIME: application/pdf
+SHA-256: acaaeaf898dc8a63f6eb49f8a0d4b255ccab6e88b929e4adc09151d0ac659e6f
+Drive ID: 1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG
+Preserved copy: https://drive.google.com/file/d/1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG/view
+
+
+FILE: DE_21_9054.pdf
+Source: https://dserver.bundestag.de/btd/21/090/2109054.pdf
+Retrieved/provenance: 2026-11-16T10:26:18.712915+00:00
+Bytes: 259778
+MIME: application/pdf
+SHA-256: 5cb24f6a986a0be0d085b98b4e8028eb46d9cb0412d5f2c8e9b73b9835ff39c7
+Drive ID: 1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz
+Preserved copy: https://drive.google.com/file/d/1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz/view
+
+
+FILE: EP4293311A1.xml
+Source: https://data.epo.org/linked-data/representation/publication/EP/4293311/NWA1.xml
+Retrieved/provenance: See full manifest for salvage provenance
+Bytes: 77813
+MIME: application/xml
+SHA-256: 577764d745dd13ca50ef1272398c4b0d661fe15b3bc08e8d6d2012d60c1f6ac8
+Drive ID: 1ta9ak1n8YvTB0RfrdlRLuGmI9AXyytba
+Preserved copy: https://drive.google.com/file/d/1ta9ak1n8YvTB0RfrdlRLuGmI9AXyytba/view
+
+
+============================================================
+PART III: FULL MANIFESTS, CHECKSUMS AND ACQUISITION BLOCKERS
+============================================================
+
+
+--- BEGIN spine-salvage/SALVAGE_CHECK.json ---
+{
+  "checked_utc": "2026-11-16T10:25:09.718946+00:00",
+  "scope": [
+    "/workspace/scratch/18770d4a85a4",
+    "/workspace/shared",
+    "/tmp"
+  ],
+  "missing_archive": "No matching 25.8 MB overnight archive or original full ledger found. bridge-recovered-2026-11-16 directory is empty. This is limited to currently accessible workspace, not proof concerning inaccessible prior environments.",
+  "recovered": "Older 15 November selected-claims snapshot survives. EP4293311A1 XML extracted byte-for-byte and passed to regulatory worker for upload. Does not reconstruct missing overnight archive.",
+  "files": [
+    {
+      "path": "/workspace/scratch/18770d4a85a4/deliverables/patent-findings-human-review-2026-11-15.txt",
+      "bytes": 20640,
+      "sha256": "ba17165cea50e718d5a6cb15646b74b1ede389a3058871671dfa64226a0cd75d"
+    },
+    {
+      "path": "/workspace/scratch/18770d4a85a4/deliverables/patent-procurement-cross-reference-2026-11-15.txt",
+      "bytes": 16067,
+      "sha256": "a66ca01f7a1876f77eab4e7b6390e65b1ef20785ea7a4ca0078aa29c109d37b6"
+    },
+    {
+      "path": "/workspace/scratch/18770d4a85a4/deliverables/patent_findings_technical_audit_2026-11-15.txt",
+      "bytes": 365713,
+      "sha256": "221adbdba83682f3e35d5423d45e958b12d950ce66176479ceafcbc849e5df88"
+    },
+    {
+      "path": "/workspace/scratch/18770d4a85a4/spine-salvage/EP4293311A1.xml",
+      "bytes": 77813,
+      "sha256": "577764d745dd13ca50ef1272398c4b0d661fe15b3bc08e8d6d2012d60c1f6ac8"
+    },
+    {
+      "path": "/workspace/scratch/18770d4a85a4/spine-salvage/download-log.json",
+      "bytes": 1042,
+      "sha256": "39654dd3227e3a8c4ceb994ff8bd07e178a703ed1574a22c1c0776f649d48a77"
+    },
+    {
+      "path": "/workspace/scratch/18770d4a85a4/spine-salvage/EP4293311A1-claims.txt",
+      "bytes": 6664,
+      "sha256": "2052889dd91581a32564de9910c8a0fbd10d18350f54b39a7008f0bd42d03bf7"
+    },
+    {
+      "path": "/workspace/scratch/18770d4a85a4/spine-salvage/representations.json",
+      "bytes": 4725,
+      "sha256": "b18532412f66c8888658d660a53150430fa323fd4340f544e68879335bb2fadc"
+    }
+  ]
+}
+--- END spine-salvage/SALVAGE_CHECK.json ---
+
+
+--- BEGIN spine-recovery/knds/manifest_stage1a.json ---
+[
+  {
+    "file": "S01_DPMA_register.html",
+    "url": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+    "status": 200,
+    "mime": "text/html;charset=UTF-8",
+    "at": "2026-11-16T10:24:00Z (minute precision)",
+    "bytes": 55894,
+    "sha256": "185efd61650ea6007d7baeffe12ab5a25b976861798b25716d16f14e586536c9",
+    "drive": {
+      "file": "S01_DPMA_register.html",
+      "id": "1_UfqoY9v7stc3dG_xO1QbAGVW9_jI0m4",
+      "title": "S01_DPMA_register.html",
+      "mime_type": "text/html",
+      "size": "55894",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S02_EP4229352A1.html",
+    "url": "https://patents.google.com/patent/EP4229352A1/en",
+    "at": "2026-11-16T10:24:57.902739+00:00",
+    "status": 200,
+    "bytes": 237959,
+    "mime": "text/html",
+    "sha256": "617b895441a84fc11fc3525351bc2400ad70142e73d8efeb1adacfba7ee8231a",
+    "saved": true,
+    "drive": {
+      "file": "S02_EP4229352A1.html",
+      "id": "1b4uOdQTZXYZKuy53IHIEzanbG-xJAr95",
+      "title": "S02_EP4229352A1.html",
+      "mime_type": "text/html",
+      "size": "237959",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S02_US20230392899A1.html",
+    "url": "https://patents.google.com/patent/US20230392899A1/en",
+    "at": "2026-11-16T10:24:57.903332+00:00",
+    "status": 200,
+    "bytes": 247269,
+    "mime": "text/html",
+    "sha256": "ea47e43c3e71ad1806b423a70618fe61d0eaa868cc5a41219a2037475a91f441",
+    "saved": true,
+    "drive": {
+      "file": "S02_US20230392899A1.html",
+      "id": "1b3Rqnjz-FRMnporCC3_4TBR0kinMsyYZ",
+      "title": "S02_US20230392899A1.html",
+      "mime_type": "text/html",
+      "size": "247269",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S03_RCH155_de.html",
+    "url": "https://knds.com/de/produkte/systeme/rch-155",
+    "at": "2026-11-16T10:24:57.903750+00:00",
+    "status": 200,
+    "bytes": 456602,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "2c2b9ac2ddded7e292f0fb42703671ed02b2e0598f602b8ce34637fd48edcfac",
+    "saved": true,
+    "drive": {
+      "file": "S03_RCH155_de.html",
+      "id": "1i12eWeUXFxngWG1DIJltwcdhIbMKKjb0",
+      "title": "S03_RCH155_de.html",
+      "mime_type": "text/html",
+      "size": "456602",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S04_RENK_bio.pdf",
+    "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557",
+    "at": "2026-11-16T10:24:57.904305+00:00",
+    "error": "HTTP Error 503: Service Unavailable",
+    "saved": false
+  },
+  {
+    "file": "S05_Freundeskreis.html",
+    "url": "https://www.freundeskreis-artillerietruppe.de/Neuigkeiten/",
+    "at": "2026-11-16T10:24:57.905253+00:00",
+    "status": 200,
+    "bytes": 354396,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "22403c035ba304dab2f8528d95a8f60332ed7e35fced491949a4fcd3cbd60ce8",
+    "saved": true,
+    "drive": {
+      "file": "S05_Freundeskreis.html",
+      "id": "1AoJ6N2eKw1-OGqU4zwdAdmc1G8P9gPfC",
+      "title": "S05_Freundeskreis.html",
+      "mime_type": "text/html",
+      "size": "354396",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S05_UK_MoD.html",
+    "url": "https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army",
+    "at": "2026-11-16T10:24:57.907402+00:00",
+    "status": 200,
+    "bytes": 78998,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "e3de15ba50e58c5cd3f5f38ad6adf5819b3b0791accdef8672a26265ede92483",
+    "saved": true,
+    "drive": {
+      "file": "S05_UK_MoD.html",
+      "id": "13v0o2AaJdLi5FxoDFN6ZVLFClVrpdhgC",
+      "title": "S05_UK_MoD.html",
+      "mime_type": "text/html",
+      "size": "78998",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  }
+]
+--- END spine-recovery/knds/manifest_stage1a.json ---
+
+
+--- BEGIN spine-recovery/knds/manifest_stage1b.json ---
+[
+  {
+    "file": "S03_RCH155_en.html",
+    "url": "https://knds.com/en/products/systems/rch-155",
+    "at": "2026-11-16T10:26:54.027512+00:00",
+    "status": 200,
+    "bytes": 455198,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452",
+    "drive": {
+      "id": "1Xc6qqj--UsmOlbi9vD0Ktbbls_hsc29t",
+      "title": "S03_RCH155_en.html",
+      "mime_type": "text/html",
+      "size": "455198",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S05_KNDS_German_order.html",
+    "url": "https://knds.com/en/press-releases/germany-procures-rch-155-wheeled-howitzers-from-knds",
+    "at": "2026-11-16T10:26:54.028179+00:00",
+    "status": 200,
+    "bytes": 330162,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "cdaa7e4fd6f6767114a63c009ce5c40485a021bb95088db1f436857bd13fd4cd",
+    "drive": {
+      "id": "1aIufK9Iz_96K6bHcDE72UJvPvTR34E3X",
+      "title": "S05_KNDS_German_order.html",
+      "mime_type": "text/html",
+      "size": "330162",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "file": "S02_US20230392899A1.pdf",
+    "url": "https://patentimages.storage.googleapis.com/da/03/ce/e5a07857d0d160/US20230392899A1.pdf",
+    "at": "2026-11-16T10:26:54.029120+00:00",
+    "status": 200,
+    "bytes": 900037,
+    "mime": "application/pdf",
+    "sha256": "fe4251985369c223ece850187b692ff2e3ed988fe86fdf99590888601cf283a7",
+    "drive": {
+      "id": "1nE8226A8ZsLk4AQuj6hFhf1kUg8xUyXZ",
+      "title": "S02_US20230392899A1.pdf",
+      "mime_type": "application/pdf",
+      "size": "900037",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  }
+]
+--- END spine-recovery/knds/manifest_stage1b.json ---
+
+
+--- BEGIN spine-recovery/knds/manifest_stage1c.json ---
+[
+  {
+    "file": "S02_EP4229352A1_de.html",
+    "url": "https://patents.google.com/patent/EP4229352A1/de",
+    "at": "2026-11-16T10:29:44.772081+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "file": "S04_RENK_bio.pdf",
+    "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557",
+    "at": "2026-11-16T10:29:04.978087+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]
+--- END spine-recovery/knds/manifest_stage1c.json ---
+
+
+--- BEGIN spine_bae/manifest.json ---
+[
+  {
+    "id": "S23_MBDA_DragonFire",
+    "url": "https://www.mbda-systems.com/uk-defence-minister-visits-mbda-dragonfire-laser-weapon-contract-announcement",
+    "utc": "2026-11-16T10:24:45.262381+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S24_Dstl_laser",
+    "url": "https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first",
+    "utc": "2026-11-16T10:24:49.053989+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "final_url": "https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/S24_Dstl_laser.html",
+    "bytes": 84977,
+    "sha256": "0581002e804ee3d1d2659cd786efe247f4c95657b9bd757df701870af0274f2d",
+    "drive_id": "1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q",
+    "drive_verified_bytes": 84977
+  },
+  {
+    "id": "S25_FCAS_708m",
+    "url": "https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology",
+    "utc": "2026-11-16T10:24:51.968185+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "final_url": "https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/S25_FCAS_708m.html",
+    "bytes": 71574,
+    "sha256": "daca794d19cf71398d244ff9c0fc8c54b3b06830bcbc35920a79418329afdfe5",
+    "drive_id": "1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy",
+    "drive_verified_bytes": 71574
+  },
+  {
+    "id": "S26_RAF_ACP_strategy",
+    "url": "https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf",
+    "utc": "2026-11-16T10:25:11.700577+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "final_url": "https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/S26_RAF_ACP_strategy.pdf",
+    "bytes": 2076536,
+    "sha256": "5e4fda8b3293c09b95f2287ecedb57b63c876317c6abfa4b35bbd513cab0b5fb",
+    "drive_id": "1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79",
+    "drive_verified_bytes": 2076536
+  },
+  {
+    "id": "S27_Rigby_2022",
+    "url": "https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf",
+    "utc": "2026-11-16T10:25:18.234980+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "final_url": "https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/S27_Rigby_2022.pdf",
+    "bytes": 281464,
+    "sha256": "f48343810870c674b54fafb4bf160edd45acc7041db192defb4ab5fb51f1ef71",
+    "drive_id": "1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE",
+    "drive_verified_bytes": 281464
+  },
+  {
+    "id": "S28_Rigby_2025",
+    "url": "https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf",
+    "utc": "2026-11-16T10:25:35.031852+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "final_url": "https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/S28_Rigby_2025.pdf",
+    "bytes": 13378233,
+    "sha256": "fc9967ef5cc87d924817d0a7242a3d53b09193651e419b394ecb18dd8b78a69b",
+    "drive_id": "15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT",
+    "drive_verified_bytes": 13378233
+  },
+  {
+    "id": "BAE_US11473880B2",
+    "url": "https://patents.google.com/patent/US11473880B2/en",
+    "utc": "2026-11-16T10:25:39.597853+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "final_url": "https://patents.google.com/patent/US11473880B2/en",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/BAE_US11473880B2.html",
+    "bytes": 288231,
+    "sha256": "2dd68bc419bc5b3e0eafbf359c47e29acbacf2495a1b24a638b11ddf80523ebc",
+    "drive_id": "1r3rT9jlZDF6PmMEOlfWv3jxk7wPi-pfr",
+    "drive_verified_bytes": 288231
+  },
+  {
+    "id": "BAE_US11422549B2",
+    "url": "https://patents.google.com/patent/US11422549B2/en",
+    "utc": "2026-11-16T10:26:01.443741+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "final_url": "https://patents.google.com/patent/US11422549B2/en",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/BAE_US11422549B2.html",
+    "bytes": 302845,
+    "sha256": "86ddb5d46ca7c04242359d41fd81e679b17a9f53383ee68676e6fc6648deaa2b",
+    "drive_id": "1zNRW0jO8SONwAHnW4tZr6JJMsU2_54yb",
+    "drive_verified_bytes": 302845
+  },
+  {
+    "id": "BAE_US11473880B2_PDF",
+    "url": "https://patentimages.storage.googleapis.com/6b/94/80/163c684e62313d/US11473880.pdf",
+    "utc": "2026-11-16T10:29:19.384021+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/BAE_US11473880B2.pdf",
+    "bytes": 1431849,
+    "sha256": "d2e58e6a38967da18d5d012e9c02ec1fd72392ec9d6f5822844895f5a1e609db",
+    "drive_id": "173_WlHJ9x0J0yV8rcS3341tsDXLrgACU",
+    "drive_verified_bytes": 1431849
+  },
+  {
+    "id": "BAE_US11422549B2_PDF",
+    "url": "https://patentimages.storage.googleapis.com/b5/af/60/f1d255ea83aeea/US11422549.pdf",
+    "utc": "2026-11-16T10:29:45.774451+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_bae/BAE_US11422549B2.pdf",
+    "bytes": 1680725,
+    "sha256": "c859f3e4136115ca719e125b36b334024949f2b93302098439b8b24c29fa44f6",
+    "drive_id": "1pKYZSzCTu88rjLxjreeiX1MeTs4SYsO4",
+    "drive_verified_bytes": 1680725
+  }
+]
+--- END spine_bae/manifest.json ---
+
+
+--- BEGIN spine_recovery/kongsberg/FINAL_MANIFEST.json ---
+[
+  {
+    "id": "US11946710B1",
+    "url": "https://patents.google.com/patent/US11946710B1/en",
+    "retrieved_utc": "2026-11-16T10:25:04.281917+00:00",
+    "status": 200,
+    "final_url": "https://patents.google.com/patent/US11946710B1/en",
+    "mime": "text/html",
+    "bytes": 237028,
+    "sha256": "d08aaccbb6860543a7aa0ae3ac4c34564cda6f719b7f2fdff1e730ce85c7b3fa",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/US11946710B1.html",
+    "drive_id": "1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T",
+    "drive_size_verified": true,
+    "drive_url": "https://drive.google.com/file/d/1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T/view"
+  },
+  {
+    "id": "US20230229794A1",
+    "url": "https://patents.google.com/patent/US20230229794A1/en",
+    "retrieved_utc": "2026-11-16T10:25:08.858550+00:00",
+    "status": 200,
+    "final_url": "https://patents.google.com/patent/US20230229794A1/en",
+    "mime": "text/html",
+    "bytes": 254027,
+    "sha256": "82437d5cdf92b266d6a281a2e8f30439a9bee73ddf333597ade635019ced704a",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/US20230229794A1.html",
+    "drive_id": "1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ",
+    "drive_size_verified": true,
+    "drive_url": "https://drive.google.com/file/d/1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ/view"
+  },
+  {
+    "id": "S06_Boxer11897",
+    "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897",
+    "retrieved_utc": "2026-11-16T10:25:12.030277+00:00",
+    "status": 200,
+    "final_url": "https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897",
+    "mime": "text/html; charset=utf-8",
+    "bytes": 27167,
+    "sha256": "808daf656853f9ea11281c964a373cdf5b2b0587aba5ae324da596e323ad3486",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/S06_Boxer11897.html",
+    "drive_id": "1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy",
+    "drive_size_verified": true,
+    "drive_url": "https://drive.google.com/file/d/1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy/view"
+  },
+  {
+    "id": "S07_MCT_Bjorset",
+    "url": "https://www.kongsberg.com/news/stories/2018/9/technology-award-mct/",
+    "retrieved_utc": "2026-11-16T10:25:28.888024+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S08_ND_interview",
+    "url": "https://www.nationaldefensemagazine.org/articles/2024/6/18/kongsbergs-counter-drone-secret-sauce-refined-in-ukraine",
+    "retrieved_utc": "2026-11-16T10:25:33.285933+00:00",
+    "status": 200,
+    "final_url": "https://www.nationaldefensemagazine.org/articles/2024/6/18/kongsbergs-counter-drone-secret-sauce-refined-in-ukraine",
+    "mime": "text/html",
+    "bytes": 212,
+    "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+    "error": "Incapsula security wrapper (HTTP200)",
+    "excluded_from_evidence": true
+  },
+  {
+    "id": "IFU_2023",
+    "url": "https://www.kongsberg.com/news/news-archive/2023/international-fund-for-ukraine-orders-multiple-c-uas-air-defence-systems-from-kongsberg/",
+    "retrieved_utc": "2026-11-16T10:25:56.507098+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "SAN_2026",
+    "url": "https://www.kongsberg.com/news/news-archive/2026/kongsberg-wins-nok-16-billion-contract-to-deliver-counter-uas-solutions-in-poland/",
+    "retrieved_utc": "2026-11-16T10:26:00.651064+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "CAVS_2026",
+    "url": "https://www.kongsberg.com/news/news-archive/2026/germany-and-sweden-order-kongsberg-remote-weapon-stations-for-cavs-6x6-programme/",
+    "retrieved_utc": "2026-11-16T10:26:23.753114+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Netherlands_2026",
+    "url": "https://www.kongsberg.com/news/news-archive/2026/kongsberg-signs-contract-with-oshkosh-defense-europe-to-deliver-counter-drone-capabilities-to-the-netherlands/",
+    "retrieved_utc": "2026-11-16T10:26:29.009107+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Boxer_2020",
+    "url": "https://www.kongsberg.com/news/news-archive/20202/kongsberg-wins-remote-weapon-stations-contract-of-1-030-mnok-with-the-the-british-miv-program/",
+    "retrieved_utc": "2026-11-16T10:26:54.584897+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "US11946710B1_PDF",
+    "url": "https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf",
+    "retrieved_utc": "2026-11-16T10:27:11.037771+00:00",
+    "status": 200,
+    "final_url": "https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf",
+    "mime": "application/pdf",
+    "bytes": 957451,
+    "sha256": "b938ff5f92b3208f9e7a5dc4409d1d2ba7acf5b0de31804404300a77baf434c8",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/US11946710B1_PDF.pdf",
+    "drive_id": "1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke",
+    "drive_size_verified": true,
+    "drive_url": "https://drive.google.com/file/d/1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke/view"
+  },
+  {
+    "id": "US20230229794A1_PDF",
+    "url": "https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf",
+    "retrieved_utc": "2026-11-16T10:27:14.495367+00:00",
+    "status": 200,
+    "final_url": "https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf",
+    "mime": "application/pdf",
+    "bytes": 1652668,
+    "sha256": "bb5f485dfbe4f4b97127487c30b3972e89714567822f79abe12747ad7f49a4b0",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/US20230229794A1_PDF.pdf",
+    "drive_id": "1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U",
+    "drive_size_verified": true,
+    "drive_url": "https://drive.google.com/file/d/1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U/view"
+  },
+  {
+    "id": "SAN_Euronext",
+    "url": "https://live.euronext.com/en/products/equities/company-news/2026-01-30-kongsberg-wins-nok-16-billion-contract-deliver-counter",
+    "retrieved_utc": "2026-11-16T10:27:30.685991+00:00",
+    "status": 202,
+    "final_url": "https://live.euronext.com/en/products/equities/company-news/2026-01-30-kongsberg-wins-nok-16-billion-contract-deliver-counter",
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "HTTP202 empty response; not primary document",
+    "excluded_from_evidence": true
+  },
+  {
+    "id": "CAVS_Euronext",
+    "url": "https://live.euronext.com/en/products/equities/company-news/2026-02-06-germany-and-sweden-order-kongsberg-remote-weapon-stations",
+    "retrieved_utc": "2026-11-16T10:27:34.022991+00:00",
+    "status": 202,
+    "final_url": "https://live.euronext.com/en/products/equities/company-news/2026-02-06-germany-and-sweden-order-kongsberg-remote-weapon-stations",
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "HTTP202 empty response; not primary document",
+    "excluded_from_evidence": true
+  },
+  {
+    "id": "CAVS_Patria",
+    "url": "https://www.patriagroup.com/newsroom/news/2026/patria-and-kongsberg-agree-on-weapon-station-deliveries-to-sweden-and-germany-within-cavs-vehicle-programme",
+    "retrieved_utc": "2026-11-16T10:27:52.640340+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "NDIA_interview_reprint",
+    "url": "https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf",
+    "retrieved_utc": "2026-11-16T10:27:56.555942+00:00",
+    "status": 200,
+    "final_url": "https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf",
+    "mime": "application/pdf",
+    "bytes": 3342184,
+    "sha256": "8bc595acf6743cb6b2fbe2333e63bbe2b13239392273aef828ccaaeaacd8b807",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/NDIA_interview_reprint.pdf",
+    "drive_id": "1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO",
+    "drive_size_verified": true,
+    "drive_url": "https://drive.google.com/file/d/1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO/view"
+  }
+]
+--- END spine_recovery/kongsberg/FINAL_MANIFEST.json ---
+
+
+--- BEGIN spine_regulatory/FINAL_MANIFEST.json ---
+[
+  {
+    "name": "Helsing_DE102025101672A1.html",
+    "url": "https://patents.google.com/patent/DE102025101672A1/de",
+    "timestamp_utc": "2026-11-16T10:25:51.681907+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "bytes": 129277,
+    "sha256": "56ffaadbf0fc788d9942cdabda11f985c8c5986884cb7313b42aa6dc8a0c497a",
+    "final_url": "https://patents.google.com/patent/DE102025101672A1/de",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/Helsing_DE102025101672A1.html",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1plZszvpL1VXy8XFVguLcEXvH4q18rIJx",
+      "title": "D_Helsing_DE102025101672A1.html",
+      "file_name": "D_Helsing_DE102025101672A1.html",
+      "mime_type": "text/html",
+      "url": "https://drive.google.com/file/d/1plZszvpL1VXy8XFVguLcEXvH4q18rIJx/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1plZszvpL1VXy8XFVguLcEXvH4q18rIJx",
+        "title": "D_Helsing_DE102025101672A1.html",
+        "file_name": "D_Helsing_DE102025101672A1.html",
+        "mime_type": "text/html",
+        "url": "https://drive.google.com/file/d/1plZszvpL1VXy8XFVguLcEXvH4q18rIJx/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "1plZszvpL1VXy8XFVguLcEXvH4q18rIJx",
+    "verification": {
+      "id": "1plZszvpL1VXy8XFVguLcEXvH4q18rIJx",
+      "title": "D_Helsing_DE102025101672A1.html",
+      "mime_type": "text/html",
+      "size": "129277",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "S29_ThinkingBeforeSinking.pdf",
+    "url": "https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf",
+    "timestamp_utc": "2026-11-16T10:25:51.682535+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1462454,
+    "sha256": "4a1dafee44297e85e3563087abf196a6ff70c952eadf0449d11534fe3eb9c6f1",
+    "final_url": "https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S29_ThinkingBeforeSinking.pdf",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1c0lDRoG86qauSqXqazGe5o7PCuTavX2D",
+      "title": "D_S29_ThinkingBeforeSinking.pdf",
+      "file_name": "D_S29_ThinkingBeforeSinking.pdf",
+      "mime_type": "application/pdf",
+      "url": "https://drive.google.com/file/d/1c0lDRoG86qauSqXqazGe5o7PCuTavX2D/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1c0lDRoG86qauSqXqazGe5o7PCuTavX2D",
+        "title": "D_S29_ThinkingBeforeSinking.pdf",
+        "file_name": "D_S29_ThinkingBeforeSinking.pdf",
+        "mime_type": "application/pdf",
+        "url": "https://drive.google.com/file/d/1c0lDRoG86qauSqXqazGe5o7PCuTavX2D/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "1c0lDRoG86qauSqXqazGe5o7PCuTavX2D",
+    "verification": {
+      "id": "1c0lDRoG86qauSqXqazGe5o7PCuTavX2D",
+      "title": "D_S29_ThinkingBeforeSinking.pdf",
+      "mime_type": "application/pdf",
+      "size": "1462454",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "S30_GhostPlay_dtec.html",
+    "url": "https://dtecbw.de/home/forschung/hsu/projekt-ghostplay",
+    "timestamp_utc": "2026-11-16T10:25:51.683009+00:00",
+    "status": 200,
+    "mime": "text/html;charset=utf-8",
+    "bytes": 27576,
+    "sha256": "25d8a10a0389535ad495c622eb1faec899f4686cb9317217517088f6695f2e73",
+    "final_url": "https://dtecbw.de/home/forschung/hsu/projekt-ghostplay",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S30_GhostPlay_dtec.html",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el",
+      "title": "D_S30_GhostPlay_dtec.html",
+      "file_name": "D_S30_GhostPlay_dtec.html",
+      "mime_type": "text/html",
+      "url": "https://drive.google.com/file/d/1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el",
+        "title": "D_S30_GhostPlay_dtec.html",
+        "file_name": "D_S30_GhostPlay_dtec.html",
+        "mime_type": "text/html",
+        "url": "https://drive.google.com/file/d/1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el",
+    "verification": {
+      "id": "1SVDKafvb_PLSlkDoIZqQf0b7CDUO7-el",
+      "title": "D_S30_GhostPlay_dtec.html",
+      "mime_type": "text/html",
+      "size": "27576",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "S32_Sim2Live_JATOC.html",
+    "url": "https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/",
+    "timestamp_utc": "2026-11-16T10:26:06.628738+00:00",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 202455,
+    "sha256": "2072e0242a70ba71a5ebf9e38620b98bc4259c23195806ceb04c57ba9386965d",
+    "final_url": "https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S32_Sim2Live_JATOC.html",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo",
+      "title": "D_S32_Sim2Live_JATOC.html",
+      "file_name": "D_S32_Sim2Live_JATOC.html",
+      "mime_type": "text/html",
+      "url": "https://drive.google.com/file/d/1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo",
+        "title": "D_S32_Sim2Live_JATOC.html",
+        "file_name": "D_S32_Sim2Live_JATOC.html",
+        "mime_type": "text/html",
+        "url": "https://drive.google.com/file/d/1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo",
+    "verification": {
+      "id": "1Xf3d1CcCC8RCX6Yj_2qIY48yCRkiGclo",
+      "title": "D_S32_Sim2Live_JATOC.html",
+      "mime_type": "text/html",
+      "size": "202455",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "S33_JSP936_Part1.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf",
+    "timestamp_utc": "2026-11-16T10:26:08.173723+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1563554,
+    "sha256": "8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af",
+    "final_url": "https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S33_JSP936_Part1.pdf",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x",
+      "title": "D_S33_JSP936_Part1.pdf",
+      "file_name": "D_S33_JSP936_Part1.pdf",
+      "mime_type": "application/pdf",
+      "url": "https://drive.google.com/file/d/11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x",
+        "title": "D_S33_JSP936_Part1.pdf",
+        "file_name": "D_S33_JSP936_Part1.pdf",
+        "mime_type": "application/pdf",
+        "url": "https://drive.google.com/file/d/11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x",
+    "verification": {
+      "id": "11Ks6xIsyeZWq1d4rzabB06KLze8DAA0x",
+      "title": "D_S33_JSP936_Part1.pdf",
+      "mime_type": "application/pdf",
+      "size": "1563554",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "UK_Lords_Response_2024.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf",
+    "timestamp_utc": "2026-11-16T10:26:14.149078+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1800508,
+    "sha256": "acaaeaf898dc8a63f6eb49f8a0d4b255ccab6e88b929e4adc09151d0ac659e6f",
+    "final_url": "https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/UK_Lords_Response_2024.pdf",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG",
+      "title": "D_UK_Lords_Response_2024.pdf",
+      "file_name": "D_UK_Lords_Response_2024.pdf",
+      "mime_type": "application/pdf",
+      "url": "https://drive.google.com/file/d/1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG",
+        "title": "D_UK_Lords_Response_2024.pdf",
+        "file_name": "D_UK_Lords_Response_2024.pdf",
+        "mime_type": "application/pdf",
+        "url": "https://drive.google.com/file/d/1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG",
+    "verification": {
+      "id": "1czAG1siyBlQw5j65h6kfbRBQjwIPrFBG",
+      "title": "D_UK_Lords_Response_2024.pdf",
+      "mime_type": "application/pdf",
+      "size": "1800508",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "DE_21_9054.pdf",
+    "url": "https://dserver.bundestag.de/btd/21/090/2109054.pdf",
+    "timestamp_utc": "2026-11-16T10:26:18.712915+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 259778,
+    "sha256": "5cb24f6a986a0be0d085b98b4e8028eb46d9cb0412d5f2c8e9b73b9835ff39c7",
+    "final_url": "https://dserver.bundestag.de/btd/21/090/2109054.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/DE_21_9054.pdf",
+    "drive_result": {
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz",
+      "title": "D_DE_21_9054.pdf",
+      "file_name": "D_DE_21_9054.pdf",
+      "mime_type": "application/pdf",
+      "url": "https://drive.google.com/file/d/1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz/view?usp=drivesdk",
+      "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz",
+        "title": "D_DE_21_9054.pdf",
+        "file_name": "D_DE_21_9054.pdf",
+        "mime_type": "application/pdf",
+        "url": "https://drive.google.com/file/d/1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      }
+    },
+    "drive_id": "1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz",
+    "verification": {
+      "id": "1Robjv06gliWBFNqBc_QZMrB5O2v8wMGz",
+      "title": "D_DE_21_9054.pdf",
+      "mime_type": "application/pdf",
+      "size": "259778",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  },
+  {
+    "name": "EP4293311A1.xml",
+    "url": "https://data.epo.org/linked-data/representation/publication/EP/4293311/NWA1.xml",
+    "bytes": 77813,
+    "mime": "application/xml",
+    "sha256": "577764d745dd13ca50ef1272398c4b0d661fe15b3bc08e8d6d2012d60c1f6ac8",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/EP4293311A1.xml",
+    "drive_id": "1ta9ak1n8YvTB0RfrdlRLuGmI9AXyytba",
+    "verified_size": 77813,
+    "note": "Salvaged original Nov15 XML; Drive metadata verified in Stage0"
+  }
+]
+--- END spine_regulatory/FINAL_MANIFEST.json ---
+
+
+--- BEGIN spine-recovery/knds/SHA256SUMS.txt ---
+185efd61650ea6007d7baeffe12ab5a25b976861798b25716d16f14e586536c9  S01_DPMA_register.html
+# bytes=55894 mime=text/html;charset=UTF-8 source=https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300 Drive=1_UfqoY9v7stc3dG_xO1QbAGVW9_jI0m4
+617b895441a84fc11fc3525351bc2400ad70142e73d8efeb1adacfba7ee8231a  S02_EP4229352A1.html
+# bytes=237959 mime=text/html source=https://patents.google.com/patent/EP4229352A1/en Drive=1b4uOdQTZXYZKuy53IHIEzanbG-xJAr95
+ea47e43c3e71ad1806b423a70618fe61d0eaa868cc5a41219a2037475a91f441  S02_US20230392899A1.html
+# bytes=247269 mime=text/html source=https://patents.google.com/patent/US20230392899A1/en Drive=1b3Rqnjz-FRMnporCC3_4TBR0kinMsyYZ
+2c2b9ac2ddded7e292f0fb42703671ed02b2e0598f602b8ce34637fd48edcfac  S03_RCH155_de.html
+# bytes=456602 mime=text/html; charset=utf-8 source=https://knds.com/de/produkte/systeme/rch-155 Drive=1i12eWeUXFxngWG1DIJltwcdhIbMKKjb0
+22403c035ba304dab2f8528d95a8f60332ed7e35fced491949a4fcd3cbd60ce8  S05_Freundeskreis.html
+# bytes=354396 mime=text/html; charset=utf-8 source=https://www.freundeskreis-artillerietruppe.de/Neuigkeiten/ Drive=1AoJ6N2eKw1-OGqU4zwdAdmc1G8P9gPfC
+e3de15ba50e58c5cd3f5f38ad6adf5819b3b0791accdef8672a26265ede92483  S05_UK_MoD.html
+# bytes=78998 mime=text/html; charset=utf-8 source=https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army Drive=13v0o2AaJdLi5FxoDFN6ZVLFClVrpdhgC
+6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452  S03_RCH155_en.html
+# bytes=455198 mime=text/html; charset=utf-8 source=https://knds.com/en/products/systems/rch-155 Drive=1Xc6qqj--UsmOlbi9vD0Ktbbls_hsc29t
+cdaa7e4fd6f6767114a63c009ce5c40485a021bb95088db1f436857bd13fd4cd  S05_KNDS_German_order.html
+# bytes=330162 mime=text/html; charset=utf-8 source=https://knds.com/en/press-releases/germany-procures-rch-155-wheeled-howitzers-from-knds Drive=1aIufK9Iz_96K6bHcDE72UJvPvTR34E3X
+fe4251985369c223ece850187b692ff2e3ed988fe86fdf99590888601cf283a7  S02_US20230392899A1.pdf
+# bytes=900037 mime=application/pdf source=https://patentimages.storage.googleapis.com/da/03/ce/e5a07857d0d160/US20230392899A1.pdf Drive=1nE8226A8ZsLk4AQuj6hFhf1kUg8xUyXZ
+
+--- END spine-recovery/knds/SHA256SUMS.txt ---
+
+
+--- BEGIN spine_bae/SHA256SUMS.txt ---
+0581002e804ee3d1d2659cd786efe247f4c95657b9bd757df701870af0274f2d  S24_Dstl_laser.html
+# bytes=84977 mime=text/html url=https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first drive_id=1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q verified_bytes=84977
+daca794d19cf71398d244ff9c0fc8c54b3b06830bcbc35920a79418329afdfe5  S25_FCAS_708m.html
+# bytes=71574 mime=text/html url=https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology drive_id=1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy verified_bytes=71574
+5e4fda8b3293c09b95f2287ecedb57b63c876317c6abfa4b35bbd513cab0b5fb  S26_RAF_ACP_strategy.pdf
+# bytes=2076536 mime=application/pdf url=https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf drive_id=1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79 verified_bytes=2076536
+f48343810870c674b54fafb4bf160edd45acc7041db192defb4ab5fb51f1ef71  S27_Rigby_2022.pdf
+# bytes=281464 mime=application/pdf url=https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf drive_id=1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE verified_bytes=281464
+fc9967ef5cc87d924817d0a7242a3d53b09193651e419b394ecb18dd8b78a69b  S28_Rigby_2025.pdf
+# bytes=13378233 mime=application/pdf url=https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf drive_id=15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT verified_bytes=13378233
+2dd68bc419bc5b3e0eafbf359c47e29acbacf2495a1b24a638b11ddf80523ebc  BAE_US11473880B2.html
+# bytes=288231 mime=text/html url=https://patents.google.com/patent/US11473880B2/en drive_id=1r3rT9jlZDF6PmMEOlfWv3jxk7wPi-pfr verified_bytes=288231
+86ddb5d46ca7c04242359d41fd81e679b17a9f53383ee68676e6fc6648deaa2b  BAE_US11422549B2.html
+# bytes=302845 mime=text/html url=https://patents.google.com/patent/US11422549B2/en drive_id=1zNRW0jO8SONwAHnW4tZr6JJMsU2_54yb verified_bytes=302845
+d2e58e6a38967da18d5d012e9c02ec1fd72392ec9d6f5822844895f5a1e609db  BAE_US11473880B2.pdf
+# bytes=1431849 mime=application/pdf url=https://patentimages.storage.googleapis.com/6b/94/80/163c684e62313d/US11473880.pdf drive_id=173_WlHJ9x0J0yV8rcS3341tsDXLrgACU verified_bytes=1431849
+c859f3e4136115ca719e125b36b334024949f2b93302098439b8b24c29fa44f6  BAE_US11422549B2.pdf
+# bytes=1680725 mime=application/pdf url=https://patentimages.storage.googleapis.com/b5/af/60/f1d255ea83aeea/US11422549.pdf drive_id=1pKYZSzCTu88rjLxjreeiX1MeTs4SYsO4 verified_bytes=1680725
+
+--- END spine_bae/SHA256SUMS.txt ---
+
+
+--- BEGIN spine_recovery/kongsberg/SHA256SUMS.txt ---
+KONGSBERG RAW PRIMARY/SOURCE COPIES - 16 November 2026
+Only entries with Drive ID are preserved source files. Empty responses and security wrappers excluded.
+All SHA256 values computed from unmodified local response body bytes; Drive byte sizes independently read back.
+
+US11946710B1
+https://patents.google.com/patent/US11946710B1/en
+2026-11-16T10:25:04.281917+00:00
+HTTP 200
+SHA256 d08aaccbb6860543a7aa0ae3ac4c34564cda6f719b7f2fdff1e730ce85c7b3fa | bytes 237028 | MIME text/html | Drive 1loUHwIGNjgF3esQacSBP_ELPy_sYkP3T
+
+US20230229794A1
+https://patents.google.com/patent/US20230229794A1/en
+2026-11-16T10:25:08.858550+00:00
+HTTP 200
+SHA256 82437d5cdf92b266d6a281a2e8f30439a9bee73ddf333597ade635019ced704a | bytes 254027 | MIME text/html | Drive 1qCXWxUF_gl8hRfbDjc5b90GhSFVpalcJ
+
+S06_Boxer11897
+https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897
+2026-11-16T10:25:12.030277+00:00
+HTTP 200
+SHA256 808daf656853f9ea11281c964a373cdf5b2b0587aba5ae324da596e323ad3486 | bytes 27167 | MIME text/html; charset=utf-8 | Drive 1RgIg8IjY6Uaek7LxID4Sys_4yxpCL4cy
+
+S07_MCT_Bjorset
+https://www.kongsberg.com/news/stories/2018/9/technology-award-mct/
+2026-11-16T10:25:28.888024+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+S08_ND_interview
+https://www.nationaldefensemagazine.org/articles/2024/6/18/kongsbergs-counter-drone-secret-sauce-refined-in-ukraine
+2026-11-16T10:25:33.285933+00:00
+HTTP 200
+NOT ARCHIVED: Incapsula security wrapper (HTTP200)
+
+IFU_2023
+https://www.kongsberg.com/news/news-archive/2023/international-fund-for-ukraine-orders-multiple-c-uas-air-defence-systems-from-kongsberg/
+2026-11-16T10:25:56.507098+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+SAN_2026
+https://www.kongsberg.com/news/news-archive/2026/kongsberg-wins-nok-16-billion-contract-to-deliver-counter-uas-solutions-in-poland/
+2026-11-16T10:26:00.651064+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+CAVS_2026
+https://www.kongsberg.com/news/news-archive/2026/germany-and-sweden-order-kongsberg-remote-weapon-stations-for-cavs-6x6-programme/
+2026-11-16T10:26:23.753114+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+Netherlands_2026
+https://www.kongsberg.com/news/news-archive/2026/kongsberg-signs-contract-with-oshkosh-defense-europe-to-deliver-counter-drone-capabilities-to-the-netherlands/
+2026-11-16T10:26:29.009107+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+Boxer_2020
+https://www.kongsberg.com/news/news-archive/20202/kongsberg-wins-remote-weapon-stations-contract-of-1-030-mnok-with-the-the-british-miv-program/
+2026-11-16T10:26:54.584897+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+US11946710B1_PDF
+https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf
+2026-11-16T10:27:11.037771+00:00
+HTTP 200
+SHA256 b938ff5f92b3208f9e7a5dc4409d1d2ba7acf5b0de31804404300a77baf434c8 | bytes 957451 | MIME application/pdf | Drive 1pyTwufNX6Prl1XzBUu-y-gY0ZTjBGMke
+
+US20230229794A1_PDF
+https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf
+2026-11-16T10:27:14.495367+00:00
+HTTP 200
+SHA256 bb5f485dfbe4f4b97127487c30b3972e89714567822f79abe12747ad7f49a4b0 | bytes 1652668 | MIME application/pdf | Drive 1nfky8Ggp-4yKotuJrotzErlnOxaZfZ_U
+
+SAN_Euronext
+https://live.euronext.com/en/products/equities/company-news/2026-01-30-kongsberg-wins-nok-16-billion-contract-deliver-counter
+2026-11-16T10:27:30.685991+00:00
+HTTP 202
+NOT ARCHIVED: HTTP202 empty response; not primary document
+
+CAVS_Euronext
+https://live.euronext.com/en/products/equities/company-news/2026-02-06-germany-and-sweden-order-kongsberg-remote-weapon-stations
+2026-11-16T10:27:34.022991+00:00
+HTTP 202
+NOT ARCHIVED: HTTP202 empty response; not primary document
+
+CAVS_Patria
+https://www.patriagroup.com/newsroom/news/2026/patria-and-kongsberg-agree-on-weapon-station-deliveries-to-sweden-and-germany-within-cavs-vehicle-programme
+2026-11-16T10:27:52.640340+00:00
+HTTP 403
+NOT ARCHIVED: HTTP Error 403: Forbidden
+
+NDIA_interview_reprint
+https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf
+2026-11-16T10:27:56.555942+00:00
+HTTP 200
+SHA256 8bc595acf6743cb6b2fbe2333e63bbe2b13239392273aef828ccaaeaacd8b807 | bytes 3342184 | MIME application/pdf | Drive 1bVLGbHO061-5QXVk8AzQ2Gvgl13a0PKO
+
+--- END spine_recovery/kongsberg/SHA256SUMS.txt ---
+
+
+--- BEGIN spine_regulatory/SHA256SUMS.txt ---
+56ffaadbf0fc788d9942cdabda11f985c8c5986884cb7313b42aa6dc8a0c497a  Helsing_DE102025101672A1.html
+4a1dafee44297e85e3563087abf196a6ff70c952eadf0449d11534fe3eb9c6f1  S29_ThinkingBeforeSinking.pdf
+25d8a10a0389535ad495c622eb1faec899f4686cb9317217517088f6695f2e73  S30_GhostPlay_dtec.html
+2072e0242a70ba71a5ebf9e38620b98bc4259c23195806ceb04c57ba9386965d  S32_Sim2Live_JATOC.html
+8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af  S33_JSP936_Part1.pdf
+acaaeaf898dc8a63f6eb49f8a0d4b255ccab6e88b929e4adc09151d0ac659e6f  UK_Lords_Response_2024.pdf
+5cb24f6a986a0be0d085b98b4e8028eb46d9cb0412d5f2c8e9b73b9835ff39c7  DE_21_9054.pdf
+577764d745dd13ca50ef1272398c4b0d661fe15b3bc08e8d6d2012d60c1f6ac8  EP4293311A1.xml
+
+--- END spine_regulatory/SHA256SUMS.txt ---
+
+
+--- BEGIN spine-recovery/knds/batch-log.json ---
+[
+  {
+    "file": "S02_EP4229352A1.html",
+    "url": "https://patents.google.com/patent/EP4229352A1/en",
+    "at": "2026-11-16T10:24:57.902739+00:00",
+    "status": 200,
+    "bytes": 237959,
+    "mime": "text/html",
+    "sha256": "617b895441a84fc11fc3525351bc2400ad70142e73d8efeb1adacfba7ee8231a",
+    "saved": true
+  },
+  {
+    "file": "S02_US20230392899A1.html",
+    "url": "https://patents.google.com/patent/US20230392899A1/en",
+    "at": "2026-11-16T10:24:57.903332+00:00",
+    "status": 200,
+    "bytes": 247269,
+    "mime": "text/html",
+    "sha256": "ea47e43c3e71ad1806b423a70618fe61d0eaa868cc5a41219a2037475a91f441",
+    "saved": true
+  },
+  {
+    "file": "S03_RCH155_de.html",
+    "url": "https://knds.com/de/produkte/systeme/rch-155",
+    "at": "2026-11-16T10:24:57.903750+00:00",
+    "status": 200,
+    "bytes": 456602,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "2c2b9ac2ddded7e292f0fb42703671ed02b2e0598f602b8ce34637fd48edcfac",
+    "saved": true
+  },
+  {
+    "file": "S04_RENK_bio.pdf",
+    "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557",
+    "at": "2026-11-16T10:24:57.904305+00:00",
+    "error": "HTTP Error 503: Service Unavailable",
+    "saved": false
+  },
+  {
+    "file": "S05_Freundeskreis.html",
+    "url": "https://www.freundeskreis-artillerietruppe.de/Neuigkeiten/",
+    "at": "2026-11-16T10:24:57.905253+00:00",
+    "status": 200,
+    "bytes": 354396,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "22403c035ba304dab2f8528d95a8f60332ed7e35fced491949a4fcd3cbd60ce8",
+    "saved": true
+  },
+  {
+    "file": "S05_UK_MoD.html",
+    "url": "https://www.gov.uk/government/news/next-generation-remote-controlled-artillery-systems-to-transform-british-army",
+    "at": "2026-11-16T10:24:57.907402+00:00",
+    "status": 200,
+    "bytes": 78998,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "e3de15ba50e58c5cd3f5f38ad6adf5819b3b0791accdef8672a26265ede92483",
+    "saved": true
+  }
+]
+--- END spine-recovery/knds/batch-log.json ---
+
+
+--- BEGIN spine-recovery/knds/batch2-log.json ---
+[
+  {
+    "file": "S03_RCH155_en.html",
+    "url": "https://knds.com/en/products/systems/rch-155",
+    "at": "2026-11-16T10:26:54.027512+00:00",
+    "status": 200,
+    "bytes": 455198,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "6ea68a4ca49d3b3203f10202542485cfb82b680badfa41319cb1475b86647452"
+  },
+  {
+    "file": "S05_KNDS_German_order.html",
+    "url": "https://knds.com/en/press-releases/germany-procures-rch-155-wheeled-howitzers-from-knds",
+    "at": "2026-11-16T10:26:54.028179+00:00",
+    "status": 200,
+    "bytes": 330162,
+    "mime": "text/html; charset=utf-8",
+    "sha256": "cdaa7e4fd6f6767114a63c009ce5c40485a021bb95088db1f436857bd13fd4cd"
+  },
+  {
+    "file": "S02_US20230392899A1.pdf",
+    "url": "https://patentimages.storage.googleapis.com/da/03/ce/e5a07857d0d160/US20230392899A1.pdf",
+    "at": "2026-11-16T10:26:54.029120+00:00",
+    "status": 200,
+    "bytes": 900037,
+    "mime": "application/pdf",
+    "sha256": "fe4251985369c223ece850187b692ff2e3ed988fe86fdf99590888601cf283a7"
+  }
+]
+--- END spine-recovery/knds/batch2-log.json ---
+
+
+--- BEGIN spine-recovery/knds/batch3-log.json ---
+[
+  {
+    "file": "S02_EP4229352A1_de.html",
+    "url": "https://patents.google.com/patent/EP4229352A1/de",
+    "at": "2026-11-16T10:29:44.772081+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]
+--- END spine-recovery/knds/batch3-log.json ---
+
+
+--- BEGIN spine-recovery/knds/renk-retry.json ---
+{
+  "file": "S04_RENK_bio.pdf",
+  "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557",
+  "at": "2026-11-16T10:29:04.978087+00:00",
+  "error": "HTTP Error 503: Service Unavailable"
+}
+--- END spine-recovery/knds/renk-retry.json ---
+
+
+--- BEGIN spine_recovery/kongsberg/extras_manifest.json ---
+[
+  {
+    "id": "US11946710B1_PDF",
+    "url": "https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf",
+    "retrieved_utc": "2026-11-16T10:27:11.037771+00:00",
+    "status": 200,
+    "final_url": "https://patentimages.storage.googleapis.com/f9/82/9c/b9ee5253f6e9b9/US11946710.pdf",
+    "mime": "application/pdf",
+    "bytes": 957451,
+    "sha256": "b938ff5f92b3208f9e7a5dc4409d1d2ba7acf5b0de31804404300a77baf434c8",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/US11946710B1_PDF.pdf"
+  },
+  {
+    "id": "US20230229794A1_PDF",
+    "url": "https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf",
+    "retrieved_utc": "2026-11-16T10:27:14.495367+00:00",
+    "status": 200,
+    "final_url": "https://patentimages.storage.googleapis.com/cb/71/81/55f945a58a1fc3/US20230229794A1.pdf",
+    "mime": "application/pdf",
+    "bytes": 1652668,
+    "sha256": "bb5f485dfbe4f4b97127487c30b3972e89714567822f79abe12747ad7f49a4b0",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/US20230229794A1_PDF.pdf"
+  },
+  {
+    "id": "SAN_Euronext",
+    "url": "https://live.euronext.com/en/products/equities/company-news/2026-01-30-kongsberg-wins-nok-16-billion-contract-deliver-counter",
+    "retrieved_utc": "2026-11-16T10:27:30.685991+00:00",
+    "status": 202,
+    "final_url": "https://live.euronext.com/en/products/equities/company-news/2026-01-30-kongsberg-wins-nok-16-billion-contract-deliver-counter",
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/SAN_Euronext.html"
+  },
+  {
+    "id": "CAVS_Euronext",
+    "url": "https://live.euronext.com/en/products/equities/company-news/2026-02-06-germany-and-sweden-order-kongsberg-remote-weapon-stations",
+    "retrieved_utc": "2026-11-16T10:27:34.022991+00:00",
+    "status": 202,
+    "final_url": "https://live.euronext.com/en/products/equities/company-news/2026-02-06-germany-and-sweden-order-kongsberg-remote-weapon-stations",
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/CAVS_Euronext.html"
+  },
+  {
+    "id": "CAVS_Patria",
+    "url": "https://www.patriagroup.com/newsroom/news/2026/patria-and-kongsberg-agree-on-weapon-station-deliveries-to-sweden-and-germany-within-cavs-vehicle-programme",
+    "retrieved_utc": "2026-11-16T10:27:52.640340+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "NDIA_interview_reprint",
+    "url": "https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf",
+    "retrieved_utc": "2026-11-16T10:27:56.555942+00:00",
+    "status": 200,
+    "final_url": "https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf",
+    "mime": "application/pdf",
+    "bytes": 3342184,
+    "sha256": "8bc595acf6743cb6b2fbe2333e63bbe2b13239392273aef828ccaaeaacd8b807",
+    "path": "/workspace/scratch/18770d4a85a4/spine_recovery/kongsberg/raw/NDIA_interview_reprint.pdf"
+  }
+]
+--- END spine_recovery/kongsberg/extras_manifest.json ---
+
+
+--- BEGIN spine_regulatory/fetch-log.json ---
+[
+  {
+    "name": "Helsing_DE102025101672A1.html",
+    "url": "https://patents.google.com/patent/DE102025101672A1/de",
+    "timestamp_utc": "2026-11-16T10:25:51.681907+00:00",
+    "status": 200,
+    "mime": "text/html",
+    "bytes": 129277,
+    "sha256": "56ffaadbf0fc788d9942cdabda11f985c8c5986884cb7313b42aa6dc8a0c497a",
+    "final_url": "https://patents.google.com/patent/DE102025101672A1/de",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/Helsing_DE102025101672A1.html"
+  },
+  {
+    "name": "S29_ThinkingBeforeSinking.pdf",
+    "url": "https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf",
+    "timestamp_utc": "2026-11-16T10:25:51.682535+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1462454,
+    "sha256": "4a1dafee44297e85e3563087abf196a6ff70c952eadf0449d11534fe3eb9c6f1",
+    "final_url": "https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S29_ThinkingBeforeSinking.pdf"
+  },
+  {
+    "name": "S30_GhostPlay_dtec.html",
+    "url": "https://dtecbw.de/home/forschung/hsu/projekt-ghostplay",
+    "timestamp_utc": "2026-11-16T10:25:51.683009+00:00",
+    "status": 200,
+    "mime": "text/html;charset=utf-8",
+    "bytes": 27576,
+    "sha256": "25d8a10a0389535ad495c622eb1faec899f4686cb9317217517088f6695f2e73",
+    "final_url": "https://dtecbw.de/home/forschung/hsu/projekt-ghostplay",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S30_GhostPlay_dtec.html"
+  },
+  {
+    "name": "S31_GhostPlay.html",
+    "url": "https://www.ghostplay.ai/",
+    "timestamp_utc": "2026-11-16T10:25:51.683424+00:00",
+    "error": "HTTP Error 403: Forbidden",
+    "status": 403
+  },
+  {
+    "name": "S32_Sim2Live_JATOC.html",
+    "url": "https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/",
+    "timestamp_utc": "2026-11-16T10:26:06.628738+00:00",
+    "status": 200,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 202455,
+    "sha256": "2072e0242a70ba71a5ebf9e38620b98bc4259c23195806ceb04c57ba9386965d",
+    "final_url": "https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S32_Sim2Live_JATOC.html"
+  },
+  {
+    "name": "S33_JSP936_Part1.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf",
+    "timestamp_utc": "2026-11-16T10:26:08.173723+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1563554,
+    "sha256": "8cfeb1c3da4e45865bc4c3a365e4ccf309e5b1554bc2bc01e35540fc9f40b2af",
+    "final_url": "https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/S33_JSP936_Part1.pdf"
+  },
+  {
+    "name": "UK_Lords_Response_2024.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf",
+    "timestamp_utc": "2026-11-16T10:26:14.149078+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 1800508,
+    "sha256": "acaaeaf898dc8a63f6eb49f8a0d4b255ccab6e88b929e4adc09151d0ac659e6f",
+    "final_url": "https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/UK_Lords_Response_2024.pdf"
+  },
+  {
+    "name": "DE_21_9054.pdf",
+    "url": "https://dserver.bundestag.de/btd/21/090/2109054.pdf",
+    "timestamp_utc": "2026-11-16T10:26:18.712915+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 259778,
+    "sha256": "5cb24f6a986a0be0d085b98b4e8028eb46d9cb0412d5f2c8e9b73b9835ff39c7",
+    "final_url": "https://dserver.bundestag.de/btd/21/090/2109054.pdf",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/DE_21_9054.pdf"
+  },
+  {
+    "name": "TED_185823_2025.html",
+    "url": "https://ted.europa.eu/en/notice/-/detail/185823-2025",
+    "timestamp_utc": "2026-11-16T10:26:25.516842+00:00",
+    "status": 202,
+    "mime": "text/html; charset=UTF-8",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_url": "https://ted.europa.eu/en/notice/-/detail/185823-2025",
+    "path": "/workspace/scratch/18770d4a85a4/spine_regulatory/raw/TED_185823_2025.html"
+  }
+]
+--- END spine_regulatory/fetch-log.json ---
+
+
+END OF CONSOLIDATED REPORT
