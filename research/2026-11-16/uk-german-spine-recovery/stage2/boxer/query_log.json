@@ -1,0 +1,100 @@
+[
+  {
+    "query": "site:gov.uk Boxer \"GVA\" \"safety\"",
+    "utc": "2026-11-16T11:56:10.094Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "site:thalesgroup.com Boxer \"PROTECTOR\" GVA",
+    "utc": "2026-11-16T11:56:11.410Z",
+    "returned_hit_count": 17,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Def Stan 23-009\" \"safety\" loop",
+    "utc": "2026-11-16T11:56:13.022Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Land Open Systems Architecture\" weapon safety",
+    "utc": "2026-11-16T11:56:14.075Z",
+    "returned_hit_count": 16,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "Boxer UK Thales Protector RS4 generic vehicle architecture",
+    "utc": "2026-11-16T11:56:29.751Z",
+    "returned_hit_count": 24,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Def Stan 23-09\" \"safety\" \"interlock\"",
+    "utc": "2026-11-16T11:56:31.302Z",
+    "returned_hit_count": 0,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"GVA\" \"Boxer\" Kongsberg",
+    "utc": "2026-11-16T11:56:32.597Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "Boxer GVA Sicherheitskreis Waffenstation",
+    "utc": "2026-11-16T11:56:34.891Z",
+    "returned_hit_count": 23,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "site:thalesgroup.com \"Boxer\" \"Kongsberg\"",
+    "utc": "2026-11-16T11:57:39.573Z",
+    "returned_hit_count": 0,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"Generic Vehicle Architecture\" \"safety\" \"loop\"",
+    "utc": "2026-11-16T11:57:41.259Z",
+    "returned_hit_count": 13,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"23-009\" \"Part 8\" safety",
+    "utc": "2026-11-16T11:57:43.106Z",
+    "returned_hit_count": 18,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"NGVA\" \"safety\" \"interlock\"",
+    "utc": "2026-11-16T11:57:44.479Z",
+    "returned_hit_count": 11,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "site:eda.europa.eu \"SafeNGVA\"",
+    "utc": "2026-11-16T11:57:50.359Z",
+    "returned_hit_count": 2,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  },
+  {
+    "query": "\"SafeNGVA\" 2025 2026 safety",
+    "utc": "2026-11-16T11:58:32.887Z",
+    "returned_hit_count": 14,
+    "total_engine_hits": null,
+    "note": "Count is returned search references only; engine total not exposed."
+  }
+]
