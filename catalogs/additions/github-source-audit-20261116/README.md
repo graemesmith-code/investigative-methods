@@ -1,3 +1,9 @@
+**Publication update — 16 November 2026:** The owner approved **17 new sources and five access routes**, with neutral descriptions and publisher evidence links. The **three usage/limitation notes are excluded from public Rabbit** and retained in this repository. Rabbit now has **1,573 sources and 2,539 access methods**. [Approved neutral release](../../releases/rabbit-neutral-sources-20261116.json). A separately authorized [sanctions/procurement teaching example](../../../research/2026-11-16/rabbit-sanctions-case-study/README.md) explains the method without annotating general source records. Supporting evidence has been backed up in the owner’s Google Drive.
+
+The text below preserves the **initial audit and pending-submission state before that owner decision**.
+
+---
+
 # Sources used in the research that Rabbit was missing
 
 **16 November 2026 — 25 proposals submitted, all awaiting human review.**
