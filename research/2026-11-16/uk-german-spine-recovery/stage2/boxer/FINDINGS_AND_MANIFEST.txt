@@ -1,0 +1,40 @@
+STAGE 2 GAP 3: BOXER / PROTECTOR RS4 / GVA / LOSA
+Research date: 16 November 2026. Public-source targeted pass; no outreach.
+
+BOTTOM LINE
+Public documents substantiate integration of remote weapon stations and shared electronic architecture into Boxer, but not the installed safety circuit or the use of US11946710B1 Claim 14 in a named delivered UK Boxer configuration. GVA compliance must not be treated as proof of that patented safeguard.
+
+NEW PRIMARY FINDINGS
+1. Rheinmetall/RBSL, 12 September 2023, describes UK Boxer prototypes/production vehicles with UK-supplied remote weapon stations, GVA components, situational-awareness and emergency-lighting systems. This is hardware-programme integration evidence, not a wiring diagram or a safety acceptance record.
+Source B02: https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/Presskit%20DSEI/2023-09-12%20Rheinmetall%20RBSL%20Boxer%20MIV%20update%20engl%20final.pdf
+
+2. UK MoD LOSA booklet (landing page published 21 September 2026, booklet copyright 2025), printed pp30–37: GVA integrates mission systems including remote weapon stations over a shared Ethernet network. It is an integration approach, not a prescriptive vehicle design. It lists supplier architecture-management plans, architecture cases, interface descriptions and deployed-system build sets as contract artefacts. Those are specific records to request for the Boxer baseline. Its Part2 overview includes hard control panels, but does not establish a dedicated weapon arming loop. Printed p34 has a low/high network cross-domain guard: that security separation must not be conflated with the weapon safety barrier.
+Source B03: https://assets.publishing.service.gov.uk/media/6a9673c63b22fb169dc18fb5/MOD10498_00319415_LOSA_A5_56pp_Booklet_1__1_.pdf
+Landing: https://www.gov.uk/government/publications/land-open-systems-architecture-losa
+
+3. Kongsberg 22 January 2022 release describes German JFSTsw Boxer prototype/reference systems combining RS4, Thales PAAG and NGVA; separately mentions German Boxer counter-UAS delivery. This is NOT the UK Boxer contract and NOT proof the UK configuration has the same cueing or safety design. Direct retrieval returned403; finding is supported by indexed publisher text, not preserved publisher HTML.
+https://www.kongsberg.com/news/news-archive/2022/protector-rs4-chosen-for-boxer-vehicle-with-new-mission-module/
+
+4. Important independent institutional lead: EDA announced SafeNGVA on31 January2023, describing a functional-safety extension and a EUR3.5m, 24-month first phase led by Germany with France, Rheinmetall, MBDA DE, Safran, Thales and Nexter. It said NGVA safety lacked implementable detail and proposed isolated safe subsystems with one-way gateways; later phases envisaged a weapon-system demonstrator. This dates a recognised standardisation problem, NOT a finding that Boxer lacked safeguards or that the problem remained unchanged in2026. A search for later work surfaced a participant's meeting report referring to SafeNGVA I results, but no examined public acceptance report establishing deployment. Direct EDA retrieval returned503; indexed original text supports this lead but original bytes were not acquired.
+https://eda.europa.eu/news-and-events/news/2023/01/31/new-eda-project-seeks-to-enhance-ngva-%28nato-generic-vehicle-architecture%29-safety
+
+PATENT COMPARISON
+US11946710B1 describes human authorisation of semi-autonomous engagement and safety-barrier/control channels. The correct comparison is whether a supplied weapon configuration has independently assured means of inhibiting operation, not whether a general GVA diagram contains a safety-looking symbol. Its patent disclosure is not a certification, procurement specification or proof of implementation.
+https://patents.google.com/patent/US11946710B1/en
+Read Claim14 directly alongside Claim5 before quoting the physical disconnect. Do not conflate hardware isolation with a claim that all signals use physically separate cabling: this patent also describes barrier signalling transported through networks.
+
+BOUNDED GAP
+No examined current public normative GVA text or named Boxer acceptance document establishes a mandatory dedicated hardware safety loop/physical arming switch separated from its mission bus. We retrieved the MOD introduction, not the full currently contracted normative standard. Absence from this search is NOT evidence no requirement or safety loop exists. Historical sources saying GVA Part8 was under development are not reliable evidence of the2026 position.
+
+PRECISION QUESTIONS (NOT SENT)
+UK MoD/DE&S and RBSL: For the delivered Boxer MIV baseline, which edition/parts of Def Stan23-009 are contractually applicable? Can you release the architecture case, interface descriptions and deployed-system build set, redacting sensitive particulars, to identify who certifies weapon-authorisation separation from mission/cueing software?
+Thales/Kongsberg: Is the UK Boxer RS4 configuration covered by US11946710B1 Claims5/14 or a different safeguard? Describe at a non-sensitive functional level the independent inhibit/arming control, who accepts its safety case, and whether counter-UAS upgrades change the authorisation boundary.
+EDA/BMVg: What were SafeNGVA I's accepted outputs, which normative editions adopted them, and which named vehicle/weapon configurations received them? Which results and independent evaluations are public?
+
+METHODS
+Fourteen targeted English/German search queries logged with UTC timestamps and returned-hit counts. Counts are tool-returned references, NOT total engine hits. Low-precision relaxed results retained transparently. Primary-source programme distinctions checked. PDFs saved unmodified, hashed, uploaded, metadata read back. No security bypass, no accounts, no outreach. Kongsberg403 and EDA503 logged; no error pages saved as primary files.
+
+PRESERVED INVENTORY
+B02_Rheinmetall_Boxer_UK.pdf | application/pdf |2502293 bytes| SHA256 ad8521e9e532e23899b623f261d2d09cf189ab4c6157fef4084d0406f0e9d0ca| Drive196aOWv2f-x1MKQiIaq3gxLaiiz9ji7zt
+B03_LOSA.pdf | application/pdf |18671148 bytes| SHA256 a7f706e059e30d6ee797e6b9f52f823c7019b225db3efd20775ae6609b3a5da7| Drive1LH5TPYPGB_6_MDszxEq6kBJEsqDQRDDv
+Both Drive parent and sizes verified by metadata readback. Parent1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O unchanged.
