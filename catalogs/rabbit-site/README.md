@@ -2,13 +2,15 @@
 
 **Published 14 November 2026; homepage revised 16 November 2026.** [Open Rabbit on graemesmith.com](https://graemesmith.com/rabbit/).
 
+**Visual consistency — 16 November 2026:** The bio page and Rabbit now share the same cream background (`#f7f5ed`). The extra standalone-site link has been removed, and the introduction now says “these notes reflect work in progress.” Verified on both live pages after publication.
+
 **Public publication — 16 November 2026:** Rabbit is now linked from “Recent projects” on Graeme’s bio and readable without sign-in. Its page displays the same live catalog, so approved additions are not copied into a second collection. Submissions, personal notes and curator decisions retain their authentication and authorization checks. This supersedes the earlier owner-only access descriptions below. [Publication, implementation and verification](publication-20261116.md).
 
 The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. The opening copy now reads:
 
 > This site offers a collection of public-record sources that might be useful for journalists and policy researchers. The catalog is free, open, and accessible to humans and automated systems.
 >
-> Research methods may change as artificial intelligence gets better, so the accompanying notes reflect work in progress.
+> Research methods may change as artificial intelligence gets better, so these notes reflect work in progress.
 
 The owner's rabbit drawings provide the logo and illustrations. The catch drawing now blends into the page background. Decorative cursive captions and italic emphasis have been removed; the introduction, chart notes and catch explanation use shorter, plainer sentences. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
 
