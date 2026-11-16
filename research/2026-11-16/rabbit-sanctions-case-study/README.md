@@ -22,7 +22,7 @@ The net caught a lead. Checking it showed why a match on two lists is only the s
 
 ### Screen and entity matching
 
-The 18 September 2026 run contained 6,639,176 unique contract/contract-vehicle transactions, 101,379 distinct recipient names and 23,398 names/aliases representing 9,980 sanctioned entities. The script normalized Unicode, capitalization and punctuation; a separate pass stripped terminal company suffixes. It did not perform fuzzy matching. Five normalized exact candidate pairs and eight suffix-removed pairs covered 153 transactions and 72 award identifiers. The other twelve candidate pairs had conflicting locations and remained unconfirmed.
+The 18 September 2026 run contained 6,639,176 unique contract/contract-vehicle transactions, 101,379 distinct recipient names and 23,398 names/aliases representing 9,980 sanctioned entities. Jev was not used; the screen made no AI model calls. The script normalized Unicode, capitalization and punctuation; a separate pass stripped terminal company suffixes. It did not perform fuzzy matching. Five normalized exact candidate pairs and eight suffix-removed pairs covered 153 transactions and 72 award identifiers. The other twelve candidate pairs had conflicting locations and remained unconfirmed.
 
 The sanctions snapshot was from September 2026. Historical designation dates therefore had to be checked independently against the dates of the procurement actions. Current list membership cannot establish historical sanctions status by itself.
 
