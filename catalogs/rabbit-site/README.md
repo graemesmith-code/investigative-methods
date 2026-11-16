@@ -1,8 +1,12 @@
 # Rabbit: a provisional map of possibilities
 
-**Published 14 November 2026; visual redesign published 15 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
+**Published 14 November 2026; homepage revised 16 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
 
-The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. It maps public-record sources for journalism in the age of artificial intelligence without presupposing the questions or a sequence of investigative steps. The opening states the project's working premise: as artificial intelligence improves, journalism may look different in six months. It continues: “Still, here’s what looks freshly possible right now.” This is a reason to keep the map revisable, not a prediction proved by the catalog.
+The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. The opening copy now reads:
+
+> This site offers a collection of public-record sources that might be useful for journalists and policy researchers. The catalog is free, open, and accessible to humans and automated systems.
+>
+> Research methods may change as artificial intelligence gets better, so the accompanying notes reflect work in progress.
 
 The owner's rabbit drawings provide the logo and illustrations. The catch drawing now blends into the page background. Decorative cursive captions and italic emphasis have been removed; the introduction, chart notes and catch explanation use shorter, plainer sentences. Four quiet views offer ways into the collection; detailed controls remain in the notebook.
 
@@ -16,7 +20,7 @@ The catalog is a map to potential evidence. A long list of old access links is u
 
 The home page now invites source suggestions and links to a sourced change log. People use a short form; agents use `rabbit_submit_proposal`, the authenticated submission endpoint, or a JSON proposal imported into the form. New sources, additional access methods and correction notes stay pending until the curator reviews them. Accepted changes appear in current catalog search, exports and agent reads. Acceptance does not enable a route.
 
-Three small cards now show the latest source activity, each with its recorded date and time. They currently show European patent data, US patent search and Canadian patent records. The patent entries are approved and show Source added or Source updated with their recorded approval time. Future pending entries remain labelled as suggestions. Clicking a card opens its exact change or expanded review entry. The line graph and its explanatory fine print have been removed. The section is titled “A collection that we improve together,” and “Free, for curious journalists” has been removed.
+Three small cards now show the latest source activity, each with its recorded date and time. They currently show European patent data, US patent search and Canadian patent records. The patent entries are approved and show Source added or Source updated with their recorded approval time. Future pending entries remain labelled as suggestions. Clicking a card opens its exact change or expanded review entry. The line graph and its explanatory fine print have been removed. The contribution area is now titled “Help improve Rabbit” and has one link: “Suggest a source or update →”. The question and review-process fine print have been removed from the homepage. “See all updates →” sits beside the latest-source heading. “Free, for curious journalists” remains removed.
 
 Five [patent-source handoffs](../additions/patent-source-handoffs-20261116.json) have now been approved by Graeme Smith: one new EPO linked-data source and four updates to existing USPTO, CIPO, DPMA and INPI records. The [approved release](../releases/rabbit-patents-20261116.json) brings the current corpus to **1,556 sources and 2,517 access methods**. Evidence limitations remain visible; approval does not automatically enable a route.
 
@@ -119,7 +123,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `ad1f40dce73836a13f840d5bd22e2d4eafedd484`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `cb2b90d206c82cf3e3d06264a4eeee50774c64d1`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -178,3 +182,11 @@ The growth graph was replaced by three timestamped source cards. Displayed times
 Graeme explicitly approved the five pending patent entries. The release adds one European Patent Office linked-data system and one linked access method, and appends notes to four existing systems. The home cards, search, live export, change log and agent reads use the accepted release. The patent proposals leave the pending queue. Original source text and identifiers remain intact, and German/French evidence gaps remain stated.
 
 The immutable release is versioned with Site source and backed up in [rabbit-patents-20261116.json](../releases/rabbit-patents-20261116.json). It is combined with later database events by proposal ID; matching events are counted once. This records the owner's approval without adding a general agent approval tool or changing sign-in rules. Fifty-six automated checks and the production build passed. Browser checks confirmed accepted cards, updated totals, five published changes and no pending patent proposals. Post-publication agent verification is recorded in the workflow note.
+
+### Simpler invitation and revised introduction — 16 November 2026
+
+The contribution area now contains one short heading and one link. The change-log link sits beside the latest-source heading, and the three approved patent cards keep their dates and times. The opening uses Graeme’s supplied text verbatim, split into two paragraphs. The invitation has one clear purpose; the review process remains available on the contribution page.
+
+Changed `app/explore.tsx`, `app/living-ui.tsx` and `app/gateway.css`. Type checking and the production build passed. Browser checks confirmed the exact introductory copy, one contribution link, the relocated history link and three approved patent cards. There was no page-level horizontal overflow at desktop width (1,363 pixels) or inside a temporary 390-pixel iframe rendering the actual homepage (375 pixels of content width after the scrollbar). This was a responsive-layout check, not a physical-phone test. The fixture was removed before packaging. Preview evidence is preserved in the Site source at `docs/simple-invitation-mobile.jpg`.
+
+Publication succeeded at source revision `cb2b90d206c82cf3e3d06264a4eeee50774c64d1`. Catalog records, review behavior, agent tools, schedules and owner-only access were unchanged. No new signed-in production-browser check was performed for this presentation-only edit.
