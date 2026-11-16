@@ -64,3 +64,13 @@ Treat prices, quotas and access descriptions as dated claims to check before a n
 
 [Home](../README.md) · [Experiment index](../experiments/README.md) · [Technical annexes](../annexes/README.md)
 
+
+## Approved patent release — 16 November 2026
+
+The current Rabbit corpus now contains **1,556 source systems and 2,517 access methods**. Graeme approved one new European Patent Office linked-data source and four notes on existing US, Canadian, German and French sources. The German and French evidence limitations remain stated; inclusion is separate from enabling a collection route.
+
+- [Approved release records](releases/rabbit-patents-20261116.json): source/access additions, correction patches, evidence and owner approval.
+- [Original handoffs with accepted decisions](additions/patent-source-handoffs-20261116.json).
+- [Site workflow and live verification](rabbit-site/living-workflow.md).
+
+The preserved 1,555-system historical archive stays unchanged. The live catalog merges this approved release with subsequent accepted changes, keeping source identifiers and access-method relationships intact.
