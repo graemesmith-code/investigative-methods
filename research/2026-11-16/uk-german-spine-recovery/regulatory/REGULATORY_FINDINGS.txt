@@ -1,0 +1,60 @@
+UK-GERMAN SPINE RECOVERY: 21STRATEGIES, HELSING AND REGULATORY RECORDS
+Research date: 16 November 2026. Bounded segment, not comprehensive legal opinion.
+
+BOTTOM LINE
+The strongest accountability finding here is not that safeguards are absent. UK policy sets lifecycle assurance obligations; the German government says humanitarian law and human engagement authorization apply. But the recovered public records do not expose the technical evidence that would let an outsider check those assurances for a named weapon. Germany's 10 November answer provides a particularly concrete, narrowly defined disclosure refusal. Meanwhile, public descriptions connect simulated AI tactics to intended physical platforms, but do not prove a patented safety feature has been installed on any specific weapon.
+
+21STRATEGIES: PATENT AND PROGRAM ARE DIFFERENT LAYERS
+EP4293311A1, official EPO XML salvaged from the prior selected-claims package. The XML is 77,813 bytes and independently rehashed; this is not recovery of the missing overnight archive. Claim 1 describes parallel sensor, information and effector-management agents using a common effect-evaluation measure. Claim 8 permits a separate meta-learning stage to adapt after initial training during operation. Claim 10 describes adapting control rules and developing tactics during operation, including reactions to unfamiliar enemy or emitter behaviour. These are capabilities, not proof of an enforceable civilian-protection interlock. A useful accountability question is how an approved system's learning after training is bounded and when it triggers renewed assurance.
+Source: https://data.epo.org/linked-data/representation/publication/EP/4293311/NWA1.xml
+
+The official dtec.bw GhostPlay page describes simulated high-tempo tactical decisions for suppression of enemy air defence and defending air-defence units, with transfer into training simulators. It explicitly includes lifelong learning and an Ethics by Design approach examining ethical/legal constraints alongside performance. That is meaningful counterevidence to any claim that the project simply ignores ethics. It is still a project description, not a public test certificate or evidence that these constraints operate aboard a deployed weapon. The page lists 1 September 2021–31 December 2026.
+German excerpt: "Ethics by Design"; English: ethics built into design.
+https://dtecbw.de/home/forschung/hsu/projekt-ghostplay
+
+The May 2025 Thinking Before Sinking study by Borchert, Brandlhuber and Dzaack evaluates simulated maritime scenarios, including defending against speedboat swarms and coordinating defensive engagement decisions. The simulation results are not physical-deployment evidence. Keep these performance findings separate from independently measured law-of-war compliance.
+https://defenseai.eu/wp-content/uploads/2025/05/daio_study2527_thinking_before_sinking_borchert_brandlhuber_dzaack.pdf
+
+21strategies' 21 October 2025 company post describes GhostPlay@SEA and a planned Sim2Live bridge transferring trained tactics to real maritime platforms. It says the JATOC companion computer is being developed for physical systems. The future-tense language matters: this establishes stated development direction, not delivered onboard capability, acceptance testing or a named installed platform.
+https://21strategies.com/2025/10/21/marineworkshop-ai-driven-tactical-innovation-for-naval-superiority-with-ghostplay-sea/
+
+TED 185823-2025: official landing request returned HTTP202 with zero bytes; no usable official notice recovered. A search-discovered third-party reproduction identifies a voluntary ex-ante transparency notice for HSU GhostPlay@SEA, published 24 March 2025, naming ATLAS ELEKTRONIK. This is a discovery lead only, not a recovered primary contract or proof of fulfilled delivery. Do not turn an intended direct award into a verified executed contract.
+Official target: https://ted.europa.eu/en/notice/-/detail/185823-2025
+Discovery-only mirror: https://files.auftrag-select.com/file/auftrag-select-public/pdfs/6656021/bekanntmachung.pdf
+
+HELSING: ALL 15 CLAIMS CHECKED
+DE102025101672A1, filed 17 January 2025, published 23 July 2026; public German patent text retrieved from Google Patents. Claim 3 includes a no-engagement option. It does not by itself establish a humanitarian-law filter or mandatory human veto. The claimed protected assets are objects the system is defending; do not silently equate them with civilians or specially protected persons. No named product implementation was established in this bounded pass.
+https://patents.google.com/patent/DE102025101672A1/de
+Functional claim map, paraphrased from German:
+1. Context/target representations and scoring select a target and transmit that selection to an effector.
+2. Priority selection from scores, including highest score.
+3. Non-operation representation instructs engagement of no target.
+4. Recurrent neural-network context, including LSTM.
+5. Situation representation using target and effector information.
+6. Mean embedding of representations.
+7. Properties of protected assets in the input representation.
+8. Self-attention/transformer backbone using sensor information.
+9. Training agent using observations and reward updates.
+10. Stochastic target selection.
+11. Reinforcement-learning agent with output heads.
+12. Method using a trained instance.
+13. System implementing the method.
+14. Executable computer-program product.
+15. Trained learning module.
+Original excerpt: "kein Ziel zu bekämpfen". Translation: "engage no target".
+This map describes the claims, not grant status, commercial installation, test success, or absence of other safeguards elsewhere.
+
+UK: REAL ASSURANCE REQUIREMENTS, NOT PUBLIC VERIFICATION OF A PARTICULAR SYSTEM
+JSP936 Part1 V1.1 (November 2024), especially §§91–105, sets lifecycle ethical-risk management. Unacceptable negative ethical risk calls for halting development/deployment or removing an out-of-bounds operational system until review. §99 requires annual executive-board AI ethical-assurance statements supported by auditable evidence. Accountability must be transferred into operational use. §105 recommends independent ethics assurance for larger/significant-risk or repeated-use systems; it uses SHOULD, not MUST, and does not establish independence from government or public access. The publication presents an evolving assurance framework and allows organizations to plan routes toward compliance. The record therefore rebuts an assertion of no policy, but supplies no project-specific compliance proof. Ask for the named assurance statement, risk owner, operating bounds and evidence underlying acceptance.
+https://assets.publishing.service.gov.uk/media/6735fc89f6920bfb5abc7b62/JSP936_Part1.pdf
+
+The February 2024 government response to the Lords AI-in-weapons report describes governance before, during and after use and says Article36 review is not simply a one-off release hurdle. Material changes can require review; adaptive systems pose challenges. The response discusses exploring supplier transparency into models, data and training, not a guaranteed public right to inspect them. Distinguish committee recommendations from the government's actual replies.
+https://assets.publishing.service.gov.uk/media/65cb77caa7ded0000c79e526/Government_response_to_the_House_of_Lords_AI_in_Weapon_Systems_Committee_Report.pdf
+
+GERMANY: A SPECIFIC PARLIAMENTARY DISCLOSURE LIMIT
+Bundestag printed paper 21/9054, government answer dated 10 November 2026. Q1/3/8 invoke existing humanitarian law, including stopping attacks against surrendering or incapacitated persons. Q7/9 say a human authorizes engagement regardless of how a target proposal originates. Q4 asks for unclassified minimum sensor/image/data-rate requirements to detect a target's changed status: the answer says none of the requirements within that question are unclassified. Q10 asks about tests/simulations/evaluation distinguishing combatants, surrendering people, wounded people and civilians under varied conditions; government declines to disclose the requested information even classified, citing military capability, operational secrecy and state welfare. This is a precise public-verification gap, NOT proof no tests exist, no oversight exists or all parliamentary access is blocked. The questioners' preamble is not an admission by government. Q11 centres human decision-making for aborting and traceability.
+German Q10 excerpt: "auch nicht in eingestufter Form". Translation: "not even in classified form".
+https://dserver.bundestag.de/btd/21/090/2109054.pdf
+
+RECOVERY LIMITS AND METHOD
+This pass recovered and persisted originals as separate files, then checked Drive IDs, sizes and destination parents. It did not alter sharing permissions. Source pages/PDFs/XML are unmodified; extracted text and this narrative are derivatives. SHA256SUMS.txt and FINAL_MANIFEST.json give original byte hashes, MIME, source URLs, timestamps and verified Drive IDs. The GhostPlay product homepage returned403 and was not bypassed or saved as evidence. The TED landing returned202/zero bytes; its empty local response is excluded from the evidence inventory. The visible user brief ends after the UK Lords response item; unspecified S35–S39 have not been invented or declared complete. No broad patent sweep, outreach, request submission or paid access occurred. No explicit patent-to-installed-weapon bridge or live humanitarian-protection performance test was established here.
