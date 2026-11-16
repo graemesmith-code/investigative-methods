@@ -16,9 +16,9 @@ The catalog is a map to potential evidence. A long list of old access links is u
 
 The home page now invites source suggestions and links to a sourced change log. People use a short form; agents use `rabbit_submit_proposal`, the authenticated submission endpoint, or a JSON proposal imported into the form. New sources, additional access methods and correction notes stay pending until the curator reviews them. Accepted changes appear in current catalog search, exports and agent reads. Acceptance does not enable a route.
 
-Three small cards now show the latest source activity, each with its recorded date and time. They currently show European patent data, US patent search and Canadian patent records. These are labelled as suggestions while awaiting human review; accepted entries show their approval time. Clicking a card opens its exact change or expanded review entry. The line graph and its explanatory fine print have been removed. The section is titled “A collection that we improve together,” and “Free, for curious journalists” has been removed.
+Three small cards now show the latest source activity, each with its recorded date and time. They currently show European patent data, US patent search and Canadian patent records. The patent entries are approved and show Source added or Source updated with their recorded approval time. Future pending entries remain labelled as suggestions. Clicking a card opens its exact change or expanded review entry. The line graph and its explanatory fine print have been removed. The section is titled “A collection that we improve together,” and “Free, for curious journalists” has been removed.
 
-Five [patent-source handoffs](../additions/patent-source-handoffs-20261116.json) are pending: one proposed EPO linked-data source and four updates to existing USPTO, CIPO, DPMA and INPI records. No real proposal was approved during implementation.
+Five [patent-source handoffs](../additions/patent-source-handoffs-20261116.json) have now been approved by Graeme Smith: one new EPO linked-data source and four updates to existing USPTO, CIPO, DPMA and INPI records. The [approved release](../releases/rabbit-patents-20261116.json) brings the current corpus to **1,556 sources and 2,517 access methods**. Evidence limitations remain visible; approval does not automatically enable a route.
 
 The existing six agent reads now use the approved live layer. Three new tools submit proposals, read visible submissions and read the change log. The original read-only description below records the first implementation; it is superseded by this submission workflow. [Readable workflow, technical annex and validation](living-workflow.md).
 
@@ -119,7 +119,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `3cda0def18914f681d8f68650eb03222c3387ed1`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `ad1f40dce73836a13f840d5bd22e2d4eafedd484`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -172,3 +172,9 @@ The living-catalog publication succeeded on 16 November 2026. The refreshed nati
 ### Latest source cards — 16 November 2026
 
 The growth graph was replaced by three timestamped source cards. Displayed times preserve actual submission or approval dates and include the Europe/Rome time-zone abbreviation. The cards use the existing caller-visible proposal list and accepted change log; no data or review permissions changed. Browser checks confirmed all three patent cards, their real timestamps, both graph removals, the requested text deletions, and a card opening its exact pending proposal with details expanded. Desktop layout had no horizontal overflow. Type checking and the production build passed. No proposal was approved during this change.
+
+### Owner-approved patent release — 16 November 2026
+
+Graeme explicitly approved the five pending patent entries. The release adds one European Patent Office linked-data system and one linked access method, and appends notes to four existing systems. The home cards, search, live export, change log and agent reads use the accepted release. The patent proposals leave the pending queue. Original source text and identifiers remain intact, and German/French evidence gaps remain stated.
+
+The immutable release is versioned with Site source and backed up in [rabbit-patents-20261116.json](../releases/rabbit-patents-20261116.json). It is combined with later database events by proposal ID; matching events are counted once. This records the owner's approval without adding a general agent approval tool or changing sign-in rules. Fifty-six automated checks and the production build passed. Browser checks confirmed accepted cards, updated totals, five published changes and no pending patent proposals. Post-publication agent verification is recorded in the workflow note.
