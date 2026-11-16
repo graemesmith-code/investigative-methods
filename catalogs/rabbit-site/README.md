@@ -1,6 +1,8 @@
 # Rabbit: a provisional map of possibilities
 
-**Published 14 November 2026; homepage revised 16 November 2026.** [Open the private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) (owner's ChatGPT sign-in required).
+**Published 14 November 2026; homepage revised 16 November 2026.** [Open Rabbit on graemesmith.com](https://graemesmith.com/rabbit/).
+
+**Public publication — 16 November 2026:** Rabbit is now linked from “Recent projects” on Graeme’s bio and readable without sign-in. Its page displays the same live catalog, so approved additions are not copied into a second collection. Submissions, personal notes and curator decisions retain their authentication and authorization checks. This supersedes the earlier owner-only access descriptions below. [Publication, implementation and verification](publication-20261116.md).
 
 The Site opens with “A rough map of new possibilities.” The logo carries the page's only draft disclaimer. The opening copy now reads:
 
@@ -45,7 +47,7 @@ The illustrations and their short explanations come before the source totals and
 
 The design lesson is simple: an interface can quietly impose a method. Rabbit should give people room to discover questions through the records and emerging tools, rather than require them to arrive with a settled question.
 
-The design is deliberately handmade and free in intent. The Site is still owner-only at this stage: the redesign did not change sharing permissions. Individual listed sources may have their own fees or access conditions.
+The design is deliberately handmade. The initial redesign kept owner-only permissions; the 16 November publication made catalog browsing public. Individual listed sources may have their own fees or access conditions.
 
 ## What makes a connection worth testing
 
@@ -71,7 +73,7 @@ Enabled routes remain separate from the candidate queue. Parked and rejected can
 - No source endpoints were retested while building it. Historical verification dates are not upload or import dates.
 - Coverage views count catalog records. They do not measure the completeness of real-world data or news coverage.
 - Publisher groupings use the recorded publisher, with an official-domain fallback where missing. They are catalog relationships, not proof of organizational control.
-- Reviews and notes are scoped to the signed-in user. Current access is owner-only.
+- Reviews and notes are scoped to the signed-in user. Catalog browsing and accepted changes are public; pending submissions remain protected.
 - Full JSON exports retain original record text, source/access links, coverage mappings, provenance and current review state. Spreadsheet exports are available for simpler use.
 - Publication succeeded and the live sign-in gate was checked. Functional tests ran in the development preview; a signed-in production browser test was not completed because the test browser had no ChatGPT session. Preview test data was not published.
 
@@ -123,7 +125,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `cb2b90d206c82cf3e3d06264a4eeee50774c64d1`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `b8141420ad5d86168b685635e1bcf879d813f9fd`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
