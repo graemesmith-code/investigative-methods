@@ -1,0 +1,92 @@
+[
+  {
+    "id": "PROP-SEED-20261116-epo-linked",
+    "created_at": "2026-11-16T07:51:28.015Z",
+    "payload": {
+      "kind": "new_source",
+      "name": "EPO Linked Open EP Data",
+      "url": "https://data.epo.org/linked-data/",
+      "organization": "European Patent Office",
+      "country": "Europe",
+      "topic": "Technology, infrastructure & intellectual property",
+      "access": "API / linked data",
+      "note": "The 15 November research logged successful bibliographic queries and one official claims-bearing XML representation. EP bibliographic, family and classification coverage; not worldwide full text. Some linked representations contain only metadata. Review as a separate discovery service from Open Patent Services; use bulk products for heavy collection.",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+      "target_id": "",
+      "request_key": "patent-review-20261116-epo-linked",
+      "submitted_by": "Research handoff · awaiting human review"
+    }
+  },
+  {
+    "id": "PROP-SEED-20261116-uspto-export",
+    "created_at": "2026-11-16T07:51:28.015Z",
+    "payload": {
+      "kind": "correction",
+      "name": "USPTO Patent Public Search — export limits",
+      "url": "https://www.uspto.gov/patents/search/patent-public-search",
+      "organization": "",
+      "country": "",
+      "topic": "Technology, infrastructure & intellectual property",
+      "access": "Search / web portal",
+      "note": "The 15 November audit corrected the earlier interpretation of 500 rows: this is an auto-loaded batch, not a hard export ceiling. The recorded official guidance allows up to 10,000 exported documents and a 20,000-result buffer. Family members must be expanded and counts reconciled. Treat this as a dated correction requiring curator review; not a new source.",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit/EPO_LINKED_DATA_ROUTE.md",
+      "target_id": "SYS-0772",
+      "request_key": "patent-review-20261116-uspto-export",
+      "submitted_by": "Research handoff · awaiting human review"
+    }
+  },
+  {
+    "id": "PROP-SEED-20261116-cipo-scope",
+    "created_at": "2026-11-16T07:51:28.015Z",
+    "payload": {
+      "kind": "correction",
+      "name": "CIPO — weekly XML is not necessarily full text",
+      "url": "https://www.canada.ca/en/services/business/ip/databases.html",
+      "organization": "",
+      "country": "",
+      "topic": "Technology, infrastructure & intellectual property",
+      "access": "Search / web portal",
+      "note": "The supplied weekly update part contained 325 A1 XML records, 321 abstracts and no claims or descriptions. It is one part of a weekly update, not a Canadian corpus or publication-date cohort. Keep abstract/metadata access distinct from full-text access. Further Canadian bulk-claims access remains unresolved.",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/tree/46495fee91187826c98fc381835892fbc1f17873/research/2026-11-15/patent-landscape-audit",
+      "target_id": "SYS-0776",
+      "request_key": "patent-review-20261116-cipo-scope",
+      "submitted_by": "Research handoff · awaiting human review"
+    }
+  },
+  {
+    "id": "PROP-SEED-20261116-dpma-status",
+    "created_at": "2026-11-16T07:51:28.015Z",
+    "payload": {
+      "kind": "correction",
+      "name": "DPMAregister — official status and event checks",
+      "url": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+      "organization": "",
+      "country": "",
+      "topic": "Technology, infrastructure & intellectual property",
+      "access": "Search / web portal",
+      "note": "The recovered 16 November procurement briefing reports a useful official register check of a German priority application, distinct from aggregator status. This is an existing Rabbit source, not an extra source. The original full acquisition log and evidence archive were not recovered; reacquire the register evidence before treating the reported status as verified in Rabbit.",
+      "evidence_url": "https://register.dpma.de/DPMAregister/pat/register?AKZ=1020201274300",
+      "target_id": "SYS-0784",
+      "request_key": "patent-review-20261116-dpma-status",
+      "submitted_by": "Research handoff · awaiting human review"
+    }
+  },
+  {
+    "id": "PROP-SEED-20261116-inpi-status",
+    "created_at": "2026-11-16T07:51:28.015Z",
+    "payload": {
+      "kind": "correction",
+      "name": "INPI — separate national and European status records",
+      "url": "https://data.inpi.fr/brevets/FR3102239",
+      "organization": "",
+      "country": "",
+      "topic": "Technology, infrastructure & intellectual property",
+      "access": "Search / web portal",
+      "note": "The recovered 16 November briefing identifies separate INPI pages for FR3102239 and EP3812690. Compare national status, European effects and dated events separately; do not infer identical claims or current legal effect across family members. Existing Rabbit source. Original full acquisition log/evidence archive not recovered; reacquire before approval.",
+      "evidence_url": "https://data.inpi.fr/brevets/EP3812690",
+      "target_id": "SYS-0783",
+      "request_key": "patent-review-20261116-inpi-status",
+      "submitted_by": "Research handoff · awaiting human review"
+    }
+  }
+]
