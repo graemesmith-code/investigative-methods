@@ -1,0 +1,98 @@
+{
+  "note": "Five sources uploaded and sizes verified. Patents downloaded, preservation next. MBDA 403 logged, no challenge archived.",
+  "sources": [
+    {
+      "id": "S23_MBDA_DragonFire",
+      "url": "https://www.mbda-systems.com/uk-defence-minister-visits-mbda-dragonfire-laser-weapon-contract-announcement",
+      "utc": "2026-11-16T10:24:45.262381+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S24_Dstl_laser",
+      "url": "https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first",
+      "utc": "2026-11-16T10:24:49.053989+00:00",
+      "status": 200,
+      "mime": "text/html",
+      "final_url": "https://www.gov.uk/government/news/advanced-future-military-laser-achieves-uk-first",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/S24_Dstl_laser.html",
+      "bytes": 84977,
+      "sha256": "0581002e804ee3d1d2659cd786efe247f4c95657b9bd757df701870af0274f2d",
+      "drive_id": "1YWOhr0c3hIM6_Yr6PQPKDF_4FYoqtD8Q",
+      "drive_verified_bytes": 84977
+    },
+    {
+      "id": "S25_FCAS_708m",
+      "url": "https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology",
+      "utc": "2026-11-16T10:24:51.968185+00:00",
+      "status": 200,
+      "mime": "text/html",
+      "final_url": "https://www.gov.uk/government/news/708-million-to-accelerate-uk-next-generation-air-combat-technology",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/S25_FCAS_708m.html",
+      "bytes": 71574,
+      "sha256": "daca794d19cf71398d244ff9c0fc8c54b3b06830bcbc35920a79418329afdfe5",
+      "drive_id": "1wXiUsnaoZoYjA5J-EtBdeXUBwkSsrZSy",
+      "drive_verified_bytes": 71574
+    },
+    {
+      "id": "S26_RAF_ACP_strategy",
+      "url": "https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf",
+      "utc": "2026-11-16T10:25:11.700577+00:00",
+      "status": 200,
+      "mime": "application/pdf",
+      "final_url": "https://assets.publishing.service.gov.uk/media/66019fa8f1d3a0666832acfc/RAF_Autonomous_Collaborative_Platform_Strategy.pdf",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/S26_RAF_ACP_strategy.pdf",
+      "bytes": 2076536,
+      "sha256": "5e4fda8b3293c09b95f2287ecedb57b63c876317c6abfa4b35bbd513cab0b5fb",
+      "drive_id": "1vXQ4m6sYXJJe_ZRsHhW0CvW2hyXQUw79",
+      "drive_verified_bytes": 2076536
+    },
+    {
+      "id": "S27_Rigby_2022",
+      "url": "https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf",
+      "utc": "2026-11-16T10:25:18.234980+00:00",
+      "status": 200,
+      "mime": "application/pdf",
+      "final_url": "https://www.aerosociety.com/media/19656/weapons-for-generation-after-next-platform-17-november-2022-v3.pdf",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/S27_Rigby_2022.pdf",
+      "bytes": 281464,
+      "sha256": "f48343810870c674b54fafb4bf160edd45acc7041db192defb4ab5fb51f1ef71",
+      "drive_id": "1qisf8o86GvSVymkeZjaA1fyeuPeFZvFE",
+      "drive_verified_bytes": 281464
+    },
+    {
+      "id": "S28_Rigby_2025",
+      "url": "https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf",
+      "utc": "2026-11-16T10:25:35.031852+00:00",
+      "status": 200,
+      "mime": "application/pdf",
+      "final_url": "https://www.aerosociety.com/media/26488/fcas25-speaker-library.pdf",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/S28_Rigby_2025.pdf",
+      "bytes": 13378233,
+      "sha256": "fc9967ef5cc87d924817d0a7242a3d53b09193651e419b394ecb18dd8b78a69b",
+      "drive_id": "15HtEc8WC4k_HBf0895X3e2NFNoRkzTOT",
+      "drive_verified_bytes": 13378233
+    },
+    {
+      "id": "BAE_US11473880B2",
+      "url": "https://patents.google.com/patent/US11473880B2/en",
+      "utc": "2026-11-16T10:25:39.597853+00:00",
+      "status": 200,
+      "mime": "text/html",
+      "final_url": "https://patents.google.com/patent/US11473880B2/en",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/BAE_US11473880B2.html",
+      "bytes": 288231,
+      "sha256": "2dd68bc419bc5b3e0eafbf359c47e29acbacf2495a1b24a638b11ddf80523ebc"
+    },
+    {
+      "id": "BAE_US11422549B2",
+      "url": "https://patents.google.com/patent/US11422549B2/en",
+      "utc": "2026-11-16T10:26:01.443741+00:00",
+      "status": 200,
+      "mime": "text/html",
+      "final_url": "https://patents.google.com/patent/US11422549B2/en",
+      "path": "/workspace/scratch/18770d4a85a4/spine_bae/BAE_US11422549B2.html",
+      "bytes": 302845,
+      "sha256": "86ddb5d46ca7c04242359d41fd81e679b17a9f53383ee68676e6fc6648deaa2b"
+    }
+  ]
+}
