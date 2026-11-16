@@ -1,25 +1,22 @@
-# What’s the catch? Sanctions and public contracts
+# A short example of a catch failure
 
-**16 November 2026 — a teaching example, not a finding of a sanctions violation.**
+A “catch” is a rule that connects two sets of records. Think of it as a net: something that seems to break the rule might turn out to be a news story.
 
-A name-and-address match linked a sanctioned company to US procurement records. Further checking found a short overlap in reported contract obligations, but no established payment, delivery or legal violation. The lead was parked because its apparent scale and reporting value were limited. This example explains how a connection between two datasets becomes a question worth checking—and why it may stop short of a story.
+We started with two sources in Rabbit. One is the US Treasury’s sanctions list, often called the OFAC list. It names people and companies facing financial restrictions, including for terrorism or corruption. The other, USAspending, records government contracts and the businesses receiving them.
 
-## The public example
+Put them together and a question appears: was the US government doing business with a company it had sanctioned? Normally, the rules should prevent that, unless an exception allows it.
 
-The US Treasury’s Office of Foreign Assets Control (OFAC) publishes sanctions lists. USAspending publishes federal contract actions. Company names and addresses connect the records. The Federal Acquisition Regulation adds the test: purchases prohibited by sanctions generally cannot proceed unless an authorization applies.
+A small Python program compared 6.6 million contract records with about 23,000 names and aliases on the sanctions list. This first pass did not need artificial intelligence.
 
-A Python script screened **6,639,176 fiscal-year 2025 contract transactions** against **23,398 sanctions-list names and aliases**. Thirteen possible name matches emerged. One was NAI Logistics B.V., a Dutch fuel supplier linked by Treasury to Afghan former politician Ajmal Rahmani. Follow-up work across earlier years found eight reported orders dated 13–14 December 2023, just after designation on 11 December, under a military heating-fuel contract in Belgium. They recorded **$36,309.46 in positive obligations**, offset by **$15,662.32 in reductions**, leaving **$20,647.14 net**. Obligations are commitments, not proof of payment.
+Matching names sounds easy. But “Example Ltd” and “EXAMPLE LIMITED” might be the same company. Two unrelated businesses might also share a name. We tidied the names, found 13 possible matches, then checked details such as addresses to see whether we had the same business.
 
-Four orders were reduced to zero; no later positive obligations were found in the retrieved history. Payment, delivery and the applicability of legal authorizations remained unresolved. The lead was set aside as a reporting priority, not classified as a proved “minor violation.”
+One looked promising. NAI Logistics, a Dutch fuel supplier linked to an Afghan former politician, appeared on both lists. Treasury had sanctioned it as part of action against a corruption network. Looking back through its contracts, we found eight military heating-fuel orders in Belgium dated just two or three days after the sanctions began.
 
-The useful lesson is simple: a match is a reason to look. It is not a finding. The identity, dates, financial measure and applicable rule all have to survive checking.
+But the lead shrank as we checked it. Four orders had been reduced to zero. The remaining commitments came to about $21,000, and we could not establish that fuel was delivered or money was paid. We also had unresolved questions about legal exceptions.
 
-## Corrections to the remembered account
+The overlap was brief, the amount modest, and wrongdoing remained unproven. We decided the lead was not strong enough to pursue as a story.
 
-- **Corruption sanctions, not terrorism sanctions.** Treasury designated NAI through the Rahmani network under Executive Order 13818 / Global Magnitsky. It did not designate the company as a terrorist in this case.
-- **Heating fuel oil in Belgium.** The disputed contract specifies burner fuel oil. Older recipient records include diesel, but that does not establish the product in these eight orders.
-- **No Jev use.** The original screen used a Python standard-library script, with no model calls, paid data or outreach.
-- **Editorial choice, not a verified administrative explanation.** Graeme’s 14 October decision treated the limited overlap as a low reporting priority. The records do not establish why the orders were placed or reduced.
+The net caught a lead. Checking it showed why a match on two lists is only the start.
 
 ## Technical annex
 
