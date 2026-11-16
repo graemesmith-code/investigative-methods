@@ -43,7 +43,9 @@ New source reviews are linked here separately from the preserved exports. Their 
 
 ### GitHub source-use audit — 16 November 2026
 
-[Audit findings and review evidence](additions/github-source-audit-20261116/README.md): **17 missing source collections, five additional access routes and three usage or limitation notes** were submitted to Rabbit. All 25 await human review. The audit distinguishes sources used in investigations from those only inspected during scoping, preserves project evidence and existing source relationships, and records automatic-check limitations. The approved catalog remains **1,556 sources and 2,517 access methods**.
+[Audit findings and review evidence](additions/github-source-audit-20261116/README.md): **17 source collections and five access routes** were approved with neutral public descriptions. Three personal usage notes remain in this repository and were excluded from Rabbit. The current catalog contains **1,573 sources and 2,539 access methods**. [Approved release](releases/rabbit-neutral-sources-20261116.json). Source-to-access relationships and the historical archive remain intact.
+
+Public catalog entries describe reusable sources and their limitations. Personal investigation findings and source-use histories belong in this repository; supporting evidence belongs in Google Drive. See [the publication rules](../AGENTS.md). The separately approved [sanctions and procurement example](../research/2026-11-16/rabbit-sanctions-case-study/README.md) illustrates how datasets and a legal rule can create a test without proving a violation.
 
 
 ## Try one source
