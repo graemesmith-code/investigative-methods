@@ -1,0 +1,49 @@
+KONGSBERG / BOXER / COUNTER-UAS - TARGETED RECOVERY, 16 NOVEMBER 2026
+
+BOTTOM LINE
+A real human-authorization safeguard exists in Kongsberg's published patent claims. A separate patent publication describes default-safe shutdown on communications loss. The same supplier is supplying remote weapon stations into British Boxer and several European counter-drone/armoured-vehicle programmes. There is also a direct company interview saying CORTEX Typhon retains a human fire decision. None of the bounded records reviewed proves that a named customer received the exact patented architecture, or that its configuration passed independent safety acceptance tests.
+
+This is stronger than merely a shared company name: one inventor is independently identified as MCT product manager and counter-drone deployment is described in a first-hand company interview. Those are person/product and human-control assertions respectively, not a patent-to-purchased-configuration bridge.
+
+1. PATENT EVIDENCE: HUMAN AUTHORIZATION (US11946710B1)
+Source: https://patents.google.com/patent/US11946710B1/en
+Native patent PDF and page HTML preserved. Inventor: Pål Longva Hellum. This granted-publication identifier is not a fresh certification of current enforceability.
+Claims 1 and 6 distinguish activation, authorization/arming and trigger information. Claim 1 requires operator confirmation before triggering and requires the relevant signals together; claim 6 additionally makes continued target consistency part of the method. Claims 5 and 14 concern an operator-side switch that connects/disconnects the hardware-barrier communication loop. Do not substitute these hardware controls with a generic command software warning: they are different proof categories.
+This is not itself a civilian-classification algorithm or an international-humanitarian-law judgment. An authorized human can still make a mistaken or unlawful decision. The patent establishes a claimed control architecture, not its operational effectiveness.
+
+2. PATENT EVIDENCE: LOST-COMMUNICATION DEFAULT SAFE (US20230229794A1)
+Source: https://patents.google.com/patent/US20230229794A1/en
+Native publication PDF and HTML preserved. Inventors: Pal Longva Hellum and Lars Egil Bjorset. This A1 is a published application, not proof that all claims were granted or remain operative.
+Claims 1 and 13 describe hardware safety barriers at the near and remote control interfaces and disengagement control. Claim 10 identifies weapon-related circuitry among the safety-critical applications. Claims 5 and 17 specify disabling the safety-critical device on lost communication, returning it to a default-safe state. This is a stronger and narrower proposition than 'the system has safety software.' It does not identify a delivered RS4, Boxer or Typhon configuration by name.
+
+3. PERSON-TO-PRODUCT LINK (S07)
+https://www.kongsberg.com/news/stories/2018/9/technology-award-mct/
+Kongsberg's September 2018 Technology Award account names Lars Egil Bjørset as Product Manager of the Medium Caliber Turret. His name corresponds to Lars Egil Bjorset on the 2023 application. This is a documented inventor/product-domain bridge, not evidence the 2018 product implemented later patent claims. Direct retrieval returned HTTP403 at 2026-11-16T10:25:28.888024+00:00. The text was readable through the public search index; no unmodified raw source copy was acquired or fabricated.
+
+4. UK BOXER (S06 AND PROCUREMENT)
+https://questions-statements.parliament.uk/written-questions/detail/2026-06-22/11897
+Raw official Parliament HTML preserved. Correction to shorthand in the brief: question tabled 22 June; answer dated 25 June 2026; it reports the position AS OF 23 June: 100 of 623 contracted Boxer vehicles delivered. Vehicle totals do not certify RS4 quantities, configurations or safety tests.
+https://www.kongsberg.com/news/news-archive/20202/kongsberg-wins-remote-weapon-stations-contract-of-1-030-mnok-with-the-the-british-miv-program/
+The earlier cross-reference reports the 2020 Thales UK/RS4 contract, but its raw source is blocked HTTP403 in this run. This run does not turn the earlier account into a recovered primary copy. In any event, the procurement predates the later human-authorization patent. That chronology permits later upgrades but proves none.
+
+5. CORTEX TYPHON / UK-LED IFU (S08)
+https://www.kongsberg.com/news/news-archive/2023/international-fund-for-ukraine-orders-multiple-c-uas-air-defence-systems-from-kongsberg/
+The indexed 14 August 2023 company announcement describes a GBP56m IFU contract for several CORTEX Typhon systems, Kongsberg RWS and CORTEX ICS, alongside Teledyne FLIR and donated Norwegian vehicles/weapons. Direct byte retrieval 403; not raw archived.
+https://www.nationaldefensemagazine.org/articles/2024/6/18/kongsbergs-counter-drone-secret-sauce-refined-in-ukraine
+Direct original article returned a 212-byte Incapsula wrapper. Excluded. A legitimate publisher-hosted ebook reprint was acquired instead: https://www.ndia.org/-/media/sites/ndia/e-books/ffc/2024/ffc-2024-ebook-v1.pdf , printed page 17.
+Stew Magnuson's interview with John Carlsson (company US business development) reports June 18 2024 delivery two to three months earlier, subsequent software refinement and automated drone tracking with a human fire decision. This is primary evidence of what a company representative said, not an independent engineering test. The article does not identify either patent or disclose the hardware safety chain. It distinguishes software integration from the person's decision to fire.
+
+6. EUROPEAN PROGRAMME ANNOUNCEMENTS
+Kongsberg SAN announcement, 30 January 2026: https://www.kongsberg.com/news/news-archive/2026/kongsberg-wins-nok-16-billion-contract-to-deliver-counter-uas-solutions-in-poland/
+Indexed company text says 18 counter-UAS batteries, NOK16bn Kongsberg share, PGZ partnership and APS command/control integration; PROTECTOR MCT30/RWS are named. This establishes planned system/integrator relationships, not the patented safeguard or acceptance evidence. Direct 403; Euronext public announcement mirror returned HTTP202 zero bytes. Neither was archived as primary evidence.
+CAVS, 6 February 2026: https://www.kongsberg.com/news/news-archive/2026/germany-and-sweden-order-kongsberg-remote-weapon-stations-for-cavs-6x6-programme/
+Indexed company text says several hundred RS4 stations, about EUR140m, Patria contract supporting Germany/Sweden. Counter-UAS is a possible upgrade, not demonstrated baseline delivery. Company raw 403, Euronext mirror HTTP202 zero bytes, Patria's own related announcement 403; no primary byte archive for these.
+Netherlands, 29 September 2026: https://www.kongsberg.com/news/news-archive/2026/kongsberg-signs-contract-with-oshkosh-defense-europe-to-deliver-counter-drone-capabilities-to-the-netherlands/
+Indexed company text explicitly identifies RS4 equipped with PROTECTOR CUAS, integrated on Oshkosh JLTVs for Netherlands. This distinguishes actual contract scope from CAVS's possible upgrade. Direct 403; raw source gap remains.
+
+7. BOUNDED GAPS / NEXT DOCUMENTS THAT WOULD CHANGE THE ANSWER
+No reviewed document ties a specific patent claim to a delivered build, contract configuration or qualification record. Needed evidence: named configuration baseline, safety requirements allocated among vehicle integrator/weapon supplier/C2 supplier, acceptance test that demonstrates lost-link and authorization behaviour, and the authority allowed to approve a change. Public procurement totals, an inventor biography and company claims cannot substitute for those records. No absence or wrongdoing inference follows from the gaps.
+No fresh broad patent search, outreach, accounts, purchase, FOI request or security challenge bypass performed. Kongsberg.com returned 403 for each listed endpoint; no retries or alternate disguises attempted. Public indexed text was used for narrow findings, explicitly not represented as original response bytes. Independent publisher and stock-exchange mirrors were attempted transparently; failures logged.
+
+PERSISTENCE
+Six raw files preserved in designated Drive folder and byte-size checked: two patent HTML pages, two native patent PDFs, Parliament HTML, and publisher ebook PDF. SHA256SUMS.txt and FINAL_MANIFEST.json identify exact bytes, MIME, timestamps, URLs and Drive IDs. Raw sources unmodified. Derived reading text separate. Original security wrapper and empty responses segregated as non-evidence and not uploaded.
