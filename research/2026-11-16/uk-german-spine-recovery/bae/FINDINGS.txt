@@ -1,0 +1,36 @@
+BAE / DRAGONFIRE / UK COMBAT AIR: TARGETED RECOVERY
+Research date 16 November 2026. Bounded to the eight requested source groups.
+
+BOTTOM LINE
+The public record now supplies a stronger company-and-person connection to real UK hardware programmes, but not the final technical bridge: nothing in this recovered packet establishes that either BAE patent's safeguard is implemented in the purchased DragonFire configuration or an operational FCAS/ACP. This is a specific unclosed evidentiary gap, not evidence of absence.
+
+1. DIRECTED ENERGY PATENT
+US11473880B2 (Directed energy weapon), original granted patent PDF recovered, issued 18 October 2022. Applicant/assignee BAE Systems plc; inventors Nicholas Giacomo Robert Colosimo and Keith Antony Rigby. Claim 10, PDF page 15, depends on Claim 1: it adds determining collateral-damage risk by determining possible target-engagement efficiency and makes engaging-phase energy delivery conditional upon that risk. The original claims contain a concrete control condition, not merely an aspiration to act ethically. However Claim 10 is a dependent claim; it should not be used to imply every device within independent Claim 1 necessarily includes this narrower condition. Nor is it proof of legal proportionality assessment, civilian recognition, or hospital exclusion. It concerns physical directed-energy engagement assessment and control. The hardware procurement bridge remains unproven.
+
+2. UNMANNED AERIAL SYSTEMS PATENT
+US11422549B2, original granted PDF recovered, issued 23 August 2022. Applicant/assignee BAE Systems plc. Claim 1, PDF page 14, covers a configuration apparatus with user inputs at decision points, specifying extent of automation and mandated operator approval, allocation and pre-mission upload of automation levels, and mission control even without communications. At least one of two tasks must be unrelated to navigation.
+This is NOT an automatic lost-link shutdown claim. It expressly permits continued UAV control without communications according to assigned levels. It is a patent for assigning authority at decision points, not proof that a named current weapon automatically withholds lethal force when communications fail. The descriptive discussion lists loss/degradation of communications as one circumstance in which variable automation may be appropriate. Do not equate that with universally conservative fail-safe behavior.
+Important correction: Keith Rigby is NOT named as inventor on this patent. Its inventors are Marc Damien Ridings, Jonathan Gareth Rea, Matthew Jordan Simpson and Grant Andrew Chapman. Rigby's bio's mention of patented safe weapon control over uncertain links cannot by itself identify this particular patent.
+
+3. RIGBY BRIDGE
+S27, Royal Aeronautical Society programme, 17 November 2022: lists Keith Rigby, Principal Technologist Weapon Integration, BAE Systems, speaking about aircraft integration of laser weapons. This links the named co-inventor of the directed-energy patent to relevant integration expertise; it does not identify DragonFire or adoption of Claim 10.
+S28, Royal Aeronautical Society FCAS25 speaker library, PDF page 24: his biography describes leading UK industry development of Rapid Stores Integration Capability, says it is adopted in the Pyramid Reference Architecture and forms the basis of a forthcoming NATO Logical Stores Integration Framework standard. It separately describes leading weapons integration on uncrewed systems, procedures and patented functionality for safe weapons control over links of uncertain availability/timeliness/quality, and consultancy on laser-weapon integration in air and maritime domains.
+These are three distinct statements: architecture pedigree; patented control expertise; laser integration expertise. The biography does not give patent numbers, a named DragonFire configuration, a delivery acceptance test, or a safety-case reference. Do not compress these into one implementation claim.
+
+4. REAL PROGRAMMES
+S24, Dstl/MOD release published 19 January 2024, updated 21 March 2024: DragonFire achieved the UK's first high-power laser firing against aerial targets at the Hebrides range. The release identifies Dstl, MBDA, Leonardo and QinetiQ; it describes line-of-sight operation, relevant-range tests, and a ministerial statement about lower collateral damage. That rhetoric is not evidence of the BAE patent's particular conditional control mechanism.
+S23, MBDA article dated 15 December 2025: indexed primary text describes a £316m contract, announced on 20 November, to deliver DragonFire to the Royal Navy from 2027. It explicitly includes BAE Systems among more than 100 UK organisations working in production. This is a real corporate production bridge, but MBDA does not identify BAE's component or patent. Raw HTTP acquisition failed 403 on 16 November 2026 at 10:24:45 UTC. No challenge page saved; readable indexed primary text was separately inspected through search. Therefore this item is NOT counted as a preserved primary original.
+S25, MOD 22 July 2026 release: £708m FCAS development extension with BAE Systems, including AI, software and other technologies, with Team Tempest partners Leonardo UK, MBDA UK and Rolls-Royce. Funds national infrastructure and technology contributing to GCAP and wider FCAS; not a procurement specification for the patented safeguards.
+S26, RAF Autonomous Collaborative Platform Strategy: frames delivery of safe ACP capability and human-machine cooperation with legal/ethical considerations, operational test and evaluation, and assurance chains. It is strategic direction, not an acceptance test or safety certification of either patent's implementation. Neither general strategic assurance language nor a common contractor closes the patent-to-purchased-function gap.
+
+PERSISTENCE AND METHOD
+Used public unauthenticated HTTP requests. Stored original PDF/HTML bytes unmodified. Parsed derivative text for examination, not as original evidence. SHA256SUMS.txt records hash, byte count, MIME, original URL, Drive ID and verified Drive byte count. All nine acquired originals were uploaded and metadata sizes verified individually before final synthesis. Five nonpatent documents + two patent HTML pages + two original patent PDFs = nine originals. MBDA remains raw-archive gap; no 401/403/CAPTCHA bypass, contact, payment, account creation or permission changes.
+Local limited salvage search found prior patent-procurement cross-reference TXT but no original overnight BAE archive. No recovered working file was misrepresented as the lost overnight original.
+
+BOUNDED NEXT EVIDENCE GAPS (NOT EXECUTED)
+A. DragonFire configuration/safety-case documentation that cites the particular patent, algorithm or control condition, or identifies BAE's supplied component and its acceptance test.
+B. Exact patent identity underlying Rigby's uncertain-link statement and evidence distinguishing it from US11422549B2.
+C. FCAS/ACP or Pyramid integration test/configuration reference for per-decision authorization, not general architecture adoption.
+D. Authoritative original MBDA article bytes; indexed text supports the production connection but raw preservation failed.
+
+No narrative claim here treats a patent grant as an operational certification or an inventor biography as a bill of materials.
