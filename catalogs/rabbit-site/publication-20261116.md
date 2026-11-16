@@ -2,7 +2,7 @@
 
 Rabbit is published at [graemesmith.com/rabbit/](https://graemesmith.com/rabbit/), linked from a new “Recent projects” section of Graeme’s bio. The bio uses the supplied two-sentence text, with only “sources” linked, and reuses the Selected work heading and hairline styling.
 
-The page embeds the existing live Rabbit application. It does not copy the catalog: approved changes continue to appear in one shared source of truth. A small link returns to the bio; another opens Rabbit on its own.
+The page embeds the existing live Rabbit application. It does not copy the catalog: approved changes continue to appear in one shared source of truth. A small link returns to the bio. The extra standalone-site link has been removed.
 
 Visitors can browse and download the approved catalog and change log without signing in. Submitting suggestions, reading private submissions and saving reviews still require authenticated identity. Only the curator can approve changes.
 
@@ -28,4 +28,11 @@ The development-only preview identity remains gated by the build’s DEV flag. N
 - The command-line HTTP client received HTTP 403 with error code 1010 from the hosting edge. Its attempted endpoint checks did not reach the application and are not counted as passed. Anonymous browser checks succeeded. No test submission was added to production.
 - Type checking, production build and 56 existing workflow, caller-isolation, agent and patent-release checks passed. The existing weekly curator email schedule was not changed.
 
-The bio and Rabbit are now connected without maintaining a second catalog. The remaining integration limit is the embedded app’s dependency on its existing Sites host; its direct-open link provides an alternative to the embedded view, not an independent fallback host.
+The bio and Rabbit are now connected without maintaining a second catalog. The remaining integration limit is the embedded app’s dependency on its existing Sites host.
+
+
+## Visual consistency update — 16 November 2026
+
+The bio page and Rabbit wrapper now use Rabbit’s exact cream background, `#f7f5ed`. The introduction now reads: “Research methods may change as artificial intelligence gets better, so these notes reflect work in progress.” The wrapper keeps only the back link to Graeme’s bio.
+
+The live browser confirmed the bio body, wrapper background and Rabbit body all render as `rgb(247, 245, 237)`. It also confirmed the revised sentence and absence of the standalone-site link. Type checking and the production build passed. Rabbit version 17 was deployed successfully from source `40963cd0811564cf124bc725e435472849e4c97f`; the bio repository changes are `ce78f3bd5832b527524cc7621643aad5a28b26af` and `bc3322a8d2621eea3b338f29a23a65293438825f`.
