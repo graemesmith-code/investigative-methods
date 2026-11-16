@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "file": "R01_des.html",
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop",
+        "title": "R01_des.html",
+        "file_name": "R01_des.html",
+        "mime_type": "text/html",
+        "url": "https://drive.google.com/file/d/1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop",
+          "title": "R01_des.html",
+          "file_name": "R01_des.html",
+          "mime_type": "text/html",
+          "url": "https://drive.google.com/file/d/1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop/view?usp=drivesdk",
+          "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        }
+      },
+      "metadata": {
+        "id": "1-1BPSe9Ku03RUhoRvGWv6Tv2SBgZRtop",
+        "title": "R01_des.html",
+        "mime_type": "text/html",
+        "size": "57388",
+        "url": null,
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "file": "R02_cgi.pdf",
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1aJfacmUH9msy72k4AuYqE27UhYB6-oi1",
+        "title": "R02_cgi.pdf",
+        "file_name": "R02_cgi.pdf",
+        "mime_type": "application/pdf",
+        "url": "https://drive.google.com/file/d/1aJfacmUH9msy72k4AuYqE27UhYB6-oi1/view?usp=drivesdk",
+        "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1aJfacmUH9msy72k4AuYqE27UhYB6-oi1",
+          "title": "R02_cgi.pdf",
+          "file_name": "R02_cgi.pdf",
+          "mime_type": "application/pdf",
+          "url": "https://drive.google.com/file/d/1aJfacmUH9msy72k4AuYqE27UhYB6-oi1/view?usp=drivesdk",
+          "parent_id": "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        }
+      },
+      "metadata": {
+        "id": "1aJfacmUH9msy72k4AuYqE27UhYB6-oi1",
+        "title": "R02_cgi.pdf",
+        "mime_type": "application/pdf",
+        "size": "292950",
+        "url": null,
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1j6bqtnpdci7RGLLS-O7ksLU2-bbWgG2O"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ],
+  "note": "Checkpoint1. Original bodies acquired, remote byte sizes verified. Other files still in progress."
+}
