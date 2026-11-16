@@ -1,0 +1,34 @@
+[
+  {
+    "name": "B01_EDA_SafeNGVA.html",
+    "url": "https://eda.europa.eu/news-and-events/news/2023/01/31/new-eda-project-seeks-to-enhance-ngva-%28nato-generic-vehicle-architecture%29-safety",
+    "utc": "2026-11-16T11:58:16.052900+00:00",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "name": "B02_Rheinmetall_Boxer_UK.pdf",
+    "url": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2023/9/Presskit%20DSEI/2023-09-12%20Rheinmetall%20RBSL%20Boxer%20MIV%20update%20engl%20final.pdf",
+    "utc": "2026-11-16T11:58:21.139371+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 2502293,
+    "sha256": "ad8521e9e532e23899b623f261d2d09cf189ab4c6157fef4084d0406f0e9d0ca",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_boxer/raw/B02_Rheinmetall_Boxer_UK.pdf"
+  },
+  {
+    "name": "B03_LOSA.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/6a9673c63b22fb169dc18fb5/MOD10498_00319415_LOSA_A5_56pp_Booklet_1__1_.pdf",
+    "utc": "2026-11-16T11:58:25.824164+00:00",
+    "status": 200,
+    "mime": "application/pdf",
+    "bytes": 18671148,
+    "sha256": "a7f706e059e30d6ee797e6b9f52f823c7019b225db3efd20775ae6609b3a5da7",
+    "path": "/workspace/scratch/18770d4a85a4/stage2_boxer/raw/B03_LOSA.pdf"
+  },
+  {
+    "name": "B04_Kongsberg_Boxer_NGVA.html",
+    "url": "https://www.kongsberg.com/news/news-archive/2022/protector-rs4-chosen-for-boxer-vehicle-with-new-mission-module/",
+    "utc": "2026-11-16T11:58:32.508750+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]
