@@ -24,6 +24,12 @@ The existing six agent reads now use the approved live layer. Three new tools su
 
 An assistant can make suggestions cheaply. The scarce part is still the human judgment that decides whether a source is useful, distinct and honestly described.
 
+## Automatic review — 16 November 2026
+
+Pending proposals now include a first check for possible duplicate sources, access routes and candidates, plus missing evidence. The check is visible in the review inbox and agent reads. It compares names, URLs and submitted notes; it does not verify source contents. A separate weekly assistant review is scheduled to inspect source evidence and email an accept, merge, hold or decline recommendation for each pending change. Human approval remains mandatory.
+
+The weekly email task is enabled for Mondays at 09:00 Europe/Rome, starting 23 November. No email has been sent yet. Forty-five workflow and agent checks passed, and a post-publication agent read returned all five pending patent handoffs with the new recommendations. The German and French status notes were flagged for missing evidence. [Method, limits and verification](living-workflow.md).
+
 ## Four ways to get your bearings
 
 - **By subject:** interactive counted circles for the ten largest detailed record families, each with a visible one-line explanation. Names and explanations sit below the circles on larger screens and beside them on phones. All 36 observed families remain available. Clicking Company records opens exactly 167 source systems; Public contracts & spending opens 180. A source may belong to several families.
@@ -113,7 +119,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `ef48cb25f32d49e1924678fa9b91aeb0d767d190`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `98ee54a5ae93527a5b8f38bc9f18393f4f4b0d5e`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
