@@ -15,6 +15,20 @@
       "target_id": "",
       "request_key": "patent-review-20261116-epo-linked",
       "submitted_by": "Research handoff · awaiting human review"
+    },
+    "status": "accepted",
+    "decided_at": "2026-11-16T10:13:45.433Z",
+    "version": 1,
+    "decision": {
+      "status": "accepted",
+      "note": "Approved for inclusion as a separate European Patent Office linked-data discovery service. Bibliographic and family coverage is distinct from Open Patent Services. Full-text coverage varies; no worldwide full-text or automatic collection claim is made.",
+      "approval": {
+        "approved_by": "Graeme Smith",
+        "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+      },
+      "release_file": "../releases/rabbit-patents-20261116.json"
     }
   },
   {
@@ -33,6 +47,20 @@
       "target_id": "SYS-0772",
       "request_key": "patent-review-20261116-uspto-export",
       "submitted_by": "Research handoff · awaiting human review"
+    },
+    "status": "accepted",
+    "decided_at": "2026-11-16T10:13:45.433Z",
+    "version": 1,
+    "decision": {
+      "status": "accepted",
+      "note": "Approved as a correction to the existing US patent-search entry: the reported 500 rows are an auto-loaded batch, not the export ceiling. Retain the dated audit and its evidence links.",
+      "approval": {
+        "approved_by": "Graeme Smith",
+        "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+      },
+      "release_file": "../releases/rabbit-patents-20261116.json"
     }
   },
   {
@@ -51,6 +79,20 @@
       "target_id": "SYS-0776",
       "request_key": "patent-review-20261116-cipo-scope",
       "submitted_by": "Research handoff · awaiting human review"
+    },
+    "status": "accepted",
+    "decided_at": "2026-11-16T10:13:45.433Z",
+    "version": 1,
+    "decision": {
+      "status": "accepted",
+      "note": "Approved as a scope note on the existing Canadian patent source. The examined weekly part contained abstracts and metadata, not claims or descriptions. This does not establish the content of every Canadian bulk product.",
+      "approval": {
+        "approved_by": "Graeme Smith",
+        "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+      },
+      "release_file": "../releases/rabbit-patents-20261116.json"
     }
   },
   {
@@ -69,6 +111,20 @@
       "target_id": "SYS-0784",
       "request_key": "patent-review-20261116-dpma-status",
       "submitted_by": "Research handoff · awaiting human review"
+    },
+    "status": "accepted",
+    "decided_at": "2026-11-16T10:13:45.433Z",
+    "version": 1,
+    "decision": {
+      "status": "accepted",
+      "note": "Approved as an evidence-limited note on the existing German patent register. The recovered research reports an official status check, but its original acquisition archive remains missing. Reacquire the evidence before relying on the reported status.",
+      "approval": {
+        "approved_by": "Graeme Smith",
+        "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+      },
+      "release_file": "../releases/rabbit-patents-20261116.json"
     }
   },
   {
@@ -87,6 +143,20 @@
       "target_id": "SYS-0783",
       "request_key": "patent-review-20261116-inpi-status",
       "submitted_by": "Research handoff · awaiting human review"
+    },
+    "status": "accepted",
+    "decided_at": "2026-11-16T10:13:45.433Z",
+    "version": 1,
+    "decision": {
+      "status": "accepted",
+      "note": "Approved as an evidence-limited note on the existing French patent portal. National and European records require separate checks. The original acquisition archive remains missing; current legal effect is not certified by this catalog approval.",
+      "approval": {
+        "approved_by": "Graeme Smith",
+        "basis": "Explicit owner instruction in ChatGPT to approve and publish the five pending patent entries.",
+        "recorded_at": "2026-11-16T10:13:45.433Z",
+        "verification_scope": "Approval to include the entries in the catalog. It does not independently verify every source claim or enable collection."
+      },
+      "release_file": "../releases/rabbit-patents-20261116.json"
     }
   }
 ]
