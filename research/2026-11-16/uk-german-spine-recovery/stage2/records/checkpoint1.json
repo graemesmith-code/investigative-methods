@@ -1,0 +1,125 @@
+{
+  "note": "Task1 first checkpoint. Uploaded two PDFs and metadata verified bytes and folder. Other saved files not yet uploaded.",
+  "drive_ids": {
+    "T1_Bundestag_2105159.pdf": "1PMjetkPT9Gt3VHKvOzJpTpiI_5faMAG2",
+    "T1_Wu2022.pdf": "1g-1_rBfchDaVl_t41dusbxPLPwbJg1l5"
+  },
+  "fetch_log": [
+    {
+      "name": "T1_Bundestag_2105159.pdf",
+      "url": "https://dserver.bundestag.de/btd/21/051/2105159.pdf",
+      "timestamp": "2026-11-16T11:56:07.132129+00:00",
+      "status": 200,
+      "mime": "application/pdf",
+      "final_url": "https://dserver.bundestag.de/btd/21/051/2105159.pdf",
+      "bytes": 1086459,
+      "result": "saved",
+      "sha256": "6632c3a0f6cd21648f2feafc239c0a7fe07733a9e5cafd96d270833cebb7bcde",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_Bundestag_2105159.pdf"
+    },
+    {
+      "name": "T1_BMVg_KI.pdf",
+      "url": "https://www.bmvg.de/resource/blob/6143700/9954e2b6b993b17cd3d09ca31c506774/dl-ki-konzeption-data.pdf",
+      "timestamp": "2026-11-16T11:56:14.369668+00:00",
+      "result": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    {
+      "name": "T1_Ghostplay_mirror.pdf",
+      "url": "https://files.auftrag-select.com/file/auftrag-select-public/pdfs/6656021/bekanntmachung.pdf",
+      "timestamp": "2026-11-16T11:56:18.721408+00:00",
+      "result": "failed",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "name": "T1_EP4229352A1.xml",
+      "url": "https://data.epo.org/linked-data/representation/publication/EP/4229352/NWA1.xml",
+      "timestamp": "2026-11-16T11:56:22.942934+00:00",
+      "status": 200,
+      "mime": "application/xml",
+      "final_url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4229352NWA1/document.xml",
+      "bytes": 4598,
+      "result": "saved",
+      "sha256": "1c77bdf849c98a8fcd65e5738c28762a9d1827ce89485048908b3e93ec835a43",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_EP4229352A1.xml"
+    },
+    {
+      "name": "T1_RENK.pdf",
+      "url": "https://ir.renk.com/static-files/1223e64d-1b82-4b79-97a3-1fec64780557",
+      "timestamp": "2026-11-16T11:56:46.434647+00:00",
+      "result": "failed",
+      "error": "HTTP Error 503: Service Unavailable",
+      "status": 503
+    },
+    {
+      "name": "T1_Wu2022.pdf",
+      "url": "https://savage.nps.edu/EthicalControl/documentation/papers/SSS-22_paper_117_TieredApproachEthicalAIEvaluationMetrics.pdf",
+      "timestamp": "2026-11-16T11:57:05.361893+00:00",
+      "status": 200,
+      "mime": "application/pdf",
+      "final_url": "https://savage.nps.edu/EthicalControl/documentation/papers/SSS-22_paper_117_TieredApproachEthicalAIEvaluationMetrics.pdf",
+      "bytes": 223159,
+      "result": "saved",
+      "sha256": "0e6714992879f299496f45d61af6228fb6c0650e0fd349aed7213db00dfde927",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_Wu2022.pdf"
+    },
+    {
+      "name": "T1_ACTS.html",
+      "url": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID=AUG648236&catID=",
+      "timestamp": "2026-11-16T11:57:10.360334+00:00",
+      "result": "failed",
+      "error": "HTTP Error 403: Forbidden",
+      "status": 403
+    },
+    {
+      "name": "T1_INPI_FR3102239.html",
+      "url": "https://data.inpi.fr/brevets/FR3102239",
+      "timestamp": "2026-11-16T11:57:31.612628+00:00",
+      "status": 200,
+      "mime": "text/html; charset=UTF-8",
+      "final_url": "https://data.inpi.fr/brevets/FR3102239",
+      "bytes": 132489,
+      "result": "saved",
+      "sha256": "a52fec4d01b9ac2301f95e5864fa34558619e38424f1792de19a9b3bbba89109",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_FR3102239.html"
+    },
+    {
+      "name": "T1_INPI_EP3812690.html",
+      "url": "https://data.inpi.fr/brevets/EP3812690",
+      "timestamp": "2026-11-16T11:57:37.593649+00:00",
+      "status": 200,
+      "mime": "text/html; charset=UTF-8",
+      "final_url": "https://data.inpi.fr/brevets/EP3812690",
+      "bytes": 130561,
+      "result": "saved",
+      "sha256": "4e49697eeed685a376a5c054aaeec7ed65997bbf51a535a2fabcd4aad0c6a0ee",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_EP3812690.html"
+    },
+    {
+      "name": "T1_INPI_EP3882560.html",
+      "url": "https://data.inpi.fr/brevets/EP3882560",
+      "timestamp": "2026-11-16T11:57:58.686308+00:00",
+      "status": 200,
+      "mime": "text/html; charset=UTF-8",
+      "final_url": "https://data.inpi.fr/brevets/EP3882560",
+      "bytes": 139860,
+      "result": "saved",
+      "sha256": "71934951ea911e88898d1f0c05f9308203f4f3b4e7cb754cd736e1506c33c107",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_EP3882560.html"
+    },
+    {
+      "name": "T1_INPI_EP3882561.html",
+      "url": "https://data.inpi.fr/brevets/EP3882561",
+      "timestamp": "2026-11-16T11:58:05.089253+00:00",
+      "status": 200,
+      "mime": "text/html; charset=UTF-8",
+      "final_url": "https://data.inpi.fr/brevets/EP3882561",
+      "bytes": 139017,
+      "result": "saved",
+      "sha256": "69c4b8cdc39c663e375c53df425c17b04a5f112ddfedc8fe9e198dddbf73e6f2",
+      "path": "/workspace/scratch/18770d4a85a4/stage2_records/raw/T1_INPI_EP3882561.html"
+    }
+  ]
+}
