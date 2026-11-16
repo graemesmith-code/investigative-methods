@@ -8,7 +8,7 @@ All six originals and the distinct Rabbit2 revision are available below, preserv
 
 ## Browse and review in the Rabbit Site
 
-The [private Rabbit Site](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site) provides search, filters, original source-to-access relationships, a candidate review queue, saved verification notes, coverage views and CSV/JSON exports. It contains the historical catalog and 53 dated supplemental review entries. Nothing is automatically enabled or collected. The original 14 November 2026 snapshot is preserved; human-approved additions and correction notes now appear in a live layer. [Suggest a source](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site/contribute) or [read the change log](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site/changes). Suggestions require human review. GitHub synchronization and publisher refreshes are not automatic. [Workflow, import audit and reproducible importer](rabbit-site/README.md).
+The [Rabbit Site](https://graemesmith.com/rabbit/) provides search, filters, original source-to-access relationships, a candidate review queue, saved verification notes, coverage views and CSV/JSON exports. It contains the historical catalog and 53 dated supplemental review entries. Nothing is automatically enabled or collected. The original 14 November 2026 snapshot is preserved; human-approved additions and correction notes now appear in a live layer. [Suggest a source](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site/contribute) or [read the change log](https://rabbit-source-catalog.automatic-de-6954.chatgpt.site/changes). Suggestions require human review. GitHub synchronization and publisher refreshes are not automatic. [Workflow, import audit and reproducible importer](rabbit-site/README.md).
 
 ## Choose a volume
 
@@ -39,7 +39,12 @@ New source reviews are linked here separately from the preserved exports. Their 
 | [RAB-AIWEAPONS-20261109 — AI-weapons research sources](additions/ai-weapons-research-20261109/README.md) | 26 source/route reviews connecting research intentions, outputs, institutional funding, tests and transition; existing-source corrections included | Official documentation/public pages reviewed 9 November 2026; historical payload checks separated; DTIC unavailable and failed direct access labeled |
 | [RAB-WARLOGS-20261114 — WikiLeaks war diaries](additions/wikileaks-war-diaries-20261114.md) | Public Afghan and Iraqi military reports; distinguishes published records, original leak and full war coverage | Official index and sample narrative retrieved 14 November 2026; bulk download and access to withheld material not verified |
 
-[16 November patent-source handoffs](additions/patent-source-handoffs-20261116.json): one proposed EPO linked-data service and four correction/verification notes for existing systems. All five await human review; they are not five new systems and do not increase the historical total.
+[16 November patent-source handoffs](additions/patent-source-handoffs-20261116.json): one European Patent Office linked-data service and four correction/verification notes for existing systems. All five were approved; see the [approved release](#approved-patent-release--16-november-2026). The preserved historical totals remain unchanged.
+
+### GitHub source-use audit — 16 November 2026
+
+[Audit findings and review evidence](additions/github-source-audit-20261116/README.md): **17 missing source collections, five additional access routes and three usage or limitation notes** were submitted to Rabbit. All 25 await human review. The audit distinguishes sources used in investigations from those only inspected during scoping, preserves project evidence and existing source relationships, and records automatic-check limitations. The approved catalog remains **1,556 sources and 2,517 access methods**.
+
 
 ## Try one source
 
