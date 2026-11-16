@@ -12,6 +12,18 @@ Search and filter by topic, country or jurisdiction, organization, access type a
 
 The catalog is a map to potential evidence. A long list of old access links is useful only if the reporter can see what each link promises, what was actually checked and what still fails.
 
+## Living catalog — 16 November 2026
+
+The home page now invites source suggestions and links to a sourced change log. People use a short form; agents use `rabbit_submit_proposal`, the authenticated submission endpoint, or a JSON proposal imported into the form. New sources, additional access methods and correction notes stay pending until the curator reviews them. Accepted changes appear in current catalog search, exports and agent reads. Acceptance does not enable a route.
+
+The growth chart counts distinct catalog systems: **1,555 already existed in the August export**. September added review notes, October preserved the archive, and November imported it. Separate supplements and earlier workbook totals must not be mistaken for deduplicated growth. New human-approved systems extend the count from their actual approval dates; correction notes and extra methods do not.
+
+Five [patent-source handoffs](../additions/patent-source-handoffs-20261116.json) are pending: one proposed EPO linked-data source and four updates to existing USPTO, CIPO, DPMA and INPI records. No real proposal was approved during implementation.
+
+The existing six agent reads now use the approved live layer. Three new tools submit proposals, read visible submissions and read the change log. The original read-only description below records the first implementation; it is superseded by this submission workflow. [Readable workflow, technical annex and validation](living-workflow.md).
+
+An assistant can make suggestions cheaply. The scarce part is still the human judgment that decides whether a source is useful, distinct and honestly described.
+
 ## Four ways to get your bearings
 
 - **By subject:** interactive counted circles for the ten largest detailed record families, each with a visible one-line explanation. Names and explanations sit below the circles on larger screens and beside them on phones. All 36 observed families remain available. Clicking Company records opens exactly 167 source systems; Public contracts & spending opens 180. A source may belong to several families.
@@ -45,7 +57,7 @@ Enabled routes remain separate from the candidate queue. Parked and rejected can
 
 ## Limits and ongoing maintenance
 
-- This is a **14 November 2026 snapshot plus a persistent review workspace**. The Site does not automatically synchronize with GitHub or refresh external source records.
+- The **14 November 2026 baseline is preserved**, with a live layer of human-approved additions and correction notes plus a private review workspace. The Site does not automatically synchronize with GitHub or refresh publisher endpoints.
 - No source endpoints were retested while building it. Historical verification dates are not upload or import dates.
 - Coverage views count catalog records. They do not measure the completeness of real-world data or news coverage.
 - Publisher groupings use the recorded publisher, with an official-domain fallback where missing. They are catalog relationships, not proof of organizational control.
@@ -53,7 +65,7 @@ Enabled routes remain separate from the candidate queue. Parked and rejected can
 - Full JSON exports retain original record text, source/access links, coverage mappings, provenance and current review state. Spreadsheet exports are available for simpler use.
 - Publication succeeded and the live sign-in gate was checked. Functional tests ran in the development preview; a signed-in production browser test was not completed because the test browser had no ChatGPT session. Preview test data was not published.
 
-## Agent access
+## Agent access — original 15 November implementation
 
 Rabbit now offers a read-only Model Context Protocol (MCP) connection. An assistant can search sources, retrieve original evidence and source-to-access-method relationships, count coverage categories, and read the caller's review queue and decisions. The ordinary website remains the main way in for people; technical help sits behind a small **For agents** footer link.
 
@@ -101,7 +113,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `abf9dd804a91ee60be06c83aa833d11688697612`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `ef48cb25f32d49e1924678fa9b91aeb0d767d190`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -148,3 +160,5 @@ Future imports must preserve stable identifiers and the separate review database
 ### Duplicate logo removal — 16 November 2026
 
 Removed the second rabbit logo beside “A rough map of new possibilities.” The masthead logo remains. The introduction now uses a single column, with its existing text-width limits. Source inspection confirmed that the only page image using the logo is in the masthead; favicon references remain. The production build passed. No catalog records, review behavior, agent tools or permissions changed. This narrow presentation edit was checked in source and build output, not through a new browser session.
+
+The living-catalog publication succeeded on 16 November 2026. The refreshed native agent catalog-info call returned the live-layer metadata and 1,555 systems; no test record was published. Newly registered submission tools were not exposed to this running conversation, so a direct production submission through those tools remains untested. The complete form-to-approval flow was tested in the local preview; Claude and Gemini connections remain untested.
