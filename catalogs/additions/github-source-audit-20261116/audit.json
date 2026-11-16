@@ -1,0 +1,1130 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-16",
+  "repository": "graemesmith-code/investigative-methods",
+  "repository_commit": "79a42f5299e5be24a0a0f1ef5b0959857810b128",
+  "scope": {
+    "repository_files_indexed": 4868,
+    "tree_truncated": false,
+    "source_guides_and_registers_screened": 41,
+    "exclusions": [
+      "Not a line-by-line review of every repository file.",
+      "No large source payload reacquisition or experiment rerun.",
+      "No private supplied PDF contents copied into Rabbit.",
+      "Other lidar regions and deferred funding-source leads remain in linked GitHub source registers."
+    ]
+  },
+  "catalog_comparison": {
+    "historical_revision": "88ebd891e75d6448ecf7420ac2df3e6c1f0565a5",
+    "approved_counts_before": {
+      "source_records": 1556,
+      "access_methods": 2517,
+      "coverage_mappings": 1739,
+      "imported_candidates": 53
+    },
+    "approved_counts_after": {
+      "source_records": 1556,
+      "access_methods": 2517,
+      "coverage_mappings": 1739,
+      "imported_candidates": 53
+    },
+    "accepted_change_count": 5,
+    "imported_candidates_compared": 53,
+    "existing_accepted_patent_updates_not_resubmitted": true
+  },
+  "results": {
+    "submitted": 25,
+    "pending": 25,
+    "new_sources": 17,
+    "new_access_methods": 5,
+    "correction_or_usage_notes": 3,
+    "automatic_review_for_acceptance": 22,
+    "automatic_hold": 3,
+    "automatic_check_is_content_verification": false
+  },
+  "screened_files": [
+    {
+      "path": "catalogs/README.md",
+      "blob_sha": "6205a819b6a333dd10513d4f1d1b0a3869d7b32f",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/README.md"
+    },
+    {
+      "path": "catalogs/additions/global-lidar-20261014/README.md",
+      "blob_sha": "f5132cd9d54b885d14bb5d69a0de49ebe36ad402",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/README.md"
+    },
+    {
+      "path": "evidence/api-samples/manifest.csv",
+      "blob_sha": "d4c53193c007a8c19efd977a6141ad5714f52455",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/evidence/api-samples/manifest.csv"
+    },
+    {
+      "path": "research/2026-10-01/ati-live/README.md",
+      "blob_sha": "d6e1fd3e71c047e4153607d6029879f4f7d1fade",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-01/ati-live/README.md"
+    },
+    {
+      "path": "research/2026-10-06/alberta-seismic-injection/README.md",
+      "blob_sha": "d06dc0688b4cae57acd73380513bf5235044399e",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/README.md"
+    },
+    {
+      "path": "research/2026-10-06/cross-family-trial/README.md",
+      "blob_sha": "da6639714454d383fea380e2da006ee8eec520b3",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/cross-family-trial/README.md"
+    },
+    {
+      "path": "research/2026-10-07/three-well-records/README.md",
+      "blob_sha": "00df14fa79a8480b804343df4c3109fa1bf6eca8",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-07/three-well-records/README.md"
+    },
+    {
+      "path": "research/2026-10-14/fara-award-pilot/README.md",
+      "blob_sha": "f5223d77cbfa9e9a8a3fbb1199f71328bc5403b8",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-14/fara-award-pilot/README.md"
+    },
+    {
+      "path": "research/2026-10-14/nai-contract-history/README.md",
+      "blob_sha": "2225a93ad6b99492db7ea0dbb934a94bb329e596",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-14/nai-contract-history/README.md"
+    },
+    {
+      "path": "research/2026-10-15/afghan-unknown-language-pdfs/README.md",
+      "blob_sha": "012bd7fc3ab30b3aa4c722f71bf083529f3c515a",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-15/afghan-unknown-language-pdfs/README.md"
+    },
+    {
+      "path": "research/2026-10-15/institutional-activity/README.md",
+      "blob_sha": "4ca9ee7357f3c012d129a6df0742150df5deeff0",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-15/institutional-activity/README.md"
+    },
+    {
+      "path": "research/2026-10-15/institutional-activity/satellite-nightlights/README.md",
+      "blob_sha": "a557c2423e2d1a9334de314b78819e022cab7c29",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-15/institutional-activity/satellite-nightlights/README.md"
+    },
+    {
+      "path": "research/2026-10-16/afghan-chinese-language-pdfs/README.md",
+      "blob_sha": "363578bba896fcf60ca980ec8f4929068ffd3001",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/afghan-chinese-language-pdfs/README.md"
+    },
+    {
+      "path": "research/2026-10-16/afghan-russian-arabic-turkish-hindi-pdfs/README.md",
+      "blob_sha": "43b0fab7f4401f73133d1e3d236c69e6ed49451e",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/afghan-russian-arabic-turkish-hindi-pdfs/README.md"
+    },
+    {
+      "path": "research/2026-10-16/future-warfare-investments/README.md",
+      "blob_sha": "916c35f3020291ddfe21a3c44ffe540b75668b9d",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/README.md"
+    },
+    {
+      "path": "research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "blob_sha": "f656a3912f3804bffe2b52f32891b28d570e0091",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/acquisition/README.md"
+    },
+    {
+      "path": "research/2026-10-16/future-warfare-investments/acquisition/SOURCE_DECISIONS.csv",
+      "blob_sha": "73b26f16dd96d224b7a92480abc1d48887536fdd",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/acquisition/SOURCE_DECISIONS.csv"
+    },
+    {
+      "path": "research/2026-10-16/future-warfare-investments/track-1-data-universe/expanded_bulk_register.csv",
+      "blob_sha": "4ded437f5a188d24b639719ebe21de61ef6b58fe",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/track-1-data-universe/expanded_bulk_register.csv"
+    },
+    {
+      "path": "research/2026-10-16/future-warfare-investments/track-1-data-universe/overseas_security_sources.csv",
+      "blob_sha": "1d4f58009b7ddee0bf4c833b4b864c42264cd4d4",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/track-1-data-universe/overseas_security_sources.csv"
+    },
+    {
+      "path": "research/2026-10-17/ihl-audit-feasibility/README.md",
+      "blob_sha": "d7a70ef3dd23325b711b03bb54550e0dbcc91a0c",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-17/ihl-audit-feasibility/README.md"
+    },
+    {
+      "path": "research/2026-10-18/global-base-nightlights/README.md",
+      "blob_sha": "dec23d6c2a6ebc748f4dc3a66e440b86bbcd9bac",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-18/global-base-nightlights/README.md"
+    },
+    {
+      "path": "research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "blob_sha": "3114807fff4decb8521d4a8415863a63607b2f22",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-18/global-base-nightlights/SOURCES.md"
+    },
+    {
+      "path": "research/2026-10-22/tuscany-corporate-records/README.md",
+      "blob_sha": "4db8f23b27e96d93de262a83b1eecc61dc9fac36",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-22/tuscany-corporate-records/README.md"
+    },
+    {
+      "path": "research/2026-10-23/ai-targeting-pilot/README.md",
+      "blob_sha": "1d3fd9bd7db327dde63d89b203d68a71b7d6957c",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-23/ai-targeting-pilot/README.md"
+    },
+    {
+      "path": "research/2026-10-24/f2-tactical-ai/README.md",
+      "blob_sha": "0067fda81c9f6a71a5777611114346056a2663a4",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-24/f2-tactical-ai/README.md"
+    },
+    {
+      "path": "research/2026-10-25/asimov-collaborative-weapons/README.md",
+      "blob_sha": "b88533aeb34ab1bf5ceb2ab969b095f246fb1dbb",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-25/asimov-collaborative-weapons/README.md"
+    },
+    {
+      "path": "research/2026-10-25/f4-autonomy-brakes-audit/README.md",
+      "blob_sha": "aa58aec63ad996954b2b0943fd60769ae82de50e",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-25/f4-autonomy-brakes-audit/README.md"
+    },
+    {
+      "path": "research/2026-10-25/f5-global-autonomy-brakes/README.md",
+      "blob_sha": "a943427aaea015813478d3c23fb020c1dc5f5824",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-25/f5-global-autonomy-brakes/README.md"
+    },
+    {
+      "path": "research/2026-10-26/f6-corporate-legal-brakes/README.md",
+      "blob_sha": "002437461f9e403fa0683b861d44c8dd94d00297",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-26/f6-corporate-legal-brakes/README.md"
+    },
+    {
+      "path": "research/2026-11-05/cygnet-aer-report-review/README.md",
+      "blob_sha": "00ae8ab5be82bd8a9c2a5c3458be8074870b3b39",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-11-05/cygnet-aer-report-review/README.md"
+    },
+    {
+      "path": "research/2026-11-13-asimov-independent-scrutiny/README.md",
+      "blob_sha": "4f82c0d336bb7886523053d55b80f58478aa20e1",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-11-13-asimov-independent-scrutiny/README.md"
+    },
+    {
+      "path": "research/2026-11-15/patent-landscape-audit/UK_ROUTE_CHECK.md",
+      "blob_sha": "79742071907ee5222ae78f55534b5742218e2a69",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-11-15/patent-landscape-audit/UK_ROUTE_CHECK.md"
+    },
+    {
+      "path": "research/2026-11-16/procurement-bridge-audit/METHODS.md",
+      "blob_sha": "323f8322589ac22d905e6dc7e45854d10972c5f5",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-11-16/procurement-bridge-audit/METHODS.md"
+    },
+    {
+      "path": "research/2026-11-16/uk-german-spine-recovery/regulatory/FINAL_MANIFEST.json",
+      "blob_sha": "33646f853381da84d2dc830c40b4c4bab7e6e559",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-11-16/uk-german-spine-recovery/regulatory/FINAL_MANIFEST.json"
+    },
+    {
+      "path": "catalogs/additions/global-lidar-20261014/western-europe.md",
+      "blob_sha": "14fbdb550f832eedebb3a594af12a0740190f37b",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/western-europe.md"
+    },
+    {
+      "path": "catalogs/additions/global-lidar-20261014/americas.md",
+      "blob_sha": "26d3e035e31431fcf9df303c422e3b535926a658",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/americas.md"
+    },
+    {
+      "path": "catalogs/additions/global-lidar-20261014/asia-pacific.md",
+      "blob_sha": "9ec8c6fc49a7437bde7ef8ea3dfbfaa150e361df",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/asia-pacific.md"
+    },
+    {
+      "path": "research/2026-10-16/future-warfare-investments/history/README.md",
+      "blob_sha": "9510ebf9a063794344b31a32f26ced5308d4f0f0",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/history/README.md"
+    },
+    {
+      "path": "research/2026-10-06/alberta-seismic-injection/TECHNICAL-ANNEX.md",
+      "blob_sha": "cafb2412a4dec82058e570fd2d4765594699d33c",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/TECHNICAL-ANNEX.md"
+    },
+    {
+      "path": "research/2026-10-06/alberta-seismic-injection/sources/manifest.jsonl",
+      "blob_sha": "671cf0144ef022abbdd0cb4f304fc4f889b38404",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/sources/manifest.jsonl"
+    },
+    {
+      "path": "catalogs/additions/global-lidar-20261014/other-europe.md",
+      "blob_sha": "d48e5a2658e8a0f1fecb9b1ee85daddbe5f8644c",
+      "source_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/other-europe.md"
+    }
+  ],
+  "updates": [
+    {
+      "key": "finepdfs",
+      "kind": "new_source",
+      "name": "FinePDFs — archived public-document discovery",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+      "organization": "Hugging Face FineData team / Common Crawl-derived corpus",
+      "country": "Global",
+      "topic": "Politics, law & archives",
+      "access": "Bulk / download",
+      "evidence_path": "research/2026-10-15/afghan-unknown-language-pdfs/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-15/afghan-unknown-language-pdfs/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Used in the 15–16 October Afghan-document research. The unknown-language pass examined 239 records from 228 distinct government URLs; later language-specific work corrected that limited scope. Downloadable Parquet contains extracted text, source URLs, language fields and archive pointers. Distinct from Common Crawl (SYS-0134): this is a processed discovery corpus, not the original archive. Preserve original URL, crawl date, dataset row and archived-document provenance. Language labels can be wrong; crawl dates are not publication dates; recovery and source-text reuse need separate checks. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-finepdfs",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-b08ee152-2037-4387-a727-afe0d929af29",
+      "created_at": "2026-11-16T12:11:27.415Z",
+      "status": "pending",
+      "duplicate_assessment": "Hugging Face Hub metadata SYS-1498 concerns models/platform metadata, not this document corpus. Common Crawl SYS-0134 is its upstream archive, not the processed dataset.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 2,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "wmata",
+      "kind": "new_source",
+      "name": "WMATA historical ridership data",
+      "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+      "organization": "Washington Metropolitan Area Transit Authority",
+      "country": "United States",
+      "topic": "Transport & infrastructure",
+      "access": "Search / web portal; CSV exports",
+      "evidence_path": "research/2026-10-15/institutional-activity/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-15/institutional-activity/README.md",
+      "research_use": "used_in_investigation",
+      "note": "The 15 October activity pilot acquired 14,688 station/date/time-selection rows for four stations, three selections and 1,224 dates. Source fields support joins by station, service date and time window. The tested measure did not flag either scored operation window; another was unscorable. Passenger entries do not measure building occupancy. The historical documentation records a seven-day publication delay and service-day conventions; useful for retrospective research, not same-night alerts. Current landing page was readable on 16 November; no fresh export was collected. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-wmata",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-90643255-2c43-4124-b3b6-4188a06d62ae",
+      "created_at": "2026-11-16T12:11:28.759Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "defense-contracts",
+      "kind": "new_source",
+      "name": "US defence daily contract announcements",
+      "url": "https://www.defense.gov/News/Contracts/",
+      "organization": "US Department of Defense / current War.gov publisher",
+      "country": "United States",
+      "topic": "Procurement, spending & aid",
+      "access": "Website / RSS; archived pages",
+      "evidence_path": "research/2026-10-16/future-warfare-investments/history/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/history/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Used for the preserved 10,000-row contract export and historical archive extension targeting 12 September 2018–11 September 2023. Live pages were blocked in the October run; the work recovered official pages through Internet Archive CDX and Wayback, preserving original URLs, capture/retrieval times and hashes. Distinct from USAspending (SYS-0054): announcements provide narrative and contractual context. Announcement paragraphs, ceilings, options and obligations cannot be summed as spending. Coverage gaps and an original-export boundary cutoff are documented. The direct publisher page again returned 403 to this review tool on 16 November; no bypass or new archive collection was attempted. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-defense-contracts",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-15ca3549-477c-4f20-a354-a2de228ce43c",
+      "created_at": "2026-11-16T12:11:30.082Z",
+      "status": "pending",
+      "duplicate_assessment": "Official narrative announcement series, distinct from structured USAspending transactions SYS-0054.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "omb-budget",
+      "kind": "new_source",
+      "name": "OMB Public Budget Database and account tables",
+      "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+      "organization": "US Office of Management and Budget",
+      "country": "United States",
+      "topic": "Procurement, spending & aid",
+      "access": "Bulk / download",
+      "evidence_path": "research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "research_use": "used_in_investigation",
+      "note": "The 16 October funding-source acquisition parsed 38,600 account/year/measure/vintage cells. Useful for following budget accounts over time and placing award-level records in their fiscal context. Keep account identifiers, fiscal years, measure labels and budget vintages; requests, authority and outlays are different measures. This is the originating budget dataset, not another copy of GovInfo (SYS-0125). Publisher documentation was reachable on 16 November; historical acquisition counts have not been rerun. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-omb-budget",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-dd8bc862-22d1-4d6e-95f3-07c51b7d3be7",
+      "created_at": "2026-11-16T12:11:32.088Z",
+      "status": "pending",
+      "duplicate_assessment": "Originating OMB budget tables, distinct from GovInfo's publication/discovery infrastructure SYS-0125.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "ags-earthquakes",
+      "kind": "new_source",
+      "name": "Alberta Geological Survey earthquake catalogue",
+      "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+      "organization": "Alberta Geological Survey / Alberta Energy Regulator",
+      "country": "Canada — Alberta",
+      "topic": "Environment & natural resources",
+      "access": "API / web service; downloads",
+      "evidence_path": "research/2026-10-06/alberta-seismic-injection/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/README.md",
+      "research_use": "used_in_investigation",
+      "note": "The 6 October Alberta screen used 9,668 events after converting to the specified local-date period. Preserve event identifiers, time, coordinates, depth, magnitude value and magnitude type. In that snapshot 9,647 records lacked the ML magnitude required by the primary screen; other magnitude measures cannot silently replace it. Catalogue differences with NRCan remained material. This named seismic catalogue is distinct from the existing general AER spatial/incident source (SYS-0315) and USGS (SYS-0205); cross-reference them. Historical payload inspection is documented; this pass did not reacquire events or establish causation. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-ags-earthquakes",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-37c95583-51d5-46af-9c7d-783fa4e5a510",
+      "created_at": "2026-11-16T12:11:34.279Z",
+      "status": "pending",
+      "duplicate_assessment": "Distinct named seismic catalogue. Cross-reference broad AER spatial/incident source SYS-0315 and NRCan; do not merge event catalogues without comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "hold",
+        "issues": [
+          {
+            "code": "evidence_gap",
+            "text": "The submitted note reports missing or unverified evidence. Recover or check it before accepting the claim."
+          }
+        ],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "nrcan-earthquakes",
+      "kind": "new_source",
+      "name": "Earthquakes Canada event catalogue",
+      "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+      "organization": "Natural Resources Canada",
+      "country": "Canada",
+      "topic": "Environment & natural resources",
+      "access": "API / web service; text and QuakeML",
+      "evidence_path": "research/2026-10-07/three-well-records/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-07/three-well-records/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Used in the 6–7 October Alberta screen: 651 events in the selected geographic/date window, with separately typed magnitudes. The documented service is https://www.earthquakescanada.nrcan.gc.ca/fdsnws/event/1/. Detail queries required YYYYMMDD.HHmm identifiers, different from returned ca… identifiers. Preserve both identifiers, magnitude type, time, coordinates and original responses. Cross-catalogue proximity does not prove identical events; metadata creation time is not an operator notification. Distinct from USGS SYS-0205. Historical responses and limitations are in the linked investigation; no new event download in this audit. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-nrcan-earthquakes",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-de5d9fd1-d2d8-4437-8d01-e01a1e36c510",
+      "created_at": "2026-11-16T12:11:36.389Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "petrinex",
+      "kind": "new_source",
+      "name": "Petrinex public infrastructure and monthly volumes",
+      "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+      "organization": "Petrinex / participating Canadian energy regulators",
+      "country": "Canada — Alberta",
+      "topic": "Environment & natural resources",
+      "access": "Bulk / download; public file endpoints",
+      "evidence_path": "research/2026-10-06/alberta-seismic-injection/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/README.md",
+      "research_use": "used_in_investigation",
+      "note": "The October Alberta work downloaded January/February 2025 monthly volumes, well licences and facility-operator history. Join by well identifier, licence, facility, business-associate code and reporting month; preserve historical aliases. The original Well Infrastructure route failed, so availability must be recorded product by product. Monthly production/receipt/disposition data do not reveal hydraulic-fracturing stage times or prove no operation when a join fails. Current public download catalogue was readable on 16 November. Dataset-specific reuse terms still apply; free access is not blanket permission to republish. Research use: used in investigation.",
+      "request_key": "github-source-audit-20261116-petrinex",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-41be8c8c-1b2d-40eb-bbb2-9ea76fa8bad0",
+      "created_at": "2026-11-16T12:11:38.090Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "us-base-project",
+      "kind": "new_source",
+      "name": "US Base Project — geocoded inventories and report archive",
+      "url": "https://usbaseproject.com/data/",
+      "organization": "US Base Project; underlying US government Base Structure Reports",
+      "country": "Global",
+      "topic": "Maps & environment",
+      "access": "Spreadsheets; document archive",
+      "evidence_path": "research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "research_use": "scoping_data_inspected",
+      "note": "The 18 October nightlights scoping inspected the FY2024 workbook: 1,626 named rows, 1,624 numeric coordinate pairs and 1,546 distinct exact pairs. These are records/pins, not validated counts of independent active bases. The collection adds geocoding and access to historical Base Structure Reports; retain government-versus-researcher provenance. Source URLs and snapshot vintage, site aliases, coordinates and coordinate-source fields matter. Repeated town pins, missing former sites, uncertain boundaries and geocoding reuse terms need review. The current landing page yielded little extractable content; historical workbook availability was not retested. Research use: scoping data inspected.",
+      "request_key": "github-source-audit-20261116-us-base-project",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-d5494cdf-51f6-4d6e-baee-9bea37ba2a6d",
+      "created_at": "2026-11-16T12:11:40.073Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "vine-bases",
+      "kind": "new_source",
+      "name": "David Vine historical US overseas-base lists",
+      "url": "https://www.basenation.us/maps.html",
+      "organization": "David Vine and collaborators",
+      "country": "Global",
+      "topic": "Maps & environment",
+      "access": "Bulk / download; XLSX",
+      "evidence_path": "research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "research_use": "scoping_data_inspected",
+      "note": "Used in the 18 October historical-basing scoping. The inspected workbook contains historical snapshots including 2015 and 2021 and an opening-date sheet; the 2015 sheet had 679 named rows, 649 in-range coordinate pairs and 398 distinct exact pairs. Keep dates, aliases, country/territory definitions and source notes. Rows and repeated pins are not independent confirmed active bases; schemas differ between sheets. Distinct researcher-curated source from US Base Project. The author's current page still links the historical data DOI; no new workbook or global status validation was performed. Research use: scoping data inspected.",
+      "request_key": "github-source-audit-20261116-vine-bases",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-d34f8ccd-4f1b-414e-acec-54d39b2e01dd",
+      "created_at": "2026-11-16T12:11:42.457Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "ntad-bases",
+      "kind": "new_source",
+      "name": "National Transportation Atlas military-base boundaries",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+      "organization": "US Bureau of Transportation Statistics / Defense Installation Spatial Data Infrastructure",
+      "country": "United States; verify geographic coverage",
+      "topic": "Maps & environment",
+      "access": "API / web service; polygon downloads",
+      "evidence_path": "research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-18/global-base-nightlights/SOURCES.md",
+      "research_use": "scoping_metadata_tested",
+      "note": "The 18 October scoping queried this public polygon layer; its distinct countryName response contained only usa. Do not assume it supplies overseas footprints. The current layer description refers to worldwide sites and FY2024 source data, so treat the earlier query as a dated observed result and recheck actual feature coverage before use. Join by site/installation identifiers, names and documented boundaries. The service warns that inventory and boundaries are incomplete/generalized. This is boundary context, not proof of current use, activity or exact property limits. Research use: scoping metadata tested.",
+      "request_key": "github-source-audit-20261116-ntad-bases",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-5186de32-8ba6-4268-8548-78761c0bf435",
+      "created_at": "2026-11-16T12:11:45.545Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "ahn-lidar",
+      "kind": "new_source",
+      "name": "Netherlands AHN historical laser surveys",
+      "url": "https://www.ahn.nl/dataroom",
+      "organization": "AHN / Het Waterschapshuis",
+      "country": "Netherlands",
+      "topic": "Maps & environment",
+      "access": "Bulk / download; point clouds and elevation rasters",
+      "evidence_path": "catalogs/additions/global-lidar-20261014/western-europe.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/western-europe.md",
+      "research_use": "bounded_header_tested",
+      "note": "The 14 October source review sampled matching AHN3 and AHN4 C_37HN1 laser-file headers, 4,096 bytes each, confirming the same footprint. Full change analysis was not run. Retain survey edition, tile, flight-date metadata, horizontal/vertical reference and product/classification. Original clouds can be multi-gigabyte. Older and newer editions have different licensing and raster-processing rules; consult the edition-specific terms. Creation dates are not flight dates and changed processing can imitate physical change. Current official dataroom was readable on 16 November. Research use: bounded header tested.",
+      "request_key": "github-source-audit-20261116-ahn-lidar",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-9fee7931-3994-4370-a1ef-a3593275c985",
+      "created_at": "2026-11-16T12:11:47.798Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "england-lidar",
+      "kind": "new_source",
+      "name": "England Environment Agency dated laser-survey archive",
+      "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+      "organization": "Environment Agency",
+      "country": "United Kingdom — England",
+      "topic": "Maps & environment",
+      "access": "Survey index service; bulk LAZ and raster downloads",
+      "evidence_path": "catalogs/additions/global-lidar-20261014/western-europe.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/western-europe.md",
+      "research_use": "metadata_tested",
+      "note": "The 14 October review retrieved survey-index metadata for overlapping London Docklands TQ3580 surveys in 2017–18 and 2020. No tile or measured-change result was produced. A dated survey archive is different from a latest composite mosaic. Retain tile/project IDs, actual flight intervals, surface-versus-terrain product, resolution and height reference. Some old rasters lack matching archived clouds. Use current survey-index services rather than the obsolete ArcGIS URLs noted in the review. Current official dataset documentation was readable on 16 November; preserve source attribution and product-specific terms. Research use: metadata tested.",
+      "request_key": "github-source-audit-20261116-england-lidar",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-c63796cc-7ef6-49e9-bd7b-97f4e2d2fa9f",
+      "created_at": "2026-11-16T12:11:50.310Z",
+      "status": "pending",
+      "duplicate_assessment": "Data.gov.uk SYS-0349 is a discovery catalogue. Mine services SYS-0434 share its host but are unrelated products.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 7,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "swiss-lidar",
+      "kind": "new_source",
+      "name": "swissSURFACE3D historical point clouds",
+      "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+      "organization": "Federal Office of Topography swisstopo",
+      "country": "Switzerland",
+      "topic": "Maps & environment",
+      "access": "STAC API; bulk LAS / COPC downloads",
+      "evidence_path": "catalogs/additions/global-lidar-20261014/western-europe.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/western-europe.md",
+      "research_use": "bounded_header_tested",
+      "note": "The 14 October review found matching Zurich tiles for 2018 and 2024 via official metadata, and sampled 4,096 bytes of one 2024 production cloud. No full cloud decoding or change measurement occurred. Preserve tile/year, actual acquisition metadata, classification and height reference. Metadata January 1 dates represent year precision, not a verified flight day. Historical data can be hidden by a current-only filter. Match processing and density before interpreting differences; credit swisstopo and distinguish standard production data from restricted sample-data terms. Current product documentation was readable on 16 November. Research use: bounded header tested.",
+      "request_key": "github-source-audit-20261116-swiss-lidar",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-0a82d91f-9764-4bb8-9e4c-cec17480950f",
+      "created_at": "2026-11-16T12:11:52.725Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "vancouver-lidar",
+      "kind": "new_source",
+      "name": "Vancouver historical laser surveys",
+      "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+      "organization": "City of Vancouver",
+      "country": "Canada — British Columbia",
+      "topic": "Maps & environment",
+      "access": "Catalog API; bulk LAS downloads",
+      "evidence_path": "catalogs/additions/global-lidar-20261014/americas.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/americas.md",
+      "research_use": "metadata_tested",
+      "note": "The 14 October review matched tile 4830E_54540N across 2013 and 2018 and its renamed 2022 tile through municipal catalogue responses. Full ZIP payloads were not tested. Keep tile aliases, survey year, coordinates, vertical reference and flight metadata. The changing tile names, density and processing require reconciliation before measuring construction or excavation. The historical review records the city's open licence; preserve dataset attribution and current terms. On 16 November the dataset URL redirected to an assets page whose dynamic catalogue content was not extractable; no fresh tile validation is claimed. Research use: metadata tested.",
+      "request_key": "github-source-audit-20261116-vancouver-lidar",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-4bc1a1be-24ed-4f01-8dcc-0668a4770af8",
+      "created_at": "2026-11-16T12:11:55.826Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "linz-elevation",
+      "kind": "new_source",
+      "name": "LINZ historical elevation and point-cloud surveys",
+      "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+      "organization": "Toitū Te Whenua Land Information New Zealand; survey-specific creators",
+      "country": "New Zealand",
+      "topic": "Maps & environment",
+      "access": "STAC / cloud raster access; point-cloud downloads",
+      "evidence_path": "catalogs/additions/global-lidar-20261014/asia-pacific.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/asia-pacific.md",
+      "research_use": "metadata_tested",
+      "note": "The 14 October review identified Auckland 2013 and 2024 surveys and a small shared footprint. Anonymous cloud metadata/raster access was checked; full point clouds and change analysis were not. Keep creator, survey and tile IDs, acquisition interval, product type and height reference. The two Auckland surveys use different vertical datums, so raw height subtraction is invalid. Raster and older point-cloud routes carry different attribution/licence records. Distinct from LINZ property records SYS-1414/SYS-1415. The documentation request returned 403 in this audit on 16 November; previous checks remain dated evidence, not present access certification. Research use: metadata tested.",
+      "request_key": "github-source-audit-20261116-linz-elevation",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-626dad46-7b8f-463a-9584-17a4bc1eec81",
+      "created_at": "2026-11-16T12:11:59.172Z",
+      "status": "pending",
+      "duplicate_assessment": "LINZ title/parcel records SYS-1414 and SYS-1415 describe ownership and boundaries, not laser surveys.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 4,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "spain-lidar",
+      "kind": "new_source",
+      "name": "Spain PNOA historical laser-survey coverage",
+      "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+      "organization": "Instituto Geográfico Nacional / Centro Nacional de Información Geográfica",
+      "country": "Spain",
+      "topic": "Maps & environment",
+      "access": "Bulk / download; LAZ and elevation rasters",
+      "evidence_path": "catalogs/additions/global-lidar-20261014/other-europe.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/catalogs/additions/global-lidar-20261014/other-europe.md",
+      "research_use": "documentation_reviewed",
+      "note": "The 14 October official-source review documented Madrid survey periods in 2010, 2016 and 2024 and a 2016 tile catalogue record. These establish regional repeat coverage, not a tested three-epoch tile pair. Keep actual acquisition dates, tile footprints, density, coordinate/height reference and product stage. Processing levels are not separate flights, and terrain models remove buildings. Verify matching data and comparable processing before change analysis; retain each product's attribution terms. The current official download guide was readable on 16 November. Research use: documentation reviewed.",
+      "request_key": "github-source-audit-20261116-spain-lidar",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-a1409640-fd1b-4414-8711-a37b0eed738b",
+      "created_at": "2026-11-16T12:12:01.937Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "sfm-training",
+      "kind": "new_source",
+      "name": "Security Force Monitor US foreign military-training data",
+      "url": "https://trainingdata.securityforcemonitor.org/",
+      "organization": "Security Force Monitor, Columbia Law School Human Rights Institute",
+      "country": "Global",
+      "topic": "Procurement, spending & aid",
+      "access": "API / web service; CSV and SQLite downloads",
+      "evidence_path": "research/2026-10-16/future-warfare-investments/track-1-data-universe/overseas_security_sources.csv",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/track-1-data-universe/overseas_security_sources.csv",
+      "research_use": "sample_payload_tested",
+      "note": "Source register OS-09 records a successful one-row JSON test on 16 October and an advertised bulk database not downloaded. It preserves training-event IDs, recipient/delivery units, dates and original-report page citations. The current publisher page lists 255,007 training rows and says the last substantive report update was 2020–21, with a 2024 reprocessing. Use for historical training relationships, not a current procurement ledger. Planned/actual repeats, missing dates and rows marked unverified need source checks. Keep the original State/Defense report provenance and CC BY 4.0 attribution. Research use: sample payload tested.",
+      "request_key": "github-source-audit-20261116-sfm-training",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-2481c1fd-84e3-4c90-a52b-e0fcf09181af",
+      "created_at": "2026-11-16T12:12:05.431Z",
+      "status": "pending",
+      "duplicate_assessment": "No matching source identified after title, publisher, URL and imported-candidate comparison.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "hold",
+        "issues": [
+          {
+            "code": "evidence_gap",
+            "text": "The submitted note reports missing or unverified evidence. Recover or check it before accepting the claim."
+          }
+        ],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "aer-fluid",
+      "kind": "new_access",
+      "name": "AER hydraulic-fracture fluid and water-use downloads",
+      "url": "https://www.aer.ca/data-and-performance-reports/activity-and-data/lists-and-activities/hydraulic-fracture-fluid-data",
+      "organization": "Alberta Energy Regulator",
+      "country": "Canada — Alberta",
+      "topic": "Environment & natural resources",
+      "access": "Bulk / download",
+      "evidence_path": "research/2026-10-06/alberta-seismic-injection/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Add the specific public CSV download route to the existing AER source. The 6 October run parsed 595,923 ingredient rows, grouped into 42,025 reporting groups; these are not distinct jobs. Preserve well identifiers, licence, dates, ingredient rows and file hashes. Do not repeatedly sum job-level water values across ingredient rows. Summary start/end dates are not proof of continuous pumping, and a date overlap with an earthquake is not a violation. Historical downloads and errors are logged in sources/manifest.jsonl. Current full payload was not retested. Research use: used in investigation.",
+      "target_id": "SYS-0315",
+      "request_key": "github-source-audit-20261116-aer-fluid",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-338ead51-a235-408d-a1ce-6065fdfc61c4",
+      "created_at": "2026-11-16T12:12:08.236Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 3,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "aer-pubdocs",
+      "kind": "new_access",
+      "name": "AER OneStop public application documents",
+      "url": "https://www1.aer.ca/PubDocs/",
+      "organization": "Alberta Energy Regulator",
+      "country": "Canada — Alberta",
+      "topic": "Environment & natural resources",
+      "access": "Public document search and attachments",
+      "evidence_path": "research/2026-10-07/three-well-records/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-07/three-well-records/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Add the public application/document index as a route under the existing AER source. The 7 October follow-up recovered 15 attachments across five unique events, including licences, applications, surveys and later identifier-update letters. Preserve zero-padded licence, application/activity IDs, original document URLs, dates and hashes. These supplied planning and identifier history, not actual fracturing-stage logs or earthquake restart consent. A zero-result search or missing attachment does not establish absence. No current payload or permission retest. Research use: used in investigation.",
+      "target_id": "SYS-0315",
+      "request_key": "github-source-audit-20261116-aer-pubdocs",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-c02df8a8-536e-4907-8506-23ae18e2d5eb",
+      "created_at": "2026-11-16T12:12:11.169Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "aer-st1",
+      "kind": "new_access",
+      "name": "AER ST1 historical well-licence lists and amendments",
+      "url": "https://www.aer.ca/prd/data/well-lic/dwll2024.zip",
+      "organization": "Alberta Energy Regulator",
+      "country": "Canada — Alberta",
+      "topic": "Environment & natural resources",
+      "access": "Bulk / download; annual ZIP and daily text",
+      "evidence_path": "research/2026-10-07/three-well-records/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-07/three-well-records/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Add the dated ST1 licence archive under the existing AER source. The October follow-up used 2024 issue lists and October 2025 amendments to map old and current well identifiers against stable licence numbers. Retain raw identifier strings, licence, list date and amendment type; do not turn an alias change into an extra well. The publication date of an identifier amendment does not prove when physical geometry changed. This URL is the inspected 2024 archive, not a rolling latest endpoint. Current archive retrieval and reuse terms were not retested. Research use: used in investigation.",
+      "target_id": "SYS-0315",
+      "request_key": "github-source-audit-20261116-aer-st1",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-3ad3ef24-5e83-4cfc-9c15-4d2d5d120dd8",
+      "created_at": "2026-11-16T12:12:16.194Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 3,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "grants-xml",
+      "kind": "new_access",
+      "name": "Grants.gov daily full opportunity extract",
+      "url": "https://www.grants.gov/xml-extract",
+      "organization": "US Department of Health and Human Services / Grants.gov",
+      "country": "United States",
+      "topic": "Procurement, spending & aid",
+      "access": "Bulk / download; daily XML ZIP",
+      "evidence_path": "research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Add a specific bulk route to the existing Grants.gov source, whose recorded access point is the grantor web-service page. The 16 October acquisition parsed 83,576 raw opportunities and selected 3,283. Keep opportunity identifiers, agency, posted/modified dates and snapshot date; the daily archive filename changes. Opportunities and forecasts describe funding intent, not awarded spending, and the extract is not all application packages or attachments. Current full extract not reacquired. Research use: used in investigation.",
+      "target_id": "SYS-0068",
+      "request_key": "github-source-audit-20261116-grants-xml",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-76dd20b9-edb6-402b-99cd-dbe7440b2532",
+      "created_at": "2026-11-16T12:12:19.587Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "hold",
+        "issues": [
+          {
+            "code": "evidence_gap",
+            "text": "The submitted note reports missing or unverified evidence. Recover or check it before accepting the claim."
+          }
+        ],
+        "match_total": 2,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "nih-exporter",
+      "kind": "new_access",
+      "name": "NIH ExPORTER annual project and linked-data files",
+      "url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+      "organization": "US National Institutes of Health",
+      "country": "United States",
+      "topic": "Research & innovation",
+      "access": "Bulk / download; annual ZIP",
+      "evidence_path": "research/2026-10-16/future-warfare-investments/track-1-data-universe/expanded_bulk_register.csv",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/track-1-data-universe/expanded_bulk_register.csv",
+      "research_use": "download_route_probed",
+      "note": "Add the explicit ExPORTER bulk route to NIH RePORTER, rather than a new source. The 16 October register FW-X13 records HTTP 200 ZIP and a FY2025 filename from the stable /exporter/projects/download/2025 route, which redirects to a temporary token URL. It does not establish full-file parsing or an investigation-wide NIH acquisition. Preserve project numbers, application IDs, fiscal year, institution and output-link definitions. Project, abstract and output tables have different coverage. Do not store temporary tokens or infer defence relevance from biomedical funding alone. Research use: download route probed.",
+      "target_id": "SYS-0246",
+      "request_key": "github-source-audit-20261116-nih-exporter",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-78f782ff-0900-4c0d-903a-433931618807",
+      "created_at": "2026-11-16T12:12:24.815Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "usaspending-use",
+      "kind": "correction",
+      "name": "USAspending — tested research uses and coverage limits",
+      "url": "https://api.usaspending.gov/docs/",
+      "organization": "US Department of the Treasury",
+      "country": "United States",
+      "topic": "Procurement, spending & aid",
+      "access": "API / web service; bulk downloads",
+      "evidence_path": "research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-16/future-warfare-investments/acquisition/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Usage/provenance note for the existing source, not a new source or endpoint. The 16 October acquisition underpinning tactical-AI work covered selected FY2019–FY2026 DoD slices: 342,900 R&D contract actions, 88,273 research-grant actions and overlapping capability extracts, yielding 712,186 unique transaction keys. Preserve award/transaction/recipient keys, exact query filters, downloaded file hashes and snapshot dates. This is not the entire federal-award universe; transaction counts are not investment counts, and award totals must not be added repeatedly across actions. Existing October FARA and sanctions investigations are separate dated applications. No fresh collection in this audit. Research use: used in investigation.",
+      "target_id": "SYS-0054",
+      "request_key": "github-source-audit-20261116-usaspending-use",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-58bcf4c4-463e-4786-b02d-e0a89c3a8167",
+      "created_at": "2026-11-16T12:12:28.467Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "blackmarble-use",
+      "kind": "correction",
+      "name": "NASA Black Marble — tested use and failed activity inference",
+      "url": "https://blackmarble.gsfc.nasa.gov/",
+      "organization": "NASA",
+      "country": "Global",
+      "topic": "Maps & environment",
+      "access": "Bulk / download; Earthdata products",
+      "evidence_path": "research/2026-10-15/institutional-activity/satellite-nightlights/README.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-15/institutional-activity/satellite-nightlights/README.md",
+      "research_use": "used_in_investigation",
+      "note": "Usage/provenance note for the existing source. The October pilot inspected 18 supplied daily NASA files; later quality-screen work recovered a limited June two-night comparison, while winter comparisons remained too sparse. No validated relationship between radiance and overnight staffing or military activity was established. Preserve satellite/product/collection, tile, date, pixel footprint, quality masks and observed-versus-filled data. A monthly product uses different quality definitions from a daily product. The linked project and follow-up retain both failed and exploratory results. No current product download or reanalysis in this audit. Research use: used in investigation.",
+      "target_id": "SYS-0198",
+      "request_key": "github-source-audit-20261116-blackmarble-use",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-0b009058-e972-487a-a040-4d0843612e8c",
+      "created_at": "2026-11-16T12:12:32.772Z",
+      "status": "pending",
+      "duplicate_assessment": "Existing record retained; explicit parent/target is preserved.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 0,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    },
+    {
+      "key": "uk-ipo-transition",
+      "kind": "correction",
+      "name": "UK IPO — journal transition and unverified bulk API",
+      "url": "https://www.gov.uk/check-the-patents-journal",
+      "organization": "UK Intellectual Property Office",
+      "country": "United Kingdom",
+      "topic": "Technology, infrastructure & intellectual property",
+      "access": "Public register / journal; historical downloads",
+      "evidence_path": "research/2026-11-15/patent-landscape-audit/UK_ROUTE_CHECK.md",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-11-15/patent-landscape-audit/UK_ROUTE_CHECK.md",
+      "research_use": "access_attempt_failed",
+      "note": "Add the missing 15 November route-check note to the existing UK source. The audit records historical downloadable journal PDF/XML through 22 January 2025 and a move to the new journal/register service. Government guidance then said the register API was under development; do not mark it live or tested. Native register/journal retrieval was blocked by a security check, which was not bypassed. Journals are event indexes, not full patent claims; foreign-family records cannot establish complete UK national coverage. This is a dated evidence/limitation note, not an approval of a working bulk service. Research use: access attempt failed.",
+      "target_id": "SYS-0782",
+      "request_key": "github-source-audit-20261116-uk-ipo-transition",
+      "submitted_by": "ChatGPT · Graeme Smith GitHub source audit",
+      "proposal_id": "PROP-3c36c3d1-96b3-4e83-a3e3-1b028d12c457",
+      "created_at": "2026-11-16T12:12:36.713Z",
+      "status": "pending",
+      "duplicate_assessment": "gov.uk host matches with other public bodies are not duplicates; target SYS-0782 is exact.",
+      "auditor_recommendation": "Consider including this dated, scoped source or update after curator review; do not automatically enable collection.",
+      "automatic_check": {
+        "recommendation": "review_for_acceptance",
+        "issues": [],
+        "match_total": 39,
+        "content_check": "not_performed"
+      },
+      "live_verified_pending": true
+    }
+  ],
+  "automatic_hold_interpretation": [
+    {
+      "key": "grants-xml",
+      "assessment": "The October full extract was parsed. The submitted note distinguishes funding opportunities from awards and discloses no fresh full-file download. Current publisher page lists a 16 November extract. A fresh download is not needed merely to preserve the historical use; current payload reliability remains untested.",
+      "evidence_url": "https://www.grants.gov/xml-extract"
+    },
+    {
+      "key": "sfm-training",
+      "assessment": "A historical one-row test and current official dataset page support a source entry. Dates missing within rows and source rows marked unverified are dataset quality limits, not proof the dataset is unavailable.",
+      "evidence_url": "https://trainingdata.securityforcemonitor.org/"
+    },
+    {
+      "key": "ags-earthquakes",
+      "assessment": "The documented catalogue download supports an entry. Missing ML magnitudes are material field-level limits that must remain in the note. Do not change the language merely to obtain a more favourable automatic recommendation.",
+      "evidence_url": "https://github.com/graemesmith-code/investigative-methods/blob/79a42f5299e5be24a0a0f1ef5b0959857810b128/research/2026-10-06/alberta-seismic-injection/TECHNICAL-ANNEX.md"
+    }
+  ],
+  "current_documentation_checks": [
+    {
+      "key": "finepdfs",
+      "url": "https://huggingface.co/datasets/HuggingFaceFW/finepdfs",
+      "result": "Publisher dataset card and schema readable; no new Parquet download."
+    },
+    {
+      "key": "wmata",
+      "url": "https://www.wmata.com/about/open-data-hub/ridership-data.html",
+      "result": "Publisher portal readable; no new export."
+    },
+    {
+      "key": "ahn-lidar",
+      "url": "https://www.ahn.nl/dataroom",
+      "result": "Official dataroom readable; no new header or tile test."
+    },
+    {
+      "key": "swiss-lidar",
+      "url": "https://www.swisstopo.admin.ch/en/height-model-swisssurface3d",
+      "result": "Official product page readable; no new tile test."
+    },
+    {
+      "key": "us-base-project",
+      "url": "https://usbaseproject.com/data/",
+      "result": "Landing page readable but little extractable data; workbook availability not retested."
+    },
+    {
+      "key": "vine-bases",
+      "url": "https://www.basenation.us/maps.html",
+      "result": "Author page and historical-data link readable; workbook not downloaded."
+    },
+    {
+      "key": "sfm-training",
+      "url": "https://trainingdata.securityforcemonitor.org/",
+      "result": "Publisher page readable; 255007 main rows reported; no fresh row or full database test."
+    },
+    {
+      "key": "omb-budget",
+      "url": "https://www.whitehouse.gov/omb/information-resources/budget/supplemental-materials/",
+      "result": "Public Budget Database links to authority, outlays and receipts files visible; no new XLSX download."
+    },
+    {
+      "key": "petrinex",
+      "url": "https://www.petrinex.gov.ab.ca/PublicData?Jurisdiction=AB",
+      "result": "Current public file listings visible; no download."
+    },
+    {
+      "key": "nrcan-earthquakes",
+      "url": "https://www.earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php",
+      "result": "Search landing page readable; dynamic query interface/payload not retested."
+    },
+    {
+      "key": "england-lidar",
+      "url": "https://www.data.gov.uk/dataset/977a4ca4-1759-4f26-baa7-b566bd7ca7bf/lidar-time-stamped-point-cloud",
+      "result": "Official dataset metadata readable; no new survey-index or tile retrieval."
+    },
+    {
+      "key": "vancouver-lidar",
+      "url": "https://opendata.vancouver.ca/explore/dataset/lidar-2018/",
+      "result": "Redirects to /explore/assets/lidar-2018/; page shell only readable."
+    },
+    {
+      "key": "linz-elevation",
+      "url": "https://www.linz.govt.nz/products-services/data/types-linz-data/elevation-data/access-elevation-data",
+      "result": "Web retrieval returned 403; historical evidence retained and limitation stated."
+    },
+    {
+      "key": "spain-lidar",
+      "url": "https://pnoa.ign.es/pnoa-lidar/productos-a-descarga",
+      "result": "Official product guide readable."
+    },
+    {
+      "key": "ags-earthquakes",
+      "url": "https://geology-ags-aer.opendata.arcgis.com/datasets/ags-aer::alberta-earthquakes",
+      "result": "ArcGIS page returned no extractable lines; no new event fetch."
+    },
+    {
+      "key": "ntad-bases",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Military_Bases/FeatureServer/0",
+      "result": "Layer metadata readable; its worldwide description is recorded separately from the October query's usa-only response."
+    },
+    {
+      "key": "defense-contracts",
+      "url": "https://www.defense.gov/News/Contracts/",
+      "result": "Direct web request returned 403; no bypass or new archive collection."
+    },
+    {
+      "key": "grants-xml",
+      "url": "https://www.grants.gov/xml-extract",
+      "result": "Current extract links visible through 16 November; full archive not downloaded."
+    },
+    {
+      "key": "nih-exporter",
+      "url": "https://reporter.nih.gov/exporter?index=1&sid=0",
+      "result": "JavaScript requirement page only; no new download."
+    },
+    {
+      "key": "uk-ipo-transition",
+      "url": "https://www.gov.uk/government/publications/one-ipo-patents-service-details/one-ipo-patents-service-details",
+      "result": "Official guidance updated 6 November still describes the register API as under development; no register query attempted."
+    }
+  ],
+  "deferred": [
+    {
+      "group": "Existing imported candidates",
+      "reason": "Avoid duplicates. The 53 imported candidates already cover job-posting routes, patent bulk products and many military-research services. Those candidates remain distinct from approved/enabled routes.",
+      "examples": [
+        "SBA SBIR/STTR",
+        "DVIDS",
+        "DOE OSTI",
+        "NASA NTRS",
+        "Federal Audit Clearinghouse",
+        "NCSES research-funding datasets",
+        "DARPA",
+        "DOT&E",
+        "APFIT",
+        "Microelectronics Commons",
+        "DTIC"
+      ]
+    },
+    {
+      "group": "Other laser-survey regions",
+      "reason": "Only the six strongest prior recommendations were submitted in this pass. Other regional records retain unresolved history, access, reuse or repeat-footprint questions in the existing source guide.",
+      "source": "catalogs/additions/global-lidar-20261014/README.md"
+    },
+    {
+      "group": "Other funding-source register entries",
+      "reason": "Several entries were documentation-only, explicitly deferred or blocked. They were not promoted to 'used' merely because they appear in a large register. Example: NSF annual exports page was inspected but reported no files, despite a loose PAYLOAD_VERIFIED label.",
+      "source": "research/2026-10-16/future-warfare-investments/track-1-data-universe/expanded_bulk_register.csv"
+    },
+    {
+      "group": "Private supplied evidence",
+      "reason": "The Cygnet repository explicitly preserves methodology rather than source PDFs. This audit does not disclose supplied records or convert them into a public download source.",
+      "source": "research/2026-11-05/cygnet-aer-report-review/README.md"
+    }
+  ]
+}
