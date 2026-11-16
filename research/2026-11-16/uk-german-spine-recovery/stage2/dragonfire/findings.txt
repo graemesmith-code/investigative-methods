@@ -1,0 +1,36 @@
+STAGE 2 GAP 4: DRAGONFIRE AND PUBLIC ASSURANCE
+Research date 16 November 2026. Public unauthenticated research only.
+
+BOTTOM LINE
+Primary records establish procurement, the intended Type 45 platform and several suppliers' roles. They do not establish that BAE's patented collateral-risk condition has been incorporated into DragonFire, nor identify a BAE CMS-1 deconfliction module as the relevant safety gate. No named-system ethical assurance statement or public Def Stan 00-055/00-056 safety case was located in this bounded search. This is not proof that one does not exist or that assurance was not performed.
+
+ESTABLISHED
+1. Royal Navy 20 November 2025 describes £316m MBDA work to develop DragonFire and install it in Type45 ships within two years, working with QinetiQ and Leonardo. This establishes platform/industrial context, not the internals of firing authorization.
+2. Commons answer 26254, 6 October 2026, specifies £316m EXCLUDING VAT for TWO units, within £490m directed-energy investment. Its refusal to disaggregate technology/program spending is justified on commercial/value-for-money grounds. Do not reframe this as a refusal to disclose safety tests.
+3. QinetiQ 6 January 2026 identifies its £67m MBDA subcontract: developing/producing DragonFire's laser source, plus safe testing. This positively establishes a specific role; BAE's role remains less well evidenced.
+4. Commons answer80542 (17 October2025) says externally acquired AI should receive the same standards/assurance as internally developed systems; it describes intent to leverage third-party assurance. It does not identify an independent auditor of DragonFire.
+5. Commons answer16183 (13 July2026) distinguishes real-time supervision from human control through operational parameters. It reiterates policy and RAISO oversight, not named-weapon audit results.
+
+JSP936 PRECISE READING (V1.1 Nov2024)
+§91 requires safe halting of development/deployment where unacceptable negative ethical risks arise, until managed. It does not specify a particular physical interlock.
+§92 requires lifecycle ethical risk management.
+§93 requires RAISO management of ethical/operational trade-offs.
+§95 requires evidence and appropriate communication, transparency within security constraints.
+§99 mandates annual TLB Executive Board statements to 2PUS supported by auditable evidence. These are ORGANIZATIONAL statements, not a requirement for each weapon to publish its own public statement.
+§101 requires appropriate assurance across accountable AI projects.
+§102 addresses accountability transfer and receiving RAISO acceptance of risk.
+§104 requires AI projects to identify their RAISO and medium/high-risk projects to inform that officer.
+§105 says there SHOULD be an Ethics Manager and Independent Ethics Assurance mechanism in large projects, significant-ethics-risk projects, or regular AI-producing teams. It does not say MUST, does not automatically require an external contractor, and does not mandate public release of a platform safety case.
+Applicability to an individual system requires establishing which functions count as AI and who has responsibility; laser automation alone does not answer this.
+
+SEARCH LIMITS
+Queries used primary-site restrictions and named combinations for DragonFire, RCH155, Boxer, ACP; focused queries on ethical assurance, safety cases and DefStan00-055/00-056 found no named-system documents. Initial queries mistakenly used 'site.' rather than 'site:'; these are logged, not silently corrected. Later correct-domain queries supersede them. Search results are returned references, not total indexed hits. A CMS-1 exact search included a false co-occurrence in a magazine issue: another product's CMS-1 sight must not be mistaken for BAE combat-management software. Generic job listings or general institutional safety-policy statements cannot establish a platform safety case.
+A secondary European Security & Defence DSEI2025 report quotes BAE presenters considering DragonFire integration on Type45; useful interview lead only, not primary contractual allocation or demonstrated safety design.
+FindTender notice029984-2025 PDF fetch returned HTTP403 on16Nov2026 at11:58:03UTC. No security response preserved as primary evidence.
+
+QUESTIONS
+For BAE/MBDA/MOD: identify BAE's contracted work package, relevant software/hardware configuration, and whether CMS-1 integration or deconfliction is part of it. Does any implementation embody US11473880B2 claim10, and if so which independently tested configuration? A supplier/patent overlap is not implementation evidence.
+For MOD: which TLB/RAISO covers each system's AI functions; what auditable evidence underlies its §99 statement; which §105 independent assurance mechanism applies; what non-sensitive findings and limitations can be released under §95? Identify the relevant versioned safety case and acceptance authority, not merely the applicable standard.
+
+PERSISTENCE AND BYTE INTEGRITY
+Six raw sources saved locally and uploaded; manifest_verified.json has exact URLs, local source bytes/hash and returned Drive metadata. Two direct HTML uploads CHANGED SIZE: QinetiQ local49909 vs Drive49911; RN local134512 vs Drive134513. Do not treat those direct Drive HTML copies as byte-verified originals. Recovery: unchanged local originals packaged in ZIP_STORED unchanged_html_originals.zip,184633 bytes,SHA256530c5bc4e5bf42824204f414fff4fa3681b5bfb5e8d4025f52d386f7a2b622c7,Drive1Oc3H-PRh_osqWcBwnSPyckcKCp7CxqEm; metadata verifies184633 bytes. Three Parliament HTML and JSP936 PDF sizes match exactly. Remote SHA256 not independently verified: hashes refer to acquired local bytes; ZIP remote size verified.
