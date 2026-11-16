@@ -1,0 +1,38 @@
+[
+  {
+    "queries": [
+      "\"Keith Antony Rigby\" patent",
+      "\"Keith Rigby\" \"Nicholas\" patent",
+      "\"Pyramid Reference Architecture\" weapons safety",
+      "\"Rapid Stores Integration Capability\" \"Logical\""
+    ],
+    "timestamp": "2026-11-16T11:55:52.325Z",
+    "returned_result_count": 42,
+    "count_scope": "Combined batch returned references, not total hits; tool does not expose per-query counts",
+    "raw_log": "q1.json"
+  },
+  {
+    "queries": [
+      "\"Keith\" \"Rigby\" patent \"communication\" weapon",
+      "\"Keith Antony Rigby\" \"control\" \"link\"",
+      "\"Rapid Stores Integration Capability\"",
+      "\"Logical Stores Integration Framework\""
+    ],
+    "timestamp": "2026-11-16T11:56:00.085Z",
+    "returned_result_count": 28,
+    "count_scope": "Combined batch returned references, not total hits; tool does not expose per-query counts",
+    "raw_log": "q2.json"
+  },
+  {
+    "queries": [
+      "\"Keith Antony Rigby\" \"Waffen\"",
+      "\"Keith Rigby\" \"US9156552\"",
+      "site:gov.uk \"Rapid Stores Integration\"",
+      "site:gov.uk \"PYRAMID\" \"safe weapon\""
+    ],
+    "timestamp": "2026-11-16T11:59:13.808Z",
+    "returned_result_count": 2,
+    "count_scope": "Combined batch returned references, not total hits; tool does not expose per-query counts",
+    "raw_log": "q3.json"
+  }
+]
