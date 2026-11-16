@@ -101,7 +101,7 @@ The Site uses a server-rendered React application with static catalog assets and
 
 Production requests require the Site's authenticated identity for workspace operations. Updates are scoped to that identity and reject stale review versions. Source URLs permit only http/https, source text is rendered as text, and spreadsheet formula prefixes are neutralized in exports.
 
-Source revision published by Sites: `de4e27de1d080240ab5feab1455f7d866c755f3a`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
+Source revision published by Sites: `abf9dd804a91ee60be06c83aa833d11688697612`. The application source is versioned in the Site's backing Git repository. No credentials, private contact lists, paid source calls or collection jobs were added.
 
 ### Mapping correction and visual calculations
 
@@ -144,3 +144,7 @@ The same publication retains the requested introductory sentence and bold emphas
 Publication succeeded as Site version 8, with MCP enabled and a provisioned Rabbit plugin. The plugin service reported that it was already installed. Its new tools were not exposed in the active conversation, so an authenticated end-to-end agent query remains unverified. The live `/agents` page retained the expected sign-in gate. No sharing permissions changed.
 
 Future imports must preserve stable identifiers and the separate review database. A changed catalog is a new version of the evidence map, not a reason to erase earlier decisions.
+
+### Duplicate logo removal — 16 November 2026
+
+Removed the second rabbit logo beside “A rough map of new possibilities.” The masthead logo remains. The introduction now uses a single column, with its existing text-width limits. Source inspection confirmed that the only page image using the logo is in the masthead; favicon references remain. The production build passed. No catalog records, review behavior, agent tools or permissions changed. This narrow presentation edit was checked in source and build output, not through a new browser session.
