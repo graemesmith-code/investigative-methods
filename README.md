@@ -20,6 +20,8 @@ Other projects, reusable experiments and Rabbit sources are indexed below. The [
 
 ## Choose a recipe for your beat
 
+- **Decide when to park a lead.** [Public-records stopping rules](research/2026-11-20/when-to-park-a-records-investigation.md) explains how to test an apparent gap, separate a permission from what happened, and identify the one piece of evidence worth pursuing before you stop.
+
 - **Find the next document to read.** The [Canadian ATI experiment](experiments/07-canadian-ati.md) turns short request summaries into choices: obtain a named file, sharpen a question, or recognize that the story is already covered. Try it when an index is much larger than your reading time.
 - **Check names without jumping to conclusions.** The [contracts-and-sanctions experiment](experiments/01-ofac-baseline.md) reduced millions of transactions to thirteen candidate pairs. Its strongest example shows why the action behind a match matters as much as the name. The [NAI follow-up](research/2026-10-14/nai-contract-history/README.md) reconstructs orders, modifications and the original termination notice; the lead was parked for editorial prioritization on 14 October 2026.
 - **Separate foreign-agent overlaps from disclosure violations.** The [FARA / federal-awards pilot](research/2026-10-14/fara-award-pilot/README.md) screened the complete FY2025 prime-contract archive for $0. Canadian Commercial Corporation dominates the corroborated action count; no disclosure violation was established, and grants/Canadian procurement remain incomplete.
