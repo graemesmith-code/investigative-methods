@@ -6,6 +6,8 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 
 ## Start here — current investigations and repository health
 
+- **[SID-2 document-hunting trial (20 November 2026)](research/2026-11-20/sid-2-document-hunting.md):** A roughly 28-cent model experiment produced useful document trails, not a verified scoop or a performance benchmark. Includes the search bridge, a repaired read-range bug, cost accounting and a reusable workflow.
+
 - **[Autonomy safeguards / F4 audit (25 October 2026)](research/2026-10-25/f4-autonomy-brakes-audit/README.md):** The claim that safeguards simply vanished is not supported; follow the reviewed cases and unresolved institutional questions before using machine-screened results.
 - **[Alberta seismic/fracturing screen (6 October 2026)](research/2026-10-06/alberta-seismic-injection/README.md):** Two candidate earthquake groups overlap reported well-operation date windows; no violation, causation or actual pumping at event time was established.
 - **[Pentagon contract-history archive (16 October 2026)](research/2026-10-16/future-warfare-investments/README.md):** Historical source archive and parsed contract notices. Coverage is incomplete, and announcement counts are not spending totals.
