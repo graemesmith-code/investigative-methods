@@ -105,6 +105,13 @@ The experiment does not establish cost per publishable lead or time saved. Those
 8. **Verify the shortlist independently.** Check every material claim against the source, record counterevidence and check prior coverage before treating a lead as novel.
 9. **Keep credentials and confidential reporting out of logs.** This trial used public materials, not private drafts. This public note omits credentials, private communications and unpublished reporting files.
 
+### Field rules for follow-up searches
+
+- **Look for the record that could change your mind.** Ask which independent source would confirm or overturn the working interpretation. A permission, policy, or schedule tells you what was authorised or expected; a contemporaneous log, transaction record, or observation can tell you what was recorded as happening. Compare both before writing the claim.
+- **Separate relevance from identity.** A high-ranked document may concern a similarly named entity, a neighbouring jurisdiction, or a superseded version. Before joining sources, match exact identifiers, scope, effective dates, and units. Keep near-matches as checks against false joins, and distinguish missing records from confirmed zeroes.
+- **Start with public metadata and verify against the originals.** For a first pass, give the external model only reviewed public titles, URLs, and short descriptions. Keep working files and unpublished material out of its requests. Retrieve and inspect primary sources separately; run calculations and joins locally. Record what the model ranked, what was checked, and what was unavailable. A metadata-only search is useful for triage, not proof of recall or full-text review.
+- **Stop when the next useful step is not another search.** If runs keep returning the same sources, add a genuinely different collection or get the missing primary record. Pace requests if the provider rate-limits and count incomplete runs separately from completed rankings. Treat the spending limit as a ceiling, not a target.
+
 ### API integration lessons
 
 An initial request failed with HTTP 400 because it omitted the task body required around the tool definitions. Supplying the task through the instructions field resolved that class of error. The terminal setup also illustrated why a small request file is safer than a long, manually pasted shell command with nested quotes.
