@@ -1,0 +1,36 @@
+{
+  "inspected_date": "2026-10-08",
+  "target_base_commit": "8557d0d9c6b8c1effe2d53e8b95d2425cb6d0e5f",
+  "sources": {
+    "research/2026-10-01/ati-live/calibration-ranked.json": {
+      "blob_sha": "78149ef52b06651edd983808875f05c80c058b73",
+      "url": "https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-01/ati-live/calibration-ranked.json"
+    },
+    "research/2026-10-01/ati-live/calibration-ids.json": {
+      "blob_sha": "4e5795beba30d80a7f0f47701e57d95f33e11363",
+      "url": "https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-01/ati-live/calibration-ids.json"
+    },
+    "research/2026-10-01/ati-live/ranking-prompt.json": {
+      "blob_sha": "b86861ebdd30613871e5eb2d2ae10a047585bb24",
+      "url": "https://github.com/graemesmith-code/investigative-methods/blob/main/research/2026-10-01/ati-live/ranking-prompt.json"
+    },
+    "modeling/basic-homepage-model/train_models.sh": {
+      "blob_sha": "ede5a71f1641608a41723c57e690dcb84c027c0b",
+      "url": "https://github.com/alex2awesome/newsworthiness-public/blob/main/modeling/basic-homepage-model/train_models.sh"
+    },
+    "modeling/basic-homepage-model/trainer.py": {
+      "blob_sha": "f7c3502555f358f01ec81e5613cf78798de62105",
+      "url": "https://github.com/alex2awesome/newsworthiness-public/blob/main/modeling/basic-homepage-model/trainer.py"
+    },
+    "modeling/basic-homepage-model/sentence_model.py": {
+      "blob_sha": "8df25b08eeba6422aad8c76db50d5c25ac1fc1c7",
+      "url": "https://github.com/alex2awesome/newsworthiness-public/blob/main/modeling/basic-homepage-model/sentence_model.py"
+    },
+    "modeling/data-processing-scripts/process-homepage-data.py": {
+      "blob_sha": "5f8ebb3dcfc1cfe4f167f9bc70dbc3b8f47daf1d",
+      "url": "https://github.com/alex2awesome/newsworthiness-public/blob/main/modeling/data-processing-scripts/process-homepage-data.py"
+    }
+  },
+  "missing_dataset": "data-to-submit/full-meeting-row-df.csv returned GitHub API 404",
+  "code_reuse": "No third-party source copied; design references only"
+}
