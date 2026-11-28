@@ -6,6 +6,8 @@ The most complete trial ranked 1,234 Canadian access-to-information request summ
 
 ## Start here — current investigations and repository health
 
+- **[Can autoresearch help an investigative reporter?](research/2026-11-28/autoresearch/README.md)** A background paper and proposed €20 test of whether repeated experiments can find more genuine changes in budget documents than a simple text comparison or one careful prompt. [Download the PDF](research/2026-11-28/autoresearch/Autoresearch_for_Investigative_Journalism.pdf).
+
 - **[SID-2 document-hunting trial (20 November 2026)](research/2026-11-20/sid-2-document-hunting.md):** A roughly 28-cent model experiment produced useful document trails, not a verified scoop or a performance benchmark. Includes the search bridge, a repaired read-range bug, cost accounting and a reusable workflow.
 
 - **[Autonomy safeguards / F4 audit (25 October 2026)](research/2026-10-25/f4-autonomy-brakes-audit/README.md):** The claim that safeguards simply vanished is not supported; follow the reviewed cases and unresolved institutional questions before using machine-screened results.
